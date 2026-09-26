@@ -23,11 +23,19 @@ class Gemini:
 
     def structured(self, prompt, schema, tag, kind="text"):
         model = self.config.require(kind)
+        request = {"model": model, "prompt": prompt, "schema": schema.model_json_schema()}
+        cache_path = f"api/{tag}.cache.json"
+        if getattr(self, "reuse_responses", False) and self.store.path(cache_path).exists():
+            cached = self.store.read(cache_path)
+            if cached["request"] == request:
+                return schema.model_validate_json(cached["text"])
         self.store.write(f"api/{tag}.request.json", {"model": model, "prompt": prompt})
         response = self._request(model=model, contents=prompt,
             config={"response_mime_type": "application/json", "response_json_schema": schema.model_json_schema(), "automatic_function_calling": {"disable": True}})
         self.store.write(f"api/{tag}.response.json", response.model_dump(mode="json"))
-        return schema.model_validate_json(response.text)
+        result = schema.model_validate_json(response.text)
+        self.store.write(cache_path, {"request": request, "text": response.text})
+        return result
     def generate_image(self, prompt, reference_images=None, output_path=None):
         import io
         from google.genai import types

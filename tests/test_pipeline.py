@@ -255,3 +255,70 @@ def test_structured_adapter_uses_json_schema(tmp_path):
     assert "response_schema" not in config
     assert config["response_json_schema"]["additionalProperties"] is False
     assert config["automatic_function_calling"]["disable"] is True
+
+
+def test_epub_extraction_preserves_embedded_verse_and_cutoff(tmp_path):
+    from zipfile import ZipFile
+    from bom_comic.epub import extract
+    paragraphs = ['<html><body><h2>THIRD BOOK OF NEPHI</h2>']
+    for chapter, count in COUNTS.items():
+        paragraphs.append(f'<h3>3 Nephi Chapter {chapter}</h3>')
+        for verse in range(1, count + 1):
+            if (chapter, verse) == (11, 2):
+                continue
+            text = f'{chapter}:{verse} Synthetic fixture {chapter}-{verse}.'
+            if (chapter, verse) == (11, 1):
+                text += ' 3\nNephi 11:2 Synthetic fixture 11-2.'
+            paragraphs.append(f'<p>{text}</p>')
+    paragraphs.append('<p>11:8 Outside selected scope.</p></body></html>')
+    path = tmp_path / 'fixture.epub'
+    with ZipFile(path, 'w') as archive:
+        archive.writestr('book.xhtml', ''.join(paragraphs))
+    verses, evidence = extract(path)
+    assert len(verses) == len(evidence) == 73
+    assert verses[-6].text == 'Synthetic fixture 11-2.'
+    assert verses[-7].text == 'Synthetic fixture 11-1.'
+    assert verses[-1].ref == '3 Nephi 11:7'
+
+
+def test_preview_does_not_bypass_approvals(pipeline):
+    path = pipeline.preview(12)
+    assert path.exists()
+    assert 'NOT APPROVED' in pipeline.store.read('review/draft-panels.json')['status']
+    assert not pipeline.store.path('panels.json').exists()
+    assert pipeline.approvals() == {}
+    with pytest.raises(ValueError, match='human approval'):
+        pipeline.plan(12)
+
+
+def test_parallel_validation_preserves_results(pipeline):
+    expected = pipeline.validate()
+    assert pipeline.validate(workers=4) == expected
+    with pytest.raises(ValueError, match='workers'):
+        pipeline.validate(workers=5)
+
+
+def test_structured_cache_requires_identical_request(tmp_path):
+    from types import SimpleNamespace
+    from bom_comic.providers import Gemini
+    provider = Gemini.__new__(Gemini)
+    provider.config = Config(api_key='fake', validator_model='validator')
+    provider.store = Store(tmp_path / 'cached')
+    provider.reuse_responses = True
+    calls = []
+    class Response:
+        text = '{"status":"PASS","issues":[]}'
+        def model_dump(self, **kwargs):
+            return {'text': self.text}
+    def generate_content(**kwargs):
+        calls.append(kwargs)
+        return Response()
+    provider.client = SimpleNamespace(models=SimpleNamespace(generate_content=generate_content))
+    provider.structured('first', Verdict, 'scene', 'validator')
+    provider.structured('first', Verdict, 'scene', 'validator')
+    assert len(calls) == 1
+    provider.structured('changed', Verdict, 'scene', 'validator')
+    assert len(calls) == 2
+    provider.config.validator_model = 'different-model'
+    provider.structured('changed', Verdict, 'scene', 'validator')
+    assert len(calls) == 3

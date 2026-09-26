@@ -17,9 +17,13 @@ def main():
     init.add_argument("--end", default="3 Nephi 11:7")
     analyzer = commands.add_parser("analyze")
     analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
-    commands.add_parser("validate")
+    validator = commands.add_parser("validate")
+    validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
+    validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
     planner = commands.add_parser("plan")
     planner.add_argument("--pages", type=int, default=10, choices=range(1, 16))
+    preview = commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
+    preview.add_argument("--pages", type=int, default=12, choices=range(1, 16))
     review = commands.add_parser("review")
     review.add_argument("kind", choices=["scene", "panel", "image"])
     review.add_argument("id", nargs="?")
@@ -32,20 +36,24 @@ def main():
     args = parser.parse_args()
     store = Store(args.run)
     try:
-        if args.command in ("validate", "plan", "review", "generate", "assemble") and not store.path("scenes.json").exists():
+        if args.command in ("validate", "plan", "preview", "review", "generate", "assemble") and not store.path("scenes.json").exists():
             raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
         if args.command in ("analyze", "validate", "generate"):
             provider = PlaceholderImages() if getattr(args, "placeholder", False) else Gemini(Config.load(), store)
+        if provider is not None:
+            provider.reuse_responses = getattr(args, "resume", False)
         pipeline = Pipeline(store, provider)
         if args.command == "init":
             pipeline.init(args.source, args.start, args.end)
         elif args.command == "analyze":
             pipeline.analyze(args.id)
         elif args.command == "validate":
-            print(json.dumps(pipeline.validate(), indent=2))
+            print(json.dumps(pipeline.validate(args.workers), indent=2))
         elif args.command == "plan":
             pipeline.plan(args.pages)
+        elif args.command == "preview":
+            print(pipeline.preview(args.pages))
         elif args.command == "review":
             if args.decision:
                 if not args.id:

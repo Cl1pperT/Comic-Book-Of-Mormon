@@ -59,14 +59,22 @@ class Pipeline:
         self.store.write("scenes.json", [s.model_dump() for s in scenes])
         self.store.event("analyze", count=len(scenes))
 
-    def validate(self):
+    def validate(self, workers=1):
         scenes, verses = self.scenes(), self.verses()
         if len({s.scene_id for s in scenes}) != len(scenes):
             raise ValueError("Duplicate scene IDs")
-        results = {}
-        for index, scene in enumerate(scenes):
+        if not 1 <= workers <= 4:
+            raise ValueError("Validation workers must be between 1 and 4")
+        def check(index):
+            scene = scenes[index]
             verdict = validate_scene(self.provider, scene, verses, scenes[index - 1] if index else None)
-            results[scene.scene_id] = verdict.model_dump()
+            return scene.scene_id, verdict.model_dump()
+        if workers == 1:
+            results = dict(check(index) for index in range(len(scenes)))
+        else:
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                results = dict(pool.map(check, range(len(scenes))))
         # Source coverage cannot prove faithfulness, but prevents silent omission of whole verses.
         covered = {ref for s in scenes for ref in s.refs}
         missing = [v.ref for v in verses if v.ref not in covered]
@@ -105,6 +113,42 @@ class Pipeline:
         panels = plan(self.scenes(), pages)
         self.store.write("panels.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels]})
         self.store.event("plan", pages=len({p.page for p in panels}))
+
+    def preview(self, pages=12):
+        """Create review-only planning artifacts without granting production approval."""
+        report = self.validation()
+        scenes = self.scenes()
+        panels = plan(scenes, pages)
+        self.store.write("review/draft-panels.json", {
+            "status": "DRAFT — NOT APPROVED FOR GENERATION", "scene_stamp": self.stamp(),
+            "panels": [p.model_dump() for p in panels]})
+        self.store.write("review/draft-prompts.json", {
+            p.panel_id: build_prompt(p, self.continuity()) for p in panels})
+        lines = ["# Full-story review draft", "",
+                 "Not approved for generation. Compare every scene to its cited source before approving.", "",
+                 f"{len(scenes)} scenes / {len(panels)} panels / {len({p.page for p in panels})} draft pages", ""]
+        source = {v.ref: v.text for v in self.verses()}
+        for scene, panel in zip(scenes, panels):
+            result = report["results"][scene.scene_id]
+            lines.extend([f"## {scene.scene_id}: {scene.title}", "",
+                f"Draft page {panel.page}, panel {panel.panel_number} — **{result['status']}**", "",
+                scene.summary, "", "References: " + "; ".join(scene.refs), ""])
+            for issue in result["issues"]:
+                lines.append("- Review issue: " + issue)
+            for label, entries in [("Explicit scriptural facts", [c.text for c in scene.explicit_facts]),
+                                   ("Reasonable visual inferences", scene.reasonable_visual_inferences),
+                                   ("Creative visual details", scene.unspecified_visual_details),
+                                   ("Story notes", scene.doctrinal_or_story_notes)]:
+                lines.extend(["", f"**{label}**", ""] + ["- " + e for e in entries])
+            lines.extend(["", "**Lettering**", ""])
+            lines.extend([f"- {q.speaker}: {q.text}" for q in scene.spoken_dialogue])
+            lines.extend(["- Narration: " + q.text for q in scene.narration])
+            lines.extend(["", "**Supplied verses**", ""])
+            lines.extend([f"> **{ref}** {source[ref]}\n" for ref in scene.refs])
+        path = self.store.path("review/STORYBOARD.md")
+        path.write_text("\n".join(lines), encoding="utf-8")
+        self.store.event("preview", panels=len(panels), pages=len({p.page for p in panels}))
+        return path
 
     def panels(self):
         self.require_scenes()

@@ -7,11 +7,17 @@ Never invent events, names, relationships, motives, doctrines, miracles, speaker
 Separate explicit facts (each with supporting refs), reasonable visual inferences, and unspecified
 creative design details. Summary must contain only supplied events. Quote dialogue verbatim from
 contiguous supplied verse text; do not paraphrase speech. Narration also uses source quotations.
+Never insert ellipses or change capitalization/punctuation inside quotations; use separate
+short exact excerpts instead. Count all narration and dialogue together against the 65-word limit.
 Do not turn reported destruction into a new present-tense event or compress separate times into one.
 Metaphors (including the hen gathering chickens) are teachings, not literal supernatural scenes.
 Christ's voice may be heard but Jesus, the Father, and descending heavenly figures MUST NEVER be
 visually depicted in this prototype. End at 3 Nephi 11:7, before any descent or visual revelation.
 Do not infer that the temple gathering immediately follows the dispersal of darkness.
+3 Nephi 10:18-19 is a narrator's anticipatory summary: retain its evidence and notes,
+but do NOT depict the appearance, body, or ministry it previews. Reserve revelation for a later part.
+During 8:20-10:8 the darkness permits no visible sun, moon, stars, flames, or other light;
+use black panels with off-screen lettering when a visible scene would contradict the text.
 Unnamed groups have no invented names or biographies. Historical names mentioned in teaching
 are not necessarily physically present. If uncertain choose a conservative interpretation.'''
 

@@ -1,8 +1,6 @@
 # Book of Mormon comic prototype
 
-A Python CLI for a human-reviewed comic covering **3 Nephi 8–10 and 11:1–7**. Local scripture determines the story. The final scene ends with the Father's introduction in 11:7; no panel may visually reveal Jesus, the Father, or a descending heavenly figure.
-
-This repository contains a working pipeline, not a finished or certified accurate comic. No authoritative scripture, API credentials, or chosen Gemini models were supplied. Bring your own local source. The offline demo uses conspicuously synthetic test text and placeholder images; it is not a scripture adaptation.
+A Python CLI for a human-reviewed comic covering **3 Nephi 8–10 and 11:1–7**. Local scripture determines the story. The final scene ends with Christ's introduction in 11:7; no panel may visually reveal Jesus but may imply a heavenly figure 
 
 ## Install
 
@@ -150,3 +148,11 @@ Assembly fits images without cropping, wraps lettering into separate boxes benea
 ## Tests
 
 `pytest -q` covers parsing, complete range selection, JSON round trips, typed models, prompt constraints, environment configuration, path containment, invented speech, rejection/warning behavior, stale approvals, panel story locking, modified image detection, regeneration history, and an offline end-to-end PDF build. Mocked LLM results test orchestration, not the quality of Gemini's reasoning or art.
+
+## Prepared full-story source
+
+The supplied EPUB has been extracted to `data/full-scripture.json` and `data/full-scripture.txt`, with 73 verses spanning exactly 3 Nephi 8:1–11:7. See [full-story source and workflow](data/FULL_STORY.md) for provenance, the embedded-verse correction, and the cliffhanger boundary. Reproduce extraction with `python -m bom_comic.epub data/BookOfMormon.epub`.
+
+For a full run, `python main.py --run runs/full-story preview --pages 12` writes `review/STORYBOARD.md`, `review/draft-panels.json`, and `review/draft-prompts.json` after validation. These are review artifacts only; they cannot bypass the production scene/panel approvals. `validate --workers 4` can perform up to four independent checks concurrently (default: one); use fewer workers if your API quota is limited.
+
+If validation is interrupted by rate limits, wait for the provider's indicated retry interval, then use `validate --resume`. Only successfully parsed responses with the identical model, schema, and full prompt are reused. Modified scenes and affected chronology checks are sent for fresh validation. Resume does not grant human approval.
