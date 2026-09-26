@@ -52,6 +52,7 @@ class Panel(Model):
     characters_visible: List[str]
     location: List[str]
     action: str
+    shot: Literal["splash", "wide", "tall", "medium", "close"] = "medium"
     mood: str = "Reverent, serious"
     camera: str = "Wide establishing view"
     composition: str = "Clear focal point, restrained detail"

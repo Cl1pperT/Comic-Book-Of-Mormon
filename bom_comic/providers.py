@@ -5,7 +5,7 @@ from PIL import Image
 from .errors import ProviderError, api_error
 
 class ImageProvider(Protocol):
-    def generate_image(self, prompt, reference_images=None, output_path=None): ...
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None): ...
 
 class Gemini:
     def __init__(self, config, store):
@@ -36,7 +36,7 @@ class Gemini:
         result = schema.model_validate_json(response.text)
         self.store.write(cache_path, {"request": request, "text": response.text})
         return result
-    def generate_image(self, prompt, reference_images=None, output_path=None):
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None):
         import io
         from google.genai import types
         model = self.config.require("image")
@@ -46,8 +46,11 @@ class Gemini:
                 buffer = io.BytesIO()
                 im.save(buffer, format="PNG")
                 contents.append(types.Part.from_bytes(data=buffer.getvalue(), mime_type="image/png"))
-        response = self._request(model=model, contents=contents,
-            config={"response_modalities": ["TEXT", "IMAGE"], "automatic_function_calling": {"disable": True}})
+        config = {"response_modalities": ["TEXT", "IMAGE"], "automatic_function_calling": {"disable": True}}
+        # Best-effort: not every configured image model honors this, so layout never depends on it.
+        if aspect_ratio:
+            config["image_config"] = {"aspect_ratio": aspect_ratio}
+        response = self._request(model=model, contents=contents, config=config)
         self.store.write(f"api/{Path(output_path).stem}.response.json", response.model_dump(mode="json"))
         for part in response.parts or []:
             if part.inline_data and part.inline_data.mime_type.startswith("image/"):
@@ -58,9 +61,13 @@ class Gemini:
 
 class PlaceholderImages:
     """Offline plumbing test, never evidence of visual/scriptural accuracy."""
-    def generate_image(self, prompt, reference_images=None, output_path=None):
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None):
         from PIL import ImageDraw
-        im = Image.new("RGB", (1000, 550), "#273340")
+        w, h = 1000, 550
+        if aspect_ratio:
+            rw, rh = (int(n) for n in aspect_ratio.split(":"))
+            w, h = 1000, round(1000 * rh / rw)
+        im = Image.new("RGB", (w, h), "#273340")
         ImageDraw.Draw(im).text((30, 30), "OFFLINE TEST PLACEHOLDER - NOT COMIC ART", fill="white")
         im.save(output_path)
         return str(output_path)

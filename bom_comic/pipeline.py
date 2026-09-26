@@ -4,7 +4,7 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, validate_scene
-from .comic import DEFAULT_CONTINUITY, plan, build_prompt, assemble
+from .comic import DEFAULT_CONTINUITY, SHOT_ASPECT, plan, build_prompt, assemble
 from .scripture import load, select
 
 class Pipeline:
@@ -223,7 +223,7 @@ class Pipeline:
             self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "prompt": prompt})
             path = self.store.path(f"images/{name}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
-            self.provider.generate_image(prompt, output_path=path)
+            self.provider.generate_image(prompt, output_path=path, aspect_ratio=SHOT_ASPECT[panel.shot])
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel),
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
             self.store.write(f"images/{panel.panel_id}.json", record)

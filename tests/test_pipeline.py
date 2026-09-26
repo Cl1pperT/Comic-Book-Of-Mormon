@@ -5,7 +5,7 @@ from bom_comic.scripture import load, select, coordinate, COUNTS
 from bom_comic.storage import Store, digest
 from bom_comic.config import Config
 from bom_comic.analysis import deterministic_issues
-from bom_comic.comic import build_prompt, DEFAULT_CONTINUITY
+from bom_comic.comic import build_prompt, DEFAULT_CONTINUITY, SHOT_ASPECT, classify_shot, assemble, _rows
 from bom_comic.pipeline import Pipeline
 from bom_comic.providers import PlaceholderImages
 
@@ -322,3 +322,171 @@ def test_structured_cache_requires_identical_request(tmp_path):
     provider.config.validator_model = 'different-model'
     provider.structured('changed', Verdict, 'scene', 'validator')
     assert len(calls) == 3
+
+
+def make_scene(**overrides):
+    base = dict(scene_id="scene_001", title="Test", refs=["3 Nephi 8:1"], summary="Test.",
+        explicit_facts=[Claim(text="Test.", refs=["3 Nephi 8:1"])])
+    base.update(overrides)
+    return Scene(**base)
+
+
+def test_classify_shot_major_and_final_verse_are_splash():
+    assert classify_shot(make_scene(importance="major")) == "splash"
+    assert classify_shot(make_scene(refs=["3 Nephi 11:7"])) == "splash"
+
+
+def test_classify_shot_short_exchange_between_few_people_is_close():
+    scene = make_scene(characters=["A", "B"],
+        spoken_dialogue=[Speech(speaker="A", text="A short line.", refs=["3 Nephi 8:1"])])
+    assert classify_shot(scene) == "close"
+
+
+def test_classify_shot_long_dialogue_is_not_close():
+    long = " ".join(["word"] * 40)
+    scene = make_scene(characters=["A"], spoken_dialogue=[Speech(speaker="A", text=long, refs=["3 Nephi 8:1"])])
+    assert classify_shot(scene) != "close"
+
+
+def test_classify_shot_no_or_many_characters_is_wide():
+    assert classify_shot(make_scene(characters=[])) == "wide"
+    assert classify_shot(make_scene(characters=["A", "B", "C", "D"])) == "wide"
+
+
+def test_classify_shot_narration_length_splits_tall_and_medium():
+    short = make_scene(characters=["A"], narration=[Claim(text="Short beat here.", refs=["3 Nephi 8:1"])])
+    long = make_scene(characters=["A"], narration=[Claim(text=" ".join(["word"] * 20), refs=["3 Nephi 8:1"])])
+    assert classify_shot(short) == "tall"
+    assert classify_shot(long) == "medium"
+
+
+def test_classify_shot_is_deterministic_and_content_based():
+    """Two adjacent scenes with identical content signals must land on the same shot, so
+    they can pair into a two-column row — a purely positional tie-break would prevent that."""
+    scene = make_scene(characters=["A"], narration=[Claim(text="Short beat here.", refs=["3 Nephi 8:1"])])
+    other = make_scene(scene_id="scene_002", characters=["B"], narration=[Claim(text="Also short.", refs=["3 Nephi 8:1"])])
+    assert classify_shot(scene) == classify_shot(other) == "tall"
+
+
+def test_rows_pairs_matching_tall_and_close_but_not_mixed_or_wide():
+    panels = [Panel(panel_id=f"panel_{i:03d}", scene_id=f"scene_{i:03d}", page=1, panel_number=i,
+        refs=["3 Nephi 8:1"], characters_visible=[], location=[], action="x", shot=shot,
+        dialogue=[], narration=[], visual_facts=[], visual_inferences=[], creative_details=[], prohibited=[])
+        for i, shot in enumerate(["tall", "tall", "wide", "close", "close", "close"], 1)]
+    grouped = _rows(panels)
+    sizes = [len(row) for row in grouped]
+    assert sizes == [2, 1, 2, 1]  # tall+tall paired, wide alone, close+close paired, lone close alone
+
+
+def layout_panels(store, shots, words=8, page=1, start=1):
+    from PIL import Image
+    panels, images = [], {}
+    for offset, shot in enumerate(shots):
+        i = start + offset
+        text = " ".join(["TEST"] * words)
+        panels.append(Panel(panel_id=f"panel_{i:03d}", scene_id=f"scene_{i:03d}", page=page, panel_number=offset + 1,
+            refs=[f"3 Nephi 8:{i}"], characters_visible=[], location=[], action="Test", visual_facts=[],
+            shot=shot, dialogue=[Speech(speaker="Test voice", text=text, refs=[f"3 Nephi 8:{i}"])], narration=[],
+            visual_inferences=[], creative_details=[], prohibited=[]))
+        rw, rh = (int(n) for n in SHOT_ASPECT[shot].split(":"))
+        path = store.path(f"images/{i}.png")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        Image.new("RGB", (1200, round(1200 * rh / rw)), "gray").save(path)
+        images[panels[-1].panel_id] = {"path": f"images/{i}.png"}
+    return panels, images
+
+
+def test_layout_renders_every_shot_and_fills_a_sparse_page(tmp_path):
+    from bom_comic.comic import PAGE_SIZE, PAPER, TOP, BOTTOM
+    from PIL import ImageColor, Image
+    store = Store(tmp_path / "layout")
+    panels, images = layout_panels(store, ["close", "close"])
+    assemble(store, panels, images)
+    page = Image.open(store.path("pages/page_001.png"))
+    assert page.size == PAGE_SIZE
+    # A two-panel page shouldn't be left floating in a mostly-blank column: the row-fill
+    # step should expand it well past its two panels' own natural (unscaled) height.
+    paper = ImageColor.getrgb(PAPER)
+    column = [page.getpixel((page.width // 2, y)) for y in range(page.height)]
+    content_rows = [y for y, pixel in enumerate(column) if pixel != paper]
+    extent = max(content_rows) - min(content_rows)
+    assert extent / (PAGE_SIZE[1] - TOP - BOTTOM) > 0.55
+
+
+def test_layout_fits_full_lettering_budget_for_every_shot(tmp_path):
+    """Every shot must hold the README's 65-word-per-scene lettering cap, in the page
+    groupings plan() actually produces: a splash alone, three full-width rows, or a
+    same-shot pair — never several full shots crammed onto one page."""
+    from bom_comic.comic import PAGE_SIZE
+    from PIL import Image
+    store = Store(tmp_path / "budget")
+    panels, images, start = [], {}, 1
+    for page, shots in enumerate([["splash"], ["wide", "medium"], ["tall", "tall"], ["close", "close"]], 1):
+        p, i = layout_panels(store, shots, words=65, page=page, start=start)
+        panels += p
+        images.update(i)
+        start += len(shots)
+    assemble(store, panels, images)
+    for number in range(1, 5):
+        assert Image.open(store.path(f"pages/page_{number:03d}.png")).size == PAGE_SIZE
+
+
+def test_layout_refuses_overcrowded_page(tmp_path):
+    store = Store(tmp_path / "crowded")
+    panels, images = layout_panels(store, ["close", "close"], words=400)
+    with pytest.raises(ValueError, match="Too much lettering"):
+        assemble(store, panels, images)
+
+
+def test_placeholder_provider_honors_aspect_ratio(tmp_path):
+    from PIL import Image
+    store = Store(tmp_path / "placeholder")
+    path = store.path("wide.png")
+    PlaceholderImages().generate_image("prompt", output_path=path, aspect_ratio="16:9")
+    w, h = Image.open(path).size
+    assert abs(w / h - 16 / 9) < 0.01
+
+
+def test_generate_requests_the_panel_shot_aspect_ratio(pipeline):
+    ready(pipeline)
+    calls = []
+    original = pipeline.provider.generate_image
+    def capture(*args, **kwargs):
+        calls.append(kwargs)
+        return original(*args, **kwargs)
+    pipeline.provider.generate_image = capture
+    pipeline.generate()
+    panel = pipeline.panels()[0]
+    assert calls[0]["aspect_ratio"] == SHOT_ASPECT[panel.shot]
+
+
+def test_gemini_image_adapter_sends_aspect_ratio(tmp_path):
+    import io
+    from types import SimpleNamespace
+    from PIL import Image
+    from google.genai import types
+    from bom_comic.providers import Gemini
+    data = io.BytesIO()
+    Image.new("RGB", (32, 32), "blue").save(data, format="PNG")
+    response = types.GenerateContentResponse(candidates=[types.Candidate(content=types.Content(
+        parts=[types.Part.from_bytes(data=data.getvalue(), mime_type="image/png")]))])
+    calls = []
+    def generate_content(**kwargs):
+        calls.append(kwargs)
+        return response
+    provider = Gemini.__new__(Gemini)
+    provider.config = Config(api_key="fake", image_model="configurable-model")
+    provider.store = Store(tmp_path / "adapter")
+    provider.client = SimpleNamespace(models=SimpleNamespace(generate_content=generate_content))
+    output = provider.store.path("test.png")
+    provider.generate_image("Approved prompt", output_path=output, aspect_ratio="16:9")
+    assert calls[0]["config"]["image_config"] == {"aspect_ratio": "16:9"}
+
+
+def test_plan_sets_shot_specific_camera_and_mood(pipeline):
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    from bom_comic.comic import SHOT_CAMERA, SHOT_MOOD, SHOT_COMPOSITION
+    assert panel.camera == SHOT_CAMERA[panel.shot]
+    assert panel.mood == SHOT_MOOD[panel.shot]
+    assert panel.composition == SHOT_COMPOSITION[panel.shot]

@@ -12,5 +12,7 @@ test = ["pytest>=8,<9"]
 bom-comic = "bom_comic.cli:main"
 [tool.setuptools.packages.find]
 include = ["bom_comic*"]
+[tool.setuptools.package-data]
+bom_comic = ["fonts/*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
