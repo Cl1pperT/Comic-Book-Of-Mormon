@@ -8,12 +8,19 @@ NEGATIVE = ["No additional named characters or unlisted events", "No modern obje
             "Never show Jesus Christ, the Father, a descending person, or a divine silhouette",
             "No events after 3 Nephi 11:7", "No unsupported doctrinal symbolism",
             "Do not alter approved important character identities or numbers",
-            "No gore, parody, superhero imagery, humor, or fantasy embellishment"]
+            "No gore, parody, superhero imagery, humor, or fantasy embellishment",
+            "Not a photograph or live-action film still; must read as drawn/painted comic illustration with visible linework"]
 
 DEFAULT_CONTINUITY = {
     "characters": {}, "locations": {},
-    "visual_style": {"description": "Serious, reverent, realistic cinematic graphic novel. Restrained colors, expressive composition, no gratuitous violence.",
-                     "locked_traits": ["Consistent ink treatment and naturalistic proportions"]}}
+    "visual_style": {"description": "Reverent, hand-inked graphic novel illustration with visible linework and paint/ink "
+                     "texture — never photoreal, never a photograph or film still. Architecture, when shown, is "
+                     "Mesoamerican/Andean-inspired: stepped stone pyramid-temples, turquoise fretwork accents, terraced "
+                     "stonework — never European or Asian. Vivid illustrated color, blue skies, warm sun, lush jungle "
+                     "greenery — except storm, destruction, and darkness scenes, which stay desaturated and dramatic.",
+                     "locked_traits": ["Hand-inked/painted comic illustration with visible linework; never photographic or photorealistic.",
+                                       "Architecture is always Mesoamerican/Andean in style, never European or Asian.",
+                                       "Color is vivid and saturated except in storm/destruction/darkness scenes."]}}
 
 # A small, fixed shot vocabulary drives both the requested image aspect ratio and the page
 # layout. Aspect values are the exact strings Gemini's image_config.aspect_ratio accepts.
@@ -54,7 +61,7 @@ def classify_shot(scene):
         return "splash"
     dialogue_words = sum(len(c.text.split()) for c in scene.spoken_dialogue)
     narration_words = sum(len(c.text.split()) for c in scene.narration)
-    if scene.spoken_dialogue and len(scene.characters) <= 2 and dialogue_words + narration_words <= 30:
+    if scene.spoken_dialogue and 1 <= len(scene.characters) <= 2 and dialogue_words + narration_words <= 30:
         return "close"
     if not scene.characters or len(scene.characters) >= 4:
         return "wide"
