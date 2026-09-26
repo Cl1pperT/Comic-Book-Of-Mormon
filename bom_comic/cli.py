@@ -1,0 +1,73 @@
+import argparse
+import json
+from .config import Config
+from .storage import Store
+from .pipeline import Pipeline
+from .providers import Gemini, PlaceholderImages
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Source-grounded, human-reviewed scripture comic pipeline")
+    parser.add_argument("--run", default="runs/prototype", help="Artifact directory")
+    commands = parser.add_subparsers(dest="command", required=True)
+    init = commands.add_parser("init")
+    init.add_argument("source")
+    init.add_argument("--start", default="3 Nephi 8:1")
+    init.add_argument("--end", default="3 Nephi 11:7")
+    analyzer = commands.add_parser("analyze")
+    analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
+    commands.add_parser("validate")
+    planner = commands.add_parser("plan")
+    planner.add_argument("--pages", type=int, default=10, choices=range(1, 16))
+    review = commands.add_parser("review")
+    review.add_argument("kind", choices=["scene", "panel", "image"])
+    review.add_argument("id", nargs="?")
+    review.add_argument("--decision", choices=["approve", "reject"])
+    review.add_argument("--note", default="")
+    generation = commands.add_parser("generate")
+    generation.add_argument("--id", help="Regenerate one panel; retains old image revisions")
+    generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
+    commands.add_parser("assemble")
+    args = parser.parse_args()
+    store = Store(args.run)
+    try:
+        provider = None
+        if args.command in ("analyze", "validate", "generate"):
+            provider = PlaceholderImages() if getattr(args, "placeholder", False) else Gemini(Config.load(), store)
+        pipeline = Pipeline(store, provider)
+        if args.command == "init":
+            pipeline.init(args.source, args.start, args.end)
+        elif args.command == "analyze":
+            pipeline.analyze(args.id)
+        elif args.command == "validate":
+            print(json.dumps(pipeline.validate(), indent=2))
+        elif args.command == "plan":
+            pipeline.plan(args.pages)
+        elif args.command == "review":
+            if args.decision:
+                if not args.id:
+                    raise ValueError("A decision requires an individual scene/panel ID")
+                pipeline.review(args.kind, args.id, args.decision, args.note)
+            elif args.kind == "scene":
+                print(json.dumps({"source": store.read("source.json"), "scenes": store.read("scenes.json"),
+                    "validation": store.read("validation.json") if store.path("validation.json").exists() else "not validated"}, indent=2))
+            else:
+                for panel in pipeline.panels():
+                    if args.id and panel.panel_id != args.id:
+                        continue
+                    print(panel.model_dump_json(indent=2))
+                    if args.kind == "image":
+                        print(store.path(pipeline.image_record(panel)["path"]))
+                    else:
+                        from .comic import build_prompt
+                        print(build_prompt(panel, pipeline.continuity()))
+        elif args.command == "generate":
+            pipeline.generate(args.id)
+        elif args.command == "assemble":
+            print(pipeline.assemble())
+    except Exception as exc:
+        # Avoid logging provider exceptions that may contain credentials or request URLs.
+        store.event("error", stage=args.command, error_type=type(exc).__name__)
+        if isinstance(exc, (ValueError, FileNotFoundError, KeyError)):
+            parser.exit(1, f"{exc}\n")
+        parser.exit(1, f"{type(exc).__name__}: stage failed. Check configuration and saved artifacts.\n")
