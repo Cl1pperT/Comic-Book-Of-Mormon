@@ -2,6 +2,7 @@
 from pathlib import Path
 from typing import Protocol
 from PIL import Image
+from .errors import ProviderError, api_error
 
 class ImageProvider(Protocol):
     def generate_image(self, prompt, reference_images=None, output_path=None): ...
@@ -11,11 +12,20 @@ class Gemini:
         from google import genai
         self.config, self.store = config, store
         self.client = genai.Client(api_key=config.api_key)
+    def _request(self, **kwargs):
+        from google.genai.errors import APIError
+        try:
+            return self.client.models.generate_content(**kwargs)
+        except APIError as exc:
+            message = api_error(exc, self.config.api_key)
+            self.store.event("api_error", model=kwargs.get("model"), message=message)
+            raise ProviderError(message) from None
+
     def structured(self, prompt, schema, tag, kind="text"):
         model = self.config.require(kind)
         self.store.write(f"api/{tag}.request.json", {"model": model, "prompt": prompt})
-        response = self.client.models.generate_content(model=model, contents=prompt,
-            config={"response_mime_type": "application/json", "response_schema": schema})
+        response = self._request(model=model, contents=prompt,
+            config={"response_mime_type": "application/json", "response_json_schema": schema.model_json_schema(), "automatic_function_calling": {"disable": True}})
         self.store.write(f"api/{tag}.response.json", response.model_dump(mode="json"))
         return schema.model_validate_json(response.text)
     def generate_image(self, prompt, reference_images=None, output_path=None):
@@ -28,8 +38,8 @@ class Gemini:
                 buffer = io.BytesIO()
                 im.save(buffer, format="PNG")
                 contents.append(types.Part.from_bytes(data=buffer.getvalue(), mime_type="image/png"))
-        response = self.client.models.generate_content(model=model, contents=contents,
-            config={"response_modalities": ["TEXT", "IMAGE"]})
+        response = self._request(model=model, contents=contents,
+            config={"response_modalities": ["TEXT", "IMAGE"], "automatic_function_calling": {"disable": True}})
         self.store.write(f"api/{Path(output_path).stem}.response.json", response.model_dump(mode="json"))
         for part in response.parts or []:
             if part.inline_data and part.inline_data.mime_type.startswith("image/"):

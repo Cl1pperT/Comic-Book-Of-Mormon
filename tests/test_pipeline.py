@@ -223,3 +223,35 @@ def test_rejecting_panel_blocks_previously_approved_image(pipeline):
     pipeline.review("panel", "panel_001", "reject")
     with pytest.raises(ValueError, match="composition/continuity approval"):
         pipeline.assemble()
+
+
+def test_api_diagnostics_redact_secrets():
+    from types import SimpleNamespace
+    from bom_comic.errors import api_error
+    result = api_error(SimpleNamespace(code=403, message="Denied custom-secret https://example.com?key=secret API_KEY=another-secret"), "custom-secret")
+    assert "403" in result
+    assert "project access" in result
+    for secret in ("custom-secret", "another-secret", "https://example.com"):
+        assert secret not in result
+
+
+def test_structured_adapter_uses_json_schema(tmp_path):
+    from types import SimpleNamespace
+    from bom_comic.providers import Gemini
+    provider = Gemini.__new__(Gemini)
+    provider.config = Config(api_key="fake", text_model="test-model")
+    provider.store = Store(tmp_path / "structured")
+    calls = []
+    class Response:
+        text = '{"status":"PASS","issues":[]}'
+        def model_dump(self, **kwargs):
+            return {"text": self.text}
+    def generate_content(**kwargs):
+        calls.append(kwargs)
+        return Response()
+    provider.client = SimpleNamespace(models=SimpleNamespace(generate_content=generate_content))
+    assert provider.structured("Check facts", Verdict, "test").status == "PASS"
+    config = calls[0]["config"]
+    assert "response_schema" not in config
+    assert config["response_json_schema"]["additionalProperties"] is False
+    assert config["automatic_function_calling"]["disable"] is True

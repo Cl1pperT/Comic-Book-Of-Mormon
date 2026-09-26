@@ -1,6 +1,7 @@
 import argparse
 import json
 from .config import Config
+from .errors import ProviderError
 from .storage import Store
 from .pipeline import Pipeline
 from .providers import Gemini, PlaceholderImages
@@ -31,6 +32,8 @@ def main():
     args = parser.parse_args()
     store = Store(args.run)
     try:
+        if args.command in ("validate", "plan", "review", "generate", "assemble") and not store.path("scenes.json").exists():
+            raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
         if args.command in ("analyze", "validate", "generate"):
             provider = PlaceholderImages() if getattr(args, "placeholder", False) else Gemini(Config.load(), store)
@@ -68,6 +71,6 @@ def main():
     except Exception as exc:
         # Avoid logging provider exceptions that may contain credentials or request URLs.
         store.event("error", stage=args.command, error_type=type(exc).__name__)
-        if isinstance(exc, (ValueError, FileNotFoundError, KeyError)):
+        if isinstance(exc, (ProviderError, ValueError, FileNotFoundError, KeyError)):
             parser.exit(1, f"{exc}\n")
         parser.exit(1, f"{type(exc).__name__}: stage failed. Check configuration and saved artifacts.\n")

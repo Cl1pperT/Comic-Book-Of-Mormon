@@ -6,10 +6,10 @@ This repository contains a working pipeline, not a finished or certified accurat
 
 ## Install
 
-Python 3.9+ (3.11+ recommended):
+Python 3.11+ (3.12 recommended; use an OpenSSL-based installation):
 
 ```sh
-python3 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -e '.[test]'
@@ -143,7 +143,7 @@ history.jsonl                     timestamps, reviews, generations, errors
 archive/                          previous versions of overwritten JSON artifacts
 ```
 
-Raw API responses can be large because they include image payloads. Keep run directories private if your input is private. API keys are not written to artifacts. Errors record stage and exception type; provider exception bodies are suppressed to reduce credential exposure. Failed stages can be rerun independently; there are no automatic paid retries.
+Raw API responses can be large because they include image payloads. Keep run directories private if your input is private. API keys are not written to artifacts. Errors record stage and exception type; Gemini API errors include a credential-redacted message, HTTP status, and recovery hint. Other provider exception bodies are suppressed. Failed stages can be rerun independently; there are no automatic paid retries.
 
 Assembly fits images without cropping, wraps lettering into separate boxes beneath each panel, prints scripture refs and page numbers, and writes PNG pages plus a PDF. It refuses overcrowded lettering. The manifest preserves panel → scene → verse provenance. Only reviewed images are assembled. `generate --placeholder` can test layout without API calls; placeholders are visibly marked and must still pass the same explicit CLI review gates.
 
