@@ -40,7 +40,7 @@ GEMINI_VALIDATOR_MODEL=your-selected-validation-model
 GEMINI_IMAGE_MODEL=your-selected-image-model
 ```
 
-There is deliberately no default model. The text models must support structured JSON responses; the image model must support native `generate_content` image output. Validation is always a separate call; its model can differ from the analyzer. Google's SDK integration is isolated in `bom_comic/providers.py`, including `generate_image(prompt, reference_images=None, output_path=None, aspect_ratio=None)`. `aspect_ratio` is the panel's frame shape from the page layout (see Page layout below). It's sent as the nearest ratio Gemini supports in `image_config.aspect_ratio`, and assembly trims the small difference. Reference image paths are supported at provider level for future richer continuity tooling; the initial CLI uses text continuity records.
+There is deliberately no default model. The text models must support structured JSON responses; the image model must support native `generate_content` image output. Validation is always a separate call; its model can differ from the analyzer. Google's SDK integration is isolated in `bom_comic/providers.py`, including `generate_image(prompt, reference_images=None, output_path=None, aspect_ratio=None)`. `aspect_ratio` is the panel's frame shape from the page layout (see Page layout below). It's sent as the nearest ratio Gemini supports in `image_config.aspect_ratio`, and assembly trims the small difference. `generate` passes each visible character's reference portrait (see Reference portraits below) as a labeled reference image.
 
 The implementation follows [Google's image generation documentation](https://ai.google.dev/gemini-api/docs/generate-content/image-generation) and [official Python SDK](https://github.com/googleapis/python-genai). If a selected future model uses a different API, update the adapter. Live calls incur provider costs and require network access. No live provider calls are made by tests.
 
@@ -163,6 +163,19 @@ Each run has editable `continuity/characters.json`, `locations.json`, and `visua
 
 Only add facts with supporting verse references, for example `{ "text": "...", "refs": ["3 Nephi 11:1"] }`. Exact faces, costume details, and architecture belong in design choices, never facts. Do not create named crowd members. Style defaults are reverent, cinematic, realistic, and restrained. Global negative constraints exclude modern details, invented events, gratuitous gore, later chapters, and divine figures. Text continuity improves guidance but cannot guarantee identical designs between images; review and regeneration remain necessary.
 
+### Reference portraits
+
+`portraits` renders one reference portrait per character who appears in the scenes and has a record in `characters.json`, drawn from that record and the global style. `generate` then attaches the portrait of every visible character to the panel's image call, labeled with the character's name, so faces and clothing stay the same from panel to panel:
+
+```sh
+python main.py --run runs/small portraits
+python main.py --run runs/small review panel   # prints each panel's portrait paths
+```
+
+Portraits live in `portraits/` and are reused: a rerun skips any portrait whose character record and style are unchanged. `portraits --id 'King Lamoni'` renders a new revision of one portrait. Editing a character's record makes its portrait stale, and panels showing that character refuse to generate until `portraits` runs again. A record with no facts or design choices has nothing to draw from and gets no portrait. Add `"reference_portrait": false` to a record to skip it, for example for a crowd whose members shouldn't read as the same individuals. Characters without a portrait keep text-only continuity.
+
+A panel's approval covers the portraits attached to it, so a new or re-rendered portrait sends that panel back for review. Open the printed portrait paths during `review panel`; a portrait is invented design, never scripture, and a heavenly or divine figure's portrait may show only what its scriptural facts state. `portraits --placeholder` tests the plumbing offline. `portraits --local` renders through ComfyUI, but the local Flux workflow can't take reference images, so local panels still rely on text continuity.
+
 ## Saved outputs and assembly
 
 Within each run:
@@ -172,6 +185,7 @@ source.json, selection.json        authoritative selected snapshot and hash
 scenes.json, validation.json       scenes, evidence, independent verdicts
 panels.json, reviews.json          layout and individual approval decisions
 continuity/                       reusable design records and global style
+portraits/                        character reference portraits and their index
 api/                              model prompts and raw SDK responses
 prompts/                          versioned structured image instructions
 images/                           versioned PNGs and current-image records

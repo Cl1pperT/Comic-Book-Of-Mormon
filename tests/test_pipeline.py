@@ -670,3 +670,119 @@ def test_plan_sets_shot_specific_camera_and_mood(pipeline):
     assert panel.camera == SHOT_CAMERA[panel.shot]
     assert panel.mood == SHOT_MOOD[panel.shot]
     assert panel.composition == SHOT_COMPOSITION[panel.shot]
+
+
+def _give_record(p, **extra):
+    characters = p.store.read("continuity/characters.json")
+    characters["Unnamed people"] = {"scriptural_facts": [], "visual_design_choices": ["Muted earth-tone garments"],
+                                    "locked_traits": [], **extra}
+    p.store.write("continuity/characters.json", characters)
+
+
+def capture_images(p):
+    calls = []
+    original = p.provider.generate_image
+    def capture(prompt, **kwargs):
+        calls.append(dict(kwargs, prompt=prompt))
+        return original(prompt, **kwargs)
+    p.provider.generate_image = capture
+    return calls
+
+
+def test_portraits_render_once_per_character_and_are_reused(pipeline):
+    assert pipeline.portraits() == []  # no record yet: nothing to draw from
+    _give_record(pipeline)
+    calls = capture_images(pipeline)
+    assert pipeline.portraits() == ["Unnamed people"]
+    assert pipeline.portraits() == []
+    assert len(calls) == 1 and calls[0]["aspect_ratio"] == "3:4"
+    assert "Reference portrait of Unnamed people" in calls[0]["prompt"]
+    assert "Muted earth-tone garments" in calls[0]["prompt"]
+    first = pipeline.portrait("Unnamed people")["path"]
+    assert pipeline.portraits("Unnamed people") == ["Unnamed people"]
+    assert pipeline.portrait("Unnamed people")["path"] != first
+    assert pipeline.store.path(first).exists()
+    with pytest.raises(ValueError, match="No portrait-eligible"):
+        pipeline.portraits("Someone else")
+
+
+def test_character_record_can_opt_out_of_portraits(pipeline):
+    _give_record(pipeline, reference_portrait=False)
+    assert pipeline.portrait_names() == []
+    assert pipeline.portraits() == []
+
+
+def test_generate_attaches_portraits_and_approval_covers_them(pipeline):
+    _give_record(pipeline)
+    ready(pipeline)
+    pipeline.portraits()
+    # A new portrait changes what the panel will be drawn from, so it needs approval again.
+    with pytest.raises(ValueError, match="Review panel"):
+        pipeline.generate()
+    pipeline.review("panel", "panel_001", "approve")
+    calls = capture_images(pipeline)
+    pipeline.generate()
+    entry = pipeline.portrait("Unnamed people")
+    assert calls[0]["reference_images"] == [("Unnamed people", pipeline.store.path(entry["path"]))]
+    assert "CHARACTER REFERENCE PORTRAITS" in calls[0]["prompt"]
+    record = pipeline.store.read("images/panel_001.json")
+    assert pipeline.store.read(record["prompt"])["portraits"] == {"Unnamed people": entry["path"]}
+    pipeline.review("image", "panel_001", "approve")
+    assert pipeline.assemble().exists()
+
+
+def test_edited_character_record_makes_its_portrait_stale(pipeline):
+    _give_record(pipeline)
+    pipeline.portraits()
+    ready(pipeline)
+    _give_record(pipeline, locked_traits=["Same palette every time"])
+    with pytest.raises(ValueError, match="run portraits again"):
+        pipeline.panel_portraits(pipeline.panels()[0])
+    assert pipeline.portraits() == ["Unnamed people"]
+    assert pipeline.panel_portraits(pipeline.panels()[0])
+
+
+def test_panel_without_portraits_keeps_its_stamp(pipeline):
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    before = pipeline.panel_stamp(panel)
+    assert "CHARACTER REFERENCE PORTRAITS" not in build_prompt(panel, pipeline.continuity(), "4:3")
+    assert before == digest({"panel": panel.model_dump(exclude={"page", "panel_number", "weight"}),
+        "aspect": pipeline.aspects()[panel.panel_id], "continuity": pipeline.continuity(), "source": pipeline.stamp()})
+
+
+def test_diffusion_prompts_handle_portraits(pipeline):
+    from bom_comic.comic import diffusion_prompts, build_portrait_prompt
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    with_refs = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3", ["Unnamed people"]))
+    assert with_refs == diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3"))
+    positive, negative = diffusion_prompts(build_portrait_prompt(
+        "Ammon", {"visual_design_choices": ["Short dark beard"]}, DEFAULT_CONTINUITY["visual_style"]))
+    assert "Reference portrait of Ammon" in positive and "Short dark beard" in positive
+    assert "other people in the image" in negative
+
+
+def test_gemini_adapter_labels_reference_portraits(tmp_path):
+    import io
+    from types import SimpleNamespace
+    from PIL import Image
+    from google.genai import types
+    from bom_comic.providers import Gemini
+    data = io.BytesIO()
+    Image.new("RGB", (32, 32), "blue").save(data, format="PNG")
+    response = types.GenerateContentResponse(candidates=[types.Candidate(content=types.Content(
+        parts=[types.Part.from_bytes(data=data.getvalue(), mime_type="image/png")]))])
+    calls = []
+    provider = Gemini.__new__(Gemini)
+    provider.config = Config(api_key="fake", image_model="configurable-model")
+    provider.store = Store(tmp_path / "adapter")
+    provider.client = SimpleNamespace(models=SimpleNamespace(
+        generate_content=lambda **kwargs: calls.append(kwargs) or response))
+    portrait = provider.store.path("ammon.png")
+    Image.new("RGB", (30, 40), "red").save(portrait)
+    provider.generate_image("Approved prompt", reference_images=[("Ammon", portrait)],
+                            output_path=provider.store.path("out.png"))
+    contents = calls[0]["contents"]
+    assert contents[:2] == ["Approved prompt", "Reference portrait: Ammon"]
+    assert contents[2].inline_data.mime_type == "image/png"

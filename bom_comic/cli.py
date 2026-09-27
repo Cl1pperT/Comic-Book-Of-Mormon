@@ -29,6 +29,10 @@ def main():
     review.add_argument("id", nargs="?")
     review.add_argument("--decision", choices=["approve", "reject"])
     review.add_argument("--note", default="")
+    portrait_cmd = commands.add_parser("portraits", help="Render one reference portrait per character record")
+    portrait_cmd.add_argument("--id", help="Re-render one character's portrait (its exact name in characters.json)")
+    portrait_cmd.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
+    portrait_cmd.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     generation = commands.add_parser("generate")
     generation.add_argument("--id", help="Regenerate one panel; retains old image revisions")
     generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
@@ -37,7 +41,7 @@ def main():
     args = parser.parse_args()
     store = Store(args.run)
     try:
-        if args.command in ("validate", "plan", "preview", "review", "generate", "assemble") and not store.path("scenes.json").exists():
+        if args.command in ("validate", "plan", "preview", "review", "portraits", "generate", "assemble") and not store.path("scenes.json").exists():
             raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
         if args.command in ("analyze", "validate"):
@@ -46,7 +50,7 @@ def main():
                 provider = Ollama(store)
             else:
                 provider = Gemini(Config.load(), store)
-        elif args.command == "generate":
+        elif args.command in ("portraits", "generate"):
             if getattr(args, "placeholder", False):
                 provider = PlaceholderImages()
             elif getattr(args, "local", False):
@@ -85,7 +89,13 @@ def main():
                         print(store.path(pipeline.image_record(panel, aspects)["path"]))
                     else:
                         from .comic import build_prompt
-                        print(build_prompt(panel, pipeline.continuity(), aspects[panel.panel_id]))
+                        portraits = pipeline.panel_portraits(panel)
+                        for name, entry in portraits.items():
+                            print(f"Reference portrait for {name}: {store.path(entry['path'])}")
+                        print(build_prompt(panel, pipeline.continuity(), aspects[panel.panel_id], list(portraits)))
+        elif args.command == "portraits":
+            for name in pipeline.portraits(args.id):
+                print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])}")
         elif args.command == "generate":
             pipeline.generate(args.id)
         elif args.command == "assemble":

@@ -45,7 +45,11 @@ class Gemini:
         from google.genai import types
         model = self.config.require("image")
         contents = [prompt]
-        for path in reference_images or []:
+        for reference in reference_images or []:
+            # A (label, path) pair names the image right before it, e.g. which character a portrait shows.
+            label, path = reference if isinstance(reference, tuple) else (None, reference)
+            if label:
+                contents.append(f"Reference portrait: {label}")
             with Image.open(path) as im:
                 buffer = io.BytesIO()
                 im.save(buffer, format="PNG")
@@ -203,6 +207,10 @@ class PlaceholderImages:
             rw, rh = (int(n) for n in aspect_ratio.split(":"))
             w, h = 1000, round(1000 * rh / rw)
         im = Image.new("RGB", (w, h), "#273340")
-        ImageDraw.Draw(im).text((30, 30), "OFFLINE TEST PLACEHOLDER - NOT COMIC ART", fill="white")
+        draw = ImageDraw.Draw(im)
+        draw.text((30, 30), "OFFLINE TEST PLACEHOLDER - NOT COMIC ART", fill="white")
+        for i, reference in enumerate(reference_images or []):
+            label = reference[0] if isinstance(reference, tuple) else Path(reference).name
+            draw.text((30, 60 + 20 * i), f"Reference portrait attached: {label}", fill="white")
         im.save(output_path)
         return str(output_path)

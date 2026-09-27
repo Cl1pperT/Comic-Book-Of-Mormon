@@ -126,8 +126,19 @@ def _paginate(scenes, weights):
     return panels
 
 
-def build_prompt(panel, continuity, aspect):
+PORTRAITS_HEADING = "CHARACTER REFERENCE PORTRAITS"
+PORTRAIT_ASPECT = "3:4"
+
+
+def build_prompt(panel, continuity, aspect, portraits=()):
     w, h = (int(n) for n in aspect.split(":"))
+    references = []
+    if portraits:
+        # Sent as the attached images, in this order; diffusion_prompts drops this section.
+        references = [PORTRAITS_HEADING + "\nThe attached images are reference portraits of: " + "; ".join(portraits)
+                      + ". Draw each of these people with the same face, build, hair, skin tone and clothing as their"
+                      " portrait. Use the portraits only for appearance: do not copy their pose, framing, lighting or"
+                      " plain background, and do not add anyone because a portrait is attached."]
     return "\n\n".join([
         "Visualize only this approved panel. You do not decide the story.",
         "GLOBAL STYLE\n" + json.dumps(continuity["visual_style"]),
@@ -135,6 +146,7 @@ def build_prompt(panel, continuity, aspect):
             {name: continuity["locations"].get(name, {}) for name in panel.location}),
         "CHARACTER CONSISTENCY (design choices are not scripture)\n" + json.dumps(
             {name: continuity["characters"].get(name, {}) for name in panel.characters_visible}),
+        *references,
         "APPROVED ACTION\n" + panel.action,
         "VISIBLE PEOPLE\n" + json.dumps(panel.characters_visible),
         "LOCATION\n" + json.dumps(panel.location),
@@ -144,6 +156,34 @@ def build_prompt(panel, continuity, aspect):
         "PANEL SHAPE\n" + f"{panel.shot} panel; compose for a frame {w / h:.2f} times as wide as it is tall",
         "MOOD / COMPOSITION / CAMERA\n" + " / ".join([panel.mood, panel.composition, panel.camera]),
         "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + panel.prohibited)])
+
+
+def portrait_eligible(record):
+    """A character record can seed a reference portrait unless it opts out or gives nothing to draw from."""
+    return bool(record) and record.get("reference_portrait", True) is not False and bool(
+        record.get("scriptural_facts") or record.get("visual_design_choices"))
+
+
+def build_portrait_prompt(name, record, style):
+    """One character's reference portrait. Same sections as a panel prompt, so local rendering works too."""
+    return "\n\n".join([
+        "Draw one character reference portrait. It is a design reference used to keep this person looking the "
+        "same across comic panels; it depicts no scene or event.",
+        "GLOBAL STYLE\n" + json.dumps(style),
+        "LOCATION CONSISTENCY (design choices are not scripture)\n{}",
+        "CHARACTER CONSISTENCY (design choices are not scripture)\n" + json.dumps({name: record}),
+        "APPROVED ACTION\n" + f"Reference portrait of {name}, alone, waist up, facing three-quarters toward the viewer",
+        "VISIBLE PEOPLE\n" + json.dumps([name]),
+        "LOCATION\n[]",
+        "EXPLICIT SCRIPTURAL FACTS\n[]",
+        "REASONABLE VISUAL INFERENCES\n[]",
+        "UNSPECIFIED CREATIVE DETAILS\n" + json.dumps(["Plain, softly lit neutral background"]),
+        "PANEL SHAPE\nReference portrait; compose for a frame 0.75 times as wide as it is tall",
+        "MOOD / COMPOSITION / CAMERA\nCalm, neutral expression / Single figure centered, face and clothing clearly readable / Waist-up, eye level",
+        "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + [
+            "No other people in the image",
+            "Do not invent an appearance the record doesn't state or allow; for a heavenly or divine figure, "
+            "depict only appearance its scriptural facts state"])])
 
 
 _NEGATED = re.compile(r"^(?:no|never|not|avoid|without|do not)\s", re.I)
@@ -232,7 +272,7 @@ def diffusion_prompts(prompt):
 _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scripture)",
              "CHARACTER CONSISTENCY (design choices are not scripture)", "APPROVED ACTION", "VISIBLE PEOPLE",
              "LOCATION", "EXPLICIT SCRIPTURAL FACTS", "REASONABLE VISUAL INFERENCES", "UNSPECIFIED CREATIVE DETAILS",
-             "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS"}
+             "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS", PORTRAITS_HEADING}
 
 
 # Page geometry in pixels at 150 dpi. Panels fill the live area edge to edge with thin gutters.
