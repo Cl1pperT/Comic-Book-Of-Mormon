@@ -5,8 +5,8 @@ class Model(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 class Verse(Model):
-    book: Literal["3 Nephi"] = "3 Nephi"
-    chapter: int = Field(ge=8, le=11)
+    book: str = Field(min_length=1)
+    chapter: int = Field(ge=1)
     verse: int = Field(ge=1)
     text: str = Field(min_length=1)
     @property

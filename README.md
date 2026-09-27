@@ -187,7 +187,7 @@ Assembly draws each page from the same layout `plan` used (see Page layout above
 
 ## Prepared full-story source
 
-The supplied EPUB has been extracted to `data/full-scripture.json` and `data/full-scripture.txt`, with 73 verses spanning exactly 3 Nephi 8:1–11:7. See [full-story source and workflow](data/FULL_STORY.md) for provenance, the embedded-verse correction, and the cliffhanger boundary. Reproduce extraction with `python -m bom_comic.epub data/BookOfMormon.epub`.
+The supplied EPUB has been extracted to `data/full-scripture.json` and `data/full-scripture.txt`, with all 6,604 numbered verses across the Book of Mormon. The comic prototype still selects its 73-verse range, 3 Nephi 8:1–11:7. See [full-story source and workflow](data/FULL_STORY.md) for that story's provenance and cliffhanger boundary. Reproduce extraction with `python -m bom_comic.epub data/BookOfMormon.epub`.
 
 For a full run, `python main.py --run runs/full-story preview` writes `review/STORYBOARD.md`, `review/draft-panels.json`, and `review/draft-prompts.json` after validation. These are review artifacts only; they cannot bypass the production scene/panel approvals. `validate --workers 4` can perform up to four independent checks concurrently (default: one); use fewer workers if your API quota is limited.
 
