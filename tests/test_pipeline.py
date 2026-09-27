@@ -342,6 +342,15 @@ def test_classify_shot_short_exchange_between_few_people_is_close():
     assert classify_shot(scene) == "close"
 
 
+def test_classify_shot_disembodied_voice_is_not_close():
+    """A scene with dialogue but zero visible characters (an off-screen voice, common in
+    3 Nephi 9-10) must never get 'close' — that shot's camera/composition text calls for
+    intimate framing on faces, which directly fights a no-figures-visible scene."""
+    scene = make_scene(characters=[],
+        spoken_dialogue=[Speech(speaker="Voice", text="A short line.", refs=["3 Nephi 8:1"])])
+    assert classify_shot(scene) == "wide"
+
+
 def test_classify_shot_long_dialogue_is_not_close():
     long = " ".join(["word"] * 40)
     scene = make_scene(characters=["A"], spoken_dialogue=[Speech(speaker="A", text=long, refs=["3 Nephi 8:1"])])
