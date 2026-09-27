@@ -1,8 +1,18 @@
 {
   "Lehi": {
     "scriptural_facts": [
-      {"text": "Lehi dwelt at Jerusalem all his days.", "refs": ["1 Nephi 1:4"]},
-      {"text": "His sons called him a visionary man.", "refs": ["1 Nephi 2:11"]}
+      {
+        "text": "Lehi dwelt at Jerusalem all his days.",
+        "refs": [
+          "1 Nephi 1:4"
+        ]
+      },
+      {
+        "text": "His sons called him a visionary man.",
+        "refs": [
+          "1 Nephi 2:11"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An Israelite man of Jerusalem, about sixty, around 600 BC.",
@@ -17,21 +27,38 @@
   },
   "Sariah": {
     "scriptural_facts": [
-      {"text": "Sariah was Lehi's wife and the mother of Laman, Lemuel, Sam, and Nephi.", "refs": ["1 Nephi 2:5"]}
+      {
+        "text": "Sariah was Lehi's wife and the mother of Laman, Lemuel, Sam, and Nephi.",
+        "refs": [
+          "1 Nephi 2:5"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "An Israelite woman of Jerusalem, in her sixties, around 600 BC.",
-      "Olive-brown skin, visibly aged and wrinkled, dark hair with a few grey strands, warm brown eyes, strong but kind features.",
+      "An elderly grandmotherly Israelite woman of about sixty-five, around 600 BC; clearly old, never young.",
+      "Deeply lined, weathered olive-brown face with wrinkles at the eyes and mouth, sagging jawline, thin grey-white hair showing at the edge of her veil, warm tired brown eyes.",
+      "Slightly stooped posture, work-worn hands.",
       "Long madder-red wool dress with an embroidered neckline, a cream linen head veil falling to her shoulders, simple bronze earrings."
     ],
     "locked_traits": [
+      "Always visibly elderly: grey-white hair, lined face; the same age as Lehi.",
       "Same face, madder-red dress, and cream veil in every panel."
     ]
   },
   "Laman": {
     "scriptural_facts": [
-      {"text": "Laman was Lehi's eldest son.", "refs": ["1 Nephi 2:5"]},
-      {"text": "He murmured against his father.", "refs": ["1 Nephi 2:11"]}
+      {
+        "text": "Laman was Lehi's eldest son.",
+        "refs": [
+          "1 Nephi 2:5"
+        ]
+      },
+      {
+        "text": "He murmured against his father.",
+        "refs": [
+          "1 Nephi 2:11"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An Israelite man in his late twenties, around 600 BC; the tallest and broadest of the brothers except Nephi.",
@@ -44,8 +71,18 @@
   },
   "Lemuel": {
     "scriptural_facts": [
-      {"text": "Lemuel was Lehi's second son.", "refs": ["1 Nephi 2:5"]},
-      {"text": "He murmured against his father with Laman.", "refs": ["1 Nephi 2:11"]}
+      {
+        "text": "Lemuel was Lehi's second son.",
+        "refs": [
+          "1 Nephi 2:5"
+        ]
+      },
+      {
+        "text": "He murmured against his father with Laman.",
+        "refs": [
+          "1 Nephi 2:11"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An Israelite man in his mid twenties, around 600 BC; leaner than Laman.",
@@ -58,8 +95,18 @@
   },
   "Sam": {
     "scriptural_facts": [
-      {"text": "Sam was Lehi's third son.", "refs": ["1 Nephi 2:5"]},
-      {"text": "Sam believed Nephi's words.", "refs": ["1 Nephi 2:17"]}
+      {
+        "text": "Sam was Lehi's third son.",
+        "refs": [
+          "1 Nephi 2:5"
+        ]
+      },
+      {
+        "text": "Sam believed Nephi's words.",
+        "refs": [
+          "1 Nephi 2:17"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An Israelite young man about twenty, around 600 BC.",
@@ -72,25 +119,56 @@
   },
   "Nephi": {
     "scriptural_facts": [
-      {"text": "Nephi was born of goodly parents and taught in the learning of his father.", "refs": ["1 Nephi 1:1"]},
-      {"text": "Nephi was exceedingly young, yet large in stature.", "refs": ["1 Nephi 2:16"]}
+      {
+        "text": "Nephi was born of goodly parents and taught in the learning of his father.",
+        "refs": [
+          "1 Nephi 1:1"
+        ]
+      },
+      {
+        "text": "Nephi was exceedingly young, yet large in stature.",
+        "refs": [
+          "1 Nephi 2:16"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "An Israelite youth about 23, around 600 BC, already taller and broader than grown men. Very Muscular.",
-      "Olive-brown skin, a first thin beard along the jaw, shoulder-length dark-brown hair, steady determined eyes.",
-      "Cream linen tunic, a deep blue wool mantle, leather belt, sandals."
+      "A towering, broad-shouldered, heavily muscled Israelite man of about 23, around 600 BC; a head taller than grown men.",
+      "Olive-brown skin, a short dark beard, shoulder-length dark-brown hair, steady determined eyes.",
+      "Cream linen tunic straining over a massive chest and arms, a deep blue wool mantle, leather belt, sandals."
     ],
     "locked_traits": [
-      "Same face, youthful build, and deep blue mantle in every panel.",
-      "Clearly the largest in stature among his brothers while clearly the youngest."
+      "Same face, massive build, and deep blue mantle in every panel.",
+      "Clearly the largest in stature among his brothers while clearly the youngest.",
+      "Never slight, slim, or small."
     ]
   },
   "Laban": {
     "scriptural_facts": [
-      {"text": "Laban kept the record of the Jews and a genealogy on plates of brass.", "refs": ["1 Nephi 3:3"]},
-      {"text": "Laban was a mighty man who could command fifty.", "refs": ["1 Nephi 3:31"]},
-      {"text": "His sword had a hilt of pure gold and a blade of most precious steel.", "refs": ["1 Nephi 4:9"]},
-      {"text": "Laban wore armor.", "refs": ["1 Nephi 4:19"]}
+      {
+        "text": "Laban kept the record of the Jews and a genealogy on plates of brass.",
+        "refs": [
+          "1 Nephi 3:3"
+        ]
+      },
+      {
+        "text": "Laban was a mighty man who could command fifty.",
+        "refs": [
+          "1 Nephi 3:31"
+        ]
+      },
+      {
+        "text": "His sword had a hilt of pure gold and a blade of most precious steel.",
+        "refs": [
+          "1 Nephi 4:9"
+        ]
+      },
+      {
+        "text": "Laban wore armor.",
+        "refs": [
+          "1 Nephi 4:19"
+        ]
+      }
     ],
     "visual_design_choices": [
       "A powerful Jerusalem official in his forties, around 600 BC, heavy-set and imposing.",
@@ -104,7 +182,13 @@
   },
   "Zoram": {
     "scriptural_facts": [
-      {"text": "Zoram was the servant of Laban who had the keys of the treasury.", "refs": ["1 Nephi 4:20", "1 Nephi 4:35"]}
+      {
+        "text": "Zoram was the servant of Laban who had the keys of the treasury.",
+        "refs": [
+          "1 Nephi 4:20",
+          "1 Nephi 4:35"
+        ]
+      }
     ],
     "visual_design_choices": [
       "A Jerusalem household servant in his early twenties, around 600 BC.",
@@ -117,8 +201,19 @@
   },
   "Ishmael": {
     "scriptural_facts": [
-      {"text": "Ishmael and his family lived at Jerusalem and went into the wilderness with Lehi's family.", "refs": ["1 Nephi 7:2", "1 Nephi 7:4"]},
-      {"text": "His daughters married Lehi's sons and Zoram.", "refs": ["1 Nephi 16:7"]}
+      {
+        "text": "Ishmael and his family lived at Jerusalem and went into the wilderness with Lehi's family.",
+        "refs": [
+          "1 Nephi 7:2",
+          "1 Nephi 7:4"
+        ]
+      },
+      {
+        "text": "His daughters married Lehi's sons and Zoram.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An elderly Israelite man of Jerusalem, around 600 BC, older than Lehi.",
@@ -131,8 +226,18 @@
   },
   "The brother of Jared": {
     "scriptural_facts": [
-      {"text": "He came with Jared and their families from the great tower when the language of the people was confounded.", "refs": ["Ether 1:33"]},
-      {"text": "The brother of Jared was a large and mighty man, highly favored of the Lord.", "refs": ["Ether 1:34"]}
+      {
+        "text": "He came with Jared and their families from the great tower when the language of the people was confounded.",
+        "refs": [
+          "Ether 1:33"
+        ]
+      },
+      {
+        "text": "The brother of Jared was a large and mighty man, highly favored of the Lord.",
+        "refs": [
+          "Ether 1:34"
+        ]
+      }
     ],
     "visual_design_choices": [
       "An ancient Mesopotamian man of the great-tower era, in his forties, far older in setting than Lehi's family.",
@@ -148,7 +253,12 @@
   "Nephite settlers (2 Nephi)": {
     "group": true,
     "scriptural_facts": [
-      {"text": "Nephi taught his people to build buildings and to work in wood, iron, copper, brass, steel, gold, and silver.", "refs": ["2 Nephi 5:15"]}
+      {
+        "text": "Nephi taught his people to build buildings and to work in wood, iron, copper, brass, steel, gold, and silver.",
+        "refs": [
+          "2 Nephi 5:15"
+        ]
+      }
     ],
     "visual_design_choices": [
       "The first generation in the promised land: Israelite-descended dress adapting to a new land.",
@@ -156,29 +266,68 @@
       "Men mostly bearded; women with linen head coverings; practical craft tools and simple metal ornaments.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Plain, practical settler dress; still recognizably descended from Lehi's Jerusalem clothing."]
+    "locked_traits": [
+      "Plain, practical settler dress; still recognizably descended from Lehi's Jerusalem clothing."
+    ]
   },
   "Lamanite warriors (Enos to Alma era)": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They wandered the wilderness with a short skin girdle about their loins and their heads shaven; their skill was in the bow, the cimeter, and the ax.", "refs": ["Enos 1:20"]},
-      {"text": "They marked themselves with red in their foreheads.", "refs": ["Alma 3:4"]},
-      {"text": "Their heads were shorn, and they wore only a skin girded about their loins, with bows, arrows, stones, and slings.", "refs": ["Alma 3:5", "Alma 43:20"]},
-      {"text": "They had no breastplates or shields.", "refs": ["Alma 43:21"]}
+      {
+        "text": "They wandered the wilderness with a short skin girdle about their loins and their heads shaven; their skill was in the bow, the cimeter, and the ax.",
+        "refs": [
+          "Enos 1:20"
+        ]
+      },
+      {
+        "text": "They marked themselves with red in their foreheads.",
+        "refs": [
+          "Alma 3:4"
+        ]
+      },
+      {
+        "text": "Their heads were shorn, and they wore only a skin girded about their loins, with bows, arrows, stones, and slings.",
+        "refs": [
+          "Alma 3:5",
+          "Alma 43:20"
+        ]
+      },
+      {
+        "text": "They had no breastplates or shields.",
+        "refs": [
+          "Alma 43:21"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "Lean, hardened wilderness warriors of varied ages and builds.",
+      "Four clearly different men: a grizzled elder with a lined face, a wiry young archer, a heavyset veteran with a broad nose, and a tall lean man with a narrow jaw.",
+      "Every face different in shape, age, and features despite their shaven heads.",
       "Short animal-skin loin girdles, bare torsos, a red ochre mark on each forehead, shaven heads.",
       "Carrying bows, quivers of arrows, slings, stones, curved cimeters, and axes.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Shaven heads, red forehead marks, skin girdles, and no armor, every time."]
+    "locked_traits": [
+      "Shaven heads, red forehead marks, skin girdles, and no armor, every time.",
+      "No identical faces.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   },
   "People of Zarahemla (Mulekites)": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They came out from Jerusalem when Zedekiah was carried captive into Babylon and crossed the great waters.", "refs": ["Omni 1:15", "Omni 1:16"]},
-      {"text": "They had many wars, brought no records, and their language had become corrupted.", "refs": ["Omni 1:17"]}
+      {
+        "text": "They came out from Jerusalem when Zedekiah was carried captive into Babylon and crossed the great waters.",
+        "refs": [
+          "Omni 1:15",
+          "Omni 1:16"
+        ]
+      },
+      {
+        "text": "They had many wars, brought no records, and their language had become corrupted.",
+        "refs": [
+          "Omni 1:17"
+        ]
+      }
     ],
     "visual_design_choices": [
       "Descendants of Jerusalem emigrants after centuries cut off from any records: Old World roots worn down into a rough local style.",
@@ -186,13 +335,25 @@
       "Weapons carried casually from long habits of war: short swords, spears.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Visibly rougher and more worn than Mosiah's Nephites until the two peoples merge."]
+    "locked_traits": [
+      "Visibly rougher and more worn than Mosiah's Nephites until the two peoples merge."
+    ]
   },
   "King Noah's priests": {
     "group": true,
     "scriptural_facts": [
-      {"text": "King Noah taxed the people a fifth of their gold, silver, ziff, copper, brass, iron, fatlings, and grain.", "refs": ["Mosiah 11:3"]},
-      {"text": "The high priests' seats were ornamented with pure gold.", "refs": ["Mosiah 11:11"]}
+      {
+        "text": "King Noah taxed the people a fifth of their gold, silver, ziff, copper, brass, iron, fatlings, and grain.",
+        "refs": [
+          "Mosiah 11:3"
+        ]
+      },
+      {
+        "text": "The high priests' seats were ornamented with pure gold.",
+        "refs": [
+          "Mosiah 11:11"
+        ]
+      }
     ],
     "visual_design_choices": [
       "Well-fed, indulgent court priests of varied ages.",
@@ -200,24 +361,40 @@
       "Soft hands, no tools or weapons; an air of idle luxury.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Always the most extravagantly dressed people present, in clear contrast to Abinadi."]
+    "locked_traits": [
+      "Always the most extravagantly dressed people present, in clear contrast to Abinadi."
+    ]
   },
   "Amlicites": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They marked themselves with red in their foreheads after the manner of the Lamanites, but had not shorn their heads.", "refs": ["Alma 3:4"]}
+      {
+        "text": "They marked themselves with red in their foreheads after the manner of the Lamanites, but had not shorn their heads.",
+        "refs": [
+          "Alma 3:4"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "Nephite dissenters: Nephite-style tunics and armor with a red forehead mark.",
+      "Nephite dissenters: four clearly different men of different ages, builds, and faces.",
+      "Quilted cotton Nephite-style tunics and armor, never European plate armor, with a red ochre mark on the forehead.",
       "Full heads of hair, often tied back; the red mark is the one clear sign of their side.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Red forehead mark and unshorn hair, every time."]
+    "locked_traits": [
+      "Red forehead mark and unshorn hair, every time.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   },
   "Anti-Nephi-Lehies (people of Ammon)": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They buried their swords and all their weapons deep in the earth.", "refs": ["Alma 24:17"]}
+      {
+        "text": "They buried their swords and all their weapons deep in the earth.",
+        "refs": [
+          "Alma 24:17"
+        ]
+      }
     ],
     "visual_design_choices": [
       "Converted Lamanite families, men, women, and elders, living peacefully.",
@@ -225,58 +402,99 @@
       "No weapons of any kind.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Never armed; peaceful dress clearly distinct from Lamanite warriors."]
+    "locked_traits": [
+      "Never armed; peaceful dress clearly distinct from Lamanite warriors."
+    ]
   },
   "Zoramites": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They wore costly apparel, ringlets, bracelets, and ornaments of gold.", "refs": ["Alma 31:28"]}
+      {
+        "text": "They wore costly apparel, ringlets, bracelets, and ornaments of gold.",
+        "refs": [
+          "Alma 31:28"
+        ]
+      }
     ],
     "visual_design_choices": [
       "Proud, prosperous Nephite dissenters.",
       "Fine dyed cotton robes in rich colors, hair in ringlets, gold bracelets, rings, and ornaments on every member.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Visibly wealthy and ornamented every time; ringlets and gold bracelets always present."]
+    "locked_traits": [
+      "Visibly wealthy and ornamented every time; ringlets and gold bracelets always present."
+    ]
   },
   "Nephite armies of Moroni": {
     "group": true,
     "scriptural_facts": [
-      {"text": "Moroni prepared his people with breastplates, arm-shields, shields to defend their heads, and thick clothing.", "refs": ["Alma 43:19"]}
+      {
+        "text": "Moroni prepared his people with breastplates, arm-shields, shields to defend their heads, and thick clothing.",
+        "refs": [
+          "Alma 43:19"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "Disciplined Nephite soldiers of varied between 25 and 70",
-      "Thick quilted cotton armor, hardened breastplates, round arm-shields, and head shields; swords and spears.",
-      "Muted undyed and indigo cloth, uniform in cut.",
+      "Disciplined Nephite soldiers, all men, aged between 25 and 70, each a clearly different face and build.",
+      "Thick quilted cotton body armor, a hardened leather or wooden breastplate, a round wooden or hide shield strapped to the forearm, and a padded cotton cap as a head shield.",
+      "Mesoamerican-inspired arms and armor, never European: no metal plate armor, no knight's pauldrons, no heater shields.",
+      "Swords and spears; muted undyed and indigo cloth, uniform in cut.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Always armored with breastplate, arm-shield, and head shield, in clear contrast to unarmored Lamanite warriors."]
+    "locked_traits": [
+      "Always armored with breastplate, arm-shield, and head shield, in clear contrast to unarmored Lamanite warriors.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   },
   "Stripling warriors": {
     "group": true,
     "scriptural_facts": [
-      {"text": "There were two thousand young men who took up weapons of war to defend their country.", "refs": ["Alma 53:18"]},
-      {"text": "They were all young men, exceedingly valiant for courage, strength, and activity.", "refs": ["Alma 53:20"]}
+      {
+        "text": "There were two thousand young men who took up weapons of war to defend their country.",
+        "refs": [
+          "Alma 53:18"
+        ]
+      },
+      {
+        "text": "They were all young men, exceedingly valiant for courage, strength, and activity.",
+        "refs": [
+          "Alma 53:20"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "Men around 20 years old, lean and athletic, sons of the Anti-Nephi-Lehies.",
-      "Thick quilted cotton armor and head shields like the Nephite armies, with soft blue and white accents echoing their parents' dress.",
+      "Young men around 20 years old, lean and athletic, sons of the Anti-Nephi-Lehies, each a clearly different face.",
+      "Thick quilted cotton armor, a round wooden arm-shield, and a padded cotton head shield like the Nephite armies, with soft blue and white accents echoing their parents' dress.",
+      "Mesoamerican-inspired, never European: no metal scale or plate armor.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Always visibly young; armored like Nephite soldiers."]
+    "locked_traits": [
+      "Always visibly young; armored like Nephite soldiers.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   },
   "Gadianton robbers": {
     "group": true,
     "scriptural_facts": [
-      {"text": "They were girded after the manner of robbers, with a lamb-skin about their loins, dyed in blood, heads shorn, and head-plates upon them.", "refs": ["3 Nephi 4:7"]}
+      {
+        "text": "They were girded after the manner of robbers, with a lamb-skin about their loins, dyed in blood, heads shorn, and head-plates upon them.",
+        "refs": [
+          "3 Nephi 4:7"
+        ]
+      }
     ],
     "visual_design_choices": [
-      "Menacing mountain bandits of varied ages and builds.",
-      "Lamb-skin loin coverings, shorn heads with dark metal head-plates.",
+      "Menacing mountain bandits, four clearly different men of different ages and builds.",
+      "A lamb-skin wrapped about the loins with bare legs and bare torso; no trousers.",
+      "Shaven scalps with a flat head-plate of hardened hide or wood strapped over the crown, never metal; faces fully uncovered, no helmets or masks.",
       "'Dyed in blood' shown as dark rust-red dye streaked over skin and lamb-skins, never as wounds.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["Lamb-skins, rust-red dye, shorn heads, and head-plates, every time."]
+    "locked_traits": [
+      "Lamb-skins, rust-red dye, shorn heads, and head-plates, every time.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   },
   "Jaredites (in the promised land)": {
     "group": true,
@@ -287,13 +505,22 @@
       "Warriors carry broad swords and round shields; clearly not Nephite or Lamanite in style.",
       "Skin tones vary naturally from person to person; skin color is never a group marker."
     ],
-    "locked_traits": ["A distinct, older culture: never dressed like Nephites or Lamanites."]
+    "locked_traits": [
+      "A distinct, older culture: never dressed like Nephites or Lamanites."
+    ]
   },
   "Jesus Christ (at Bountiful)": {
     "scriptural_facts": [
-      {"text": "He descended out of heaven clothed in a white robe and stood in the midst of the multitude.", "refs": ["3 Nephi 11:8"]}
+      {
+        "text": "He descended out of heaven clothed in a white robe and stood in the midst of the multitude.",
+        "refs": [
+          "3 Nephi 11:8"
+        ]
+      }
     ],
     "visual_design_choices": [],
-    "locked_traits": ["Only what scripture states: a man clothed in a white robe."]
+    "locked_traits": [
+      "Only what scripture states: a man clothed in a white robe."
+    ]
   }
 }

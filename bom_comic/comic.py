@@ -20,7 +20,8 @@ DEFAULT_CONTINUITY = {
                      "greenery — except storm, destruction, and darkness scenes, which stay desaturated and dramatic.",
                      "locked_traits": ["Hand-inked/painted comic illustration with visible linework; never photographic or photorealistic.",
                                        "Architecture is always Mesoamerican/Andean in style, never European or Asian.",
-                                       "Color is vivid and saturated except in storm/destruction/darkness scenes."]}}
+                                       "Color is vivid and saturated except in storm/destruction/darkness scenes.",
+                                       "Armor is quilted cotton, hide, wood, or leather, never metal plate or chainmail."]}}
 
 # Frame shapes come from the page layout; a shot only states the width/height ratio it prefers,
 # which steers how the layout groups panels into rows.
