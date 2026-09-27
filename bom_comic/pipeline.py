@@ -46,11 +46,7 @@ class Pipeline:
                 raise ValueError("Unknown scene")
             old = scenes[index]
             verses = [v for v in self.verses() if v.ref in old.refs]
-            prompt = RULES + "\nRegenerate exactly one scene using only these verses. Preserve all refs. Return one" \
-                " scene. If a verse's own text exceeds 65 words, quote only its single most essential exact" \
-                " fragment as narration/dialogue, not the entire verse; the rest stays covered by explicit_facts." \
-                " List every VISIBLE person or group in characters and every VISIBLE setting in locations; never" \
-                " leave these empty when the verse shows someone/somewhere present, even if unnamed.\n"
+            prompt = RULES + "\nRegenerate exactly one scene using only these verses. Preserve all refs. Return one \n"
             result = self.provider.structured(prompt + json.dumps({
                 "source": [v.model_dump() for v in verses], "previous_draft": old.model_dump()}),
                 SceneBatch, f"regenerate_{identifier}_{uuid4().hex[:12]}")

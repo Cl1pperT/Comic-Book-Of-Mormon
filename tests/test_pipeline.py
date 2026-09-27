@@ -612,9 +612,24 @@ def test_diffusion_prompts_move_negations_to_negative(pipeline):
     assert "lettering, captions, logos, or speech bubbles in the image" in negative
     assert "photoreal, a photograph or film still" in negative
     assert "European or Asian" in negative
-    assert "Mesoamerican/Andean-inspired" in positive
     assert not any(word in positive for word in ("No ", "Never ", "never ", "Visualize only"))
     assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3")) == (positive, negative)
+
+
+def test_diffusion_prompts_only_asserts_architecture_when_a_structure_is_in_scene(pipeline):
+    """Architecture style rules describe a building IF one appears; asserted unconditionally
+    they put a temple in every panel, including open-country scenes with no structure at all."""
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    positive, negative = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3"))
+    assert "Mesoamerican/Andean-inspired" not in positive
+    assert "buildings, temples, pyramids, palaces, or other man-made structures" in negative
+
+    built = panel.model_copy(update={"location": ["the temple court"]})
+    positive, negative = diffusion_prompts(build_prompt(built, DEFAULT_CONTINUITY, "4:3"))
+    assert "Mesoamerican/Andean-inspired" in positive
+    assert "buildings, temples, pyramids, palaces, or other man-made structures" not in negative
 
 
 def test_comfyui_adapter_submits_workflow_and_saves_image(tmp_path, pipeline):

@@ -171,6 +171,12 @@ def _sort_clauses(texts, positive, negative, constraints=False):
                     target.append(item)
 
 
+_ARCHITECTURE_CLAUSE = re.compile(r"^architecture\b", re.I)
+_BUILT_WORDS = ("temple", "pyramid", "court", "palace", "city", "cities", "house", "building", "tower",
+    "wall", "gate", "room", "chamber", "throne", "altar", "doorway", "dwelling", "town", "village",
+    "fortress", "structure", "hall", "stairway", "ruins", "prison", "market")
+
+
 def diffusion_prompts(prompt):
     # Diffusion models can't obey "no X" (naming X invites it), so negated clauses move to the
     # negative prompt. Nothing is added; preamble, creative-latitude and shape lines are dropped.
@@ -184,16 +190,36 @@ def diffusion_prompts(prompt):
     style = json.loads(sections["GLOBAL STYLE"])
     people = json.loads(sections["VISIBLE PEOPLE"])
     places = json.loads(sections["LOCATION"])
+    location_records = json.loads(sections["LOCATION CONSISTENCY (design choices are not scripture)"])
     # Flux weights early tokens most, so the panel's own content leads and global style follows.
     positive, negative = ["Scene: " + sections["APPROVED ACTION"].strip(" .\n")], []
     facts = [c["text"] for c in json.loads(sections["EXPLICIT SCRIPTURAL FACTS"])]
-    _sort_clauses(json.loads(sections["REASONABLE VISUAL INFERENCES"]) + facts, positive, negative)
+    inferences = json.loads(sections["REASONABLE VISUAL INFERENCES"])
+    creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
+    _sort_clauses(inferences + facts, positive, negative)
     if people:
         positive.append("People: " + ", ".join(people))
     if places:
         positive.append("Setting: " + ", ".join(places))
     positive.append(sections["MOOD / COMPOSITION / CAMERA"].replace(" / ", ", "))
-    _sort_clauses([style.get("description", ""), *style.get("locked_traits", [])], positive, negative)
+    # "Architecture ..." style rules only describe what a building should look like if the panel's
+    # own content already calls for one; asserted unconditionally they put a temple in every panel,
+    # including open-country scenes. Gate them on whether anything here actually mentions a structure.
+    location_text = [text for record in location_records.values()
+                      for text in record.get("scriptural_facts", []) + record.get("visual_design_choices", [])
+                      + record.get("locked_traits", [])]
+    location_text = [t["text"] if isinstance(t, dict) else t for t in location_text]
+    built = any(word in text.lower() for text in places + facts + inferences + creative + location_text
+                + [sections["APPROVED ACTION"]] for word in _BUILT_WORDS)
+    style_positive, style_negative = [], []
+    _sort_clauses([style.get("description", ""), *style.get("locked_traits", [])], style_positive, style_negative)
+    architecture, other_style = [], []
+    for clause in style_positive:
+        (architecture if _ARCHITECTURE_CLAUSE.match(clause) else other_style).append(clause)
+    positive += other_style + (architecture if built else [])
+    negative += style_negative
+    if not built:
+        negative.append("buildings, temples, pyramids, palaces, or other man-made structures")
     for key in ("LOCATION CONSISTENCY (design choices are not scripture)", "CHARACTER CONSISTENCY (design choices are not scripture)"):
         for record in json.loads(sections[key]).values():
             facts = [f["text"] if isinstance(f, dict) else f for f in record.get("scriptural_facts", [])]
