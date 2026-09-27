@@ -1,4 +1,4 @@
-"""Extract this Gutenberg EPUB's explicitly numbered 3 Nephi paragraphs."""
+"""Extract explicitly numbered Book of Mormon verses from a Gutenberg EPUB."""
 import argparse
 import hashlib
 import json
@@ -7,46 +7,79 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
 from bom_comic.models import Verse
-from bom_comic.scripture import select
+from bom_comic.scripture import BOOKS
 
 
 def extract(path):
     records, evidence = [], []
+    seen = set()
     with ZipFile(path) as archive:
         for member in archive.namelist():
             if not member.endswith(('.xhtml', '.html')):
                 continue
             root = ET.fromstring(archive.read(member))
-            headings = [' '.join(''.join(e.itertext()).split()) for e in root.iter()
-                        if e.tag.split('}')[-1] in ('h1', 'h2')]
-            if 'THIRD BOOK OF NEPHI' not in headings:
+            title = ' '.join(' '.join(''.join(e.itertext()).split()) for e in root.iter()
+                             if e.tag.split('}')[-1] in ('h1', 'h2')).upper()
+            aliases = {'1 NEPHI': '1 Nephi', '2 NEPHI': '2 Nephi', 'THIRD BOOK OF NEPHI': '3 Nephi',
+                       'FOURTH NEPHI': '4 Nephi', 'THE WORDS OF MORMON': 'Words of Mormon',
+                       'THE BOOK OF JACOB': 'Jacob', 'THE BOOK OF ENOS': 'Enos',
+                       'THE BOOK OF JAROM': 'Jarom', 'THE BOOK OF OMNI': 'Omni',
+                       'THE BOOK OF MOSIAH': 'Mosiah', 'THE BOOK OF ALMA': 'Alma',
+                       'THE BOOK OF HELAMAN': 'Helaman', 'THE BOOK OF MORMON': 'Mormon',
+                       'THE BOOK OF ETHER': 'Ether', 'THE BOOK OF MORONI': 'Moroni'}
+            book = next((value for key, value in aliases.items() if key in title), None)
+            if book is None:
+                for heading in root.iter():
+                    if heading.tag.split('}')[-1] not in ('h2', 'h3'):
+                        continue
+                    heading_text = ' '.join(''.join(heading.itertext()).split())
+                    bm = re.match(r'(.+?) Chapter \d+$', heading_text)
+                    if bm and bm[1] in BOOKS:
+                        book = bm[1]
+                        break
+            if book is None:
                 continue
             chapter = None
+            if book in ('Enos', 'Jarom', 'Omni', 'Words of Mormon'):
+                chapter = 1
             for element in root.iter():
                 tag = element.tag.split('}')[-1]
                 text = ' '.join(''.join(element.itertext()).split())
-                if tag == 'h3':
-                    match = re.fullmatch(r'3 Nephi Chapter (\d+)', text)
-                    chapter = int(match[1]) if match else None
-                if tag != 'p' or chapter not in (8, 9, 10, 11):
+                if tag in ('h2', 'h3'):
+                    cm = re.search(r'Chapter (\d+)', text)
+                    if cm:
+                        chapter = int(cm[1])
+                if tag != 'p':
                     continue
-                parts = re.split(r"\s+3 Nephi (?=\d+:\d+\s)", text)
+                text = re.sub(r'\b(?:1 Nephi|2 Nephi|3 Nephi|4 Nephi|Words of Mormon|Jacob|Enos|Jarom|Omni|Mosiah|Alma|Helaman|Mormon|Ether|Moroni) (?=\d+:\d+)', '', text)
+                parts = re.split(r"\s+(?=\d+:\d+\s)", text)
                 for part in parts:
                     match = re.fullmatch(r'(\d+):(\d+)\s+(.+)', part)
-                    if not match:
-                        raise ValueError('Unexpected unnumbered paragraph in selected chapter')
-                    c, v = int(match[1]), int(match[2])
-                    if c != chapter:
-                        raise ValueError('Paragraph/chapter mismatch')
-                    if c == 11 and v > 7:
+                    if match:
+                        b, c, v, body = book, int(match[1]), int(match[2]), match[3]
+                    elif chapter is not None and re.match(r'^\d+:\d+\s', part):
+                        vm = re.fullmatch(r'(\d+):(\d+)\s+(.+)', part)
+                        b, c, v, body = book, chapter, int(vm[2]), vm[3]
+                        if int(vm[1]) != chapter:
+                            raise ValueError(f'Chapter mismatch in {member}: {part[:40]}')
+                    else:
                         continue
-                    verse = Verse(chapter=c, verse=v, text=match[3])
+                    verse = Verse(book=b, chapter=c, verse=v, text=body)
+                    if verse.ref in seen:
+                        raise ValueError(f'Duplicate verse: {verse.ref}')
+                    seen.add(verse.ref)
                     records.append(verse)
                     evidence.append({'ref': verse.ref, 'epub_member': member,
                                      'paragraph_sha256': hashlib.sha256(text.encode()).hexdigest()})
-    records = select(records, '3 Nephi 8:1', '3 Nephi 11:7')
-    if len({v.ref for v in records}) != 73:
-        raise ValueError('Expected exactly 73 unique verses')
+    if not records:
+        raise ValueError('No numbered verses found')
+    records.sort(key=lambda v: (BOOKS.index(v.book), v.chapter, v.verse))
+    by_chapter = {}
+    for verse in records:
+        by_chapter.setdefault((verse.book, verse.chapter), []).append(verse.verse)
+    for (book, chapter), numbers in by_chapter.items():
+        if numbers != list(range(1, numbers[-1] + 1)):
+            raise ValueError(f'Non-contiguous verses in {book} {chapter}: {numbers}')
     return records, evidence
 
 
