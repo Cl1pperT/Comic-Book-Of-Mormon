@@ -23,9 +23,10 @@ DEFAULT_CONTINUITY = {
                                        "Architecture is always Mesoamerican/Andean in style, never European or Asian.",
                                        "Color is vivid and saturated except in storm/destruction/darkness scenes."]}}
 
-# A small, fixed shot vocabulary drives both the requested image aspect ratio and the page
-# layout. Aspect values are the exact strings Gemini's image_config.aspect_ratio accepts.
-SHOT_ASPECT = {"splash": "3:4", "wide": "16:9", "tall": "2:3", "medium": "4:3", "close": "1:1"}
+# Frame shapes come from the page layout; a shot only states the width/height ratio it prefers,
+# which steers how the layout groups panels into rows.
+SHOT_PREFERENCE = {"splash": 0.75, "wide": 1.78, "tall": 0.67, "medium": 1.33, "close": 1.0}
+PAGE_UNITS = 6
 SHOT_CAMERA = {
     "splash": "Full-page wide establishing view",
     "wide": "Wide establishing view",
@@ -71,19 +72,51 @@ def classify_shot(scene):
     return "tall" if narration_words and narration_words <= 12 else "medium"
 
 
-def plan(scenes, target_pages=10):
+def classify_weight(scene):
+    """Share of a six-unit page: 6 = full page, 1 = one sixth. Pure function of approved data."""
+    if scene.importance == "major" or "3 Nephi 11:7" in scene.refs:
+        return 6
+    # Lettering sits on the art, so text-heavy panels need more area to leave the art visible.
+    words = sum(len(c.text.split()) for c in scene.spoken_dialogue + scene.narration)
+    return 3 if words > 90 else 2 if words > 45 else 1
+
+
+def plan(scenes):
     if not scenes:
         raise ValueError("No scenes to plan")
-    panels, page, slot = [], 1, 0
-    per_page = min(3, max(1, math.ceil(len(scenes) / target_pages)))
-    for i, scene in enumerate(scenes, 1):
-        major = scene.importance == "major" or "3 Nephi 11:7" in scene.refs
-        if slot and (major or slot >= per_page):
-            page, slot = page + 1, 0
-        slot += 1
+    weights = [classify_weight(scene) for scene in scenes]
+    draw, fonts = _measure()
+    # Heavier weight means a bigger frame, so repeat until every panel's lettering fits its frame.
+    while True:
+        panels = _paginate(scenes, weights)
+        layout = frames(panels)
+        tight = [i for i, p in enumerate(panels) if _lettering(draw, p, layout[p.panel_id], fonts) is None]
+        if not tight:
+            return panels
+        for i in tight:
+            if weights[i] == PAGE_UNITS:
+                raise ValueError(f"Too much lettering for {panels[i].panel_id} even on a full page; split its scene")
+            weights[i] += 1
+
+
+def _paginate(scenes, weights):
+    groups = [[]]
+    for i, weight in enumerate(weights):
+        if groups[-1] and sum(weights[j] for j in groups[-1]) + weight > PAGE_UNITS:
+            groups.append([])
+        groups[-1].append(i)
+    # A lone small panel (e.g. just before a full-page moment) borrows its predecessor's last panel.
+    for prev, group in zip(groups, groups[1:]):
+        if len(group) == 1 and weights[group[0]] < PAGE_UNITS and len(prev) >= 3 \
+                and weights[prev[-1]] + weights[group[0]] <= PAGE_UNITS:
+            group.insert(0, prev.pop())
+    position = {i: (page, slot) for page, group in enumerate(groups, 1) for slot, i in enumerate(group, 1)}
+    panels = []
+    for i, (scene, weight) in enumerate(zip(scenes, weights)):
         shot = classify_shot(scene)
-        panels.append(Panel(panel_id=f"panel_{i:03d}", scene_id=scene.scene_id,
-            page=page, panel_number=slot, refs=scene.refs, characters_visible=scene.characters,
+        page, slot = position[i]
+        panels.append(Panel(panel_id=f"panel_{i + 1:03d}", scene_id=scene.scene_id, page=page, panel_number=slot,
+            weight=weight, refs=scene.refs, characters_visible=scene.characters,
             location=scene.locations, action=scene.summary, shot=shot,
             mood=SHOT_MOOD[shot], camera=SHOT_CAMERA[shot], composition=SHOT_COMPOSITION[shot],
             dialogue=scene.spoken_dialogue,
@@ -91,12 +124,11 @@ def plan(scenes, target_pages=10):
             visual_inferences=scene.reasonable_visual_inferences,
             creative_details=scene.unspecified_visual_details,
             prohibited=scene.prohibited_inventions))
-        if major:
-            page, slot = page + 1, 0
     return panels
 
 
-def build_prompt(panel, continuity):
+def build_prompt(panel, continuity, aspect):
+    w, h = (int(n) for n in aspect.split(":"))
     return "\n\n".join([
         "Visualize only this approved panel. You do not decide the story.",
         "GLOBAL STYLE\n" + json.dumps(continuity["visual_style"]),
@@ -110,7 +142,7 @@ def build_prompt(panel, continuity):
         "EXPLICIT SCRIPTURAL FACTS\n" + json.dumps([c.model_dump() for c in panel.visual_facts]),
         "REASONABLE VISUAL INFERENCES\n" + json.dumps(panel.visual_inferences),
         "UNSPECIFIED CREATIVE DETAILS\n" + json.dumps(panel.creative_details),
-        "PANEL SHAPE\n" + f"{panel.shot} panel; compose for a {SHOT_ASPECT[panel.shot]} aspect ratio",
+        "PANEL SHAPE\n" + f"{panel.shot} panel; compose for a frame {w / h:.2f} times as wide as it is tall",
         "MOOD / COMPOSITION / CAMERA\n" + " / ".join([panel.mood, panel.composition, panel.camera]),
         "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + panel.prohibited)])
 
@@ -178,23 +210,101 @@ _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scrip
              "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS"}
 
 
-# Page geometry in pixels at 150 dpi. Rows stack full width; art is never cropped.
+# Page geometry in pixels at 150 dpi. Panels fill the live area edge to edge with thin gutters.
 PAGE_SIZE = (1400, 2000)
-MARGIN, TOP, BOTTOM, GUTTER = 80, 110, 130, 34
-BORDER, PAD, MIN_ART = 4, 24, 160
-PAPER, INK, CAPTION, MATTE, MUTED = "#efe9dc", "#1f1c18", "#f9f5ea", "#161412", "#7a705f"
+MARGIN, BOTTOM, GUTTER, BORDER, PAD = 48, 84, 14, 3, 14
+MAX_ROW, MIN_ASPECT, MAX_ASPECT, FLOW_COST = 3, 0.4, 2.5, 0.35
+MAX_COVER = 0.45
+PAPER, INK, CAPTION, BALLOON, MUTED = "#efe9dc", "#1f1c18", "#f6ecd0", "#ffffff", "#7a705f"
+LINE = {"speaker": 24, "body": 31, "gap": 8, "ref": 26}
 FONTS = Path(__file__).parent / "fonts"
-# Shots that read well side by side: two verticals as a diptych, two close reactions as
-# shot/reverse-shot. Everything else (splash/wide/medium, or an unpaired tall/close) stays
-# full width. Capped at two columns so lettering stays legible at page size.
-PAIRABLE_SHOTS = {"tall", "close"}
+
+
+def _clamped(targets, lows, highs, total):
+    """Scale targets to sum to total, pinning any that leave [low, high] and rescaling the rest."""
+    pinned = {}
+    while True:
+        free = [i for i in range(len(targets)) if i not in pinned]
+        if not free:
+            break
+        scale = (total - sum(pinned.values())) / sum(targets[i] for i in free)
+        out = {i: lows[i] if targets[i] * scale < lows[i] else highs[i] for i in free
+               if not lows[i] <= targets[i] * scale <= highs[i]}
+        if not out:
+            break
+        pinned.update(out)
+    heights = [pinned.get(i, targets[i] * scale if free else 0) for i in range(len(targets))]
+    return [h * total / sum(heights) for h in heights]
+
+
+def _row_frames(rows):
+    """Widths within a row follow weight; row heights follow weight too, kept renderable."""
+    width, height = PAGE_SIZE
+    area_w, area_h = width - 2 * MARGIN, height - MARGIN - BOTTOM - GUTTER * (len(rows) - 1)
+    widths = []
+    for row in rows:
+        avail, weight = area_w - GUTTER * (len(row) - 1), sum(p.weight for p in row)
+        cols = [round(avail * p.weight / weight) for p in row[:-1]]
+        widths.append(cols + [avail - sum(cols)])
+    heights = _clamped([sum(p.weight for p in row) for row in rows],
+                       [max(w) / MAX_ASPECT for w in widths], [min(w) / MIN_ASPECT for w in widths], area_h)
+    heights = [round(h) for h in heights[:-1]] + [area_h - sum(round(h) for h in heights[:-1])]
+    frames, y = [], MARGIN
+    for cols, rh in zip(widths, heights):
+        x = MARGIN
+        for w in cols:
+            frames.append((x, y, w, rh))
+            x += w + GUTTER
+        y += rh + GUTTER
+    return frames
+
+
+def page_frames(group):
+    """Flow panels left to right, wrapping to a new row; pick the row breaks whose frame
+    shapes best match each shot's preferred shape. Returns (x, y, w, h) per panel, in order."""
+    best = None
+    for mask in range(2 ** (len(group) - 1)):
+        rows, row = [], [group[0]]
+        for i, panel in enumerate(group[1:]):
+            if mask >> i & 1:
+                rows.append(row)
+                row = []
+            row.append(panel)
+        rows.append(row)
+        if max(len(r) for r in rows) > MAX_ROW:
+            continue
+        frames = _row_frames(rows)
+        area, weight = sum(w * h for *_, w, h in frames), sum(p.weight for p in group)
+        # Comics flow sideways: a lone panel in a row costs a little unless it's alone on the page.
+        cost = FLOW_COST * sum(len(r) == 1 for r in rows) if len(group) > 1 else 0.0
+        for panel, (_, _, w, h) in zip(group, frames):
+            cost += math.log(w / h / SHOT_PREFERENCE[panel.shot]) ** 2
+            cost += math.log((w * h / area) / (panel.weight / weight)) ** 2
+            cost += 0 if MIN_ASPECT - 0.01 <= w / h <= MAX_ASPECT + 0.01 else 10
+        if best is None or cost < best[0]:
+            best = (cost, frames)
+    return best[1]
+
+
+def frames(panels):
+    result = {}
+    for number in sorted({p.page for p in panels}):
+        group = sorted((p for p in panels if p.page == number), key=lambda p: p.panel_number)
+        result.update(zip((p.panel_id for p in group), page_frames(group)))
+    return result
+
+
+def frame_aspect(frame):
+    w, h = frame[2], frame[3]
+    g = math.gcd(w, h)
+    return f"{w // g}:{h // g}"
 
 
 def _fonts():
     from PIL import ImageFont
     load = lambda name, size: ImageFont.truetype(str(FONTS / f"EBGaramond-{name}.ttf"), size)
-    return {"body": load("Regular", 29), "speaker": load("SemiBold", 20), "ref": load("Italic", 22),
-            "running": load("Regular", 21), "folio": load("Italic", 27)}
+    return {"body": load("Regular", 25), "speaker": load("SemiBold", 18), "ref": load("Italic", 19),
+            "running": load("Regular", 19), "folio": load("Italic", 24)}
 
 
 def _wrap(draw, text, font, width):
@@ -225,124 +335,93 @@ def _ref_range(refs):
     if first == last:
         return f"3 Nephi {first}"
     (c1, _), (c2, v2) = first.split(":"), last.split(":")
-    return f"3 Nephi {first}\u2013{v2 if c1 == c2 else last}"
+    return f"3 Nephi {first}–{v2 if c1 == c2 else last}"
 
 
-def _caption(draw, panel, fonts, width):
-    """Lettering blocks as (kind, text) rows plus the band height they need."""
-    rows = []
-    for speech in panel.dialogue:
-        rows.append(("speaker", speech.speaker.upper()))
-        rows += [("body", line) for line in _wrap(draw, f"\u201c{speech.text}\u201d", fonts["body"], width)]
-        rows.append(("gap", ""))
-    for claim in panel.narration:
-        rows += [("body", line) for line in _wrap(draw, claim.text, fonts["body"], width)]
-        rows.append(("gap", ""))
-    rows.append(("ref", "; ".join(panel.refs)))
-    heights = {"speaker": 29, "body": 36, "gap": 11, "ref": 29}
-    return rows, 2 * PAD + sum(heights[kind] for kind, _ in rows) - 6, heights
-
-
-def _rows(group):
-    """Group a page's panels into layout rows: matching tall/tall or close/close panels
-    pair into a two-column row; everything else is a single full-width row."""
-    rows, i = [], 0
-    while i < len(group):
-        panel = group[i]
-        if panel.shot in PAIRABLE_SHOTS and i + 1 < len(group) and group[i + 1].shot == panel.shot:
-            rows.append(group[i:i + 2])
-            i += 2
-        else:
-            rows.append(group[i:i + 1])
-            i += 1
-    return rows
-
-
-def _tier_heights(natural, available):
-    """Give every row its natural height if it fits, else cap all rows at one shared level."""
-    if sum(natural) <= available:
-        return natural
-    level, remaining = available / len(natural), available
-    for count, height in enumerate(sorted(natural)):
-        share = remaining / (len(natural) - count)
-        if height >= share:
-            level = share
+def _box(draw, blocks, ref, fonts, inner_w, target_h):
+    """Narrowest caption box (of a few widths) whose height stays under target_h."""
+    for fraction in (0.5, 0.65, 0.8, 1.0):
+        width = int(inner_w * fraction)
+        rows = []
+        for speaker, text in blocks:
+            if rows:
+                rows.append(("gap", ""))
+            if speaker:
+                rows.append(("speaker", speaker.upper()))
+            rows += [("body", line) for line in _wrap(draw, text, fonts["body"], width - 2 * PAD)]
+        if ref:
+            rows.append(("ref", ref))
+        height = 2 * PAD + sum(LINE[kind] for kind, _ in rows)
+        if height <= target_h:
             break
-        remaining -= height
-    return [min(height, level) for height in natural]
+    return width, height, rows
+
+
+def _draw_box(draw, rows, box, fonts, fill):
+    x0, y0, x1, y1 = box
+    draw.rectangle(box, fill=fill, outline=INK, width=2)
+    baseline = y0 + PAD
+    for kind, text in rows:
+        baseline += LINE[kind]
+        if kind == "speaker":
+            _tracked(draw, (x0 + PAD, baseline - 5), text, fonts["speaker"], MUTED, 2, anchor="left")
+        elif kind == "body":
+            draw.text((x0 + PAD, baseline - 7), text, font=fonts["body"], fill=INK, anchor="ls")
+        elif kind == "ref":
+            draw.text((x1 - PAD, baseline - 5), text, font=fonts["ref"], fill=MUTED, anchor="rs")
+
+
+def _lettering(draw, panel, frame, fonts):
+    """Caption boxes for a frame, or None if they'd bury the art. Narration sits top-left,
+    speech bottom-right, so reading runs corner to corner."""
+    x, y, w, h = frame
+    inner_w, inner_h = w - 2 * BORDER, h - 2 * BORDER
+    ref = _ref_range(panel.refs)
+    narration = [(None, c.text) for c in panel.narration]
+    speech = [(s.speaker, f"“{s.text}”") for s in panel.dialogue]
+    boxes = []
+    if narration:
+        bw, bh, rows = _box(draw, narration, None if speech else ref, fonts, inner_w, inner_h * 0.3)
+        boxes.append(((x + BORDER, y + BORDER, x + BORDER + bw, y + BORDER + bh), rows, CAPTION))
+    if speech or not narration:
+        bw, bh, rows = _box(draw, speech, ref, fonts, inner_w, inner_h * 0.3)
+        x1, y1 = x + w - BORDER, y + h - BORDER
+        boxes.append(((x1 - bw, y1 - bh, x1, y1), rows, BALLOON))
+    covered = sum((b[2] - b[0]) * (b[3] - b[1]) for b, _, _ in boxes)
+    overlap = len(boxes) == 2 and boxes[0][0][3] > boxes[1][0][1] and boxes[0][0][2] > boxes[1][0][0]
+    return None if covered > MAX_COVER * inner_w * inner_h or overlap else boxes
+
+
+def _measure():
+    from PIL import Image, ImageDraw
+    return ImageDraw.Draw(Image.new("RGB", (1, 1))), _fonts()
 
 
 def assemble(store, panels, images):
-    from PIL import Image, ImageDraw, ImageFilter, ImageOps
+    from PIL import Image, ImageDraw, ImageOps
     fonts = _fonts()
     width, height = PAGE_SIZE
-    frame_w = width - 2 * MARGIN
+    layout = frames(panels)
     pages = []
     for number in sorted({p.page for p in panels}):
         group = sorted((p for p in panels if p.page == number), key=lambda p: p.panel_number)
         page = Image.new("RGB", PAGE_SIZE, PAPER)
         draw = ImageDraw.Draw(page)
-        row_groups = _rows(group)
-        rows = []
-        for members in row_groups:
-            cols = len(members)
-            col_w = (frame_w - 2 * BORDER * cols - GUTTER * (cols - 1)) // cols
-            entries = []
-            for panel in members:
-                with Image.open(store.path(images[panel.panel_id]["path"])) as im:
-                    art = im.convert("RGB")
-                caption_rows, caption_h, heights = _caption(draw, panel, fonts, col_w - 2 * PAD)
-                natural_h = col_w * art.height / art.width
-                entries.append((panel, art, natural_h, caption_rows, caption_h, heights))
-            rows.append((col_w, entries))
-        row_caption_h = [max(e[4] for e in entries) for _, entries in rows]
-        chrome = sum(3 * BORDER + c for c in row_caption_h) + GUTTER * (len(rows) - 1)
-        natural_heights = [max(e[2] for e in entries) for _, entries in rows]
-        available = height - TOP - BOTTOM - chrome
-        tiers = _tier_heights(natural_heights, available)
-        # A lightly filled page (e.g. a single small row) would otherwise float in a wide
-        # blank margin; scale rows up toward the available height, capped so a single very
-        # wide/short row can't balloon into one dominated by letterbox wash.
-        total = sum(tiers)
-        if 0 < total < available:
-            tiers = [t * min(available / total, 1.8) for t in tiers]
-        for (_, entries), tier in zip(rows, tiers):
-            if tier < MIN_ART:
-                ids = ", ".join(panel.panel_id for panel, *_ in entries)
-                raise ValueError(f"Too much lettering on {ids}; reduce text or panels per page")
-        used = sum(int(t) for t in tiers) + chrome
-        y = TOP + (height - TOP - BOTTOM - used) // 2
-        for (col_w, entries), tier, cap_h in zip(rows, tiers, row_caption_h):
-            tier = int(tier)
-            panel_h = 3 * BORDER + tier + cap_h
-            x = MARGIN
-            for panel, art, natural_h, caption_rows, caption_h, heights in entries:
-                draw.rectangle([x, y, x + col_w + 2 * BORDER - 1, y + panel_h - 1], fill=INK)
-                art_box = (x + BORDER, y + BORDER)
-                # Letterbox with a dim, defocused wash of the same art; the approved image is never cropped.
-                wash = ImageOps.fit(art, (max(1, col_w // 8), max(1, tier // 8))).filter(ImageFilter.GaussianBlur(8))
-                page.paste(Image.blend(wash.resize((col_w, tier)), Image.new("RGB", (col_w, tier), MATTE), 0.72), art_box)
-                fit = ImageOps.contain(art, (col_w, tier), Image.LANCZOS)
-                page.paste(fit, (art_box[0] + (col_w - fit.width) // 2, art_box[1] + (tier - fit.height) // 2))
-                top = y + 2 * BORDER + tier
-                draw.rectangle([x + BORDER, top, x + BORDER + col_w - 1, top + cap_h - 1], fill=CAPTION)
-                tx, baseline = x + BORDER + PAD, top + PAD
-                for kind, text in caption_rows:
-                    baseline += heights[kind]
-                    if kind == "speaker":
-                        _tracked(draw, (tx, baseline - 6), text, fonts["speaker"], MUTED, 2.5, anchor="left")
-                    elif kind == "body":
-                        draw.text((tx, baseline - 8), text, font=fonts["body"], fill=INK, anchor="ls")
-                    elif kind == "ref":
-                        draw.text((x + BORDER + col_w - PAD, baseline - 6), text, font=fonts["ref"], fill=MUTED, anchor="rs")
-                x += col_w + 2 * BORDER + GUTTER
-            y += panel_h + GUTTER
-        refs = [ref for p in group for ref in p.refs]
-        _tracked(draw, (width / 2, TOP - 44), _ref_range(refs).upper(), fonts["running"], MUTED, 4)
-        folio_y = height - BOTTOM / 2 + 8
-        draw.text((width / 2, folio_y), str(number), font=fonts["folio"], fill=MUTED, anchor="ms")
-        for side in (-1, 1):
-            draw.line([(width / 2 + side * 34, folio_y - 8), (width / 2 + side * 90, folio_y - 8)], fill=MUTED, width=1)
+        for panel in group:
+            x, y, w, h = layout[panel.panel_id]
+            with Image.open(store.path(images[panel.panel_id]["path"])) as im:
+                # Art is rendered for this frame's shape; fit only trims rounding differences.
+                page.paste(ImageOps.fit(im.convert("RGB"), (w, h), Image.LANCZOS), (x, y))
+            draw.rectangle([x, y, x + w - 1, y + h - 1], outline=INK, width=BORDER)
+            boxes = _lettering(draw, panel, (x, y, w, h), fonts)
+            if boxes is None:
+                raise ValueError(f"Too much lettering for {panel.panel_id}'s frame; raise its weight in panels.json")
+            for box, rows, fill in boxes:
+                _draw_box(draw, rows, box, fonts, fill)
+        baseline = height - BOTTOM / 2 + 8
+        _tracked(draw, (MARGIN, baseline), _ref_range([r for p in group for r in p.refs]).upper(),
+                 fonts["running"], MUTED, 3, anchor="left")
+        draw.text((width - MARGIN, baseline), str(number), font=fonts["folio"], fill=MUTED, anchor="rs")
         path = store.path(f"pages/page_{number:03d}.png")
         path.parent.mkdir(parents=True, exist_ok=True)
         page.save(path)

@@ -4,7 +4,7 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, validate_scene
-from .comic import DEFAULT_CONTINUITY, SHOT_ASPECT, plan, build_prompt, assemble
+from .comic import DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, assemble, frames, frame_aspect
 from .scripture import load, select
 
 class Pipeline:
@@ -108,22 +108,23 @@ class Pipeline:
             if verdict["status"] == "REJECT" or record.get("decision") != "approve" or record.get("stamp") != expected:
                 raise ValueError(f"Scene {scene.scene_id} needs validation and human approval")
 
-    def plan(self, pages):
+    def plan(self):
         self.require_scenes()
-        panels = plan(self.scenes(), pages)
+        panels = plan(self.scenes())
         self.store.write("panels.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels]})
         self.store.event("plan", pages=len({p.page for p in panels}))
 
-    def preview(self, pages=12):
+    def preview(self):
         """Create review-only planning artifacts without granting production approval."""
         report = self.validation()
         scenes = self.scenes()
-        panels = plan(scenes, pages)
+        panels = plan(scenes)
+        layout = frames(panels)
         self.store.write("review/draft-panels.json", {
             "status": "DRAFT — NOT APPROVED FOR GENERATION", "scene_stamp": self.stamp(),
             "panels": [p.model_dump() for p in panels]})
         self.store.write("review/draft-prompts.json", {
-            p.panel_id: build_prompt(p, self.continuity()) for p in panels})
+            p.panel_id: build_prompt(p, self.continuity(), frame_aspect(layout[p.panel_id])) for p in panels})
         lines = ["# Full-story review draft", "",
                  "Not approved for generation. Compare every scene to its cited source before approving.", "",
                  f"{len(scenes)} scenes / {len(panels)} panels / {len({p.page for p in panels})} draft pages", ""]
@@ -131,7 +132,7 @@ class Pipeline:
         for scene, panel in zip(scenes, panels):
             result = report["results"][scene.scene_id]
             lines.extend([f"## {scene.scene_id}: {scene.title}", "",
-                f"Draft page {panel.page}, panel {panel.panel_number} — **{result['status']}**", "",
+                f"Draft page {panel.page}, panel {panel.panel_number}, weight {panel.weight}/{PAGE_UNITS} — **{result['status']}**", "",
                 scene.summary, "", "References: " + "; ".join(scene.refs), ""])
             for issue in result["issues"]:
                 lines.append("- Review issue: " + issue)
@@ -169,15 +170,25 @@ class Pipeline:
                 raise ValueError("Edit story content in scenes.json, then validate and plan again")
         if [(p.page, p.panel_number) for p in panels] != sorted(set((p.page, p.panel_number) for p in panels)):
             raise ValueError("Panel positions must be unique and chronological")
+        for page in {p.page for p in panels}:
+            if sum(p.weight for p in panels if p.page == page) > PAGE_UNITS:
+                raise ValueError(f"Page {page} holds more than {PAGE_UNITS} weight units")
         return panels
 
-    def panel_stamp(self, panel):
-        return digest({"panel": panel.model_dump(), "continuity": self.continuity(), "source": self.stamp()})
+    def aspects(self):
+        return {pid: frame_aspect(frame) for pid, frame in frames(self.panels()).items()}
 
-    def image_record(self, panel):
+    def panel_stamp(self, panel, aspects=None):
+        # Page position and weight only matter through the frame shape, so moving a panel
+        # without reshaping its frame keeps its approval and image.
+        aspect = (aspects or self.aspects())[panel.panel_id]
+        return digest({"panel": panel.model_dump(exclude={"page", "panel_number", "weight"}), "aspect": aspect,
+                       "continuity": self.continuity(), "source": self.stamp()})
+
+    def image_record(self, panel, aspects=None):
         record = self.store.read(f"images/{panel.panel_id}.json")
         actual = hashlib.sha256(self.store.path(record["path"]).read_bytes()).hexdigest()
-        if record["panel_stamp"] != self.panel_stamp(panel) or actual != record["image_hash"]:
+        if record["panel_stamp"] != self.panel_stamp(panel, aspects) or actual != record["image_hash"]:
             raise ValueError("Image is stale or modified; regenerate and review")
         return record
 
@@ -202,41 +213,44 @@ class Pipeline:
 
     def generate(self, identifier=None):
         panels = self.panels()
+        aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
             raise ValueError("Unknown panel")
         for panel in panels:
             if identifier and panel.panel_id != identifier:
                 continue
             review = self.approvals().get("panel:" + panel.panel_id, {})
-            if review.get("decision") != "approve" or review.get("stamp") != self.panel_stamp(panel):
+            if review.get("decision") != "approve" or review.get("stamp") != self.panel_stamp(panel, aspects):
                 raise ValueError(f"Review panel composition/continuity before generation: {panel.panel_id}")
             # Batch generation resumes; explicit --id always regenerates with a new revision.
             if not identifier and self.store.path(f"images/{panel.panel_id}.json").exists():
                 try:
-                    self.image_record(panel)
+                    self.image_record(panel, aspects)
                     continue
                 except ValueError:
                     pass
             revision = uuid4().hex[:12]
             name = f"{panel.panel_id}_{revision}"
-            prompt = build_prompt(panel, self.continuity())
-            self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "prompt": prompt})
+            aspect = aspects[panel.panel_id]
+            prompt = build_prompt(panel, self.continuity(), aspect)
+            self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt})
             path = self.store.path(f"images/{name}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
-            self.provider.generate_image(prompt, output_path=path, aspect_ratio=SHOT_ASPECT[panel.shot])
-            record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel),
+            self.provider.generate_image(prompt, output_path=path, aspect_ratio=aspect)
+            record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
             self.store.write(f"images/{panel.panel_id}.json", record)
             self.store.event("generate", panel_id=panel.panel_id, **record)
 
     def assemble(self):
         panels = self.panels()
+        aspects = self.aspects()
         images = {}
         for panel in panels:
             panel_review = self.approvals().get("panel:" + panel.panel_id, {})
-            if panel_review.get("decision") != "approve" or panel_review.get("stamp") != self.panel_stamp(panel):
+            if panel_review.get("decision") != "approve" or panel_review.get("stamp") != self.panel_stamp(panel, aspects):
                 raise ValueError(f"Panel {panel.panel_id} requires current composition/continuity approval")
-            record = self.image_record(panel)
+            record = self.image_record(panel, aspects)
             review = self.approvals().get("image:" + panel.panel_id, {})
             if review.get("decision") != "approve" or review.get("stamp") != digest(record):
                 raise ValueError(f"Image {panel.panel_id} requires human visual/scripture review")

@@ -1,6 +1,7 @@
 """All SDK-specific operations live here; providers are injectable in tests."""
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 from typing import Protocol
@@ -50,9 +51,9 @@ class Gemini:
                 im.save(buffer, format="PNG")
                 contents.append(types.Part.from_bytes(data=buffer.getvalue(), mime_type="image/png"))
         config = {"response_modalities": ["TEXT", "IMAGE"], "automatic_function_calling": {"disable": True}}
-        # Best-effort: not every configured image model honors this, so layout never depends on it.
+        # Gemini takes a fixed ratio list; assembly trims the difference from the layout's frame.
         if aspect_ratio:
-            config["image_config"] = {"aspect_ratio": aspect_ratio}
+            config["image_config"] = {"aspect_ratio": nearest_gemini_aspect(aspect_ratio)}
         response = self._request(model=model, contents=contents, config=config)
         self.store.write(f"api/{Path(output_path).stem}.response.json", response.model_dump(mode="json"))
         for part in response.parts or []:
@@ -62,9 +63,27 @@ class Gemini:
                 return str(output_path)
         raise ValueError("Gemini returned no image; inspect saved API response")
 
+GEMINI_ASPECTS = ["1:1", "2:3", "3:2", "3:4", "4:3", "4:5", "5:4", "9:16", "16:9", "21:9"]
+
+
+def _ratio(aspect):
+    w, h = (int(n) for n in aspect.split(":"))
+    return w / h
+
+
+def nearest_gemini_aspect(aspect):
+    return min(GEMINI_ASPECTS, key=lambda a: abs(math.log(_ratio(a) / _ratio(aspect))))
+
+
+def render_size(aspect, pixels=1024 * 1024):
+    """About one megapixel (Flux's native scale) in multiples of 16."""
+    ratio = _ratio(aspect)
+    width = max(16, round(math.sqrt(pixels * ratio) / 16) * 16)
+    return width, max(16, round(width / ratio / 16) * 16)
+
+
 class ComfyUI:
     """Local Flux.1-dev (GGUF) rendering through a running ComfyUI server with ComfyUI-GGUF nodes."""
-    SIZES = {"3:4": (896, 1184), "16:9": (1344, 768), "2:3": (832, 1248), "4:3": (1152, 864), "1:1": (1024, 1024)}
 
     def __init__(self, store, url=None):
         self.store = store
@@ -112,7 +131,7 @@ class ComfyUI:
         from .comic import diffusion_prompts
         stem = Path(output_path).stem
         positive, negative = diffusion_prompts(prompt)
-        width, height = self.SIZES[aspect_ratio or "1:1"]
+        width, height = render_size(aspect_ratio or "1:1")
         # Seeded from the revision name: reproducible per revision, different on regeneration.
         seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         workflow = self.workflow(positive, negative, width, height, seed)

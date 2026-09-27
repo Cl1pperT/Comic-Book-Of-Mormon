@@ -48,6 +48,7 @@ class Panel(Model):
     scene_id: str
     page: int = Field(ge=1)
     panel_number: int = Field(ge=1)
+    weight: int = Field(ge=1, le=6)
     refs: List[str]
     characters_visible: List[str]
     location: List[str]

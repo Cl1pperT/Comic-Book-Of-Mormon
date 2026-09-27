@@ -40,7 +40,7 @@ GEMINI_VALIDATOR_MODEL=your-selected-validation-model
 GEMINI_IMAGE_MODEL=your-selected-image-model
 ```
 
-There is deliberately no default model. The text models must support structured JSON responses; the image model must support native `generate_content` image output. Validation is always a separate call; its model can differ from the analyzer. Google's SDK integration is isolated in `bom_comic/providers.py`, including `generate_image(prompt, reference_images=None, output_path=None, aspect_ratio=None)`. `aspect_ratio` (from the panel's `shot`, see Panel shape below) is passed as `image_config.aspect_ratio`; a model that doesn't honor it just returns its default shape; layout never depends on it. Reference image paths are supported at provider level for future richer continuity tooling; the initial CLI uses text continuity records.
+There is deliberately no default model. The text models must support structured JSON responses; the image model must support native `generate_content` image output. Validation is always a separate call; its model can differ from the analyzer. Google's SDK integration is isolated in `bom_comic/providers.py`, including `generate_image(prompt, reference_images=None, output_path=None, aspect_ratio=None)`. `aspect_ratio` is the panel's frame shape from the page layout (see Page layout below). It's sent as the nearest ratio Gemini supports in `image_config.aspect_ratio`, and assembly trims the small difference. Reference image paths are supported at provider level for future richer continuity tooling; the initial CLI uses text continuity records.
 
 The implementation follows [Google's image generation documentation](https://ai.google.dev/gemini-api/docs/generate-content/image-generation) and [official Python SDK](https://github.com/googleapis/python-genai). If a selected future model uses a different API, update the adapter. Live calls incur provider costs and require network access. No live provider calls are made by tests.
 
@@ -67,7 +67,7 @@ python main.py --run runs/small validate
 python main.py --run runs/small review scene
 python main.py --run runs/small review scene scene_001 --decision approve
 # Repeat individually for every generated scene ID.
-python main.py --run runs/small plan --pages 10
+python main.py --run runs/small plan
 python main.py --run runs/small review panel
 python main.py --run runs/small review panel panel_001 --decision approve
 # Repeat individually for every panel after reading its prompt and continuity details.
@@ -95,9 +95,9 @@ Then follow the same individual review, plan, generate, image-review, and assemb
 
 Edit `scenes.json` with any text editor, then rerun `validate`, approve scenes again, and rerun `plan`. `analyze` regenerates all scenes. Regenerate one scene with `analyze --id scene_001`, then validate and review again. Its ID and verse coverage must remain unchanged. Saved prompts/responses and archived JSON revisions support inspecting both attempts.
 
-Panel story fields are locked to their approved scene. Edit camera, composition, mood, shot, page, or panel number in `panels.json`, then review panels again. Change story content in scenes instead. Panel approvals also cover continuity/style input. The CLI prints the final image prompt during panel review so design details cannot bypass review.
+Panel story fields are locked to their approved scene. Edit camera, composition, mood, shot, weight, page, or panel number in `panels.json`, then review panels again. Change story content in scenes instead. Panel approvals also cover continuity/style input. The CLI prints the final image prompt during panel review so design details cannot bypass review.
 
-`shot` is one of `splash`, `wide`, `tall`, `medium`, or `close` and drives both the page layout and the aspect ratio requested from the image model (see Panel shape below). `plan` sets it automatically from the scene's already-approved content; edit it by hand in `panels.json` if a scene deserves a different treatment, then review the panel again.
+`shot` (`splash`, `wide`, `tall`, `medium`, `close`) sets the camera/mood/composition text and the frame shape the layout prefers. `weight` (1–6) is how much of a page the panel deserves. See Page layout below. `plan` sets both from the scene's already-approved content, and you can edit either by hand. A page's weights may not exceed 6. Approvals and images depend on a panel's frame *shape*, not its page or position. Moving a panel whose frame keeps its shape needs no new approval or render. A change that reshapes a frame does.
 
 After viewing an image, explicitly approve or reject it. Check location, people, clothing continuity, unsupported symbols or actions, divine figures, accidental lettering, and consistency with the cited scripture. Image review is human, not an automatic claim of fidelity. To regenerate a rejected or unsatisfactory panel:
 
@@ -114,23 +114,29 @@ Regeneration keeps old PNGs and prompt records and invalidates the prior image a
 - `scripture.py`: strict local parsing, range selection, reference retention.
 - `models.py`: validated JSON schemas. Explicit facts carry evidence refs; reasonable inference and creative detail have separate fields.
 - `analysis.py`: small-chunk LLM analysis and independent semantic validation. Deterministic checks reject invented lettering, unsupported references, visible divine characters, excessive lettering, and backward scene starts.
-- `comic.py`: deterministic one-scene-per-panel planning, structured prompts, Pillow assembly. No new story-writing call occurs here. Major scenes get a full page; other pages have at most three panels. A target of ten pages is a pacing preference, not a mandate; scene count and major moments may put the result outside 8–15 pages.
+- `comic.py`: deterministic one-scene-per-panel planning, page layout, structured prompts, Pillow assembly. No new story-writing call occurs here.
 
-### Panel shape
+### Page layout
 
-`plan` assigns each panel a `shot` — `splash`, `wide`, `tall`, `medium`, or `close` — from fields the scene already carries once it's approved: `importance`, whether it has dialogue, how many characters are visible, and how much lettering it holds. This is a pure function of already-validated data (`classify_shot` in `comic.py`); it never reads scripture text and can't introduce anything reviewers haven't already seen.
+Pages are laid out first, and each panel is then rendered at its frame's exact shape, so art is never letterboxed. Local renders need no cropping, apart from rounding. Gemini only accepts a fixed list of ratios, so its images are trimmed slightly to fit.
 
-| Shot | When | Aspect requested | Page treatment |
-|---|---|---|---|
-| `splash` | `importance == "major"`, or the scene carries the closing 11:7 quote | 3:4 | Alone on its own page |
-| `wide` | No visible characters, or four or more (a crowd/landscape beat) | 16:9 | Full-width row |
-| `close` | Dialogue between one or two characters, ≤30 words | 1:1 | Full-width, or paired 2-up with another `close` panel next to it |
-| `tall` | A small cast, narration-only, ≤12 words | 2:3 | Full-width, or paired 2-up with another `tall` panel next to it |
-| `medium` | A small cast, narration-only, longer beat | 4:3 | Full-width row |
+**Weight.** A page holds 6 weight units, so it carries 1 to 6 panels. `classify_weight` decides from approved scene data. A `major` scene, or the closing 11:7 quote, gets 6 (a full page). Other scenes get 1–3 depending on how much lettering they carry, because captions sit on the art. `plan` then measures every panel's real captions in its real frame. If a panel's captions would cover more than 45% of the frame, `plan` raises that panel's weight and lays the pages out again. Anything `plan` produces can therefore be assembled.
 
-Shot also sets the panel's default `camera`/`mood`/`composition` text (previously the same for every panel) and, in `generate`, the aspect ratio requested from the image model via `image_config.aspect_ratio`. Not every configured model honors that request, so it's best-effort: `assemble` fits whatever comes back without cropping regardless, and any leftover space is filled with a dim, blurred wash of the same image rather than left blank.
+**Pagination.** Panels fill a page in story order until the next one wouldn't fit in the 6 units. A single small panel left alone on a page, for example just before a full-page moment, borrows the previous page's last panel.
 
-The classifier is intentionally simple and deterministic rather than another LLM call, so it adds no cost, no invention risk, and no new review gate — its output shows up as an ordinary, human-editable field on the panel. A model-assisted version (better at judging "is this an intimate exchange or a wide devastation shot" than counting words) is a plausible future upgrade if the heuristic proves too blunt on the full story.
+**Flow.** Within a page, panels run left to right and wrap to a new row, like reading order, with at most 3 per row. Rows span the full width with thin gutters. `page_frames` tries every set of row breaks and keeps the one whose frames best match three things: each panel's weight (area), its shot's preferred shape, and a slight preference for side-by-side panels. Frames stay between 0.4:1 and 2.5:1 so they remain renderable. Weight orders panel sizes, but when it conflicts with a renderable shape, the shape wins.
+
+**Lettering.** Narration captions sit in the panel's top-left corner, and speech (speaker label plus quote) sits bottom-right, so reading runs corner to corner. Each box takes the narrowest of a few widths that keeps it under 30% of the frame's height. Scripture references go in the last box, and the page's verse range and number run along the bottom margin.
+
+| Shot | When | Preferred shape |
+|---|---|---|
+| `splash` | `importance == "major"`, or the closing 11:7 quote | 3:4 |
+| `wide` | No visible characters, or four or more | 16:9 |
+| `close` | Dialogue between one or two characters, ≤30 words | 1:1 |
+| `tall` | A small cast, narration-only, ≤12 words | 2:3 |
+| `medium` | A small cast, narration-only, longer beat | 4:3 |
+
+Shot and weight classifiers are simple deterministic functions (`classify_shot`, `classify_weight`), not LLM calls. They add no cost, no invention risk and no new review gate. Their output is an ordinary, human-editable field on each panel.
 - `pipeline.py`: stage orchestration and content-based review gates.
 - `providers.py`: injectable Gemini text/image adapter and offline placeholder provider.
 - `storage.py`: atomic JSON writes, bounded output paths, timestamped history.
@@ -173,7 +179,7 @@ archive/                          previous versions of overwritten JSON artifact
 
 Raw API responses can be large because they include image payloads. Keep run directories private if your input is private. API keys are not written to artifacts. Errors record stage and exception type; Gemini API errors include a credential-redacted message, HTTP status, and recovery hint. Other provider exception bodies are suppressed. Failed stages can be rerun independently; there are no automatic paid retries.
 
-Assembly lays out each page by panel shot (see Panel shape above): full-width rows for `splash`/`wide`/`medium`, and matching `tall`+`tall` or `close`+`close` neighbors paired into a two-column row. Rows are sized from each image's own shape, then scaled to use the page rather than leaving a lightly filled page floating in blank space; a page with more content than fits still refuses to assemble rather than crush the lettering. Images are always fit without cropping — any leftover space in a panel becomes a dim, blurred wash of that same image rather than empty matte. Captions sit directly beneath their panel with speaker names, quoted dialogue, and scripture refs, set in bundled EB Garamond (`bom_comic/fonts/`, SIL Open Font License — see `bom_comic/fonts/OFL.txt`) so pages render identically everywhere. Each page gets a running verse-range header and a page number. The manifest preserves panel → scene → verse provenance. Only reviewed images are assembled. `generate --placeholder` can test layout without API calls, including each shot's aspect ratio; placeholders are visibly marked and must still pass the same explicit CLI review gates.
+Assembly draws each page from the same layout `plan` used (see Page layout above): panels edge to edge in thin-guttered rows, with caption boxes on the art. If hand edits leave a panel's lettering too big for its frame, assembly refuses rather than bury the art. Lettering is set in bundled EB Garamond (`bom_comic/fonts/`, SIL Open Font License — see `bom_comic/fonts/OFL.txt`) so pages render identically everywhere. The manifest preserves panel → scene → verse provenance. Only reviewed images are assembled. `generate --placeholder` can test layout without API calls, at each frame's shape; placeholders are visibly marked and must still pass the same explicit CLI review gates.
 
 ## Tests
 
@@ -183,6 +189,6 @@ Assembly lays out each page by panel shot (see Panel shape above): full-width ro
 
 The supplied EPUB has been extracted to `data/full-scripture.json` and `data/full-scripture.txt`, with 73 verses spanning exactly 3 Nephi 8:1–11:7. See [full-story source and workflow](data/FULL_STORY.md) for provenance, the embedded-verse correction, and the cliffhanger boundary. Reproduce extraction with `python -m bom_comic.epub data/BookOfMormon.epub`.
 
-For a full run, `python main.py --run runs/full-story preview --pages 12` writes `review/STORYBOARD.md`, `review/draft-panels.json`, and `review/draft-prompts.json` after validation. These are review artifacts only; they cannot bypass the production scene/panel approvals. `validate --workers 4` can perform up to four independent checks concurrently (default: one); use fewer workers if your API quota is limited.
+For a full run, `python main.py --run runs/full-story preview` writes `review/STORYBOARD.md`, `review/draft-panels.json`, and `review/draft-prompts.json` after validation. These are review artifacts only; they cannot bypass the production scene/panel approvals. `validate --workers 4` can perform up to four independent checks concurrently (default: one); use fewer workers if your API quota is limited.
 
 If validation is interrupted by rate limits, wait for the provider's indicated retry interval, then use `validate --resume`. Only successfully parsed responses with the identical model, schema, and full prompt are reused. Modified scenes and affected chronology checks are sent for fresh validation. Resume does not grant human approval.

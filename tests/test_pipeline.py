@@ -1,11 +1,14 @@
 import json
+import tempfile
+from pathlib import Path
 import pytest
 from bom_comic.models import Scene, Claim, Speech, Verse, SceneBatch, Verdict, Panel
 from bom_comic.scripture import load, select, coordinate, COUNTS
 from bom_comic.storage import Store, digest
 from bom_comic.config import Config
 from bom_comic.analysis import deterministic_issues
-from bom_comic.comic import build_prompt, DEFAULT_CONTINUITY, SHOT_ASPECT, classify_shot, assemble, _rows
+from bom_comic.comic import (build_prompt, DEFAULT_CONTINUITY, PAGE_SIZE, PAGE_UNITS, MARGIN, BOTTOM, GUTTER,
+    MIN_ASPECT, MAX_ASPECT, classify_shot, classify_weight, plan, page_frames, frames, frame_aspect, assemble)
 from bom_comic.pipeline import Pipeline
 from bom_comic.providers import PlaceholderImages
 
@@ -36,7 +39,7 @@ def pipeline(tmp_path, source):
 
 def ready(p):
     p.review("scene", "scene_001", "approve")
-    p.plan(10)
+    p.plan()
     p.review("panel", "panel_001", "approve")
 
 
@@ -65,7 +68,8 @@ def test_serialization_and_prompt(pipeline):
     ready(pipeline)
     panel = pipeline.panels()[0]
     assert Panel.model_validate_json(panel.model_dump_json()) == panel
-    prompt = build_prompt(panel, DEFAULT_CONTINUITY)
+    prompt = build_prompt(panel, DEFAULT_CONTINUITY, "3:2")
+    assert "1.50 times as wide as it is tall" in prompt
     assert "Never show Jesus Christ" in prompt
     assert "UNSPECIFIED CREATIVE DETAILS" in prompt
     assert "EXPLICIT SCRIPTURAL FACTS" in prompt
@@ -90,7 +94,7 @@ def test_paths(tmp_path):
 
 def test_unapproved_scene_blocks(pipeline):
     with pytest.raises(ValueError, match="human approval"):
-        pipeline.plan(10)
+        pipeline.plan()
 
 
 def test_source_and_scene_edits_invalidate(pipeline):
@@ -282,13 +286,13 @@ def test_epub_extraction_preserves_embedded_verse_and_cutoff(tmp_path):
 
 
 def test_preview_does_not_bypass_approvals(pipeline):
-    path = pipeline.preview(12)
+    path = pipeline.preview()
     assert path.exists()
     assert 'NOT APPROVED' in pipeline.store.read('review/draft-panels.json')['status']
     assert not pipeline.store.path('panels.json').exists()
     assert pipeline.approvals() == {}
     with pytest.raises(ValueError, match='human approval'):
-        pipeline.plan(12)
+        pipeline.plan()
 
 
 def test_parallel_validation_preserves_results(pipeline):
@@ -377,74 +381,133 @@ def test_classify_shot_is_deterministic_and_content_based():
     assert classify_shot(scene) == classify_shot(other) == "tall"
 
 
-def test_rows_pairs_matching_tall_and_close_but_not_mixed_or_wide():
-    panels = [Panel(panel_id=f"panel_{i:03d}", scene_id=f"scene_{i:03d}", page=1, panel_number=i,
-        refs=["3 Nephi 8:1"], characters_visible=[], location=[], action="x", shot=shot,
-        dialogue=[], narration=[], visual_facts=[], visual_inferences=[], creative_details=[], prohibited=[])
-        for i, shot in enumerate(["tall", "tall", "wide", "close", "close", "close"], 1)]
-    grouped = _rows(panels)
-    sizes = [len(row) for row in grouped]
-    assert sizes == [2, 1, 2, 1]  # tall+tall paired, wide alone, close+close paired, lone close alone
+def make_panel(i, weight=1, shot="medium", page=1, number=None, words=8, dialogue=False):
+    text = " ".join(["TEST"] * words)
+    claim = dict(text=text, refs=[f"3 Nephi 8:{i}"])
+    return Panel(panel_id=f"panel_{i:03d}", scene_id=f"scene_{i:03d}", page=page, panel_number=number or i,
+        weight=weight, refs=[f"3 Nephi 8:{i}"], characters_visible=[], location=[], action="Test", visual_facts=[],
+        shot=shot, dialogue=[Speech(speaker="Test voice", **claim)] if dialogue else [],
+        narration=[] if dialogue else [Claim(**claim)], visual_inferences=[], creative_details=[], prohibited=[])
 
 
-def layout_panels(store, shots, words=8, page=1, start=1):
+def art_for(store, panels):
     from PIL import Image
-    panels, images = [], {}
-    for offset, shot in enumerate(shots):
-        i = start + offset
-        text = " ".join(["TEST"] * words)
-        panels.append(Panel(panel_id=f"panel_{i:03d}", scene_id=f"scene_{i:03d}", page=page, panel_number=offset + 1,
-            refs=[f"3 Nephi 8:{i}"], characters_visible=[], location=[], action="Test", visual_facts=[],
-            shot=shot, dialogue=[Speech(speaker="Test voice", text=text, refs=[f"3 Nephi 8:{i}"])], narration=[],
-            visual_inferences=[], creative_details=[], prohibited=[]))
-        rw, rh = (int(n) for n in SHOT_ASPECT[shot].split(":"))
-        path = store.path(f"images/{i}.png")
+    images = {}
+    for panel_id, frame in frames(panels).items():
+        path = store.path(f"images/{panel_id}.png")
         path.parent.mkdir(parents=True, exist_ok=True)
-        Image.new("RGB", (1200, round(1200 * rh / rw)), "gray").save(path)
-        images[panels[-1].panel_id] = {"path": f"images/{i}.png"}
-    return panels, images
+        Image.new("RGB", (frame[2], frame[3]), "gray").save(path)
+        images[panel_id] = {"path": f"images/{panel_id}.png"}
+    return images
 
 
-def test_layout_renders_every_shot_and_fills_a_sparse_page(tmp_path):
-    from bom_comic.comic import PAGE_SIZE, PAPER, TOP, BOTTOM
-    from PIL import ImageColor, Image
+def test_classify_weight_major_is_full_page_and_text_needs_room():
+    assert classify_weight(make_scene(importance="major")) == PAGE_UNITS
+    assert classify_weight(make_scene(refs=["3 Nephi 11:7"])) == PAGE_UNITS
+    words = lambda n: [Claim(text=" ".join(["w"] * n), refs=["3 Nephi 8:1"])]
+    assert classify_weight(make_scene(narration=words(20))) == 1
+    assert classify_weight(make_scene(narration=words(60))) == 2
+    assert classify_weight(make_scene(narration=words(120))) == 3
+
+
+def test_plan_fills_pages_by_weight_and_gives_major_moments_a_page():
+    scenes = [make_scene(scene_id=f"scene_{i:03d}", narration=[Claim(text="Short.", refs=["3 Nephi 8:1"])])
+              for i in range(1, 8)]
+    scenes[6] = make_scene(scene_id="scene_007", importance="major")
+    panels = plan(scenes)
+    pages = {}
+    for p in panels:
+        pages.setdefault(p.page, []).append(p)
+    assert [len(g) for g in pages.values()] == [6, 1]
+    assert all(sum(p.weight for p in g) <= PAGE_UNITS for g in pages.values())
+    assert pages[2][0].weight == PAGE_UNITS
+
+
+def test_plan_moves_a_stranded_small_panel_off_its_own_page():
+    scenes = [make_scene(scene_id=f"scene_{i:03d}", narration=[Claim(text="Short.", refs=["3 Nephi 8:1"])])
+              for i in range(1, 8)] + [make_scene(scene_id="scene_008", importance="major")]
+    pages = [p.page for p in plan(scenes)]
+    assert pages == [1, 1, 1, 1, 1, 2, 2, 3]
+
+
+def test_plan_raises_weight_until_lettering_fits():
+    # Thirty words scores weight 1, but six separate captions stack too tall for a sixth of a page.
+    stacked = [Claim(text="word word word word word", refs=["3 Nephi 8:1"])] * 6
+    scenes = [make_scene(scene_id=f"scene_{i:03d}", narration=stacked) for i in range(1, 7)]
+    panels = plan(scenes)
+    layout = frames(panels)
+    assert any(p.weight > classify_weight(s) for p, s in zip(panels, scenes))
+    store = Store(Path(tempfile.mkdtemp()) / "fits")
+    assemble(store, panels, art_for(store, panels))
+    assert all(MIN_ASPECT - 0.02 <= w / h <= MAX_ASPECT + 0.02 for _, _, w, h in layout.values())
+
+
+def test_page_frames_flow_left_to_right_then_wrap_and_fill_the_page():
+    group = [make_panel(i) for i in range(1, 7)]
+    boxes = page_frames(group)
+    width, height = PAGE_SIZE
+    assert min(x for x, *_ in boxes) == MARGIN and min(y for _, y, *_ in boxes) == MARGIN
+    assert max(x + w for x, _, w, _ in boxes) == width - MARGIN
+    assert max(y + h for _, y, _, h in boxes) == height - BOTTOM
+    order = [(y, x) for x, y, *_ in boxes]
+    assert order == sorted(order)
+    rows = {}
+    for x, y, w, h in boxes:
+        rows.setdefault(y, []).append((x, w))
+    for cells in rows.values():
+        for (x1, w1), (x2, _) in zip(cells, cells[1:]):
+            assert x2 - (x1 + w1) == GUTTER
+    assert max(len(c) for c in rows.values()) > 1
+
+
+def test_page_frames_give_heavier_panels_more_area():
+    group = [make_panel(1, weight=3), make_panel(2), make_panel(3), make_panel(4)]
+    areas = [w * h for *_, w, h in page_frames(group)]
+    # Weight orders sizes; renderable frame shapes can compress the exact proportion.
+    assert areas[0] > 1.4 * max(areas[1:])
+
+
+def test_layout_letters_on_the_art_and_refuses_overcrowding(tmp_path):
+    from PIL import Image
     store = Store(tmp_path / "layout")
-    panels, images = layout_panels(store, ["close", "close"])
-    assemble(store, panels, images)
+    panels = [make_panel(1, words=30), make_panel(2, words=30, dialogue=True)]
+    assemble(store, panels, art_for(store, panels))
     page = Image.open(store.path("pages/page_001.png"))
     assert page.size == PAGE_SIZE
-    # A two-panel page shouldn't be left floating in a mostly-blank column: the row-fill
-    # step should expand it well past its two panels' own natural (unscaled) height.
-    paper = ImageColor.getrgb(PAPER)
-    column = [page.getpixel((page.width // 2, y)) for y in range(page.height)]
-    content_rows = [y for y, pixel in enumerate(column) if pixel != paper]
-    extent = max(content_rows) - min(content_rows)
-    assert extent / (PAGE_SIZE[1] - TOP - BOTTOM) > 0.55
-
-
-def test_layout_fits_full_lettering_budget_for_every_shot(tmp_path):
-    """Every shot must hold the README's 65-word-per-scene lettering cap, in the page
-    groupings plan() actually produces: a splash alone, three full-width rows, or a
-    same-shot pair — never several full shots crammed onto one page."""
-    from bom_comic.comic import PAGE_SIZE
-    from PIL import Image
-    store = Store(tmp_path / "budget")
-    panels, images, start = [], {}, 1
-    for page, shots in enumerate([["splash"], ["wide", "medium"], ["tall", "tall"], ["close", "close"]], 1):
-        p, i = layout_panels(store, shots, words=65, page=page, start=start)
-        panels += p
-        images.update(i)
-        start += len(shots)
-    assemble(store, panels, images)
-    for number in range(1, 5):
-        assert Image.open(store.path(f"pages/page_{number:03d}.png")).size == PAGE_SIZE
-
-
-def test_layout_refuses_overcrowded_page(tmp_path):
-    store = Store(tmp_path / "crowded")
-    panels, images = layout_panels(store, ["close", "close"], words=400)
+    crowded, other = [make_panel(1, words=400), make_panel(2)], Store(tmp_path / "crowded")
     with pytest.raises(ValueError, match="Too much lettering"):
-        assemble(store, panels, images)
+        assemble(other, crowded, art_for(other, crowded))
+
+
+def test_moving_a_panel_without_reshaping_its_frame_keeps_its_image(pipeline):
+    ready(pipeline)
+    pipeline.generate()
+    data = pipeline.store.read("panels.json")
+    data["panels"][0]["page"], data["panels"][0]["weight"] = 3, 4
+    pipeline.store.write("panels.json", data)
+    pipeline.image_record(pipeline.panels()[0])
+
+
+def test_page_weight_overflow_is_rejected(pipeline):
+    ready(pipeline)
+    data = pipeline.store.read("panels.json")
+    data["panels"].append(dict(data["panels"][0], panel_id="panel_002", panel_number=2, weight=6))
+    data["panels"][0]["weight"] = 6
+    pipeline.store.write("panels.json", data)
+    with pytest.raises(ValueError):
+        pipeline.panels()
+
+
+def test_render_size_and_gemini_snapping_handle_any_frame():
+    from bom_comic.providers import render_size, nearest_gemini_aspect
+    for aspect in ("652:261", "326:467", "1:1"):
+        w, h = render_size(aspect)
+        a, b = (int(n) for n in aspect.split(":"))
+        assert w % 16 == 0 and h % 16 == 0 and abs(w / h - a / b) < 0.03
+        assert 0.8e6 < w * h < 1.25e6
+    assert nearest_gemini_aspect("652:261") == "21:9"
+    assert nearest_gemini_aspect("326:467") == "2:3"
+    assert frame_aspect((0, 0, 1304, 614)) == "652:307"
 
 
 def test_placeholder_provider_honors_aspect_ratio(tmp_path):
@@ -465,8 +528,7 @@ def test_generate_requests_the_panel_shot_aspect_ratio(pipeline):
         return original(*args, **kwargs)
     pipeline.provider.generate_image = capture
     pipeline.generate()
-    panel = pipeline.panels()[0]
-    assert calls[0]["aspect_ratio"] == SHOT_ASPECT[panel.shot]
+    assert calls[0]["aspect_ratio"] == pipeline.aspects()["panel_001"]
 
 
 def test_gemini_image_adapter_sends_aspect_ratio(tmp_path):
@@ -496,14 +558,14 @@ def test_diffusion_prompts_move_negations_to_negative(pipeline):
     from bom_comic.comic import diffusion_prompts
     ready(pipeline)
     panel = pipeline.panels()[0]
-    positive, negative = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY))
+    positive, negative = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3"))
     assert panel.action in positive
     assert "lettering, captions, logos, or speech bubbles in the image" in negative
     assert "photoreal, a photograph or film still" in negative
     assert "European or Asian" in negative
     assert "Mesoamerican/Andean-inspired" in positive
     assert not any(word in positive for word in ("No ", "Never ", "never ", "Visualize only"))
-    assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY)) == (positive, negative)
+    assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3")) == (positive, negative)
 
 
 def test_comfyui_adapter_submits_workflow_and_saves_image(tmp_path, pipeline):
@@ -525,12 +587,12 @@ def test_comfyui_adapter_submits_workflow_and_saves_image(tmp_path, pipeline):
     provider = ComfyUI(Store(tmp_path / "comfy"), url="http://fake")
     provider._call = call
     ready(pipeline)
-    panel_prompt = build_prompt(pipeline.panels()[0], DEFAULT_CONTINUITY)
+    panel_prompt = build_prompt(pipeline.panels()[0], DEFAULT_CONTINUITY, "16:9")
     output = provider.store.path("images/panel_001_aaa.png")
     output.parent.mkdir(parents=True)
     provider.generate_image(panel_prompt, output_path=output, aspect_ratio="16:9")
     workflow = calls[0][1]["prompt"]
-    assert (workflow["latent"]["inputs"]["width"], workflow["latent"]["inputs"]["height"]) == ComfyUI.SIZES["16:9"]
+    assert (workflow["latent"]["inputs"]["width"], workflow["latent"]["inputs"]["height"]) == (1360, 768)
     assert "People gathered." in workflow["pos"]["inputs"]["text"]
     assert "?filename=p.png&subfolder=bom_comic&type=output" in calls[-1][0]
     assert Image.open(output).size == (32, 32)

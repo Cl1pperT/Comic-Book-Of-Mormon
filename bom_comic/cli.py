@@ -20,10 +20,8 @@ def main():
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
-    planner = commands.add_parser("plan")
-    planner.add_argument("--pages", type=int, default=10, choices=range(1, 16))
-    preview = commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
-    preview.add_argument("--pages", type=int, default=12, choices=range(1, 16))
+    commands.add_parser("plan")
+    commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
     review = commands.add_parser("review")
     review.add_argument("kind", choices=["scene", "panel", "image"])
     review.add_argument("id", nargs="?")
@@ -58,9 +56,9 @@ def main():
         elif args.command == "validate":
             print(json.dumps(pipeline.validate(args.workers), indent=2))
         elif args.command == "plan":
-            pipeline.plan(args.pages)
+            pipeline.plan()
         elif args.command == "preview":
-            print(pipeline.preview(args.pages))
+            print(pipeline.preview())
         elif args.command == "review":
             if args.decision:
                 if not args.id:
@@ -70,15 +68,16 @@ def main():
                 print(json.dumps({"source": store.read("source.json"), "scenes": store.read("scenes.json"),
                     "validation": store.read("validation.json") if store.path("validation.json").exists() else "not validated"}, indent=2))
             else:
+                aspects = pipeline.aspects()
                 for panel in pipeline.panels():
                     if args.id and panel.panel_id != args.id:
                         continue
                     print(panel.model_dump_json(indent=2))
                     if args.kind == "image":
-                        print(store.path(pipeline.image_record(panel)["path"]))
+                        print(store.path(pipeline.image_record(panel, aspects)["path"]))
                     else:
                         from .comic import build_prompt
-                        print(build_prompt(panel, pipeline.continuity()))
+                        print(build_prompt(panel, pipeline.continuity(), aspects[panel.panel_id]))
         elif args.command == "generate":
             pipeline.generate(args.id)
         elif args.command == "assemble":
