@@ -6,8 +6,7 @@ from .models import Panel
 
 NEGATIVE = ["No additional named characters or unlisted events", "No modern objects or buildings",
             "No lettering, captions, logos, or speech bubbles in the image",
-            "Never show Jesus Christ, the Father, a descending person, or a divine silhouette",
-            "No events after 3 Nephi 11:7", "No unsupported doctrinal symbolism",
+            "No events beyond the approved scene's cited verses", "No unsupported doctrinal symbolism",
             "Do not alter approved important character identities or numbers",
             "No gore, parody, superhero imagery, humor, or fantasy embellishment",
             "Not a photograph or live-action film still; must read as drawn/painted comic illustration with visible linework"]
@@ -331,11 +330,12 @@ def _tracked(draw, xy, text, font, fill, tracking, anchor="center"):
 
 
 def _ref_range(refs):
-    first, last = refs[0].rsplit(" ", 1)[1], refs[-1].rsplit(" ", 1)[1]
+    book, first = refs[0].rsplit(" ", 1)
+    last = refs[-1].rsplit(" ", 1)[1]
     if first == last:
-        return f"3 Nephi {first}"
+        return f"{book} {first}"
     (c1, _), (c2, v2) = first.split(":"), last.split(":")
-    return f"3 Nephi {first}–{v2 if c1 == c2 else last}"
+    return f"{book} {first}–{v2 if c1 == c2 else last}"
 
 
 def _box(draw, blocks, ref, fonts, inner_w, target_h):

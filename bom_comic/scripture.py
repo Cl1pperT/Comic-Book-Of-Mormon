@@ -40,11 +40,19 @@ def select(verses, start, end):
     if lo > hi:
         raise ValueError("Range is reversed")
     selected = [v for v in verses if lo <= coordinate(v.ref) <= hi]
-    if lo[0] == hi[0] == BOOKS.index("3 Nephi") and 8 <= lo[1] <= hi[1] <= 11:
+    actual = sorted((BOOKS.index(v.book), v.chapter, v.verse) for v in selected)
+    if lo[:2] == hi[:2]:
+        # Single chapter: exact verse coverage needs no canonical count table.
+        expected = [(lo[0], lo[1], n) for n in range(lo[2], hi[2] + 1)]
+    elif lo[0] == hi[0] == BOOKS.index("3 Nephi") and 8 <= lo[1] <= hi[1] <= 11:
         expected = [(BOOKS.index("3 Nephi"), c, n) for c, count in COUNTS.items() for n in range(1, count + 1) if lo <= (BOOKS.index("3 Nephi"), c, n) <= hi]
     else:
-        expected = [coordinate(v.ref) for v in selected]
-    actual = [(BOOKS.index(v.book), v.chapter, v.verse) for v in selected]
+        # No canonical per-chapter verse counts for other multi-chapter ranges; this at least
+        # catches a gap or duplicate within any chapter that is present, not a missing chapter.
+        expected = []
+        for book, chapter in sorted({(b, c) for b, c, _ in actual}):
+            numbers = [n for b, c, n in actual if (b, c) == (book, chapter)]
+            expected += [(book, chapter, n) for n in range(min(numbers), max(numbers) + 1)]
     if actual != expected:
         raise ValueError("Selected range contains missing verses")
     return selected

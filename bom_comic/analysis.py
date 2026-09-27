@@ -9,17 +9,15 @@ creative design details. Summary must contain only supplied events. Quote dialog
 contiguous supplied verse text; do not paraphrase speech. Narration also uses source quotations.
 Never insert ellipses or change capitalization/punctuation inside quotations; use separate
 short exact excerpts instead. Count all narration and dialogue together against the 65-word limit.
-Do not turn reported destruction into a new present-tense event or compress separate times into one.
-Metaphors (including the hen gathering chickens) are teachings, not literal supernatural scenes.
-Christ's voice may be heard but Jesus, the Father, and descending heavenly figures MUST NEVER be
-visually depicted in this prototype. End at 3 Nephi 11:7, before any descent or visual revelation.
-Do not infer that the temple gathering immediately follows the dispersal of darkness.
-3 Nephi 10:18-19 is a narrator's anticipatory summary: retain its evidence and notes,
-but do NOT depict the appearance, body, or ministry it previews. Reserve revelation for a later part.
-During 8:20-10:8 the darkness permits no visible sun, moon, stars, flames, or other light;
-use black panels with off-screen lettering when a visible scene would contradict the text.
-Unnamed groups have no invented names or biographies. Historical names mentioned in teaching
-are not necessarily physically present. If uncertain choose a conservative interpretation.'''
+Do not turn reported or summarized events into a new present-tense scene, or compress separate
+times into one. Metaphors and figures of speech are teachings, not literal supernatural scenes,
+unless the source explicitly narrates them as a real visible event. Heavenly and divine figures
+may be visibly depicted exactly as and when the source explicitly describes their appearance;
+never invent an appearance the text doesn't state. Physical action explicitly described in the
+source (e.g. combat, injury) may be depicted as it happens, without gore: show the action, not
+wounds, blood, or severed body parts. Unnamed groups have no invented names or biographies. Historical or
+distant figures mentioned in narration are not necessarily physically present in the scene.
+If uncertain, choose a conservative interpretation.'''
 
 
 def analyze(provider, verses, chunk_size=6):
@@ -32,8 +30,14 @@ def analyze(provider, verses, chunk_size=6):
             prompt = RULES + '''\nBreak this portion into a few chronological drawable scenes.
 Use off-screen speech over supported settings for teachings. Keep each scene to a single visual
 moment and at most 65 words of lettering. Do not omit important narrative beats. Mark major
-moments for larger panels. Include the full 11:7 introduction in the last scene if supplied.
-Use characters for VISIBLE people only. IDs will be assigned later. Source:\n'''
+moments for larger panels. List every VISIBLE person or group in "characters", e.g. "Ammon",
+"King Lamoni", "the king's servants", "the attacking Lamanites" — reuse the same label across
+scenes for the same recurring person/group, and never leave this empty when the verse shows
+someone present, even if unnamed. Likewise list every VISIBLE setting in "locations". Use
+characters for VISIBLE people only. IDs will be assigned later.
+Every ref (scene refs and each claim's refs) is one supplied verse's exact "Book chapter:verse"
+string, e.g. "Alma 17:21" — never a range like "Alma 17:21-23" and never a bare chapter. A scene
+covering several verses lists each of their refs separately. Source:\n'''
             result = provider.structured(prompt + json.dumps([v.model_dump() for v in chunk]),
                                          SceneBatch, f"analyze_{chapter}_{offset}")
             scenes.extend(result.scenes)
@@ -56,8 +60,6 @@ def deterministic_issues(scene, verses):
         evidence = " ".join(source.get(ref, "") for ref in quote.refs)
         if " ".join(quote.text.split()) not in " ".join(evidence.split()):
             issues.append("Lettering must be an exact source quotation")
-    if any(any(word in c.lower() for word in ("jesus", "christ", "father", "heavenly")) for c in scene.characters):
-        issues.append("Divine figures cannot be visible in this prototype")
     if sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration) > 65:
         issues.append("Scene lettering exceeds 65 words; split into smaller scenes")
     return issues

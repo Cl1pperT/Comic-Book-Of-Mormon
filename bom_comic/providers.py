@@ -63,6 +63,49 @@ class Gemini:
                 return str(output_path)
         raise ValueError("Gemini returned no image; inspect saved API response")
 
+class Ollama:
+    """Local text reasoning (analyze/validate) through a running Ollama server's structured output."""
+
+    def __init__(self, store, url=None):
+        self.store = store
+        self.url = (url or os.getenv("OLLAMA_URL") or "http://127.0.0.1:11434").rstrip("/")
+        self.text_model = os.getenv("OLLAMA_TEXT_MODEL", "qwen2.5:14b-instruct")
+        self.validator_model = os.getenv("OLLAMA_VALIDATOR_MODEL", self.text_model)
+
+    def _call(self, payload, timeout=600):
+        import urllib.error
+        import urllib.request
+        request = urllib.request.Request(self.url + "/api/chat", data=json.dumps(payload).encode(),
+            headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return json.loads(response.read())
+        except urllib.error.HTTPError as exc:
+            raise ProviderError(f"Ollama HTTP {exc.code}: {exc.read().decode(errors='replace')[:2000]}") from None
+        except urllib.error.URLError as exc:
+            raise ProviderError(f"Ollama unreachable at {self.url} ({exc.reason}); run 'ollama serve' first") from None
+
+    def structured(self, prompt, schema, tag, kind="text"):
+        model = self.text_model if kind == "text" else self.validator_model
+        request = {"model": model, "prompt": prompt, "schema": schema.model_json_schema()}
+        cache_path = f"api/{tag}.cache.json"
+        if getattr(self, "reuse_responses", False) and self.store.path(cache_path).exists():
+            cached = self.store.read(cache_path)
+            if cached["request"] == request:
+                return schema.model_validate_json(cached["text"])
+        self.store.write(f"api/{tag}.request.json", {"model": model, "prompt": prompt})
+        response = self._call({"model": model, "messages": [{"role": "user", "content": prompt}],
+            "format": schema.model_json_schema(), "stream": False, "options": {"temperature": 0.1, "num_ctx": 16384}})
+        self.store.write(f"api/{tag}.response.json", response)
+        text = response.get("message", {}).get("content", "")
+        try:
+            result = schema.model_validate_json(text)
+        except Exception as exc:
+            raise ProviderError(f"Ollama returned invalid structured output for {tag}: {exc}") from None
+        self.store.write(cache_path, {"request": request, "text": text})
+        return result
+
+
 GEMINI_ASPECTS = ["1:1", "2:3", "3:2", "3:4", "4:3", "4:5", "5:4", "9:16", "16:9", "21:9"]
 
 

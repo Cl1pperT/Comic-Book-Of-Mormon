@@ -53,14 +53,25 @@ def test_parser_formats_and_ranges(source, tmp_path):
         with pytest.raises(ValueError):
             select(verses, start, end)
     with pytest.raises(ValueError):
-        coordinate("3 Nephi 11:8")
+        coordinate("Nonexistent Book 1:1")
+    with pytest.raises(ValueError):
+        coordinate("3 Nephi 0:1")
     source.write_text(source.read_text() * 2)
     with pytest.raises(ValueError, match="Duplicate"):
         load(source)
 
 
+def test_select_detects_missing_verse_in_any_single_chapter():
+    """The old missing-verse check only worked for 3 Nephi 8-11; select() must catch a gap
+    in any book/chapter without needing a canonical verse-count table for that book."""
+    verses = [Verse(book="Alma", chapter=17, verse=v, text="TEST") for v in (20, 21, 23, 24)]
+    assert len(select(verses, "Alma 17:20", "Alma 17:21")) == 2
+    with pytest.raises(ValueError, match="missing verses"):
+        select(verses, "Alma 17:20", "Alma 17:24")
+
+
 def test_full_scope_selection():
-    verses = [Verse(chapter=c, verse=v, text="TEST ONLY") for c, n in COUNTS.items() for v in range(1, n + 1)]
+    verses = [Verse(book="3 Nephi", chapter=c, verse=v, text="TEST ONLY") for c, n in COUNTS.items() for v in range(1, n + 1)]
     assert len(select(verses, "3 Nephi 8:1", "3 Nephi 11:7")) == 73
 
 
@@ -70,7 +81,7 @@ def test_serialization_and_prompt(pipeline):
     assert Panel.model_validate_json(panel.model_dump_json()) == panel
     prompt = build_prompt(panel, DEFAULT_CONTINUITY, "3:2")
     assert "1.50 times as wide as it is tall" in prompt
-    assert "Never show Jesus Christ" in prompt
+    assert "No unsupported doctrinal symbolism" in prompt
     assert "UNSPECIFIED CREATIVE DETAILS" in prompt
     assert "EXPLICIT SCRIPTURAL FACTS" in prompt
     assert panel.action in prompt
@@ -261,7 +272,36 @@ def test_structured_adapter_uses_json_schema(tmp_path):
     assert config["automatic_function_calling"]["disable"] is True
 
 
-def test_epub_extraction_preserves_embedded_verse_and_cutoff(tmp_path):
+def test_ollama_adapter_uses_json_schema_and_caches(tmp_path):
+    from bom_comic.providers import Ollama
+    calls = []
+    def call(payload, timeout=600):
+        calls.append(payload)
+        return {"message": {"content": '{"status":"PASS","issues":[]}'}}
+    provider = Ollama(Store(tmp_path / "ollama"), url="http://fake")
+    provider._call = call
+    provider.reuse_responses = True
+    assert provider.structured("Check facts", Verdict, "test", "validator").status == "PASS"
+    assert calls[0]["model"] == provider.validator_model
+    assert calls[0]["format"] == Verdict.model_json_schema()
+    assert calls[0]["stream"] is False
+    assert provider.store.read("api/test.cache.json")["text"] == '{"status":"PASS","issues":[]}'
+    provider.structured("Check facts", Verdict, "test", "validator")
+    assert len(calls) == 1  # second call served from cache; unchanged request
+
+
+def test_ollama_adapter_rejects_invalid_structured_output(tmp_path):
+    from bom_comic.providers import Ollama
+    from bom_comic.errors import ProviderError
+    provider = Ollama(Store(tmp_path / "ollama-bad"), url="http://fake")
+    provider._call = lambda payload, timeout=600: {"message": {"content": "not json"}}
+    with pytest.raises(ProviderError, match="invalid structured output"):
+        provider.structured("Check facts", Verdict, "test")
+
+
+def test_epub_extraction_preserves_embedded_verse_and_is_book_general(tmp_path):
+    """Extraction itself is general-purpose (grabs whatever the epub has, any book); scope
+    trimming to a particular run's range is select()'s job, not the extractor's."""
     from zipfile import ZipFile
     from bom_comic.epub import extract
     paragraphs = ['<html><body><h2>THIRD BOOK OF NEPHI</h2>']
@@ -274,15 +314,16 @@ def test_epub_extraction_preserves_embedded_verse_and_cutoff(tmp_path):
             if (chapter, verse) == (11, 1):
                 text += ' 3\nNephi 11:2 Synthetic fixture 11-2.'
             paragraphs.append(f'<p>{text}</p>')
-    paragraphs.append('<p>11:8 Outside selected scope.</p></body></html>')
+    paragraphs.append('<p>11:8 Beyond this prototype run\'s scope but still a real verse.</p></body></html>')
     path = tmp_path / 'fixture.epub'
     with ZipFile(path, 'w') as archive:
         archive.writestr('book.xhtml', ''.join(paragraphs))
     verses, evidence = extract(path)
-    assert len(verses) == len(evidence) == 73
-    assert verses[-6].text == 'Synthetic fixture 11-2.'
-    assert verses[-7].text == 'Synthetic fixture 11-1.'
-    assert verses[-1].ref == '3 Nephi 11:7'
+    assert len(verses) == len(evidence) == 74
+    assert verses[-8].text == 'Synthetic fixture 11-1.'
+    assert verses[-7].text == 'Synthetic fixture 11-2.'
+    assert verses[-1].ref == '3 Nephi 11:8'
+    assert len(select(verses, '3 Nephi 8:1', '3 Nephi 11:7')) == 73
 
 
 def test_preview_does_not_bypass_approvals(pipeline):
@@ -465,6 +506,14 @@ def test_page_frames_give_heavier_panels_more_area():
     areas = [w * h for *_, w, h in page_frames(group)]
     # Weight orders sizes; renderable frame shapes can compress the exact proportion.
     assert areas[0] > 1.4 * max(areas[1:])
+
+
+def test_ref_range_uses_the_actual_book_not_a_hardcoded_one():
+    from bom_comic.comic import _ref_range
+    assert _ref_range(["Alma 17:20"]) == "Alma 17:20"
+    assert _ref_range(["Alma 17:20", "Alma 17:21", "Alma 17:23"]) == "Alma 17:20–23"
+    assert _ref_range(["Alma 17:39", "Alma 18:1"]) == "Alma 17:39–18:1"
+    assert _ref_range(["3 Nephi 8:1", "3 Nephi 8:2"]) == "3 Nephi 8:1–2"
 
 
 def test_layout_letters_on_the_art_and_refuses_overcrowding(tmp_path):

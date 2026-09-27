@@ -4,7 +4,7 @@ from .config import Config
 from .errors import ProviderError
 from .storage import Store
 from .pipeline import Pipeline
-from .providers import ComfyUI, Gemini, PlaceholderImages
+from .providers import ComfyUI, Gemini, Ollama, PlaceholderImages
 
 
 def main():
@@ -17,9 +17,11 @@ def main():
     init.add_argument("--end", default="3 Nephi 11:7")
     analyzer = commands.add_parser("analyze")
     analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
+    analyzer.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_TEXT_MODEL) instead of Gemini")
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
+    validator.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_VALIDATOR_MODEL) instead of Gemini")
     commands.add_parser("plan")
     commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
     review = commands.add_parser("review")
@@ -38,7 +40,13 @@ def main():
         if args.command in ("validate", "plan", "preview", "review", "generate", "assemble") and not store.path("scenes.json").exists():
             raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
-        if args.command in ("analyze", "validate", "generate"):
+        if args.command in ("analyze", "validate"):
+            if getattr(args, "local", False):
+                Config.load()
+                provider = Ollama(store)
+            else:
+                provider = Gemini(Config.load(), store)
+        elif args.command == "generate":
             if getattr(args, "placeholder", False):
                 provider = PlaceholderImages()
             elif getattr(args, "local", False):

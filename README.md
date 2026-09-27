@@ -1,6 +1,6 @@
 # Book of Mormon comic prototype
 
-A Python CLI for a human-reviewed comic covering **3 Nephi 8–10 and 11:1–7**. Local scripture determines the story. The final scene ends with Christ's introduction in 11:7; no panel may visually reveal Jesus but may imply a heavenly figure 
+A Python CLI for a human-reviewed comic covering any Book of Mormon range you supply. Local scripture determines the story. Heavenly and divine figures may be visibly depicted exactly as and when the source explicitly describes their appearance; nothing may be invented beyond that.
 
 ## Install
 
@@ -27,7 +27,7 @@ JSON input is an array of `{ "book": "3 Nephi", "chapter": 8, "verse": 1, "text"
 3 Nephi 8:2 <paste the complete verse here>
 ```
 
-Do not include angle-bracket placeholders in real input. The parser rejects duplicates, missing verses in the selected range, malformed lines, and references beyond this prototype's scope. It does not authenticate the text or silently fetch missing verses. A full input needs 73 verses: 25 in chapter 8, 22 in 9, 19 in 10, and the first 7 in 11. Books outside this prototype are intentionally unsupported. Every source snapshot is hashed; changing it requires a new run.
+Do not include angle-bracket placeholders in real input. The parser rejects duplicates and malformed lines. It does not authenticate the text or silently fetch missing verses. Missing verses within a single supplied chapter are always caught. Across chapters, the only range with an exact canonical check is 3 Nephi 8–11 (73 verses: 25/22/19/7); other multi-chapter ranges only catch a gap or duplicate within a chapter that's present, not a missing chapter — review coverage yourself for those. Every source snapshot is hashed; changing it requires a new run.
 
 ## Configure Gemini
 
@@ -44,9 +44,13 @@ There is deliberately no default model. The text models must support structured 
 
 The implementation follows [Google's image generation documentation](https://ai.google.dev/gemini-api/docs/generate-content/image-generation) and [official Python SDK](https://github.com/googleapis/python-genai). If a selected future model uses a different API, update the adapter. Live calls incur provider costs and require network access. No live provider calls are made by tests.
 
+## Local text reasoning (Ollama)
+
+`analyze --local` and `validate --local` reason with a running [Ollama](https://ollama.com) server instead of Gemini, using its structured-output `format` (a JSON schema, same idea as Gemini's `response_json_schema`). Install Ollama, pull a model that follows instructions well and handles a few-thousand-token context (`ollama pull qwen2.5:14b-instruct` fits a 12GB card), then run with `--local`. Optional `.env` overrides: `OLLAMA_URL` (default `http://127.0.0.1:11434`), `OLLAMA_TEXT_MODEL`, `OLLAMA_VALIDATOR_MODEL` (defaults to the text model). A weaker local model may need `analyze --id`/re-`validate` iteration that Gemini rarely needs — check `scenes.json` for malformed refs or over-length lettering after a local `analyze`.
+
 ## Local image generation (ComfyUI + Flux)
 
-`generate --local` renders panels on your own GPU through a running [ComfyUI](https://github.com/comfyanonymous/ComfyUI) server instead of Gemini. Analysis and validation still use Gemini. Setup (tested on an RTX 3060 12GB):
+`generate --local` renders panels on your own GPU through a running [ComfyUI](https://github.com/comfyanonymous/ComfyUI) server instead of Gemini. Setup (tested on an RTX 3060 12GB):
 
 1. Install ComfyUI (the Windows portable build works) and the [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) custom node.
 2. Place models: `flux1-dev-Q8_0.gguf` in `models/unet`, `t5-v1_1-xxl-encoder-Q8_0.gguf` and `clip_l.safetensors` in `models/clip`, and the Flux `ae.safetensors` in `models/vae`.
