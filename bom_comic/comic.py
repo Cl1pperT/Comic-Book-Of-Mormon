@@ -128,6 +128,16 @@ def _paginate(scenes, weights):
 
 PORTRAITS_HEADING = "CHARACTER REFERENCE PORTRAITS"
 PORTRAIT_ASPECT = "3:4"
+GROUP_ASPECT = "4:3"
+
+
+def is_group(record):
+    """A group record (a people, army, or faction) gets a costume sheet of several people, not one face."""
+    return bool(record) and bool(record.get("group"))
+
+
+def portrait_aspect(record):
+    return GROUP_ASPECT if is_group(record) else PORTRAIT_ASPECT
 
 
 def build_prompt(panel, continuity, aspect, portraits=()):
@@ -135,10 +145,20 @@ def build_prompt(panel, continuity, aspect, portraits=()):
     references = []
     if portraits:
         # Sent as the attached images, in this order; diffusion_prompts drops this section.
-        references = [PORTRAITS_HEADING + "\nThe attached images are reference portraits of: " + "; ".join(portraits)
-                      + ". Draw each of these people with the same face, build, hair, skin tone and clothing as their"
-                      " portrait. Use the portraits only for appearance: do not copy their pose, framing, lighting or"
-                      " plain background, and do not add anyone because a portrait is attached."]
+        records = continuity["characters"]
+        people = [name for name in portraits if not is_group(records.get(name))]
+        groups = [name for name in portraits if is_group(records.get(name))]
+        lines = ["The attached images are, in order, references for: " + "; ".join(portraits) + "."]
+        if people:
+            lines.append("Reference portraits of individuals: " + "; ".join(people) + ". Draw each of these people"
+                         " with the same face, build, hair, skin tone and clothing as their portrait.")
+        if groups:
+            lines.append("Costume sheets for groups: " + "; ".join(groups) + ". Dress and equip members of each group"
+                         " as their sheet shows, but give every member their own face; a sheet shows no particular"
+                         " individual, so never repeat one face across a crowd.")
+        lines.append("Use references only for appearance: do not copy their pose, framing, lighting or plain"
+                     " background, and do not add anyone because a reference is attached.")
+        references = [PORTRAITS_HEADING + "\n" + " ".join(lines)]
     return "\n\n".join([
         "Visualize only this approved panel. You do not decide the story.",
         "GLOBAL STYLE\n" + json.dumps(continuity["visual_style"]),
@@ -166,6 +186,8 @@ def portrait_eligible(record):
 
 def build_portrait_prompt(name, record, style):
     """One character's reference portrait. Same sections as a panel prompt, so local rendering works too."""
+    if is_group(record):
+        return build_group_prompt(name, record, style)
     return "\n\n".join([
         "Draw one character reference portrait. It is a design reference used to keep this person looking the "
         "same across comic panels; it depicts no scene or event.",
@@ -184,6 +206,30 @@ def build_portrait_prompt(name, record, style):
             "No other people in the image",
             "Do not invent an appearance the record doesn't state or allow; for a heavenly or divine figure, "
             "depict only appearance its scriptural facts state"])])
+
+
+def build_group_prompt(name, record, style):
+    """A group's costume sheet: several clearly different people sharing the group's dress and equipment."""
+    return "\n\n".join([
+        "Draw one costume reference sheet for a group of people. It is a design reference used to keep this group's "
+        "dress, grooming and equipment consistent across comic panels; it depicts no scene or event and no "
+        "particular individual.",
+        "GLOBAL STYLE\n" + json.dumps(style),
+        "LOCATION CONSISTENCY (design choices are not scripture)\n{}",
+        "CHARACTER CONSISTENCY (design choices are not scripture)\n" + json.dumps({name: record}),
+        "APPROVED ACTION\n" + f"Costume reference sheet of {name}: four members standing side by side, full body, "
+        "each clearly a different person in age, build and face, all in the same group dress and equipment",
+        "VISIBLE PEOPLE\n" + json.dumps([name]),
+        "LOCATION\n[]",
+        "EXPLICIT SCRIPTURAL FACTS\n[]",
+        "REASONABLE VISUAL INFERENCES\n[]",
+        "UNSPECIFIED CREATIVE DETAILS\n" + json.dumps(["Plain, softly lit neutral background"]),
+        "PANEL SHAPE\nCostume sheet; compose for a frame 1.33 times as wide as it is tall",
+        "MOOD / COMPOSITION / CAMERA\nNeutral standing poses / Four figures in a row, clothing and equipment clearly readable / Full body, eye level",
+        "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + [
+            "No identical faces or twins",
+            "No combat, wounds, or action; figures simply stand",
+            "Do not invent dress or equipment the record doesn't state or allow"])])
 
 
 _NEGATED = re.compile(r"^(?:no|never|not|avoid|without|do not)\s", re.I)

@@ -5,8 +5,8 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, validate_scene
-from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, PORTRAIT_ASPECT, plan, build_prompt, build_portrait_prompt,
-    portrait_eligible, assemble, frames, frame_aspect)
+from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
+    portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
 from .scripture import load, select
 
 class Pipeline:
@@ -242,7 +242,8 @@ class Pipeline:
             slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or "character"
             path = self.store.path(f"portraits/{slug}_{uuid4().hex[:12]}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
-            self.provider.generate_image(prompt, output_path=path, aspect_ratio=PORTRAIT_ASPECT)
+            record = self.continuity()["characters"][name]
+            self.provider.generate_image(prompt, output_path=path, aspect_ratio=portrait_aspect(record))
             index[name] = {"path": str(path.relative_to(self.store.root)), "stamp": digest(prompt),
                            "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": prompt}
             self.store.write("portraits/index.json", index)
@@ -303,7 +304,9 @@ class Pipeline:
                 "portraits": {n: e["path"] for n, e in portraits.items()}})
             path = self.store.path(f"images/{name}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
-            references = [(n, self.store.path(e["path"])) for n, e in portraits.items()]
+            records = self.continuity()["characters"]
+            references = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
+                          for n, e in portraits.items()]
             self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
@@ -350,7 +353,7 @@ def character_bible(store, provider, identifier=None):
             continue
         slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or "character"
         path = store.path(f"{slug}_{uuid4().hex[:12]}.png")
-        provider.generate_image(prompt, output_path=path, aspect_ratio=PORTRAIT_ASPECT)
+        provider.generate_image(prompt, output_path=path, aspect_ratio=portrait_aspect(records[name]))
         index[name] = {"path": path.name, "stamp": digest(prompt),
                        "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": prompt}
         store.write("index.json", index)

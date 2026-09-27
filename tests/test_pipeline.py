@@ -804,3 +804,30 @@ def test_character_bible_renders_reuses_and_rerenders_on_change(tmp_path):
     assert character_bible(store, PlaceholderImages(), "Lehi") == ["Lehi"]
     with pytest.raises(ValueError, match="No portrait-eligible"):
         character_bible(store, PlaceholderImages(), "Nobody")
+
+
+def test_group_records_render_costume_sheets_and_panels_vary_faces(tmp_path, pipeline):
+    from bom_comic.pipeline import character_bible
+    from bom_comic.comic import build_portrait_prompt, is_group
+    group = {"group": True, "scriptural_facts": [], "visual_design_choices": ["Shaved heads, skin girdles"]}
+    person = {"scriptural_facts": [], "visual_design_choices": ["Grey beard"]}
+    assert is_group(group) and not is_group(person)
+    sheet = build_portrait_prompt("Lamanite warriors", group, DEFAULT_CONTINUITY["visual_style"])
+    assert "four members" in sheet and "No identical faces" in sheet
+    assert "No other people in the image" not in sheet
+    calls = []
+    class Recorder(PlaceholderImages):
+        def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None):
+            calls.append(aspect_ratio)
+            return super().generate_image(prompt, reference_images, output_path, aspect_ratio)
+    store = Store(tmp_path / "groups")
+    store.write("characters.json", {"Lamanite warriors": group, "Lehi": person})
+    character_bible(store, Recorder())
+    assert calls == ["4:3", "3:4"]
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    continuity = dict(DEFAULT_CONTINUITY, characters={"Lamanite warriors": group, "Lehi": person})
+    prompt = build_prompt(panel, continuity, "4:3", ["Lehi", "Lamanite warriors"])
+    assert "Reference portraits of individuals: Lehi" in prompt
+    assert "Costume sheets for groups: Lamanite warriors" in prompt
+    assert "never repeat one face" in prompt
