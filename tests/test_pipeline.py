@@ -786,3 +786,21 @@ def test_gemini_adapter_labels_reference_portraits(tmp_path):
     contents = calls[0]["contents"]
     assert contents[:2] == ["Approved prompt", "Reference portrait: Ammon"]
     assert contents[2].inline_data.mime_type == "image/png"
+
+
+def test_character_bible_renders_reuses_and_rerenders_on_change(tmp_path):
+    from bom_comic.pipeline import character_bible
+    store = Store(tmp_path / "bible")
+    record = {"scriptural_facts": [], "visual_design_choices": ["Tall, grey beard"]}
+    store.write("characters.json", {"Lehi": record, "A crowd": {"visual_design_choices": ["x"], "reference_portrait": False},
+                                    "Blank": {}})
+    assert character_bible(store, PlaceholderImages()) == ["Lehi"]
+    first = store.read("index.json")["Lehi"]
+    assert store.path(first["path"]).exists()
+    assert character_bible(store, PlaceholderImages()) == []
+    store.write("characters.json", {"Lehi": dict(record, visual_design_choices=["Tall, white beard"])})
+    assert character_bible(store, PlaceholderImages()) == ["Lehi"]
+    assert store.read("index.json")["Lehi"]["path"] != first["path"]
+    assert character_bible(store, PlaceholderImages(), "Lehi") == ["Lehi"]
+    with pytest.raises(ValueError, match="No portrait-eligible"):
+        character_bible(store, PlaceholderImages(), "Nobody")

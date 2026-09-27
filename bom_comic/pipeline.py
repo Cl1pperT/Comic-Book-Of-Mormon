@@ -327,3 +327,32 @@ class Pipeline:
         self.store.write("final/manifest.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels], "images": images})
         self.store.event("assemble", path=str(path))
         return path
+
+
+def character_bible(store, provider, identifier=None):
+    """Render a portrait for every eligible record in a folder's characters.json, independent of any story run.
+
+    Uses the folder's style.json (or the default style) and reuses portraits whose prompt is unchanged."""
+    records = store.read("characters.json")
+    style = store.read("style.json") if store.path("style.json").exists() else DEFAULT_CONTINUITY["visual_style"]
+    names = [name for name, record in records.items() if portrait_eligible(record)]
+    if identifier and identifier not in names:
+        raise ValueError(f"No portrait-eligible record for {identifier!r} in characters.json")
+    index = store.read("index.json") if store.path("index.json").exists() else {}
+    made = []
+    for name in names:
+        if identifier and name != identifier:
+            continue
+        prompt = build_portrait_prompt(name, records[name], style)
+        entry = index.get(name)
+        # Batch runs reuse current portraits; explicit --id always renders a new revision.
+        if not identifier and entry and entry["stamp"] == digest(prompt) and store.path(entry["path"]).exists():
+            continue
+        slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or "character"
+        path = store.path(f"{slug}_{uuid4().hex[:12]}.png")
+        provider.generate_image(prompt, output_path=path, aspect_ratio=PORTRAIT_ASPECT)
+        index[name] = {"path": path.name, "stamp": digest(prompt),
+                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": prompt}
+        store.write("index.json", index)
+        made.append(name)
+    return made

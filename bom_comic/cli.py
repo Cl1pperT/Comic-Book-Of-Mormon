@@ -3,7 +3,7 @@ import json
 from .config import Config
 from .errors import ProviderError
 from .storage import Store
-from .pipeline import Pipeline
+from .pipeline import Pipeline, character_bible
 from .providers import ComfyUI, Gemini, Ollama, PlaceholderImages
 
 
@@ -33,6 +33,10 @@ def main():
     portrait_cmd.add_argument("--id", help="Re-render one character's portrait (its exact name in characters.json)")
     portrait_cmd.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
     portrait_cmd.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
+    bible = commands.add_parser("bible", help="Render portraits for every record in --run's characters.json, no story run needed")
+    bible.add_argument("--id", help="Re-render one character's portrait (its exact name in characters.json)")
+    bible.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
+    bible.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     generation = commands.add_parser("generate")
     generation.add_argument("--id", help="Regenerate one panel; retains old image revisions")
     generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
@@ -50,7 +54,7 @@ def main():
                 provider = Ollama(store)
             else:
                 provider = Gemini(Config.load(), store)
-        elif args.command in ("portraits", "generate"):
+        elif args.command in ("portraits", "bible", "generate"):
             if getattr(args, "placeholder", False):
                 provider = PlaceholderImages()
             elif getattr(args, "local", False):
@@ -61,7 +65,10 @@ def main():
         if provider is not None:
             provider.reuse_responses = getattr(args, "resume", False)
         pipeline = Pipeline(store, provider)
-        if args.command == "init":
+        if args.command == "bible":
+            for name in character_bible(store, provider, args.id):
+                print(f"{name}: {store.path(store.read('index.json')[name]['path'])}")
+        elif args.command == "init":
             pipeline.init(args.source, args.start, args.end)
         elif args.command == "analyze":
             pipeline.analyze(args.id)
