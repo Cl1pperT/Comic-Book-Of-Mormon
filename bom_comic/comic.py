@@ -1,5 +1,6 @@
 import json
 import math
+import re
 from pathlib import Path
 from .models import Panel
 
@@ -112,6 +113,69 @@ def build_prompt(panel, continuity):
         "PANEL SHAPE\n" + f"{panel.shot} panel; compose for a {SHOT_ASPECT[panel.shot]} aspect ratio",
         "MOOD / COMPOSITION / CAMERA\n" + " / ".join([panel.mood, panel.composition, panel.camera]),
         "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + panel.prohibited)])
+
+
+_NEGATED = re.compile(r"^(?:no|never|not|avoid|without|do not)\s", re.I)
+_LEAD = re.compile(r"^(?:(?:no|never|not|avoid|without|do not)\s+)?(?:visually\s+)?(?:(?:show|depict|alter|imply)(?:ing)?\s+)?", re.I)
+_TAIL = re.compile(r",\s*(?:no|never|not)\s+", re.I)
+# Locked by NEGATIVE; a panel inference mentioning them would make a diffusion model draw text.
+_FORBIDDEN = ("lettering", "caption", "speech bubble", "logo")
+
+
+def _clauses(text):
+    return [c.strip(" .") for c in re.split(r"[;—]|(?<=\.)\s+", text) if c.strip(" .")]
+
+
+def _sort_clauses(texts, positive, negative, constraints=False):
+    for text in texts:
+        for clause in _clauses(text):
+            head, *tails = _TAIL.split(clause)
+            negated = bool(_NEGATED.match(head)) or (constraints and not head.lower().startswith("must "))
+            for target, item in [(negative if negated else positive, head)] + [(negative, t) for t in tails]:
+                if target is negative:
+                    item = _LEAD.sub("", item)
+                else:
+                    item = ", ".join(p for p in item.split(", ") if not any(w in p.lower() for w in _FORBIDDEN))
+                if item and item not in target:
+                    target.append(item)
+
+
+def diffusion_prompts(prompt):
+    # Diffusion models can't obey "no X" (naming X invites it), so negated clauses move to the
+    # negative prompt. Nothing is added; preamble, creative-latitude and shape lines are dropped.
+    sections, current = {}, None
+    for block in prompt.split("\n\n"):
+        head, _, body = block.partition("\n")
+        if head in _SECTIONS:
+            current, sections[head] = head, body
+        elif current:
+            sections[current] += "\n\n" + block
+    style = json.loads(sections["GLOBAL STYLE"])
+    people = json.loads(sections["VISIBLE PEOPLE"])
+    places = json.loads(sections["LOCATION"])
+    # Flux weights early tokens most, so the panel's own content leads and global style follows.
+    positive, negative = ["Scene: " + sections["APPROVED ACTION"].strip(" .\n")], []
+    facts = [c["text"] for c in json.loads(sections["EXPLICIT SCRIPTURAL FACTS"])]
+    _sort_clauses(json.loads(sections["REASONABLE VISUAL INFERENCES"]) + facts, positive, negative)
+    if people:
+        positive.append("People: " + ", ".join(people))
+    if places:
+        positive.append("Setting: " + ", ".join(places))
+    positive.append(sections["MOOD / COMPOSITION / CAMERA"].replace(" / ", ", "))
+    _sort_clauses([style.get("description", ""), *style.get("locked_traits", [])], positive, negative)
+    for key in ("LOCATION CONSISTENCY (design choices are not scripture)", "CHARACTER CONSISTENCY (design choices are not scripture)"):
+        for record in json.loads(sections[key]).values():
+            facts = [f["text"] if isinstance(f, dict) else f for f in record.get("scriptural_facts", [])]
+            _sort_clauses(facts + record.get("visual_design_choices", []) + record.get("locked_traits", []), positive, negative)
+    for line in sections["NEGATIVE CONSTRAINTS"].splitlines():
+        _sort_clauses([line], positive, negative, constraints=True)
+    return ". ".join(positive) + ".", ", ".join(negative)
+
+
+_SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scripture)",
+             "CHARACTER CONSISTENCY (design choices are not scripture)", "APPROVED ACTION", "VISIBLE PEOPLE",
+             "LOCATION", "EXPLICIT SCRIPTURAL FACTS", "REASONABLE VISUAL INFERENCES", "UNSPECIFIED CREATIVE DETAILS",
+             "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS"}
 
 
 # Page geometry in pixels at 150 dpi. Rows stack full width; art is never cropped.

@@ -4,7 +4,7 @@ from .config import Config
 from .errors import ProviderError
 from .storage import Store
 from .pipeline import Pipeline
-from .providers import Gemini, PlaceholderImages
+from .providers import ComfyUI, Gemini, PlaceholderImages
 
 
 def main():
@@ -32,6 +32,7 @@ def main():
     generation = commands.add_parser("generate")
     generation.add_argument("--id", help="Regenerate one panel; retains old image revisions")
     generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
+    generation.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     commands.add_parser("assemble")
     args = parser.parse_args()
     store = Store(args.run)
@@ -40,7 +41,13 @@ def main():
             raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
         if args.command in ("analyze", "validate", "generate"):
-            provider = PlaceholderImages() if getattr(args, "placeholder", False) else Gemini(Config.load(), store)
+            if getattr(args, "placeholder", False):
+                provider = PlaceholderImages()
+            elif getattr(args, "local", False):
+                Config.load()
+                provider = ComfyUI(store)
+            else:
+                provider = Gemini(Config.load(), store)
         if provider is not None:
             provider.reuse_responses = getattr(args, "resume", False)
         pipeline = Pipeline(store, provider)

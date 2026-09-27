@@ -1,4 +1,7 @@
 """All SDK-specific operations live here; providers are injectable in tests."""
+import hashlib
+import json
+import os
 from pathlib import Path
 from typing import Protocol
 from PIL import Image
@@ -58,6 +61,76 @@ class Gemini:
                     im.convert("RGB").save(output_path, "PNG")
                 return str(output_path)
         raise ValueError("Gemini returned no image; inspect saved API response")
+
+class ComfyUI:
+    """Local Flux.1-dev (GGUF) rendering through a running ComfyUI server with ComfyUI-GGUF nodes."""
+    SIZES = {"3:4": (896, 1184), "16:9": (1344, 768), "2:3": (832, 1248), "4:3": (1152, 864), "1:1": (1024, 1024)}
+
+    def __init__(self, store, url=None):
+        self.store = store
+        self.url = (url or os.getenv("COMFYUI_URL") or "http://127.0.0.1:8188").rstrip("/")
+        self.unet = os.getenv("COMFYUI_UNET", "flux1-dev-Q8_0.gguf")
+        self.t5 = os.getenv("COMFYUI_T5", "t5-v1_1-xxl-encoder-Q8_0.gguf")
+        self.steps = int(os.getenv("COMFYUI_STEPS", "24"))
+        # cfg > 1 is what makes Flux honor the negative prompt (at ~2x render time).
+        self.cfg = float(os.getenv("COMFYUI_CFG", "2.0"))
+        self.guidance = float(os.getenv("COMFYUI_GUIDANCE", "2.5"))
+
+    def _call(self, path, payload=None, timeout=60):
+        import urllib.error
+        import urllib.request
+        data = json.dumps(payload).encode() if payload is not None else None
+        request = urllib.request.Request(self.url + path, data=data, headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return response.read()
+        except urllib.error.HTTPError as exc:
+            raise ProviderError(f"ComfyUI HTTP {exc.code}: {exc.read().decode(errors='replace')[:2000]}") from None
+        except urllib.error.URLError as exc:
+            raise ProviderError(f"ComfyUI unreachable at {self.url} ({exc.reason}); start the server first") from None
+
+    def workflow(self, positive, negative, width, height, seed):
+        return {
+            "unet": {"class_type": "UnetLoaderGGUF", "inputs": {"unet_name": self.unet}},
+            "clip": {"class_type": "DualCLIPLoaderGGUF", "inputs": {"clip_name1": "clip_l.safetensors", "clip_name2": self.t5, "type": "flux"}},
+            "vae": {"class_type": "VAELoader", "inputs": {"vae_name": "ae.safetensors"}},
+            "pos": {"class_type": "CLIPTextEncode", "inputs": {"text": positive, "clip": ["clip", 0]}},
+            "guided": {"class_type": "FluxGuidance", "inputs": {"conditioning": ["pos", 0], "guidance": self.guidance}},
+            "neg": {"class_type": "CLIPTextEncode", "inputs": {"text": negative, "clip": ["clip", 0]}},
+            "latent": {"class_type": "EmptySD3LatentImage", "inputs": {"width": width, "height": height, "batch_size": 1}},
+            "sample": {"class_type": "KSampler", "inputs": {"model": ["unet", 0], "seed": seed, "steps": self.steps, "cfg": self.cfg,
+                "sampler_name": "euler", "scheduler": "simple", "positive": ["guided", 0], "negative": ["neg", 0],
+                "latent_image": ["latent", 0], "denoise": 1.0}},
+            "decode": {"class_type": "VAEDecode", "inputs": {"samples": ["sample", 0], "vae": ["vae", 0]}},
+            "save": {"class_type": "SaveImage", "inputs": {"images": ["decode", 0], "filename_prefix": "bom_comic/panel"}},
+        }
+
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None):
+        import io
+        import time
+        from urllib.parse import urlencode
+        from .comic import diffusion_prompts
+        stem = Path(output_path).stem
+        positive, negative = diffusion_prompts(prompt)
+        width, height = self.SIZES[aspect_ratio or "1:1"]
+        # Seeded from the revision name: reproducible per revision, different on regeneration.
+        seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
+        workflow = self.workflow(positive, negative, width, height, seed)
+        self.store.write(f"api/{stem}.request.json", {"positive": positive, "negative": negative, "workflow": workflow})
+        prompt_id = json.loads(self._call("/prompt", {"prompt": workflow}))["prompt_id"]
+        deadline = time.monotonic() + float(os.getenv("COMFYUI_TIMEOUT", "1800"))
+        while not (entry := json.loads(self._call(f"/history/{prompt_id}")).get(prompt_id)):
+            if time.monotonic() > deadline:
+                raise ProviderError(f"ComfyUI did not finish {stem} in time")
+            time.sleep(2)
+        self.store.write(f"api/{stem}.response.json", entry)
+        images = entry.get("outputs", {}).get("save", {}).get("images")
+        if entry.get("status", {}).get("status_str") == "error" or not images:
+            raise ProviderError("ComfyUI returned no image; inspect saved API response")
+        data = self._call("/view?" + urlencode({k: images[0][k] for k in ("filename", "subfolder", "type")}))
+        with Image.open(io.BytesIO(data)) as im:
+            im.convert("RGB").save(output_path, "PNG")
+        return str(output_path)
 
 class PlaceholderImages:
     """Offline plumbing test, never evidence of visual/scriptural accuracy."""

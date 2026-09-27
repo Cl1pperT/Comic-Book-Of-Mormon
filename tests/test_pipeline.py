@@ -492,6 +492,51 @@ def test_gemini_image_adapter_sends_aspect_ratio(tmp_path):
     assert calls[0]["config"]["image_config"] == {"aspect_ratio": "16:9"}
 
 
+def test_diffusion_prompts_move_negations_to_negative(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    positive, negative = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY))
+    assert panel.action in positive
+    assert "lettering, captions, logos, or speech bubbles in the image" in negative
+    assert "photoreal, a photograph or film still" in negative
+    assert "European or Asian" in negative
+    assert "Mesoamerican/Andean-inspired" in positive
+    assert not any(word in positive for word in ("No ", "Never ", "never ", "Visualize only"))
+    assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY)) == (positive, negative)
+
+
+def test_comfyui_adapter_submits_workflow_and_saves_image(tmp_path, pipeline):
+    import io
+    from PIL import Image
+    from bom_comic.providers import ComfyUI
+    data = io.BytesIO()
+    Image.new("RGB", (32, 32), "blue").save(data, format="PNG")
+    history = {"abc": {"status": {"status_str": "success"},
+        "outputs": {"save": {"images": [{"filename": "p.png", "subfolder": "bom_comic", "type": "output"}]}}}}
+    calls = []
+    def call(path, payload=None, timeout=60):
+        calls.append((path, payload))
+        if path == "/prompt":
+            return json.dumps({"prompt_id": "abc"}).encode()
+        if path.startswith("/history/"):
+            return json.dumps(history).encode()
+        return data.getvalue()
+    provider = ComfyUI(Store(tmp_path / "comfy"), url="http://fake")
+    provider._call = call
+    ready(pipeline)
+    panel_prompt = build_prompt(pipeline.panels()[0], DEFAULT_CONTINUITY)
+    output = provider.store.path("images/panel_001_aaa.png")
+    output.parent.mkdir(parents=True)
+    provider.generate_image(panel_prompt, output_path=output, aspect_ratio="16:9")
+    workflow = calls[0][1]["prompt"]
+    assert (workflow["latent"]["inputs"]["width"], workflow["latent"]["inputs"]["height"]) == ComfyUI.SIZES["16:9"]
+    assert "People gathered." in workflow["pos"]["inputs"]["text"]
+    assert "?filename=p.png&subfolder=bom_comic&type=output" in calls[-1][0]
+    assert Image.open(output).size == (32, 32)
+    assert provider.store.read("api/panel_001_aaa.request.json")["workflow"] == workflow
+
+
 def test_plan_sets_shot_specific_camera_and_mood(pipeline):
     ready(pipeline)
     panel = pipeline.panels()[0]

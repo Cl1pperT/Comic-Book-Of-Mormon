@@ -44,6 +44,18 @@ There is deliberately no default model. The text models must support structured 
 
 The implementation follows [Google's image generation documentation](https://ai.google.dev/gemini-api/docs/generate-content/image-generation) and [official Python SDK](https://github.com/googleapis/python-genai). If a selected future model uses a different API, update the adapter. Live calls incur provider costs and require network access. No live provider calls are made by tests.
 
+## Local image generation (ComfyUI + Flux)
+
+`generate --local` renders panels on your own GPU through a running [ComfyUI](https://github.com/comfyanonymous/ComfyUI) server instead of Gemini. Analysis and validation still use Gemini. Setup (tested on an RTX 3060 12GB):
+
+1. Install ComfyUI (the Windows portable build works) and the [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) custom node.
+2. Place models: `flux1-dev-Q8_0.gguf` in `models/unet`, `t5-v1_1-xxl-encoder-Q8_0.gguf` and `clip_l.safetensors` in `models/clip`, and the Flux `ae.safetensors` in `models/vae`.
+3. Start ComfyUI, then run `bom-comic --run runs/my-run generate --local`.
+
+The recorded prompt is exactly the one Gemini would get. `diffusion_prompts()` in `comic.py` rewrites it deterministically for Flux. Every negated clause ("No lettering…", "never photoreal") moves into a negative prompt, because diffusion models tend to draw whatever a prompt names. Panel content comes first, because Flux weights early tokens most. A panel inference that asks for lettering or speech bubbles is dropped from the positive prompt, since the locked negative forbids them. Nothing is added. The positive/negative pair, seed and full workflow are saved under `api/`. The seed derives from the revision name, so each revision is reproducible and a regeneration differs.
+
+Optional `.env` overrides: `COMFYUI_URL` (default `http://127.0.0.1:8188`), `COMFYUI_UNET`, `COMFYUI_T5`, `COMFYUI_STEPS` (24), `COMFYUI_CFG` (2.0) and `COMFYUI_GUIDANCE` (2.5). `cfg` above 1 is what makes Flux honor the negative prompt. At 1.0 the negative prompt is ignored and renders are about twice as fast, but modern objects crept in during testing. Expect about 3 minutes per panel on a 12GB card at the defaults. Flux.1 [dev] weights are under a non-commercial license.
+
 ## Run a small portion first
 
 All commands accept `--run PATH` **before** the subcommand. Start with a short contiguous portion from your own source, then use the default full range in a new run.
