@@ -160,6 +160,56 @@ def test_end_to_end_and_regeneration(pipeline):
         pipeline.assemble()
 
 
+def test_reader_flags_panels_of_the_assembled_draft(pipeline):
+    import threading
+    import urllib.request
+    from http.server import ThreadingHTTPServer
+    from bom_comic import reader
+    with pytest.raises(ValueError, match="assemble first"):
+        reader.draft(pipeline.store)
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    [page] = reader.draft(pipeline.store)["pages"]
+    assert page["panels"][0]["id"] == "panel_001" and len(page["panels"][0]["frame"]) == 4
+    saved = reader.flag(pipeline.store, "panel_001", "  Anachronism: a pen  ")
+    record = pipeline.image_record(pipeline.panels()[0])
+    assert saved["panel_001"]["note"] == "Anachronism: a pen"
+    assert saved["panel_001"]["image_hash"] == record["image_hash"]
+    assert reader.flags(pipeline.store) == saved
+    with pytest.raises(ValueError, match="not in the assembled draft"):
+        reader.flag(pipeline.store, "panel_999", "x")
+    assert reader.flag(pipeline.store, "panel_001", " ") == {}
+    # Flagging never touches approvals, so the draft still assembles.
+    assert pipeline.assemble().exists()
+    # The served page, data, page image, and flag endpoint round-trip.
+    started = threading.Event()
+    real = ThreadingHTTPServer
+    servers = []
+
+    class Capture(real):
+        def __init__(self, *a, **k):
+            super().__init__(*a, **k)
+            servers.append(self)
+            started.set()
+    reader.ThreadingHTTPServer = Capture
+    try:
+        threading.Thread(target=reader.serve, args=(pipeline.store, 0, False), daemon=True).start()
+        started.wait(5)
+        base = f"http://127.0.0.1:{servers[0].server_address[1]}"
+        assert b"Draft review" in urllib.request.urlopen(base + "/").read()
+        assert json.loads(urllib.request.urlopen(base + "/data").read())["flags"] == {}
+        assert urllib.request.urlopen(base + "/page/1").read().startswith(b"\x89PNG")
+        request = urllib.request.Request(base + "/flag", json.dumps({"panel_id": "panel_001", "note": "Wings"}).encode(),
+                                         {"Content-Type": "application/json"})
+        assert json.loads(urllib.request.urlopen(request).read())["flags"]["panel_001"]["note"] == "Wings"
+    finally:
+        reader.ThreadingHTTPServer = real
+        for server in servers:
+            server.shutdown()
+
+
 def test_panel_story_edits_blocked(pipeline):
     ready(pipeline)
     data = pipeline.store.read("panels.json")

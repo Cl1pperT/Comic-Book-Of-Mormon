@@ -51,3 +51,8 @@
 {"time": "2026-09-28T21:35:16.438451+00:00", "action": "review", "kind": "panel", "identifier": "panel_009", "decision": "approve", "note": "AUTOMATED re-approval after the user swapped in new reference portraits."}
 {"time": "2026-09-28T21:38:51.089178+00:00", "action": "generate", "panel_id": "panel_005", "path": "images\\panel_005_df3ae2969065.png", "panel_stamp": "f19c3d24e69dc1a43d72f86385b636880f0a15d409796f8a5cdab4af8e5f43ef", "image_hash": "01d005eb99e7a647d737f21b4397a8098968100a4ea6e78e7d6e195fbd1f27e8", "prompt": "prompts/panel_005_df3ae2969065.json"}
 {"time": "2026-09-28T21:42:23.743580+00:00", "action": "generate", "panel_id": "panel_006", "path": "images\\panel_006_56945aa17646.png", "panel_stamp": "8991f6a53f2b34c4fe3dd0ee75a2283da94a18c22d8db2597a9aed397395d407", "image_hash": "64618a9ee73070d7d2205a0e0b395f8fd440e1b930359d2f1472d02e897b7747", "prompt": "prompts/panel_006_56945aa17646.json"}
+{"time": "2026-09-28T22:07:29.144703+00:00", "action": "flag", "panel_id": "panel_001", "note": "Anachronism: modern pen and a paper book; should be plates"}
+{"time": "2026-09-28T22:07:33.430968+00:00", "action": "unflag", "panel_id": "panel_001", "note": ""}
+{"time": "2026-09-28T22:08:37.764576+00:00", "action": "flag", "panel_id": "panel_001", "note": "Shouldnt include modern pen and paper\nAnachronism:"}
+{"time": "2026-09-28T22:08:46.003786+00:00", "action": "flag", "panel_id": "panel_006", "note": "Clones"}
+{"time": "2026-09-28T22:08:58.528126+00:00", "action": "flag", "panel_id": "panel_006", "note": "Clones"}

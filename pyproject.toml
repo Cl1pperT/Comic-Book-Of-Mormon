@@ -14,6 +14,6 @@ bom-comic = "bom_comic.cli:main"
 [tool.setuptools.packages.find]
 include = ["bom_comic*"]
 [tool.setuptools.package-data]
-bom_comic = ["fonts/*", "detectors/*"]
+bom_comic = ["fonts/*", "detectors/*", "reader.html"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]

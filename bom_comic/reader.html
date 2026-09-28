@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Draft Reader</title>
+<style>
+  :root {
+    --bg: #e9e5dc; --surface: #fbfaf7; --ink: #1f1c18; --muted: #6f675b; --line: #d6cfc2;
+    --accent: #2f5d8a; --accent-ink: #ffffff; --flag: #c0392b; --flag-soft: rgba(192, 57, 43, 0.14);
+    --hover: rgba(47, 93, 138, 0.18); --shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1b1a18; --surface: #262421; --ink: #ece7de; --muted: #a39b8e; --line: #3a3733;
+      --accent: #7fb0e0; --accent-ink: #10202f; --flag: #ff6b5b; --flag-soft: rgba(255, 107, 91, 0.16);
+      --hover: rgba(127, 176, 224, 0.2); --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; min-height: 100vh; }
+  main { padding: 24px 16px 48px; display: flex; flex-direction: column; align-items: center; gap: 28px; }
+  .page { position: relative; width: 100%; max-width: 860px; box-shadow: var(--shadow); background: #efe9dc; }
+  .page img { display: block; width: 100%; height: auto; }
+  .page-label { position: absolute; top: -20px; left: 0; font-size: 12px; color: var(--muted); }
+  .panel { position: absolute; border: 0; padding: 0; margin: 0; background: transparent; cursor: pointer;
+           outline: 3px solid transparent; outline-offset: -3px; transition: outline-color .1s, background .1s; }
+  .panel:hover { background: var(--hover); outline-color: var(--accent); }
+  .panel:focus-visible { outline-color: var(--accent); }
+  .panel.flagged { outline-color: var(--flag); }
+  .panel.flagged:hover { background: var(--flag-soft); }
+  .panel.selected { outline: 4px solid var(--accent); outline-offset: -4px; background: var(--hover); }
+  .badge { position: absolute; top: 8px; right: 8px; background: var(--flag); color: #fff; font: 600 12px/1 system-ui;
+           padding: 5px 7px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none; }
+  aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface);
+          border-left: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+  h1 { font-size: 17px; margin: 0; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .card { border: 1px solid var(--line); border-radius: 10px; padding: 14px; background: var(--bg); }
+  .hint { color: var(--muted); margin: 0; }
+  .meta { font-weight: 600; }
+  .meta span { font-weight: 400; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+  .chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px;
+          padding: 4px 10px; font: inherit; font-size: 13px; cursor: pointer; }
+  .chip:hover { border-color: var(--accent); }
+  textarea { width: 100%; min-height: 96px; resize: vertical; border: 1px solid var(--line); border-radius: 8px;
+             padding: 8px 10px; font: inherit; background: var(--surface); color: var(--ink); }
+  textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .actions { display: flex; gap: 8px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+  button.primary, button.secondary { font: inherit; font-weight: 600; border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border: 1px solid var(--accent); }
+  button.secondary { background: transparent; color: var(--flag); border: 1px solid var(--line); }
+  button:disabled { opacity: .5; cursor: default; }
+  .status { font-size: 13px; color: var(--muted); }
+  .keys { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+  .flags { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .flags button { width: 100%; text-align: left; font: inherit; color: var(--ink); background: var(--bg);
+                  border: 1px solid var(--line); border-left: 4px solid var(--flag); border-radius: 8px;
+                  padding: 8px 10px; cursor: pointer; }
+  .flags button:hover { border-color: var(--accent); border-left-color: var(--flag); }
+  .flags .note { display: block; color: var(--muted); font-size: 13px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .error { color: var(--flag); }
+  @media (max-width: 980px) {
+    .layout { grid-template-columns: 1fr; }
+    main { padding-bottom: 50vh; }
+    aside { position: fixed; top: auto; bottom: 0; left: 0; right: 0; height: auto; max-height: 48vh;
+            border-left: 0; border-top: 1px solid var(--line); box-shadow: var(--shadow); padding: 14px 16px; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <main id="pages" aria-label="Draft pages"><p class="hint">Loading draft…</p></main>
+  <aside>
+    <div>
+      <h1>Draft review</h1>
+      <div class="sub" id="summary"></div>
+    </div>
+    <section class="card" id="editor" aria-live="polite"></section>
+    <section>
+      <h2>Flagged panels</h2>
+      <ul class="flags" id="flag-list"></ul>
+    </section>
+  </aside>
+</div>
+<script>
+const REASONS = ["Anachronism", "Character looks wrong", "Not in the verses", "Art error"];
+let data = null, flags = {}, selected = null;
+const drafts = {};
+const panels = {};
+
+const el = (tag, props = {}, children = []) => {
+  const node = Object.assign(document.createElement(tag), props);
+  for (const child of [].concat(children)) node.append(child);
+  return node;
+};
+const label = id => "Panel " + Number(id.split("_").pop());
+
+async function load() {
+  try {
+    const response = await fetch("/data");
+    if (!response.ok) throw new Error((await response.json()).error);
+    data = await response.json();
+    flags = data.flags;
+    renderPages();
+    renderSide();
+  } catch (error) {
+    document.getElementById("pages").replaceChildren(el("p", {className: "error", textContent: "Could not load the draft: " + error.message}));
+  }
+}
+
+function renderPages() {
+  const [W, H] = data.size;
+  const pct = (v, total) => (v / total * 100) + "%";
+  const root = document.getElementById("pages");
+  root.replaceChildren();
+  for (const page of data.pages) {
+    const figure = el("div", {className: "page"}, [
+      el("span", {className: "page-label", textContent: "Page " + page.number}),
+      el("img", {src: "/page/" + page.number, alt: "Page " + page.number, width: W, height: H}),
+    ]);
+    for (const panel of page.panels) {
+      const [x, y, w, h] = panel.frame;
+      const button = el("button", {className: "panel", type: "button"});
+      Object.assign(button.style, {left: pct(x, W), top: pct(y, H), width: pct(w, W), height: pct(h, H)});
+      button.addEventListener("click", () => select(panel.id));
+      panels[panel.id] = {...panel, page: page.number, button};
+      figure.append(button);
+    }
+    root.append(figure);
+  }
+  paintPanels();
+}
+
+function paintPanels() {
+  for (const [id, panel] of Object.entries(panels)) {
+    const button = panel.button;
+    button.classList.toggle("flagged", id in flags);
+    button.classList.toggle("selected", id === selected);
+    button.setAttribute("aria-label", `${label(id)}, ${panel.refs}${id in flags ? ", flagged: " + flags[id].note : ""}`);
+    button.querySelector(".badge")?.remove();
+    if (id in flags) button.append(el("span", {className: "badge", textContent: "Flagged"}));
+  }
+}
+
+function select(id, scroll = false) {
+  if (selected) drafts[selected] = document.getElementById("note")?.value ?? drafts[selected];
+  selected = id;
+  paintPanels();
+  renderSide();
+  if (scroll && id) panels[id].button.scrollIntoView({behavior: "smooth", block: "center"});
+  if (id) document.getElementById("note").focus({preventScroll: true});
+}
+
+function renderSide() {
+  const count = Object.keys(flags).length;
+  document.getElementById("summary").textContent =
+    `${data.run} · ${data.pages.length} pages · ${Object.keys(panels).length} panels · ${count} flagged`;
+
+  const editor = document.getElementById("editor");
+  if (!selected) {
+    editor.replaceChildren(el("p", {className: "hint", textContent: "Click a panel with an error to flag it and note why it's wrong."}));
+  } else {
+    const panel = panels[selected], saved = flags[selected]?.note ?? "";
+    const note = el("textarea", {id: "note", placeholder: "What's wrong with this panel?", value: drafts[selected] ?? saved});
+    const status = el("span", {className: "status", id: "status"});
+    const save = el("button", {className: "primary", type: "button", textContent: selected in flags ? "Update flag" : "Flag panel"});
+    const clear = el("button", {className: "secondary", type: "button", textContent: "Remove flag", disabled: !(selected in flags)});
+    const dirty = () => { status.textContent = note.value.trim() !== saved ? "Unsaved" : ""; };
+    note.addEventListener("input", dirty);
+    save.addEventListener("click", () => submit(note.value));
+    clear.addEventListener("click", () => submit(""));
+    const chips = REASONS.map(reason => {
+      const chip = el("button", {className: "chip", type: "button", textContent: reason});
+      chip.addEventListener("click", () => {
+        note.value = note.value.trim() ? note.value.trimEnd() + "\n" + reason + ": " : reason + ": ";
+        note.focus(); dirty();
+      });
+      return chip;
+    });
+    editor.replaceChildren(
+      el("div", {className: "meta"}, [label(selected) + " ", el("span", {textContent: `· ${panel.refs} · page ${panel.page}`})]),
+      el("div", {className: "chips"}, chips), note,
+      el("div", {className: "actions"}, [save, clear, status]),
+      el("div", {className: "keys", textContent: "Ctrl+Enter saves · Esc closes"}));
+    dirty();
+  }
+
+  const list = document.getElementById("flag-list");
+  const ids = Object.keys(flags).sort();
+  list.replaceChildren(...(ids.length ? ids.map(id => {
+    const button = el("button", {type: "button"}, [
+      el("strong", {textContent: label(id)}), " ", el("span", {className: "status", textContent: panels[id]?.refs ?? ""}),
+      el("span", {className: "note", textContent: flags[id].note})]);
+    button.addEventListener("click", () => select(id, true));
+    return el("li", {}, button);
+  }) : [el("li", {className: "hint", textContent: "None yet."})]));
+}
+
+async function submit(note) {
+  const status = document.getElementById("status");
+  try {
+    const response = await fetch("/flag", {method: "POST", headers: {"Content-Type": "application/json"},
+                                           body: JSON.stringify({panel_id: selected, note})});
+    const body = await response.json();
+    if (!response.ok) throw new Error(body.error);
+    flags = body.flags;
+    delete drafts[selected];
+    paintPanels();
+    renderSide();
+    document.getElementById("status").textContent = note.trim() ? "Saved" : "Flag removed";
+  } catch (error) {
+    status.textContent = "Not saved: " + error.message;
+    status.classList.add("error");
+  }
+}
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && selected) select(null);
+  if (event.key === "Enter" && (event.ctrlKey || event.metaKey) && selected) submit(document.getElementById("note").value);
+});
+load();
+</script>
+</body>
+</html>

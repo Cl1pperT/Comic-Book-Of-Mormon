@@ -49,6 +49,9 @@ def main():
     generation.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     generation.add_argument("--skip-main", action="store_true", help="Only render panels with no main (portrait-eligible, named) character")
     commands.add_parser("assemble")
+    reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
+    reader.add_argument("--port", type=int, default=8765)
+    reader.add_argument("--no-browser", action="store_true", help="Print the address without opening a browser")
     args = parser.parse_args()
     store = Store(args.run)
     try:
@@ -126,6 +129,9 @@ def main():
             pipeline.generate(args.id, skip_main=args.skip_main)
         elif args.command == "assemble":
             print(pipeline.assemble())
+        elif args.command == "read":
+            from .reader import serve
+            serve(store, args.port, not args.no_browser)
     except Exception as exc:
         # Avoid logging provider exceptions that may contain credentials or request URLs.
         store.event("error", stage=args.command, error_type=type(exc).__name__)
