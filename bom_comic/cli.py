@@ -18,12 +18,14 @@ def main():
     analyzer = commands.add_parser("analyze")
     analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
     analyzer.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_TEXT_MODEL) instead of Gemini")
+    analyzer.add_argument("--claude", action="store_true", help="Reason with Claude (ANTHROPIC_API_KEY, CLAUDE_TEXT_MODEL) instead of Gemini")
     analyzer.add_argument("--resume", action="store_true", help="Reuse chunks already analyzed with the identical model and prompt")
     analyzer.add_argument("--staged", action="store_true", help="Several small single-purpose passes with code-enforced rules (for smaller models)")
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
     validator.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_VALIDATOR_MODEL) instead of Gemini")
+    validator.add_argument("--claude", action="store_true", help="Check with Claude (ANTHROPIC_API_KEY, CLAUDE_VALIDATOR_MODEL) instead of Gemini")
     commands.add_parser("plan")
     commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
     review = commands.add_parser("review")
@@ -55,6 +57,10 @@ def main():
             if getattr(args, "local", False):
                 Config.load()
                 provider = Ollama(store)
+            elif getattr(args, "claude", False):
+                Config.load()
+                from .claude import Claude
+                provider = Claude(store)
             else:
                 provider = Gemini(Config.load(), store)
         elif args.command in ("portraits", "bible", "generate"):

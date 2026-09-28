@@ -68,3 +68,30 @@ def test_failed_lettering_answer_goes_to_repair_not_crash():
             return super().structured(prompt, schema, tag, kind)
     scenes = analyze_staged(Flaky(), VERSES)
     assert all(s.narration for s in scenes)
+
+
+def test_claude_provider_returns_parsed_output_and_caches(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+    from bom_comic.claude import Claude
+    from bom_comic.errors import ProviderError
+    from bom_comic.models import Verdict
+    from bom_comic.storage import Store
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
+    monkeypatch.setenv("CLAUDE_TEXT_MODEL", "claude-haiku-4-5")
+    provider = Claude(Store(tmp_path / "claude"))
+    calls = []
+    def parse(**kwargs):
+        calls.append(kwargs)
+        return SimpleNamespace(stop_reason="end_turn", parsed_output=Verdict(status="PASS"), to_dict=lambda: {"ok": 1})
+    provider.client = SimpleNamespace(messages=SimpleNamespace(parse=parse))
+    provider.reuse_responses = True
+    assert provider.structured("check", Verdict, "t").status == "PASS"
+    assert calls[0]["output_format"] is Verdict and calls[0]["model"] == "claude-haiku-4-5"
+    provider.structured("check", Verdict, "t")
+    assert len(calls) == 1
+    def refuse(**kwargs):
+        return SimpleNamespace(stop_reason="refusal", parsed_output=None, to_dict=lambda: {})
+    provider.client = SimpleNamespace(messages=SimpleNamespace(parse=refuse))
+    import pytest
+    with pytest.raises(ProviderError, match="declined"):
+        provider.structured("other", Verdict, "t2")

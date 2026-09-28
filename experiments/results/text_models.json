@@ -150,7 +150,11 @@
     "missing_verses": 0,
     "deterministic_issues": {},
     "scenes_with_deterministic_issues": 0,
-    "validation": {},
+    "validation": {
+      "REJECT": 81,
+      "PASS WITH WARNINGS": 10,
+      "PASS": 15
+    },
     "empty_characters": 4,
     "major_scenes": 0,
     "lettering_words": 3577,
@@ -199,8 +203,12 @@
       "in": 107772,
       "out": 38672
     },
-    "validate_tokens": {},
-    "cost_usd": 0.0,
-    "projected_book_cost_usd": 0.0
+    "validate_tokens": {
+      "calls": 106,
+      "in": 168098,
+      "out": 123804
+    },
+    "cost_usd": 0.59,
+    "projected_book_cost_usd": 35.0
   }
 ]
