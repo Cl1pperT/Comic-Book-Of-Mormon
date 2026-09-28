@@ -1,4 +1,4 @@
-from bom_comic.analysis import deterministic_issues
+﻿from bom_comic.analysis import deterministic_issues
 from bom_comic.models import Verse
 from bom_comic.staged import analyze_staged, segment_schema, lettering_schema
 
@@ -139,9 +139,16 @@ def test_comfyui_uses_kontext_with_reference_portraits(tmp_path):
     workflow = sent[-1]
     assert workflow["unet"]["inputs"]["unet_name"] == provider.kontext_unet
     assert workflow["load0"]["inputs"]["image"] == "uploaded_nephi.png" and "ref1" in workflow and "multi" in workflow
-    assert "Nephi, Laban" in workflow["pos"]["inputs"]["text"]
+    assert "Only Nephi, Laban look like the reference images" in workflow["pos"]["inputs"]["text"]
     provider.generate_image(prompt, output_path=out, aspect_ratio="4:3")
     assert sent[-1]["unet"]["inputs"]["unet_name"] == provider.unet and "load0" not in sent[-1]
 
 
 from pathlib import Path
+
+
+
+def test_kontext_prompt_says_other_figures_are_different_people():
+    from bom_comic.comic import visible_people
+    prompt = "Visualize.\n\nVISIBLE PEOPLE\n[\"Lehi\", \"One\", \"twelve others\"]\n\nLOCATION\n[]"
+    assert visible_people(prompt) == ["Lehi", "One", "twelve others"]

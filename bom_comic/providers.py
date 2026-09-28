@@ -263,9 +263,16 @@ class ComfyUI:
         seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]
         if references:
+            from .comic import visible_people
             names = [label for label, _ in references]
-            positive = ("The reference images show " + ", ".join(names) + "; keep each person's face, hair, build, "
-                        "and clothing exactly as shown, in a new pose and scene. " + positive)
+            others = [p for p in visible_people(prompt) if p not in names]
+            binding = ("Only " + ", ".join(names) + " look like the reference images: keep their faces, hair, build, "
+                       "and clothing exactly as shown, in a new pose and scene. ")
+            # Kontext otherwise gives the reference face and clothes to everyone in the frame.
+            if others:
+                binding += ("Everyone else (" + ", ".join(others) + ") is a different person with a clearly different "
+                            "face, hair, age, and clothing; never give them the reference face or garments. ")
+            positive = binding + positive
             workflow = self.kontext_workflow(positive, width, height, seed, [self.upload(path) for _, path in references])
         else:
             workflow = self.workflow(positive, negative, width, height, seed)

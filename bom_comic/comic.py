@@ -258,6 +258,15 @@ def _sort_clauses(texts, positive, negative, constraints=False):
                     target.append(item)
 
 
+def visible_people(prompt):
+    """The VISIBLE PEOPLE list from a build_prompt() prompt."""
+    for block in prompt.split("\n\n"):
+        head, _, body = block.partition("\n")
+        if head == "VISIBLE PEOPLE":
+            return json.loads(body)
+    return []
+
+
 _ARCHITECTURE_CLAUSE = re.compile(r"^architecture\b", re.I)
 _BUILT_WORDS = ("temple", "pyramid", "court", "palace", "city", "cities", "house", "building", "tower",
     "wall", "gate", "room", "chamber", "throne", "altar", "doorway", "dwelling", "town", "village",
