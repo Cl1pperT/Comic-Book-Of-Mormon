@@ -57,19 +57,20 @@ class Pipeline:
             scenes[index] = result.scenes[0]
             scenes[index].scene_id = identifier
         else:
-            scenes = analyze(self.provider, self.verses())
+            scenes = analyze(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
         self.store.write("scenes.json", [s.model_dump() for s in scenes])
         self.store.event("analyze", count=len(scenes))
 
     def validate(self, workers=1):
         scenes, verses = self.scenes(), self.verses()
+        known = list(self.continuity()["characters"])
         if len({s.scene_id for s in scenes}) != len(scenes):
             raise ValueError("Duplicate scene IDs")
         if not 1 <= workers <= 4:
             raise ValueError("Validation workers must be between 1 and 4")
         def check(index):
             scene = scenes[index]
-            verdict = validate_scene(self.provider, scene, verses, scenes[index - 1] if index else None)
+            verdict = validate_scene(self.provider, scene, verses, scenes[index - 1] if index else None, known)
             return scene.scene_id, verdict.model_dump()
         if workers == 1:
             results = dict(check(index) for index in range(len(scenes)))
@@ -277,13 +278,21 @@ class Pipeline:
         self.store.write("reviews.json", reviews)
         self.store.event("review", kind=kind, identifier=identifier, decision=decision, note=note)
 
-    def generate(self, identifier=None):
+    def main_characters(self, panel):
+        """Visible named individuals whose record can seed a portrait; these need identity-preserving art."""
+        records = self.continuity()["characters"]
+        return [name for name in panel.characters_visible
+                if portrait_eligible(records.get(name)) and not is_group(records.get(name))]
+
+    def generate(self, identifier=None, skip_main=False):
         panels = self.panels()
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
             raise ValueError("Unknown panel")
         for panel in panels:
             if identifier and panel.panel_id != identifier:
+                continue
+            if skip_main and self.main_characters(panel):
                 continue
             review = self.approvals().get("panel:" + panel.panel_id, {})
             if review.get("decision") != "approve" or review.get("stamp") != self.panel_stamp(panel, aspects):

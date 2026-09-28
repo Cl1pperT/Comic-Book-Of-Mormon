@@ -1,0 +1,743 @@
+# 1 Nephi 1-4: scenes by setup
+
+## A-pro
+
+- **Nephi Makes a Record** (1 Nephi 1:1 to 1 Nephi 1:3) chars: Nephi
+  - Narration: I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father
+  - Narration: therefore I make a record of my proceedings in my days.
+  - Narration: and I make it with mine own hand
+- **Prophets Warn Jerusalem** (1 Nephi 1:4) chars: prophets, people of Jerusalem
+  - Narration: For it came to pass in the commencement of the first year of the reign of Zedekiah, king of Judah
+  - Narration: there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.
+- **Lehi Prays for His People** (1 Nephi 1:5) chars: Lehi
+  - Narration: Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people.
+- **Lehi Sees a Pillar of Fire** (1 Nephi 1:6) chars: Lehi
+  - Narration: And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him
+  - Narration: and he saw and heard much
+  - Narration: and because of the things which he saw and heard he did quake and tremble exceedingly.
+- **Lehi Overcome on His Bed** (1 Nephi 1:7) chars: Lehi
+  - Narration: And it came to pass that he returned to his own house at Jerusalem;
+  - Narration: and he cast himself upon his bed, being overcome with the Spirit and the things which he had seen.
+- **Lehi's Vision of God's Throne** (1 Nephi 1:8) chars: Lehi, God, angels
+  - Narration: And being thus overcome with the Spirit, he was carried away in a vision,
+  - Narration: even that he saw the heavens open, and he thought he saw God sitting upon his throne,
+  - Narration: surrounded with numberless concourses of angels in the attitude of singing and praising their God.
+- **One Descending with Twelve Others** (1 Nephi 1:9 to 1 Nephi 1:10) chars: Lehi, One descending, twelve others
+  - Narration: And it came to pass that he saw One descending out of the midst of heaven, and he beheld that his luster was above that of the sun at noon-day.
+  - Narration: And he also saw twelve others following him, and their brightness did exceed that of the stars in the firmament.
+- **Lehi Receives the Book** (1 Nephi 1:11 to 1 Nephi 1:12) chars: Lehi, One descending, twelve others
+  - Narration: And they came down and went forth upon the face of the earth;
+  - Narration: and the first came and stood before my father, and gave unto him a book, and bade him that he should read.
+  - Narration: And it came to pass that as he read, he was filled with the Spirit of the Lord.
+- **Lehi Reads and Praises God** (1 Nephi 1:13 to 1 Nephi 1:15) chars: Lehi
+  - Lehi: â€œWo, wo, unto Jerusalem, for I have seen thine abominations!â€
+  - Lehi: â€œGreat and marvelous are thy works, O Lord God Almighty!â€
+  - Narration: his soul did rejoice, and his whole heart was filled, because of the things which he had seen
+- **Nephi Makes His Record** (1 Nephi 1:16 to 1 Nephi 1:17) chars: Nephi
+  - Narration: I, Nephi, do not make a full account of the things which my father hath written
+  - Narration: I shall make an account of my proceedings in my days.
+  - Narration: Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands
+- **Lehi Prophesies to the People** (1 Nephi 1:18) chars: Lehi, the people of Jerusalem
+  - Narration: after the Lord had shown so many marvelous things unto my father, Lehi, yea, concerning the destruction of Jerusalem
+  - Narration: he went forth among the people, and began to prophesy and to declare unto them concerning the things which he had both seen and heard.
+- **The Jews Mock and Reject the Message** (1 Nephi 1:19 to 1 Nephi 1:20) chars: Lehi, the Jews
+  - Narration: the Jews did mock him because of the things which he testified of them
+  - Narration: for he truly testified of their wickedness and their abominations
+  - Narration: And when the Jews heard these things they were angry with him
+  - Narration: and they also sought his life, that they might take it away.
+- **Nephi's Promise of Deliverance** (1 Nephi 1:20) chars: Nephi
+  - Narration: But behold, I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.
+- **Lehi's Dream** (1 Nephi 2:1 to 1 Nephi 2:2) chars: Lehi
+  - The Lord: â€œBlessed art thou Lehi, because of the things which thou hast done; and because thou hast been faithful and declared unto this people the things which I commanded thee, behold, they seek to take away thy life.â€
+  - Narration: the Lord commanded my father, even in a dream, that he should take his family and depart into the wilderness.
+- **Lehi Leaves His Riches** (1 Nephi 2:3 to 1 Nephi 2:4) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he left his house, and the land of his inheritance, and his gold, and his silver, and his precious things
+  - Narration: and took nothing with him, save it were his family, and provisions, and tents, and departed into the wilderness.
+- **Traveling Near the Red Sea** (1 Nephi 2:5) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he came down by the borders near the shore of the Red Sea
+  - Narration: and he did travel in the wilderness with his family, which consisted of my mother, Sariah, and my elder brothers, who were Laman, Lemuel, and Sam.
+- **Pitching the Tent in a Valley** (1 Nephi 2:6) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And it came to pass that when he had traveled three days in the wilderness, he pitched his tent in a valley by the side of a river of water.
+- **Lehi's Altar in the Wilderness** (1 Nephi 2:7) chars: Lehi
+  - Narration: And it came to pass that he built an altar of stones, and made an offering unto the Lord, and gave thanks unto the Lord our God.
+- **Lehi Counsels Laman** (1 Nephi 2:8 to 1 Nephi 2:9) chars: Lehi, Laman
+  - Lehi: â€œO that thou mightest be like unto this river, continually running into the fountain of all righteousness!â€
+- **Lehi Counsels Lemuel** (1 Nephi 2:10) chars: Lehi, Lemuel
+  - Lehi: â€œO that thou mightest be like unto this valley, firm and steadfast, and immovable in keeping the commandments of the Lord!â€
+- **The Murmuring of Laman and Lemuel** (1 Nephi 2:11 to 1 Nephi 2:12) chars: Laman, Lemuel, Lehi
+  - Narration: And thus Laman and Lemuel, being the eldest, did murmur against their father. And they did murmur because they knew not the dealings of that God who had created them.
+- **Lehi Confounds Laman and Lemuel** (1 Nephi 2:13 to 1 Nephi 2:15) chars: Lehi, Laman, Lemuel
+  - Narration: Neither did they believe that Jerusalem, that great city, could be destroyed according to the words of the prophets.
+  - Narration: And it came to pass that my father did speak unto them in the valley of Lemuel, with power,
+  - Narration: until their frames did shake before him.
+  - Narration: And my father dwelt in a tent.
+- **Nephi Cries Unto the Lord** (1 Nephi 2:16) chars: Nephi
+  - Narration: And it came to pass that I, Nephi, being exceedingly young, nevertheless being large in stature,
+  - Narration: I did cry unto the Lord; and behold he did visit me, and did soften my heart
+- **Nephi Teaches Sam** (1 Nephi 2:17) chars: Nephi, Sam
+  - Narration: And I spake unto Sam, making known unto him the things which the Lord had manifested unto me by his Holy Spirit.
+  - Narration: And it came to pass that he believed in my words.
+- **Nephi is Rejected by Laman and Lemuel** (1 Nephi 2:18) chars: Nephi, Laman, Lemuel
+  - Narration: But, behold, Laman and Lemuel would not hearken unto my words;
+  - Narration: and being grieved because of the hardness of their hearts I cried unto the Lord for them.
+- **The Lord Speaks to Nephi** (1 Nephi 2:19 to 1 Nephi 2:20) chars: Nephi
+  - The Lord: â€œBlessed art thou, Nephi, because of thy faith, for thou hast sought me diligently, with lowliness of heart.â€
+  - The Lord: â€œAnd inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise;â€
+- **Prophecies Concerning Nephi's Brethren** (1 Nephi 2:21 to 1 Nephi 2:24) chars: Nephi
+  - The Lord: â€œAnd inasmuch as thy brethren shall rebel against thee, they shall be cut off from the presence of the Lord.â€
+  - The Lord: â€œAnd inasmuch as thou shalt keep my commandments, thou shalt be made a ruler and a teacher over thy brethren.â€
+  - The Lord: â€œFor behold, in that day that they shall rebel against me, I will curse them even with a sore curse,â€
+- **Lehi Commands Nephi to Return for the Brass Plates** (1 Nephi 3:1 to 1 Nephi 3:6) chars: Nephi, Lehi
+  - Lehi: â€œBehold I have dreamed a dream, in the which the Lord hath commanded me that thou and thy brethren shall return to Jerusalem.â€
+  - Lehi: â€œFor behold, Laban hath the record of the Jews and also a genealogy of my forefathers, and they are engraven upon plates of brass.â€
+  - Lehi: â€œTherefore go, my son, and thou shalt be favored of the Lord, because thou hast not murmured.â€
+- **Nephi's Commitment** (1 Nephi 3:7 to 1 Nephi 3:8) chars: Nephi, Lehi
+  - Nephi: â€œI will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.â€
+- **Journeying to Jerusalem** (1 Nephi 3:9) chars: Nephi, Laman, Lemuel, Sam
+- **Casting Lots** (1 Nephi 3:10 to 1 Nephi 3:11) chars: Nephi, Laman, Lemuel, Sam
+- **Laman Asks Laban** (1 Nephi 3:11 to 1 Nephi 3:12) chars: Laman, Laban
+  - Narration: And he desired of Laban the records which were engraven upon the plates of brass, which contained the genealogy of my father.
+- **Laban Threatens Laman** (1 Nephi 3:13 to 1 Nephi 3:14) chars: Laban, Laman
+  - Laban: â€œBehold thou art a robber, and I will slay thee.â€
+- **Laman Returns to His Brothers** (1 Nephi 3:14) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: And we began to be exceedingly sorrowful, and my brethren were about to return unto my father in the wilderness.
+- **Nephi's Resolve** (1 Nephi 3:15) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œAs the Lord liveth, and as we live, we will not go down unto our father in the wilderness until we have accomplished the thing which the Lord hath commanded us.â€
+- **Nephi Suggests Retrieving Riches** (1 Nephi 3:16 to 1 Nephi 3:18) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œWherefore, let us be faithful in keeping the commandments of the Lord; therefore let us go down to the land of our father’s inheritance, for behold he left gold and silver, and all manner of riches.â€
+- **Nephi Persuades His Brethren** (1 Nephi 3:19 to 1 Nephi 3:21) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œAnd behold, it is wisdom in God that we should obtain these records, that we may preserve unto our children the language of our fathers;â€
+  - Nephi: â€œAnd also that we may preserve unto them the words which have been spoken by the mouth of all the holy prophetsâ€
+  - Narration: And it came to pass that after this manner of language did I persuade my brethren
+- **Gathering Their Wealth** (1 Nephi 3:22) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it came to pass that we went down to the land of our inheritance, and we did gather together our gold, and our silver, and our precious things.
+- **Offering Wealth for the Records** (1 Nephi 3:23 to 1 Nephi 3:24) chars: Nephi, Laman, Lemuel, Sam, Laban
+  - Narration: And after we had gathered these things together, we went up again unto the house of Laban.
+  - Narration: And it came to pass that we went in unto Laban, and desired him that he would give unto us the records which were engraven upon the plates of brass
+  - Narration: for which we would give unto him our gold, and our silver, and all our precious things.
+- **Laban Steals the Property** (1 Nephi 3:25 to 1 Nephi 3:26) chars: Laban, Laban's servants, Laman, Lemuel, Sam, Nephi
+  - Narration: when Laban saw our property, and that it was exceedingly great, he did lust after it
+  - Narration: he thrust us out, and sent his servants to slay us
+  - Narration: we did flee before the servants of Laban, and we were obliged to leave behind our property
+- **Hiding in the Cavity of a Rock** (1 Nephi 3:27 to 1 Nephi 3:28) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: we fled into the wilderness
+  - Narration: we hid ourselves in the cavity of a rock.
+  - Narration: Laman and Lemuel did speak many hard words unto us, their younger brothers, and they did smite us even with a rod.
+- **The Angel's Rebuke** (1 Nephi 3:29 to 1 Nephi 3:30) chars: an angel of the Lord, Laman, Lemuel, Sam, Nephi
+  - an angel of the Lord: â€œWhy do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.â€
+  - Narration: an angel of the Lord came and stood before them
+- **Laman and Lemuel Murmur Again** (1 Nephi 3:31) chars: Laman, Lemuel, Nephi, Sam
+  - Laman and Lemuel: â€œHow is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and he can command fifty, yea, even he can slay fifty; then why not us?â€
+  - Narration: And after the angel had departed, Laman and Lemuel again began to murmur, saying:
+- **Nephi Encourages His Brethren** (1 Nephi 4:1 to 1 Nephi 4:3) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œLet us go up again unto Jerusalem, and let us be faithful in keeping the commandments of the Lordâ€
+  - Nephi: â€œLet us go up; the Lord is able to deliver usâ€
+- **Arriving at the Walls of Jerusalem** (1 Nephi 4:4 to 1 Nephi 4:5) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: they were yet wroth, and did still continue to murmur; nevertheless they did follow me up until we came without the walls of Jerusalem.
+  - Narration: And it was by night; and I caused that they should hide themselves without the walls.
+- **Nephi Enters Jerusalem** (1 Nephi 4:5 to 1 Nephi 4:6) chars: Nephi
+  - Narration: I, Nephi, crept into the city and went forth towards the house of Laban.
+  - Narration: And I was led by the Spirit, not knowing beforehand the things which I should do.
+- **Nephi Finds Laban** (1 Nephi 4:7 to 1 Nephi 4:8) chars: Nephi, Laban
+  - Narration: Nevertheless I went forth, and as I came near unto the house of Laban I beheld a man,
+  - Narration: and he had fallen to the earth before me, for he was drunken with wine.
+  - Narration: And when I came to him I found that it was Laban.
+- **Nephi Examines Laban's Sword** (1 Nephi 4:9) chars: Nephi, Laban
+  - Narration: And I beheld his sword, and I drew it forth from the sheath thereof;
+  - Narration: and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine,
+  - Narration: and I saw that the blade thereof was of the most precious steel.
+- **Nephi Hesitates to Slay Laban** (1 Nephi 4:10) chars: Nephi, Laban
+  - Narration: And it came to pass that I was constrained by the Spirit that I should kill Laban;
+  - Narration: but I said in my heart:
+  - Narration: Never at any time have I shed the blood of man.
+  - Narration: And I shrunk and would that I might not slay him.
+- **The Spirit Commands Nephi Again** (1 Nephi 4:11 to 1 Nephi 4:12) chars: Nephi, Laban
+  - the Spirit (off-screen): â€œBehold the Lord hath delivered him into thy hands.â€
+  - the Spirit (off-screen): â€œSlay him, for the Lord hath delivered him into thy hands;â€
+  - Narration: And the Spirit said unto me again:
+  - Narration: Yea, and I also knew that he had sought to take away mine own life;
+  - Narration: and he also had taken away our property.
+  - Narration: And it came to pass that the Spirit said unto me again:
+- **Nephi Ponders the Spirit's Command** (1 Nephi 4:13 to 1 Nephi 4:17) chars: Nephi, Laban
+  - The Spirit (off-screen): â€œBehold the Lord slayeth the wicked to bring forth his righteous purposes.â€
+  - The Spirit (off-screen): â€œIt is better that one man should perish than that a nation should dwindle and perish in unbelief.â€
+  - Narration: And again, I knew that the Lord had delivered Laban into my hands for this cause—that I might obtain the records according to his commandments.
+- **Nephi Obeys the Spirit** (1 Nephi 4:18) chars: Nephi, Laban
+  - Narration: Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and I smote off his head with his own sword.
+- **Nephi Puts on Laban's Armor** (1 Nephi 4:19) chars: Nephi, Laban
+  - Narration: And after I had smitten off his head with his own sword, I took the garments of Laban and put them upon mine own body
+  - Narration: and I did gird on his armor about my loins.
+- **Nephi Commands Zoram** (1 Nephi 4:20 to 1 Nephi 4:22) chars: Nephi, Zoram
+  - Narration: And as I went forth towards the treasury of Laban, behold, I saw the servant of Laban who had the keys of the treasury.
+  - Narration: And I commanded him in the voice of Laban, that he should go with me into the treasury.
+  - Narration: And he supposed me to be his master, Laban
+- **Nephi Speaks of Carrying the Plates** (1 Nephi 4:23 to 1 Nephi 4:24) chars: Nephi, Zoram
+  - Narration: And I spake unto him as if it had been Laban.
+  - Narration: And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.
+- **Zoram Follows Nephi** (1 Nephi 4:25 to 1 Nephi 4:27) chars: Nephi, Zoram
+  - Narration: And he, supposing that I spake of the brethren of the church, and that I was truly that Laban whom I had slain, wherefore he did follow me.
+  - Narration: And he spake unto me many times concerning the elders of the Jews, as I went forth unto my brethren, who were without the walls.
+- **The Brothers Flee** (1 Nephi 4:28) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when Laman saw me he was exceedingly frightened, and also Lemuel and Sam. And they fled from before my presence
+- **Nephi Calls Out** (1 Nephi 4:29 to 1 Nephi 4:30) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.
+  - Narration: And it came to pass that when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem.
+- **Nephi Seizes Zoram** (1 Nephi 4:31) chars: Nephi, Zoram
+  - Narration: And now I, Nephi, being a man large in stature, and also having received much strength of the Lord, therefore I did seize upon the servant of Laban, and held him, that he should not flee.
+- **Nephi Reasons with Zoram** (1 Nephi 4:32 to 1 Nephi 4:34) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Nephi: â€œSurely the Lord hath commanded us to do this thing; and shall we not be diligent in keeping the commandments of the Lord? Therefore, if thou wilt go down into the wilderness to my father thou shalt have place with us.â€
+  - Narration: And I spake unto him, even with an oath, that he need not fear
+- **Zoram's Oath** (1 Nephi 4:35 to 1 Nephi 4:36) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that Zoram did take courage at the words which I spake. Now Zoram was the name of the servant; and he promised that he would go down into the wilderness unto our father. Yea, and he also made an oath unto us that he would tarry with us from that time forth.
+- **Zoram's Oath** (1 Nephi 4:37) chars: Zoram, Nephi, Laman, Lemuel, Sam
+  - Narration: when Zoram had made an oath unto us, our fears did cease concerning him.
+- **Return to the Tent** (1 Nephi 4:38) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.
+
+## B-pro-low
+
+- **Nephi Begins His Record** (1 Nephi 1:1 to 1 Nephi 1:3) chars: Nephi
+  - Narration: I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father
+  - Narration: therefore I make a record of my proceedings in my days.
+  - Narration: And I know that the record which I make is true; and I make it with mine own hand
+- **Prophets in Jerusalem** (1 Nephi 1:4) chars: prophets, people of Jerusalem
+  - Narration: in that same year there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.
+- **Lehi Prays for His People** (1 Nephi 1:5) chars: Lehi
+  - Narration: Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people.
+- **The Pillar of Fire** (1 Nephi 1:6) chars: Lehi
+  - Narration: And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him
+  - Narration: and because of the things which he saw and heard he did quake and tremble exceedingly.
+- **Lehi Returns to His Bed** (1 Nephi 1:7) chars: Lehi
+  - Narration: And it came to pass that he returned to his own house at Jerusalem; and he cast himself upon his bed, being overcome with the Spirit
+- **Lehi's Vision of Heaven** (1 Nephi 1:8) chars: Lehi, God, angels
+  - Narration: he was carried away in a vision, even that he saw the heavens open
+  - Narration: he thought he saw God sitting upon his throne, surrounded with numberless concourses of angels
+- **The One and the Twelve** (1 Nephi 1:9 to 1 Nephi 1:10) chars: Lehi, One descending, twelve others
+  - Narration: And it came to pass that he saw One descending out of the midst of heaven
+  - Narration: And he also saw twelve others following him
+- **Lehi Receives the Book** (1 Nephi 1:11 to 1 Nephi 1:12) chars: Lehi, One descending, twelve others
+  - Narration: the first came and stood before my father, and gave unto him a book, and bade him that he should read.
+  - Narration: And it came to pass that as he read, he was filled with the Spirit of the Lord.
+- **Lehi Reads and Praises God** (1 Nephi 1:13 to 1 Nephi 1:15) chars: Lehi
+  - Lehi: â€œWo, wo, unto Jerusalem, for I have seen thine abominations!â€
+  - Lehi: â€œGreat and marvelous are thy works, O Lord God Almighty!â€
+- **Nephi Makes His Record** (1 Nephi 1:16 to 1 Nephi 1:17) chars: Nephi
+  - Narration: And now I, Nephi, do not make a full account of the things which my father hath written
+  - Narration: Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands
+- **Lehi Prophesies to the People** (1 Nephi 1:18) chars: Lehi, the people of Jerusalem
+  - Narration: he went forth among the people, and began to prophesy and to declare unto them concerning the things which he had both seen and heard.
+- **The Jews Mock and Reject Lehi** (1 Nephi 1:19 to 1 Nephi 1:20) chars: Lehi, the Jews
+  - Narration: But behold, I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.
+- **The Lord Speaks to Lehi in a Dream** (1 Nephi 2:1 to 1 Nephi 2:2) chars: Lehi
+  - The Lord: â€œBlessed art thou Lehi, because of the things which thou hast done; and because thou hast been faithful and declared unto this people the things which I commanded thee, behold, they seek to take away thy life.â€
+  - Narration: the Lord commanded my father, even in a dream, that he should take his family and depart into the wilderness.
+- **Lehi Departs into the Wilderness** (1 Nephi 2:3 to 1 Nephi 2:4) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he left his house, and the land of his inheritance, and his gold, and his silver, and his precious things, and took nothing with him, save it were his family, and provisions, and tents
+- **Traveling Near the Red Sea** (1 Nephi 2:5) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he came down by the borders near the shore of the Red Sea; and he traveled in the wilderness in the borders which are nearer the Red Sea
+- **Pitching the Tent in the Valley** (1 Nephi 2:6) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: when he had traveled three days in the wilderness, he pitched his tent in a valley by the side of a river of water.
+- **Lehi Builds an Altar** (1 Nephi 2:7) chars: Lehi
+- **Lehi Instructs Laman** (1 Nephi 2:8 to 1 Nephi 2:9) chars: Lehi, Laman
+  - Lehi: â€œO that thou mightest be like unto this river, continually running into the fountain of all righteousness!â€
+- **Lehi Instructs Lemuel and the Brothers Murmur** (1 Nephi 2:10 to 1 Nephi 2:12) chars: Lehi, Lemuel, Laman
+  - Lehi: â€œO that thou mightest be like unto this valley, firm and steadfast, and immovable in keeping the commandments of the Lord!â€
+  - Narration: And thus Laman and Lemuel, being the eldest, did murmur against their father.
+- **Lehi Speaks with Power** (1 Nephi 2:13 to 1 Nephi 2:15) chars: Lehi, Laman, Lemuel
+  - Narration: Neither did they believe that Jerusalem, that great city, could be destroyed
+  - Narration: my father did speak unto them in the valley of Lemuel, with power, being filled with the Spirit, until their frames did shake before him.
+  - Narration: And my father dwelt in a tent.
+- **Nephi Cries unto the Lord** (1 Nephi 2:16) chars: Nephi
+  - Narration: And it came to pass that I, Nephi, being exceedingly young, nevertheless being large in stature
+  - Narration: wherefore, I did cry unto the Lord; and behold he did visit me, and did soften my heart
+- **Nephi Speaks with Sam** (1 Nephi 2:17) chars: Nephi, Sam
+  - Narration: And I spake unto Sam, making known unto him the things which the Lord had manifested unto me by his Holy Spirit.
+  - Narration: And it came to pass that he believed in my words.
+- **Laman and Lemuel Reject Nephi** (1 Nephi 2:18) chars: Nephi, Laman, Lemuel
+  - Narration: But, behold, Laman and Lemuel would not hearken unto my words;
+  - Narration: and being grieved because of the hardness of their hearts I cried unto the Lord for them.
+- **The Lord Promises a Choice Land** (1 Nephi 2:19 to 1 Nephi 2:21) chars: Nephi
+  - The Lord: â€œBlessed art thou, Nephi, because of thy faith, for thou hast sought me diligently, with lowliness of heart.â€
+  - The Lord: â€œAnd inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promiseâ€
+- **The Lord Promises Nephi Will Rule** (1 Nephi 2:22 to 1 Nephi 2:24) chars: Nephi
+  - The Lord: â€œAnd inasmuch as thou shalt keep my commandments, thou shalt be made a ruler and a teacher over thy brethren.â€
+  - The Lord: â€œFor behold, in that day that they shall rebel against me, I will curse them even with a sore curseâ€
+- **Lehi Commands Nephi to Return for the Plates** (1 Nephi 3:1 to 1 Nephi 3:6) chars: Nephi, Lehi
+  - Lehi: â€œBehold I have dreamed a dream, in the which the Lord hath commanded me that thou and thy brethren shall return to Jerusalem.â€
+  - Lehi: â€œWherefore, the Lord hath commanded me that thou and thy brothers should go unto the house of Laban, and seek the records, and bring them down hither into the wilderness.â€
+  - Lehi: â€œTherefore go, my son, and thou shalt be favored of the Lord, because thou hast not murmured.â€
+- **Nephi Accepts the Commandment** (1 Nephi 3:7 to 1 Nephi 3:8) chars: Nephi, Lehi
+  - Nephi: â€œI will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.â€
+- **Journey to Jerusalem** (1 Nephi 3:9 to 1 Nephi 3:10) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of Jerusalem.
+  - Narration: And it came to pass that when we had gone up to the land of Jerusalem, I and my brethren did consult one with another.
+- **Laman Approaches Laban** (1 Nephi 3:11 to 1 Nephi 3:12) chars: Laman, Laban
+  - Narration: And we cast lots—who of us should go in unto the house of Laban.
+  - Narration: And it came to pass that the lot fell upon Laman; and Laman went in unto the house of Laban, and he talked with him as he sat in his house.
+  - Narration: And he desired of Laban the records which were engraven upon the plates of brass
+- **Laban Threatens Laman** (1 Nephi 3:13) chars: Laban, Laman
+  - Laban: â€œBehold thou art a robber, and I will slay thee.â€
+- **Laman Reports to His Brothers** (1 Nephi 3:14) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: But Laman fled out of his presence, and told the things which Laban had done, unto us.
+  - Narration: And we began to be exceedingly sorrowful, and my brethren were about to return unto my father in the wilderness.
+- **Nephi Encourages His Brothers** (1 Nephi 3:15 to 1 Nephi 3:18) chars: Laman, Lemuel, Sam, Nephi
+  - Nephi: â€œAs the Lord liveth, and as we live, we will not go down unto our father in the wilderness until we have accomplished the thing which the Lord hath commanded us.â€
+  - Nephi: â€œWherefore, let us be faithful in keeping the commandments of the Lord; therefore let us go down to the land of our father’s inheritanceâ€
+- **Nephi Persuades His Brothers** (1 Nephi 3:19 to 1 Nephi 3:21) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œAnd behold, it is wisdom in God that we should obtain these records, that we may preserve unto our children the language of our fathers;â€
+  - Nephi: â€œAnd also that we may preserve unto them the words which have been spoken by the mouth of all the holy prophetsâ€
+- **Gathering Riches** (1 Nephi 3:22) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it came to pass that we went down to the land of our inheritance, and we did gather together our gold, and our silver, and our precious things.
+- **Offering Riches to Laban** (1 Nephi 3:23 to 1 Nephi 3:24) chars: Nephi, Laman, Lemuel, Sam, Laban
+  - Narration: And it came to pass that we went in unto Laban, and desired him that he would give unto us the records which were engraven upon the plates of brass, for which we would give unto him our gold, and our silver, and all our precious things.
+- **Laban Seizes the Property** (1 Nephi 3:25 to 1 Nephi 3:26) chars: Laban, Laban's servants, Laman, Lemuel, Sam, Nephi
+  - Narration: And it came to pass that when Laban saw our property, and that it was exceedingly great, he did lust after it
+  - Narration: he thrust us out, and sent his servants to slay us
+  - Narration: we did flee before the servants of Laban, and we were obliged to leave behind our property
+- **Hiding in the Cavity of a Rock** (1 Nephi 3:27 to 1 Nephi 3:28) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: And it came to pass that we fled into the wilderness
+  - Narration: we hid ourselves in the cavity of a rock.
+  - Narration: Laman and Lemuel did speak many hard words unto us, their younger brothers, and they did smite us even with a rod.
+- **An Angel Rebukes Laman and Lemuel** (1 Nephi 3:29 to 1 Nephi 3:30) chars: Laman, Lemuel, Sam, Nephi, angel of the Lord
+  - angel of the Lord: â€œWhy do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.â€
+  - Narration: behold, an angel of the Lord came and stood before them
+  - Narration: And after the angel had spoken unto us, he departed.
+- **Laman and Lemuel Murmur Again** (1 Nephi 3:31) chars: Laman, Lemuel, Nephi, Sam
+  - Laman and Lemuel: â€œHow is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and he can command fifty, yea, even he can slay fifty; then why not us?â€
+  - Narration: And after the angel had departed, Laman and Lemuel again began to murmur
+- **Nephi Encourages His Brethren** (1 Nephi 4:1 to 1 Nephi 4:3) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œLet us go up again unto Jerusalem, and let us be faithful in keeping the commandments of the Lordâ€
+  - Nephi: â€œthe Lord is able to deliver us, even as our fathers, and to destroy Laban, even as the Egyptians.â€
+- **Following Nephi to the Walls** (1 Nephi 4:4) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: Now when I had spoken these words, they were yet wroth, and did still continue to murmur;
+  - Narration: nevertheless they did follow me up until we came without the walls of Jerusalem.
+- **Nephi Creeps into the City** (1 Nephi 4:5 to 1 Nephi 4:6) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it was by night; and I caused that they should hide themselves without the walls.
+  - Narration: And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban.
+  - Narration: And I was led by the Spirit, not knowing beforehand the things which I should do.
+- **Nephi Finds Laban** (1 Nephi 4:7 to 1 Nephi 4:8) chars: Nephi, Laban
+  - Narration: as I came near unto the house of Laban I beheld a man, and he had fallen to the earth before me, for he was drunken with wine.
+  - Narration: And when I came to him I found that it was Laban.
+- **Nephi Draws Laban's Sword** (1 Nephi 4:9) chars: Nephi, Laban
+  - Narration: And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold
+- **The Command to Slay** (1 Nephi 4:10 to 1 Nephi 4:12) chars: Nephi, Laban
+  - the Spirit: â€œBehold the Lord hath delivered him into thy hands.â€
+  - the Spirit: â€œSlay him, for the Lord hath delivered him into thy hands;â€
+  - Narration: And it came to pass that I was constrained by the Spirit that I should kill Laban
+  - Narration: And I shrunk and would that I might not slay him.
+- **Nephi Ponders the Spirit's Command** (1 Nephi 4:13 to 1 Nephi 4:17) chars: Nephi, Laban
+  - The Spirit: â€œBehold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that a nation should dwindle and perish in unbelief.â€
+  - Narration: And now, when I, Nephi, had heard these words, I remembered the words of the Lord
+  - Narration: And I also knew that the law was engraven upon the plates of brass.
+  - Narration: And again, I knew that the Lord had delivered Laban into my hands
+- **Nephi Slays Laban** (1 Nephi 4:18) chars: Nephi, Laban
+  - Narration: Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and I smote off his head with his own sword.
+- **Nephi Puts on Laban's Armor** (1 Nephi 4:19) chars: Nephi, Laban
+  - Narration: And after I had smitten off his head with his own sword, I took the garments of Laban and put them upon mine own body; yea, even every whit; and I did gird on his armor about my loins.
+- **Nephi Encounters the Servant** (1 Nephi 4:20 to 1 Nephi 4:21) chars: Nephi, Zoram
+  - Narration: And I commanded him in the voice of Laban, that he should go with me into the treasury.
+- **Retrieving the Plates** (1 Nephi 4:22 to 1 Nephi 4:24) chars: Nephi, Zoram
+  - Narration: And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.
+- **Nephi and Zoram Walk to the Walls** (1 Nephi 4:25 to 1 Nephi 4:27) chars: Nephi, Zoram
+  - Narration: And I also bade him that he should follow me.
+  - Narration: And he spake unto me many times concerning the elders of the Jews, as I went forth unto my brethren, who were without the walls.
+- **The Brethren Flee** (1 Nephi 4:28) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when Laman saw me he was exceedingly frightened, and also Lemuel and Sam. And they fled from before my presence
+- **Nephi Calls Out and Zoram Trembles** (1 Nephi 4:29 to 1 Nephi 4:30) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.
+  - Narration: And it came to pass that when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem.
+- **Nephi Seizes Zoram** (1 Nephi 4:31 to 1 Nephi 4:34) chars: Nephi, Zoram
+  - Nephi: â€œSurely the Lord hath commanded us to do this thing; and shall we not be diligent in keeping the commandments of the Lord? Therefore, if thou wilt go down into the wilderness to my father thou shalt have place with us.â€
+- **Zoram's Oath** (1 Nephi 4:35 to 1 Nephi 4:36) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that Zoram did take courage at the words which I spake.
+  - Narration: Yea, and he also made an oath unto us that he would tarry with us from that time forth.
+  - Narration: Now we were desirous that he should tarry with us for this cause, that the Jews might not know concerning our flight
+- **Zoram's Oath** (1 Nephi 4:37) chars: Nephi, Laman, Lemuel, Sam, Zoram
+  - Narration: And it came to pass that when Zoram had made an oath unto us, our fears did cease concerning him.
+- **Return to the Wilderness** (1 Nephi 4:38) chars: Nephi, Laman, Lemuel, Sam, Zoram
+  - Narration: And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.
+
+## C-flash
+
+- **Nephi Commences His Record** (1 Nephi 1:1 to 1 Nephi 1:3) chars: Nephi
+  - Narration: therefore I make a record of my proceedings in my days.
+  - Narration: and I make it with mine own hand; and I make it according to my knowledge.
+- **Prophets Warn Jerusalem** (1 Nephi 1:4) chars: prophets, the people
+  - Narration: there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.
+- **Lehi Prays for His People** (1 Nephi 1:5) chars: Lehi
+  - Narration: Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people.
+- **The Pillar of Fire on the Rock** (1 Nephi 1:6) chars: Lehi
+  - Narration: And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him; and he saw and heard much; and because of the things which he saw and heard he did quake and tremble exceedingly.
+- **Lehi Overcome upon His Bed** (1 Nephi 1:7) chars: Lehi
+  - Narration: he returned to his own house at Jerusalem; and he cast himself upon his bed, being overcome with the Spirit and the things which he had seen.
+- **Vision of the Heavenly Throne** (1 Nephi 1:8) chars: God, numberless concourses of angels
+  - Narration: he was carried away in a vision, even that he saw the heavens open, and he thought he saw God sitting upon his throne, surrounded with numberless concourses of angels in the attitude of singing and praising their God.
+- **The Radiant Descending Messengers** (1 Nephi 1:9 to 1 Nephi 1:10) chars: One descending out of heaven, twelve others following him
+  - Narration: he saw One descending out of the midst of heaven, and he beheld that his luster was above that of the sun at noon-day.
+  - Narration: And he also saw twelve others following him, and their brightness did exceed that of the stars in the firmament.
+- **The Heavenly Book Delivered to Lehi** (1 Nephi 1:11 to 1 Nephi 1:12) chars: Lehi, the first
+  - Narration: the first came and stood before my father, and gave unto him a book, and bade him that he should read.
+  - Narration: And it came to pass that as he read, he was filled with the Spirit of the Lord.
+- **Lehi Reads the Book of Warning** (1 Nephi 1:13) chars: Lehi
+  - Lehi: â€œWo, wo, unto Jerusalem, for I have seen thine abominations!â€
+- **Lehi Praises the Lord** (1 Nephi 1:14 to 1 Nephi 1:15) chars: Lehi
+  - Lehi: â€œGreat and marvelous are thy works, O Lord God Almighty! Thy throne is high in the heavens, and thy power, and goodness, and mercy are over all the inhabitants of the earth, and, because thou art merciful, thou wilt not suffer those who come unto thee that they shall perish!â€
+- **Nephi Engraving the Plates** (1 Nephi 1:16 to 1 Nephi 1:17) chars: Nephi
+  - Narration: Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands
+- **Lehi Declares the Warning to Jerusalem** (1 Nephi 1:18) chars: Lehi, the people
+  - Narration: he went forth among the people, and began to prophesy and to declare unto them concerning the things which he had both seen and heard.
+- **Lehi Testifies and Is Mocked by the Jews** (1 Nephi 1:19) chars: Lehi, the Jews
+  - Narration: the Jews did mock him because of the things which he testified of them; for he truly testified of their wickedness and their abominations;
+  - Narration: and he testified that the things which he saw and heard, and also the things which he read in the book, manifested plainly of the coming of the Messiah, and also the redemption of the world.
+- **The Jews Seek Lehi's Life** (1 Nephi 1:20) chars: Lehi, the Jews
+  - Narration: And when the Jews heard these things they were angry with him;
+  - Narration: and they also sought his life, that they might take it away.
+- **The Lord Warns Lehi in a Dream** (1 Nephi 2:1 to 1 Nephi 2:2) chars: Lehi
+  - The Lord: â€œBlessed art thou Lehi, because of the things which thou hast done; and because thou hast been faithful and declared unto this people the things which I commanded thee, behold, they seek to take away thy life.â€
+- **Lehi and His Family Depart into the Wilderness** (1 Nephi 2:3 to 1 Nephi 2:4) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he left his house, and the land of his inheritance, and his gold, and his silver, and his precious things, and took nothing with him, save it were his family, and provisions, and tents, and departed into the wilderness.
+- **Traveling near the Red Sea** (1 Nephi 2:5) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And he came down by the borders near the shore of the Red Sea; and he traveled in the wilderness in the borders which are nearer the Red Sea; and he did travel in the wilderness with his family
+- **Lehi Pitches His Tent in the Valley** (1 Nephi 2:6) chars: Lehi, Sariah, Laman, Lemuel, Sam, Nephi
+  - Narration: And it came to pass that when he had traveled three days in the wilderness, he pitched his tent in a valley by the side of a river of water.
+- **Lehi Builds an Altar of Stones** (1 Nephi 2:7) chars: Lehi
+  - Narration: And it came to pass that he built an altar of stones, and made an offering unto the Lord, and gave thanks unto the Lord our God.
+- **Lehi Addresses Laman by the River** (1 Nephi 2:8 to 1 Nephi 2:9) chars: Lehi, Laman
+  - Lehi: â€œO that thou mightest be like unto this river, continually running into the fountain of all righteousness!â€
+- **Lehi Exhorts Lemuel in the Valley** (1 Nephi 2:10 to 1 Nephi 2:12) chars: Lehi, Lemuel, Laman
+  - Lehi: â€œO that thou mightest be like unto this valley, firm and steadfast, and immovable in keeping the commandments of the Lord!â€
+- **Lehi Rebukes His Eldest Sons** (1 Nephi 2:13 to 1 Nephi 2:15) chars: Lehi, Laman, Lemuel
+  - Narration: my father did speak unto them in the valley of Lemuel, with power, being filled with the Spirit, until their frames did shake before him.
+  - Narration: And he did confound them, that they durst not utter against him; wherefore, they did as he commanded them.
+- **Nephi Cries unto the Lord** (1 Nephi 2:16) chars: Nephi
+  - Narration: I did cry unto the Lord; and behold he did visit me, and did soften my heart that I did believe all the words which had been spoken by my father; wherefore, I did not rebel against him like unto my brothers.
+- **Nephi Confers with Sam** (1 Nephi 2:17) chars: Nephi, Sam
+  - Narration: And I spake unto Sam, making known unto him the things which the Lord had manifested unto me by his Holy Spirit. And it came to pass that he believed in my words.
+- **Laman and Lemuel Reject Nephi** (1 Nephi 2:18) chars: Nephi, Laman, Lemuel
+  - Narration: But, behold, Laman and Lemuel would not hearken unto my words; and being grieved because of the hardness of their hearts I cried unto the Lord for them.
+- **The Lord Promises the Land to Nephi** (1 Nephi 2:19 to 1 Nephi 2:20) chars: Nephi
+  - the Lord: â€œBlessed art thou, Nephi, because of thy faith, for thou hast sought me diligently, with lowliness of heart.â€
+  - the Lord: â€œAnd inasmuch as ye shall keep my commandments, ye shall prosper, and shall be led to a land of promise; yea, even a land which I have prepared for you; yea, a land which is choice above all other lands.â€
+- **The Lord Appoints Nephi a Ruler and Teacher** (1 Nephi 2:21 to 1 Nephi 2:22) chars: Nephi
+  - the Lord: â€œAnd inasmuch as thy brethren shall rebel against thee, they shall be cut off from the presence of the Lord.â€
+  - the Lord: â€œAnd inasmuch as thou shalt keep my commandments, thou shalt be made a ruler and a teacher over thy brethren.â€
+- **The Lord Warns of the Curse and Scourge** (1 Nephi 2:23 to 1 Nephi 2:24) chars: Nephi
+  - the Lord: â€œFor behold, in that day that they shall rebel against me, I will curse them even with a sore curse, and they shall have no power over thy seed except they shall rebel against me also.â€
+  - the Lord: â€œAnd if it so be that they rebel against me, they shall be a scourge unto thy seed, to stir them up in the ways of remembrance.â€
+- **Nephi Returns to Lehi's Tent** (1 Nephi 3:1) chars: Nephi, Lehi
+  - Narration: And it came to pass that I, Nephi, returned from speaking with the Lord, to the tent of my father.
+- **Lehi Tells Nephi of the Commandment to Obtain the Plates** (1 Nephi 3:2 to 1 Nephi 3:4) chars: Lehi, Nephi
+  - Lehi: â€œBehold I have dreamed a dream, in the which the Lord hath commanded me that thou and thy brethren shall return to Jerusalem.â€
+  - Lehi: â€œFor behold, Laban hath the record of the Jews and also a genealogy of my forefathers, and they are engraven upon plates of brass.â€
+- **Lehi Commissions Nephi to Go** (1 Nephi 3:5 to 1 Nephi 3:6) chars: Lehi, Nephi
+  - Lehi: â€œit is a commandment of the Lord.â€
+  - Lehi: â€œTherefore go, my son, and thou shalt be favored of the Lord, because thou hast not murmured.â€
+- **Nephi's Faithful Reply to Lehi** (1 Nephi 3:7 to 1 Nephi 3:8) chars: Nephi, Lehi
+  - Nephi: â€œI will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.â€
+  - Narration: And it came to pass that when my father had heard these words he was exceedingly glad, for he knew that I had been blessed of the Lord.
+- **The Four Brothers Journey with Their Tents** (1 Nephi 3:9) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of Jerusalem.
+- **Consulting and Casting Lots** (1 Nephi 3:10 to 1 Nephi 3:11) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when we had gone up to the land of Jerusalem, I and my brethren did consult one with another. And we cast lots—who of us should go in unto the house of Laban. And it came to pass that the lot fell upon Laman;
+- **Laman Speaks with Laban** (1 Nephi 3:11 to 1 Nephi 3:12) chars: Laman, Laban
+  - Narration: and Laman went in unto the house of Laban, and he talked with him as he sat in his house. And he desired of Laban the records which were engraven upon the plates of brass, which contained the genealogy of my father.
+- **Laban Threatens Laman** (1 Nephi 3:13) chars: Laban, Laman
+  - Laban: â€œBehold thou art a robber, and I will slay thee.â€
+- **Laman Reports to His Brethren** (1 Nephi 3:14) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: my brethren were about to return unto my father in the wilderness.
+- **Nephi's Oath of Faithfulness** (1 Nephi 3:15 to 1 Nephi 3:18) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œAs the Lord liveth, and as we live, we will not go down unto our father in the wilderness until we have accomplished the thing which the Lord hath commanded us.â€
+  - Nephi: â€œWherefore, let us be faithful in keeping the commandments of the Lord; therefore let us go down to the land of our father’s inheritanceâ€
+- **Nephi Persuades His Brethren** (1 Nephi 3:19 to 1 Nephi 3:21) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œAnd behold, it is wisdom in God that we should obtain these records, that we may preserve unto our children the language of our fathers;â€
+  - Narration: And it came to pass that after this manner of language did I persuade my brethren, that they might be faithful in keeping the commandments of God.
+- **Gathering the Family Riches** (1 Nephi 3:22) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it came to pass that we went down to the land of our inheritance, and we did gather together our gold, and our silver, and our precious things.
+- **Offering Riches to Laban** (1 Nephi 3:23 to 1 Nephi 3:24) chars: Nephi, Laman, Lemuel, Sam, Laban
+  - Narration: And it came to pass that we went in unto Laban, and desired him that he would give unto us the records which were engraven upon the plates of brass, for which we would give unto him our gold, and our silver, and all our precious things.
+- **Laban Thrusts Out the Brothers** (1 Nephi 3:25 to 1 Nephi 3:26) chars: Laban, Laban's servants, Laman, Lemuel, Sam, Nephi
+  - Narration: And it came to pass that when Laban saw our property, and that it was exceedingly great, he did lust after it, insomuch that he thrust us out, and sent his servants to slay us, that he might obtain our property.
+- **Laman and Lemuel Smite Their Brothers** (1 Nephi 3:27 to 1 Nephi 3:28) chars: Laman, Lemuel, Sam, Nephi
+  - Narration: Wherefore Laman and Lemuel did speak many hard words unto us, their younger brothers, and they did smite us even with a rod.
+- **An Angel Intervenes** (1 Nephi 3:29 to 1 Nephi 3:30) chars: an angel of the Lord, Laman, Lemuel, Sam, Nephi
+  - an angel of the Lord: â€œWhy do ye smite your younger brother with a rod? Know ye not that the Lord hath chosen him to be a ruler over you, and this because of your iniquities? Behold ye shall go up to Jerusalem again, and the Lord will deliver Laban into your hands.â€
+- **Laman and Lemuel Murmur After the Angel Departs** (1 Nephi 3:31) chars: Laman, Lemuel
+  - Laman and Lemuel: â€œHow is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and he can command fifty, yea, even he can slay fifty; then why not us?â€
+  - Narration: And after the angel had departed, Laman and Lemuel again began to murmur, saying:
+- **Nephi Exhorts His Brethren** (1 Nephi 4:1 to 1 Nephi 4:3) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œLet us go up again unto Jerusalem, and let us be faithful in keeping the commandments of the Lord; for behold he is mightier than all the earth, then why not mightier than Laban and his fifty, yea, or even than his tens of thousands?â€
+- **The Brethren Hide Outside the Walls** (1 Nephi 4:4 to 1 Nephi 4:5) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it was by night; and I caused that they should hide themselves without the walls.
+- **Nephi Led by the Spirit into Jerusalem** (1 Nephi 4:5 to 1 Nephi 4:6) chars: Nephi
+  - Narration: I, Nephi, crept into the city and went forth towards the house of Laban.
+  - Narration: And I was led by the Spirit, not knowing beforehand the things which I should do.
+- **Nephi Finds Laban Fallen** (1 Nephi 4:7 to 1 Nephi 4:8) chars: Nephi, Laban
+  - Narration: as I came near unto the house of Laban I beheld a man, and he had fallen to the earth before me, for he was drunken with wine. And when I came to him I found that it was Laban.
+- **Nephi Draws Laban's Sword** (1 Nephi 4:9) chars: Nephi, Laban
+  - Narration: And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.
+- **The Spirit Commands Nephi to Slay Laban** (1 Nephi 4:10 to 1 Nephi 4:12) chars: Nephi, Laban
+  - the Spirit: â€œBehold the Lord hath delivered him into thy hands.â€
+  - the Spirit: â€œSlay him, for the Lord hath delivered him into thy hands;â€
+  - Narration: I was constrained by the Spirit that I should kill Laban; but I said in my heart: Never at any time have I shed the blood of man. And I shrunk and would that I might not slay him.
+- **Nephi Contemplates the Words of the Spirit** (1 Nephi 4:13 to 1 Nephi 4:17) chars: Nephi, Laban
+  - Narration: Behold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that a nation should dwindle and perish in unbelief.
+  - Narration: And again, I knew that the Lord had delivered Laban into my hands for this cause—that I might obtain the records according to his commandments.
+- **Nephi Smites Laban** (1 Nephi 4:18) chars: Nephi, Laban
+  - Narration: Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and I smote off his head with his own sword.
+- **Nephi Puts on the Armor and Garments of Laban** (1 Nephi 4:19) chars: Nephi
+  - Narration: I took the garments of Laban and put them upon mine own body; yea, even every whit; and I did gird on his armor about my loins.
+- **Nephi Encounters the Servant with the Keys** (1 Nephi 4:20 to 1 Nephi 4:21) chars: Nephi, Zoram
+  - Narration: I saw the servant of Laban who had the keys of the treasury. And I commanded him in the voice of Laban, that he should go with me into the treasury.
+  - Narration: And he supposed me to be his master, Laban, for he beheld the garments and also the sword girded about my loins.
+- **Nephi Speaks as Laban Regarding the Plates of Brass** (1 Nephi 4:22 to 1 Nephi 4:24) chars: Nephi, Zoram
+  - Narration: And he spake unto me concerning the elders of the Jews, he knowing that his master, Laban, had been out by night among them.
+  - Narration: And I spake unto him as if it had been Laban.
+  - Narration: And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.
+- **Nephi and Zoram Journey Outside the Walls** (1 Nephi 4:25 to 1 Nephi 4:27) chars: Nephi, Zoram
+  - Narration: And he, supposing that I spake of the brethren of the church, and that I was truly that Laban whom I had slain, wherefore he did follow me. And he spake unto me many times concerning the elders of the Jews, as I went forth unto my brethren, who were without the walls.
+- **Nephi's Brothers Flee in Terror** (1 Nephi 4:28) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when Laman saw me he was exceedingly frightened, and also Lemuel and Sam. And they fled from before my presence; for they supposed it was Laban, and that he had slain me and had sought to take away their lives also.
+- **Nephi Calls After His Brothers** (1 Nephi 4:29) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.
+- **Zoram Trembles and Prepares to Flee** (1 Nephi 4:30) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem.
+- **Nephi Seizes and Assures Zoram** (1 Nephi 4:31 to 1 Nephi 4:34) chars: Nephi, Zoram
+  - Nephi: â€œSurely the Lord hath commanded us to do this thing; and shall we not be diligent in keeping the commandments of the Lord? Therefore, if thou wilt go down into the wilderness to my father thou shalt have place with us.â€
+  - Narration: therefore I did seize upon the servant of Laban, and held him, that he should not flee.
+- **Zoram Makes an Oath to Tarry** (1 Nephi 4:35 to 1 Nephi 4:36) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that Zoram did take courage at the words which I spake.
+  - Narration: and he promised that he would go down into the wilderness unto our father.
+  - Narration: Yea, and he also made an oath unto us that he would tarry with us from that time forth.
+- **Zoram Makes an Oath** (1 Nephi 4:37) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when Zoram had made an oath unto us, our fears did cease concerning him.
+- **Journeying with the Plates of Brass** (1 Nephi 4:38) chars: Nephi, Laman, Lemuel, Sam, Zoram
+  - Narration: And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.
+
+## E-flash-lite
+
+- **Nephi Records His Life** (1 Nephi 1:1 to 1 Nephi 1:3) chars: Nephi
+  - Narration: I, Nephi, having been born of goodly parents... make a record in the language of my father
+- **Prophets in Jerusalem and Lehi's Prayer** (1 Nephi 1:4 to 1 Nephi 1:5) chars: Lehi
+- **The Pillar of Fire** (1 Nephi 1:6) chars: Lehi
+  - Narration: there came a pillar of fire and dwelt upon a rock before him
+- **Lehi Returns Home** (1 Nephi 1:7) chars: Lehi
+  - Narration: he returned to his own house at Jerusalem
+  - Narration: he cast himself upon his bed
+- **Lehi's Vision of God and Angels** (1 Nephi 1:8) chars: Lehi, God, numberless concourses of angels
+  - Narration: he was carried away in a vision
+  - Narration: he saw the heavens open
+- **Descending Figure and Twelve Others** (1 Nephi 1:9 to 1 Nephi 1:10) chars: Lehi, One descending, twelve others
+  - Narration: he saw One descending out of the midst of heaven
+  - Narration: he also saw twelve others following him
+- **The Book Given to Lehi** (1 Nephi 1:11 to 1 Nephi 1:12) chars: Lehi, the first descending figure
+  - the first descending figure: â€œthat he should readâ€
+  - Narration: And they came down and went forth upon the face of the earth
+  - Narration: he was filled with the Spirit of the Lord
+- **Lehi Reads and Prophesies** (1 Nephi 1:13) chars: Lehi
+  - Lehi: â€œWo, wo, unto Jerusalem, for I have seen thine abominations!â€
+- **Lehi Praises God** (1 Nephi 1:14 to 1 Nephi 1:15) chars: Lehi
+  - Lehi: â€œGreat and marvelous are thy works, O Lord God Almighty!â€
+- **Nephi Begins His Record** (1 Nephi 1:16 to 1 Nephi 1:17) chars: Nephi
+  - Narration: And now I, Nephi, do not make a full account of the things which my father hath written
+- **Lehi Goes Forth Among the People** (1 Nephi 1:18) chars: Lehi, the people of Jerusalem
+- **Lehi Testifies to the Jews** (1 Nephi 1:19) chars: Lehi, the Jews
+  - Narration: the Jews did mock him because of the things which he testified of them
+- **The Jews Seek Lehi's Life** (1 Nephi 1:20) chars: Lehi, the Jews
+  - Narration: the Jews heard these things they were angry with him
+  - Narration: they also sought his life
+- **The Lord Speaks to Lehi** (1 Nephi 2:1 to 1 Nephi 2:3) chars: Lehi
+  - The Lord: â€œBlessed art thou Lehi, because of the things which thou hast doneâ€
+  - Narration: The Lord commanded my father, even in a dream, that he should take his family and depart into the wilderness.
+- **Departure into the Wilderness** (1 Nephi 2:4 to 1 Nephi 2:5) chars: Lehi, Sariah, Laman, Lemuel, Sam
+  - Narration: He left his house, and the land of his inheritance, and his gold, and his silver, and his precious things
+- **Pitching Tents by the River** (1 Nephi 2:6) chars: Lehi, Sariah, Laman, Lemuel, Sam
+  - Narration: He pitched his tent in a valley by the side of a river of water.
+- **Lehi Builds an Altar** (1 Nephi 2:7) chars: Lehi
+  - Narration: he built an altar of stones, and made an offering unto the Lord
+- **Lehi Speaks by the River Laman** (1 Nephi 2:8 to 1 Nephi 2:10) chars: Lehi, Laman, Lemuel
+  - Lehi: â€œO that thou mightest be like unto this river, continually running into the fountain of all righteousness!â€
+  - Lehi: â€œO that thou mightest be like unto this valley, firm and steadfast, and immovable in keeping the commandments of the Lord!â€
+- **Laman and Lemuel Murmur** (1 Nephi 2:11 to 1 Nephi 2:12) chars: Laman, Lemuel
+  - Narration: they did murmur in many things against their father
+- **Lehi speaks with power in the valley of Lemuel** (1 Nephi 2:13 to 1 Nephi 2:14) chars: Lehi, Laman, Lemuel
+- **Lehi dwells in a tent** (1 Nephi 2:15) chars: Lehi
+- **Nephi prays and receives a visitation from the Lord** (1 Nephi 2:16) chars: Nephi
+- **Nephi speaks to Sam** (1 Nephi 2:17) chars: Nephi, Sam
+- **Laman and Lemuel refuse to hearken** (1 Nephi 2:18) chars: Nephi, Laman, Lemuel
+- **The Lord Speaks to Nephi** (1 Nephi 2:19 to 1 Nephi 2:24) chars: Nephi
+  - The Lord: â€œBlessed art thou, Nephi, because of thy faith, for thou hast sought me diligently, with lowliness of heart.â€
+- **Nephi Returns to the Tent** (1 Nephi 3:1) chars: Nephi
+  - Narration: I, Nephi, returned from speaking with the Lord, to the tent of my father.
+- **Lehi Speaks of His Dream** (1 Nephi 3:2 to 1 Nephi 3:6) chars: Lehi, Nephi
+  - Lehi: â€œBehold I have dreamed a dream, in the which the Lord hath commanded me that thou and thy brethren shall return to Jerusalem.â€
+  - Lehi: â€œFor behold, Laban hath the record of the Jews and also a genealogy of my forefathers, and they are engraven upon plates of brass.â€
+  - Lehi: â€œWherefore, the Lord hath commanded me that thou and thy brothers should go unto the house of Laban, and seek the records, and bring them down hither into the wilderness.â€
+  - Lehi: â€œAnd now, behold thy brothers murmur, saying it is a hard thing which I have required of them; but behold I have not required it of them, but it is a commandment of the Lord.â€
+  - Lehi: â€œTherefore go, my son, and thou shalt be favored of the Lord, because thou hast not murmured.â€
+- **Nephi's Resolve** (1 Nephi 3:7 to 1 Nephi 3:8) chars: Nephi, Lehi
+  - Nephi: â€œI will go and do the things which the Lord hath commandedâ€
+  - Narration: And it came to pass that when my father had heard these words he was exceedingly glad
+- **Journey to Jerusalem and Casting Lots** (1 Nephi 3:9 to 1 Nephi 3:10) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of Jerusalem.
+- **Laman Talks with Laban** (1 Nephi 3:11 to 1 Nephi 3:12) chars: Laman, Laban
+  - Narration: And the lot fell upon Laman; and Laman went in unto the house of Laban, and he talked with him as he sat in his house.
+- **Laban Threatens Laman** (1 Nephi 3:13) chars: Laban, Laman
+  - Laban: â€œBehold thou art a robber, and I will slay thee.â€
+- **Laman Flees and Nephi Speaks to His Brethren** (1 Nephi 3:14 to 1 Nephi 3:18) chars: Laman, Nephi, Lemuell, Sam
+  - Nephi: â€œAs the Lord liveth, and as we live, we will not go down unto our father in the wilderness until we have accomplished the thing which the Lord hath commanded us.â€
+  - Narration: Laman fled out of his presence, and told the things which Laban had done, unto us.
+- **Nephi Persuades His Brethren** (1 Nephi 3:19 to 1 Nephi 3:21) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œit is wisdom in God that we should obtain these records, that we may preserve unto our children the language of our fathersâ€
+  - Nephi: â€œAnd also that we may preserve unto them the words which have been spoken by the mouth of all the holy prophetsâ€
+- **Gathering Riches at the Land of Inheritance** (1 Nephi 3:22) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: we went down to the land of our inheritance, and we did gather together our gold, and our silver, and our precious things.
+- **Offering Riches to Laban** (1 Nephi 3:23 to 1 Nephi 3:24) chars: Nephi, Laman, Lemuel, Sam, Laban
+  - Nephi: â€œgive unto us the records which were engraven upon the plates of brass, for which we would give unto him our gold, and our silver, and all our precious thingsâ€
+- **Laban Seizes the Property** (1 Nephi 3:25 to 1 Nephi 3:26) chars: Laban, the servants of Laban, Lehi, Sam, Nephi, Laman, Lemuel
+  - Narration: When Laban saw our property... he did lust after it... and sent his servants to slay us
+  - Narration: We did flee before the servants of Laban
+- **Hiding in the Cavity of a Rock** (1 Nephi 3:27 to 1 Nephi 3:28) chars: Laman, Lemuel, Nephi, Sam
+  - Narration: Laman was angry with me... and Lemuel... did smite us even with a rod
+- **Appearance of the Angel** (1 Nephi 3:29 to 1 Nephi 3:30) chars: an angel of the Lord, Laman, Lemuel, Nephi, Sam
+  - an angel of the Lord: â€œWhy do ye smite your younger brother with a rod?â€
+  - an angel of the Lord: â€œKnow ye not that the Lord hath chosen him to be a ruler over youâ€
+  - an angel of the Lord: â€œBehold ye shall go up to Jerusalem againâ€
+- **Laman and Lemuel Murmur** (1 Nephi 3:31) chars: Laman, Lemuel
+  - Laman and Lemuel: â€œHow is it possible that the Lord will deliver Laban into our hands? Behold, he is a mighty man, and he can command fifty, yea, even he can slay fifty; then why not us?â€
+- **Nephi Speaks to His Brethren** (1 Nephi 4:1 to 1 Nephi 4:3) chars: Nephi, Laman, Lemuel, Sam
+  - Nephi: â€œLet us go up again unto Jerusalem, and let us be faithful in keeping the commandments of the Lordâ€
+  - Narration: And it came to pass that I spake unto my brethren
+- **Outside the Walls of Jerusalem** (1 Nephi 4:4 to 1 Nephi 4:6) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: And it was by night; and I caused that they should hide themselves without the walls.
+- **Nephi finds Laban fallen to the earth** (1 Nephi 4:7 to 1 Nephi 4:8) chars: Nephi, Laban
+  - Narration: Nevertheless I went forth, and as I came near unto the house of Laban I beheld a man, and he had fallen to the earth before me, for he was drunken with wine.
+  - Narration: And when I came to him I found that it was Laban.
+- **Nephi draws Laban's sword** (1 Nephi 4:9) chars: Nephi, Laban
+  - Narration: And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.
+- **Nephi constrained by the Spirit** (1 Nephi 4:10 to 1 Nephi 4:12) chars: Nephi, Laban
+  - Narration: And it came to pass that I was constrained by the Spirit that I should kill Laban; but I said in my heart: Never at any time have I shed the blood of man. And I shrunk and would that I might not slay him.
+  - Narration: And the Spirit said unto me again: Behold the Lord hath delivered him into thy hands. Yea, and I also knew that he had sought to take away mine own life; yea, and he would not hearken unto the commandments of the Lord; and he also had taken away our property.
+  - Narration: And it came to pass that the Spirit said unto me again: Slay him, for the Lord hath delivered him into thy hands;
+- **Nephi remembers the words of the Lord** (1 Nephi 4:13 to 1 Nephi 4:17) chars: Nephi
+  - Narration: Behold the Lord slayeth the wicked to bring forth his righteous purposes.
+  - Narration: I knew that the law was engraven upon the plates of brass.
+- **Nephi takes Laban's head with his own sword** (1 Nephi 4:18) chars: Nephi
+  - Narration: Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and I smote off his head with his own sword.
+- **Nephi dons Laban's armor and garments** (1 Nephi 4:19) chars: Nephi
+  - Narration: And after I had smitten off his head with his own sword, I took the garments of Laban and put them upon mine own body; yea, even every whit; and I did gird on his armor about my loins.
+- **Nephi encounters Laban's servant** (1 Nephi 4:20 to 1 Nephi 4:21) chars: Nephi, Laban's servant
+  - Narration: And after I had done this, I went forth unto the treasury of Laban. And as I went forth towards the treasury of Laban, behold, I saw the servant of Laban who had the keys of the treasury.
+  - Narration: And he supposed me to be his master, Laban, for he beheld the garments and also the sword girded about my loins.
+- **Nephi speaks with Laban's servant** (1 Nephi 4:22 to 1 Nephi 4:24) chars: Nephi, Laban's servant
+  - Narration: And he spake unto me concerning the elders of the Jews, he knowing that his master, Laban, had been out by night among them.
+  - Narration: And I spake unto him as if it had been Laban.
+  - Narration: And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.
+- **Nephi bids Zoram follow** (1 Nephi 4:25 to 1 Nephi 4:26) chars: Nephi, Zoram
+  - Narration: And I also bade him that he should follow me.
+  - Narration: And he, supposing that I spake of the brethren of the church, and that I was truly that Laban whom I had slain, wherefore he did follow me.
+- **Laman, Lemuel, and Sam flee** (1 Nephi 4:27 to 1 Nephi 4:29) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when Laman saw me he was exceedingly frightened, and also Lemuel and Sam. And they fled from before my presence
+  - Narration: And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.
+- **Zoram trembles** (1 Nephi 4:30) chars: Nephi, Zoram, Laman, Lemuel, Sam
+  - Narration: And it came to pass that when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem.
+- **Nephi Seizes Zoram** (1 Nephi 4:31 to 1 Nephi 4:34) chars: Nephi, Zoram
+  - Nephi: â€œIf he would hearken unto our words, we would spare his life.â€
+  - Nephi: â€œThou shalt have place with us.â€
+- **Zoram Makes an Oath** (1 Nephi 4:35 to 1 Nephi 4:36) chars: Zoram, Nephi
+- **Zoram makes an oath** (1 Nephi 4:37) chars: Nephi, Zoram
+  - Narration: And it came to pass that when Zoram had made an oath unto us, our fears did cease concerning him.
+- **Departure into the wilderness** (1 Nephi 4:38) chars: Nephi, Zoram
+  - Narration: And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.
+
+## D-local
+
+- **Nephi's Record** (1 Nephi 1:1 to 1 Nephi 1:3) chars: Nephi
+- **Lehi's Prayer** (1 Nephi 1:4 to 1 Nephi 1:6) chars: Lehi
+- **Lehi's Return** (1 Nephi 1:7) chars: Lehi
+- **Vision of Heaven** (1 Nephi 1:8) chars: Lehi, God, angels
+- **Descending Light** (1 Nephi 1:9 to 1 Nephi 1:10) chars: Lehi, the descending figure, the twelve figures
+- **Receiving the Book** (1 Nephi 1:11 to 1 Nephi 1:12) chars: Lehi, the descending figure
+- **Lehi's Vision of Jerusalem** (1 Nephi 1:13 to 1 Nephi 1:18) chars: Lehi
+- **Lehi's Praise to God** (1 Nephi 1:14 to 1 Nephi 1:15) chars: Lehi
+- **Nephi's Abridgment** (1 Nephi 1:16 to 1 Nephi 1:17) chars: Nephi
+- **Testimony and Mockery** (1 Nephi 1:19) chars: Nephi, the Jews
+- **Anger and Divine Mercy** (1 Nephi 1:20) chars: Nephi, the Jews
+- **Divine Warning** (1 Nephi 2:1) chars: Lehi
+- **Command to Depart** (1 Nephi 2:2) chars: Lehi
+- **Obedience and Departure** (1 Nephi 2:3-4) chars: Lehi, Sariah, Laman, Lemuel, Sam
+- **Journey Near Red Sea** (1 Nephi 2:5) chars: Lehi, Sariah, Laman, Lemuel, Sam
+- **Camp by River** (1 Nephi 2:6) chars: Lehi, Sariah, Laman, Lemuel, Sam
+- **Altar and River Naming** (1 Nephi 2:7 to 1 Nephi 2:8) chars: Lehi
+- **Lehi's Blessing to Laman** (1 Nephi 2:9) chars: Lehi, Laman
+- **Lehi's Blessing to Lemuel** (1 Nephi 2:10) chars: Lehi, Lemuel
+- **Reason for Lehi's Words** (1 Nephi 2:11) chars: Lehi, Laman, Lemuel
+- **Murmuring Due to Ignorance** (1 Nephi 2:12) chars: Lehi, Laman, Lemuel
+- **Lehi's Proclamation** (1 Nephi 2:13 to 1 Nephi 2:14) chars: Lehi, Laman, Lemuel, Sam, Nephi, the Jews
+- **Lehi's Tent** (1 Nephi 2:15) chars: Lehi
+- **Nephi's Prayer** (1 Nephi 2:16) chars: Nephi, Lehi
+- **Nephi and Sam** (1 Nephi 2:17) chars: Nephi, Sam
+- **Laman and Lemuel's Refusal** (1 Nephi 2:18) chars: Nephi, Laman, Lemuel
+- **Divine Blessing to Nephi** (1 Nephi 2:19 to 1 Nephi 2:20) chars: Nephi, the Lord
+- **Curse on Rebels** (1 Nephi 2:21 to 1 Nephi 2:22) chars: Nephi, the Lord
+- **Final Warnings** (1 Nephi 2:23 to 1 Nephi 2:24) chars: Nephi, the Lord
+- **Nephi Returns to Lehi** (1 Nephi 3:1) chars: Nephi, Lehi
+- **Lehi's Dream Revelation** (1 Nephi 3:2) chars: Lehi, Nephi
+- **Laban's Brass Plates** (1 Nephi 3:3) chars: Lehi, Nephi
+- **Command to Retrieve Records** (1 Nephi 3:4) chars: Lehi, Nephi
+- **Brothers' Murmuring** (1 Nephi 3:5) chars: Lehi, Nephi, Nephi's brothers
+- **Nephi's Favor** (1 Nephi 3:6) chars: Lehi, Nephi
+- **Nephi's Resolve** (1 Nephi 3:7) chars: Nephi, his father
+  - Narration: Nephi: 'I will go and do the things which the Lord hath commanded...'
+- **Father's Gladness** (1 Nephi 3:8) chars: Nephi, his father
+  - Narration: And it came to pass that when my father had heard these words he was exceedingly glad...
+- **Journey to Jerusalem** (1 Nephi 3:9) chars: Nephi, his brethren
+  - Narration: And I, Nephi, and my brethren took our journey in the wilderness... to go up to the land of Jerusalem.
+- **Consultation and Casting Lots** (1 Nephi 3:10-11) chars: Nephi, his brethren, Laman
+  - Narration: And we cast lots—who of us should go in unto the house of Laban...
+- **Laman's Mission** (1 Nephi 3:12) chars: Laman, Laban
+  - Narration: And he desired of Laban the records which were engraven upon the plates of brass...
+- **Laban's Confrontation** (1 Nephi 3:13) chars: Laban, the servant
+- **Laman's Report** (1 Nephi 3:14) chars: Laman, the group
+- **Nephi's Resolve** (1 Nephi 3:15) chars: Nephi, the group
+- **Reasons for Fleeing** (1 Nephi 3:16 to 1 Nephi 3:18) chars: the group
+- **Preserving Records** (1 Nephi 3:19 to 1 Nephi 3:20) chars: Nephi, brethren
+- **Approaching Laban** (1 Nephi 3:23 to 1 Nephi 3:24) chars: Nephi, brethren, Laban
+- **Laban's Greed** (1 Nephi 3:25) chars: Nephi, Laman, Lemuel, Laban, the servants
+- **Flight and Loss** (1 Nephi 3:26) chars: Nephi, Laman, Lemuel, their father
+- **Hiding in the Wilderness** (1 Nephi 3:27) chars: Nephi, Laman, Lemuel, their father
+- **Violence and Anger** (1 Nephi 3:28) chars: Laman, Lemuel, Nephi, their father
+- **Angel's Intervention** (1 Nephi 3:29) chars: Laman, Lemuel, Nephi, their father, an angel
+- **Angel's Departure** (1 Nephi 3:30) chars: Laman, Lemuel, Nephi, their father, an angel
+- **Murmuring After the Angel's Departure** (1 Nephi 3:31) chars: Laman, Lemuel, Laban
+- **Nephi's Speech to Brothers** (1 Nephi 4:1 to 1 Nephi 4:3) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: Nephi: 'Let us go up again unto Jerusalem... why not mightier than Laban?'
+  - Narration: Nephi: 'He truly spake unto the waters of the Red Sea...'
+  - Narration: Nephi: 'An angel hath spoken unto you; wherefore can ye doubt?'
+- **Journey at Night** (1 Nephi 4:4 to 1 Nephi 4:5) chars: Nephi, Laman, Lemuel, Sam
+  - Narration: Nephi: 'Let us go up; the Lord is able to deliver us...'
+  - Narration: Brothers: 'they were yet wroth... nevertheless they did follow me'
+  - Narration: Nephi: 'I caused that they should hide themselves without the walls'
+- **Nephi's Secret Mission** (1 Nephi 4:6) chars: Nephi
+  - Narration: Nephi: 'I was led by the Spirit, not knowing beforehand the things which I should do.'
+- **Nephi Approaches Laban** (1 Nephi 4:7 to 1 Nephi 4:8) chars: Nephi, Laban
+- **The Sword's Description** (1 Nephi 4:9) chars: Nephi, Laban
+- **Spirit's Command and Nephi's Hesitation** (1 Nephi 4:10 to 1 Nephi 4:12) chars: Nephi, Laban
+- **Nephi's Reflection on Justice** (1 Nephi 4:13 to 1 Nephi 4:14) chars: Nephi
+- **The Law and Laban's Fate** (1 Nephi 4:15 to 1 Nephi 4:18) chars: Nephi, Laban
+- **Nephi wears Laban's attire** (1 Nephi 4:19) chars: Nephi, Laban (dead)
+- **Approaching the treasury** (1 Nephi 4:20) chars: Nephi, the servant
+- **Servant's mistaken identity** (1 Nephi 4:21) chars: Nephi, the servant
+- **Servant's report on Laban** (1 Nephi 4:22) chars: Nephi, the servant
+- **Nephi's deception** (1 Nephi 4:23-24) chars: Nephi, the servant
+- **Nephi's Command** (1 Nephi 4:25) chars: Nephi, the man
+- **Elders' Discussion** (1 Nephi 4:27) chars: Nephi, the elders of the Jews
+- **Brothers' Flight** (1 Nephi 4:28) chars: Laman, Lemuel, Sam, Nephi
+- **Nephi's Call** (1 Nephi 4:29) chars: Nephi, Laman, Lemuel, Sam
+- **Laban's Servant** (1 Nephi 4:30) chars: Laban's servant, Nephi's brethren
+- **Nephi Seizes Zoram** (1 Nephi 4:31) chars: Nephi, Zoram
+- **Nephi's Oath to Zoram** (1 Nephi 4:32 to 1 Nephi 4:34) chars: Nephi, Zoram
+- **Zoram's Oath** (1 Nephi 4:35 to 1 Nephi 4:36) chars: Nephi, Zoram
+- **Oath and Relief** (1 Nephi 4:37) chars: Lehi's group, Zoram
+  - Narration: And it came to pass that when Zoram had made an oath unto us, our fears did cease concerning him.
+- **Departure with Spoils** (1 Nephi 4:38) chars: Lehi's group, Laban's servant
+  - Narration: And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.

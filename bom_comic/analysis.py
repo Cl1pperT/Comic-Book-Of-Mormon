@@ -20,8 +20,11 @@ distant figures mentioned in narration are not necessarily physically present in
 If uncertain, choose a conservative interpretation.'''
 
 
-def analyze(provider, verses, chunk_size=6):
+def analyze(provider, verses, chunk_size=6, known_characters=()):
     scenes = []
+    # Labels must match continuity records exactly, or panels can't find their character's portrait.
+    known = ("\nKnown characters and groups; when one of these is visible, use exactly this label: "
+             + json.dumps(list(known_characters)) + ". Otherwise invent a plain descriptive label.") if known_characters else ""
     # Chapter boundaries preserve transitions; small chunks keep evidence inspectable.
     for chapter in sorted({v.chapter for v in verses}):
         chapter_verses = [v for v in verses if v.chapter == chapter]
@@ -29,15 +32,17 @@ def analyze(provider, verses, chunk_size=6):
             chunk = chapter_verses[offset:offset + chunk_size]
             prompt = RULES + '''\nBreak this portion into a few chronological drawable scenes.
 Use off-screen speech over supported settings for teachings. Keep each scene to a single visual
-moment and at most 65 words of lettering. Do not omit important narrative beats. Mark major
-moments for larger panels. List every VISIBLE person or group in "characters", e.g. "Ammon",
+moment and at most 65 words of lettering. Do not omit important narrative beats. Importance
+"major" gives a scene a full comic page, so reserve it for the rare turning points of the whole
+story: at most one per chapter and often none; everything else is "normal". List every VISIBLE
+person or group in "characters", e.g. "Ammon",
 "King Lamoni", "the king's servants", "the attacking Lamanites" — reuse the same label across
 scenes for the same recurring person/group, and never leave this empty when the verse shows
 someone present, even if unnamed. Likewise list every VISIBLE setting in "locations". Use
 characters for VISIBLE people only. IDs will be assigned later.
 Every ref (scene refs and each claim's refs) is one supplied verse's exact "Book chapter:verse"
 string, e.g. "Alma 17:21" — never a range like "Alma 17:21-23" and never a bare chapter. A scene
-covering several verses lists each of their refs separately. Source:\n'''
+covering several verses lists each of their refs separately.''' + known + '''\nSource:\n'''
             result = provider.structured(prompt + json.dumps([v.model_dump() for v in chunk]),
                                          SceneBatch, f"analyze_{chapter}_{offset}")
             scenes.extend(result.scenes)
@@ -49,9 +54,11 @@ covering several verses lists each of their refs separately. Source:\n'''
 def deterministic_issues(scene, verses):
     source = {v.ref: v.text for v in verses}
     issues = []
-    if any(ref not in source for ref in scene.refs):
-        issues.append("Scene cites verses outside selected source")
-    if scene.refs != sorted(set(scene.refs), key=coordinate):
+    unknown = [ref for ref in scene.refs if ref not in source]
+    if unknown:
+        # Covers malformed refs like "1 Nephi 2:3-4" too, which can't be ordered.
+        issues.append("Scene cites verses outside selected source or malformed refs: " + ", ".join(unknown))
+    elif scene.refs != sorted(set(scene.refs), key=coordinate):
         issues.append("Scene references must be unique and chronological")
     for claim in scene.explicit_facts + scene.spoken_dialogue + scene.narration:
         if any(ref not in scene.refs for ref in claim.refs):
@@ -65,9 +72,11 @@ def deterministic_issues(scene, verses):
     return issues
 
 
-def validate_scene(provider, scene, verses, previous=None):
+def validate_scene(provider, scene, verses, previous=None, known_characters=()):
     issues = deterministic_issues(scene, verses)
-    if previous and coordinate(scene.refs[0]) < coordinate(previous.refs[0]):
+    known = {v.ref for v in verses}
+    if previous and scene.refs[0] in known and previous.refs[0] in known \
+            and coordinate(scene.refs[0]) < coordinate(previous.refs[0]):
         issues.append("Scene chronology moves backward")
     if issues:
         return Verdict(status="REJECT", issues=issues)
@@ -76,6 +85,23 @@ characters, speech, chronology, locations, speakers, motivations, doctrine, mira
 presented as facts. Check visual inferences and prohibited details too. PASS WITH WARNINGS requires
 specific uncertainties. A REJECT cannot proceed. Check preceding scene for altered chronology.
 '''
+    if known_characters:
+        # Only nearby verses are supplied, so a recurring person's name may be stated outside them.
+        prompt += ("Established character labels, named elsewhere in the book: " + json.dumps(list(known_characters))
+                   + ". Do not reject one of these labels just because the name is absent from these verses, as long"
+                   " as the verses show that person present.\n")
     return provider.structured(prompt + json.dumps({"scene": scene.model_dump(),
         "previous": previous.model_dump() if previous else None,
-        "source": [v.model_dump() for v in verses]}), Verdict, f"validate_{scene.scene_id}", "validator")
+        "source": scene_context(scene, verses, previous)}), Verdict, f"validate_{scene.scene_id}", "validator")
+
+
+def scene_context(scene, verses, previous=None, margin=3):
+    """The verses an auditor needs: this scene's and the previous scene's, plus a few on each side.
+
+    Sending the whole run's source with every scene made validation cost grow with the square of run length."""
+    refs = set(scene.refs) | set(previous.refs if previous else [])
+    index = [i for i, v in enumerate(verses) if v.ref in refs]
+    if not index:
+        return []
+    lo, hi = max(0, min(index) - margin), min(len(verses), max(index) + margin + 1)
+    return [v.model_dump() for v in verses[lo:hi]]

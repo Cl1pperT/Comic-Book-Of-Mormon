@@ -831,3 +831,72 @@ def test_group_records_render_costume_sheets_and_panels_vary_faces(tmp_path, pip
     assert "Reference portraits of individuals: Lehi" in prompt
     assert "Costume sheets for groups: Lamanite warriors" in prompt
     assert "never repeat one face" in prompt
+
+
+def test_analyze_is_told_known_character_labels(tmp_path, source):
+    prompts = []
+    class Recorder(FakeAI):
+        def structured(self, prompt, schema, tag, kind="text"):
+            prompts.append(prompt)
+            return super().structured(prompt, schema, tag, kind)
+    p = Pipeline(Store(tmp_path / "known"), Recorder())
+    p.init(source, "3 Nephi 8:1", "3 Nephi 8:2")
+    p.store.write("continuity/characters.json", {"Nephi": {"visual_design_choices": ["tall"]}})
+    p.analyze()
+    assert 'use exactly this label: ["Nephi"]' in prompts[0]
+
+
+def test_generate_skip_main_renders_only_panels_without_main_characters(pipeline):
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    records = {name: {"visual_design_choices": ["x"]} for name in panel.characters_visible}
+    pipeline.store.write("continuity/characters.json", records)
+    pipeline.review("panel", panel.panel_id, "approve")
+    assert pipeline.main_characters(panel) == panel.characters_visible
+    pipeline.generate(skip_main=True)
+    assert not pipeline.store.path(f"images/{panel.panel_id}.json").exists()
+    records = {name: dict(r, group=True) for name, r in records.items()}
+    pipeline.store.write("continuity/characters.json", records)
+    pipeline.review("panel", panel.panel_id, "approve")
+    assert pipeline.main_characters(panel) == []
+    pipeline.generate(skip_main=True)
+    assert pipeline.store.path(f"images/{panel.panel_id}.json").exists()
+
+
+def test_validation_sends_only_nearby_verses():
+    from bom_comic.analysis import scene_context
+    verses = [Verse(book="Alma", chapter=17, verse=v, text=f"v{v}") for v in range(1, 40)]
+    scene = make_scene(refs=["Alma 17:20", "Alma 17:21"])
+    previous = make_scene(scene_id="scene_000", refs=["Alma 17:18"])
+    got = [v["verse"] for v in scene_context(scene, verses, previous)]
+    assert got == list(range(15, 25))
+
+
+def test_gemini_waits_out_rate_limits_but_not_other_errors(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+    from google.genai.errors import APIError
+    from bom_comic.providers import Gemini
+    from bom_comic.errors import ProviderError
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    provider = Gemini.__new__(Gemini)
+    provider.config = Config(api_key="fake", text_model="m")
+    provider.store = Store(tmp_path / "retry")
+    calls = []
+    def flaky(**kwargs):
+        calls.append(1)
+        if len(calls) < 3:
+            raise APIError(429, {"error": {"message": "Quota exceeded. Please retry in 1.5s."}})
+        return "ok"
+    provider.client = SimpleNamespace(models=SimpleNamespace(generate_content=flaky))
+    assert provider._request(model="m") == "ok" and len(calls) == 3
+    def denied(**kwargs):
+        raise APIError(403, {"error": {"message": "Denied"}})
+    provider.client = SimpleNamespace(models=SimpleNamespace(generate_content=denied))
+    with pytest.raises(ProviderError):
+        provider._request(model="m")
+
+
+def test_malformed_scene_refs_are_rejected_not_crashed():
+    verses = [Verse(book="1 Nephi", chapter=2, verse=v, text=f"v{v}") for v in (3, 4)]
+    scene = make_scene(refs=["1 Nephi 2:3-4"], explicit_facts=[Claim(text="x", refs=["1 Nephi 2:3-4"])])
+    assert any("malformed" in i for i in deterministic_issues(scene, verses))

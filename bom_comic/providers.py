@@ -16,14 +16,24 @@ class Gemini:
         from google import genai
         self.config, self.store = config, store
         self.client = genai.Client(api_key=config.api_key)
+    RATE_LIMIT_RETRIES = 6
+
     def _request(self, **kwargs):
+        import re
+        import time
         from google.genai.errors import APIError
-        try:
-            return self.client.models.generate_content(**kwargs)
-        except APIError as exc:
-            message = api_error(exc, self.config.api_key)
-            self.store.event("api_error", model=kwargs.get("model"), message=message)
-            raise ProviderError(message) from None
+        for attempt in range(self.RATE_LIMIT_RETRIES + 1):
+            try:
+                return self.client.models.generate_content(**kwargs)
+            except APIError as exc:
+                message = api_error(exc, self.config.api_key)
+                self.store.event("api_error", model=kwargs.get("model"), message=message)
+                # A 429 is rejected, not billed, so waiting out the per-minute limit costs nothing.
+                daily = "per_day" in message
+                if getattr(exc, "code", None) != 429 or daily or attempt == self.RATE_LIMIT_RETRIES:
+                    raise ProviderError(message) from None
+                wait = re.search(r"retry in ([\d.]+)s", str(getattr(exc, "message", "")) + str(exc))
+                time.sleep(min(90.0, float(wait.group(1)) + 2) if wait else 30.0 * (attempt + 1))
 
     def structured(self, prompt, schema, tag, kind="text"):
         model = self.config.require(kind)
@@ -34,8 +44,13 @@ class Gemini:
             if cached["request"] == request:
                 return schema.model_validate_json(cached["text"])
         self.store.write(f"api/{tag}.request.json", {"model": model, "prompt": prompt})
-        response = self._request(model=model, contents=prompt,
-            config={"response_mime_type": "application/json", "response_json_schema": schema.model_json_schema(), "automatic_function_calling": {"disable": True}})
+        config = {"response_mime_type": "application/json", "response_json_schema": schema.model_json_schema(),
+                  "automatic_function_calling": {"disable": True}}
+        # Thinking tokens bill as output; "low" trades some reasoning depth for a large cost cut.
+        level = os.getenv(f"GEMINI_{'VALIDATOR' if kind == 'validator' else 'TEXT'}_THINKING")
+        if level:
+            config["thinking_config"] = {"thinking_level": level}
+        response = self._request(model=model, contents=prompt, config=config)
         self.store.write(f"api/{tag}.response.json", response.model_dump(mode="json"))
         result = schema.model_validate_json(response.text)
         self.store.write(cache_path, {"request": request, "text": response.text})

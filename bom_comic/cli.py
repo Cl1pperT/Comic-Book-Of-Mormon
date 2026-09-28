@@ -18,6 +18,7 @@ def main():
     analyzer = commands.add_parser("analyze")
     analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
     analyzer.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_TEXT_MODEL) instead of Gemini")
+    analyzer.add_argument("--resume", action="store_true", help="Reuse chunks already analyzed with the identical model and prompt")
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
@@ -41,6 +42,7 @@ def main():
     generation.add_argument("--id", help="Regenerate one panel; retains old image revisions")
     generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
     generation.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
+    generation.add_argument("--skip-main", action="store_true", help="Only render panels with no main (portrait-eligible, named) character")
     commands.add_parser("assemble")
     args = parser.parse_args()
     store = Store(args.run)
@@ -104,7 +106,7 @@ def main():
             for name in pipeline.portraits(args.id):
                 print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])}")
         elif args.command == "generate":
-            pipeline.generate(args.id)
+            pipeline.generate(args.id, skip_main=args.skip_main)
         elif args.command == "assemble":
             print(pipeline.assemble())
     except Exception as exc:
