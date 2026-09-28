@@ -166,6 +166,61 @@ class ComfyUI:
         # cfg > 1 is what makes Flux honor the negative prompt (at ~2x render time).
         self.cfg = float(os.getenv("COMFYUI_CFG", "2.0"))
         self.guidance = float(os.getenv("COMFYUI_GUIDANCE", "2.5"))
+        # Panels with reference portraits render through FLUX.1 Kontext, which keeps those faces.
+        self.kontext_unet = os.getenv("COMFYUI_KONTEXT_UNET", "flux1-kontext-dev-Q8_0.gguf")
+        self.kontext_cfg = float(os.getenv("COMFYUI_KONTEXT_CFG", "1.0"))
+        self.kontext_guidance = float(os.getenv("COMFYUI_KONTEXT_GUIDANCE", "2.5"))
+
+    def upload(self, path):
+        """Put a reference image in ComfyUI's input folder; returns the name LoadImage uses."""
+        import urllib.error
+        import urllib.request
+        from uuid import uuid4
+        path = Path(path)
+        boundary = uuid4().hex
+        body = b"".join([
+            f"--{boundary}\r\nContent-Disposition: form-data; name=\"image\"; filename=\"{path.name}\"\r\n"
+            "Content-Type: image/png\r\n\r\n".encode(), path.read_bytes(),
+            f"\r\n--{boundary}\r\nContent-Disposition: form-data; name=\"overwrite\"\r\n\r\ntrue\r\n--{boundary}--\r\n".encode()])
+        request = urllib.request.Request(self.url + "/upload/image", data=body,
+                                         headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                uploaded = json.loads(response.read())
+        except (urllib.error.URLError, TimeoutError) as exc:
+            raise ProviderError(f"Could not upload {path.name} to ComfyUI: {exc}") from None
+        return f"{uploaded['subfolder']}/{uploaded['name']}" if uploaded.get("subfolder") else uploaded["name"]
+
+    def kontext_workflow(self, positive, width, height, seed, images):
+        workflow = {
+            "unet": {"class_type": "UnetLoaderGGUF", "inputs": {"unet_name": self.kontext_unet}},
+            "clip": {"class_type": "DualCLIPLoaderGGUF", "inputs": {"clip_name1": "clip_l.safetensors", "clip_name2": self.t5, "type": "flux"}},
+            "vae": {"class_type": "VAELoader", "inputs": {"vae_name": "ae.safetensors"}},
+            "pos": {"class_type": "CLIPTextEncode", "inputs": {"text": positive, "clip": ["clip", 0]}},
+        }
+        conditioning = "pos"
+        for i, name in enumerate(images):
+            workflow[f"load{i}"] = {"class_type": "LoadImage", "inputs": {"image": name}}
+            workflow[f"scale{i}"] = {"class_type": "FluxKontextImageScale", "inputs": {"image": [f"load{i}", 0]}}
+            workflow[f"encode{i}"] = {"class_type": "VAEEncode", "inputs": {"pixels": [f"scale{i}", 0], "vae": ["vae", 0]}}
+            workflow[f"ref{i}"] = {"class_type": "ReferenceLatent", "inputs": {"conditioning": [conditioning, 0], "latent": [f"encode{i}", 0]}}
+            conditioning = f"ref{i}"
+        if len(images) > 1:
+            # Keeps several reference people distinct instead of blending them into one face.
+            workflow["multi"] = {"class_type": "FluxKontextMultiReferenceLatentMethod",
+                                 "inputs": {"conditioning": [conditioning, 0], "reference_latents_method": "index"}}
+            conditioning = "multi"
+        workflow.update({
+            "guided": {"class_type": "FluxGuidance", "inputs": {"conditioning": [conditioning, 0], "guidance": self.kontext_guidance}},
+            "neg": {"class_type": "ConditioningZeroOut", "inputs": {"conditioning": ["pos", 0]}},
+            "latent": {"class_type": "EmptySD3LatentImage", "inputs": {"width": width, "height": height, "batch_size": 1}},
+            "sample": {"class_type": "KSampler", "inputs": {"model": ["unet", 0], "seed": seed, "steps": self.steps,
+                "cfg": self.kontext_cfg, "sampler_name": "euler", "scheduler": "simple", "positive": ["guided", 0],
+                "negative": ["neg", 0], "latent_image": ["latent", 0], "denoise": 1.0}},
+            "decode": {"class_type": "VAEDecode", "inputs": {"samples": ["sample", 0], "vae": ["vae", 0]}},
+            "save": {"class_type": "SaveImage", "inputs": {"images": ["decode", 0], "filename_prefix": "bom_comic/panel"}},
+        })
+        return workflow
 
     def _call(self, path, payload=None, timeout=60):
         import urllib.error
@@ -206,8 +261,16 @@ class ComfyUI:
         width, height = render_size(aspect_ratio or "1:1")
         # Seeded from the revision name: reproducible per revision, different on regeneration.
         seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
-        workflow = self.workflow(positive, negative, width, height, seed)
-        self.store.write(f"api/{stem}.request.json", {"positive": positive, "negative": negative, "workflow": workflow})
+        references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]
+        if references:
+            names = [label for label, _ in references]
+            positive = ("The reference images show " + ", ".join(names) + "; keep each person's face, hair, build, "
+                        "and clothing exactly as shown, in a new pose and scene. " + positive)
+            workflow = self.kontext_workflow(positive, width, height, seed, [self.upload(path) for _, path in references])
+        else:
+            workflow = self.workflow(positive, negative, width, height, seed)
+        self.store.write(f"api/{stem}.request.json", {"positive": positive, "negative": negative, "workflow": workflow,
+                                                      "references": [str(path) for _, path in references]})
         prompt_id = json.loads(self._call("/prompt", {"prompt": workflow}))["prompt_id"]
         deadline = time.monotonic() + float(os.getenv("COMFYUI_TIMEOUT", "1800"))
         while not (entry := json.loads(self._call(f"/history/{prompt_id}")).get(prompt_id)):
@@ -222,6 +285,23 @@ class ComfyUI:
         with Image.open(io.BytesIO(data)) as im:
             im.convert("RGB").save(output_path, "PNG")
         return str(output_path)
+
+class CachedChecks:
+    """Offline validation: reuse a saved verdict when the check would be byte-identical; otherwise, rather than
+    calling a model, flag the scene so the human scene review has to cover it (approval then needs a note)."""
+
+    def __init__(self, store, model):
+        self.store, self.model = store, model
+
+    def structured(self, prompt, schema, tag, kind="validator"):
+        request = {"model": self.model, "prompt": prompt, "schema": schema.model_json_schema()}
+        path = f"api/{tag}.cache.json"
+        if self.store.path(path).exists() and self.store.read(path)["request"] == request:
+            return schema.model_validate_json(self.store.read(path)["text"])
+        return schema(status="PASS WITH WARNINGS", issues=[
+            "Changed since the last automated check and not re-checked by a model (offline); "
+            "verify against the source during human review."])
+
 
 class PlaceholderImages:
     """Offline plumbing test, never evidence of visual/scriptural accuracy."""

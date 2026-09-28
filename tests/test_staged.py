@@ -95,3 +95,53 @@ def test_claude_provider_returns_parsed_output_and_caches(tmp_path, monkeypatch)
     import pytest
     with pytest.raises(ProviderError, match="declined"):
         provider.structured("other", Verdict, "t2")
+
+
+def test_offline_validation_reuses_identical_checks_and_flags_changed_ones(tmp_path):
+    from bom_comic.providers import CachedChecks
+    from bom_comic.models import Verdict
+    from bom_comic.storage import Store
+    store = Store(tmp_path / "offline")
+    store.write("api/validate_scene_001.cache.json", {"request": {"model": "m", "prompt": "same", "schema": Verdict.model_json_schema()},
+                                                      "text": '{"status":"PASS","issues":[]}'})
+    checks = CachedChecks(store, "m")
+    assert checks.structured("same", Verdict, "validate_scene_001").status == "PASS"
+    changed = checks.structured("edited", Verdict, "validate_scene_001")
+    assert changed.status == "PASS WITH WARNINGS" and "human review" in changed.issues[0]
+
+
+def test_comfyui_uses_kontext_with_reference_portraits(tmp_path):
+    import io, json
+    from PIL import Image
+    from bom_comic.providers import ComfyUI
+    from bom_comic.storage import Store
+    png = io.BytesIO(); Image.new("RGB", (8, 8)).save(png, format="PNG")
+    history = {"p": {"status": {"status_str": "success"},
+                     "outputs": {"save": {"images": [{"filename": "a.png", "subfolder": "", "type": "output"}]}}}}
+    store = Store(tmp_path / "k")
+    provider = ComfyUI(store, url="http://fake")
+    sent = []
+    def call(path, payload=None, timeout=60):
+        if path == "/prompt":
+            sent.append(payload["prompt"]); return b'{"prompt_id": "p"}'
+        return json.dumps(history).encode() if path.startswith("/history") else png.getvalue()
+    provider._call = call
+    provider.upload = lambda path: f"uploaded_{Path(path).name}"
+    portrait = tmp_path / "nephi.png"; Image.new("RGB", (8, 8)).save(portrait)
+    from bom_comic.comic import DEFAULT_CONTINUITY, build_prompt
+    from bom_comic.models import Panel
+    panel = Panel(panel_id="panel_001", scene_id="scene_001", page=1, panel_number=1, weight=1, refs=["1 Nephi 1:1"],
+                  characters_visible=["Nephi", "Laban"], location=[], action="Nephi stands.", dialogue=[], narration=[],
+                  visual_facts=[], visual_inferences=[], creative_details=[], prohibited=[])
+    prompt = build_prompt(panel, DEFAULT_CONTINUITY, "4:3")
+    out = store.path("images/panel_001_x.png"); out.parent.mkdir(parents=True)
+    provider.generate_image(prompt, reference_images=[("Nephi", portrait), ("Laban", portrait)], output_path=out, aspect_ratio="4:3")
+    workflow = sent[-1]
+    assert workflow["unet"]["inputs"]["unet_name"] == provider.kontext_unet
+    assert workflow["load0"]["inputs"]["image"] == "uploaded_nephi.png" and "ref1" in workflow and "multi" in workflow
+    assert "Nephi, Laban" in workflow["pos"]["inputs"]["text"]
+    provider.generate_image(prompt, output_path=out, aspect_ratio="4:3")
+    assert sent[-1]["unet"]["inputs"]["unet_name"] == provider.unet and "load0" not in sent[-1]
+
+
+from pathlib import Path

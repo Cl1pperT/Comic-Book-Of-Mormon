@@ -255,6 +255,34 @@ class Pipeline:
             made.append(name)
         return made
 
+    def adopt_portraits(self, library):
+        """Use a character library's approved portraits instead of rendering new faces.
+
+        Only adopts when the run's record matches the library record the portrait was drawn from."""
+        import shutil
+        from pathlib import Path
+        library = Path(library)
+        records = json.loads((library / "characters.json").read_text(encoding="utf-8"))
+        library_index = json.loads((library / "index.json").read_text(encoding="utf-8"))
+        index = self.portrait_index()
+        adopted = []
+        for name in self.portrait_names():
+            entry, source = library_index.get(name), library / library_index.get(name, {}).get("path", "")
+            if not entry or not source.is_file():
+                continue
+            if records.get(name) != self.continuity()["characters"][name]:
+                raise ValueError(f"{name}'s record differs from the library's; copy it over first or render with portraits")
+            path = self.store.path(f"portraits/{source.name}")
+            path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, path)
+            index[name] = {"path": str(path.relative_to(self.store.root)), "stamp": digest(self.portrait_prompt(name)),
+                           "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(),
+                           "prompt": entry["prompt"], "adopted_from": str(source)}
+            adopted.append(name)
+        self.store.write("portraits/index.json", index)
+        self.store.event("adopt_portraits", library=str(library), names=adopted)
+        return adopted
+
     def image_record(self, panel, aspects=None):
         record = self.store.read(f"images/{panel.panel_id}.json")
         actual = hashlib.sha256(self.store.path(record["path"]).read_bytes()).hexdigest()

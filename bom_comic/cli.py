@@ -26,6 +26,7 @@ def main():
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
     validator.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_VALIDATOR_MODEL) instead of Gemini")
     validator.add_argument("--claude", action="store_true", help="Check with Claude (ANTHROPIC_API_KEY, CLAUDE_VALIDATOR_MODEL) instead of Gemini")
+    validator.add_argument("--offline", metavar="MODEL", help="No model calls: reuse saved verdicts from MODEL where unchanged, flag the rest for human review")
     commands.add_parser("plan")
     commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
     review = commands.add_parser("review")
@@ -37,6 +38,7 @@ def main():
     portrait_cmd.add_argument("--id", help="Re-render one character's portrait (its exact name in characters.json)")
     portrait_cmd.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
     portrait_cmd.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
+    portrait_cmd.add_argument("--adopt", metavar="LIBRARY", help="Reuse approved portraits from a character library folder instead of rendering")
     bible = commands.add_parser("bible", help="Render portraits for every record in --run's characters.json, no story run needed")
     bible.add_argument("--id", help="Re-render one character's portrait (its exact name in characters.json)")
     bible.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
@@ -57,12 +59,17 @@ def main():
             if getattr(args, "local", False):
                 Config.load()
                 provider = Ollama(store)
+            elif getattr(args, "offline", None):
+                from .providers import CachedChecks
+                provider = CachedChecks(store, args.offline)
             elif getattr(args, "claude", False):
                 Config.load()
                 from .claude import Claude
                 provider = Claude(store)
             else:
                 provider = Gemini(Config.load(), store)
+        elif args.command == "portraits" and args.adopt:
+            provider = None
         elif args.command in ("portraits", "bible", "generate"):
             if getattr(args, "placeholder", False):
                 provider = PlaceholderImages()
@@ -109,6 +116,9 @@ def main():
                         for name, entry in portraits.items():
                             print(f"Reference portrait for {name}: {store.path(entry['path'])}")
                         print(build_prompt(panel, pipeline.continuity(), aspects[panel.panel_id], list(portraits)))
+        elif args.command == "portraits" and args.adopt:
+            for name in pipeline.adopt_portraits(args.adopt):
+                print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])} (adopted)")
         elif args.command == "portraits":
             for name in pipeline.portraits(args.id):
                 print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])}")
