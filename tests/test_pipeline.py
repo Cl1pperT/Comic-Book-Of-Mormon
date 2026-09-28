@@ -724,7 +724,7 @@ def test_generate_attaches_portraits_and_approval_covers_them(pipeline):
     pipeline.generate()
     entry = pipeline.portrait("Unnamed people")
     assert calls[0]["reference_images"] == [("Unnamed people", pipeline.store.path(entry["path"]))]
-    assert "CHARACTER REFERENCE PORTRAITS" in calls[0]["prompt"]
+    assert "REFERENCE IMAGES" in calls[0]["prompt"]
     record = pipeline.store.read("images/panel_001.json")
     assert pipeline.store.read(record["prompt"])["portraits"] == {"Unnamed people": entry["path"]}
     pipeline.review("image", "panel_001", "approve")
@@ -746,7 +746,7 @@ def test_panel_without_portraits_keeps_its_stamp(pipeline):
     ready(pipeline)
     panel = pipeline.panels()[0]
     before = pipeline.panel_stamp(panel)
-    assert "CHARACTER REFERENCE PORTRAITS" not in build_prompt(panel, pipeline.continuity(), "4:3")
+    assert "REFERENCE IMAGES" not in build_prompt(panel, pipeline.continuity(), "4:3")
     assert before == digest({"panel": panel.model_dump(exclude={"page", "panel_number", "weight"}),
         "aspect": pipeline.aspects()[panel.panel_id], "continuity": pipeline.continuity(), "source": pipeline.stamp()})
 
@@ -784,7 +784,7 @@ def test_gemini_adapter_labels_reference_portraits(tmp_path):
     provider.generate_image("Approved prompt", reference_images=[("Ammon", portrait)],
                             output_path=provider.store.path("out.png"))
     contents = calls[0]["contents"]
-    assert contents[:2] == ["Approved prompt", "Reference portrait: Ammon"]
+    assert contents[:2] == ["Approved prompt", "Reference image: Ammon"]
     assert contents[2].inline_data.mime_type == "image/png"
 
 
@@ -900,3 +900,74 @@ def test_malformed_scene_refs_are_rejected_not_crashed():
     verses = [Verse(book="1 Nephi", chapter=2, verse=v, text=f"v{v}") for v in (3, 4)]
     scene = make_scene(refs=["1 Nephi 2:3-4"], explicit_facts=[Claim(text="x", refs=["1 Nephi 2:3-4"])])
     assert any("malformed" in i for i in deterministic_issues(scene, verses))
+
+
+def _give_location(p, **extra):
+    locations = p.store.read("continuity/locations.json")
+    locations["Unspecified gathering place"] = {"scriptural_facts": [],
+        "visual_design_choices": ["Open grassy plaza under a blue sky"], "locked_traits": [], **extra}
+    p.store.write("continuity/locations.json", locations)
+
+
+def test_generate_attaches_location_references_after_portraits(pipeline):
+    _give_record(pipeline)
+    _give_location(pipeline)
+    ready(pipeline)
+    calls = capture_images(pipeline)
+    assert pipeline.portraits() == ["Unnamed people"]
+    assert pipeline.location_references() == ["Unspecified gathering place"]
+    assert pipeline.location_references() == []
+    assert calls[1]["aspect_ratio"] == "16:9"
+    assert "Establishing view of Unspecified gathering place" in calls[1]["prompt"]
+    assert "Open grassy plaza" in calls[1]["prompt"]
+    # New reference images change what the panel will be drawn from, so it needs approval again.
+    with pytest.raises(ValueError, match="Review panel"):
+        pipeline.generate()
+    pipeline.review("panel", "panel_001", "approve")
+    pipeline.generate()
+    portrait = pipeline.portrait("Unnamed people")
+    place = pipeline.reference("locations", "Unspecified gathering place")
+    assert calls[2]["reference_images"] == [
+        ("Unnamed people", pipeline.store.path(portrait["path"])),
+        ("Unspecified gathering place (location reference)", pipeline.store.path(place["path"]))]
+    assert "Location references: Unspecified gathering place" in calls[2]["prompt"]
+    record = pipeline.store.read("images/panel_001.json")
+    assert pipeline.store.read(record["prompt"])["locations"] == {"Unspecified gathering place": place["path"]}
+
+
+def test_location_records_go_stale_and_can_opt_out(pipeline):
+    _give_location(pipeline)
+    pipeline.location_references()
+    ready(pipeline)
+    _give_location(pipeline, locked_traits=["Same plaza every time"])
+    with pytest.raises(ValueError, match="run locations again"):
+        pipeline.panel_locations(pipeline.panels()[0])
+    _give_location(pipeline, reference_image=False)
+    assert pipeline.panel_locations(pipeline.panels()[0]) == {}
+    assert pipeline.location_references() == []
+
+
+def test_location_bible_and_diffusion_prompt(tmp_path):
+    from bom_comic.pipeline import character_bible
+    from bom_comic.comic import diffusion_prompts, build_location_prompt
+    store = Store(tmp_path / "places")
+    store.write("locations.json", {"Waters of Mormon": {"visual_design_choices": ["Turquoise spring pool"]},
+                                   "Blank": {}})
+    assert character_bible(store, PlaceholderImages(), kind="locations") == ["Waters of Mormon"]
+    assert character_bible(store, PlaceholderImages(), kind="locations") == []
+    with pytest.raises(ValueError, match="No reference-eligible location"):
+        character_bible(store, PlaceholderImages(), "Blank", kind="locations")
+    positive, negative = diffusion_prompts(build_location_prompt(
+        "Waters of Mormon", {"visual_design_choices": ["Turquoise spring pool"]}, DEFAULT_CONTINUITY["visual_style"]))
+    assert "Establishing view of Waters of Mormon" in positive and "Turquoise spring pool" in positive
+    assert "people or figures in the image" in negative
+
+
+def test_book_location_bible_is_complete_and_cited():
+    root = Path(__file__).resolve().parent.parent
+    verses = {f"{v['book']} {v['chapter']}:{v['verse']}" for v in json.loads((root / "data/full-scripture.json").read_text())}
+    locations = json.loads((root / "locations/book-of-mormon/locations.json").read_text())
+    for name, record in locations.items():
+        assert record["visual_design_choices"] and record["locked_traits"], name
+        for fact in record["scriptural_facts"]:
+            assert fact["refs"] and set(fact["refs"]) <= verses, name

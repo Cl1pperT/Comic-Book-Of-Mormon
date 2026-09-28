@@ -61,10 +61,10 @@ class Gemini:
         model = self.config.require("image")
         contents = [prompt]
         for reference in reference_images or []:
-            # A (label, path) pair names the image right before it, e.g. which character a portrait shows.
+            # A (label, path) pair names the image right before it, e.g. which character or place it shows.
             label, path = reference if isinstance(reference, tuple) else (None, reference)
             if label:
-                contents.append(f"Reference portrait: {label}")
+                contents.append(f"Reference image: {label}")
             with Image.open(path) as im:
                 buffer = io.BytesIO()
                 im.save(buffer, format="PNG")
@@ -236,6 +236,6 @@ class PlaceholderImages:
         draw.text((30, 30), "OFFLINE TEST PLACEHOLDER - NOT COMIC ART", fill="white")
         for i, reference in enumerate(reference_images or []):
             label = reference[0] if isinstance(reference, tuple) else Path(reference).name
-            draw.text((30, 60 + 20 * i), f"Reference portrait attached: {label}", fill="white")
+            draw.text((30, 60 + 20 * i), f"Reference image attached: {label}", fill="white")
         im.save(output_path)
         return str(output_path)

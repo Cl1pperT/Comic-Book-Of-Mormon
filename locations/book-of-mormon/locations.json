@@ -1,0 +1,833 @@
+{
+  "Jerusalem": {
+    "scriptural_facts": [
+      {"text": "Jerusalem was a great city, and prophets warned that it must be destroyed unless the people repented.", "refs": ["1 Nephi 1:4"]},
+      {"text": "The city had walls; Nephi's brothers hid outside them by night while he crept into the city.", "refs": ["1 Nephi 4:5"]}
+    ],
+    "visual_design_choices": [
+      "A walled hilltop city of Judah around 600 BC, crowded with flat-roofed houses of honey-colored limestone stepping down terraced slopes.",
+      "Thick pale stone walls with square towers and a large arched gate; narrow stepped streets and small courtyards.",
+      "Surrounded by olive groves and terraced hills under a bright blue sky, with warm golden sunlight on the stone.",
+      "Old World Near Eastern architecture, not Mesoamerican: this is Judah, not the promised land."
+    ],
+    "locked_traits": [
+      "Honey-colored limestone, flat roofs, and walls with square towers in every panel.",
+      "Judean Iron Age architecture only; no domes, minarets, pyramids, or later buildings."
+    ]
+  },
+  "Lehi's house at Jerusalem": {
+    "scriptural_facts": [
+      {"text": "Lehi had his own house at Jerusalem.", "refs": ["1 Nephi 1:7"]},
+      {"text": "He left behind his house, the land of his inheritance, his gold, silver, and precious things.", "refs": ["1 Nephi 2:4"]}
+    ],
+    "visual_design_choices": [
+      "A comfortable two-story limestone courtyard house of a well-off Judean family, around 600 BC.",
+      "An open central courtyard with a fig tree, a stone cistern, clay storage jars, and a wooden ladder to the flat roof.",
+      "Interior rooms with woven rugs, a low wooden bed with wool blankets, oil lamps in wall niches.",
+      "Bright sunlight falling into the courtyard; warm cream walls and blue sky overhead."
+    ],
+    "locked_traits": [
+      "Same courtyard, fig tree, and cream limestone walls in every panel.",
+      "Well-off but not palatial: no columns of marble or royal decoration."
+    ]
+  },
+  "House of Laban": {
+    "scriptural_facts": [
+      {"text": "Nephi went by night through the city toward the house of Laban.", "refs": ["1 Nephi 4:5"]},
+      {"text": "Laban had a treasury, kept by a servant who held its keys.", "refs": ["1 Nephi 4:20"]}
+    ],
+    "visual_design_choices": [
+      "A large, imposing Jerusalem residence of a powerful man, with high limestone walls and a heavy cedar gate bound in bronze.",
+      "Inside, a colonnaded courtyard of dressed stone and a separate treasury room with a strong wooden door and iron lock.",
+      "The treasury holds shelves of sealed jars, rolled records, and chests; the brass plates rest there.",
+      "Usually seen by night: deep blue moonlight with warm amber torchlight at the gate, still clear and readable."
+    ],
+    "locked_traits": [
+      "Same cedar-and-bronze gate and colonnaded courtyard in every panel.",
+      "Grander than Lehi's house; Judean architecture, never Roman or medieval."
+    ]
+  },
+  "Cavity of a rock outside Jerusalem": {
+    "scriptural_facts": [
+      {"text": "Fleeing Laban's servants into the wilderness, the brothers hid in the cavity of a rock.", "refs": ["1 Nephi 3:27"]}
+    ],
+    "visual_design_choices": [
+      "A shallow cave under a tan limestone overhang in rocky Judean hill country, dotted with scrub and wild thyme.",
+      "Bright afternoon sun outside, cool shade inside the hollow; distant walls of Jerusalem on a ridge."
+    ],
+    "locked_traits": [
+      "Tan limestone overhang and scrubby hillside in every panel."
+    ]
+  },
+  "Valley of Lemuel": {
+    "scriptural_facts": [
+      {"text": "After three days in the wilderness Lehi pitched his tent in a valley by the side of a river of water.", "refs": ["1 Nephi 2:6"]},
+      {"text": "Lehi built an altar of stones and made an offering there.", "refs": ["1 Nephi 2:7"]},
+      {"text": "He named the river Laman; it emptied into the Red Sea, and the valley was near its mouth.", "refs": ["1 Nephi 2:8", "1 Nephi 2:9"]},
+      {"text": "Lehi wished Lemuel to be like the valley: firm, steadfast, and immovable.", "refs": ["1 Nephi 2:10"]},
+      {"text": "Lehi dwelt in a tent.", "refs": ["1 Nephi 2:15"]}
+    ],
+    "visual_design_choices": [
+      "A steep-walled desert valley of rose-red and ochre granite cliffs opening toward a glimpse of the blue Red Sea.",
+      "A clear stream (the river Laman) runs along the valley floor, lined with bright green date palms, reeds, and acacia.",
+      "Lehi's camp: several large goat-hair tents in dark brown and black stripes, with camels and a low altar of piled unhewn stones.",
+      "Brilliant desert sunlight, deep blue sky, strong shadows."
+    ],
+    "locked_traits": [
+      "Red-and-ochre cliffs, palm-lined stream, and striped goat-hair tents in every panel.",
+      "The altar is always rough unhewn stones."
+    ]
+  },
+  "Shazer": {
+    "scriptural_facts": [
+      {"text": "Four days' travel south-southeast, the family pitched tents at a place they named Shazer.", "refs": ["1 Nephi 16:13"]},
+      {"text": "From Shazer they hunted with bows and arrows, keeping to the most fertile parts of the wilderness near the Red Sea.", "refs": ["1 Nephi 16:14"]}
+    ],
+    "visual_design_choices": [
+      "An Arabian desert oasis camp: goat-hair tents beside a small grove of palms and thorny acacia with patches of green grass.",
+      "Golden dunes and rocky hills on the horizon; wide bright sky."
+    ],
+    "locked_traits": [
+      "Oasis palms and striped tents; desert Arabia, not jungle."
+    ]
+  },
+  "Nahom": {
+    "scriptural_facts": [
+      {"text": "Ishmael died and was buried in the place called Nahom.", "refs": ["1 Nephi 16:34"]}
+    ],
+    "visual_design_choices": [
+      "A wide, dry Arabian plain ringed by bare rocky hills, with a low burial cairn of piled stones.",
+      "Late-afternoon golden light and a pale blue sky; solemn but not dark."
+    ],
+    "locked_traits": [
+      "Burial cairn of stacked stones on an open plain."
+    ]
+  },
+  "Bountiful (Old World coast)": {
+    "scriptural_facts": [
+      {"text": "The family named the land Bountiful because of its much fruit and wild honey.", "refs": ["1 Nephi 17:5"]},
+      {"text": "They beheld the sea, which they called Irreantum, meaning many waters, and pitched tents by the seashore.", "refs": ["1 Nephi 17:5", "1 Nephi 17:6"]},
+      {"text": "Nephi went up into a mountain there to pray.", "refs": ["1 Nephi 17:7"]}
+    ],
+    "visual_design_choices": [
+      "A lush green coastal pocket on the southern Arabian shore: fruit trees, tall palms, wild figs, and flowering shrubs humming with bees.",
+      "A white sand beach and turquoise sea; a steep green-and-grey mountain rises behind the camp.",
+      "Goat-hair tents near the beach; a shipbuilding site with cut timbers and a small forge for smelting ore.",
+      "Vivid tropical color, bright sun, deep blue sea and sky."
+    ],
+    "locked_traits": [
+      "Green coast, white beach, turquoise sea, and a mountain behind in every panel.",
+      "A welcome contrast to the desert: always lush and bright."
+    ]
+  },
+  "Nephi's ship": {
+    "scriptural_facts": [
+      {"text": "Nephi worked timbers of curious workmanship and built the ship after the manner the Lord showed him, not after the manner of men.", "refs": ["1 Nephi 18:1", "1 Nephi 18:2"]},
+      {"text": "The workmanship of the ship was exceedingly fine.", "refs": ["1 Nephi 18:4"]},
+      {"text": "It carried the families, provisions, and seeds and was driven by the wind toward the promised land.", "refs": ["1 Nephi 18:6", "1 Nephi 18:8"]},
+      {"text": "At sea a great and terrible tempest drove the ship back for days.", "refs": ["1 Nephi 18:13", "1 Nephi 18:15"]}
+    ],
+    "visual_design_choices": [
+      "A large, sturdy wooden sailing ship of honey-brown timber with finely fitted planks and carved curling prow and stern.",
+      "One tall mast with a broad square sail of cream woven cloth; a covered deck house; cords of palm-fiber rope.",
+      "Its shape is unique and handsome, not a Viking longship, galleon, or any recognizable historical ship.",
+      "Fair-weather scenes: sparkling blue sea and sunny sky. Storm scenes: grey-green towering waves, desaturated and dramatic."
+    ],
+    "locked_traits": [
+      "Same honey-brown hull, carved curling prow, and single cream square sail in every panel.",
+      "No cannons, metal fittings, or later-era rigging."
+    ]
+  },
+  "Tree of life (Lehi's dream)": {
+    "scriptural_facts": [
+      {"text": "In the dream Lehi first found himself in a dark and dreary waste.", "refs": ["1 Nephi 8:4", "1 Nephi 8:7"]},
+      {"text": "He then beheld a large and spacious field and a tree whose fruit was desirable to make one happy.", "refs": ["1 Nephi 8:9", "1 Nephi 8:10"]},
+      {"text": "The fruit was white, exceeding all whiteness he had seen.", "refs": ["1 Nephi 8:11"]},
+      {"text": "Nephi saw that the tree's beauty was far beyond all beauty and its whiteness exceeded the driven snow.", "refs": ["1 Nephi 11:8"]},
+      {"text": "A river of water ran near the tree; a rod of iron extended along its bank, beside a strait and narrow path that led to the tree.", "refs": ["1 Nephi 8:13", "1 Nephi 8:19", "1 Nephi 8:20"]},
+      {"text": "An exceedingly great mist of darkness arose, and some on the path lost their way.", "refs": ["1 Nephi 8:23"]}
+    ],
+    "visual_design_choices": [
+      "A radiant, dreamlike landscape: a single broad-crowned tree glowing with soft white light, heavy with luminous white fruit.",
+      "A vast green field under a luminous sky; a clear river beside the tree; a dark iron rod on low posts running beside a narrow dirt path.",
+      "Where the mist rises it rolls in as grey-black fog, desaturated around the edges, while the tree stays bright."
+    ],
+    "locked_traits": [
+      "The tree always glows brilliant white; the rod of iron always runs along the path by the river.",
+      "Visionary and luminous, but still hand-inked illustration."
+    ]
+  },
+  "Great and spacious building": {
+    "scriptural_facts": [
+      {"text": "Across the river stood a great and spacious building, as it were in the air, high above the earth.", "refs": ["1 Nephi 8:26"]},
+      {"text": "It was filled with finely dressed people, old and young, mocking and pointing at those eating the fruit.", "refs": ["1 Nephi 8:27"]},
+      {"text": "It represents vain imaginations and the pride of the children of men.", "refs": ["1 Nephi 12:18"]}
+    ],
+    "visual_design_choices": [
+      "An enormous, showy many-windowed building floating with no visible foundation, glittering with gold trim and brightly lit windows.",
+      "Tall and top-heavy, looking impressive but hollow; its brightness is gaudy and cold compared with the warm glow of the tree.",
+      "Seen from across the river, set against the dream's sky."
+    ],
+    "locked_traits": [
+      "Always floating above the ground with no foundation.",
+      "Never modern glass-and-steel; an ornate, timeless, dreamlike palace."
+    ]
+  },
+  "Promised land (first landing)": {
+    "scriptural_facts": [
+      {"text": "After many days at sea they arrived at the promised land, went ashore, and pitched their tents.", "refs": ["1 Nephi 18:23"]},
+      {"text": "The forests held beasts of every kind, including the cow, ox, ass, horse, goat, and wild goat, and the land held ore of gold, silver, and copper.", "refs": ["1 Nephi 18:25"]}
+    ],
+    "visual_design_choices": [
+      "A tropical Pacific-side coastline of the New World: golden beach, crashing blue surf, and dense emerald jungle beyond.",
+      "Nephi's ship anchored just offshore; the family's tents in a clearing at the forest edge.",
+      "Distant green volcanic mountains under a brilliant blue sky with white clouds."
+    ],
+    "locked_traits": [
+      "Lush jungle, golden beach, and blue surf: the first vivid New World landscape.",
+      "No buildings yet; only tents."
+    ]
+  },
+  "City of Nephi": {
+    "scriptural_facts": [
+      {"text": "Nephi's people journeyed many days in the wilderness and named the place where they settled Nephi.", "refs": ["2 Nephi 5:7", "2 Nephi 5:8"]},
+      {"text": "Nephi taught his people to build buildings and to work wood, iron, copper, brass, steel, gold, silver, and precious ores.", "refs": ["2 Nephi 5:15"]},
+      {"text": "Later settlers repaired the walls of the city of Lehi-Nephi and the city of Shilom.", "refs": ["Mosiah 9:8"]},
+      {"text": "The city had walls and a gate, with a back pass through the back wall.", "refs": ["Mosiah 7:10", "Mosiah 22:6"]}
+    ],
+    "visual_design_choices": [
+      "A highland city in a green mountain valley, with whitewashed stone-and-plaster houses and terraced maize fields on the slopes.",
+      "A stone perimeter wall with a main gate; a stepped temple platform rises at the city's heart.",
+      "Pine and oak on the surrounding hills, clear mountain air, bright blue sky.",
+      "Also called the city of Lehi-Nephi in Mosiah; same design across eras, growing grander in King Noah's time."
+    ],
+    "locked_traits": [
+      "Highland valley setting with terraced fields and a walled city in every panel.",
+      "Mesoamerican-style stone architecture, never European."
+    ]
+  },
+  "Temple in the city of Nephi": {
+    "scriptural_facts": [
+      {"text": "Nephi built a temple after the manner of Solomon's temple, though not of so many precious things; its workmanship was exceedingly fine.", "refs": ["2 Nephi 5:16"]},
+      {"text": "Jacob taught the people in the temple.", "refs": ["Jacob 1:17"]},
+      {"text": "King Noah had fine work of wood, copper, and brass made within its walls, and gold-ornamented seats with a breastwork for his priests.", "refs": ["Mosiah 11:10", "Mosiah 11:11"]}
+    ],
+    "visual_design_choices": [
+      "A rectangular stone temple on a raised stepped platform, facing east across an open courtyard with an altar.",
+      "A pillared porch at the entrance with two great freestanding columns, echoing Solomon's plan.",
+      "Pale limestone walls with turquoise-and-red painted fretwork bands; cedar doors.",
+      "In King Noah's era: added gold-leaf trim, carved wood panels, and a raised row of gilded priests' seats behind a carved breastwork."
+    ],
+    "locked_traits": [
+      "Same stepped platform, two porch columns, and turquoise fretwork in every panel.",
+      "Gilded seats and breastwork appear only in King Noah's era and later."
+    ]
+  },
+  "King Noah's palace": {
+    "scriptural_facts": [
+      {"text": "King Noah built many elegant and spacious buildings ornamented with fine wood, gold, silver, iron, brass, ziff, and copper.", "refs": ["Mosiah 11:8"]},
+      {"text": "He built a spacious palace with a throne in its midst, of fine wood ornamented with gold, silver, and precious things.", "refs": ["Mosiah 11:9"]}
+    ],
+    "visual_design_choices": [
+      "A lavish throne room with tall carved-cedar columns inlaid with gold and silver, and a raised gold-trimmed throne at the center.",
+      "Jade-green and crimson hangings, polished stone floors, bronze braziers, and trays of fruit and wine.",
+      "Warm, glittering light; opulent and indulgent."
+    ],
+    "locked_traits": [
+      "Same carved-cedar gilded columns and central gold throne in every panel.",
+      "Mesoamerican-inspired ornament, never a European royal court."
+    ]
+  },
+  "King Noah's tower": {
+    "scriptural_facts": [
+      {"text": "Noah built a very high tower near the temple, from which he could overlook the land of Shilom and the land of Shemlon.", "refs": ["Mosiah 11:12"]},
+      {"text": "He also built a great tower on the hill north of the land of Shilom.", "refs": ["Mosiah 11:13"]}
+    ],
+    "visual_design_choices": [
+      "A tall, narrow stepped stone tower with a railed wooden platform at the top.",
+      "Below, a sweeping view of green valleys, fields, and distant Lamanite lands under a clear blue sky."
+    ],
+    "locked_traits": [
+      "Tall stepped stone tower with a wooden lookout platform."
+    ]
+  },
+  "Waters of Mormon": {
+    "scriptural_facts": [
+      {"text": "Mormon was a place in the borders of the land, at times infested by wild beasts.", "refs": ["Mosiah 18:4"]},
+      {"text": "It had a fountain of pure water with a thicket of small trees nearby, where Alma hid by day.", "refs": ["Mosiah 18:5"]},
+      {"text": "The place, waters, and forest of Mormon were beautiful to those who came to know their Redeemer there.", "refs": ["Mosiah 18:30"]}
+    ],
+    "visual_design_choices": [
+      "A clear, spring-fed pool of turquoise water in a highland forest clearing, with smooth stones at the edge.",
+      "A dense thicket of slender young trees beside the water; tall trees, ferns, and flowering vines beyond.",
+      "Dappled sunlight through green leaves; peaceful, hopeful, and beautiful."
+    ],
+    "locked_traits": [
+      "Same turquoise spring pool and thicket of small trees in every panel.",
+      "Always lush, serene, and bright."
+    ]
+  },
+  "Land of Helam": {
+    "scriptural_facts": [
+      {"text": "Alma's people came to a very beautiful and pleasant land of pure water.", "refs": ["Mosiah 23:4"]},
+      {"text": "They pitched tents, tilled the ground, and built buildings.", "refs": ["Mosiah 23:5"]},
+      {"text": "They prospered exceedingly and called the land Helam.", "refs": ["Mosiah 23:19"]}
+    ],
+    "visual_design_choices": [
+      "A broad, gentle green valley with clear streams, young maize fields, and simple thatched-roof houses of timber and adobe.",
+      "Wooded hills around the valley, wildflowers, bright sun."
+    ],
+    "locked_traits": [
+      "Modest thatched village among green fields and clear streams."
+    ]
+  },
+  "City of Zarahemla": {
+    "scriptural_facts": [
+      {"text": "Mosiah's people came down into the land of Zarahemla and found the people of Zarahemla there.", "refs": ["Omni 1:13", "Omni 1:14"]},
+      {"text": "The river Sidon ran by the land of Zarahemla.", "refs": ["Alma 2:15"]},
+      {"text": "A highway led to the chief market in the city.", "refs": ["Helaman 7:10"]}
+    ],
+    "visual_design_choices": [
+      "The great Nephite capital on a wide river plain: plastered white and ochre stone buildings, broad plazas, and a stepped temple-pyramid at the center.",
+      "Paved raised highways (sacbe) lined with market stalls of bright woven cloth, pottery, and produce.",
+      "Palm trees, flowering trees, canals, and lush jungle edging the farmland; the river Sidon glinting nearby.",
+      "Bright tropical sun, blue sky, busy and prosperous."
+    ],
+    "locked_traits": [
+      "Same central stepped temple-pyramid and white-and-ochre plazas in every panel.",
+      "Mesoamerican-style city, never European or Asian."
+    ]
+  },
+  "Wall of Zarahemla": {
+    "scriptural_facts": [
+      {"text": "Refused entry to the city, Samuel the Lamanite climbed upon its wall to prophesy.", "refs": ["Helaman 13:4"]},
+      {"text": "Angry Nephites threw stones and shot arrows at him on the wall, but could not hit him.", "refs": ["Helaman 16:2"]}
+    ],
+    "visual_design_choices": [
+      "A thick, tall city wall of fitted pale stone with a flat walkway along its top, part of the City of Zarahemla.",
+      "Below it, a crowd-filled open ground; behind, the white-and-ochre rooftops and temple-pyramid of the city.",
+      "Bright daylight, blue sky."
+    ],
+    "locked_traits": [
+      "Same pale fitted-stone wall with a flat top walkway; matches the City of Zarahemla design."
+    ]
+  },
+  "Nephi's garden tower": {
+    "scriptural_facts": [
+      {"text": "Nephi prayed upon a tower in his garden, by the highway leading to the chief market of Zarahemla, near the garden gate.", "refs": ["Helaman 7:10"]}
+    ],
+    "visual_design_choices": [
+      "A walled garden of fruit trees and flowering shrubs beside a busy paved highway, with a simple wooden gate.",
+      "A modest square stone tower, a little taller than the garden wall, with a flat roof where Nephi kneels.",
+      "Bright daylight; passers-by on the highway can see the tower top."
+    ],
+    "locked_traits": [
+      "Modest square stone tower near the garden gate, beside the highway."
+    ]
+  },
+  "Temple at Zarahemla": {
+    "scriptural_facts": [
+      {"text": "The people gathered to go up to the temple to hear King Benjamin.", "refs": ["Mosiah 2:1"]},
+      {"text": "They pitched their tents round about the temple, each family separate, with tent doors toward the temple.", "refs": ["Mosiah 2:5", "Mosiah 2:6"]},
+      {"text": "The multitude was too great to teach within the temple walls, so Benjamin had a tower erected.", "refs": ["Mosiah 2:7"]}
+    ],
+    "visual_design_choices": [
+      "A grand stepped stone temple on a wide platform, painted white with turquoise and red fretwork, enclosed by a low courtyard wall.",
+      "For King Benjamin's address: hundreds of colorful family tents in rings around the temple, every door facing it, and a tall timber speaking tower beside the wall.",
+      "Brilliant sunny day, blue sky, a festive and reverent gathering."
+    ],
+    "locked_traits": [
+      "Same stepped white temple with turquoise fretwork in every panel.",
+      "Tent doors always face the temple during Benjamin's address."
+    ]
+  },
+  "River Sidon": {
+    "scriptural_facts": [
+      {"text": "The river Sidon ran by the land of Zarahemla.", "refs": ["Alma 2:15"]},
+      {"text": "Battles were fought on its banks, and the slain were cast into its waters.", "refs": ["Alma 2:34"]},
+      {"text": "Many were baptized in the waters of Sidon.", "refs": ["Alma 4:4"]}
+    ],
+    "visual_design_choices": [
+      "A wide, slow jade-green river winding through tropical lowlands, with sandy banks and tall reeds.",
+      "Dense jungle, ceiba trees, and palms along the banks; herons and bright birds.",
+      "Bright tropical sun; the river looks broad but fordable at crossings."
+    ],
+    "locked_traits": [
+      "Wide jade-green river with jungle banks in every panel."
+    ]
+  },
+  "City of Ammonihah": {
+    "scriptural_facts": [
+      {"text": "Ammonihah was a city three days' journey north of the land of Melek.", "refs": ["Alma 8:6"]},
+      {"text": "Its people cast believers and their scriptures into a fire.", "refs": ["Alma 14:8"]},
+      {"text": "Its people called it a great city that God could not destroy.", "refs": ["Alma 16:9"]}
+    ],
+    "visual_design_choices": [
+      "A proud, wealthy walled city of tall painted stone buildings, a large judgment hall, and a wide central plaza.",
+      "Crimson and gold banners and ornate carvings suggest pride and wealth.",
+      "Bright daylight; handsome on the surface."
+    ],
+    "locked_traits": [
+      "Same crimson-and-gold banners and central plaza in every panel before its destruction."
+    ]
+  },
+  "Prison of Ammonihah": {
+    "scriptural_facts": [
+      {"text": "Alma and Amulek were bound with strong cords and confined in prison, without food or water.", "refs": ["Alma 14:22"]},
+      {"text": "The earth shook, the prison walls were rent in twain and fell, killing their persecutors, while Alma and Amulek came forth unhurt.", "refs": ["Alma 14:27", "Alma 14:28"]}
+    ],
+    "visual_design_choices": [
+      "A thick-walled stone prison with a heavy outer door and small barred window slits letting in shafts of daylight.",
+      "When the walls fall: great slabs split apart, dust in the air, and bright sunlight pouring in on Alma and Amulek."
+    ],
+    "locked_traits": [
+      "Heavy stone walls with an outer door; bright light floods in when they fall."
+    ]
+  },
+  "Desolation of Nehors": {
+    "scriptural_facts": [
+      {"text": "In one day Ammonihah was left desolate, and every living soul of its people was destroyed.", "refs": ["Alma 16:9", "Alma 16:10"]},
+      {"text": "The dead were heaped and thinly covered; the land lay desolate for many years and was called Desolation of Nehors.", "refs": ["Alma 16:11"]}
+    ],
+    "visual_design_choices": [
+      "The ruined shell of Ammonihah: collapsed walls, empty plazas, torn crimson banners, and weeds pushing through stone.",
+      "Low earthen mounds outside the walls; no bodies shown.",
+      "Muted and desaturated, overcast grey sky."
+    ],
+    "locked_traits": [
+      "Desaturated ruin; no visible bodies or gore."
+    ]
+  },
+  "Land of Ishmael": {
+    "scriptural_facts": [
+      {"text": "Ammon went to the land of Ishmael, named after the sons of Ishmael.", "refs": ["Alma 17:19"]}
+    ],
+    "visual_design_choices": [
+      "Lamanite pastoral lands of rolling green hills and grassland, with herds and flocks grazing.",
+      "The king's town: wooden-and-adobe buildings with palm-thatch roofs around a larger royal compound.",
+      "Bright sunny sky, lush and fertile."
+    ],
+    "locked_traits": [
+      "Rolling grassland with flocks and a palm-thatched royal town."
+    ]
+  },
+  "King Lamoni's house": {
+    "scriptural_facts": [
+      {"text": "Lamoni had horses and chariots prepared by his servants.", "refs": ["Alma 18:9"]}
+    ],
+    "visual_design_choices": [
+      "A royal compound of plastered adobe and timber with a high palm-thatch roof and carved wooden posts painted red and ochre.",
+      "The main hall has woven reed mats, feather-and-cloth hangings, and a low raised dais for the king's seat and bed.",
+      "Warm light from doorways and oil lamps; rich but not gilded."
+    ],
+    "locked_traits": [
+      "Same carved red-and-ochre posts, thatched roof, and raised dais in every panel.",
+      "Lamanite royal style: less gold than Nephite palaces."
+    ]
+  },
+  "Waters of Sebus": {
+    "scriptural_facts": [
+      {"text": "The water of Sebus was the place where all the Lamanites drove their flocks to drink.", "refs": ["Alma 17:26"]}
+    ],
+    "visual_design_choices": [
+      "A wide watering pool fed by a stream in open grassland, with trampled muddy banks and scattered boulders.",
+      "Clumps of trees, rocky rises where men could hide, and grazing flocks.",
+      "Bright midday sun, blue sky."
+    ],
+    "locked_traits": [
+      "Same watering pool with boulders and muddy banks in every panel."
+    ]
+  },
+  "Palace of the Lamanite king (land of Nephi)": {
+    "scriptural_facts": [
+      {"text": "Aaron was led to the house of the king over all the land, Lamoni's father, in the land of Nephi.", "refs": ["Alma 22:1"]},
+      {"text": "Lamoni's father appointed a great feast in the land of Nephi.", "refs": ["Alma 18:9"]}
+    ],
+    "visual_design_choices": [
+      "The grandest Lamanite hall: a tall stone-and-timber palace on a stepped platform in the old city of Nephi, with a steep thatched roof.",
+      "Painted murals of jaguars and quetzal birds, feather fans, and a large carved stone throne.",
+      "Warm, bright interior light."
+    ],
+    "locked_traits": [
+      "Carved stone throne and jaguar-and-quetzal murals in every panel."
+    ]
+  },
+  "Narrow strip of wilderness": {
+    "scriptural_facts": [
+      {"text": "A narrow strip of wilderness ran from the east sea to the west sea, dividing the land of Nephi from the land of Zarahemla.", "refs": ["Alma 22:27"]},
+      {"text": "Missionaries journeyed many days in the wilderness, fasting and praying.", "refs": ["Alma 17:9"]},
+      {"text": "Ammon's party wandered forty days in the wilderness seeking the land of Lehi-Nephi.", "refs": ["Mosiah 7:4"]}
+    ],
+    "visual_design_choices": [
+      "Rugged forested mountains and ravines: tall trees hung with moss, ferns, rushing streams, and misty ridgelines.",
+      "Narrow trails over rocks and roots; sunlight in shafts through the canopy."
+    ],
+    "locked_traits": [
+      "Green, rugged, forested highlands; never desert."
+    ]
+  },
+  "Antionum synagogue and Rameumptom": {
+    "scriptural_facts": [
+      {"text": "The Zoramites lived in Antionum, east of Zarahemla near the seashore.", "refs": ["Alma 31:3"]},
+      {"text": "They built synagogues and gathered there one day each week.", "refs": ["Alma 31:12"]},
+      {"text": "In the center stood a place for standing high above the head, whose top admitted only one person.", "refs": ["Alma 31:13"]},
+      {"text": "They called it Rameumptom, the holy stand.", "refs": ["Alma 31:21"]}
+    ],
+    "visual_design_choices": [
+      "A tall, bright synagogue hall of polished white stone with gold-leaf trim and colored glassless windows letting in sun.",
+      "At the center, a narrow pillar-like stand with steps, rising well above head height to a small railed platform for one person.",
+      "Worshippers in costly, brightly dyed robes; the setting looks rich and proud."
+    ],
+    "locked_traits": [
+      "The Rameumptom is always a single tall narrow stand at the center, top wide enough for one.",
+      "Rich, gilded, and proud in look."
+    ]
+  },
+  "Land of Jershon": {
+    "scriptural_facts": [
+      {"text": "Jershon lay on the east by the sea, joining the land Bountiful on its south, and was given to the people of Ammon.", "refs": ["Alma 27:22"]}
+    ],
+    "visual_design_choices": [
+      "Green coastal lowlands by the east sea: palm groves, fields, and new thatched villages of the people of Ammon.",
+      "Turquoise sea, white sand, and bright sky."
+    ],
+    "locked_traits": [
+      "Peaceful coastal farmland with new villages."
+    ]
+  },
+  "Nephite fortified city": {
+    "scriptural_facts": [
+      {"text": "Moroni erected small forts and places of resort, threw up banks of earth, and built walls of stone around cities and borders.", "refs": ["Alma 48:8"]},
+      {"text": "Heaps of earth were dug up around the cities, with works of timbers the height of a man on top.", "refs": ["Alma 50:1", "Alma 50:2"]},
+      {"text": "A strong, high frame of pickets stood on the timbers, overlooked by towers with places of security.", "refs": ["Alma 50:3", "Alma 50:4"]},
+      {"text": "A deep ditch ran round about, and the only way in was by the entrance.", "refs": ["Alma 49:18"]}
+    ],
+    "visual_design_choices": [
+      "A Nephite city ringed by a deep ditch and a high earthen bank, topped by a wall of timbers and sharpened pickets.",
+      "Wooden watchtowers with roofed, shielded platforms at intervals; one guarded entrance.",
+      "White-and-ochre stone buildings and a temple-pyramid visible inside; green countryside outside; bright day."
+    ],
+    "locked_traits": [
+      "Ditch, earthen bank, timber-and-picket wall, and towers always appear together.",
+      "Timber and earth defenses, never European stone castles."
+    ]
+  },
+  "City of Moroni": {
+    "scriptural_facts": [
+      {"text": "The Nephites founded the city of Moroni by the east sea, on the south by the Lamanite border.", "refs": ["Alma 50:13"]},
+      {"text": "In the great destruction it sank into the depths of the sea and its inhabitants were drowned.", "refs": ["3 Nephi 8:9"]}
+    ],
+    "visual_design_choices": [
+      "A fortified seaside city of white stone on a low coastal plain, with timber-and-picket walls and a harbor of canoes.",
+      "Before the destruction: turquoise sea and bright sun. During it: grey churning water swallowing the city, desaturated."
+    ],
+    "locked_traits": [
+      "Seaside white-stone city with timber defenses; desaturated only in destruction scenes."
+    ]
+  },
+  "Narrow neck of land": {
+    "scriptural_facts": [
+      {"text": "A small neck of land, a day and a half's journey for a Nephite from the east to the west sea, joined the land northward and the land southward.", "refs": ["Alma 22:32"]},
+      {"text": "A narrow pass led by the sea into the land northward.", "refs": ["Alma 50:34"]}
+    ],
+    "visual_design_choices": [
+      "A narrow green isthmus with sea visible on both sides from high ground, jungle hills along its spine.",
+      "A rocky coastal pass squeezed between cliffs and the sea.",
+      "Bright day, blue water on both horizons."
+    ],
+    "locked_traits": [
+      "Sea on both sides; a narrow pass by the shore."
+    ]
+  },
+  "Prison in the land of Nephi": {
+    "scriptural_facts": [
+      {"text": "Nephi and Lehi were cast into the same prison where Ammon's brethren had been held by Limhi's servants.", "refs": ["Helaman 5:21"]},
+      {"text": "Nephi and Lehi were encircled about as if by fire, yet were not burned, and the fire did not take hold of the walls.", "refs": ["Helaman 5:23", "Helaman 5:44"]},
+      {"text": "Their captors were overshadowed with a cloud of darkness.", "refs": ["Helaman 5:28"]}
+    ],
+    "visual_design_choices": [
+      "A large, dim stone prison chamber with heavy walls and a single barred doorway.",
+      "When the fire appears: a ring of brilliant golden-white flame around Nephi and Lehi lighting their faces, the walls untouched, while dark cloud fills the rest of the room."
+    ],
+    "locked_traits": [
+      "The fire never burns the walls or the prophets.",
+      "Bright golden light at the center, darkness around the edges."
+    ]
+  },
+  "Gadianton robbers' mountain strongholds": {
+    "scriptural_facts": [
+      {"text": "The Gadianton robbers dwelt upon the mountains in strong holds and secret places that the people could not overpower.", "refs": ["3 Nephi 1:27"]}
+    ],
+    "visual_design_choices": [
+      "Steep, jungle-covered mountain ridges with hidden caves, rock shelters, and camouflaged log palisades.",
+      "Rope bridges over gorges, lookout rocks, and smoky campfires.",
+      "Deep green forest and sharp sunlight; shadowy inside the hideouts."
+    ],
+    "locked_traits": [
+      "Hidden caves and log palisades in steep jungle mountains."
+    ]
+  },
+  "Land northward": {
+    "scriptural_facts": [
+      {"text": "People in the land northward dwelt in tents and in houses of cement, and let trees grow for later timber.", "refs": ["Helaman 3:9"]},
+      {"text": "Timber was exceedingly scarce, and much was sent there by shipping.", "refs": ["Helaman 3:7", "Helaman 3:10"]}
+    ],
+    "visual_design_choices": [
+      "Open, drier country of grassland and scattered young trees, with towns of smooth grey-white cement houses with flat roofs.",
+      "Stacks of shipped timber at a river landing; distant blue mountains.",
+      "Bright sun, big sky."
+    ],
+    "locked_traits": [
+      "Cement houses and sparse trees; drier and more open than the lush south."
+    ]
+  },
+  "The great destruction": {
+    "scriptural_facts": [
+      {"text": "A great storm arose, such as never had been known, with a great and terrible tempest and thunder that shook the whole earth.", "refs": ["3 Nephi 8:5", "3 Nephi 8:6"]},
+      {"text": "The city of Zarahemla took fire.", "refs": ["3 Nephi 8:8"]},
+      {"text": "The highways were broken up, level roads spoiled, and smooth places made rough.", "refs": ["3 Nephi 8:13"]},
+      {"text": "The face of the whole earth was deformed by tempests, thunderings, lightnings, and earthquakes; the rocks were rent into fragments, seams, and cracks.", "refs": ["3 Nephi 8:17", "3 Nephi 8:18"]}
+    ],
+    "visual_design_choices": [
+      "Nephite lands torn apart: split and buckled paved highways, collapsed stone buildings, and cracked ground.",
+      "Jagged lightning, whirlwinds, sheets of rain, and fires glowing orange against a black-green sky.",
+      "Desaturated and dramatic per the global style: storm greys and deep shadow, with lightning and fire the only bright color."
+    ],
+    "locked_traits": [
+      "This is the one kind of scene that stays desaturated and dark.",
+      "No gore; destruction is shown through buildings, land, and sky."
+    ]
+  },
+  "City of Moronihah": {
+    "scriptural_facts": [
+      {"text": "In the great destruction the earth was carried up upon the city of Moronihah, and in its place there became a great mountain.", "refs": ["3 Nephi 8:10"]}
+    ],
+    "visual_design_choices": [
+      "Where a city stood, a raw new mountain of torn earth and broken rock rises, with only a few stone rooftops at its foot.",
+      "Stormy, desaturated grey sky with lightning."
+    ],
+    "locked_traits": [
+      "A new raw-earth mountain where the city was; desaturated storm scene."
+    ]
+  },
+  "Jacobugath": {
+    "scriptural_facts": [
+      {"text": "King Jacob's people fled to the northernmost part of the land and built a kingdom.", "refs": ["3 Nephi 7:12"]},
+      {"text": "That great city Jacobugath was burned with fire because of their wickedness and secret combinations.", "refs": ["3 Nephi 9:9"]}
+    ],
+    "visual_design_choices": [
+      "A dark, fortified stronghold city of black-and-red painted stone in the far north, with high walls and a fortress-palace.",
+      "When burning: consumed in towering orange flame against a black sky."
+    ],
+    "locked_traits": [
+      "Black-and-red painted stone fortress city."
+    ]
+  },
+  "Land in thick darkness": {
+    "scriptural_facts": [
+      {"text": "Thick darkness covered the land, and the people could feel the vapor of darkness.", "refs": ["3 Nephi 8:20"]},
+      {"text": "No candle, torch, or fire could be kindled, and neither sun, moon, nor stars could be seen, for three days.", "refs": ["3 Nephi 8:21", "3 Nephi 8:22", "3 Nephi 8:23"]},
+      {"text": "On the third morning the darkness dispersed, and the earth ceased to tremble.", "refs": ["3 Nephi 10:9"]}
+    ],
+    "visual_design_choices": [
+      "Near-total blackness drawn as heavy inky texture, with only the faintest silhouettes of huddled people and ruined walls.",
+      "No light sources at all: no torches, fires, or sky glow.",
+      "Readable only through subtle dark-blue and grey ink modeling."
+    ],
+    "locked_traits": [
+      "Never show any light source during the three days of darkness.",
+      "Desaturated and dark per the global style's darkness exception."
+    ]
+  },
+  "Temple at Bountiful": {
+    "scriptural_facts": [
+      {"text": "A great multitude gathered round about the temple in the land Bountiful, marveling at the great change that had taken place.", "refs": ["3 Nephi 11:1"]},
+      {"text": "They saw a Man descending out of heaven, clothed in a white robe, who stood in their midst.", "refs": ["3 Nephi 11:8"]}
+    ],
+    "visual_design_choices": [
+      "A broad stepped stone temple-pyramid on a wide plaza, painted white with turquoise fretwork.",
+      "Recent earthquake damage: long cracks through the plaza paving and some tumbled stones at the base, but the temple stands.",
+      "Fresh, clear morning after the darkness: washed blue sky, bright sun, glistening green trees all around.",
+      "Hopeful and radiant; the brightest, most reverent setting in the book."
+    ],
+    "locked_traits": [
+      "Same white stepped temple with turquoise fretwork and cracked plaza in every panel.",
+      "Always bright and hopeful after the darkness."
+    ]
+  },
+  "Water's edge at Bountiful": {
+    "scriptural_facts": [
+      {"text": "The disciples went down unto the water's edge, and the multitude followed.", "refs": ["3 Nephi 19:10"]},
+      {"text": "They were baptized and came up out of the water.", "refs": ["3 Nephi 19:13"]}
+    ],
+    "visual_design_choices": [
+      "A clear, calm river near the temple at Bountiful, with a gently sloping pebbled bank and reeds.",
+      "Palms and flowering trees; the temple's top visible over the trees; bright sunny sky."
+    ],
+    "locked_traits": [
+      "Calm clear water with a gentle bank near the temple."
+    ]
+  },
+  "Hill Cumorah": {
+    "scriptural_facts": [
+      {"text": "Mormon gathered his people to the land of Cumorah, by a hill called Cumorah, for the final battle.", "refs": ["Mormon 6:2"]},
+      {"text": "They pitched tents around the hill in a land of many waters, rivers, and fountains.", "refs": ["Mormon 6:4"]},
+      {"text": "Mormon hid the records in the hill Cumorah, except the plates given to Moroni.", "refs": ["Mormon 6:6"]},
+      {"text": "It was the same hill the Jaredites called Ramah, where Coriantumr's army camped.", "refs": ["Ether 15:11"]}
+    ],
+    "visual_design_choices": [
+      "A single prominent, rounded, grass-and-forest-covered hill rising above lowlands threaded with rivers, lakes, and springs.",
+      "Before battle: tents ringing the base, bright sky and gleaming waters.",
+      "After battle: an empty, wind-swept field under an overcast sky; no bodies or gore shown."
+    ],
+    "locked_traits": [
+      "Same rounded hill surrounded by many waters in every panel, for both the Nephite and Jaredite endings."
+    ]
+  },
+  "Hill Shim": {
+    "scriptural_facts": [
+      {"text": "Ammaron deposited the sacred engravings in a hill called Shim in the land Antum.", "refs": ["Mormon 1:3"]}
+    ],
+    "visual_design_choices": [
+      "A rocky, wooded hill with a concealed stone-lined cave entrance behind brush.",
+      "Inside, stacked records and plates on stone ledges.",
+      "Bright day outside, cool shade within."
+    ],
+    "locked_traits": [
+      "Concealed cave entrance in a rocky wooded hill."
+    ]
+  },
+  "Land of bones and ruins (Jaredite lands)": {
+    "scriptural_facts": [
+      {"text": "Limhi's explorers found a land among many waters covered with bones of men and beasts and ruins of buildings of every kind.", "refs": ["Mosiah 8:8"]},
+      {"text": "It had been peopled and destroyed, and was covered with dry bones.", "refs": ["Mosiah 21:26"]}
+    ],
+    "visual_design_choices": [
+      "Overgrown ruins of large stone buildings among lakes and marshes, with sun-bleached scattered bones in the grass.",
+      "Green vines climbing broken walls; bright but eerie light."
+    ],
+    "locked_traits": [
+      "Overgrown ruins among many waters; bones are bleached and old, never gory."
+    ]
+  },
+  "The great tower": {
+    "scriptural_facts": [
+      {"text": "Jared and his brother came forth from the great tower at the time the Lord confounded the language of the people.", "refs": ["Ether 1:33"]}
+    ],
+    "visual_design_choices": [
+      "An immense, unfinished stepped mud-brick ziggurat in a flat Mesopotamian plain, rising in tiers with ramps and scaffolds.",
+      "Tan and ochre brick, date palms and canals below, hot bright sun and hazy sky.",
+      "Old World Mesopotamian architecture, not Mesoamerican."
+    ],
+    "locked_traits": [
+      "Tiered mud-brick ziggurat on a flat plain; Mesopotamian, not Mesoamerican."
+    ]
+  },
+  "Valley of Nimrod": {
+    "scriptural_facts": [
+      {"text": "Jared, his brother, their families and friends went down into the valley northward called Nimrod, with flocks of every kind.", "refs": ["Ether 2:1"]}
+    ],
+    "visual_design_choices": [
+      "A broad green river valley between dry hills, with grazing flocks, tents, and gathered animals and seeds.",
+      "Bright sun, blue sky, Old World Near Eastern landscape."
+    ],
+    "locked_traits": [
+      "Green river valley between dry hills; Old World setting."
+    ]
+  },
+  "Moriancumer": {
+    "scriptural_facts": [
+      {"text": "At the great sea the Jaredites pitched their tents, called the place Moriancumer, and dwelt in tents on the seashore for four years.", "refs": ["Ether 2:13"]}
+    ],
+    "visual_design_choices": [
+      "A long pale beach camp with many large tents, livestock pens, and barges under construction on the sand.",
+      "Deep blue sea, gentle surf, bright sky."
+    ],
+    "locked_traits": [
+      "Seashore tent camp with barges being built."
+    ]
+  },
+  "Mount Shelem": {
+    "scriptural_facts": [
+      {"text": "The brother of Jared went up mount Shelem, named for its exceeding height.", "refs": ["Ether 3:1"]},
+      {"text": "He moltened sixteen small stones out of rock, white and clear as transparent glass, and carried them to the top.", "refs": ["Ether 3:1"]}
+    ],
+    "visual_design_choices": [
+      "An exceedingly tall, steep rocky mountain above the sea, its summit a bare stone crown above the clouds.",
+      "Brilliant clear sky at the top, sea far below."
+    ],
+    "locked_traits": [
+      "Towering steep peak above the clouds by the sea."
+    ]
+  },
+  "Jaredite barges": {
+    "scriptural_facts": [
+      {"text": "There were eight vessels.", "refs": ["Ether 3:1"]},
+      {"text": "The barges were small and light upon the water, like a fowl.", "refs": ["Ether 2:16"]},
+      {"text": "They were tight like a dish on bottom, sides, top, and door; the ends were peaked; each was the length of a tree.", "refs": ["Ether 2:17"]},
+      {"text": "Each had a hole in the top and in the bottom that could be unstopped for air.", "refs": ["Ether 2:20"]},
+      {"text": "The Lord made the stones shine, one in each end of each vessel, to give light.", "refs": ["Ether 6:2", "Ether 6:3"]},
+      {"text": "A furious wind drove them toward the promised land; they were often buried in the depths by mountain waves.", "refs": ["Ether 6:5", "Ether 6:6"]}
+    ],
+    "visual_design_choices": [
+      "Enclosed, dish-tight wooden vessels with peaked ends, rounded tops, a sealed door, and a stoppered hole in the top.",
+      "About the length of one tall tree; no sails or oars.",
+      "Inside, a glowing white stone at each end lights people, animals, and food stores with a soft steady glow.",
+      "Calm scenes: bright blue sea. Storm scenes: huge dark waves, desaturated, with the barges' glow the only light."
+    ],
+    "locked_traits": [
+      "Eight identical barges; peaked ends, fully enclosed, no sails or oars.",
+      "Interior always lit by one white glowing stone at each end."
+    ]
+  },
+  "Land of Moron": {
+    "scriptural_facts": [
+      {"text": "Moron, where the Jaredite king dwelt, was near the land the Nephites called Desolation.", "refs": ["Ether 7:6"]}
+    ],
+    "visual_design_choices": [
+      "A Jaredite royal city of massive, rough-hewn stone halls on a fertile plain with fields and herds.",
+      "Heavy carved stone thrones and bronze ornaments; bright sky and golden fields."
+    ],
+    "locked_traits": [
+      "Massive rough-hewn stone halls; older and heavier in style than Nephite cities."
+    ]
+  },
+  "Ether's cavity of a rock": {
+    "scriptural_facts": [
+      {"text": "Cast out, Ether hid in the cavity of a rock by day and went out by night to view what came upon the people.", "refs": ["Ether 13:13"]},
+      {"text": "There he finished his record.", "refs": ["Ether 13:14"]}
+    ],
+    "visual_design_choices": [
+      "A small cave in a cliff face overlooking a wide valley, with a plain stone ledge used as a writing desk.",
+      "By night: deep blue moonlight and distant campfires in the valley below, still clear and readable."
+    ],
+    "locked_traits": [
+      "Cliffside cave with a view over the valley."
+    ]
+  },
+  "Lamanite wilderness camps": {
+    "scriptural_facts": [
+      {"text": "Many Lamanites dwelt in tents and wandered in the wilderness.", "refs": ["Enos 1:20"]},
+      {"text": "The more idle part of the Lamanites lived in tents in the wilderness on the west, bordering the seashore.", "refs": ["Alma 22:28"]}
+    ],
+    "visual_design_choices": [
+      "Hide tents clustered in a jungle clearing near the western coast, with drying racks, cooking fires, and bows leaning on posts.",
+      "Tall palms and broadleaf jungle, bright sun."
+    ],
+    "locked_traits": [
+      "Hide tents in a jungle clearing; no permanent buildings."
+    ]
+  },
+  "Forests of the land of Nephi": {
+    "scriptural_facts": [
+      {"text": "Enos went to hunt beasts in the forests.", "refs": ["Enos 1:3"]}
+    ],
+    "visual_design_choices": [
+      "A deep, tall highland forest of oak, pine, and broadleaf trees, with mossy trunks, ferns, and wild game trails.",
+      "Shafts of warm sunlight through the canopy; lush greens."
+    ],
+    "locked_traits": [
+      "Lush highland forest with sunbeams; never gloomy."
+    ]
+  }
+}

@@ -127,9 +127,10 @@ def _paginate(scenes, weights):
     return panels
 
 
-PORTRAITS_HEADING = "CHARACTER REFERENCE PORTRAITS"
+PORTRAITS_HEADING = "REFERENCE IMAGES"
 PORTRAIT_ASPECT = "3:4"
 GROUP_ASPECT = "4:3"
+LOCATION_ASPECT = "16:9"
 
 
 def is_group(record):
@@ -141,15 +142,15 @@ def portrait_aspect(record):
     return GROUP_ASPECT if is_group(record) else PORTRAIT_ASPECT
 
 
-def build_prompt(panel, continuity, aspect, portraits=()):
+def build_prompt(panel, continuity, aspect, portraits=(), places=()):
     w, h = (int(n) for n in aspect.split(":"))
     references = []
-    if portraits:
-        # Sent as the attached images, in this order; diffusion_prompts drops this section.
+    if portraits or places:
+        # Sent as the attached images, portraits then places, in this order; diffusion_prompts drops this section.
         records = continuity["characters"]
         people = [name for name in portraits if not is_group(records.get(name))]
         groups = [name for name in portraits if is_group(records.get(name))]
-        lines = ["The attached images are, in order, references for: " + "; ".join(portraits) + "."]
+        lines = ["The attached images are, in order, references for: " + "; ".join([*portraits, *places]) + "."]
         if people:
             lines.append("Reference portraits of individuals: " + "; ".join(people) + ". Draw each of these people"
                          " with the same face, build, hair, skin tone and clothing as their portrait.")
@@ -157,6 +158,10 @@ def build_prompt(panel, continuity, aspect, portraits=()):
             lines.append("Costume sheets for groups: " + "; ".join(groups) + ". Dress and equip members of each group"
                          " as their sheet shows, but give every member their own face; a sheet shows no particular"
                          " individual, so never repeat one face across a crowd.")
+        if places:
+            lines.append("Location references: " + "; ".join(places) + ". Keep each place's layout, architecture,"
+                         " landscape, materials and colors as its reference shows; the camera angle, time of day,"
+                         " weather and damage follow this panel.")
         lines.append("Use references only for appearance: do not copy their pose, framing, lighting or plain"
                      " background, and do not add anyone because a reference is attached.")
         references = [PORTRAITS_HEADING + "\n" + " ".join(lines)]
@@ -207,6 +212,33 @@ def build_portrait_prompt(name, record, style):
             "No other people in the image",
             "Do not invent an appearance the record doesn't state or allow; for a heavenly or divine figure, "
             "depict only appearance its scriptural facts state"])])
+
+
+def location_eligible(record):
+    """A location record can seed a reference image unless it opts out or gives nothing to draw from."""
+    return bool(record) and record.get("reference_image", True) is not False and bool(
+        record.get("scriptural_facts") or record.get("visual_design_choices"))
+
+
+def build_location_prompt(name, record, style):
+    """One location's reference image: an empty establishing view. Same sections as a panel prompt."""
+    return "\n\n".join([
+        "Draw one location reference image. It is a design reference used to keep this place looking the same "
+        "across comic panels; it depicts no scene or event.",
+        "GLOBAL STYLE\n" + json.dumps(style),
+        "LOCATION CONSISTENCY (design choices are not scripture)\n" + json.dumps({name: record}),
+        "CHARACTER CONSISTENCY (design choices are not scripture)\n{}",
+        "APPROVED ACTION\n" + f"Establishing view of {name}, empty of people, showing its layout, landmarks and materials",
+        "VISIBLE PEOPLE\n[]",
+        "LOCATION\n" + json.dumps([name]),
+        "EXPLICIT SCRIPTURAL FACTS\n[]",
+        "REASONABLE VISUAL INFERENCES\n[]",
+        "UNSPECIFIED CREATIVE DETAILS\n[]",
+        "PANEL SHAPE\nLocation reference; compose for a frame 1.78 times as wide as it is tall",
+        "MOOD / COMPOSITION / CAMERA\nCalm, clear establishing view / Landmarks and materials clearly readable / Wide, slightly elevated",
+        "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + [
+            "No people or figures in the image",
+            "Do not invent landmarks the record doesn't state or allow"])])
 
 
 def build_group_prompt(name, record, style):
