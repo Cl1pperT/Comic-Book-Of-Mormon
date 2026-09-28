@@ -26,6 +26,13 @@ SETUPS = {
     "E-flash-lite": {"analyze": {"GEMINI_TEXT_MODEL": "gemini-3.5-flash-lite"},
                      "validate": {"GEMINI_VALIDATOR_MODEL": "gemini-3.5-flash-lite"}},
     "D-local": {"analyze": "local", "validate": {"GEMINI_VALIDATOR_MODEL": "gemini-3.8-flash"}},
+    # Staged analyzer: several small passes with code-enforced rules.
+    "F-staged-local": {"analyze": "local", "args": ["--staged"], "env": {"OLLAMA_THINK": "false"},
+                       "validate": {"GEMINI_VALIDATOR_MODEL": "gemini-3.8-flash"}},
+    "F2-staged-local-think": {"analyze": "local", "args": ["--staged"],
+                              "validate": {"GEMINI_VALIDATOR_MODEL": "gemini-3.8-flash"}},
+    "G-staged-flash": {"analyze": {"GEMINI_TEXT_MODEL": "gemini-3.8-flash"}, "args": ["--staged"],
+                       "validate": {"GEMINI_VALIDATOR_MODEL": "gemini-3.8-flash"}},
 }
 
 
@@ -64,9 +71,10 @@ def run_setup(name):
         baseline_scenes(run)
         timing["analyze"] = {"seconds": None, "exit": 0, "error": "", "note": "reused from runs/1-nephi"}
     elif setup["analyze"] == "local":
-        timing["analyze"] = cli(run, "analyze", "--local", env={"OLLAMA_TEXT_MODEL": "qwen3:14b"})
+        timing["analyze"] = cli(run, "analyze", "--local", *setup.get("args", []),
+                                env={"OLLAMA_TEXT_MODEL": "qwen3:14b", **setup.get("env", {})})
     else:
-        timing["analyze"] = cli(run, "analyze", env=setup["analyze"])
+        timing["analyze"] = cli(run, "analyze", *setup.get("args", []), env={**setup["analyze"], **setup.get("env", {})})
     if timing["analyze"]["exit"] == 0:
         # Pro allows ~25 requests/minute per model; parallel Pro validation trips it.
         workers = "1" if "pro" in setup["validate"]["GEMINI_VALIDATOR_MODEL"] else "4"

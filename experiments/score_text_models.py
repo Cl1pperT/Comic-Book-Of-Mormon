@@ -48,6 +48,8 @@ def score(name):
     validation = json.loads((run / "validation.json").read_text(encoding="utf-8"))["results"] if (run / "validation.json").exists() else {}
     labels = Counter(c for s in scenes for c in s.characters)
     a_tok, a_cost = usage(run, "analyze_")
+    s_tok, s_cost = usage(run, "staged_")
+    a_tok, a_cost = a_tok + s_tok, a_cost + s_cost
     v_tok, v_cost = usage(run, "validate_")
     per_verse = (a_cost + v_cost) / len(verses)
     result.update({
@@ -88,7 +90,8 @@ def side_by_side(names):
 
 
 if __name__ == "__main__":
-    names = sys.argv[1:] or ["A-pro", "B-pro-low", "C-flash", "E-flash-lite", "D-local"]
+    names = sys.argv[1:] or ["A-pro", "B-pro-low", "C-flash", "E-flash-lite", "D-local",
+                             "F-staged-local", "F2-staged-local-think", "G-staged-flash"]
     results = [score(n) for n in names]
     out = ROOT / "experiments" / "results"
     out.mkdir(exist_ok=True)

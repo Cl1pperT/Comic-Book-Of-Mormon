@@ -103,6 +103,8 @@ class Ollama:
             raise ProviderError(f"Ollama HTTP {exc.code}: {exc.read().decode(errors='replace')[:2000]}") from None
         except urllib.error.URLError as exc:
             raise ProviderError(f"Ollama unreachable at {self.url} ({exc.reason}); run 'ollama serve' first") from None
+        except TimeoutError:
+            raise ProviderError(f"Ollama did not answer within {timeout}s") from None
 
     def structured(self, prompt, schema, tag, kind="text"):
         model = self.text_model if kind == "text" else self.validator_model
@@ -113,8 +115,16 @@ class Ollama:
             if cached["request"] == request:
                 return schema.model_validate_json(cached["text"])
         self.store.write(f"api/{tag}.request.json", {"model": model, "prompt": prompt})
-        response = self._call({"model": model, "messages": [{"role": "user", "content": prompt}],
-            "format": schema.model_json_schema(), "stream": False, "options": {"temperature": 0.1, "num_ctx": 16384}})
+        # num_predict caps runaway generation (a known failure under JSON-constrained decoding);
+        # a smaller num_ctx keeps a 14B model entirely on a 12GB GPU.
+        options = {"temperature": 0.1, "num_ctx": int(os.getenv("OLLAMA_NUM_CTX", "16384")),
+                   "num_predict": int(os.getenv("OLLAMA_NUM_PREDICT", "4096"))}
+        payload = {"model": model, "messages": [{"role": "user", "content": prompt}],
+                   "format": schema.model_json_schema(), "stream": False, "options": options}
+        # Reasoning models (e.g. Qwen3) think before answering; OLLAMA_THINK=false skips it for speed.
+        if os.getenv("OLLAMA_THINK", "").lower() in ("false", "0", "no"):
+            payload["think"] = False
+        response = self._call(payload)
         self.store.write(f"api/{tag}.response.json", response)
         text = response.get("message", {}).get("content", "")
         try:

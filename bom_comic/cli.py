@@ -19,6 +19,7 @@ def main():
     analyzer.add_argument("--id", help="Regenerate one scene, preserving its references")
     analyzer.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_TEXT_MODEL) instead of Gemini")
     analyzer.add_argument("--resume", action="store_true", help="Reuse chunks already analyzed with the identical model and prompt")
+    analyzer.add_argument("--staged", action="store_true", help="Several small single-purpose passes with code-enforced rules (for smaller models)")
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
@@ -73,7 +74,7 @@ def main():
         elif args.command == "init":
             pipeline.init(args.source, args.start, args.end)
         elif args.command == "analyze":
-            pipeline.analyze(args.id)
+            pipeline.analyze(args.id, staged=args.staged)
         elif args.command == "validate":
             print(json.dumps(pipeline.validate(args.workers), indent=2))
         elif args.command == "plan":

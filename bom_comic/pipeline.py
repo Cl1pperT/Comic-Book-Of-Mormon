@@ -40,8 +40,11 @@ class Pipeline:
         return digest({"source": [v.model_dump() for v in self.verses()],
                        "scenes": [s.model_dump() for s in self.scenes()]})
 
-    def analyze(self, identifier=None):
-        if identifier:
+    def analyze(self, identifier=None, staged=False):
+        if staged and not identifier:
+            from .staged import analyze_staged
+            scenes = analyze_staged(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
+        elif identifier:
             scenes = self.scenes()
             index = next((i for i, s in enumerate(scenes) if s.scene_id == identifier), None)
             if index is None:
