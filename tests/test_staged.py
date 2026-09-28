@@ -117,7 +117,8 @@ def test_comfyui_uses_kontext_with_reference_portraits(tmp_path):
     from bom_comic.storage import Store
     png = io.BytesIO(); Image.new("RGB", (8, 8)).save(png, format="PNG")
     history = {"p": {"status": {"status_str": "success"},
-                     "outputs": {"save": {"images": [{"filename": "a.png", "subfolder": "", "type": "output"}]}}}}
+                     "outputs": {"save": {"images": [{"filename": "a.png", "subfolder": "", "type": "output"}]},
+                                 "save_draft": {"images": [{"filename": "d.png", "subfolder": "", "type": "output"}]}}}}
     store = Store(tmp_path / "k")
     provider = ComfyUI(store, url="http://fake")
     sent = []
@@ -137,11 +138,22 @@ def test_comfyui_uses_kontext_with_reference_portraits(tmp_path):
     out = store.path("images/panel_001_x.png"); out.parent.mkdir(parents=True)
     provider.generate_image(prompt, reference_images=[("Nephi", portrait), ("Laban", portrait)], output_path=out, aspect_ratio="4:3")
     workflow = sent[-1]
-    assert workflow["unet"]["inputs"]["unet_name"] == provider.kontext_unet
-    assert workflow["load0"]["inputs"]["image"] == "uploaded_nephi.png" and "ref1" in workflow and "multi" in workflow
-    assert "Only Nephi, Laban look like the reference images" in workflow["pos"]["inputs"]["text"]
+    # Step one: plain Flux drafts the panel with the style prompt and negative prompt intact.
+    assert workflow["unet"]["inputs"]["unet_name"] == provider.unet and workflow["sample"]["inputs"]["cfg"] == provider.cfg
+    assert "Nephi stands" in workflow["pos"]["inputs"]["text"] and workflow["neg"]["class_type"] == "CLIPTextEncode"
+    assert workflow["save_draft"]["inputs"]["images"] == ["decode", 0]
+    # Step two: Kontext edits that draft (its latent first), with the portraits after it.
+    assert workflow["k_unet"]["inputs"]["unet_name"] == provider.kontext_unet
+    assert workflow["k_draft"]["inputs"]["latent"] == ["sample", 0]
+    assert workflow["k_load0"]["inputs"]["image"] == "uploaded_nephi.png" and "k_ref1" in workflow
+    assert workflow["save"]["inputs"]["images"] == ["k_decode", 0]
+    edit = workflow["k_pos"]["inputs"]["text"]
+    assert edit.startswith("Edit this comic panel so that Nephi, Laban match the reference images")
+    assert "Keep everything else the same" in edit
+    assert store.read("api/panel_001_x.request.json")["edit"] == edit
+    assert out.with_name("panel_001_x_draft.png").exists()
     provider.generate_image(prompt, output_path=out, aspect_ratio="4:3")
-    assert sent[-1]["unet"]["inputs"]["unet_name"] == provider.unet and "load0" not in sent[-1]
+    assert sent[-1]["unet"]["inputs"]["unet_name"] == provider.unet and "k_unet" not in sent[-1]
 
 
 from pathlib import Path

@@ -789,6 +789,26 @@ def capture_images(p):
     return calls
 
 
+def test_panels_attach_at_most_three_reference_portraits(pipeline):
+    from bom_comic.pipeline import MAX_REFERENCES
+    names = ["Ann", "Ben", "Cal", "Dan", "Eve"]
+    scenes = pipeline.store.read("scenes.json")
+    scenes[0]["characters"] = names
+    pipeline.store.write("scenes.json", scenes)
+    characters = pipeline.store.read("continuity/characters.json")
+    for name in names:
+        characters[name] = {"scriptural_facts": [], "visual_design_choices": [f"{name}'s robe"], "locked_traits": []}
+    pipeline.store.write("continuity/characters.json", characters)
+    assert sorted(pipeline.portraits()) == names
+    pipeline.validate()
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    assert MAX_REFERENCES == 3 and list(pipeline.panel_portraits(panel)) == ["Ann", "Ben", "Cal"]
+    # Speakers come first, then people named in the action; the rest are described by text alone.
+    focused = panel.model_copy(update={"action": "Eve kneels.", "dialogue": [Speech(speaker="Dan", text="Hello.", refs=["3 Nephi 8:1"])]})
+    assert list(pipeline.panel_portraits(focused)) == ["Ann", "Dan", "Eve"]
+
+
 def test_portraits_render_once_per_character_and_are_reused(pipeline):
     assert pipeline.portraits() == []  # no record yet: nothing to draw from
     _give_record(pipeline)

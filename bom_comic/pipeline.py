@@ -9,6 +9,9 @@ from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_po
     portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
 from .scripture import load, select
 
+# Kontext drops or blends faces past a few reference images, so a panel attaches at most this many.
+MAX_REFERENCES = 3
+
 class Pipeline:
     def __init__(self, store, provider=None):
         self.store, self.provider = store, provider
@@ -223,7 +226,15 @@ class Pipeline:
     def panel_portraits(self, panel):
         index = self.portrait_index()
         found = {name: self.portrait(name, index) for name in panel.characters_visible}
-        return {name: entry for name, entry in found.items() if entry}
+        found = {name: entry for name, entry in found.items() if entry}
+        # Over the limit, keep the people the panel is about: speakers, then those named in the action,
+        # individuals before group costume sheets, then the order they're listed. The rest go by text alone.
+        speakers = {speech.speaker for speech in panel.dialogue}
+        records = self.continuity()["characters"]
+        ranked = sorted(found, key=lambda name: (name not in speakers, name not in panel.action,
+                                                 is_group(records.get(name)), panel.characters_visible.index(name)))
+        kept = set(ranked[:MAX_REFERENCES])
+        return {name: entry for name, entry in found.items() if name in kept}
 
     def portraits(self, identifier=None):
         """Render one reference portrait per eligible character, reusing current ones."""

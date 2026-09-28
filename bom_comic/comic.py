@@ -258,13 +258,19 @@ def _sort_clauses(texts, positive, negative, constraints=False):
                     target.append(item)
 
 
-def visible_people(prompt):
-    """The VISIBLE PEOPLE list from a build_prompt() prompt."""
+def prompt_section(prompt, heading):
+    """One section's body from a build_prompt() prompt, or None."""
     for block in prompt.split("\n\n"):
         head, _, body = block.partition("\n")
-        if head == "VISIBLE PEOPLE":
-            return json.loads(body)
-    return []
+        if head == heading:
+            return body
+    return None
+
+
+def visible_people(prompt):
+    """The VISIBLE PEOPLE list from a build_prompt() prompt."""
+    body = prompt_section(prompt, "VISIBLE PEOPLE")
+    return json.loads(body) if body else []
 
 
 _ARCHITECTURE_CLAUSE = re.compile(r"^architecture\b", re.I)

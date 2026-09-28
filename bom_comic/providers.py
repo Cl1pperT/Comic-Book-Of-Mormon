@@ -171,6 +171,19 @@ class ComfyUI:
         self.kontext_cfg = float(os.getenv("COMFYUI_KONTEXT_CFG", "1.0"))
         self.kontext_guidance = float(os.getenv("COMFYUI_KONTEXT_GUIDANCE", "2.5"))
 
+    def kontext_text(self, prompt, names):
+        """The edit Kontext applies to the Flux draft: only the referenced people change."""
+        from .comic import visible_people
+        others = [p for p in visible_people(prompt) if p not in names]
+        text = ("Edit this comic panel so that " + ", ".join(names) + " match the reference images: give each the "
+                "face, hair, build, and clothing of their reference. Keep everything else the same: composition, poses, "
+                "framing, background, lighting, colors, and the hand-inked comic illustration style. ")
+        # Kontext otherwise gives the reference face and clothes to everyone in the frame.
+        if others:
+            text += ("Leave everyone else (" + ", ".join(others) + ") as they are; never give them a reference face "
+                     "or clothing. ")
+        return text
+
     def upload(self, path):
         """Put a reference image in ComfyUI's input folder; returns the name LoadImage uses."""
         import urllib.error
@@ -191,34 +204,35 @@ class ComfyUI:
             raise ProviderError(f"Could not upload {path.name} to ComfyUI: {exc}") from None
         return f"{uploaded['subfolder']}/{uploaded['name']}" if uploaded.get("subfolder") else uploaded["name"]
 
-    def kontext_workflow(self, positive, width, height, seed, images):
-        workflow = {
-            "unet": {"class_type": "UnetLoaderGGUF", "inputs": {"unet_name": self.kontext_unet}},
-            "clip": {"class_type": "DualCLIPLoaderGGUF", "inputs": {"clip_name1": "clip_l.safetensors", "clip_name2": self.t5, "type": "flux"}},
-            "vae": {"class_type": "VAELoader", "inputs": {"vae_name": "ae.safetensors"}},
-            "pos": {"class_type": "CLIPTextEncode", "inputs": {"text": positive, "clip": ["clip", 0]}},
-        }
-        conditioning = "pos"
-        for i, name in enumerate(images):
-            workflow[f"load{i}"] = {"class_type": "LoadImage", "inputs": {"image": name}}
-            workflow[f"scale{i}"] = {"class_type": "FluxKontextImageScale", "inputs": {"image": [f"load{i}", 0]}}
-            workflow[f"encode{i}"] = {"class_type": "VAEEncode", "inputs": {"pixels": [f"scale{i}", 0], "vae": ["vae", 0]}}
-            workflow[f"ref{i}"] = {"class_type": "ReferenceLatent", "inputs": {"conditioning": [conditioning, 0], "latent": [f"encode{i}", 0]}}
-            conditioning = f"ref{i}"
-        if len(images) > 1:
-            # Keeps several reference people distinct instead of blending them into one face.
-            workflow["multi"] = {"class_type": "FluxKontextMultiReferenceLatentMethod",
-                                 "inputs": {"conditioning": [conditioning, 0], "reference_latents_method": "index"}}
-            conditioning = "multi"
+    def kontext_workflow(self, positive, negative, edit, width, height, seed, images):
+        """Two steps in one ComfyUI job: plain Flux draws the panel (style and negative prompt intact), then
+        Kontext edits that draft so the referenced people match their portraits."""
+        workflow = self.workflow(positive, negative, width, height, seed)
+        workflow["save_draft"] = dict(workflow.pop("save"), inputs={"images": ["decode", 0], "filename_prefix": "bom_comic/draft"})
         workflow.update({
-            "guided": {"class_type": "FluxGuidance", "inputs": {"conditioning": [conditioning, 0], "guidance": self.kontext_guidance}},
-            "neg": {"class_type": "ConditioningZeroOut", "inputs": {"conditioning": ["pos", 0]}},
-            "latent": {"class_type": "EmptySD3LatentImage", "inputs": {"width": width, "height": height, "batch_size": 1}},
-            "sample": {"class_type": "KSampler", "inputs": {"model": ["unet", 0], "seed": seed, "steps": self.steps,
-                "cfg": self.kontext_cfg, "sampler_name": "euler", "scheduler": "simple", "positive": ["guided", 0],
-                "negative": ["neg", 0], "latent_image": ["latent", 0], "denoise": 1.0}},
-            "decode": {"class_type": "VAEDecode", "inputs": {"samples": ["sample", 0], "vae": ["vae", 0]}},
-            "save": {"class_type": "SaveImage", "inputs": {"images": ["decode", 0], "filename_prefix": "bom_comic/panel"}},
+            "k_unet": {"class_type": "UnetLoaderGGUF", "inputs": {"unet_name": self.kontext_unet}},
+            "k_pos": {"class_type": "CLIPTextEncode", "inputs": {"text": edit, "clip": ["clip", 0]}},
+            # The draft's latent is the image being edited (index 0); portraits follow it.
+            "k_draft": {"class_type": "ReferenceLatent", "inputs": {"conditioning": ["k_pos", 0], "latent": ["sample", 0]}},
+        })
+        conditioning = "k_draft"
+        for i, name in enumerate(images):
+            workflow[f"k_load{i}"] = {"class_type": "LoadImage", "inputs": {"image": name}}
+            workflow[f"k_scale{i}"] = {"class_type": "FluxKontextImageScale", "inputs": {"image": [f"k_load{i}", 0]}}
+            workflow[f"k_encode{i}"] = {"class_type": "VAEEncode", "inputs": {"pixels": [f"k_scale{i}", 0], "vae": ["vae", 0]}}
+            workflow[f"k_ref{i}"] = {"class_type": "ReferenceLatent", "inputs": {"conditioning": [conditioning, 0], "latent": [f"k_encode{i}", 0]}}
+            conditioning = f"k_ref{i}"
+        workflow.update({
+            # Keeps the draft and each portrait distinct instead of blending them.
+            "k_multi": {"class_type": "FluxKontextMultiReferenceLatentMethod",
+                        "inputs": {"conditioning": [conditioning, 0], "reference_latents_method": "index"}},
+            "k_guided": {"class_type": "FluxGuidance", "inputs": {"conditioning": ["k_multi", 0], "guidance": self.kontext_guidance}},
+            "k_neg": {"class_type": "ConditioningZeroOut", "inputs": {"conditioning": ["k_pos", 0]}},
+            "k_sample": {"class_type": "KSampler", "inputs": {"model": ["k_unet", 0], "seed": seed, "steps": self.steps,
+                "cfg": self.kontext_cfg, "sampler_name": "euler", "scheduler": "simple", "positive": ["k_guided", 0],
+                "negative": ["k_neg", 0], "latent_image": ["sample", 0], "denoise": 1.0}},
+            "k_decode": {"class_type": "VAEDecode", "inputs": {"samples": ["k_sample", 0], "vae": ["vae", 0]}},
+            "save": {"class_type": "SaveImage", "inputs": {"images": ["k_decode", 0], "filename_prefix": "bom_comic/panel"}},
         })
         return workflow
 
@@ -262,21 +276,15 @@ class ComfyUI:
         # Seeded from the revision name: reproducible per revision, different on regeneration.
         seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]
+        edit = None
         if references:
-            from .comic import visible_people
-            names = [label for label, _ in references]
-            others = [p for p in visible_people(prompt) if p not in names]
-            binding = ("Only " + ", ".join(names) + " look like the reference images: keep their faces, hair, build, "
-                       "and clothing exactly as shown, in a new pose and scene. ")
-            # Kontext otherwise gives the reference face and clothes to everyone in the frame.
-            if others:
-                binding += ("Everyone else (" + ", ".join(others) + ") is a different person with a clearly different "
-                            "face, hair, age, and clothing; never give them the reference face or garments. ")
-            positive = binding + positive
-            workflow = self.kontext_workflow(positive, width, height, seed, [self.upload(path) for _, path in references])
+            edit = self.kontext_text(prompt, [label for label, _ in references])
+            workflow = self.kontext_workflow(positive, negative, edit, width, height, seed,
+                                             [self.upload(path) for _, path in references])
         else:
             workflow = self.workflow(positive, negative, width, height, seed)
-        self.store.write(f"api/{stem}.request.json", {"positive": positive, "negative": negative, "workflow": workflow,
+        self.store.write(f"api/{stem}.request.json", {"positive": positive, "negative": negative, "edit": edit,
+                                                      "workflow": workflow,
                                                       "references": [str(path) for _, path in references]})
         prompt_id = json.loads(self._call("/prompt", {"prompt": workflow}))["prompt_id"]
         deadline = time.monotonic() + float(os.getenv("COMFYUI_TIMEOUT", "1800"))
@@ -288,9 +296,14 @@ class ComfyUI:
         images = entry.get("outputs", {}).get("save", {}).get("images")
         if entry.get("status", {}).get("status_str") == "error" or not images:
             raise ProviderError("ComfyUI returned no image; inspect saved API response")
-        data = self._call("/view?" + urlencode({k: images[0][k] for k in ("filename", "subfolder", "type")}))
-        with Image.open(io.BytesIO(data)) as im:
+        fetch = lambda image: self._call("/view?" + urlencode({k: image[k] for k in ("filename", "subfolder", "type")}))
+        with Image.open(io.BytesIO(fetch(images[0]))) as im:
             im.convert("RGB").save(output_path, "PNG")
+        # Two-step renders keep the Flux draft beside the final panel, to see what the Kontext edit changed.
+        draft = entry.get("outputs", {}).get("save_draft", {}).get("images")
+        if draft:
+            with Image.open(io.BytesIO(fetch(draft[0]))) as im:
+                im.convert("RGB").save(Path(output_path).with_name(stem + "_draft.png"), "PNG")
         return str(output_path)
 
 class CachedChecks:
