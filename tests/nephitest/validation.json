@@ -1,0 +1,45 @@
+{
+  "stamp": "860d4e2cf62253af555b72fc074d7c989025a4cdb704bdcd4a55bd72e2150ba2",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Changed since the last automated check and not re-checked by a model (offline); verify against the source during human review."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Changed since the last automated check and not re-checked by a model (offline); verify against the source during human review."
+      ]
+    }
+  }
+}
