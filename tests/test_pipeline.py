@@ -528,6 +528,56 @@ def test_layout_letters_on_the_art_and_refuses_overcrowding(tmp_path):
         assemble(other, crowded, art_for(other, crowded))
 
 
+def test_captions_move_to_the_corner_that_keeps_faces_clear():
+    from bom_comic.comic import place_captions
+    frame = (100, 100, 600, 400)
+    tl, tr, bl, br = (103, 103, 303, 183), (497, 103, 697, 183), (103, 417, 303, 497), (497, 417, 697, 497)
+    narration = [(tl, ["n"], "caption", 0), (tr, ["n"], "caption", 1), (bl, ["n"], "caption", 2)]
+    speech = [(br, ["s"], "balloon", 0), (bl, ["s"], "balloon", 1)]
+    corners = lambda placed: [b for b, _, _ in placed]
+    assert place_captions([narration, speech], frame, []) == ([o[0][:3] for o in (narration, speech)], [])
+    assert corners(place_captions([narration, speech], frame, None)[0]) == [tl, br]
+    # A face in the top-left sends narration top-right; speech stays in its default corner.
+    placed, covered = place_captions([narration, speech], frame, [(20, 10, 80, 80)])
+    assert corners(placed) == [tr, br] and covered == []
+    # Faces in both top corners send narration to the bottom, still read before the speech beside it.
+    placed, covered = place_captions([narration, speech], frame, [(20, 10, 80, 80), (560, 60, 20, 20)])
+    assert corners(placed) == [bl, br] and covered == []
+    # Narration never lands after speech on the bottom edge, so an uncleared face is kept and reported.
+    placed, covered = place_captions([[narration[0], (br, ["n"], "caption", 3)], [speech[1]]], frame,
+                                     [(20, 10, 80, 80)])
+    assert corners(placed) == [tl, bl] and covered == [(20, 10, 80, 80)]
+    # Boxes never overlap: speech can't flip under a tall narration box.
+    tall = [((103, 103, 303, 450), ["n"], "caption", 0)]
+    placed, _ = place_captions([tall, speech], frame, [(500, 330, 60, 60)])
+    assert corners(placed) == [(103, 103, 303, 450), br]
+
+
+def test_caption_options_offer_every_corner_and_width_default_first():
+    from bom_comic.comic import _caption_options, _measure, BORDER
+    draw, fonts = _measure()
+    frame = (48, 48, 600, 600)
+    for panel in (make_panel(1, words=30), make_panel(2, words=30, dialogue=True)):
+        [options] = _caption_options(draw, panel, frame, fonts)
+        assert options[0][3] == 0 and all(o[3] > 0 for o in options[1:])
+        assert all(48 + BORDER <= b[0] < b[2] <= 648 - BORDER and 48 + BORDER <= b[1] < b[3] <= 648 - BORDER
+                   for b, *_ in options)
+        assert len({b[2] - b[0] for b, *_ in options}) > 1
+        tops = {b[1] == 48 + BORDER for b, *_ in options}
+        assert tops == ({True, False} if panel.narration else {False})
+
+
+def test_assemble_records_caption_corners(tmp_path, monkeypatch):
+    import bom_comic.comic as comic
+    store = Store(tmp_path / "corners")
+    panels = [make_panel(1, words=10), make_panel(2, words=10, dialogue=True)]
+    monkeypatch.setattr(comic, "detect_faces", lambda art: [(5, 5, 60, 60)])
+    assemble(store, panels, art_for(store, panels))
+    record = store.read("final/captions.json")
+    assert record["panel_001"]["corners"] == ["top-right"]
+    assert record["panel_002"]["corners"] == ["bottom-right"] and record["panel_002"]["covered_faces"] == []
+
+
 def test_moving_a_panel_without_reshaping_its_frame_keeps_its_image(pipeline):
     ready(pipeline)
     pipeline.generate()

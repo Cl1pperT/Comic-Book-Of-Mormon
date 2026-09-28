@@ -460,20 +460,28 @@ def _ref_range(refs):
     return f"{book} {first}–{v2 if c1 == c2 else last}"
 
 
+BOX_WIDTHS = (0.5, 0.65, 0.8, 1.0)
+
+
+def _rows(draw, blocks, ref, fonts, width):
+    """Lettered rows for a caption box of a given width, and the box height they need."""
+    rows = []
+    for speaker, text in blocks:
+        if rows:
+            rows.append(("gap", ""))
+        if speaker:
+            rows.append(("speaker", speaker.upper()))
+        rows += [("body", line) for line in _wrap(draw, text, fonts["body"], width - 2 * PAD)]
+    if ref:
+        rows.append(("ref", ref))
+    return 2 * PAD + sum(LINE[kind] for kind, _ in rows), rows
+
+
 def _box(draw, blocks, ref, fonts, inner_w, target_h):
     """Narrowest caption box (of a few widths) whose height stays under target_h."""
-    for fraction in (0.5, 0.65, 0.8, 1.0):
+    for fraction in BOX_WIDTHS:
         width = int(inner_w * fraction)
-        rows = []
-        for speaker, text in blocks:
-            if rows:
-                rows.append(("gap", ""))
-            if speaker:
-                rows.append(("speaker", speaker.upper()))
-            rows += [("body", line) for line in _wrap(draw, text, fonts["body"], width - 2 * PAD)]
-        if ref:
-            rows.append(("ref", ref))
-        height = 2 * PAD + sum(LINE[kind] for kind, _ in rows)
+        height, rows = _rows(draw, blocks, ref, fonts, width)
         if height <= target_h:
             break
     return width, height, rows
@@ -493,25 +501,65 @@ def _draw_box(draw, rows, box, fonts, fill):
             draw.text((x1 - PAD, baseline - 5), text, font=fonts["ref"], fill=MUTED, anchor="rs")
 
 
-def _lettering(draw, panel, frame, fonts):
-    """Caption boxes for a frame, or None if they'd bury the art. Narration sits top-left,
-    speech bottom-right, so reading runs corner to corner."""
+# Placement penalties break ties between equally clear layouts: the default corners first, then a mirrored
+# corner, then narration on the bottom edge, then a reshaped box. MAX_TALL caps how tall a narrowed box may grow.
+MIRROR, BOTTOM_NARRATION, RESHAPE, MAX_TALL = 1, 2, 3, 0.5
+
+
+def _caption_options(draw, panel, frame, fonts):
+    """Every corner and width each caption box may take, as (box, rows, fill, penalty), default first. Narration
+    may sit in any corner, speech in either bottom corner; the words never change."""
     x, y, w, h = frame
     inner_w, inner_h = w - 2 * BORDER, h - 2 * BORDER
+    left, top, right, bottom = x + BORDER, y + BORDER, x + w - BORDER, y + h - BORDER
     ref = _ref_range(panel.refs)
     narration = [(None, c.text) for c in panel.narration]
     speech = [(s.speaker, f"“{s.text}”") for s in panel.dialogue]
-    boxes = []
+
+    def variants(blocks, ref, fill, corners):
+        default = _box(draw, blocks, ref, fonts, inner_w, inner_h * 0.3)[0]
+        out = []
+        for fraction in BOX_WIDTHS:
+            bw = int(inner_w * fraction)
+            bh, rows = _rows(draw, blocks, ref, fonts, bw)
+            if bw != default and bh > inner_h * MAX_TALL:
+                continue
+            for corner, penalty in corners:
+                bx = left if corner.endswith("left") else right - bw
+                by = top if corner.startswith("top") else bottom - bh
+                out.append(((bx, by, bx + bw, by + bh), rows, fill, penalty + (0 if bw == default else RESHAPE)))
+        return sorted(out, key=lambda option: option[3])
+
+    options = []
     if narration:
-        bw, bh, rows = _box(draw, narration, None if speech else ref, fonts, inner_w, inner_h * 0.3)
-        boxes.append(((x + BORDER, y + BORDER, x + BORDER + bw, y + BORDER + bh), rows, CAPTION))
+        options.append(variants(narration, None if speech else ref, CAPTION,
+                                [("top-left", 0), ("top-right", MIRROR), ("bottom-left", BOTTOM_NARRATION),
+                                 ("bottom-right", BOTTOM_NARRATION + MIRROR)]))
     if speech or not narration:
-        bw, bh, rows = _box(draw, speech, ref, fonts, inner_w, inner_h * 0.3)
-        x1, y1 = x + w - BORDER, y + h - BORDER
-        boxes.append(((x1 - bw, y1 - bh, x1, y1), rows, BALLOON))
-    covered = sum((b[2] - b[0]) * (b[3] - b[1]) for b, _, _ in boxes)
-    overlap = len(boxes) == 2 and boxes[0][0][3] > boxes[1][0][1] and boxes[0][0][2] > boxes[1][0][0]
-    return None if covered > MAX_COVER * inner_w * inner_h or overlap else boxes
+        options.append(variants(speech, ref, BALLOON, [("bottom-right", 0), ("bottom-left", MIRROR)]))
+    return options
+
+
+def _fits(boxes, frame):
+    """Whether caption boxes leave the art readable: no overlap, bounded cover, and narration read before
+    speech when both share the bottom edge."""
+    x, y, w, h = frame
+    if sum((b[2] - b[0]) * (b[3] - b[1]) for b in boxes) > MAX_COVER * (w - 2 * BORDER) * (h - 2 * BORDER):
+        return False
+    if len(boxes) == 2:
+        (narration, speech) = boxes
+        if _overlap(narration, speech):
+            return False
+        if narration[1] - y >= h / 2 and narration[0] >= speech[0]:
+            return False
+    return True
+
+
+def _lettering(draw, panel, frame, fonts):
+    """Default caption boxes for a frame, or None if they'd bury the art. Narration sits top-left,
+    speech bottom-right, so reading runs corner to corner."""
+    boxes = [options[0][:3] for options in _caption_options(draw, panel, frame, fonts)]
+    return boxes if _fits([b for b, _, _ in boxes], frame) else None
 
 
 def _measure():
@@ -519,27 +567,90 @@ def _measure():
     return ImageDraw.Draw(Image.new("RGB", (1, 1))), _fonts()
 
 
+FACE_MODEL = Path(__file__).parent / "detectors" / "face_detection_yunet_2023mar.onnx"
+FACE_MARGIN, FACE_FLAG = 0.2, 0.1
+
+
+def detect_faces(image):
+    """Face rectangles (x, y, w, h) in a PIL image, or None when OpenCV or the YuNet model is unavailable."""
+    try:
+        import cv2
+        import numpy as np
+    except ImportError:
+        return None
+    if not FACE_MODEL.exists():
+        return None
+    try:
+        cv2.utils.logging.setLogLevel(cv2.utils.logging.LOG_LEVEL_ERROR)
+    except AttributeError:
+        pass
+    bgr = cv2.cvtColor(np.array(image.convert("RGB")), cv2.COLOR_RGB2BGR)
+    height, width = bgr.shape[:2]
+    _, found = cv2.FaceDetectorYN.create(str(FACE_MODEL), "", (width, height), 0.5).detect(bgr)
+    return [] if found is None else [tuple(int(v) for v in f[:4]) for f in found]
+
+
+def _overlap(a, b):
+    """Shared area of two (x0, y0, x1, y1) rectangles."""
+    return max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(0, min(a[3], b[3]) - max(a[1], b[1]))
+
+
+def place_captions(options, frame, faces):
+    """Pick one option per caption box (see _caption_options) covering the least face area. Layouts must still
+    fit (_fits); ties go to the lowest placement penalty, so a panel without faces keeps its default corners.
+    Returns the chosen (box, rows, fill) list and the faces still covered."""
+    from itertools import product
+    x, y = frame[:2]
+    raw = [(x + fx, y + fy, x + fx + fw, y + fy + fh) for fx, fy, fw, fh in faces or []]
+    grown = [(a - FACE_MARGIN * (c - a), b - FACE_MARGIN * (d - b), c + FACE_MARGIN * (c - a), d + FACE_MARGIN * (d - b))
+             for a, b, c, d in raw]
+    best = None
+    for choice in product(*options):
+        if choice != tuple(o[0] for o in options) and not _fits([box for box, *_ in choice], frame):
+            continue
+        key = (sum(_overlap(box, face) for box, *_ in choice for face in grown), sum(o[3] for o in choice))
+        if best is None or key < best[0]:
+            best = (key, [o[:3] for o in choice])
+    placed = best[1]
+    covered = [f for f, r in zip(faces or [], raw)
+               if sum(_overlap(box, r) for box, _, _ in placed) > FACE_FLAG * (r[2] - r[0]) * (r[3] - r[1])]
+    return placed, covered
+
+
+def _corner(box, frame):
+    x, y, w, h = frame
+    return ("top" if box[1] - y < h / 2 else "bottom") + "-" + ("left" if box[0] - x < w / 2 else "right")
+
+
 def assemble(store, panels, images):
     from PIL import Image, ImageDraw, ImageOps
     fonts = _fonts()
     width, height = PAGE_SIZE
     layout = frames(panels)
-    pages = []
+    pages, placements = [], {}
     for number in sorted({p.page for p in panels}):
         group = sorted((p for p in panels if p.page == number), key=lambda p: p.panel_number)
         page = Image.new("RGB", PAGE_SIZE, PAPER)
         draw = ImageDraw.Draw(page)
         for panel in group:
-            x, y, w, h = layout[panel.panel_id]
+            x, y, w, h = frame = layout[panel.panel_id]
             with Image.open(store.path(images[panel.panel_id]["path"])) as im:
                 # Art is rendered for this frame's shape; fit only trims rounding differences.
-                page.paste(ImageOps.fit(im.convert("RGB"), (w, h), Image.LANCZOS), (x, y))
+                art = ImageOps.fit(im.convert("RGB"), (w, h), Image.LANCZOS)
+            page.paste(art, (x, y))
             draw.rectangle([x, y, x + w - 1, y + h - 1], outline=INK, width=BORDER)
-            boxes = _lettering(draw, panel, (x, y, w, h), fonts)
-            if boxes is None:
+            if _lettering(draw, panel, frame, fonts) is None:
                 raise ValueError(f"Too much lettering for {panel.panel_id}'s frame; raise its weight in panels.json")
+            # Words are fixed at plan time; only each box's corner and width are chosen here, once the art shows
+            # where faces are.
+            faces = detect_faces(art)
+            boxes, covered = place_captions(_caption_options(draw, panel, frame, fonts), frame, faces)
             for box, rows, fill in boxes:
                 _draw_box(draw, rows, box, fonts, fill)
+            placements[panel.panel_id] = {"page": number, "corners": [_corner(b, frame) for b, _, _ in boxes],
+                                          "faces": faces, "covered_faces": covered}
+            if covered:
+                store.event("caption_overlap", panel_id=panel.panel_id, covered_faces=covered)
         baseline = height - BOTTOM / 2 + 8
         _tracked(draw, (MARGIN, baseline), _ref_range([r for p in group for r in p.refs]).upper(),
                  fonts["running"], MUTED, 3, anchor="left")
@@ -548,6 +659,7 @@ def assemble(store, panels, images):
         path.parent.mkdir(parents=True, exist_ok=True)
         page.save(path)
         pages.append(page)
+    store.write("final/captions.json", placements)
     target = store.path("final/comic.pdf")
     target.parent.mkdir(parents=True, exist_ok=True)
     pages[0].save(target, save_all=True, append_images=pages[1:], resolution=150)
