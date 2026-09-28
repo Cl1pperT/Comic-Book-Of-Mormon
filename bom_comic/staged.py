@@ -167,9 +167,9 @@ def importance(provider, scenes, tag):
     return result.major[0] - 1 if result.major else None
 
 
-def analyze_staged(provider, verses, known_characters=()):
+def analyze_staged(provider, verses, known_characters=(), known_locations=()):
     scenes = []
-    labels = list(known_characters)
+    labels = list(known_characters) + [name for name in known_locations if name not in known_characters]
     for chapter in sorted({v.chapter for v in verses}):
         chapter_verses = [v for v in verses if v.chapter == chapter]
         groups = []

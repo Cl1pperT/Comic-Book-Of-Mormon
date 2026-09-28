@@ -20,11 +20,14 @@ distant figures mentioned in narration are not necessarily physically present in
 If uncertain, choose a conservative interpretation.'''
 
 
-def analyze(provider, verses, chunk_size=6, known_characters=()):
+def analyze(provider, verses, chunk_size=6, known_characters=(), known_locations=()):
     scenes = []
     # Labels must match continuity records exactly, or panels can't find their character's portrait.
     known = ("\nKnown characters and groups; when one of these is visible, use exactly this label: "
              + json.dumps(list(known_characters)) + ". Otherwise invent a plain descriptive label.") if known_characters else ""
+    # The same holds for settings and their location reference images.
+    known += ("\nKnown locations; when one of these is the visible setting, use exactly this label: "
+              + json.dumps(list(known_locations)) + ". Otherwise invent a plain descriptive label.") if known_locations else ""
     # Chapter boundaries preserve transitions; small chunks keep evidence inspectable.
     for chapter in sorted({v.chapter for v in verses}):
         chapter_verses = [v for v in verses if v.chapter == chapter]

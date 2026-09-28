@@ -5,8 +5,9 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, validate_scene
-from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
-    portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
+from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, LOCATION_ASPECT, plan, build_prompt, build_portrait_prompt,
+    build_location_prompt, portrait_eligible, location_eligible, portrait_aspect, is_group, assemble, frames,
+    frame_aspect)
 from .scripture import load, select
 
 class Pipeline:
@@ -43,7 +44,8 @@ class Pipeline:
     def analyze(self, identifier=None, staged=False):
         if staged and not identifier:
             from .staged import analyze_staged
-            scenes = analyze_staged(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
+            scenes = analyze_staged(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]),
+                                    known_locations=list(self.continuity()["locations"]))
         elif identifier:
             scenes = self.scenes()
             index = next((i for i, s in enumerate(scenes) if s.scene_id == identifier), None)
@@ -60,7 +62,8 @@ class Pipeline:
             scenes[index] = result.scenes[0]
             scenes[index].scene_id = identifier
         else:
-            scenes = analyze(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
+            scenes = analyze(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]),
+                             known_locations=list(self.continuity()["locations"]))
         self.store.write("scenes.json", [s.model_dump() for s in scenes])
         self.store.event("analyze", count=len(scenes))
 
@@ -190,68 +193,101 @@ class Pipeline:
         aspect = (aspects or self.aspects())[panel.panel_id]
         value = {"panel": panel.model_dump(exclude={"page", "panel_number", "weight"}), "aspect": aspect,
                  "continuity": self.continuity(), "source": self.stamp()}
-        # Attached portraits steer the art, so panel approval covers them. Omitted when there are
-        # none, so runs without portraits keep their approvals.
+        # Attached portraits and location references steer the art, so panel approval covers them.
+        # Omitted when there are none, so runs without them keep their approvals.
         portraits = self.panel_portraits(panel)
         if portraits:
             value["portraits"] = {name: [entry["path"], entry["image_hash"]] for name, entry in portraits.items()}
+        places = self.panel_locations(panel)
+        if places:
+            value["locations"] = {name: [entry["path"], entry["image_hash"]] for name, entry in places.items()}
         return digest(value)
 
     def portrait_prompt(self, name):
-        continuity = self.continuity()
-        return build_portrait_prompt(name, continuity["characters"][name], continuity["visual_style"])
+        return self.reference_prompt("characters", name)
 
     def portrait_names(self):
         """Characters in the scenes whose continuity record can seed a reference portrait."""
-        records = self.continuity()["characters"]
-        names = dict.fromkeys(name for scene in self.scenes() for name in scene.characters)
-        return [name for name in names if portrait_eligible(records.get(name))]
+        return self.reference_names("characters")
 
     def portrait_index(self):
-        return self.store.read("portraits/index.json") if self.store.path("portraits/index.json").exists() else {}
+        return self.reference_index("characters")
 
     def portrait(self, name, index=None):
         """The current portrait for a character, or None if it has none or its record opted out."""
-        entry = (self.portrait_index() if index is None else index).get(name)
-        if entry is None or not portrait_eligible(self.continuity()["characters"].get(name)):
-            return None
-        actual = hashlib.sha256(self.store.path(entry["path"]).read_bytes()).hexdigest()
-        if entry["stamp"] != digest(self.portrait_prompt(name)) or actual != entry["image_hash"]:
-            raise ValueError(f"Portrait for {name} is stale or modified; run portraits again")
-        return entry
+        return self.reference("characters", name, index)
 
     def panel_portraits(self, panel):
-        index = self.portrait_index()
-        found = {name: self.portrait(name, index) for name in panel.characters_visible}
-        return {name: entry for name, entry in found.items() if entry}
+        return self.panel_references("characters", panel.characters_visible)
 
     def portraits(self, identifier=None):
         """Render one reference portrait per eligible character, reusing current ones."""
-        names = self.portrait_names()
+        return self.render_references("characters", identifier)
+
+    def panel_locations(self, panel):
+        return self.panel_references("locations", panel.location)
+
+    def location_references(self, identifier=None):
+        """Render one reference image per eligible location, reusing current ones."""
+        return self.render_references("locations", identifier)
+
+    # Characters get portraits and locations get establishing views; both follow the same rules.
+    def reference_prompt(self, kind, name):
+        continuity = self.continuity()
+        return REFERENCE_KINDS[kind]["prompt"](name, continuity[kind][name], continuity["visual_style"])
+
+    def reference_names(self, kind):
+        records = self.continuity()[kind]
+        field = REFERENCE_KINDS[kind]["scene_field"]
+        names = dict.fromkeys(name for scene in self.scenes() for name in getattr(scene, field))
+        return [name for name in names if REFERENCE_KINDS[kind]["eligible"](records.get(name))]
+
+    def reference_index(self, kind):
+        path = REFERENCE_KINDS[kind]["folder"] + "/index.json"
+        return self.store.read(path) if self.store.path(path).exists() else {}
+
+    def reference(self, kind, name, index=None):
+        """The current reference image for a record, or None if it has none or its record opted out."""
+        entry = (self.reference_index(kind) if index is None else index).get(name)
+        if entry is None or not REFERENCE_KINDS[kind]["eligible"](self.continuity()[kind].get(name)):
+            return None
+        actual = hashlib.sha256(self.store.path(entry["path"]).read_bytes()).hexdigest()
+        if entry["stamp"] != digest(self.reference_prompt(kind, name)) or actual != entry["image_hash"]:
+            raise ValueError(f"Reference image for {name} is stale or modified; run {REFERENCE_KINDS[kind]['command']} again")
+        return entry
+
+    def panel_references(self, kind, names):
+        index = self.reference_index(kind)
+        found = {name: self.reference(kind, name, index) for name in names}
+        return {name: entry for name, entry in found.items() if entry}
+
+    def render_references(self, kind, identifier=None):
+        spec = REFERENCE_KINDS[kind]
+        names = self.reference_names(kind)
         if identifier and identifier not in names:
-            raise ValueError(f"No portrait-eligible character record for {identifier!r} in the scenes")
-        index = self.portrait_index()
+            raise ValueError(f"No {spec['label']} record for {identifier!r} in the scenes")
+        index = self.reference_index(kind)
         made = []
         for name in names:
             if identifier and name != identifier:
                 continue
-            # Batch runs reuse current portraits; explicit --id always renders a new revision.
+            # Batch runs reuse current images; explicit --id always renders a new revision.
             if not identifier:
                 try:
-                    if self.portrait(name, index):
+                    if self.reference(kind, name, index):
                         continue
                 except ValueError:
                     pass
-            prompt = self.portrait_prompt(name)
-            slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or "character"
-            path = self.store.path(f"portraits/{slug}_{uuid4().hex[:12]}.png")
+            prompt = self.reference_prompt(kind, name)
+            slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or kind
+            path = self.store.path(f"{spec['folder']}/{slug}_{uuid4().hex[:12]}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
-            record = self.continuity()["characters"][name]
-            self.provider.generate_image(prompt, output_path=path, aspect_ratio=portrait_aspect(record))
+            record = self.continuity()[kind][name]
+            self.provider.generate_image(prompt, output_path=path, aspect_ratio=spec["aspect"](record))
             index[name] = {"path": str(path.relative_to(self.store.root)), "stamp": digest(prompt),
                            "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": prompt}
-            self.store.write("portraits/index.json", index)
-            self.store.event("portrait", name=name, path=index[name]["path"])
+            self.store.write(f"{spec['folder']}/index.json", index)
+            self.store.event(spec["event"], name=name, path=index[name]["path"])
             made.append(name)
         return made
 
@@ -311,14 +347,17 @@ class Pipeline:
             name = f"{panel.panel_id}_{revision}"
             aspect = aspects[panel.panel_id]
             portraits = self.panel_portraits(panel)
-            prompt = build_prompt(panel, self.continuity(), aspect, list(portraits))
+            places = self.panel_locations(panel)
+            prompt = build_prompt(panel, self.continuity(), aspect, list(portraits), list(places))
             self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
-                "portraits": {n: e["path"] for n, e in portraits.items()}})
+                "portraits": {n: e["path"] for n, e in portraits.items()},
+                "locations": {n: e["path"] for n, e in places.items()}})
             path = self.store.path(f"images/{name}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
             records = self.continuity()["characters"]
             references = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
                           for n, e in portraits.items()]
+            references += [(f"{n} (location reference)", self.store.path(e["path"])) for n, e in places.items()]
             self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
@@ -344,28 +383,40 @@ class Pipeline:
         return path
 
 
-def character_bible(store, provider, identifier=None):
-    """Render a portrait for every eligible record in a folder's characters.json, independent of any story run.
+REFERENCE_KINDS = {
+    "characters": {"folder": "portraits", "scene_field": "characters", "eligible": portrait_eligible,
+                   "prompt": build_portrait_prompt, "aspect": portrait_aspect, "command": "portraits",
+                   "event": "portrait", "label": "portrait-eligible", "bible": "characters.json"},
+    "locations": {"folder": "locations", "scene_field": "locations", "eligible": location_eligible,
+                  "prompt": build_location_prompt, "aspect": lambda record: LOCATION_ASPECT, "command": "locations",
+                  "event": "location_reference", "label": "reference-eligible location", "bible": "locations.json"},
+}
 
-    Uses the folder's style.json (or the default style) and reuses portraits whose prompt is unchanged."""
-    records = store.read("characters.json")
+
+def character_bible(store, provider, identifier=None, kind="characters"):
+    """Render a reference image for every eligible record in a folder's characters.json (or, with
+    kind="locations", its locations.json), independent of any story run.
+
+    Uses the folder's style.json (or the default style) and reuses images whose prompt is unchanged."""
+    spec = REFERENCE_KINDS[kind]
+    records = store.read(spec["bible"])
     style = store.read("style.json") if store.path("style.json").exists() else DEFAULT_CONTINUITY["visual_style"]
-    names = [name for name, record in records.items() if portrait_eligible(record)]
+    names = [name for name, record in records.items() if spec["eligible"](record)]
     if identifier and identifier not in names:
-        raise ValueError(f"No portrait-eligible record for {identifier!r} in characters.json")
+        raise ValueError(f"No {spec['label']} record for {identifier!r} in {spec['bible']}")
     index = store.read("index.json") if store.path("index.json").exists() else {}
     made = []
     for name in names:
         if identifier and name != identifier:
             continue
-        prompt = build_portrait_prompt(name, records[name], style)
+        prompt = spec["prompt"](name, records[name], style)
         entry = index.get(name)
-        # Batch runs reuse current portraits; explicit --id always renders a new revision.
+        # Batch runs reuse current images; explicit --id always renders a new revision.
         if not identifier and entry and entry["stamp"] == digest(prompt) and store.path(entry["path"]).exists():
             continue
-        slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or "character"
+        slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_") or kind
         path = store.path(f"{slug}_{uuid4().hex[:12]}.png")
-        provider.generate_image(prompt, output_path=path, aspect_ratio=portrait_aspect(records[name]))
+        provider.generate_image(prompt, output_path=path, aspect_ratio=spec["aspect"](records[name]))
         index[name] = {"path": path.name, "stamp": digest(prompt),
                        "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": prompt}
         store.write("index.json", index)

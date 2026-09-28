@@ -176,6 +176,23 @@ Portraits live in `portraits/` and are reused: a rerun skips any portrait whose 
 
 A panel's approval covers the portraits attached to it, so a new or re-rendered portrait sends that panel back for review. Open the printed portrait paths during `review panel`; a portrait is invented design, never scripture, and a heavenly or divine figure's portrait may show only what its scriptural facts state. `portraits --placeholder` tests the plumbing offline. `portraits --local` renders through ComfyUI, but the local Flux workflow can't take reference images, so local panels still rely on text continuity.
 
+### Location references
+
+Locations work the same way. `locations` renders one wide establishing view (16:9, no people) per location that appears in the scenes and has a record in `continuity/locations.json`. `generate` attaches each panel's location references after its character portraits, labeled `<name> (location reference)`, and tells the image model to keep that place's layout, architecture and colors while the camera, time of day, weather and damage follow the panel:
+
+```sh
+python main.py --run runs/small locations
+python main.py --run runs/small locations --id 'Waters of Mormon'   # new revision of one
+```
+
+The same reuse, staleness and approval rules apply: editing a location record makes its image stale, and a new or re-rendered location image sends the panels that show it back for review. Add `"reference_image": false` to a location record to skip its image. `analyze` passes the known location names to the model, so scenes reuse the exact labels that match these records.
+
+`locations/book-of-mormon/locations.json` is a book-wide location record set, from Jerusalem to Cumorah, in the same format as the character records. Facts cite verses; everything else (layout, materials, palette) is invented design meant to stay bright, except storm, destruction and darkness settings. Copy the records you need into a run's `continuity/locations.json` before `analyze`. To render the whole set without a story run, use `bible --locations`; it uses that folder's `style.json`, which is the same bright style with architecture that follows each place's own era, so Jerusalem is Judean rather than Mesoamerican:
+
+```sh
+python main.py --run locations/book-of-mormon bible --locations
+```
+
 ## Saved outputs and assembly
 
 Within each run:
@@ -186,6 +203,7 @@ scenes.json, validation.json       scenes, evidence, independent verdicts
 panels.json, reviews.json          layout and individual approval decisions
 continuity/                       reusable design records and global style
 portraits/                        character reference portraits and their index
+locations/                        location reference images and their index
 api/                              model prompts and raw SDK responses
 prompts/                          versioned structured image instructions
 images/                           versioned PNGs and current-image records
