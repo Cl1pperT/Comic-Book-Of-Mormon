@@ -160,6 +160,47 @@ from pathlib import Path
 
 
 
+def test_codex_runs_one_read_only_exec_per_call_and_holds_the_schema(tmp_path, monkeypatch):
+    import json
+    import subprocess
+    import pytest
+    from bom_comic import codex
+    from bom_comic.errors import ProviderError
+    from bom_comic.models import Verdict
+    from bom_comic.storage import Store
+    monkeypatch.setattr(codex.shutil, "which", lambda name: "C:/fake/codex.cmd")
+    calls = []
+
+    def run(args, input, **kwargs):
+        calls.append((args, input))
+        schema = json.loads(Path(args[args.index("--output-schema") + 1]).read_text(encoding="utf-8"))
+        assert schema["additionalProperties"] is False and set(schema["required"]) == set(schema["properties"])
+        Path(args[args.index("--output-last-message") + 1]).write_text('{"status": "PASS", "issues": []}', encoding="utf-8")
+        return subprocess.CompletedProcess(args, 0, "", "")
+    monkeypatch.setattr(codex.subprocess, "run", run)
+    monkeypatch.setenv("CODEX_VALIDATOR_EFFORT", "high")
+    store = Store(tmp_path / "run")
+    provider = codex.Codex(store)
+    assert provider.structured("Check this scene.", Verdict, "validate_scene_001", "validator").status == "PASS"
+    args, stdin = calls[0]
+    assert args[:2] == ["C:/fake/codex.cmd", "exec"] and args[-1] == "-" and stdin == "Check this scene."
+    assert args[args.index("--sandbox") + 1] == "read-only" and "--skip-git-repo-check" in args and "--ephemeral" in args
+    assert "model_reasoning_effort=high" in args and "--model" not in args
+    # --resume reuses an identical request instead of spending plan usage again.
+    provider.reuse_responses = True
+    provider.structured("Check this scene.", Verdict, "validate_scene_001", "validator")
+    assert len(calls) == 1
+    # Failures surface as provider errors, with usage limits called out so the run can resume later.
+    monkeypatch.setattr(codex.subprocess, "run", lambda args, input, **k: subprocess.CompletedProcess(
+        args, 1, "", "ERROR: You've hit your usage limit. Try again later."))
+    with pytest.raises(ProviderError, match="usage limit"):
+        provider.structured("Other scene.", Verdict, "validate_scene_002", "validator")
+    monkeypatch.setattr(codex.shutil, "which", lambda name: None)
+    monkeypatch.setenv("LOCALAPPDATA", str(tmp_path / "no-install"))
+    with pytest.raises(ProviderError, match="codex login"):
+        codex.Codex(store)
+
+
 def test_kontext_prompt_says_other_figures_are_different_people():
     from bom_comic.comic import visible_people
     prompt = "Visualize.\n\nVISIBLE PEOPLE\n[\"Lehi\", \"One\", \"twelve others\"]\n\nLOCATION\n[]"
