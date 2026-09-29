@@ -469,6 +469,23 @@ def _ref_range(refs):
 BOX_WIDTHS = (0.5, 0.65, 0.8, 1.0)
 
 
+def _tracked_width(draw, text, font, tracking=2):
+    return sum(draw.textlength(c, font=font) for c in text) + tracking * max(0, len(text) - 1)
+
+
+def _wrap_label(draw, label, font, width):
+    """Speaker labels are letterspaced, so wrap them by their tracked width (e.g. "ONE DESCENDING FROM HEAVEN")."""
+    lines, line = [], ""
+    for word in label.split():
+        trial = f"{line} {word}".strip()
+        if line and _tracked_width(draw, trial, font) > width:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    return lines + [line] if line else lines
+
+
 def _rows(draw, blocks, ref, fonts, width):
     """Lettered rows for a caption box of a given width, and the box height they need."""
     rows = []
@@ -476,7 +493,7 @@ def _rows(draw, blocks, ref, fonts, width):
         if rows:
             rows.append(("gap", ""))
         if speaker:
-            rows.append(("speaker", speaker.upper()))
+            rows += [("speaker", line) for line in _wrap_label(draw, speaker.upper(), fonts["speaker"], width - 2 * PAD)]
         rows += [("body", line) for line in _wrap(draw, text, fonts["body"], width - 2 * PAD)]
     if ref:
         rows.append(("ref", ref))

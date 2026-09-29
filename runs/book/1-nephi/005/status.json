@@ -4,46 +4,17 @@
   "verses": 22,
   "scenes": 13,
   "counts": {
-    "PASS": 3,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 8
+    "PASS": 13,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_001": [
-      "Lettering must be an exact source quotation: '“he was filled with joy”' is not verbatim in 1 Nephi 5:1, which reads 'And it came to pass that after we had come down into the wilderness unto our father, behold, he was filled with joy, and also my mother, Sariah, was exceedingly glad, for she truly had mourned because of us.'",
-      "Lettering must be an exact source quotation: '“my mother, Sariah, was exceedingly glad”' is not verbatim in 1 Nephi 5:1, which reads 'And it came to pass that after we had come down into the wilderness unto our father, behold, he was filled with joy, and also my mother, Sariah, was exceedingly glad, for she truly had mourned because of us.'"
-    ],
-    "scene_003": [
-      "Summary incorrectly attributes Lehi’s words in 1 Nephi 5:5 about obtaining a land of promise and the Lord delivering his sons to the described comforting in verses 4–6; verse 6 says he comforted Sariah “concerning us” while the sons journeyed to obtain the record, not that the conversation took place while they were journeying.",
-      "Narration omits the supplied quotation’s final comma, so it is not verbatim."
-    ],
-    "scene_004": [
-      "Lettering must be an exact source quotation: '“And when we had returned to the tent of my father, behold their joy was full, and my mother was comforted.”' is not verbatim in 1 Nephi 5:7, which reads 'And when we had returned to the tent of my father, behold their joy was full, and my mother was comforted.'"
-    ],
-    "scene_007": [
-      "Lettering must be an exact source quotation: '“And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and he did search them from the beginning.”' is not verbatim in 1 Nephi 5:10, which reads 'And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and he did search them from the beginning.'"
-    ],
-    "scene_009": [
-      "Lettering must be an exact source quotation: '“my father, Lehi, also found upon the plates of brass a genealogy of his fathers”' is not verbatim in 1 Nephi 5:14, which reads 'And it came to pass that my father, Lehi, also found upon the plates of brass a genealogy of his fathers; wherefore he knew that he was a descendant of Joseph; yea, even that Joseph who was the son of Jacob, who was sold into Egypt, and who was preserved by the hand of the Lord, that he might preserve his father, Jacob, and all his household from perishing with famine.'",
-      "Lettering must be an exact source quotation: '“he knew that he was a descendant of Joseph”' is not verbatim in 1 Nephi 5:14, which reads 'And it came to pass that my father, Lehi, also found upon the plates of brass a genealogy of his fathers; wherefore he knew that he was a descendant of Joseph; yea, even that Joseph who was the son of Jacob, who was sold into Egypt, and who was preserved by the hand of the Lord, that he might preserve his father, Jacob, and all his household from perishing with famine.'"
-    ],
-    "scene_010": [
-      "This scene converts the past event reported in 1 Nephi 5:15 into a present-tense account being recounted, but the cited verse does not say anyone is recounting it in the present scene. Its narration quotes the verse as a historical statement; it should not be framed as a current act of remembering."
-    ],
-    "scene_012": [
-      "Narration in 1 Nephi 5:17 changes the source’s em dash to a comma, violating the requirement to preserve quotation punctuation exactly."
-    ],
-    "scene_013": [
-      "Lettering must be an exact source quotation: '“And we had obtained the records which the Lord had commanded us, and searched them”' is not verbatim in 1 Nephi 5:21, which reads 'And we had obtained the records which the Lord had commanded us, and searched them and found that they were desirable; yea, even of great worth unto us, insomuch that we could preserve the commandments of the Lord unto our children.'",
-      "Lettering must be an exact source quotation: '“Wherefore, it was wisdom in the Lord that we should carry them with us”' is not verbatim in 1 Nephi 5:22, which reads 'Wherefore, it was wisdom in the Lord that we should carry them with us, as we journeyed in the wilderness towards the land of promise.'"
-    ]
-  },
-  "calls": 24,
+  "rejected": {},
+  "calls": 25,
   "tokens": {
-    "input_tokens": 181720,
+    "input_tokens": 194767,
     "cached_input_tokens": 109056,
     "cache_write_input_tokens": 0,
-    "output_tokens": 14038,
-    "reasoning_output_tokens": 659
+    "output_tokens": 14755,
+    "reasoning_output_tokens": 1175
   }
 }

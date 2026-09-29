@@ -1,23 +1,17 @@
 {
-  "stamp": "5dfc99a4a56fc058f6d709826ab58830a547befc678a70795527fbe38f2146a5",
+  "stamp": "2485c907ef633f1bb8b3f38b9870e534f689b4d08a0fa0a1930b98c6aa872c61",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“I desire the room that I may write of the things of God.”' is not verbatim in 1 Nephi 6:3, which reads 'And it mattereth not to me that I am particular to give a full account of all the things of my father, for they cannot be written upon these plates, for I desire the room that I may write of the things of God.'",
-        "Lettering must be an exact source quotation: '“For the fulness of mine intent is that I may persuade men to come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved.”' is not verbatim in 1 Nephi 6:4, which reads 'For the fulness of mine intent is that I may persuade men to come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“the things which are pleasing unto the world I do not write”' is not verbatim in 1 Nephi 6:5, which reads 'Wherefore, the things which are pleasing unto the world I do not write, but the things which are pleasing unto God and unto those who are not of the world.'",
-        "Lettering must be an exact source quotation: '“I shall give commandment unto my seed”' is not verbatim in 1 Nephi 6:6, which reads 'Wherefore, I shall give commandment unto my seed, that they shall not occupy these plates with things which are not of worth unto the children of men.'"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

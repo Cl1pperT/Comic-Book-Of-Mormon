@@ -1,20 +1,19 @@
 {
-  "stamp": "3006b75ffb1972871049b7a41e074c0b04fe8768af70bb54bf9b310b8b8a3273",
+  "stamp": "14cb1333eb898743739c38293df23f0385a6e3e721fb8d0b5d0bd914fe45cd54",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration excerpt ends at a comma, but it is an exact contiguous source excerpt; the surrounding scene omits the remaining words of the verse."
+      ]
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The quoted dialogue from verse 4 is spoken by Lehi according to verse 2, but Lehi is missing from the characters field.",
-        "The summary's reference to mankind's fallen state is supported by Lehi's reported words, but is not spoken verbatim in the dialogue field."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -25,44 +24,34 @@
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“he spake unto my brethren concerning the gospel which should be preached among the Jews”' is not verbatim in 1 Nephi 10:11, which reads 'And it came to pass after my father had spoken these words he spake unto my brethren concerning the gospel which should be preached among the Jews, and also concerning the dwindling of the Jews in unbelief. And after they had slain the Messiah, who should come, and after he had been slain he should rise from the dead, and should make himself manifest, by the Holy Ghost, unto the Gentiles.'"
-      ]
-    },
-    "scene_007": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene reports Lehi's words but lists only Nephi as a character; the visual treatment should remain narration rather than presenting Lehi speaking in a new present-time scene."
+      ]
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And after the house of Israel should be scattered they should be gathered together again;”' is not verbatim in 1 Nephi 10:14, which reads 'And after the house of Israel should be scattered they should be gathered together again; or, in fine, after the Gentiles had received the fulness of the Gospel, the natural branches of the olive-tree, or the remnants of the house of Israel, should be grafted in, or come to the knowledge of the true Messiah, their Lord and their Redeemer.'",
-        "Lettering must be an exact source quotation: '“And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book;”' is not verbatim in 1 Nephi 10:15, which reads 'And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book; for I have written as many of them as were expedient for me in mine other book.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Verse 16 situates the previously reported events while Lehi dwelt in a tent; it does not establish Lehi as a character visibly present in a new scene. Depicting him in the tent would risk turning that temporal note into a present event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost”' is not verbatim in 1 Nephi 10:17, which reads 'And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“For he is the same yesterday, to-day, and forever;”' is not verbatim in 1 Nephi 10:18, which reads 'For he is the same yesterday, to-day, and forever; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.'",
-        "Lettering must be an exact source quotation: '“For he that diligently seeketh shall find;”' is not verbatim in 1 Nephi 10:19, which reads 'For he that diligently seeketh shall find; and the mysteries of God shall be unfolded unto them, by the power of the Holy Ghost, as well in these times as in times of old, and as well in times of old as in times to come; wherefore, the course of the Lord is one eternal round.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

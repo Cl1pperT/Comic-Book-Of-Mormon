@@ -615,6 +615,16 @@ def test_captions_move_to_the_corner_that_keeps_faces_clear():
     assert corners(placed) == [(103, 103, 303, 450), br]
 
 
+def test_long_speaker_labels_wrap_inside_their_box():
+    from bom_comic.comic import _rows, _measure, _tracked_width, PAD
+    draw, fonts = _measure()
+    width = 220
+    height, rows = _rows(draw, [("One descending from heaven", "“read”")], None, fonts, width)
+    labels = [text for kind, text in rows if kind == "speaker"]
+    assert len(labels) > 1 and " ".join(labels) == "ONE DESCENDING FROM HEAVEN"
+    assert all(_tracked_width(draw, label, fonts["speaker"]) <= width - 2 * PAD for label in labels)
+
+
 def test_caption_options_offer_every_corner_and_width_default_first():
     from bom_comic.comic import _caption_options, _measure, BORDER
     draw, fonts = _measure()

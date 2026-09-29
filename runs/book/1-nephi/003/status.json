@@ -4,24 +4,17 @@
   "verses": 31,
   "scenes": 15,
   "counts": {
-    "PASS": 8,
-    "PASS WITH WARNINGS": 5,
-    "REJECT": 2
+    "PASS": 13,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ],
-    "scene_008": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ]
-  },
-  "calls": 8,
+  "rejected": {},
+  "calls": 11,
   "tokens": {
-    "input_tokens": 60256,
-    "cached_input_tokens": 24064,
+    "input_tokens": 81980,
+    "cached_input_tokens": 41472,
     "cache_write_input_tokens": 0,
-    "output_tokens": 9193,
-    "reasoning_output_tokens": 516
+    "output_tokens": 11130,
+    "reasoning_output_tokens": 712
   }
 }

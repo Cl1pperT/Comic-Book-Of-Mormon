@@ -1,81 +1,57 @@
 {
-  "stamp": "92a13a2d404181bf56dae1cee22d3ceb7ec3ee632a869a65c3a7565288a4f3a2",
+  "stamp": "a9594ebb7dd9bcb89336676f0f149b1e90d8f27b2e612e10502ae7c5272c1f27",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“he was filled with joy”' is not verbatim in 1 Nephi 5:1, which reads 'And it came to pass that after we had come down into the wilderness unto our father, behold, he was filled with joy, and also my mother, Sariah, was exceedingly glad, for she truly had mourned because of us.'",
-        "Lettering must be an exact source quotation: '“my mother, Sariah, was exceedingly glad”' is not verbatim in 1 Nephi 5:1, which reads 'And it came to pass that after we had come down into the wilderness unto our father, behold, he was filled with joy, and also my mother, Sariah, was exceedingly glad, for she truly had mourned because of us.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Summary incorrectly attributes Lehi’s words in 1 Nephi 5:5 about obtaining a land of promise and the Lord delivering his sons to the described comforting in verses 4–6; verse 6 says he comforted Sariah “concerning us” while the sons journeyed to obtain the record, not that the conversation took place while they were journeying.",
-        "Narration omits the supplied quotation’s final comma, so it is not verbatim."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And when we had returned to the tent of my father, behold their joy was full, and my mother was comforted.”' is not verbatim in 1 Nephi 5:7, which reads 'And when we had returned to the tent of my father, behold their joy was full, and my mother was comforted.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses place this speech after the sons’ return and in the sequence before the rejoicing and offerings, but do not specify a precise setting or identify any listeners beyond the narrated context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The antecedent of “they” is not explicitly identified in verse 9; keep the group unnamed and do not assign it a specific identity or number."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and he did search them from the beginning.”' is not verbatim in 1 Nephi 5:10, which reads 'And after they had given thanks unto the God of Israel, my father, Lehi, took the records which were engraven upon the plates of brass, and he did search them from the beginning.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“my father, Lehi, also found upon the plates of brass a genealogy of his fathers”' is not verbatim in 1 Nephi 5:14, which reads 'And it came to pass that my father, Lehi, also found upon the plates of brass a genealogy of his fathers; wherefore he knew that he was a descendant of Joseph; yea, even that Joseph who was the son of Jacob, who was sold into Egypt, and who was preserved by the hand of the Lord, that he might preserve his father, Jacob, and all his household from perishing with famine.'",
-        "Lettering must be an exact source quotation: '“he knew that he was a descendant of Joseph”' is not verbatim in 1 Nephi 5:14, which reads 'And it came to pass that my father, Lehi, also found upon the plates of brass a genealogy of his fathers; wherefore he knew that he was a descendant of Joseph; yea, even that Joseph who was the son of Jacob, who was sold into Egypt, and who was preserved by the hand of the Lord, that he might preserve his father, Jacob, and all his household from perishing with famine.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "This scene converts the past event reported in 1 Nephi 5:15 into a present-tense account being recounted, but the cited verse does not say anyone is recounting it in the present scene. Its narration quotes the verse as a historical statement; it should not be framed as a current act of remembering."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Narration in 1 Nephi 5:17 changes the source’s em dash to a comma, violating the requirement to preserve quotation punctuation exactly."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And we had obtained the records which the Lord had commanded us, and searched them”' is not verbatim in 1 Nephi 5:21, which reads 'And we had obtained the records which the Lord had commanded us, and searched them and found that they were desirable; yea, even of great worth unto us, insomuch that we could preserve the commandments of the Lord unto our children.'",
-        "Lettering must be an exact source quotation: '“Wherefore, it was wisdom in the Lord that we should carry them with us”' is not verbatim in 1 Nephi 5:22, which reads 'Wherefore, it was wisdom in the Lord that we should carry them with us, as we journeyed in the wilderness towards the land of promise.'"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

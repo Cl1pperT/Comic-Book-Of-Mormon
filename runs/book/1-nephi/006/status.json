@@ -4,26 +4,17 @@
   "verses": 6,
   "scenes": 3,
   "counts": {
-    "PASS": 1,
+    "PASS": 3,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "Lettering must be an exact source quotation: '“I desire the room that I may write of the things of God.”' is not verbatim in 1 Nephi 6:3, which reads 'And it mattereth not to me that I am particular to give a full account of all the things of my father, for they cannot be written upon these plates, for I desire the room that I may write of the things of God.'",
-      "Lettering must be an exact source quotation: '“For the fulness of mine intent is that I may persuade men to come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved.”' is not verbatim in 1 Nephi 6:4, which reads 'For the fulness of mine intent is that I may persuade men to come unto the God of Abraham, and the God of Isaac, and the God of Jacob, and be saved.'"
-    ],
-    "scene_003": [
-      "Lettering must be an exact source quotation: '“the things which are pleasing unto the world I do not write”' is not verbatim in 1 Nephi 6:5, which reads 'Wherefore, the things which are pleasing unto the world I do not write, but the things which are pleasing unto God and unto those who are not of the world.'",
-      "Lettering must be an exact source quotation: '“I shall give commandment unto my seed”' is not verbatim in 1 Nephi 6:6, which reads 'Wherefore, I shall give commandment unto my seed, that they shall not occupy these plates with things which are not of worth unto the children of men.'"
-    ]
-  },
-  "calls": 8,
+  "rejected": {},
+  "calls": 9,
   "tokens": {
-    "input_tokens": 59687,
+    "input_tokens": 67543,
     "cached_input_tokens": 35840,
     "cache_write_input_tokens": 0,
-    "output_tokens": 3400,
-    "reasoning_output_tokens": 0
+    "output_tokens": 3721,
+    "reasoning_output_tokens": 260
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "b4ca1f9237a2ac0d0e46d164ca7171bccebbbd11353e559d8fec4954b0f60d70",
+  "stamp": "e6cf5ed7a5d03fb8f4af4d08d18312aaec8557772589b5a389b3f697caa40906",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,91 +10,60 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list includes Nephi's brothers as a collective, but the verses do not identify which individual brothers are present."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene.",
-        "Location is specified as the tent, but verses 26–27 do not state where this exchange occurs."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene.",
-        "The tent location is not specified in verses 28–29; preceding scenes do not explicitly establish it as the continuing location."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Character list names Laman, Lemuel, and Sam, but the supplied verses identify only Nephi's brothers collectively; their individual identities are not established in this scene.",
-        "The tent location is not specified in verses 30–36; preceding scenes do not explicitly establish it as the continuing location."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

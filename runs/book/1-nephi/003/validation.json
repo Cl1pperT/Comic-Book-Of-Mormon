@@ -1,15 +1,13 @@
 {
-  "stamp": "d5865db91d72475d17c2163ff9ab91462977683ec4157dbb5d10794986b0abde",
+  "stamp": "ef9ede5f701cb774a8c341b6f680364218402572cdf3d7ca98a5d0622652caca",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -26,20 +24,18 @@
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The lot is cast before Laman enters Laban’s house, but the place where it is cast is unspecified; avoid depicting that action inside the house."
+        "The scene lists only Laban’s house as its location, although the lots are cast before Laman enters the house; the place where they cast lots is unspecified. Separate the moments or leave that location unspecified."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The brothers’ location when Laman reports what happened is unspecified; avoid implying the report occurs inside Laban’s house."
+        "The scene lists Laban’s house as its location, but Laman reports what happened and the brothers react after he flees; their location during that report is unspecified. Avoid implying the entire scene occurs inside the house."
       ]
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -54,22 +50,16 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source places the flight and hiding in the wilderness before the striking, but does not specify the exact spot where the striking occurs."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The angel’s appearance and the precise referent of “him” in the angel’s statement are not specified; avoid adding visual details or identifying the referent beyond the text."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse says the angel departed but does not specify where the scene occurs or how the angel departs."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",
