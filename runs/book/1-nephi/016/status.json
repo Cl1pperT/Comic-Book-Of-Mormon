@@ -1,0 +1,42 @@
+{
+  "book": "1 Nephi",
+  "chapter": 16,
+  "verses": 39,
+  "scenes": 29,
+  "counts": {
+    "PASS": 19,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 7
+  },
+  "rejected": {
+    "scene_001": [
+      "Dialogue is assigned to Nephi's brothers, but the verse reports the brothers' words without identifying the speaker; also, the scene omits Nephi's stated response from its summary."
+    ],
+    "scene_002": [
+      "Summary gives an inaccurate paraphrase of verse 3: it states what the righteous would do, but omits the conditional teaching and adds the implication that they would not murmur against truth in those terms. The supplied verse says they would not murmur because of the truth."
+    ],
+    "scene_010": [
+      "The summary says the group hunts, returns, then travels onward, collapsing distinct times into one scene despite the explicit note prohibiting that compression."
+    ],
+    "scene_020": [
+      "The narration excerpt is not verbatim: the source starts with “And thus we see” and includes “the” before “great things.” It is also treated as narration despite being a teaching, contrary to the scene's note."
+    ],
+    "scene_024": [
+      "The quoted narration is exact, but it collapses the journey and later encampment into a single scene, explicitly prohibited by the scene's notes."
+    ],
+    "scene_026": [
+      "The dialogue excerpts use semicolons and commas not present at those excerpt boundaries in the supplied verse: the source has “Our father is dead; yea,” followed continuously, and has no comma after “wilderness” or “fatigue.” The quotations are not exact contiguous excerpts as punctuated."
+    ],
+    "scene_028": [
+      "The source's verse 38 is narrated as Laman's allegations, but the scene has no quoted dialogue despite the instruction that dialogue and narration use source quotations. The narration excerpt only covers the final clause and omits the allegation content from the proposed scene."
+    ]
+  },
+  "calls": 9,
+  "tokens": {
+    "input_tokens": 86633,
+    "cached_input_tokens": 50432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10725,
+    "reasoning_output_tokens": 0
+  }
+}

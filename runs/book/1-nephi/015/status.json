@@ -1,0 +1,24 @@
+{
+  "book": "1 Nephi",
+  "chapter": 15,
+  "verses": 36,
+  "scenes": 16,
+  "counts": {
+    "PASS": 2,
+    "PASS WITH WARNINGS": 13,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_012": [
+      "Scene lettering exceeds 65 words; split into smaller scenes"
+    ]
+  },
+  "calls": 5,
+  "tokens": {
+    "input_tokens": 48941,
+    "cached_input_tokens": 17408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7781,
+    "reasoning_output_tokens": 0
+  }
+}

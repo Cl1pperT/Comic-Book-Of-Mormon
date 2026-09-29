@@ -1,0 +1,97 @@
+{
+  "stamp": "d680afce52188f977a438619a38a3b9edae99539082bec8ae28d039c77bf073a",
+  "results": {
+    "scene_001": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“we did travel nearly eastward from that time forth.”' is not verbatim in 1 Nephi 17:1, which reads 'And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And we did travel and wade through much affliction in the wilderness; and our women did bear children in the wilderness.'",
+        "Lettering must be an exact source quotation: '“our women did bear children in the wilderness.”' is not verbatim in 1 Nephi 17:1, which reads 'And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And we did travel and wade through much affliction in the wilderness; and our women did bear children in the wilderness.'"
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“we called the place Bountiful, because of its much fruit.”' is not verbatim in 1 Nephi 17:6, which reads 'And it came to pass that we did pitch our tents by the seashore; and notwithstanding we had suffered many afflictions and much difficulty, yea, even so much that we cannot write them all, we were exceedingly rejoiced when we came to the seashore; and we called the place Bountiful, because of its much fruit.'"
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord speaks in the scene but is omitted from characters; the text establishes only the Lord's speech, not a visible presence."
+      ]
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts”' is not verbatim in 1 Nephi 17:11, which reads 'And it came to pass that I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts; and after I had made a bellows, that I might have wherewith to blow the fire, I did smite two stones together that I might make fire.'",
+        "Lettering must be an exact source quotation: '“I did smite two stones together that I might make fire.”' is not verbatim in 1 Nephi 17:11, which reads 'And it came to pass that I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts; and after I had made a bellows, that I might have wherewith to blow the fire, I did smite two stones together that I might make fire.'"
+      ]
+    },
+    "scene_007": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“And it came to pass that I did make tools of the ore which I did molten out of the rock.”' is not verbatim in 1 Nephi 17:16, which reads 'And it came to pass that I did make tools of the ore which I did molten out of the rock.'"
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Bountiful is listed as the location, but these verses do not explicitly place Nephi's present speech there."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_016": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

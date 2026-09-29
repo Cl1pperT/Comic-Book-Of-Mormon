@@ -1,0 +1,79 @@
+{
+  "stamp": "66842d99688df1cc6f99b218ce1259d27dac440bfa509427d7e3686ed004eb96",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration excerpt “the Lord hath called me from the womb;” is exact, but does not include the source's additional clause that the speaker's name was mentioned from his mother's bowels. This is an omission, not an invented event."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken excerpt is exact but incompletely represents the Lord's statement: verse 3 says the servant is called “O Israel” and that the Lord will be glorified in him. Narration excerpt is exact."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken excerpt begins mid-verse and omits the prior clause “I will also give thee”; it remains a verbatim contiguous excerpt. Narration excerpt is exact."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speakers are not securely distinguished in these prophetic verses: the spoken line attributes a statement to the Lord, while the scene's speech configuration labels it as the servant speaking. This is a possible speaker ambiguity, so use conservative off-screen speech."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken excerpt in verse 13 attributes the rhetorical command “Sing, O heavens; and be joyful, O earth;” to the speaker, but the scene's attribution of the verse 13 line to “The speaker” is not explicit in the verse itself. The figurative personification is correctly treated as nonliteral."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

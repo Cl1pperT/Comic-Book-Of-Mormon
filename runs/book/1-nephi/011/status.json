@@ -1,0 +1,45 @@
+{
+  "book": "1 Nephi",
+  "chapter": 11,
+  "verses": 36,
+  "scenes": 22,
+  "counts": {
+    "PASS": 16,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 6
+  },
+  "rejected": {
+    "scene_001": [
+      "Lettering must be an exact source quotation: '“as I sat pondering in mine heart I was caught away in the Spirit of the Lord”' is not verbatim in 1 Nephi 11:1, which reads 'For it came to pass after I had desired to know the things that my father had seen, and believing that the Lord was able to make them known unto me, as I sat pondering in mine heart I was caught away in the Spirit of the Lord, yea, into an exceedingly high mountain, which I never had before seen, and upon which I never had before set my foot.'"
+    ],
+    "scene_005": [
+      "Lettering must be an exact source quotation: '“And I looked and beheld a tree; and it was like unto the tree which my father had seen;”' is not verbatim in 1 Nephi 11:8, which reads 'And it came to pass that the Spirit said unto me: Look! And I looked and beheld a tree; and it was like unto the tree which my father had seen; and the beauty thereof was far beyond, yea, exceeding of all beauty; and the whiteness thereof did exceed the whiteness of the driven snow.'",
+      "Lettering must be an exact source quotation: '“and the beauty thereof was far beyond, yea, exceeding of all beauty;”' is not verbatim in 1 Nephi 11:8, which reads 'And it came to pass that the Spirit said unto me: Look! And I looked and beheld a tree; and it was like unto the tree which my father had seen; and the beauty thereof was far beyond, yea, exceeding of all beauty; and the whiteness thereof did exceed the whiteness of the driven snow.'",
+      "Lettering must be an exact source quotation: '“and the whiteness thereof did exceed the whiteness of the driven snow.”' is not verbatim in 1 Nephi 11:8, which reads 'And it came to pass that the Spirit said unto me: Look! And I looked and beheld a tree; and it was like unto the tree which my father had seen; and the beauty thereof was far beyond, yea, exceeding of all beauty; and the whiteness thereof did exceed the whiteness of the driven snow.'"
+    ],
+    "scene_007": [
+      "Lettering must be an exact source quotation: '“And I looked as if to look upon him”' is not verbatim in 1 Nephi 11:12, which reads 'And it came to pass that he said unto me: Look! And I looked as if to look upon him, and I saw him not; for he had gone from before my presence.'",
+      "Lettering must be an exact source quotation: '“and I saw him not”' is not verbatim in 1 Nephi 11:12, which reads 'And it came to pass that he said unto me: Look! And I looked as if to look upon him, and I saw him not; for he had gone from before my presence.'",
+      "Lettering must be an exact source quotation: '“for he had gone from before my presence.”' is not verbatim in 1 Nephi 11:12, which reads 'And it came to pass that he said unto me: Look! And I looked as if to look upon him, and I saw him not; for he had gone from before my presence.'"
+    ],
+    "scene_013": [
+      "The dialogue speaker is labeled “Unspecified speaker,” but the immediate context identifies him as the angel: the angel speaks in verses 21 and 23, then says “Look!” in verse 24."
+    ],
+    "scene_014": [
+      "Lettering must be an exact source quotation: '“the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters”' is not verbatim in 1 Nephi 11:25, which reads 'And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.'",
+      "Lettering must be an exact source quotation: '“which waters are a representation of the love of God”' is not verbatim in 1 Nephi 11:25, which reads 'And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.'",
+      "Lettering must be an exact source quotation: '“the tree of life was a representation of the love of God”' is not verbatim in 1 Nephi 11:25, which reads 'And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.'"
+    ],
+    "scene_015": [
+      "Scene lettering exceeds 65 words; split into smaller scenes"
+    ]
+  },
+  "calls": 35,
+  "tokens": {
+    "input_tokens": 247858,
+    "cached_input_tokens": 144896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22142,
+    "reasoning_output_tokens": 1012
+  }
+}

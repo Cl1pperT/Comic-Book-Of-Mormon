@@ -1,0 +1,141 @@
+{
+  "stamp": "dab5fe1be609b047fcc7a9ceb95cd622d6bc3670a39c27cc78dd2da59bd9e541",
+  "results": {
+    "scene_001": {
+      "status": "REJECT",
+      "issues": [
+        "Dialogue is assigned to Nephi's brothers, but the verse reports the brothers' words without identifying the speaker; also, the scene omits Nephi's stated response from its summary."
+      ]
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "Summary gives an inaccurate paraphrase of verse 3: it states what the righteous would do, but omits the conditional teaching and adds the implication that they would not murmur against truth in those terms. The supplied verse says they would not murmur because of the truth."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The marriage summary may imply that the marriages occurred together, while verse 7 only reports them without specifying timing or ceremony."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "The summary says the group hunts, returns, then travels onward, collapsing distinct times into one scene despite the explicit note prohibiting that compression."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing the ball as a guide while the group travels is a reasonable inference from the stated following of its directions, but the scene does not establish that it is visibly carried or consulted during travel."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "REJECT",
+      "issues": [
+        "The narration excerpt is not verbatim: the source starts with “And thus we see” and includes “the” before “great things.” It is also treated as narration despite being a teaching, contrary to the scene's note."
+      ]
+    },
+    "scene_021": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Carrying or consulting the ball while traveling upward is a reasonable but unstated visual inference; the source only says Nephi went up according to its directions."
+      ]
+    },
+    "scene_022": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_023": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_024": {
+      "status": "REJECT",
+      "issues": [
+        "The quoted narration is exact, but it collapses the journey and later encampment into a single scene, explicitly prohibited by the scene's notes."
+      ]
+    },
+    "scene_025": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_026": {
+      "status": "REJECT",
+      "issues": [
+        "The dialogue excerpts use semicolons and commas not present at those excerpt boundaries in the supplied verse: the source has “Our father is dead; yea,” followed continuously, and has no comma after “wilderness” or “fatigue.” The quotations are not exact contiguous excerpts as punctuated."
+      ]
+    },
+    "scene_027": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_028": {
+      "status": "REJECT",
+      "issues": [
+        "The source's verse 38 is narrated as Laman's allegations, but the scene has no quoted dialogue despite the instruction that dialogue and narration use source quotations. The narration excerpt only covers the final clause and omits the allegation content from the proposed scene."
+      ]
+    },
+    "scene_029": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

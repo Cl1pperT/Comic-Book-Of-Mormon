@@ -1,35 +1,28 @@
 {
-  "stamp": "430bc9212b4d04bf2271cfa0c1114ce9b52d9cc6f918793f4bdd85c45531142c",
+  "stamp": "3006b75ffb1972871049b7a41e074c0b04fe8768af70bb54bf9b310b8b8a3273",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene presents Nephi making an account on plates, a reasonable visual inference from his statement that he proceeds to give an account upon the plates, but the verse does not explicitly say he is writing at this moment."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“he spake unto them concerning the Jews—”' is not verbatim in 1 Nephi 10:2, which reads 'For behold, it came to pass after my father had made an end of speaking the words of his dream, and also of exhorting them to all diligence, he spake unto them concerning the Jews—'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lehi is shown speaking, but the verse reports what he said and does not specify whether he is speaking in this scene or describe any setting or audience."
+        "The quoted dialogue from verse 4 is spoken by Lehi according to verse 2, but Lehi is missing from the characters field.",
+        "The summary's reference to mankind's fallen state is supported by Lehi's reported words, but is not spoken verbatim in the dialogue field."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“Prepare ye the way of the Lord, and make his paths straight;”' is not verbatim in 1 Nephi 10:8, which reads 'Yea, even he should go forth and cry in the wilderness: Prepare ye the way of the Lord, and make his paths straight; for there standeth one among you whom ye know not; and he is mightier than I, whose shoe’s latchet I am not worthy to unloose. And much spake my father concerning this thing.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Lehi is shown speaking, but the quoted passage reports what his father said; the scene does not establish that Lehi is speaking at this moment. The baptism is correctly treated as future, not a present event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "REJECT",
@@ -38,56 +31,46 @@
       ]
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“Yea, even my father spake much concerning the Gentiles”' is not verbatim in 1 Nephi 10:12, which reads 'Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be compared like unto an olive-tree, whose branches should be broken off and should be scattered upon all the face of the earth.'",
-        "Lettering must be an exact source quotation: '“that they should be compared like unto an olive-tree”' is not verbatim in 1 Nephi 10:12, which reads 'Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be compared like unto an olive-tree, whose branches should be broken off and should be scattered upon all the face of the earth.'",
-        "Lettering must be an exact source quotation: '“whose branches should be broken off and should be scattered upon all the face of the earth.”' is not verbatim in 1 Nephi 10:12, which reads 'Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be compared like unto an olive-tree, whose branches should be broken off and should be scattered upon all the face of the earth.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“Wherefore, he said it must needs be that we should be led with one accord into the land of promise, unto the fulfilling of the word of the Lord, that we should be scattered upon all the face of the earth.”' is not verbatim in 1 Nephi 10:13, which reads 'Wherefore, he said it must needs be that we should be led with one accord into the land of promise, unto the fulfilling of the word of the Lord, that we should be scattered upon all the face of the earth.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "REJECT",
       "issues": [
         "Lettering must be an exact source quotation: '“And after the house of Israel should be scattered they should be gathered together again;”' is not verbatim in 1 Nephi 10:14, which reads 'And after the house of Israel should be scattered they should be gathered together again; or, in fine, after the Gentiles had received the fulness of the Gospel, the natural branches of the olive-tree, or the remnants of the house of Israel, should be grafted in, or come to the knowledge of the true Messiah, their Lord and their Redeemer.'",
-        "Lettering must be an exact source quotation: '“And after this manner of language did my father prophesy and speak unto my brethren,”' is not verbatim in 1 Nephi 10:15, which reads 'And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book; for I have written as many of them as were expedient for me in mine other book.'"
+        "Lettering must be an exact source quotation: '“And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book;”' is not verbatim in 1 Nephi 10:15, which reads 'And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book; for I have written as many of them as were expedient for me in mine other book.'"
       ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The tent and valley are supported, but the verse summarizes that the prior events occurred while Lehi dwelt there; it does not specify Lehi's actions or depict those events. The narration accurately quotes the verse."
+        "Verse 16 situates the previously reported events while Lehi dwelt in a tent; it does not establish Lehi as a character visibly present in a new scene. Depicting him in the tent would risk turning that temporal note into a present event."
       ]
     },
     "scene_011": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“I, Nephi, was desirous also that I might see, and hear, and know of these things”' is not verbatim in 1 Nephi 10:17, which reads 'And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.'"
+        "Lettering must be an exact source quotation: '“I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost”' is not verbatim in 1 Nephi 10:17, which reads 'And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.'"
       ]
     },
     "scene_012": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“For he is the same yesterday, to-day, and forever”' is not verbatim in 1 Nephi 10:18, which reads 'For he is the same yesterday, to-day, and forever; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.'",
+        "Lettering must be an exact source quotation: '“For he is the same yesterday, to-day, and forever;”' is not verbatim in 1 Nephi 10:18, which reads 'For he is the same yesterday, to-day, and forever; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.'",
         "Lettering must be an exact source quotation: '“For he that diligently seeketh shall find;”' is not verbatim in 1 Nephi 10:19, which reads 'For he that diligently seeketh shall find; and the mysteries of God shall be unfolded unto them, by the power of the Holy Ghost, as well in these times as in times of old, and as well in times of old as in times to come; wherefore, the course of the Lord is one eternal round.'"
       ]
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“Therefore remember, O man, for all thy doings thou shalt be brought into judgment.”' is not verbatim in 1 Nephi 10:20, which reads 'Therefore remember, O man, for all thy doings thou shalt be brought into judgment.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Nephi is identified as narrator, but the verse does not specify that he is physically present in a scene; no visual setting or manifestation of the Holy Ghost is supported."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }
