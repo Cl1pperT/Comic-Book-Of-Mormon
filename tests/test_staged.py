@@ -296,6 +296,20 @@ def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
     assert written == [] and reason == "usage limit" and tags == ["analyze_2_nephi_1_0"]
     with pytest.raises(ValueError, match="Unknown chapter"):
         book.write_book(tmp_path / "book", source, start="3 Nephi 99", make_provider=Fake)
+    # A live writer's lock makes a second writer stand down; a dead one's lock is taken over.
+    import subprocess, sys
+    other = subprocess.Popen([sys.executable, "-c", "import time; time.sleep(30)"])
+    try:
+        (tmp_path / "book" / "writing.lock").write_text(str(other.pid))
+        tags.clear()
+        written, reason = book.write_book(tmp_path / "book", source, make_provider=Fake)
+        assert written == [] and reason.startswith("another writer is running") and tags == []
+        assert book.repair_blocked(tmp_path / "book", make_provider=Fake)[1].startswith("another writer")
+    finally:
+        other.kill()
+        other.wait()
+    written, reason = book.write_book(tmp_path / "book", source, make_provider=Fake)
+    assert reason == "usage limit" and not (tmp_path / "book" / "writing.lock").exists()
 
 
 def test_nightly_writes_ahead_renders_in_order_and_resumes(tmp_path, monkeypatch):

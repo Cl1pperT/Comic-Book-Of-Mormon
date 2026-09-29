@@ -34,10 +34,18 @@
   .panel.selected { outline: 4px solid var(--accent); outline-offset: -4px; background: var(--hover); }
   .badge { position: absolute; top: 8px; right: 8px; background: var(--flag); color: #fff; font: 600 12px/1 system-ui;
            padding: 5px 7px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none; }
+  .chapter-end { display: flex; gap: 10px; }
   aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface);
           border-left: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 18px; }
   h1 { font-size: 17px; margin: 0; }
   .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .nav { display: flex; gap: 6px; margin-top: 10px; }
+  .nav select { flex: 1; min-width: 0; font: inherit; color: var(--ink); background: var(--bg);
+                border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+  .nav select:focus { outline: 2px solid var(--accent); }
+  button.step { font: inherit; font-weight: 600; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+                border-radius: 8px; padding: 6px 11px; cursor: pointer; }
+  button.step:hover:not(:disabled) { border-color: var(--accent); }
   .card { border: 1px solid var(--line); border-radius: 10px; padding: 14px; background: var(--bg); }
   .hint { color: var(--muted); margin: 0; }
   .meta { font-weight: 600; }
@@ -57,6 +65,8 @@
   .status { font-size: 13px; color: var(--muted); }
   .keys { font-size: 12px; color: var(--muted); margin-top: 8px; }
   h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+  h3 { font-size: 13px; margin: 12px 0 6px; }
+  h3:first-child { margin-top: 0; }
   .flags { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
   .flags button { width: 100%; text-align: left; font: inherit; color: var(--ink); background: var(--bg);
                   border: 1px solid var(--line); border-left: 4px solid var(--flag); border-radius: 8px;
@@ -79,19 +89,24 @@
     <div>
       <h1>Draft review</h1>
       <div class="sub" id="summary"></div>
+      <div class="nav" id="nav" hidden>
+        <button class="step" type="button" id="prev" aria-label="Previous chapter">‹</button>
+        <select id="chapter" aria-label="Chapter"></select>
+        <button class="step" type="button" id="next" aria-label="Next chapter">›</button>
+      </div>
     </div>
     <section class="card" id="editor" aria-live="polite"></section>
     <section>
-      <h2>Flagged panels</h2>
-      <ul class="flags" id="flag-list"></ul>
+      <h2 id="flags-heading">Flagged panels</h2>
+      <div id="flag-list"></div>
     </section>
   </aside>
 </div>
 <script>
 const REASONS = ["Anachronism", "Character looks wrong", "Not in the verses", "Art error"];
-let data = null, flags = {}, selected = null;
-const drafts = {};
-const panels = {};
+let book = [], current = "", data = null, selected = null;
+const drafts = {};   // unsaved notes, keyed by "chapter|panel"
+let panels = {};
 
 const el = (tag, props = {}, children = []) => {
   const node = Object.assign(document.createElement(tag), props);
@@ -99,18 +114,48 @@ const el = (tag, props = {}, children = []) => {
   return node;
 };
 const label = id => "Panel " + Number(id.split("_").pop());
+const chapterOf = id => book.find(c => c.id === id);
+const flagsHere = () => chapterOf(current)?.flags ?? {};
+const q = () => "?chapter=" + encodeURIComponent(current);
+
+async function getJSON(url) {
+  const response = await fetch(url);
+  const body = await response.json();
+  if (!response.ok) throw new Error(body.error);
+  return body;
+}
 
 async function load() {
   try {
-    const response = await fetch("/data");
-    if (!response.ok) throw new Error((await response.json()).error);
-    data = await response.json();
-    flags = data.flags;
-    renderPages();
-    renderSide();
+    book = await getJSON("/chapters");
+    const wanted = decodeURIComponent(location.hash.slice(1));
+    const select = document.getElementById("chapter");
+    select.replaceChildren(...book.map(c => el("option", {value: c.id, textContent: c.title})));
+    document.getElementById("nav").hidden = book.length < 2;
+    await openChapter(chapterOf(wanted) ? wanted : book[0].id);
   } catch (error) {
     document.getElementById("pages").replaceChildren(el("p", {className: "error", textContent: "Could not load the draft: " + error.message}));
   }
+}
+
+async function openChapter(id, panelId = null) {
+  if (selected) stash();
+  current = id;
+  selected = null;
+  if (book.length > 1) history.replaceState(null, "", "#" + encodeURIComponent(id));
+  document.getElementById("chapter").value = id;
+  const index = book.findIndex(c => c.id === id);
+  document.getElementById("prev").disabled = index <= 0;
+  document.getElementById("next").disabled = index >= book.length - 1;
+  data = await getJSON("/data" + q());
+  chapterOf(id).flags = data.flags;
+  renderPages();
+  if (panelId) select(panelId, true); else { renderSide(); window.scrollTo(0, 0); }
+}
+
+function step(delta) {
+  const index = book.findIndex(c => c.id === current) + delta;
+  if (index >= 0 && index < book.length) openChapter(book[index].id);
 }
 
 function renderPages() {
@@ -118,10 +163,11 @@ function renderPages() {
   const pct = (v, total) => (v / total * 100) + "%";
   const root = document.getElementById("pages");
   root.replaceChildren();
+  panels = {};
   for (const page of data.pages) {
     const figure = el("div", {className: "page"}, [
       el("span", {className: "page-label", textContent: "Page " + page.number}),
-      el("img", {src: "/page/" + page.number, alt: "Page " + page.number, width: W, height: H}),
+      el("img", {src: `/page/${page.number}${q()}`, alt: "Page " + page.number, width: W, height: H}),
     ]);
     for (const panel of page.panels) {
       const [x, y, w, h] = panel.frame;
@@ -133,10 +179,21 @@ function renderPages() {
     }
     root.append(figure);
   }
+  if (book.length > 1) {
+    // Reading straight on: the end of a chapter leads to the next one.
+    const index = book.findIndex(c => c.id === current);
+    const nextChapter = book[index + 1];
+    if (nextChapter) {
+      const go = el("button", {className: "step", type: "button", textContent: `Next: ${nextChapter.title} ›`});
+      go.addEventListener("click", () => step(1));
+      root.append(el("div", {className: "chapter-end"}, go));
+    }
+  }
   paintPanels();
 }
 
 function paintPanels() {
+  const flags = flagsHere();
   for (const [id, panel] of Object.entries(panels)) {
     const button = panel.button;
     button.classList.toggle("flagged", id in flags);
@@ -147,8 +204,13 @@ function paintPanels() {
   }
 }
 
+function stash() {
+  const note = document.getElementById("note");
+  if (note && selected) drafts[current + "|" + selected] = note.value;
+}
+
 function select(id, scroll = false) {
-  if (selected) drafts[selected] = document.getElementById("note")?.value ?? drafts[selected];
+  stash();
   selected = id;
   paintPanels();
   renderSide();
@@ -157,16 +219,20 @@ function select(id, scroll = false) {
 }
 
 function renderSide() {
-  const count = Object.keys(flags).length;
-  document.getElementById("summary").textContent =
-    `${data.run} · ${data.pages.length} pages · ${Object.keys(panels).length} panels · ${count} flagged`;
+  const flags = flagsHere();
+  const total = book.reduce((sum, c) => sum + Object.keys(c.flags).length, 0);
+  const chapter = chapterOf(current);
+  document.getElementById("summary").textContent = book.length > 1
+    ? `${book.length} chapters · ${total} flagged · ${chapter.title}: ${data.pages.length} pages, ${Object.keys(panels).length} panels`
+    : `${chapter.title} · ${data.pages.length} pages · ${Object.keys(panels).length} panels · ${total} flagged`;
 
   const editor = document.getElementById("editor");
   if (!selected) {
     editor.replaceChildren(el("p", {className: "hint", textContent: "Click a panel with an error to flag it and note why it's wrong."}));
   } else {
     const panel = panels[selected], saved = flags[selected]?.note ?? "";
-    const note = el("textarea", {id: "note", placeholder: "What's wrong with this panel?", value: drafts[selected] ?? saved});
+    const note = el("textarea", {id: "note", placeholder: "What's wrong with this panel?",
+                                 value: drafts[current + "|" + selected] ?? saved});
     const status = el("span", {className: "status", id: "status"});
     const save = el("button", {className: "primary", type: "button", textContent: selected in flags ? "Update flag" : "Flag panel"});
     const clear = el("button", {className: "secondary", type: "button", textContent: "Remove flag", disabled: !(selected in flags)});
@@ -186,30 +252,39 @@ function renderSide() {
       el("div", {className: "meta"}, [label(selected) + " ", el("span", {textContent: `· ${panel.refs} · page ${panel.page}`})]),
       el("div", {className: "chips"}, chips), note,
       el("div", {className: "actions"}, [save, clear, status]),
-      el("div", {className: "keys", textContent: "Ctrl+Enter saves · Esc closes"}));
+      el("div", {className: "keys", textContent: "Ctrl+Enter saves · Esc closes" + (book.length > 1 ? " · [ ] change chapter" : "")}));
     dirty();
   }
 
+  // Every flag in the book, grouped by chapter; a flag elsewhere opens its chapter at that panel.
+  document.getElementById("flags-heading").textContent = book.length > 1 ? "Flagged panels in the book" : "Flagged panels";
+  const groups = book.filter(c => Object.keys(c.flags).length);
   const list = document.getElementById("flag-list");
-  const ids = Object.keys(flags).sort();
-  list.replaceChildren(...(ids.length ? ids.map(id => {
-    const button = el("button", {type: "button"}, [
-      el("strong", {textContent: label(id)}), " ", el("span", {className: "status", textContent: panels[id]?.refs ?? ""}),
-      el("span", {className: "note", textContent: flags[id].note})]);
-    button.addEventListener("click", () => select(id, true));
-    return el("li", {}, button);
-  }) : [el("li", {className: "hint", textContent: "None yet."})]));
+  if (!groups.length) {
+    list.replaceChildren(el("p", {className: "hint", textContent: "None yet."}));
+    return;
+  }
+  list.replaceChildren(...groups.flatMap(c => {
+    const items = Object.keys(c.flags).sort().map(id => {
+      const button = el("button", {type: "button"}, [
+        el("strong", {textContent: label(id)}), " ", el("span", {className: "status", textContent: c.panels[id] ?? ""}),
+        el("span", {className: "note", textContent: c.flags[id].note})]);
+      button.addEventListener("click", () => c.id === current ? select(id, true) : openChapter(c.id, id));
+      return el("li", {}, button);
+    });
+    return [...(book.length > 1 ? [el("h3", {textContent: c.title})] : []), el("ul", {className: "flags"}, items)];
+  }));
 }
 
 async function submit(note) {
   const status = document.getElementById("status");
   try {
     const response = await fetch("/flag", {method: "POST", headers: {"Content-Type": "application/json"},
-                                           body: JSON.stringify({panel_id: selected, note})});
+                                           body: JSON.stringify({chapter: current, panel_id: selected, note})});
     const body = await response.json();
     if (!response.ok) throw new Error(body.error);
-    flags = body.flags;
-    delete drafts[selected];
+    chapterOf(current).flags = body.flags;
+    delete drafts[current + "|" + selected];
     paintPanels();
     renderSide();
     document.getElementById("status").textContent = note.trim() ? "Saved" : "Flag removed";
@@ -219,9 +294,15 @@ async function submit(note) {
   }
 }
 
+document.getElementById("chapter").addEventListener("change", event => openChapter(event.target.value));
+document.getElementById("prev").addEventListener("click", () => step(-1));
+document.getElementById("next").addEventListener("click", () => step(1));
 document.addEventListener("keydown", event => {
+  const typing = event.target.matches("textarea, select");
   if (event.key === "Escape" && selected) select(null);
   if (event.key === "Enter" && (event.ctrlKey || event.metaKey) && selected) submit(document.getElementById("note").value);
+  if (!typing && event.key === "[") step(-1);
+  if (!typing && event.key === "]") step(1);
 });
 load();
 </script>

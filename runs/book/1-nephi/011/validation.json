@@ -1,17 +1,21 @@
 {
-  "stamp": "b8d677bfaef3837438ba1f17d976acc69444de924f29e02d86c2b217eb0c79a8",
+  "stamp": "209ff673a19e3f84cc4dd5369d53b071466c9c1dd2eaba11bc360ae731bf9974",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Spirit's appearance is unspecified; showing the Spirit facing Nephi is a reasonable but unconfirmed visual choice."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Spirit's appearance is unspecified; showing the Spirit facing Nephi is a reasonable but unconfirmed visual choice."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -26,8 +30,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is identifiable from the preceding scene as the Spirit of the Lord; labeling the figure only as “The speaker” leaves that continuity unspecified."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -50,18 +56,18 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The preceding scene identifies the angel as the speaker; “Unspecified speaker” understates that continuity."
+      ]
     },
     "scene_014": {
       "status": "PASS",
       "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene lettering is 71 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

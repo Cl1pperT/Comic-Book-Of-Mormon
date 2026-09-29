@@ -502,6 +502,11 @@ def _rows(draw, blocks, ref, fonts, width):
 
 def _box(draw, blocks, ref, fonts, inner_w, target_h):
     """Narrowest caption box (of a few widths) whose height stays under target_h."""
+    if not blocks:
+        # A scene with no lettering keeps only its verse tag, sized to the tag, not an empty half-panel box.
+        width = min(inner_w, int(draw.textlength(ref or "", font=fonts["ref"])) + 2 * PAD + 2)
+        height, rows = _rows(draw, blocks, ref, fonts, width)
+        return width, height, rows
     for fraction in BOX_WIDTHS:
         width = int(inner_w * fraction)
         height, rows = _rows(draw, blocks, ref, fonts, width)
@@ -542,8 +547,7 @@ def _caption_options(draw, panel, frame, fonts):
     def variants(blocks, ref, fill, corners):
         default = _box(draw, blocks, ref, fonts, inner_w, inner_h * 0.3)[0]
         out = []
-        for fraction in BOX_WIDTHS:
-            bw = int(inner_w * fraction)
+        for bw in [default] if not blocks else [int(inner_w * fraction) for fraction in BOX_WIDTHS]:
             bh, rows = _rows(draw, blocks, ref, fonts, bw)
             if bw != default and bh > inner_h * MAX_TALL:
                 continue

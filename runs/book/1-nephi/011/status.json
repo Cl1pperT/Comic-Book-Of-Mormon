@@ -4,21 +4,17 @@
   "verses": 36,
   "scenes": 22,
   "counts": {
-    "PASS": 21,
-    "PASS WITH WARNINGS": 0,
-    "REJECT": 1
+    "PASS": 18,
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_015": [
-      "Scene lettering is 71 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
-    ]
-  },
-  "calls": 37,
+  "rejected": {},
+  "calls": 38,
   "tokens": {
-    "input_tokens": 271828,
-    "cached_input_tokens": 148736,
+    "input_tokens": 278872,
+    "cached_input_tokens": 144896,
     "cache_write_input_tokens": 0,
-    "output_tokens": 23897,
-    "reasoning_output_tokens": 1879
+    "output_tokens": 25285,
+    "reasoning_output_tokens": 2562
   }
 }

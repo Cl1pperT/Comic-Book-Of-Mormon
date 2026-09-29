@@ -43,35 +43,6 @@ def keep_awake(on):
         ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if on else 0))
 
 
-class Lock:
-    """One nightly run at a time: a run started by hand keeps the midnight run from doubling up."""
-    def __init__(self, path):
-        self.path = Path(path)
-
-    def __enter__(self):
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        if self.path.exists():
-            pid = int(self.path.read_text() or 0)
-            if pid and _alive(pid):
-                raise SystemExit(f"Another nightly run (pid {pid}) holds {self.path}; exiting.")
-        self.path.write_text(str(os.getpid()))
-        return self
-
-    def __exit__(self, *exc):
-        self.path.unlink(missing_ok=True)
-
-
-def _alive(pid):
-    if sys.platform == "win32":
-        out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH"], capture_output=True, text=True).stdout
-        return str(pid) in out
-    try:
-        os.kill(pid, 0)
-        return True
-    except OSError:
-        return False
-
-
 def comfy_url():
     return (os.getenv("COMFYUI_URL") or "http://127.0.0.1:8188").rstrip("/")
 
@@ -173,7 +144,10 @@ def run(until, write=True, render=True):
     report = {"started": now.isoformat(), "deadline": deadline.isoformat(), "written": [], "repaired": [],
               "rendered": [], "blocked": [], "stopped": None}
     comfy = None
-    with Lock(night / "nightly.lock"):
+    # One nightly run at a time: a run started by hand keeps the midnight run from doubling up.
+    if book.held(night / "nightly.lock"):
+        raise SystemExit(f"Another nightly run holds {night / 'nightly.lock'}; exiting.")
+    with book.Lock(night / "nightly.lock"):
         keep_awake(True)
         try:
             chapters = book.chapters(SOURCE)
@@ -189,11 +163,16 @@ def run(until, write=True, render=True):
                 nonlocal codex_ok
                 if not codex_ok:
                     return
+                if book.held(ROOT / "writing.lock"):
+                    return  # a writer started by hand is working through the book; just render tonight
                 for name, chapter, _ in chapters:
                     if state(name, chapter) == "blocked" and (name, chapter) not in repaired_tonight:
                         repaired_tonight.add((name, chapter))
                         try:
-                            status = book.repair_chapter(ROOT, name, chapter, make_codex)
+                            with book.writing_lock(ROOT):
+                                status = book.repair_chapter(ROOT, name, chapter, make_codex)
+                        except book.Busy:
+                            return
                         except ProviderError as exc:
                             codex_ok = "usage limit" not in str(exc).lower()
                             log(f"Repair of {name} {chapter} stopped: {exc}")

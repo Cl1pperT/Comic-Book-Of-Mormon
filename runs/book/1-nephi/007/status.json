@@ -4,21 +4,24 @@
   "verses": 22,
   "scenes": 13,
   "counts": {
-    "PASS": 12,
-    "PASS WITH WARNINGS": 0,
-    "REJECT": 1
+    "PASS": 9,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 2
   },
   "rejected": {
     "scene_005": [
-      "Scene lettering is 96 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
+      "Dialogue excerpts omit words from their verses (for example, 1 Nephi 7:8 omits the intervening clause before “Behold ye are mine elder brethren,” and 1 Nephi 7:11 stops before “in delivering us…”). Quotations must be contiguous, exact excerpts; use separate excerpts around omissions."
+    ],
+    "scene_006": [
+      "The explicit-facts entry for 1 Nephi 7:14 says the Spirit “will soon cease,” but the source says “ceaseth soon”; do not recast the verse’s present-tense wording as a future event."
     ]
   },
-  "calls": 32,
+  "calls": 34,
   "tokens": {
-    "input_tokens": 236074,
+    "input_tokens": 249699,
     "cached_input_tokens": 111872,
     "cache_write_input_tokens": 0,
-    "output_tokens": 17266,
-    "reasoning_output_tokens": 1441
+    "output_tokens": 18763,
+    "reasoning_output_tokens": 1731
   }
 }

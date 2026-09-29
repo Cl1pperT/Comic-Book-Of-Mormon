@@ -579,7 +579,7 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Nephi speaks as Laban",
+    "title": "The servant follows the narrator",
     "refs": [
       "1 Nephi 4:22",
       "1 Nephi 4:23",
@@ -587,70 +587,79 @@
       "1 Nephi 4:25",
       "1 Nephi 4:26"
     ],
-    "summary": "The servant speaks concerning the elders of the Jews, knowing Laban had been out among them by night. Nephi speaks to him as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids him follow. The servant supposes Nephi is Laban and follows him.",
+    "summary": "The servant speaks to the narrator about the elders of the Jews. The narrator speaks as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids the servant follow him. The servant supposes the narrator is Laban and follows him.",
     "characters": [
-      "Nephi",
+      "The first-person narrator",
       "Laban’s servant"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The servant speaks to Nephi concerning the elders of the Jews, knowing that Laban had been out among them by night.",
+        "text": "The servant speaks to the narrator concerning the elders of the Jews and knows that Laban had been out among them by night.",
         "refs": [
           "1 Nephi 4:22"
         ]
       },
       {
-        "text": "Nephi speaks to the servant as if he were Laban.",
+        "text": "The narrator speaks to the servant as if he were Laban.",
         "refs": [
           "1 Nephi 4:23"
         ]
       },
       {
-        "text": "Nephi says he should carry the engravings on the brass plates to his elder brethren, who were outside the walls.",
+        "text": "The narrator says he should carry the engravings on the brass plates to his elder brethren, who are outside the walls.",
         "refs": [
           "1 Nephi 4:24"
         ]
       },
       {
-        "text": "Nephi bids the servant follow him.",
+        "text": "The narrator bids the servant follow him.",
         "refs": [
           "1 Nephi 4:25"
         ]
       },
       {
-        "text": "The servant supposes Nephi speaks of the brethren of the church and that he is truly Laban, whom Nephi had slain; the servant follows Nephi.",
+        "text": "The servant supposes the narrator means the brethren of the church and is truly Laban, whom the narrator had slain; the servant follows him.",
         "refs": [
           "1 Nephi 4:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi speaks to the servant, who follows him."
+      "The narrator and servant converse before the servant follows him."
     ],
     "unspecified_visual_details": [
-      "The encounter’s location",
+      "The encounter’s exact location",
       "The servant’s exact words",
-      "The appearance and clothing of Nephi and the servant",
+      "The appearance and clothing of the narrator and servant",
       "The route they take"
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.",
+        "text": "concerning the elders of the Jews,",
+        "refs": [
+          "1 Nephi 4:22"
+        ]
+      },
+      {
+        "text": "And I spake unto him as if it had been Laban.",
+        "refs": [
+          "1 Nephi 4:23"
+        ]
+      },
+      {
+        "text": "the engravings, which were upon the plates of brass,",
         "refs": [
           "1 Nephi 4:24"
-        ],
-        "speaker": "Nephi, speaking as if he were Laban"
+        ]
       },
       {
         "text": "And I also bade him that he should follow me.",
         "refs": [
           "1 Nephi 4:25"
-        ],
-        "speaker": "Nephi, speaking as if he were Laban"
-      }
-    ],
-    "narration": [
+        ]
+      },
       {
         "text": "wherefore he did follow me.",
         "refs": [
@@ -659,66 +668,69 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The servant’s supposition is reported; his words are not given."
+      "The verses report speech but do not give its exact spoken words.",
+      "Laban’s earlier death and the servant’s supposition are reported, not new visible events."
     ],
     "prohibited_inventions": [
-      "Do not place the encounter in a treasury or assert that the characters leave one.",
-      "Do not invent dialogue for the servant."
+      "Do not invent dialogue for either speaker.",
+      "Do not depict Laban, the elders, or the elder brethren as present in this encounter.",
+      "Do not place the encounter in a treasury or specify a route."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "The brothers flee from Nephi",
+    "title": "The brothers flee and stop",
     "refs": [
       "1 Nephi 4:27",
       "1 Nephi 4:28",
       "1 Nephi 4:29"
     ],
-    "summary": "As Nephi goes forth to his brothers, who are outside the walls, the servant speaks to him concerning the elders of the Jews. Laman, Lemuel, and Sam see Nephi, become frightened, and flee, supposing he is Laban. Nephi calls after them; they hear him and cease fleeing.",
+    "summary": "As the narrator goes toward his brothers outside the walls, an unidentified man speaks to him many times concerning the elders of the Jews. Laman, Lemuel, and Sam see the narrator, become frightened, and flee, supposing he is Laban. The narrator calls after them; they hear him and stop fleeing.",
     "characters": [
-      "Nephi",
+      "First-person narrator",
       "Laman",
       "Lemuel",
       "Sam",
-      "Laban's servant"
+      "Unidentified man who speaks to the narrator"
     ],
     "locations": [
       "Outside the walls"
     ],
     "explicit_facts": [
       {
-        "text": "As Nephi went forth to his brothers, who were outside the walls, the servant spoke to him many times concerning the elders of the Jews.",
+        "text": "An unidentified man spoke to the narrator many times concerning the elders of the Jews as the narrator went toward his brothers, who were outside the walls.",
         "refs": [
           "1 Nephi 4:27"
         ]
       },
       {
-        "text": "When Laman saw Nephi, he was exceedingly frightened; Lemuel and Sam were also frightened.",
+        "text": "When Laman saw the narrator, Laman was exceedingly frightened; Lemuel and Sam were also frightened.",
         "refs": [
           "1 Nephi 4:28"
         ]
       },
       {
-        "text": "Laman, Lemuel, and Sam fled, supposing Nephi was Laban, who had slain Nephi and sought to take their lives.",
+        "text": "They fled because they supposed the narrator was Laban and supposed Laban had slain him and sought to take their lives.",
         "refs": [
           "1 Nephi 4:28"
         ]
       },
       {
-        "text": "Nephi called after them; they heard him and ceased fleeing.",
+        "text": "The narrator called after them; they heard him and ceased fleeing.",
         "refs": [
           "1 Nephi 4:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brothers run away from Nephi, then stop after hearing him call."
+      "The fleeing brothers come to a stop after hearing the narrator call."
     ],
     "unspecified_visual_details": [
-      "The appearances of Nephi, the servant, and the brothers",
-      "The precise setting outside the walls",
-      "The words Nephi calls out"
+      "The appearance of each person",
+      "The identity of the man who speaks to the narrator",
+      "The precise appearance of the walls and surrounding area",
+      "The words of the narrator’s call"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -729,19 +741,20 @@
         ]
       },
       {
-        "text": "And it came to pass that I called after them, and they did hear me;",
+        "text": "And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.",
         "refs": [
           "1 Nephi 4:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The source reports Nephi's call but does not give its words.",
-      "Laban is mentioned as the person the brothers suppose Nephi to be; the verses do not describe him as present."
+      "The brothers’ belief about Laban is their supposition, not a narrated event.",
+      "The source reports the call but gives none of its words."
     ],
     "prohibited_inventions": [
-      "Do not invent spoken words for Nephi's call.",
-      "Do not depict Laban as present or assign the servant a personal name."
+      "Do not identify the man who speaks to the narrator.",
+      "Do not depict Laban as present or depict the brothers’ supposition as an event.",
+      "Do not invent words for the narrator’s call."
     ],
     "importance": "normal"
   },
@@ -752,110 +765,132 @@
       "1 Nephi 4:30",
       "1 Nephi 4:31"
     ],
-    "summary": "Laban’s servant sees Nephi’s brothers, trembles, and is about to flee from Nephi and return to Jerusalem. Nephi seizes and holds him so he cannot flee.",
+    "summary": "Laban’s servant sees Nephi’s brothers, trembles, and is about to flee from Nephi toward Jerusalem. Nephi seizes and holds him to prevent his flight.",
     "characters": [
       "Nephi",
       "Laban’s servant",
       "Nephi’s brothers"
     ],
     "locations": [
-      "Unspecified location; the servant is about to return to Jerusalem"
+      "Unspecified location outside the city of Jerusalem"
     ],
     "explicit_facts": [
       {
-        "text": "Laban’s servant sees Nephi’s brothers, trembles, and is about to flee from Nephi and return to the city of Jerusalem.",
+        "text": "Laban’s servant beholds Nephi’s brothers, begins to tremble, and is about to flee from Nephi and return to Jerusalem.",
         "refs": [
           "1 Nephi 4:30"
         ]
       },
       {
-        "text": "Nephi describes himself as large in stature and as having received much strength from the Lord; he seizes and holds Laban’s servant to prevent him from fleeing.",
+        "text": "Nephi describes himself as large in stature and as having received much strength from the Lord.",
+        "refs": [
+          "1 Nephi 4:31"
+        ]
+      },
+      {
+        "text": "Nephi seizes and holds the servant so that he cannot flee.",
         "refs": [
           "1 Nephi 4:31"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi restrains the servant while Nephi’s brothers are present."
+      "Nephi’s brothers are within sight of the servant when he sees them.",
+      "Nephi physically restrains the servant."
     ],
     "unspecified_visual_details": [
       "The precise setting and its appearance",
-      "The servant’s posture and expression beyond trembling",
-      "The brothers’ identities, appearance, and reactions"
+      "The servant’s appearance and posture beyond his trembling and attempted flight",
+      "The brothers’ appearances and reactions",
+      "The manner in which Nephi holds the servant"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And now I, Nephi, being a man large in stature, and also having received much strength of the Lord,",
+        "text": "when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem.",
+        "refs": [
+          "1 Nephi 4:30"
+        ]
+      },
+      {
+        "text": "I did seize upon the servant of Laban, and held him, that he should not flee.",
         "refs": [
           "1 Nephi 4:31"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Nephi attributes his strength to the Lord; the verses do not describe a visible divine appearance."
+    ],
     "prohibited_inventions": [
-      "Do not identify the brothers by names not supplied in these verses.",
-      "Do not depict the flight as completed or place the scene in Jerusalem.",
-      "Do not add a fight, injury, dialogue, or reactions not stated in the verses."
+      "Do not name the brothers or give the servant a name or biography.",
+      "Do not show the servant completing his flight or place this encounter in Jerusalem.",
+      "Do not add dialogue, a fight, injury, or unstated reactions.",
+      "Do not depict the Lord as visibly appearing."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "Nephi speaks to the servant",
+    "title": "An oath and an offer",
     "refs": [
       "1 Nephi 4:32",
       "1 Nephi 4:33",
       "1 Nephi 4:34"
     ],
-    "summary": "Nephi speaks with the servant, saying they will spare his life if he hearkens to their words. Nephi swears that the servant need not fear and may be free like them if he goes into the wilderness with them. Nephi says the Lord commanded them and offers the servant a place with them if he goes to Nephi’s father.",
+    "summary": "The speaker tells a man that they will spare his life if he hearkens to their words. Speaking with an oath, he says the man need not fear and can be free like them if he goes into the wilderness with them. He says the Lord commanded them and offers the man a place with them if he goes to the speaker’s father.",
     "characters": [
-      "Nephi",
-      "Laban’s servant"
+      "The first-person speaker",
+      "The man he addresses"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi speaks with him and says that they would spare his life if he hearkens to their words.",
+        "text": "The speaker says they will spare the man’s life if he hearkens to their words.",
         "refs": [
           "1 Nephi 4:32"
         ]
       },
       {
-        "text": "Nephi swears that the servant need not fear and should be a free man like them if he goes into the wilderness with them.",
+        "text": "Speaking with an oath, the speaker says the man need not fear and should be free like them if he goes into the wilderness with them.",
         "refs": [
           "1 Nephi 4:33"
         ]
       },
       {
-        "text": "Nephi says the Lord commanded them and says the servant will have a place with them if he goes into the wilderness to Nephi’s father.",
+        "text": "The speaker says the Lord commanded them to do this thing and offers the man a place with them if he goes into the wilderness to the speaker’s father.",
         "refs": [
           "1 Nephi 4:34"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is speaking with the servant."
+      "The speaker and the man he addresses are together for the conversation."
     ],
     "unspecified_visual_details": [
-      "The location of the conversation",
-      "Whether Nephi has released or is holding the servant",
-      "The servant’s response and demeanor"
+      "The conversation’s exact location",
+      "The speakers’ appearances and clothing",
+      "The man’s response and demeanor"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And it came to pass that I spake with him,",
+        "text": "Surely the Lord hath commanded us to do this thing; and shall we not be diligent in keeping the commandments of the Lord? Therefore, if thou wilt go down into the wilderness to my father thou shalt have place with us.",
         "refs": [
-          "1 Nephi 4:32"
-        ]
+          "1 Nephi 4:34"
+        ],
+        "speaker": "The first-person speaker"
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The journey into the wilderness is proposed, not narrated as occurring in these verses.",
+      "The Lord is mentioned but no appearance is described."
+    ],
     "prohibited_inventions": [
-      "Do not present Nephi’s reported words as verbatim dialogue; the verses provide no direct dialogue quotation.",
-      "Do not include Laman, Lemuel, or Sam as present; their presence is not stated.",
-      "Do not invent a response from the servant."
+      "Do not turn the reported speech in verses 32–33 into verbatim dialogue.",
+      "Do not depict the proposed journey as already underway.",
+      "Do not invent a response from the man or depict the speaker’s father as present.",
+      "Do not invent a visible appearance of the Lord."
     ],
     "importance": "normal"
   },

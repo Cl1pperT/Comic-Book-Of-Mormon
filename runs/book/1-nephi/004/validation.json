@@ -1,5 +1,5 @@
 {
-  "stamp": "2fe2166197993f1a768ead5c6ff6abbc977d238da19ac8629a1d8141b5a3fdc2",
+  "stamp": "f3fabe195dc1936eea09f88ebb4aa3bdf0ec0fe3f198b96eb24d89e0e9001e26",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,34 +34,24 @@
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "The batch audit returned no verdict for this scene; validate again"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The batch audit returned no verdict for this scene; validate again"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The batch audit returned no verdict for this scene; validate again"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The batch audit returned no verdict for this scene; validate again"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene title says “Zoram makes an oath,” but verse 35 says Zoram makes an oath to remain with them, not where it happens; listing the location as wilderness is not established. The group is not stated to be physically in the wilderness at this moment."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",

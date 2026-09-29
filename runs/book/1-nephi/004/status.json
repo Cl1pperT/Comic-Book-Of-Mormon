@@ -4,30 +4,17 @@
   "verses": 38,
   "scenes": 14,
   "counts": {
-    "PASS": 9,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 4
+    "PASS": 14,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_009": [
-      "The batch audit returned no verdict for this scene; validate again"
-    ],
-    "scene_010": [
-      "The batch audit returned no verdict for this scene; validate again"
-    ],
-    "scene_011": [
-      "The batch audit returned no verdict for this scene; validate again"
-    ],
-    "scene_012": [
-      "The batch audit returned no verdict for this scene; validate again"
-    ]
-  },
-  "calls": 35,
+  "rejected": {},
+  "calls": 39,
   "tokens": {
-    "input_tokens": 284675,
-    "cached_input_tokens": 129280,
+    "input_tokens": 310241,
+    "cached_input_tokens": 138496,
     "cache_write_input_tokens": 0,
-    "output_tokens": 20991,
-    "reasoning_output_tokens": 852
+    "output_tokens": 24653,
+    "reasoning_output_tokens": 2408
   }
 }

@@ -211,6 +211,57 @@ def test_reader_flags_panels_of_the_assembled_draft(pipeline):
             server.shutdown()
 
 
+def test_reader_pages_through_a_folder_of_chapters_in_book_order(pipeline, tmp_path):
+    import shutil
+    import threading
+    import urllib.request
+    from http.server import ThreadingHTTPServer
+    from bom_comic import reader
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    root = tmp_path / "book"
+    # "alma" sorts before "1-nephi" alphabetically; book order must win.
+    for folder, name, number in (("alma/001", "Alma", 1), ("1-nephi/002", "1 Nephi", 2)):
+        shutil.copytree(pipeline.store.root, root / folder)
+        (root / folder / "status.json").write_text(json.dumps({"book": name, "chapter": number}), encoding="utf-8")
+    # Reassembly archives the previous manifest; archived copies are not chapters.
+    shutil.copytree(root / "alma/001/final", root / "alma/001/archive/old/final")
+    book = Store(root)
+    assert list(reader.chapters(book)) == ["1-nephi/002", "alma/001"]
+    overview = reader.overview(book)
+    assert [c["title"] for c in overview] == ["1 Nephi 2", "Alma 1"] and overview[0]["panels"]["panel_001"]
+    servers, started, real = [], threading.Event(), ThreadingHTTPServer
+
+    class Capture(real):
+        def __init__(self, *a, **k):
+            super().__init__(*a, **k)
+            servers.append(self)
+            started.set()
+    reader.ThreadingHTTPServer = Capture
+    try:
+        threading.Thread(target=reader.serve, args=(book, 0, False), daemon=True).start()
+        started.wait(5)
+        base = f"http://127.0.0.1:{servers[0].server_address[1]}"
+        assert urllib.request.urlopen(base + "/page/1?chapter=alma/001").read().startswith(b"\x89PNG")
+        request = urllib.request.Request(base + "/flag", json.dumps({"chapter": "alma/001", "panel_id": "panel_001",
+                                                                     "note": "Wings"}).encode())
+        urllib.request.urlopen(request)
+        # The flag lands in that chapter only, and the book-wide list shows it.
+        assert reader.flags(Store(root / "alma/001"))["panel_001"]["note"] == "Wings"
+        assert reader.flags(Store(root / "1-nephi/002")) == {}
+        chapters = json.loads(urllib.request.urlopen(base + "/chapters").read())
+        assert [bool(c["flags"]) for c in chapters] == [False, True]
+        # A chapter outside the discovered list is refused.
+        with pytest.raises(urllib.error.HTTPError):
+            urllib.request.urlopen(base + "/data?chapter=../..")
+    finally:
+        reader.ThreadingHTTPServer = real
+        for server in servers:
+            server.shutdown()
+
+
 def test_panel_story_edits_blocked(pipeline):
     ready(pipeline)
     data = pipeline.store.read("panels.json")
@@ -613,6 +664,16 @@ def test_captions_move_to_the_corner_that_keeps_faces_clear():
     tall = [((103, 103, 303, 450), ["n"], "caption", 0)]
     placed, _ = place_captions([tall, speech], frame, [(500, 330, 60, 60)])
     assert corners(placed) == [(103, 103, 303, 450), br]
+
+
+def test_scene_without_lettering_gets_only_a_small_verse_tag():
+    from bom_comic.comic import _caption_options, _measure
+    draw, fonts = _measure()
+    panel = make_panel(1).model_copy(update={"narration": [], "dialogue": []})
+    [options] = _caption_options(draw, panel, (48, 48, 600, 400), fonts)
+    widths = {b[2] - b[0] for b, *_ in options}
+    assert len(widths) == 1 and widths.pop() < 200
+    assert [kind for kind, _ in options[0][1]] == ["ref"]
 
 
 def test_long_speaker_labels_wrap_inside_their_box():
