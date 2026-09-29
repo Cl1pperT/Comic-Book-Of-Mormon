@@ -6,35 +6,45 @@
       "1 Nephi 16:1",
       "1 Nephi 16:2"
     ],
-    "summary": "After Nephi finishes speaking, his brothers tell him his words are hard to bear. Nephi answers that he spoke truth against the wicked and justified the righteous.",
+    "summary": "After Nephi finishes speaking, his brethren tell him his words are hard to bear. Nephi responds that he spoke truth against the wicked, justified the righteous, and testified that they would be lifted up at the last day. He says the guilty find truth hard.",
     "characters": [
       "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam"
+      "Nephi's brethren (individuals unspecified)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After Nephi finished speaking, his brothers said that he had declared hard things they could not bear.",
+        "text": "Nephi had finished speaking to his brethren before they replied.",
         "refs": [
           "1 Nephi 16:1"
         ]
       },
       {
-        "text": "Nephi said he had spoken hard things against the wicked according to truth and justified the righteous.",
+        "text": "His brethren said he had declared hard things, more than they could bear.",
+        "refs": [
+          "1 Nephi 16:1"
+        ]
+      },
+      {
+        "text": "Nephi said he had spoken hard things against the wicked according to truth, justified the righteous, and testified that they should be lifted up at the last day.",
+        "refs": [
+          "1 Nephi 16:2"
+        ]
+      },
+      {
+        "text": "Nephi said the guilty take truth to be hard.",
         "refs": [
           "1 Nephi 16:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi and his brothers are gathered together for the exchange."
+      "Nephi and his brethren are near enough to speak to one another."
     ],
     "unspecified_visual_details": [
-      "Their precise positions, expressions, clothing, and surroundings are not stated."
+      "The setting, clothing, positions, expressions, and identities of individual brethren are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -42,63 +52,86 @@
         "refs": [
           "1 Nephi 16:1"
         ],
-        "speaker": "Nephi's brothers"
+        "speaker": "Nephi's brethren (individual speaker unspecified)"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "I said unto them that I knew that I had spoken hard things against the wicked, according to the truth; and the righteous have I justified, and testified that they should be lifted up at the last day;",
+        "refs": [
+          "1 Nephi 16:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Nephi's explanation about the truth being hard to the guilty is his teaching, not a separate visible event."
+      "Nephi's statements about the righteous being lifted up and truth cutting the guilty are teachings, not visible events in this exchange.",
+      "Nephi's response is reported indirectly; do not recast it as verbatim direct dialogue."
     ],
     "prohibited_inventions": [
-      "Do not show truth physically cutting anyone.",
-      "Do not depict a distinct supernatural event for Nephi's explanation."
+      "Do not identify individual brethren or assign the collective quotation to a named brother.",
+      "Do not show truth physically cutting anyone or depict a separate scene of the righteous being lifted up.",
+      "Do not invent a location or supernatural appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Nephi Exhorts His Brothers",
+    "title": "Nephi Exhorts His Brethren",
     "refs": [
       "1 Nephi 16:3",
       "1 Nephi 16:4"
     ],
-    "summary": "Nephi tells his brothers that the righteous would not murmur against truth, then exhorts them to keep the Lord's commandments.",
+    "summary": "Nephi tells his brethren that if they were righteous, willing to heed the truth, and seeking to walk uprightly before God, they would not murmur because of the truth. He exhorts them diligently to keep the Lord's commandments.",
     "characters": [
       "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam"
+      "Nephi's unnamed brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says the righteous would hearken to truth and not murmur because of it.",
+        "text": "Nephi tells his brethren that if they were righteous and willing to heed the truth so they might walk uprightly before God, they would not murmur because of the truth.",
         "refs": [
           "1 Nephi 16:3"
         ]
       },
       {
-        "text": "Nephi exhorts his brothers to keep the Lord's commandments.",
+        "text": "Nephi diligently exhorts his brethren to keep the Lord's commandments.",
         "refs": [
           "1 Nephi 16:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is speaking to his brothers."
+      "Nephi addresses his brethren."
     ],
     "unspecified_visual_details": [
-      "Gestures, expressions, and exact surroundings are not stated."
+      "The setting, clothing, gestures, and expressions are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [],
+    "spoken_dialogue": [
+      {
+        "text": "And now my brethren, if ye were righteous and were willing to hearken to the truth, and give heed unto it, that ye might walk uprightly before God, then ye would not murmur because of the truth, and say: Thou speakest hard things against us.",
+        "refs": [
+          "1 Nephi 16:3"
+        ],
+        "speaker": "Nephi"
+      }
+    ],
+    "narration": [
+      {
+        "text": "I, Nephi, did exhort my brethren, with all diligence, to keep the commandments of the Lord.",
+        "refs": [
+          "1 Nephi 16:4"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This is a teaching and exhortation, not a separate physical event."
+      "The conditional statement is a teaching, not a separate event to depict."
     ],
     "prohibited_inventions": [
-      "Do not invent additional dialogue."
+      "Do not name the brethren or add dialogue.",
+      "Do not depict a divine appearance or a literalized metaphor."
     ],
     "importance": "normal"
   },
@@ -109,49 +142,72 @@
       "1 Nephi 16:5",
       "1 Nephi 16:6"
     ],
-    "summary": "Nephi's brothers humble themselves before the Lord, and Nephi feels joy and hope for them. These things happen while their father dwells in a tent in the valley he called Lemuel.",
+    "summary": "They humble themselves before the Lord. The narrator feels joy and great hopes that they will walk in the paths of righteousness. These things are said and done while the narrator's father dwells in a tent in a valley he called Lemuel.",
     "characters": [
-      "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
-      "Lehi"
+      "Unnamed group referred to as “they”",
+      "First-person narrator",
+      "Narrator's father"
     ],
     "locations": [
-      "valley of Lemuel"
+      "The valley the narrator's father called Lemuel"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi's brothers humbled themselves before the Lord, bringing Nephi joy and hope.",
+        "text": "The group referred to as “they” humbled themselves before the Lord.",
         "refs": [
           "1 Nephi 16:5"
         ]
       },
       {
-        "text": "These events took place while Lehi dwelt in a tent in the valley he called Lemuel.",
+        "text": "The narrator had joy and great hopes that they would walk in the paths of righteousness.",
+        "refs": [
+          "1 Nephi 16:5"
+        ]
+      },
+      {
+        "text": "These things were said and done while the narrator's father dwelt in a tent in a valley he called Lemuel.",
         "refs": [
           "1 Nephi 16:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brothers may be shown in a humble posture."
+      "The unnamed group may be shown in a humble posture.",
+      "A tent may be shown in the valley."
     ],
     "unspecified_visual_details": [
-      "The manner of their humbling and the visual appearance of the valley are not specified."
+      "The identities and number of people in the group are not specified.",
+      "The group's precise actions and the appearance of the tent and valley are not specified.",
+      "The narrator's physical location is not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did humble themselves before the Lord",
+        "text": "they did humble themselves before the Lord;",
         "refs": [
           "1 Nephi 16:5"
         ]
+      },
+      {
+        "text": "insomuch that I had joy and great hopes of them, that they would walk in the paths of righteousness.",
+        "refs": [
+          "1 Nephi 16:5"
+        ]
+      },
+      {
+        "text": "my father dwelt in a tent in the valley which he called Lemuel.",
+        "refs": [
+          "1 Nephi 16:6"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The hope that the group would walk in the paths of righteousness is the narrator's hope, not a separately narrated future event."
+    ],
     "prohibited_inventions": [
-      "Do not portray an unseen divine figure."
+      "Do not identify individual members of the unnamed group.",
+      "Do not depict the Lord appearing; no appearance is described.",
+      "Do not place the narrator or the group at the tent without textual support."
     ],
     "importance": "normal"
   },
@@ -162,53 +218,73 @@
       "1 Nephi 16:7",
       "1 Nephi 16:8"
     ],
-    "summary": "Nephi, his brothers, and Zoram marry daughters of Ishmael. Nephi says his father had fulfilled the Lord's commandments and that Nephi had been greatly blessed.",
+    "summary": "Nephi, his brethren, and Zoram took daughters of Ishmael to wife; Zoram took the eldest daughter. Nephi says his father had fulfilled the Lord's commandments and that he had been blessed exceedingly.",
     "characters": [
       "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
+      "Nephi's brethren",
       "Zoram",
-      "Ishmael",
-      "Ishmael's daughters"
+      "daughters of Ishmael"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi, his brothers, and Zoram each took a daughter of Ishmael to wife; Zoram married the eldest daughter.",
+        "text": "Nephi took one of Ishmael's daughters to wife.",
         "refs": [
           "1 Nephi 16:7"
         ]
       },
       {
-        "text": "Nephi says his father had fulfilled the Lord's commandments and that Nephi had been blessed exceedingly.",
+        "text": "Nephi's brethren took daughters of Ishmael to wife.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      },
+      {
+        "text": "Zoram took Ishmael's eldest daughter to wife.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      },
+      {
+        "text": "Nephi says his father had fulfilled the commandments of the Lord given to him.",
+        "refs": [
+          "1 Nephi 16:8"
+        ]
+      },
+      {
+        "text": "Nephi says he had been blessed exceedingly by the Lord.",
         "refs": [
           "1 Nephi 16:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The marriages may be represented by the couples together."
+      "The marriages may be represented by couples, without implying a shared ceremony or time."
     ],
     "unspecified_visual_details": [
-      "The ceremonies, dates, clothing, and appearance of the spouses are not given."
+      "The location, timing, ceremonies, clothing, and appearances are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I, Nephi, had been blessed of the Lord exceedingly.",
+        "text": "Zoram took the eldest daughter of Ishmael to wife.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      },
+      {
+        "text": "And also, I, Nephi, had been blessed of the Lord exceedingly.",
         "refs": [
           "1 Nephi 16:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 8 summarizes fulfillment and blessing; it does not describe a separate visible ceremony."
+      "Verse 8 reports fulfillment and blessing; it does not describe a visible divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not invent a wedding ritual or additional family relationships."
+      "Do not identify Nephi's brethren individually or depict Ishmael or Nephi's father as present.",
+      "Do not invent a wedding ceremony, a shared time or place for the marriages, or a visible manifestation of the blessing."
     ],
     "importance": "normal"
   },
@@ -428,46 +504,53 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "Hunting at Shazer",
+    "title": "Going Forth to Hunt",
     "refs": [
       "1 Nephi 16:14"
     ],
-    "summary": "The group takes bows and arrows into the wilderness to hunt food for their families, returns to Shazer, then continues along the same direction through fertile parts near the Red Sea.",
+    "summary": "The group takes bows and arrows and goes into the wilderness to obtain food for their families.",
     "characters": [
-      "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
-      "Zoram",
-      "Lehi",
-      "Sariah",
-      "Ishmael's daughters"
+      "Unnamed members of the group"
     ],
     "locations": [
-      "Shazer",
-      "borders near the shore of the Red Sea"
+      "Wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The group hunts with bows and arrows, returns to its families at Shazer, and travels onward in the same direction through fertile wilderness near the Red Sea.",
+        "text": "The group takes bows and arrows.",
+        "refs": [
+          "1 Nephi 16:14"
+        ]
+      },
+      {
+        "text": "They go into the wilderness to obtain food for their families.",
         "refs": [
           "1 Nephi 16:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Hunters may be shown with bows and arrows in the wilderness."
+      "Members of the group may be shown carrying bows and arrows as they enter the wilderness."
     ],
     "unspecified_visual_details": [
-      "The exact number and identities of hunters and the hunted food are not specified."
+      "The number and identities of the hunters are not specified.",
+      "The appearance of the wilderness is not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "we did take our bows and our arrows, and go forth into the wilderness to slay food for our families;",
+        "refs": [
+          "1 Nephi 16:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse recounts hunting, return, and renewed travel; these are distinct times, not a single action."
+      "The return to Shazer and subsequent travel occur later and are not part of this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a kill unless shown as a separate supported moment."
+      "Do not show the return to Shazer or subsequent travel in this scene.",
+      "Do not assign names to the hunters or invent dialogue."
     ],
     "importance": "normal"
   },
@@ -478,47 +561,48 @@
       "1 Nephi 16:15",
       "1 Nephi 16:16"
     ],
-    "summary": "For many days, the group travels and hunts with bows, arrows, stones, and slings, following the ball's directions through fertile parts of the wilderness.",
+    "summary": "The group travels for many days, obtains food using bows, arrows, stones, and slings, and follows the ball’s directions through more fertile parts of the wilderness.",
     "characters": [
-      "Lehi",
-      "Sariah",
-      "Laman",
-      "Lemuel",
-      "Sam",
-      "Nephi",
-      "Zoram",
-      "Ishmael's daughters"
+      "Unnamed travelers"
     ],
     "locations": [
-      "borders near the shore of the Red Sea"
+      "More fertile parts of the wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The group travels many days, hunting with bows, arrows, stones, and slings.",
+        "text": "The group travels for many days and slays food with bows, arrows, stones, and slings.",
         "refs": [
           "1 Nephi 16:15"
         ]
       },
       {
-        "text": "They follow the ball's directions into more fertile parts of the wilderness.",
+        "text": "The group follows the ball’s directions, which lead through more fertile parts of the wilderness.",
         "refs": [
           "1 Nephi 16:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The ball may be shown as a guide while the group travels."
+      "The ball can be shown with the travelers as they follow its directions."
     ],
     "unspecified_visual_details": [
-      "The exact route and specific hunting moments are not detailed."
+      "The ball’s appearance, the route, and the animals hunted are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And we did follow the directions of the ball, which led us in the more fertile parts of the wilderness.",
+        "refs": [
+          "1 Nephi 16:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The many days are summarized as travel, not a single instantaneous event."
+      "The travel spans many days; do not present it as a single moment."
     ],
     "prohibited_inventions": [
-      "Do not invent a new destination."
+      "Do not place the scene near the Red Sea.",
+      "Do not assign names to the travelers or invent a destination."
     ],
     "importance": "normal"
   },
@@ -910,22 +994,20 @@
       "1 Nephi 16:28",
       "1 Nephi 16:29"
     ],
-    "summary": "Nephi beholds the ball’s pointers working according to the faith, diligence, and heed given to them. Writing on the ball is plain to read, gives understanding concerning the Lord’s ways, and changes from time to time according to their faith and diligence.",
+    "summary": "Nephi beholds the pointers in the ball working according to the faith, diligence, and heed given to them. New writing on the pointers is plain to read and gives understanding concerning the ways of the Lord. The writing changes from time to time according to their faith and diligence.",
     "characters": [
       "Nephi"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi beholds that the pointers in the ball work according to their faith, diligence, and heed.",
+        "text": "Nephi beholds the pointers in the ball working according to the faith, diligence, and heed given to them.",
         "refs": [
           "1 Nephi 16:28"
         ]
       },
       {
-        "text": "Writing is on the ball, plain to read, and gives understanding concerning the ways of the Lord.",
+        "text": "New writing is upon the pointers, is plain to read, and gives understanding concerning the ways of the Lord.",
         "refs": [
           "1 Nephi 16:29"
         ]
@@ -935,35 +1017,22 @@
         "refs": [
           "1 Nephi 16:29"
         ]
-      },
-      {
-        "text": "By small means the Lord can bring about great things.",
-        "refs": [
-          "1 Nephi 16:29"
-        ]
       }
     ],
     "reasonable_visual_inferences": [
       "Nephi may be shown looking at the ball and its pointers."
     ],
     "unspecified_visual_details": [
-      "The ball’s appearance and the writing’s appearance or specific content are not stated."
+      "The ball’s appearance, the pointers’ appearance, and the writing’s specific content are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "by small means the Lord can bring about great things.",
-        "refs": [
-          "1 Nephi 16:29"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The statement about small means is a teaching, not a separate visible event."
+      "The statement that the Lord can bring about great things by small means is a teaching, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict writing appearing or changing during this moment; no timing for a change is specified.",
-      "Do not visualize the teaching as a supernatural event."
+      "Do not depict the writing changing during this moment; the verse does not specify when a change occurs.",
+      "Do not depict the teaching about small means as a supernatural event."
     ],
     "importance": "normal"
   },
@@ -1099,55 +1168,53 @@
   },
   {
     "scene_id": "scene_024",
-    "title": "Returning to the Tents",
+    "title": "Pitching Tents After Many Days",
     "refs": [
       "1 Nephi 16:33"
     ],
-    "summary": "They again take their journey, traveling nearly the same course as in the beginning. After many days, they pitch their tents again to tarry for a time.",
-    "characters": [],
+    "summary": "After traveling for many days, the travelers pitch their tents again to tarry for a time.",
+    "characters": [
+      "unnamed travelers"
+    ],
     "locations": [
       "unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "They again take their journey, traveling nearly the same course as in the beginning.",
+        "text": "The travelers had traveled for many days before pitching their tents again.",
         "refs": [
           "1 Nephi 16:33"
         ]
       },
       {
-        "text": "After traveling many days, they pitch their tents again to tarry for a time.",
+        "text": "They pitched their tents to tarry for a time.",
         "refs": [
           "1 Nephi 16:33"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The journey and later encampment are separate moments."
+      "Travelers can be shown pitching tents at this later moment."
     ],
     "unspecified_visual_details": [
-      "The travelers' identities and number are unspecified.",
-      "The route, landscape, tent arrangement, and duration of the stay are unspecified."
+      "The travelers’ number and appearances are unspecified.",
+      "The landscape, tent design, and duration of the stay are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that we did again take our journey, traveling nearly the same course as in the beginning;",
-        "refs": [
-          "1 Nephi 16:33"
-        ]
-      },
-      {
-        "text": "and after we had traveled for the space of many days we did pitch our tents again, that we might tarry for the space of a time.",
+        "text": "we did pitch our tents again, that we might tarry for the space of a time.",
         "refs": [
           "1 Nephi 16:33"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The earlier journey is context, not a second depicted moment."
+    ],
     "prohibited_inventions": [
-      "Do not add events from verse 32.",
-      "Do not depict the journey and later encampment as simultaneous."
+      "Do not depict the earlier journey and the later encampment simultaneously.",
+      "Do not add events from other verses."
     ],
     "importance": "normal"
   },
@@ -1195,59 +1262,42 @@
       "1 Nephi 16:35",
       "1 Nephi 16:36"
     ],
-    "summary": "Ishmael's daughters mourn their father's death and their wilderness afflictions. They complain against Lehi and Nephi and desire to return to Jerusalem.",
+    "summary": "Ishmael's daughters mourn their father's loss and their afflictions in the wilderness. They murmur against the narrator's father and the narrator and desire to return to Jerusalem.",
     "characters": [
-      "Ishmael's daughters",
-      "Lehi",
-      "Nephi"
+      "Ishmael's daughters"
     ],
     "locations": [
-      "Nahom"
+      "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "Ishmael's daughters mourn their father's loss and their wilderness afflictions, and complain against Lehi.",
+        "text": "Ishmael's daughters mourn the loss of their father and their afflictions in the wilderness.",
         "refs": [
           "1 Nephi 16:35"
         ]
       },
       {
-        "text": "They also complain against Nephi and desire to return to Jerusalem.",
+        "text": "They murmur against the narrator's father.",
+        "refs": [
+          "1 Nephi 16:35"
+        ]
+      },
+      {
+        "text": "They also murmur against the narrator and desire to return to Jerusalem.",
         "refs": [
           "1 Nephi 16:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The daughters may be shown mourning and addressing their complaints to Lehi and Nephi."
+      "The daughters may be shown mourning in the wilderness."
     ],
     "unspecified_visual_details": [
-      "The manner of mourning and the exact words of their complaint are not described beyond the quoted statement."
+      "Their clothing, surroundings, and manner of mourning are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Our father is dead;",
-        "refs": [
-          "1 Nephi 16:35"
-        ],
-        "speaker": "Ishmael's daughters"
-      },
-      {
-        "text": "yea, and we have wandered much in the wilderness,",
-        "refs": [
-          "1 Nephi 16:35"
-        ],
-        "speaker": "Ishmael's daughters"
-      },
-      {
-        "text": "and we have suffered much affliction, hunger, thirst, and fatigue;",
-        "refs": [
-          "1 Nephi 16:35"
-        ],
-        "speaker": "Ishmael's daughters"
-      },
-      {
-        "text": "and after all these sufferings we must perish in the wilderness with hunger.",
+        "text": "Our father is dead; yea, and we have wandered much in the wilderness, and we have suffered much affliction, hunger, thirst, and fatigue; and after all these sufferings we must perish in the wilderness with hunger.",
         "refs": [
           "1 Nephi 16:35"
         ],
@@ -1257,7 +1307,8 @@
     "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show a journey back to Jerusalem; they only desire to return."
+      "Do not show a journey back to Jerusalem; they only desire to return.",
+      "Do not depict their father's death or burial; neither event is described here."
     ],
     "importance": "normal"
   },
@@ -1312,27 +1363,27 @@
     "refs": [
       "1 Nephi 16:38"
     ],
-    "summary": "Laman says that Nephi claims the Lord has talked with him and angels have ministered to him. He accuses Nephi of lying and using cunning arts, and says Nephi may seek to lead them into a strange wilderness and make himself king and ruler. Laman stirs their hearts to anger.",
+    "summary": "Laman says that Nephi claims the Lord has talked with him and angels have ministered to him. Laman accuses him of lying and using cunning arts to deceive them, suggests he may lead them into a strange wilderness, and says he intends to become their king and ruler. Laman stirs their hearts to anger.",
     "characters": [
       "Laman",
-      "Laman's brothers"
+      "unnamed listeners"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Laman reports Nephi's claims that the Lord has talked with him and angels have ministered to him.",
+        "text": "Laman reports that Nephi says the Lord has talked with him and angels have ministered to him.",
         "refs": [
           "1 Nephi 16:38"
         ]
       },
       {
-        "text": "Laman says Nephi lies and works by cunning arts to deceive them, perhaps to lead them into a strange wilderness.",
+        "text": "Laman accuses Nephi of lying and using cunning arts to deceive them.",
         "refs": [
           "1 Nephi 16:38"
         ]
       },
       {
-        "text": "Laman says Nephi may intend to make himself king and ruler over them and do with them according to his will and pleasure.",
+        "text": "Laman suggests Nephi may lead them into a strange wilderness and intends to become their king and ruler.",
         "refs": [
           "1 Nephi 16:38"
         ]
@@ -1345,12 +1396,41 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman may be shown speaking to a group of listeners; the verse says that he stirred their hearts to anger."
+      "Laman may be shown addressing listeners who react angrily."
     ],
     "unspecified_visual_details": [
-      "The listeners' identities beyond the reference to Laman's brothers, their appearance, expressions, and precise setting are unspecified."
+      "The listeners’ identities, their appearances, and the precise setting are unspecified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Now, he says that the Lord has talked with him, and also that angels have ministered unto him.",
+        "refs": [
+          "1 Nephi 16:38"
+        ],
+        "speaker": "Laman"
+      },
+      {
+        "text": "But behold, we know that he lies unto us;",
+        "refs": [
+          "1 Nephi 16:38"
+        ],
+        "speaker": "Laman"
+      },
+      {
+        "text": "and he worketh many things by his cunning arts,",
+        "refs": [
+          "1 Nephi 16:38"
+        ],
+        "speaker": "Laman"
+      },
+      {
+        "text": "he has thought to make himself a king and a ruler over us,",
+        "refs": [
+          "1 Nephi 16:38"
+        ],
+        "speaker": "Laman"
+      }
+    ],
     "narration": [
       {
         "text": "And after this manner did my brother Laman stir up their hearts to anger.",
@@ -1360,11 +1440,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The statements about Nephi are Laman's reported allegations, not established facts in this verse."
+      "Laman’s statements about Nephi are allegations, not established facts in this verse."
     ],
     "prohibited_inventions": [
-      "Do not depict Nephi as physically present.",
-      "Do not depict angels, divine appearances, cunning arts, deception, travel into a wilderness, or kingship as visible events; these are reported claims or intentions."
+      "Do not depict Nephi, the Lord, or angels as visibly present.",
+      "Do not depict cunning arts, travel into a wilderness, or kingship as events occurring in this scene."
     ],
     "importance": "normal"
   },

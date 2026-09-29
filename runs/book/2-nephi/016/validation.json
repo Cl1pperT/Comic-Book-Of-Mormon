@@ -1,0 +1,44 @@
+{
+  "stamp": "9c9253ec123fb73e1f1fe79b33d6a19e9cf2c64825af76220e01c5ad9d3a89d5",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary paraphrases dialogue rather than quoting source; spoken dialogue itself is exact.",
+        "The inference that Isaiah remains in the temple is not stated in verse 8."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The claim that the Lord's answer can be heard off-screen while Isaiah listens in the temple is not established for verses 11–12; the verses do not specify Isaiah's location during this exchange."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The inference that the Lord's words can be heard off-screen while Isaiah listens in the temple is not established for verse 13; the verse does not specify Isaiah's location during this exchange."
+      ]
+    }
+  }
+}

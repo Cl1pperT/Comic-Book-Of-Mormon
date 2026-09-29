@@ -1,5 +1,5 @@
 {
-  "stamp": "66b3e90d20d1c012d87454d3876313eea1240ea94b9a757ed56c34573295ba43",
+  "stamp": "010339d1c776065181fecdbee259ba5eb1a9783f40c16f814e7241a356a8b3a0",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,9 +10,9 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
+        "The narration excerpt omits the opening “Behold,” but remains verbatim and contiguous; consider preserving the complete supplied phrase for exactness."
       ]
     },
     "scene_004": {
@@ -24,16 +24,12 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse does not explicitly identify the antecedent of “him”; the explicit-facts wording assigns the declaration and fulfillment to the Lord, though the verse's pronouns are ambiguous."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Verse 16’s “me” and “him” are not explicitly identified; the explicit-facts wording treats the speaker as the Lord, although the text leaves the speaker referents ambiguous."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
@@ -44,10 +40,8 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary calls this a recollection, consistent with the surrounding divine discourse, but verse 21 itself does not explicitly mark the event as past."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

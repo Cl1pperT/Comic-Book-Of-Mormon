@@ -1,0 +1,77 @@
+{
+  "stamp": "2c0a11d46daba2bc6fb744b4b5e07cc5009377756f1a6d79f284c7be5de93918",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "The dialogue is not an exact contiguous quotation: “if thou wilt spare our lives, we will be thy servants.” omits the verse’s opening “And now, O king,” and begins with lowercase “if,” altering capitalization and punctuation. “why he has not come up out of Middoni with thee.” is a fragment of narration, not the king’s exact spoken question. The summary also attributes the service offer to an unidentified speaker, but the verse explicitly has Aaron speak it. The designated speaker must be Aaron, and dialogue must use exact contiguous verse text."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "The narration quotations are not verbatim source text: “the plan of redemption, which was prepared from the foundation of the world, through Christ” omits the preceding words “and also” and changes the original sentence context; “the sufferings and death of Christ atone for their sins, through faith and repentance” is assembled from verse wording while omitting “but” and the verse’s grammatical context. Narration must use exact contiguous excerpts without edits."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "REJECT",
+      "issues": [
+        "The king’s dialogue is assembled across a comma break in Alma 22:18, omitting the intervening phrase “and I will give away all my sins to know thee,” and changing the source’s continuous speech into separate excerpts in a way that drops supplied wording. Use exact contiguous quotations that preserve all text within each selected excerpt."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "The servants’ dialogue is not an exact contiguous quotation: it combines excerpts from Alma 22:20 while omitting the verse’s intervening words, including “saying,” and changes the source punctuation. Quote a contiguous span exactly or use separate exact short excerpts."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The geography summary and facts are broadly grounded, but the map-like visual inference can imply precise borders or shapes the verses do not establish; preserve the stated relationships without inventing exact cartography."
+      ]
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "Alma 22:35 is a transition in the narrator’s account, not an event or scene. The entry has no established visual subject or action, and its 'Unspecified location' is not a source fact. It should not be treated as a depictable scene."
+      ]
+    }
+  }
+}

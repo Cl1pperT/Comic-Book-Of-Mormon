@@ -1,0 +1,73 @@
+{
+  "stamp": "99fb325075751d86905ec013a1bf25a5f9abd55bd47505c7ab0c8ef9a621bcf2",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "Lists Lamanite warriors as characters, but these verses report King Laman's plan and unease; they do not establish warriors as present in this scene. Depicting them would risk adding characters to a reported account."
+      ]
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "Lists Lamanite warriors as characters, but the verse says King Laman stirred up his people and that wars and contentions began; it does not establish warriors or a specific confrontation as present in this scene."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

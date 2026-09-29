@@ -123,12 +123,12 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "A covenant concerning the land",
+    "title": "Lehi speaks of the promised land",
     "refs": [
       "2 Nephi 1:5",
       "2 Nephi 1:6"
     ],
-    "summary": "Lehi says they have obtained a land of promise covenanted to him, his children, and those led from other countries by the Lord. He prophesies that none will come into the land except by the Lord’s hand.",
+    "summary": "Lehi says they have obtained a land of promise. He describes the Lord’s covenant concerning the land and prophesies that none will come into it unless brought by the Lord.",
     "characters": [
       "Lehi"
     ],
@@ -137,44 +137,59 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lehi says they have obtained a land of promise, which the Lord covenanted to him as an inheritance for his seed, to his children forever, and to those led from other countries by the Lord.",
+        "text": "Lehi says they have obtained a land of promise despite their afflictions.",
         "refs": [
           "2 Nephi 1:5"
         ]
       },
       {
-        "text": "Lehi prophesies that none shall come into the land unless brought by the Lord’s hand.",
+        "text": "Lehi says the Lord covenanted the land to him as an inheritance for his seed, to his children forever, and to those led from other countries by the Lord.",
+        "refs": [
+          "2 Nephi 1:5"
+        ]
+      },
+      {
+        "text": "Lehi prophesies that none will come into the land unless brought by the Lord.",
         "refs": [
           "2 Nephi 1:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is speaking about the land and the Lord’s covenant."
+      "Lehi may be shown speaking, without depicting the events he describes as happening at that moment."
     ],
     "unspecified_visual_details": [
-      "The land’s particular landscape and Lehi’s appearance are not described."
+      "Lehi’s appearance, his listeners, and the speaking location are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "“we have obtained a land of promise”",
+        "text": "we have obtained a land of promise,",
         "refs": [
           "2 Nephi 1:5"
-        ]
+        ],
+        "speaker": "Lehi"
       },
       {
-        "text": "“that there shall none come into this land save they shall be brought by the hand of the Lord.”",
+        "text": "a land which the Lord God hath covenanted with me should be a land for the inheritance of my seed.",
+        "refs": [
+          "2 Nephi 1:5"
+        ],
+        "speaker": "Lehi"
+      },
+      {
+        "text": "Wherefore, I, Lehi, prophesy according to the workings of the Spirit which is in me, that there shall none come into this land save they shall be brought by the hand of the Lord.",
         "refs": [
           "2 Nephi 1:6"
-        ]
+        ],
+        "speaker": "Lehi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The covenant and prophecy are teachings, not visible supernatural events."
+      "The covenant and prophecy are spoken teachings, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord or a visible act of bringing people into the land."
+      "Do not depict the Lord, the covenant being made, or people arriving from other countries as present events."
     ],
     "importance": "normal"
   },
@@ -185,10 +200,10 @@
       "2 Nephi 1:7",
       "2 Nephi 1:8"
     ],
-    "summary": "The land is described as consecrated, with conditional promises concerning liberty, captivity, iniquity, and righteousness. The passage also says the land should be kept from the knowledge of other nations, which would overrun it and leave no place for an inheritance.",
+    "summary": "The land is consecrated unto him whom he shall bring. The passage sets out conditions for liberty, captivity, cursing, and blessing. It says the land should remain unknown to other nations because many nations would overrun it, leaving no place for an inheritance.",
     "characters": [],
     "locations": [
-      "Unspecified location"
+      "The land, with no specific setting identified"
     ],
     "explicit_facts": [
       {
@@ -198,19 +213,19 @@
         ]
       },
       {
-        "text": "If they serve him according to his commandments, the land shall be a land of liberty unto them, and they shall not be brought down into captivity; if they are brought into captivity, it shall be because of iniquity.",
+        "text": "If they serve him according to his commandments, the land shall be a land of liberty unto them; captivity would come because of iniquity.",
         "refs": [
           "2 Nephi 1:7"
         ]
       },
       {
-        "text": "If iniquity abounds, the land shall be cursed for their sakes; unto the righteous it shall be blessed forever.",
+        "text": "If iniquity abounds, the land shall be cursed for their sakes, but it shall be blessed forever unto the righteous.",
         "refs": [
           "2 Nephi 1:7"
         ]
       },
       {
-        "text": "The land should be kept as yet from the knowledge of other nations, because many nations would overrun it, leaving no place for an inheritance.",
+        "text": "The land should remain unknown to other nations because many nations would overrun it, leaving no place for an inheritance.",
         "refs": [
           "2 Nephi 1:8"
         ]
@@ -218,8 +233,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The passage does not identify the speaker or specify a location, posture, surroundings, or listeners.",
-      "No visible representation of liberty, captivity, blessing, a curse, or other nations is specified."
+      "The verses do not identify a speaker, listeners, or a specific setting.",
+      "No visible form of liberty, captivity, cursing, blessing, or the other nations is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -230,18 +245,18 @@
         ]
       },
       {
-        "text": "And behold, it is wisdom that this land should be kept as yet from the knowledge of other nations;",
+        "text": "And behold, it is wisdom that this land should be kept as yet from the knowledge of other nations; for behold, many nations would overrun the land, that there would be no place for an inheritance.",
         "refs": [
           "2 Nephi 1:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage presents conditional teachings and a warning, not a narrated vision or present-tense event."
+      "The conditions and warning are teachings, not narrated scenes of captivity or invasion."
     ],
     "prohibited_inventions": [
-      "Do not depict invading nations, captivity, or visible supernatural effects.",
-      "Do not assign a speaker or add named or biographical listeners."
+      "Do not assign a speaker or invent listeners.",
+      "Do not depict an invasion, captivity, or visible supernatural effects as occurring."
     ],
     "importance": "normal"
   },
@@ -251,7 +266,7 @@
     "refs": [
       "2 Nephi 1:9"
     ],
-    "summary": "Lehi says he has obtained a promise concerning those brought out of Jerusalem: if they keep the Lord God’s commandments, they will prosper and be blessed on the land, possess it, be kept from other nations, and dwell safely.",
+    "summary": "Lehi says he has obtained a promise concerning those whom the Lord God shall bring out of Jerusalem. The promised blessings depend on their keeping his commandments.",
     "characters": [
       "Lehi"
     ],
@@ -266,194 +281,164 @@
         ]
       },
       {
-        "text": "The promise is conditional on keeping the Lord God’s commandments and includes prospering and being blessed on the land, possessing it, being kept from other nations, protection from molestation or loss of inheritance, and dwelling safely forever.",
+        "text": "If they keep his commandments, they shall prosper and be blessed on the land, possess it, be kept from other nations, face none who molest them or take away their inheritance, and dwell safely forever.",
         "refs": [
           "2 Nephi 1:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is the speaker of the promise."
+      "Lehi may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "The passage does not specify Lehi’s location, posture, clothing, or audience."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "Wherefore, I, Lehi, have obtained a promise,",
-        "refs": [
-          "2 Nephi 1:9"
-        ]
-      },
-      {
-        "text": "they shall dwell safely forever.",
-        "refs": [
-          "2 Nephi 1:9"
-        ]
-      }
-    ],
-    "doctrinal_or_story_notes": [
-      "This is a conditional promise, not a narrated event of prosperity or safety occurring."
-    ],
-    "prohibited_inventions": [
-      "Do not depict future prosperity, protection, or conflict as a present event.",
-      "Do not assume Lehi is addressing his sons; the verse does not identify an audience."
-    ],
-    "importance": "normal"
-  },
-  {
-    "scene_id": "scene_006",
-    "title": "Warning of judgment",
-    "refs": [
-      "2 Nephi 1:10",
-      "2 Nephi 1:11"
-    ],
-    "summary": "Lehi warns conditionally that those who reject the Holy One of Israel after receiving great blessings will face just judgment. He says other nations will be brought to them, given power, take their lands, and cause them to be scattered and smitten.",
-    "characters": [
-      "Lehi"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
-    "explicit_facts": [
-      {
-        "text": "Lehi speaks of people who have received great blessings and warns conditionally that if they reject the Holy One of Israel, just judgment will rest upon them.",
-        "refs": [
-          "2 Nephi 1:10"
-        ]
-      },
-      {
-        "text": "Lehi says other nations will be brought to them, given power, take their lands, and cause them to be scattered and smitten.",
-        "refs": [
-          "2 Nephi 1:11"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "Lehi delivers a warning; the future consequences he describes are not shown as happening now."
-    ],
-    "unspecified_visual_details": [
-      "Lehi's appearance, posture, and surroundings are unspecified.",
-      "The people addressed and the other nations are not individually identified in these verses."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "“if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God”",
-        "refs": [
-          "2 Nephi 1:10"
-        ]
-      },
-      {
-        "text": "“behold, the judgments of him that is just shall rest upon them.”",
-        "refs": [
-          "2 Nephi 1:10"
-        ]
-      },
-      {
-        "text": "“and he will cause them to be scattered and smitten.”",
-        "refs": [
-          "2 Nephi 1:11"
-        ]
-      }
-    ],
-    "doctrinal_or_story_notes": [
-      "The consequences are conditional future warnings, not present action."
-    ],
-    "prohibited_inventions": [
-      "Do not depict other nations attacking, taking land, or scattering or smiting people as events occurring in this scene.",
-      "Do not assign identities or biographies to the unnamed people or nations."
-    ],
-    "importance": "normal"
-  },
-  {
-    "scene_id": "scene_007",
-    "title": "Lehi urges his sons to remember and awake",
-    "refs": [
-      "2 Nephi 1:12",
-      "2 Nephi 1:13"
-    ],
-    "summary": "Lehi speaks of bloodsheds and great visitations from one generation to another and urges his sons to remember and heed his words. He urges them to awake and shake off the chains by which the children of men are bound.",
-    "characters": [
-      "Lehi",
-      "Lehi's sons"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
-    "explicit_facts": [
-      {
-        "text": "Lehi says bloodsheds and great visitations will occur as one generation passes to another, and asks his sons to remember and hearken to his words.",
-        "refs": [
-          "2 Nephi 1:12"
-        ]
-      },
-      {
-        "text": "Lehi urges his sons to awake from the sleep of hell and shake off the chains by which the children of men are bound.",
-        "refs": [
-          "2 Nephi 1:13"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "Lehi addresses his sons while speaking."
-    ],
-    "unspecified_visual_details": [
-      "The number and identities of the sons present are not specified.",
-      "The setting, appearance, clothing, and positions of the people are not specified."
+      "Lehi’s location, posture, clothing, and audience are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Yea, as one generation passeth to another there shall be bloodsheds, and great visitations among them;",
+        "text": "Wherefore, I, Lehi, have obtained a promise, that inasmuch as those whom the Lord God shall bring out of the land of Jerusalem shall keep his commandments, they shall prosper upon the face of this land; and they shall be kept from all other nations, that they may possess this land unto themselves.",
         "refs": [
-          "2 Nephi 1:12"
-        ],
-        "speaker": "Lehi"
-      },
-      {
-        "text": "wherefore, my sons, I would that ye would remember;",
-        "refs": [
-          "2 Nephi 1:12"
-        ],
-        "speaker": "Lehi"
-      },
-      {
-        "text": "yea, I would that ye would hearken unto my words.",
-        "refs": [
-          "2 Nephi 1:12"
-        ],
-        "speaker": "Lehi"
-      },
-      {
-        "text": "O that ye would awake; awake from a deep sleep,",
-        "refs": [
-          "2 Nephi 1:13"
-        ],
-        "speaker": "Lehi"
-      },
-      {
-        "text": "yea, even from the sleep of hell,",
-        "refs": [
-          "2 Nephi 1:13"
-        ],
-        "speaker": "Lehi"
-      },
-      {
-        "text": "and shake off the awful chains by which ye are bound,",
-        "refs": [
-          "2 Nephi 1:13"
+          "2 Nephi 1:9"
         ],
         "speaker": "Lehi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Sleep, chains, and the eternal gulf are figures of speech in Lehi's teaching, not narrated visible events."
+      "The blessings are conditional promises, not events narrated as occurring here."
     ],
     "prohibited_inventions": [
-      "Do not depict literal chains, hell, or future bloodshed as present events.",
-      "Do not assign names or individual identities to the sons beyond what the verses supply."
+      "Do not depict the promised future prosperity, protection, or conflict as occurring in this scene.",
+      "Do not identify an audience; the verse does not name one."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_006",
+    "title": "A Conditional Warning",
+    "refs": [
+      "2 Nephi 1:10",
+      "2 Nephi 1:11"
+    ],
+    "summary": "A speaker warns that if a blessed people reject the Holy One of Israel, judgment will rest upon them. The speaker foretells that other nations will receive power, take their lands, and cause them to be scattered and smitten.",
+    "characters": [
+      "Unidentified speaker"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The speaker says the people have received great blessings and warns that judgment will rest upon them if they reject the Holy One of Israel.",
+        "refs": [
+          "2 Nephi 1:10"
+        ]
+      },
+      {
+        "text": "The speaker foretells that other nations will be brought to them and given power, that their lands will be taken away, and that they will be scattered and smitten.",
+        "refs": [
+          "2 Nephi 1:11"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The speaker could be shown delivering the warning; the foretold consequences are not occurring in this scene."
+    ],
+    "unspecified_visual_details": [
+      "The speaker's identity, appearance, posture, and surroundings are unspecified.",
+      "The people and other nations are not individually identified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God, behold, the judgments of him that is just shall rest upon them.",
+        "refs": [
+          "2 Nephi 1:10"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "and he will take away from them the lands of their possessions, and he will cause them to be scattered and smitten.",
+        "refs": [
+          "2 Nephi 1:11"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The judgment is conditional, and the consequences are foretold rather than narrated as present events."
+    ],
+    "prohibited_inventions": [
+      "Do not identify the speaker using information outside these verses.",
+      "Do not depict the foretold loss of land, scattering, or smiting as occurring now.",
+      "Do not invent identities or biographies for the unnamed people or nations."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_007",
+    "title": "An appeal to sons",
+    "refs": [
+      "2 Nephi 1:12",
+      "2 Nephi 1:13"
+    ],
+    "summary": "A speaker foretells bloodsheds and great visitations as generations pass, asks his sons to remember and heed his words, and urges them to awake and shake off the chains he describes.",
+    "characters": [
+      "Unidentified speaker",
+      "His sons"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The speaker says there will be bloodsheds and great visitations as one generation passes to another.",
+        "refs": [
+          "2 Nephi 1:12"
+        ]
+      },
+      {
+        "text": "The speaker asks his sons to remember and hearken to his words.",
+        "refs": [
+          "2 Nephi 1:12"
+        ]
+      },
+      {
+        "text": "The speaker urges them to awake and shake off the chains he says bind them.",
+        "refs": [
+          "2 Nephi 1:13"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The speaker addresses his sons."
+    ],
+    "unspecified_visual_details": [
+      "The speaker's name and the sons' names and number are not supplied.",
+      "Their appearances, clothing, positions, and surroundings are not specified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Yea, as one generation passeth to another there shall be bloodsheds, and great visitations among them; wherefore, my sons, I would that ye would remember; yea, I would that ye would hearken unto my words.",
+        "refs": [
+          "2 Nephi 1:12"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "O that ye would awake; awake from a deep sleep,",
+        "refs": [
+          "2 Nephi 1:13"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "Sleep, chains, captivity, and the eternal gulf are figures in the speaker's appeal, not narrated visible events."
+    ],
+    "prohibited_inventions": [
+      "Do not name the speaker or his sons.",
+      "Do not depict literal chains, hell, captivity, or future bloodshed as events occurring during the address."
     ],
     "importance": "normal"
   },
@@ -464,7 +449,7 @@
       "2 Nephi 1:14",
       "2 Nephi 1:15"
     ],
-    "summary": "The speaker urges the hearers to awake, arise from the dust, and hear a trembling parent, then says that in a few more days he will go the way of all the earth. He testifies that the Lord has redeemed his soul from hell, that he has beheld the Lord's glory, and that he is encircled eternally in the arms of the Lord's love.",
+    "summary": "A trembling parent urges the hearers to awake, arise, and listen. The parent says death is near and declares that the Lord has redeemed his soul, that he has beheld the Lord's glory, and that he is encircled eternally in the arms of the Lord's love.",
     "characters": [
       "Speaking parent",
       "Hearers"
@@ -474,7 +459,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker calls on the hearers to awake, arise from the dust, and hear a trembling parent; says they must soon lay down his limbs in the cold and silent grave; and says that in a few more days he will go the way of all the earth.",
+        "text": "The speaker calls himself a trembling parent, urges the hearers to awake, arise from the dust, and listen, and says they must soon lay his limbs in a grave.",
+        "refs": [
+          "2 Nephi 1:14"
+        ]
+      },
+      {
+        "text": "The speaker says he has only a few more days before he goes the way of all the earth.",
         "refs": [
           "2 Nephi 1:14"
         ]
@@ -487,16 +478,16 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaking parent addresses hearers."
+      "A parent addresses hearers."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, posture, and physical condition are unspecified.",
-      "The setting, number and appearance of the hearers are unspecified.",
-      "No visible form of the Lord's glory or the arms of the Lord's love is described."
+      "The speaker's name, appearance, and posture are unspecified.",
+      "The setting and the number and appearance of the hearers are unspecified.",
+      "No visible appearance of the Lord or his glory is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "Awake! and arise from the dust, and hear the words of a trembling parent",
+        "text": "Awake! and arise from the dust, and hear the words of a trembling parent, whose limbs ye must soon lay down in the cold and silent grave, from whence no traveler can return; a few more days and I go the way of all the earth.",
         "refs": [
           "2 Nephi 1:14"
         ],
@@ -510,31 +501,14 @@
         "speaker": "Speaking parent"
       }
     ],
-    "narration": [
-      {
-        "text": "a few more days and I go the way of all the earth.",
-        "refs": [
-          "2 Nephi 1:14"
-        ]
-      },
-      {
-        "text": "I have beheld his glory,",
-        "refs": [
-          "2 Nephi 1:15"
-        ]
-      },
-      {
-        "text": "and I am encircled about eternally in the arms of his love.",
-        "refs": [
-          "2 Nephi 1:15"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker reports having beheld glory; the verses do not describe a visible appearance."
+      "The grave is described as a future event, not a present burial.",
+      "The speaker's statements about glory and the arms of the Lord's love do not describe a visible divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict the speaker dying or show a grave as a present event.",
+      "Do not identify the speaker by name.",
+      "Do not depict the speaker dying or being buried.",
       "Do not depict a visible divine figure or literal arms of love.",
       "Do not add dialogue beyond exact source quotations."
     ],
@@ -542,76 +516,78 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Lehi’s concern for his hearers",
+    "title": "The speaker’s anxiety and fear",
     "refs": [
       "2 Nephi 1:16",
       "2 Nephi 1:17",
       "2 Nephi 1:18"
     ],
-    "summary": "Lehi desires that his hearers observe the Lord’s statutes and judgments. He expresses sorrow and fear about their hard hearts, warning of possible destruction, a curse, sword, famine, hatred, and captivity.",
+    "summary": "The speaker urges the addressees to remember the Lord’s statutes and judgments, describes his sorrow and fear, and warns of possible consequences.",
     "characters": [
-      "Lehi",
-      "Unspecified hearers"
+      "Unidentified speaker",
+      "Unspecified addressees"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi desires that his hearers remember to observe the Lord’s statutes and judgments and says this has been the anxiety of his soul from the beginning.",
+        "text": "The speaker desires that the addressees remember to observe the Lord’s statutes and judgments; he says this has been his anxiety from the beginning.",
         "refs": [
           "2 Nephi 1:16"
         ]
       },
       {
-        "text": "Lehi says his heart has been weighed down with sorrow and that he has feared that, because of their hard hearts, they may be cut off and destroyed forever.",
+        "text": "The speaker says he has felt sorrow and feared that, because of the addressees’ hard hearts, the Lord might act in wrath and they might be cut off and destroyed forever.",
         "refs": [
           "2 Nephi 1:17"
         ]
       },
       {
-        "text": "Lehi describes a possible curse for many generations and says they are visited by sword and famine, hated, and led according to the devil’s will and captivity.",
+        "text": "The speaker also raises the possibility of a curse lasting many generations, with sword, famine, hatred, and captivity.",
         "refs": [
           "2 Nephi 1:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is addressing hearers as he urges them to observe the Lord’s statutes and judgments."
+      "A speaker may be shown addressing others."
     ],
     "unspecified_visual_details": [
-      "The hearers’ identities and number are unspecified.",
-      "The location and the people’s appearance, age, clothing, posture, and expressions are unspecified.",
-      "The warnings are not described as present visible events."
+      "The speaker’s and addressees’ identities, number, appearances, and surroundings are unspecified.",
+      "No warned-of calamity is described as visibly occurring here."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "“And I desire that ye should remember to observe the statutes and the judgments of the Lord;”",
+        "text": "And I desire that ye should remember to observe the statutes and the judgments of the Lord; behold, this hath been the anxiety of my soul from the beginning.",
         "refs": [
           "2 Nephi 1:16"
-        ]
+        ],
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "“behold, this hath been the anxiety of my soul from the beginning.”",
-        "refs": [
-          "2 Nephi 1:16"
-        ]
-      },
-      {
-        "text": "“My heart hath been weighed down with sorrow from time to time,”",
+        "text": "My heart hath been weighed down with sorrow from time to time, for I have feared,",
         "refs": [
           "2 Nephi 1:17"
-        ]
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "Or, that a cursing should come upon you for the space of many generations;",
+        "refs": [
+          "2 Nephi 1:18"
+        ],
+        "speaker": "Unidentified speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The passage gives Lehi’s desire and fears; it does not narrate the warned-of calamities as occurring in this scene."
+      "The feared outcomes are warnings, not events narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not identify the hearers as specific named individuals or assign unstated relationships.",
-      "Do not depict the curse, sword, famine, hatred, destruction, or captivity as current visible events.",
-      "Do not add dialogue or characterize the hearers’ responses."
+      "Do not identify the speaker or addressees by name or relationship.",
+      "Do not depict the warned-of calamities as present events.",
+      "Do not invent responses, divine appearances, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -622,127 +598,124 @@
       "2 Nephi 1:19",
       "2 Nephi 1:20"
     ],
-    "summary": "Lehi expresses his wish that his sons might avoid these things and become a choice and favored people of the Lord. He affirms that the Lord’s will be done and that His ways are righteousness forever. He states the conditional outcomes of keeping or not keeping the Lord’s commandments.",
+    "summary": "A speaker addresses his sons, wishes that these things might not come upon them and that they might be a choice and favored people of the Lord, affirms the Lord’s will and ways, and reports what the Lord has said about keeping his commandments.",
     "characters": [
-      "Lehi",
-      "Lehi’s sons"
+      "Unidentified speaker",
+      "His sons"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi wishes that these things might not come upon his sons and that they might be a choice and favored people of the Lord; he says the Lord’s will be done and the Lord’s ways are righteousness forever.",
+        "text": "The speaker addresses his sons and wishes that these things might not come upon them and that they might be a choice and favored people of the Lord.",
         "refs": [
           "2 Nephi 1:19"
         ]
       },
       {
-        "text": "The Lord has said that keeping his commandments brings prosperity in the land, while not keeping them results in being cut off from his presence.",
+        "text": "The speaker says the Lord’s will be done and his ways are righteousness forever.",
+        "refs": [
+          "2 Nephi 1:19"
+        ]
+      },
+      {
+        "text": "The speaker reports that keeping the Lord’s commandments brings prosperity in the land, while not keeping them results in being cut off from his presence.",
         "refs": [
           "2 Nephi 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi addresses his sons."
+      "The speaker faces his sons while addressing them."
     ],
     "unspecified_visual_details": [
-      "The setting, the sons’ individual identities and appearances, and any visible representation of favor, prosperity, or separation are unspecified."
+      "The location, appearances, and sons’ individual identities are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "O my sons, that these things might not come upon you, but that ye might be a choice and a favored people of the Lord.",
+        "text": "O my sons, that these things might not come upon you,",
         "refs": [
           "2 Nephi 1:19"
         ],
-        "speaker": "Lehi"
-      }
-    ],
-    "narration": [
-      {
-        "text": "But behold, his will be done; for his ways are righteousness forever.",
-        "refs": [
-          "2 Nephi 1:19"
-        ]
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land;",
+        "text": "And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
         "refs": [
           "2 Nephi 1:20"
-        ]
-      },
-      {
-        "text": "but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.",
-        "refs": [
-          "2 Nephi 1:20"
-        ]
+        ],
+        "speaker": "Unidentified speaker, reporting what the Lord has said"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The outcomes are expressed as conditional teachings."
+      "The outcomes in verse 20 are conditional teachings, not events shown occurring.",
+      "The speaker reports the Lord’s words; the Lord is not presented as speaking in the scene."
     ],
     "prohibited_inventions": [
-      "Do not depict divine favor, prosperity, or separation as a visible event.",
-      "Do not assign individual identities to the sons."
+      "Do not identify the speaker or individual sons by name.",
+      "Do not depict favor, prosperity, or separation as a visible event.",
+      "Do not give the Lord a visible appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "Be united in one mind and heart",
+    "title": "United in One Mind and Heart",
     "refs": [
       "2 Nephi 1:21",
       "2 Nephi 1:22"
     ],
-    "summary": "Lehi urges his sons to arise from the dust, be united, and avoid captivity, a sore cursing, and destruction of soul and body.",
+    "summary": "A speaker exhorts his sons to be united so they may avoid captivity, and warns them against a sore cursing and God's displeasure.",
     "characters": [
-      "Lehi",
-      "Lehi’s sons"
+      "Unnamed speaker",
+      "His sons"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi expresses a desire for joy in his sons and asks them to arise from the dust, be united, and avoid captivity.",
+        "text": "The speaker addresses his sons, desires joy in them, and exhorts them to be united so they may avoid captivity.",
         "refs": [
           "2 Nephi 1:21"
         ]
       },
       {
-        "text": "Lehi warns his sons against a sore cursing and the eternal destruction of both soul and body.",
+        "text": "The speaker warns of a sore cursing and the displeasure of a just God, leading to eternal destruction of soul and body.",
         "refs": [
           "2 Nephi 1:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is addressing his sons."
+      "The speaker may be shown addressing his sons."
     ],
     "unspecified_visual_details": [
-      "The text does not specify the location, anyone’s appearance, or whether the sons physically rise."
+      "The setting, appearances, number of sons, and whether anyone physically rises are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "“arise from the dust, my sons, and be men”",
+        "text": "arise from the dust, my sons, and be men, and be determined in one mind and in one heart, united in all things, that ye may not come down into captivity;",
         "refs": [
           "2 Nephi 1:21"
-        ]
+        ],
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "“be determined in one mind and in one heart”",
+        "text": "That ye may not be cursed with a sore cursing; and also, that ye may not incur the displeasure of a just God upon you,",
         "refs": [
-          "2 Nephi 1:21"
-        ]
+          "2 Nephi 1:22"
+        ],
+        "speaker": "Unnamed speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "“Arise from the dust” is an exhortation, not a separately narrated physical action."
+      "“Arise from the dust” is an exhortation, not a separately narrated physical action.",
+      "No preceding scene is supplied; do not invent one to establish chronology."
     ],
     "prohibited_inventions": [
-      "Do not depict captivity, a cursing, or destruction as present events."
+      "Do not name the speaker or sons.",
+      "Do not depict captivity, a cursing, divine displeasure, or destruction as events occurring in this scene.",
+      "Do not depict God or invent a divine appearance."
     ],
     "importance": "normal"
   },
@@ -801,76 +774,85 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "Lehi Defends His Brother",
+    "title": "An Appeal Against Rebellion",
     "refs": [
       "2 Nephi 1:24",
       "2 Nephi 1:25"
     ],
-    "summary": "Lehi urges his sons to rebel no more against their brother. He recalls the brother's obedience and role in bringing them to the land of promise, their attempt to take his life, and the sorrow he suffered. Lehi fears his brother may suffer again and says the brother sought God's glory and their eternal welfare, not power or authority over them.",
+    "summary": "An unnamed speaker urges the addressees to stop rebelling against their brother. The speaker recounts the brother's obedience, his role in bringing them to the land of promise, the addressees' attempt to take his life, and his sorrow. The speaker fears he may suffer again and rejects the accusation that he sought power or authority over them.",
     "characters": [
-      "Lehi",
-      "Lehi's sons",
-      "Lehi's brother (unnamed in the supplied verses; not stated to be present)"
+      "Unnamed speaker",
+      "Addressees",
+      "The addressees' brother (mentioned; presence unspecified)"
     ],
     "locations": [
       "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi urges his sons to rebel no more against their brother and says the brother kept the commandments from the time they left Jerusalem and was an instrument in bringing them to the land of promise.",
+        "text": "The speaker urges the addressees to rebel no more against their brother and says he has kept the commandments since they left Jerusalem.",
         "refs": [
           "2 Nephi 1:24"
         ]
       },
       {
-        "text": "Lehi says that without his brother they would have perished with hunger in the wilderness.",
+        "text": "The speaker says the brother helped bring them to the land of promise and that without him they would have perished with hunger in the wilderness.",
         "refs": [
           "2 Nephi 1:24"
         ]
       },
       {
-        "text": "Lehi says his sons sought to take their brother's life and that the brother suffered much sorrow because of them.",
+        "text": "The speaker says the addressees sought to take their brother's life and that he suffered much sorrow because of them.",
         "refs": [
           "2 Nephi 1:24"
         ]
       },
       {
-        "text": "Lehi fears and trembles that his brother may suffer again. He says the brother did not seek power or authority over them, but sought God's glory and their eternal welfare.",
+        "text": "The speaker fears the brother may suffer again and says he sought God's glory and the addressees' eternal welfare, not power or authority over them.",
         "refs": [
           "2 Nephi 1:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is addressing his sons."
+      "The speaker addresses more than one person."
     ],
     "unspecified_visual_details": [
-      "The identity of the brother is not given in the supplied verses.",
-      "The location, arrangement, clothing, appearance, and gestures of those present are unspecified."
+      "The speaker's name and the brother's name are not supplied.",
+      "The brother's presence is not specified.",
+      "The setting, appearances, clothing, and gestures are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Rebel no more against your brother,",
+        "text": "Rebel no more against your brother, whose views have been glorious, and who hath kept the commandments from the time that we left Jerusalem;",
         "refs": [
           "2 Nephi 1:24"
         ],
-        "speaker": "Lehi"
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "and your own eternal welfare.",
+        "text": "nevertheless, ye sought to take away his life;",
+        "refs": [
+          "2 Nephi 1:24"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "but I know that he hath not sought for power nor authority over you, but he hath sought the glory of God, and your own eternal welfare.",
         "refs": [
           "2 Nephi 1:25"
         ],
-        "speaker": "Lehi"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Lehi reports prior events and expresses fear about possible future suffering; neither is depicted as happening in the present scene."
+      "The past events and possible future suffering are described in speech, not shown as events occurring during this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the earlier attempt to take the brother's life as a current event.",
-      "Do not name the brother or depict him as physically present; the supplied verses do not specify his presence."
+      "Do not name the speaker or the brother.",
+      "Do not depict the past attempt on the brother's life or possible future suffering as occurring now.",
+      "Do not assume the brother is physically present."
     ],
     "importance": "normal"
   },
@@ -881,7 +863,7 @@
       "2 Nephi 1:26",
       "2 Nephi 1:27"
     ],
-    "summary": "The speaker recalls that the audience murmured because someone had been plain with them, and explains that what they called his sharpness and anger was God's word and truth in him. The speaker says the Spirit of the Lord in him opened his mouth to utterance he could not shut.",
+    "summary": "The speaker says the audience murmured because a person had been plain with them. The speaker explains what they called his sharpness and anger, and attributes his utterance to the Spirit of the Lord.",
     "characters": [
       "Unspecified speaker",
       "Unspecified person referred to as “he”",
@@ -898,13 +880,13 @@
         ]
       },
       {
-        "text": "The speaker describes the person's sharpness as the power of God's word in him, and what the audience called anger as truth according to God.",
+        "text": "The speaker describes the person's sharpness as the power of the word of God in him, and what the audience called anger as truth according to God.",
         "refs": [
           "2 Nephi 1:26"
         ]
       },
       {
-        "text": "The speaker says God's power was with the person, and that the Spirit of the Lord in him opened his mouth to utterance he could not shut.",
+        "text": "The speaker says the power of God was with the person and that the Spirit of the Lord in him opened his mouth to utterance he could not shut.",
         "refs": [
           "2 Nephi 1:27"
         ]
@@ -921,50 +903,26 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And ye have murmured because he hath been plain unto you.”",
+        "text": "And ye have murmured because he hath been plain unto you.",
         "refs": [
           "2 Nephi 1:26"
         ]
       },
       {
-        "text": "“Ye say that he hath used sharpness;”",
+        "text": "Ye say that he hath used sharpness; ye say that he hath been angry with you;",
         "refs": [
           "2 Nephi 1:26"
         ]
       },
       {
-        "text": "“ye say that he hath been angry with you;”",
-        "refs": [
-          "2 Nephi 1:26"
-        ]
-      },
-      {
-        "text": "“his sharpness was the sharpness of the power of the word of God,”",
-        "refs": [
-          "2 Nephi 1:26"
-        ]
-      },
-      {
-        "text": "“and that which ye call anger was the truth,”",
-        "refs": [
-          "2 Nephi 1:26"
-        ]
-      },
-      {
-        "text": "“it was the Spirit of the Lord which was in him,”",
-        "refs": [
-          "2 Nephi 1:27"
-        ]
-      },
-      {
-        "text": "“which opened his mouth to utterance that he could not shut it.”",
+        "text": "But behold, it was not he, but it was the Spirit of the Lord which was in him, which opened his mouth to utterance that he could not shut it.",
         "refs": [
           "2 Nephi 1:27"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses attribute the person's utterance to the Spirit of the Lord and characterize his sharpness as God's word."
+      "The verses attribute the person's utterance to the Spirit of the Lord and characterize his sharpness as the power of the word of God."
     ],
     "prohibited_inventions": [
       "Do not identify the speaker, person discussed, or audience by name.",
@@ -975,80 +933,82 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "Lehi’s conditional blessing",
+    "title": "A conditional blessing",
     "refs": [
       "2 Nephi 1:28",
       "2 Nephi 1:29"
     ],
-    "summary": "Lehi tells Laman, Lemuel, Sam, and his sons who are the sons of Ishmael that if they hearken unto Nephi, they shall not perish and he leaves them his first blessing. He says that if they do not hearken unto Nephi, he takes away his blessing, and it shall rest upon Nephi.",
+    "summary": "The speaker addresses Laman, Lemuel, Sam, and his sons who are the sons of Ishmael. He says that if they hearken unto Nephi, they shall not perish and he leaves them his first blessing; if they do not, he takes it away and it shall rest upon him.",
     "characters": [
-      "Lehi",
+      "Unnamed speaker",
       "Laman",
       "Lemuel",
       "Sam",
-      "Lehi’s sons who are the sons of Ishmael",
-      "Nephi"
+      "Sons of Ishmael",
+      "Nephi (mentioned; presence unspecified)"
     ],
     "locations": [
       "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi addresses Laman, Lemuel, Sam, and his sons who are the sons of Ishmael.",
+        "text": "The speaker addresses Laman, Lemuel, Sam, and his sons who are the sons of Ishmael.",
         "refs": [
           "2 Nephi 1:28"
         ]
       },
       {
-        "text": "Lehi says that if they hearken unto Nephi, they shall not perish, and he leaves them his first blessing.",
+        "text": "He says that if they hearken unto Nephi, they shall not perish and he leaves them his first blessing.",
         "refs": [
           "2 Nephi 1:28"
         ]
       },
       {
-        "text": "Lehi says that if they do not hearken unto Nephi, he takes away his first blessing, and it shall rest upon Nephi.",
+        "text": "He says that if they do not hearken unto him, he takes away his first blessing and it shall rest upon him.",
         "refs": [
           "2 Nephi 1:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi speaks to the people he addresses."
+      "The speaker speaks to those he addresses."
     ],
     "unspecified_visual_details": [
-      "The location and the appearance, ages, and positions of those present are unspecified.",
-      "Whether Nephi is physically present is unspecified."
+      "The location and the appearance and positions of those addressed are unspecified.",
+      "Nephi's physical presence is unspecified.",
+      "The speaker is not named in the supplied verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "And now my son, Laman, and also Lemuel and Sam, and also my sons who are the sons of Ishmael, behold, if ye will hearken unto the voice of Nephi ye shall not perish.",
+        "text": "if ye will hearken unto the voice of Nephi ye shall not perish.",
         "refs": [
           "2 Nephi 1:28"
         ],
-        "speaker": "Lehi"
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "And if ye will hearken unto him I leave unto you a blessing, yea, even my first blessing.",
         "refs": [
           "2 Nephi 1:28"
         ],
-        "speaker": "Lehi"
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "But if ye will not hearken unto him I take away my first blessing, yea, even my blessing, and it shall rest upon him.",
         "refs": [
           "2 Nephi 1:29"
         ],
-        "speaker": "Lehi"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Lehi presents the blessing as conditional on hearkening unto Nephi."
+      "The blessing is conditional on hearkening unto Nephi."
     ],
     "prohibited_inventions": [
-      "Do not depict a visible transfer of blessing.",
-      "Do not assume Nephi is physically present."
+      "Do not depict a visible transfer of the blessing.",
+      "Do not assume Nephi is physically present.",
+      "Do not assign the speaker a name from outside the supplied verses."
     ],
     "importance": "normal"
   },

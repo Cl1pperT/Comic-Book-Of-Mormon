@@ -1,0 +1,130 @@
+{
+  "stamp": "0a9f0ad1e8b45ac0280d1941bb45ab0a60bca6f3a4ee5867d9bb62a7b7e94c83",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "Narration quotes are not verbatim contiguous excerpts: source says “because of the anger of my brethren.” is preceded by “cry much unto the Lord my God,” and the fragment omits “the anger” construction in the source quotation context? Actually excerpt occurs contiguously. Dialogue content omits murmured statements, but dialogue is split into excerpts; all exact. However summary falsely says brethren reject him as ruler is valid. Issue: spoken dialogue combines speaker attribution ok. Wait source says ",
+        ", excerpt quotation is exact contiguous. PASS."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephi takes” and “all who heed” are acceptable summary of taking those who went; the scene implies them gathered to depart, reasonable visual inference. Caution unspecified family relationship for Nephi's sisters? Source says sisters; no issue. Narration excerpt “all those who would go with me” contiguous."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "The summary and facts merge sowing and reaping with animal-raising and multiplication, which occur as a generalized sequence across separate verses, rather than one simultaneous event. The visual guidance cautions against simultaneity, but the scene treats this as a single combined scene. Also the location “The land” is an unsupplied specificity; verse 13 says “in the land” but does not identify it. "
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephi” location is not established for bringing records and compass; the verse does not specify where these were brought. Use an unspecified location."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not given in these verses for making swords; use unspecified location."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not given for teaching crafts and building; use unspecified location."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not specified in verse 16; use an unspecified location."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "It describes the curse and skin change as facts but attributes the change to the Lord per source. More importantly, narration fragment “they had become like unto a flint;” is metaphorical; the note correctly flags this as figurative and no visual inference proposes literal flint. Facts are sourced. The passage's racially demeaning framing is accurately reported, not endorsed. PASS."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This is a generalized report, not a specified encounter or hunt; the visual inference says moving through the wilderness searching, which may imply a present scene. Keep it clearly generalized and avoid depicting a particular hunt."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not established in verse 26; use unspecified location. The consecration is explicitly narrated, while its manner remains unspecified."
+      ]
+    },
+    "scene_019": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not specified in verse 27; use unspecified location. The ordinary communal setting is a permissible visual inference, but no particular activity is given."
+      ]
+    },
+    "scene_020": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Location “Nephi” is not specified in verses 28–29; use unspecified location. The passage is retrospective and must not be presented as the departure from Jerusalem."
+      ]
+    },
+    "scene_021": {
+      "status": "REJECT",
+      "issues": [
+        "Spoken dialogue is not an exact contiguous quotation: source wording begins “Make other plates; and thou shalt engraven many things upon them which are good in my sight, for the profit of thy people.” The supplied dialogue drops the introductory framing only in narration, but the dialogue itself is verbatim. Narration exact. Location empty means no invented. PASS."
+      ]
+    },
+    "scene_022": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Nephi making and engraving are explicit but their location is unspecified; the empty location field is appropriately conservative. “Engraved on the plates” is supported by source."
+      ]
+    },
+    "scene_023": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_024": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

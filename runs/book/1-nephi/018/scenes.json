@@ -44,7 +44,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And the Lord did show me from time to time after what manner I should work the timbers of the ship.”",
+        "text": "And the Lord did show me from time to time after what manner I should work the timbers of the ship.",
         "refs": [
           "1 Nephi 18:1"
         ]
@@ -86,7 +86,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And I, Nephi, did go into the mount oft, and I did pray oft unto the Lord; wherefore the Lord showed unto me great things.”",
+        "text": "And I, Nephi, did go into the mount oft, and I did pray oft unto the Lord; wherefore the Lord showed unto me great things.",
         "refs": [
           "1 Nephi 18:3"
         ]
@@ -141,19 +141,19 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“after I had finished the ship, according to the word of the Lord”",
+        "text": "after I had finished the ship, according to the word of the Lord",
         "refs": [
           "1 Nephi 18:4"
         ]
       },
       {
-        "text": "“my brethren beheld that it was good”",
+        "text": "my brethren beheld that it was good",
         "refs": [
           "1 Nephi 18:4"
         ]
       },
       {
-        "text": "“they did humble themselves again before the Lord.”",
+        "text": "they did humble themselves again before the Lord.",
         "refs": [
           "1 Nephi 18:4"
         ]
@@ -246,13 +246,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“we did go down into the ship, with all our loading and our seeds, and whatsoever thing we had brought with us”",
+        "text": "we did go down into the ship, with all our loading and our seeds, and whatsoever thing we had brought with us",
         "refs": [
           "1 Nephi 18:6"
         ]
       },
       {
-        "text": "“the elder was called Jacob and the younger Joseph.”",
+        "text": "the elder was called Jacob and the younger Joseph.",
         "refs": [
           "1 Nephi 18:7"
         ]
@@ -301,13 +301,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“we did put forth into the sea”",
+        "text": "we did put forth into the sea",
         "refs": [
           "1 Nephi 18:8"
         ]
       },
       {
-        "text": "“were driven forth before the wind towards the promised land.”",
+        "text": "were driven forth before the wind towards the promised land.",
         "refs": [
           "1 Nephi 18:8"
         ]
@@ -357,7 +357,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“they began to dance, and to sing, and to speak with much rudeness, yea, even that they did forget by what power they had been brought thither”",
+        "text": "they began to dance, and to sing, and to speak with much rudeness, yea, even that they did forget by what power they had been brought thither",
         "refs": [
           "1 Nephi 18:9"
         ]
@@ -478,7 +478,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“Laman and Lemuel did take me and bind me with cords”",
+        "text": "Laman and Lemuel did take me and bind me with cords",
         "refs": [
           "1 Nephi 18:11"
         ]
@@ -494,65 +494,87 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "The Storm Drives the Ship Back",
+    "title": "The Tempest on the Fourth Day",
     "refs": [
       "1 Nephi 18:13",
       "1 Nephi 18:14"
     ],
-    "summary": "They do not know where to steer the ship. A great tempest drives them back on the waters for three days; they fear drowning but do not loose Nephi. On the fourth day, the tempest becomes exceedingly severe.",
+    "summary": "They do not know where to steer the ship. A great tempest drives them back upon the waters for three days. They begin to fear drowning but do not loose Nephi. On the fourth day of being driven back, the tempest grows exceedingly sore.",
     "characters": [
       "Nephi",
-      "The others aboard the ship"
+      "Unnamed people aboard the ship"
     ],
     "locations": [
-      "Sea"
+      "The ship at sea"
     ],
     "explicit_facts": [
       {
-        "text": "They do not know where to steer the ship; a great storm drives them back on the waters for three days, they fear drowning, and they do not loose Nephi.",
+        "text": "They do not know where to steer the ship.",
         "refs": [
           "1 Nephi 18:13"
         ]
       },
       {
-        "text": "On the fourth day of being driven back, the tempest becomes exceedingly severe.",
+        "text": "A great and terrible tempest drives them back upon the waters for three days.",
+        "refs": [
+          "1 Nephi 18:13"
+        ]
+      },
+      {
+        "text": "They begin to fear drowning, but do not loose Nephi.",
+        "refs": [
+          "1 Nephi 18:13"
+        ]
+      },
+      {
+        "text": "On the fourth day of being driven back, the tempest begins to be exceedingly sore.",
         "refs": [
           "1 Nephi 18:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The ship and its occupants are on storm-tossed waters.",
-      "The others keep Nephi bound during the storm."
+      "The ship is on storm-tossed waters.",
+      "Nephi remains restrained, though the manner of restraint is not stated."
     ],
     "unspecified_visual_details": [
-      "The storm's particular appearance, the ship's design, and the identities and appearances of the others aboard are not specified."
+      "The ship's design and the occupants' appearances are unspecified.",
+      "The manner of Nephi's restraint is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“Wherefore, they knew not whither they should steer the ship,”",
+        "text": "they knew not whither they should steer the ship,",
         "refs": [
           "1 Nephi 18:13"
         ]
       },
       {
-        "text": "“nevertheless they did not loose me.”",
+        "text": "and we were driven back upon the waters for the space of three days;",
         "refs": [
           "1 Nephi 18:13"
         ]
       },
       {
-        "text": "“And on the fourth day,”",
+        "text": "nevertheless they did not loose me.",
+        "refs": [
+          "1 Nephi 18:13"
+        ]
+      },
+      {
+        "text": "the tempest began to be exceedingly sore.",
         "refs": [
           "1 Nephi 18:14"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The three days precede the fourth day; do not depict them as simultaneous moments."
+    ],
     "prohibited_inventions": [
-      "Do not depict the ship sinking; drowning is feared, not reported.",
-      "Do not identify or give biographies to the unnamed others aboard."
+      "Do not depict the ship sinking or anyone drowning.",
+      "Do not specify how Nephi is restrained or identify the unnamed people.",
+      "Do not add events or explanations from verses not supplied."
     ],
     "importance": "normal"
   },
@@ -594,7 +616,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“wherefore, they came unto me, and loosed the bands which were upon my wrist”",
+        "text": "wherefore, they came unto me, and loosed the bands which were upon my wrist",
         "refs": [
           "1 Nephi 18:15"
         ]
@@ -705,7 +727,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“they were brought down, yea, even upon their sick-beds.”",
+        "text": "they were brought down, yea, even upon their sick-beds.",
         "refs": [
           "1 Nephi 18:17"
         ]
@@ -769,7 +791,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And Jacob and Joseph also, being young, having need of much nourishment, were grieved because of the afflictions of their mother; and also my wife with her tears and prayers, and also my children, did not soften the hearts of my brethren that they would loose me.”",
+        "text": "And Jacob and Joseph also, being young, having need of much nourishment, were grieved because of the afflictions of their mother; and also my wife with her tears and prayers, and also my children, did not soften the hearts of my brethren that they would loose me.",
         "refs": [
           "1 Nephi 18:19"
         ]
@@ -821,19 +843,19 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“when they saw that they were about to be swallowed up in the depths of the sea”",
+        "text": "when they saw that they were about to be swallowed up in the depths of the sea",
         "refs": [
           "1 Nephi 18:20"
         ]
       },
       {
-        "text": "“they repented of the thing which they had done”",
+        "text": "they repented of the thing which they had done",
         "refs": [
           "1 Nephi 18:20"
         ]
       },
       {
-        "text": "“insomuch that they loosed me.”",
+        "text": "insomuch that they loosed me.",
         "refs": [
           "1 Nephi 18:20"
         ]
@@ -882,13 +904,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And it came to pass after they had loosed me, behold, I took the compass, and it did work whither I desired it.”",
+        "text": "And it came to pass after they had loosed me, behold, I took the compass, and it did work whither I desired it.",
         "refs": [
           "1 Nephi 18:21"
         ]
       },
       {
-        "text": "“And it came to pass that I prayed unto the Lord; and after I had prayed the winds did cease, and the storm did cease, and there was a great calm.”",
+        "text": "And it came to pass that I prayed unto the Lord; and after I had prayed the winds did cease, and the storm did cease, and there was a great calm.",
         "refs": [
           "1 Nephi 18:21"
         ]
@@ -930,13 +952,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And it came to pass that I, Nephi, did guide the ship,”",
+        "text": "And it came to pass that I, Nephi, did guide the ship,",
         "refs": [
           "1 Nephi 18:22"
         ]
       },
       {
-        "text": "“that we sailed again towards the promised land.”",
+        "text": "that we sailed again towards the promised land.",
         "refs": [
           "1 Nephi 18:22"
         ]
@@ -977,13 +999,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And it came to pass that after we had sailed for the space of many days”",
+        "text": "And it came to pass that after we had sailed for the space of many days",
         "refs": [
           "1 Nephi 18:23"
         ]
       },
       {
-        "text": "“we did arrive at the promised land; and we went forth upon the land, and did pitch our tents; and we did call it the promised land.”",
+        "text": "we did arrive at the promised land; and we went forth upon the land, and did pitch our tents; and we did call it the promised land.",
         "refs": [
           "1 Nephi 18:23"
         ]
@@ -1027,7 +1049,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And it came to pass that they did grow exceedingly; wherefore, we were blessed in abundance.”",
+        "text": "And it came to pass that they did grow exceedingly; wherefore, we were blessed in abundance.",
         "refs": [
           "1 Nephi 18:24"
         ]
@@ -1075,7 +1097,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And we did find all manner of ore, both of gold, and of silver, and of copper.”",
+        "text": "And we did find all manner of ore, both of gold, and of silver, and of copper.",
         "refs": [
           "1 Nephi 18:25"
         ]

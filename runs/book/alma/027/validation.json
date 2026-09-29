@@ -1,0 +1,85 @@
+{
+  "stamp": "2b7589587217de671d3568370e54a8a710aaa45309eea0716c97e78e65120511",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "REJECT",
+      "issues": [
+        "The verses identify Ammon's companions only as “his brethren”; they do not establish that Aaron, Omner, and Himni are present in this scene. Listing them as characters assigns specific identities not supported by the supplied verses."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord speaks in the supplied verses but is omitted from the characters field. The scene correctly avoids assigning the Lord a visible appearance."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "The verses identify Ammon's companions only as “my brethren”; they do not establish that Aaron, Omner, and Himni are among them. Listing them as characters assigns specific identities not supported by the supplied verses."
+      ]
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "The verses identify Ammon's companions only as “his brethren”; they do not establish that Aaron, Omner, and Himni are present at this meeting. Listing them as characters assigns specific identities not supported by the supplied verses."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "The verse says Alma conducted “his brethren” and that they reported to the chief judge, but does not identify those brethren as Ammon, Aaron, Omner, and Himni. Listing these specific identities is unsupported."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "The verse identifies Ammon's companions as “his brethren” but does not establish that Aaron, Omner, and Himni are present. Listing them as characters assigns specific identities not supported by the supplied verses."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

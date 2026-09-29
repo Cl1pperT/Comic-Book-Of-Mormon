@@ -1,0 +1,23 @@
+{
+  "stamp": "cb85a4d69d457f3058083a75d1b2567e95e0501f9a198f4b011b522cc8d70243",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Zarahemla is listed as the scene location, but Alma 6:5–6 does not explicitly locate the gathering there; treat it as an inference from the preceding context, not a stated fact."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

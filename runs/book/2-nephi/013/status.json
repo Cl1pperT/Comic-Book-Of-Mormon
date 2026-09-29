@@ -1,0 +1,24 @@
+{
+  "book": "2 Nephi",
+  "chapter": 13,
+  "verses": 26,
+  "scenes": 14,
+  "counts": {
+    "PASS": 1,
+    "PASS WITH WARNINGS": 12,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_010": [
+      "The summary and narration treat a future prophecy as though the judgment is occurring: “will smite” and “will discover” are future actions, not a present event. The scene must not depict the smiting or exposure."
+    ]
+  },
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 32215,
+    "cached_input_tokens": 8448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5496,
+    "reasoning_output_tokens": 557
+  }
+}

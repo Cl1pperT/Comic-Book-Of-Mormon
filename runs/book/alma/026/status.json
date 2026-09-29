@@ -1,0 +1,69 @@
+{
+  "book": "Alma",
+  "chapter": 26,
+  "verses": 37,
+  "scenes": 18,
+  "counts": {
+    "PASS": 2,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 16
+  },
+  "rejected": {
+    "scene_002": [
+      "The speaker is Ammon, established by Alma 26:1 and the uninterrupted address; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_003": [
+      "The speaker is Ammon, established by Alma 26:1 and the uninterrupted address; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_004": [
+      "The speaker is Ammon, established by Alma 26:1 and the uninterrupted address; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_006": [
+      "The speaker is Ammon, established by Alma 26:11–12; labeling him unnamed omits a source-established identity."
+    ],
+    "scene_007": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_008": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_009": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_010": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_011": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_012": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_013": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_014": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_015": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_016": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_017": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ],
+    "scene_018": [
+      "The speaker is Ammon, continuing the address established in Alma 26:1 and 26:11; labeling him unidentified omits a source-established identity."
+    ]
+  },
+  "calls": 20,
+  "tokens": {
+    "input_tokens": 139309,
+    "cached_input_tokens": 76800,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23177,
+    "reasoning_output_tokens": 7997
+  }
+}

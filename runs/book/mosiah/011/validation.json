@@ -1,0 +1,86 @@
+{
+  "stamp": "582b5fac58b244cf2ce695ea82579ffae9a585399c09801a356f59b92bad00ce",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The phrase “transfer of royal authority” is a visual inference; no ceremony or physical transfer is described."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene names the tower builder only as unnamed, but does not account for the adjacent temple or distant lands as non-present background; avoid implying these locations are established visually beyond the text."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Noah uses the wealth” is supported by the text's sequence and “thus,” though the specific construction timeline is not detailed."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The listed characters include Noah’s wives and concubines, priests, and harlots; their presence together or in a single moment is not specified. Avoid combining separate activities into one scene."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary’s “then” preserves the sequence, but the two attacks and later guard episode should not be combined as simultaneous events."
+      ]
+    },
+    "scene_011": {
+      "status": "REJECT",
+      "issues": [
+        "The source says the armies were driven back, or they drove the opposing group back for a time; it does not establish an unambiguous victory. The summary asserts “after a victory,” and the explicit fact also labels it a victory.",
+        "The reported claim that “their fifty could stand against thousands” is not explicitly identified as a spoken quotation in the source’s direct narration; the provided narration presents it as an exact fragment, but treats it as the armies' boast."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

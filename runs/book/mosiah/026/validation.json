@@ -1,0 +1,63 @@
+{
+  "stamp": "47f71adf0cc522185c2f219dff2f9ff9a8bdd89e733853b0d030990da58c3fce",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpts are exact, but split Alma's continuous speech into separate excerpts while scene guidance asks to keep the exchange; ensure presentation does not imply separate events."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "Dialogue excerpts are materially incomplete to the stated facts: they omit the explanation that Alma was blessed for faith in Abinadi's words, the promise that the church and people will be established, the command to serve and go forth, and the charge to gather the sheep. The scene's character label \"Unidentified speaker\" is consistent with the supplied text."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord is explicitly the speaking voice in the surrounding source context (Mosiah 26:14 onward), so identifying the speaker as the Lord is supported."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

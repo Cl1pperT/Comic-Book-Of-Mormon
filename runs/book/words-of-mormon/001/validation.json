@@ -1,0 +1,69 @@
+{
+  "stamp": "ac0c4a97a199587cef145d8ba35e5e771c3ac558d9380207524bcf8e14e5e20a",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary stages the reported contention as an event without a specified time, participants, or visual form; avoid inventing a particular confrontation."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary stages retrospectively reported false Christs and punishment; their identities, methods, and chronology are unspecified."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary stages retrospective reports of false preachers, punishment, contention, and dissensions as events; no specific incidents or chronology are given."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary implies holy men are speaking to an audience in a scene; no specific speakers, audience, or occasion are identified."
+      ]
+    }
+  }
+}

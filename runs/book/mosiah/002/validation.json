@@ -1,0 +1,73 @@
+{
+  "stamp": "5bae692ec47008dec9f7d539f92405cdddb16c08b1d807e0d4d07b2364dcbcdf",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "The scene assigns the offerings and thanks to the Temple, but verses 3–4 do not place these actions there; the people are described as coming up to the Temple only in verse 5."
+      ]
+    },
+    "scene_003": {
+      "status": "REJECT",
+      "issues": [
+        "King Benjamin is listed as a character in the tent-pitching scene, but verses 5–6 do not establish that he is physically present then; his speech from the tower begins in verse 8."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

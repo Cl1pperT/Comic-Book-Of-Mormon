@@ -1,0 +1,33 @@
+{
+  "book": "Alma",
+  "chapter": 13,
+  "verses": 31,
+  "scenes": 15,
+  "counts": {
+    "PASS": 10,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 3
+  },
+  "rejected": {
+    "scene_006": [
+      "The dialogue excerpts from verses 14–15 are fragmented and not verbatim contiguous quotations: the selected verse text is interrupted by omitted words. Under the quotation rule, use shorter exact excerpts.",
+      "A single scene risks conflating the speaker's present appeal with the historical references to Melchizedek and Abraham; neither historical figure's presence nor a tithe-payment scene is established."
+    ],
+    "scene_009": [
+      "The dialogue paraphrases verse 20, although speech must be quoted verbatim; replace it with contiguous exact excerpts.",
+      "The summary says the unidentified man was unnamed, but verse 19 does not establish that he is unnamed; it only uses 'him'."
+    ],
+    "scene_010": [
+      "The spoken dialogue is an incomplete clause ending in a semicolon; use a complete contiguous exact excerpt or a short exact excerpt without altering source punctuation.",
+      "The title adds a call to repentance that is only Alma's quoted words, while the summary omits that speech and overemphasizes the gesture."
+    ]
+  },
+  "calls": 16,
+  "tokens": {
+    "input_tokens": 125896,
+    "cached_input_tokens": 66560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15251,
+    "reasoning_output_tokens": 4836
+  }
+}

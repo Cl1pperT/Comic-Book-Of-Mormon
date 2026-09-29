@@ -1,0 +1,27 @@
+{
+  "book": "2 Nephi",
+  "chapter": 10,
+  "verses": 25,
+  "scenes": 15,
+  "counts": {
+    "PASS": 12,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_013": [
+      "The previous scene establishes Jacob as the speaker addressing his beloved brethren, and verse 22 continues that address; leaving characters empty and treating the speaker and audience as unspecified conflicts with the supplied chronology and context."
+    ],
+    "scene_014": [
+      "Verses 23–24 continue the address begun by Jacob in verse 1 and explicitly address “my beloved brethren”; the unidentified speaker and audience labels contradict the source context."
+    ]
+  },
+  "calls": 5,
+  "tokens": {
+    "input_tokens": 40403,
+    "cached_input_tokens": 13056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7129,
+    "reasoning_output_tokens": 1044
+  }
+}

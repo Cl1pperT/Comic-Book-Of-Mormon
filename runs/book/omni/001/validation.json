@@ -1,0 +1,95 @@
+{
+  "stamp": "901569749af9b7497069ac4915dd94bf4478d15fc700eaee25621023f02adfdb",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The unnamed person referred to as “he” is identifiable from the preceding verse as Mosiah; leaving him unnamed is conservative but less specific than the supplied context."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "REJECT",
+      "issues": [
+        "The scene lists Coriantumr and the people of Zarahemla as characters and includes the tower and land northward as locations, although its notes correctly state these are reported past events, not present-time scenes. Those fields risk presenting the discovery, dwelling, tower event, or scattered bones as depicted events, contrary to the stated prohibitions."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene includes King Benjamin and both peoples as characters, but the war and expulsion are reported past events. Ensure the character listing does not imply that combat or expulsion is staged in the present."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The first-person narrator is unnamed in verse 25; identifying the speaker as Amaleki is supported by the preceding context, but the scene conservatively leaves the narrator unnamed."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: 'And these plates are full. And I make an end of my speaking.' is not verbatim in Omni 1:30, which reads 'And I, Amaleki, had a brother, who also went with them; and I have not since known concerning them. And I am about to lie down in my grave; and these plates are full. And I make an end of my speaking.'"
+      ]
+    }
+  }
+}

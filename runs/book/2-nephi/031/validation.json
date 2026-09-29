@@ -1,0 +1,45 @@
+{
+  "stamp": "dfd52e6c8dda12ec9d8df887673d90b8562493e7eab6b9313d3b70d9ac40793f",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference of Nephi speaking to a visibly present audience is uncertain; the verses address “you” but do not establish the audience's physical presence."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The suggested “neutral” setting is unspecified by the verses; keep the setting unshown or abstract rather than establishing a location."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

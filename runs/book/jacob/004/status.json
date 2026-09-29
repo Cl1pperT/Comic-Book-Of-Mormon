@@ -1,0 +1,20 @@
+{
+  "book": "Jacob",
+  "chapter": 4,
+  "verses": 18,
+  "scenes": 9,
+  "counts": {
+    "PASS": 9,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 36570,
+    "cached_input_tokens": 11520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4413,
+    "reasoning_output_tokens": 715
+  }
+}

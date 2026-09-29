@@ -1,0 +1,69 @@
+{
+  "stamp": "c7dd17796ea0217fcecfb654736b5906c0ed3ac23c9cb7f8340c3839747ef66c",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "REJECT",
+      "issues": [
+        "“Ammon's fifteen companions” is not established by the supplied verses; they do not specify the number or identities of his other companions."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "The second dialogue excerpt is not verbatim: Mosiah 7:13 says “For I am assured that if ye had known me ye would not have suffered that I should have worn these bands. For I am Ammon,” not “For I am Ammon” as a direct continuation."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

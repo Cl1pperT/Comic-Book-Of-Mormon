@@ -1,0 +1,24 @@
+{
+  "book": "2 Nephi",
+  "chapter": 9,
+  "verses": 54,
+  "scenes": 30,
+  "counts": {
+    "PASS": 27,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_024": [
+      "The narration excerpt “but I know my guilt; I transgressed thy law, and my transgressions are mine;” includes a hypothetical confession from verse 46, not narration that may be assigned to the present speaker. Remove it or quote only the verse’s exhortation."
+    ]
+  },
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 43262,
+    "cached_input_tokens": 8448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10215,
+    "reasoning_output_tokens": 707
+  }
+}

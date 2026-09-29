@@ -1,0 +1,27 @@
+{
+  "book": "Mosiah",
+  "chapter": 7,
+  "verses": 33,
+  "scenes": 15,
+  "counts": {
+    "PASS": 13,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_003": [
+      "“Ammon's fifteen companions” is not established by the supplied verses; they do not specify the number or identities of his other companions."
+    ],
+    "scene_006": [
+      "The second dialogue excerpt is not verbatim: Mosiah 7:13 says “For I am assured that if ye had known me ye would not have suffered that I should have worn these bands. For I am Ammon,” not “For I am Ammon” as a direct continuation."
+    ]
+  },
+  "calls": 18,
+  "tokens": {
+    "input_tokens": 125524,
+    "cached_input_tokens": 62976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 20092,
+    "reasoning_output_tokens": 7493
+  }
+}

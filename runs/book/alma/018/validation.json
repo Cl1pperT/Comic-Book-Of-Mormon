@@ -1,0 +1,77 @@
+{
+  "stamp": "1df21b9ba5e77492347f90c88c62c3af576bc851538ef8cb7ac9a00bdd9b96a0",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue quote for the servants ends after a semicolon, faithfully reproducing the supplied verse’s punctuation; the scene omits the remainder of their statement, which also says the flocks cannot be scattered while Ammon is with them and calls him the king’s friend. This is a partial quotation, not a contradiction."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Lamoni said he believes Ammon is the Great Spirit” is a reasonable reading of “this” in verse 11, but the verse does not name Ammon in that sentence; keep the identification framed as Lamoni’s belief, not fact."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit-fact entry says Ammon “asks whether the king marvels” because he heard of the defense, but the question’s exact wording in verse 16 asks whether that is what causes the king’s marvelings. The dialogue quotation itself is exact."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Ammon “says the Spirit gives him knowledge and power,” but the supplied verses say a portion of “that Spirit” dwells in him and gives him these; retain that precise attribution."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

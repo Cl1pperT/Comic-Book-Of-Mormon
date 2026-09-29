@@ -1,0 +1,84 @@
+{
+  "stamp": "560217b3440a1368be737d5267e9e981dab2cc3929f6a57fface69c227065ad9",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The generalized visual of members presenting a complaint to Alma is plausible, but verse 1 does not specify that this is how they complained or where it occurred."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location 'the land of Zarahemla' is not specified in verses 5–7."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "REJECT",
+      "issues": [
+        "The scene invents Alma's father as the man who causes the priests to assemble. Verse 22 leaves this man unidentified; the supplied preceding verses do not establish who causes their assembly.",
+        "Narration says 'they began to fast, and to pray to the Lord their God' but omits the source's preceding words 'and'; while exact-contiguous quoting otherwise applies, the excerpt itself is contiguous. More importantly, narration adds that Alma stood and began to speak, but the supplied source does not quote the reported bidding as dialogue; the excerpt is exact and within the limit. Main rejection is the invented identification."
+      ]
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is Alma, established by the supplied sequence: Alma stood and began speaking in verse 23, and verse 24 continues, 'For, said he'. Labeling him only as an unidentified speaker and prohibiting that identification is an unsupported uncertainty. The narration quotes verses 25–26, but presents the Lord's reported teaching as narration without clearly marking it as reported speech."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "The scene combines an extended, summarized period of travel, persecution, and consolation into one scene; its own notes recognize that separate moments must not be compressed. No particular occasion or chronology is specified to support the combination."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

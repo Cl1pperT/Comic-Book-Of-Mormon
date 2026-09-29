@@ -1,103 +1,111 @@
 {
-  "stamp": "dab5fe1be609b047fcc7a9ceb95cd622d6bc3670a39c27cc78dd2da59bd9e541",
+  "stamp": "50b64bdc7cf1e59381047d0fd7ce79d7b9dcf1f4bba25eeb13582b6d71e69d6d",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Dialogue is assigned to Nephi's brothers, but the verse reports the brothers' words without identifying the speaker; also, the scene omits Nephi's stated response from its summary."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Summary gives an inaccurate paraphrase of verse 3: it states what the righteous would do, but omits the conditional teaching and adds the implication that they would not murmur against truth in those terms. The supplied verse says they would not murmur because of the truth."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The marriage summary may imply that the marriages occurred together, while verse 7 only reports them without specifying timing or ceremony."
+        "The valley is given as the setting, but the verses only say these events occurred while Nephi’s father dwelt there; they do not explicitly place the group or narrator at the tent or valley."
       ]
     },
-    "scene_005": {
+    "scene_004": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not explicitly place Lehi at the tent when the voice speaks by night; the tent location is inferred from surrounding context."
+      ]
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_009": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The summary says the group hunts, returns, then travels onward, collapsing distinct times into one scene despite the explicit note prohibiting that compression."
-      ]
-    },
-    "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Showing the ball as a guide while the group travels is a reasonable inference from the stated following of its directions, but the scene does not establish that it is visibly carried or consulted during travel."
+        "Verse 11 refers to the gathering group as “we” without naming its individual members; the listed characters are plausible from context but not individually specified in this verse."
       ]
     },
-    "scene_012": {
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 12 refers to the departing group as “we” and does not identify each listed individual as present."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 13 refers to the travelers as “we” and does not identify each listed individual as present."
+      ]
+    },
+    "scene_010": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 17 says “we” pitched tents but does not identify each listed individual as present."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The verse identifies Nephi’s angry “brethren” collectively, not Sam or Zoram individually; listing them as present invents which people were there."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says the travelers returned to “our families” but does not identify every traveler or family member present; the listed individuals are inferred from context."
+      ]
     },
     "scene_015": {
       "status": "PASS",
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says Nephi’s “brethren” afflicted him but does not identify them individually; listing Sam and the sons of Ishmael as present goes beyond the verse."
+      ]
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_019": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_020": {
-      "status": "REJECT",
-      "issues": [
-        "The narration excerpt is not verbatim: the source starts with “And thus we see” and includes “the” before “great things.” It is also treated as narration despite being a teaching, contrary to the scene's note."
-      ]
-    },
-    "scene_021": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Carrying or consulting the ball while traveling upward is a reasonable but unstated visual inference; the source only says Nephi went up according to its directions."
+        "The verses say “they” humbled themselves without specifying every person; the listed group members are inferred from context."
       ]
+    },
+    "scene_019": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse refers to Nephi’s “brethren” without identifying them individually; the named brothers in the character list are not individually established as present in this moment."
+      ]
+    },
+    "scene_020": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_021": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_022": {
       "status": "PASS",
@@ -108,9 +116,9 @@
       "issues": []
     },
     "scene_024": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The quoted narration is exact, but it collapses the journey and later encampment into a single scene, explicitly prohibited by the scene's notes."
+        "The verse says “we” pitched tents and does not specify the travelers’ number or individual identities."
       ]
     },
     "scene_025": {
@@ -118,24 +126,22 @@
       "issues": []
     },
     "scene_026": {
-      "status": "REJECT",
-      "issues": [
-        "The dialogue excerpts use semicolons and commas not present at those excerpt boundaries in the supplied verse: the source has “Our father is dead; yea,” followed continuously, and has no comma after “wilderness” or “fatigue.” The quotations are not exact contiguous excerpts as punctuated."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_027": {
       "status": "PASS",
       "issues": []
     },
     "scene_028": {
-      "status": "REJECT",
-      "issues": [
-        "The source's verse 38 is narrated as Laman's allegations, but the scene has no quoted dialogue despite the instruction that dialogue and narration use source quotations. The narration excerpt only covers the final clause and omits the allegation content from the proposed scene."
-      ]
-    },
-    "scene_029": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_029": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says the Lord blessed “us” with food but does not describe the food’s source or its visible arrival; avoid depicting a specific means of provision."
+      ]
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "book": "Enos",
+  "chapter": 1,
+  "verses": 27,
+  "scenes": 17,
+  "counts": {
+    "PASS": 14,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_015": [
+      "A present-tense battle scene would turn Enos’s general report that he saw wars into a specific staged event; the verse supplies no particular battle or combat action."
+    ]
+  },
+  "calls": 7,
+  "tokens": {
+    "input_tokens": 55871,
+    "cached_input_tokens": 16896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11752,
+    "reasoning_output_tokens": 2984
+  }
+}

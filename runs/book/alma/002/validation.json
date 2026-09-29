@@ -1,0 +1,83 @@
+{
+  "stamp": "9aa54a511bca3a72ce2b8d97b19eefcf2ded0d89e21c458021fb7f8dc2d56849",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene lists Hill Amnihu as its location, but the verses do not specify where the all-day pursuit and reported deaths occur."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The named spies Zeram, Amnor, Manti, and Limher appear in the summary and source facts, but not as individual entries in the characters field."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse reports deaths and devouring, then says the bones have been found and heaped up; treating all these events as one simultaneous present-tense scene would blur that chronology. The notes caution against staging a new attack, but the visual details do not explicitly require separate times."
+      ]
+    }
+  }
+}

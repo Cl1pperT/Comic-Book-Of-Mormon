@@ -1,0 +1,36 @@
+{
+  "book": "Alma",
+  "chapter": 27,
+  "verses": 30,
+  "scenes": 17,
+  "counts": {
+    "PASS": 11,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 5
+  },
+  "rejected": {
+    "scene_003": [
+      "The verses identify Ammon's companions only as “his brethren”; they do not establish that Aaron, Omner, and Himni are present in this scene. Listing them as characters assigns specific identities not supported by the supplied verses."
+    ],
+    "scene_009": [
+      "The verses identify Ammon's companions only as “my brethren”; they do not establish that Aaron, Omner, and Himni are among them. Listing them as characters assigns specific identities not supported by the supplied verses."
+    ],
+    "scene_010": [
+      "The verses identify Ammon's companions only as “his brethren”; they do not establish that Aaron, Omner, and Himni are present at this meeting. Listing them as characters assigns specific identities not supported by the supplied verses."
+    ],
+    "scene_012": [
+      "The verse says Alma conducted “his brethren” and that they reported to the chief judge, but does not identify those brethren as Ammon, Aaron, Omner, and Himni. Listing these specific identities is unsupported."
+    ],
+    "scene_015": [
+      "The verse identifies Ammon's companions as “his brethren” but does not establish that Aaron, Omner, and Himni are present. Listing them as characters assigns specific identities not supported by the supplied verses."
+    ]
+  },
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 36231,
+    "cached_input_tokens": 16896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8976,
+    "reasoning_output_tokens": 2189
+  }
+}

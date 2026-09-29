@@ -1,0 +1,51 @@
+{
+  "stamp": "67db3cc6d1a98955c56f855853acdabc5817d7bd5f7df2f55d1151c55fd4bb15",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is identified as “Unidentified speaker,” but Mosiah 22:5 explicitly says Gideon begins speaking, and verses 6–8 continue his speech. Identify Gideon as the speaker."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "stamp": "aac8965e8bc0dbb9763fe97c87a109845198598b14a9731f700bd067fe468df0",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "REJECT",
+      "issues": [
+        "The character list presents the king of Middoni as physically present, but the verses only report that Lamoni found favor with him; they do not say he was present in the depicted scene. The summary also combines the journey and the later release, though the visual-inference note correctly distinguishes those moments."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

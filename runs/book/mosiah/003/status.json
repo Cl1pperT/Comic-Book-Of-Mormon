@@ -1,0 +1,24 @@
+{
+  "book": "Mosiah",
+  "chapter": 3,
+  "verses": 27,
+  "scenes": 14,
+  "counts": {
+    "PASS": 12,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_012": [
+      "The summary says the people “will be judged according to the words” the angel spoke, but verse 22 says they are found no more blameless only according to those words; it does not state that they will be judged according to them."
+    ]
+  },
+  "calls": 5,
+  "tokens": {
+    "input_tokens": 50011,
+    "cached_input_tokens": 20992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8040,
+    "reasoning_output_tokens": 2078
+  }
+}

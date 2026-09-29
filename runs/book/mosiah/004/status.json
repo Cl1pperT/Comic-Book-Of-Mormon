@@ -1,0 +1,20 @@
+{
+  "book": "Mosiah",
+  "chapter": 4,
+  "verses": 30,
+  "scenes": 16,
+  "counts": {
+    "PASS": 15,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 2,
+  "tokens": {
+    "input_tokens": 23586,
+    "cached_input_tokens": 7680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5765,
+    "reasoning_output_tokens": 762
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stamp": "45be2d9fd5c3c9402e9316d743e3411523a3dd3fbbb3fc9a3a9d2ab2c76f3add",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not specify where this exchange takes place; an unspecified setting is appropriate."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify the setting or how the people are arranged; depicting them as assembled is a reasonable inference from Benjamin addressing them."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify the setting or how the people are arranged; depicting them as an audience is a reasonable inference from Benjamin addressing them."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify the setting or how the people are arranged; depicting them as an audience is a reasonable inference from Benjamin addressing them."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The ass and flock are rhetorical examples, not events occurring in the scene; the scene correctly excludes them."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify the setting or how the people are arranged; depicting them as an audience is a reasonable inference from Benjamin addressing them."
+      ]
+    }
+  }
+}

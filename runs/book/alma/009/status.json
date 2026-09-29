@@ -1,0 +1,24 @@
+{
+  "book": "Alma",
+  "chapter": 9,
+  "verses": 34,
+  "scenes": 11,
+  "counts": {
+    "PASS": 9,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_005": [
+      "The speaker and listeners are not unspecified: this is Alma continuing his address to the people of Ammonihah from the preceding verses. Labeling both as unnamed misidentifies the explicit context."
+    ]
+  },
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 35660,
+    "cached_input_tokens": 13056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6957,
+    "reasoning_output_tokens": 1583
+  }
+}

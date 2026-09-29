@@ -1,0 +1,81 @@
+{
+  "stamp": "9d69d631ab4919b9dcfacd1667043d9317d05443d15cd8b4ea2c10aaceea589c",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "REJECT",
+      "issues": [
+        "The Lord God’s quoted instruction in 2 Nephi 27:20 is not verbatim: it joins separate source phrases, omits intervening text, and changes punctuation. Split into separate exact excerpts or use the complete contiguous verse text."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary groups distinct outcomes together as “brought to naught or cut off,” while the source separately says the terrible one is brought to naught, the scorner consumed, and watchers cut off. Preserve those distinctions."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

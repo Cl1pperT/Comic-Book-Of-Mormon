@@ -1,0 +1,35 @@
+{
+  "stamp": "d4692dd9fd7ef737607d9887c8c1416d5abf320b90114def365306c6c8389ede",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is labeled unidentified, but the source context identifies Jacob as the speaker continuing his address; the scene also incorrectly says the speaker’s identity is unspecified."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

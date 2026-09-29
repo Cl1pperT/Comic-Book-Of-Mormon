@@ -1,0 +1,98 @@
+{
+  "stamp": "81190c81fdbd23b70554c41967056f26c586df25028f059bacdc00730d8f4ac2",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“After Korihor’s end” may imply an event such as Korihor’s death; the supplied verses give this only as a time reference and do not specify what happened to him."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, whom Alma takes with him according to Alma 31:6 and who are explicitly included in the scene’s summary and facts."
+      ]
+    },
+    "scene_005": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, who are explicitly among Alma’s companions and are named in the scene’s source context."
+      ]
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, who are explicitly among Alma’s companions in the preceding verses."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering is 116 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
+      ]
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, who are named among Alma’s companions in the immediately preceding account."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "Claim references must belong to scene",
+        "Lettering must be an exact source quotation: 'Behold, O God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold, and all their precious things which they are ornamented with;' is not verbatim in Alma 31:28, which reads 'Behold, O my God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold, and all their precious things which they are ornamented with; and behold, their hearts are set upon them, and yet they cry unto thee and say—We thank thee, O God, for we are a chosen people unto thee, while others shall perish.'",
+        "Scene lettering is 90 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, both explicitly named in Alma’s prayer in verse 32 and included among those for whom he prays."
+      ]
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "The title says Alma “lays hands on” his companions, but the source specifically says he “clapped his hands upon” them; the title changes the described action.",
+        "The characters field omits Amulek and Zeezrom, who were among the companions with Alma."
+      ]
+    },
+    "scene_016": {
+      "status": "REJECT",
+      "issues": [
+        "The characters field omits Amulek and Zeezrom, who are among the companions referred to as separating from one another in the account."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The account says the Lord provided for “them,” referring to Alma and his companions, but the characters field is empty. Their exact locations when the provision occurred are unspecified."
+      ]
+    }
+  }
+}

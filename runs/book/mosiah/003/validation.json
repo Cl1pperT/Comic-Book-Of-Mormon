@@ -1,0 +1,65 @@
+{
+  "stamp": "fbd3d9ce527d2e41d84455c5788af01591abdd0744e4f768cdbd4afbe73ac71f",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "The summary says the people “will be judged according to the words” the angel spoke, but verse 22 says they are found no more blameless only according to those words; it does not state that they will be judged according to them."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source does not clearly delimit whether the statements about justice, mercy, and torment in verses 26–27 are spoken by the Lord or are the angel’s continued address; the summary attributes them to the angel."
+      ]
+    }
+  }
+}

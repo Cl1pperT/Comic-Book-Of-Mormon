@@ -1,99 +1,63 @@
 {
-  "stamp": "9039c124e7a6d7c44729001b2fbf2a2bef1c426ba838fc10a6f5449065b5470a",
+  "stamp": "bcc801171fd8b662002de53591e88197cef460b886caf490f644af02a1d4661f",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: '“thou shalt dwell safely with thy brother, Nephi;”' is not verbatim in 2 Nephi 2:3, which reads 'Wherefore, thy soul shall be blessed, and thou shalt dwell safely with thy brother, Nephi; and thy days shall be spent in the service of thy God. Wherefore, I know that thou art redeemed, because of the righteousness of thy Redeemer; for thou hast beheld that in the fulness of time he cometh to bring salvation unto men.'",
-        "Lettering must be an exact source quotation: '“I know that thou art redeemed, because of the righteousness of thy Redeemer;”' is not verbatim in 2 Nephi 2:3, which reads 'Wherefore, thy soul shall be blessed, and thou shalt dwell safely with thy brother, Nephi; and thy days shall be spent in the service of thy God. Wherefore, I know that thou art redeemed, because of the righteousness of thy Redeemer; for thou hast beheld that in the fulness of time he cometh to bring salvation unto men.'",
-        "Lettering must be an exact source quotation: '“thou hast beheld in thy youth his glory;”' is not verbatim in 2 Nephi 2:4, which reads 'And thou hast beheld in thy youth his glory; wherefore, thou art blessed even as they unto whom he shall minister in the flesh; for the Spirit is the same, yesterday, today, and forever. And the way is prepared from the fall of man, and salvation is free.'"
+        "Lehi and Jacob are not explicitly said to be physically together while he speaks; the imagined visual staging is a reasonable but nonessential inference."
       ]
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And men are instructed sufficiently that they know good from evil. And the law is given unto men.”' is not verbatim in 2 Nephi 2:5, which reads 'And men are instructed sufficiently that they know good from evil. And the law is given unto men. And by the law no flesh is justified; or, by the law men are cut off. Yea, by the temporal law they were cut off; and also, by the spiritual law they perish from that which is good, and become miserable forever.'",
-        "Lettering must be an exact source quotation: '“And by the law no flesh is justified;”' is not verbatim in 2 Nephi 2:5, which reads 'And men are instructed sufficiently that they know good from evil. And the law is given unto men. And by the law no flesh is justified; or, by the law men are cut off. Yea, by the temporal law they were cut off; and also, by the spiritual law they perish from that which is good, and become miserable forever.'",
-        "Lettering must be an exact source quotation: '“Wherefore, redemption cometh in and through the Holy Messiah; for he is full of grace and truth.”' is not verbatim in 2 Nephi 2:6, which reads 'Wherefore, redemption cometh in and through the Holy Messiah; for he is full of grace and truth.'",
-        "Lettering must be an exact source quotation: '“Behold, he offereth himself a sacrifice for sin, to answer the ends of the law,”' is not verbatim in 2 Nephi 2:7, which reads 'Behold, he offereth himself a sacrifice for sin, to answer the ends of the law, unto all those who have a broken heart and a contrite spirit; and unto none else can the ends of the law be answered.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“that there is no flesh that can dwell in the presence of God”' is not verbatim in 2 Nephi 2:8, which reads 'Wherefore, how great the importance to make these things known unto the inhabitants of the earth, that they may know that there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah, who layeth down his life according to the flesh, and taketh it again by the power of the Spirit, that he may bring to pass the resurrection of the dead, being the first that should rise.'",
-        "Lettering must be an exact source quotation: '“save it be through the merits, and mercy, and grace of the Holy Messiah”' is not verbatim in 2 Nephi 2:8, which reads 'Wherefore, how great the importance to make these things known unto the inhabitants of the earth, that they may know that there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah, who layeth down his life according to the flesh, and taketh it again by the power of the Spirit, that he may bring to pass the resurrection of the dead, being the first that should rise.'",
-        "Lettering must be an exact source quotation: '“who layeth down his life according to the flesh, and taketh it again by the power of the Spirit”' is not verbatim in 2 Nephi 2:8, which reads 'Wherefore, how great the importance to make these things known unto the inhabitants of the earth, that they may know that there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah, who layeth down his life according to the flesh, and taketh it again by the power of the Spirit, that he may bring to pass the resurrection of the dead, being the first that should rise.'",
-        "Lettering must be an exact source quotation: '“that he may bring to pass the resurrection of the dead”' is not verbatim in 2 Nephi 2:8, which reads 'Wherefore, how great the importance to make these things known unto the inhabitants of the earth, that they may know that there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah, who layeth down his life according to the flesh, and taketh it again by the power of the Spirit, that he may bring to pass the resurrection of the dead, being the first that should rise.'",
-        "Lettering must be an exact source quotation: '“he is the first-fruits unto God”' is not verbatim in 2 Nephi 2:9, which reads 'Wherefore, he is the first-fruits unto God, inasmuch as he shall make intercession for all the children of men; and they that believe in him shall be saved.'",
-        "Lettering must be an exact source quotation: '“he shall make intercession for all the children of men”' is not verbatim in 2 Nephi 2:9, which reads 'Wherefore, he is the first-fruits unto God, inasmuch as he shall make intercession for all the children of men; and they that believe in him shall be saved.'",
-        "Lettering must be an exact source quotation: '“they that believe in him shall be saved.”' is not verbatim in 2 Nephi 2:9, which reads 'Wherefore, he is the first-fruits unto God, inasmuch as he shall make intercession for all the children of men; and they that believe in him shall be saved.'",
-        "Scene lettering exceeds 65 words; split into smaller scenes"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: '“For it must needs be, that there is an opposition in all things.”' is not verbatim in 2 Nephi 2:11, which reads 'For it must needs be, that there is an opposition in all things. If not so, my first-born in the wilderness, righteousness could not be brought to pass, neither wickedness, neither holiness nor misery, neither good nor bad. Wherefore, all things must needs be a compound in one; wherefore, if it should be one body it must needs remain as dead, having no life neither death, nor corruption nor incorruption, happiness nor misery, neither sense nor insensibility.'"
+        "The addressee in verse 11 is only identified as “my first-born in the wilderness”; the scene correctly leaves the identity unspecified, but depicting a particular person would remain uncertain."
       ]
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source does not name Jacob in verse 1 or identify him beyond Lehi's direct address; the established label and scene context support Jacob, but his physical appearance is not described."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: '“it must needs be that there was an opposition;”' is not verbatim in 2 Nephi 2:15, which reads 'And to bring about his eternal purposes in the end of man, after he had created our first parents, and the beasts of the field and the fowls of the air, and in fine, all things which are created, it must needs be that there was an opposition; even the forbidden fruit in opposition to the tree of life; the one being sweet and the other bitter.'",
-        "Lettering must be an exact source quotation: '“the forbidden fruit in opposition to the tree of life;”' is not verbatim in 2 Nephi 2:15, which reads 'And to bring about his eternal purposes in the end of man, after he had created our first parents, and the beasts of the field and the fowls of the air, and in fine, all things which are created, it must needs be that there was an opposition; even the forbidden fruit in opposition to the tree of life; the one being sweet and the other bitter.'",
-        "Lettering must be an exact source quotation: '“the one being sweet and the other bitter.”' is not verbatim in 2 Nephi 2:15, which reads 'And to bring about his eternal purposes in the end of man, after he had created our first parents, and the beasts of the field and the fowls of the air, and in fine, all things which are created, it must needs be that there was an opposition; even the forbidden fruit in opposition to the tree of life; the one being sweet and the other bitter.'",
-        "Lettering must be an exact source quotation: '“the Lord God gave unto man that he should act for himself.”' is not verbatim in 2 Nephi 2:16, which reads 'Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other.'",
-        "Lettering must be an exact source quotation: '“man could not act for himself save it should be that he was enticed by the one or the other.”' is not verbatim in 2 Nephi 2:16, which reads 'Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other.'"
+        "The contrast of fruit and tree is grounded in the text, but any visual symbolism or portrayal of them is unspecified."
       ]
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And I, Lehi, according to the things which I have read, must needs suppose that an angel of God, according to that which is written, had fallen from heaven;”' is not verbatim in 2 Nephi 2:17, which reads 'And I, Lehi, according to the things which I have read, must needs suppose that an angel of God, according to that which is written, had fallen from heaven; wherefore, he became a devil, having sought that which was evil before God.'",
-        "Lettering must be an exact source quotation: '“Partake of the forbidden fruit, and ye shall not die, but ye shall be as God, knowing good and evil.”' is not verbatim in 2 Nephi 2:18, which reads 'And because he had fallen from heaven, and had become miserable forever, he sought also the misery of all mankind. Wherefore, he said unto Eve, yea, even that old serpent, who is the devil, who is the father of all lies, wherefore he said: Partake of the forbidden fruit, and ye shall not die, but ye shall be as God, knowing good and evil.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“they were driven out of the garden of Eden, to till the earth.”' is not verbatim in 2 Nephi 2:19, which reads 'And after Adam and Eve had partaken of the forbidden fruit they were driven out of the garden of Eden, to till the earth.'",
-        "Lettering must be an exact source quotation: '“And they have brought forth children; yea, even the family of all the earth.”' is not verbatim in 2 Nephi 2:20, which reads 'And they have brought forth children; yea, even the family of all the earth.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The summary and facts present general doctrinal claims as narrated events, rather than keeping them as teachings. The narration excerpt is exact, but the scene does not identify its speaker or audience; presenting it as narration risks implying a specific scene or voice."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And now, behold, if Adam had not transgressed he would not have fallen,”' is not verbatim in 2 Nephi 2:22, which reads 'And now, behold, if Adam had not transgressed he would not have fallen, but he would have remained in the garden of Eden. And all things which were created must have remained in the same state in which they were after they were created; and they must have remained forever, and had no end.'",
-        "Lettering must be an exact source quotation: '“And they would have had no children;”' is not verbatim in 2 Nephi 2:23, which reads 'And they would have had no children; wherefore they would have remained in a state of innocence, having no joy, for they knew no misery; doing no good, for they knew no sin.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“And they are free to choose liberty and eternal life, through the great Mediator of all men,”' is not verbatim in 2 Nephi 2:27, which reads 'Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.'",
-        "Lettering must be an exact source quotation: '“or to choose captivity and death,”' is not verbatim in 2 Nephi 2:27, which reads 'Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",

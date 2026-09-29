@@ -1,0 +1,27 @@
+{
+  "book": "Mosiah",
+  "chapter": 9,
+  "verses": 19,
+  "scenes": 16,
+  "counts": {
+    "PASS": 14,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_009": [
+      "Lists Lamanite warriors as characters, but these verses report King Laman's plan and unease; they do not establish warriors as present in this scene. Depicting them would risk adding characters to a reported account."
+    ],
+    "scene_010": [
+      "Lists Lamanite warriors as characters, but the verse says King Laman stirred up his people and that wars and contentions began; it does not establish warriors or a specific confrontation as present in this scene."
+    ]
+  },
+  "calls": 6,
+  "tokens": {
+    "input_tokens": 54616,
+    "cached_input_tokens": 34048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 9163,
+    "reasoning_output_tokens": 2338
+  }
+}

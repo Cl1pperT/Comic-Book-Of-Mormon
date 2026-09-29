@@ -1,0 +1,41 @@
+{
+  "stamp": "36da184dc25d31a65f14b4f5c9fcb0b32574e7f70ee5ddfe0c93a107f167a775",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary attributes the account to “The king” without preserving the text’s explicit uncertainty about which king; its identity is unspecified in these verses."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary calls the reporting speaker unidentified, but Mosiah 8:11–12 continues the king’s direct speech addressed to the same person as in verse 7; the king’s identity remains unspecified here."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

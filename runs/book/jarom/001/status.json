@@ -1,0 +1,20 @@
+{
+  "book": "Jarom",
+  "chapter": 1,
+  "verses": 15,
+  "scenes": 14,
+  "counts": {
+    "PASS": 13,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 2,
+  "tokens": {
+    "input_tokens": 20031,
+    "cached_input_tokens": 7680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4181,
+    "reasoning_output_tokens": 0
+  }
+}

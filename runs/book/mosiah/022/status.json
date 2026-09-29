@@ -1,0 +1,24 @@
+{
+  "book": "Mosiah",
+  "chapter": 22,
+  "verses": 16,
+  "scenes": 11,
+  "counts": {
+    "PASS": 10,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_004": [
+      "The speaker is identified as “Unidentified speaker,” but Mosiah 22:5 explicitly says Gideon begins speaking, and verses 6–8 continue his speech. Identify Gideon as the speaker."
+    ]
+  },
+  "calls": 5,
+  "tokens": {
+    "input_tokens": 46333,
+    "cached_input_tokens": 28416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6803,
+    "reasoning_output_tokens": 1873
+  }
+}

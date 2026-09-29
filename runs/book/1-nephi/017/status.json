@@ -4,41 +4,17 @@
   "verses": 55,
   "scenes": 18,
   "counts": {
-    "PASS": 9,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 7
+    "PASS": 17,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_001": [
-      "Lettering must be an exact source quotation: '“we did travel nearly eastward from that time forth.”' is not verbatim in 1 Nephi 17:1, which reads 'And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And we did travel and wade through much affliction in the wilderness; and our women did bear children in the wilderness.'",
-      "Lettering must be an exact source quotation: '“our women did bear children in the wilderness.”' is not verbatim in 1 Nephi 17:1, which reads 'And it came to pass that we did again take our journey in the wilderness; and we did travel nearly eastward from that time forth. And we did travel and wade through much affliction in the wilderness; and our women did bear children in the wilderness.'"
-    ],
-    "scene_003": [
-      "Lettering must be an exact source quotation: '“we called the place Bountiful, because of its much fruit.”' is not verbatim in 1 Nephi 17:6, which reads 'And it came to pass that we did pitch our tents by the seashore; and notwithstanding we had suffered many afflictions and much difficulty, yea, even so much that we cannot write them all, we were exceedingly rejoiced when we came to the seashore; and we called the place Bountiful, because of its much fruit.'"
-    ],
-    "scene_006": [
-      "Lettering must be an exact source quotation: '“I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts”' is not verbatim in 1 Nephi 17:11, which reads 'And it came to pass that I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts; and after I had made a bellows, that I might have wherewith to blow the fire, I did smite two stones together that I might make fire.'",
-      "Lettering must be an exact source quotation: '“I did smite two stones together that I might make fire.”' is not verbatim in 1 Nephi 17:11, which reads 'And it came to pass that I, Nephi, did make a bellows wherewith to blow the fire, of the skins of beasts; and after I had made a bellows, that I might have wherewith to blow the fire, I did smite two stones together that I might make fire.'"
-    ],
-    "scene_007": [
-      "Lettering must be an exact source quotation: '“And it came to pass that I did make tools of the ore which I did molten out of the rock.”' is not verbatim in 1 Nephi 17:16, which reads 'And it came to pass that I did make tools of the ore which I did molten out of the rock.'"
-    ],
-    "scene_010": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ],
-    "scene_015": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ],
-    "scene_016": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ]
-  },
-  "calls": 30,
+  "rejected": {},
+  "calls": 36,
   "tokens": {
-    "input_tokens": 222336,
-    "cached_input_tokens": 121600,
+    "input_tokens": 275072,
+    "cached_input_tokens": 130816,
     "cache_write_input_tokens": 0,
-    "output_tokens": 21866,
-    "reasoning_output_tokens": 902
+    "output_tokens": 27864,
+    "reasoning_output_tokens": 3890
   }
 }

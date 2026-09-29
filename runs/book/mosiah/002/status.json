@@ -1,0 +1,27 @@
+{
+  "book": "Mosiah",
+  "chapter": 2,
+  "verses": 41,
+  "scenes": 16,
+  "counts": {
+    "PASS": 14,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_002": [
+      "The scene assigns the offerings and thanks to the Temple, but verses 3–4 do not place these actions there; the people are described as coming up to the Temple only in verse 5."
+    ],
+    "scene_003": [
+      "King Benjamin is listed as a character in the tent-pitching scene, but verses 5–6 do not establish that he is physically present then; his speech from the tower begins in verse 8."
+    ]
+  },
+  "calls": 16,
+  "tokens": {
+    "input_tokens": 114023,
+    "cached_input_tokens": 59136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17786,
+    "reasoning_output_tokens": 6812
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "stamp": "f51e7e297652a3391fc6b99e961f0545fb85bf74ddc2bf87181540c2a0b0ea66",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Nephi and Jacob are listed as present, but verse 1 only reports Jacob's earlier speech and Nephi's writing; their simultaneous physical presence is not established. The visual-inference note acknowledges this uncertainty."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

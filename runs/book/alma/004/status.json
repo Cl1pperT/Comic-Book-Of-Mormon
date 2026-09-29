@@ -1,0 +1,20 @@
+{
+  "book": "Alma",
+  "chapter": 4,
+  "verses": 20,
+  "scenes": 9,
+  "counts": {
+    "PASS": 8,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 9,
+  "tokens": {
+    "input_tokens": 72499,
+    "cached_input_tokens": 38656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7267,
+    "reasoning_output_tokens": 979
+  }
+}

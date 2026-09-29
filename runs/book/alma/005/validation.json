@@ -1,0 +1,143 @@
+{
+  "stamp": "f33f386b8240045681ba0bda64df694109a4d7012aaac2818c68f9bb13ea4654",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "REJECT",
+      "issues": [
+        "Summary and facts incorrectly treat the speaker as unnamed and the speaker's father as Alma. In Alma 5:3, the speaker explicitly identifies himself as Alma and his father as Alma; the speaker is Alma (high priest), not an unnamed child.",
+        "Dialogue for verses 10–13 is incomplete, omits excerpts while presenting a selective sequence, and includes a paraphrase-like 'Behold, I can tell you—' excerpt that does not match the supplied punctuation: source has 'Behold, I can tell you—did not my father Alma believe in the words which were delivered by the mouth of Abinadi?'",
+        "Location is unsupported: verses 10–13 do not specify Zarahemla as the present setting."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Speaker identity is not explicit within refs 14–16; 'unnamed speaker' is appropriately conservative, though the adjacent passage identifies Alma as speaking.",
+        "The long quotation from verse 16 is verbatim, but quoted imagined words are embedded in Alma's question and must not be treated as the Lord visibly speaking or appearing."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma and Zarahemla are consistent with the immediately preceding passage, but the individual refs 17–20 do not independently name the speaker or specify the location.",
+        "The fields correctly frame judgment as rhetorical/imaginative; do not depict its described figures or setting as present action."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma and Zarahemla are consistent with the address's established context, though refs 21–23 do not independently specify the location.",
+        "The teaching uses garment and blood imagery; the scene appropriately prohibits literal blood, gore, and a judgment-bar depiction."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The patriarchs and prophets are references within Alma's teaching, not established present characters; the scene appropriately excludes them from the depicted congregation."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma and Zarahemla are supported by the ongoing sermon context, though refs 26–29 alone do not restate the location.",
+        "The cleansing and preparation imagery is correctly treated as teaching rather than a visible transformation."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The warning addresses hypothetical offenders; the scene appropriately avoids asserting that anyone present is mocking or persecuting another."
+      ]
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "The spoken dialogue 'Repent, and I will receive you.' is a verbatim excerpt, but its speaker is misattributed: Alma quotes the Lord's invitation (Alma 5:33), and the source does not establish the Lord as a physically present speaker in this scene.",
+        "The invitation and images are teaching within Alma's address; the scene's contextual setting in Zarahemla is not specified by refs 33–36 themselves."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The shepherd, sheep, and fold are correctly treated as metaphorical teaching rather than a literal pastoral scene."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "God, the devil, death, and the shepherd are discussed as teaching, not narrated as visible present figures; the scene correctly prohibits their depiction."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The congregation and Zarahemla follow the sermon context, but the cited verses do not independently specify the location."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The fasting and prayer are reported as past experience and correctly not staged as present action; the location and visual form of the Spirit remain unspecified."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Christ's future coming is testimony, not a present visible event; the scene correctly leaves his appearance and future setting unspecified."
+      ]
+    },
+    "scene_018": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is not unidentified: Alma 5:51 says the Spirit commanded 'me' to speak, and the continuous address in Alma 5:43–51 identifies that speaker as Alma. The established character label is Alma (high priest).",
+        "The first quoted excerpt incorrectly assigns the Spirit's direct speech to the unidentified speaker. Alma reports 'thus saith the Spirit,' then quotes the Spirit; speaker attribution must distinguish Alma's report from the Spirit's quoted words."
+      ]
+    },
+    "scene_019": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The tree, ax, and fire are figurative warning imagery and are correctly not depicted as literal events."
+      ]
+    },
+    "scene_020": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The passage poses questions and warnings rather than narrating particular acts; the scene appropriately avoids inventing specific people, offenses, garments, or possessions."
+      ]
+    },
+    "scene_021": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The book of life and God's right hand are doctrinal imagery and are correctly excluded as visible present action."
+      ]
+    },
+    "scene_022": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The shepherd-and-wolf comparison is teaching, not a narrated animal encounter; the scene appropriately prohibits a literal flock or wolf action."
+      ]
+    },
+    "scene_023": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The invitation to be baptized and partake of the tree's fruit is instruction, not an event occurring in this moment; the scene correctly avoids staging baptism or a literal tree."
+      ]
+    }
+  }
+}

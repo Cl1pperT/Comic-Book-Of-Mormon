@@ -1,114 +1,104 @@
 {
-  "stamp": "9615fe6868cd053de52a654986f23fcb07dab3ef1fe8b6ed10d0b8c9c1da4cd4",
+  "stamp": "076412654e4cd4d4781dcb48e1a90ff55f4cc06a168e59c7a1274e56db86999c",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Visual inferences are limited to Lehi addressing the group; scene details and which brethren are present remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Lehi's speech and vision are reported; the vision's appearance, audience, and setting are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: '“we have obtained a land of promise”' is not verbatim in 2 Nephi 1:5, which reads 'But, said he, notwithstanding our afflictions, we have obtained a land of promise, a land which is choice above all other lands; a land which the Lord God hath covenanted with me should be a land for the inheritance of my seed. Yea, the Lord hath covenanted this land unto me, and to my children forever, and also all those who should be led out of other countries by the hand of the Lord.'",
-        "Lettering must be an exact source quotation: '“that there shall none come into this land save they shall be brought by the hand of the Lord.”' is not verbatim in 2 Nephi 1:6, which reads 'Wherefore, I, Lehi, prophesy according to the workings of the Spirit which is in me, that there shall none come into this land save they shall be brought by the hand of the Lord.'"
+        "Summary says Lehi recounts a vision; the verse says he saw a vision and knew Jerusalem was destroyed, but does not establish that this is a recounting of the vision's contents."
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The passage gives conditional teachings, not a present event; no speaker, audience, or setting is identified."
+        "Characters is empty even though the passage is Lehi's quoted speech, introduced in verses 5–6 as what Lehi said; the speaker is omitted.",
+        "Explicit fact says the land is consecrated unto “him whom he shall bring,” but omits the source's condition about serving according to the commandments and distorts the referent by saying merely “him.”"
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The promised protection and prosperity are conditional future outcomes, not present events; audience and setting are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God”' is not verbatim in 2 Nephi 1:10, which reads 'But behold, when the time cometh that they shall dwindle in unbelief, after they have received so great blessings from the hand of the Lord—having a knowledge of the creation of the earth, and all men, knowing the great and marvelous works of the Lord from the creation of the world; having power given them to do all things by faith; having all the commandments from the beginning, and having been brought by his infinite goodness into this precious land of promise—behold, I say, if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God, behold, the judgments of him that is just shall rest upon them.'",
-        "Lettering must be an exact source quotation: '“behold, the judgments of him that is just shall rest upon them.”' is not verbatim in 2 Nephi 1:10, which reads 'But behold, when the time cometh that they shall dwindle in unbelief, after they have received so great blessings from the hand of the Lord—having a knowledge of the creation of the earth, and all men, knowing the great and marvelous works of the Lord from the creation of the world; having power given them to do all things by faith; having all the commandments from the beginning, and having been brought by his infinite goodness into this precious land of promise—behold, I say, if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God, behold, the judgments of him that is just shall rest upon them.'",
-        "Lettering must be an exact source quotation: '“and he will cause them to be scattered and smitten.”' is not verbatim in 2 Nephi 1:11, which reads 'Yea, he will bring other nations unto them, and he will give unto them power, and he will take away from them the lands of their possessions, and he will cause them to be scattered and smitten.'"
+        "Speaker is identified as unidentified, although verses 10–11 continue Lehi's address and the supplied preceding verses explicitly identify him as the speaker.",
+        "The summary says the warning is conditional on rejecting the Holy One, but verse 11's foretold consequences follow the broader conditional warning in verse 10; this compresses and narrows the stated condition."
       ]
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The chains and sleep are figurative teachings, and future bloodshed is not a present event; no specific sons are identified."
+        "Speaker is identified as unidentified, although the verses continue Lehi's address and the preceding verses identify Lehi as speaker.",
+        "The summary calls him “a parent” only by implication? The passage is explicitly Lehi's appeal and addresses “my sons”; the character labels omit Lehi and do not preserve established identity."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The speaker is identifiable from context as Lehi, but the scene's audience and setting are unspecified; his reported glory has no described appearance."
+        "The speaker is labeled “Speaking parent” rather than Lehi, although the preceding verses identify Lehi as speaker and verse 14 continues his speech; the established character identity is omitted.",
+        "The summary says “the Lord has redeemed his soul,” but the verse says “my soul”; this makes a third-person factual paraphrase inside the summary instead of preserving the quoted speaker perspective."
       ]
     },
     "scene_009": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“And I desire that ye should remember to observe the statutes and the judgments of the Lord;”' is not verbatim in 2 Nephi 1:16, which reads 'And I desire that ye should remember to observe the statutes and the judgments of the Lord; behold, this hath been the anxiety of my soul from the beginning.'",
-        "Lettering must be an exact source quotation: '“behold, this hath been the anxiety of my soul from the beginning.”' is not verbatim in 2 Nephi 1:16, which reads 'And I desire that ye should remember to observe the statutes and the judgments of the Lord; behold, this hath been the anxiety of my soul from the beginning.'",
-        "Lettering must be an exact source quotation: '“My heart hath been weighed down with sorrow from time to time,”' is not verbatim in 2 Nephi 1:17, which reads 'My heart hath been weighed down with sorrow from time to time, for I have feared, lest for the hardness of your hearts the Lord your God should come out in the fulness of his wrath upon you, that ye be cut off and destroyed forever;'"
+        "Speaker is called unidentified, although preceding scenes establish that the continuous address is Lehi's.",
+        "The summary's “describes his sorrow and fear” is supported, but omits the passage's conditional/possible framing for the warned consequences; audit fields do not preserve that distinction consistently."
       ]
     },
     "scene_010": {
       "status": "REJECT",
       "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
+        "Speaker is labeled unidentified despite the continuous speech by Lehi established by preceding verses.",
+        "The explicit fact attributes the reported commandment statement to “the Lord,” but the verse is Lehi reporting what “he hath said”; the identity of “he” is not expressly specified in this verse, so this presents an interpretation as explicit fact."
       ]
     },
     "scene_011": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“arise from the dust, my sons, and be men”' is not verbatim in 2 Nephi 1:21, which reads 'And now that my soul might have joy in you, and that my heart might leave this world with gladness because of you, that I might not be brought down with grief and sorrow to the grave, arise from the dust, my sons, and be men, and be determined in one mind and in one heart, united in all things, that ye may not come down into captivity;'",
-        "Lettering must be an exact source quotation: '“be determined in one mind and in one heart”' is not verbatim in 2 Nephi 1:21, which reads 'And now that my soul might have joy in you, and that my heart might leave this world with gladness because of you, that I might not be brought down with grief and sorrow to the grave, arise from the dust, my sons, and be men, and be determined in one mind and in one heart, united in all things, that ye may not come down into captivity;'"
+        "Speaker is labeled unnamed despite the continuous address by Lehi established in preceding verses.",
+        "Summary calls the speaker “a speaker” and omits the explicit detail that he addresses his sons; though the fact list includes it, character identity is inconsistent with the supplied preceding chronology."
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The commands are figurative and their fulfillment is not narrated; no location or individual sons are specified."
+        "Spoken dialogue and summary identify Lehi, but the explicit fact list and character list omit him's speaker identity? Characters do include Lehi, but explicit facts say Lehi, so no discrepancy.",
+        "“Chains” and “obscurity” are not conclusively figurative in the verse alone; the warning says they are figurative without specific support. Conservative audit should not claim certainty about their figurative status."
       ]
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The unnamed brother is identified by context as Nephi, but is not stated to be present; past and feared future events are reported, not enacted."
+        "Speaker is left unnamed despite the preceding scenes identifying the continuing speaker as Lehi.",
+        "Summary presents the addressees' attempted killing as a past event in a distinct scene? It is correctly reported as past, but the listed characters call the addressees unspecified while the source says “your brother”; no specific identity is required."
       ]
     },
     "scene_014": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“And ye have murmured because he hath been plain unto you.”' is not verbatim in 2 Nephi 1:26, which reads 'And ye have murmured because he hath been plain unto you. Ye say that he hath used sharpness; ye say that he hath been angry with you; but behold, his sharpness was the sharpness of the power of the word of God, which was in him; and that which ye call anger was the truth, according to that which is in God, which he could not restrain, manifesting boldly concerning your iniquities.'",
-        "Lettering must be an exact source quotation: '“Ye say that he hath used sharpness;”' is not verbatim in 2 Nephi 1:26, which reads 'And ye have murmured because he hath been plain unto you. Ye say that he hath used sharpness; ye say that he hath been angry with you; but behold, his sharpness was the sharpness of the power of the word of God, which was in him; and that which ye call anger was the truth, according to that which is in God, which he could not restrain, manifesting boldly concerning your iniquities.'",
-        "Lettering must be an exact source quotation: '“ye say that he hath been angry with you;”' is not verbatim in 2 Nephi 1:26, which reads 'And ye have murmured because he hath been plain unto you. Ye say that he hath used sharpness; ye say that he hath been angry with you; but behold, his sharpness was the sharpness of the power of the word of God, which was in him; and that which ye call anger was the truth, according to that which is in God, which he could not restrain, manifesting boldly concerning your iniquities.'",
-        "Lettering must be an exact source quotation: '“his sharpness was the sharpness of the power of the word of God,”' is not verbatim in 2 Nephi 1:26, which reads 'And ye have murmured because he hath been plain unto you. Ye say that he hath used sharpness; ye say that he hath been angry with you; but behold, his sharpness was the sharpness of the power of the word of God, which was in him; and that which ye call anger was the truth, according to that which is in God, which he could not restrain, manifesting boldly concerning your iniquities.'",
-        "Lettering must be an exact source quotation: '“and that which ye call anger was the truth,”' is not verbatim in 2 Nephi 1:26, which reads 'And ye have murmured because he hath been plain unto you. Ye say that he hath used sharpness; ye say that he hath been angry with you; but behold, his sharpness was the sharpness of the power of the word of God, which was in him; and that which ye call anger was the truth, according to that which is in God, which he could not restrain, manifesting boldly concerning your iniquities.'",
-        "Lettering must be an exact source quotation: '“it was the Spirit of the Lord which was in him,”' is not verbatim in 2 Nephi 1:27, which reads 'And it must needs be that the power of God must be with him, even unto his commanding you that ye must obey. But behold, it was not he, but it was the Spirit of the Lord which was in him, which opened his mouth to utterance that he could not shut it.'",
-        "Lettering must be an exact source quotation: '“which opened his mouth to utterance that he could not shut it.”' is not verbatim in 2 Nephi 1:27, which reads 'And it must needs be that the power of God must be with him, even unto his commanding you that ye must obey. But behold, it was not he, but it was the Spirit of the Lord which was in him, which opened his mouth to utterance that he could not shut it.'",
-        "Scene lettering exceeds 65 words; split into smaller scenes"
+        "Speaker remains unspecified even though these verses continue Lehi's address established in the preceding scenes.",
+        "Narration quotations are not presented as narration by a source narrator: “ye have murmured” and related lines are speech by Lehi, so the field misclassifies quoted speech as narration."
       ]
     },
     "scene_015": {
       "status": "REJECT",
       "issues": [
-        "Scene lettering exceeds 65 words; split into smaller scenes"
+        "The speaker is left unnamed despite the preceding scenes establishing Lehi as the continuing speaker.",
+        "Character label “Sons of Ishmael” is an imprecise substitution for Lehi's addressed “my sons who are the sons of Ishmael”; it does not explicitly preserve their relationship to Lehi."
       ]
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The future blessing for Zoram's descendants is conditional and not depicted as present; setting and appearance are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

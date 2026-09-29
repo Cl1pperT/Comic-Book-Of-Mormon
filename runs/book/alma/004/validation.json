@@ -1,0 +1,44 @@
+{
+  "stamp": "48e35ccd49c0f844ad36d8b311c9c32e6f59c4108bfdcb6df73f734abaebc776",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Nephihah is named, but the verses do not explicitly identify him as an elder; the explicit facts and summary do identify him as the wise elder selected by Alma, which is supported by verse 16.",
+        "The visual inference of Alma transferring the judgment-seat and Nephihah sitting on it combines related actions in verses 17–18; avoid implying a specific ceremony or simultaneous moment."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

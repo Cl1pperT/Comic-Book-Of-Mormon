@@ -1,0 +1,44 @@
+{
+  "stamp": "43ba37c3963a199be10ac48d16468aac6052c4cbf10538e87e88084b8fbe9d48",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Second Nephi (king)” is a later title for an unnamed man, not a personal name given in this verse; it is defensible given the established-label guidance.",
+        "The summary describes Nephi foreseeing his approaching death; the text says he saw he must soon die, without specifying how he knew."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

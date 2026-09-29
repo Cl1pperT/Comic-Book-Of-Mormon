@@ -1,0 +1,24 @@
+{
+  "book": "Mosiah",
+  "chapter": 26,
+  "verses": 39,
+  "scenes": 13,
+  "counts": {
+    "PASS": 10,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_006": [
+      "Dialogue excerpts are materially incomplete to the stated facts: they omit the explanation that Alma was blessed for faith in Abinadi's words, the promise that the church and people will be established, the command to serve and go forth, and the charge to gather the sheep. The scene's character label \"Unidentified speaker\" is consistent with the supplied text."
+    ]
+  },
+  "calls": 12,
+  "tokens": {
+    "input_tokens": 98374,
+    "cached_input_tokens": 49152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16430,
+    "reasoning_output_tokens": 4883
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "book": "2 Nephi",
+  "chapter": 23,
+  "verses": 22,
+  "scenes": 16,
+  "counts": {
+    "PASS": 1,
+    "PASS WITH WARNINGS": 13,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_013": [
+      "Lettering must be an exact source quotation: 'Their houses shall be spoiled' is not verbatim in 2 Nephi 23:16, which reads 'Their children, also shall be dashed to pieces before their eyes; their houses shall be spoiled and their wives ravished.'"
+    ],
+    "scene_016": [
+      "The scene assigns the voice in “For I will destroy her speedily” an unidentified identity but presents it as a literal first-person voice; the source does not establish a speaker, and the narration must not invent one.",
+      "The narration quotation “For I will destroy her speedily; yea, for I will be merciful unto my people, but the wicked shall perish.” includes punctuation and wording exactly, but presenting it as narration makes an unstated speaker attribution ambiguous.",
+      "The scene combines prophetic imagery and later outcomes in one entry; it must not portray the forecast beasts, satyrs, dragons, destruction, mercy, or perishing as present-tense events."
+    ]
+  },
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 32954,
+    "cached_input_tokens": 16896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7343,
+    "reasoning_output_tokens": 999
+  }
+}

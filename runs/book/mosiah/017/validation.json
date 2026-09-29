@@ -1,0 +1,48 @@
+{
+  "stamp": "5adde38b4dc17803a8577b7598a882cd5221a72a364324655f373a635a1fdb45",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Unnamed man” is not identified in the supplied verses; continuity with the preceding passage suggests Abinadi, but the scene correctly avoids naming him.",
+        "The king's fear of God's judgments is explicit, but saying he fears the man's word should remain tied to the verse's wording."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

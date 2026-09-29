@@ -1,0 +1,27 @@
+{
+  "book": "Alma",
+  "chapter": 30,
+  "verses": 60,
+  "scenes": 21,
+  "counts": {
+    "PASS": 19,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_001": [
+      "The character label “Lamanites (2 Nephi era)” misidentifies the Lamanites in this Alma-era scene."
+    ],
+    "scene_020": [
+      "The character label “people of Zarahemla (Mulekites)” assigns an identity not established by these verses; the text only refers to the people in the land."
+    ]
+  },
+  "calls": 5,
+  "tokens": {
+    "input_tokens": 64966,
+    "cached_input_tokens": 32512,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11237,
+    "reasoning_output_tokens": 1688
+  }
+}

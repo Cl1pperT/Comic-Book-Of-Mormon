@@ -1,0 +1,65 @@
+{
+  "stamp": "d46005fbfd7cb20843aa16863e8ce79f96cccb5406b222be36d43d1d72ad5eb2",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "Mosiah 1:2-3 identifies the father as King Benjamin through continuity with 1:1; avoid labeling him unnamed, though the scene summary otherwise describes the events accurately. The quoted dialogue is verbatim. The narration omits the verse's initial capital but matches an exact contiguous excerpt in lowercase? Source has 'there was' lowercase within the sentence, so valid."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpts are verbatim and contiguous, but the first ends with a semicolon and the second with a comma; these punctuation marks are present in the source. Lehi is discussed retrospectively, not present. The stated details remain teaching content, not a depiction of past events."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is explicitly King Benjamin by preceding chronology and Mosiah 1:10; labeling him unnamed and prohibiting his identification conflicts with the supplied context. The planned proclamation is correctly kept in the future."
+      ]
+    },
+    "scene_007": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is King Benjamin in continuing direct speech from Mosiah 1:10; do not label him unidentified/unnamed or prohibit identifying him. No explicit location is established, and the verse says he shall give the people a name, so portraying them as present is not established."
+      ]
+    },
+    "scene_008": {
+      "status": "REJECT",
+      "issues": [
+        "The speaker is King Benjamin in continuing speech from Mosiah 1:10; labeling him unidentified and prohibiting identification is incorrect. The warnings and account of the fathers are appropriately treated as conditional/retrospective, not present events."
+      ]
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "Mosiah 1:15-16 in continuity identifies the son as Mosiah, who is named in verse 10; prohibiting identification as named elsewhere conflicts with the supplied chronology. The source says Benjamin gave him charge concerning objects but does not say objects were physically handed over; that caution is valid."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse recounts past events and the scene correctly prohibits staging them as present. The group's identity and location remain unspecified; avoid treating the narration's 'group' as a distinct characterized presence."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The father is King Benjamin in the preceding context, so the prohibition against assigning his name is misleading if he appears; he is not listed as a character in this scene. Mosiah's proclamation is supported, but no exact words or specific visual manner are supplied."
+      ]
+    }
+  }
+}

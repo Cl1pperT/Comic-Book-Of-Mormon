@@ -27,3 +27,111 @@
 Repaired 1 Nephi 4: 4 -> 0 rejected
 Repaired 1 Nephi 7: 1 -> 2 rejected
 Repaired 1 Nephi 11: 1 -> 0 rejected
+Repaired 1 Nephi 16: 7 -> 1 rejected
+Repaired 1 Nephi 17: 7 -> 0 rejected
+Repaired 1 Nephi 18: 17 -> 0 rejected
+Repaired 1 Nephi 19: 8 -> 0 rejected
+Repaired 1 Nephi 20: 1 -> 0 rejected
+Repaired 2 Nephi 1: 7 -> 11 rejected
+Repaired 2 Nephi 2: 10 -> 0 rejected
+Repaired 2 Nephi 4: 7 -> 0 rejected
+Repaired 11 chapters; stopped: done
+2 Nephi 5: 24 scenes | 10 pass, 10 warn, 4 reject | 11 calls, 89995 in / 13200 out tokens
+2 Nephi 6: 14 scenes | 12 pass, 2 warn, 0 reject | 2 calls, 20863 in / 4996 out tokens
+2 Nephi 7: 13 scenes | 13 pass, 0 warn, 0 reject | 9 calls, 68518 in / 8311 out tokens
+2 Nephi 8: 14 scenes | 14 pass, 0 warn, 0 reject | 2 calls, 21363 in / 5358 out tokens
+2 Nephi 9: 30 scenes | 27 pass, 2 warn, 1 reject | 4 calls, 43262 in / 10215 out tokens
+2 Nephi 10: 15 scenes | 12 pass, 1 warn, 2 reject | 5 calls, 40403 in / 7129 out tokens
+2 Nephi 11: 4 scenes | 3 pass, 1 warn, 0 reject | 2 calls, 16079 in / 1667 out tokens
+2 Nephi 12: 11 scenes | 10 pass, 1 warn, 0 reject | 2 calls, 19205 in / 3771 out tokens
+2 Nephi 13: 14 scenes | 1 pass, 12 warn, 1 reject | 4 calls, 32215 in / 5496 out tokens
+2 Nephi 14: 6 scenes | 3 pass, 3 warn, 0 reject | 3 calls, 22066 in / 2524 out tokens
+2 Nephi 15: 16 scenes | 14 pass, 2 warn, 0 reject | 3 calls, 28625 in / 5990 out tokens
+2 Nephi 16: 8 scenes | 5 pass, 3 warn, 0 reject | 3 calls, 36977 in / 6267 out tokens
+2 Nephi 17: 14 scenes | 0 pass, 14 warn, 0 reject | 2 calls, 20464 in / 4564 out tokens
+2 Nephi 18: 11 scenes | 3 pass, 8 warn, 0 reject | 2 calls, 19718 in / 4314 out tokens
+2 Nephi 19: 12 scenes | 12 pass, 0 warn, 0 reject | 2 calls, 19580 in / 3733 out tokens
+2 Nephi 20: 14 scenes | 9 pass, 5 warn, 0 reject | 2 calls, 30647 in / 4608 out tokens
+2 Nephi 21: 9 scenes | 9 pass, 0 warn, 0 reject | 2 calls, 32116 in / 6658 out tokens
+2 Nephi 22: 4 scenes | 4 pass, 0 warn, 0 reject | 2 calls, 14891 in / 1103 out tokens
+2 Nephi 23: 16 scenes | 1 pass, 13 warn, 2 reject | 4 calls, 32954 in / 7343 out tokens
+2 Nephi 24: 14 scenes | 13 pass, 1 warn, 0 reject | 2 calls, 22014 in / 5265 out tokens
+2 Nephi 25: 19 scenes | 18 pass, 1 warn, 0 reject | 4 calls, 37625 in / 7620 out tokens
+2 Nephi 26: 23 scenes | 3 pass, 20 warn, 0 reject | 3 calls, 41500 in / 8648 out tokens
+2 Nephi 27: 18 scenes | 16 pass, 1 warn, 1 reject | 3 calls, 40913 in / 7876 out tokens
+2 Nephi 28: 16 scenes | 16 pass, 0 warn, 0 reject | 3 calls, 29386 in / 5837 out tokens
+2 Nephi 29: 10 scenes | 10 pass, 0 warn, 0 reject | 2 calls, 33565 in / 6882 out tokens
+2 Nephi 30: 16 scenes | 16 pass, 0 warn, 0 reject | 2 calls, 20489 in / 5293 out tokens
+2 Nephi 31: 9 scenes | 7 pass, 2 warn, 0 reject | 2 calls, 31653 in / 3893 out tokens
+2 Nephi 32: 5 scenes | 5 pass, 0 warn, 0 reject | 2 calls, 16786 in / 2079 out tokens
+2 Nephi 33: 5 scenes | 5 pass, 0 warn, 0 reject | 2 calls, 29821 in / 4204 out tokens
+Jacob 1: 9 scenes | 8 pass, 1 warn, 0 reject | 2 calls, 18751 in / 2883 out tokens
+Jacob 2: 13 scenes | 13 pass, 0 warn, 0 reject | 2 calls, 22752 in / 4257 out tokens
+Jacob 3: 8 scenes | 0 pass, 8 warn, 0 reject | 3 calls, 24440 in / 3782 out tokens
+Jacob 4: 9 scenes | 9 pass, 0 warn, 0 reject | 4 calls, 36570 in / 4413 out tokens
+Jacob 5: 23 scenes | 22 pass, 1 warn, 0 reject | 2 calls, 34146 in / 8083 out tokens
+Jacob 6: 7 scenes | 6 pass, 0 warn, 1 reject | 10 calls, 78332 in / 10937 out tokens
+Jacob 7: 18 scenes | 9 pass, 2 warn, 7 reject | 10 calls, 83056 in / 13027 out tokens
+Enos 1: 17 scenes | 14 pass, 2 warn, 1 reject | 7 calls, 55871 in / 11752 out tokens
+Jarom 1: 14 scenes | 13 pass, 1 warn, 0 reject | 2 calls, 20031 in / 4181 out tokens
+Omni 1: 20 scenes | 15 pass, 3 warn, 2 reject | 12 calls, 95573 in / 16014 out tokens
+Words of Mormon 1: 14 scenes | 10 pass, 4 warn, 0 reject | 2 calls, 20767 in / 4653 out tokens
+Mosiah 1: 11 scenes | 3 pass, 3 warn, 5 reject | 13 calls, 88440 in / 12650 out tokens
+Mosiah 2: 16 scenes | 14 pass, 0 warn, 2 reject | 16 calls, 114023 in / 17786 out tokens
+Mosiah 3: 14 scenes | 12 pass, 1 warn, 1 reject | 5 calls, 50011 in / 8040 out tokens
+Mosiah 4: 16 scenes | 15 pass, 1 warn, 0 reject | 2 calls, 23586 in / 5765 out tokens
+Mosiah 5: 6 scenes | 0 pass, 6 warn, 0 reject | 2 calls, 18150 in / 2567 out tokens
+Mosiah 6: 6 scenes | 6 pass, 0 warn, 0 reject | 2 calls, 23488 in / 1778 out tokens
+Mosiah 7: 15 scenes | 13 pass, 0 warn, 2 reject | 18 calls, 125524 in / 20092 out tokens
+Mosiah 8: 8 scenes | 6 pass, 2 warn, 0 reject | 8 calls, 58770 in / 9456 out tokens
+Mosiah 9: 16 scenes | 14 pass, 0 warn, 2 reject | 6 calls, 54616 in / 9163 out tokens
+Mosiah 10: 16 scenes | 11 pass, 4 warn, 1 reject | 7 calls, 52997 in / 9223 out tokens
+Mosiah 11: 17 scenes | 11 pass, 5 warn, 1 reject | 8 calls, 60595 in / 9796 out tokens
+Mosiah 12: 21 scenes | 13 pass, 1 warn, 7 reject | 11 calls, 93080 in / 17220 out tokens
+Mosiah 13: 11 scenes | 11 pass, 0 warn, 0 reject | 11 calls, 84338 in / 15566 out tokens
+Mosiah 14: 7 scenes | 0 pass, 7 warn, 0 reject | 2 calls, 17006 in / 2522 out tokens
+Mosiah 15: 10 scenes | 10 pass, 0 warn, 0 reject | 19 calls, 137962 in / 19268 out tokens
+Mosiah 16: 5 scenes | 5 pass, 0 warn, 0 reject | 2 calls, 30476 in / 4873 out tokens
+Mosiah 17: 10 scenes | 9 pass, 1 warn, 0 reject | 5 calls, 38449 in / 6761 out tokens
+Mosiah 18: 17 scenes | 16 pass, 1 warn, 0 reject | 2 calls, 23176 in / 4899 out tokens
+Mosiah 19: 15 scenes | 15 pass, 0 warn, 0 reject | 3 calls, 28417 in / 5620 out tokens
+Mosiah 20: 18 scenes | 17 pass, 1 warn, 0 reject | 3 calls, 28372 in / 5913 out tokens
+Mosiah 21: 23 scenes | 21 pass, 2 warn, 0 reject | 2 calls, 44175 in / 11677 out tokens
+Mosiah 22: 11 scenes | 10 pass, 0 warn, 1 reject | 5 calls, 46333 in / 6803 out tokens
+Mosiah 23: 17 scenes | 16 pass, 1 warn, 0 reject | 2 calls, 23820 in / 5729 out tokens
+Mosiah 24: 14 scenes | 13 pass, 1 warn, 0 reject | 3 calls, 36037 in / 5299 out tokens
+Mosiah 25: 17 scenes | 12 pass, 5 warn, 0 reject | 7 calls, 57070 in / 7612 out tokens
+Mosiah 26: 13 scenes | 10 pass, 2 warn, 1 reject | 12 calls, 98374 in / 16430 out tokens
+Mosiah 27: 17 scenes | 12 pass, 2 warn, 3 reject | 5 calls, 44072 in / 9870 out tokens
+Mosiah 28: 11 scenes | 10 pass, 0 warn, 1 reject | 9 calls, 68230 in / 7700 out tokens
+Mosiah 29: 19 scenes | 19 pass, 0 warn, 0 reject | 9 calls, 70345 in / 12345 out tokens
+Alma 1: 17 scenes | 16 pass, 1 warn, 0 reject | 2 calls, 32844 in / 4908 out tokens
+Alma 2: 18 scenes | 15 pass, 3 warn, 0 reject | 5 calls, 43283 in / 8642 out tokens
+Alma 3: 15 scenes | 15 pass, 0 warn, 0 reject | 2 calls, 21737 in / 5164 out tokens
+Alma 4: 9 scenes | 8 pass, 1 warn, 0 reject | 9 calls, 72499 in / 7267 out tokens
+Alma 5: 23 scenes | 4 pass, 16 warn, 3 reject | 6 calls, 57022 in / 12881 out tokens
+Alma 6: 4 scenes | 3 pass, 1 warn, 0 reject | 2 calls, 15784 in / 1802 out tokens
+Alma 7: 13 scenes | 13 pass, 0 warn, 0 reject | 2 calls, 40939 in / 9896 out tokens
+Alma 8: 18 scenes | 16 pass, 1 warn, 1 reject | 11 calls, 86535 in / 14972 out tokens
+Alma 9: 11 scenes | 9 pass, 1 warn, 1 reject | 4 calls, 35660 in / 6957 out tokens
+Alma 10: 16 scenes | 15 pass, 1 warn, 0 reject | 4 calls, 57402 in / 6347 out tokens
+Alma 11: 11 scenes | 4 pass, 6 warn, 1 reject | 8 calls, 63654 in / 11203 out tokens
+Alma 12: 13 scenes | 8 pass, 5 warn, 0 reject | 3 calls, 40811 in / 5948 out tokens
+Alma 13: 15 scenes | 10 pass, 2 warn, 3 reject | 16 calls, 125896 in / 15251 out tokens
+Alma 14: 15 scenes | 11 pass, 4 warn, 0 reject | 2 calls, 33658 in / 6547 out tokens
+Alma 15: 15 scenes | 10 pass, 5 warn, 0 reject | 2 calls, 28205 in / 4202 out tokens
+Alma 16: 16 scenes | 15 pass, 1 warn, 0 reject | 3 calls, 28312 in / 6012 out tokens
+Alma 17: 22 scenes | 19 pass, 3 warn, 0 reject | 7 calls, 58582 in / 10971 out tokens
+Alma 18: 16 scenes | 12 pass, 4 warn, 0 reject | 13 calls, 96723 in / 17962 out tokens
+Alma 19: 16 scenes | 0 pass, 16 warn, 0 reject | 12 calls, 99835 in / 16637 out tokens
+Alma 20: 14 scenes | 13 pass, 0 warn, 1 reject | 4 calls, 35663 in / 7882 out tokens
+Alma 21: 15 scenes | 5 pass, 10 warn, 0 reject | 3 calls, 27835 in / 5879 out tokens
+Alma 22: 15 scenes | 9 pass, 1 warn, 5 reject | 6 calls, 63718 in / 11500 out tokens
+Alma 23: 7 scenes | 1 pass, 6 warn, 0 reject | 7 calls, 53572 in / 5970 out tokens
+Alma 24: 18 scenes | 10 pass, 2 warn, 6 reject | 22 calls, 149795 in / 23813 out tokens
+Alma 25: 14 scenes | 12 pass, 2 warn, 0 reject | 4 calls, 32273 in / 5350 out tokens
+Alma 26: 18 scenes | 2 pass, 0 warn, 16 reject | 20 calls, 139309 in / 23177 out tokens
+Alma 27: 17 scenes | 11 pass, 1 warn, 5 reject | 4 calls, 36231 in / 8976 out tokens
+Alma 28: 12 scenes | 11 pass, 1 warn, 0 reject | 2 calls, 26347 in / 3094 out tokens
+Alma 29: 9 scenes | 9 pass, 0 warn, 0 reject | 3 calls, 24943 in / 4278 out tokens
+Alma 30: 21 scenes | 19 pass, 0 warn, 2 reject | 5 calls, 64966 in / 11237 out tokens

@@ -1,0 +1,34 @@
+{
+  "book": "Alma",
+  "chapter": 5,
+  "verses": 62,
+  "scenes": 23,
+  "counts": {
+    "PASS": 4,
+    "PASS WITH WARNINGS": 16,
+    "REJECT": 3
+  },
+  "rejected": {
+    "scene_005": [
+      "Summary and facts incorrectly treat the speaker as unnamed and the speaker's father as Alma. In Alma 5:3, the speaker explicitly identifies himself as Alma and his father as Alma; the speaker is Alma (high priest), not an unnamed child.",
+      "Dialogue for verses 10–13 is incomplete, omits excerpts while presenting a selective sequence, and includes a paraphrase-like 'Behold, I can tell you—' excerpt that does not match the supplied punctuation: source has 'Behold, I can tell you—did not my father Alma believe in the words which were delivered by the mouth of Abinadi?'",
+      "Location is unsupported: verses 10–13 do not specify Zarahemla as the present setting."
+    ],
+    "scene_012": [
+      "The spoken dialogue 'Repent, and I will receive you.' is a verbatim excerpt, but its speaker is misattributed: Alma quotes the Lord's invitation (Alma 5:33), and the source does not establish the Lord as a physically present speaker in this scene.",
+      "The invitation and images are teaching within Alma's address; the scene's contextual setting in Zarahemla is not specified by refs 33–36 themselves."
+    ],
+    "scene_018": [
+      "The speaker is not unidentified: Alma 5:51 says the Spirit commanded 'me' to speak, and the continuous address in Alma 5:43–51 identifies that speaker as Alma. The established character label is Alma (high priest).",
+      "The first quoted excerpt incorrectly assigns the Spirit's direct speech to the unidentified speaker. Alma reports 'thus saith the Spirit,' then quotes the Spirit; speaker attribution must distinguish Alma's report from the Spirit's quoted words."
+    ]
+  },
+  "calls": 6,
+  "tokens": {
+    "input_tokens": 57022,
+    "cached_input_tokens": 26112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12881,
+    "reasoning_output_tokens": 2189
+  }
+}

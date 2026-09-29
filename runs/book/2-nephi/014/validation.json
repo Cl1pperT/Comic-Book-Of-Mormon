@@ -1,0 +1,35 @@
+{
+  "stamp": "0eb49a280b1acc36cfb7cb8ed7710f3181bc0b9135b8b4973eb81d6b078ca53b",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not establish whether the branch and fruit are literal or figurative; the scene correctly leaves this unspecified, so avoid presenting either interpretation as fact."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Every one that is written among the living in Jerusalem” is an unfinished clause in the supplied verse; the narration excerpt preserves its exact wording but visually representing it as a completed census or ceremony would be unsupported."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The cleansing and purging are future descriptions; the excerpted narration is exact, but depicting literal washing, fire, or bloodshed would exceed what the verse establishes."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

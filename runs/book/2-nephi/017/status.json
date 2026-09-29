@@ -1,0 +1,20 @@
+{
+  "book": "2 Nephi",
+  "chapter": 17,
+  "verses": 25,
+  "scenes": 14,
+  "counts": {
+    "PASS": 0,
+    "PASS WITH WARNINGS": 14,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 2,
+  "tokens": {
+    "input_tokens": 20464,
+    "cached_input_tokens": 3840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4564,
+    "reasoning_output_tokens": 0
+  }
+}

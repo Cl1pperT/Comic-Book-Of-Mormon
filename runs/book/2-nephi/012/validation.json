@@ -1,0 +1,51 @@
+{
+  "stamp": "8f3c601035c5fdd6d487b757e9235ebf697d87401fc961ee9581a0ebc254d139",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “lifted-up nations and peoples” can imply that peoples, as well as nations, are lifted up. The source says the day comes upon lifted-up nations and upon every people; it does not describe every people as lifted up. The explicit-facts field correctly distinguishes these."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

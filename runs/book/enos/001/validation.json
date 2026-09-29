@@ -1,0 +1,79 @@
+{
+  "stamp": "e069c8861d3cce0dcffc24b8d01cca042d29fe9292ae08aa8e51c2ab45992048",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A tableau of Lamanites in the wilderness with tents and weapons depicts reported circumstances, not a particular event or encounter; avoid staging an attack or conversion attempt."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A prophet addressing a gathered group is a reasonable visualization of the reported preaching, but no particular prophet, audience, sermon, or gathering is specified."
+      ]
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "A present-tense battle scene would turn Enos’s general report that he saw wars into a specific staged event; the verse supplies no particular battle or combat action."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

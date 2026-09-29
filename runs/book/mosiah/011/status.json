@@ -1,0 +1,25 @@
+{
+  "book": "Mosiah",
+  "chapter": 11,
+  "verses": 29,
+  "scenes": 17,
+  "counts": {
+    "PASS": 11,
+    "PASS WITH WARNINGS": 5,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_011": [
+      "The source says the armies were driven back, or they drove the opposing group back for a time; it does not establish an unambiguous victory. The summary asserts “after a victory,” and the explicit fact also labels it a victory.",
+      "The reported claim that “their fifty could stand against thousands” is not explicitly identified as a spoken quotation in the source’s direct narration; the provided narration presents it as an exact fragment, but treats it as the armies' boast."
+    ]
+  },
+  "calls": 8,
+  "tokens": {
+    "input_tokens": 60595,
+    "cached_input_tokens": 35328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 9796,
+    "reasoning_output_tokens": 1875
+  }
+}

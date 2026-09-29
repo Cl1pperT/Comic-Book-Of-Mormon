@@ -1,0 +1,99 @@
+{
+  "stamp": "00c7c9b3ff9c2b9237608b6d1427d8e16b9fa19658ce721e9c19bf742b278459",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The title uses “meets,” but scene 001 is an encounter in transit, not a separately specified meeting place or staged event; keep the visual treatment restrained."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary compresses Lamoni’s proposal, Ammon’s refusal, and the subsequent flock assignment; these are sequential events and should not be staged as simultaneous."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary includes three days of service as elapsed context; do not depict those prior days as occurring during the flock-scattering moment."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_021": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_022": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

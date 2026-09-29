@@ -1,0 +1,45 @@
+{
+  "stamp": "68d9b20d24ec4534d904bb9316e7b6bf484cdd2943b0a53e817f62df509fea77",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label “The king of the Lamanites” is supported, but the king’s depicted appearance and surroundings remain unspecified."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people and specific moment depicted are unspecified; keep the image to the stated action of laying weapons down, without implying a battle or identifying individuals."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The listed communities are not established as gathered at one time or place; portray them separately if visualized together."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The converted Amalekite’s identity and the specific people and places depicted are unspecified; avoid a staged confrontation or physical depiction of hardened hearts."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The consultation is explicit, but its setting, participants’ appearance, and words exchanged are unspecified; do not invent dialogue."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The nature of the industrious work and the form of correspondence are unspecified; the verses do not establish Nephites physically present."
+      ]
+    }
+  }
+}

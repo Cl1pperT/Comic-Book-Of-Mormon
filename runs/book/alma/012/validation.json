@@ -1,0 +1,67 @@
+{
+  "stamp": "457c8d037c49ef17e156f8a970d4953b8d756022203ec30fb8c09f5f34a21314",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary says Alma's address is to Zeezrom and the people, but in verses 9–11 Alma is described as expounding to Zeezrom; a surrounding audience is established, though not explicitly stated to listen during this teaching."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and facts present future resurrection and judgment as teachings, appropriately not a present event; narration excerpt is exact."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The lake of fire and chains are figures in Alma's teaching, not events shown in the present exchange; visual details correctly remain unspecified."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma reports a general account of angels conversing with people; the identities and circumstances are unspecified, and must not be staged as a particular visitation."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The words in narration are reported by Alma as God's call; keep God and the Son offstage as the scene notes require."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

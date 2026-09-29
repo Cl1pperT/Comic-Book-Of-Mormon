@@ -46,13 +46,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“wherefore I did make plates of ore”",
+        "text": "wherefore I did make plates of ore",
         "refs": [
           "1 Nephi 19:1"
         ]
       },
       {
-        "text": "“that I might engraven upon them the record of my people.”",
+        "text": "that I might engraven upon them the record of my people.",
         "refs": [
           "1 Nephi 19:1"
         ]
@@ -117,7 +117,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“this I do that the more sacred things may be kept for the knowledge of my people.”",
+        "text": "this I do that the more sacred things may be kept for the knowledge of my people.",
         "refs": [
           "1 Nephi 19:5"
         ]
@@ -134,49 +134,43 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "What Nephi writes",
+    "title": "What Is Sacred and What Is Set at Naught",
     "refs": [
       "1 Nephi 19:6",
       "1 Nephi 19:7"
     ],
-    "summary": "Nephi says he writes upon plates only what he considers sacred, acknowledges his weakness, and describes how some people set at naught what others value, including God and the voice of his counsels.",
+    "summary": "The first-person writer says he writes upon plates only what he considers sacred and acknowledges his weakness. He says some people set at naught what others value, including God, and do not hearken to his counsels.",
     "characters": [
-      "Nephi"
+      "Unnamed first-person writer"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says he writes nothing upon plates unless he considers it sacred and acknowledges his weakness according to the flesh.",
+        "text": "The writer says he writes nothing upon plates unless he thinks it sacred and acknowledges his weakness according to the flesh.",
         "refs": [
           "1 Nephi 19:6"
         ]
       },
       {
-        "text": "Nephi says some people set at naught what others esteem valuable, including God, and do not hearken to the voice of his counsels.",
+        "text": "The writer says some people set at naught what others consider valuable and do not hearken to God's counsels.",
         "refs": [
           "1 Nephi 19:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown with plates while writing or reflecting."
+      "Plates may be shown as the object the writer refers to, without depicting a specific act of writing underway."
     ],
     "unspecified_visual_details": [
-      "Nephi's appearance, expression, posture, and setting.",
-      "The appearance of the plates and writing implement."
+      "The writer's appearance and surroundings.",
+      "The plates' appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
         "text": "Nevertheless, I do not write anything upon plates save it be that I think it be sacred.",
-        "refs": [
-          "1 Nephi 19:6"
-        ]
-      },
-      {
-        "text": "And now, if I do err, even did they err of old;",
         "refs": [
           "1 Nephi 19:6"
         ]
@@ -188,24 +182,19 @@
         ]
       },
       {
-        "text": "Yea, even the very God of Israel do men trample under their feet;",
-        "refs": [
-          "1 Nephi 19:7"
-        ]
-      },
-      {
-        "text": "I say, trample under their feet but I would speak in other words—they set him at naught, and hearken not to the voice of his counsels.",
+        "text": "they set him at naught, and hearken not to the voice of his counsels.",
         "refs": [
           "1 Nephi 19:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The trampling language is figurative; do not depict people physically trampling God."
+      "The trampling language is figurative, not a narrated physical event."
     ],
     "prohibited_inventions": [
       "Do not depict God as a visible figure; no appearance is described.",
-      "Do not literalize the figurative trampling."
+      "Do not depict literal trampling of God.",
+      "Do not identify or portray the writer beyond what the supplied verses establish."
     ],
     "importance": "normal"
   },
@@ -252,13 +241,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And behold he cometh, according to the words of the angel, in six hundred years from the time my father left Jerusalem.”",
+        "text": "And behold he cometh, according to the words of the angel, in six hundred years from the time my father left Jerusalem.",
         "refs": [
           "1 Nephi 19:8"
         ]
       },
       {
-        "text": "“And the world, because of their iniquity, shall judge him to be a thing of naught;”",
+        "text": "And the world, because of their iniquity, shall judge him to be a thing of naught;",
         "refs": [
           "1 Nephi 19:9"
         ]
@@ -306,19 +295,19 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men”",
+        "text": "yieldeth himself, according to the words of the angel, as a man, into the hands of wicked men",
         "refs": [
           "1 Nephi 19:10"
         ]
       },
       {
-        "text": "“to be lifted up, according to the words of Zenock, and to be crucified”",
+        "text": "to be lifted up, according to the words of Zenock, and to be crucified",
         "refs": [
           "1 Nephi 19:10"
         ]
       },
       {
-        "text": "“and to be buried in a sepulchre, according to the words of Zenos”",
+        "text": "and to be buried in a sepulchre, according to the words of Zenos",
         "refs": [
           "1 Nephi 19:10"
         ]
@@ -340,7 +329,7 @@
       "1 Nephi 19:11",
       "1 Nephi 19:12"
     ],
-    "summary": "The prophet describes the Lord God visiting the house of Israel in different ways. Zenos says the signs and the rending of the rocks must come, and that many kings of the isles of the sea will be moved by the Spirit of God to exclaim that the God of nature suffers.",
+    "summary": "A prophet foretells that the Lord God will visit the house of Israel in different ways. Zenos says the foretold events and the rending of rocks must come, and that many kings of the isles of the sea will be moved to exclaim that the God of nature suffers.",
     "characters": [
       "The Lord God (mentioned)",
       "Prophet Zenos (mentioned)",
@@ -351,57 +340,57 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord God will visit all the house of Israel; some hear his voice because of their righteousness, unto joy and salvation, while others experience signs of his power.",
+        "text": "The Lord God will visit all the house of Israel; some will hear his voice because of their righteousness, unto joy and salvation, while others will experience signs of his power.",
         "refs": [
           "1 Nephi 19:11"
         ]
       },
       {
-        "text": "The signs named include thunderings, lightning, tempest, fire, smoke, vapor of darkness, the opening of the earth, and mountains carried up.",
+        "text": "The foretold signs include thunderings, lightnings, tempest, fire, smoke, vapor of darkness, the opening of the earth, and mountains carried up.",
         "refs": [
           "1 Nephi 19:11"
         ]
       },
       {
-        "text": "Zenos says all these things must come and that the rocks of the earth must rend.",
+        "text": "Zenos says these things must come and the rocks of the earth must rend.",
         "refs": [
           "1 Nephi 19:12"
         ]
       },
       {
-        "text": "Because of the groanings of the earth, many kings of the isles of the sea will be wrought upon by the Spirit of God to exclaim, “The God of nature suffers.”",
+        "text": "Because of the groanings of the earth, many kings of the isles of the sea will be wrought upon by the Spirit of God to exclaim that the God of nature suffers.",
         "refs": [
           "1 Nephi 19:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the passage as prophecy rather than portraying its predicted events as occurring in the narrator’s present."
+      "Present the passage as prophecy, not as events occurring in the narrator’s present."
     ],
     "unspecified_visual_details": [
-      "The prophet's identity in verse 11, the Lord's appearance, the identities and appearances of the kings, and specific locations are not given."
+      "The appearance of the Lord God, the identities and appearances of the kings, and specific locations are not given."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“And the rocks of the earth must rend;”",
+        "text": "And the rocks of the earth must rend;",
         "refs": [
           "1 Nephi 19:12"
         ]
       },
       {
-        "text": "“The God of nature suffers:”",
+        "text": "The God of nature suffers.",
         "refs": [
           "1 Nephi 19:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses state these events as prophecy; they do not describe them as occurring in the narrator's present."
+      "The kings’ exclamation is foretold, not narrated as speech occurring in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not show the predicted signs as occurring in the narrator's present.",
-      "Do not invent the Lord's visible appearance or identify the prophet in verse 11."
+      "Do not show the predicted signs as occurring in the narrator’s present.",
+      "Do not invent the Lord God’s visible appearance or identify the prophet speaking in verse 11."
     ],
     "importance": "normal"
   },
@@ -496,37 +485,37 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“then will he remember the covenants which he made to their fathers”",
+        "text": "then will he remember the covenants which he made to their fathers",
         "refs": [
           "1 Nephi 19:15"
         ]
       },
       {
-        "text": "“Yea, then will he remember the isles of the sea”",
+        "text": "Yea, then will he remember the isles of the sea",
         "refs": [
           "1 Nephi 19:16"
         ]
       },
       {
-        "text": "“will I gather in”",
+        "text": "will I gather in",
         "refs": [
           "1 Nephi 19:16"
         ]
       },
       {
-        "text": "“from the four quarters of the earth”",
+        "text": "from the four quarters of the earth",
         "refs": [
           "1 Nephi 19:16"
         ]
       },
       {
-        "text": "“all the earth shall see the salvation of the Lord”",
+        "text": "all the earth shall see the salvation of the Lord",
         "refs": [
           "1 Nephi 19:17"
         ]
       },
       {
-        "text": "“every nation, kindred, tongue and people shall be blessed”",
+        "text": "every nation, kindred, tongue and people shall be blessed",
         "refs": [
           "1 Nephi 19:17"
         ]
@@ -550,7 +539,7 @@
       "1 Nephi 19:20",
       "1 Nephi 19:21"
     ],
-    "summary": "Nephi says he wrote these things to persuade his people to remember the Lord their Redeemer. He speaks to all the house of Israel if they obtain these things, describes spiritual workings that weary him and weaken his joints for those at Jerusalem, and says the Lord showed him concerning them. He says the Lord showed prophets of old things concerning them and showed many concerning his people; these things are written on the plates of brass.",
+    "summary": "Nephi says he has written to persuade his people to remember the Lord their Redeemer and speaks to all the house of Israel if they obtain these things. He describes spiritual workings that weary him for those at Jerusalem and says the Lord mercifully showed him concerning them. He says the Lord showed prophets of old concerning them and many concerning his own people, and that these things are written on the plates of brass.",
     "characters": [
       "Nephi"
     ],
@@ -559,7 +548,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says he wrote these things to persuade his people to remember the Lord their Redeemer.",
+        "text": "Nephi says he has written these things to persuade his people to remember the Lord their Redeemer.",
         "refs": [
           "1 Nephi 19:18"
         ]
@@ -571,88 +560,59 @@
         ]
       },
       {
-        "text": "Nephi says spiritual workings weary him and make all his joints weak for those at Jerusalem; he says the Lord showed him concerning them, as he had shown prophets of old, and that without the Lord's mercy he would have perished also.",
+        "text": "Nephi says workings in the spirit weary him and weaken all his joints for those at Jerusalem. He says the Lord mercifully showed him concerning them and that otherwise he would have perished also.",
         "refs": [
           "1 Nephi 19:20"
         ]
       },
       {
-        "text": "Nephi says the Lord showed prophets of old things concerning those at Jerusalem and showed many concerning his people; these things are written on the plates of brass.",
+        "text": "Nephi says the Lord showed prophets of old things concerning those at Jerusalem and showed many concerning his own people; these things are written on the plates of brass.",
         "refs": [
           "1 Nephi 19:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown writing or holding plates, with a posture suggesting weariness."
+      "Nephi's posture may suggest the weariness and weakness he describes."
     ],
     "unspecified_visual_details": [
       "Nephi's appearance, precise expression, and setting are unspecified.",
-      "No vision or appearance of the Lord is described."
+      "The text does not describe what Nephi was shown or a visible appearance of the Lord."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "“I have written these things unto my people”",
+        "text": "And I, Nephi, have written these things unto my people, that perhaps I might persuade them that they would remember the Lord their Redeemer.",
         "refs": [
           "1 Nephi 19:18"
         ]
       },
       {
-        "text": "“that perhaps I might persuade them that they would remember the Lord their Redeemer.”",
-        "refs": [
-          "1 Nephi 19:18"
-        ]
-      },
-      {
-        "text": "“Wherefore, I speak unto all the house of Israel”",
+        "text": "Wherefore, I speak unto all the house of Israel,",
         "refs": [
           "1 Nephi 19:19"
         ]
       },
       {
-        "text": "“For behold, I have workings in the spirit, which doth weary me even that all my joints are weak”",
+        "text": "I have workings in the spirit, which doth weary me even that all my joints are weak,",
         "refs": [
           "1 Nephi 19:20"
         ]
       },
       {
-        "text": "“for those who are at Jerusalem”",
-        "refs": [
-          "1 Nephi 19:20"
-        ]
-      },
-      {
-        "text": "“for had not the Lord been merciful”",
-        "refs": [
-          "1 Nephi 19:20"
-        ]
-      },
-      {
-        "text": "“And he surely did show unto the prophets of old all things concerning them”",
-        "refs": [
-          "1 Nephi 19:21"
-        ]
-      },
-      {
-        "text": "“and also he did show unto many concerning us”",
-        "refs": [
-          "1 Nephi 19:21"
-        ]
-      },
-      {
-        "text": "“for they are written upon the plates of brass.”",
+        "text": "for they are written upon the plates of brass.",
         "refs": [
           "1 Nephi 19:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi reports the Lord showing him and others; the text does not describe a visible appearance."
+      "Nephi reports what the Lord showed him and others; no visible appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not depict a vision or the Lord appearing.",
-      "Do not show people at Jerusalem as present."
+      "Do not depict an invented vision or appearance of the Lord.",
+      "Do not show people at Jerusalem or prophets of old as physically present with Nephi.",
+      "Do not portray the plates of brass as necessarily the record Nephi is writing here."
     ],
     "importance": "normal"
   },

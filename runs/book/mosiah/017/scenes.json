@@ -1,0 +1,604 @@
+[
+  {
+    "scene_id": "scene_001",
+    "title": "Alma Pleads for Abinadi",
+    "refs": [
+      "Mosiah 17:1",
+      "Mosiah 17:2",
+      "Mosiah 17:3"
+    ],
+    "summary": "After Abinadi finishes speaking, King Noah orders the priests to take him and put him to death. Alma pleads with the king to let Abinadi depart in peace, but the king casts Alma out and sends servants after him to slay him.",
+    "characters": [
+      "Abinadi",
+      "King Noah",
+      "King Noah's priests",
+      "Alma the Elder",
+      "the king's servants"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "After Abinadi finishes speaking, the king commands the priests to take him and put him to death.",
+        "refs": [
+          "Mosiah 17:1"
+        ]
+      },
+      {
+        "text": "Alma is a young descendant of Nephi who believes Abinadi's words and pleads with the king not to be angry with Abinadi, but to let him depart in peace.",
+        "refs": [
+          "Mosiah 17:2"
+        ]
+      },
+      {
+        "text": "The king becomes more angry, casts Alma out, and sends servants after him to slay him.",
+        "refs": [
+          "Mosiah 17:3"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Alma is visibly pleading before the king as Abinadi and the priests are present."
+    ],
+    "unspecified_visual_details": [
+      "The appearance, clothing, and precise arrangement of the people and place are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict Abinadi being executed in this moment; the king's command does not narrate the execution."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_002",
+    "title": "Alma Hides and Writes",
+    "refs": [
+      "Mosiah 17:4"
+    ],
+    "summary": "Alma flees, hides where his pursuers do not find him, and, while concealed for many days, writes all the words Abinadi had spoken.",
+    "characters": [
+      "Alma the Elder"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Alma flees, hides where the pursuers do not find him, and while concealed for many days writes all the words Abinadi had spoken.",
+        "refs": [
+          "Mosiah 17:4"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Alma may be shown writing while concealed."
+    ],
+    "unspecified_visual_details": [
+      "The hiding place, writing materials, and specific duration beyond many days are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not show the servants finding or attacking Alma."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_003",
+    "title": "Abinadi Imprisoned",
+    "refs": [
+      "Mosiah 17:5",
+      "Mosiah 17:6"
+    ],
+    "summary": "King Noah has his guards surround and take Abinadi; they bind and imprison him. After three days, having counseled with his priests, the king has Abinadi brought before him again.",
+    "characters": [
+      "Abinadi",
+      "King Noah",
+      "King Noah's priests",
+      "the king's guards"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The king has guards surround and take Abinadi; they bind him and cast him into prison.",
+        "refs": [
+          "Mosiah 17:5"
+        ]
+      },
+      {
+        "text": "After three days, having counseled with his priests, the king has Abinadi brought before him again.",
+        "refs": [
+          "Mosiah 17:6"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The binding and imprisonment can be shown as the first visual moment; Abinadi being brought before the king is a later moment and should not be collapsed into it."
+    ],
+    "unspecified_visual_details": [
+      "The prison's appearance and the exact place of the renewed hearing are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The verses describe distinct moments separated by three days."
+    ],
+    "prohibited_inventions": [
+      "Do not portray the three-day interval as continuous action or add events during it."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_004",
+    "title": "The Accusation",
+    "refs": [
+      "Mosiah 17:7",
+      "Mosiah 17:8"
+    ],
+    "summary": "King Noah tells Abinadi that an accusation has been found against him and says he is worthy of death. He says Abinadi must die unless he recalls his words against the king and his people.",
+    "characters": [
+      "Abinadi",
+      "King Noah"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The king says an accusation has been found against Abinadi and declares him worthy of death.",
+        "refs": [
+          "Mosiah 17:7"
+        ]
+      },
+      {
+        "text": "The king says Abinadi will be put to death unless he recalls his words concerning the king and his people.",
+        "refs": [
+          "Mosiah 17:8"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The king addresses Abinadi during the renewed hearing."
+    ],
+    "unspecified_visual_details": [
+      "The setting's layout and the presence or absence of listeners are unspecified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Abinadi, we have found an accusation against thee, and thou art worthy of death.",
+        "refs": [
+          "Mosiah 17:7"
+        ],
+        "speaker": "King Noah"
+      },
+      {
+        "text": "For thou hast said that God himself should come down among the children of men;",
+        "refs": [
+          "Mosiah 17:8"
+        ],
+        "speaker": "King Noah"
+      },
+      {
+        "text": "and now, for this cause thou shalt be put to death unless thou wilt recall all the words which thou hast spoken evil concerning me and my people.",
+        "refs": [
+          "Mosiah 17:8"
+        ],
+        "speaker": "King Noah"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict God coming down; this is part of the king's accusation, not a narrated visible event."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_005",
+    "title": "Abinadi Refuses to Recall His Words",
+    "refs": [
+      "Mosiah 17:9",
+      "Mosiah 17:10"
+    ],
+    "summary": "Abinadi says his words concerning the people are true and that he will not recall them. He says he has fallen into his addressee's hands, will suffer even until death, and warns what slaying him would mean.",
+    "characters": [
+      "Abinadi",
+      "Unnamed addressee"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Abinadi says he will not recall his words concerning the people because they are true.",
+        "refs": [
+          "Mosiah 17:9"
+        ]
+      },
+      {
+        "text": "Abinadi says he has suffered himself to fall into his addressee's hands so they may know the surety of his words.",
+        "refs": [
+          "Mosiah 17:9"
+        ]
+      },
+      {
+        "text": "Abinadi says he will suffer even until death and will not recall his words.",
+        "refs": [
+          "Mosiah 17:10"
+        ]
+      },
+      {
+        "text": "Abinadi warns that if they slay him, they will shed innocent blood and this will stand as a testimony against them at the last day.",
+        "refs": [
+          "Mosiah 17:10"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Abinadi addresses someone present."
+    ],
+    "unspecified_visual_details": [
+      "The addressee's identity and appearance are unspecified.",
+      "The location and Abinadi's posture are unspecified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "I will not recall the words which I have spoken unto you concerning this people, for they are true;",
+        "refs": [
+          "Mosiah 17:9"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "Yea, and I will suffer even until death, and I will not recall my words,",
+        "refs": [
+          "Mosiah 17:10"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "And if ye slay me ye will shed innocent blood, and this shall also stand as a testimony against you at the last day.",
+        "refs": [
+          "Mosiah 17:10"
+        ],
+        "speaker": "Abinadi"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The slaying and the last-day testimony are conditional or future statements, not events occurring in this scene."
+    ],
+    "prohibited_inventions": [
+      "Do not identify the addressee as King Noah from these verses alone.",
+      "Do not depict Abinadi's death or the last day."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_006",
+    "title": "The Priests Accuse Him",
+    "refs": [
+      "Mosiah 17:11",
+      "Mosiah 17:12"
+    ],
+    "summary": "King Noah is about to release a man because he fears the man's word and the judgments of God. The priests accuse the man of reviling the king. Angered, the king delivers him up to be slain.",
+    "characters": [
+      "King Noah",
+      "the priests",
+      "the unnamed man"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "King Noah is about to release the man because he fears his word and fears that the judgments of God will come upon him.",
+        "refs": [
+          "Mosiah 17:11"
+        ]
+      },
+      {
+        "text": "The priests raise their voices against the man and accuse him of reviling the king.",
+        "refs": [
+          "Mosiah 17:12"
+        ]
+      },
+      {
+        "text": "The king is stirred to anger and delivers the man up to be slain.",
+        "refs": [
+          "Mosiah 17:12"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The priests can be shown speaking emphatically.",
+      "The king can be shown reacting angrily."
+    ],
+    "unspecified_visual_details": [
+      "The location, number of priests, and appearances of those present are unspecified.",
+      "The manner of delivering the man up is unspecified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "He has reviled the king.",
+        "refs": [
+          "Mosiah 17:12"
+        ],
+        "speaker": "the priests"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "Mosiah 17:9–10 were not supplied, so their events are not depicted or described."
+    ],
+    "prohibited_inventions": [
+      "Do not depict an earlier exchange or any events from unsupplied verses.",
+      "Do not depict the man's death or show the judgments of God occurring.",
+      "Do not assign the unnamed man a name based on the previous draft."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_007",
+    "title": "Abinadi Is Put to Death",
+    "refs": [
+      "Mosiah 17:13",
+      "Mosiah 17:14"
+    ],
+    "summary": "They bind Abinadi and scourge him with faggots. As flames begin to scorch him, he cries out to them.",
+    "characters": [
+      "Abinadi",
+      "King Noah's priests"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "They take and bind Abinadi, and scourge his skin with faggots, even unto death.",
+        "refs": [
+          "Mosiah 17:13"
+        ]
+      },
+      {
+        "text": "When flames begin to scorch Abinadi, he cries unto them.",
+        "refs": [
+          "Mosiah 17:14"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The explicitly described physical action and flames may be depicted without gore."
+    ],
+    "unspecified_visual_details": [
+      "The precise arrangement of the execution and identities of the people who carry it out are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The following speech is spoken as the flames begin to scorch Abinadi."
+    ],
+    "prohibited_inventions": [
+      "Do not show wounds, blood, or gore."
+    ],
+    "importance": "major"
+  },
+  {
+    "scene_id": "scene_008",
+    "title": "A Warning of Suffering",
+    "refs": [
+      "Mosiah 17:15",
+      "Mosiah 17:16",
+      "Mosiah 17:17"
+    ],
+    "summary": "A speaker says the addressees have caused the speaker suffering and warns that their seed will cause many to suffer death by fire because they believe in the salvation of the Lord their God. The speaker also foretells disease, smiting, driving, and scattering.",
+    "characters": [
+      "Unnamed speaker",
+      "Unnamed addressees"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The speaker says the addressees have caused the speaker suffering.",
+        "refs": [
+          "Mosiah 17:15"
+        ]
+      },
+      {
+        "text": "The speaker says the addressees' seed will cause many to suffer death by fire because they believe in the salvation of the Lord their God.",
+        "refs": [
+          "Mosiah 17:15"
+        ]
+      },
+      {
+        "text": "The speaker says the addressees will be afflicted with diseases because of their iniquities.",
+        "refs": [
+          "Mosiah 17:16"
+        ]
+      },
+      {
+        "text": "The speaker says the addressees will be smitten, driven, and scattered, comparing them to a flock driven by beasts.",
+        "refs": [
+          "Mosiah 17:17"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The speaker may be shown addressing others; the foretold events are not happening in this moment."
+    ],
+    "unspecified_visual_details": [
+      "The speaker's and addressees' appearances are unspecified.",
+      "The setting and any visible source of the speaker's suffering are unspecified."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "thy seed shall cause that many shall suffer the pains that I do suffer, even the pains of death by fire;",
+        "refs": [
+          "Mosiah 17:15"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "and this because they believe in the salvation of the Lord their God.",
+        "refs": [
+          "Mosiah 17:15"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "ye shall be afflicted with all manner of diseases because of your iniquities.",
+        "refs": [
+          "Mosiah 17:16"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "ye shall be smitten on every hand, and shall be driven and scattered to and fro,",
+        "refs": [
+          "Mosiah 17:17"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The flock and beasts are a comparison in the warning, not a literal event."
+    ],
+    "prohibited_inventions": [
+      "Do not name or identify the speaker or addressees.",
+      "Do not depict the foretold suffering, diseases, scattering, flock, or beasts as happening now.",
+      "Do not invent flames or other visible details of the speaker's suffering."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_009",
+    "title": "Abinadi's Final Words",
+    "refs": [
+      "Mosiah 17:18",
+      "Mosiah 17:19"
+    ],
+    "summary": "Abinadi says they will be hunted, taken by their enemies, and suffer death by fire. He declares that God executes vengeance upon those who destroy his people and calls for God to receive his soul.",
+    "characters": [
+      "Abinadi",
+      "King Noah's priests"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Abinadi says that in that day they will be hunted, taken by their enemies, and suffer death by fire.",
+        "refs": [
+          "Mosiah 17:18"
+        ]
+      },
+      {
+        "text": "Abinadi says God executes vengeance upon those who destroy his people and calls, \"O God, receive my soul.\"",
+        "refs": [
+          "Mosiah 17:19"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Abinadi speaks as the flames scorch him; his call to God does not establish a visible appearance of God."
+    ],
+    "unspecified_visual_details": [
+      "The future hunters and enemies are not identified or described."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "And in that day ye shall be hunted,",
+        "refs": [
+          "Mosiah 17:18"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "and ye shall be taken by the hand of your enemies,",
+        "refs": [
+          "Mosiah 17:18"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "and then ye shall suffer, as I suffer, the pains of death by fire.",
+        "refs": [
+          "Mosiah 17:18"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "Thus God executeth vengeance upon those that destroy his people.",
+        "refs": [
+          "Mosiah 17:19"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "O God, receive my soul.",
+        "refs": [
+          "Mosiah 17:19"
+        ],
+        "speaker": "Abinadi"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The hunting and enemy capture are foretold, not narrated as present events."
+    ],
+    "prohibited_inventions": [
+      "Do not show a visible divine figure; none is described."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_010",
+    "title": "Abinadi Dies",
+    "refs": [
+      "Mosiah 17:20"
+    ],
+    "summary": "After speaking, Abinadi falls and dies by fire because he would not deny God's commandments, sealing the truth of his words by his death.",
+    "characters": [
+      "Abinadi"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "After Abinadi says these words, he falls and has suffered death by fire.",
+        "refs": [
+          "Mosiah 17:20"
+        ]
+      },
+      {
+        "text": "Abinadi is put to death because he would not deny God's commandments, sealing the truth of his words by his death.",
+        "refs": [
+          "Mosiah 17:20"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Abinadi's fall may be shown without depicting gore."
+    ],
+    "unspecified_visual_details": [
+      "The reactions and presence of other people at the moment of his death are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not add reactions, further action, or a visible divine appearance."
+    ],
+    "importance": "normal"
+  }
+]
