@@ -126,7 +126,8 @@ def _rejected(report):
 
 
 def _repair(pipeline, report):
-    """Rewrite rejected scenes (each told why) and re-audit, until clean, out of rounds, or a round changes nothing."""
+    """Rewrite rejected scenes (each told why) and re-audit just those, until clean, out of rounds, or a round
+    changes nothing. Scenes that already passed keep their verdicts, so a re-check can't flip them."""
     for _ in range(REPAIR_ROUNDS):
         rejected = _rejected(report)
         if not rejected:
@@ -136,7 +137,7 @@ def _repair(pipeline, report):
                 pipeline.analyze(sid)
             except ValueError:
                 pass  # a rewrite that changed its verse coverage is discarded; the scene stays rejected
-        report = pipeline.validate(batch=True)
+        report = pipeline.revalidate(rejected)
         if _rejected(report) == rejected:
             break  # the same scenes failed again: more rounds would only spend usage
     return report
@@ -156,12 +157,15 @@ def _escalate(pipeline, report):
         effort.update(repair=os.getenv("CODEX_ESCALATE_EFFORT", effort["repair"]),
                       validator=os.getenv("CODEX_ESCALATE_VALIDATOR_EFFORT", effort["validator"]))
     try:
-        for sid in _rejected(report):
+        rejected = _rejected(report)
+        for sid in rejected:
             try:
                 pipeline.analyze(sid)
             except ValueError:
                 pass
-        return pipeline.validate(batch=True)
+        # Only the rewritten scenes face the stricter auditor; re-auditing the whole chapter rejected scenes the
+        # regular auditor had passed (Mosiah 7 went from 2 rejected to 6).
+        return pipeline.revalidate(rejected)
     finally:
         if saved:
             models.clear(), models.update(saved[0])

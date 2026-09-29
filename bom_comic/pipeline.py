@@ -115,6 +115,32 @@ class Pipeline:
         self.store.event("validate", results=results)
         return results
 
+    def revalidate(self, scene_ids):
+        """Re-audit only these scenes (e.g. after rewriting them), keeping every other scene's verdict, so a
+        re-check can't flip scenes that already passed. Consecutive scenes share one batch call."""
+        scenes, verses = self.scenes(), self.verses()
+        known = list(self.continuity()["characters"])
+        results = dict(self.store.read("validation.json")["results"])
+        wanted = set(scene_ids)
+        groups, group = [], []
+        for i, scene in enumerate(scenes):
+            if scene.scene_id in wanted:
+                group.append((i, scene))
+            elif group:
+                groups.append(group)
+                group = []
+        if group:
+            groups.append(group)
+        for group in groups:
+            first = group[0][0]
+            verdicts = validate_batch(self.provider, [scene for _, scene in group], verses,
+                                      scenes[first - 1] if first else None, known)
+            results.update({sid: v.model_dump() for sid, v in verdicts.items()})
+        results = {s.scene_id: results[s.scene_id] for s in scenes}
+        self.store.write("validation.json", {"stamp": self.stamp(), "results": results})
+        self.store.event("revalidate", scenes=sorted(wanted), results={sid: results[sid] for sid in sorted(wanted)})
+        return results
+
     def validation(self):
         value = self.store.read("validation.json")
         if value["stamp"] != self.stamp():

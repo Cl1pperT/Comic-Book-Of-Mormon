@@ -143,10 +143,62 @@ def portrait_aspect(record):
 
 CORRECTIONS_HEADING = "REVIEWER CORRECTIONS"
 
+# Fixed art conventions for heavenly figures, matched on the scene's free-form labels. They are design choices, not
+# scripture, and they win over records or scene prohibitions that would contradict them (e.g. "no invented wings").
+# Applied when the prompt is built, not stored in records, so drawings made before them don't go stale.
+HEAVENLY = [
+    ("spirit", re.compile(r"^(?:[Tt]he\s+)?(?:Spirit\b|Holy Ghost\b)"), ("spirit", "holy ghost"), {
+        "visual_design_choices": ["Shown only as a tall column of soft, radiant white light: no body, face, "
+                                  "or human features of any kind."],
+        "locked_traits": ["Always the same column of white light, never a person."]}),
+    ("god", re.compile(r"^(?:the\s+)?(?:God(?: the Father)?|Lord God|Lord)\b(?!['’]|\s+of\b)", re.I),
+     ("god", "lord", "father"), {
+        "visual_design_choices": ["A person made entirely of brilliant white light: a human outline so bright that "
+                                  "no face, features, or clothing can be made out."],
+        "locked_traits": ["Always the same figure of pure light, never a detailed face or body."]}),
+    # Angels are women by the comic's convention; one the text clearly describes as a man is fixed by a reader flag.
+    ("angel", re.compile(r"^(?:(?:the|an|a)\s+)?(?:numberless\s+)?(?:concourses?\s+of\s+)?angels?\b", re.I),
+     ("angel",), {
+        "visual_design_choices": ["A heavenly messenger: a woman with large feathered white wings, dressed in pure "
+                                  "white, glowing softly, clearly a distinct person with her own face; several "
+                                  "angels each have their own face."],
+        "locked_traits": ["Always winged, glowing, and dressed in pure white."]}),
+]
+# A prohibition about one of these figures that mentions how it looks contradicts its convention.
+_APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form", "body", "appearance", "figure",
+               "face", "feature", "visib", "depict", "shape", "gender", "woman", "female")
+
+
+def heavenly(name):
+    """(kind, subject words, convention record) for a heavenly figure's label, or None."""
+    for kind, pattern, subjects, record in HEAVENLY:
+        if pattern.match(name.strip()):
+            return kind, subjects, record
+    return None
+
+
+def _contradicts(text, subjects):
+    low = text.lower()
+    return any(s in low for s in subjects) and any(a in low for a in _APPEARANCE)
+
+
+def _conventional(name, record):
+    """A character record with its heavenly convention applied (unchanged for everyone else)."""
+    match = heavenly(name)
+    if not match:
+        return record
+    _, subjects, convention = match
+    # In the figure's own record the subject is implied, so any rule about its look gives way to the convention.
+    kept = [t for t in record.get("locked_traits", []) if not any(a in t.lower() for a in _APPEARANCE)]
+    return {**record, "visual_design_choices": convention["visual_design_choices"],
+            "locked_traits": convention["locked_traits"] + kept}
+
 
 def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
     """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel."""
     w, h = (int(n) for n in aspect.split(":"))
+    # Subjects of the heavenly figures in this panel: prohibitions about how they look give way to the conventions.
+    subjects = tuple(s for name in panel.characters_visible if heavenly(name) for s in heavenly(name)[1])
     references = []
     if corrections and (corrections.get("add") or corrections.get("avoid")):
         references.append(CORRECTIONS_HEADING + "\n" + json.dumps(
@@ -173,7 +225,8 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
         "LOCATION CONSISTENCY (design choices are not scripture)\n" + json.dumps(
             {name: continuity["locations"].get(name, {}) for name in panel.location}),
         "CHARACTER CONSISTENCY (design choices are not scripture)\n" + json.dumps(
-            {name: continuity["characters"].get(name, {}) for name in panel.characters_visible}),
+            {name: _conventional(name, continuity["characters"].get(name, {}))
+             for name in panel.characters_visible}),
         *references,
         "APPROVED ACTION\n" + panel.action,
         "VISIBLE PEOPLE\n" + json.dumps(panel.characters_visible),
@@ -183,7 +236,7 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
         "UNSPECIFIED CREATIVE DETAILS\n" + json.dumps(panel.creative_details),
         "PANEL SHAPE\n" + f"{panel.shot} panel; compose for a frame {w / h:.2f} times as wide as it is tall",
         "MOOD / COMPOSITION / CAMERA\n" + " / ".join([panel.mood, panel.composition, panel.camera]),
-        "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + panel.prohibited)])
+        "NEGATIVE CONSTRAINTS\n" + "\n".join(NEGATIVE + [p for p in panel.prohibited if not _contradicts(p, subjects)])])
 
 
 def portrait_eligible(record):

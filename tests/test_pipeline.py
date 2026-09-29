@@ -707,6 +707,46 @@ def test_captions_move_to_the_corner_that_keeps_faces_clear():
     assert corners(placed) == [(103, 103, 303, 450), br]
 
 
+def test_heavenly_figures_are_recognized_from_the_scene_labels():
+    from bom_comic.comic import heavenly
+    kinds = {label: (heavenly(label) or [None])[0] for label in [
+        "the angel", "An angel", "Angels", "an angel from God", "The angel who appeared to Nephi",
+        "numberless concourses of angels", "Angel of the Lord", "The Spirit", "the Spirit of the Lord",
+        "The Holy Ghost", "God", "the Lord", "The Lord God (speaker; appearance unspecified)",
+        "The people addressed by the angel", "the Lord of the vineyard", "People of the Lord",
+        "Father addressing his sons", "the Lamb of God", "Jesus Christ (at Bountiful)", "evil spirits", "Nephi"]}
+    assert kinds == {
+        "the angel": "angel", "An angel": "angel", "Angels": "angel", "an angel from God": "angel",
+        "The angel who appeared to Nephi": "angel", "numberless concourses of angels": "angel",
+        "Angel of the Lord": "angel", "The Spirit": "spirit", "the Spirit of the Lord": "spirit",
+        "The Holy Ghost": "spirit", "God": "god", "the Lord": "god",
+        "The Lord God (speaker; appearance unspecified)": "god",
+        "The people addressed by the angel": None, "the Lord of the vineyard": None, "People of the Lord": None,
+        "Father addressing his sons": None, "the Lamb of God": None, "Jesus Christ (at Bountiful)": None,
+        "evil spirits": None, "Nephi": None}
+
+
+def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
+    from bom_comic.comic import build_prompt, diffusion_prompts
+    continuity = {**pipeline.continuity(), "characters": {"The angel who appeared to Alma": {
+        "scriptural_facts": [], "visual_design_choices": [],
+        "locked_traits": ["Depict only what scripture states; no invented wings or halo unless scripture says so."]}}}
+    angel = make_panel(1).model_copy(update={"characters_visible": ["The angel who appeared to Alma", "Alma"],
+        "prohibited": ["Do not invent wings or a halo for the angel", "No weapons"]})
+    positive, negative = diffusion_prompts(build_prompt(angel, continuity, "4:3"))
+    assert "a woman with large feathered white wings" in positive
+    assert "wings" not in negative and "halo" not in negative and "weapons" in negative
+    god = make_panel(2).model_copy(update={"characters_visible": ["God"],
+        "prohibited": ["A visible bodily form of God, as no physical appearance is described"]})
+    positive, negative = diffusion_prompts(build_prompt(god, continuity, "4:3"))
+    assert "person made entirely of brilliant white light" in positive and "bodily form" not in negative
+    # When God isn't in the panel, the same prohibition stays: he's only drawn where the scene shows him.
+    voice = god.model_copy(update={"characters_visible": ["Lehi"]})
+    assert "bodily form of God" in diffusion_prompts(build_prompt(voice, continuity, "4:3"))[1]
+    spirit = make_panel(3).model_copy(update={"characters_visible": ["The Spirit", "Nephi"]})
+    assert "column of soft, radiant white light" in diffusion_prompts(build_prompt(spirit, continuity, "4:3"))[0]
+
+
 def test_scene_without_lettering_gets_only_a_small_verse_tag():
     from bom_comic.comic import _caption_options, _measure
     draw, fonts = _measure()

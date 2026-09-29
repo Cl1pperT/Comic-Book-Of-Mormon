@@ -312,6 +312,39 @@ def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
     assert reason == "usage limit" and not (tmp_path / "book" / "writing.lock").exists()
 
 
+def test_revalidate_rechecks_only_the_named_scenes(tmp_path):
+    import json
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict
+    from bom_comic.pipeline import Pipeline
+    from bom_comic.storage import Store
+    source = tmp_path / "src.txt"
+    source.write_text("".join(f"1 Nephi 1:{v} TEST FIXTURE: Event {v}.\n" for v in range(1, 5)), encoding="utf-8")
+    audits = []
+
+    class Fake:
+        strict = False
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            if schema is ChapterVerdicts:
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                audits.append(ids)
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="REJECT" if self.strict else "PASS",
+                                                              issues=["strict"] if self.strict else []) for i in ids])
+            ref = lambda v: f"1 Nephi 1:{v}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
+                                            explicit_facts=[Claim(text="x", refs=[ref(v)])]) for v in range(1, 5)])
+    p = Pipeline(Store(tmp_path / "run"), Fake())
+    p.init(source, "1 Nephi 1:1", "1 Nephi 1:4")
+    p.analyze(chunk_size=0)
+    p.validate(batch=True)
+    p.provider.strict = True  # a stricter auditor would reject everything it sees
+    results = p.revalidate(["scene_002", "scene_003"])
+    assert audits[-1] == ["scene_002", "scene_003"]  # consecutive scenes share one call
+    assert [results[s]["status"] for s in ("scene_001", "scene_002", "scene_003", "scene_004")] == \
+        ["PASS", "REJECT", "REJECT", "PASS"]
+    assert p.validation()["results"] == results  # stored with the current stamp, so approvals can use it
+
+
 def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_model(monkeypatch):
     from bom_comic import book
     monkeypatch.setenv("CODEX_ESCALATE_MODEL", "frontier")
@@ -328,12 +361,12 @@ def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_m
         def analyze(self, sid):
             seen.append(("rewrite", sid, self.provider.models["repair"]))
 
-        def validate(self, batch=False):
-            seen.append(("audit", self.provider.models["validator"]))
+        def revalidate(self, scene_ids):
+            seen.append(("audit", list(scene_ids), self.provider.models["validator"]))
             return {"scene_001": {"status": "PASS"}, "scene_002": {"status": "PASS"}}
     report = {"scene_001": {"status": "PASS"}, "scene_002": {"status": "REJECT"}}
     assert book._escalate(FakePipeline(), report) == {"scene_001": {"status": "PASS"}, "scene_002": {"status": "PASS"}}
-    assert seen == [("rewrite", "scene_002", "frontier"), ("audit", "mid")]
+    assert seen == [("rewrite", "scene_002", "frontier"), ("audit", ["scene_002"], "mid")]  # only the rewritten scene
     assert Provider.models == {"text": "small", "validator": "small", "repair": "mid"}  # restored afterwards
     seen.clear()
     assert book._escalate(FakePipeline(), {"scene_001": {"status": "PASS"}}) and seen == []  # nothing to escalate
