@@ -268,69 +268,79 @@
       "Alma 9:12",
       "Alma 9:13"
     ],
-    "summary": "A speaker tells listeners they are commanded to repent, warns of consequences if they do not, and recalls words spoken to Lehi about keeping commandments.",
+    "summary": "A speaker commands repentance, warns of consequences for not repenting, and recalls words spoken to Lehi about obedience and prosperity and a warning about disobedience.",
     "characters": [
-      "Unnamed speaker",
-      "Unnamed listeners"
+      "Speaker (unnamed in the supplied verses)",
+      "Those addressed (unnamed in the supplied verses)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the listeners are commanded to repent and cannot inherit the kingdom of God unless they repent.",
+        "text": "The speaker says repentance is commanded and that those addressed cannot inherit the kingdom of God unless they repent.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker warns that they will be destroyed if they do not repent.",
+        "text": "The speaker warns of destruction and divine anger if those addressed do not repent.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker recalls words spoken to Lehi about prosperity through keeping commandments and being cut off for not keeping them.",
+        "text": "The speaker recalls words spoken to Lehi promising prosperity in the land for keeping commandments.",
+        "refs": [
+          "Alma 9:13"
+        ]
+      },
+      {
+        "text": "The speaker repeats a warning that those who do not keep the commandments will be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses listeners."
+      "A speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker’s and listeners’ appearances and surroundings are not described."
+      "The speaker's and listeners' identities, appearances, clothing, gestures, and positions are unspecified.",
+      "The setting and time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, now I say unto you that he commandeth you to repent; and except ye repent, ye can in nowise inherit the kingdom of God.",
+        "text": "Behold, now I say unto you that he commandeth you to repent;",
         "refs": [
           "Alma 9:12"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       },
       {
         "text": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
         "refs": [
           "Alma 9:13"
         ],
-        "speaker": "Unnamed speaker, quoting words spoken to Lehi"
+        "speaker": "Speaker"
       },
       {
         "text": "Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ],
-        "speaker": "Unnamed speaker, quoting words spoken to Lehi"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The words spoken to Lehi are recounted, not shown as a separate event.",
-      "The threatened consequences are warnings, not events depicted as occurring."
+      "Only Alma 9:12–13 is supplied; these verses do not name the speaker.",
+      "The words spoken to Lehi are recalled within the speaker's address, not presented as a separate event.",
+      "Destruction and exclusion from the Lord's presence are warnings, not events narrated as occurring."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or listeners by name or place them in a named location.",
-      "Do not depict Lehi, destruction, divine anger, or a divine appearance as occurring in this scene."
+      "Do not identify the speaker or listeners using unsupplied verses.",
+      "Do not show Lehi as present or stage the earlier words spoken to him as a flashback.",
+      "Do not depict destruction, divine anger, or exclusion from the Lord's presence as visible events occurring here.",
+      "Do not invent a divine appearance or additional dialogue."
     ],
     "importance": "normal"
   },

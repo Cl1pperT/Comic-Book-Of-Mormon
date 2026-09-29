@@ -1,5 +1,5 @@
 {
-  "stamp": "9d69d631ab4919b9dcfacd1667043d9317d05443d15cd8b4ea2c10aaceea589c",
+  "stamp": "362d75eb655b028744d92fc547bffde9e8e5f7fc406d002d1f5ba975aeceb84a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,20 +18,28 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The book’s delivery is stated as future prophecy; depicting it passed between figures would visually present a not-yet-occurring event."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reading is prophesied as future; a depicted reader or housetop event would imply an occurrence not shown in the passage."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The witnesses viewing the book is future prophecy; depicting the viewing as occurring now would alter the chronology."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The proposed group of witnesses is an illustrative possibility, but their gathering is not narrated as occurring in the present."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -42,14 +50,14 @@
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The Lord God’s quoted instruction in 2 Nephi 27:20 is not verbatim: it joins separate source phrases, omits intervening text, and changes punctuation. Split into separate exact excerpts or use the complete contiguous verse text."
-      ]
-    },
-    "scene_012": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The read-seal-hide sequence is a future instruction, not a present narrated event; the book and witnesses are not identified in the scene’s character list."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -68,10 +76,8 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary groups distinct outcomes together as “brought to naught or cut off,” while the source separately says the terrible one is brought to naught, the scorner consumed, and watchers cut off. Preserve those distinctions."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS",

@@ -4,36 +4,17 @@
   "verses": 30,
   "scenes": 18,
   "counts": {
-    "PASS": 10,
+    "PASS": 16,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 6
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_003": [
-      "The source says the council was intended; it does not say Lamoni or Anti-Nephi-Lehi attended, only that Ammon and his party came to Ishmael to hold a council with them. Listing them as present invents attendance."
-    ],
-    "scene_005": [
-      "The supplied speech at Alma 24:7–9 is spoken by the king, as Alma 24:6 identifies “their king” and Alma 24:7 introduces “the words which he said.” Labeling the speaker unidentified and prohibiting identification as king contradicts the source."
-    ],
-    "scene_006": [
-      "Alma 24:10–11 continues the king’s speech, established in the immediately preceding verses. Calling the speaker unnamed and prohibiting identification by title contradicts the source and alters continuity."
-    ],
-    "scene_007": [
-      "Alma 24:12–13 continues the king’s speech from the preceding verses. Calling the speaker unidentified and prohibiting identification as king contradicts the source and alters continuity."
-    ],
-    "scene_008": [
-      "Alma 24:14 continues the king’s speech from the preceding verses. Although no figure or angel need be shown, the scene notes that the speaker is unidentified, contradicting continuity and the source."
-    ],
-    "scene_009": [
-      "Alma 24:15–16 continues the king’s speech from the preceding verses. Calling the speaker unidentified and prohibiting identification as king contradicts the source and alters continuity."
-    ]
-  },
-  "calls": 22,
+  "rejected": {},
+  "calls": 28,
   "tokens": {
-    "input_tokens": 149795,
-    "cached_input_tokens": 86016,
+    "input_tokens": 187541,
+    "cached_input_tokens": 113664,
     "cache_write_input_tokens": 0,
-    "output_tokens": 23813,
-    "reasoning_output_tokens": 9121
+    "output_tokens": 29530,
+    "reasoning_output_tokens": 12476
   }
 }

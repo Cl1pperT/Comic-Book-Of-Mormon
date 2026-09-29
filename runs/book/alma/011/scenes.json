@@ -229,7 +229,7 @@
       "Alma 11:21",
       "Alma 11:22"
     ],
-    "summary": "Zeezrom asks Amulek twice whether he will answer questions. Amulek agrees on the condition that his answers accord with the Spirit of the Lord. Zeezrom offers him six onties of silver if he will deny the existence of a Supreme Being.",
+    "summary": "Zeezrom asks Amulek whether he will answer a few questions. After a description of Zeezrom, he asks whether Amulek will answer the questions he will put to him. Amulek gives a conditional answer. Zeezrom offers him six onties of silver if he will deny the existence of a Supreme Being.",
     "characters": [
       "Zeezrom",
       "Amulek"
@@ -239,25 +239,25 @@
     ],
     "explicit_facts": [
       {
-        "text": "Zeezrom asks Amulek whether he will answer questions, then asks him again.",
+        "text": "Zeezrom asks Amulek whether he will answer a few questions, then asks whether he will answer the questions Zeezrom will put to him.",
         "refs": [
           "Alma 11:21"
         ]
       },
       {
-        "text": "The verse describes Zeezrom as expert in the devices of the devil, that he might destroy that which was good.",
+        "text": "Zeezrom is described as expert in the devices of the devil, that he might destroy that which was good.",
         "refs": [
           "Alma 11:21"
         ]
       },
       {
-        "text": "Amulek says he will answer only according to the Spirit of the Lord in him.",
+        "text": "Amulek says he will answer according to the Spirit of the Lord in him and say nothing contrary to it.",
         "refs": [
           "Alma 11:22"
         ]
       },
       {
-        "text": "Zeezrom offers Amulek six onties of silver if he will deny the existence of a Supreme Being.",
+        "text": "Zeezrom offers Amulek six onties of silver if Amulek will deny the existence of a Supreme Being.",
         "refs": [
           "Alma 11:22"
         ]
@@ -272,6 +272,13 @@
     ],
     "spoken_dialogue": [
       {
+        "text": "Will ye answer me a few questions which I shall ask you?",
+        "refs": [
+          "Alma 11:21"
+        ],
+        "speaker": "Zeezrom"
+      },
+      {
         "text": "Will ye answer the questions which I shall put unto you?",
         "refs": [
           "Alma 11:21"
@@ -279,7 +286,7 @@
         "speaker": "Zeezrom"
       },
       {
-        "text": "Yea, if it be according to the Spirit of the Lord, which is in me; for I shall say nothing which is contrary to the Spirit of the Lord.",
+        "text": "Yea, if it be according to the Spirit of the Lord, which is in me;",
         "refs": [
           "Alma 11:22"
         ],
@@ -295,7 +302,9 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The reference to the devices of the devil does not describe a visible appearance of the devil."
+      "The source's description of Zeezrom intervenes between his two questions.",
+      "The reference to the devices of the devil does not describe a visible appearance of the devil.",
+      "Amulek's quoted response is an excerpt, not his complete reply."
     ],
     "prohibited_inventions": [
       "Do not show Amulek accepting the offer.",
@@ -311,64 +320,63 @@
       "Alma 11:24",
       "Alma 11:25"
     ],
-    "summary": "Amulek rebukes Zeezrom, says the righteous do not yield to such temptations, and accuses him of loving lucre and lying about the offer.",
+    "summary": "Amulek rebukes an unnamed addressee, says the righteous do not yield to such temptations, and accuses the addressee of loving lucre more than God and falsely offering six onties.",
     "characters": [
       "Amulek",
-      "Zeezrom"
+      "Unnamed addressee"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Amulek asked why Zeezrom tempted him and said the righteous yield to no such temptations.",
+        "text": "Amulek asks why the addressee tempts him and says the righteous do not yield to such temptations.",
         "refs": [
           "Alma 11:23"
         ]
       },
       {
-        "text": "Amulek asserted that Zeezrom knew there was a God and loved lucre more than God.",
+        "text": "Amulek says the addressee knows there is a God but loves lucre more than God.",
         "refs": [
           "Alma 11:24"
         ]
       },
       {
-        "text": "Amulek said Zeezrom had lied about giving the silver, intended to retain it, and sought a cause to destroy Amulek.",
+        "text": "Amulek says the addressee offered him six onties while intending to retain them.",
+        "refs": [
+          "Alma 11:25"
+        ]
+      },
+      {
+        "text": "Amulek says the addressee wanted him to deny God to gain cause to destroy him.",
         "refs": [
           "Alma 11:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amulek addresses Zeezrom directly; the silver offered in the prior exchange may remain visible."
+      "Amulek addresses someone directly while speaking."
     ],
     "unspecified_visual_details": [
-      "Facial expressions, gestures, and what becomes of the silver."
+      "The setting, clothing, expressions, gestures, and whether the six onties are visible."
     ],
     "spoken_dialogue": [
       {
-        "text": "O thou child of hell, why tempt ye me? Knowest thou that the righteous yieldeth to no such temptations?",
+        "text": "Knowest thou that the righteous yieldeth to no such temptations?",
         "refs": [
           "Alma 11:23"
         ],
         "speaker": "Amulek"
       },
       {
-        "text": "Believest thou that there is no God?",
+        "text": "thou knowest that there is a God, but thou lovest that lucre more than him.",
         "refs": [
           "Alma 11:24"
         ],
         "speaker": "Amulek"
       },
       {
-        "text": "I say unto you, Nay, thou knowest that there is a God, but thou lovest that lucre more than him.",
-        "refs": [
-          "Alma 11:24"
-        ],
-        "speaker": "Amulek"
-      },
-      {
-        "text": "And now thou hast lied before God unto me.",
+        "text": "Thou saidst unto me—Behold these six onties, which are of great worth, I will give unto thee—when thou hadst it in thy heart to retain them from me;",
         "refs": [
           "Alma 11:25"
         ],
@@ -376,9 +384,13 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The addressee’s intentions are presented as Amulek’s accusations, not as independently shown events."
+    ],
     "prohibited_inventions": [
-      "Do not depict a divine judgment or punishment; Amulek’s words do not narrate one occurring."
+      "Do not name the addressee.",
+      "Do not stage the earlier offer of six onties as a new present action.",
+      "Do not depict God appearing or a punishment taking place."
     ],
     "importance": "normal"
   },

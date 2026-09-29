@@ -4,46 +4,21 @@
   "verses": 27,
   "scenes": 18,
   "counts": {
-    "PASS": 9,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 7
+    "PASS": 17,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 1
   },
   "rejected": {
-    "scene_002": [
-      "Character is left unnamed despite Sherem being explicitly identified in supplied verse 7:3.",
-      "Summary adds a destination—“to Jacob”—to “come unto me,” and character list wrongly says Jacob is not physically present, although the verse places him as the intended encounter. The source does not narrate an encounter in this scene."
-    ],
-    "scene_003": [
-      "“Jacob (old)” is not supported; age is unspecified.",
-      "The first narration excerpt is not contiguous in the supplied verse: it omits “for” between “angels” and “they.”"
-    ],
-    "scene_004": [
-      "Spoken quotations are not verbatim contiguous excerpts: first omits “for I have heard and also know that thou goest about much,” and second omits the source’s “for I have heard and also know that thou goest about much, preaching that which ye call the gospel, or the doctrine of Christ” context between quoted fragments.",
-      "Summary says Sherem called Jacob’s teaching blasphemy; the source calls the claim that Jacob converted the law into worship of a future being blasphemy, so this overstates the target."
-    ],
-    "scene_009": [
-      "The unnamed man is identified in the supplied preceding context as Sherem; omitting that identity and labeling both speakers generically fails to use the explicit context.",
-      "The first quoted dialogue omits the contiguous preceding words “And it came to pass that he said unto me:” and the final quoted segment “and not mine.” is an incomplete fragment of the same sentence; dialogue must be exact contiguous excerpts."
-    ],
-    "scene_012": [
-      "The speaker is Sherem, established by the preceding scene and verses; labeling him unnamed and omitting his identity is incorrect.",
-      "Narration excerpts are not exact contiguous quotations: the first omits “and he spake plainly unto them,” and the later excerpts omit “And he spake plainly unto them, that he had been deceived by the power of the devil.” They also omit punctuation/connecting text within quoted passages."
-    ],
     "scene_014": [
-      "Summary says the multitude fell as the power of God came upon them, but the source orders the power coming upon them before they fell; the summary reverses that chronology."
-    ],
-    "scene_018": [
-      "“Take these plates.” is presented as dialogue, but the source gives Jacob’s reported words in narration, not a direct speech transcript.",
-      "“Brethren, adieu.” is categorized as narration though it is Jacob’s written farewell to the reader; it remains a source quotation, but should not be presented as spoken scene dialogue.",
-      "The summary’s “relates Nephi’s commands” is supported, but should not imply Nephi’s physical presence; the prohibition correctly excludes that depiction."
+      "The visual inference places the man falling to earth after speaking. Jacob 7:20–21 says he died and the multitude fell; the man's fall occurred earlier, in Jacob 7:15."
     ]
   },
-  "calls": 10,
+  "calls": 25,
   "tokens": {
-    "input_tokens": 83056,
-    "cached_input_tokens": 47872,
+    "input_tokens": 176757,
+    "cached_input_tokens": 103936,
     "cache_write_input_tokens": 0,
-    "output_tokens": 13027,
-    "reasoning_output_tokens": 3042
+    "output_tokens": 25823,
+    "reasoning_output_tokens": 10236
   }
 }

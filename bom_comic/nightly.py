@@ -193,9 +193,46 @@ def run(until, write=True, render=True):
                 from .providers import ComfyUI
                 return ComfyUI(store)
 
+            failed_redraws = set()
+
+            def redraw_flags():
+                """Panels the reviewer flagged come before any new panels. Returns False if the deadline hit."""
+                from . import redraw
+                nonlocal comfy
+                for store, panel_id, flag in redraw.pending(ROOT):
+                    if (store.root, panel_id) in failed_redraws:
+                        continue  # one attempt per run; it waits in the report for a person
+                    if datetime.datetime.now() >= deadline:
+                        return False
+                    if comfy is None and not comfy_up():
+                        comfy = start_comfy(night / "comfyui.log")
+                    text = None
+                    try:
+                        text = make_codex(store)
+                        text.reuse_responses = True
+                    except ProviderError:
+                        pass  # no Codex: the note is split into instructions without a model
+                    try:
+                        try:
+                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), text)
+                        except ProviderError as exc:
+                            if text is None or "ComfyUI" in str(exc):
+                                raise
+                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), None)
+                    except (ValueError, ProviderError) as exc:
+                        failed_redraws.add((store.root, panel_id))
+                        log(f"Redraw of {store.root.name} {panel_id} failed: {exc}")
+                        report["blocked"].append(f"redraw {store.root} {panel_id}: {exc}")
+                        continue
+                    report.setdefault("redrawn", []).append(f"{store.root.relative_to(ROOT.resolve()).as_posix()} {panel_id}")
+                    log(f"Redrew {store.root.relative_to(ROOT.resolve()).as_posix()} {panel_id} for flag: {entry['note']}")
+                return True
+
             while datetime.datetime.now() < deadline:
                 top_up()
                 if not render:
+                    break
+                if not redraw_flags():
                     break
                 todo = [(n, c) for n, c, _ in chapters if state(n, c) == "ready"]
                 if not todo:

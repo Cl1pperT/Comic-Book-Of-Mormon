@@ -1,11 +1,9 @@
 {
-  "stamp": "7fd867d9270070c9134b66a07565a10ce3a3c3db96d866ce2a90642a8222cfcc",
+  "stamp": "ec034c46c645b6d5cfde898ce65dc786204b817150d3aaf9bfba2285f6804dbc",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied verses establish Jacob as the speaker and address his beloved brethren, but do not explicitly identify them as the Nephite settlers; this label is a contextual inference."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -48,24 +46,28 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The address continues from Jacob's self-identification in 2 Nephi 10:1. Labeling the speaker of 10:20–21 and its dialogue as “Unnamed speaker” contradicts that continuity."
+      ]
     },
     "scene_013": {
       "status": "REJECT",
       "issues": [
-        "The previous scene establishes Jacob as the speaker addressing his beloved brethren, and verse 22 continues that address; leaving characters empty and treating the speaker and audience as unspecified conflicts with the supplied chronology and context."
+        "The claim that the speaker cannot be identified ignores the continuing address identified as Jacob's in 2 Nephi 10:1. The preceding scene repeats this speaker error."
       ]
     },
     "scene_014": {
       "status": "REJECT",
       "issues": [
-        "Verses 23–24 continue the address begun by Jacob in verse 1 and explicitly address “my beloved brethren”; the unidentified speaker and audience labels contradict the source context."
+        "The claim that the speaker's identity is unspecified ignores the continuing address identified as Jacob's in 2 Nephi 10:1."
       ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Jacob prays” is an interpretation of the closing appeal “may God raise you,” not an explicitly narrated act of prayer in 2 Nephi 10:25."
+      ]
     }
   }
 }

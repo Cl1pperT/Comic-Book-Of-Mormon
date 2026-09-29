@@ -82,43 +82,45 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Ammon speaks to the king",
+    "title": "Ammon and his brethren speak to the king",
     "refs": [
       "Alma 27:4",
       "Alma 27:5"
     ],
-    "summary": "Ammon and his brethren see the destruction among the people they love, feel compassion, and ask the king to gather the people and flee to Zarahemla.",
+    "summary": "Ammon and his brethren see destruction among people they love, are moved with compassion, and tell the king they should gather the people and flee to Zarahemla.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "Anti-Nephi-Lehi (king)",
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "Ammon",
+      "Ammon's brethren",
+      "the king",
+      "the people among whom Ammon and his brethren see destruction"
     ],
-    "locations": [
-      "land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Ammon and his brethren see destruction among the people they love and are moved with compassion.",
+        "text": "Ammon and his brethren see destruction among people they love and are moved with compassion.",
         "refs": [
           "Alma 27:4"
         ]
       },
       {
-        "text": "Ammon and his brethren speak to the king and propose gathering the people and going to Zarahemla to escape their enemies.",
+        "text": "Ammon and his brethren speak to the king.",
         "refs": [
-          "Alma 27:4",
+          "Alma 27:4"
+        ]
+      },
+      {
+        "text": "They propose gathering the people of the Lord and going to the land of Zarahemla to flee their enemies.",
+        "refs": [
           "Alma 27:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king and Ammon's brethren are present as Ammon addresses the king."
+      "Ammon, his brethren, and the king can be shown together during the conversation."
     ],
     "unspecified_visual_details": [
-      "The precise place and arrangement of the conversation."
+      "The conversation's precise location and the characters' appearances are unspecified.",
+      "The form and extent of the destruction are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -126,15 +128,17 @@
         "refs": [
           "Alma 27:5"
         ],
-        "speaker": "Ammon (son of Mosiah)"
+        "speaker": "Ammon and his brethren"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The comparison to angels is reported description, not a visible angelic appearance."
+      "The comparison to angels describes how the people treated Ammon and his brethren; it does not describe a visible angelic appearance.",
+      "Zarahemla is a proposed destination, not the stated setting of this conversation."
     ],
     "prohibited_inventions": [
-      "Do not show angels; the verse does not narrate their appearance."
+      "Do not identify Ammon's brethren or the king by names absent from these verses.",
+      "Do not depict angels, the Nephites at Zarahemla, or a journey already underway."
     ],
     "importance": "normal"
   },
@@ -403,40 +407,45 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Ammon leaves the people waiting",
+    "title": "Ammon addresses the people",
     "refs": [
       "Alma 27:15"
     ],
-    "summary": "Ammon tells the people to remain in the wilderness while he and his brethren go to Zarahemla to learn whether their brethren will admit them.",
+    "summary": "Ammon tells unnamed addressees that he and his brethren will go to Zarahemla while they remain where they are until his return. He says they will learn whether their brethren want the addressees to enter their land.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "Ammon",
+      "Unnamed addressees"
     ],
     "locations": [
-      "wilderness between the land of Nephi and the land of Zarahemla"
+      "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon says he and his brethren will go to Zarahemla while the people remain until they return.",
+        "text": "Ammon speaks to unnamed addressees.",
         "refs": [
           "Alma 27:15"
         ]
       },
       {
-        "text": "Ammon says they will learn whether their brethren want the people to come into their land.",
+        "text": "Ammon says he and his brethren will go to Zarahemla and the addressees will remain until they return.",
+        "refs": [
+          "Alma 27:15"
+        ]
+      },
+      {
+        "text": "Ammon says they will try the hearts of their brethren to learn whether the addressees may come into their land.",
         "refs": [
           "Alma 27:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon addresses the gathered people before departing."
+      "Ammon faces the people he addresses."
     ],
     "unspecified_visual_details": [
-      "The exact arrangement of the people and their encampment."
+      "The current location and its appearance.",
+      "The number and identities of the addressees.",
+      "The identities and whereabouts of Ammon's brethren."
     ],
     "spoken_dialogue": [
       {
@@ -444,13 +453,17 @@
         "refs": [
           "Alma 27:15"
         ],
-        "speaker": "Ammon (son of Mosiah)"
+        "speaker": "Ammon"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The journey is proposed in Ammon's speech, not narrated as occurring in this verse."
+    ],
     "prohibited_inventions": [
-      "Do not depict the journey as part of this scene."
+      "Do not name Ammon's brethren or the addressees.",
+      "Do not depict the journey or the brethren's response as occurring in this scene.",
+      "Do not specify the current location."
     ],
     "importance": "normal"
   },
@@ -461,45 +474,62 @@
       "Alma 27:16",
       "Alma 27:17"
     ],
-    "summary": "As Ammon goes toward Zarahemla with his brethren, they meet Alma. The meeting is joyful, and Ammon falls to the earth as joy exhausts his strength.",
+    "summary": "As Ammon goes forth into the land, he and his brethren meet Alma. The meeting is joyful. Ammon's joy exhausts his strength, and he falls to the earth.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "Alma the Younger (high priest)"
+      "Ammon",
+      "Alma",
+      "Ammon's unnamed brethren"
     ],
     "locations": [
-      "Unspecified location"
+      "The place where Ammon and his brethren meet Alma; its precise location is not identified in the supplied verses"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon and his brethren meet Alma while going into the land of Zarahemla.",
+        "text": "Ammon and his brethren meet Alma as Ammon is going forth into the land.",
         "refs": [
           "Alma 27:16"
         ]
       },
       {
-        "text": "The meeting is joyful, and Ammon's joy exhausts his strength so that he falls to the earth.",
+        "text": "The meeting is joyful.",
         "refs": [
-          "Alma 27:16",
+          "Alma 27:16"
+        ]
+      },
+      {
+        "text": "Ammon's joy exhausts his strength, and he falls to the earth.",
+        "refs": [
           "Alma 27:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon is shown fallen to the earth while Alma and Ammon's brethren are present."
+      "Ammon can be shown falling to the earth with Alma and his brethren nearby."
     ],
     "unspecified_visual_details": [
-      "The precise place, the others' reactions, and the group's formation."
+      "The landscape, the group's formation, and the others' reactions are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and behold, this was a joyful meeting.",
+        "refs": [
+          "Alma 27:16"
+        ]
+      },
+      {
+        "text": "and he fell again to the earth.",
+        "refs": [
+          "Alma 27:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The statement about Ammon being swallowed up in joy is figurative, not a literal event."
+      "Being swallowed up in joy describes Ammon's experience; it is not a literal visible event."
     ],
     "prohibited_inventions": [
-      "Do not show Ammon being physically swallowed."
+      "Do not identify the brethren by name or specify a destination.",
+      "Do not depict Ammon being physically swallowed or give God an invented appearance."
     ],
     "importance": "normal"
   },
@@ -560,21 +590,19 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Alma brings his brethren home",
+    "title": "Alma brings his brethren to Zarahemla",
     "refs": [
       "Alma 27:20"
     ],
-    "summary": "Alma conducts his brethren to his house in Zarahemla, where they tell the chief judge what happened to them in the land of Nephi.",
+    "summary": "Alma conducts his brethren to his house in Zarahemla. They tell the chief judge what happened to them in the land of Nephi among the Lamanites.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "Chief judge of Zarahemla"
+      "Alma",
+      "Alma's brethren",
+      "The chief judge"
     ],
     "locations": [
-      "Alma's house in Zarahemla"
+      "The land of Zarahemla",
+      "Alma's house"
     ],
     "explicit_facts": [
       {
@@ -591,18 +619,23 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The brethren and chief judge are present at Alma's house when they report."
+      "Alma and his brethren can be shown arriving at his house.",
+      "The chief judge can be shown receiving their report, without specifying where the report takes place."
     ],
     "unspecified_visual_details": [
-      "The chief judge's name, the house's appearance, and the content of their report."
+      "The brethren's identities and number.",
+      "The chief judge's name.",
+      "The house's appearance and the location of the report.",
+      "The details of the events they report."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The reported events in the land of Nephi are not depicted as happening now."
+      "The events in the land of Nephi are reported, not depicted as happening now."
     ],
     "prohibited_inventions": [
-      "Do not stage the earlier events as flashbacks or invent the report's wording."
+      "Do not identify the brethren by name or invent the wording of their report.",
+      "Do not stage the reported events or place the chief judge at Alma's house as a stated fact."
     ],
     "importance": "normal"
   },
@@ -718,49 +751,56 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "The offer is brought to the people",
+    "title": "Ammon and Alma return to the wilderness camp",
     "refs": [
       "Alma 27:25"
     ],
-    "summary": "Ammon and Alma return to the Anti-Nephi-Lehies in their wilderness camp, where Ammon shares the people's offer and Alma relates his conversion.",
+    "summary": "Ammon returns with Alma to the people of Anti-Nephi-Lehi in the wilderness, where they had pitched their tents. He makes known unto them all these things, and Alma relates his conversion.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Alma the Younger (high priest)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "Ammon",
+      "Alma",
+      "people of Anti-Nephi-Lehi"
     ],
     "locations": [
-      "wilderness camp"
+      "wilderness where the people had pitched their tents"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon returns with Alma to the Anti-Nephi-Lehies in the wilderness where they had pitched their tents and makes the people's offer known.",
+        "text": "Ammon returns with Alma to the people of Anti-Nephi-Lehi in the wilderness where they had pitched their tents.",
         "refs": [
           "Alma 27:25"
         ]
       },
       {
-        "text": "Alma relates his conversion, with Ammon, Aaron, and his brethren.",
+        "text": "Ammon makes known unto them all these things.",
+        "refs": [
+          "Alma 27:25"
+        ]
+      },
+      {
+        "text": "Alma relates his conversion, with Ammon and Aaron, and his brethren.",
         "refs": [
           "Alma 27:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people are gathered in their wilderness camp as Ammon and Alma address them."
+      "Some of the people listen as Ammon and Alma address them near their tents."
     ],
     "unspecified_visual_details": [
-      "The exact content of Ammon's report and Alma's conversion account."
+      "The appearance and arrangement of the tents and wilderness.",
+      "The content of Ammon's report and Alma's account."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The conversion is related as testimony, not staged as a present-tense event."
+      "Alma's conversion is related, not shown as a present event.",
+      "The mention of Aaron and the brethren does not establish that they are present."
     ],
     "prohibited_inventions": [
-      "Do not depict Alma's earlier conversion as occurring in this scene."
+      "Do not depict Alma's conversion as occurring in this scene.",
+      "Do not show Aaron or the brethren as present without support from the supplied verse.",
+      "Do not supply dialogue or details of the reported events."
     ],
     "importance": "normal"
   },

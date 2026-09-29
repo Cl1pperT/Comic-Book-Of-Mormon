@@ -1,25 +1,26 @@
 {
-  "stamp": "076412654e4cd4d4781dcb48e1a90ff55f4cc06a168e59c7a1274e56db86999c",
+  "stamp": "da10b26b481121306aef560c27ab14faa723844d5ee59bf607dde63ede215c30",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_002": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary says Lehi recounts a vision; the verse says he saw a vision and knew Jerusalem was destroyed, but does not establish that this is a recounting of the vision's contents."
-      ]
-    },
-    "scene_004": {
       "status": "REJECT",
       "issues": [
-        "Characters is empty even though the passage is Lehi's quoted speech, introduced in verses 5–6 as what Lehi said; the speaker is omitted.",
-        "Explicit fact says the land is consecrated unto “him whom he shall bring,” but omits the source's condition about serving according to the commandments and distorts the referent by saying merely “him.”"
+        "The characters field identifies “Lehi’s brethren,” but the source identifies them as Nephi’s brethren. This changes their relationship to Lehi."
+      ]
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "The spoken_dialogue field attributes “said he” to Lehi, but those words are narration, not Lehi’s speech."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The land” is listed as a location, although these verses do not establish where Lehi is speaking."
       ]
     },
     "scene_005": {
@@ -27,73 +28,55 @@
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker is identified as unidentified, although verses 10–11 continue Lehi's address and the supplied preceding verses explicitly identify him as the speaker.",
-        "The summary says the warning is conditional on rejecting the Holy One, but verse 11's foretold consequences follow the broader conditional warning in verse 10; this compresses and narrows the stated condition."
+        "The speaker is Lehi in the supplied continuing address; the note incorrectly says only verses 10–11 are available to identify him."
       ]
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker is identified as unidentified, although the verses continue Lehi's address and the preceding verses identify Lehi as speaker.",
-        "The summary calls him “a parent” only by implication? The passage is explicitly Lehi's appeal and addresses “my sons”; the character labels omit Lehi and do not preserve established identity."
+        "The speaker is Lehi in the supplied continuing address; the note incorrectly says the preceding verses are unavailable."
       ]
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "The speaker is labeled “Speaking parent” rather than Lehi, although the preceding verses identify Lehi as speaker and verse 14 continues his speech; the established character identity is omitted.",
-        "The summary says “the Lord has redeemed his soul,” but the verse says “my soul”; this makes a third-person factual paraphrase inside the summary instead of preserving the quoted speaker perspective."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker is called unidentified, although preceding scenes establish that the continuous address is Lehi's.",
-        "The summary's “describes his sorrow and fear” is supported, but omits the passage's conditional/possible framing for the warned consequences; audit fields do not preserve that distinction consistently."
+        "The note invokes a “supplied audit correction” rather than the supplied verses to support identifying Lehi. The preceding verses themselves establish the continuing speaker."
       ]
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Speaker is labeled unidentified despite the continuous speech by Lehi established by preceding verses.",
-        "The explicit fact attributes the reported commandment statement to “the Lord,” but the verse is Lehi reporting what “he hath said”; the identity of “he” is not expressly specified in this verse, so this presents an interpretation as explicit fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Speaker is labeled unnamed despite the continuous address by Lehi established in preceding verses.",
-        "Summary calls the speaker “a speaker” and omits the explicit detail that he addresses his sons; though the fact list includes it, character identity is inconsistent with the supplied preceding chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Spoken dialogue and summary identify Lehi, but the explicit fact list and character list omit him's speaker identity? Characters do include Lehi, but explicit facts say Lehi, so no discrepancy.",
-        "“Chains” and “obscurity” are not conclusively figurative in the verse alone; the warning says they are figurative without specific support. Conservative audit should not claim certainty about their figurative status."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker is left unnamed despite the preceding scenes identifying the continuing speaker as Lehi.",
-        "Summary presents the addressees' attempted killing as a past event in a distinct scene? It is correctly reported as past, but the listed characters call the addressees unspecified while the source says “your brother”; no specific identity is required."
+        "The note incorrectly says preceding verses are unavailable; the supplied chapter establishes this as the continuing address. The brother is identified as Nephi later in the supplied passage."
       ]
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker remains unspecified even though these verses continue Lehi's address established in the preceding scenes.",
-        "Narration quotations are not presented as narration by a source narrator: “ye have murmured” and related lines are speech by Lehi, so the field misclassifies quoted speech as narration."
+        "The man is left unidentified, although the continuing supplied passage identifies him as Nephi."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is left unnamed despite the preceding scenes establishing Lehi as the continuing speaker.",
-        "Character label “Sons of Ishmael” is an imprecise substitution for Lehi's addressed “my sons who are the sons of Ishmael”; it does not explicitly preserve their relationship to Lehi."
+        "The note incorrectly says identifying the speaker as Lehi depends on an address outside the supplied source; the continuing address is supplied."
       ]
     },
     "scene_016": {

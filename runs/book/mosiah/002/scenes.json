@@ -68,41 +68,52 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Offerings and thanks",
+    "title": "Firstlings and thanksgiving",
     "refs": [
       "Mosiah 2:3",
       "Mosiah 2:4"
     ],
-    "summary": "The people bring firstlings of their flocks for offerings and give thanks to God for deliverance, teachers, their king, peace, and instruction in God's commandments.",
+    "summary": "They take firstlings of their flocks with the intention of offering sacrifice and burnt offerings according to the law of Moses and giving thanks to God for past deliverance, just teachers and a just king, peace, and instruction in God's commandments.",
     "characters": [
-      "the gathered people"
+      "unnamed people"
     ],
-    "locations": [
-      "Temple"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The people take firstlings of their flocks to offer sacrifice and burnt offerings according to the law of Moses.",
+        "text": "They take firstlings of their flocks so that they might offer sacrifice and burnt offerings according to the law of Moses.",
         "refs": [
           "Mosiah 2:3"
         ]
       },
       {
-        "text": "They give thanks to God for deliverance, just teachers and a just king, peace, and instruction in God's commandments.",
+        "text": "They intend to give thanks to God, who had brought them out of the land of Jerusalem and delivered them from their enemies.",
+        "refs": [
+          "Mosiah 2:4"
+        ]
+      },
+      {
+        "text": "God had appointed just men as their teachers and a just man as their king; the king had established peace in Zarahemla and taught them to keep God's commandments.",
         "refs": [
           "Mosiah 2:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People bring animals from their flocks as offerings."
+      "The unnamed people may be shown with animals taken from their flocks."
     ],
     "unspecified_visual_details": [
-      "The specific offering ritual and its visual details.",
-      "The appearance of the animals and altar."
+      "The location of this action.",
+      "The appearance of the people and animals.",
+      "The details of any offering ritual."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And they also took of the firstlings of their flocks",
+        "refs": [
+          "Mosiah 2:3"
+        ]
+      },
       {
         "text": "that they might give thanks to the Lord their God",
         "refs": [
@@ -110,9 +121,13 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The offerings and thanksgiving are stated as purposes, not narrated as completed actions."
+    ],
     "prohibited_inventions": [
-      "Do not depict the past deliverances or other historical events as happening now."
+      "Do not assign this action to the Temple; these verses do not specify its location.",
+      "Do not depict the past deliverances, appointments, or establishment of peace as happening in this scene.",
+      "Do not show a sacrifice or burnt offering being performed."
     ],
     "importance": "normal"
   },
@@ -123,31 +138,29 @@
       "Mosiah 2:5",
       "Mosiah 2:6"
     ],
-    "summary": "The people pitch separate family tents around the temple, with each tent door facing it, so they can hear King Benjamin while remaining in their tents.",
+    "summary": "The people pitch their tents around the temple, each family separate from the others and each tent door facing the temple.",
     "characters": [
-      "the gathered people",
-      "King Benjamin"
+      "the families pitching tents"
     ],
     "locations": [
-      "Temple"
+      "the temple and its surrounding area"
     ],
     "explicit_facts": [
       {
-        "text": "Each family pitches its own tent around the temple, with the tent door facing the temple.",
+        "text": "The people pitch their tents around the temple, with each family separate from the others.",
         "refs": [
-          "Mosiah 2:5",
-          "Mosiah 2:6"
+          "Mosiah 2:5"
         ]
       },
       {
-        "text": "The arrangement allows the people to hear King Benjamin while in their tents.",
+        "text": "Each tent door faces the temple so the people can remain in their tents and hear the words King Benjamin will speak.",
         "refs": [
           "Mosiah 2:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A broad encampment surrounds the temple, with tent openings facing inward."
+      "Tent openings face toward the temple."
     ],
     "unspecified_visual_details": [
       "The tents' design, materials, and colors.",
@@ -155,9 +168,12 @@
     ],
     "spoken_dialogue": [],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "King Benjamin is mentioned as a future speaker, not established as physically present in this scene."
+    ],
     "prohibited_inventions": [
-      "Do not assign names or individual biographies to members of the families."
+      "Do not depict King Benjamin as present.",
+      "Do not assign names or biographies to members of the families."
     ],
     "importance": "normal"
   },
@@ -168,42 +184,76 @@
       "Mosiah 2:7",
       "Mosiah 2:8"
     ],
-    "summary": "Because the multitude cannot all fit within the temple, King Benjamin has a tower erected. He speaks from it, and written words are sent to those beyond the sound of his voice.",
+    "summary": "Because the multitude is too great for King Benjamin to teach them all within the temple walls, he has a tower erected. He begins speaking from it. When some cannot hear him, he has his words written and sent to them.",
     "characters": [
       "King Benjamin",
-      "the gathered people"
+      "his people"
     ],
     "locations": [
-      "Temple"
+      "temple walls",
+      "tower"
     ],
     "explicit_facts": [
       {
-        "text": "King Benjamin has a tower erected because the multitude cannot all be taught within the temple walls.",
+        "text": "The multitude is so great that King Benjamin cannot teach them all within the temple walls.",
         "refs": [
           "Mosiah 2:7"
         ]
       },
       {
-        "text": "He begins speaking from the tower; written words are sent to those who cannot hear him.",
+        "text": "King Benjamin causes a tower to be erected so his people might hear him.",
+        "refs": [
+          "Mosiah 2:7"
+        ]
+      },
+      {
+        "text": "He begins speaking to his people from the tower, but not all can hear him.",
+        "refs": [
+          "Mosiah 2:8"
+        ]
+      },
+      {
+        "text": "He causes his words to be written and sent to those who cannot hear his voice.",
         "refs": [
           "Mosiah 2:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "King Benjamin stands on the tower while listeners gather below and around it."
+      "King Benjamin is visible on the tower while some of his people gather within sight of it."
     ],
     "unspecified_visual_details": [
-      "The tower's construction and height.",
-      "Who writes and distributes the words."
+      "The tower’s height, materials, and design.",
+      "Who writes or delivers the words, and what the writing looks like."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "therefore he caused a tower to be erected,",
+        "refs": [
+          "Mosiah 2:7"
+        ]
+      },
+      {
+        "text": "And it came to pass that he began to speak to his people from the tower;",
+        "refs": [
+          "Mosiah 2:8"
+        ]
+      },
+      {
+        "text": "therefore he caused that the words which he spake should be written and sent forth among those that were not under the sound of his voice, that they might also receive his words.",
+        "refs": [
+          "Mosiah 2:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The account notes that written words are sent to those beyond the sound of Benjamin's voice; avoid depicting an unsupported separate episode."
+      "The verses do not supply Benjamin’s spoken words; do not create dialogue for him.",
+      "The sending of written words is reported here, not a separate depicted episode."
     ],
     "prohibited_inventions": [
-      "Do not invent the contents of the written copies or show an unmentioned messenger."
+      "Do not invent the contents of the written words or identify their writers or carriers.",
+      "Do not depict a separate delivery scene."
     ],
     "importance": "normal"
   },

@@ -431,53 +431,83 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Riotous Living",
+    "title": "Riotous Living and Wine",
     "refs": [
       "Mosiah 11:14",
       "Mosiah 11:15"
     ],
-    "summary": "Noah sets his heart on riches and spends time in riotous living; he plants vineyards, builds wine-presses, and makes abundant wine.",
+    "summary": "The man sets his heart upon riches and spends his time in riotous living with his wives and concubines; his priests spend their time with harlots. The account then reports his planting vineyards, building wine-presses, and making abundant wine. He and his people become wine-bibbers.",
     "characters": [
-      "King Noah",
-      "Noah’s wives and concubines",
-      "Noah’s priests",
-      "harlots"
+      "the man referred to as “he”",
+      "his wives",
+      "his concubines",
+      "his priests",
+      "harlots",
+      "his people"
     ],
     "locations": [
-      "Land of Shilom"
+      "the land mentioned in Mosiah 11:15"
     ],
     "explicit_facts": [
       {
-        "text": "Noah sets his heart on riches and spends time in riotous living with his wives and concubines; his priests spend time with harlots.",
+        "text": "The man places his heart upon his riches and spends time in riotous living with his wives and concubines.",
         "refs": [
           "Mosiah 11:14"
         ]
       },
       {
-        "text": "Noah plants vineyards, builds wine-presses, and makes wine in abundance; he and his people become wine-bibbers.",
+        "text": "His priests spend their time with harlots.",
+        "refs": [
+          "Mosiah 11:14"
+        ]
+      },
+      {
+        "text": "He plants vineyards round about in the land, builds wine-presses, and makes wine in abundance.",
+        "refs": [
+          "Mosiah 11:15"
+        ]
+      },
+      {
+        "text": "He and his people become wine-bibbers.",
         "refs": [
           "Mosiah 11:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Vineyards and wine-presses may be shown as described."
+      "Non-dramatic vineyard and wine-press imagery could accompany the report of wine production without showing an invented occasion."
     ],
     "unspecified_visual_details": [
-      "The nature of riotous living and the appearance or identities of the people are unspecified."
+      "The man's name and the land's name are not supplied.",
+      "Appearances, clothing, group sizes, vineyard layouts, and wine-press designs are unspecified.",
+      "Specific activities constituting riotous living and the timing between reported activities are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he planted vineyards round about in the land",
+        "text": "he spent his time in riotous living with his wives and his concubines; and so did also his priests spend their time with harlots.",
+        "refs": [
+          "Mosiah 11:14"
+        ]
+      },
+      {
+        "text": "he planted vineyards round about in the land; and he built wine-presses, and made wine in abundance; and therefore he became a wine-bibber, and also his people.",
         "refs": [
           "Mosiah 11:15"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Use one narration-led account, not a shared dramatic occasion. Keep the report of riotous living distinct from the subsequent report of vineyards and wine, preserving textual order without inventing precise chronology.",
+      "These verses summarize activities over time; do not reenact them as newly specified present-tense events.",
+      "Placing his heart upon riches is figurative, not a visible physical action.",
+      "The character list identifies participants in the reports, not a gathering of everyone together."
+    ],
     "prohibited_inventions": [
-      "Do not portray specific sexual acts or infer that wine is being consumed in the vineyard."
+      "Do not identify the man as Noah or assign a name or ownership to the land from outside these verses.",
+      "Do not combine riotous living, priestly activities, vineyard planting, wine-press construction, and drinking into one simultaneous event.",
+      "Do not invent dialogue, specific sexual acts, celebrations, or additional motives.",
+      "Do not supply dates, durations, or encounters between the listed groups."
     ],
     "importance": "normal"
   },
@@ -557,14 +587,20 @@
       "Mosiah 11:18",
       "Mosiah 11:19"
     ],
-    "summary": "King Noah's armies return rejoicing in their spoil after a victory. They boast in their own strength, saying that their fifty could stand against thousands of the Lamanites.",
+    "summary": "King Noah sent his armies against an unnamed group. The account says they were driven back, or drove the group back for a time. The armies returned rejoicing in their spoil. They became prideful, boasted in their strength, and delighted in bloodshed.",
     "characters": [
       "King Noah's armies"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "King Noah sent his armies against an opposing group; the verse says they were driven back, or they drove the opposing group back for a time.",
+        "text": "King Noah sent his armies against a group not identified in these verses.",
+        "refs": [
+          "Mosiah 11:18"
+        ]
+      },
+      {
+        "text": "The account leaves open whether the armies were driven back or drove the opposing group back for a time.",
         "refs": [
           "Mosiah 11:18"
         ]
@@ -576,48 +612,43 @@
         ]
       },
       {
-        "text": "After the victory, they became prideful and boasted that their fifty could stand against thousands of the Lamanites.",
+        "text": "The account calls the outcome a great victory and says the armies became prideful and boasted that their fifty could stand against thousands of the Lamanites.",
         "refs": [
           "Mosiah 11:19"
         ]
       },
       {
-        "text": "They delighted in blood and the shedding of their brethren's blood, which the verse attributes to the wickedness of their king and priests.",
+        "text": "They delighted in bloodshed; the verse attributes this to the wickedness of their king and priests.",
         "refs": [
           "Mosiah 11:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The returning armies may be shown together with unspecified spoil.",
-      "Their rejoicing and boasting may be shown through their expressions and gestures."
+      "The returning armies may be shown together, carrying unspecified spoil.",
+      "Their rejoicing and pride may be conveyed through expressions and gestures."
     ],
     "unspecified_visual_details": [
-      "The location and appearance of the armies are unspecified.",
+      "The return location and the armies' appearance are unspecified.",
       "The contents of the spoil are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they returned rejoicing in their spoil.",
+        "text": "therefore, they returned rejoicing in their spoil.",
         "refs": [
           "Mosiah 11:18"
-        ]
-      },
-      {
-        "text": "their fifty could stand against thousands of the Lamanites;",
-        "refs": [
-          "Mosiah 11:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The claim about fifty standing against thousands is reported boasting, not a demonstrated event."
+      "The claim about fifty standing against thousands is reported boasting, not a demonstrated event.",
+      "The account calls the outcome a victory while leaving the direction of the earlier retreat uncertain."
     ],
     "prohibited_inventions": [
-      "Do not place King Noah or the Lamanites physically in the return scene without textual support.",
+      "Do not depict King Noah, the priests, or the Lamanites as present at the armies' return.",
       "Do not invent the spoil's contents, a location, combat details, or gore.",
-      "Do not present the reported boast as verbatim spoken dialogue."
+      "Do not turn the reported boast into verbatim dialogue or a depicted battle."
     ],
     "importance": "normal"
   },
@@ -628,200 +659,237 @@
       "Mosiah 11:20",
       "Mosiah 11:21"
     ],
-    "summary": "Abinadi goes among the people and prophesies the Lord’s warning that they must repent or be delivered into the hands of their enemies and brought into bondage.",
+    "summary": "Abinadi goes among the people and begins to prophesy, warning that unless they repent and turn to the Lord, they face the Lord’s anger, bondage, and affliction by their enemies.",
     "characters": [
       "Abinadi",
-      "Noah’s people"
+      "the people"
     ],
-    "locations": [
-      "Land of Shilom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Abinadi goes among the people and begins to prophesy, saying the Lord has commanded him to deliver a warning.",
+        "text": "A man named Abinadi goes among the people and begins to prophesy.",
         "refs": [
           "Mosiah 11:20"
         ]
       },
       {
-        "text": "The Lord warns that unless the people repent, he will deliver them into their enemies’ hands and they will be brought into bondage and afflicted.",
+        "text": "Abinadi says the Lord commanded him to warn the people about their abominations, wickedness, and whoredoms.",
         "refs": [
-          "Mosiah 11:20",
+          "Mosiah 11:20"
+        ]
+      },
+      {
+        "text": "The warning states that unless the people repent, the Lord will visit them in anger.",
+        "refs": [
+          "Mosiah 11:20"
+        ]
+      },
+      {
+        "text": "Unless the people repent and turn to the Lord their God, they will be delivered into their enemies’ hands, brought into bondage, and afflicted by their enemies.",
+        "refs": [
           "Mosiah 11:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi addressing a group of listeners is supported."
+      "Abinadi addressing people around him."
     ],
     "unspecified_visual_details": [
-      "The precise location, audience size, and Abinadi’s appearance are unspecified."
+      "The precise location, audience size, clothing, physical appearances, gestures, and listeners’ reactions are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Go forth, and say unto this people",
+        "text": "Behold, thus saith the Lord, and thus hath he commanded me, saying,",
         "refs": [
           "Mosiah 11:20"
-        ]
+        ],
+        "speaker": "Abinadi"
       },
       {
-        "text": "except they repent I will visit them in mine anger",
+        "text": "And except they repent and turn to the Lord their God, behold, I will deliver them into the hands of their enemies; yea, and they shall be brought into bondage; and they shall be afflicted by the hand of their enemies.",
         "refs": [
-          "Mosiah 11:20"
-        ]
+          "Mosiah 11:21"
+        ],
+        "speaker": "Abinadi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s warning is quoted as Abinadi’s prophecy; the Lord is not described as visibly appearing."
+      "The dialogue selections are separate exact excerpts, not a continuous quotation across the omitted text.",
+      "The threatened consequences are conditional prophecy, not events occurring in this scene.",
+      "The Lord’s words are conveyed through Abinadi; no divine appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not depict the prophesied bondage as occurring in this scene."
+      "Do not invent a visible appearance of the Lord or a separate scene of the Lord commanding Abinadi.",
+      "Do not depict the threatened bondage or affliction as occurring.",
+      "Do not invent audience reactions or depict the named sins as additional events.",
+      "Do not specify a location or identify the people as Noah’s people from these verses alone."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "The Warning Continues",
+    "title": "Warning of Bondage",
     "refs": [
       "Mosiah 11:22",
       "Mosiah 11:23"
     ],
-    "summary": "Abinadi’s prophecy continues: the Lord says the people will know him and warns that, unless they repent, none but the Lord Almighty will deliver them from bondage.",
+    "summary": "The words declare that the people shall know the Lord their God, who describes himself as jealous and as visiting their iniquities. Unless the people repent and turn to him, they shall be brought into bondage, and none but the Lord Almighty God shall deliver them.",
     "characters": [
-      "Abinadi",
-      "Noah’s people"
+      "the Lord",
+      "this people"
     ],
-    "locations": [
-      "Land of Shilom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says the people will know that he is their God and describes himself as jealous, visiting the iniquities of his people.",
+        "text": "The Lord says the people shall know that he is their God; he describes himself as jealous and as visiting the iniquities of his people.",
         "refs": [
           "Mosiah 11:22"
         ]
       },
       {
-        "text": "Unless they repent and turn to the Lord, the people will be brought into bondage, and none but the Lord Almighty will deliver them.",
+        "text": "Unless this people repent and turn to the Lord their God, they shall be brought into bondage; none shall deliver them except the Lord Almighty God.",
         "refs": [
           "Mosiah 11:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The prophecy may continue as off-screen speech over Abinadi addressing the people."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The audience’s response and any visible divine presence are unspecified."
+      "No location, visible speaker, audience appearance, or divine appearance is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "none shall deliver them, except it be the Lord the Almighty God",
+        "text": "they shall know that I am the Lord their God, and am a jealous God, visiting the iniquities of my people.",
+        "refs": [
+          "Mosiah 11:22"
+        ]
+      },
+      {
+        "text": "except this people repent and turn unto the Lord their God, they shall be brought into bondage; and none shall deliver them, except it be the Lord the Almighty God.",
         "refs": [
           "Mosiah 11:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These verses report prophetic words, not a visible divine appearance or present bondage."
+      "The bondage is a conditional future warning, not an event occurring in these verses."
     ],
     "prohibited_inventions": [
-      "Do not portray God appearing or the people already in bondage."
+      "Do not assign a location or name a human speaker.",
+      "Do not depict the Lord appearing or the people already in bondage."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "A Call to Repent",
+    "title": "A Warning to Repent",
     "refs": [
       "Mosiah 11:24",
       "Mosiah 11:25"
     ],
-    "summary": "Abinadi’s prophecy warns that the Lord will be slow to hear the people’s cries and will not deliver them unless they repent in sackcloth and ashes and cry mightily to him.",
+    "summary": "A speaker relays the Lord’s warning: he will be slow to hear the people’s cries and allow their enemies to smite them. Unless they repent in sackcloth and ashes and cry mightily to him, he will not hear their prayers or deliver them from their afflictions.",
     "characters": [
-      "Abinadi",
-      "Noah’s people"
+      "Unnamed speaker"
     ],
-    "locations": [
-      "Land of Shilom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says he will be slow to hear the people’s cries and will allow them to be smitten by their enemies.",
+        "text": "The Lord says he will be slow to hear their cries and will allow their enemies to smite them.",
         "refs": [
           "Mosiah 11:24"
         ]
       },
       {
-        "text": "Unless they repent in sackcloth and ashes and cry mightily to the Lord, he will not hear their prayers or deliver them from afflictions.",
+        "text": "The Lord says he will not hear their prayers or deliver them from afflictions unless they repent in sackcloth and ashes and cry mightily to him.",
+        "refs": [
+          "Mosiah 11:25"
+        ]
+      },
+      {
+        "text": "The speaker says the Lord commanded him to convey this warning.",
         "refs": [
           "Mosiah 11:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi may continue speaking to the people; the verses do not depict the foretold suffering."
+      "A person may be shown speaking the warning."
     ],
     "unspecified_visual_details": [
-      "No act of repentance or enemy attack is narrated here."
+      "The speaker’s appearance, audience, and location are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "except they repent in sackcloth and ashes",
+        "text": "I will be slow to hear their cries; yea, and I will suffer them that they be smitten by their enemies.",
+        "refs": [
+          "Mosiah 11:24"
+        ],
+        "speaker": "Unnamed speaker relaying the Lord’s words"
+      },
+      {
+        "text": "And except they repent in sackcloth and ashes, and cry mightily to the Lord their God, I will not hear their prayers, neither will I deliver them out of their afflictions;",
         "refs": [
           "Mosiah 11:25"
-        ]
+        ],
+        "speaker": "Unnamed speaker relaying the Lord’s words"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The conditional warning is prophetic speech, not an event happening in the scene."
+      "The suffering, repentance, prayers, and deliverance are conditions or foretold outcomes, not events narrated as occurring here."
     ],
     "prohibited_inventions": [
-      "Do not depict the people in sackcloth, under attack, or praying; these are conditions or predictions, not narrated actions."
+      "Do not name the speaker or specify a location.",
+      "Do not depict an attack, repentance, prayer, or deliverance as occurring in this scene.",
+      "Do not give the Lord a visible appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "The People Turn on Abinadi",
+    "title": "Abinadi Delivered",
     "refs": [
       "Mosiah 11:26"
     ],
-    "summary": "After Abinadi speaks, the people become angry and seek to take his life, but the Lord delivers him out of their hands.",
+    "summary": "After Abinadi speaks to them, they become angry and seek to take his life, but the Lord delivers him out of their hands.",
     "characters": [
       "Abinadi",
-      "Noah’s people"
+      "Unnamed people"
     ],
-    "locations": [
-      "Land of Shilom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After Abinadi speaks, the people become wroth and seek to take his life.",
+        "text": "Abinadi had spoken to them.",
         "refs": [
           "Mosiah 11:26"
         ]
       },
       {
-        "text": "The Lord delivers Abinadi out of their hands.",
+        "text": "They were angry with Abinadi and sought to take his life.",
+        "refs": [
+          "Mosiah 11:26"
+        ]
+      },
+      {
+        "text": "The Lord delivered Abinadi out of their hands.",
         "refs": [
           "Mosiah 11:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people moving to seize Abinadi may illustrate their attempt, with Abinadi escaping their grasp."
+      "The unnamed people may be shown moving toward Abinadi to convey their intent to seize him."
     ],
     "unspecified_visual_details": [
-      "The manner of his deliverance and whether it is visibly miraculous are not described."
+      "The location is not stated.",
+      "The manner of Abinadi's deliverance is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were wroth with him",
+        "text": "they were wroth with him, and sought to take away his life; but the Lord delivered him out of their hands.",
         "refs": [
           "Mosiah 11:26"
         ]
@@ -829,7 +897,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the mechanics of the deliverance or show a supernatural figure."
+      "Do not assign the unnamed people an identity or depict an unspecified location.",
+      "Do not invent the mechanics of the deliverance or a visible appearance of the Lord."
     ],
     "importance": "normal"
   },

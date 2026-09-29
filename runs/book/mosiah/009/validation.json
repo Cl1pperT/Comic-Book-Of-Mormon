@@ -1,5 +1,5 @@
 {
-  "stamp": "99fb325075751d86905ec013a1bf25a5f9abd55bd47505c7ab0c8ef9a621bcf2",
+  "stamp": "28c356f5e43444a23a9678add25a85d962e6210a9cc84a5fbfec32e4aa189e82",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,16 +34,12 @@
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Lists Lamanite warriors as characters, but these verses report King Laman's plan and unease; they do not establish warriors as present in this scene. Depicting them would risk adding characters to a reported account."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Lists Lamanite warriors as characters, but the verse says King Laman stirred up his people and that wars and contentions began; it does not establish warriors or a specific confrontation as present in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

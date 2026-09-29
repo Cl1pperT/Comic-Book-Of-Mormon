@@ -1,5 +1,5 @@
 {
-  "stamp": "fbd3d9ce527d2e41d84455c5788af01591abdd0744e4f768cdbd4afbe73ac71f",
+  "stamp": "0dedfb86f51cb53060f7401eb416f116eb4fdfffae1a42715b1423292d76002c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -46,10 +46,8 @@
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The summary says the people “will be judged according to the words” the angel spoke, but verse 22 says they are found no more blameless only according to those words; it does not state that they will be judged according to them."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
@@ -58,7 +56,7 @@
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source does not clearly delimit whether the statements about justice, mercy, and torment in verses 26–27 are spoken by the Lord or are the angel’s continued address; the summary attributes them to the angel."
+        "The verses do not explicitly identify the speaker in verse 27 as the angel; that identification relies on continuity with the preceding angelic address."
       ]
     }
   }

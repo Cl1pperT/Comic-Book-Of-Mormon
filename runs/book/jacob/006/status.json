@@ -4,21 +4,17 @@
   "verses": 13,
   "scenes": 7,
   "counts": {
-    "PASS": 6,
-    "PASS WITH WARNINGS": 0,
-    "REJECT": 1
+    "PASS": 2,
+    "PASS WITH WARNINGS": 5,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_004": [
-      "The speaker is labeled unidentified, but the source context identifies Jacob as the speaker continuing his address; the scene also incorrectly says the speaker’s identity is unspecified."
-    ]
-  },
-  "calls": 10,
+  "rejected": {},
+  "calls": 11,
   "tokens": {
-    "input_tokens": 78332,
-    "cached_input_tokens": 33792,
+    "input_tokens": 84595,
+    "cached_input_tokens": 42240,
     "cache_write_input_tokens": 0,
-    "output_tokens": 10937,
-    "reasoning_output_tokens": 4030
+    "output_tokens": 11433,
+    "reasoning_output_tokens": 3944
   }
 }

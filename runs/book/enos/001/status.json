@@ -4,21 +4,28 @@
   "verses": 27,
   "scenes": 17,
   "counts": {
-    "PASS": 14,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 1
+    "PASS": 10,
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 3
   },
   "rejected": {
-    "scene_015": [
-      "A present-tense battle scene would turn Enos’s general report that he saw wars into a specific staged event; the verse supplies no particular battle or combat action."
+    "scene_005": [
+      "The notes incorrectly say Enos 1:2 was not supplied; it is included in the supplied source. The prohibition based on that claim is therefore unsupported."
+    ],
+    "scene_012": [
+      "The character labels specify 2 Nephi-era groups, but Enos 1:20 does not establish that those earlier settlers are present.",
+      "Showing a wilderness group with tents and weapons as a current scene risks enacting Enos’s retrospective description."
+    ],
+    "scene_014": [
+      "Depicting an unnamed prophet addressing a gathering stages a particular sermon from Enos’s summary of ongoing preaching; no such scene is narrated."
     ]
   },
-  "calls": 7,
+  "calls": 13,
   "tokens": {
-    "input_tokens": 55871,
-    "cached_input_tokens": 16896,
+    "input_tokens": 92520,
+    "cached_input_tokens": 26880,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11752,
-    "reasoning_output_tokens": 2984
+    "output_tokens": 15907,
+    "reasoning_output_tokens": 4760
   }
 }

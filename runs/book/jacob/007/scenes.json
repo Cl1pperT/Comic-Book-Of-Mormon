@@ -56,11 +56,11 @@
       "Jacob 7:3",
       "Jacob 7:4"
     ],
-    "summary": "He labored to lead away the hearts of the people and led away many hearts. Knowing of Jacob's faith in Christ who should come, he sought an opportunity to come to Jacob. He was learned and had a perfect knowledge of the people's language.",
+    "summary": "He diligently sought to lead away the hearts of the people and led away many hearts. Knowing Jacob had faith in Christ who should come, he sought an opportunity to come to him. He was learned, knew the people's language, and could use flattery and powerful speech.",
     "characters": [
       "Unnamed man referred to as “he”",
       "Unnamed people",
-      "Jacob (mentioned, not physically present)"
+      "Jacob (mentioned as the intended person to approach; no encounter narrated)"
     ],
     "locations": [
       "Unspecified"
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "text": "He knew that Jacob had faith in Christ who should come and sought an opportunity to come to him.",
+        "text": "He knew Jacob had faith in Christ who should come and sought an opportunity to come to him.",
         "refs": [
           "Jacob 7:3"
         ]
@@ -85,14 +85,14 @@
         ]
       },
       {
-        "text": "He could use much flattery and much power of speech.",
+        "text": "He could use much flattery and much power of speech, according to the power of the devil.",
         "refs": [
           "Jacob 7:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The man may be shown among people, without depicting their change of heart as a visible event."
+      "The man may be shown among people, without depicting a change of heart as a visible event."
     ],
     "unspecified_visual_details": [
       "The setting, number of people, and their appearances are not specified."
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "text": "he sought much opportunity that he might come unto me.",
+        "text": "and he knowing that I, Jacob, had faith in Christ who should come, he sought much opportunity that he might come unto me.",
         "refs": [
           "Jacob 7:3"
         ]
@@ -121,85 +121,95 @@
     "doctrinal_or_story_notes": [
       "The man's aims and Jacob's faith are reported, not visible inner states.",
       "The reference to the power of the devil does not describe a visible appearance.",
-      "These verses do not name the man; a preceding verse is not among the supplied sources."
+      "The supplied verses do not name the man or narrate his encounter with Jacob."
     ],
     "prohibited_inventions": [
       "Do not depict an encounter with Jacob.",
-      "Do not assign the man a name from verses outside the supplied source.",
+      "Do not name the man from outside the supplied verses.",
       "Do not invent speech or visibly depict the devil."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "Jacob recalls his testimony",
+    "title": "Jacob's testimony",
     "refs": [
       "Jacob 7:5"
     ],
-    "summary": "Jacob recalls revelations, ministering angels, and hearing the Lord's voice; he says he could not be shaken.",
+    "summary": "An unnamed man hoped to shake Jacob from his faith. Jacob had seen angels, heard the Lord's voice, and could not be shaken.",
     "characters": [
-      "Jacob (old)"
+      "Jacob"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob had seen angels minister to him and had heard the voice of the Lord speaking to him from time to time.",
+        "text": "An unnamed man hoped to shake Jacob from the faith.",
         "refs": [
           "Jacob 7:5"
         ]
       },
       {
-        "text": "Jacob says these experiences left him unshaken in faith.",
+        "text": "Jacob had seen angels, and they had ministered to him.",
+        "refs": [
+          "Jacob 7:5"
+        ]
+      },
+      {
+        "text": "Jacob had heard the voice of the Lord from time to time and could not be shaken.",
         "refs": [
           "Jacob 7:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob may be shown alone as he recalls these experiences."
+      "Jacob may be shown as the narrator without staging the past experiences he reports."
     ],
     "unspecified_visual_details": [
-      "The angels' appearance and the manner in which the Lord's voice was heard."
+      "Jacob's age and appearance.",
+      "The setting.",
+      "The angels' appearance and how the Lord's voice was heard."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I truly had seen angels",
+        "text": "for I truly had seen angels, and they had ministered unto me.",
         "refs": [
           "Jacob 7:5"
         ]
       },
       {
-        "text": "they had ministered unto me.",
+        "text": "And also, I had heard the voice of the Lord speaking unto me in very word, from time to time;",
         "refs": [
           "Jacob 7:5"
         ]
       },
       {
-        "text": "I could not be shaken.",
+        "text": "wherefore, I could not be shaken.",
         "refs": [
           "Jacob 7:5"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports past experiences; do not stage them as present events."
+      "The experiences with angels and the Lord's voice are reported as past experiences, not present action."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord or angels in a flashback; their appearance is unspecified."
+      "Do not assign Jacob an age.",
+      "Do not invent an appearance for the angels or the Lord.",
+      "Do not stage the reported experiences as present events."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "Sherem approaches Jacob",
+    "title": "Sherem speaks to Jacob",
     "refs": [
       "Jacob 7:6",
       "Jacob 7:7"
     ],
-    "summary": "Sherem came to Jacob, challenged his preaching, called his teaching blasphemy, and contended against him.",
+    "summary": "Sherem came to Jacob and spoke about Jacob's preaching. He accused Jacob of leading people away from the law of Moses and turning it into worship of a being said to come many hundred years later. Sherem called this blasphemy, said no one could tell of things to come, and contended against Jacob.",
     "characters": [
       "Sherem",
       "Jacob"
@@ -211,17 +221,18 @@
       {
         "text": "Sherem came to Jacob and spoke to him about his preaching of the gospel or doctrine of Christ.",
         "refs": [
-          "Jacob 7:6"
+          "Jacob 7:6",
+          "Jacob 7:7"
         ]
       },
       {
-        "text": "Sherem accused Jacob of leading people away from the right way of God and the law of Moses.",
+        "text": "Sherem accused Jacob of leading people away from the law of Moses and converting it into worship of a being said to come many hundred years later.",
         "refs": [
           "Jacob 7:7"
         ]
       },
       {
-        "text": "Sherem called Jacob's teaching blasphemy, said no one could tell of things to come, and contended against Jacob.",
+        "text": "Sherem called this blasphemy, said no one could tell of things to come, and contended against Jacob.",
         "refs": [
           "Jacob 7:7"
         ]
@@ -235,14 +246,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Brother Jacob, I have sought much opportunity that I might speak unto you;",
-        "refs": [
-          "Jacob 7:6"
-        ],
-        "speaker": "Sherem"
-      },
-      {
-        "text": "preaching that which ye call the gospel, or the doctrine of Christ.",
+        "text": "Brother Jacob, I have sought much opportunity that I might speak unto you; for I have heard and also know that thou goest about much, preaching that which ye call the gospel, or the doctrine of Christ.",
         "refs": [
           "Jacob 7:6"
         ],
@@ -254,13 +258,6 @@
           "Jacob 7:7"
         ],
         "speaker": "Sherem"
-      },
-      {
-        "text": "for no man knoweth of such things; for he cannot tell of things to come.",
-        "refs": [
-          "Jacob 7:7"
-        ],
-        "speaker": "Sherem"
       }
     ],
     "narration": [],
@@ -268,53 +265,62 @@
       "Sherem's accusations are his claims, not established facts or doctrine."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ or a future event as visibly present.",
-      "Do not assign Jacob an age or add other people."
+      "Do not depict Christ or the future being as visibly present.",
+      "Do not invent Jacob's reply, other people's presence, or additional actions."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "Jacob confounds Sherem",
+    "title": "The Speaker Reports Confounding Him",
     "refs": [
       "Jacob 7:8"
     ],
-    "summary": "Jacob says the Lord poured his Spirit into his soul, and he confounded Sherem in all his words.",
+    "summary": "The speaker reports that the Lord God poured his Spirit into his soul and that he confounded another person in all his words.",
     "characters": [
-      "Jacob (old)",
-      "Sherem"
+      "Unnamed first-person speaker",
+      "Unnamed person referred to as “him” (reported only)"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord God poured his Spirit into Jacob's soul, and Jacob confounded Sherem in all his words.",
+        "text": "The speaker reports that the Lord God poured his Spirit into his soul.",
+        "refs": [
+          "Jacob 7:8"
+        ]
+      },
+      {
+        "text": "The speaker reports confounding another person in all his words.",
         "refs": [
           "Jacob 7:8"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The two remain in conversation; no visible form of the Spirit need be shown."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any visible sign of the Spirit's influence."
+      "The verse specifies no setting, physical appearances, clothing, gestures, or visible manifestation of the Spirit."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord God poured in his Spirit into my soul",
+        "text": "But behold, the Lord God poured in his Spirit into my soul, insomuch that I did confound him in all his words.",
         "refs": [
           "Jacob 7:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Spirit entering Jacob's soul is described without a visible manifestation."
+      "Retain this verse as retrospective narration rather than staging a new encounter or response.",
+      "The supplied verse alone does not establish the surrounding encounter's chronology; do not reconstruct missing events.",
+      "The description of the Spirit entering the speaker's soul does not specify a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not render the Spirit as a visible being or effect."
+      "Do not stage the reported confounding as a present-tense exchange.",
+      "Do not supply an accusation, preceding speech, testimony, or other missing encounter details.",
+      "Do not identify the unnamed opponent or invent dialogue.",
+      "Do not depict God or the Spirit as a visible figure or supernatural effect."
     ],
     "importance": "normal"
   },
@@ -324,33 +330,34 @@
     "refs": [
       "Jacob 7:9"
     ],
-    "summary": "Jacob asks whether Sherem denies the Christ who shall come. Sherem says he would not deny a Christ if there should be one, but says there is none.",
+    "summary": "Jacob asks a man whether he denies the Christ who shall come. The man says he would not deny a Christ if there should be one, but claims there is no Christ.",
     "characters": [
-      "Jacob (old)",
-      "Sherem"
+      "Jacob",
+      "unnamed respondent"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob asked Sherem whether he denied the Christ who should come.",
+        "text": "Jacob asks whether the man denies the Christ who shall come.",
         "refs": [
           "Jacob 7:9"
         ]
       },
       {
-        "text": "Sherem answered that he would not deny a Christ if there should be one, but claimed there was no Christ.",
+        "text": "The man says he would not deny a Christ if there should be one, but claims there is no Christ and never will be.",
         "refs": [
           "Jacob 7:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob and Sherem continue their face-to-face exchange."
+      "Two people are speaking to each other."
     ],
     "unspecified_visual_details": [
-      "Gestures and expressions."
+      "Their gestures and expressions.",
+      "The surroundings."
     ],
     "spoken_dialogue": [
       {
@@ -358,29 +365,23 @@
         "refs": [
           "Jacob 7:9"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       },
       {
-        "text": "If there should be a Christ, I would not deny him;",
+        "text": "If there should be a Christ, I would not deny him; but I know that there is no Christ, neither has been, nor ever will be.",
         "refs": [
           "Jacob 7:9"
         ],
-        "speaker": "Sherem"
-      },
-      {
-        "text": "but I know that there is no Christ, neither has been, nor ever will be.",
-        "refs": [
-          "Jacob 7:9"
-        ],
-        "speaker": "Sherem"
+        "speaker": "unnamed respondent"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Sherem's denial is his claim."
+      "The respondent's denial is his claim, not an established fact."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ."
+      "Do not depict Christ.",
+      "Do not assign the respondent a name or biography."
     ],
     "importance": "normal"
   },
@@ -391,33 +392,34 @@
       "Jacob 7:10",
       "Jacob 7:11"
     ],
-    "summary": "Sherem says he believes the scriptures. Jacob answers that they testify of Christ and that the prophets spoke concerning him.",
+    "summary": "Jacob asks whether the other person believes the scriptures, and the person answers yes. Jacob says the scriptures testify of Christ and that the prophets have spoken concerning Christ.",
     "characters": [
-      "Jacob (old)",
-      "Sherem"
+      "Jacob",
+      "Unnamed interlocutor"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob asked whether Sherem believed the scriptures, and Sherem answered yes.",
+        "text": "Jacob asks the other person whether he believes the scriptures; the person answers yes.",
         "refs": [
           "Jacob 7:10"
         ]
       },
       {
-        "text": "Jacob said the scriptures testify of Christ and that the prophets spoke concerning him.",
+        "text": "Jacob says the scriptures testify of Christ and that the prophets have spoken concerning Christ.",
         "refs": [
           "Jacob 7:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speakers remain together in conversation."
+      "Jacob and the other speaker are together in conversation."
     ],
     "unspecified_visual_details": [
-      "Whether any scriptures are physically present."
+      "The setting and the speakers' appearances are not described.",
+      "Whether any scriptures are physically present is not stated."
     ],
     "spoken_dialogue": [
       {
@@ -425,36 +427,37 @@
         "refs": [
           "Jacob 7:10"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       },
       {
         "text": "Yea.",
         "refs": [
           "Jacob 7:10"
         ],
-        "speaker": "Sherem"
+        "speaker": "Unnamed interlocutor"
       },
       {
         "text": "Then ye do not understand them; for they truly testify of Christ.",
         "refs": [
           "Jacob 7:11"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       },
       {
         "text": "Behold, I say unto you that none of the prophets have written, nor prophesied, save they have spoken concerning this Christ.",
         "refs": [
           "Jacob 7:11"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophetic testimony is expressed as teaching, not a visual scene."
+      "Jacob's statement about the prophets is teaching, not a depicted event."
     ],
     "prohibited_inventions": [
-      "Do not show prophets or Christ as present."
+      "Do not name or assign an age to the interlocutor.",
+      "Do not depict Christ or the prophets as physically present."
     ],
     "importance": "normal"
   },
@@ -464,33 +467,31 @@
     "refs": [
       "Jacob 7:12"
     ],
-    "summary": "Jacob says he has heard and seen, and that the Holy Ghost made these things manifest to him; he declares that without an atonement all mankind must be lost.",
+    "summary": "Jacob says he has heard and seen, that things have been made manifest to him by the power of the Holy Ghost, and that without an atonement all mankind must be lost.",
     "characters": [
-      "Jacob (old)",
-      "Sherem"
+      "Jacob"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Jacob said these things had been made manifest to him through hearing, seeing, and the power of the Holy Ghost.",
+        "text": "Jacob says he has heard and seen and that things have been made manifest to him by the power of the Holy Ghost.",
         "refs": [
           "Jacob 7:12"
         ]
       },
       {
-        "text": "Jacob said that without an atonement all mankind must be lost.",
+        "text": "Jacob says that if no atonement were made, all mankind must be lost.",
         "refs": [
           "Jacob 7:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob continues speaking to Sherem."
+      "Jacob is speaking."
     ],
     "unspecified_visual_details": [
-      "What Jacob heard or saw, and any visible manifestation of the Holy Ghost."
+      "The location and Jacob's appearance.",
+      "What Jacob heard or saw."
     ],
     "spoken_dialogue": [
       {
@@ -498,29 +499,30 @@
         "refs": [
           "Jacob 7:12"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       },
       {
         "text": "and it also has been made manifest unto me by the power of the Holy Ghost;",
         "refs": [
           "Jacob 7:12"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       },
       {
         "text": "wherefore, I know if there should be no atonement made all mankind must be lost.",
         "refs": [
           "Jacob 7:12"
         ],
-        "speaker": "Jacob (old)"
+        "speaker": "Jacob"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The atonement and the Holy Ghost are spoken of as teachings; do not depict a supernatural event."
+      "Jacob's statement about the atonement is a teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not stage Jacob's unspecified hearing or seeing as a flashback."
+      "Do not depict what Jacob heard or saw or invent a visible appearance of the Holy Ghost.",
+      "Do not add an age qualifier or an audience for Jacob."
     ],
     "importance": "normal"
   },
@@ -531,41 +533,41 @@
       "Jacob 7:13",
       "Jacob 7:14"
     ],
-    "summary": "A man asks the narrator for a sign by the power of the Holy Ghost. The narrator questions tempting God for a sign, says the man will deny it because he is of the devil, describes what it would signify if God smites him, and asks that the Lord’s will be done.",
+    "summary": "An unnamed man asks Jacob to show him a sign by the power of the Holy Ghost. Jacob questions tempting God for a sign, says the man will deny what he knows to be true, describes a sign conditionally, and asks that the Lord's will be done.",
     "characters": [
-      "First-person narrator",
-      "Unnamed man addressing the narrator"
+      "Jacob",
+      "Unnamed man addressing Jacob"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The man asks the narrator to show him a sign by the power of the Holy Ghost.",
+        "text": "The man asks Jacob to show him a sign by the power of the Holy Ghost.",
         "refs": [
           "Jacob 7:13"
         ]
       },
       {
-        "text": "The narrator questions tempting God to show the man a sign.",
+        "text": "Jacob questions whether he should tempt God to show the man a sign.",
         "refs": [
           "Jacob 7:14"
         ]
       },
       {
-        "text": "The narrator says the man will deny it because he is of the devil.",
+        "text": "Jacob says the man will deny what he knows to be true because he is of the devil.",
         "refs": [
           "Jacob 7:14"
         ]
       },
       {
-        "text": "The narrator says that if God smites the man, it will be a sign of God's power in heaven and earth and that Christ shall come.",
+        "text": "Jacob says that if God smites the man, it will be a sign of God's power in heaven and earth and that Christ shall come.",
         "refs": [
           "Jacob 7:14"
         ]
       },
       {
-        "text": "The narrator asks that the Lord's will, not his own, be done.",
+        "text": "Jacob asks that the Lord's will, not his own, be done.",
         "refs": [
           "Jacob 7:14"
         ]
@@ -580,57 +582,43 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Show me a sign by this power of the Holy Ghost,",
+        "text": "Show me a sign by this power of the Holy Ghost, in the which ye know so much.",
         "refs": [
           "Jacob 7:13"
         ],
-        "speaker": "Unnamed man addressing the narrator"
+        "speaker": "Unnamed man addressing Jacob"
       },
       {
         "text": "What am I that I should tempt God",
         "refs": [
           "Jacob 7:14"
         ],
-        "speaker": "First-person narrator"
-      },
-      {
-        "text": "Yet thou wilt deny it, because thou art of the devil.",
-        "refs": [
-          "Jacob 7:14"
-        ],
-        "speaker": "First-person narrator"
+        "speaker": "Jacob"
       },
       {
         "text": "but if God shall smite thee, let that be a sign unto thee",
         "refs": [
           "Jacob 7:14"
         ],
-        "speaker": "First-person narrator"
-      },
-      {
-        "text": "and also, that Christ shall come.",
-        "refs": [
-          "Jacob 7:14"
-        ],
-        "speaker": "First-person narrator"
+        "speaker": "Jacob"
       },
       {
         "text": "And thy will, O Lord, be done, and not mine.",
         "refs": [
           "Jacob 7:14"
         ],
-        "speaker": "First-person narrator"
+        "speaker": "Jacob"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "The proposed sign is conditional; these verses do not report it happening.",
-      "These verses do not name either speaker."
+      "The man addressing Jacob is not named in the supplied verses."
     ],
     "prohibited_inventions": [
       "Do not depict God smiting the man or any other visible sign.",
       "Do not depict the Holy Ghost, God, or Christ as visibly appearing.",
-      "Do not assign names or ages to the speakers from these verses."
+      "Do not assign a name to the man or ages to either speaker."
     ],
     "importance": "normal"
   },
@@ -760,9 +748,9 @@
       "Jacob 7:17",
       "Jacob 7:18"
     ],
-    "summary": "On the morrow, the multitude gathers. The speaker denies what he had taught them, confesses Christ, the power of the Holy Ghost, and the ministering of angels, says he had been deceived by the power of the devil, and speaks of hell, eternity, and eternal punishment.",
+    "summary": "On the morrow, the multitude gathers. The speaker denies what he had taught them, confesses the Christ, the power of the Holy Ghost, and the ministering of angels, says he had been deceived by the power of the devil, and speaks of hell, eternity, and eternal punishment.",
     "characters": [
-      "the unnamed speaker",
+      "the speaker",
       "the multitude"
     ],
     "locations": [
@@ -776,7 +764,7 @@
         ]
       },
       {
-        "text": "The speaker denied what he had taught them and confessed Christ, the power of the Holy Ghost, and the ministering of angels.",
+        "text": "The speaker denied what he had taught them and confessed the Christ, the power of the Holy Ghost, and the ministering of angels.",
         "refs": [
           "Jacob 7:17"
         ]
@@ -797,19 +785,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and denied the things which he had taught them,",
+        "text": "and he spake plainly unto them and denied the things which he had taught them, and confessed the Christ, and the power of the Holy Ghost, and the ministering of angels.",
         "refs": [
           "Jacob 7:17"
         ]
       },
       {
-        "text": "and confessed the Christ, and the power of the Holy Ghost, and the ministering of angels.",
-        "refs": [
-          "Jacob 7:17"
-        ]
-      },
-      {
-        "text": "that he had been deceived by the power of the devil.",
+        "text": "And he spake plainly unto them, that he had been deceived by the power of the devil.",
         "refs": [
           "Jacob 7:18"
         ]
@@ -822,7 +804,8 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report the subjects of the speaker's words but do not supply a direct speech transcript."
+      "The verses report the subjects of the speaker’s words but provide no direct speech transcript.",
+      "The supplied verses do not name the speaker."
     ],
     "prohibited_inventions": [
       "Do not assign the speaker a name or invent his exact spoken words.",
@@ -906,14 +889,14 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Sherem dies",
+    "title": "A death and the multitude's response",
     "refs": [
       "Jacob 7:20",
       "Jacob 7:21"
     ],
-    "summary": "After speaking, Sherem could say no more and died. The multitude witnessed his words; they were astonished, and they fell to the earth as the power of God came upon them.",
+    "summary": "After speaking, the man could say no more and died. The multitude witnessed his words as he was about to die and were exceedingly astonished. The power of God came down upon them; they were overcome and fell to the earth.",
     "characters": [
-      "Sherem",
+      "the man",
       "the multitude"
     ],
     "locations": [
@@ -921,31 +904,41 @@
     ],
     "explicit_facts": [
       {
-        "text": "After Sherem said these words, he could say no more and gave up the ghost.",
+        "text": "After saying these words, he could say no more and gave up the ghost.",
         "refs": [
           "Jacob 7:20"
         ]
       },
       {
-        "text": "The multitude witnessed his words as he was about to die, were exceedingly astonished, and fell to the earth when the power of God came upon them.",
+        "text": "The multitude witnessed him speak as he was about to give up the ghost and were exceedingly astonished.",
+        "refs": [
+          "Jacob 7:21"
+        ]
+      },
+      {
+        "text": "The power of God came down upon the multitude; they were overcome and fell to the earth.",
         "refs": [
           "Jacob 7:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The multitude is present as Sherem dies and falls to the earth."
+      "The multitude is present to witness the man speaking and falling to the earth afterward."
     ],
     "unspecified_visual_details": [
-      "The visible form of God's power and the multitude's exact number and appearance."
+      "The man's identity and appearance.",
+      "The multitude's exact number and appearance.",
+      "The location and any visible form of God's power."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The death and the multitude falling are separate actions in the same reported moment."
+      "The verses do not supply the man's preceding words."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine figure or violent injury."
+      "Do not assign the man a name or invent his words.",
+      "Do not depict a divine figure or a visible form for God's power.",
+      "Do not depict wounds, blood, or violent injury."
     ],
     "importance": "normal"
   },
@@ -955,41 +948,49 @@
     "refs": [
       "Jacob 7:22"
     ],
-    "summary": "Jacob says the event pleased him because he had requested it of his Father in heaven, who heard his cry and answered his prayer.",
+    "summary": "Jacob says this thing pleased him because he had requested it of his Father in heaven, who heard his cry and answered his prayer.",
     "characters": [
-      "Jacob (old)"
+      "Jacob"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob says he had requested this of his Father in heaven, who heard his cry and answered his prayer.",
+        "text": "This thing was pleasing to Jacob.",
+        "refs": [
+          "Jacob 7:22"
+        ]
+      },
+      {
+        "text": "Jacob had requested it of his Father in heaven, who heard his cry and answered his prayer.",
         "refs": [
           "Jacob 7:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob may be shown reflecting after the event."
+      "Jacob may be shown reflecting on what he reports."
     ],
     "unspecified_visual_details": [
-      "When and where Jacob prayed, and any visible appearance of his Father in heaven."
+      "Jacob's age and appearance.",
+      "The location and time of Jacob's prayer."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he had heard my cry and answered my prayer.",
+        "text": "Now, this thing was pleasing unto me, Jacob, for I had requested it of my Father who was in heaven; for he had heard my cry and answered my prayer.",
         "refs": [
           "Jacob 7:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Jacob reports a prior prayer and its answer; do not depict a separate divine appearance."
+      "Jacob reports a prior prayer and its answer; the verse does not describe a visible divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not show the Father in heaven."
+      "Do not depict Jacob as old based on this verse.",
+      "Do not depict a visible appearance of the Father in heaven or stage the prior prayer as a separate present event."
     ],
     "importance": "normal"
   },
@@ -1088,7 +1089,7 @@
       "Jacob 7:26",
       "Jacob 7:27"
     ],
-    "summary": "Jacob reflects on growing old and on his people's hardships. He tells his son Enos to take the plates, relates Nephi's commands to him, and ends his writing.",
+    "summary": "Jacob says he has begun to grow old and concludes his record. He reports telling his son Enos to take the plates and relaying Nephi's commands; Enos promises obedience. Jacob ends his writing and bids the reader farewell.",
     "characters": [
       "Jacob",
       "Enos"
@@ -1098,60 +1099,61 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jacob says he began to grow old, describes his people's hardships, and concludes his record.",
+        "text": "Jacob says he began to grow old and concludes his record.",
         "refs": [
           "Jacob 7:26"
         ]
       },
       {
-        "text": "Jacob tells his son Enos to take the plates and relates the commands of his brother Nephi; Enos promises obedience.",
+        "text": "The record of his people is kept on the other plates of Nephi.",
+        "refs": [
+          "Jacob 7:26"
+        ]
+      },
+      {
+        "text": "Jacob reports telling his son Enos to take the plates and telling him what his brother Nephi commanded; Enos promised obedience.",
         "refs": [
           "Jacob 7:27"
         ]
       },
       {
-        "text": "Jacob ends his writing and bids farewell to the reader.",
+        "text": "Jacob ends his writing on the plates and bids the reader farewell.",
         "refs": [
           "Jacob 7:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob and Enos are together when Jacob addresses him."
+      "Jacob may be shown writing on plates as he concludes his record."
     ],
     "unspecified_visual_details": [
-      "The setting, the plates' appearance, clothing, and Enos's age are not specified."
+      "The location, clothing, and appearance of the plates are unspecified.",
+      "Enos's age and appearance are unspecified."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "Take these plates.",
-        "refs": [
-          "Jacob 7:27"
-        ],
-        "speaker": "Jacob"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and also our lives passed away like as it were unto us a dream",
+        "text": "I, Jacob, began to be old;",
         "refs": [
           "Jacob 7:26"
         ]
       },
       {
-        "text": "Brethren, adieu.",
+        "text": "And I make an end of my writing upon these plates, which writing has been small;",
         "refs": [
           "Jacob 7:27"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The comparison of life to a dream is figurative, not a literal dream scene.",
-      "Jacob's farewell belongs to his written record, not spoken dialogue."
+      "Jacob's comparison of life to a dream is figurative, not a literal dream scene.",
+      "The instruction to Enos and his promise are reported in Jacob's record; neither is staged here as present-tense dialogue.",
+      "Jacob's farewell is written to the reader, not spoken to Enos."
     ],
     "prohibited_inventions": [
-      "Do not depict Jerusalem or Nephi as physically present.",
-      "Do not invent Enos's words of promise or show the plates being transferred as an explicit event."
+      "Do not depict Nephi or Jerusalem as physically present.",
+      "Do not invent Enos's words or depict a transfer of the plates as an explicit event.",
+      "Do not stage the people's past hardships alongside Jacob's conclusion."
     ],
     "importance": "normal"
   }

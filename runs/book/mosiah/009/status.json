@@ -4,24 +4,17 @@
   "verses": 19,
   "scenes": 16,
   "counts": {
-    "PASS": 14,
+    "PASS": 16,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_009": [
-      "Lists Lamanite warriors as characters, but these verses report King Laman's plan and unease; they do not establish warriors as present in this scene. Depicting them would risk adding characters to a reported account."
-    ],
-    "scene_010": [
-      "Lists Lamanite warriors as characters, but the verse says King Laman stirred up his people and that wars and contentions began; it does not establish warriors or a specific confrontation as present in this scene."
-    ]
-  },
-  "calls": 6,
+  "rejected": {},
+  "calls": 9,
   "tokens": {
-    "input_tokens": 54616,
-    "cached_input_tokens": 34048,
+    "input_tokens": 73480,
+    "cached_input_tokens": 47872,
     "cache_write_input_tokens": 0,
-    "output_tokens": 9163,
-    "reasoning_output_tokens": 2338
+    "output_tokens": 11110,
+    "reasoning_output_tokens": 3040
   }
 }

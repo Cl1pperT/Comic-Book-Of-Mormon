@@ -689,47 +689,48 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "Journey to Middoni",
+    "title": "Ammon's Brethren Brought Forth",
     "refs": [
       "Alma 20:28"
     ],
-    "summary": "Ammon and Lamoni continue their journey to Middoni. Lamoni finds favor with Middoni's king, and Ammon's brethren are brought out of prison.",
+    "summary": "Ammon's brethren are brought forth out of prison.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "King Lamoni",
-      "Ammon's imprisoned brethren",
-      "The king of the land of Middoni"
+      "Ammon's brethren"
     ],
     "locations": [
-      "Middoni"
+      "Prison"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon and Lamoni continued their journey toward Middoni.",
-        "refs": [
-          "Alma 20:28"
-        ]
-      },
-      {
-        "text": "Lamoni found favor with Middoni's king, and Ammon's brethren were brought out of prison.",
+        "text": "The brethren of Ammon were brought forth out of prison.",
         "refs": [
           "Alma 20:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The journey and the bringing of the prisoners out are distinct moments; this scene depicts the release in Middoni."
+      "The brethren may be shown emerging from the prison."
     ],
     "unspecified_visual_details": [
-      "The appearance of Middoni's king, the prison, and the route of travel."
+      "The brethren's appearances and clothing.",
+      "The prison's appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that Ammon and Lamoni proceeded on their journey towards the land of Middoni. And Lamoni found favor in the eyes of the king of the land; therefore the brethren of Ammon were brought forth out of prison.",
+        "refs": [
+          "Alma 20:28"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The king of Middoni's favor is reported; no conversation or specific action by him is supplied."
+      "The narration supplies the preceding journey and Lamoni's finding favor with the king as context; neither is staged as a separate scene or depicted as simultaneous with the release."
     ],
     "prohibited_inventions": [
-      "Do not invent a meeting or dialogue between Lamoni and Middoni's king."
+      "Do not depict the king, Ammon, or Lamoni as present at the prison without textual support.",
+      "Do not invent dialogue or identify who brought the brethren forth.",
+      "Do not invent a meeting between Lamoni and the king."
     ],
     "importance": "normal"
   },

@@ -1,11 +1,9 @@
 {
-  "stamp": "582b5fac58b244cf2ce695ea82579ffae9a585399c09801a356f59b92bad00ce",
+  "stamp": "d7e2b8e8f03efe4bb00a90a37302257f71d282cdee188621f6fdcb879ee2b4ca",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The phrase “transfer of royal authority” is a visual inference; no ceremony or physical transfer is described."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -24,38 +22,35 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene names the tower builder only as unnamed, but does not account for the adjacent temple or distant lands as non-present background; avoid implying these locations are established visually beyond the text."
+        "The pronoun in Mosiah 11:10–11 refers to Noah in the chapter’s continuous account; the prohibition against identifying him overlooks that context."
+      ]
+    },
+    "scene_007": {
+      "status": "REJECT",
+      "issues": [
+        "The builder is not an unidentified character. In context, “he” refers to Noah (Mosiah 11:8–12), so the character label and prohibition against naming him are incorrect."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Noah uses the wealth” is supported by the text's sequence and “thus,” though the specific construction timeline is not detailed."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The listed characters include Noah’s wives and concubines, priests, and harlots; their presence together or in a single moment is not specified. Avoid combining separate activities into one scene."
+        "The man in Mosiah 11:14–15 is Noah in the continuous account. Treating his identity as unsupplied and prohibiting that identification contradicts the supplied context."
       ]
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary’s “then” preserves the sequence, but the two attacks and later guard episode should not be combined as simultaneous events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "REJECT",
       "issues": [
-        "The source says the armies were driven back, or they drove the opposing group back for a time; it does not establish an unambiguous victory. The summary asserts “after a victory,” and the explicit fact also labels it a victory.",
-        "The reported claim that “their fifty could stand against thousands” is not explicitly identified as a spoken quotation in the source’s direct narration; the provided narration presents it as an exact fragment, but treats it as the armies' boast."
+        "The group opposed by Noah’s armies is the Lamanites: “them” in Mosiah 11:18 refers back to the Lamanites in 11:17. Calling the group unidentified is incorrect."
       ]
     },
     "scene_012": {
@@ -63,12 +58,16 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "These words continue Abinadi’s prophecy begun in Mosiah 11:20. The claim that no human speaker can be named, and the omission of Abinadi as speaker, contradict that context."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The speaker is Abinadi, continuing the prophecy begun in Mosiah 11:20; labeling him “Unnamed speaker” misidentifies the speaker."
+      ]
     },
     "scene_015": {
       "status": "PASS",

@@ -1,38 +1,31 @@
 {
-  "stamp": "726115e088d7e87d02912c8f6c3c115a3e7bcaca5b366d2f26b5c79f5c0e5d1c",
+  "stamp": "03abe3fba84e24b53d4c96f6728bbf5b0153ddcb329c5a6ef18ded19725fca55",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt is exact but its lowercase opening is a mid-sentence fragment; visually illustrating an abstract wage law is a creative choice."
-      ]
-    },
-    "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The explanation is accurate overall, but Alma 11:18 is omitted from the listed explicit facts; it states that this is their number according to their reckoning."
-      ]
-    },
-    "scene_004": {
       "status": "PASS",
       "issues": []
     },
-    "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The dialogue omits Zeezrom's first question in Alma 11:21, while the summary says he asks twice; it must not imply that the included dialogue contains both questions.",
-        "The first two quoted dialogue excerpts from verse 21 are not contiguous as presented: source narration intervenes between Zeezrom's questions. Each excerpt is exact, but the two-question chronology should be represented with the intervening source text or kept clearly separate."
-      ]
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
     },
-    "scene_006": {
+    "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary describes Amulek accusing Zeezrom of intending to retain the silver and seeking cause to destroy him, but does not include his further statement that Zeezrom would receive his reward; acceptable as a summary, though that omitted detail is source-supported."
+        "The stated motive and pattern of stirring up disturbances are explicit, but a present-time crowd agitated against Alma and Amulek is only a visual inference and risks turning a reported pattern into a specific scene."
       ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -41,20 +34,16 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says Zeezrom addresses the people and Amulek disputes what Zeezrom says about his words, but does not state the substance of Zeezrom's claim or Amulek's teaching in verse 37; both are source-supported and the summary remains accurate."
+        "The summary omits that Amulek says the Son cannot deny his word; otherwise the exchange and dialogue excerpts are supported. The teaching about the Son is not a visible appearance."
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary omits the teaching that salvation comes to none else and that the wicked remain as though no redemption were made except release from death; the supplied summary is still accurate."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene labels the speaker unidentified, appropriately avoiding an unsupported identity; no dialogue is supplied, and narration uses exact source excerpts."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

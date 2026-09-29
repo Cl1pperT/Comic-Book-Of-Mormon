@@ -43,6 +43,11 @@ class Verdict(Model):
     status: Literal["PASS", "PASS WITH WARNINGS", "REJECT"]
     issues: List[str] = []
 
+class Corrections(Model):
+    """A reviewer's note on a drawn panel, as instructions an image model can follow."""
+    add: List[str] = []
+    avoid: List[str] = []
+
 class SceneVerdict(Verdict):
     scene_id: str
 

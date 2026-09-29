@@ -4,21 +4,17 @@
   "verses": 35,
   "scenes": 18,
   "counts": {
-    "PASS": 16,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 13,
+    "PASS WITH WARNINGS": 5,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_011": [
-      "The Lord God’s quoted instruction in 2 Nephi 27:20 is not verbatim: it joins separate source phrases, omits intervening text, and changes punctuation. Split into separate exact excerpts or use the complete contiguous verse text."
-    ]
-  },
-  "calls": 3,
+  "rejected": {},
+  "calls": 4,
   "tokens": {
-    "input_tokens": 40913,
-    "cached_input_tokens": 21248,
+    "input_tokens": 47336,
+    "cached_input_tokens": 22016,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7876,
-    "reasoning_output_tokens": 960
+    "output_tokens": 8193,
+    "reasoning_output_tokens": 712
   }
 }

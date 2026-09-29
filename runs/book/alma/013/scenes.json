@@ -1,20 +1,26 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The holy calling",
+    "title": "Remembering the priests' ordination",
     "refs": [
       "Alma 13:1",
       "Alma 13:2"
     ],
-    "summary": "Alma tells his brethren that the Lord God ordained priests after the order of his Son to teach the people, so they might know how to look forward to his Son for redemption.",
+    "summary": "The speaker asks his brethren to remember when the Lord God gave commandments to his children and ordained priests after the order of his Son to teach the people. The priests' manner of ordination was intended to help the people look forward to his Son for redemption.",
     "characters": [
-      "Alma",
-      "His brethren"
+      "Unidentified speaker",
+      "Brethren addressed by the speaker"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
+      {
+        "text": "The speaker asks his brethren to remember the time when the Lord God gave commandments to his children.",
+        "refs": [
+          "Alma 13:1"
+        ]
+      },
       {
         "text": "The Lord God ordained priests after his holy order, which was after the order of his Son, to teach the people.",
         "refs": [
@@ -28,14 +34,21 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma addresses a group of brethren."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The setting and the audience's appearance.",
-      "The visual arrangement of the speakers and listeners."
+      "The speaker's and brethren's appearances.",
+      "The location and any visible surroundings.",
+      "The appearance of the priests and the manner of their ordination."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "And again, my brethren, I would cite your minds forward to the time when the Lord God gave these commandments unto his children;",
+        "refs": [
+          "Alma 13:1"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [
       {
         "text": "the Lord God ordained priests, after his holy order",
@@ -51,11 +64,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses refer to the priests' ordination and its purpose; they do not narrate a particular ordination ceremony."
+      "The ordination is recalled in the teaching; these verses do not narrate a particular ordination ceremony as it occurs."
     ],
     "prohibited_inventions": [
-      "Depicting a specific ordination ceremony.",
-      "Visibly depicting the Son or giving him an appearance not stated in these verses."
+      "Staging a present ordination ceremony or the giving of the commandments.",
+      "Assigning the speaker a name not supplied in the verses.",
+      "Depicting the Son or the Lord God with an invented appearance."
     ],
     "importance": "normal"
   },
@@ -187,59 +201,64 @@
       "Alma 13:8",
       "Alma 13:9"
     ],
-    "summary": "Alma describes the priesthood as eternal and its holders as high priests forever after the order of the Son.",
-    "characters": [
-      "Alma"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The high priesthood is described as prepared from eternity to all eternity. Those ordained take upon them the high priesthood and become high priests forever after the order of the Son.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The high priesthood is after the order of the Son, prepared from eternity to all eternity, and without beginning of days or end of years.",
+        "text": "The high priesthood is after the order of the Son and is described as prepared from eternity to all eternity.",
         "refs": [
           "Alma 13:7"
         ]
       },
       {
-        "text": "Those ordained take upon them a calling, ordinance, and high priesthood described as without beginning or end.",
+        "text": "Those ordained are called with a holy calling, ordained with a holy ordinance, and take upon them the high priesthood of the holy order.",
         "refs": [
           "Alma 13:8"
         ]
       },
       {
-        "text": "They become high priests forever after the order of the Son, who is full of grace, equity, and truth.",
+        "text": "They become high priests forever after the order of the Son, who is described as full of grace, equity, and truth.",
         "refs": [
           "Alma 13:9"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma's teaching continues as off-screen speech."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any symbolic visual design for eternity or the priesthood."
+      "No setting or physical appearance is specified.",
+      "No visible ordination procedure is described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "prepared from eternity to all eternity",
+        "text": "being prepared from eternity to all eternity",
         "refs": [
           "Alma 13:7"
         ]
       },
       {
-        "text": "they become high priests forever, after the order of the Son",
+        "text": "being called with a holy calling, and ordained with a holy ordinance",
+        "refs": [
+          "Alma 13:8"
+        ]
+      },
+      {
+        "text": "Thus they become high priests forever, after the order of the Son",
         "refs": [
           "Alma 13:9"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Eternal duration is a teaching, not a literal visible scene."
+      "The descriptions of eternity are teachings, not narrated visible events.",
+      "These verses do not identify a speaker."
     ],
     "prohibited_inventions": [
-      "Invented heavenly imagery or depictions of the Son."
+      "Assigning the speech to Alma or another speaker.",
+      "Depicting the Son or heavenly figures as visibly present.",
+      "Inventing a setting, participants, or details of an ordination ceremony.",
+      "Literal visualizations of eternity."
     ],
     "importance": "normal"
   },
@@ -251,12 +270,12 @@
       "Alma 13:11",
       "Alma 13:12"
     ],
-    "summary": "Many were ordained and became high priests of God because of their faith, repentance, and righteousness. They were called after the holy order and sanctified; many were made pure and entered the rest of the Lord their God.",
+    "summary": "Many were ordained and became high priests of God on account of their faith, repentance, and righteousness. They were called after the holy order and sanctified. Many were made pure and entered into the rest of the Lord their God.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Many were ordained and became high priests of God on account of their faith, repentance, and righteousness; they chose to repent and work righteousness rather than perish.",
+        "text": "Many were ordained and became high priests of God on account of their exceeding faith, repentance, and righteousness; they chose to repent and work righteousness rather than perish.",
         "refs": [
           "Alma 13:10"
         ]
@@ -268,15 +287,13 @@
         ]
       },
       {
-        "text": "After being sanctified by the Holy Ghost, they were pure and spotless before God and could not look upon sin without abhorrence; many entered the rest of the Lord their God.",
+        "text": "After being sanctified by the Holy Ghost, they were pure and spotless before God and could not look upon sin without abhorrence; many were made pure and entered into the rest of the Lord their God.",
         "refs": [
           "Alma 13:12"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The teaching can be presented without depicting the people or actions it describes."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "The identities and appearances of the high priests.",
       "The setting and identity of the speaker.",
@@ -316,13 +333,13 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "An appeal to humble yourselves",
+    "title": "An appeal for humility",
     "refs": [
       "Alma 13:13",
       "Alma 13:14",
       "Alma 13:15"
     ],
-    "summary": "A speaker calls his brethren to humble themselves before God and bring forth fruit meet for repentance so they may enter into rest. He cites the people in Melchizedek's days, describes Melchizedek's high priesthood, and says Abraham paid Melchizedek tithes.",
+    "summary": "Brethren are urged to humble themselves before God and bring forth fruit meet for repentance. The appeal refers to the people in Melchizedek's days, Melchizedek's high priesthood, and Abraham's payment of tithes to him.",
     "characters": [
       "Unidentified speaker",
       "Brethren addressed"
@@ -332,7 +349,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker calls his brethren to humble themselves before God and bring forth fruit meet for repentance so they may enter into rest.",
+        "text": "The speaker urges his brethren to humble themselves before God and bring forth fruit meet for repentance, that they may enter into rest.",
         "refs": [
           "Alma 13:13"
         ]
@@ -344,25 +361,24 @@
         ]
       },
       {
-        "text": "Melchizedek was a high priest after the order the speaker has discussed and took upon him the high priesthood forever.",
+        "text": "Melchizedek was a high priest after the order previously discussed and took upon him the high priesthood forever.",
         "refs": [
           "Alma 13:14"
         ]
       },
       {
-        "text": "Abraham paid Melchizedek tithes of one-tenth of all he possessed.",
+        "text": "Abraham paid Melchizedek tithes of one-tenth part of all he possessed.",
         "refs": [
           "Alma 13:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown addressing listeners, without specifying their appearance or the setting."
+      "A speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's and listeners' appearances.",
-      "The location and its appearance.",
-      "The circumstances and appearance of Abraham's tithe payment."
+      "The appearances of the speaker and listeners.",
+      "The setting and its appearance."
     ],
     "spoken_dialogue": [
       {
@@ -373,14 +389,14 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "who also took upon him the high priesthood forever.",
+        "text": "Yea, humble yourselves even as the people in the days of Melchizedek,",
         "refs": [
           "Alma 13:14"
         ],
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "yea, even our father Abraham paid tithes of one-tenth part of all he possessed.",
+        "text": "And it was this same Melchizedek to whom Abraham paid tithes;",
         "refs": [
           "Alma 13:15"
         ],
@@ -389,11 +405,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Melchizedek and Abraham are mentioned in the speaker's teaching, not described as present."
+      "Melchizedek and Abraham are mentioned in the address; these verses do not place them at its setting."
     ],
     "prohibited_inventions": [
-      "Identifying the speaker as Alma from these verses alone.",
-      "Showing Melchizedek or Abraham in a newly staged event.",
+      "Naming the unidentified speaker.",
+      "Showing Melchizedek or Abraham physically present or staging the tithe payment.",
       "Depicting rest or repentance as a literal supernatural event."
     ],
     "importance": "normal"
@@ -447,7 +463,7 @@
       "Alma 13:17",
       "Alma 13:18"
     ],
-    "summary": "Melchizedek, king over Salem, preached repentance to his people, who had gone astray. They later repented, and he established peace in the land.",
+    "summary": "Melchizedek, king over the land of Salem, preached repentance to his people. They repented, and he established peace in the land.",
     "characters": [
       "Melchizedek",
       "His people"
@@ -491,7 +507,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Keep the depicted moment focused on preaching; repentance and the establishment of peace are subsequent outcomes, not simultaneous visible actions.",
+      "Keep the depicted moment focused on preaching; the people's repentance came afterward, followed by Melchizedek's establishment of peace.",
       "The verses give no words from Melchizedek's sermon."
     ],
     "prohibited_inventions": [
@@ -508,68 +524,69 @@
       "Alma 13:19",
       "Alma 13:20"
     ],
-    "summary": "An unidentified speaker says many came before and after an unnamed man, but none were greater. The speaker says the scriptures are before the addressees and warns against wresting them.",
+    "summary": "The speaker says many were before and after the person referred to as “him,” but none were greater. The speaker says the scriptures are before the addressees and warns against wresting them.",
     "characters": [
-      "Unidentified speaker"
+      "Unidentified speaker",
+      "Unidentified addressees"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Many were before and after the unnamed man, but none were greater; he was mentioned more particularly.",
+        "text": "Many were before and after the person referred to as “him,” but none were greater; he was more particularly mentioned.",
         "refs": [
           "Alma 13:19"
         ]
       },
       {
-        "text": "The speaker says the scriptures are before the addressees and warns that wresting them will be to their destruction.",
+        "text": "The speaker says the scriptures are before the addressees and warns that wresting them will bring destruction upon them.",
         "refs": [
           "Alma 13:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses others, though their appearance is not described."
+      "The speaker addresses others; their appearance is not described."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
-      "The addressees' number and appearance.",
-      "The setting and the physical form, if any, of the scriptures before the addressees."
+      "The speaker’s identity and appearance.",
+      "The addressees’ number and appearance.",
+      "The setting and the physical form, if any, of the scriptures."
     ],
     "spoken_dialogue": [
       {
-        "text": "Now I need not rehearse the matter; what I have said may suffice. Behold, the scriptures are before you; if ye will wrest them it shall be to your own destruction.",
+        "text": "Now, there were many before him, and also there were many afterwards, but none were greater; therefore, of him they have more particularly made mention.",
+        "refs": [
+          "Alma 13:19"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "Behold, the scriptures are before you; if ye will wrest them it shall be to your own destruction.",
         "refs": [
           "Alma 13:20"
         ],
         "speaker": "Unidentified speaker"
       }
     ],
-    "narration": [
-      {
-        "text": "Now, there were many before him, and also there were many afterwards, but none were greater; therefore, of him they have more particularly made mention.",
-        "refs": [
-          "Alma 13:19"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The destruction warning is teaching, not a depicted event."
+      "The warning about destruction is not a depicted event."
     ],
     "prohibited_inventions": [
-      "Identifying the speaker or the unnamed man from outside these verses.",
+      "Identifying the speaker or the person referred to as “him” from outside these verses.",
       "Depicting destruction or inventing a scripture-reading event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Alma calls for repentance",
+    "title": "Alma stretches forth his hand",
     "refs": [
       "Alma 13:21"
     ],
-    "summary": "After speaking to them, Alma stretched forth his hand and cried with a mighty voice.",
+    "summary": "After speaking to them, Alma stretched forth his hand and cried with a mighty voice, calling for repentance and saying the day of salvation draws near.",
     "characters": [
       "Alma",
       "Those Alma addressed"
@@ -579,13 +596,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma had said words unto them before stretching forth his hand.",
+        "text": "Alma had spoken to them before stretching forth his hand.",
         "refs": [
           "Alma 13:21"
         ]
       },
       {
         "text": "Alma stretched forth his hand unto them and cried with a mighty voice.",
+        "refs": [
+          "Alma 13:21"
+        ]
+      },
+      {
+        "text": "Alma declared that it was time to repent and that the day of salvation drew near.",
         "refs": [
           "Alma 13:21"
         ]
@@ -607,7 +630,9 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The day of salvation is part of Alma's message, not a visible event described in the verse."
+    ],
     "prohibited_inventions": [
       "Words or reactions from those Alma addressed.",
       "A visible depiction of the day of salvation."
@@ -744,7 +769,7 @@
     "refs": [
       "Alma 13:26"
     ],
-    "summary": "The verse foretells that something will be made known to just and holy men by the mouth of angels at the time of his coming, so that the fathers’ words concerning him may be fulfilled.",
+    "summary": "The verse foretells that something will be made known to just and holy men by the mouth of angels at the time of his coming, so that the words of the fathers concerning him may be fulfilled.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
@@ -768,7 +793,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it shall be made known unto just and holy men, by the mouth of angels, at the time of his coming, that the words of our fathers may be fulfilled, according to that which they have spoken concerning him, which was according to the spirit of prophecy which was in them.",
+        "text": "And it shall be made known unto just and holy men, by the mouth of angels, at the time of his coming,",
+        "refs": [
+          "Alma 13:26"
+        ]
+      },
+      {
+        "text": "that the words of our fathers may be fulfilled,",
         "refs": [
           "Alma 13:26"
         ]

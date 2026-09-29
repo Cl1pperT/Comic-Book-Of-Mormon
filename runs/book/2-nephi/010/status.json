@@ -4,24 +4,27 @@
   "verses": 25,
   "scenes": 15,
   "counts": {
-    "PASS": 12,
+    "PASS": 11,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 2
+    "REJECT": 3
   },
   "rejected": {
+    "scene_012": [
+      "The address continues from Jacob's self-identification in 2 Nephi 10:1. Labeling the speaker of 10:20–21 and its dialogue as “Unnamed speaker” contradicts that continuity."
+    ],
     "scene_013": [
-      "The previous scene establishes Jacob as the speaker addressing his beloved brethren, and verse 22 continues that address; leaving characters empty and treating the speaker and audience as unspecified conflicts with the supplied chronology and context."
+      "The claim that the speaker cannot be identified ignores the continuing address identified as Jacob's in 2 Nephi 10:1. The preceding scene repeats this speaker error."
     ],
     "scene_014": [
-      "Verses 23–24 continue the address begun by Jacob in verse 1 and explicitly address “my beloved brethren”; the unidentified speaker and audience labels contradict the source context."
+      "The claim that the speaker's identity is unspecified ignores the continuing address identified as Jacob's in 2 Nephi 10:1."
     ]
   },
-  "calls": 5,
+  "calls": 10,
   "tokens": {
-    "input_tokens": 40403,
-    "cached_input_tokens": 13056,
+    "input_tokens": 71769,
+    "cached_input_tokens": 27264,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7129,
-    "reasoning_output_tokens": 1044
+    "output_tokens": 11951,
+    "reasoning_output_tokens": 3622
   }
 }

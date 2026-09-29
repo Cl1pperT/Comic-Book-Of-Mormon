@@ -99,13 +99,13 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Gideon speaks before the king",
+    "title": "Gideon stands before the king",
     "refs": [
       "Mosiah 22:3",
       "Mosiah 22:4",
       "Mosiah 22:5"
     ],
-    "summary": "Gideon goes forth and stands before the king. He asks the king to listen, says he will serve him and deliver the people from bondage, and receives permission to speak.",
+    "summary": "Gideon goes forth and stands before the king. The king grants him permission to speak.",
     "characters": [
       "Gideon",
       "The king"
@@ -121,13 +121,13 @@
         ]
       },
       {
-        "text": "Gideon says the king has listened to him before during contention with the Lamanites.",
+        "text": "Gideon recalls that the king has listened to his words during contention with the Lamanites.",
         "refs": [
           "Mosiah 22:3"
         ]
       },
       {
-        "text": "Gideon asks the king to listen and says he will serve him and deliver the people from bondage.",
+        "text": "Gideon asks the king to listen and promises to serve him and deliver the people out of bondage.",
         "refs": [
           "Mosiah 22:4"
         ]
@@ -140,21 +140,15 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Gideon and the king are close enough to speak to one another."
+      "Gideon and the king are within speaking distance."
     ],
     "unspecified_visual_details": [
-      "The meeting place, clothing, and the king’s surroundings are not specified."
+      "The location, clothing, physical appearances, and surrounding furnishings are unspecified.",
+      "The king's posture and manner of granting permission are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Now O king,",
-        "refs": [
-          "Mosiah 22:3"
-        ],
-        "speaker": "Gideon"
-      },
-      {
-        "text": "I desire that thou wouldst listen to my words at this time, and I will be thy servant and deliver this people out of bondage.",
+        "text": "even so I desire that thou wouldst listen to my words at this time, and I will be thy servant and deliver this people out of bondage.",
         "refs": [
           "Mosiah 22:4"
         ],
@@ -163,7 +157,7 @@
     ],
     "narration": [
       {
-        "text": "Now it came to pass that Gideon went forth and stood before the king,",
+        "text": "Now it came to pass that Gideon went forth and stood before the king, and said unto him:",
         "refs": [
           "Mosiah 22:3"
         ]
@@ -175,11 +169,17 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The dialogue is a selected exact excerpt, not the complete speech in verses 3–4.",
+      "Earlier contention is recalled, not enacted here. Deliverance is promised, not accomplished in these verses.",
+      "Verse 5 introduces further speech but supplies none of its words."
+    ],
     "prohibited_inventions": [
-      "Do not name the king.",
-      "Do not add spoken words for the king or a plan for delivering the people.",
-      "Do not depict earlier contention with the Lamanites as occurring in this scene."
+      "Do not name the king or invent his dialogue.",
+      "Do not add a deliverance plan or depict deliverance occurring.",
+      "Do not depict the earlier contention with the Lamanites as occurring in this scene.",
+      "Do not assume the Lamanites or the people mentioned are physically present.",
+      "Do not add the speech introduced but not supplied in verse 5."
     ],
     "importance": "normal"
   },
@@ -191,28 +191,28 @@
       "Mosiah 22:7",
       "Mosiah 22:8"
     ],
-    "summary": "An unidentified speaker proposes gathering the people's flocks and herds, paying a final tribute of wine to the Lamanites, and departing by night through a secret pass into the wilderness, traveling around the land of Shilom.",
+    "summary": "A speaker proposes gathering livestock, paying a last tribute of wine, and departing with women and children through a secret pass into the wilderness, traveling around the land of Shilom.",
     "characters": [
-      "Unidentified speaker"
+      "Speaker not named in the supplied verses"
     ],
     "locations": [
       "Unspecified location of the speech"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker describes a back pass through the back wall on the back side of the city and says the Lamanites, or their guards, are drunken by night.",
+        "text": "The speaker describes a back pass through the back wall on the back side of the city and states that the Lamanites, or their guards, are drunken by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker proposes a proclamation for the people to gather their flocks and herds and drive them into the wilderness by night.",
+        "text": "The speaker proposes sending a proclamation for the people to gather their flocks and herds to drive into the wilderness by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker proposes paying the last tribute of wine to the Lamanites and passing through the secret pass on the left of their camp when they are drunken and asleep.",
+        "text": "The speaker proposes paying the last tribute of wine according to the addressee's command and passing through the secret pass on the left of the Lamanite camp when they are drunken and asleep.",
         "refs": [
           "Mosiah 22:7"
         ]
@@ -225,11 +225,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker is explaining a plan rather than carrying it out."
+      "The speaker may be shown explaining the proposal without depicting its execution."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance are not supplied.",
-      "The location of the speech and the appearance of the wall, pass, and camp are not supplied."
+      "The speaker's name, appearance, clothing, and gestures are not supplied.",
+      "The speech's location, time of day, and audience composition are unspecified.",
+      "The physical designs of the wall, pass, and camp are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -237,63 +238,60 @@
         "refs": [
           "Mosiah 22:6"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker not named in the supplied verses"
       },
       {
-        "text": "and we will pass through the secret pass on the left of their camp when they are drunken and asleep.",
-        "refs": [
-          "Mosiah 22:7"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "and we will travel around the land of Shilom.",
+        "text": "Thus we will depart with our women and our children, our flocks, and our herds into the wilderness; and we will travel around the land of Shilom.",
         "refs": [
           "Mosiah 22:8"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker not named in the supplied verses"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "These verses present a proposal, not its execution.",
+      "The audit identifies Gideon using verse 5, but that verse is outside the permitted source. The supplied verses 6–8 do not name the speaker.",
+      "The summary describes the supplied speech event; it is not spoken narration."
+    ],
     "prohibited_inventions": [
-      "Do not identify the speaker or addressee by name using material outside the supplied verses.",
-      "Do not depict the proclamation, tribute, drinking, or escape as events occurring during this speech."
+      "Do not identify the speaker as Gideon based on the audit's reference to an excluded verse.",
+      "Do not depict the proclamation, tribute delivery, drinking, sleep, livestock gathering, or escape as occurring during this speech.",
+      "Do not assume that women, children, livestock, or Lamanite guards are physically present at the speech.",
+      "Do not invent dialogue, the addressee's identity, or a visible route demonstration."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "Limhi accepts Gideon’s counsel",
+    "title": "The king hearkens to Gideon’s words",
     "refs": [
       "Mosiah 22:9"
     ],
-    "summary": "King Limhi hearkens to Gideon’s words.",
+    "summary": "The king hearkens to the words of Gideon.",
     "characters": [
-      "King Limhi",
-      "Gideon"
+      "the king",
+      "Gideon (mentioned)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "King Limhi hearkens to Gideon’s words.",
+        "text": "The king hearkened unto the words of Gideon.",
         "refs": [
           "Mosiah 22:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Limhi listens as Gideon’s proposal concludes."
+      "An attentive demeanor could convey the king’s response."
     ],
     "unspecified_visual_details": [
-      "The king’s gesture or exact response is not specified."
+      "The location, the king’s appearance, and whether Gideon is visibly present are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the king hearkened unto the words of Gideon",
+        "text": "And it came to pass that the king hearkened unto the words of Gideon.",
         "refs": [
           "Mosiah 22:9"
         ]
@@ -301,7 +299,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a spoken response or an additional decision."
+      "Do not identify the king by name.",
+      "Do not invent Gideon’s words or a spoken response from the king."
     ],
     "importance": "normal"
   },

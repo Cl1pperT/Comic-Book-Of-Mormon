@@ -118,22 +118,23 @@
       "Mosiah 27:6",
       "Mosiah 27:7"
     ],
-    "summary": "The people abound in the grace of God; peace returns, the people grow numerous and spread across the land, building cities and villages. The Lord visits and prospers them, and they become large and wealthy.",
+    "summary": "Priests and teachers should labor for their own support except in sickness or much want; doing these things, they abound in the grace of God. Peace begins again, and the people grow numerous and spread in all directions, building large cities and villages. The Lord visits and prospers them, and they become a large and wealthy people.",
     "characters": [
-      "people of the land"
+      "priests and teachers (reported)",
+      "people of the land (reported)"
     ],
     "locations": [
-      "the land of Zarahemla"
+      "the land"
     ],
     "explicit_facts": [
       {
-        "text": "The people abound in the grace of God as they follow the described practices.",
+        "text": "Priests and teachers should labor with their own hands for their support, except in sickness or much want; doing these things, they abound in the grace of God.",
         "refs": [
           "Mosiah 27:5"
         ]
       },
       {
-        "text": "Peace returns, the people become numerous and spread north, south, east, and west, building cities and villages throughout the land.",
+        "text": "Much peace begins again in the land; the people become numerous and spread north, south, east, and west, building large cities and villages throughout the land.",
         "refs": [
           "Mosiah 27:6"
         ]
@@ -146,31 +147,43 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A broad view of settlements and people spreading across the land can convey the reported growth."
+      "A non-dramatized landscape illustration may accompany the narration without staging the reported developments as simultaneous actions."
     ],
     "unspecified_visual_details": [
-      "The appearance and architecture of the cities and villages, and any visible manifestation of the Lord, are unspecified."
+      "The land's name and geographic features.",
+      "The people's appearance and clothing.",
+      "Settlement layouts, architecture, and forms of labor."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there began to be much peace again in the land",
+        "text": "Yea, and all their priests and teachers should labor with their own hands for their support, in all cases save it were in sickness, or in much want;",
+        "refs": [
+          "Mosiah 27:5"
+        ]
+      },
+      {
+        "text": "And there began to be much peace again in the land;",
         "refs": [
           "Mosiah 27:6"
         ]
       },
       {
-        "text": "building large cities and villages in all quarters of the land.",
+        "text": "And the Lord did visit them and prosper them, and they became a large and wealthy people.",
         "refs": [
-          "Mosiah 27:6"
+          "Mosiah 27:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord's visit is reported without a described visible appearance; do not depict a specific manifestation."
+      "These verses summarize developments over time rather than establish a single immediate event.",
+      "The Lord's visit is reported without a described visible appearance; do not depict a divine manifestation."
     ],
     "prohibited_inventions": [
-      "Do not assign a specific city, building design, or visible form to the Lord."
+      "Do not identify the land as Zarahemla or assign other geographic names.",
+      "Do not stage the reported labor, expansion, construction, and prosperity as a new present-tense event or compress them into one moment.",
+      "Do not invent a visible appearance of the Lord.",
+      "Do not invent named individuals, dialogue, occupations, or specific displays of wealth."
     ],
     "importance": "normal"
   },
@@ -411,40 +424,61 @@
       "Mosiah 27:17",
       "Mosiah 27:18"
     ],
-    "summary": "The angel departs after speaking. Alma and those with him fall again to the earth in astonishment, having seen the angel and heard his thunderous voice shake the earth.",
+    "summary": "The angel departs after his last words to Alma. Then Alma and those with him fall again to the earth in great astonishment. They had beheld the angel and knew that only God's power could cause the earth to shake as it had.",
     "characters": [
-      "Alma (the Younger, rebel)",
-      "the sons of Mosiah",
-      "the angel of the Lord"
+      "Alma",
+      "Those with Alma",
+      "The angel of the Lord"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The angel's words to Alma are his last, and he departs.",
+        "text": "The angel finishes speaking to Alma and departs.",
         "refs": [
           "Mosiah 27:17"
         ]
       },
       {
-        "text": "Alma and those with him fall again to the earth in astonishment after seeing the angel; his voice shook the earth.",
+        "text": "Alma and those with him then fall again to the earth in great astonishment.",
+        "refs": [
+          "Mosiah 27:18"
+        ]
+      },
+      {
+        "text": "They had seen an angel of the Lord, whose voice was as thunder and shook the earth.",
+        "refs": [
+          "Mosiah 27:18"
+        ]
+      },
+      {
+        "text": "They knew that nothing save the power of God could shake the earth and cause it to tremble as though it would part asunder.",
         "refs": [
           "Mosiah 27:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The angel may be shown departing while the others are fallen to the ground."
+      "The group's posture and expressions may convey astonishment as they fall after the angel has departed."
     ],
     "unspecified_visual_details": [
-      "The manner of departure is not stated."
+      "The angel's appearance and manner of departure are not described.",
+      "The number and identities of those with Alma are not supplied.",
+      "Clothing, terrain, lighting, and time of day are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The angel's thunderous voice and the shaking earth are recalled here; do not stage them as a new occurrence.",
+      "The comparison to the earth parting asunder does not establish that it actually split."
+    ],
     "prohibited_inventions": [
-      "Do not depict the earth splitting apart; it is described as trembling as though it would."
+      "Do not show the angel departing while the group is already fallen; preserve departure followed by their falling again.",
+      "Do not invent the angel's final words or a supernatural departure effect.",
+      "Do not identify Alma's companions as the sons of Mosiah or add unsupported names or biographies.",
+      "Do not invent a visible appearance for God.",
+      "Do not depict the earth splitting apart."
     ],
     "importance": "normal"
   },
@@ -547,7 +581,7 @@
       "Mosiah 27:22",
       "Mosiah 27:23"
     ],
-    "summary": "He causes the priests to assemble. They fast and pray for Alma to speak and regain strength. After two days and two nights of fasting and prayer, Alma's limbs regain strength; he stands and begins to speak to them, bidding them to be of good comfort.",
+    "summary": "The priests assemble and begin fasting and praying for Alma to speak and regain strength, and for the people to know God's goodness and glory. After two days and two nights, Alma's limbs receive strength. He stands and begins speaking to them, bidding them to be of good comfort.",
     "characters": [
       "Alma",
       "the priests"
@@ -557,29 +591,29 @@
     ],
     "explicit_facts": [
       {
-        "text": "An unidentified man causes the priests to assemble.",
+        "text": "The priests are caused to assemble and begin fasting and praying to the Lord their God.",
         "refs": [
           "Mosiah 27:22"
         ]
       },
       {
-        "text": "The priests begin to fast and pray to the Lord their God for Alma to speak, for his limbs to regain strength, and for the people's eyes to be opened to God's goodness and glory.",
+        "text": "They pray that Alma might speak and his limbs receive strength, and that the people might see and know God's goodness and glory.",
         "refs": [
           "Mosiah 27:22"
         ]
       },
       {
-        "text": "After two days and two nights of fasting and prayer, Alma's limbs regain strength; he stands and begins to speak to them, bidding them to be of good comfort.",
+        "text": "After two days and two nights of fasting and prayer, Alma's limbs receive strength, and he stands and begins speaking to them, bidding them to be of good comfort.",
         "refs": [
           "Mosiah 27:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Prayer may be conveyed through the priests' posture, without prescribing a particular gesture."
+      "The priests may be shown gathered in prayer."
     ],
     "unspecified_visual_details": [
-      "The location, clothing, physical appearances, number of priests, and arrangement of those present are unspecified."
+      "The setting, clothing, physical appearances, number of priests, and prayer postures are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -590,6 +624,12 @@
         ]
       },
       {
+        "text": "after they had fasted and prayed for the space of two days and two nights",
+        "refs": [
+          "Mosiah 27:23"
+        ]
+      },
+      {
         "text": "the limbs of Alma received their strength, and he stood up and began to speak unto them, bidding them to be of good comfort:",
         "refs": [
           "Mosiah 27:23"
@@ -597,14 +637,17 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Alma's recovery follows two days and two nights of fasting and prayer; do not portray the prayer and recovery as simultaneous.",
+      "The supplied verses do not identify the antecedent of the opening pronoun; omit identification or depiction of the person causing the assembly rather than labeling him an unidentified man.",
+      "Use an explicit temporal transition before Alma stands; his recovery follows two days and two nights of fasting and prayer.",
       "The opening of the people's eyes is a prayer request, not a narrated visible event.",
-      "The verse reports that Alma bids them to be of good comfort but does not quote his speech directly."
+      "Alma's speech is reported, not directly quoted."
     ],
     "prohibited_inventions": [
-      "Do not identify the man who causes the priests to assemble from these verses alone.",
-      "Do not invent Alma's spoken words or a visible supernatural effect.",
-      "Do not depict the prayer's requested opening of the people's eyes as an event that occurs."
+      "Do not establish the assembly organizer's identity or relationship from verses outside the supplied source.",
+      "Do not invent prayer dialogue or Alma's spoken words.",
+      "Do not depict God appearing or add supernatural visual effects.",
+      "Do not depict the requested opening of the people's eyes as an event that occurs.",
+      "Do not compress the initial prayer and Alma's later recovery into the same moment."
     ],
     "importance": "normal"
   },
@@ -616,10 +659,9 @@
       "Mosiah 27:25",
       "Mosiah 27:26"
     ],
-    "summary": "A speaker says he has repented, been redeemed of the Lord, and been born of the Spirit. He recounts the Lord’s teaching that all mankind must be born again. The passage teaches that they become new creatures and otherwise cannot inherit the kingdom of God.",
+    "summary": "The speaker says he has repented, been redeemed of the Lord, and been born of the Spirit. He reports the Lord’s teaching about being born again. The passage teaches that becoming new creatures is necessary to inherit the kingdom of God.",
     "characters": [
-      "Speaker identified as “he” in the supplied verses",
-      "The Lord, mentioned but not visibly present"
+      "The speaker"
     ],
     "locations": [
       "Unspecified"
@@ -632,13 +674,13 @@
         ]
       },
       {
-        "text": "The speaker reports that the Lord told him all mankind must be born again and changed to a state of righteousness.",
+        "text": "The speaker reports the Lord’s teaching that all mankind must be born again, changed from their carnal and fallen state to righteousness, redeemed of God, and become his sons and daughters.",
         "refs": [
           "Mosiah 27:25"
         ]
       },
       {
-        "text": "The passage says they become new creatures and cannot otherwise inherit the kingdom of God.",
+        "text": "The passage teaches that they become new creatures and otherwise cannot inherit the kingdom of God.",
         "refs": [
           "Mosiah 27:26"
         ]
@@ -648,8 +690,9 @@
       "The speaker may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance and surroundings are unspecified.",
-      "No visible form of spiritual rebirth is described."
+      "The speaker’s appearance, clothing, posture, and surroundings are unspecified.",
+      "No audience is specified.",
+      "No visible appearance of the Lord or physical manifestation of spiritual rebirth is described."
     ],
     "spoken_dialogue": [
       {
@@ -657,16 +700,17 @@
         "refs": [
           "Mosiah 27:24"
         ],
-        "speaker": "Speaker"
+        "speaker": "The speaker"
+      },
+      {
+        "text": "Marvel not that all mankind, yea, men and women, all nations, kindreds, tongues and people, must be born again;",
+        "refs": [
+          "Mosiah 27:25"
+        ],
+        "speaker": "The speaker, quoting the Lord"
       }
     ],
     "narration": [
-      {
-        "text": "all mankind, yea, men and women, all nations, kindreds, tongues and people, must be born again;",
-        "refs": [
-          "Mosiah 27:25"
-        ]
-      },
       {
         "text": "And thus they become new creatures; and unless they do this, they can in nowise inherit the kingdom of God.",
         "refs": [
@@ -675,12 +719,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Being born again and becoming new creatures are teachings, not narrated visible transformations.",
-      "The Lord’s words are reported by the speaker; no appearance of the Lord is described."
+      "The supplied verses refer to the speaker without stating his name; identification from preceding verses is outside this source selection.",
+      "The Lord’s words are reported by the speaker, not delivered through a newly staged encounter.",
+      "Being born again and becoming new creatures are spiritual teachings, not narrated visible transformations."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker a name from outside the supplied verses or invent an audience.",
-      "Do not depict the Lord appearing, a visible transformation, or the kingdom of God as a visible location."
+      "Do not invent an audience or a separate encounter with the Lord.",
+      "Do not depict the Lord appearing, a visible supernatural transformation, or the kingdom of God as a visible location.",
+      "Do not stage the speaker’s reported repentance or redemption as separate events."
     ],
     "importance": "normal"
   },
@@ -820,83 +866,78 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "Alma and his companions preach amid persecution",
+    "title": "Alma begins teaching the people",
     "refs": [
       "Mosiah 27:32",
       "Mosiah 27:33"
     ],
-    "summary": "From then on Alma and those who were with him at the angel's appearance travel throughout the land, teaching and publishing what they heard and saw. They endure persecution and beatings, yet console the church and exhort its members to keep God's commandments.",
+    "summary": "Alma begins to teach the people.",
     "characters": [
-      "Alma (the Younger, high priest)",
-      "the sons of Mosiah",
-      "church members",
-      "unbelievers"
+      "Alma",
+      "the people"
     ],
-    "locations": [
-      "the land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma begins teaching and traveling through the land with those who were with him when the angel appeared, publishing what they heard and saw.",
+        "text": "Alma began to teach the people.",
         "refs": [
           "Mosiah 27:32"
         ]
       },
       {
-        "text": "They are persecuted and beaten by unbelievers.",
-        "refs": [
-          "Mosiah 27:32"
-        ]
-      },
-      {
-        "text": "They console the church, confirm its faith, and exhort members to keep God's commandments.",
+        "text": "Alma and those with him later imparted consolation to the church, confirmed its faith, and exhorted its members to keep God's commandments; this is not depicted as part of the teaching moment.",
         "refs": [
           "Mosiah 27:33"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A supported preaching or teaching setting can be used, with the persecution kept separate from the consoling church moment."
+      "Alma may be shown addressing people, without specifying a particular occasion."
     ],
     "unspecified_visual_details": [
-      "Specific locations, individual assailants, and the manner of the beatings are unspecified."
+      "The exact setting, audience size, and appearances are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did impart much consolation to the church",
+        "text": "Alma began from this time forward to teach the people",
         "refs": [
-          "Mosiah 27:33"
+          "Mosiah 27:32"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses summarize an ongoing period of travel and preaching; separate moments should not be compressed into one scene."
+      "Verse 33 describes ongoing activity and is retained as context, not staged as a simultaneous event."
     ],
     "prohibited_inventions": [
-      "Do not show a single composition combining persecution, travel, and church consolation as simultaneous events."
+      "Do not depict travel, persecution, beatings, or consolation as happening during this teaching moment.",
+      "Do not identify Alma's companions or invent his spoken words."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_016",
-    "title": "The sons of Mosiah named",
+    "title": "The sons of Mosiah identified",
     "refs": [
       "Mosiah 27:34"
     ],
-    "summary": "The account identifies four of those who were with Alma as the sons of Mosiah: Ammon, Aaron, Omner, and Himni.",
+    "summary": "Four of them were sons of Mosiah: Ammon, Aaron, Omner, and Himni.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)"
+      "Ammon",
+      "Aaron",
+      "Omner",
+      "Himni"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Four of those with Alma are sons of Mosiah, named Ammon, Aaron, Omner, and Himni.",
+        "text": "Four of the people referred to as “them” were sons of Mosiah.",
+        "refs": [
+          "Mosiah 27:34"
+        ]
+      },
+      {
+        "text": "Their names were Ammon, Aaron, Omner, and Himni.",
         "refs": [
           "Mosiah 27:34"
         ]
@@ -904,15 +945,23 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The verse gives names but does not describe a distinct event or setting for this identification."
+      "No setting, appearance, or action is described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And four of them were the sons of Mosiah; and their names were Ammon, and Aaron, and Omner, and Himni; these were the names of the sons of Mosiah.",
+        "refs": [
+          "Mosiah 27:34"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This is an identification in the account, not a separately described gathering."
+      "This verse identifies people; it does not describe a separate naming event. The antecedent of “them” is not supplied here."
     ],
     "prohibited_inventions": [
-      "Do not invent a formal introduction or speech."
+      "Do not depict a naming ceremony, gathering, introduction, or speech.",
+      "Do not identify who else belongs to “them” from this verse alone."
     ],
     "importance": "normal"
   },

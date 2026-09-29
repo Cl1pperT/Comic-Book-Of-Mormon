@@ -6,54 +6,67 @@
       "2 Nephi 10:1",
       "2 Nephi 10:2"
     ],
-    "summary": "Jacob addresses his beloved brethren about the righteous branch, promises concerning their descendants, and their restoration to knowledge of the Redeemer.",
+    "summary": "Jacob speaks again to his beloved brethren concerning the righteous branch and describes promises, future losses among their children because of unbelief, God's mercy, and their children's restoration to knowledge of their Redeemer.",
     "characters": [
-      "Jacob (son of Lehi)",
-      "Nephite settlers (2 Nephi)"
+      "Jacob",
+      "Jacob's beloved brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob speaks again to his beloved brethren concerning the righteous branch.",
+        "text": "Jacob speaks again to his beloved brethren concerning the righteous branch of which he has spoken.",
         "refs": [
           "2 Nephi 10:1"
         ]
       },
       {
-        "text": "Jacob says many of their children will perish in the flesh because of unbelief, but God will be merciful to many and their children will be restored to knowledge of their Redeemer.",
+        "text": "Jacob says the promises they have obtained are promises unto them according to the flesh.",
+        "refs": [
+          "2 Nephi 10:2"
+        ]
+      },
+      {
+        "text": "Jacob says it has been shown unto him that many of their children shall perish in the flesh because of unbelief.",
+        "refs": [
+          "2 Nephi 10:2"
+        ]
+      },
+      {
+        "text": "Jacob says God will be merciful unto many and their children shall be restored so they may come to that which will give them true knowledge of their Redeemer.",
         "refs": [
           "2 Nephi 10:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob is addressing a group of listeners."
+      "Jacob may be shown addressing a group of listeners."
     ],
     "unspecified_visual_details": [
-      "The precise location, audience size, clothing, and setting are not stated."
+      "Jacob's appearance, clothing, posture, and age are unspecified.",
+      "The listeners' appearance, number, and identity beyond beloved brethren are unspecified.",
+      "The location, time of day, and arrangement of the gathering are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And now I, Jacob, speak unto you again, my beloved brethren",
+        "text": "And now I, Jacob, speak unto you again, my beloved brethren, concerning this righteous branch of which I have spoken.",
         "refs": [
           "2 Nephi 10:1"
-        ]
-      },
-      {
-        "text": "our children shall be restored",
-        "refs": [
-          "2 Nephi 10:2"
-        ]
+        ],
+        "speaker": "Jacob"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Jacob reports revealed promises and future events; do not depict the future as happening in the present."
+      "The losses and restoration are future events described in Jacob's address, not events occurring before the listeners.",
+      "The righteous branch is part of Jacob's teaching, not a narrated visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not show descendants perishing or being restored as a present event."
+      "Do not identify Jacob's parentage or assign the listeners a named people or settlement identity.",
+      "Do not depict descendants perishing or being restored as present events.",
+      "Do not invent a flashback showing how these things were shown to Jacob.",
+      "Do not depict God or the Redeemer visibly appearing."
     ],
     "importance": "normal"
   },
@@ -597,59 +610,66 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Jacob's people on an isle",
+    "title": "Upon an isle of the sea",
     "refs": [
       "2 Nephi 10:20",
       "2 Nephi 10:21"
     ],
-    "summary": "Jacob urges his brethren to remember God and not hang their heads: though driven from their inheritance, they have been led to a better land by a sea path and are on an isle. He says other isles are inhabited by their brethren.",
+    "summary": "An unnamed speaker urges his brethren to remember God, lay aside sins, and not hang down their heads. He recalls being driven from their inheritance and led to a better land, and speaks of the Lord's promises and brethren inhabiting other isles.",
     "characters": [
-      "Jacob (son of Lehi)",
-      "Nephite settlers (2 Nephi)"
+      "Unnamed speaker",
+      "Brethren addressed by the speaker"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location upon an isle of the sea"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob says God has given them knowledge and urges them to remember him, lay aside sins, and not hang their heads.",
+        "text": "The speaker says their merciful God has given them great knowledge and urges his beloved brethren to remember him, lay aside sins, and not hang down their heads, for they are not cast off.",
         "refs": [
           "2 Nephi 10:20"
         ]
       },
       {
-        "text": "Jacob says they were driven from their inheritance but led to a better land, with the sea as their path, and are upon an isle of the sea.",
+        "text": "The speaker reports that they were driven out of their land of inheritance but led to a better land, with the sea made their path by the Lord, and are upon an isle of the sea.",
         "refs": [
           "2 Nephi 10:20"
         ]
       },
       {
-        "text": "Jacob says there is more than one isle of the sea and that their brethren inhabit other isles.",
+        "text": "The speaker declares the Lord's promises great toward those upon the isles of the sea and reasons that other isles exist and are inhabited by their brethren.",
         "refs": [
           "2 Nephi 10:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob is present with his audience on an isle of the sea."
+      "The address may be staged with the unnamed speaker facing listeners."
     ],
     "unspecified_visual_details": [
-      "The isle's landscape and the locations of other isles are not described."
+      "The speaker's name and the listeners' group identity are not supplied.",
+      "Appearance, clothing, gathering arrangement, and surrounding landscape are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "we are upon an isle of the sea",
+        "text": "let us remember him, and lay aside our sins, and not hang down our heads, for we are not cast off;",
         "refs": [
           "2 Nephi 10:20"
-        ]
+        ],
+        "speaker": "Unnamed speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The journey over the sea is reported as past; do not depict it as occurring now."
+      "Displacement and travel over the sea are reported past events, not present action.",
+      "Other island inhabitants are mentioned, not established as physically present.",
+      "The supplied verses do not identify the speaker as Jacob or the listeners as Nephite settlers."
     ],
     "prohibited_inventions": [
-      "Do not show a voyage or identify the isle beyond what the verses state."
+      "Do not depict a present voyage, expulsion, or arrival.",
+      "Do not invent names, biographies, or group identities.",
+      "Do not depict God or the Lord as visibly appearing.",
+      "Do not identify or map the isles or depict distant brethren as present."
     ],
     "importance": "normal"
   },
@@ -659,18 +679,18 @@
     "refs": [
       "2 Nephi 10:22"
     ],
-    "summary": "The Lord God has led away people from the house of Israel from time to time according to his will and pleasure. He remembers all who have been broken off, including the people referred to as “us.”",
+    "summary": "The Lord God has led people away from the house of Israel from time to time. He remembers all who have been broken off, including those referred to as “us.”",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord God has led away people from the house of Israel from time to time, according to his will and pleasure.",
+        "text": "The Lord God has led people away from the house of Israel from time to time, according to his will and pleasure.",
         "refs": [
           "2 Nephi 10:22"
         ]
       },
       {
-        "text": "The Lord remembers all who have been broken off, including the people referred to as “us.”",
+        "text": "The Lord remembers all who have been broken off, including those referred to as “us.”",
         "refs": [
           "2 Nephi 10:22"
         ]
@@ -678,23 +698,23 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker, audience, location, people led away, and manner of the Lord's remembrance are not visually described."
+      "This verse does not identify the speaker, audience, location, or appearance of the Lord God."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And now behold, the Lord remembereth all them who have been broken off, wherefore he remembereth us also.",
+        "text": "For behold, the Lord God has led away from time to time from the house of Israel, according to his will and pleasure. And now behold, the Lord remembereth all them who have been broken off, wherefore he remembereth us also.",
         "refs": [
           "2 Nephi 10:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The leading away is described as occurring from time to time, not as a present event."
+      "The leading away is described as occurring from time to time, not as an event happening in this scene."
     ],
     "prohibited_inventions": [
       "Do not identify the speaker or audience from this verse alone.",
-      "Do not depict a present migration or invent a visible appearance of the Lord."
+      "Do not depict a present migration or invent a visible appearance of the Lord God."
     ],
     "importance": "normal"
   },
@@ -705,70 +725,60 @@
       "2 Nephi 10:23",
       "2 Nephi 10:24"
     ],
-    "summary": "A speaker urges beloved brethren to cheer their hearts, choose for themselves, reconcile themselves to God's will, and remember that they are saved through God's grace.",
-    "characters": [
-      "Unidentified speaker",
-      "Beloved brethren"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "An exhortation calls on its audience to cheer their hearts, choose for themselves, reconcile themselves to God's will, and remember that salvation comes through God's grace.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker tells the audience to cheer their hearts and says they are free to act for themselves and choose between the way of everlasting death and the way of eternal life.",
+        "text": "The audience is told they are free to act for themselves and choose the way of everlasting death or eternal life.",
         "refs": [
           "2 Nephi 10:23"
         ]
       },
       {
-        "text": "The speaker addresses beloved brethren, urges them to reconcile themselves to God's will rather than the will of the devil and the flesh, and teaches that they are saved only through God's grace.",
+        "text": "The audience is urged to reconcile themselves to the will of God, not the will of the devil and the flesh.",
+        "refs": [
+          "2 Nephi 10:24"
+        ]
+      },
+      {
+        "text": "The passage teaches that people are saved only in and through the grace of God.",
         "refs": [
           "2 Nephi 10:24"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A speaker addresses an audience."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, and surroundings are not specified."
+      "The speaker's identity and appearance are unspecified.",
+      "The audience's appearance and the location are unspecified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Therefore, cheer up your hearts,",
+        "text": "Therefore, cheer up your hearts, and remember that ye are free to act for yourselves—to choose the way of everlasting death or the way of eternal life.",
         "refs": [
           "2 Nephi 10:23"
-        ],
-        "speaker": "Unidentified speaker"
+        ]
       },
       {
-        "text": "ye are free to act for yourselves—to choose the way of everlasting death or the way of eternal life.",
-        "refs": [
-          "2 Nephi 10:23"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "my beloved brethren, reconcile yourselves to the will of God, and not to the will of the devil and the flesh;",
+        "text": "reconcile yourselves to the will of God, and not to the will of the devil and the flesh;",
         "refs": [
           "2 Nephi 10:24"
-        ],
-        "speaker": "Unidentified speaker"
+        ]
       },
       {
         "text": "it is only in and through the grace of God that ye are saved.",
         "refs": [
           "2 Nephi 10:24"
-        ],
-        "speaker": "Unidentified speaker"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
       "The ways of death and life, reconciliation, and salvation through grace are teachings, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker from material outside the supplied verses.",
+      "Do not identify or depict a speaker or audience from information outside the supplied verses.",
       "Do not depict literal paths, the devil, afterlife realms, or salvation as visible events."
     ],
     "importance": "normal"

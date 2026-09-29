@@ -10,15 +10,15 @@
   },
   "rejected": {
     "scene_005": [
-      "The speaker and listeners are not unspecified: this is Alma continuing his address to the people of Ammonihah from the preceding verses. Labeling both as unnamed misidentifies the explicit context."
+      "Alma is identified as the speaker in Alma 9:7 and continues speaking through 9:12–13. Calling him unnamed and prohibiting his identification contradicts the supplied verses."
     ]
   },
-  "calls": 4,
+  "calls": 6,
   "tokens": {
-    "input_tokens": 35660,
-    "cached_input_tokens": 13056,
+    "input_tokens": 48498,
+    "cached_input_tokens": 21888,
     "cache_write_input_tokens": 0,
-    "output_tokens": 6957,
-    "reasoning_output_tokens": 1583
+    "output_tokens": 8564,
+    "reasoning_output_tokens": 2146
   }
 }

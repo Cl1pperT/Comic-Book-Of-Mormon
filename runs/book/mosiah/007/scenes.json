@@ -135,13 +135,13 @@
       "Mosiah 7:5",
       "Mosiah 7:6"
     ],
-    "summary": "After forty days, the group reaches a hill north of Shilom and pitches tents. Ammon takes Amaleki, Helem, and Hem down into the land of Nephi.",
+    "summary": "After wandering forty days, the group reaches a hill north of the land of Shilom and pitches tents. Ammon takes Amaleki, Helem, and Hem down into the land of Nephi.",
     "characters": [
-      "Ammon (explorer, Mosiah 7)",
-      "Ammon's fifteen companions",
-      "Amaleki (companion of Ammon)",
-      "Helem (companion of Ammon)",
-      "Hem (companion of Ammon)"
+      "Ammon",
+      "Amaleki",
+      "Helem",
+      "Hem",
+      "Unnamed members of the group"
     ],
     "locations": [
       "A hill north of the land of Shilom",
@@ -149,70 +149,69 @@
     ],
     "explicit_facts": [
       {
-        "text": "After wandering forty days, the group reaches a hill north of Shilom and pitches tents there.",
+        "text": "After wandering forty days, they come to a hill north of the land of Shilom and pitch their tents there.",
         "refs": [
           "Mosiah 7:5"
         ]
       },
       {
-        "text": "Ammon takes three companions, Amaleki, Helem, and Hem, down into the land of Nephi.",
+        "text": "Ammon takes three of his brethren, named Amaleki, Helem, and Hem, down into the land of Nephi.",
         "refs": [
           "Mosiah 7:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The camp at the hill and the descent toward the land of Nephi are successive drawable moments."
+      "The camp and the four men's departure can be shown as successive moments."
     ],
     "unspecified_visual_details": [
-      "The hill's appearance, tent design, and the terrain between the hill and the land of Nephi."
+      "The hill's appearance, tent design, and terrain are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the whole group going down with Ammon; only he and the three named companions are specified as going."
+      "Do not assign a number or identities to the other members of the group.",
+      "Do not show the whole group going down into the land of Nephi."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "Met the King and Imprisoned",
+    "title": "Meeting the King and Taken to Prison",
     "refs": [
       "Mosiah 7:7"
     ],
-    "summary": "They meet the king, are surrounded, taken, and bound by the king’s guard, and are committed to prison.",
+    "summary": "They meet the king, are surrounded by his guard, taken, bound, and committed to prison.",
     "characters": [
-      "The people who met the king",
+      "Unnamed people who met the king",
       "The king",
       "The king’s guard"
     ],
     "locations": [
-      "Land of Nephi",
-      "Land of Shilom",
+      "Unspecified meeting place",
       "Prison"
     ],
     "explicit_facts": [
       {
-        "text": "They met the king of the people who were in the land of Nephi and the land of Shilom.",
+        "text": "They met the king of the people in the land of Nephi and the land of Shilom.",
         "refs": [
           "Mosiah 7:7"
         ]
       },
       {
-        "text": "The king’s guard surrounded, took, and bound them; they were committed to prison.",
+        "text": "They were surrounded by the king’s guard, taken, bound, and committed to prison.",
         "refs": [
           "Mosiah 7:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The guard may be shown surrounding and binding the people they took."
+      "The guard can be shown surrounding the unnamed people."
     ],
     "unspecified_visual_details": [
-      "The exact meeting place",
-      "The king’s appearance",
-      "The guard’s number and appearance",
+      "The meeting place",
+      "The appearances and number of the people and guards",
       "The restraints and prison’s appearance"
     ],
     "spoken_dialogue": [],
@@ -224,10 +223,13 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The land of Shilom identifies where some of the king’s people were, not the meeting place."
+    ],
     "prohibited_inventions": [
-      "Do not assign names to the people taken based on this verse alone.",
-      "Do not add a reason for their imprisonment, resistance, or violence."
+      "Do not identify the unnamed people from this verse alone.",
+      "Do not specify where the meeting occurred.",
+      "Do not invent a reason for their imprisonment, resistance, or violence."
     ],
     "importance": "normal"
   },
@@ -282,7 +284,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I am Limhi, the son of Noah, who was the son of Zeniff,",
+        "text": "I am Limhi",
         "refs": [
           "Mosiah 7:9"
         ],
@@ -328,7 +330,7 @@
       "Mosiah 7:12",
       "Mosiah 7:13"
     ],
-    "summary": "Permitted to speak, Ammon goes forward, bows before the king, rises, and explains who he is and why he came.",
+    "summary": "Permitted to speak, Ammon goes forward, bows before the king, rises, and speaks. He expresses thanks that he is alive and permitted to speak, says he wore bands, identifies himself as a descendant of Zarahemla, and explains why he came from that land.",
     "characters": [
       "Ammon",
       "the king"
@@ -342,20 +344,26 @@
         ]
       },
       {
+        "text": "Ammon thanks God that he is alive and permitted to speak.",
+        "refs": [
+          "Mosiah 7:12"
+        ]
+      },
+      {
         "text": "Ammon says he wore bands and believes the king would not have allowed it if he had known him.",
         "refs": [
           "Mosiah 7:13"
         ]
       },
       {
-        "text": "Ammon says he is a descendant of Zarahemla and came from that land to inquire about the brethren Zeniff brought from it.",
+        "text": "Ammon says he is a descendant of Zarahemla and came from the land of Zarahemla to inquire about the brethren Zeniff brought from it.",
         "refs": [
           "Mosiah 7:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon's bow and his rising can be shown as successive actions before the king."
+      "Ammon's bow and rising can be shown as successive actions before the king."
     ],
     "unspecified_visual_details": [
       "The appearance of Ammon, the king, and their surroundings.",
@@ -363,9 +371,16 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "O king, I am very thankful before God this day that I am yet alive, and am permitted to speak; and I will endeavor to speak with boldness;",
+        "text": "I will endeavor to speak with boldness;",
         "refs": [
           "Mosiah 7:12"
+        ],
+        "speaker": "Ammon"
+      },
+      {
+        "text": "For I am assured that if ye had known me ye would not have suffered that I should have worn these bands.",
+        "refs": [
+          "Mosiah 7:13"
         ],
         "speaker": "Ammon"
       },
@@ -393,7 +408,7 @@
       "Mosiah 7:14",
       "Mosiah 7:15"
     ],
-    "summary": "After hearing Ammon, Limhi is exceedingly glad. He says his brethren in Zarahemla are alive and that he will cause his people to rejoice the next day. He says his people are in bondage to the Lamanites and bear a grievous tax. He expects their brethren to deliver them, even if they become slaves to the Nephites instead.",
+    "summary": "After hearing Ammon's words, Limhi is exceedingly glad. He says his brethren in Zarahemla are alive and plans to cause his people to rejoice the next day. He describes their bondage and grievous tax and expects their brethren to deliver them, preferring slavery to the Nephites over tribute to the Lamanite king.",
     "characters": [
       "Limhi",
       "Ammon"
@@ -407,19 +422,19 @@
         ]
       },
       {
-        "text": "Limhi says he knows his brethren in Zarahemla are alive and plans to cause his people to rejoice the next day.",
+        "text": "Limhi says his brethren in Zarahemla are alive and that he will cause his people to rejoice the next day.",
         "refs": [
           "Mosiah 7:14"
         ]
       },
       {
-        "text": "Limhi says his people are in bondage to the Lamanites and bear a grievous tax.",
+        "text": "Limhi says they are in bondage to the Lamanites and bear a grievous tax.",
         "refs": [
           "Mosiah 7:15"
         ]
       },
       {
-        "text": "Limhi expects his brethren to deliver his people and says becoming slaves to the Nephites would be better than paying tribute to the king of the Lamanites.",
+        "text": "Limhi expects their brethren to deliver them and says slavery to the Nephites would be better than paying tribute to the king of the Lamanites.",
         "refs": [
           "Mosiah 7:15"
         ]
@@ -440,14 +455,14 @@
         "speaker": "Limhi"
       },
       {
-        "text": "For behold, we are in bondage to the Lamanites, and are taxed with a tax which is grievous to be borne.",
+        "text": "And now, I will rejoice; and on the morrow I will cause that my people shall rejoice also.",
         "refs": [
-          "Mosiah 7:15"
+          "Mosiah 7:14"
         ],
         "speaker": "Limhi"
       },
       {
-        "text": "and we will be their slaves;",
+        "text": "For behold, we are in bondage to the Lamanites, and are taxed with a tax which is grievous to be borne.",
         "refs": [
           "Mosiah 7:15"
         ],
@@ -456,11 +471,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Deliverance and becoming slaves to the Nephites are Limhi's stated expectations, not events narrated as having occurred."
+      "Deliverance and enslavement are Limhi's stated expectations, not events narrated as having occurred."
     ],
     "prohibited_inventions": [
       "Do not depict the next day's rejoicing, deliverance, or enslavement as already occurring.",
-      "Do not invent Ammon's words or a specific setting."
+      "Do not invent Ammon's words or a specific setting.",
+      "Do not depict the mentioned brethren or Lamanite king as physically present."
     ],
     "importance": "normal"
   },
@@ -570,155 +586,132 @@
       "Mosiah 7:19",
       "Mosiah 7:20"
     ],
-    "summary": "After the people gather, he addresses them, urging comfort, rejoicing, and trust in God. He recalls God's care for people in the past and says their bondage came because of their iniquities and abominations.",
+    "summary": "After the people gather, he addresses them, urging comfort, rejoicing, and trust in God. He recalls God's past preservation of his people and attributes their bondage to their iniquities and abominations.",
     "characters": [
-      "Speaker",
+      "He (identity not supplied)",
       "Gathered people"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The people gather, and he speaks to them.",
+        "text": "After the people gather, he speaks to them.",
         "refs": [
           "Mosiah 7:18"
         ]
       },
       {
-        "text": "He urges them to lift their heads and be comforted, and says the time when they will no longer be subject to their enemies is at hand or not far distant.",
+        "text": "He urges comfort and says release from subjection to their enemies is near, expressing trust that an effectual struggle remains.",
         "refs": [
           "Mosiah 7:18"
         ]
       },
       {
-        "text": "He urges them to rejoice and trust in God.",
+        "text": "He urges rejoicing and trust in the God of Abraham, Isaac, and Jacob, recalling deliverance from Egypt, passage through the Red Sea on dry ground, and provision of manna.",
         "refs": [
           "Mosiah 7:19"
         ]
       },
       {
-        "text": "He recalls God bringing the children of Israel through the Red Sea and feeding them manna, and bringing their fathers out of Jerusalem.",
-        "refs": [
-          "Mosiah 7:19",
-          "Mosiah 7:20"
-        ]
-      },
-      {
-        "text": "He says God brought them into bondage because of their iniquities and abominations.",
+        "text": "He says God brought their fathers out of Jerusalem and has preserved his people, and attributes their bondage to their iniquities and abominations.",
         "refs": [
           "Mosiah 7:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses the gathered people."
+      "He directs his address toward the gathered people."
     ],
     "unspecified_visual_details": [
-      "The gathering place, the speaker's appearance, the people's appearance, and their individual reactions."
+      "The gathering's location and physical arrangement.",
+      "Clothing, ages, physical appearances, gestures, and individual reactions."
     ],
     "spoken_dialogue": [
       {
-        "text": "O ye, my people, lift up your heads and be comforted;",
-        "refs": [
-          "Mosiah 7:18"
-        ],
-        "speaker": "Speaker"
-      },
-      {
-        "text": "Therefore, lift up your heads, and rejoice, and put your trust in God,",
-        "refs": [
-          "Mosiah 7:19"
-        ],
-        "speaker": "Speaker"
-      },
-      {
-        "text": "and behold, it is because of our iniquities and abominations that he has brought us into bondage.",
+        "text": "And again, that same God has brought our fathers out of the land of Jerusalem, and has kept and preserved his people even until now; and behold, it is because of our iniquities and abominations that he has brought us into bondage.",
         "refs": [
           "Mosiah 7:20"
         ],
-        "speaker": "Speaker"
+        "speaker": "He (identity not supplied)"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Red Sea crossing, manna, and departure from Jerusalem are recalled past events, not events occurring during this address."
+      "The supplied verses refer to the person addressing the people only as he.",
+      "The historical deliverances are recalled within the address, not occurring at the gathering.",
+      "Release from subjection is anticipated, not depicted as already accomplished."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker a name or title based on verses outside the supplied text.",
-      "Do not specify a temple as the setting.",
-      "Do not depict recalled events or divine figures as visibly present during the address."
+      "Do not name or assign a title to the person addressing the people.",
+      "Do not specify a temple or other unprovided location.",
+      "Do not stage the recalled historical events as present action.",
+      "Do not visibly depict God or the historical figures mentioned in the address.",
+      "Do not invent audience responses or an accomplished liberation."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "Treaty and Tribute",
+    "title": "Treaty and Tribute Recounted",
     "refs": [
       "Mosiah 7:21",
       "Mosiah 7:22"
     ],
-    "summary": "A speaker addresses witnesses, recounts King Laman’s treaty with Zeniff and the land yielded to him, and says the people now pay tribute to the king of the Lamanites.",
-    "characters": [
-      "Speaker",
-      "People addressed"
-    ],
+    "summary": "The account recounts Zeniff’s deception, a treaty with king Laman, and possessions of part of the land yielded into Zeniff’s hands. It reports current tribute exacted by the king of the Lamanites: half the people’s corn, barley, grain of every kind, increase of flocks and herds, and all they have or possess—or their lives.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Zeniff was made king over this people and was overzealous to inherit the land of his fathers.",
+        "text": "The account describes Zeniff as having been made king over this people, overzealous to inherit the land of his fathers, and deceived by king Laman’s cunning and craftiness.",
         "refs": [
           "Mosiah 7:21"
         ]
       },
       {
-        "text": "King Laman entered into a treaty with Zeniff and yielded the cities of Lehi-Nephi and Shilom and the land round about into his hands.",
+        "text": "The account states that king Laman entered into a treaty with king Zeniff and yielded into his hands possessions of part of the land: the city of Lehi-Nephi, the city of Shilom, and the land round about.",
         "refs": [
           "Mosiah 7:21"
         ]
       },
       {
-        "text": "The speaker says King Laman’s purpose was to bring the people into subjection or bondage.",
+        "text": "Verse 22 attributes the sole purpose of bringing the people into subjection or bondage to “he,” without naming that referent within the verse.",
         "refs": [
           "Mosiah 7:22"
         ]
       },
       {
-        "text": "The people pay the king of the Lamanites half their grain, half the increase of their flocks and herds, and half of all they possess, or their lives.",
+        "text": "The account reports current tribute to the king of the Lamanites amounting to one half of the people’s corn, barley, and grain of every kind; one half of the increase of their flocks and herds; and one half of all they have or possess, exacted of them or their lives.",
         "refs": [
           "Mosiah 7:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses a group of people; the earlier treaty and the tribute payment need not be shown."
+      "The direct address permits a restrained depiction of an unidentified speaker addressing unspecified listeners, but does not establish their identities or physical arrangement."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance.",
-      "The setting and the appearance of those addressed."
+      "Whether to depict the address visually rather than use a neutral presentation.",
+      "The speaker’s identity and appearance, listeners’ appearance, setting, clothing, and staging are unspecified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "And ye all are witnesses this day, that Zeniff, who was made king over this people,",
-        "refs": [
-          "Mosiah 7:21"
-        ],
-        "speaker": "Speaker"
-      },
-      {
-        "text": "And behold, we at this time do pay tribute to the king of the Lamanites,",
+        "text": "And all this he did, for the sole purpose of bringing this people into subjection or into bondage.",
         "refs": [
           "Mosiah 7:22"
-        ],
-        "speaker": "Speaker"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The treaty is recounted as a past event, not shown occurring during the address."
+      "The treaty and yielding of possessions are recounted past events, not events staged during the address.",
+      "The tribute is reported as a current obligation; no particular collection or delivery is narrated.",
+      "The phrase addressing all as witnesses does not independently establish a distinct audience of witnesses."
     ],
     "prohibited_inventions": [
-      "Do not name the speaker from verses outside the supplied text.",
-      "Do not stage the treaty or a tribute delivery as occurring during the address.",
-      "Do not depict Zeniff or King Laman as present with the speaker."
+      "Do not identify the speaker from outside these verses.",
+      "Do not stage the treaty, transfer of possessions, tribute collection, or tribute delivery as a new present-tense event.",
+      "Do not depict Zeniff or king Laman as physically present during the address.",
+      "Do not invent a named referent within verse 22 for “he.”",
+      "Do not depict executions or violence based on the phrase “or our lives.”"
     ],
     "importance": "normal"
   },
@@ -730,136 +723,128 @@
       "Mosiah 7:24",
       "Mosiah 7:25"
     ],
-    "summary": "A speaker describes their affliction as grievous and says they have reason to mourn. The speaker reports that many of their brethren have been slain and that contentions arose among the people until they shed blood among themselves.",
-    "characters": [
-      "Unidentified speaker",
-      "People addressed by the speaker"
-    ],
+    "summary": "The affliction is described as grievous and a reason to mourn. Many brethren have been slain, attributed to iniquity. The people refused to hearken to the Lord's words, and contentions led to bloodshed among themselves.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker calls their affliction grievous and says they have reason to mourn.",
+        "text": "The affliction is described as great and grievous, giving reason to mourn.",
         "refs": [
           "Mosiah 7:23"
         ]
       },
       {
-        "text": "The speaker says many of their brethren have been slain and attributes this to iniquity.",
+        "text": "Many brethren have been slain, their blood described as spilt in vain because of iniquity.",
         "refs": [
           "Mosiah 7:24"
         ]
       },
       {
-        "text": "The speaker says the people would not hearken to the Lord's words and that contentions arose until they shed blood among themselves.",
+        "text": "The text states that without the people's transgression, the Lord would not have suffered this great evil to come upon them.",
+        "refs": [
+          "Mosiah 7:25"
+        ]
+      },
+      {
+        "text": "The people would not hearken to the Lord's words; contentions arose, and they shed blood among themselves.",
         "refs": [
           "Mosiah 7:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses listeners; the reported deaths and contentions are not occurring during the address."
+      "A restrained, somber visual treatment is consistent with the expressed mourning."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, the setting, the listeners' number and appearance, and the details of the reported events."
+      "The identity and appearance of whoever delivers the address.",
+      "The setting, time of day, and number and appearance of those addressed."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Now behold, how great reason we have to mourn.",
-        "refs": [
-          "Mosiah 7:23"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "for behold how many of our brethren have been slain, and their blood has been spilt in vain, and all because of iniquity.",
+        "text": "Yea, I say unto you, great are the reasons which we have to mourn; for behold how many of our brethren have been slain, and their blood has been spilt in vain, and all because of iniquity.",
         "refs": [
           "Mosiah 7:24"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "But behold, they would not hearken unto his words; but there arose contentions among them, even so much that they did shed blood among themselves.",
-        "refs": [
-          "Mosiah 7:25"
-        ],
-        "speaker": "Unidentified speaker"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker attributes the people's suffering to transgression; this is an explanation in the address, not a separate visible event.",
-      "The supplied verses do not identify the speaker. Identifying him as Limhi would require verses outside the supplied source."
+      "The supplied verses do not identify the person delivering the address.",
+      "The deaths, transgression, and contentions are reported past events, not present action.",
+      "The statement about the Lord permitting evil is part of the address, not a narrated divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or specify a location from these verses alone.",
-      "Do not depict the reported deaths or contentions as occurring during the address."
+      "Do not assign an identity, name, biography, or location to the unidentified person delivering the address.",
+      "Do not stage the reported deaths or contentions as a new scene or as occurring during the address.",
+      "Do not depict blood, wounds, or bodies to illustrate the reported bloodshed.",
+      "Do not visibly depict the Lord; no appearance is described.",
+      "Do not invent dialogue or combine separate times into one event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "The Slain Prophet",
+    "title": "The Slain Prophet Recounted",
     "refs": [
       "Mosiah 7:26",
       "Mosiah 7:27",
       "Mosiah 7:28"
     ],
-    "summary": "Limhi recounts that the people slew a prophet who testified of their wickedness and prophesied of Christ. He says they put the prophet to death because he taught that Christ would take flesh and blood.",
+    "summary": "A prophet was slain after condemning wickedness and abominations and prophesying of Christ's coming. He taught that Christ was God and would take upon himself the image of man, flesh and blood. Those who killed him also did other things that brought God's wrath upon them; their bondage and afflictions are recounted.",
     "characters": [
-      "King Limhi",
-      "Limhi's people"
+      "Unnamed prophet (mentioned only)",
+      "Christ (mentioned only)",
+      "Unnamed people who killed the prophet (mentioned only)"
     ],
-    "locations": [
-      "The temple"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Limhi says the people slew a prophet, a chosen man of God who told them of their wickedness and prophesied of Christ.",
+        "text": "A prophet of the Lord, described as a chosen man of God, was slain after telling people of their wickedness and abominations and prophesying of coming events, including Christ's coming.",
         "refs": [
           "Mosiah 7:26"
         ]
       },
       {
-        "text": "Limhi recounts the prophet's teaching that Christ would take the image of man, come among humanity, and take flesh and blood.",
+        "text": "The prophet taught that Christ was God, the Father of all things; that man was created after God's image; and that God would come among humankind, taking flesh and blood and going forth upon the earth.",
         "refs": [
           "Mosiah 7:27"
         ]
       },
       {
-        "text": "Limhi says the people put the prophet to death because he said this.",
+        "text": "The people put the prophet to death because of this teaching and did many other things that brought God's wrath upon them. Their bondage and sore afflictions are stated.",
         "refs": [
           "Mosiah 7:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show Limhi speaking to the people; the prophet's killing and teaching are recalled rather than occurring at the temple."
+      "A non-dramatized presentation can preserve the retrospective account without depicting the reported events as present action."
     ],
     "unspecified_visual_details": [
-      "The prophet's identity, appearance, location, and circumstances of his death."
+      "No narrator or speaker is identified in these verses.",
+      "No present setting, audience, clothing, or physical appearances are specified.",
+      "The prophet's name, method of execution, and circumstances of death are unspecified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "And a prophet of the Lord have they slain;",
+        "text": "And a prophet of the Lord have they slain; yea, a chosen man of God, who told them of their wickedness and abominations, and prophesied of many things which are to come, yea, even the coming of Christ.",
         "refs": [
           "Mosiah 7:26"
-        ],
-        "speaker": "King Limhi"
-      },
-      {
-        "text": "And now, because he said this, they did put him to death;",
-        "refs": [
-          "Mosiah 7:28"
-        ],
-        "speaker": "King Limhi"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The teaching about Christ is recounted by Limhi; Christ is not visibly described in this passage."
+      "The prophet's teachings and death are reported retrospectively, not narrated as present action.",
+      "Statements about Christ are reported teachings, not an account of a visible divine appearance.",
+      "The supplied verses do not establish an on-screen speaker."
     ],
     "prohibited_inventions": [
-      "Do not name or depict the prophet, stage the killing, or show Christ's appearance."
+      "Do not identify or visibly introduce a speaker or audience.",
+      "Do not name the prophet or the people who killed him.",
+      "Do not stage the prophet's teaching, death, or the people's other deeds as a new present-tense scene.",
+      "Do not depict Christ or God appearing, or literalize divine wrath as a visible supernatural event.",
+      "Do not invent a location, execution method, or specific manifestations of bondage and affliction."
     ],
     "importance": "normal"
   },
@@ -871,121 +856,117 @@
       "Mosiah 7:30",
       "Mosiah 7:31"
     ],
-    "summary": "Limhi quotes warnings attributed to the Lord: the transgressing people will not be succored, and sowing filthiness brings chaff in a whirlwind, poison, and destruction.",
-    "characters": [
-      "King Limhi",
-      "Limhi's people"
-    ],
-    "locations": [
-      "The temple"
-    ],
+    "summary": "The verses present the Lord's warnings about transgression and the consequences of sowing filthiness.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Limhi quotes the Lord saying he will not succor his people in the day of their transgression and will hedge up their ways.",
+        "text": "The Lord is quoted as withholding succor from his people in the day of their transgression, hedging up their ways so they do not prosper, and making their doings as a stumbling block before them.",
         "refs": [
           "Mosiah 7:29"
         ]
       },
       {
-        "text": "Limhi quotes the comparison that those who sow filthiness reap chaff in a whirlwind, and that its effect is poison.",
+        "text": "The warning compares sowing filthiness to reaping chaff in a whirlwind, with poison as its effect.",
         "refs": [
           "Mosiah 7:30"
         ]
       },
       {
-        "text": "Limhi quotes the comparison that those who sow filthiness reap the east wind, which brings immediate destruction.",
+        "text": "The warning compares sowing filthiness to reaping the east wind, which brings immediate destruction.",
         "refs": [
           "Mosiah 7:31"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Limhi's address may continue with the gathered people listening."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identity and appearance of any speaker in the quoted sayings beyond Limhi's reported attribution."
+      "No physical speaker, audience, setting, or appearance is specified.",
+      "Any typography or neutral background used to present the text is a creative design choice, not a supplied fact."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "I will not succor my people in the day of their transgression;",
-        "refs": [
-          "Mosiah 7:29"
-        ],
-        "speaker": "King Limhi"
-      },
-      {
-        "text": "If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind;",
+        "text": "And again, he saith: If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind; and the effect thereof is poison.",
         "refs": [
           "Mosiah 7:30"
-        ],
-        "speaker": "King Limhi"
+        ]
+      },
+      {
+        "text": "And again he saith: If my people shall sow filthiness they shall reap the east wind, which bringeth immediate destruction.",
+        "refs": [
+          "Mosiah 7:31"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The whirlwind, chaff, poison, and east wind are figures in Limhi's teaching, not literal scenes."
+      "These verses provide quoted warnings, not a narrated visible event.",
+      "The narration excerpts reproduce complete supplied verses; verse 29 is retained in the explicit facts.",
+      "The hedged ways, stumbling block, sowing, chaff, whirlwind, poison, and east wind should remain teaching imagery rather than literal occurrences."
     ],
     "prohibited_inventions": [
-      "Do not depict a supernatural whirlwind, poison, or destructive wind as a present event."
+      "Do not invent or physically depict a speaker or audience.",
+      "Do not depict the Lord appearing.",
+      "Do not stage the warnings or their figurative consequences as present-tense events.",
+      "Do not add a location, historical episode, or fulfillment of these warnings."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Promise of Deliverance",
+    "title": "Affliction and Conditional Deliverance",
     "refs": [
       "Mosiah 7:32",
       "Mosiah 7:33"
     ],
-    "summary": "Limhi says the Lord's promise is fulfilled in their affliction and urges the people to turn to the Lord, trust and serve him, promising deliverance from bondage according to God's will.",
+    "summary": "The Lord's promise is fulfilled, and the addressed people are smitten and afflicted. Deliverance from bondage is conditional on turning to the Lord, trusting him, and serving him diligently, according to his own will and pleasure.",
     "characters": [
-      "King Limhi",
-      "Limhi's people"
+      "Addressed people (referenced; physical presence unspecified)"
     ],
-    "locations": [
-      "The temple"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Limhi says the Lord's promise is fulfilled and the people are smitten and afflicted.",
+        "text": "The promise of the Lord is fulfilled, and the addressed people are smitten and afflicted.",
         "refs": [
           "Mosiah 7:32"
         ]
       },
       {
-        "text": "Limhi urges the people to turn to the Lord with full purpose of heart, trust him, and serve diligently.",
+        "text": "If the addressed people turn to the Lord with full purpose of heart, trust him, and serve him with all diligence of mind, he will deliver them out of bondage according to his own will and pleasure.",
         "refs": [
           "Mosiah 7:33"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The setting, the identity of any speaker, and the number and appearance of the addressed people are unspecified.",
+      "The physical form of the affliction and bondage and the people's response are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "And now, behold, the promise of the Lord is fulfilled, and ye are smitten and afflicted.",
+        "refs": [
+          "Mosiah 7:32"
         ]
       },
       {
-        "text": "Limhi says God will deliver them from bondage according to his will and pleasure if they do so.",
+        "text": "But if ye will turn to the Lord with full purpose of heart, and put your trust in him, and serve him with all diligence of mind, if ye do this, he will, according to his own will and pleasure, deliver you out of bondage.",
         "refs": [
           "Mosiah 7:33"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Limhi may be shown concluding his address to the gathered people."
-    ],
-    "unspecified_visual_details": [
-      "The people's response and what happens after the address."
-    ],
-    "spoken_dialogue": [
-      {
-        "text": "But if ye will turn to the Lord with full purpose of heart, and put your trust in him,",
-        "refs": [
-          "Mosiah 7:33"
-        ],
-        "speaker": "King Limhi"
-      }
-    ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "Deliverance is conditional and promised; no rescue is narrated in this chapter."
+      "Deliverance is conditional and promised, not narrated as occurring.",
+      "These verses do not identify a speaker or describe a visible divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not show deliverance from bondage or a divine appearance."
+      "Do not invent or identify a speaker or assign the passage as dialogue to a depicted character.",
+      "Do not invent a location, audience gathering, or audience response.",
+      "Do not stage the reported affliction as a new event or invent physical acts of oppression.",
+      "Do not depict deliverance as occurring or show a divine appearance."
     ],
     "importance": "normal"
   }

@@ -318,7 +318,7 @@
         ]
       },
       {
-        "text": "Alma has established a church among the people.",
+        "text": "Alma has established a church among the people; the speaker says they shall be established and shall be his people.",
         "refs": [
           "Mosiah 26:17"
         ]
@@ -330,13 +330,13 @@
         ]
       },
       {
-        "text": "Alma is blessed for inquiring concerning the transgressor.",
+        "text": "Alma is blessed because he inquired concerning the transgressor.",
         "refs": [
           "Mosiah 26:19"
         ]
       },
       {
-        "text": "The speaker calls Alma a servant, covenants eternal life to him, and says he will serve, go forth in the speaker’s name, and gather the speaker’s sheep.",
+        "text": "The speaker calls Alma his servant, covenants eternal life to him, and says Alma will serve him, go forth in his name, and gather his sheep.",
         "refs": [
           "Mosiah 26:20"
         ]
@@ -351,7 +351,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Blessed art thou, Alma, and blessed are they who were baptized in the waters of Mormon.",
+        "text": "Thou art blessed because of thy exceeding faith in the words alone of my servant Abinadi.",
         "refs": [
           "Mosiah 26:15"
         ],
@@ -365,23 +365,9 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "thou hast established a church among this people;",
+        "text": "and they shall be established, and they shall be my people.",
         "refs": [
           "Mosiah 26:17"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "Yea, blessed is this people who are willing to bear my name;",
-        "refs": [
-          "Mosiah 26:18"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "thou art blessed.",
-        "refs": [
-          "Mosiah 26:19"
         ],
         "speaker": "Unidentified speaker"
       },
@@ -391,16 +377,24 @@
           "Mosiah 26:20"
         ],
         "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "and thou shalt serve me and go forth in my name, and shalt gather together my sheep.",
+        "refs": [
+          "Mosiah 26:20"
+        ],
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not explicitly name the speaker; verse 14 is outside the supplied source.",
-      "Gathering sheep is stated as a future charge, not narrated as a visible event."
+      "The supplied verses do not explicitly name the speaker.",
+      "The baptisms, establishment of the church, and Alma’s inquiry are referred to as past events; gathering the sheep is stated as future action."
     ],
     "prohibited_inventions": [
-      "Do not depict the baptisms, the founding of the church, or the gathering of sheep as happening during this speech.",
-      "Do not give the speaker a visible form or identify Alma as Alma the Younger from these verses alone."
+      "Do not depict the baptisms, the founding of the church, the inquiry, or the gathering of sheep as happening during this speech.",
+      "Do not give the speaker a visible form or identify Alma as Alma the Younger from these verses alone.",
+      "Do not depict literal sheep solely from the speaker’s figurative charge."
     ],
     "importance": "normal"
   },

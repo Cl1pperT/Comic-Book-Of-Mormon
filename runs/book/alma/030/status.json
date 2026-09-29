@@ -4,24 +4,24 @@
   "verses": 60,
   "scenes": 21,
   "counts": {
-    "PASS": 19,
-    "PASS WITH WARNINGS": 0,
+    "PASS": 18,
+    "PASS WITH WARNINGS": 1,
     "REJECT": 2
   },
   "rejected": {
-    "scene_001": [
-      "The character label “Lamanites (2 Nephi era)” misidentifies the Lamanites in this Alma-era scene."
+    "scene_005": [
+      "The preacher is Korihor, identified in the supplied Alma 30:12 and the preceding scene. The character label and note incorrectly claim his name is not supplied."
     ],
-    "scene_020": [
-      "The character label “people of Zarahemla (Mulekites)” assigns an identity not established by these verses; the text only refers to the people in the land."
+    "scene_021": [
+      "Alma 30:59 names Zoram as the Zoramites’ leader but does not place him at Korihor’s death. Listing him as a scene character implies an unsupported appearance."
     ]
   },
-  "calls": 5,
+  "calls": 9,
   "tokens": {
-    "input_tokens": 64966,
-    "cached_input_tokens": 32512,
+    "input_tokens": 90566,
+    "cached_input_tokens": 51328,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11237,
-    "reasoning_output_tokens": 1688
+    "output_tokens": 14906,
+    "reasoning_output_tokens": 3226
   }
 }

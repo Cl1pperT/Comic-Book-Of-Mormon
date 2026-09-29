@@ -1,87 +1,63 @@
 {
-  "stamp": "2164cdcee6529b62c77e6eac48e3360eab1bce80c3d694e688ced8c1d2513173",
+  "stamp": "e9c453583065cd4d78c26f5bc6bfc1a41d82973dbb6a32b311e0376469d054c1",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The symbolic departure tableau is a visual inference, not an event explicitly narrated."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The prophetic language does not specify an enacted scene or where the children and babes are located."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The symbolic tableau is an interpretive visual choice; the passage does not specify individual acts or a setting."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "A ruined-city image is symbolic; the text does not narrate particular destruction or establish a visible setting for the declaration."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "No location or visual scene is specified; the fruit and reward are figurative."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The depiction is symbolic; the passage does not specify individual leaders, conduct, or a literal path."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "A judgment tableau is a visual inference, and the Lord's appearance and the setting are unspecified. The vineyard and grinding language is figurative."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse does not specify a setting or the daughters' clothing and appearance; the Lord is described as speaking but not visibly appearing."
+        "The exchange is phrased as a proposed event in the source (\"When a man shall take hold...\"); presenting the men together in a conversation risks turning that conditional prophecy into a present-time scene."
       ]
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The summary and narration treat a future prophecy as though the judgment is occurring: “will smite” and “will discover” are future actions, not a present event. The scene must not depict the smiting or exposure."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The removal is predicted, not narrated as happening; the listed items may be depicted, but their appearance and whether anyone wears them are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "These are predicted contrasts, not a narrated transformation; the verse does not specify a visual scene or literal burning."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse predicts a fall in war but does not narrate a particular battle; a battlefield is only a symbolic visual inference."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The desolation is predicted, and the lamenting gates and sitting city are personification rather than literal events."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

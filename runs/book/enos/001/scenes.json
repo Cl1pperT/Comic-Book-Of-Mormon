@@ -239,7 +239,7 @@
       "Enos 1:7",
       "Enos 1:8"
     ],
-    "summary": "Enos asks how it is done. A speaker referred to as “he” answers that Enos's faith in Christ has made him whole.",
+    "summary": "Enos asks how it is done. The responding speaker explains that Enos's faith in Christ has made him whole and speaks of Christ's future manifestation in the flesh.",
     "characters": [
       "Enos",
       "Unidentified speaker"
@@ -253,23 +253,30 @@
         ]
       },
       {
-        "text": "A speaker referred to as “he” answers Enos.",
+        "text": "The responding speaker is referred to as “he.”",
         "refs": [
           "Enos 1:8"
         ]
       },
       {
-        "text": "The speaker says Enos has never before heard or seen Christ, that many years will pass before Christ manifests himself in the flesh, and that Enos's faith has made him whole.",
+        "text": "The speaker says Enos has never before heard or seen Christ.",
+        "refs": [
+          "Enos 1:8"
+        ]
+      },
+      {
+        "text": "The speaker says many years will pass before Christ manifests himself in the flesh and that Enos's faith has made him whole.",
         "refs": [
           "Enos 1:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Enos may be shown speaking and listening; the responding speaker need not be shown."
+      "Enos may be depicted speaking and listening, with the response presented without a visible speaker."
     ],
     "unspecified_visual_details": [
-      "The location, Enos's appearance, and the responding speaker's identity and appearance are not specified."
+      "The location, Enos's appearance, clothing, posture, and surrounding environment are unspecified.",
+      "The responding speaker's appearance is not described."
     ],
     "spoken_dialogue": [
       {
@@ -296,13 +303,15 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Christ's future manifestation is described in speech, not narrated as occurring in this scene.",
-      "Although Enos addresses the Lord, verse 8 identifies the responding speaker only as “he.”"
+      "Christ's future manifestation is a statement in dialogue, not an event occurring in this scene.",
+      "Being made whole does not establish a visible physical transformation.",
+      "The requested chronology clause from Enos 1:2 cannot be added because that verse is not supplied."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ's future manifestation as happening in this scene.",
-      "Do not identify or invent a visible appearance for the responding speaker.",
-      "Do not invent a location or additional dialogue."
+      "Do not depict Christ or the responding speaker visibly; no appearance is described.",
+      "Do not stage Christ's future manifestation as a present event.",
+      "Do not add a wrestle, remission event, or chronology from unsupplied verses.",
+      "Do not invent additional dialogue, a specific location, or a visible healing."
     ],
     "importance": "normal"
   },
@@ -646,21 +655,19 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Prophesying Among the Nephites",
+    "title": "Enos Among the People of Nephi",
     "refs": [
       "Enos 1:19"
     ],
-    "summary": "Enos goes among the people of Nephi, prophesying of things to come and testifying of what he has heard and seen.",
+    "summary": "Enos goes among the people of Nephi, prophesying of things to come and testifying of things he has heard and seen.",
     "characters": [
-      "Enos (young, son of Jacob)",
-      "Nephite settlers (2 Nephi)"
+      "Enos",
+      "people of Nephi"
     ],
-    "locations": [
-      "Land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Enos went about among the people of Nephi, prophesying of things to come and testifying of what he had heard and seen.",
+        "text": "Enos went about among the people of Nephi, prophesying of things to come and testifying of things he had heard and seen.",
         "refs": [
           "Enos 1:19"
         ]
@@ -670,22 +677,23 @@
       "Enos may be shown addressing people of Nephi."
     ],
     "unspecified_visual_details": [
-      "The specific place and the content of his prophecies are not given."
+      "The location is not identified.",
+      "The content of Enos's prophecy and testimony is not given."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I, Enos, went about among the people of Nephi, prophesying of things to come",
+        "text": "I, Enos, went about among the people of Nephi, prophesying of things to come, and testifying of the things which I had heard and seen.",
         "refs": [
           "Enos 1:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "No specific future event is narrated here."
+      "No specific future event is narrated."
     ],
     "prohibited_inventions": [
-      "Do not invent the content of Enos’s preaching or show future events."
+      "Do not assign a specific location, invent Enos's words, or depict future events as occurring."
     ],
     "importance": "normal"
   },
@@ -754,17 +762,15 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The Nephites Till the Land",
+    "title": "The People of Nephi Till the Land",
     "refs": [
       "Enos 1:21"
     ],
     "summary": "The people of Nephi till the land and raise grain, fruit, herds, cattle, goats, wild goats, and horses.",
     "characters": [
-      "Nephite settlers (2 Nephi)"
+      "The people of Nephi"
     ],
-    "locations": [
-      "Land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The people of Nephi tilled the land and raised grain, fruit, herds, cattle, goats, wild goats, and horses.",
@@ -774,10 +780,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A cultivated landscape with crops and the listed animals is supported."
+      "Cultivated land with crops and some of the listed animals could be shown."
     ],
     "unspecified_visual_details": [
-      "The farming tools, buildings, season, and arrangement of animals are unspecified."
+      "The specific location, farming tools, buildings, season, and arrangement of animals are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -796,7 +802,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add specific crop varieties, structures, or named farmers."
+      "Do not identify the location as the Land of Nephi or add specific crop varieties, structures, or named farmers."
     ],
     "importance": "normal"
   },
@@ -807,76 +813,76 @@
       "Enos 1:22",
       "Enos 1:23"
     ],
-    "summary": "Enos says there were exceedingly many prophets among the Nephites and describes the people as stiffnecked and hard to understand. Harsh preaching and prophesying about wars, contentions, destructions, death, eternity, judgments, and God’s power continually stirred them to fear the Lord.",
+    "summary": "There were exceedingly many prophets among the people, whom Enos describes as stiffnecked and hard to understand. Harsh preaching, prophesying, reminders, and plain speech continually stirred them to keep the fear of the Lord and kept them from going speedily to destruction.",
     "characters": [
-      "Nephite settlers (2 Nephi)"
+      "Unnamed prophets",
+      "Unnamed people"
     ],
-    "locations": [
-      "Land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "There were exceedingly many prophets among the Nephites; the people were stiffnecked and hard to understand.",
+        "text": "There were exceedingly many prophets among the people, who were stiffnecked and hard to understand.",
         "refs": [
           "Enos 1:22"
         ]
       },
       {
-        "text": "Harsh preaching and prophesying about wars, contentions, destructions, death, eternity, judgments, and God’s power continually stirred the people to keep the fear of the Lord.",
+        "text": "Harsh preaching and prophesying concerned wars, contentions, and destructions; the people were continually reminded of death, eternity, God's judgments, and God's power.",
         "refs": [
           "Enos 1:23"
         ]
       },
       {
-        "text": "Enos says great plainness of speech was needed to keep them from going down speedily to destruction.",
+        "text": "Enos says these things and exceedingly great plainness of speech stirred the people to keep the fear of the Lord and kept them from going speedily to destruction.",
         "refs": [
           "Enos 1:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A prophet preaching to a gathered group is a reasonable visualization of the summarized preaching."
+      "An unnamed prophet addressing unnamed people could represent the ongoing preaching without depicting a particular recorded sermon."
     ],
     "unspecified_visual_details": [
-      "No particular prophet, audience, sermon, or gathering is identified."
+      "The location, appearances, number of people shown, and details of any gathering are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there were exceedingly many prophets among us.",
+        "text": "And there were exceedingly many prophets among us.",
         "refs": [
           "Enos 1:22"
         ]
       },
       {
-        "text": "there was nothing save it was exceeding harshness, preaching and prophesying of wars",
+        "text": "And the people were a stiffnecked people, hard to understand.",
+        "refs": [
+          "Enos 1:22"
+        ]
+      },
+      {
+        "text": "And after this manner do I write concerning them.",
         "refs": [
           "Enos 1:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The listed subjects are summarized descriptions of preaching; no specific battle or destruction is shown."
+      "Wars, contentions, and destructions are subjects of prophesying here, not events narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not stage a war, destruction, or particular sermon as a separately narrated event."
+      "Do not specify a location, identify an unnamed prophet, invent sermon dialogue, or depict a battle or destruction as occurring."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Wars During Enos’s Life",
+    "title": "Enos Reports Wars",
     "refs": [
       "Enos 1:24"
     ],
-    "summary": "Enos reports that he saw wars between the Nephites and Lamanites during his days.",
-    "characters": [
-      "Nephite settlers (2 Nephi)",
-      "Lamanites (2 Nephi era)"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "Enos reports seeing wars between the Nephites and Lamanites in the course of his days.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Enos saw wars between the Nephites and Lamanites in the course of his days.",
@@ -885,26 +891,31 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A battle between the two peoples is explicitly reported and may be visualized conservatively."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The battle’s place, participants, weapons, and outcome are not specified."
+      "No physical setting for the retrospective report is supplied.",
+      "Specific battle locations, dates, individual participants, combat actions, and outcomes are unspecified.",
+      "Any nonrepresentational background for the narration is a creative design choice, not a source fact."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I saw wars between the Nephites and Lamanites in the course of my days.",
+        "text": "And I saw wars between the Nephites and Lamanites in the course of my days.",
         "refs": [
           "Enos 1:24"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports wars generally without specifying a particular battle."
+      "Present this as narration only, not as an enacted event.",
+      "The verse reports wars retrospectively across Enos’s days; it does not describe a particular battle or establish a physical setting for his report.",
+      "Enos is the reporting voice; no character is established as visibly present."
     ],
     "prohibited_inventions": [
-      "Do not invent named combatants, a victor, or a specific battle outcome."
+      "Do not stage a battle, battlefield, combat montage, or eyewitness tableau.",
+      "Do not invent combat actions, weapons, individual combatants, casualties, motives, or outcomes.",
+      "Do not compress wars occurring across Enos’s days into a single event.",
+      "Do not invent a present-time action or setting for Enos delivering this report."
     ],
     "importance": "normal"
   },

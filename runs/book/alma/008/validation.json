@@ -1,5 +1,5 @@
 {
-  "stamp": "3f8db2256dc93b6ace28973f164914ac94e40b9fb866b1764f287d6684569014",
+  "stamp": "1e6b95d5d329e3c4aa0abe56fff4382e23e52ae4668c05ab0ca3ae1aa91ff84c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,9 +34,9 @@
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The unidentified speaker is explicitly the angel of the Lord, who appeared to Alma in the preceding verse (Alma 8:14). The speaker identity is incorrectly withheld in the scene fields."
+        "Alma 8:14 identifies the continuing speaker as an angel who appeared to Alma. The field saying it is unspecified whether the speaker is visible overlooks that context; only the angel’s physical appearance is unspecified."
       ]
     },
     "scene_010": {
@@ -72,9 +72,9 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "Alma and Amulek are identified as the antecedent of “they” in the immediately preceding supplied verse (Alma 8:30), so the scene's claim that their identities are not given is inaccurate. The reported binding and imprisonment are otherwise kept as reported events, not staged as a present-time scene."
+        "The note that Alma 8:30 is not supplied is false. That supplied verse identifies the subjects of Alma 8:31 as Alma and Amulek, so the claims that their identities cannot be established contradict the authorized source."
       ]
     }
   }

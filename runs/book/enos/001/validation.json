@@ -1,5 +1,5 @@
 {
-  "stamp": "e069c8861d3cce0dcffc24b8d01cca042d29fe9292ae08aa8e51c2ab45992048",
+  "stamp": "b6e11d14ce022ffeb8b86421d693b6c08cf051cc180373506606a6c2daff14e0",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,54 +18,63 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The notes incorrectly say Enos 1:2 was not supplied; it is included in the supplied source. The prohibition based on that claim is therefore unsupported."
+      ]
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The forest location carries forward from Enos 1:3 but is not stated in Enos 1:11–12; treat it as a continuity inference, not an explicit fact."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The forest location is inferred from the earlier hunting account, not stated in Enos 1:13–14."
+      ]
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The forest location is inferred from earlier verses, not stated in Enos 1:18."
+      ]
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "A tableau of Lamanites in the wilderness with tents and weapons depicts reported circumstances, not a particular event or encounter; avoid staging an attack or conversion attempt."
+        "The character labels specify 2 Nephi-era groups, but Enos 1:20 does not establish that those earlier settlers are present.",
+        "Showing a wilderness group with tents and weapons as a current scene risks enacting Enos’s retrospective description."
       ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "A prophet addressing a gathered group is a reasonable visualization of the reported preaching, but no particular prophet, audience, sermon, or gathering is specified."
+        "Crops and animals may illustrate Enos’s report, but a staged present-tense farming event would turn his summary into a new scene."
+      ]
+    },
+    "scene_014": {
+      "status": "REJECT",
+      "issues": [
+        "Depicting an unnamed prophet addressing a gathering stages a particular sermon from Enos’s summary of ongoing preaching; no such scene is narrated."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "A present-tense battle scene would turn Enos’s general report that he saw wars into a specific staged event; the verse supplies no particular battle or combat action."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

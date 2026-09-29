@@ -34,6 +34,8 @@
   .panel.selected { outline: 4px solid var(--accent); outline-offset: -4px; background: var(--hover); }
   .badge { position: absolute; top: 8px; right: 8px; background: var(--flag); color: #fff; font: 600 12px/1 system-ui;
            padding: 5px 7px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none; }
+  .badge.redrawn { background: var(--accent); color: var(--accent-ink); }
+  .panel.redrawn { outline-color: var(--accent); outline-style: dashed; }
   .chapter-end { display: flex; gap: 10px; }
   aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface);
           border-left: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 18px; }
@@ -149,6 +151,7 @@ async function openChapter(id, panelId = null) {
   document.getElementById("next").disabled = index >= book.length - 1;
   data = await getJSON("/data" + q());
   chapterOf(id).flags = data.flags;
+  chapterOf(id).redrawn = data.redrawn;
   renderPages();
   if (panelId) select(panelId, true); else { renderSide(); window.scrollTo(0, 0); }
 }
@@ -194,13 +197,19 @@ function renderPages() {
 
 function paintPanels() {
   const flags = flagsHere();
+  const redrawn = chapterOf(current)?.redrawn ?? {};
   for (const [id, panel] of Object.entries(panels)) {
     const button = panel.button;
+    // A redrawn panel stands out until it's looked at again: flag it again if it's still wrong.
+    const fresh = !(id in flags) && id in redrawn;
     button.classList.toggle("flagged", id in flags);
+    button.classList.toggle("redrawn", fresh);
     button.classList.toggle("selected", id === selected);
-    button.setAttribute("aria-label", `${label(id)}, ${panel.refs}${id in flags ? ", flagged: " + flags[id].note : ""}`);
+    button.setAttribute("aria-label", `${label(id)}, ${panel.refs}${id in flags ? ", flagged: " + flags[id].note
+      : fresh ? ", redrawn after flag: " + redrawn[id] : ""}`);
     button.querySelector(".badge")?.remove();
     if (id in flags) button.append(el("span", {className: "badge", textContent: "Flagged"}));
+    else if (fresh) button.append(el("span", {className: "badge redrawn", textContent: "Redrawn", title: "Flagged: " + redrawn[id]}));
   }
 }
 

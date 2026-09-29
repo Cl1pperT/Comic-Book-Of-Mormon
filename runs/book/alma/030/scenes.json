@@ -6,16 +6,15 @@
       "Alma 30:1",
       "Alma 30:2"
     ],
-    "summary": "After the people of Ammon are established in Jershon and the Lamanites are driven out, the dead are buried. Following fasting, mourning, and prayer, continual peace begins throughout the land.",
+    "summary": "After the people of Ammon were established in Jershon and the Lamanites were driven out, the dead were buried. Days of fasting, mourning, and prayer followed. In the sixteenth year of the judges, continual peace began throughout the land.",
     "characters": [
       "people of Ammon",
-      "Lamanites (2 Nephi era)",
+      "Lamanites",
       "people of the land",
       "Nephites"
     ],
     "locations": [
-      "land of Jershon",
-      "Unspecified location"
+      "land of Jershon"
     ],
     "explicit_facts": [
       {
@@ -25,33 +24,46 @@
         ]
       },
       {
-        "text": "The people of the land buried the Lamanites' dead; the dead were not numbered because of their great number.",
+        "text": "The people of the land buried the Lamanites' dead.",
         "refs": [
-          "Alma 30:1",
+          "Alma 30:1"
+        ]
+      },
+      {
+        "text": "Neither the Lamanites' dead nor the Nephites' dead were numbered.",
+        "refs": [
           "Alma 30:2"
         ]
       },
       {
-        "text": "After the dead were buried and days of fasting, mourning, and prayer, continual peace began throughout the land in the sixteenth year of the judges.",
+        "text": "After the burials and days of fasting, mourning, and prayer, continual peace began throughout the land in the sixteenth year of the reign of the judges.",
         "refs": [
           "Alma 30:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Burial activity and people mourning may be shown without depicting bodies in detail."
+      "Burial activity or people mourning may be shown as separate moments, without depicting bodies in detail."
     ],
     "unspecified_visual_details": [
-      "The appearance of Jershon, burial customs, clothing, and the identities of mourners are unspecified."
+      "The burial locations, burial customs, clothing, and identities of individual mourners are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "there began to be continual peace throughout all the land.",
+        "refs": [
+          "Alma 30:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The burial follows the expulsion of the Lamanites; no combat scene is narrated here."
+      "The burial, days of fasting, mourning, and prayer, and beginning of peace occur in sequence, not as one simultaneous moment."
     ],
     "prohibited_inventions": [
       "Do not show the driving out as a present-tense battle.",
-      "Do not specify where the Nephites buried their dead."
+      "Do not specify where the Nephites' dead were buried.",
+      "Do not identify the Lamanites as belonging to another era."
     ],
     "importance": "normal"
   },
@@ -199,7 +211,7 @@
       "Alma 30:14",
       "Alma 30:15"
     ],
-    "summary": "Korihor begins preaching to the people that there should be no Christ. He questions their hope and their expectation of Christ, calls prophecies foolish traditions, and argues that they cannot know there shall be a Christ.",
+    "summary": "Korihor begins preaching to the people that there should be no Christ. He questions their hope, calls prophecies foolish traditions, and argues that they cannot know there shall be a Christ.",
     "characters": [
       "Korihor",
       "unnamed people"
@@ -241,25 +253,25 @@
       "Korihor may be shown speaking to listeners."
     ],
     "unspecified_visual_details": [
-      "The location, audience's appearance and responses, and Korihor's appearance are unspecified."
+      "The location, Korihor's appearance, and the listeners' appearance and responses are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Why do ye look for a Christ?",
+        "text": "O ye that are bound down under a foolish and a vain hope, why do ye yoke yourselves with such foolish things? Why do ye look for a Christ? For no man can know of anything which is to come.",
         "refs": [
           "Alma 30:13"
         ],
         "speaker": "Korihor"
       },
       {
-        "text": "Behold, these things which ye call prophecies, which ye say are handed down by holy prophets, behold, they are foolish traditions of your fathers.",
+        "text": "they are foolish traditions of your fathers.",
         "refs": [
           "Alma 30:14"
         ],
         "speaker": "Korihor"
       },
       {
-        "text": "Behold, ye cannot know of things which ye do not see; therefore ye cannot know that there shall be a Christ.",
+        "text": "therefore ye cannot know that there shall be a Christ.",
         "refs": [
           "Alma 30:15"
         ],
@@ -268,61 +280,60 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Korihor's statements are his claims, not affirmations by the narrator.",
-      "These verses do not establish the scene's date or its relationship to an earlier scene."
+      "Korihor's statements are his claims, not affirmations by the narrator."
     ],
     "prohibited_inventions": [
-      "Do not identify the people as Mulekites or place the scene in Zarahemla.",
-      "Do not depict Christ, a vision of Christ, or a visible prophecy.",
-      "Do not invent a date, a legal proceeding, or the audience's response."
+      "Do not name the people or specify a location.",
+      "Do not depict Christ, a vision, or a visible prophecy.",
+      "Do not invent a date, a legal proceeding, or the listeners' response."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "An unnamed man's preaching",
+    "title": "The preacher's claims",
     "refs": [
       "Alma 30:16",
       "Alma 30:17",
       "Alma 30:18"
     ],
-    "summary": "A man challenges his listeners' belief in remission of sins. He teaches that no atonement can be made, that people fare according to their abilities, and that death is the end. His preaching leads many astray.",
+    "summary": "A man challenges belief in remission of sins. He denies atonement, teaches that people prosper through their abilities and conquer through strength, and declares that no conduct is a crime. His preaching leads many astray, and he teaches that death is the end.",
     "characters": [
-      "unnamed male preacher",
+      "male preacher whose name is not supplied",
       "unnamed listeners"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker calls belief in remission of sins the effect of a frenzied mind and attributes it to traditions of the listeners' fathers.",
+        "text": "The speaker attributes belief in remission of sins to a frenzied mind and ancestral traditions.",
         "refs": [
           "Alma 30:16"
         ]
       },
       {
-        "text": "He tells them there can be no atonement for sins, that people prosper according to their genius and conquer according to their strength, and that whatever a person does is no crime.",
+        "text": "He teaches that no atonement can be made for sins, that people fare according to their management, prosper according to their genius, and conquer according to their strength, and that whatever a person does is no crime.",
         "refs": [
           "Alma 30:17"
         ]
       },
       {
-        "text": "His preaching leads away the hearts of many; the narration says many women and men are led to commit whoredoms.",
+        "text": "The narrator reports that his preaching leads many into wickedness and leads many women and men to commit whoredoms.",
         "refs": [
           "Alma 30:18"
         ]
       },
       {
-        "text": "He tells them that death is the end.",
+        "text": "He teaches that death is the end.",
         "refs": [
           "Alma 30:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The unnamed man may be shown addressing unnamed listeners."
+      "The preacher may be shown addressing listeners without individualized reactions."
     ],
     "unspecified_visual_details": [
-      "The place, clothing, and individual appearances are not specified."
+      "Location, clothing, physical appearances, audience size, and spatial arrangement are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -330,14 +341,14 @@
         "refs": [
           "Alma 30:16"
         ],
-        "speaker": "unnamed male preacher"
+        "speaker": "male preacher whose name is not supplied"
       },
       {
         "text": "But behold, it is the effect of a frenzied mind;",
         "refs": [
           "Alma 30:16"
         ],
-        "speaker": "unnamed male preacher"
+        "speaker": "male preacher whose name is not supplied"
       }
     ],
     "narration": [
@@ -349,13 +360,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The claims about atonement, conduct, and death are the preacher's teachings, not established facts.",
-      "The consequences described by the narrator need not be shown as simultaneous with the preaching."
+      "The supplied verses do not name the preacher. The audit's identification relies on preceding verses not supplied here and cannot establish his name under the source-only constraint.",
+      "The preacher's claims are attributed teachings, not established doctrinal facts.",
+      "The reported consequences of his preaching must not become separate enacted incidents or be portrayed as simultaneous audience behavior."
     ],
     "prohibited_inventions": [
-      "Do not name the preacher, listeners, or location.",
-      "Do not depict specific sexual acts or invent individual listeners' stories.",
-      "Do not present the preacher's claims as visible supernatural events."
+      "Do not import names or identifying details from unsupplied verses.",
+      "Do not invent a location, listener biographies, dialogue, or individual conversions.",
+      "Do not stage sexual acts, deaths, or conquests from the summarized consequences and teachings.",
+      "Do not literalize leading away hearts or invent supernatural appearances."
     ],
     "importance": "normal"
   },
@@ -1225,50 +1238,52 @@
       "Alma 30:57",
       "Alma 30:58"
     ],
-    "summary": "The curse is not taken from Korihor. He is cast out and goes from house to house begging for food. The chief judge's proclamation urges those who believed Korihor to repent; the people are convinced of his wickedness and turn again to the Lord.",
+    "summary": "The curse is not taken off Korihor. He is cast out and goes from house to house begging for food. The chief judge sends a proclamation throughout the land urging those who had believed Korihor to repent. They are convinced of his wickedness and converted again unto the Lord, ending iniquity after his manner.",
     "characters": [
       "Korihor",
-      "chief judge over the land",
-      "people who believed Korihor",
-      "people of Zarahemla (Mulekites)"
+      "the chief judge",
+      "people who had believed Korihor"
     ],
     "locations": [
-      "land of Zarahemla"
+      "houses in the land"
     ],
     "explicit_facts": [
       {
-        "text": "The curse was not taken from Korihor; he was cast out and begged from house to house for food.",
+        "text": "The curse was not taken off Korihor; he was cast out and went from house to house begging for food.",
         "refs": [
           "Alma 30:56",
           "Alma 30:58"
         ]
       },
       {
-        "text": "The chief judge sent a proclamation throughout the land urging those who had believed Korihor to repent.",
+        "text": "The chief judge sent a proclamation throughout the land telling those who had believed Korihor to repent.",
         "refs": [
           "Alma 30:57"
         ]
       },
       {
-        "text": "The people were convinced of Korihor's wickedness and converted again to the Lord; this ended iniquity after his manner.",
+        "text": "They were convinced of Korihor's wickedness and converted again unto the Lord, ending iniquity after his manner.",
         "refs": [
           "Alma 30:58"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Korihor begging at a house is directly supported; the proclamation may be represented without inventing its carrier or delivery method."
+      "Korihor may be shown begging at a house, without specifying the householder or a response.",
+      "The proclamation may be represented without depicting an invented carrier or delivery method."
     ],
     "unspecified_visual_details": [
-      "The proclamation's written form, recipients' individual identities, and their specific acts of conversion are unspecified."
+      "The appearance of Korihor, the houses, and the proclamation is unspecified.",
+      "The recipients' individual identities and specific acts of conversion are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These are sequential outcomes; the proclamation and Korihor begging need not be shown as a single simultaneous action."
+      "The proclamation and its effects are reported; they need not be depicted as simultaneous with Korihor's begging."
     ],
     "prohibited_inventions": [
-      "Do not invent a named messenger, household, or individual convert."
+      "Do not identify the land as Zarahemla or its people as Mulekites.",
+      "Do not invent a named messenger, household, individual convert, or spoken exchange."
     ],
     "importance": "normal"
   },

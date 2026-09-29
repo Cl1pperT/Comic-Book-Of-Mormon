@@ -4,21 +4,17 @@
   "verses": 39,
   "scenes": 29,
   "counts": {
-    "PASS": 16,
-    "PASS WITH WARNINGS": 12,
-    "REJECT": 1
+    "PASS": 18,
+    "PASS WITH WARNINGS": 11,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_013": [
-      "The verse identifies Nephi’s angry “brethren” collectively, not Sam or Zoram individually; listing them as present invents which people were there."
-    ]
-  },
-  "calls": 20,
+  "rejected": {},
+  "calls": 21,
   "tokens": {
-    "input_tokens": 154782,
-    "cached_input_tokens": 65024,
+    "input_tokens": 160812,
+    "cached_input_tokens": 73472,
     "cache_write_input_tokens": 0,
-    "output_tokens": 20401,
-    "reasoning_output_tokens": 5415
+    "output_tokens": 20803,
+    "reasoning_output_tokens": 5599
   }
 }

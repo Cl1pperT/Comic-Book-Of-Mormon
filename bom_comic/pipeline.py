@@ -343,9 +343,10 @@ class Pipeline:
         return [name for name in panel.characters_visible
                 if portrait_eligible(records.get(name)) and not is_group(records.get(name))]
 
-    def generate(self, identifier=None, skip_main=False, references=True):
+    def generate(self, identifier=None, skip_main=False, references=True, corrections=None):
         """Render approved panels. With references=False the art is drawn from the text records alone (first
-        drafts); reference portraits are for panels flagged later as needing them."""
+        drafts); reference portraits are for panels flagged later as needing them. corrections maps a panel ID to
+        a reviewer's {"add", "avoid"} instructions for redrawing it."""
         panels = self.panels()
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
@@ -369,7 +370,8 @@ class Pipeline:
             name = f"{panel.panel_id}_{revision}"
             aspect = aspects[panel.panel_id]
             portraits = self.panel_portraits(panel) if references else {}
-            prompt = build_prompt(panel, self.continuity(), aspect, list(portraits))
+            prompt = build_prompt(panel, self.continuity(), aspect, list(portraits),
+                                  (corrections or {}).get(panel.panel_id))
             self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
                 "portraits": {n: e["path"] for n, e in portraits.items()}})
             path = self.store.path(f"images/{name}.png")

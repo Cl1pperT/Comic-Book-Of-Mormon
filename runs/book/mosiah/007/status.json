@@ -4,24 +4,36 @@
   "verses": 33,
   "scenes": 15,
   "counts": {
-    "PASS": 13,
-    "PASS WITH WARNINGS": 0,
-    "REJECT": 2
+    "PASS": 5,
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 6
   },
   "rejected": {
-    "scene_003": [
-      "“Ammon's fifteen companions” is not established by the supplied verses; they do not specify the number or identities of his other companions."
+    "scene_010": [
+      "Mosiah 7:17–18 identifies the speaker as Limhi and establishes the temple gathering. The scene incorrectly says his identity and the gathering’s location are unsupplied and prohibits specifying the temple."
     ],
-    "scene_006": [
-      "The second dialogue excerpt is not verbatim: Mosiah 7:13 says “For I am assured that if ye had known me ye would not have suffered that I should have worn these bands. For I am Ammon,” not “For I am Ammon” as a direct continuation."
+    "scene_011": [
+      "This continues Limhi’s address begun in Mosiah 7:18. The claims that the speaker and listeners cannot be identified, and the prohibition on identifying the speaker, contradict that context."
+    ],
+    "scene_012": [
+      "This continues Limhi’s address to the gathered people. The claims that its speaker is unidentified and must not be identified contradict Mosiah 7:17–18."
+    ],
+    "scene_013": [
+      "These verses continue Limhi’s address to the gathered people. The claims that no speaker or audience is established, and the prohibition on depicting either, contradict Mosiah 7:17–18."
+    ],
+    "scene_014": [
+      "Limhi is reciting these warnings within his address. The claims that no physical speaker or audience is specified, and the prohibition on depicting either, contradict Mosiah 7:17–18."
+    ],
+    "scene_015": [
+      "These verses continue Limhi’s address to the people gathered in Mosiah 7:18. The claims that the speaker and audience presence are unspecified, and the prohibition on identifying or depicting them, contradict that context."
     ]
   },
-  "calls": 18,
+  "calls": 37,
   "tokens": {
-    "input_tokens": 125524,
-    "cached_input_tokens": 62976,
+    "input_tokens": 247660,
+    "cached_input_tokens": 127872,
     "cache_write_input_tokens": 0,
-    "output_tokens": 20092,
-    "reasoning_output_tokens": 7493
+    "output_tokens": 36759,
+    "reasoning_output_tokens": 14549
   }
 }

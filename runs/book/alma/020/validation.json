@@ -1,5 +1,5 @@
 {
-  "stamp": "aac8965e8bc0dbb9763fe97c87a109845198598b14a9731f700bd067fe468df0",
+  "stamp": "a32bfe006b4b6eea92ea85a1d0195e0924931ac400438953e06715dbddc84ebd",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,8 +34,10 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit fact say Ammon sought to destroy “him.” In Alma 20:19, the king’s “him” refers to his son Lamoni; clarify the referent so it cannot be read as the king."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -50,14 +52,14 @@
       "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "The character list presents the king of Middoni as physically present, but the verses only report that Lamoni found favor with him; they do not say he was present in the depicted scene. The summary also combines the journey and the later release, though the visual-inference note correctly distinguishes those moments."
-      ]
-    },
-    "scene_014": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people Ammon meets are his brethren from Alma 20:28, not an unidentified group. Their individual identities at the meeting are not specified, but the character label and unspecified-details field should preserve their stated relationship to Ammon."
+      ]
     }
   }
 }

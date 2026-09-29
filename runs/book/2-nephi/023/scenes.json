@@ -1,17 +1,13 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Isaiah’s Burden",
+    "title": "The Burden of Babylon",
     "refs": [
       "2 Nephi 23:1"
     ],
-    "summary": "Isaiah sees the burden of Babylon.",
-    "characters": [
-      "Isaiah"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "Isaiah the son of Amoz saw the burden of Babylon.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Isaiah the son of Amoz saw the burden of Babylon.",
@@ -22,20 +18,24 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Isaiah’s appearance and surroundings; how the burden is visually represented."
+      "Isaiah’s appearance and location are not described.",
+      "The burden’s visible form is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "The burden of Babylon",
+        "text": "The burden of Babylon, which Isaiah the son of Amoz did see.",
         "refs": [
           "2 Nephi 23:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verse reports what Isaiah saw; it does not narrate a visible event in Babylon."
+    ],
     "prohibited_inventions": [
-      "Do not depict a specific event in Babylon; none is narrated here."
+      "Do not depict Isaiah as physically present or invent a visible form for the burden.",
+      "Do not depict a specific event in Babylon."
     ],
     "importance": "normal"
   },
@@ -552,48 +552,44 @@
     "refs": [
       "2 Nephi 23:15"
     ],
-    "summary": "The prophecy says the proud will be thrust through and those joined to the wicked will fall by the sword.",
-    "characters": [
-      "The proud",
-      "Those joined to the wicked"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The verse foretells that the proud shall be thrust through and everyone joined to the wicked shall fall by the sword.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Every proud person shall be thrust through; everyone joined to the wicked shall fall by the sword.",
-        "refs": [
-          "2 Nephi 23:15"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "The verse permits showing the stated physical action without gore."
-    ],
-    "unspecified_visual_details": [
-      "Who carries out the action, where it occurs, and the people’s identities."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "Every one that is proud shall be thrust through",
+        "text": "Every one who is proud shall be thrust through.",
         "refs": [
           "2 Nephi 23:15"
         ]
       },
       {
-        "text": "every one that is joined to the wicked shall fall by the sword.",
+        "text": "Every one joined to the wicked shall fall by the sword.",
+        "refs": [
+          "2 Nephi 23:15"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "No setting, physical appearance, attacker, or visible speaker is specified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "Every one that is proud shall be thrust through; yea, and every one that is joined to the wicked shall fall by the sword.",
         "refs": [
           "2 Nephi 23:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse describes violence in a prophecy; depict action without wounds, blood, or severed body parts."
+      "These are foretold outcomes, not events narrated as presently occurring. Present the source quotation without staging its fulfillment.",
+      "The groups mentioned are subjects of the prophecy, not established physically present characters."
     ],
     "prohibited_inventions": [
-      "Do not name attackers or add tactical details or gore."
+      "Do not stage thrusting-through or sword-fall as occurring now.",
+      "Do not invent a speaker, attackers, identities, setting, or tactical details.",
+      "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
@@ -605,7 +601,7 @@
       "2 Nephi 23:17",
       "2 Nephi 23:18"
     ],
-    "summary": "The verses foretell violence against children, young men, and wives, the spoiling of houses, and the stirring up of the Medes against unnamed people. They say the Medes will not value silver or gold.",
+    "summary": "The verses foretell children and young men dashed to pieces, houses spoiled, wives ravished, and the Medes stirred up against unnamed people. The Medes will not regard silver or gold.",
     "characters": [
       "The Medes",
       "Unnamed people referred to in the prophecy"
@@ -613,7 +609,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The verse foretells children dashed to pieces before others' eyes, houses spoiled, and wives ravished.",
+        "text": "Children shall be dashed to pieces before others' eyes; houses shall be spoiled and wives ravished.",
         "refs": [
           "2 Nephi 23:16"
         ]
@@ -625,23 +621,23 @@
         ]
       },
       {
-        "text": "The verse foretells that bows will dash young men to pieces and that children will not be spared.",
+        "text": "Bows shall dash young men to pieces, and children shall not be spared.",
         "refs": [
           "2 Nephi 23:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Bows may be shown without depicting their use or the foretold violence as occurring now."
+      "Bows may be shown without depicting the foretold violence as occurring now."
     ],
     "unspecified_visual_details": [
-      "The location, timing, and appearance of the people are not specified in these verses.",
-      "The identity of the people opposed by the Medes is not stated in these verses."
+      "The location, timing, and appearance of the people are not specified.",
+      "The identity of the people opposed by the Medes is not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Their houses shall be spoiled",
+        "text": "their houses shall be spoiled",
         "refs": [
           "2 Nephi 23:16"
         ]
@@ -671,100 +667,113 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Babylon Overthrown",
+    "title": "Prophecy Concerning Babylon",
     "refs": [
       "2 Nephi 23:19"
     ],
-    "summary": "Babylon, described as the glory and beauty of kingdoms, will become as when God overthrew Sodom and Gomorrah.",
+    "summary": "Babylon’s future condition is compared to when God overthrew Sodom and Gomorrah.",
     "characters": [],
     "locations": [
-      "Babylon"
+      "Babylon (subject of prophecy, not an enacted setting)"
     ],
     "explicit_facts": [
       {
-        "text": "Babylon, glory of kingdoms and beauty of the Chaldees’ excellency, shall be as when God overthrew Sodom and Gomorrah.",
-        "refs": [
-          "2 Nephi 23:19"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "Babylon may be shown as a city under a prophetic comparison to its overthrow."
-    ],
-    "unspecified_visual_details": [
-      "What the overthrow looked like and the city’s precise appearance."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "Babylon, the glory of kingdoms",
+        "text": "Babylon is described as the glory of kingdoms and the beauty of the Chaldees’ excellency.",
         "refs": [
           "2 Nephi 23:19"
         ]
       },
       {
-        "text": "shall be as when God overthrew Sodom and Gomorrah.",
+        "text": "Babylon shall be as when God overthrew Sodom and Gomorrah.",
+        "refs": [
+          "2 Nephi 23:19"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "No visible setting, city architecture, or mechanism of overthrow is described.",
+      "Any typography or neutral background for presenting the prophecy is a creative design choice, not a source fact."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "And Babylon, the glory of kingdoms, the beauty of the Chaldees’ excellency, shall be as when God overthrew Sodom and Gomorrah.",
         "refs": [
           "2 Nephi 23:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Sodom and Gomorrah are referenced as a comparison, not as present characters or a separate scene."
+      "This verse states a future prophetic comparison, not an unfolding visible event.",
+      "Sodom and Gomorrah are historical references within the comparison, not a separate enacted scene."
     ],
     "prohibited_inventions": [
-      "Do not show Sodom and Gomorrah or invent specific details of Babylon’s overthrow."
+      "Do not depict Babylon undergoing overthrow or show its predicted aftermath as an occurring event.",
+      "Do not reenact the overthrow of Sodom and Gomorrah.",
+      "Do not invent a visible appearance of God, a speaker, inhabitants, or destruction mechanisms."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Babylon Uninhabited",
+    "title": "Never Inhabited",
     "refs": [
       "2 Nephi 23:20"
     ],
-    "summary": "Babylon will remain uninhabited; no Arabian will pitch a tent there, and no shepherd will make a fold there.",
-    "characters": [
-      "Arabians",
-      "Shepherds"
-    ],
+    "summary": "The verse foretells that the place will never be inhabited or dwelt in; no Arabian will pitch a tent there, and no shepherd will make a fold there.",
+    "characters": [],
     "locations": [
-      "Babylon"
+      "Unspecified place"
     ],
     "explicit_facts": [
       {
-        "text": "Babylon will never be inhabited; no Arabian will pitch a tent there, and no shepherd will make a fold there.",
+        "text": "The place shall never be inhabited or dwelt in from generation to generation.",
+        "refs": [
+          "2 Nephi 23:20"
+        ]
+      },
+      {
+        "text": "No Arabian shall pitch a tent there.",
+        "refs": [
+          "2 Nephi 23:20"
+        ]
+      },
+      {
+        "text": "No shepherd shall make a fold there.",
         "refs": [
           "2 Nephi 23:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "An uninhabited landscape with no tent or shepherd’s fold is supported."
+      "A depiction of the foretold place could show no inhabitants, tents, or shepherds’ folds."
     ],
     "unspecified_visual_details": [
-      "The city’s condition and the surrounding terrain."
+      "The place’s identity, terrain, structures, and appearance are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "It shall never be inhabited",
+        "text": "It shall never be inhabited, neither shall it be dwelt in from generation to generation:",
         "refs": [
           "2 Nephi 23:20"
         ]
       },
       {
-        "text": "neither shall the shepherds make their fold there.",
+        "text": "neither shall the Arabian pitch tent there; neither shall the shepherds make their fold there.",
         "refs": [
           "2 Nephi 23:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse describes a future state, not a present arrival or departure."
+      "The verse foretells a future condition rather than narrating an arrival or departure."
     ],
     "prohibited_inventions": [
-      "Do not show Arabians or shepherds arriving or leaving."
+      "Do not identify the place as Babylon from this verse alone.",
+      "Do not depict Arabians, shepherds, or other inhabitants at the place.",
+      "Do not depict anyone pitching a tent or making a fold there."
     ],
     "importance": "normal"
   },
@@ -775,7 +784,7 @@
       "2 Nephi 23:21",
       "2 Nephi 23:22"
     ],
-    "summary": "The verses foretell beasts inhabiting houses, owls dwelling there, satyrs dancing, and beasts and dragons crying in houses and palaces. They also foretell an approaching end, destruction, mercy for a people, and the perishing of the wicked.",
+    "summary": "The verses foretell wild beasts, doleful creatures, owls, satyrs, and dragons in houses and palaces. They also foretell an approaching end, destruction, mercy for a people, and the perishing of the wicked.",
     "characters": [],
     "locations": [
       "Houses",
@@ -790,30 +799,36 @@
         ]
       },
       {
-        "text": "Wild beasts of the islands shall cry in desolate houses, and dragons in pleasant palaces; her time is near and her day shall not be prolonged.",
+        "text": "Wild beasts of the islands shall cry in desolate houses, and dragons in pleasant palaces.",
         "refs": [
           "2 Nephi 23:22"
         ]
       },
       {
-        "text": "An unidentified first-person voice says it will destroy her speedily, be merciful to its people, and that the wicked shall perish.",
+        "text": "The text says her time is near and her day shall not be prolonged.",
+        "refs": [
+          "2 Nephi 23:22"
+        ]
+      },
+      {
+        "text": "A first-person declaration foretells her speedy destruction, mercy for the speaker's people, and the perishing of the wicked; the verses do not identify the speaker or her.",
         "refs": [
           "2 Nephi 23:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Desolate houses can be shown as unoccupied by people, without depicting the prophecy as an event already occurring."
+      "Desolate houses may serve as a visual representation of the prophecy, without showing the foretold events as already occurring."
     ],
     "unspecified_visual_details": [
-      "The identity of the first-person voice and of “her.”",
+      "The identity of the first-person speaker and of “her.”",
       "The appearance or literal nature of satyrs and dragons.",
       "The architecture, geographic setting, and manner of destruction."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and owls shall dwell there, and satyrs shall dance there.",
+        "text": "But wild beasts of the desert shall lie there; and their houses shall be full of doleful creatures; and owls shall dwell there, and satyrs shall dance there.",
         "refs": [
           "2 Nephi 23:21"
         ]
@@ -823,21 +838,15 @@
         "refs": [
           "2 Nephi 23:22"
         ]
-      },
-      {
-        "text": "For I will destroy her speedily; yea, for I will be merciful unto my people, but the wicked shall perish.",
-        "refs": [
-          "2 Nephi 23:22"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are prophetic statements, not a narrated present-tense occurrence. The verses do not identify the first-person voice or establish a concrete appearance for satyrs or dragons."
+      "These are prophetic statements, not narrated present-tense events. The source does not identify the first-person speaker or establish a visible appearance for satyrs or dragons."
     ],
     "prohibited_inventions": [
-      "Do not identify the first-person voice or “her” as Babylon.",
-      "Do not depict satyrs or dragons as literal beings with invented designs.",
-      "Do not show destruction, mercy, or the perishing of the wicked as separate visible events."
+      "Do not identify the first-person speaker or “her.”",
+      "Do not give satyrs or dragons invented designs.",
+      "Do not depict the foretold creatures, destruction, mercy, or perishing as events already occurring."
     ],
     "importance": "normal"
   }

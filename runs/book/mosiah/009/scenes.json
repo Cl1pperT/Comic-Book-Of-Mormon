@@ -451,44 +451,52 @@
       "Mosiah 9:11",
       "Mosiah 9:12"
     ],
-    "summary": "Zeniff explains that King Laman yielded the land as a cunning plan to bring his people into bondage. After twelve years, Laman grows uneasy that they will become too strong to overpower; Zeniff says the Lamanites wanted their labor and flocks.",
+    "summary": "King Laman yielded land intending to bring the narrator's people into bondage. After they had dwelt there for twelve years, he grew uneasy that they might become too strong to overpower. Verse 12 reports that a group desired their labor and flocks.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "Zeniff's people",
-      "Lamanite warriors (Enos to Alma era)"
+      "King Laman",
+      "The narrator's people",
+      "The group described as “they” in verse 12"
     ],
     "locations": [
-      "Unspecified location"
+      "The land yielded by King Laman"
     ],
     "explicit_facts": [
       {
-        "text": "Zeniff says King Laman yielded the land as a cunning plan to bring his people into bondage.",
+        "text": "King Laman yielded land intending to bring the narrator's people into bondage.",
         "refs": [
           "Mosiah 9:10"
         ]
       },
       {
-        "text": "After twelve years dwelling in the land, King Laman began to fear Zeniff's people would grow strong and resist being overpowered and brought into bondage.",
+        "text": "After the narrator's people had dwelt in the land for twelve years, King Laman grew uneasy that they might become too strong to overpower and bring into bondage.",
         "refs": [
           "Mosiah 9:11"
         ]
       },
       {
-        "text": "Zeniff describes the Lamanites as lazy and idolatrous and says they desired bondage for the labor of his people and the flocks of their fields.",
+        "text": "The group described as “they” desired to bring the narrator's people into bondage for their labor and flocks.",
         "refs": [
           "Mosiah 9:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "These verses report motive and elapsed time rather than depicting a new action scene."
+      "The twelve years of dwelling in the land are elapsed time, not one continuous moment."
     ],
     "unspecified_visual_details": [
-      "Where King Laman is when he grows uneasy.",
-      "Any visible emblem or specific form of idolatry."
+      "King Laman's appearance and whereabouts when he grows uneasy.",
+      "The appearance of the land and its inhabitants.",
+      "The identity of the group called “they” in verse 12 is not stated in the supplied verses.",
+      "Any visible form of idolatry."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "that he yielded up the land that we might possess it.",
+        "refs": [
+          "Mosiah 9:10"
+        ]
+      },
       {
         "text": "after we had dwelt in the land for the space of twelve years",
         "refs": [
@@ -502,17 +510,20 @@
         ]
       },
       {
-        "text": "that they might glut themselves with the labors of our hands",
+        "text": "yea, that they might feast themselves upon the flocks of our fields.",
         "refs": [
           "Mosiah 9:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The desire for bondage is reported intent, not an event of people being enslaved in these verses."
+      "These verses report intentions and concern; they do not narrate an enslavement.",
+      "The supplied verses do not name the group referred to as “they” in verse 12."
     ],
     "prohibited_inventions": [
-      "Do not depict an actual enslavement or a specific idolatrous ritual."
+      "Do not add warriors or depict an enslavement.",
+      "Do not invent an identity for the group in verse 12 or depict a specific idolatrous ritual.",
+      "Do not stage events separated by twelve years as simultaneous."
     ],
     "importance": "normal"
   },
@@ -522,18 +533,18 @@
     "refs": [
       "Mosiah 9:13"
     ],
-    "summary": "King Laman stirs up his people against Zeniff's people, and wars and contentions begin in the land.",
+    "summary": "King Laman began to stir up his people to contend with the narrator's people; wars and contentions began in the land.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "Lamanite warriors (Enos to Alma era)",
-      "Zeniff's people"
+      "King Laman",
+      "his people",
+      "the narrator's people"
     ],
     "locations": [
-      "the land of Lehi-Nephi"
+      "the land"
     ],
     "explicit_facts": [
       {
-        "text": "King Laman began stirring up his people to contend with Zeniff's people.",
+        "text": "King Laman began to stir up his people to contend with the narrator's people.",
         "refs": [
           "Mosiah 9:13"
         ]
@@ -545,11 +556,11 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A confrontation may be suggested, but the verse does not specify a particular clash."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The manner in which the king stirred up his people and the form of the initial contention."
+      "How King Laman stirred up his people.",
+      "The appearance and location of the people involved.",
+      "The form of the wars and contentions."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -568,7 +579,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a speech, battle tactic, or specific confrontation."
+      "Do not identify the narrator or name the land from this verse alone.",
+      "Do not invent warriors, a speech, battle tactics, or a specific confrontation."
     ],
     "importance": "normal"
   },

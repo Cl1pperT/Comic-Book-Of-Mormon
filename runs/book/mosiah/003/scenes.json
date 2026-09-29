@@ -609,52 +609,69 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Benjamin to Teach His People",
+    "title": "The Speaker Concludes His Words",
     "refs": [
       "Mosiah 3:22",
       "Mosiah 3:23"
     ],
-    "summary": "The angel says that even after Benjamin teaches his people what God commanded, they will not be blameless except according to the words the angel has spoken; the angel then says he has spoken what the Lord commanded.",
+    "summary": "A speaker tells an addressee that when the addressee has taught the people what the Lord commanded, they are found no more blameless in God's sight, only according to the speaker's words. The speaker says he has spoken the words the Lord God commanded him.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "Unidentified speaker",
+      "Unidentified addressee"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The angel says that after Benjamin teaches his people the commanded things, they will be judged according to the words the angel has spoken.",
+        "text": "The speaker addresses a person who is to teach their people the things the Lord their God commanded.",
         "refs": [
           "Mosiah 3:22"
         ]
       },
       {
-        "text": "The angel says he has spoken the words commanded by the Lord God.",
+        "text": "The speaker says that even then the people are found no more blameless in God's sight, only according to the words spoken to the addressee.",
+        "refs": [
+          "Mosiah 3:22"
+        ]
+      },
+      {
+        "text": "The speaker says he has spoken the words the Lord God commanded him.",
         "refs": [
           "Mosiah 3:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The angel is concluding his address to Benjamin in the remembered encounter."
+      "The speaker addresses someone, but the verses do not establish what either person looks like."
     ],
     "unspecified_visual_details": [
-      "The angel’s appearance and the precise setting."
+      "The speaker's and addressee's identities and appearances.",
+      "The setting and whether the people mentioned are present."
     ],
     "spoken_dialogue": [
+      {
+        "text": "And even at this time, when thou shalt have taught thy people the things which the Lord thy God hath commanded thee, even then are they found no more blameless in the sight of God, only according to the words which I have spoken unto thee.",
+        "refs": [
+          "Mosiah 3:22"
+        ],
+        "speaker": "Unidentified speaker"
+      },
       {
         "text": "And now I have spoken the words which the Lord God hath commanded me.",
         "refs": [
           "Mosiah 3:23"
         ],
-        "speaker": "an angel from God"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The teaching of the people is referred to in speech, not narrated as happening in this scene."
+    ],
     "prohibited_inventions": [
-      "Do not add an angelic departure; it is not stated."
+      "Do not identify the speaker as an angel or the addressee as Benjamin from these verses alone.",
+      "Do not depict the teaching of the people or a departure as occurring here."
     ],
     "importance": "normal"
   },

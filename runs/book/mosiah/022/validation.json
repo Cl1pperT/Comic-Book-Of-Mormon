@@ -1,31 +1,39 @@
 {
-  "stamp": "67db3cc6d1a98955c56f855853acdabc5817d7bd5f7df2f55d1151c55fd4bb15",
+  "stamp": "476ddeed4857f3a448531c95583121f5a405328682ba966b96351b46d1d63a79",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "“Lamanites (2 Nephi era)” misidentifies the Lamanites in this Mosiah-era scene."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prohibition on naming the king is too strict: Mosiah 22:1 identifies him as Limhi."
+      ]
     },
     "scene_004": {
       "status": "REJECT",
       "issues": [
-        "The speaker is identified as “Unidentified speaker,” but Mosiah 22:5 explicitly says Gideon begins speaking, and verses 6–8 continue his speech. Identify Gideon as the speaker."
+        "Mosiah 22:5, included in the supplied source, explicitly identifies Gideon as the speaker of verses 6–8. The speaker label and note claiming his identity is unavailable contradict the source."
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prohibition on naming the king is too strict: Mosiah 22:1 identifies him as Limhi."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "“Lamanites (2 Nephi era)” misidentifies the recipients in this Mosiah-era scene."
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -44,8 +52,11 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "“Lamanites (2 Nephi era)” misidentifies the pursuers in this Mosiah-era scene.",
+        "This pursuit follows the departure in time, although the verse recounts it after the reception in Zarahemla. The scene must not imply that the pursuit began after that reception."
+      ]
     }
   }
 }

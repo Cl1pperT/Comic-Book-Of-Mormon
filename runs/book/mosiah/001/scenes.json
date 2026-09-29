@@ -55,7 +55,7 @@
       "Mosiah 1:2",
       "Mosiah 1:3"
     ],
-    "summary": "A father names his three sons Mosiah, Helorum, and Helaman. He causes them to be taught the language of his fathers and teaches them about records engraved on brass plates.",
+    "summary": "An unnamed father has three sons named Mosiah, Helorum, and Helaman. He causes them to be taught the language of his fathers and teaches them concerning records engraved on brass plates.",
     "characters": [
       "Unnamed father",
       "Mosiah",
@@ -67,30 +67,36 @@
     ],
     "explicit_facts": [
       {
-        "text": "He had three sons named Mosiah, Helorum, and Helaman.",
+        "text": "The father had three sons named Mosiah, Helorum, and Helaman.",
         "refs": [
           "Mosiah 1:2"
         ]
       },
       {
-        "text": "He caused his sons to be taught the language of his fathers.",
+        "text": "He caused them to be taught in all the language of his fathers so they might become men of understanding and know concerning their fathers' prophecies.",
         "refs": [
           "Mosiah 1:2"
         ]
       },
       {
-        "text": "He taught them concerning records engraved on brass plates.",
+        "text": "He taught his sons concerning records engraved on plates of brass.",
+        "refs": [
+          "Mosiah 1:3"
+        ]
+      },
+      {
+        "text": "He said that without the plates containing records and commandments, they would have suffered in ignorance, not knowing the mysteries of God.",
         "refs": [
           "Mosiah 1:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The father can be shown addressing his sons while teaching them."
+      "A restrained teaching composition may suggest the father addressing his sons, without adding specific actions."
     ],
     "unspecified_visual_details": [
-      "The location, the sons’ ages, clothing, and the plates’ appearance are unspecified.",
-      "The verses do not establish whether the plates are physically present during the teaching."
+      "The location, ages, clothing, physical appearances, and arrangement of the participants are unspecified.",
+      "The plates' dimensions and physical presence during the teaching are not established."
     ],
     "spoken_dialogue": [
       {
@@ -103,11 +109,17 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophecies and the consequences of lacking the plates are subjects of teaching, not separate visible events."
+      "The language education is background reported in the text; do not stage it as a separate lesson occurring simultaneously with this teaching.",
+      "The prophecies and hypothetical ignorance are subjects of teaching, not visible events.",
+      "The quotation reproduces the complete contiguous speech following 'saying:' in Mosiah 1:3."
     ],
     "prohibited_inventions": [
-      "Do not identify the father by a name absent from these verses.",
-      "Do not depict past speakers of prophecy or the delivery of prophecies as present events."
+      "Do not name the father using outside information.",
+      "Do not invent teachers, additional dialogue, or specific instructional actions.",
+      "Do not depict the ancestral fathers or the delivery of prophecies as present events.",
+      "Do not invent a divine appearance.",
+      "Do not depict hypothetical ignorance as an actual event.",
+      "Do not show the father holding or displaying the plates as an established fact."
     ],
     "importance": "normal"
   },
@@ -118,7 +130,7 @@
       "Mosiah 1:4",
       "Mosiah 1:5"
     ],
-    "summary": "An unnamed speaker tells his sons that the plates helped Lehi remember and teach his children. He says the preserved records allow them to read and understand, and warns that without them their fathers would have dwindled in unbelief.",
+    "summary": "A speaker addresses his sons, explaining that the plates helped Lehi remember and teach his children and that preserved records enable understanding of God's mysteries and commandments.",
     "characters": [
       "Unnamed speaker",
       "His sons"
@@ -128,7 +140,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says the plates helped Lehi remember and teach his children, who could teach their children.",
+        "text": "The speaker addresses his sons.",
+        "refs": [
+          "Mosiah 1:5"
+        ]
+      },
+      {
+        "text": "The speaker says the plates helped Lehi remember and teach his children, who could then teach their children.",
         "refs": [
           "Mosiah 1:4"
         ]
@@ -140,7 +158,7 @@
         ]
       },
       {
-        "text": "The speaker addresses his sons and says these things have been kept and preserved by the hand of God.",
+        "text": "The speaker says these things have been kept and preserved by the hand of God.",
         "refs": [
           "Mosiah 1:5"
         ]
@@ -171,19 +189,12 @@
           "Mosiah 1:4"
         ],
         "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "I say unto you, my sons, were it not for these things, which have been kept and preserved by the hand of God,",
-        "refs": [
-          "Mosiah 1:5"
-        ],
-        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "Lehi's teaching and the comparison with the Lamanites are discussed, not narrated as events occurring during this address.",
-      "The fathers' dwindling in unbelief is a conditional warning, not an event that occurred."
+      "The fathers' dwindling in unbelief is conditional, not an event that occurred."
     ],
     "prohibited_inventions": [
       "Do not identify the speaker or sons by names not supplied in these verses.",
@@ -199,7 +210,7 @@
       "Mosiah 1:6",
       "Mosiah 1:7"
     ],
-    "summary": "A father tells his sons that the sayings, records, and plates of Nephi are true. He urges them to search the records diligently and keep God's commandments.",
+    "summary": "A father tells his sons that the sayings and records are true, including the plates of Nephi. He urges them to search the records diligently and keep God's commandments so they may prosper according to the Lord's promises to their fathers.",
     "characters": [
       "Unnamed father",
       "His sons"
@@ -215,13 +226,19 @@
         ]
       },
       {
-        "text": "The plates of Nephi contain records and sayings of their fathers from the time they left Jerusalem until now; the speaker says the plates are true and before their eyes.",
+        "text": "The plates of Nephi contain the records and sayings of their fathers from the time they left Jerusalem until now. The speaker affirms their truth and says they have them before their eyes.",
         "refs": [
           "Mosiah 1:6"
         ]
       },
       {
-        "text": "The speaker urges his sons to search the records diligently and keep the commandments of God.",
+        "text": "The speaker urges his sons to search the records diligently so they may profit thereby.",
+        "refs": [
+          "Mosiah 1:7"
+        ]
+      },
+      {
+        "text": "The speaker urges his sons to keep God's commandments so they may prosper in the land according to the Lord's promises to their fathers.",
         "refs": [
           "Mosiah 1:7"
         ]
@@ -231,26 +248,13 @@
       "The plates may be shown before the speaker and his sons."
     ],
     "unspecified_visual_details": [
-      "The speaker's and sons' names and appearances are unspecified.",
-      "The plates' material and the setting are unspecified."
+      "The speaker's and sons' appearances, clothing, ages, and the number of sons are unspecified.",
+      "The plates' material, dimensions, arrangement, and inscriptions are unspecified.",
+      "The setting and time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "O my sons, I would that ye should remember that these sayings are true, and also that these records are true.",
-        "refs": [
-          "Mosiah 1:6"
-        ],
-        "speaker": "Unnamed father"
-      },
-      {
-        "text": "And now, my sons, I would that ye should remember to search them diligently, that ye may profit thereby;",
-        "refs": [
-          "Mosiah 1:7"
-        ],
-        "speaker": "Unnamed father"
-      },
-      {
-        "text": "and I would that ye should keep the commandments of God,",
+        "text": "And now, my sons, I would that ye should remember to search them diligently, that ye may profit thereby; and I would that ye should keep the commandments of God, that ye may prosper in the land according to the promises which the Lord made unto our fathers.",
         "refs": [
           "Mosiah 1:7"
         ],
@@ -259,12 +263,14 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The promise of prosperity is part of the father's teaching, not a separate visible event."
+      "The promise of prosperity is part of the father's teaching, not a separate visible event.",
+      "The departure from Jerusalem is mentioned as historical context, not narrated as a present event."
     ],
     "prohibited_inventions": [
       "Do not name the speaker or his sons.",
       "Do not depict the departure from Jerusalem or a visible fulfillment of the promise.",
-      "Do not depict a divine figure."
+      "Do not depict a divine figure or place the ancestors physically in the scene.",
+      "Do not show the sons searching the records or otherwise acting on the exhortation as an explicitly supplied event."
     ],
     "importance": "normal"
   },
@@ -318,7 +324,7 @@
         ]
       },
       {
-        "text": "he waxed old",
+        "text": "And it came to pass that after king Benjamin had made an end of teaching his sons, that he waxed old,",
         "refs": [
           "Mosiah 1:9"
         ]
@@ -335,11 +341,11 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "Mosiah Brought Before the Speaker",
+    "title": "Mosiah Receives Instructions",
     "refs": [
       "Mosiah 1:10"
     ],
-    "summary": "Mosiah is brought before a speaker who asks him to proclaim a gathering and says he will proclaim Mosiah king and ruler on the morrow.",
+    "summary": "Mosiah is brought before the unnamed speaker, who instructs him to proclaim a gathering of the people and says he will proclaim Mosiah king and ruler on the morrow.",
     "characters": [
       "Mosiah",
       "Unnamed speaker"
@@ -349,61 +355,63 @@
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah was brought before the speaker.",
+        "text": "The speaker had Mosiah brought before him.",
         "refs": [
           "Mosiah 1:10"
         ]
       },
       {
-        "text": "The speaker asked Mosiah to make a proclamation among the people of Zarahemla and the people of Mosiah so they could gather together.",
+        "text": "The speaker addressed Mosiah as his son.",
         "refs": [
           "Mosiah 1:10"
         ]
       },
       {
-        "text": "The speaker said he would proclaim Mosiah king and ruler on the morrow.",
+        "text": "The speaker instructed Mosiah to make a proclamation throughout the land among the people of Zarahemla and the people of Mosiah so they could gather together.",
+        "refs": [
+          "Mosiah 1:10"
+        ]
+      },
+      {
+        "text": "The speaker said he would personally proclaim Mosiah king and ruler over the people on the morrow.",
         "refs": [
           "Mosiah 1:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah and the speaker may be shown together during the instruction."
+      "Mosiah and the speaker may be shown together while the speaker gives his instructions."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, and manner in which Mosiah was brought before the speaker are unspecified."
+      "The setting, clothing, physical appearances, and manner of Mosiah's arrival are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "My son, I would that ye should make a proclamation throughout all this land among all this people,",
-        "refs": [
-          "Mosiah 1:10"
-        ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "that thereby they may be gathered together;",
-        "refs": [
-          "Mosiah 1:10"
-        ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "for on the morrow I shall proclaim unto this my people out of mine own mouth that thou art a king and a ruler over this people,",
+        "text": "My son, I would that ye should make a proclamation throughout all this land among all this people, or the people of Zarahemla, and the people of Mosiah who dwell in the land, that thereby they may be gathered together;",
         "refs": [
           "Mosiah 1:10"
         ],
         "speaker": "Unnamed speaker"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Therefore, he had Mosiah brought before him;",
+        "refs": [
+          "Mosiah 1:10"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The speaker's proclamation of Mosiah as king is planned for the morrow, not performed in this verse."
+      "The gathering is requested, not narrated as occurring.",
+      "The proclamation of Mosiah as king is planned for the morrow, not performed here.",
+      "The supplied verse does not name the speaker."
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed speaker by name from outside this verse.",
-      "Do not depict the gathering, public proclamation, or coronation as occurring here.",
-      "Do not depict the Lord, who is mentioned but not described as appearing."
+      "Do not give the speaker a name absent from the supplied verse.",
+      "Do not depict a gathering, public proclamation, or coronation as occurring here.",
+      "Do not invent attendants, additional dialogue, or ceremonial objects.",
+      "Do not depict the Lord as appearing; the verse only mentions him."
     ],
     "importance": "normal"
   },
@@ -414,27 +422,26 @@
       "Mosiah 1:11",
       "Mosiah 1:12"
     ],
-    "summary": "An unnamed speaker says he shall give this people a name to distinguish them, citing their diligence in keeping the Lord's commandments. He says the name will never be blotted out except through transgression.",
+    "summary": "The speaker says he shall give this people a name to distinguish them, citing their diligence in keeping the Lord's commandments. He says the name will not be blotted out except through transgression.",
     "characters": [
-      "Unnamed speaker",
-      "This people"
+      "Speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says he shall give this people a name so they may be distinguished above all the people the Lord God brought out of Jerusalem.",
+        "text": "The speaker says he shall give this people a name to distinguish them above the people the Lord God brought out of Jerusalem.",
         "refs": [
           "Mosiah 1:11"
         ]
       },
       {
-        "text": "The speaker says he does this because they have been diligent in keeping the Lord's commandments.",
+        "text": "He says he does this because they have been diligent in keeping the Lord's commandments.",
         "refs": [
           "Mosiah 1:11"
         ]
       },
       {
-        "text": "The speaker says the name will never be blotted out except through transgression.",
+        "text": "He says the name will never be blotted out except through transgression.",
         "refs": [
           "Mosiah 1:12"
         ]
@@ -442,35 +449,40 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance are not given.",
-      "The people's appearance, presence, and location are not specified.",
+      "No location or appearance is specified.",
+      "The people's presence is not established.",
       "The name itself is not given."
     ],
     "spoken_dialogue": [
       {
-        "text": "And moreover, I shall give this people a name, that thereby they may be distinguished above all the people which the Lord God hath brought out of the land of Jerusalem;",
+        "text": "I shall give this people a name,",
         "refs": [
           "Mosiah 1:11"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
+      },
+      {
+        "text": "and this I do because they have been a diligent people in keeping the commandments of the Lord.",
+        "refs": [
+          "Mosiah 1:11"
+        ],
+        "speaker": "Speaker"
       },
       {
         "text": "And I give unto them a name that never shall be blotted out, except it be through transgression.",
         "refs": [
           "Mosiah 1:12"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses give no name to depict or write.",
-      "The statement about the name being blotted out is conditional on transgression."
+      "The blotting out of the name is conditional on transgression, not an event narrated here."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or the people by names absent from these verses.",
-      "Do not invent the name, a setting, or a public naming ceremony.",
-      "Do not depict the conditional blotting out as an event that occurs."
+      "Do not invent the name, a setting, or a naming ceremony.",
+      "Do not portray the people as present or depict the conditional blotting out as occurring."
     ],
     "importance": "normal"
   },
@@ -481,32 +493,31 @@
       "Mosiah 1:13",
       "Mosiah 1:14"
     ],
-    "summary": "A speaker warns that if the favored people fall into transgression, the Lord will deliver them up and no longer preserve them. The speaker says their fathers would have fallen into the hands of the Lamanites without the Lord's preservation.",
+    "summary": "An unidentified speaker warns that if the favored people fall into transgression, the Lord will deliver them up and no longer preserve them. The speaker says their fathers would have fallen into the hands of the Lamanites without the Lord's preservation.",
     "characters": [
       "Unidentified speaker"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says that if the favored people fall into transgression and become wicked and adulterous, the Lord will deliver them up and no longer preserve them as he preserved their fathers.",
+        "text": "The speaker says that if the favored people become wicked and adulterous, the Lord will deliver them up, they will become weak like their brethren, and he will no longer preserve them as he preserved their fathers.",
         "refs": [
           "Mosiah 1:13"
         ]
       },
       {
-        "text": "The speaker says that without the Lord's preservation, their fathers would have fallen into the hands of the Lamanites.",
+        "text": "The speaker says that without the Lord's preservation, their fathers would have fallen into the hands of the Lamanites and become victims to their hatred.",
         "refs": [
           "Mosiah 1:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker is addressing someone, but the addressee is not identified."
+      "The speaker may be shown addressing an audience whose identity is unspecified."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, audience, and location are unspecified."
+      "The speaker's appearance, clothing, posture, and gestures are unspecified.",
+      "The audience's appearance and number, the location, and the time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -526,11 +537,17 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The threatened outcome is conditional, and the reference to the fathers is retrospective; neither is narrated as a present event."
+      "The warning is conditional, not a report that the people have committed these transgressions.",
+      "The fathers' fate without divine preservation is a counterfactual, not an event occurring in this scene.",
+      "These verses do not identify the speaker or addressee.",
+      "The reference to the Lord extending his arm does not describe a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or addressee from outside these verses.",
-      "Do not depict a divine figure, a Lamanite attack, or the conditional warning as an event occurring now."
+      "Do not depict the warned-of transgression or its consequences as occurring.",
+      "Do not stage the fathers' preservation, their hypothetical capture, or a Lamanite attack as a present event.",
+      "Do not depict a visible divine figure or literal divine arm.",
+      "Do not invent identities, biographies, relationships, or additional dialogue for the speaker or audience.",
+      "Do not treat the fathers, brethren, or Lamanites as physically present."
     ],
     "importance": "normal"
   },
@@ -541,7 +558,7 @@
       "Mosiah 1:15",
       "Mosiah 1:16"
     ],
-    "summary": "After finishing his sayings to his son, King Benjamin gives him charge concerning the affairs of the kingdom, the records, the sword of Laban, and the ball or director.",
+    "summary": "After finishing his sayings to his son, King Benjamin gives him charge concerning all the affairs of the kingdom, the records on the plates of brass, the plates of Nephi, the sword of Laban, and the ball or director.",
     "characters": [
       "King Benjamin",
       "King Benjamin's son"
@@ -557,24 +574,25 @@
         ]
       },
       {
-        "text": "He also gave his son charge concerning records engraved on the plates of brass, the plates of Nephi, the sword of Laban, and the ball or director.",
+        "text": "He also gave his son charge concerning the records engraved on the plates of brass, the plates of Nephi, the sword of Laban, and the ball or director.",
         "refs": [
           "Mosiah 1:16"
         ]
       },
       {
-        "text": "The ball or director led their fathers through the wilderness and was prepared by the hand of the Lord.",
+        "text": "The ball or director led \"our fathers through the wilderness\" and was prepared by the hand of the Lord.",
         "refs": [
           "Mosiah 1:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Benjamin and his son may be shown together as Benjamin gives him charge."
+      "Benjamin and his son may be shown together while he gives the charge."
     ],
     "unspecified_visual_details": [
       "The location and the appearances of Benjamin, his son, and the objects are not described.",
-      "The verses do not state that the objects are physically present or handed over."
+      "The verses do not state that the objects are physically present or handed over.",
+      "The son is not named in the supplied verses."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -592,10 +610,9 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The director's journey through the wilderness is described retrospectively, not as an event occurring during this charge."
+      "The wilderness journey is described retrospectively, not as an event occurring during this charge."
     ],
     "prohibited_inventions": [
-      "Do not name the son from outside the supplied verses.",
       "Do not depict a physical handover or a wilderness journey.",
       "Do not invent dialogue or an appearance for the Lord."
     ],
@@ -603,14 +620,12 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "A Recounting of the Journey's Consequences",
+    "title": "A Retrospective Account of the Journey",
     "refs": [
       "Mosiah 1:17"
     ],
-    "summary": "The group was unfaithful, did not prosper or progress in its journey, was driven back, incurred God's displeasure, and suffered famine and sore afflictions intended to remind them of their duty.",
-    "characters": [
-      "Unnamed group mentioned in the account"
-    ],
+    "summary": "The verse recounts that an unnamed group was unfaithful, failed to prosper or progress in its journey, was driven back, incurred God's displeasure, and suffered famine and sore afflictions to remind them of their duty.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
@@ -628,29 +643,16 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The group's identity, journey route, and physical appearance are unspecified.",
+      "The group's identity, appearance, and journey route are unspecified.",
       "No present setting or visible speaker is specified."
     ],
     "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "as they were unfaithful they did not prosper nor progress in their journey, but were driven back,",
-        "refs": [
-          "Mosiah 1:17"
-        ]
-      },
-      {
-        "text": "they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty.",
-        "refs": [
-          "Mosiah 1:17"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This verse recounts past events; it does not establish a present-tense journey scene."
+      "The verse recounts past events rather than establishing an event unfolding in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the recounted journey, famine, or afflictions as happening in the present scene.",
+      "Do not enact the journey, famine, or afflictions as present-tense events.",
       "Do not invent a visible narrator, identify the group, or depict God visibly."
     ],
     "importance": "normal"
@@ -677,7 +679,7 @@
         ]
       },
       {
-        "text": "Mosiah proclaimed to all the people in the land of Zarahemla so they might gather and go up to the temple to hear his father speak.",
+        "text": "Mosiah proclaimed to all the people in the land of Zarahemla so they might gather, go up to the temple, and hear his father speak.",
         "refs": [
           "Mosiah 1:18"
         ]
@@ -687,23 +689,23 @@
       "Mosiah may be shown making a proclamation to people in the land of Zarahemla."
     ],
     "unspecified_visual_details": [
-      "The exact setting, appearance of the people, and manner of proclamation are unspecified."
+      "The exact setting, appearances, and manner of proclamation are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Mosiah went and did as his father had commanded him",
+        "text": "And now, it came to pass that Mosiah went and did as his father had commanded him, and proclaimed unto all the people who were in the land of Zarahemla that thereby they might gather themselves together, to go up to the temple to hear the words which his father should speak unto them.",
         "refs": [
           "Mosiah 1:18"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The gathering, visit to the temple, and father’s speech are stated as purposes of the proclamation, not events completed in this verse."
+      "Gathering, going to the temple, and hearing his father speak are purposes of the proclamation, not completed events in this verse."
     ],
     "prohibited_inventions": [
       "Do not depict the temple gathering or the father’s speech as occurring in this scene.",
-      "Do not assign a name, title, or visible appearance to Mosiah’s father based on this verse.",
+      "Do not depict Mosiah’s father as present or invent his appearance.",
       "Do not invent words for Mosiah’s proclamation."
     ],
     "importance": "normal"

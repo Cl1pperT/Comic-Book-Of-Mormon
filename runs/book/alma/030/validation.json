@@ -1,11 +1,9 @@
 {
-  "stamp": "05a21f8472545e0c67d9fa47bc913addbfb67baf33d56023f95c80a8607a9908",
+  "stamp": "d7fd69056351d0106ef70cbf20f76a0f3d5431c5a47f20584b126e8e1e1810f6",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "The character label “Lamanites (2 Nephi era)” misidentifies the Lamanites in this Alma-era scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -20,16 +18,20 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The preacher is Korihor, identified in the supplied Alma 30:12 and the preceding scene. The character label and note incorrectly claim his name is not supplied."
+      ]
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 30:21 does not identify who carries Korihor out of Jershon; do not depict the listed people of Ammon as his escorts without qualification."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -80,14 +82,14 @@
       "issues": []
     },
     "scene_020": {
-      "status": "REJECT",
-      "issues": [
-        "The character label “people of Zarahemla (Mulekites)” assigns an identity not established by these verses; the text only refers to the people in the land."
-      ]
-    },
-    "scene_021": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_021": {
+      "status": "REJECT",
+      "issues": [
+        "Alma 30:59 names Zoram as the Zoramites’ leader but does not place him at Korihor’s death. Listing him as a scene character implies an unsupported appearance."
+      ]
     }
   }
 }

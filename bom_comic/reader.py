@@ -87,12 +87,14 @@ def flag(store, panel_id, note):
 
 def overview(store):
     """Every assembled chapter with its size and flags, for the chapter picker and the book-wide flag list."""
+    from .redraw import redrawn  # redraw builds on this module
     out = []
     for chapter_id, chapter in chapters(store).items():
         manifest = chapter.read("final/manifest.json")
         panels = [Panel.model_validate(p) for p in manifest["panels"]]
         out.append({"id": chapter_id, "title": title(chapter, chapter_id), "pages": len({p.page for p in panels}),
-                    "panels": {p.panel_id: _ref_range(p.refs) for p in panels}, "flags": flags(chapter)})
+                    "panels": {p.panel_id: _ref_range(p.refs) for p in panels}, "flags": flags(chapter),
+                    "redrawn": redrawn(chapter)})
     return out
 
 
@@ -130,8 +132,9 @@ def serve(store, port=8765, open_browser=True):
                 elif url.path == "/chapters":
                     self.send_json(overview(store))
                 elif url.path == "/data":
+                    from .redraw import redrawn
                     run = chapter(query)
-                    self.send_json({**draft(run), "flags": flags(run)})
+                    self.send_json({**draft(run), "flags": flags(run), "redrawn": redrawn(run)})
                 elif url.path.startswith("/page/") and url.path[6:].isdigit():
                     page = chapter(query).path(f"pages/page_{int(url.path[6:]):03d}.png")
                     if page.exists():

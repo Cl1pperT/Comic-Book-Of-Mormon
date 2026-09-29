@@ -1,23 +1,23 @@
 {
-  "stamp": "2d5b8ffdb1559a08e11ed587779404fb8e9c97a41de7a1c6bf41c019c8562b57",
+  "stamp": "40f0556a88b0b50a00ddeedbe356685be06b67e394b26aeb5797200915a1546a",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene presents work across twenty-two years; ensure it is conveyed as a period, not one simultaneous moment."
+      ]
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse identifies these as Zeniff’s spies, but does not explicitly identify them as Nephite."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -28,10 +28,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The north of Shilom is stated for the Lamanite advance in the preceding verse, not explicitly for this battle scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
@@ -54,22 +52,16 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The battle’s location north of Shilom is inferred from the preceding account; verse 19 does not specify it."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Their land” is stated, but identifying it specifically as the land of Shilom relies on prior context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "The character label “Nephite settlers (2 Nephi)” assigns the people to an unrelated, unestablished group; the verse identifies them only as Zeniff’s people."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

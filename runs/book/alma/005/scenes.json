@@ -235,9 +235,9 @@
       "Alma 5:12",
       "Alma 5:13"
     ],
-    "summary": "The speaker asks about salvation and says his father Alma believed Abinadi's words. He says a mighty change was wrought in his father's heart and that his father preached to their fathers, who humbled themselves, trusted God, remained faithful, and were saved.",
+    "summary": "The speaker asks about salvation and recalls his father Alma's belief in Abinadi's words and subsequent change of heart. He recounts his father's preaching to the listeners' fathers, who humbled themselves, trusted in God, remained faithful until the end, and were saved.",
     "characters": [
-      "Alma's child (unnamed speaker)"
+      "Speaker"
     ],
     "locations": [],
     "explicit_facts": [
@@ -248,19 +248,19 @@
         ]
       },
       {
-        "text": "The speaker says his father Alma believed words delivered by Abinadi, whom the speaker calls a holy prophet.",
+        "text": "The speaker identifies Alma as his father and recalls his belief in the words delivered by Abinadi, described as a holy prophet.",
         "refs": [
           "Alma 5:11"
         ]
       },
       {
-        "text": "According to his faith, a mighty change was wrought in the speaker's father's heart.",
+        "text": "According to his father's faith, a mighty change was wrought in his heart.",
         "refs": [
           "Alma 5:12"
         ]
       },
       {
-        "text": "The speaker says his father preached to their fathers, who humbled themselves, trusted in God, remained faithful to the end, and were saved.",
+        "text": "His father preached to the listeners' fathers, who experienced a mighty change in their hearts, humbled themselves, trusted in the true and living God, and were faithful until the end; therefore they were saved.",
         "refs": [
           "Alma 5:13"
         ]
@@ -270,8 +270,8 @@
       "The speaker addresses listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's appearance and surroundings.",
-      "The number and appearance of the listeners."
+      "The speaker's appearance, clothing, and gestures.",
+      "The setting and the number and appearance of listeners."
     ],
     "spoken_dialogue": [
       {
@@ -279,40 +279,44 @@
         "refs": [
           "Alma 5:10"
         ],
-        "speaker": "Alma's child (unnamed speaker)"
+        "speaker": "Speaker"
       },
       {
-        "text": "Behold, I can tell you—did not my father Alma believe in the words which were delivered by the mouth of Abinadi?",
+        "text": "Did he not speak the words of God, and my father Alma believe them?",
         "refs": [
           "Alma 5:11"
         ],
-        "speaker": "Alma's child (unnamed speaker)"
+        "speaker": "Speaker"
       },
       {
         "text": "And according to his faith there was a mighty change wrought in his heart.",
         "refs": [
           "Alma 5:12"
         ],
-        "speaker": "Alma's child (unnamed speaker)"
+        "speaker": "Speaker"
       },
       {
         "text": "And behold, they were faithful until the end; therefore they were saved.",
         "refs": [
           "Alma 5:13"
         ],
-        "speaker": "Alma's child (unnamed speaker)"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The father's belief and preaching, and the fathers' response, are reported past events rather than action occurring during this address.",
-      "The change of heart is described, not shown as a literal visible transformation.",
-      "The supplied verses identify the speaker's father as Alma but do not state the speaker's name."
+      "Alma 5:11 explicitly names the speaker's father Alma, not the speaker. The supplied verses do not establish the speaker's name.",
+      "The father's belief and preaching and the listeners' fathers' response are reported past events, not present action.",
+      "Changes of heart and release from the bands of death and chains of hell are teachings, not explicitly described visible transformations.",
+      "This scene covers only Alma 5:10–13. No direct transition to scene_007 is established; verses 14–16 are not supplied and cannot be reconstructed here."
     ],
     "prohibited_inventions": [
-      "Do not stage Abinadi's preaching or the reported conversions as present action.",
-      "Do not depict the bands of death or chains of hell as literal visible objects.",
-      "Do not assign an unsupported location, appearance, or name to the speaker or listeners."
+      "Do not identify the unnamed speaker as Alma using his father's name.",
+      "Do not stage the reported historical events as present action or combine their separate times.",
+      "Do not depict literal supernatural changes of hearts, bands of death, or chains of hell.",
+      "Do not depict God or historical figures as visibly present.",
+      "Do not invent content for verses 14–16 or imply that this scene directly precedes scene_007.",
+      "Do not present unspecified appearances or locations as source-established facts."
     ],
     "importance": "normal"
   },
@@ -326,13 +330,13 @@
     ],
     "summary": "The speaker asks his brethren of the church about spiritual change, faith in redemption, resurrection, and judgment. He asks them to imagine hearing the Lord commend righteous works.",
     "characters": [
-      "unnamed speaker",
+      "speaker not named in the supplied verses",
       "brethren of the church"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker asks his brethren of the church whether they have been spiritually born of God, received his image in their countenances, and experienced a mighty change in their hearts.",
+        "text": "The speaker addresses his brethren of the church and asks whether they have been spiritually born of God, received his image in their countenances, and experienced a mighty change in their hearts.",
         "refs": [
           "Alma 5:14"
         ]
@@ -344,95 +348,124 @@
         ]
       },
       {
-        "text": "He asks them to imagine hearing the Lord commend righteous works in that day.",
+        "text": "He asks his listeners to imagine hearing the voice of the Lord commend righteous works.",
         "refs": [
           "Alma 5:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses people he calls his brethren of the church."
+      "A speaker addresses listeners he calls his brethren of the church."
     ],
     "unspecified_visual_details": [
-      "The location and appearance of the speaker and his listeners.",
+      "The setting, clothing, and physical appearances of the speaker and listeners.",
       "The listeners’ responses."
     ],
     "spoken_dialogue": [
+      {
+        "text": "have ye spiritually been born of God?",
+        "refs": [
+          "Alma 5:14"
+        ],
+        "speaker": "speaker not named in the supplied verses"
+      },
       {
         "text": "I say unto you, can you imagine to yourselves that ye hear the voice of the Lord, saying unto you, in that day: Come unto me ye blessed, for behold, your works have been the works of righteousness upon the face of the earth?",
         "refs": [
           "Alma 5:16"
         ],
-        "speaker": "unnamed speaker"
+        "speaker": "speaker not named in the supplied verses"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s words are part of a question about an imagined future hearing, not a present appearance.",
-      "The questions about spiritual change and resurrection do not narrate visible events."
+      "The Lord’s words are presented within a question about an imagined future hearing, not as a present appearance or a separate speaker in this scene.",
+      "The questions about spiritual change and resurrection do not narrate visible events.",
+      "The supplied verses do not identify the speaker by name."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord, a resurrection, or a judgment scene as visibly occurring.",
-      "Do not assign the speaker a name or specify a location from these verses."
+      "Do not assign the speaker a name or specify a location from these verses.",
+      "Do not invent listener responses or depict spiritual rebirth, changed hearts, or God's image as literal visible transformations."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_007",
-    "title": "Imagining the day of judgment",
+    "title": "Questions about judgment and salvation",
     "refs": [
       "Alma 5:17",
       "Alma 5:18",
       "Alma 5:19",
       "Alma 5:20"
     ],
-    "summary": "Alma asks whether his listeners imagine lying to the Lord or being brought before God's tribunal with guilt, and whether they can look up with pure hearts and clean hands or expect salvation after yielding to the devil.",
+    "summary": "The speaker questions the listeners about falsely claiming righteous works, imagining judgment with guilt, looking up to God with purity, and expecting salvation after yielding to the devil.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "Listeners addressed by the speaker"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks whether his listeners imagine claiming righteous works falsely before the Lord.",
+        "text": "The speaker asks whether the listeners imagine lying to the Lord about their works and being saved.",
         "refs": [
           "Alma 5:17"
         ]
       },
       {
-        "text": "He asks whether they imagine being brought before God's tribunal with guilt and remembrance of wickedness.",
+        "text": "The speaker asks whether they imagine appearing before God's tribunal with guilt, remorse, and remembrance of defying God's commandments.",
         "refs": [
           "Alma 5:18"
         ]
       },
       {
-        "text": "He asks if they can look up to God with a pure heart, clean hands, and God's image in their countenances.",
+        "text": "The speaker asks whether they can look up to God with a pure heart, clean hands, and God's image engraven upon their countenances.",
         "refs": [
           "Alma 5:19"
         ]
       },
       {
-        "text": "He asks whether they can be saved after yielding themselves as subjects to the devil.",
+        "text": "The speaker questions expecting salvation after yielding to become subjects to the devil.",
         "refs": [
           "Alma 5:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma delivers the questions to his audience in Zarahemla."
+      "A restrained depiction of a speaker addressing listeners can represent the direct address."
     ],
     "unspecified_visual_details": [
-      "The appearance of God, the tribunal, the devil, and any imagined future setting."
+      "The speaker's identity, appearance, clothing, and gestures.",
+      "The listeners' identities, number, appearance, and reactions.",
+      "The location, setting, and time of day."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "I say unto you, can ye look up to God at that day with a pure heart and clean hands? I say unto you, can you look up, having the image of God engraven upon your countenances?",
+        "refs": [
+          "Alma 5:19"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "I say unto you, can ye think of being saved when you have yielded yourselves to become subjects to the devil?",
+        "refs": [
+          "Alma 5:20"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These are rhetorical questions and imagined judgment, not narrated visible events."
+      "The questions describe imagined judgment and moral conditions, not events occurring visibly.",
+      "These supplied verses do not identify the speaker or location.",
+      "Treat this as an excerpt beginning at verse 17, not an uninterrupted continuation from verse 13. Verses 14–16 are not supplied and cannot be reconstructed."
     ],
     "prohibited_inventions": [
-      "Do not show God, the devil, or a tribunal."
+      "Do not depict an actual judgment, divine tribunal, appearance of God, or appearance of the devil.",
+      "Do not literalize God's image engraven upon countenances or visualize inner guilt as supernatural phenomena.",
+      "Do not identify the speaker as Alma, assign a priestly office, or identify the listeners or location from outside these verses.",
+      "Do not invent preceding events, transitions, audience responses, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -659,61 +692,75 @@
       "Alma 5:35",
       "Alma 5:36"
     ],
-    "summary": "Alma describes an invitation to repent and come, partake of the fruit of the tree of life and the bread and waters of life, and bring forth righteous works; those who do not bring forth good fruit have cause to mourn.",
-    "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
-    ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "summary": "An invitation to all men calls them to repent, come, and bring forth works of righteousness. It promises the fruit of the tree of life and the bread and waters of life, and warns that those who do not bring forth good fruit or works of righteousness have cause to mourn.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says the Lord invites all people, with arms of mercy extended, to repent and be received.",
+        "text": "He sends an invitation to all men; the arms of mercy are described as extended toward them.",
         "refs": [
           "Alma 5:33"
         ]
       },
       {
-        "text": "The invitation offers the fruit of the tree of life and the bread and waters of life freely.",
+        "text": "The invitation calls people to come and partake of the fruit of the tree of life and of the bread and waters of life freely.",
         "refs": [
           "Alma 5:34"
         ]
       },
       {
-        "text": "Those who come and bring forth righteous works will not be hewn down and cast into the fire.",
+        "text": "Those who come and bring forth works of righteousness are promised they will not be hewn down and cast into the fire.",
         "refs": [
           "Alma 5:35"
         ]
       },
       {
-        "text": "Those who do not bring forth good fruit or righteous works have cause to wail and mourn.",
+        "text": "Those who do not bring forth good fruit or works of righteousness have cause to wail and mourn.",
         "refs": [
           "Alma 5:36"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma continues the sermon to his listeners."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any literal tree, fruit, bread, water, fire, or extended divine arms."
+      "No visible speaker or setting is specified.",
+      "The verses do not describe a visible tree, fruit, bread, water, fire, or divine arms."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Repent, and I will receive you.",
+        "text": "he sendeth an invitation unto all men",
         "refs": [
           "Alma 5:33"
-        ],
-        "speaker": "The Lord (quoted by Alma)"
+        ]
+      },
+      {
+        "text": "Come unto me and ye shall partake of the fruit of the tree of life;",
+        "refs": [
+          "Alma 5:34"
+        ]
+      },
+      {
+        "text": "bring forth works of righteousness",
+        "refs": [
+          "Alma 5:35"
+        ]
+      },
+      {
+        "text": "the same have cause to wail and mourn.",
+        "refs": [
+          "Alma 5:36"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The tree, food, fire, and arms of mercy function as teachings and imagery here, not narrated visible events."
+      "The invitation is reported and attributed to “he”; the verses do not narrate a visible speaker delivering it.",
+      "The arms of mercy, tree of life, bread and waters of life, and fire occur in the invitation and warning, not as narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal tree of life, divine arms, or people being cast into fire."
+      "Do not identify or physically depict the invitation’s attributed speaker based on these verses alone.",
+      "Do not invent a present-tense speaking scene or a location.",
+      "Do not literalize the invitation’s imagery."
     ],
     "importance": "normal"
   },
@@ -994,63 +1041,65 @@
       "Alma 5:50",
       "Alma 5:51"
     ],
-    "summary": "The speaker reports the Spirit's call to repent, speaks of the Son of God's future coming, and recounts the Spirit's command to tell this people to repent.",
+    "summary": "The speaker reports the Spirit's call to repentance, declares the Son of God's coming, and recounts the Spirit's command to warn the people that without repentance they cannot inherit the kingdom of heaven.",
     "characters": [
-      "Unidentified speaker",
-      "The speaker's beloved brethren"
+      "The speaker",
+      "Listeners addressed as beloved brethren"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the Spirit calls all the ends of the earth to repent because the kingdom of heaven is soon at hand.",
+        "text": "The speaker reports the Spirit's call for all the ends of the earth to repent because the kingdom of heaven is soon at hand.",
         "refs": [
           "Alma 5:50"
         ]
       },
       {
-        "text": "The speaker says the Son of God will come in glory, might, majesty, power, and dominion.",
+        "text": "The speaker declares that the Son of God comes in glory, might, majesty, power, and dominion, and that the King of heaven shall very soon shine forth among the children of men.",
         "refs": [
           "Alma 5:50"
         ]
       },
       {
-        "text": "The speaker says the Spirit commanded him to tell this people to repent or they cannot inherit the kingdom of heaven.",
+        "text": "The speaker addresses his beloved brethren.",
+        "refs": [
+          "Alma 5:50"
+        ]
+      },
+      {
+        "text": "The speaker reports that the Spirit cried to him with a mighty voice, commanding him to tell the people to repent because otherwise they cannot inherit the kingdom of heaven.",
         "refs": [
           "Alma 5:51"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker addresses listeners he calls his beloved brethren."
+      "The speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The setting and the appearances of the speaker and listeners are not stated.",
-      "No appearance of the Spirit or the Son of God is described in these verses."
+      "The location, clothing, physical appearances, and arrangement of listeners are unspecified.",
+      "No visible appearance of the Spirit or the Son of God is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "Yea, thus saith the Spirit: Repent, all ye ends of the earth, for the kingdom of heaven is soon at hand;",
-        "refs": [
-          "Alma 5:50"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "Go forth and say unto this people—Repent, for except ye repent ye can in nowise inherit the kingdom of heaven.",
+        "text": "And also the Spirit saith unto me, yea, crieth unto me with a mighty voice, saying: Go forth and say unto this people—Repent, for except ye repent ye can in nowise inherit the kingdom of heaven.",
         "refs": [
           "Alma 5:51"
         ],
-        "speaker": "The Spirit, quoted by the unidentified speaker"
+        "speaker": "The speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Son of God's coming is described as future, not as an event occurring in this scene."
+      "The Spirit's words remain within the speaker's report, not a separate audible performance by the Spirit.",
+      "The proclaimed coming is not narrated as a visible event occurring before the listeners.",
+      "The supplied verse text does not itself state the speaker's name or office."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or specify a location from these verses alone.",
-      "Do not depict the Spirit or the Son of God as visibly present.",
-      "Do not stage the future coming or the reported command as a separate present event."
+      "Do not introduce a separate present Spirit speaker or stage the reported command as a new event.",
+      "Do not depict the Spirit, the Son of God, or the King of heaven appearing visibly.",
+      "Do not stage the future coming or shining forth as a present supernatural event.",
+      "Do not invent a location, additional dialogue, or listener reactions."
     ],
     "importance": "normal"
   },

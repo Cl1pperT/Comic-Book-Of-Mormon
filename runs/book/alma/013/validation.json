@@ -1,5 +1,5 @@
 {
-  "stamp": "dee1a5b0bd96329fb0d0514bbbbdc3d0fd28551d421134e0643db770a121a393",
+  "stamp": "0e46626e2d4dfa10cb8c58c7914caf2411e97f8e71f72500e3f50014cd200937",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,10 +10,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary presents the high-priesthood teaching as a description of ordination, but no present ordination is narrated; keep it clearly doctrinal rather than depicting an event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -24,35 +22,24 @@
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The dialogue excerpts from verses 14–15 are fragmented and not verbatim contiguous quotations: the selected verse text is interrupted by omitted words. Under the quotation rule, use shorter exact excerpts.",
-        "A single scene risks conflating the speaker's present appeal with the historical references to Melchizedek and Abraham; neither historical figure's presence nor a tithe-payment scene is established."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary's 'later repented' and 'established peace' are source-supported outcomes, but the scene must remain focused on preaching; do not depict those later outcomes simultaneously."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "The dialogue paraphrases verse 20, although speech must be quoted verbatim; replace it with contiguous exact excerpts.",
-        "The summary says the unidentified man was unnamed, but verse 19 does not establish that he is unnamed; it only uses 'him'."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The spoken dialogue is an incomplete clause ending in a semicolon; use a complete contiguous exact excerpt or a short exact excerpt without altering source punctuation.",
-        "The title adds a call to repentance that is only Alma's quoted words, while the summary omits that speech and overemphasizes the gesture."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

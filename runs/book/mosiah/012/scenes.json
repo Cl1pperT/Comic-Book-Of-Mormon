@@ -58,7 +58,7 @@
       "Mosiah 12:2",
       "Mosiah 12:3"
     ],
-    "summary": "A speaker reports the Lord's command to prophesy and warns of this generation's future suffering and the future value of king Noah's life.",
+    "summary": "The speaker reports the Lord's command to prophesy that this generation will suffer because of their iniquities. The prophecy compares the value of king Noah's life to a garment in a hot furnace.",
     "characters": [
       "Unnamed speaker"
     ],
@@ -67,40 +67,34 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says the Lord told him to stretch forth his hand and prophesy.",
+        "text": "The speaker reports that the Lord commanded him to stretch forth his hand and prophesy.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The prophecy says this generation will be brought into bondage, struck, driven, slain, and devoured by animals.",
+        "text": "The prophecy declares that this generation, because of their iniquities, will be brought into bondage, smitten on the cheek, driven by men, and slain; vultures, dogs, and wild beasts will devour their flesh.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The prophecy compares the future value of king Noah's life to a garment in a hot furnace.",
+        "text": "The prophecy says king Noah's life will be valued as a garment in a hot furnace and that he will know the Lord.",
         "refs": [
           "Mosiah 12:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may stretch forth his hand while prophesying."
+      "The unnamed speaker may be shown delivering the warning without depicting its predicted events."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, audience, and location are not stated in the supplied verses."
+      "The speaker's name, appearance, clothing, posture, and surroundings are unspecified.",
+      "The audience's identity, composition, and physical presence are not established."
     ],
     "spoken_dialogue": [
       {
         "text": "Yea, wo be unto this generation!",
-        "refs": [
-          "Mosiah 12:2"
-        ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "this generation, because of their iniquities, shall be brought into bondage",
         "refs": [
           "Mosiah 12:2"
         ],
@@ -116,14 +110,18 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's command is reported; no divine appearance is described.",
-      "The furnace comparison is figurative, not a narrated visible event.",
-      "The supplied verses do not name the speaker, so the scene does not assign a name."
+      "The Lord's command is reported speech, not a narrated divine appearance.",
+      "The predicted suffering is future prophecy, not action occurring in this scene.",
+      "The garment in a hot furnace is a comparison, not a narrated visible event.",
+      "These verses do not name the speaker or identify the generation as Noah's people.",
+      "The command to stretch forth a hand does not explicitly establish that the gesture was performed."
     ],
     "prohibited_inventions": [
-      "Do not depict the predicted bondage, violence, animal feeding, or furnace as occurring in this scene.",
+      "Do not name the speaker Abinadi using information outside the supplied verses.",
+      "Do not invent an audience or label a group Noah's people.",
       "Do not depict the Lord or king Noah as physically present.",
-      "Do not assign the speaker a name based on material outside the supplied verses."
+      "Do not stage the reported divine command as a separate encounter.",
+      "Do not depict bondage, violence, animal feeding, or a furnace event as occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -254,10 +252,9 @@
       "Mosiah 12:7",
       "Mosiah 12:8"
     ],
-    "summary": "Abinadi prophesies a great pestilence because of the people's iniquities and abominations. He warns of their destruction unless they repent, says they will leave a record behind them, and speaks of preserving them for other nations. He prophesies many things against this people.",
+    "summary": "The prophecy foretells a great pestilence, destruction unless the people repent, and a record they will leave behind. Abinadi prophesied many things against this people.",
     "characters": [
-      "Abinadi",
-      "the people"
+      "Abinadi (mentioned in narration)"
     ],
     "locations": [
       "Unspecified location"
@@ -270,13 +267,13 @@
         ]
       },
       {
-        "text": "The prophecy warns that the people will be destroyed unless they repent.",
+        "text": "The prophecy threatens utter destruction unless the people repent.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "The prophecy says the people will leave a record behind them and that they will be preserved for other nations which shall possess the land.",
+        "text": "The people will leave a record behind them. The prophecy promises preservation for other nations that will possess the land, to disclose this people's abominations.",
         "refs": [
           "Mosiah 12:8"
         ]
@@ -289,30 +286,28 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi can be shown speaking as he prophesies."
+      "A text-led presentation can convey the prophecy without staging its predicted events or reenacting the summarized prophesying."
     ],
     "unspecified_visual_details": [
+      "Typography and background design",
       "Abinadi's appearance",
-      "The appearance and size of any audience",
-      "The location and surroundings"
+      "Location and surroundings",
+      "Audience presence and composition"
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
         "text": "And they shall be smitten with a great pestilence—and all this will I do because of their iniquities and abominations.",
         "refs": [
           "Mosiah 12:7"
-        ],
-        "speaker": "Abinadi"
+        ]
       },
       {
-        "text": "yet they shall leave a record behind them, and I will preserve them for other nations which shall possess the land;",
+        "text": "yet they shall leave a record behind them,",
         "refs": [
           "Mosiah 12:8"
-        ],
-        "speaker": "Abinadi"
-      }
-    ],
-    "narration": [
+        ]
+      },
       {
         "text": "And many things did Abinadi prophesy against this people.",
         "refs": [
@@ -321,14 +316,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The pestilence, conditional destruction, and preservation are foretold, not narrated as events occurring in this scene.",
-      "The verse says the people will leave a record and says “I will preserve them”; it does not say the record will be preserved.",
-      "Do not depict a divine figure; no appearance is described."
+      "The pestilence, conditional destruction, and leaving of a record are foretold, not narrated as occurring here.",
+      "The object of preservation is expressed as 'them'; do not resolve that wording into an explicit statement that the record will be preserved.",
+      "Abinadi's many prophecies are summarized; do not invent their additional contents or stage a separate present-tense event."
     ],
     "prohibited_inventions": [
-      "Do not show the foretold pestilence, destruction, or preservation as present events.",
-      "Do not invent a record being written or discovered in this moment.",
-      "Do not assign names or biographies to the people."
+      "Do not depict the foretold events as happening now.",
+      "Do not show a record being written, preserved, or discovered.",
+      "Do not depict a divine figure whose appearance is not described.",
+      "Do not invent an audience, its reactions, names, or biographies.",
+      "Do not invent additional speech or prophetic actions."
     ],
     "importance": "normal"
   },
@@ -385,7 +382,7 @@
       "Mosiah 12:11",
       "Mosiah 12:12"
     ],
-    "summary": "A speaker reports that a man prophesies evil concerning the addressee's life, compares the addressee to a dry stalk and thistle blossoms, and says these things will come unless the addressee repents.",
+    "summary": "A speaker reports another person's prophecy concerning the addressee's life, its comparisons, and a warning that the predicted things will come unless the addressee repents.",
     "characters": [
       "Unidentified speaker",
       "Unidentified addressee"
@@ -393,30 +390,36 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker reports that a man prophesies evil concerning the addressee's life and compares that life to a garment in a furnace of fire.",
+        "text": "The speaker reports that another person prophesies evil concerning the addressee's life and compares that life to a garment in a furnace of fire.",
         "refs": [
           "Mosiah 12:10"
         ]
       },
       {
-        "text": "The speaker reports a comparison to a dry stalk run over and trodden underfoot by beasts.",
+        "text": "The speaker reports a comparison to a dry stalk trodden underfoot by beasts.",
         "refs": [
           "Mosiah 12:11"
         ]
       },
       {
-        "text": "The speaker reports a comparison to thistle blossoms driven by wind, claims the man pretends the Lord has spoken, and says these things will come unless the addressee repents because of iniquities.",
+        "text": "The speaker reports a comparison to thistle blossoms driven by wind.",
+        "refs": [
+          "Mosiah 12:12"
+        ]
+      },
+      {
+        "text": "The speaker says the other person pretends the Lord has spoken and says these things will come upon the addressee unless the addressee repents, because of the addressee's iniquities.",
         "refs": [
           "Mosiah 12:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses another person."
+      "A speaker addresses someone."
     ],
     "unspecified_visual_details": [
-      "The speaker's and addressee's identities and appearances are unspecified.",
-      "The location is unspecified."
+      "The supplied verses do not identify the speaker or addressee.",
+      "Their appearances and the location are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -427,14 +430,21 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "even as a dry stalk of the field,",
+        "text": "thy life shall be as a garment in a furnace of fire.",
+        "refs": [
+          "Mosiah 12:10"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "thou shalt be as a stalk, even as a dry stalk of the field,",
         "refs": [
           "Mosiah 12:11"
         ],
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "And again, he saith thou shalt be as the blossoms of a thistle,",
+        "text": "he saith thou shalt be as the blossoms of a thistle,",
         "refs": [
           "Mosiah 12:12"
         ],
@@ -448,7 +458,7 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "And he saith all this shall come upon thee except thou repent, and this because of thine iniquities.",
+        "text": "And he saith all this shall come upon thee except thou repent,",
         "refs": [
           "Mosiah 12:12"
         ],
@@ -457,13 +467,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The comparisons are reported prophecy, not events occurring in the scene.",
-      "The claim that the Lord has spoken is attributed to the speaker, who says the man pretends it."
+      "The garment, stalk, and thistle are comparisons in a reported prophecy, not events occurring in the scene.",
+      "The claim about the Lord is attributed to the speaker."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker, addressee, or man being reported from these verses alone.",
-      "Do not depict the furnace, stalk, beasts, or thistle as literal events.",
-      "Do not place the man being reported physically in the scene."
+      "Do not identify the speaker, addressee, or person being reported from these verses alone.",
+      "Do not depict the comparisons as literal events.",
+      "Do not place the person being reported or the Lord physically in the scene."
     ],
     "importance": "normal"
   },
@@ -533,10 +543,10 @@
       "Mosiah 12:15",
       "Mosiah 12:16"
     ],
-    "summary": "Speakers declare that they are strong and will not be taken captive. They say the person they address has prospered and will prosper, then deliver a man into that person's hands.",
+    "summary": "Unnamed speakers declare that they are strong and will not be taken captive. They tell the person addressed that he has prospered and will prosper, then deliver a man into his hands.",
     "characters": [
+      "Unnamed speakers",
       "The man",
-      "Those delivering him",
       "The person addressed"
     ],
     "locations": [],
@@ -554,7 +564,7 @@
         ]
       },
       {
-        "text": "The speakers deliver a man into the hands of the person addressed and say that person may do with him as seems good.",
+        "text": "The speakers deliver a man into the hands of the person addressed and say he may do with the man as seems good to him.",
         "refs": [
           "Mosiah 12:16"
         ]
@@ -583,9 +593,11 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied verses do not name the man, the speakers, or the person addressed."
+    ],
     "prohibited_inventions": [
-      "Do not identify the man, speakers, or person addressed by name or title.",
+      "Do not assign names or titles to the people in this scene from context outside the supplied verses.",
       "Do not depict the man as bound or invent a response or decision by the person addressed."
     ],
     "importance": "normal"
@@ -801,121 +813,117 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Quoted Words of Good Tidings",
+    "title": "Words of Good Tidings and Zion",
     "refs": [
       "Mosiah 12:21",
       "Mosiah 12:22"
     ],
-    "summary": "The priest quotes words about the messenger of good tidings and watchmen seeing eye to eye when the Lord brings Zion again.",
-    "characters": [
-      "Abinadi",
-      "King Noah's priests"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The words praise one who brings good tidings, publishes peace and salvation, and announces that God reigns. They say the watchmen will sing together and see eye to eye when the Lord brings Zion again.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The quoted passage speaks of beautiful feet bringing good tidings, publishing peace and salvation, and announcing that God reigns.",
+        "text": "The words praise one who brings good tidings, publishes peace and salvation, and tells Zion that God reigns.",
         "refs": [
           "Mosiah 12:21"
         ]
       },
       {
-        "text": "It says watchmen will lift their voices and sing together, seeing eye to eye when the Lord brings Zion again.",
+        "text": "The watchmen will lift their voices, sing together, and see eye to eye when the Lord brings Zion again.",
         "refs": [
           "Mosiah 12:22"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The passage is spoken aloud by the priest in the questioning scene."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The messenger, mountains, watchmen, and Zion are quoted imagery, not described as presently visible."
+      "No present setting or visible speaker is identified.",
+      "The appearance of the messenger, watchmen, mountains, and Zion is unspecified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "How beautiful upon the mountains are the feet of him that bringeth good tidings; that publisheth peace; that bringeth good tidings of good; that publisheth salvation; that saith unto Zion, Thy God reigneth;",
+        "text": "that publisheth salvation; that saith unto Zion, Thy God reigneth;",
         "refs": [
           "Mosiah 12:21"
-        ],
-        "speaker": "One of the priests"
+        ]
       },
       {
-        "text": "Thy watchmen shall lift up the voice; with the voice together shall they sing; for they shall see eye to eye when the Lord shall bring again Zion;",
+        "text": "Thy watchmen shall lift up the voice; with the voice together shall they sing;",
         "refs": [
           "Mosiah 12:22"
-        ],
-        "speaker": "One of the priests"
+        ]
+      },
+      {
+        "text": "for they shall see eye to eye when the Lord shall bring again Zion;",
+        "refs": [
+          "Mosiah 12:22"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "Keep the quoted imagery as off-screen recitation, not a literal scene."
+      "Treat the messenger and watchmen as figures in the quoted words, not as events visibly occurring now."
     ],
     "prohibited_inventions": [
-      "Do not show the messenger, watchmen, mountains, or Zion as an event happening now."
+      "Do not assign these words to a speaker not identified in the supplied verses.",
+      "Do not depict the messenger, watchmen, or the Lord as presently appearing."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Jerusalem and Salvation in the Quoted Passage",
+    "title": "Joy and Salvation in the Quoted Passage",
     "refs": [
       "Mosiah 12:23",
       "Mosiah 12:24"
     ],
-    "summary": "The priest continues quoting words of joy, comfort, redemption, and salvation witnessed by all nations.",
-    "characters": [
-      "Abinadi",
-      "King Noah's priests"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The passage calls the waste places of Jerusalem to rejoice, says the Lord has comforted his people and redeemed Jerusalem, and says all the ends of the earth shall see God's salvation.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The passage calls the waste places of Jerusalem to rejoice and says the Lord comforted his people and redeemed Jerusalem.",
+        "text": "The passage calls the waste places of Jerusalem to rejoice and says the Lord has comforted his people and redeemed Jerusalem.",
         "refs": [
           "Mosiah 12:23"
         ]
       },
       {
-        "text": "The passage says the Lord made bare his holy arm before the nations and that all the earth will see God's salvation.",
+        "text": "The passage says the Lord has made bare his holy arm in the eyes of all nations and that all the ends of the earth shall see God's salvation.",
         "refs": [
           "Mosiah 12:24"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The priest continues reciting the passage to Abinadi."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Jerusalem and the imagery of the Lord's arm are not shown as current visible events."
+      "No physical setting, speaker, or visible appearance of the Lord is specified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Break forth into joy; sing together ye waste places of Jerusalem; for the Lord hath comforted his people, he hath redeemed Jerusalem;",
+        "text": "Break forth into joy; sing together ye waste places of Jerusalem;",
         "refs": [
           "Mosiah 12:23"
-        ],
-        "speaker": "One of the priests"
+        ]
       },
       {
-        "text": "The Lord hath made bare his holy arm in the eyes of all the nations, and all the ends of the earth shall see the salvation of our God?",
+        "text": "for the Lord hath comforted his people, he hath redeemed Jerusalem;",
+        "refs": [
+          "Mosiah 12:23"
+        ]
+      },
+      {
+        "text": "all the ends of the earth shall see the salvation of our God?",
         "refs": [
           "Mosiah 12:24"
-        ],
-        "speaker": "One of the priests"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The holy arm is figurative language within the quotation, not a visual appearance."
+      "The Lord's holy arm is figurative language here, not a narrated visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict a visible divine arm or the redemption of Jerusalem as happening now."
+      "Do not assign a speaker or depict a visible divine arm, the redemption of Jerusalem, or all nations witnessing salvation as events occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -1059,9 +1067,9 @@
       "Mosiah 12:29",
       "Mosiah 12:30"
     ],
-    "summary": "A speaker questions those he addresses about keeping the law of Moses, riches, and sin. He tells them they know he speaks the truth and ought to tremble before God.",
+    "summary": "The speaker questions those he addresses about keeping the law of Moses, riches, and sin. He tells them they know he speaks the truth and ought to tremble before God.",
     "characters": [
-      "Unnamed speaker",
+      "Speaker",
       "Those addressed"
     ],
     "locations": [
@@ -1081,7 +1089,13 @@
         ]
       },
       {
-        "text": "He says they know he speaks the truth and ought to tremble before God.",
+        "text": "He says that the Lord has cause to send him to prophesy against the people.",
+        "refs": [
+          "Mosiah 12:29"
+        ]
+      },
+      {
+        "text": "He tells those addressed that they know he speaks the truth and ought to tremble before God.",
         "refs": [
           "Mosiah 12:30"
         ]
@@ -1091,7 +1105,7 @@
       "A speaker addresses listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker’s and listeners’ names and appearances are not supplied.",
+      "The speaker’s and listeners’ appearances are not supplied.",
       "The location is not described."
     ],
     "spoken_dialogue": [
@@ -1100,38 +1114,40 @@
         "refs": [
           "Mosiah 12:29"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       },
       {
         "text": "Why do ye set your hearts upon riches?",
         "refs": [
           "Mosiah 12:29"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       },
       {
         "text": "Know ye not that I speak the truth?",
         "refs": [
           "Mosiah 12:30"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       },
       {
         "text": "Yea, ye know that I speak the truth; and you ought to tremble before God.",
         "refs": [
           "Mosiah 12:30"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The misconduct is raised in the speaker’s questions, not narrated as an event."
+      "The misconduct is raised in the speaker’s questions, not narrated as an event.",
+      "The exhortation to tremble does not establish that the listeners visibly tremble."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or listeners by names or roles absent from these verses.",
+      "Do not add identities or roles not supplied by these verses.",
       "Do not depict the questioned misconduct as occurring in this scene.",
-      "Do not depict God; no appearance is described."
+      "Do not depict God; no appearance is described.",
+      "Do not depict Moses as present; he is mentioned only in connection with the law."
     ],
     "importance": "normal"
   },
@@ -1142,33 +1158,39 @@
       "Mosiah 12:31",
       "Mosiah 12:32"
     ],
-    "summary": "Abinadi warns the priests of punishment for their iniquities and asks whether salvation comes by the law of Moses; they answer that it does.",
+    "summary": "An unidentified speaker warns the respondents that they will be smitten for their iniquities and questions them about the law of Moses and salvation. They answer that salvation comes by the law of Moses.",
     "characters": [
-      "Abinadi",
-      "King Noah's priests"
+      "Unidentified speaker",
+      "Unidentified respondents"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Abinadi says the priests will be smitten for their iniquities and asks what they know of the law of Moses and whether salvation comes by it.",
+        "text": "The speaker warns that the respondents will be smitten for their iniquities and says they have claimed to teach the law of Moses.",
         "refs": [
           "Mosiah 12:31"
         ]
       },
       {
-        "text": "The priests answer that salvation comes by the law of Moses.",
+        "text": "The speaker asks what they know concerning the law of Moses and whether salvation comes by it.",
+        "refs": [
+          "Mosiah 12:31"
+        ]
+      },
+      {
+        "text": "The respondents answer that salvation comes by the law of Moses.",
         "refs": [
           "Mosiah 12:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi questions the priests face to face."
+      "The speaker and respondents are close enough to converse."
     ],
     "unspecified_visual_details": [
-      "The foretold smiting is not happening in this moment."
+      "The setting, clothing, physical appearances, and number of respondents are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -1176,50 +1198,48 @@
         "refs": [
           "Mosiah 12:31"
         ],
-        "speaker": "Abinadi"
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "And what know ye concerning the law of Moses?",
         "refs": [
           "Mosiah 12:31"
         ],
-        "speaker": "Abinadi"
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "Doth salvation come by the law of Moses?",
         "refs": [
           "Mosiah 12:31"
         ],
-        "speaker": "Abinadi"
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "What say ye?",
         "refs": [
           "Mosiah 12:31"
         ],
-        "speaker": "Abinadi"
-      },
-      {
-        "text": "that salvation did come by the law of Moses.",
-        "refs": [
-          "Mosiah 12:32"
-        ],
-        "speaker": "King Noah's priests"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [
       {
-        "text": "And they answered and said",
+        "text": "And they answered and said that salvation did come by the law of Moses.",
         "refs": [
           "Mosiah 12:32"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The priests' answer is their claim, not a stated endorsement by the narrative."
+      "The respondents' answer is reported rather than supplied as direct dialogue; preserve it as source-quoted narration.",
+      "The answer expresses the respondents' position, not an independently established doctrinal conclusion.",
+      "The supplied verses do not identify the speaker or respondents by name or role."
     ],
     "prohibited_inventions": [
-      "Do not show the predicted punishment occurring."
+      "Do not depict the predicted smiting as occurring.",
+      "Do not assign identities or roles from outside the supplied verses.",
+      "Do not invent direct dialogue for the respondents.",
+      "Do not depict Moses as physically present or stage the respondents' earlier teaching as a separate event."
     ],
     "importance": "normal"
   },
@@ -1262,19 +1282,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi addresses a group of listeners."
+      "Abinadi addresses listeners."
     ],
     "unspecified_visual_details": [
       "The listeners' identities and the location are not specified in these verses."
     ],
     "spoken_dialogue": [
-      {
-        "text": "I know if ye keep the commandments of God ye shall be saved;",
-        "refs": [
-          "Mosiah 12:33"
-        ],
-        "speaker": "Abinadi"
-      },
       {
         "text": "I am the Lord thy God, who hath brought thee out of the land of Egypt, out of the house of bondage.",
         "refs": [
@@ -1290,7 +1303,7 @@
         "speaker": "Abinadi, reciting the commandment"
       },
       {
-        "text": "Thou shalt not make unto thee any graven image,",
+        "text": "Thou shalt not make unto thee any graven image, or any likeness of any thing in heaven above, or things which are in the earth beneath.",
         "refs": [
           "Mosiah 12:36"
         ],
@@ -1299,7 +1312,7 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Sinai and the departure from Egypt are mentioned in Abinadi's recitation, not narrated as events occurring in this scene."
+      "Sinai and the departure from Egypt are mentioned in the recitation, not narrated as events occurring in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict God, Moses, Egypt, or Sinai as present in this scene.",

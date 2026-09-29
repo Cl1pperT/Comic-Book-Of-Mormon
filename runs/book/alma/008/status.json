@@ -9,16 +9,16 @@
     "REJECT": 1
   },
   "rejected": {
-    "scene_009": [
-      "The unidentified speaker is explicitly the angel of the Lord, who appeared to Alma in the preceding verse (Alma 8:14). The speaker identity is incorrectly withheld in the scene fields."
+    "scene_018": [
+      "The note that Alma 8:30 is not supplied is false. That supplied verse identifies the subjects of Alma 8:31 as Alma and Amulek, so the claims that their identities cannot be established contradict the authorized source."
     ]
   },
-  "calls": 11,
+  "calls": 17,
   "tokens": {
-    "input_tokens": 86535,
-    "cached_input_tokens": 48384,
+    "input_tokens": 124645,
+    "cached_input_tokens": 67584,
     "cache_write_input_tokens": 0,
-    "output_tokens": 14972,
-    "reasoning_output_tokens": 5311
+    "output_tokens": 19601,
+    "reasoning_output_tokens": 6931
   }
 }

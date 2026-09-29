@@ -4,22 +4,17 @@
   "verses": 46,
   "scenes": 11,
   "counts": {
-    "PASS": 4,
-    "PASS WITH WARNINGS": 6,
-    "REJECT": 1
+    "PASS": 9,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_005": [
-      "The dialogue omits Zeezrom's first question in Alma 11:21, while the summary says he asks twice; it must not imply that the included dialogue contains both questions.",
-      "The first two quoted dialogue excerpts from verse 21 are not contiguous as presented: source narration intervenes between Zeezrom's questions. Each excerpt is exact, but the two-question chronology should be represented with the intervening source text or kept clearly separate."
-    ]
-  },
-  "calls": 8,
+  "rejected": {},
+  "calls": 11,
   "tokens": {
-    "input_tokens": 63654,
-    "cached_input_tokens": 31488,
+    "input_tokens": 83192,
+    "cached_input_tokens": 49152,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11203,
-    "reasoning_output_tokens": 2819
+    "output_tokens": 14890,
+    "reasoning_output_tokens": 5081
   }
 }

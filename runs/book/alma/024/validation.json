@@ -1,10 +1,10 @@
 {
-  "stamp": "d749c2dd321aca21f6ae169d3268ab73ab62a323e679cc628f654bbbd3e6e8b5",
+  "stamp": "023287ead51364141cf060ef76032543663eb9c2f0b8bcc7b39f710c0de3b775",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Summary says the people rebelled and took up arms, but uses present action where the verses narrate it; the exact location of those actions is unspecified, as the scene notes."
+        "The king is listed as a character, but Alma 24:1–2 does not state that he is physically present; the note correctly identifies this uncertainty."
       ]
     },
     "scene_002": {
@@ -12,58 +12,46 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "The source says the council was intended; it does not say Lamoni or Anti-Nephi-Lehi attended, only that Ammon and his party came to Ishmael to hold a council with them. Listing them as present invents attendance."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied speech at Alma 24:7–9 is spoken by the king, as Alma 24:6 identifies “their king” and Alma 24:7 introduces “the words which he said.” Labeling the speaker unidentified and prohibiting identification as king contradicts the source."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 24:10–11 continues the king’s speech, established in the immediately preceding verses. Calling the speaker unnamed and prohibiting identification by title contradicts the source and alters continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 24:12–13 continues the king’s speech from the preceding verses. Calling the speaker unidentified and prohibiting identification as king contradicts the source and alters continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 24:14 continues the king’s speech from the preceding verses. Although no figure or angel need be shown, the scene notes that the speaker is unidentified, contradicting continuity and the source."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 24:15–16 continues the king’s speech from the preceding verses. Calling the speaker unidentified and prohibiting identification as king contradicts the source and alters continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene identifies the people as “Anti-Nephi-Lehi (people of Ammon),” but these verses do not equate the people assembled here with the later label “people of Ammon.” Use the source’s description, “all the people,” without that added identity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The king is listed as a character, but Alma 24:20 names him as a target and does not state that he is physically present."
+      ]
     },
     "scene_013": {
       "status": "PASS",

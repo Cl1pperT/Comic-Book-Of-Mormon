@@ -4,33 +4,24 @@
   "verses": 35,
   "scenes": 15,
   "counts": {
-    "PASS": 9,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 5
+    "PASS": 13,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 2
   },
   "rejected": {
-    "scene_002": [
-      "The dialogue is not an exact contiguous quotation: “if thou wilt spare our lives, we will be thy servants.” omits the verse’s opening “And now, O king,” and begins with lowercase “if,” altering capitalization and punctuation. “why he has not come up out of Middoni with thee.” is a fragment of narration, not the king’s exact spoken question. The summary also attributes the service offer to an unidentified speaker, but the verse explicitly has Aaron speak it. The designated speaker must be Aaron, and dialogue must use exact contiguous verse text."
+    "scene_009": [
+      "The character label “the queen of Lamoni” asserts an unsupported relationship. The verse identifies her only as the queen associated with the fallen king, Lamoni’s father."
     ],
-    "scene_006": [
-      "The narration quotations are not verbatim source text: “the plan of redemption, which was prepared from the foundation of the world, through Christ” omits the preceding words “and also” and changes the original sentence context; “the sufferings and death of Christ atone for their sins, through faith and repentance” is assembled from verse wording while omitting “but” and the verse’s grammatical context. Narration must use exact contiguous excerpts without edits."
-    ],
-    "scene_008": [
-      "The king’s dialogue is assembled across a comma break in Alma 22:18, omitting the intervening phrase “and I will give away all my sins to know thee,” and changing the source’s continuous speech into separate excerpts in a way that drops supplied wording. Use exact contiguous quotations that preserve all text within each selected excerpt."
-    ],
-    "scene_010": [
-      "The servants’ dialogue is not an exact contiguous quotation: it combines excerpts from Alma 22:20 while omitting the verse’s intervening words, including “saying,” and changes the source punctuation. Quote a contiguous span exactly or use separate exact short excerpts."
-    ],
-    "scene_015": [
-      "Alma 22:35 is a transition in the narrator’s account, not an event or scene. The entry has no established visual subject or action, and its 'Unspecified location' is not a source fact. It should not be treated as a depictable scene."
+    "scene_012": [
+      "The character label “the queen of Lamoni” asserts an unsupported relationship. These verses do not identify the queen as Lamoni’s queen."
     ]
   },
-  "calls": 6,
+  "calls": 15,
   "tokens": {
-    "input_tokens": 63718,
-    "cached_input_tokens": 35072,
+    "input_tokens": 122011,
+    "cached_input_tokens": 63488,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11500,
-    "reasoning_output_tokens": 1780
+    "output_tokens": 20254,
+    "reasoning_output_tokens": 6136
   }
 }

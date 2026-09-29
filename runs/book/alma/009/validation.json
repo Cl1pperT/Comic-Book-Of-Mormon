@@ -1,5 +1,5 @@
 {
-  "stamp": "5c93287e47788f0442f786ab95bf61a797fc63ce5b3219da445e970296a1e02f",
+  "stamp": "ae44c5ff1b6f5012f813b2bc881d155190c1d0f016eee77bc24bc746e9e3c312",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,7 +20,7 @@
     "scene_005": {
       "status": "REJECT",
       "issues": [
-        "The speaker and listeners are not unspecified: this is Alma continuing his address to the people of Ammonihah from the preceding verses. Labeling both as unnamed misidentifies the explicit context."
+        "Alma is identified as the speaker in Alma 9:7 and continues speaking through 9:12–13. Calling him unnamed and prohibiting his identification contradicts the supplied verses."
       ]
     },
     "scene_006": {
@@ -40,14 +40,14 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The text says they sought to lay hands on Alma, but does not explicitly describe them moving toward him; treat that staging as an inference, not a stated action."
-      ]
-    },
-    "scene_011": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 9:34 continues the preceding encounter in Ammonihah. Although verse 34 does not repeat the location or identify the listeners, the preceding verses identify them as the people of Ammonihah; the fields calling both unspecified overlook that continuity."
+      ]
     }
   }
 }

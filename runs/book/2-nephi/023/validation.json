@@ -1,100 +1,86 @@
 {
-  "stamp": "87069c36706889bf5fc3c8dd919eeb8e96736bb6665613f8834cc8d51e51075c",
+  "stamp": "ca7bc25c20d6285d0ff10ada8b77b511e280c4973b350ef597858a329f137a78",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The narration excerpt “The burden of Babylon” omits the verse’s comma; quotations must preserve punctuation exactly."
+        "Showing a banner already raised turns the verse’s command into an event that the source does not report."
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt “Lift ye up a banner upon the high mountain” omits the comma after “mountain”; quotations must preserve punctuation exactly."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“I have commanded my sanctified ones” and “I have also called my mighty ones” omit commas present in the source; quotations must preserve punctuation exactly."
+        "Verse 5 does not clearly specify who carries the weapons; avoid assigning them to particular members of the multitude."
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt “a tumultuous noise of the kingdoms of nations gathered together” changes the source wording, which reads “a tumultuous noise of the kingdoms of nations gathered together” only with a preceding clause and comma; as a standalone excerpt it is otherwise exact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The narration excerpt “the day of the Lord is at hand” omits the source’s “for” immediately before it; as a shorter exact excerpt it is otherwise exact."
+        "The fear and distress are foretold, not reported as presently occurring. Any depiction must remain prophetic imagery rather than a new enacted scene."
       ]
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpts are exact contiguous phrases, but the scene summarizes future prophetic effects rather than depicting them as events; visual staging should preserve that distinction."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The narration excerpt “to lay the land desolate” omits preceding source wording but is an exact contiguous phrase; the second excerpt is exact."
+        "The darkened lights are foretold. Do not present the sky image as a sign already occurring."
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt “the sun shall be darkened in his going forth” is exact; the second excerpt changes the source’s “cause her light to shine” to “cause her light to shine.”"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“I will punish the world for evil” omits the source’s following comma; quotations must preserve punctuation exactly."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The narration excerpt “the earth shall remove out of her place” is exact; prophetic language should not be treated as a specified physical mechanism."
+        "The flight is foretold, not reported as presently occurring; showing people fleeing risks staging its fulfillment."
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The similes are handled conservatively as figurative and the quoted excerpts are exact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: 'Their houses shall be spoiled' is not verbatim in 2 Nephi 23:16, which reads 'Their children, also shall be dashed to pieces before their eyes; their houses shall be spoiled and their wives ravished.'"
+        "Listing the Medes and unnamed people as characters must not imply they are physically present in an enacted scene."
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene omits verse 16, but it does not claim to cover the full passage; no alteration to the preceding scene’s chronology is apparent."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The excerpt “Babylon, the glory of kingdoms” omits the source’s comma after “Babylon”; quotations must preserve punctuation exactly."
+        "The preceding verse names Babylon, making it the contextual referent of “It”; the place is not wholly unspecified when the verses are read in order.",
+        "An empty landscape must be presented as prophetic imagery, not as an aftermath already reached."
       ]
     },
     "scene_016": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene assigns the voice in “For I will destroy her speedily” an unidentified identity but presents it as a literal first-person voice; the source does not establish a speaker, and the narration must not invent one.",
-        "The narration quotation “For I will destroy her speedily; yea, for I will be merciful unto my people, but the wicked shall perish.” includes punctuation and wording exactly, but presenting it as narration makes an unstated speaker attribution ambiguous.",
-        "The scene combines prophetic imagery and later outcomes in one entry; it must not portray the forecast beasts, satyrs, dragons, destruction, mercy, or perishing as present-tense events."
+        "The preceding verses make Babylon the likely referent of “her”; treating that referent as wholly unidentified overlooks the chapter context.",
+        "Desolate houses may represent the prophecy, but must not imply that the foretold condition has already occurred."
       ]
     }
   }

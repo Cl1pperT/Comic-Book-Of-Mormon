@@ -1,11 +1,11 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Nephi cries to the Lord",
+    "title": "Nephi cries unto the Lord",
     "refs": [
       "2 Nephi 5:1"
     ],
-    "summary": "Nephi cries to the Lord because his brethren are angry.",
+    "summary": "Nephi cries much unto the Lord because of the anger of his brethren.",
     "characters": [
       "Nephi"
     ],
@@ -14,22 +14,26 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi cried to the Lord because of his brethren’s anger.",
+        "text": "Nephi cried much unto the Lord his God.",
+        "refs": [
+          "2 Nephi 5:1"
+        ]
+      },
+      {
+        "text": "He did so because of the anger of his brethren.",
         "refs": [
           "2 Nephi 5:1"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Nephi is alone or shown in prayer."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "Nephi’s posture, surroundings, and the time of day."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "because of the anger of my brethren.",
+        "text": "I, Nephi, did cry much unto the Lord my God, because of the anger of my brethren.",
         "refs": [
           "2 Nephi 5:1"
         ]
@@ -37,37 +41,45 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described."
+      "Do not depict the Lord visibly; no appearance is described.",
+      "Do not assume Nephi is alone or that his brethren are present.",
+      "Do not invent the words of Nephi’s cry."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "The brethren seek Nephi’s life",
+    "title": "The elder brethren murmur",
     "refs": [
       "2 Nephi 5:2",
       "2 Nephi 5:3",
       "2 Nephi 5:4"
     ],
-    "summary": "The brethren’s anger against Nephi increases. They murmur that he thinks to rule over them, reject him as ruler, and seek to take his life.",
+    "summary": "The elder brethren’s anger against their younger brother increases. They murmur that he thinks to rule over them, say they will slay him, and seek to take his life.",
     "characters": [
-      "Nephi’s unnamed brethren"
+      "The unnamed elder brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Their anger against Nephi increased, and they sought to take his life.",
+        "text": "Their anger against the narrator increased, and they sought to take his life.",
         "refs": [
           "2 Nephi 5:2",
           "2 Nephi 5:4"
         ]
       },
       {
-        "text": "They murmured that their younger brother thought to rule over them, said they would slay him, and claimed that they, as elder brethren, should rule.",
+        "text": "They murmured that their younger brother thought to rule over them, proposed slaying him, and claimed that the elder brethren should rule.",
         "refs": [
           "2 Nephi 5:3"
+        ]
+      },
+      {
+        "text": "The narrator did not write all the words they murmured.",
+        "refs": [
+          "2 Nephi 5:4"
         ]
       }
     ],
@@ -75,7 +87,7 @@
       "The brethren may be shown speaking among themselves."
     ],
     "unspecified_visual_details": [
-      "Which brethren are present, their number, appearance, positions, and surroundings."
+      "Which brethren are present, their number, appearances, positions, and surroundings."
     ],
     "spoken_dialogue": [
       {
@@ -83,35 +95,35 @@
         "refs": [
           "2 Nephi 5:3"
         ],
-        "speaker": "Nephi’s brethren"
+        "speaker": "The elder brethren"
       },
       {
         "text": "wherefore, now let us slay him,",
         "refs": [
           "2 Nephi 5:3"
         ],
-        "speaker": "Nephi’s brethren"
+        "speaker": "The elder brethren"
       },
       {
         "text": "for it belongs unto us, who are the elder brethren, to rule over this people.",
         "refs": [
           "2 Nephi 5:3"
         ],
-        "speaker": "Nephi’s brethren"
+        "speaker": "The elder brethren"
       }
     ],
     "narration": [
       {
-        "text": "they did seek to take away my life.",
+        "text": "But behold, their anger did increase against me, insomuch that they did seek to take away my life.",
         "refs": [
-          "2 Nephi 5:4"
+          "2 Nephi 5:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify individual brethren or depict Nephi as present.",
-      "Do not depict an attack; the verses report their intent, not an attack."
+      "Do not identify individual brethren or depict the younger brother as physically present.",
+      "Do not depict an attack; the verses report an intention to slay him, not an attack."
     ],
     "importance": "normal"
   },
@@ -432,43 +444,29 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Harvest and flocks",
+    "title": "Reaping in Abundance",
     "refs": [
       "2 Nephi 5:11",
       "2 Nephi 5:13"
     ],
-    "summary": "The people sow seed, reap an abundant harvest, begin raising flocks, herds, and other animals, prosper, and multiply in the land.",
+    "summary": "The people reap in abundance.",
     "characters": [
       "The people referred to as “we”"
     ],
-    "locations": [
-      "The land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord was with the people, and they prospered exceedingly.",
+        "text": "The people reaped in abundance.",
         "refs": [
           "2 Nephi 5:11"
-        ]
-      },
-      {
-        "text": "The people sowed seed, reaped in abundance, and began raising flocks, herds, and animals of every kind.",
-        "refs": [
-          "2 Nephi 5:11"
-        ]
-      },
-      {
-        "text": "The people began to prosper exceedingly and multiply in the land.",
-        "refs": [
-          "2 Nephi 5:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Crops may be shown at harvest and animals may be shown being raised, without presenting sowing and reaping as simultaneous."
+      "People gathering a plentiful crop can represent the reaping described in verse 11."
     ],
     "unspecified_visual_details": [
-      "Crop types, animal species, population size, and landscape."
+      "Crop type, clothing, tools, and landscape."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -477,20 +475,16 @@
         "refs": [
           "2 Nephi 5:11"
         ]
-      },
-      {
-        "text": "we began to prosper exceedingly",
-        "refs": [
-          "2 Nephi 5:13"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord’s presence is stated, but no visible appearance is described."
+      "Sowing preceded reaping; it is not depicted as happening at the same time.",
+      "The Lord’s presence, the raising of animals, and the prosperity and multiplication described in verse 13 are context, not visible events in this harvest scene."
     ],
     "prohibited_inventions": [
-      "Do not visibly depict the Lord or invent a divine appearance.",
-      "Do not invent dialogue or identify the people or location more specifically than the supplied verses do."
+      "Do not depict sowing, animal-raising, or multiplication as simultaneous with the reaping.",
+      "Do not visibly depict the Lord; the verses describe no appearance.",
+      "Do not invent dialogue or identify the people or location more specifically than the verses do."
     ],
     "importance": "normal"
   },
@@ -778,8 +772,11 @@
       "2 Nephi 5:22",
       "2 Nephi 5:23"
     ],
-    "summary": "The narrator says those who would not hearken to his words were cut off from the Lord’s presence. He attributes a curse and a change in their skin to the Lord, reports the Lord’s warning about repentance, and says the Lord’s words concerning their seed were fulfilled.",
-    "characters": [],
+    "summary": "The narrator reports that those who would not hearken to his words were cut off from the Lord’s presence. He attributes a curse and a change in their skin to the Lord, recounts the Lord’s statement about repentance, and says the Lord’s words concerning their seed were done.",
+    "characters": [
+      "Narrator",
+      "The Lord God"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -789,13 +786,13 @@
         ]
       },
       {
-        "text": "The narrator attributes a curse to their iniquity and hardened hearts, and says the Lord caused a skin of blackness to come upon them so they would not be enticing to his people.",
+        "text": "The narrator says the Lord caused a curse because of their iniquity and caused a skin of blackness to come upon them so they would not be enticing to his people.",
         "refs": [
           "2 Nephi 5:21"
         ]
       },
       {
-        "text": "The Lord says they would be loathsome to the narrator’s people unless they repented of their iniquities.",
+        "text": "The Lord God says they would be loathsome to the narrator’s people unless they repented of their iniquities.",
         "refs": [
           "2 Nephi 5:22"
         ]
@@ -809,9 +806,18 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The location, the identities of those described, and any visible process by which they were cut off or changed are unspecified."
+      "No location or visible appearance of the narrator or the Lord God is specified.",
+      "No visible process for being cut off or for the reported change is specified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "I will cause that they shall be loathsome unto thy people, save they shall repent of their iniquities.",
+        "refs": [
+          "2 Nephi 5:22"
+        ],
+        "speaker": "The Lord God"
+      }
+    ],
     "narration": [
       {
         "text": "they were cut off from his presence.",
@@ -820,13 +826,7 @@
         ]
       },
       {
-        "text": "they had become like unto a flint;",
-        "refs": [
-          "2 Nephi 5:21"
-        ]
-      },
-      {
-        "text": "a skin of blackness to come upon them.",
+        "text": "the Lord God did cause a skin of blackness to come upon them.",
         "refs": [
           "2 Nephi 5:21"
         ]
@@ -839,7 +839,9 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "These verses present the narrator’s religious explanation and reported description. The comparison to flint is figurative, not a physical transformation."
+      "The events are reported by the narrator, not described as occurring before him in these verses.",
+      "The comparison to flint is figurative, not a physical transformation.",
+      "Listing the Lord God as a speaker and agent does not imply a visible appearance."
     ],
     "prohibited_inventions": [
       "Do not identify or depict particular individuals not named in these verses.",
@@ -898,47 +900,64 @@
     "refs": [
       "2 Nephi 5:25"
     ],
-    "summary": "Nephi reports the Lord’s words that the Lamanites would be a scourge to his seed if they did not remember and heed the Lord.",
+    "summary": "The Lord God tells the narrator that an unnamed group shall be a scourge to the narrator’s seed, stirring them to remember him, and warns of scourging unto destruction.",
     "characters": [
-      "Nephi"
+      "Nephi (the narrator)",
+      "The Lord God (speaker; appearance unspecified)"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord told Nephi that the Lamanites would be a scourge to his seed, stirring them to remembrance; if they did not remember and heed the Lord, they would be scourged unto destruction.",
+        "text": "The Lord God speaks to the narrator.",
+        "refs": [
+          "2 Nephi 5:25"
+        ]
+      },
+      {
+        "text": "The Lord God says an unnamed group shall be a scourge to the narrator’s seed, to stir them to remember him.",
+        "refs": [
+          "2 Nephi 5:25"
+        ]
+      },
+      {
+        "text": "The Lord God warns that the scourging may reach destruction.",
         "refs": [
           "2 Nephi 5:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "This teaching can be presented as off-screen speech over an unspecified setting."
+      "The warning can be conveyed without showing the Lord God or depicting the predicted scourging."
     ],
     "unspecified_visual_details": [
-      "When and where this statement was given, and any visible appearance of the Lord."
+      "The location and time of the statement.",
+      "The appearance of the narrator and the Lord God.",
+      "The identity and appearance of the group called “they.”"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "They shall be a scourge unto thy seed,",
+        "text": "They shall be a scourge unto thy seed, to stir them up in remembrance of me; and inasmuch as they will not remember me, and hearken unto my words, they shall scourge them even unto destruction.",
         "refs": [
           "2 Nephi 5:25"
-        ]
-      },
+        ],
+        "speaker": "The Lord God"
+      }
+    ],
+    "narration": [
       {
-        "text": "they shall scourge them even unto destruction.",
+        "text": "And the Lord God said unto me:",
         "refs": [
           "2 Nephi 5:25"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a prediction, not a present event to depict."
+      "The scourging is foretold, not narrated as occurring in this verse."
     ],
     "prohibited_inventions": [
-      "Do not depict a future conflict as happening now or show a visible divine figure."
+      "Do not identify the unnamed group, stage the predicted scourging as a present event, or invent a visible appearance for the Lord God."
     ],
     "importance": "normal"
   },
@@ -1091,21 +1110,27 @@
     "refs": [
       "2 Nephi 5:30"
     ],
-    "summary": "The Lord God tells Nephi to make other plates and engrave things good in His sight for the profit of Nephi’s people.",
+    "summary": "The Lord God tells the narrator to make other plates and engrave many things upon them for the profit of the narrator’s people.",
     "characters": [
-      "Nephi",
-      "Lord God"
+      "Lord God",
+      "unnamed narrator"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord God tells Nephi to make other plates.",
+        "text": "The Lord God speaks to the narrator.",
         "refs": [
           "2 Nephi 5:30"
         ]
       },
       {
-        "text": "He tells Nephi to engrave many things good in His sight for the profit of Nephi’s people.",
+        "text": "The Lord God commands the narrator to make other plates and engrave many things upon them.",
+        "refs": [
+          "2 Nephi 5:30"
+        ]
+      },
+      {
+        "text": "The things to be engraved are good in the Lord God’s sight and for the profit of the narrator’s people.",
         "refs": [
           "2 Nephi 5:30"
         ]
@@ -1114,7 +1139,8 @@
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "The location of the communication.",
-      "How the Lord God communicates and whether anyone is visible."
+      "How the Lord God communicates.",
+      "The appearance of the narrator."
     ],
     "spoken_dialogue": [
       {
@@ -1137,8 +1163,9 @@
       "The verse reports a command, not the making or engraving of the plates."
     ],
     "prohibited_inventions": [
-      "Do not assign a location or depict the plates being made or engraved.",
-      "Do not invent a visible appearance for the Lord God."
+      "Do not depict the plates being made or engraved.",
+      "Do not invent a visible appearance for the Lord God.",
+      "Do not assign the narrator a name or invent a location."
     ],
     "importance": "normal"
   },

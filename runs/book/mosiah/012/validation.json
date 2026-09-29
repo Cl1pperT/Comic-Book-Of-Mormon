@@ -1,15 +1,14 @@
 {
-  "stamp": "55b52709b5d19a55cb039c3bd796fef80c1a103691dba480014473b55cd08b13",
+  "stamp": "b633a0f7f1c612316a1812b1b3fb8797cc2e72310221e88dbe7d308ed8d1a89c",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Summary misstates Mosiah 12:2–3: king Noah’s life is said to be valued like a garment in a hot furnace, not that its future value is compared to the garment. Speaker is Abinadi, explicitly established by the preceding verse; the scene incorrectly labels him unnamed and reports only selected dialogue without indicating that it is excerpted. The supplied spoken dialogue is well over the 65-word combined narration/dialogue limit. Predicted suffering is summarized as fact rather than clearly marked as prophecy.",
-        "scene_id_placeholder"
+        "Mosiah 12:1 identifies the continuing speaker as Abinadi; do not treat him as a new unidentified speaker."
       ]
     },
     "scene_003": {
@@ -21,19 +20,17 @@
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied dialogue concatenates noncontiguous text across Mosiah 12:7–8 as one quotation; it must be split into exact contiguous excerpts. Combined narration and dialogue exceeds 65 words. Summary introduces a conditional destruction warning but leaves out the quoted basis and is not entirely limited to events? No; the claim is prophecy. Main rejection is quotation/word-limit violation."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Quoted excerpts in verses 10–12 omit text between them while presenting each as a complete quotation excerpt, and dialogue does not faithfully quote the source's complete comparisons. Combined dialogue exceeds 65 words. The scene wrongly treats speaker and addressee as unidentified: the preceding scene explicitly establishes the accusers speaking before King Noah and addressing him. Summary improperly frames the comparison and warning as events rather than reported speech."
+        "The speech continues the accusation begun in Mosiah 12:9; the generic labels must not imply new speakers, a new addressee, or a separate encounter."
       ]
     },
     "scene_008": {
@@ -41,8 +38,10 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This continues the accusers' address to the king in Mosiah 12:9–14. The generic labels must not imply different people or a separate delivery."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -61,15 +60,15 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Combined spoken dialogue exceeds the 65-word limit."
+        "Mosiah 12:20 identifies a priest as the speaker introducing these quoted words. The text-led treatment must not imply that this is a new, unidentified speaker or a separate event."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Combined spoken dialogue exceeds the 65-word limit."
+        "These words continue the priest's quotation introduced in Mosiah 12:20; the absence of a speaker in this scene's fields must not imply a separate event."
       ]
     },
     "scene_016": {
@@ -83,20 +82,18 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker is clearly Abinadi from the immediately preceding verses, so labeling him unnamed is unnecessarily uncertain. Scene can safely retain the listeners as unnamed."
+        "The preceding exchange identifies Abinadi as the continuing speaker and the priests as those addressed; generic labels must not imply different participants."
       ]
     },
     "scene_019": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Combined dialogue and narration exceeds the 65-word limit. The quoted answer fragment is not an exact contiguous excerpt: it omits 'And they answered and said' while that phrase is separately used as narration; use one complete excerpt or accurately split contiguous text."
+        "The exchange continues Abinadi's address to the priests. Generic labels must not imply new participants, and the respondents' reported answer must remain narration."
       ]
     },
     "scene_020": {
-      "status": "REJECT",
-      "issues": [
-        "The commandment quotation at Mosiah 12:36 is truncated after 'image,' and therefore is not an exact complete excerpt. Combined narration and dialogue exceeds the 65-word limit."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_021": {
       "status": "PASS",

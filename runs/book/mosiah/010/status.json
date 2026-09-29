@@ -4,21 +4,17 @@
   "verses": 22,
   "scenes": 16,
   "counts": {
-    "PASS": 11,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 1
+    "PASS": 15,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_015": [
-      "The character label “Nephite settlers (2 Nephi)” assigns the people to an unrelated, unestablished group; the verse identifies them only as Zeniff’s people."
-    ]
-  },
-  "calls": 7,
+  "rejected": {},
+  "calls": 8,
   "tokens": {
-    "input_tokens": 52997,
-    "cached_input_tokens": 30720,
+    "input_tokens": 59009,
+    "cached_input_tokens": 35328,
     "cache_write_input_tokens": 0,
-    "output_tokens": 9223,
-    "reasoning_output_tokens": 2199
+    "output_tokens": 8619,
+    "reasoning_output_tokens": 1425
   }
 }

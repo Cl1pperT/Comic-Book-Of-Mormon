@@ -120,14 +120,11 @@
     "refs": [
       "Alma 24:5"
     ],
-    "summary": "Ammon, his brethren, and those who had come up with him saw the Lamanites' preparations to destroy their brethren. They came to the land of Midian, where Ammon met all his brethren. From there they came to the land of Ishmael.",
+    "summary": "Ammon, his brethren, and those who had come up with him saw the Lamanites' preparations to destroy their brethren. They came to Midian, where Ammon met all his brethren. From there they came to Ishmael intending to hold a council with Lamoni and Anti-Nephi-Lehi about defending themselves against the Lamanites.",
     "characters": [
       "Ammon",
       "Ammon's brethren",
-      "those who had come up with Ammon",
-      "the Lamanites",
-      "Lamoni",
-      "Anti-Nephi-Lehi, Lamoni's brother"
+      "those who had come up with Ammon"
     ],
     "locations": [
       "the land of Midian",
@@ -147,28 +144,28 @@
         ]
       },
       {
-        "text": "From Midian they came to the land of Ishmael, intending to hold a council with Lamoni and his brother Anti-Nephi-Lehi about defending themselves against the Lamanites.",
+        "text": "From Midian they came to the land of Ishmael intending to hold a council with Lamoni and his brother Anti-Nephi-Lehi about defending themselves against the Lamanites.",
         "refs": [
           "Alma 24:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The move from Midian to Ishmael can be shown as travel between the named lands."
+      "Their movement from Midian to Ishmael can be shown as travel between the named lands, in sequence."
     ],
     "unspecified_visual_details": [
       "The route and appearance of either land.",
-      "Whether the council took place and what anyone said or decided."
+      "Whether the intended council took place or whom they met upon arrival."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse states the purpose of going to Ishmael but does not recount the council itself."
+      "The verse gives the purpose of going to Ishmael but does not recount the council."
     ],
     "prohibited_inventions": [
-      "Do not identify unnamed brethren or companions by name.",
-      "Do not depict council dialogue, a decision, or a completed council.",
-      "Do not label Anti-Nephi-Lehi as the people of Ammon."
+      "Do not depict Lamoni or Anti-Nephi-Lehi as present or attending a council.",
+      "Do not invent council dialogue, a decision, or a completed council.",
+      "Do not identify unnamed brethren or companions by name."
     ],
     "importance": "normal"
   },
@@ -229,9 +226,9 @@
       "Alma 24:8",
       "Alma 24:9"
     ],
-    "summary": "A man addresses the people, thanking God and speaking of the Nephites' preaching, their correspondence, and the recognition of past sins and murders.",
+    "summary": "A man addresses the people, thanking God for the Nephites’ preaching and for softened hearts. He says correspondence with the Nephites led them to recognize their sins and past murders.",
     "characters": [
-      "Unidentified male speaker",
+      "Unnamed male speaker",
       "The people"
     ],
     "locations": [
@@ -239,7 +236,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "He speaks to the people and thanks God for sending the Nephites to preach and convince them of the traditions of their fathers.",
+        "text": "He speaks to the people and thanks God for sending the Nephites to preach and convince them concerning the traditions of their fathers.",
         "refs": [
           "Alma 24:7"
         ]
@@ -251,18 +248,18 @@
         ]
       },
       {
-        "text": "He says that through this correspondence they were convinced of their sins and the many murders they had committed.",
+        "text": "He says the correspondence convinced them of their sins and the many murders they had committed.",
         "refs": [
           "Alma 24:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker can be shown addressing listeners."
+      "The speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
-      "The gathering's location, size, and arrangement."
+      "The speaker’s identity and appearance.",
+      "The gathering’s location, size, and arrangement."
     ],
     "spoken_dialogue": [
       {
@@ -270,31 +267,32 @@
         "refs": [
           "Alma 24:7"
         ],
-        "speaker": "Unidentified male speaker"
+        "speaker": "Unnamed male speaker"
       },
       {
         "text": "And behold, I thank my great God that he has given us a portion of his Spirit to soften our hearts,",
         "refs": [
           "Alma 24:8"
         ],
-        "speaker": "Unidentified male speaker"
+        "speaker": "Unnamed male speaker"
       },
       {
-        "text": "And behold, I also thank my God, that by opening this correspondence we have been convinced of our sins, and of the many murders which we have committed.",
+        "text": "And behold, I also thank my God, that by opening this correspondence we have been convinced of our sins,",
         "refs": [
           "Alma 24:9"
         ],
-        "speaker": "Unidentified male speaker"
+        "speaker": "Unnamed male speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Nephites and past murders are mentioned in speech, not shown as events occurring during this address."
+      "The supplied verses do not identify the speaker by name or title.",
+      "The Nephites’ preaching, the correspondence, and the past murders are discussed in the address, not narrated as events occurring during it."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as a king or name him.",
+      "Do not assign the speaker a name or title not stated in the supplied verses.",
       "Do not depict the Spirit as a visible figure.",
-      "Do not place named Nephite missionaries at the gathering or stage the past murders."
+      "Do not place Nephites at the gathering or stage the past murders."
     ],
     "importance": "normal"
   },
@@ -305,9 +303,9 @@
       "Alma 24:10",
       "Alma 24:11"
     ],
-    "summary": "A speaker thanks God for granting repentance and forgiving sins and murders. The speaker addresses his brethren and says they did all they could to repent sufficiently before God.",
+    "summary": "The speaker thanks God for granting repentance and forgiveness. Addressing his brethren, he says they did all they could to repent sufficiently before God.",
     "characters": [
-      "Unnamed speaker",
+      "Speaker",
       "Brethren addressed by the speaker"
     ],
     "locations": [
@@ -321,7 +319,7 @@
         ]
       },
       {
-        "text": "The speaker says God forgave their sins and murders and took guilt from their hearts through the merits of his Son.",
+        "text": "The speaker says God forgave their many sins and murders and took guilt from their hearts through the merits of his Son.",
         "refs": [
           "Alma 24:10"
         ]
@@ -341,18 +339,25 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "And I also thank my God, yea, my great God, that he hath granted unto us that we might repent of these things, and also that he hath forgiven us of those our many sins and murders which we have committed,",
+        "text": "And I also thank my God, yea, my great God, that he hath granted unto us that we might repent of these things,",
         "refs": [
           "Alma 24:10"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
+      },
+      {
+        "text": "And now behold, my brethren, since it has been all that we could do,",
+        "refs": [
+          "Alma 24:11"
+        ],
+        "speaker": "Speaker"
       },
       {
         "text": "for it was all we could do to repent sufficiently before God that he would take away our stain—",
         "refs": [
           "Alma 24:11"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
@@ -360,7 +365,6 @@
       "Guilt in their hearts and their stain are not described as visible physical marks."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by name or title.",
       "Do not depict God or his Son appearing; neither appearance is described.",
       "Do not depict the past murders as a present event."
     ],
@@ -368,14 +372,14 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Keep the Swords Bright",
+    "title": "Retain the Swords Unstained",
     "refs": [
       "Alma 24:12",
       "Alma 24:13"
     ],
-    "summary": "An unidentified speaker addresses brethren, says their swords have become bright, and urges them not to stain their swords with their brethren’s blood but to retain them unstained.",
+    "summary": "A speaker addresses brethren, says God has taken away their stains and their swords have become bright, and urges them to retain their swords without staining them with their brethren’s blood.",
     "characters": [
-      "Unidentified speaker",
+      "Speaker",
       "Brethren addressed"
     ],
     "locations": [
@@ -395,13 +399,13 @@
         ]
       },
       {
-        "text": "The speaker urges them to retain their swords unstained.",
+        "text": "The speaker urges them to retain their swords so they will not be stained.",
         "refs": [
           "Alma 24:13"
         ]
       },
       {
-        "text": "The speaker expresses concern that, if they stain their swords again, they may no longer be washed bright through the blood of the Son of God.",
+        "text": "The speaker says that if they stain their swords again, perhaps they can no longer be washed bright through the blood of the Son of their great God, shed for the atonement of their sins.",
         "refs": [
           "Alma 24:13"
         ]
@@ -409,7 +413,7 @@
     ],
     "reasonable_visual_inferences": [
       "The speaker may be shown addressing a group.",
-      "Swords may be shown, but no one is said to handle one during this speech."
+      "Swords may be shown, though the verses do not say anyone handles one during the speech."
     ],
     "unspecified_visual_details": [
       "The location and the appearances of the speaker and audience.",
@@ -421,24 +425,23 @@
         "refs": [
           "Alma 24:12"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker"
       },
       {
-        "text": "let us retain our swords",
+        "text": "Behold, I say unto you, Nay, let us retain our swords that they be not stained with the blood of our brethren;",
         "refs": [
           "Alma 24:13"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses do not identify the speaker.",
-      "The references to stains, washing, and atonement are teachings, not narrated visible events."
+      "The references to washing through the blood of the Son of their great God and to atonement are part of the speaker’s teaching, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as the king.",
-      "Do not depict blood, combat, or a visible miraculous cleansing of swords."
+      "Do not depict combat, bloodshed, or a visible miraculous cleansing of swords.",
+      "Do not invent a setting, an action involving the swords, or details about the people addressed."
     ],
     "importance": "normal"
   },
@@ -448,12 +451,12 @@
     "refs": [
       "Alma 24:14"
     ],
-    "summary": "God has shown mercy and made these things known beforehand so the people might not perish. The verse says he loves them and their children and visits them by angels so the plan of salvation may be known to them and future generations.",
+    "summary": "God has had mercy and made these things known beforehand so the people might not perish. The verse says he visits them by angels so the plan of salvation might be known to them and future generations.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "God has had mercy on the people and made these things known so they might not perish.",
+        "text": "God has had mercy and made these things known so the people might not perish.",
         "refs": [
           "Alma 24:14"
         ]
@@ -465,7 +468,7 @@
         ]
       },
       {
-        "text": "The verse says God visits them by his angels so the plan of salvation may be known to them and future generations.",
+        "text": "God visits them by his angels so the plan of salvation might be known to them and future generations.",
         "refs": [
           "Alma 24:14"
         ]
@@ -473,7 +476,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The verse does not identify a location or describe anyone's appearance."
+      "The verse does not specify a location or describe anyone's appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -485,10 +488,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not narrate a specific angel appearing at this moment or identify a speaker."
+      "The reference to angels does not place a particular angelic visit at this moment."
     ],
     "prohibited_inventions": [
-      "Do not depict an angel appearing in this moment or assign the verse to an identified speaker."
+      "Do not depict a particular angel appearing in this scene or assign a visible appearance to God or his angels."
     ],
     "importance": "normal"
   },
@@ -499,9 +502,9 @@
       "Alma 24:15",
       "Alma 24:16"
     ],
-    "summary": "An unidentified speaker praises God's mercy and calls for hiding bright swords as a testimony. The speaker says they will bury the swords if their brethren seek to destroy them, and will go to God and be saved if destroyed.",
+    "summary": "A speaker praises God's mercy and urges that bright swords be hidden. The speaker says they will bury the swords if their brethren seek to destroy them, and that they will go to God and be saved if destroyed.",
     "characters": [
-      "Unidentified speaker",
+      "Speaker",
       "Brethren addressed by the speaker"
     ],
     "locations": [
@@ -509,7 +512,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says their swords are bright and calls for hiding them as a testimony that they have not stained them in the blood of their brethren since God imparted his word to them.",
+        "text": "The speaker says their swords are bright and urges that they be hidden as a testimony that they have not stained them in the blood of their brethren since God imparted his word to them.",
         "refs": [
           "Alma 24:15"
         ]
@@ -528,35 +531,44 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown addressing brethren, though their appearance and arrangement are not described."
+      "The speaker may be shown addressing listeners.",
+      "Bright swords may be shown, but these verses do not say they are buried during the speech."
     ],
     "unspecified_visual_details": [
-      "The location, clothing, number of listeners, and appearance of the swords beyond their brightness."
+      "The location, clothing, number and arrangement of listeners, and the swords' appearance beyond their brightness."
     ],
     "spoken_dialogue": [
+      {
+        "text": "Oh, how merciful is our God!",
+        "refs": [
+          "Alma 24:15"
+        ],
+        "speaker": "Speaker"
+      },
       {
         "text": "our swords are made bright, let us hide them away that they may be kept bright,",
         "refs": [
           "Alma 24:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker"
       },
       {
-        "text": "And now, my brethren, if our brethren seek to destroy us, behold, we will hide away our swords, yea, even we will bury them deep in the earth,",
+        "text": "yea, even we will bury them deep in the earth,",
         "refs": [
           "Alma 24:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "The threatened destruction and burial are conditional statements, not events narrated as occurring in these verses.",
-      "God's mercy, cleansing, testimony, judgment, and salvation are expressed in the speech; no divine appearance is described."
+      "God's mercy, cleansing, testimony, judgment, and salvation are expressed in speech; no divine appearance is described.",
+      "The supplied verses do not state the speaker's identity."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by name or title.",
-      "Do not depict an attack, burial, judgment, or divine appearance as occurring during this speech."
+      "Do not depict an attack, burial, judgment, or divine appearance as occurring during this speech.",
+      "Do not assign an identity to the speaker based on verses outside the supplied text."
     ],
     "importance": "normal"
   },

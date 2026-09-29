@@ -448,15 +448,21 @@
       "Alma 8:16",
       "Alma 8:17"
     ],
-    "summary": "A speaker blesses Alma, tells him to rejoice, and affirms his faithfulness. The speaker commands him to return to Ammonihah and preach, warns of destruction unless the people repent, and says they are studying how to destroy the liberty of Alma's people.",
+    "summary": "A speaker blesses Alma, identifies himself as the one who delivered Alma's first message, and commands him to return to Ammonihah to preach. He warns that the people will be destroyed unless they repent and says they are studying how to destroy the liberty of Alma's people.",
     "characters": [
       "Alma",
-      "Unidentified speaker"
+      "Speaker who delivered Alma's first message"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker blesses Alma, tells him to rejoice, and says he has faithfully kept God's commandments.",
+        "text": "The speaker blesses Alma, tells him to rejoice, and says Alma has faithfully kept God's commandments.",
+        "refs": [
+          "Alma 8:15"
+        ]
+      },
+      {
+        "text": "The speaker identifies himself as the one who delivered Alma's first message.",
         "refs": [
           "Alma 8:15"
         ]
@@ -475,10 +481,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is present to hear the words addressed to him."
+      "Alma listens to the words addressed to him."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
+      "The speaker's appearance and whether he is visible.",
       "Alma's appearance and posture.",
       "The setting of the exchange."
     ],
@@ -488,38 +494,38 @@
         "refs": [
           "Alma 8:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker who delivered Alma's first message"
       },
       {
-        "text": "return to the city of Ammonihah, and preach again unto the people of the city;",
+        "text": "Behold, I am he that delivered it unto you.",
+        "refs": [
+          "Alma 8:15"
+        ],
+        "speaker": "Speaker who delivered Alma's first message"
+      },
+      {
+        "text": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city;",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker who delivered Alma's first message"
       },
       {
         "text": "Yea, say unto them, except they repent the Lord God will destroy them.",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "they do study at this time that they may destroy the liberty of thy people,",
-        "refs": [
-          "Alma 8:17"
-        ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Speaker who delivered Alma's first message"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "The threat to liberty is reported in speech, not depicted as a separate event.",
-      "These verses do not identify or describe the speaker."
+      "The supplied verses do not describe the speaker's appearance."
     ],
     "prohibited_inventions": [
       "Do not depict the planned destruction of liberty as occurring.",
-      "Do not assign the speaker an identity or appearance not stated in these verses.",
+      "Do not invent an appearance for the speaker.",
       "Do not place the exchange at a specified location."
     ],
     "importance": "normal"
@@ -945,85 +951,96 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "Alma and Amulek preach",
+    "title": "Alma and Amulek begin preaching",
     "refs": [
       "Alma 8:30",
       "Alma 8:32"
     ],
-    "summary": "Alma and Amulek go among the people declaring God's words, filled with the Holy Ghost, and preach and prophesy according to the spirit and power the Lord gave them.",
+    "summary": "Alma 8:30 records Alma and Amulek going among the people to declare God's words and being filled with the Holy Ghost. Alma 8:32 subsequently records them going forth and beginning to preach and prophesy according to the spirit and power the Lord had given them.",
     "characters": [
       "Alma",
       "Amulek",
-      "People of Ammonihah"
+      "the people"
     ],
     "locations": [
-      "Ammonihah"
+      "among the people"
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek went among the people to declare God's words and were filled with the Holy Ghost.",
+        "text": "Alma and Amulek went among the people to declare the words of God and were filled with the Holy Ghost.",
         "refs": [
           "Alma 8:30"
         ]
       },
       {
-        "text": "They went forth to preach and prophesy according to the spirit and power the Lord had given them.",
+        "text": "They went forth and began to preach and prophesy to the people according to the spirit and power the Lord had given them.",
         "refs": [
           "Alma 8:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek preach to people in Ammonihah."
+      "Alma and Amulek may be shown addressing people for the preaching described in Alma 8:32."
     ],
     "unspecified_visual_details": [
-      "The particular words they preached and how the Holy Ghost appeared."
+      "The precise setting, clothing, appearances, and number of listeners are unspecified.",
+      "The elapsed time between the supplied verses is unspecified.",
+      "No visible manifestation of the Holy Ghost or the Lord is described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they went forth and began to preach and to prophesy unto the people",
+        "text": "And Alma went forth, and also Amulek, among the people, to declare the words of God unto them; and they were filled with the Holy Ghost.",
+        "refs": [
+          "Alma 8:30"
+        ]
+      },
+      {
+        "text": "And it came to pass that they went forth and began to preach and to prophesy unto the people, according to the spirit and power which the Lord had given them.",
         "refs": [
           "Alma 8:32"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The filling of the Holy Ghost is stated, but no visible manifestation is described."
+      "Use Alma 8:30 as prior narrative context only, without staging its events. Anchor the visual scene exclusively in the beginning of preaching and prophesying recorded in Alma 8:32.",
+      "Keep the two narration excerpts distinct and in supplied order; do not imply an uninterrupted action or specify an elapsed interval.",
+      "Neither verse supplies the words of the preaching or prophecies."
     ],
     "prohibited_inventions": [
-      "Do not depict an unmentioned visible form of the Holy Ghost."
+      "Do not merge the departure and spiritual filling in Alma 8:30 into the visual action of Alma 8:32.",
+      "Do not invent intervening events, preaching dialogue, prophecy content, or listener reactions.",
+      "Do not depict a visible Holy Ghost, an appearance of the Lord, or supernatural visual effects.",
+      "Do not depict events from verses not supplied."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_018",
-    "title": "Power given unto them",
+    "title": "Reported power and imprisonment",
     "refs": [
       "Alma 8:31"
     ],
-    "summary": "They had power that prevented their confinement in dungeons or death at the hands of any man. They did not exercise it until they were bound and cast into prison. This was done so the Lord might show forth his power in them.",
+    "summary": "The verse reports power given to those referred to as “they” and states that they did not exercise it until they were bound and cast into prison. It gives the purpose as the Lord showing forth his power in them; no imprisonment is staged as occurring in this scene.",
     "characters": [
-      "People referred to as “they”; their identities are not given in the supplied verse"
+      "Those referred to as “they” (reported subjects, not physically depicted; identities unspecified in the supplied verse)"
     ],
-    "locations": [
-      "Prison (reported)"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "They had power given unto them, so they could not be confined in dungeons or slain by any man.",
+        "text": "They had power given unto them such that they could not be confined in dungeons or slain by any man.",
         "refs": [
           "Alma 8:31"
         ]
       },
       {
-        "text": "They did not exercise their power until they were bound in bands and cast into prison.",
+        "text": "The verse reports that they did not exercise their power until they were bound in bands and cast into prison.",
         "refs": [
           "Alma 8:31"
         ]
       },
       {
-        "text": "This was done so the Lord might show forth his power in them.",
+        "text": "The stated purpose was that the Lord might show forth his power in them.",
         "refs": [
           "Alma 8:31"
         ]
@@ -1031,19 +1048,13 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identities and appearances of those referred to as “they” are not specified in the supplied verse.",
-      "The prison’s appearance is not specified."
+      "The supplied verse does not identify those referred to as “they” or describe their appearances.",
+      "The appearance and location of the prison and the material of the bands are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And they had power given unto them, insomuch that they could not be confined in dungeons;",
-        "refs": [
-          "Alma 8:31"
-        ]
-      },
-      {
-        "text": "nevertheless they did not exercise their power until they were bound in bands and cast into prison.",
+        "text": "And they had power given unto them, insomuch that they could not be confined in dungeons; neither was it possible that any man could slay them;",
         "refs": [
           "Alma 8:31"
         ]
@@ -1056,13 +1067,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports the binding and imprisonment; it does not establish a separate later scene or narrate an escape.",
-      "The supplied verse does not identify “they,” so names cannot be assigned from surrounding context."
+      "Treat this as an expository report, not a present-time enactment of binding, imprisonment, or the exercise of power.",
+      "Verse 30 is not supplied. The requested identification as Alma and Amulek cannot be established using the authorized source alone.",
+      "The verse describes no visible divine appearance or specific visible manifestation of power."
     ],
     "prohibited_inventions": [
-      "Do not identify the people from outside the supplied verse.",
-      "Do not stage the reported events as a new present-tense or later scene.",
-      "Do not depict an attempted killing, escape, or visible manifestation of power."
+      "Do not identify the reported subjects using unsupplied context.",
+      "Do not stage the reported binding or imprisonment as occurring in this scene.",
+      "Do not invent an escape, attempted killing, broken bands, or visible manifestation of power.",
+      "Do not visibly depict the Lord."
     ],
     "importance": "normal"
   }

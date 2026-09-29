@@ -141,9 +141,16 @@ def portrait_aspect(record):
     return GROUP_ASPECT if is_group(record) else PORTRAIT_ASPECT
 
 
-def build_prompt(panel, continuity, aspect, portraits=()):
+CORRECTIONS_HEADING = "REVIEWER CORRECTIONS"
+
+
+def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
+    """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel."""
     w, h = (int(n) for n in aspect.split(":"))
     references = []
+    if corrections and (corrections.get("add") or corrections.get("avoid")):
+        references.append(CORRECTIONS_HEADING + "\n" + json.dumps(
+            {"add": corrections.get("add", []), "avoid": corrections.get("avoid", [])}))
     if portraits:
         # Sent as the attached images, in this order; diffusion_prompts drops this section.
         records = continuity["characters"]
@@ -159,7 +166,7 @@ def build_prompt(panel, continuity, aspect, portraits=()):
                          " individual, so never repeat one face across a crowd.")
         lines.append("Use references only for appearance: do not copy their pose, framing, lighting or plain"
                      " background, and do not add anyone because a reference is attached.")
-        references = [PORTRAITS_HEADING + "\n" + " ".join(lines)]
+        references.append(PORTRAITS_HEADING + "\n" + " ".join(lines))
     return "\n\n".join([
         "Visualize only this approved panel. You do not decide the story.",
         "GLOBAL STYLE\n" + json.dumps(continuity["visual_style"]),
@@ -295,6 +302,10 @@ def diffusion_prompts(prompt):
     location_records = json.loads(sections["LOCATION CONSISTENCY (design choices are not scripture)"])
     # Flux weights early tokens most, so the panel's own content leads and global style follows.
     positive, negative = ["Scene: " + sections["APPROVED ACTION"].strip(" .\n")], []
+    # A reviewer's corrections to an earlier drawing come right after the scene, where they carry the most weight.
+    corrections = json.loads(sections.get(CORRECTIONS_HEADING, "{}"))
+    positive += [item.strip(" .") for item in corrections.get("add", []) if item.strip(" .")]
+    negative += [item.strip(" .") for item in corrections.get("avoid", []) if item.strip(" .")]
     facts = [c["text"] for c in json.loads(sections["EXPLICIT SCRIPTURAL FACTS"])]
     inferences = json.loads(sections["REASONABLE VISUAL INFERENCES"])
     creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
@@ -334,7 +345,8 @@ def diffusion_prompts(prompt):
 _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scripture)",
              "CHARACTER CONSISTENCY (design choices are not scripture)", "APPROVED ACTION", "VISIBLE PEOPLE",
              "LOCATION", "EXPLICIT SCRIPTURAL FACTS", "REASONABLE VISUAL INFERENCES", "UNSPECIFIED CREATIVE DETAILS",
-             "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS", PORTRAITS_HEADING}
+             "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS", PORTRAITS_HEADING,
+             CORRECTIONS_HEADING}
 
 
 # Page geometry in pixels at 150 dpi. Panels fill the live area edge to edge with thin gutters.

@@ -211,6 +211,47 @@ def test_reader_flags_panels_of_the_assembled_draft(pipeline):
             server.shutdown()
 
 
+def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_path):
+    from bom_comic import reader, redraw
+    from bom_comic.comic import diffusion_prompts
+    from bom_comic.models import Corrections
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    root = pipeline.store.root.parent
+    first = pipeline.image_record(pipeline.panels()[0])
+    reader.flag(pipeline.store, "panel_001", "Anachronism: the men wear baseball caps")
+    [(store, panel_id, flag)] = redraw.pending(root)
+    assert panel_id == "panel_001" and flag["image_hash"] == first["image_hash"]
+    asked, prompts = [], []
+
+    class Text:
+        def structured(self, prompt, schema, tag, kind="text"):
+            asked.append((schema, tag, prompt))
+            return Corrections(add=["plain wool head coverings"], avoid=["baseball caps"])
+    images = capture_images(pipeline)
+    entry = redraw.redraw(store, panel_id, flag, pipeline.provider, Text())
+    assert asked[0][0] is Corrections and "baseball caps" in asked[0][2]
+    # The corrections lead the image prompt, and the thing to avoid goes to the negative prompt.
+    positive, negative = diffusion_prompts(images[0]["prompt"])
+    assert positive.startswith("Scene: ") and positive.split(". ")[1] == "plain wool head coverings"
+    assert negative.startswith("baseball caps")
+    # New drawing, flag retired to history, chapter reassembled, reader marks it for another look.
+    now = pipeline.image_record(pipeline.panels()[0])
+    assert now["path"] != first["path"] and entry["new_image"] == now["path"]  # a new revision (placeholder art is identical)
+    assert reader.flags(pipeline.store) == {} and redraw.pending(root) == []
+    assert redraw.redrawn(pipeline.store) == {"panel_001": "Anachronism: the men wear baseball caps"}
+    assert pipeline.store.read("final/manifest.json")["images"]["panel_001"]["image_hash"] == now["image_hash"]
+    assert pipeline.approvals()["image:panel_001"]["note"].startswith("AUTOMATED redraw after reviewer flag")
+    # Flagging the redraw again starts another round; without a text model the note is split by rule.
+    reader.flag(pipeline.store, "panel_001", "Still wrong. No caps on anyone")
+    [(store, panel_id, flag)] = redraw.pending(root)
+    assert redraw.redrawn(pipeline.store) == {}
+    redraw.redraw(store, panel_id, flag, pipeline.provider, None)
+    assert "caps on anyone" in diffusion_prompts(images[-1]["prompt"])[1]
+
+
 def test_reader_pages_through_a_folder_of_chapters_in_book_order(pipeline, tmp_path):
     import shutil
     import threading

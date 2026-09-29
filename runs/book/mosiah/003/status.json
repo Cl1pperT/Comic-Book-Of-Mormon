@@ -4,21 +4,17 @@
   "verses": 27,
   "scenes": 14,
   "counts": {
-    "PASS": 12,
+    "PASS": 13,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_012": [
-      "The summary says the people “will be judged according to the words” the angel spoke, but verse 22 says they are found no more blameless only according to those words; it does not state that they will be judged according to them."
-    ]
-  },
-  "calls": 5,
+  "rejected": {},
+  "calls": 6,
   "tokens": {
-    "input_tokens": 50011,
-    "cached_input_tokens": 20992,
+    "input_tokens": 56281,
+    "cached_input_tokens": 25600,
     "cache_write_input_tokens": 0,
-    "output_tokens": 8040,
-    "reasoning_output_tokens": 2078
+    "output_tokens": 8868,
+    "reasoning_output_tokens": 2500
   }
 }
