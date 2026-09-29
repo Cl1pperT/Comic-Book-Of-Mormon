@@ -4,11 +4,15 @@
   "verses": 55,
   "scenes": 18,
   "counts": {
-    "PASS": 17,
+    "PASS": 16,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 0
+    "REJECT": 1
   },
-  "rejected": {},
+  "rejected": {
+    "scene_017": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ]
+  },
   "calls": 36,
   "tokens": {
     "input_tokens": 275072,

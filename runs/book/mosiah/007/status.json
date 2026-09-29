@@ -4,11 +4,20 @@
   "verses": 33,
   "scenes": 15,
   "counts": {
-    "PASS": 5,
+    "PASS": 2,
     "PASS WITH WARNINGS": 4,
-    "REJECT": 6
+    "REJECT": 9
   },
   "rejected": {
+    "scene_003": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_008": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_009": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
     "scene_010": [
       "Mosiah 7:17–18 identifies the speaker as Limhi and establishes the temple gathering. The scene incorrectly says his identity and the gathering’s location are unsupplied and prohibits specifying the temple."
     ],

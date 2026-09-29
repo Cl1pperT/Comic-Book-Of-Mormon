@@ -4,11 +4,14 @@
   "verses": 34,
   "scenes": 11,
   "counts": {
-    "PASS": 9,
+    "PASS": 8,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "REJECT": 2
   },
   "rejected": {
+    "scene_001": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
     "scene_005": [
       "Alma is identified as the speaker in Alma 9:7 and continues speaking through 9:12–13. Calling him unnamed and prohibiting his identification contradicts the supplied verses."
     ]

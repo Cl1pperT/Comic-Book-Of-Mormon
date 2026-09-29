@@ -22,8 +22,10 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -44,8 +46,10 @@
       ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_012": {
       "status": "PASS",
@@ -56,8 +60,10 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_015": {
       "status": "PASS",
@@ -84,8 +90,10 @@
       "issues": []
     },
     "scene_021": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_022": {
       "status": "PASS",

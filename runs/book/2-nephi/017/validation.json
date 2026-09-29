@@ -2,9 +2,9 @@
   "stamp": "92b6afb3a3f851071e3e77998d43b6f90cce7095810d122d2be8513be957362e",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The chapter does not say Jerusalem itself was approached by both kings' forces; 'approach Jerusalem' is a reasonable but not certain visual inference."
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
       ]
     },
     "scene_002": {
@@ -74,15 +74,15 @@
       ]
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The verses describe a future condition; avoid presenting the overgrowth and men arriving as a present-time scene."
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The verse describes a future condition, not a present-time scene of cattle on the hills."
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
       ]
     }
   }

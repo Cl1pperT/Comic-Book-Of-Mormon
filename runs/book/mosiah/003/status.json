@@ -4,11 +4,24 @@
   "verses": 27,
   "scenes": 14,
   "counts": {
-    "PASS": 13,
+    "PASS": 9,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 0
+    "REJECT": 4
   },
-  "rejected": {},
+  "rejected": {
+    "scene_008": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_009": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_010": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_011": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ]
+  },
   "calls": 6,
   "tokens": {
     "input_tokens": 56281,

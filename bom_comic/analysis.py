@@ -20,6 +20,9 @@ distant figures mentioned in narration are not necessarily physically present in
 If uncertain, choose a conservative interpretation.'''
 
 
+MIN_LETTERING = 3
+
+
 def unquote(scene):
     """Strip quotation marks a model wraps around lettering. The source has no double quotes (speech gets its
     marks at lettering time), so these only ever break the exact-quotation check; single quotes are stripped only
@@ -58,7 +61,8 @@ def analyze(provider, verses, chunk_size=6, known_characters=(), known_locations
             chunk = chapter_verses[offset:offset + (chunk_size or len(chapter_verses))]
             prompt = RULES + "\n" + split + '''
 Use off-screen speech over supported settings for teachings. Keep each scene to a single visual
-moment and at most 65 words of lettering. Do not omit important narrative beats. Importance
+moment and at most 65 words of lettering. Every scene needs at least one exact excerpt of 3 or more
+words as narration or speech, so the page tells the story. Do not omit important narrative beats. Importance
 "major" gives a scene a full comic page, so reserve it for the rare turning points of the whole
 story: at most one per chapter and often none; everything else is "normal". List every VISIBLE
 person or group in "characters", e.g. "Ammon",
@@ -95,7 +99,12 @@ def deterministic_issues(scene, verses):
             # Naming the caption and its verse lets a rewrite fix it instead of repeating it.
             issues.append(f"Lettering must be an exact source quotation: {quote.text!r} is not verbatim in "
                           f"{', '.join(quote.refs)}, which reads {evidence!r}")
-    if sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration) > 65:
+    lettered = sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration)
+    if lettered < MIN_LETTERING:
+        # A panel with no text shows only its verse reference, leaving the reader to look the story up.
+        issues.append(f"Scene has {lettered} words of lettering: give it at least one exact excerpt of "
+                      f"{MIN_LETTERING} or more words from its verses, as narration or speech")
+    if lettered > 65:
         # A one-scene rewrite can't split the scene, so name the fix it can make.
         words = sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration)
         issues.append(f"Scene lettering is {words} words, over the 65-word limit: keep only the most important "

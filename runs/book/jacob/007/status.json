@@ -4,13 +4,22 @@
   "verses": 27,
   "scenes": 18,
   "counts": {
-    "PASS": 17,
+    "PASS": 14,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 1
+    "REJECT": 4
   },
   "rejected": {
+    "scene_001": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
     "scene_014": [
       "The visual inference places the man falling to earth after speaking. Jacob 7:20–21 says he died and the multitude fell; the man's fall occurred earlier, in Jacob 7:15."
+    ],
+    "scene_016": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_017": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
     ]
   },
   "calls": 25,

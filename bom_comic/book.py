@@ -7,7 +7,7 @@ leaves status.json in its folder and is skipped on the next run, so a run stoppe
 import json
 import os
 from pathlib import Path
-from .analysis import unquote
+from .analysis import deterministic_issues, unquote
 from .errors import ProviderError
 from .pipeline import Pipeline
 from .scripture import load
@@ -209,6 +209,7 @@ def repair_blocked(root="runs/book", make_provider=None):
     make_provider = make_provider or _codex()
     results = []
     try:
+        recheck(root)  # rules added since a chapter was written count too
         with writing_lock(root):
             for status_path in sorted(Path(root).glob("*/*/status.json")):
                 status = json.loads(status_path.read_text(encoding="utf-8"))
@@ -227,6 +228,44 @@ def repair_blocked(root="runs/book", make_provider=None):
     except Busy as exc:
         return results, f"another writer is running ({exc})"
     return results, "done"
+
+
+def recheck(root="runs/book"):
+    """Re-apply the automatic rules (e.g. a new minimum-lettering rule) to written chapters with no drawings yet,
+    marking scenes that now fail as rejected so the next repair pass rewrites them. No model calls. Chapters with
+    drawings are left alone: changing their scenes would make finished panels stale."""
+    changed = []
+    with writing_lock(root):
+        for status_path in sorted(Path(root).glob("*/*/status.json")):
+            run = status_path.parent
+            if (run / "images").exists():
+                continue
+            store = Store(run)
+            status = store.read("status.json")
+            pipeline = Pipeline(store, None)
+            try:
+                validation = pipeline.validation()
+            except ValueError:
+                # Scenes changed after their last audit (e.g. a repair cut off by a usage limit): block the chapter
+                # so the repair pass re-audits it, rather than letting the renderer trip over it.
+                if "(audit)" not in status["rejected"]:
+                    status["rejected"]["(audit)"] = ["Scenes changed after their last audit; re-audit needed"]
+                    status["counts"]["REJECT"] += 1
+                    store.write("status.json", status)
+                    changed.append((status["book"], status["chapter"], ["(audit)"]))
+                continue
+            results, verses, newly = dict(validation["results"]), pipeline.verses(), []
+            for scene in pipeline.scenes():
+                issues = deterministic_issues(scene, verses)
+                if issues and results[scene.scene_id]["status"] != "REJECT":
+                    results[scene.scene_id] = {"status": "REJECT", "issues": issues}
+                    newly.append(scene.scene_id)
+            if newly:
+                store.write("validation.json", {**validation, "results": results})
+                store.event("recheck", rejected=newly)
+                _finish(store, pipeline, status["book"], status["chapter"], status["verses"], results)
+                changed.append((status["book"], status["chapter"], newly))
+    return changed
 
 
 def write_book(root="runs/book", source="data/full-scripture.txt", start=None, max_chapters=None, make_provider=None):

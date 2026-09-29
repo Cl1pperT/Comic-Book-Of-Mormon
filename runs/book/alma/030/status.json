@@ -4,13 +4,31 @@
   "verses": 60,
   "scenes": 21,
   "counts": {
-    "PASS": 18,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 2
+    "PASS": 13,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 8
   },
   "rejected": {
+    "scene_002": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
     "scene_005": [
       "The preacher is Korihor, identified in the supplied Alma 30:12 and the preceding scene. The character label and note incorrectly claim his name is not supplied."
+    ],
+    "scene_006": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_007": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_010": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_011": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_020": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
     ],
     "scene_021": [
       "Alma 30:59 names Zoram as the Zoramites’ leader but does not place him at Korihor’s death. Listing him as a scene character implies an unsupported appearance."

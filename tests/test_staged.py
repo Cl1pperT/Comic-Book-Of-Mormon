@@ -279,8 +279,9 @@ def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
                 raise ProviderError("Codex usage limit reached during analyze; resume later with --resume.")
             verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:]) if "Source:\n" in prompt else \
                 json.loads(prompt[prompt.index("{"):])["source"]
-            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[f"{v['book']} {v['chapter']}:{v['verse']}"],
-                summary="s", explicit_facts=[Claim(text="x", refs=[f"{v['book']} {v['chapter']}:{v['verse']}"])])
+            ref = lambda v: f"{v['book']} {v['chapter']}:{v['verse']}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
+                explicit_facts=[Claim(text="x", refs=[ref(v)])], narration=[Claim(text=v["text"], refs=[ref(v)])])
                 for v in verses])
     import json
     assert book.chapters(source) == [("1 Nephi", 1, 2), ("1 Nephi", 2, 1), ("2 Nephi", 1, 1)]
@@ -332,7 +333,9 @@ def test_revalidate_rechecks_only_the_named_scenes(tmp_path):
                                                               issues=["strict"] if self.strict else []) for i in ids])
             ref = lambda v: f"1 Nephi 1:{v}"
             return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
-                                            explicit_facts=[Claim(text="x", refs=[ref(v)])]) for v in range(1, 5)])
+                                            explicit_facts=[Claim(text="x", refs=[ref(v)])],
+                                            narration=[Claim(text=f"TEST FIXTURE: Event {v}.", refs=[ref(v)])])
+                                      for v in range(1, 5)])
     p = Pipeline(Store(tmp_path / "run"), Fake())
     p.init(source, "1 Nephi 1:1", "1 Nephi 1:4")
     p.analyze(chunk_size=0)
@@ -343,6 +346,41 @@ def test_revalidate_rechecks_only_the_named_scenes(tmp_path):
     assert [results[s]["status"] for s in ("scene_001", "scene_002", "scene_003", "scene_004")] == \
         ["PASS", "REJECT", "REJECT", "PASS"]
     assert p.validation()["results"] == results  # stored with the current stamp, so approvals can use it
+
+
+def test_recheck_rejects_silent_scenes_in_chapters_not_yet_drawn(tmp_path, monkeypatch):
+    import json
+    from bom_comic import book
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict
+    source = tmp_path / "src.txt"
+    source.write_text("1 Nephi 1:1 TEST FIXTURE: One thing.\n1 Nephi 1:2 TEST FIXTURE: Two things.\n"
+                      "1 Nephi 2:1 TEST FIXTURE: Three things.\n", encoding="utf-8")
+    monkeypatch.setattr(book, "_continuity", lambda: {"characters": {}, "locations": {}, "visual_style": {}})
+
+    class Old:
+        """Writes scenes the way it did before the 3-word rule: the second verse gets no lettering."""
+        def __init__(self, store):
+            pass
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            if schema is ChapterVerdicts:
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="PASS") for i in ids])
+            verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:])
+            ref = lambda v: f"{v['book']} {v['chapter']}:{v['verse']}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
+                explicit_facts=[Claim(text="x", refs=[ref(v)])],
+                narration=[Claim(text=v["text"], refs=[ref(v)])] if v["verse"] == 1 else []) for v in verses])
+    import bom_comic.analysis as analysis
+    monkeypatch.setattr(analysis, "MIN_LETTERING", 0)  # the rule didn't exist yet
+    book.write_book(tmp_path / "book", source, make_provider=Old)
+    monkeypatch.setattr(analysis, "MIN_LETTERING", 3)
+    (tmp_path / "book" / "1-nephi" / "002" / "images").mkdir()  # chapter 2 already has drawings
+    changed = book.recheck(tmp_path / "book")
+    assert changed == [("1 Nephi", 1, ["scene_002"])]
+    status = json.loads((tmp_path / "book" / "1-nephi" / "001" / "status.json").read_text(encoding="utf-8"))
+    assert status["counts"]["REJECT"] == 1 and "words of lettering" in status["rejected"]["scene_002"][0]
+    assert book.recheck(tmp_path / "book") == []  # nothing new the second time
 
 
 def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_model(monkeypatch):

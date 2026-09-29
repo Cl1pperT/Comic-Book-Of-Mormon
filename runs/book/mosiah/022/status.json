@@ -4,11 +4,14 @@
   "verses": 16,
   "scenes": 11,
   "counts": {
-    "PASS": 5,
+    "PASS": 1,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 4
+    "REJECT": 8
   },
   "rejected": {
+    "scene_001": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
     "scene_002": [
       "“Lamanites (2 Nephi era)” misidentifies the Lamanites in this Mosiah-era scene."
     ],
@@ -17,6 +20,15 @@
     ],
     "scene_006": [
       "“Lamanites (2 Nephi era)” misidentifies the recipients in this Mosiah-era scene."
+    ],
+    "scene_007": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_008": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_009": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
     ],
     "scene_011": [
       "“Lamanites (2 Nephi era)” misidentifies the pursuers in this Mosiah-era scene.",

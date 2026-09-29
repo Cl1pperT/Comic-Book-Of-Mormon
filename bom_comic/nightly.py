@@ -151,6 +151,11 @@ def run(until, write=True, render=True):
         keep_awake(True)
         try:
             chapters = book.chapters(SOURCE)
+            try:
+                for name, chapter, newly in book.recheck(ROOT):  # rules added since writing; no model calls
+                    log(f"Rule re-check rejected {len(newly)} scenes in {name} {chapter}; queued for repair")
+            except book.Busy:
+                pass  # a writer is working through the book; its repair pass re-checks too
             codex_ok = write
             repaired_tonight = set()
 

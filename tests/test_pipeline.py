@@ -27,7 +27,7 @@ class FakeAI(PlaceholderImages):
             refs=["3 Nephi 8:1", "3 Nephi 8:2"], summary="People gathered.",
             characters=["Unnamed people"], locations=["Unspecified gathering place"],
             explicit_facts=[Claim(text="People gathered.", refs=["3 Nephi 8:1"])],
-            narration=[Claim(text="People gathered.", refs=["3 Nephi 8:1"])])])
+            narration=[Claim(text="TEST FIXTURE: People gathered.", refs=["3 Nephi 8:1"])])])
 
 @pytest.fixture
 def pipeline(tmp_path, source):
@@ -714,7 +714,8 @@ def test_heavenly_figures_are_recognized_from_the_scene_labels():
         "numberless concourses of angels", "Angel of the Lord", "The Spirit", "the Spirit of the Lord",
         "The Holy Ghost", "God", "the Lord", "The Lord God (speaker; appearance unspecified)",
         "The people addressed by the angel", "the Lord of the vineyard", "People of the Lord",
-        "Father addressing his sons", "the Lamb of God", "Jesus Christ (at Bountiful)", "evil spirits", "Nephi"]}
+        "Father addressing his sons", "the Lamb of God", "Jesus Christ (at Bountiful)", "One descending from heaven",
+        "The Redeemer of the world, called the Lamb of God", "evil spirits", "Nephi"]}
     assert kinds == {
         "the angel": "angel", "An angel": "angel", "Angels": "angel", "an angel from God": "angel",
         "The angel who appeared to Nephi": "angel", "numberless concourses of angels": "angel",
@@ -722,7 +723,8 @@ def test_heavenly_figures_are_recognized_from_the_scene_labels():
         "The Holy Ghost": "spirit", "God": "god", "the Lord": "god",
         "The Lord God (speaker; appearance unspecified)": "god",
         "The people addressed by the angel": None, "the Lord of the vineyard": None, "People of the Lord": None,
-        "Father addressing his sons": None, "the Lamb of God": None, "Jesus Christ (at Bountiful)": None,
+        "Father addressing his sons": None, "the Lamb of God": "christ", "Jesus Christ (at Bountiful)": "christ",
+        "One descending from heaven": "christ", "The Redeemer of the world, called the Lamb of God": "christ",
         "evil spirits": None, "Nephi": None}
 
 
@@ -734,8 +736,14 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
     angel = make_panel(1).model_copy(update={"characters_visible": ["The angel who appeared to Alma", "Alma"],
         "prohibited": ["Do not invent wings or a halo for the angel", "No weapons"]})
     positive, negative = diffusion_prompts(build_prompt(angel, continuity, "4:3"))
-    assert "a woman with large feathered white wings" in positive
+    assert "a woman of about thirty with a serene oval face" in positive and "feathered white wings" in positive
+    assert "Every angel has this same face" in positive  # one shared identity keeps angels consistent
     assert "wings" not in negative and "halo" not in negative and "weapons" in negative
+    lamb = make_panel(4).model_copy(update={"characters_visible": ["the Lamb of God"],
+                                            "prohibited": ["No halo on the Lamb of God"]})
+    positive, negative = diffusion_prompts(build_prompt(lamb, continuity, "4:3"))
+    assert "People: Jesus Christ" in positive and "a man clothed in a white robe" in positive
+    assert "halo" in negative  # prohibitions about Christ still apply
     god = make_panel(2).model_copy(update={"characters_visible": ["God"],
         "prohibited": ["A visible bodily form of God, as no physical appearance is described"]})
     positive, negative = diffusion_prompts(build_prompt(god, continuity, "4:3"))

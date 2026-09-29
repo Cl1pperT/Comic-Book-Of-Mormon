@@ -2,8 +2,10 @@
   "stamp": "457c8d037c49ef17e156f8a970d4953b8d756022203ec30fb8c09f5f34a21314",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_002": {
       "status": "PASS",

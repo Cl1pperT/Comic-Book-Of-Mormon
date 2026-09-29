@@ -6,7 +6,7 @@
   "counts": {
     "PASS": 12,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 3
+    "REJECT": 4
   },
   "rejected": {
     "scene_011": [
@@ -18,6 +18,9 @@
     ],
     "scene_015": [
       "The scene combines an extended, summarized period of travel, persecution, and consolation into one scene; its own notes recognize that separate moments must not be compressed. No particular occasion or chronology is specified to support the combination."
+    ],
+    "(audit)": [
+      "Scenes changed after their last audit; re-audit needed"
     ]
   },
   "calls": 5,

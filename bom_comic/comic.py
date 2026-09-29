@@ -146,23 +146,32 @@ CORRECTIONS_HEADING = "REVIEWER CORRECTIONS"
 # Fixed art conventions for heavenly figures, matched on the scene's free-form labels. They are design choices, not
 # scripture, and they win over records or scene prohibitions that would contradict them (e.g. "no invented wings").
 # Applied when the prompt is built, not stored in records, so drawings made before them don't go stale.
+# Entries: (kind, label pattern, subject words whose look-prohibitions give way, convention record, display name for
+# the image model or None to keep the label).
 HEAVENLY = [
+    # Christ keeps the look the renders have given him; a fixed name also stops "the Lamb of God" being drawn as a
+    # lamb. No subjects: prohibitions about him (e.g. no halo) still apply.
+    ("christ", re.compile(r"^(?:the\s+)?(?:Jesus|Christ|Lamb of God|Son of God|Redeemer|Messiah|One descending)\b",
+                          re.I), (), {
+        "visual_design_choices": ["Jesus Christ, a man clothed in a white robe."],
+        "locked_traits": ["Always the same man in a white robe."]}, "Jesus Christ"),
     ("spirit", re.compile(r"^(?:[Tt]he\s+)?(?:Spirit\b|Holy Ghost\b)"), ("spirit", "holy ghost"), {
         "visual_design_choices": ["Shown only as a tall column of soft, radiant white light: no body, face, "
                                   "or human features of any kind."],
-        "locked_traits": ["Always the same column of white light, never a person."]}),
+        "locked_traits": ["Always the same column of white light, never a person."]}, None),
     ("god", re.compile(r"^(?:the\s+)?(?:God(?: the Father)?|Lord God|Lord)\b(?!['’]|\s+of\b)", re.I),
      ("god", "lord", "father"), {
         "visual_design_choices": ["A person made entirely of brilliant white light: a human outline so bright that "
                                   "no face, features, or clothing can be made out."],
-        "locked_traits": ["Always the same figure of pure light, never a detailed face or body."]}),
-    # Angels are women by the comic's convention; one the text clearly describes as a man is fixed by a reader flag.
+        "locked_traits": ["Always the same figure of pure light, never a detailed face or body."]}, None),
+    # Every angel is the same woman, so her face stays consistent from panel to panel (a crowd of angels shares it).
+    # One the text clearly describes as a man is fixed by a reader flag.
     ("angel", re.compile(r"^(?:(?:the|an|a)\s+)?(?:numberless\s+)?(?:concourses?\s+of\s+)?angels?\b", re.I),
      ("angel",), {
-        "visual_design_choices": ["A heavenly messenger: a woman with large feathered white wings, dressed in pure "
-                                  "white, glowing softly, clearly a distinct person with her own face; several "
-                                  "angels each have their own face."],
-        "locked_traits": ["Always winged, glowing, and dressed in pure white."]}),
+        "visual_design_choices": ["A heavenly messenger: a woman of about thirty with a serene oval face, olive skin, "
+                                  "dark brown eyes, and long wavy dark-brown hair, with large feathered white wings, "
+                                  "dressed in pure white, glowing softly."],
+        "locked_traits": ["Every angel has this same face, hair, wings, and pure white dress in every panel."]}, None),
 ]
 # A prohibition about one of these figures that mentions how it looks contradicts its convention.
 _APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form", "body", "appearance", "figure",
@@ -170,10 +179,10 @@ _APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form
 
 
 def heavenly(name):
-    """(kind, subject words, convention record) for a heavenly figure's label, or None."""
-    for kind, pattern, subjects, record in HEAVENLY:
+    """(kind, subject words, convention record, display name) for a heavenly figure's label, or None."""
+    for kind, pattern, subjects, record, display in HEAVENLY:
         if pattern.match(name.strip()):
-            return kind, subjects, record
+            return kind, subjects, record, display
     return None
 
 
@@ -187,7 +196,7 @@ def _conventional(name, record):
     match = heavenly(name)
     if not match:
         return record
-    _, subjects, convention = match
+    _, subjects, convention, _ = match
     # In the figure's own record the subject is implied, so any rule about its look gives way to the convention.
     kept = [t for t in record.get("locked_traits", []) if not any(a in t.lower() for a in _APPEARANCE)]
     return {**record, "visual_design_choices": convention["visual_design_choices"],
@@ -364,7 +373,9 @@ def diffusion_prompts(prompt):
     creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
     _sort_clauses(inferences + facts, positive, negative)
     if people:
-        positive.append("People: " + ", ".join(people))
+        # Heavenly figures with a fixed identity go by it (e.g. "the Lamb of God" is drawn as Jesus Christ, not a lamb).
+        shown = [(heavenly(p) or (None,) * 4)[3] or p for p in people]
+        positive.append("People: " + ", ".join(dict.fromkeys(shown)))
     if places:
         positive.append("Setting: " + ", ".join(places))
     positive.append(sections["MOOD / COMPOSITION / CAMERA"].replace(" / ", ", "))
