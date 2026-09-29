@@ -11,6 +11,15 @@ from .scripture import load, select
 
 # Kontext drops or blends faces past a few reference images, so a panel attaches at most this many.
 MAX_REFERENCES = 3
+# Lettering and page placement aren't drawn, so changing them doesn't make a drawing stale.
+ART_EXCLUDE = {"page", "panel_number", "weight", "narration", "dialogue"}
+# A drawing still fits a frame whose shape changed by up to this much; assembly crops the difference.
+ASPECT_TOLERANCE = 0.04
+
+
+def _similar(a, b):
+    ratio = lambda aspect: (lambda w, h: w / h)(*(int(n) for n in aspect.split(":")))
+    return abs(ratio(a) / ratio(b) - 1) <= ASPECT_TOLERANCE
 
 class Pipeline:
     def __init__(self, store, provider=None):
@@ -243,6 +252,36 @@ class Pipeline:
             value["portraits"] = {name: [entry["path"], entry["image_hash"]] for name, entry in portraits.items()}
         return digest(value)
 
+    def art_stamp(self, panel):
+        """What a panel's drawing depends on: its content except the lettering (added at assembly) and its place on
+        the page, its own verses, the continuity, and any attached portraits. Unlike panel_stamp it ignores the
+        chapter's other scenes, so repairing one scene doesn't make every drawing in the chapter stale."""
+        source = {v.ref: v.text for v in self.verses()}
+        value = {"panel": panel.model_dump(exclude=ART_EXCLUDE), "verses": [source.get(ref) for ref in panel.refs],
+                 "continuity": self.continuity()}
+        portraits = self.panel_portraits(panel)
+        if portraits:
+            value["portraits"] = {name: [entry["path"], entry["image_hash"]] for name, entry in portraits.items()}
+        return digest(value)
+
+    def upgrade_image_records(self):
+        """Give drawings recorded before art stamps existed an art stamp and aspect, if they're still current by
+        the old rule. Run before a chapter's scenes change, or its drawings will look stale under the old rule."""
+        if not self.store.path("panels.json").exists():
+            return 0
+        aspects, upgraded = self.aspects(), 0
+        for panel in self.panels():
+            path = self.store.path(f"images/{panel.panel_id}.json")
+            if not path.exists():
+                continue
+            record = self.store.read(f"images/{panel.panel_id}.json")
+            if "art_stamp" in record or record["panel_stamp"] != self.panel_stamp(panel, aspects):
+                continue
+            record.update(art_stamp=self.art_stamp(panel), aspect=aspects[panel.panel_id])
+            self.store.write(f"images/{panel.panel_id}.json", record)
+            upgraded += 1
+        return upgraded
+
     def portrait_prompt(self, name):
         continuity = self.continuity()
         return build_portrait_prompt(name, continuity["characters"][name], continuity["visual_style"])
@@ -338,9 +377,16 @@ class Pipeline:
         return adopted
 
     def image_record(self, panel, aspects=None):
+        """The panel's current drawing. It stays current while its art stamp matches and its frame keeps nearly
+        the same shape (assembly crops the small difference); older records fall back to the full panel stamp."""
         record = self.store.read(f"images/{panel.panel_id}.json")
         actual = hashlib.sha256(self.store.path(record["path"]).read_bytes()).hexdigest()
-        if record["panel_stamp"] != self.panel_stamp(panel, aspects) or actual != record["image_hash"]:
+        if "art_stamp" in record:
+            aspect = (aspects or self.aspects())[panel.panel_id]
+            current = record["art_stamp"] == self.art_stamp(panel) and _similar(record["aspect"], aspect)
+        else:
+            current = record["panel_stamp"] == self.panel_stamp(panel, aspects)
+        if not current or actual != record["image_hash"]:
             raise ValueError("Image is stale or modified; regenerate and review")
         return record
 
@@ -407,6 +453,7 @@ class Pipeline:
                           for n, e in portraits.items()]
             self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
+                      "art_stamp": self.art_stamp(panel), "aspect": aspect,
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
                       "references": list(portraits)}
             self.store.write(f"images/{panel.panel_id}.json", record)

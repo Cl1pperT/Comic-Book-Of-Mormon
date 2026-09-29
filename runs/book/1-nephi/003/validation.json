@@ -2,64 +2,80 @@
   "stamp": "ef9ede5f701cb774a8c341b6f680364218402572cdf3d7ca98a5d0622652caca",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpts are exact but incomplete quotations of the supplied verses; the scene otherwise avoids adding events from the omitted text."
+      ]
     },
     "scene_004": {
       "status": "PASS",
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The scene lists only Laban’s house as its location, although the lots are cast before Laman enters the house; the place where they cast lots is unspecified. Separate the moments or leave that location unspecified."
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
       ]
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene lists Laban’s house as its location, but Laman reports what happened and the brothers react after he flees; their location during that report is unspecified. Avoid implying the entire scene occurs inside the house."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is an exact excerpt, but the dialogue includes only part of Nephi’s longer speech. The summary and facts correctly report its additional content."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+      ]
     },
     "scene_015": {
       "status": "PASS",

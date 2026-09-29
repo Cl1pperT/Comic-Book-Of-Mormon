@@ -211,6 +211,39 @@ def test_reader_flags_panels_of_the_assembled_draft(pipeline):
             server.shutdown()
 
 
+def test_drawings_survive_lettering_edits_and_small_reshapes_but_not_content_edits(pipeline):
+    from bom_comic.pipeline import _similar
+    ready(pipeline)
+    pipeline.generate()
+    panel = pipeline.panels()[0]
+    record = pipeline.image_record(panel)
+    assert record["art_stamp"] == pipeline.art_stamp(panel)
+    # Lettering is added at assembly, so new captions keep the drawing (the panel's approval changes; the art doesn't).
+    relettered = panel.model_copy(update={"narration": [], "dialogue": []})
+    assert pipeline.art_stamp(relettered) == record["art_stamp"]
+    assert pipeline.art_stamp(panel.model_copy(update={"action": "Something else happens"})) != record["art_stamp"]
+    # Frame shapes within 4% reuse the drawing; assembly crops the difference.
+    assert _similar("4:3", "133:100") and not _similar("4:3", "3:2")
+    aspect = pipeline.aspects()[panel.panel_id]
+    w, h = (int(n) for n in aspect.split(":"))
+    assert pipeline.image_record(panel, {panel.panel_id: f"{w * 102}:{h * 100}"})
+    with pytest.raises(ValueError, match="stale"):
+        pipeline.image_record(panel, {panel.panel_id: f"{w * 3}:{h * 2}"})
+
+
+def test_older_drawing_records_are_upgraded_while_still_current(pipeline):
+    ready(pipeline)
+    pipeline.generate()
+    record = pipeline.store.read("images/panel_001.json")
+    legacy = {k: v for k, v in record.items() if k not in ("art_stamp", "aspect")}
+    pipeline.store.write("images/panel_001.json", legacy)
+    assert pipeline.image_record(pipeline.panels()[0])  # the old rule still applies to old records
+    assert pipeline.upgrade_image_records() == 1
+    upgraded = pipeline.store.read("images/panel_001.json")
+    assert upgraded["art_stamp"] == record["art_stamp"] and upgraded["aspect"] == record["aspect"]
+    assert pipeline.upgrade_image_records() == 0
+
+
 def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_path):
     from bom_comic import reader, redraw
     from bom_comic.comic import diffusion_prompts

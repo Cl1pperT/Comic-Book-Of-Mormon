@@ -182,6 +182,14 @@ def _finish(store, pipeline, book, chapter, last, report):
     return status
 
 
+def _upgrade(pipeline):
+    """Art-stamp a drawn chapter's existing drawings (a no-op for undrawn chapters or already-upgraded records)."""
+    try:
+        pipeline.upgrade_image_records()
+    except (ValueError, FileNotFoundError):
+        pass  # no current plan or approvals to compare against: nothing to keep
+
+
 def repair_chapter(root, book, chapter, make_provider):
     """Re-clean, re-audit, and repair a finished chapter that still has rejected scenes. Callers hold the writing
     lock (repair_blocked and the nightly job do)."""
@@ -189,6 +197,7 @@ def repair_chapter(root, book, chapter, make_provider):
     status = store.read("status.json")
     pipeline = Pipeline(store, make_provider(store))
     pipeline.provider.reuse_responses = True
+    _upgrade(pipeline)  # before the scenes change, while old drawings still pass the old rule
     scenes = pipeline.scenes()
     cleaned = [unquote(scene.model_copy(deep=True)) for scene in scenes]
     if cleaned != scenes:
@@ -231,18 +240,17 @@ def repair_blocked(root="runs/book", make_provider=None):
 
 
 def recheck(root="runs/book"):
-    """Re-apply the automatic rules (e.g. a new minimum-lettering rule) to written chapters with no drawings yet,
-    marking scenes that now fail as rejected so the next repair pass rewrites them. No model calls. Chapters with
-    drawings are left alone: changing their scenes would make finished panels stale."""
+    """Re-apply the automatic rules (e.g. a new minimum-lettering rule) to written chapters, marking scenes that now
+    fail as rejected so the next repair pass rewrites them. No model calls. Drawn chapters are included: their
+    drawings get art stamps first, so after the repair only panels whose drawing really changed are redrawn."""
     changed = []
     with writing_lock(root):
         for status_path in sorted(Path(root).glob("*/*/status.json")):
             run = status_path.parent
-            if (run / "images").exists():
-                continue
             store = Store(run)
             status = store.read("status.json")
             pipeline = Pipeline(store, None)
+            _upgrade(pipeline)
             try:
                 validation = pipeline.validation()
             except ValueError:

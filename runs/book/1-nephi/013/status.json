@@ -5,16 +5,44 @@
   "scenes": 19,
   "counts": {
     "PASS": 1,
-    "PASS WITH WARNINGS": 18,
-    "REJECT": 0
+    "PASS WITH WARNINGS": 9,
+    "REJECT": 9
   },
-  "rejected": {},
-  "calls": 2,
+  "rejected": {
+    "scene_005": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_006": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_007": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_008": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_009": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_013": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_014": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_018": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_019": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ]
+  },
+  "calls": 25,
   "tokens": {
-    "input_tokens": 27416,
-    "cached_input_tokens": 3840,
+    "input_tokens": 37643,
+    "cached_input_tokens": 7680,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7649,
+    "output_tokens": 7713,
     "reasoning_output_tokens": 0
   }
 }

@@ -78,10 +78,18 @@ def start_comfy(log_path):
     raise SystemExit("ComfyUI did not start within 10 minutes")
 
 
-def state(book_name, chapter):
+def state(book_name, chapter, new_only=False):
+    """new_only: a chapter that was rendered stays "rendered" even if its scenes changed since (no re-render)."""
     run = book.folder(ROOT, book_name, chapter)
-    if (run / "render.json").exists():
+    if new_only and (run / "render.json").exists():
         return "rendered"
+    if (run / "render.json").exists():
+        manifest = run / "final" / "manifest.json"
+        # A chapter whose scenes changed after assembly (e.g. repaired) renders again; drawings that still fit
+        # are reused, so only changed panels are redrawn.
+        if not manifest.exists() or json.loads(manifest.read_text(encoding="utf-8"))["scene_stamp"] == \
+                Pipeline(Store(run), None).stamp():
+            return "rendered"
     if (run / "render-error.json").exists():
         return "failed"  # waits for a person; delete render-error.json to retry
     if not (run / "status.json").exists():
@@ -131,7 +139,9 @@ def render_chapter(book_name, chapter, deadline, provider_for):
     return True
 
 
-def run(until, write=True, render=True):
+def run(until, write=True, render=True, new_only=False):
+    """new_only: draw only chapters never rendered, skipping flag redraws and re-renders of repaired chapters
+    (useful while repairs are still landing, so nothing is drawn twice)."""
     from .config import Config
     Config.load()
     for key, value in book.CODEX_DEFAULTS.items():
@@ -185,7 +195,7 @@ def run(until, write=True, render=True):
                         report["repaired"].append(f"{name} {chapter}: {status['counts']['REJECT']} still rejected")
                         log(f"Repaired {name} {chapter}: {status['counts']}")
                         break  # one repair per top-up keeps writing and rendering moving
-                ready = sum(state(n, c) == "ready" for n, c, _ in chapters)
+                ready = sum(state(n, c, new_only) == "ready" for n, c, _ in chapters)
                 if ready > LEAD:
                     return
                 written, reason = book.write_book(ROOT, SOURCE, max_chapters=LEAD + 1 - ready, make_provider=make_codex)
@@ -237,9 +247,9 @@ def run(until, write=True, render=True):
                 top_up()
                 if not render:
                     break
-                if not redraw_flags():
+                if not new_only and not redraw_flags():
                     break
-                todo = [(n, c) for n, c, _ in chapters if state(n, c) == "ready"]
+                todo = [(n, c) for n, c, _ in chapters if state(n, c, new_only) == "ready"]
                 if not todo:
                     report["stopped"] = "nothing ready to render"
                     break
@@ -277,9 +287,11 @@ def main():
     parser.add_argument("--until", default="07:00", help="Stop starting new panels at this local time (HH:MM)")
     parser.add_argument("--no-write", action="store_true", help="Render only; don't call Codex")
     parser.add_argument("--no-render", action="store_true", help="Write/repair scenes only")
+    parser.add_argument("--new-only", action="store_true",
+                        help="Draw only never-rendered chapters: no flag redraws, no re-renders of repaired chapters")
     args = parser.parse_args()
     until = datetime.datetime.strptime(args.until, "%H:%M").time()
-    run(until, write=not args.no_write, render=not args.no_render)
+    run(until, write=not args.no_write, render=not args.no_render, new_only=args.new_only)
 
 
 if __name__ == "__main__":

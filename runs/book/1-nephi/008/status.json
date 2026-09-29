@@ -4,17 +4,54 @@
   "verses": 38,
   "scenes": 19,
   "counts": {
-    "PASS": 19,
+    "PASS": 7,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 0
+    "REJECT": 12
   },
-  "rejected": {},
-  "calls": 4,
+  "rejected": {
+    "scene_001": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_003": [
+      "Scene has 2 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_005": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_007": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_009": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_010": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_011": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_012": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_013": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_014": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_015": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ],
+    "scene_017": [
+      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    ]
+  },
+  "calls": 25,
   "tokens": {
-    "input_tokens": 36160,
+    "input_tokens": 41224,
     "cached_input_tokens": 16384,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7099,
+    "output_tokens": 7116,
     "reasoning_output_tokens": 816
   }
 }

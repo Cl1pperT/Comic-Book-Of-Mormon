@@ -463,6 +463,20 @@ def test_nightly_writes_ahead_renders_in_order_and_resumes(tmp_path, monkeypatch
     calls.clear()
     report = nightly.run(until)
     assert calls == [] and report["rendered"] == [] and report["written"] == []
+    # A caption-only repair of a drawn chapter re-renders it without redrawing: the drawing doesn't include text.
+    from bom_comic.pipeline import Pipeline
+    from bom_comic.storage import Store
+    run = Pipeline(Store(chapter), FakeCodex(Store(chapter)))
+    drawn = sorted(p.name for p in (chapter / "images").glob("*.png"))
+    scenes = run.store.read("scenes.json")
+    scenes[0]["narration"][0]["text"] = "FIXTURE: Event 2.1."
+    run.store.write("scenes.json", scenes)
+    run.validate(batch=True)
+    report = nightly.run(until)
+    assert report["rendered"] == ["1 Nephi 2"]
+    assert sorted(p.name for p in (chapter / "images").glob("*.png")) == drawn  # nothing redrawn
+    assert json.loads((chapter / "final" / "manifest.json").read_text(encoding="utf-8"))["panels"][0]["narration"][0]["text"] \
+        == "FIXTURE: Event 2.1."
 
 
 def test_kontext_prompt_says_other_figures_are_different_people():

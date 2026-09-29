@@ -24,14 +24,21 @@
       "Nephi is present at the tent upon returning."
     ],
     "unspecified_visual_details": [
-      "The appearance of the Lord during Nephi’s prior conversation is not described.",
-      "The tent’s design and Nephi’s appearance are unspecified."
+      "The tent’s design and Nephi’s appearance are unspecified.",
+      "The Lord’s appearance during the prior conversation is not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that I, Nephi, returned from speaking with the Lord, to the tent of my father.",
+        "refs": [
+          "1 Nephi 3:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the Lord speaking or appearing; the verse only reports that Nephi had spoken with the Lord."
+      "Do not depict the earlier conversation or an appearance of the Lord; the verse only reports that Nephi had spoken with the Lord."
     ],
     "importance": "normal"
   },
@@ -223,101 +230,116 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Journey toward Jerusalem",
+    "title": "Journey to the Land of Jerusalem",
     "refs": [
       "1 Nephi 3:9",
       "1 Nephi 3:10"
     ],
-    "summary": "Nephi and his brothers travel through the wilderness with their tents, reach Jerusalem, and consult together.",
+    "summary": "Nephi and his brethren journey through the wilderness with their tents to the land of Jerusalem. After arriving, they consult one another.",
     "characters": [
       "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam"
+      "Nephi's brethren"
     ],
     "locations": [
       "wilderness",
-      "Jerusalem"
+      "land of Jerusalem"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi and his brothers traveled in the wilderness with their tents toward Jerusalem.",
+        "text": "Nephi and his brethren journeyed through the wilderness with their tents to the land of Jerusalem.",
         "refs": [
           "1 Nephi 3:9"
         ]
       },
       {
-        "text": "After reaching Jerusalem, Nephi and his brothers consulted together.",
+        "text": "After they had gone up to the land of Jerusalem, Nephi and his brethren consulted one another.",
         "refs": [
           "1 Nephi 3:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The traveling brothers include Laman, Lemuel, and Sam, identified elsewhere as Nephi’s brothers.",
-      "The journey and the consultation occur at separate times and can be shown as two linked moments within the travel beat."
+      "The journey and consultation can be shown as successive moments, not as simultaneous actions."
     ],
     "unspecified_visual_details": [
-      "The brothers’ route, the tents’ appearance, and the precise place of consultation are unspecified."
+      "The route, the tents' appearance, and the precise place of consultation are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "I and my brethren did consult one with another.",
+        "refs": [
+          "1 Nephi 3:10"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the consultation as occurring in the wilderness; the verse places it after they reach Jerusalem."
+      "Do not identify the brethren by names absent from these verses.",
+      "Do not place the consultation during the wilderness journey or invent what was said."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_006",
-    "title": "The lot falls to Laman",
+    "title": "The lot falls upon Laman",
     "refs": [
       "1 Nephi 3:11",
       "1 Nephi 3:12"
     ],
-    "summary": "The brothers cast lots; Laman is chosen and asks Laban for the brass-plate records.",
+    "summary": "The group casts lots to decide who will enter Laban’s house. The lot falls upon Laman. He enters the house, talks with Laban as Laban sits there, and requests the records engraved on brass plates.",
     "characters": [
-      "Nephi",
       "Laman",
-      "Lemuel",
-      "Sam",
-      "Laban"
+      "Laban",
+      "unnamed members of the group casting lots"
     ],
     "locations": [
-      "house of Laban"
+      "Laban’s house",
+      "unspecified location where lots are cast"
     ],
     "explicit_facts": [
       {
-        "text": "The brothers cast lots to decide who would go into Laban’s house, and the lot fell upon Laman.",
+        "text": "The group cast lots to decide who would enter Laban’s house, and the lot fell upon Laman.",
         "refs": [
           "1 Nephi 3:11"
         ]
       },
       {
-        "text": "Laman went into Laban’s house and talked with him as Laban sat in his house.",
+        "text": "Laman entered Laban’s house and talked with him while Laban sat in the house.",
         "refs": [
           "1 Nephi 3:11"
         ]
       },
       {
-        "text": "Laman asked Laban for the records engraved upon brass plates, which contained the genealogy of Laman’s father.",
+        "text": "Laman desired records engraved on brass plates; the records contained the genealogy of the narrator’s father.",
         "refs": [
           "1 Nephi 3:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laban and Laman are visible during Laman’s request; the other brothers may be excluded from the house."
+      "Laman and a seated Laban can be shown together inside the house during their conversation.",
+      "The casting of lots and Laman’s visit occur in sequence, not simultaneously."
     ],
     "unspecified_visual_details": [
-      "The manner of casting lots, the house interior, and the plates’ appearance are unspecified."
+      "The method and objects used to cast lots are unspecified.",
+      "The house’s appearance and the brass plates’ appearance are unspecified.",
+      "The exact location of the lot-casting is unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And we cast lots—who of us should go in unto the house of Laban.",
+        "refs": [
+          "1 Nephi 3:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the result or mechanics of the lots beyond that the lot fell to Laman.",
-      "Do not invent Laman’s exact spoken wording."
+      "Do not invent the mechanics of casting lots or Laman’s exact spoken words.",
+      "Do not show the plates as physically present in the house; their location is not stated.",
+      "Do not identify unnamed group members from outside the supplied verses."
     ],
     "importance": "normal"
   },
@@ -477,94 +499,117 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "They gather their valuables",
+    "title": "Gathering their possessions",
     "refs": [
       "1 Nephi 3:22",
       "1 Nephi 3:23"
     ],
-    "summary": "The brothers go to the land of their inheritance, gather gold, silver, and precious things, then return to Laban’s house.",
+    "summary": "The group goes down to the land of their inheritance and gathers gold, silver, and precious things. Afterward, they go up again to the house of Laban.",
     "characters": [
-      "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam"
+      "Unnamed group referred to as “we”"
     ],
     "locations": [
       "the land of our inheritance",
-      "house of Laban"
+      "the house of Laban"
     ],
     "explicit_facts": [
       {
-        "text": "The brothers went to the land of their inheritance and gathered gold, silver, and precious things.",
+        "text": "The group went down to the land of their inheritance and gathered their gold, silver, and precious things.",
         "refs": [
           "1 Nephi 3:22"
         ]
       },
       {
-        "text": "After gathering the valuables, they went up again to Laban’s house.",
+        "text": "After gathering those things, the group went up again to the house of Laban.",
         "refs": [
           "1 Nephi 3:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The journey to Laban’s house follows the gathering, but the two locations represent successive moments."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The valuables’ quantity and appearance are unspecified."
+      "The group's identities and appearances are not specified.",
+      "The quantity and appearance of the possessions are not specified.",
+      "The appearance of either location is not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "we did gather together our gold, and our silver, and our precious things.",
+        "refs": [
+          "1 Nephi 3:22"
+        ]
+      },
+      {
+        "text": "we went up again unto the house of Laban.",
+        "refs": [
+          "1 Nephi 3:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show Laban during the gathering at the land of inheritance."
+      "Do not assign names to members of the group.",
+      "Do not depict Laban as present.",
+      "Do not show the gathering and the later journey as simultaneous."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "The brothers offer their property",
+    "title": "The offer to Laban",
     "refs": [
       "1 Nephi 3:24",
       "1 Nephi 3:25"
     ],
-    "summary": "The brothers ask Laban for the records in exchange for their valuables. Laban desires the property, thrusts them out, and sends servants to slay them.",
+    "summary": "The group asks Laban for the records engraved on brass plates, offering gold, silver, and precious things. Laban sees their property, desires it, thrusts them out, and sends his servants to slay them so he can obtain it.",
     "characters": [
-      "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
       "Laban",
-      "Laban’s servants"
+      "the group offering the property",
+      "Laban's servants"
     ],
-    "locations": [
-      "house of Laban"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The brothers asked Laban for the brass-plate records and offered their gold, silver, and precious things.",
+        "text": "The group went in unto Laban and asked for the records engraved on brass plates, offering gold, silver, and precious things.",
         "refs": [
           "1 Nephi 3:24"
         ]
       },
       {
-        "text": "Seeing their great property, Laban lusted after it, thrust them out, and sent his servants to slay them in order to obtain it.",
+        "text": "Laban saw that their property was exceedingly great and lusted after it.",
+        "refs": [
+          "1 Nephi 3:25"
+        ]
+      },
+      {
+        "text": "Laban thrust the group out and sent his servants to slay them so he could obtain their property.",
         "refs": [
           "1 Nephi 3:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laban and the brothers are present during the offer; the servants are sent after Laban thrusts them out."
+      "Laban and the group are together during the offer.",
+      "The servants may be shown receiving Laban's order after he thrusts the group out."
     ],
     "unspecified_visual_details": [
-      "The servants’ number, appearance, weapons, and exact positions are unspecified."
+      "The setting's appearance and the servants' number, appearance, and equipment are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "when Laban saw our property",
+        "refs": [
+          "1 Nephi 3:25"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verses report an order to slay the group, not a killing."
+    ],
     "prohibited_inventions": [
-      "Do not invent Laban’s spoken words or show anyone being killed."
+      "Do not assign names to the group, invent spoken words, or depict anyone being killed."
     ],
     "importance": "normal"
   },
@@ -575,87 +620,102 @@
       "1 Nephi 3:26",
       "1 Nephi 3:27"
     ],
-    "summary": "The brothers flee Laban’s servants, leave their property behind, escape into the wilderness, and hide in a rock cavity; the servants do not overtake them.",
+    "summary": "The group flees before Laban’s servants, leaves its property behind, and escapes into the wilderness. The servants do not overtake them, and they hide in a rock cavity.",
     "characters": [
-      "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
+      "The fleeing group",
       "Laban’s servants"
     ],
     "locations": [
-      "wilderness"
+      "Wilderness",
+      "Cavity of a rock"
     ],
     "explicit_facts": [
       {
-        "text": "The brothers fled before Laban’s servants and had to leave their property, which fell into Laban’s hands.",
+        "text": "The group fled before Laban’s servants and was obliged to leave its property behind; the property fell into Laban’s hands.",
         "refs": [
           "1 Nephi 3:26"
         ]
       },
       {
-        "text": "They fled into the wilderness, were not overtaken by the servants, and hid in a cavity of a rock.",
+        "text": "The group fled into the wilderness, was not overtaken by the servants, and hid in the cavity of a rock.",
         "refs": [
           "1 Nephi 3:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brothers are visible hiding in the rock cavity after their flight."
+      "The fleeing group can be shown hiding inside the rock cavity."
     ],
     "unspecified_visual_details": [
-      "The rock cavity and the wilderness terrain are not described.",
-      "Whether the servants are visible at the moment of hiding is unspecified."
+      "The group’s number and appearances are not specified.",
+      "The rock cavity and wilderness terrain are not described.",
+      "Whether the servants are visible when the group hides is unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "we hid ourselves in the cavity of a rock.",
+        "refs": [
+          "1 Nephi 3:27"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the servants catching or attacking the brothers."
+      "Do not identify members of the fleeing group by names not given in these verses.",
+      "Do not show the servants overtaking or attacking the group.",
+      "Do not depict Laban physically receiving the property."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "Laman and Lemuel strike their brothers",
+    "title": "Laman and Lemuel strike their younger brothers",
     "refs": [
       "1 Nephi 3:28"
     ],
-    "summary": "Laman and Lemuel are angry with Nephi and their father, speak harshly to their younger brothers, and strike them with a rod.",
+    "summary": "Laman and Lemuel are angry with the narrator and their father. Lemuel hearkens to Laman. They speak many hard words to their younger brothers and strike them with a rod.",
     "characters": [
       "Laman",
       "Lemuel",
-      "Nephi",
-      "Sam"
+      "their younger brothers"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Laman and Lemuel were angry with Nephi and their father; Lemuel hearkened to Laman.",
+        "text": "Laman and Lemuel were angry with the narrator and their father; Lemuel hearkened to Laman.",
         "refs": [
           "1 Nephi 3:28"
         ]
       },
       {
-        "text": "Laman and Lemuel spoke many hard words to their younger brothers and smote them with a rod.",
+        "text": "Laman and Lemuel spoke many hard words to their younger brothers and struck them with a rod.",
         "refs": [
           "1 Nephi 3:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brothers are together in the wilderness after hiding in the rock cavity."
+      "Laman and Lemuel are close enough to their younger brothers to strike them with a rod."
     ],
     "unspecified_visual_details": [
-      "The rod’s appearance and the precise positioning of the brothers are unspecified."
+      "The location, the rod’s appearance, and the brothers’ precise positions are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "Wherefore Laman and Lemuel did speak many hard words unto us, their younger brothers, and they did smite us even with a rod.",
+        "refs": [
+          "1 Nephi 3:28"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The words spoken are not supplied and should not be written as dialogue."
+    ],
     "prohibited_inventions": [
-      "Do not depict wounds, blood, or injury beyond the described striking."
+      "Do not add a location, spoken words, or the father’s physical presence.",
+      "Do not show wounds, blood, or gore."
     ],
     "importance": "normal"
   },
@@ -745,15 +805,15 @@
     "refs": [
       "1 Nephi 3:30"
     ],
-    "summary": "After the angel speaks, the angel departs.",
+    "summary": "After speaking unto them, the angel departs.",
     "characters": [
       "The angel",
-      "The people addressed by the angel"
+      "Those addressed by the angel"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel had spoken unto them and then departed.",
+        "text": "The angel spoke unto them and then departed.",
         "refs": [
           "1 Nephi 3:30"
         ]
@@ -761,13 +821,21 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel's identity, appearance, location, manner of departure, and the identities of those addressed are unspecified."
+      "The angel's identity and appearance, the location, the manner of departure, and the identities of those addressed are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And after the angel had spoken unto us, he departed.",
+        "refs": [
+          "1 Nephi 3:30"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify the angel or the people addressed beyond what the verse states.",
+      "Do not invent what the angel said.",
+      "Do not identify the angel or those addressed beyond what the verse states.",
       "Do not invent a location, appearance, or manner of departure."
     ],
     "importance": "normal"
