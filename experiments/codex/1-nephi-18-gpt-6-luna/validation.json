@@ -1,13 +1,15 @@
 {
-  "stamp": "04383ceead03835f02f0974838873fcd83aefc52589a09488faa7fde8e6c976e",
+  "stamp": "9951a56227fb5d3257a0568199a2fe993f6193e39f41a8fbd85163569e6146da",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The text does not say Nephi is alone in the mount; avoid implying he is alone."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -50,8 +52,10 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source reports that Lehi and Sariah were threatened and brought to their sick-beds, but does not specify that the threatening group remains present at the sick-beds."
+      ]
     },
     "scene_014": {
       "status": "PASS",
@@ -70,6 +74,16 @@
       "issues": []
     },
     "scene_018": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: 'we did pitch our tents' is not verbatim in 1 Nephi 18:23, which reads 'And it came to pass that after we had sailed for the space of many days we did arrive at the promised land; and we went forth upon the land, and did pitch our tents; and we did call it the promised land.'"
+      ]
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
       "status": "PASS",
       "issues": []
     }

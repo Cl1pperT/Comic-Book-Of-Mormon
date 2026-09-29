@@ -195,6 +195,11 @@ def test_codex_runs_one_read_only_exec_per_call_and_holds_the_schema(tmp_path, m
     provider.reuse_responses = True
     provider.structured("Check this scene.", Verdict, "validate_scene_001", "validator")
     assert len(calls) == 1
+    # Rewrites of rejected scenes can use a stronger model than first drafts.
+    monkeypatch.setenv("CODEX_TEXT_MODEL", "small")
+    monkeypatch.setenv("CODEX_REPAIR_MODEL", "bigger")
+    codex.Codex(store).structured("Rewrite.", Verdict, "regenerate_scene_001_x", "repair")
+    assert calls[-1][0][calls[-1][0].index("--model") + 1] == "bigger"
     # Failures surface as provider errors, with usage limits called out so the run can resume later.
     monkeypatch.setattr(codex.subprocess, "run", lambda args, input, **k: subprocess.CompletedProcess(
         args, 1, "", "ERROR: You've hit your usage limit. Try again later."))
@@ -291,6 +296,61 @@ def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
     assert written == [] and reason == "usage limit" and tags == ["analyze_2_nephi_1_0"]
     with pytest.raises(ValueError, match="Unknown chapter"):
         book.write_book(tmp_path / "book", source, start="3 Nephi 99", make_provider=Fake)
+
+
+def test_nightly_writes_ahead_renders_in_order_and_resumes(tmp_path, monkeypatch):
+    import datetime
+    import json
+    import bom_comic.codex
+    import bom_comic.providers
+    from bom_comic import book, nightly
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict
+    from bom_comic.providers import PlaceholderImages
+    source = tmp_path / "src.txt"
+    source.write_text("".join(f"1 Nephi {c}:{v} TEST FIXTURE: Event {c}.{v}.\n" for c in (1, 2, 3) for v in (1, 2)),
+                      encoding="utf-8")
+    library = tmp_path / "library"
+    library.mkdir()
+    (library / "characters.json").write_text("{}", encoding="utf-8")
+    (library / "index.json").write_text("{}", encoding="utf-8")
+    monkeypatch.setattr(nightly, "ROOT", tmp_path / "book")
+    monkeypatch.setattr(nightly, "SOURCE", str(source))
+    monkeypatch.setattr(nightly, "LIBRARY", str(library))
+    monkeypatch.setattr(nightly, "comfy_up", lambda: True)
+    monkeypatch.setattr(book, "_continuity", lambda: {"characters": {}, "locations": {}, "visual_style": {}})
+    calls = []
+
+    class FakeCodex:
+        def __init__(self, store):
+            self.store = store
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            calls.append(tag)
+            if schema is ChapterVerdicts:
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="PASS") for i in ids])
+            verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:])
+            ref = lambda v: f"{v['book']} {v['chapter']}:{v['verse']}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v) for v in verses], summary="s",
+                                            explicit_facts=[Claim(text="x", refs=[ref(verses[0])])],
+                                            narration=[Claim(text=f"“{verses[0]['text']}”", refs=[ref(verses[0])])])])
+    monkeypatch.setattr(bom_comic.codex, "Codex", FakeCodex)
+    monkeypatch.setattr(bom_comic.providers, "ComfyUI", lambda store: PlaceholderImages())
+    until = (datetime.datetime.now() - datetime.timedelta(minutes=1)).time()  # ~24 hours away
+    report = nightly.run(until)
+    assert report["written"] == ["1 Nephi 1", "1 Nephi 2", "1 Nephi 3"]
+    assert report["rendered"] == ["1 Nephi 1", "1 Nephi 2", "1 Nephi 3"] and report["stopped"] == "nothing ready to render"
+    chapter = tmp_path / "book" / "1-nephi" / "002"
+    assert (chapter / "final" / "comic.pdf").exists() and (chapter / "render.json").exists()
+    # Quote marks the model wrapped around a caption were stripped, so the exact-quotation check passed.
+    assert json.loads((chapter / "scenes.json").read_text(encoding="utf-8"))[0]["narration"][0]["text"] == "TEST FIXTURE: Event 2.1."
+    reviews = json.loads((chapter / "reviews.json").read_text(encoding="utf-8"))
+    assert all(r["note"].startswith("AUTOMATED") for r in reviews.values())
+    assert list((tmp_path / "book" / "nightly").glob("*.json")) and not (tmp_path / "book" / "nightly" / "nightly.lock").exists()
+    # The next night resumes: nothing to write or draw again.
+    calls.clear()
+    report = nightly.run(until)
+    assert calls == [] and report["rendered"] == [] and report["written"] == []
 
 
 def test_kontext_prompt_says_other_figures_are_different_people():

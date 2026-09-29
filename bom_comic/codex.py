@@ -65,8 +65,11 @@ class Codex:
             raise ProviderError("Codex CLI not found. Install it, then run `codex login` and sign in with ChatGPT.")
         # Unset uses the Codex default model / reasoning effort for the signed-in plan.
         text_model = os.getenv("CODEX_TEXT_MODEL")
-        self.models = {"text": text_model, "validator": os.getenv("CODEX_VALIDATOR_MODEL", text_model)}
-        self.effort = {"text": os.getenv("CODEX_TEXT_EFFORT"), "validator": os.getenv("CODEX_VALIDATOR_EFFORT")}
+        # "repair" is the rewrite of a scene the audit rejected: rare enough to afford a stronger model.
+        self.models = {"text": text_model, "validator": os.getenv("CODEX_VALIDATOR_MODEL", text_model),
+                       "repair": os.getenv("CODEX_REPAIR_MODEL", text_model)}
+        self.effort = {"text": os.getenv("CODEX_TEXT_EFFORT"), "validator": os.getenv("CODEX_VALIDATOR_EFFORT"),
+                       "repair": os.getenv("CODEX_REPAIR_EFFORT", os.getenv("CODEX_TEXT_EFFORT"))}
         self.timeout = float(os.getenv("CODEX_TIMEOUT", "900"))
 
     def args(self, folder, schema_path, output_path, model, effort):
@@ -86,7 +89,7 @@ class Codex:
         return args + ["-"]  # the prompt arrives on stdin; chapters are too long for a Windows command line
 
     def structured(self, prompt, schema, tag, kind="text"):
-        kind = "validator" if kind == "validator" else "text"
+        kind = kind if kind in ("validator", "repair") else "text"
         model, effort = self.models[kind], self.effort[kind]
         json_schema = strict_schema(schema.model_json_schema())
         request = {"model": model, "effort": effort, "prompt": prompt, "schema": json_schema}

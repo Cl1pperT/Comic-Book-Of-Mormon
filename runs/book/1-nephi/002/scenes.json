@@ -45,18 +45,18 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Command to Depart",
+    "title": "The Lord’s Command in a Dream",
     "refs": [
       "1 Nephi 2:2",
       "1 Nephi 2:3"
     ],
-    "summary": "The Lord commands Lehi in a dream to take his family and depart into the wilderness. Lehi obeys.",
+    "summary": "The Lord commands Lehi in a dream to take his family and depart into the wilderness.",
     "characters": [
       "Lehi",
       "the Lord"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified dream setting"
     ],
     "explicit_facts": [
       {
@@ -66,17 +66,18 @@
         ]
       },
       {
-        "text": "Lehi did as the Lord commanded him.",
+        "text": "Lehi was obedient to the Lord's word and did as commanded.",
         "refs": [
           "1 Nephi 2:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is asleep during the dream."
+      "Lehi is asleep as the command comes in a dream."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance and the dream's surroundings are not specified."
+      "The Lord's appearance and the dream's surroundings are not described.",
+      "The manner in which Lehi later obeyed is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -85,17 +86,13 @@
         "refs": [
           "1 Nephi 2:2"
         ]
-      },
-      {
-        "text": "he did as the Lord commanded him",
-        "refs": [
-          "1 Nephi 2:3"
-        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Lehi's obedience is reported in verse 3; it is not staged as a separate present-tense event here."
+    ],
     "prohibited_inventions": [
-      "Do not depict the family's departure; these verses only describe the command and Lehi's obedience."
+      "Do not depict the family's departure or Lehi's later actions; no details of those actions are supplied."
     ],
     "importance": "normal"
   },
@@ -554,11 +551,10 @@
     "refs": [
       "1 Nephi 2:14"
     ],
-    "summary": "Lehi speaks to his sons in the valley of Lemuel. Their frames shake before him; he confounds them, and they do as he commands.",
+    "summary": "Lehi speaks to unnamed people in the valley of Lemuel. Their frames shake before him; he confounds them, and they do as he commands.",
     "characters": [
       "Lehi",
-      "Laman",
-      "Lemuel"
+      "unnamed people addressed as “them”"
     ],
     "locations": [
       "valley of Lemuel"
@@ -571,22 +567,22 @@
         ]
       },
       {
-        "text": "Their frames shake before Lehi; he confounds them, so they do not dare speak against him, and they do as he commands.",
+        "text": "Their frames shake before Lehi; he confounds them so they do not dare speak against him, and they do as he commands.",
         "refs": [
           "1 Nephi 2:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The addressed persons are visibly trembling before Lehi."
+      "The unnamed people are visibly trembling before Lehi."
     ],
     "unspecified_visual_details": [
-      "The Spirit's appearance, the exact nature of Lehi's power, and what he commands are unspecified."
+      "The identities of the people addressed, the Spirit's appearance, the nature of Lehi's power, and what he commands are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "my father did speak unto them in the valley of Lemuel, with power, being filled with the Spirit",
+        "text": "my father did speak unto them in the valley of Lemuel, with power",
         "refs": [
           "1 Nephi 2:14"
         ]
@@ -605,12 +601,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 2:14 does not name those addressed; Laman and Lemuel are identified in the previous draft, but that identification is not stated in the supplied verse."
+      "The verse does not identify the people addressed beyond “them.”"
     ],
     "prohibited_inventions": [
-      "Do not add events from 1 Nephi 2:13 or depict them as part of this scene.",
+      "Do not identify the people as Lehi's sons or as Laman and Lemuel.",
+      "Do not add events from other verses or depict them as part of this scene.",
       "Do not depict an unmentioned supernatural figure or effect.",
-      "Do not invent the words spoken or the command given."
+      "Do not invent Lehi's words or the command given."
     ],
     "importance": "normal"
   },
@@ -886,7 +883,7 @@
       "1 Nephi 2:23",
       "1 Nephi 2:24"
     ],
-    "summary": "The Lord gives conditional warnings concerning the brothers' future rebellion and promises Nephi rule and teaching if he keeps the commandments.",
+    "summary": "The Lord gives conditional warnings about the brethren's future rebellion and promises Nephi rule and teaching if he keeps the commandments.",
     "characters": [
       "the Lord",
       "Nephi"
@@ -924,16 +921,9 @@
       "The Lord's words may be represented as off-screen speech; the verses do not establish a location or describe a visible appearance."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance, the setting, and any future descendants or events are unspecified."
+      "The Lord's appearance, setting, and any future descendants or events are unspecified."
     ],
     "spoken_dialogue": [
-      {
-        "text": "And inasmuch as thy brethren shall rebel against thee, they shall be cut off from the presence of the Lord.",
-        "refs": [
-          "1 Nephi 2:21"
-        ],
-        "speaker": "the Lord"
-      },
       {
         "text": "And inasmuch as thou shalt keep my commandments, thou shalt be made a ruler and a teacher over thy brethren.",
         "refs": [
@@ -942,28 +932,7 @@
         "speaker": "the Lord"
       },
       {
-        "text": "For behold, in that day that they shall rebel against me, I will curse them even with a sore curse,",
-        "refs": [
-          "1 Nephi 2:23"
-        ],
-        "speaker": "the Lord"
-      },
-      {
-        "text": "and they shall have no power over thy seed except they shall rebel against me also.",
-        "refs": [
-          "1 Nephi 2:23"
-        ],
-        "speaker": "the Lord"
-      },
-      {
         "text": "And if it so be that they rebel against me, they shall be a scourge unto thy seed,",
-        "refs": [
-          "1 Nephi 2:24"
-        ],
-        "speaker": "the Lord"
-      },
-      {
-        "text": "to stir them up in the ways of remembrance.",
         "refs": [
           "1 Nephi 2:24"
         ],

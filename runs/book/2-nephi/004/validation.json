@@ -1,5 +1,5 @@
 {
-  "stamp": "273cd62edeef7d3ce521ed3c0d613b77ce12ebc5f4f47d0135971b3baab75dd7",
+  "stamp": "bdbfd80a46c2d09eec7e3367e14e8b37b0b5472eb01a08e4dc6cb17266946b79",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,11 +22,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“when my father had made an end of speaking unto them”' is not verbatim in 2 Nephi 4:10, which reads 'And it came to pass that when my father had made an end of speaking unto them, behold, he spake unto the sons of Ishmael, yea, and even all his household.'",
-        "Lettering must be an exact source quotation: '“he spake unto the sons of Ishmael, yea, and even all his household.”' is not verbatim in 2 Nephi 4:10, which reads 'And it came to pass that when my father had made an end of speaking unto them, behold, he spake unto the sons of Ishmael, yea, and even all his household.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -41,33 +38,27 @@
     "scene_009": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“not many days after his death”' is not verbatim in 2 Nephi 4:13, which reads 'And it came to pass that not many days after his death, Laman and Lemuel and the sons of Ishmael were angry with me because of the admonitions of the Lord.'",
+        "Lettering must be an exact source quotation: '“And it came to pass that not many days after his death,”' is not verbatim in 2 Nephi 4:13, which reads 'And it came to pass that not many days after his death, Laman and Lemuel and the sons of Ishmael were angry with me because of the admonitions of the Lord.'",
         "Lettering must be an exact source quotation: '“Laman and Lemuel and the sons of Ishmael were angry with me because of the admonitions of the Lord.”' is not verbatim in 2 Nephi 4:13, which reads 'And it came to pass that not many days after his death, Laman and Lemuel and the sons of Ishmael were angry with me because of the admonitions of the Lord.'",
-        "Lettering must be an exact source quotation: '“I, Nephi, was constrained to speak unto them, according to his word;”' is not verbatim in 2 Nephi 4:14, which reads 'For I, Nephi, was constrained to speak unto them, according to his word; for I had spoken many things unto them, and also my father, before his death; many of which sayings are written upon mine other plates; for a more history part are written upon mine other plates.'"
+        "Lettering must be an exact source quotation: '“For I, Nephi, was constrained to speak unto them, according to his word;”' is not verbatim in 2 Nephi 4:14, which reads 'For I, Nephi, was constrained to speak unto them, according to his word; for I had spoken many things unto them, and also my father, before his death; many of which sayings are written upon mine other plates; for a more history part are written upon mine other plates.'"
       ]
     },
     "scene_010": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“For my soul delighteth in the scriptures,”' is not verbatim in 2 Nephi 4:15, which reads 'And upon these I write the things of my soul, and many of the scriptures which are engraven upon the plates of brass. For my soul delighteth in the scriptures, and my heart pondereth them, and writeth them for the learning and the profit of my children.'"
+        "Lettering must be an exact source quotation: '“And upon these I write the things of my soul,”' is not verbatim in 2 Nephi 4:15, which reads 'And upon these I write the things of my soul, and many of the scriptures which are engraven upon the plates of brass. For my soul delighteth in the scriptures, and my heart pondereth them, and writeth them for the learning and the profit of my children.'"
       ]
     },
     "scene_011": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“Behold, my soul delighteth in the things of the Lord;”' is not verbatim in 2 Nephi 4:16, which reads 'Behold, my soul delighteth in the things of the Lord; and my heart pondereth continually upon the things which I have seen and heard.'",
-        "Lettering must be an exact source quotation: '“and my heart pondereth continually upon the things which I have seen and heard.”' is not verbatim in 2 Nephi 4:16, which reads 'Behold, my soul delighteth in the things of the Lord; and my heart pondereth continually upon the things which I have seen and heard.'",
-        "Lettering must be an exact source quotation: '“O wretched man that I am!”' is not verbatim in 2 Nephi 4:17, which reads 'Nevertheless, notwithstanding the great goodness of the Lord, in showing me his great and marvelous works, my heart exclaimeth: O wretched man that I am! Yea, my heart sorroweth because of my flesh; my soul grieveth because of mine iniquities.'",
-        "Lettering must be an exact source quotation: '“Yea, my heart sorroweth because of my flesh;”' is not verbatim in 2 Nephi 4:17, which reads 'Nevertheless, notwithstanding the great goodness of the Lord, in showing me his great and marvelous works, my heart exclaimeth: O wretched man that I am! Yea, my heart sorroweth because of my flesh; my soul grieveth because of mine iniquities.'",
-        "Lettering must be an exact source quotation: '“my soul grieveth because of mine iniquities.”' is not verbatim in 2 Nephi 4:17, which reads 'Nevertheless, notwithstanding the great goodness of the Lord, in showing me his great and marvelous works, my heart exclaimeth: O wretched man that I am! Yea, my heart sorroweth because of my flesh; my soul grieveth because of mine iniquities.'"
+        "The source identifies the first-person speaker as Nephi in 2 Nephi 4:15; labeling the speaker unidentified and prohibiting identification conflicts with the supplied context."
       ]
     },
     "scene_012": {
       "status": "REJECT",
       "issues": [
-        "Lettering must be an exact source quotation: '“I am encompassed about, because of the temptations and the sins which do so easily beset me.”' is not verbatim in 2 Nephi 4:18, which reads 'I am encompassed about, because of the temptations and the sins which do so easily beset me.'",
-        "Lettering must be an exact source quotation: '“And when I desire to rejoice, my heart groaneth because of my sins;”' is not verbatim in 2 Nephi 4:19, which reads 'And when I desire to rejoice, my heart groaneth because of my sins; nevertheless, I know in whom I have trusted.'",
-        "Lettering must be an exact source quotation: '“nevertheless, I know in whom I have trusted.”' is not verbatim in 2 Nephi 4:19, which reads 'And when I desire to rejoice, my heart groaneth because of my sins; nevertheless, I know in whom I have trusted.'"
+        "The source identifies the first-person speaker as Nephi in 2 Nephi 4:15; the note that the supplied verses do not identify the speaker is incorrect."
       ]
     },
     "scene_013": {
@@ -79,29 +70,24 @@
       "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lettering must be an exact source quotation: '“And by day have I waxed bold in mighty prayer before him;”' is not verbatim in 2 Nephi 4:24, which reads 'And by day have I waxed bold in mighty prayer before him; yea, my voice have I sent up on high; and angels came down and ministered unto me.'",
-        "Lettering must be an exact source quotation: '“yea, my voice have I sent up on high;”' is not verbatim in 2 Nephi 4:24, which reads 'And by day have I waxed bold in mighty prayer before him; yea, my voice have I sent up on high; and angels came down and ministered unto me.'",
-        "Lettering must be an exact source quotation: '“and angels came down and ministered unto me.”' is not verbatim in 2 Nephi 4:24, which reads 'And by day have I waxed bold in mighty prayer before him; yea, my voice have I sent up on high; and angels came down and ministered unto me.'"
+        "The angels’ appearance and manner of ministry are unspecified; avoid giving them visual features or staging their reported arrival as a new present-time event."
       ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The visual inference proposes depicting Nephi on the mountains, turning a reported past event into a present scene. Keep the image reflective rather than staging the recalled carrying or mountain event."
+      ]
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "REJECT",
-      "issues": [
-        "Lettering must be an exact source quotation: '“Awake, my soul! No longer droop in sin.”' is not verbatim in 2 Nephi 4:28, which reads 'Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul.'",
-        "Lettering must be an exact source quotation: '“Rejoice, O my heart, and give place no more for the enemy of my soul.”' is not verbatim in 2 Nephi 4:28, which reads 'Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul.'",
-        "Lettering must be an exact source quotation: '“Do not anger again because of mine enemies.”' is not verbatim in 2 Nephi 4:29, which reads 'Do not anger again because of mine enemies. Do not slacken my strength because of mine afflictions.'",
-        "Lettering must be an exact source quotation: '“Do not slacken my strength because of mine afflictions.”' is not verbatim in 2 Nephi 4:29, which reads 'Do not anger again because of mine enemies. Do not slacken my strength because of mine afflictions.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
       "status": "PASS",
@@ -122,8 +108,10 @@
     "scene_023": {
       "status": "REJECT",
       "issues": [
+        "Lettering must be an exact source quotation: '“Yea, I know that God will give liberally to him that asketh.”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'",
         "Lettering must be an exact source quotation: '“Yea, my God will give me, if I ask not amiss;”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'",
         "Lettering must be an exact source quotation: '“therefore I will lift up my voice unto thee;”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'",
+        "Lettering must be an exact source quotation: '“yea, I will cry unto thee, my God, the rock of my righteousness.”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'",
         "Lettering must be an exact source quotation: '“Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God.”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'",
         "Lettering must be an exact source quotation: '“Amen.”' is not verbatim in 2 Nephi 4:35, which reads 'Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen.'"
       ]

@@ -7,6 +7,7 @@ leaves status.json in its folder and is skipped on the next run, so a run stoppe
 import json
 import os
 from pathlib import Path
+from .analysis import unquote
 from .errors import ProviderError
 from .pipeline import Pipeline
 from .scripture import load
@@ -17,8 +18,10 @@ LIBRARY = Path("portraits/book-of-mormon")
 LOCATIONS = Path("runs/1-nephi-1-4/continuity/locations.json")
 # Measured on 1 Nephi 4: the small model writes well at low effort in one call per chapter; auditing needs medium,
 # where low effort flip-flopped between false rejects and passes.
+# Rewrites of rejected scenes go to the mid-size model: they're the hard cases, and few enough to afford it.
 CODEX_DEFAULTS = {"CODEX_TEXT_MODEL": "gpt-6-luna", "CODEX_TEXT_EFFORT": "low",
-                  "CODEX_VALIDATOR_MODEL": "gpt-6-luna", "CODEX_VALIDATOR_EFFORT": "medium"}
+                  "CODEX_VALIDATOR_MODEL": "gpt-6-luna", "CODEX_VALIDATOR_EFFORT": "medium",
+                  "CODEX_REPAIR_MODEL": "gpt-6-sol", "CODEX_REPAIR_EFFORT": "medium"}
 
 
 def chapters(source):
@@ -69,8 +72,17 @@ def write_chapter(root, source, book, chapter, last, make_provider):
         pipeline.analyze(chunk_size=0)
         pipeline.provider.reuse_responses = True
         report = pipeline.validate(batch=True)
+    return _finish(store, pipeline, book, chapter, last, _repair(pipeline, report))
+
+
+def _rejected(report):
+    return sorted(sid for sid, verdict in report.items() if verdict["status"] == "REJECT")
+
+
+def _repair(pipeline, report):
+    """Rewrite rejected scenes (each told why) and re-audit, until clean, out of rounds, or a round changes nothing."""
     for _ in range(REPAIR_ROUNDS):
-        rejected = [sid for sid, verdict in report.items() if verdict["status"] == "REJECT"]
+        rejected = _rejected(report)
         if not rejected:
             break
         for sid in rejected:
@@ -79,6 +91,12 @@ def write_chapter(root, source, book, chapter, last, make_provider):
             except ValueError:
                 pass  # a rewrite that changed its verse coverage is discarded; the scene stays rejected
         report = pipeline.validate(batch=True)
+        if _rejected(report) == rejected:
+            break  # the same scenes failed again: more rounds would only spend usage
+    return report
+
+
+def _finish(store, pipeline, book, chapter, last, report):
     calls, tokens = _usage(store)
     status = {"book": book, "chapter": chapter, "verses": last, "scenes": len(report),
               "counts": {s: sum(v["status"] == s for v in report.values()) for s in ("PASS", "PASS WITH WARNINGS", "REJECT")},
@@ -86,6 +104,20 @@ def write_chapter(root, source, book, chapter, last, make_provider):
               "calls": calls, "tokens": tokens}
     store.write("status.json", status)
     return status
+
+
+def repair_chapter(root, book, chapter, make_provider):
+    """Re-clean, re-audit, and repair a finished chapter that still has rejected scenes."""
+    store = Store(folder(root, book, chapter))
+    status = store.read("status.json")
+    pipeline = Pipeline(store, make_provider(store))
+    pipeline.provider.reuse_responses = True
+    scenes = pipeline.scenes()
+    cleaned = [unquote(scene.model_copy(deep=True)) for scene in scenes]
+    if cleaned != scenes:
+        store.write("scenes.json", [s.model_dump() for s in cleaned])
+    report = _repair(pipeline, pipeline.validate(batch=True))
+    return _finish(store, pipeline, book, chapter, status["verses"], report)
 
 
 def write_book(root="runs/book", source="data/full-scripture.txt", start=None, max_chapters=None, make_provider=None):

@@ -36,7 +36,7 @@ class Gemini:
                 time.sleep(min(90.0, float(wait.group(1)) + 2) if wait else 30.0 * (attempt + 1))
 
     def structured(self, prompt, schema, tag, kind="text"):
-        model = self.config.require(kind)
+        model = self.config.require("validator" if kind == "validator" else "text")  # rewrites use the text model
         request = {"model": model, "prompt": prompt, "schema": schema.model_json_schema()}
         cache_path = f"api/{tag}.cache.json"
         if getattr(self, "reuse_responses", False) and self.store.path(cache_path).exists():
@@ -107,7 +107,7 @@ class Ollama:
             raise ProviderError(f"Ollama did not answer within {timeout}s") from None
 
     def structured(self, prompt, schema, tag, kind="text"):
-        model = self.text_model if kind == "text" else self.validator_model
+        model = self.validator_model if kind == "validator" else self.text_model
         request = {"model": model, "prompt": prompt, "schema": schema.model_json_schema()}
         cache_path = f"api/{tag}.cache.json"
         if getattr(self, "reuse_responses", False) and self.store.path(cache_path).exists():

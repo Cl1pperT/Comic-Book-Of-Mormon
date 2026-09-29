@@ -20,6 +20,18 @@ distant figures mentioned in narration are not necessarily physically present in
 If uncertain, choose a conservative interpretation.'''
 
 
+def unquote(scene):
+    """Strip quotation marks a model wraps around lettering. The source has no double quotes (speech gets its
+    marks at lettering time), so these only ever break the exact-quotation check; single quotes are stripped only
+    as a matching pair, since apostrophes do occur in the text."""
+    for claim in scene.narration + scene.spoken_dialogue:
+        text = claim.text.strip().strip("“”\"").strip()
+        if len(text) > 1 and text[0] in "‘'" and text[-1] in "’'":
+            text = text[1:-1].strip()
+        claim.text = text
+    return scene
+
+
 def analyze(provider, verses, chunk_size=6, known_characters=(), known_locations=()):
     """chunk_size verses per call; 0 sends each whole chapter in one call (fewer calls on per-call-priced plans)."""
     scenes = []
@@ -59,7 +71,7 @@ string, e.g. "Alma 17:21" — never a range like "Alma 17:21-23" and never a bar
 covering several verses lists each of their refs separately.''' + known + '''\nSource:\n'''
             result = provider.structured(prompt + json.dumps([v.model_dump() for v in chunk]),
                                          SceneBatch, f"analyze_{slug}_{chapter}_{offset}")
-            scenes.extend(result.scenes)
+            scenes.extend(unquote(scene) for scene in result.scenes)
     for i, scene in enumerate(scenes, 1):
         scene.scene_id = f"scene_{i:03d}"
     return scenes

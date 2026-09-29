@@ -4,27 +4,17 @@
   "verses": 24,
   "scenes": 18,
   "counts": {
-    "PASS": 13,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 3
+    "PASS": 18,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "The summary combines the command given in a dream (verse 2) with Lehi's later obedience (verse 3) as a single scene, compressing distinct moments."
-    ],
-    "scene_012": [
-      "The verse identifies the people Lehi addressed only as “them.” Identifying them as his sons or depicting Laman and Lemuel as present is not supported by this verse."
-    ],
-    "scene_018": [
-      "Scene lettering exceeds 65 words; split into smaller scenes"
-    ]
-  },
-  "calls": 14,
+  "rejected": {},
+  "calls": 17,
   "tokens": {
-    "input_tokens": 102645,
-    "cached_input_tokens": 15360,
+    "input_tokens": 122156,
+    "cached_input_tokens": 32768,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11183,
+    "output_tokens": 11743,
     "reasoning_output_tokens": 613
   }
 }

@@ -4,7 +4,7 @@ import re
 from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
-from .analysis import RULES, analyze, validate_batch, validate_scene
+from .analysis import RULES, analyze, unquote, validate_batch, validate_scene
 from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
     portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
 from .scripture import load, select
@@ -62,10 +62,10 @@ class Pipeline:
                 if issues:
                     request["fix_these_audit_issues"] = issues
             result = self.provider.structured(prompt + json.dumps(request),
-                SceneBatch, f"regenerate_{identifier}_{uuid4().hex[:12]}")
+                SceneBatch, f"regenerate_{identifier}_{uuid4().hex[:12]}", "repair")
             if len(result.scenes) != 1 or result.scenes[0].refs != old.refs:
                 raise ValueError("Individual scene regeneration must preserve its verse coverage")
-            scenes[index] = result.scenes[0]
+            scenes[index] = unquote(result.scenes[0])
             scenes[index].scene_id = identifier
         else:
             continuity = self.continuity()

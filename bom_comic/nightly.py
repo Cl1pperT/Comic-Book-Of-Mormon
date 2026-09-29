@@ -1,0 +1,265 @@
+"""The nightly job: keep Codex-written scenes ahead of rendering, then render chapters in book order until morning.
+
+Everything resumes from files: a chapter is written once it has status.json, rendered once it has render.json, and
+a half-rendered chapter keeps its finished panels (only panels without a current image are drawn). Approvals made
+here are recorded as AUTOMATED first-draft approvals; review happens afterwards in the reader, where flagged panels
+wait for a later re-render. Chapters whose scenes are still rejected after repair are skipped and reported.
+
+Run: python -m bom_comic.nightly --until 07:00
+"""
+import argparse
+import datetime
+import json
+import os
+import subprocess
+import sys
+import time
+import urllib.request
+from pathlib import Path
+from . import book
+from .errors import ProviderError
+from .pipeline import Pipeline
+from .storage import Store, digest
+
+ROOT = Path("runs/book")
+SOURCE = "data/full-scripture.txt"
+LIBRARY = "portraits/book-of-mormon"
+LEAD = 2  # written chapters kept ready beyond the one being rendered
+COMFY_HOME = Path(os.getenv("COMFYUI_HOME", r"C:\ComfyUI\ComfyUI_windows_portable"))
+SCENE_NOTE = ("AUTOMATED nightly approval: the Codex audit passed this scene{}. Review the draft in the reader and "
+              "flag anything wrong.")
+IMAGE_NOTE = "AUTOMATED nightly first-draft approval; plain Flux, no reference portraits. Review in the reader."
+
+
+def log(message):
+    print(f"{datetime.datetime.now():%H:%M:%S} {message}", flush=True)
+
+
+def keep_awake(on):
+    """Stop Windows sleeping mid-render (the process's request lapses when it exits)."""
+    if sys.platform == "win32":
+        import ctypes
+        ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+        ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if on else 0))
+
+
+class Lock:
+    """One nightly run at a time: a run started by hand keeps the midnight run from doubling up."""
+    def __init__(self, path):
+        self.path = Path(path)
+
+    def __enter__(self):
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        if self.path.exists():
+            pid = int(self.path.read_text() or 0)
+            if pid and _alive(pid):
+                raise SystemExit(f"Another nightly run (pid {pid}) holds {self.path}; exiting.")
+        self.path.write_text(str(os.getpid()))
+        return self
+
+    def __exit__(self, *exc):
+        self.path.unlink(missing_ok=True)
+
+
+def _alive(pid):
+    if sys.platform == "win32":
+        out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH"], capture_output=True, text=True).stdout
+        return str(pid) in out
+    try:
+        os.kill(pid, 0)
+        return True
+    except OSError:
+        return False
+
+
+def comfy_url():
+    return (os.getenv("COMFYUI_URL") or "http://127.0.0.1:8188").rstrip("/")
+
+
+def comfy_up():
+    try:
+        with urllib.request.urlopen(comfy_url() + "/system_stats", timeout=5):
+            return True
+    except OSError:
+        return False
+
+
+def start_comfy(log_path):
+    """Start the portable ComfyUI server if it isn't running; returns the process we started, or None."""
+    if comfy_up():
+        return None
+    python = COMFY_HOME / "python_embeded" / "python.exe"
+    if not python.exists():
+        raise SystemExit(f"ComfyUI not found at {COMFY_HOME}; set COMFYUI_HOME")
+    handle = open(log_path, "a", encoding="utf-8")
+    flags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+    process = subprocess.Popen([str(python), "-s", "ComfyUI/main.py", "--windows-standalone-build", "--listen", "127.0.0.1",
+                                "--port", "8188", "--disable-auto-launch"], cwd=COMFY_HOME, stdout=handle,
+                               stderr=subprocess.STDOUT, creationflags=flags)
+    for _ in range(120):
+        if comfy_up():
+            log("ComfyUI is up")
+            return process
+        if process.poll() is not None:
+            raise SystemExit(f"ComfyUI exited while starting; see {log_path}")
+        time.sleep(5)
+    process.kill()
+    raise SystemExit("ComfyUI did not start within 10 minutes")
+
+
+def state(book_name, chapter):
+    run = book.folder(ROOT, book_name, chapter)
+    if (run / "render.json").exists():
+        return "rendered"
+    if (run / "render-error.json").exists():
+        return "failed"  # waits for a person; delete render-error.json to retry
+    if not (run / "status.json").exists():
+        return "unwritten"
+    status = json.loads((run / "status.json").read_text(encoding="utf-8"))
+    return "blocked" if status["counts"]["REJECT"] else "ready"
+
+
+def render_chapter(book_name, chapter, deadline, provider_for):
+    """Approve (automated), plan, and render one chapter; returns True when it is fully rendered and assembled."""
+    store = Store(book.folder(ROOT, book_name, chapter))
+    pipeline = Pipeline(store, provider_for(store))
+    report = pipeline.validation()
+    reviews = pipeline.approvals()
+    for scene in pipeline.scenes():
+        verdict = report["results"][scene.scene_id]
+        # A repair re-audit changes the report, which retires earlier approvals.
+        if reviews.get("scene:" + scene.scene_id, {}).get("stamp") != digest({"report": report, "scene": scene.scene_id}):
+            warned = " with warnings: " + "; ".join(verdict["issues"]) if verdict["status"] == "PASS WITH WARNINGS" else ""
+            pipeline.review("scene", scene.scene_id, "approve", SCENE_NOTE.format(warned))
+    if not store.path("panels.json").exists() or store.read("panels.json")["scene_stamp"] != pipeline.stamp():
+        pipeline.plan()
+    if not store.path("portraits/index.json").exists():
+        # Adopted now so a later reference-portrait re-render of a flagged panel doesn't restale every draft.
+        pipeline.adopt_portraits(LIBRARY)
+    aspects = pipeline.aspects()
+    panels = pipeline.panels()
+    reviews = pipeline.approvals()
+    for panel in panels:
+        if reviews.get("panel:" + panel.panel_id, {}).get("stamp") != pipeline.panel_stamp(panel, aspects):
+            pipeline.review("panel", panel.panel_id, "approve", "AUTOMATED nightly composition approval.")
+    for panel in panels:
+        try:
+            pipeline.image_record(panel, aspects)
+            continue  # already drawn
+        except (ValueError, FileNotFoundError):
+            pass
+        if datetime.datetime.now() >= deadline:
+            return False
+        started = time.monotonic()
+        pipeline.generate(panel.panel_id, references=False)
+        log(f"  {book_name} {chapter} {panel.panel_id} drawn in {time.monotonic() - started:.0f}s")
+    for panel in panels:
+        pipeline.review("image", panel.panel_id, "approve", IMAGE_NOTE)
+    pdf = pipeline.assemble()
+    store.write("render.json", {"pdf": str(pdf), "panels": len(panels), "time": datetime.datetime.now().isoformat()})
+    return True
+
+
+def run(until, write=True, render=True):
+    from .config import Config
+    Config.load()
+    for key, value in book.CODEX_DEFAULTS.items():
+        os.environ.setdefault(key, value)
+    now = datetime.datetime.now()
+    deadline = datetime.datetime.combine(now.date(), until)
+    if deadline <= now:
+        deadline += datetime.timedelta(days=1)
+    night = ROOT / "nightly"
+    report = {"started": now.isoformat(), "deadline": deadline.isoformat(), "written": [], "repaired": [],
+              "rendered": [], "blocked": [], "stopped": None}
+    comfy = None
+    with Lock(night / "nightly.lock"):
+        keep_awake(True)
+        try:
+            chapters = book.chapters(SOURCE)
+            codex_ok = write
+            repaired_tonight = set()
+
+            def make_codex(store):
+                from .codex import Codex
+                return Codex(store)
+
+            def top_up():
+                """Write ahead so LEAD chapters beyond the next render are ready; repair blocked ones once a night."""
+                nonlocal codex_ok
+                if not codex_ok:
+                    return
+                for name, chapter, _ in chapters:
+                    if state(name, chapter) == "blocked" and (name, chapter) not in repaired_tonight:
+                        repaired_tonight.add((name, chapter))
+                        try:
+                            status = book.repair_chapter(ROOT, name, chapter, make_codex)
+                        except ProviderError as exc:
+                            codex_ok = "usage limit" not in str(exc).lower()
+                            log(f"Repair of {name} {chapter} stopped: {exc}")
+                            return
+                        report["repaired"].append(f"{name} {chapter}: {status['counts']['REJECT']} still rejected")
+                        log(f"Repaired {name} {chapter}: {status['counts']}")
+                        break  # one repair per top-up keeps writing and rendering moving
+                ready = sum(state(n, c) == "ready" for n, c, _ in chapters)
+                if ready > LEAD:
+                    return
+                written, reason = book.write_book(ROOT, SOURCE, max_chapters=LEAD + 1 - ready, make_provider=make_codex)
+                report["written"] += [f"{s['book']} {s['chapter']}" for s in written]
+                if reason != "done":
+                    codex_ok = False
+                    log(f"Codex writing paused tonight: {reason}")
+
+            def comfy_provider(store):
+                from .providers import ComfyUI
+                return ComfyUI(store)
+
+            while datetime.datetime.now() < deadline:
+                top_up()
+                if not render:
+                    break
+                todo = [(n, c) for n, c, _ in chapters if state(n, c) == "ready"]
+                if not todo:
+                    report["stopped"] = "nothing ready to render"
+                    break
+                if comfy is None and not comfy_up():
+                    comfy = start_comfy(night / "comfyui.log")
+                name, chapter = todo[0]
+                log(f"Rendering {name} {chapter}")
+                try:
+                    finished = render_chapter(name, chapter, deadline, comfy_provider)
+                except (ValueError, ProviderError) as exc:
+                    # Leave this chapter for a human and keep the night moving.
+                    log(f"{name} {chapter} could not render: {exc}")
+                    report["blocked"].append(f"{name} {chapter}: {exc}")
+                    Store(book.folder(ROOT, name, chapter)).write("render-error.json", {"error": str(exc)})
+                    continue
+                if finished:
+                    report["rendered"].append(f"{name} {chapter}")
+                    log(f"Finished {name} {chapter}")
+            report["stopped"] = report["stopped"] or "morning deadline"
+        finally:
+            keep_awake(False)
+            if comfy is not None:
+                comfy.terminate()
+            report["blocked"] += [f"{n} {c}: scenes still rejected" for n, c, _ in chapters if state(n, c) == "blocked"]
+            report["finished"] = datetime.datetime.now().isoformat()
+            night.mkdir(parents=True, exist_ok=True)
+            (night / f"{now:%Y-%m-%d}.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+            log(f"Night summary: {len(report['written'])} written, {len(report['rendered'])} rendered, "
+                f"{len(report['blocked'])} blocked; stopped: {report['stopped']}")
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Nightly write-ahead and render job")
+    parser.add_argument("--until", default="07:00", help="Stop starting new panels at this local time (HH:MM)")
+    parser.add_argument("--no-write", action="store_true", help="Render only; don't call Codex")
+    parser.add_argument("--no-render", action="store_true", help="Write/repair scenes only")
+    args = parser.parse_args()
+    until = datetime.datetime.strptime(args.until, "%H:%M").time()
+    run(until, write=not args.no_write, render=not args.no_render)
+
+
+if __name__ == "__main__":
+    main()
