@@ -1,15 +1,19 @@
 {
-  "stamp": "81190c81fdbd23b70554c41967056f26c586df25028f059bacdc00730d8f4ac2",
+  "stamp": "e81980bc8ad6d6d47e5546f1c7848074ebc67821d87d14d90f4f6a8fff1f31eb",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“After Korihor’s end” may imply an event such as Korihor’s death; the supplied verses give this only as a time reference and do not specify what happened to him."
+        "The summary says the Zoramites are turning from the Lord; the source says they are perverting the Lord's ways and their leader is leading them to idol worship, not that they are turning away.",
+        "The scene character label “Alma” is not among the established labels; source identifies him as Alma, so this is a labeling consistency issue."
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene does not literalize the Nephites’ reported fear or invent an alliance, battle, or loss.",
+        "The character labels “Zoramites” and “Nephites” are not among the established labels; both groups are explicit in the source."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -18,20 +22,20 @@
     "scene_004": {
       "status": "REJECT",
       "issues": [
-        "The characters field omits Amulek and Zeezrom, whom Alma takes with him according to Alma 31:6 and who are explicitly included in the scene’s summary and facts."
+        "“Unnamed leader” is an invented character label: verses 6–7 identify the leader by context as Alma.",
+        "The scene lists the named companions and location but omits Alma from the characters and does not represent the explicit fact that Alma took them among the Zoramites to preach. Its narration quotes verse 7 but omits the essential subject/action."
       ]
     },
     "scene_005": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The characters field omits Amulek and Zeezrom, who are explicitly among Alma’s companions and are named in the scene’s source context."
+        "The summary says the Zoramites “had fallen into errors,” but the source specifies great errors and particular neglected commandments and daily prayer; the summary is an acceptable compression, though less precise.",
+        "The scene uses “Alma” rather than the established label “Alma the Younger (high priest)”; source context does identify Alma."
       ]
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The characters field omits Amulek and Zeezrom, who are explicitly among Alma’s companions in the preceding verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -40,13 +44,15 @@
     "scene_008": {
       "status": "REJECT",
       "issues": [
-        "Scene lettering is 116 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
+        "The dialogue excerpts are not contiguous exact excerpts: verse 15’s “Holy, holy God;” is followed immediately by omitted words before verse 16’s excerpt, and the verse 17 excerpt likewise skips the beginning. The instructions prohibit ellipses/alteration and require separate exact short excerpts; separate entries are permitted, but each excerpt itself must match source exactly.",
+        "The explicit-facts claim that God “will be a spirit forever” is the speaker’s belief stated in prayer, not an independently established fact; it should be attributed as a claim."
       ]
     },
     "scene_009": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The characters field omits Amulek and Zeezrom, who are named among Alma’s companions in the immediately preceding account."
+        "The summary says “After hearing the prayers” and that every man offers the same prayer, which reflects verses 19–22; however, it compresses successive reported actions into a scene. Ensure the visual does not imply Alma and his party are present at the stand while every worshipper prays unless that staging is treated as inference.",
+        "The spoken-prayer content is properly kept as reported rather than invented dialogue."
       ]
     },
     "scene_010": {
@@ -54,15 +60,17 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference “with fine goods” can suggest visible goods, which the source describes but does not specify as objects present in this particular observed scene; the specific goods and setting remain unspecified."
+      ]
     },
     "scene_012": {
       "status": "REJECT",
       "issues": [
-        "Claim references must belong to scene",
-        "Lettering must be an exact source quotation: 'Behold, O God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold, and all their precious things which they are ornamented with;' is not verbatim in Alma 31:28, which reads 'Behold, O my God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold, and all their precious things which they are ornamented with; and behold, their hearts are set upon them, and yet they cry unto thee and say—We thank thee, O God, for we are a chosen people unto thee, while others shall perish.'",
-        "Scene lettering is 90 words, over the 65-word limit: keep only the most important lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer"
+        "The summary says “A man” and characters say “Unnamed male speaker,” but verses 26–29 do not establish the speaker’s gender; this invents a fact.",
+        "The summary turns the prayer’s reported descriptions of pride, ornaments, and claims into a contemporaneous scene. Source presents them as the speaker’s address about the people, not as events occurring before him.",
+        "The dialogue excerpts are not exact: “O, how long, O Lord” omits following words within verse 26, and “Behold, O my God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold,” omits the source’s “and” before “their ornaments.” Use only exact contiguous excerpts."
       ]
     },
     "scene_013": {
@@ -70,28 +78,27 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The characters field omits Amulek and Zeezrom, both explicitly named in Alma’s prayer in verse 32 and included among those for whom he prays."
+        "The speaker is Alma by the prayer’s continuous context, and the named fellow laborers and two sons are identified in verse 32; labeling the speaker merely “Unnamed prayer speaker” obscures that context.",
+        "“The speaker names … among the fellow laborers with him” is accurate, but the named companions are not established as physically present in the scene solely by this prayer wording; depicting them nearby should remain an inference, as noted."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "The title says Alma “lays hands on” his companions, but the source specifically says he “clapped his hands upon” them; the title changes the described action.",
-        "The characters field omits Amulek and Zeezrom, who were among the companions with Alma."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The characters field omits Amulek and Zeezrom, who are among the companions referred to as separating from one another in the account."
+        "The preceding scene reports Alma clapping his hands on those with him; verse 37’s “they” refers to those people. The scene’s character label avoids naming them, but its unspecified identities should be understood in that context."
       ]
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The account says the Lord provided for “them,” referring to Alma and his companions, but the characters field is empty. Their exact locations when the provision occurred are unspecified."
+        "The Lord’s provision and their lack of hunger or thirst are explicit, but the summary’s broad phrasing may suggest a distinct present-tense visible event despite unspecified form and timing; keep it as narration, not a literal apparition or invented provision scene.",
+        "“The Lord provides” is supported by verse 38; the scene’s empty characters list is acceptable only if no visible Lord or companions are depicted."
       ]
     }
   }

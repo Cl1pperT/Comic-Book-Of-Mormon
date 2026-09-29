@@ -1,15 +1,13 @@
 {
-  "stamp": "2583a559fd89b0e64dd85e875766bda39c618cb603ddf3da55a7f6f48d7d0d22",
+  "stamp": "2efb7932d59e1395df4a9c54c0afbdcdf985c735c3181f3552d06360b02c2661",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The unspecified location is not stated in the verses; keep it unpictured or clearly unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -20,15 +18,13 @@
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Dialogue excerpts omit words from their verses (for example, 1 Nephi 7:8 omits the intervening clause before “Behold ye are mine elder brethren,” and 1 Nephi 7:11 stops before “in delivering us…”). Quotations must be contiguous, exact excerpts; use separate excerpts around omissions."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The explicit-facts entry for 1 Nephi 7:14 says the Spirit “will soon cease,” but the source says “ceaseth soon”; do not recast the verse’s present-tense wording as a future event."
+        "The speaker is Nephi, established by the immediately preceding speech and the supplied chapter text; labeling him “Unnamed speaker” and prohibiting identification loses that context."
       ]
     },
     "scene_007": {
@@ -44,10 +40,8 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the family members pleaded “with them,” while the verse specifies they pleaded with Nephi’s brethren. Clarify the referent to avoid ambiguity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

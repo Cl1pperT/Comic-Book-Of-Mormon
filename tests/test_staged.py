@@ -312,6 +312,33 @@ def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
     assert reason == "usage limit" and not (tmp_path / "book" / "writing.lock").exists()
 
 
+def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_model(monkeypatch):
+    from bom_comic import book
+    monkeypatch.setenv("CODEX_ESCALATE_MODEL", "frontier")
+    monkeypatch.setenv("CODEX_ESCALATE_VALIDATOR_MODEL", "mid")
+    seen = []
+
+    class Provider:
+        models = {"text": "small", "validator": "small", "repair": "mid"}
+        effort = {"text": "low", "validator": "medium", "repair": "medium"}
+
+    class FakePipeline:
+        provider = Provider()
+
+        def analyze(self, sid):
+            seen.append(("rewrite", sid, self.provider.models["repair"]))
+
+        def validate(self, batch=False):
+            seen.append(("audit", self.provider.models["validator"]))
+            return {"scene_001": {"status": "PASS"}, "scene_002": {"status": "PASS"}}
+    report = {"scene_001": {"status": "PASS"}, "scene_002": {"status": "REJECT"}}
+    assert book._escalate(FakePipeline(), report) == {"scene_001": {"status": "PASS"}, "scene_002": {"status": "PASS"}}
+    assert seen == [("rewrite", "scene_002", "frontier"), ("audit", "mid")]
+    assert Provider.models == {"text": "small", "validator": "small", "repair": "mid"}  # restored afterwards
+    seen.clear()
+    assert book._escalate(FakePipeline(), {"scene_001": {"status": "PASS"}}) and seen == []  # nothing to escalate
+
+
 def test_nightly_writes_ahead_renders_in_order_and_resumes(tmp_path, monkeypatch):
     import datetime
     import json

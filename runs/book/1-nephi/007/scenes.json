@@ -233,7 +233,7 @@
       "1 Nephi 7:11",
       "1 Nephi 7:12"
     ],
-    "summary": "Grieved by the hardness of their hearts, Nephi speaks to his elder brothers, Laman and Lemuel. He questions why they have not hearkened to the Lord and have forgotten what the Lord has done, then urges them to be faithful.",
+    "summary": "Grieved by the hardness of their hearts, Nephi speaks to his elder brothers, Laman and Lemuel. He questions them about what they have forgotten and urges them to be faithful.",
     "characters": [
       "Nephi",
       "Laman",
@@ -242,31 +242,31 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi was grieved by the hardness of their hearts and spoke to Laman and Lemuel, his elder brothers.",
+        "text": "Nephi is grieved by the hardness of their hearts and speaks to Laman and Lemuel, his elder brothers.",
         "refs": [
           "1 Nephi 7:8"
         ]
       },
       {
-        "text": "Nephi asked why they had not hearkened to the word of the Lord.",
+        "text": "Nephi asks why they have not hearkened to the word of the Lord.",
         "refs": [
           "1 Nephi 7:9"
         ]
       },
       {
-        "text": "Nephi asked why they had forgotten seeing an angel of the Lord.",
+        "text": "Nephi asks why they have forgotten seeing an angel of the Lord.",
         "refs": [
           "1 Nephi 7:10"
         ]
       },
       {
-        "text": "Nephi asked why they had forgotten the Lord's deliverance from Laban and their obtaining the record.",
+        "text": "Nephi asks why they have forgotten the Lord's deliverance from Laban and their obtaining the record.",
         "refs": [
           "1 Nephi 7:11"
         ]
       },
       {
-        "text": "Nephi said the Lord is able to do all things according to his will if people exercise faith in him, and urged his brothers to be faithful.",
+        "text": "Nephi says the Lord is able to do all things according to his will if people exercise faith in him, and urges faithfulness.",
         "refs": [
           "1 Nephi 7:12"
         ]
@@ -301,7 +301,14 @@
         "speaker": "Nephi"
       },
       {
-        "text": "Yea, and how is it that ye have forgotten what great things the Lord hath done for us,",
+        "text": "in delivering us out of the hands of Laban,",
+        "refs": [
+          "1 Nephi 7:11"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "and also that we should obtain the record?",
         "refs": [
           "1 Nephi 7:11"
         ],
@@ -327,43 +334,43 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "Nephi Warns Them",
+    "title": "A Warning Against Returning to Jerusalem",
     "refs": [
       "1 Nephi 7:13",
       "1 Nephi 7:14",
       "1 Nephi 7:15"
     ],
-    "summary": "Nephi tells his brothers that faithfulness will bring the land of promise, recounts the rejection of prophets and his father’s expulsion, and warns them against returning to Jerusalem.",
+    "summary": "A speaker says that faithfulness will bring the land of promise, reports the rejection of prophets and the expulsion of his father, and warns his listeners against returning to Jerusalem.",
     "characters": [
-      "Nephi",
-      "Nephi’s brothers"
+      "Unnamed speaker",
+      "Unnamed listeners"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi says that if they are faithful to the Lord, they shall obtain the land of promise, and that the Lord’s words concerning Jerusalem’s destruction must be fulfilled.",
+        "text": "The speaker says that if they are faithful to the Lord, they shall obtain the land of promise, and that the Lord’s words concerning Jerusalem’s destruction must be fulfilled.",
         "refs": [
           "1 Nephi 7:13"
         ]
       },
       {
-        "text": "Nephi says the Spirit of the Lord will soon cease striving with them; they have rejected the prophets, cast Jeremiah into prison, sought his father’s life, and driven his father out of the land.",
+        "text": "The speaker says the Spirit of the Lord ceaseth soon to strive with them. He reports that they rejected the prophets, cast Jeremiah into prison, sought his father’s life, and drove his father out of the land.",
         "refs": [
           "1 Nephi 7:14"
         ]
       },
       {
-        "text": "Nephi warns that if they return to Jerusalem, they will perish, and says the Spirit constrains him to speak.",
+        "text": "The speaker warns his listeners that they will perish if they return to Jerusalem and says the Spirit of the Lord constrains him to speak.",
         "refs": [
           "1 Nephi 7:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi addresses his brothers; Jerusalem, Jeremiah, and his father’s expulsion are reported, not depicted as present events."
+      "A speaker addresses listeners; the events he reports are not happening in the present scene."
     ],
     "unspecified_visual_details": [
-      "The brothers’ reactions, their precise positions, and the surroundings are not described."
+      "The speaker’s and listeners’ appearances, their positions, their reactions, and the surroundings are not described."
     ],
     "spoken_dialogue": [
       {
@@ -371,29 +378,31 @@
         "refs": [
           "1 Nephi 7:13"
         ],
-        "speaker": "Nephi"
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "For behold, the Spirit of the Lord ceaseth soon to strive with them;",
+        "refs": [
+          "1 Nephi 7:14"
+        ],
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "Now behold, I say unto you that if ye will return unto Jerusalem ye shall also perish with them.",
         "refs": [
           "1 Nephi 7:15"
         ],
-        "speaker": "Nephi"
-      },
-      {
-        "text": "And now, if ye have choice, go up to the land, and remember the words which I speak unto you, that if ye go ye will also perish;",
-        "refs": [
-          "1 Nephi 7:15"
-        ],
-        "speaker": "Nephi"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Jerusalem’s destruction, Jeremiah’s imprisonment, and the driving out of Nephi’s father are reported, not shown as events happening now."
+      "Jerusalem’s destruction is foretold; Jeremiah’s imprisonment and the driving out of the speaker’s father are reported, not present events."
     ],
     "prohibited_inventions": [
-      "Do not depict Jerusalem’s destruction, Jeremiah in prison, or Nephi’s father being driven out as present events."
+      "Do not depict Jerusalem’s destruction, Jeremiah’s imprisonment, or the speaker’s father being driven out as events happening in this scene.",
+      "Do not identify the speaker or listeners by name or relationship from these verses alone.",
+      "Do not give the Spirit of the Lord a visible appearance."
     ],
     "importance": "normal"
   },

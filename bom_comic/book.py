@@ -19,9 +19,13 @@ LOCATIONS = Path("runs/1-nephi-1-4/continuity/locations.json")
 # Measured on 1 Nephi 4: the small model writes well at low effort in one call per chapter; auditing needs medium,
 # where low effort flip-flopped between false rejects and passes.
 # Rewrites of rejected scenes go to the mid-size model: they're the hard cases, and few enough to afford it.
+# Scenes that survive those rounds get one escalation round: the frontier model rewrites them and the mid-size model
+# re-audits (the small auditor's inconsistency was part of what kept them rejected).
 CODEX_DEFAULTS = {"CODEX_TEXT_MODEL": "gpt-6-luna", "CODEX_TEXT_EFFORT": "low",
                   "CODEX_VALIDATOR_MODEL": "gpt-6-luna", "CODEX_VALIDATOR_EFFORT": "medium",
-                  "CODEX_REPAIR_MODEL": "gpt-6-sol", "CODEX_REPAIR_EFFORT": "medium"}
+                  "CODEX_REPAIR_MODEL": "gpt-6-sol", "CODEX_REPAIR_EFFORT": "medium",
+                  "CODEX_ESCALATE_MODEL": "gpt-6-astra", "CODEX_ESCALATE_EFFORT": "medium",
+                  "CODEX_ESCALATE_VALIDATOR_MODEL": "gpt-6-sol", "CODEX_ESCALATE_VALIDATOR_EFFORT": "medium"}
 
 
 class Busy(Exception):
@@ -114,7 +118,7 @@ def write_chapter(root, source, book, chapter, last, make_provider):
         pipeline.analyze(chunk_size=0)
         pipeline.provider.reuse_responses = True
         report = pipeline.validate(batch=True)
-    return _finish(store, pipeline, book, chapter, last, _repair(pipeline, report))
+    return _finish(store, pipeline, book, chapter, last, _escalate(pipeline, _repair(pipeline, report)))
 
 
 def _rejected(report):
@@ -138,6 +142,32 @@ def _repair(pipeline, report):
     return report
 
 
+def _escalate(pipeline, report):
+    """One last round for scenes the regular repairs couldn't fix: stronger models for the rewrite and the re-audit.
+    Providers without model settings (tests, other services) just get one more ordinary round."""
+    if not _rejected(report):
+        return report
+    provider = pipeline.provider
+    models, effort = getattr(provider, "models", None), getattr(provider, "effort", None)
+    saved = (dict(models), dict(effort)) if models is not None and effort is not None else None
+    if saved:
+        models.update(repair=os.getenv("CODEX_ESCALATE_MODEL", models["repair"]),
+                      validator=os.getenv("CODEX_ESCALATE_VALIDATOR_MODEL", models["validator"]))
+        effort.update(repair=os.getenv("CODEX_ESCALATE_EFFORT", effort["repair"]),
+                      validator=os.getenv("CODEX_ESCALATE_VALIDATOR_EFFORT", effort["validator"]))
+    try:
+        for sid in _rejected(report):
+            try:
+                pipeline.analyze(sid)
+            except ValueError:
+                pass
+        return pipeline.validate(batch=True)
+    finally:
+        if saved:
+            models.clear(), models.update(saved[0])
+            effort.clear(), effort.update(saved[1])
+
+
 def _finish(store, pipeline, book, chapter, last, report):
     calls, tokens = _usage(store)
     status = {"book": book, "chapter": chapter, "verses": last, "scenes": len(report),
@@ -159,7 +189,7 @@ def repair_chapter(root, book, chapter, make_provider):
     cleaned = [unquote(scene.model_copy(deep=True)) for scene in scenes]
     if cleaned != scenes:
         store.write("scenes.json", [s.model_dump() for s in cleaned])
-    report = _repair(pipeline, pipeline.validate(batch=True))
+    report = _escalate(pipeline, _repair(pipeline, pipeline.validate(batch=True)))
     return _finish(store, pipeline, book, chapter, status["verses"], report)
 
 

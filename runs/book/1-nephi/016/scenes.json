@@ -654,42 +654,45 @@
     "refs": [
       "1 Nephi 16:18"
     ],
-    "summary": "While Nephi is out hunting, his fine steel bow breaks. His brothers become angry, and the group obtains no food.",
+    "summary": "Nephi goes forth to obtain food and breaks his fine steel bow. His brethren are angry because of the loss of the bow, and they obtain no food.",
     "characters": [
       "Nephi",
-      "Laman",
-      "Lemuel",
-      "Sam",
-      "Zoram"
+      "Nephi's unnamed brethren"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi's fine steel bow breaks while he is out hunting.",
+        "text": "Nephi goes forth to slay food and breaks his bow, which is made of fine steel.",
         "refs": [
           "1 Nephi 16:18"
         ]
       },
       {
-        "text": "His brothers are angry because the bow is lost, and the group obtains no food.",
+        "text": "Nephi's brethren are angry with him because of the loss of his bow.",
+        "refs": [
+          "1 Nephi 16:18"
+        ]
+      },
+      {
+        "text": "They obtain no food.",
         "refs": [
           "1 Nephi 16:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The broken bow may be visible in Nephi's hands."
+      "The broken bow may be shown near Nephi."
     ],
     "unspecified_visual_details": [
-      "The exact cause and manner of the break are not stated."
+      "The location and the manner in which the bow breaks are not stated.",
+      "The individual identities and number of the brethren are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict an injury or a specific cause of the bow breaking."
+      "Do not identify individual brethren or invent a cause for the bow breaking.",
+      "Do not depict an injury."
     ],
     "importance": "normal"
   },
