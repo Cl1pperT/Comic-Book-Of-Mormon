@@ -326,7 +326,9 @@ class Pipeline:
         return [name for name in panel.characters_visible
                 if portrait_eligible(records.get(name)) and not is_group(records.get(name))]
 
-    def generate(self, identifier=None, skip_main=False):
+    def generate(self, identifier=None, skip_main=False, references=True):
+        """Render approved panels. With references=False the art is drawn from the text records alone (first
+        drafts); reference portraits are for panels flagged later as needing them."""
         panels = self.panels()
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
@@ -349,7 +351,7 @@ class Pipeline:
             revision = uuid4().hex[:12]
             name = f"{panel.panel_id}_{revision}"
             aspect = aspects[panel.panel_id]
-            portraits = self.panel_portraits(panel)
+            portraits = self.panel_portraits(panel) if references else {}
             prompt = build_prompt(panel, self.continuity(), aspect, list(portraits))
             self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
                 "portraits": {n: e["path"] for n, e in portraits.items()}})
@@ -360,7 +362,8 @@ class Pipeline:
                           for n, e in portraits.items()]
             self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
-                      "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
+                      "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
+                      "references": list(portraits)}
             self.store.write(f"images/{panel.panel_id}.json", record)
             self.store.event("generate", panel_id=panel.panel_id, **record)
 

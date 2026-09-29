@@ -847,6 +847,21 @@ def test_generate_attaches_portraits_and_approval_covers_them(pipeline):
     assert "CHARACTER REFERENCE PORTRAITS" in calls[0]["prompt"]
     record = pipeline.store.read("images/panel_001.json")
     assert pipeline.store.read(record["prompt"])["portraits"] == {"Unnamed people": entry["path"]}
+    assert record["references"] == ["Unnamed people"]
+    pipeline.review("image", "panel_001", "approve")
+    assert pipeline.assemble().exists()
+
+
+def test_first_drafts_can_render_without_reference_portraits(pipeline):
+    _give_record(pipeline)
+    pipeline.portraits()
+    ready(pipeline)
+    calls = capture_images(pipeline)
+    pipeline.generate(references=False)
+    assert calls[0]["reference_images"] is None and "CHARACTER REFERENCE PORTRAITS" not in calls[0]["prompt"]
+    record = pipeline.image_record(pipeline.panels()[0])
+    assert record["references"] == []
+    # The draft is still a current image for the approved panel, so it can be reviewed and assembled.
     pipeline.review("image", "panel_001", "approve")
     assert pipeline.assemble().exists()
 

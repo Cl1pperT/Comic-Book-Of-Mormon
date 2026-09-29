@@ -48,6 +48,7 @@ def main():
     generation.add_argument("--placeholder", action="store_true", help="Offline plumbing test only")
     generation.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     generation.add_argument("--skip-main", action="store_true", help="Only render panels with no main (portrait-eligible, named) character")
+    generation.add_argument("--kontext", action="store_true", help="With --local, attach reference portraits (FLUX.1 Kontext); by default local drafts are plain Flux from the text records")
     commands.add_parser("assemble")
     reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
     reader.add_argument("--port", type=int, default=8765)
@@ -126,7 +127,7 @@ def main():
             for name in pipeline.portraits(args.id):
                 print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])}")
         elif args.command == "generate":
-            pipeline.generate(args.id, skip_main=args.skip_main)
+            pipeline.generate(args.id, skip_main=args.skip_main, references=args.kontext or not args.local)
         elif args.command == "assemble":
             print(pipeline.assemble())
         elif args.command == "read":
