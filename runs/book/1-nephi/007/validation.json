@@ -1,0 +1,74 @@
+{
+  "stamp": "a7ad228dc3c1ae2d86840e3826c632336f105dede6684801fca88b4aa7bdef7f",
+  "results": {
+    "scene_001": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“the Lord commanded him”' is not verbatim in 1 Nephi 7:2, which reads 'And it came to pass that the Lord commanded him that I, Nephi, and my brethren, should again return unto the land of Jerusalem, and bring down Ishmael and his family into the wilderness.'"
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“insomuch that they took their journey with us down into the wilderness to the tent of our father.”' is not verbatim in 1 Nephi 7:5, which reads 'And it came to pass that the Lord did soften the heart of Ishmael, and also his household, insomuch that they took their journey with us down into the wilderness to the tent of our father.'"
+      ]
+    },
+    "scene_004": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“And it came to pass in the which rebellion, they were desirous to return unto the land of Jerusalem.”' is not verbatim in 1 Nephi 7:7, which reads 'And it came to pass in the which rebellion, they were desirous to return unto the land of Jerusalem.'"
+      ]
+    },
+    "scene_005": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Dialogue excerpts are verbatim and contiguous, but scene summary describes other speech not included in the dialogue field; ensure any depicted speech is limited to the supplied exact quotations."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“the bands were loosed from off my hands and feet”' is not verbatim in 1 Nephi 7:18, which reads 'And it came to pass that when I had said these words, behold, the bands were loosed from off my hands and feet, and I stood before my brethren, and I spake unto them again.'"
+      ]
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“they were sorrowful, because of their wickedness, insomuch that they did bow down before me”' is not verbatim in 1 Nephi 7:20, which reads 'And it came to pass that they were sorrowful, because of their wickedness, insomuch that they did bow down before me, and did plead with me that I would forgive them of the thing that they had done against me.'",
+        "Lettering must be an exact source quotation: '“and did plead with me that I would forgive them of the thing that they had done against me.”' is not verbatim in 1 Nephi 7:20, which reads 'And it came to pass that they were sorrowful, because of their wickedness, insomuch that they did bow down before me, and did plead with me that I would forgive them of the thing that they had done against me.'"
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“they did give thanks unto the Lord their God;”' is not verbatim in 1 Nephi 7:22, which reads 'And it came to pass that we did come down unto the tent of our father. And after I and my brethren and all the house of Ishmael had come down unto the tent of my father, they did give thanks unto the Lord their God; and they did offer sacrifice and burnt offerings unto him.'"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "stamp": "f9f39d55fd850fcdf0831a4587b795f88e0e490f690288bafa974246acecdcd6",
+  "results": {
+    "scene_001": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“And all these things did my father see, and hear, and speak”' is not verbatim in 1 Nephi 9:1, which reads 'And all these things did my father see, and hear, and speak, as he dwelt in a tent, in the valley of Lemuel, and also a great many more things, which cannot be written upon these plates.'"
+      ]
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: '“these plates also are called the plates of Nephi.”' is not verbatim in 1 Nephi 9:2, which reads 'And now, as I have spoken concerning these plates, behold they are not the plates upon which I make a full account of the history of my people; for the plates upon which I make a full account of my people I have given the name of Nephi; wherefore, they are called the plates of Nephi, after mine own name; and these plates also are called the plates of Nephi.'",
+        "Lettering must be an exact source quotation: '“Nevertheless, I have received a commandment of the Lord”' is not verbatim in 1 Nephi 9:3, which reads 'Nevertheless, I have received a commandment of the Lord that I should make these plates, for the special purpose that there should be an account engraven of the ministry of my people.'",
+        "Lettering must be an exact source quotation: '“for the special purpose that there should be an account engraven of the ministry of my people.”' is not verbatim in 1 Nephi 9:3, which reads 'Nevertheless, I have received a commandment of the Lord that I should make these plates, for the special purpose that there should be an account engraven of the ministry of my people.'",
+        "Lettering must be an exact source quotation: '“these plates are for the more part of the ministry”' is not verbatim in 1 Nephi 9:4, which reads 'Upon the other plates should be engraven an account of the reign of the kings, and the wars and contentions of my people; wherefore these plates are for the more part of the ministry; and the other plates are for the more part of the reign of the kings and the wars and contentions of my people.'"
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}
