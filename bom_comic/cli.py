@@ -54,6 +54,10 @@ def main():
     generation.add_argument("--skip-main", action="store_true", help="Only render panels with no main (portrait-eligible, named) character")
     generation.add_argument("--kontext", action="store_true", help="With --local, attach reference portraits (FLUX.1 Kontext); by default local drafts are plain Flux from the text records")
     commands.add_parser("assemble")
+    book = commands.add_parser("book", help="Write (not render) the book's scenes chapter by chapter with Codex, one run per chapter")
+    book.add_argument("--root", default="runs/book", help="Folder holding one run per chapter")
+    book.add_argument("--start", help="First chapter, e.g. '1 Nephi 1' (finished chapters are skipped either way)")
+    book.add_argument("--max-chapters", type=int, help="Stop after writing this many chapters")
     reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
     reader.add_argument("--port", type=int, default=8765)
     reader.add_argument("--no-browser", action="store_true", help="Print the address without opening a browser")
@@ -138,6 +142,11 @@ def main():
             pipeline.generate(args.id, skip_main=args.skip_main, references=args.kontext or not args.local)
         elif args.command == "assemble":
             print(pipeline.assemble())
+        elif args.command == "book":
+            Config.load()
+            from .book import write_book
+            written, reason = write_book(args.root, start=args.start, max_chapters=args.max_chapters)
+            print(f"Wrote {len(written)} chapters; stopped: {reason}")
         elif args.command == "read":
             from .reader import serve
             serve(store, args.port, not args.no_browser)

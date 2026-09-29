@@ -37,9 +37,11 @@ def analyze(provider, verses, chunk_size=6, known_characters=(), known_locations
              "Break this whole chapter into chronological drawable scenes: one per distinct visual moment, usually "
              "2-3 verses each (a 30-40 verse chapter typically needs 12-18 scenes). Keep consecutive verses of one "
              "continuous speech or action together in one scene, but never merge separate events.")
-    # Chapter boundaries preserve transitions; small chunks keep evidence inspectable.
-    for chapter in sorted({v.chapter for v in verses}):
-        chapter_verses = [v for v in verses if v.chapter == chapter]
+    # Chapter boundaries preserve transitions; small chunks keep evidence inspectable. Chapters are keyed by
+    # book too, so a run spanning books never merges 1 Nephi 1 with 2 Nephi 1.
+    for book, chapter in dict.fromkeys((v.book, v.chapter) for v in verses):
+        chapter_verses = [v for v in verses if (v.book, v.chapter) == (book, chapter)]
+        slug = "".join(c if c.isalnum() else "_" for c in book.lower())
         for offset in range(0, len(chapter_verses), chunk_size or len(chapter_verses)):
             chunk = chapter_verses[offset:offset + (chunk_size or len(chapter_verses))]
             prompt = RULES + "\n" + split + '''
@@ -56,7 +58,7 @@ Every ref (scene refs and each claim's refs) is one supplied verse's exact "Book
 string, e.g. "Alma 17:21" — never a range like "Alma 17:21-23" and never a bare chapter. A scene
 covering several verses lists each of their refs separately.''' + known + '''\nSource:\n'''
             result = provider.structured(prompt + json.dumps([v.model_dump() for v in chunk]),
-                                         SceneBatch, f"analyze_{chapter}_{offset}")
+                                         SceneBatch, f"analyze_{slug}_{chapter}_{offset}")
             scenes.extend(result.scenes)
     for i, scene in enumerate(scenes, 1):
         scene.scene_id = f"scene_{i:03d}"

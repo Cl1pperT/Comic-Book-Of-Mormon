@@ -217,7 +217,7 @@ def test_whole_chapter_analysis_and_known_locations():
             return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=["1 Nephi 1:1"], summary="s",
                                             explicit_facts=[Claim(text="x", refs=["1 Nephi 1:1"])])])
     analyze(Writer(), VERSES, 0, known_characters=["Nephi"], known_locations=["Jerusalem"])
-    assert [tag for tag, _ in prompts] == ["analyze_1_0"]  # 12 verses, one call
+    assert [tag for tag, _ in prompts] == ["analyze_1_nephi_1_0"]  # 12 verses, one call
     assert 'use exactly this label: ["Jerusalem"]' in prompts[0][1] and "never a description of the moment" in prompts[0][1]
     assert "Break this whole chapter" in prompts[0][1] and "never merge separate events" in prompts[0][1]
     analyze(Writer(), VERSES, 6)
@@ -245,6 +245,52 @@ def test_batch_validation_audits_a_chapter_in_one_call():
     # Deterministic failures are rejected without being sent to the model.
     assert results["scene_3"].status == "REJECT" and "exact source quotation" in results["scene_3"].issues[0]
     assert calls[0][1] == "validate_scene_1_scene_2"
+
+
+def test_book_writer_writes_audits_repairs_and_resumes(tmp_path, monkeypatch):
+    import pytest
+    from bom_comic import book
+    from bom_comic.errors import ProviderError
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict
+    source = tmp_path / "src.txt"
+    source.write_text("1 Nephi 1:1 TEST FIXTURE: One.\n1 Nephi 1:2 TEST FIXTURE: Two.\n"
+                      "1 Nephi 2:1 TEST FIXTURE: Three.\n2 Nephi 1:1 TEST FIXTURE: Four.\n", encoding="utf-8")
+    monkeypatch.setattr(book, "_continuity", lambda: {"characters": {}, "locations": {}, "visual_style": {}})
+    tags = []
+
+    class Fake:
+        def __init__(self, store):
+            self.store = store
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            tags.append(tag)
+            if schema is ChapterVerdicts:
+                # The first audit of 1 Nephi 1 rejects scene_002; later audits pass everything.
+                reject = "1-nephi/001" in self.store.root.as_posix() and not any(t.startswith("regenerate") for t in tags)
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="REJECT" if reject and i == "scene_002"
+                                                              else "PASS", issues=["x"] if reject else []) for i in ids])
+            if "2 Nephi" in prompt and "Regenerate" not in prompt:
+                raise ProviderError("Codex usage limit reached during analyze; resume later with --resume.")
+            verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:]) if "Source:\n" in prompt else \
+                json.loads(prompt[prompt.index("{"):])["source"]
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[f"{v['book']} {v['chapter']}:{v['verse']}"],
+                summary="s", explicit_facts=[Claim(text="x", refs=[f"{v['book']} {v['chapter']}:{v['verse']}"])])
+                for v in verses])
+    import json
+    assert book.chapters(source) == [("1 Nephi", 1, 2), ("1 Nephi", 2, 1), ("2 Nephi", 1, 1)]
+    written, reason = book.write_book(tmp_path / "book", source, make_provider=Fake)
+    assert reason == "usage limit" and [(s["book"], s["chapter"]) for s in written] == [("1 Nephi", 1), ("1 Nephi", 2)]
+    first = written[0]
+    assert first["scenes"] == 2 and first["counts"]["REJECT"] == 0  # repaired in one round
+    assert any(t.startswith("regenerate_scene_002") for t in tags)
+    assert (tmp_path / "book" / "1-nephi" / "001" / "status.json").exists()
+    # Rerunning skips finished chapters and resumes at the one that hit the limit.
+    tags.clear()
+    written, reason = book.write_book(tmp_path / "book", source, make_provider=Fake)
+    assert written == [] and reason == "usage limit" and tags == ["analyze_2_nephi_1_0"]
+    with pytest.raises(ValueError, match="Unknown chapter"):
+        book.write_book(tmp_path / "book", source, start="3 Nephi 99", make_provider=Fake)
 
 
 def test_kontext_prompt_says_other_figures_are_different_people():
