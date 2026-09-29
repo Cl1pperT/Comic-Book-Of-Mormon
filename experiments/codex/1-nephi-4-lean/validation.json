@@ -1,0 +1,47 @@
+{
+  "stamp": "3bc6fc0e591b6f3890aaabd2d8ce3c56309a6fd7cffc8962aff0a1dc2fd6ce26",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 1 omits Nephi’s explicit comparison of the Lord’s might with Laban and his men from the summary; otherwise no unsupported scene content. The named brothers are present in the verses."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The servant’s statement in verse 22 is summarized rather than quoted, but the scene does not invent its wording. The text does not explicitly place the treasury encounter inside the treasury; avoid implying entry there."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 38 says they journeyed to their father’s tent; depicting arrival as an accomplished event would overstate the stated action, as the scene’s prohibition correctly notes."
+      ]
+    }
+  }
+}

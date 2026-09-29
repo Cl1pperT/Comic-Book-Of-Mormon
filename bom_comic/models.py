@@ -43,6 +43,12 @@ class Verdict(Model):
     status: Literal["PASS", "PASS WITH WARNINGS", "REJECT"]
     issues: List[str] = []
 
+class SceneVerdict(Verdict):
+    scene_id: str
+
+class ChapterVerdicts(Model):
+    verdicts: List[SceneVerdict]
+
 class Panel(Model):
     panel_id: str = Field(pattern=r"^panel_[0-9]+$")
     scene_id: str

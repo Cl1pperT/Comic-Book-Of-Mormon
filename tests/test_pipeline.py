@@ -125,7 +125,8 @@ def test_source_and_scene_edits_invalidate(pipeline):
 def test_reject_invented_dialogue(pipeline):
     scene = pipeline.scenes()[0]
     scene.spoken_dialogue = [Speech(speaker="Someone", text="Invented dialogue", refs=scene.refs)]
-    assert "Lettering must be an exact source quotation" in deterministic_issues(scene, pipeline.verses())
+    issues = deterministic_issues(scene, pipeline.verses())
+    assert any(i.startswith("Lettering must be an exact source quotation: ") and "3 Nephi 8:" in i for i in issues)
 
 
 def test_rejected_scene_cannot_be_approved(pipeline):
@@ -240,6 +241,17 @@ def test_individual_scene_regeneration_archives(pipeline):
     pipeline.analyze("scene_001")
     assert pipeline.scenes()[0].scene_id == "scene_001"
     assert list(pipeline.store.path("archive").glob("*/scenes.json"))
+
+
+def test_scene_rewrite_is_told_why_the_audit_rejected_it(pipeline):
+    report = pipeline.store.read("validation.json")
+    report["results"]["scene_001"] = {"status": "REJECT", "issues": ["Lettering must be an exact source quotation"]}
+    pipeline.store.write("validation.json", report)
+    prompts = []
+    original = pipeline.provider.structured
+    pipeline.provider.structured = lambda prompt, *a, **k: prompts.append(prompt) or original(prompt, *a, **k)
+    pipeline.analyze("scene_001")
+    assert '"fix_these_audit_issues": ["Lettering must be an exact source quotation"]' in prompts[0]
 
 
 def test_cliffhanger_requires_complete_introduction(tmp_path):

@@ -4,7 +4,7 @@ import re
 from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
-from .analysis import RULES, analyze, validate_scene
+from .analysis import RULES, analyze, validate_batch, validate_scene
 from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
     portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
 from .scripture import load, select
@@ -43,7 +43,7 @@ class Pipeline:
         return digest({"source": [v.model_dump() for v in self.verses()],
                        "scenes": [s.model_dump() for s in self.scenes()]})
 
-    def analyze(self, identifier=None, staged=False):
+    def analyze(self, identifier=None, staged=False, chunk_size=6):
         if staged and not identifier:
             from .staged import analyze_staged
             scenes = analyze_staged(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
@@ -55,19 +55,27 @@ class Pipeline:
             old = scenes[index]
             verses = [v for v in self.verses() if v.ref in old.refs]
             prompt = RULES + "\nRegenerate exactly one scene using only these verses. Preserve all refs. Return one \n"
-            result = self.provider.structured(prompt + json.dumps({
-                "source": [v.model_dump() for v in verses], "previous_draft": old.model_dump()}),
+            request = {"source": [v.model_dump() for v in verses], "previous_draft": old.model_dump()}
+            # Without the audit's reasons, a rewrite tends to repeat the same mistake.
+            if self.store.path("validation.json").exists():
+                issues = self.store.read("validation.json")["results"].get(identifier, {}).get("issues")
+                if issues:
+                    request["fix_these_audit_issues"] = issues
+            result = self.provider.structured(prompt + json.dumps(request),
                 SceneBatch, f"regenerate_{identifier}_{uuid4().hex[:12]}")
             if len(result.scenes) != 1 or result.scenes[0].refs != old.refs:
                 raise ValueError("Individual scene regeneration must preserve its verse coverage")
             scenes[index] = result.scenes[0]
             scenes[index].scene_id = identifier
         else:
-            scenes = analyze(self.provider, self.verses(), known_characters=list(self.continuity()["characters"]))
+            continuity = self.continuity()
+            scenes = analyze(self.provider, self.verses(), chunk_size, known_characters=list(continuity["characters"]),
+                             known_locations=list(continuity["locations"]))
         self.store.write("scenes.json", [s.model_dump() for s in scenes])
         self.store.event("analyze", count=len(scenes))
 
-    def validate(self, workers=1):
+    def validate(self, workers=1, batch=False):
+        """batch=True audits each chapter's scenes in one call instead of one call per scene."""
         scenes, verses = self.scenes(), self.verses()
         known = list(self.continuity()["characters"])
         if len({s.scene_id for s in scenes}) != len(scenes):
@@ -78,7 +86,16 @@ class Pipeline:
             scene = scenes[index]
             verdict = validate_scene(self.provider, scene, verses, scenes[index - 1] if index else None, known)
             return scene.scene_id, verdict.model_dump()
-        if workers == 1:
+        if batch:
+            results, previous = {}, None
+            chapters = {}
+            for scene in scenes:
+                chapters.setdefault(scene.refs[0].rsplit(":", 1)[0], []).append(scene)
+            for group in chapters.values():
+                verdicts = validate_batch(self.provider, group, verses, previous, known)
+                results.update({sid: v.model_dump() for sid, v in verdicts.items()})
+                previous = group[-1]
+        elif workers == 1:
             results = dict(check(index) for index in range(len(scenes)))
         else:
             from concurrent.futures import ThreadPoolExecutor

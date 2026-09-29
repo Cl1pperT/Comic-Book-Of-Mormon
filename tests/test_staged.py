@@ -176,7 +176,8 @@ def test_codex_runs_one_read_only_exec_per_call_and_holds_the_schema(tmp_path, m
         schema = json.loads(Path(args[args.index("--output-schema") + 1]).read_text(encoding="utf-8"))
         assert schema["additionalProperties"] is False and set(schema["required"]) == set(schema["properties"])
         Path(args[args.index("--output-last-message") + 1]).write_text('{"status": "PASS", "issues": []}', encoding="utf-8")
-        return subprocess.CompletedProcess(args, 0, "", "")
+        events = '{"type":"turn.started"}\n{"type":"turn.completed","usage":{"input_tokens":5000,"output_tokens":40}}\n'
+        return subprocess.CompletedProcess(args, 0, events, "")
     monkeypatch.setattr(codex.subprocess, "run", run)
     monkeypatch.setenv("CODEX_VALIDATOR_EFFORT", "high")
     store = Store(tmp_path / "run")
@@ -186,6 +187,10 @@ def test_codex_runs_one_read_only_exec_per_call_and_holds_the_schema(tmp_path, m
     assert args[:2] == ["C:/fake/codex.cmd", "exec"] and args[-1] == "-" and stdin == "Check this scene."
     assert args[args.index("--sandbox") + 1] == "read-only" and "--skip-git-repo-check" in args and "--ephemeral" in args
     assert "model_reasoning_effort=high" in args and "--model" not in args
+    # Lean calls: Codex's agent extras are off and our short instructions replace its built-in ones.
+    assert "--json" in args and "agents.enabled=false" in args and args.count("--disable") == len(codex.LEAN_FEATURES)
+    assert any(a.startswith("model_instructions_file=") for a in args)
+    assert store.read("api/validate_scene_001.response.json")["usage"] == {"input_tokens": 5000, "output_tokens": 40}
     # --resume reuses an identical request instead of spending plan usage again.
     provider.reuse_responses = True
     provider.structured("Check this scene.", Verdict, "validate_scene_001", "validator")
@@ -199,6 +204,47 @@ def test_codex_runs_one_read_only_exec_per_call_and_holds_the_schema(tmp_path, m
     monkeypatch.setenv("LOCALAPPDATA", str(tmp_path / "no-install"))
     with pytest.raises(ProviderError, match="codex login"):
         codex.Codex(store)
+
+
+def test_whole_chapter_analysis_and_known_locations():
+    from bom_comic.analysis import analyze
+    from bom_comic.models import Claim, Scene, SceneBatch
+    prompts = []
+
+    class Writer:
+        def structured(self, prompt, schema, tag, kind="text"):
+            prompts.append((tag, prompt))
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=["1 Nephi 1:1"], summary="s",
+                                            explicit_facts=[Claim(text="x", refs=["1 Nephi 1:1"])])])
+    analyze(Writer(), VERSES, 0, known_characters=["Nephi"], known_locations=["Jerusalem"])
+    assert [tag for tag, _ in prompts] == ["analyze_1_0"]  # 12 verses, one call
+    assert 'use exactly this label: ["Jerusalem"]' in prompts[0][1] and "never a description of the moment" in prompts[0][1]
+    assert "Break this whole chapter" in prompts[0][1] and "never merge separate events" in prompts[0][1]
+    analyze(Writer(), VERSES, 6)
+    assert len(prompts) == 3 and "Break this portion into a few" in prompts[1][1]
+
+
+def test_batch_validation_audits_a_chapter_in_one_call():
+    from bom_comic.analysis import validate_batch
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneVerdict
+    calls = []
+
+    class Auditor:
+        def structured(self, prompt, schema, tag, kind="text"):
+            calls.append((schema, tag, kind))
+            # Answers for scene_1 only; scene_2 is skipped by the auditor.
+            return ChapterVerdicts(verdicts=[SceneVerdict(scene_id="scene_1", status="PASS WITH WARNINGS", issues=["x"])])
+    make = lambda sid, ref, text: Scene(scene_id=sid, title="t", refs=[ref], summary="s",
+                                       explicit_facts=[Claim(text="x", refs=[ref])], narration=[Claim(text=text, refs=[ref])])
+    scenes = [make("scene_1", "1 Nephi 1:1", "event number 1"), make("scene_2", "1 Nephi 1:2", "event number 2"),
+              make("scene_3", "1 Nephi 1:3", "not in the verse")]
+    results = validate_batch(Auditor(), scenes, VERSES)
+    assert len(calls) == 1 and calls[0][0] is ChapterVerdicts and calls[0][2] == "validator"
+    assert results["scene_1"].status == "PASS WITH WARNINGS"
+    assert results["scene_2"].status == "REJECT" and "no verdict" in results["scene_2"].issues[0]
+    # Deterministic failures are rejected without being sent to the model.
+    assert results["scene_3"].status == "REJECT" and "exact source quotation" in results["scene_3"].issues[0]
+    assert calls[0][1] == "validate_scene_1_scene_2"
 
 
 def test_kontext_prompt_says_other_figures_are_different_people():

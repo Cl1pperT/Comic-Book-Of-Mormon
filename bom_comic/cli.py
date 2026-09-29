@@ -21,12 +21,14 @@ def main():
     analyzer.add_argument("--claude", action="store_true", help="Reason with Claude (ANTHROPIC_API_KEY, CLAUDE_TEXT_MODEL) instead of Gemini")
     analyzer.add_argument("--codex", action="store_true", help="Reason with the Codex CLI signed in with ChatGPT (no API key; uses the plan's limits)")
     analyzer.add_argument("--resume", action="store_true", help="Reuse chunks already analyzed with the identical model and prompt")
+    analyzer.add_argument("--chunk-size", type=int, default=6, help="Verses per call; 0 sends each whole chapter in one call")
     analyzer.add_argument("--staged", action="store_true", help="Several small single-purpose passes with code-enforced rules (for smaller models)")
     validator = commands.add_parser("validate")
     validator.add_argument("--resume", action="store_true", help="Reuse successful checks only when model, schema, and complete prompt are unchanged")
     validator.add_argument("--workers", type=int, choices=range(1, 5), default=1, help="Concurrent independent API checks; default 1")
     validator.add_argument("--local", action="store_true", help="Reason with a local Ollama server (OLLAMA_URL/OLLAMA_VALIDATOR_MODEL) instead of Gemini")
     validator.add_argument("--claude", action="store_true", help="Check with Claude (ANTHROPIC_API_KEY, CLAUDE_VALIDATOR_MODEL) instead of Gemini")
+    validator.add_argument("--batch", action="store_true", help="Audit each chapter's scenes in one call instead of one call per scene")
     validator.add_argument("--codex", action="store_true", help="Check with the Codex CLI signed in with ChatGPT (no API key; uses the plan's limits)")
     validator.add_argument("--offline", metavar="MODEL", help="No model calls: reuse saved verdicts from MODEL where unchanged, flag the rest for human review")
     commands.add_parser("plan")
@@ -97,9 +99,9 @@ def main():
         elif args.command == "init":
             pipeline.init(args.source, args.start, args.end)
         elif args.command == "analyze":
-            pipeline.analyze(args.id, staged=args.staged)
+            pipeline.analyze(args.id, staged=args.staged, chunk_size=args.chunk_size)
         elif args.command == "validate":
-            print(json.dumps(pipeline.validate(args.workers), indent=2))
+            print(json.dumps(pipeline.validate(args.workers, batch=args.batch), indent=2))
         elif args.command == "plan":
             pipeline.plan()
         elif args.command == "preview":
