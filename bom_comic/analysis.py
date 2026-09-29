@@ -84,7 +84,10 @@ def deterministic_issues(scene, verses):
             issues.append(f"Lettering must be an exact source quotation: {quote.text!r} is not verbatim in "
                           f"{', '.join(quote.refs)}, which reads {evidence!r}")
     if sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration) > 65:
-        issues.append("Scene lettering exceeds 65 words; split into smaller scenes")
+        # A one-scene rewrite can't split the scene, so name the fix it can make.
+        words = sum(len(x.text.split()) for x in scene.spoken_dialogue + scene.narration)
+        issues.append(f"Scene lettering is {words} words, over the 65-word limit: keep only the most important "
+                      "lines, as shorter exact excerpts, until narration and dialogue together total 65 words or fewer")
     return issues
 
 

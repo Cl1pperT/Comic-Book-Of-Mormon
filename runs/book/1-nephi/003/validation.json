@@ -1,0 +1,79 @@
+{
+  "stamp": "d5865db91d72475d17c2163ff9ab91462977683ec4157dbb5d10794986b0abde",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The lot is cast before Laman enters Laban’s house, but the place where it is cast is unspecified; avoid depicting that action inside the house."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The brothers’ location when Laman reports what happened is unspecified; avoid implying the report occurs inside Laban’s house."
+      ]
+    },
+    "scene_008": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source places the flight and hiding in the wilderness before the striking, but does not specify the exact spot where the striking occurs."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The angel’s appearance and the precise referent of “him” in the angel’s statement are not specified; avoid adding visual details or identifying the referent beyond the text."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says the angel departed but does not specify where the scene occurs or how the angel departs."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

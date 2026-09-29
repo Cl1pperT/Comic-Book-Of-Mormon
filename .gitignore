@@ -3,7 +3,18 @@
 __pycache__/
 .pytest_cache/
 *.egg-info/
-runs/
+runs/*
+# The written book: each chapter's scenes, checks, status, and source text, not its logs or archived drafts.
+!runs/book/
+runs/book/**
+!runs/book/**/
+!runs/book/book.log
+!runs/book/**/scenes.json
+!runs/book/**/validation.json
+!runs/book/**/status.json
+!runs/book/**/source.json
+runs/book/**/api/
+runs/book/**/archive/
 *.epub
 .DS_Store
 .venv-python39-backup/

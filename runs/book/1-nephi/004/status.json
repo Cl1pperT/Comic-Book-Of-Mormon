@@ -1,0 +1,57 @@
+{
+  "book": "1 Nephi",
+  "chapter": 4,
+  "verses": 38,
+  "scenes": 14,
+  "counts": {
+    "PASS": 3,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 9
+  },
+  "rejected": {
+    "scene_002": [
+      "Lettering must be an exact source quotation: '“they were yet wroth”' is not verbatim in 1 Nephi 4:4, which reads 'Now when I had spoken these words, they were yet wroth, and did still continue to murmur; nevertheless they did follow me up until we came without the walls of Jerusalem.'",
+      "Lettering must be an exact source quotation: '“did still continue to murmur”' is not verbatim in 1 Nephi 4:4, which reads 'Now when I had spoken these words, they were yet wroth, and did still continue to murmur; nevertheless they did follow me up until we came without the walls of Jerusalem.'",
+      "Lettering must be an exact source quotation: '“they did follow me up until we came without the walls of Jerusalem.”' is not verbatim in 1 Nephi 4:4, which reads 'Now when I had spoken these words, they were yet wroth, and did still continue to murmur; nevertheless they did follow me up until we came without the walls of Jerusalem.'",
+      "Lettering must be an exact source quotation: '“And it was by night;”' is not verbatim in 1 Nephi 4:5, which reads 'And it was by night; and I caused that they should hide themselves without the walls. And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban.'",
+      "Lettering must be an exact source quotation: '“I caused that they should hide themselves without the walls.”' is not verbatim in 1 Nephi 4:5, which reads 'And it was by night; and I caused that they should hide themselves without the walls. And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban.'",
+      "Lettering must be an exact source quotation: '“I, Nephi, crept into the city”' is not verbatim in 1 Nephi 4:5, which reads 'And it was by night; and I caused that they should hide themselves without the walls. And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban.'",
+      "Lettering must be an exact source quotation: '“and went forth towards the house of Laban.”' is not verbatim in 1 Nephi 4:5, which reads 'And it was by night; and I caused that they should hide themselves without the walls. And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban.'"
+    ],
+    "scene_004": [
+      "Lettering must be an exact source quotation: '“And I beheld his sword, and I drew it forth from the sheath thereof;”' is not verbatim in 1 Nephi 4:9, which reads 'And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel.'",
+      "Lettering must be an exact source quotation: '“Never at any time have I shed the blood of man.”' is not verbatim in 1 Nephi 4:10, which reads 'And it came to pass that I was constrained by the Spirit that I should kill Laban; but I said in my heart: Never at any time have I shed the blood of man. And I shrunk and would that I might not slay him.'",
+      "Lettering must be an exact source quotation: '“And I shrunk and would that I might not slay him.”' is not verbatim in 1 Nephi 4:10, which reads 'And it came to pass that I was constrained by the Spirit that I should kill Laban; but I said in my heart: Never at any time have I shed the blood of man. And I shrunk and would that I might not slay him.'"
+    ],
+    "scene_006": [
+      "Scene lettering exceeds 65 words; split into smaller scenes"
+    ],
+    "scene_007": [
+      "Lettering must be an exact source quotation: '“Therefore I did obey the voice of the Spirit”' is not verbatim in 1 Nephi 4:18, which reads 'Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and I smote off his head with his own sword.'"
+    ],
+    "scene_009": [
+      "Scene lettering exceeds 65 words; split into smaller scenes"
+    ],
+    "scene_010": [
+      "Lettering must be an exact source quotation: '“And he spake unto me many times concerning the elders of the Jews, as I went forth unto my brethren, who were without the walls.”' is not verbatim in 1 Nephi 4:27, which reads 'And he spake unto me many times concerning the elders of the Jews, as I went forth unto my brethren, who were without the walls.'",
+      "Lettering must be an exact source quotation: '“And it came to pass that I called after them, and they did hear me;”' is not verbatim in 1 Nephi 4:29, which reads 'And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.'"
+    ],
+    "scene_011": [
+      "Lettering must be an exact source quotation: '“And now I, Nephi, being a man large in stature, and also having received much strength of the Lord,”' is not verbatim in 1 Nephi 4:31, which reads 'And now I, Nephi, being a man large in stature, and also having received much strength of the Lord, therefore I did seize upon the servant of Laban, and held him, that he should not flee.'"
+    ],
+    "scene_012": [
+      "Scene lettering exceeds 65 words; split into smaller scenes"
+    ],
+    "scene_014": [
+      "Lettering must be an exact source quotation: '“And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.”' is not verbatim in 1 Nephi 4:38, which reads 'And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father.'"
+    ]
+  },
+  "calls": 29,
+  "tokens": {
+    "input_tokens": 236457,
+    "cached_input_tokens": 110080,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 18195,
+    "reasoning_output_tokens": 852
+  }
+}

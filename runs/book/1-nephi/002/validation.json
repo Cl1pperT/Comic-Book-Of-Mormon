@@ -1,0 +1,87 @@
+{
+  "stamp": "5c4dfbe609a88a25e177da7f29fc72862f306bd53b3c9cdc1fbe800248161b1e",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "REJECT",
+      "issues": [
+        "The summary combines the command given in a dream (verse 2) with Lehi's later obedience (verse 3) as a single scene, compressing distinct moments."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "REJECT",
+      "issues": [
+        "The verse identifies the people Lehi addressed only as “them.” Identifying them as his sons or depicting Laman and Lemuel as present is not supported by this verse."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says Lehi dwelt in a tent but does not specify whether he is inside or beside it."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not establish that Laman and Lemuel's refusal to heed Nephi and Nephi's prayer happened simultaneously; the visual inference should not combine them into one moment."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "REJECT",
+      "issues": [
+        "Scene lettering exceeds 65 words; split into smaller scenes"
+      ]
+    }
+  }
+}

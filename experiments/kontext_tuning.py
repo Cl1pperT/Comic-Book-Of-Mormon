@@ -2,7 +2,7 @@
 
 Renders into experiments/kontexttest/tuning/<run>/g<guidance>/ only (final panel plus its Flux draft);
 nothing enters a run.
-Usage: python experiments/kontext_tuning.py tests/nephitest-2 panel_001 2.5 4
+Usage: python experiments/kontext_tuning.py runs/book/1-nephi/002 panel_001 2.5 4
 """
 import sys
 import time
