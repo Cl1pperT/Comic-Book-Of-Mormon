@@ -1,13 +1,15 @@
 {
-  "stamp": "a32bfe006b4b6eea92ea85a1d0195e0924931ac400438953e06715dbddc84ebd",
+  "stamp": "5ad416b5c5c73cdfce8a1deda22cd8e3abf1750b632a6ee574630e90b68a821f",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord’s speech is an exact excerpt, but it is truncated before the verse’s full sentence; ensure the presentation does not imply this was the complete message."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -18,10 +20,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
@@ -36,10 +36,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and explicit fact say Ammon sought to destroy “him.” In Alma 20:19, the king’s “him” refers to his son Lamoni; clarify the referent so it cannot be read as the king."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -58,10 +56,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The people Ammon meets are his brethren from Alma 20:28, not an unidentified group. Their individual identities at the meeting are not specified, but the character label and unspecified-details field should preserve their stated relationship to Ammon."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

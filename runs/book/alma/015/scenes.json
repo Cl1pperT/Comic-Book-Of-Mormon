@@ -6,47 +6,63 @@
       "Alma 15:1",
       "Alma 15:2"
     ],
-    "summary": "Alma and Amulek depart the city and arrive in Sidom, where they find the people cast out of Ammonihah. The people tell them what happened to their families and themselves.",
+    "summary": "Alma and Amulek depart the city and come to the land of Sidom, where they find the people who had left Ammonihah. An account is related concerning wives, children, those relating it, and their deliverance.",
     "characters": [
       "Alma",
       "Amulek",
-      "the people cast out of Ammonihah"
+      "the people who departed Ammonihah"
     ],
     "locations": [
-      "Sidom"
+      "the land of Sidom"
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek were commanded to leave the city and departed for Sidom.",
+        "text": "Alma and Amulek were commanded to depart the city, and they came to the land of Sidom.",
         "refs": [
           "Alma 15:1"
         ]
       },
       {
-        "text": "In Sidom, they found people cast out of Ammonihah and stoned for believing Alma's words.",
+        "text": "There they found people who had departed Ammonihah and had been cast out and stoned because they believed Alma's words.",
         "refs": [
           "Alma 15:1"
         ]
       },
       {
-        "text": "The people related what had happened to their wives, children, and themselves, and spoke of their deliverance.",
+        "text": "An account was related concerning wives and children, those relating it, and their power of deliverance.",
         "refs": [
           "Alma 15:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek meet the gathered people in Sidom."
+      "Alma and Amulek encounter the people in Sidom."
     ],
     "unspecified_visual_details": [
-      "The city's identity, travel route, and appearance of Sidom.",
-      "The number and appearance of the people gathered."
+      "The travel route and the appearance of Sidom.",
+      "The number and appearance of the people."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "and came out even into the land of Sidom;",
+        "refs": [
+          "Alma 15:1"
+        ]
+      },
+      {
+        "text": "And they related unto them all that had happened unto their wives and children, and also concerning themselves, and of their power of deliverance.",
+        "refs": [
+          "Alma 15:2"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The wording does not explicitly identify the speakers or recipients of the account in verse 2."
+    ],
     "prohibited_inventions": [
-      "Do not depict the stoning as happening now; it is reported as past."
+      "Do not depict the earlier casting out or stoning as occurring now.",
+      "Do not invent what happened to the wives and children or supply dialogue for the account."
     ],
     "importance": "normal"
   },
@@ -57,7 +73,7 @@
       "Alma 15:3",
       "Alma 15:4"
     ],
-    "summary": "Zeezrom lies sick with a burning fever, distressed by his sins and believing Alma and Amulek had been killed. Hearing they are in Sidom, he sends for them.",
+    "summary": "Zeezrom lies sick with a burning fever at Sidom, distressed by his sins and supposing Alma and Amulek have been slain. When he hears they are in Sidom, he takes courage and sends a message asking them to come to him.",
     "characters": [
       "Zeezrom"
     ],
@@ -66,30 +82,52 @@
     ],
     "explicit_facts": [
       {
-        "text": "Zeezrom lay sick at Sidom with a burning fever and distress over his sins, believing Alma and Amulek had been slain.",
+        "text": "Zeezrom lay sick at Sidom with a burning fever caused by tribulations of his mind over his wickedness.",
         "refs": [
           "Alma 15:3"
         ]
       },
       {
-        "text": "When he heard Alma and Amulek were in Sidom, Zeezrom took courage and sent a message asking them to come.",
+        "text": "Zeezrom supposed Alma and Amulek had been slain because of his iniquity.",
+        "refs": [
+          "Alma 15:3"
+        ]
+      },
+      {
+        "text": "After hearing Alma and Amulek were in Sidom, Zeezrom took courage and sent a message asking them to come to him.",
         "refs": [
           "Alma 15:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Zeezrom is lying ill as he hears the news and sends a message."
+      "Zeezrom can be shown lying ill."
     ],
     "unspecified_visual_details": [
       "Who brings the news or carries the message.",
-      "The interior and furnishings of Zeezrom's dwelling."
+      "Zeezrom's surroundings."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And also Zeezrom lay sick at Sidom, with a burning fever,",
+        "refs": [
+          "Alma 15:3"
+        ]
+      },
+      {
+        "text": "Now, when he heard that Alma and Amulek were in the land of Sidom, his heart began to take courage;",
+        "refs": [
+          "Alma 15:4"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Zeezrom's belief that Alma and Amulek had been slain is not confirmation that they were."
+    ],
     "prohibited_inventions": [
-      "Do not depict Alma and Amulek as dead or show a supernatural cause for the fever."
+      "Do not depict Alma and Amulek as slain or physically present with Zeezrom.",
+      "Do not invent the messenger's identity, speech, or a visible supernatural cause for the fever."
     ],
     "importance": "normal"
   },
@@ -99,40 +137,62 @@
     "refs": [
       "Alma 15:5"
     ],
-    "summary": "Alma and Amulek go to Zeezrom's house and find him on his bed, very ill. When he sees them, he reaches out and asks them to heal him.",
+    "summary": "They went immediately in response to a message and entered Zeezrom's house. They found him on his bed, very ill with a burning fever and distressed because of his iniquities. When he saw them, he stretched out his hand and asked them to heal him.",
     "characters": [
-      "Alma",
-      "Amulek",
-      "Zeezrom"
+      "Zeezrom",
+      "unnamed visitors"
     ],
     "locations": [
       "Zeezrom's house"
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek went to Zeezrom's house and found him on his bed, sick with a burning fever and distress over his sins.",
+        "text": "They went immediately, obeying a message sent to them, and entered Zeezrom's house.",
         "refs": [
           "Alma 15:5"
         ]
       },
       {
-        "text": "Zeezrom stretched forth his hand and besought them to heal him.",
+        "text": "They found Zeezrom on his bed, very ill with a burning fever; his mind was exceedingly sore because of his iniquities.",
+        "refs": [
+          "Alma 15:5"
+        ]
+      },
+      {
+        "text": "When Zeezrom saw them, he stretched out his hand and entreated them to heal him.",
         "refs": [
           "Alma 15:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Zeezrom reaches toward Alma and Amulek from his bed."
+      "Zeezrom reaches toward the visitors from his bed."
     ],
     "unspecified_visual_details": [
+      "The visitors' identities and appearances.",
       "The house's appearance and furnishings."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "and they found him upon his bed, sick, being very low with a burning fever;",
+        "refs": [
+          "Alma 15:5"
+        ]
+      },
+      {
+        "text": "and when he saw them he stretched forth his hand, and besought them that they would heal him.",
+        "refs": [
+          "Alma 15:5"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Zeezrom's mental distress is attributed to his iniquities; it is not itself a visible event."
+    ],
     "prohibited_inventions": [
-      "Do not add a spoken request beyond the source's summarized account."
+      "Do not name the visitors or the sender of the message.",
+      "Do not invent words for Zeezrom's reported request or depict a healing."
     ],
     "importance": "normal"
   },
@@ -302,15 +362,13 @@
     "refs": [
       "Alma 15:11"
     ],
-    "summary": "After Alma speaks, Zeezrom leaps to his feet and begins to walk. The people are astonished, and knowledge of this spreads throughout Sidom.",
+    "summary": "After Alma speaks, Zeezrom leaps to his feet and begins to walk. The people are greatly astonished. Knowledge of the event spreads throughout the land of Sidom.",
     "characters": [
       "Alma",
       "Zeezrom",
-      "the people of Sidom"
+      "the people"
     ],
-    "locations": [
-      "Zeezrom's house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "After Alma had spoken, Zeezrom leaped to his feet and began to walk.",
@@ -319,7 +377,13 @@
         ]
       },
       {
-        "text": "The people were greatly astonished, and knowledge of the event spread throughout Sidom.",
+        "text": "The people were greatly astonished.",
+        "refs": [
+          "Alma 15:11"
+        ]
+      },
+      {
+        "text": "Knowledge of the event spread throughout the land of Sidom.",
         "refs": [
           "Alma 15:11"
         ]
@@ -329,15 +393,22 @@
       "People present witness Zeezrom rise and walk."
     ],
     "unspecified_visual_details": [
-      "The number and identities of the people who witness the event."
+      "The immediate setting and the number and identities of the people present."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Zeezrom leaped upon his feet, and began to walk;",
+        "refs": [
+          "Alma 15:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The spread of knowledge is reported; do not depict it as a separate simultaneous event."
+      "The spread of knowledge is reported, not a simultaneous visible event."
     ],
     "prohibited_inventions": [
-      "Do not add visual signs or mechanics of healing beyond Zeezrom rising and walking."
+      "Do not invent Alma’s preceding words or depict a specific building or additional signs of healing."
     ],
     "importance": "normal"
   },
@@ -347,14 +418,12 @@
     "refs": [
       "Alma 15:12"
     ],
-    "summary": "Alma baptizes Zeezrom unto the Lord. From then on, Zeezrom begins preaching to the people.",
+    "summary": "Alma baptizes Zeezrom unto the Lord. From that time forth, Zeezrom begins to preach to the people.",
     "characters": [
       "Alma",
       "Zeezrom"
     ],
-    "locations": [
-      "Sidom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Alma baptized Zeezrom unto the Lord.",
@@ -370,19 +439,26 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The baptism is a visible act involving Alma and Zeezrom."
+      "The baptism involves Alma and Zeezrom."
     ],
     "unspecified_visual_details": [
-      "The baptism's precise location, method, and witnesses.",
-      "The subject or setting of Zeezrom's preaching."
+      "The baptism's location, method, and witnesses.",
+      "The setting and subject of Zeezrom's preaching."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma baptized Zeezrom unto the Lord; and he began from that time forth to preach unto the people.",
+        "refs": [
+          "Alma 15:12"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Preaching follows the baptism; do not combine it into a simultaneous action."
+      "Zeezrom's preaching begins after the baptism; do not depict both as simultaneous actions."
     ],
     "prohibited_inventions": [
-      "Do not depict additional baptismal words or details not supplied."
+      "Do not add baptismal words, a location, or preaching dialogue."
     ],
     "importance": "normal"
   },
@@ -402,29 +478,38 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma established a church in Sidom and consecrated priests and teachers there.",
+        "text": "Alma established a church in the land of Sidom.",
         "refs": [
           "Alma 15:13"
         ]
       },
       {
-        "text": "The priests and teachers were to baptize those who desired baptism.",
+        "text": "Alma consecrated priests and teachers in the land to baptize those who desired baptism.",
         "refs": [
           "Alma 15:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and the consecrated priests and teachers are present in Sidom."
+      "Alma and the priests and teachers are present in Sidom."
     ],
     "unspecified_visual_details": [
-      "The ceremony, number of priests and teachers, and appearance of the church."
+      "The number and appearance of the priests and teachers.",
+      "The appearance of the church."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma established a church in the land of Sidom,",
+        "refs": [
+          "Alma 15:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a consecration ceremony or words spoken."
+      "Do not invent a consecration ceremony or words spoken.",
+      "Do not depict a baptism as having occurred in this verse."
     ],
     "importance": "normal"
   },
@@ -434,32 +519,47 @@
     "refs": [
       "Alma 15:14"
     ],
-    "summary": "Many people flock from the region around Sidom and are baptized.",
+    "summary": "Many people flock in from the region around Sidom and are baptized.",
     "characters": [
       "people from the region around Sidom"
     ],
     "locations": [
-      "Sidom"
+      "the region around Sidom"
     ],
     "explicit_facts": [
       {
-        "text": "Many people came from the region around Sidom and were baptized.",
+        "text": "Many people flocked in from the region around Sidom.",
+        "refs": [
+          "Alma 15:14"
+        ]
+      },
+      {
+        "text": "They were baptized.",
         "refs": [
           "Alma 15:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group gathers for baptism in Sidom."
+      "People arriving in groups."
     ],
     "unspecified_visual_details": [
-      "The number, identities, and appearance of the people; who performs the baptisms."
+      "The people's number and appearance.",
+      "The precise baptism location and who performs the baptisms."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that they were many; for they did flock in from all the region round about Sidom, and were baptized.",
+        "refs": [
+          "Alma 15:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict all baptisms as one individual event if implying a specific unstated officiant."
+      "Do not name the people or a baptism officiant.",
+      "Do not imply that all baptisms occurred at one time or place."
     ],
     "importance": "normal"
   },
@@ -497,7 +597,14 @@
       "The individuals, their setting, and any particular act or speech."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they yet remained a hard-hearted and a stiffnecked people;",
+        "refs": [
+          "Alma 15:15"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "This verse summarizes their belief and conduct; it does not quote them speaking."
     ],
@@ -508,7 +615,7 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Amulek Leaves His Possessions",
+    "title": "Amulek’s Loss and Rejection",
     "refs": [
       "Alma 15:16"
     ],
@@ -535,18 +642,25 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Amulek's possessions may be shown left behind, without depicting an unstated act of abandonment."
+      "Amulek’s possessions may be shown left behind, without depicting an unstated act of abandonment."
     ],
     "unspecified_visual_details": [
       "When and how Amulek left his possessions; whether his former friends or family are present."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Amulek having forsaken all his gold, and silver, and his precious things, which were in the land of Ammonihah, for the word of God, he being rejected by those who were once his friends and also by his father and his kindred;",
+        "refs": [
+          "Alma 15:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The verse summarizes prior loss and rejection; it does not establish that these events happen now."
     ],
     "prohibited_inventions": [
-      "Do not depict Amulek's father, kindred, or former friends as present in this scene."
+      "Do not depict Amulek’s father, kindred, or former friends as present in this scene."
     ],
     "importance": "normal"
   },
@@ -556,37 +670,52 @@
     "refs": [
       "Alma 15:17"
     ],
-    "summary": "After Alma establishes the church, the people humble themselves before God and assemble at their sanctuaries to worship at the altar, continually watching and praying for deliverance.",
+    "summary": "After Alma establishes the church at Sidom, the people begin to humble themselves, assemble at their sanctuaries, worship before the altar, and watch and pray continually for deliverance.",
     "characters": [
-      "the people of Sidom"
+      "Alma",
+      "the people"
     ],
     "locations": [
-      "sanctuaries in Sidom"
+      "Sidom",
+      "sanctuaries"
     ],
     "explicit_facts": [
       {
-        "text": "After the church was established, the people humbled themselves before God and assembled at their sanctuaries to worship before the altar.",
+        "text": "Alma established the church at Sidom.",
         "refs": [
           "Alma 15:17"
         ]
       },
       {
-        "text": "They continually watched and prayed for deliverance from Satan, death, and destruction.",
+        "text": "The people began to humble themselves before God and assemble at their sanctuaries to worship before the altar.",
+        "refs": [
+          "Alma 15:17"
+        ]
+      },
+      {
+        "text": "They watched and prayed continually for deliverance from Satan, death, and destruction.",
         "refs": [
           "Alma 15:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People are gathered in a sanctuary before an altar in worship."
+      "People gathered before an altar in worship."
     ],
     "unspecified_visual_details": [
-      "The sanctuary and altar's appearance, and the number and identities of worshippers."
+      "The appearance of the sanctuaries and altar, and the number and identities of worshippers."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "watching and praying continually",
+        "refs": [
+          "Alma 15:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Deliverance from Satan, death, and destruction is part of their prayer, not a depicted visible event."
+      "Deliverance from Satan, death, and destruction is the object of their prayer, not a visible event."
     ],
     "prohibited_inventions": [
       "Do not depict Satan or a vision of death or destruction."
@@ -599,7 +728,7 @@
     "refs": [
       "Alma 15:18"
     ],
-    "summary": "Alma takes Amulek to Zarahemla and brings him to his own house, where he ministers to Amulek in his tribulations and strengthens him in the Lord.",
+    "summary": "Alma takes Amulek to the land of Zarahemla and brings him to his own house, where he ministers to him in his tribulations and strengthens him in the Lord.",
     "characters": [
       "Alma",
       "Amulek"
@@ -610,7 +739,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma took Amulek to the land of Zarahemla and brought him to his own house.",
+        "text": "Alma took Amulek to the land of Zarahemla and to his own house.",
         "refs": [
           "Alma 15:18"
         ]
@@ -623,15 +752,22 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek travel together to Zarahemla and are together at Alma's house."
+      "Alma and Amulek travel together and are later together at Alma's house."
     ],
     "unspecified_visual_details": [
       "The route, the nature of Amulek's tribulations, and how Alma ministers to him."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and did administer unto him in his tribulations, and strengthened him in the Lord.",
+        "refs": [
+          "Alma 15:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The move and the later ministry are distinct moments; do not portray them as simultaneous."
+      "The journey and the ministry at Alma's house are distinct moments."
     ],
     "prohibited_inventions": [
       "Do not invent a specific tribulation, journey detail, or conversation."
@@ -662,7 +798,14 @@
       "No visual event, person, or setting is specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And thus ended the tenth year of the reign of the judges over the people of Nephi.",
+        "refs": [
+          "Alma 15:19"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "This is a chronological statement, not a depicted event."
     ],

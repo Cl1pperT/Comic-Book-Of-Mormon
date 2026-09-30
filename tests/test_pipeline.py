@@ -238,10 +238,29 @@ def test_older_drawing_records_are_upgraded_while_still_current(pipeline):
     legacy = {k: v for k, v in record.items() if k not in ("art_stamp", "aspect")}
     pipeline.store.write("images/panel_001.json", legacy)
     assert pipeline.image_record(pipeline.panels()[0])  # the old rule still applies to old records
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
     assert pipeline.upgrade_image_records() == 1
     upgraded = pipeline.store.read("images/panel_001.json")
     assert upgraded["art_stamp"] == record["art_stamp"] and upgraded["aspect"] == record["aspect"]
     assert pipeline.upgrade_image_records() == 0
+    # The image approval moves to the upgraded record, so the chapter still assembles.
+    assert pipeline.approvals()["image:panel_001"]["note"] == "Placeholder software test"
+    assert pipeline.assemble().exists()
+
+
+def test_flag_on_a_panel_redrawn_some_other_way_is_settled(pipeline):
+    from bom_comic import reader, redraw
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    reader.flag(pipeline.store, "panel_001", "Clones")
+    record = pipeline.store.read("images/panel_001.json")
+    pipeline.store.write("images/panel_001.json", {**record, "image_hash": "replaced by another redraw"})
+    assert redraw.pending(pipeline.store.root.parent) == []
+    assert reader.flags(pipeline.store) == {}
+    [entry] = redraw.history(pipeline.store)
+    assert entry["note"] == "Clones" and entry["how"] == "Panel was redrawn after this flag"
 
 
 def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_path):
@@ -771,7 +790,13 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
     positive, negative = diffusion_prompts(build_prompt(angel, continuity, "4:3"))
     assert "a woman of about thirty with a serene oval face" in positive and "feathered white wings" in positive
     assert "Every angel has this same face" in positive  # one shared identity keeps angels consistent
-    assert "wings" not in negative and "halo" not in negative and "weapons" in negative
+    assert "invented wings" not in negative and "invent wings" not in negative and "halo" not in negative
+    assert "weapons" in negative
+    # People sharing a panel with an angel don't get her wings.
+    assert positive.split(". ")[1] == "Only the angel has wings and a glow; Alma are ordinary earthly people"
+    assert negative.startswith("winged men, wings on the other people")
+    alone = angel.model_copy(update={"characters_visible": ["The angel who appeared to Alma"]})
+    assert "winged men" not in diffusion_prompts(build_prompt(alone, continuity, "4:3"))[1]
     lamb = make_panel(4).model_copy(update={"characters_visible": ["the Lamb of God"],
                                             "prohibited": ["No halo on the Lamb of God"]})
     positive, negative = diffusion_prompts(build_prompt(lamb, continuity, "4:3"))

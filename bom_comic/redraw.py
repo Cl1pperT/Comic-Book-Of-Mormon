@@ -25,14 +25,37 @@ Stay within the panel's approved action and people below; never add events, peop
 
 
 def pending(root):
-    """[(chapter store, panel_id, flag)] for flags whose panel still shows the flagged image, in book order."""
+    """[(chapter store, panel_id, flag)] for flags whose panel still shows the flagged image, in book order.
+
+    Chapters whose scenes changed since assembly are skipped until re-rendered (their panels must be re-planned
+    first). A flag whose panel has since been redrawn anyway is settled into the history, so the reader shows it as
+    redrawn instead of the flag silently going nowhere."""
     out = []
     for chapter in chapters(Store(root)).values():
+        if chapter.read("final/manifest.json")["scene_stamp"] != Pipeline(chapter, None).stamp():
+            continue
         for panel_id, flag in sorted(flags(chapter).items()):
-            record = chapter.path(f"images/{panel_id}.json")
-            if record.exists() and json.loads(record.read_text(encoding="utf-8"))["image_hash"] == flag["image_hash"]:
+            record_path = chapter.path(f"images/{panel_id}.json")
+            if not record_path.exists():
+                continue
+            record = json.loads(record_path.read_text(encoding="utf-8"))
+            if record["image_hash"] == flag["image_hash"]:
                 out.append((chapter, panel_id, flag))
+            else:
+                _settle(chapter, panel_id, flag, record, None, "Panel was redrawn after this flag")
     return out
+
+
+def _settle(store, panel_id, flag, record, fixes, how):
+    """Move a flag to the chapter's history against the drawing that replaced the flagged one."""
+    entry = {"panel_id": panel_id, "note": flag["note"], "flagged": flag.get("time"), "corrections": fixes,
+             "old_image": flag["image_path"], "new_image": record["path"], "new_image_hash": record["image_hash"],
+             "redrawn": datetime.now(timezone.utc).isoformat(), "how": how}
+    store.write(HISTORY, history(store) + [entry])
+    current = flags(store)
+    current.pop(panel_id, None)
+    store.path(FLAGS).write_text(json.dumps(current, indent=2, ensure_ascii=False), encoding="utf-8")
+    return entry
 
 
 def history(store):
@@ -61,16 +84,10 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None):
     record = pipeline.image_record(panel)
     pipeline.review("image", panel_id, "approve",
                     "AUTOMATED redraw after reviewer flag: " + flag["note"] + ". Review the new drawing in the reader.")
-    pipeline.assemble()
-    entry = {"panel_id": panel_id, "note": flag["note"], "flagged": flag.get("time"), "corrections": fixes,
-             "old_image": flag["image_path"], "new_image": record["path"], "new_image_hash": record["image_hash"],
-             "redrawn": datetime.now(timezone.utc).isoformat()}
-    store.write(HISTORY, history(store) + [entry])
-    current = flags(store)
-    current.pop(panel_id, None)
-    path = store.path(FLAGS)
-    path.write_text(json.dumps(current, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Recorded before assembly, so an assembly problem can't strand a finished drawing.
+    entry = _settle(store, panel_id, flag, record, fixes, "Redrawn from the reviewer's note")
     store.event("redraw", panel_id=panel_id, note=flag["note"], image=record["path"])
+    pipeline.assemble()
     return entry
 
 

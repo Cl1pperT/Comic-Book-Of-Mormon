@@ -1,46 +1,65 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The king’s body",
+    "title": "Before the Burial",
     "refs": [
       "Alma 19:1",
       "Alma 19:2"
     ],
-    "summary": "After two days and two nights, the king’s people prepare to place his body in a sepulchre. The queen, having heard of Ammon’s fame, sends for him.",
+    "summary": "After two days and two nights, people are about to take a man's body to a sepulchre made for burying their dead. The queen, having heard of Ammon's fame, sends for him.",
     "characters": [
-      "King Lamoni",
-      "the queen of Lamoni"
+      "an unidentified man",
+      "the queen",
+      "unnamed people"
     ],
     "locations": [
-      "Unspecified location"
+      "unspecified location",
+      "a sepulchre made for burying the dead"
     ],
     "explicit_facts": [
       {
-        "text": "After two days and two nights, people were about to take the king’s body and lay it in a sepulchre made for burying their dead.",
+        "text": "After two days and two nights, people were about to take his body and lay it in a sepulchre made for burying their dead.",
         "refs": [
           "Alma 19:1"
         ]
       },
       {
-        "text": "The queen heard of Ammon’s fame and sent for him.",
+        "text": "The queen had heard of Ammon's fame and sent, desiring that he come to her.",
         "refs": [
           "Alma 19:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king lies on a bed as others prepare to move him."
+      "The body has not yet been placed in the sepulchre."
     ],
     "unspecified_visual_details": [
-      "The appearance and arrangement of the sepulchre.",
-      "The queen’s clothing and the room’s furnishings."
+      "The man's identity and appearance.",
+      "The appearance of the sepulchre.",
+      "The queen's clothing and surroundings."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "after two days and two nights they were about to take his body",
+        "refs": [
+          "Alma 19:1"
+        ]
+      },
+      {
+        "text": "she sent and desired that he should come in unto her.",
+        "refs": [
+          "Alma 19:2"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Keep the queen's sending for Ammon distinct from the preparations to move the body."
+    ],
     "prohibited_inventions": [
-      "Do not show the king being buried; they are only about to take his body.",
-      "Do not identify the people preparing the body unless supported."
+      "Do not identify the man or the unnamed people.",
+      "Do not show the body being placed in the sepulchre.",
+      "Do not depict Ammon arriving or invent the queen's message."
     ],
     "importance": "normal"
   },
@@ -283,37 +302,45 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The queen keeps watch",
+    "title": "She watches over her husband’s bed",
     "refs": [
       "Alma 19:11"
     ],
-    "summary": "The queen watches over her husband’s bed until the appointed time on the following day.",
+    "summary": "She watched over her husband’s bed until the time on the following day that Ammon had appointed for him to rise.",
     "characters": [
-      "the queen of Lamoni",
-      "King Lamoni"
+      "the woman",
+      "her husband"
     ],
     "locations": [
-      "Unspecified location"
+      "unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The queen watched over her husband’s bed until the time Ammon had appointed for him to rise on the following day.",
+        "text": "She watched over her husband’s bed until the time on the following day that Ammon had appointed for him to rise.",
         "refs": [
           "Alma 19:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The queen remains beside the king’s bed."
+      "She remains near her husband’s bed while watching over it."
     ],
     "unspecified_visual_details": [
-      "The passage of time’s visual representation and the room’s details."
+      "The room’s appearance and how the passage of time is shown."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "she watched over the bed of her husband,",
+        "refs": [
+          "Alma 19:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the king rising before the appointed time."
+      "Do not depict her husband rising during this scene.",
+      "Do not depict Ammon as physically present."
     ],
     "importance": "normal"
   },
@@ -518,7 +545,14 @@
       "The appearance of the woman and the people."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "therefore she ran forth from house to house, making it known unto the people.",
+        "refs": [
+          "Alma 19:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "Her sight of the prostrate group precedes the house-to-house action; do not depict it as happening simultaneously."
     ],
@@ -538,7 +572,7 @@
       "Alma 19:20",
       "Alma 19:21"
     ],
-    "summary": "A multitude assembles at the king’s house and sees the king, queen, and servants prostrate upon the earth. They also see Ammon. Some murmur about the cause, others rebuke them, and the men who scattered the king’s flocks also rebuke them.",
+    "summary": "A multitude gathers at the king’s house and sees the king, queen, and servants prostrate on the earth. They also see Ammon. Some murmur about the cause; others rebuke them, and men who scattered the king’s flocks also rebuke them.",
     "characters": [
       "the multitude",
       "the king",
@@ -552,52 +586,45 @@
     ],
     "explicit_facts": [
       {
-        "text": "A multitude assembled at the king’s house and saw the king, queen, and servants prostrate upon the earth, as though dead.",
+        "text": "A multitude gathered at the king’s house and saw the king, queen, and servants lying prostrate as though dead.",
         "refs": [
           "Alma 19:18"
         ]
       },
       {
-        "text": "The multitude also saw Ammon, who was a Nephite.",
+        "text": "The people also saw Ammon, who was a Nephite.",
         "refs": [
           "Alma 19:18"
         ]
       },
       {
-        "text": "Some people murmured that evil had come upon the king and his house because the king had allowed the Nephite to remain in the land.",
+        "text": "Some people murmured that evil had come upon them or the king’s house because the king had allowed the Nephite to remain in the land.",
         "refs": [
           "Alma 19:19"
         ]
       },
       {
-        "text": "Others rebuked them, saying the king had brought evil upon his house because he slew servants whose flocks had been scattered at the waters of Sebus.",
+        "text": "Others rebuked them, blaming the king for slaying servants whose flocks had been scattered at the waters of Sebus.",
         "refs": [
           "Alma 19:20"
         ]
       },
       {
-        "text": "The men who had scattered the king’s flocks also rebuked them. They were angry with Ammon because he had slain their brethren while defending the flocks.",
+        "text": "Men who had scattered the king’s flocks also rebuked them. They were angry with Ammon because he had slain some of their brethren while defending the flocks.",
         "refs": [
           "Alma 19:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The assembled people can see the prostrate figures and Ammon at the king’s house."
+      "The gathered people can see the prostrate figures and Ammon at the king’s house."
     ],
     "unspecified_visual_details": [
       "The house’s appearance and the people’s clothing.",
       "The multitude’s size and arrangement.",
-      "The identities of individual speakers."
+      "The identities and positions of individual speakers."
     ],
     "spoken_dialogue": [
-      {
-        "text": "it was a great evil that had come upon them, or upon the king and his house, because he had suffered that the Nephite should remain in the land.",
-        "refs": [
-          "Alma 19:19"
-        ],
-        "speaker": "some among the people (reported speech)"
-      },
       {
         "text": "The king hath brought this evil upon his house, because he slew his servants who had had their flocks scattered at the waters of Sebus.",
         "refs": [
@@ -612,16 +639,28 @@
         "refs": [
           "Alma 19:18"
         ]
+      },
+      {
+        "text": "And now the people began to murmur among themselves;",
+        "refs": [
+          "Alma 19:19"
+        ]
+      },
+      {
+        "text": "And they were also rebuked by those men",
+        "refs": [
+          "Alma 19:21"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 19 reports the murmurers’ claim indirectly; its exact excerpt is not presented as a verbatim utterance.",
-      "The events at the waters of Sebus are past events, not shown in this scene.",
-      "Do not assume Ammon is prostrate; the verse says the people saw him."
+      "Verse 19 reports the murmurers’ claim indirectly, not as verbatim dialogue.",
+      "The events at the waters of Sebus occurred earlier and are not shown here.",
+      "The verse does not say Ammon is prostrate."
     ],
     "prohibited_inventions": [
       "Do not depict the earlier events at the waters of Sebus.",
-      "Do not identify or visually place the men who scattered the flocks at the king’s house.",
+      "Do not visually identify or position the men who scattered the flocks at the king’s house.",
       "Do not assign names or biographies to unnamed people."
     ],
     "importance": "normal"
@@ -818,98 +857,114 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The queen and king rise",
+    "title": "Lamoni rises",
     "refs": [
       "Alma 19:30"
     ],
-    "summary": "The queen clasps her hands, speaks words the people do not understand, then takes King Lamoni by the hand. He rises and stands.",
+    "summary": "She clasps her hands, filled with joy, and speaks many words that are not understood. She then takes King Lamoni by the hand, and he rises and stands.",
     "characters": [
-      "the queen of Lamoni",
-      "King Lamoni",
-      "Abish",
-      "the assembled multitude",
-      "Ammon (son of Mosiah)",
-      "the king’s servants"
+      "the woman referred to as she",
+      "King Lamoni"
     ],
-    "locations": [
-      "the king’s house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The queen clasped her hands, was filled with joy, and spoke many words not understood.",
+        "text": "She clasped her hands, was filled with joy, and spoke many words that were not understood.",
         "refs": [
           "Alma 19:30"
         ]
       },
       {
-        "text": "The queen took King Lamoni by the hand, and he arose and stood.",
+        "text": "She took the king, Lamoni, by the hand, and he arose and stood upon his feet.",
         "refs": [
           "Alma 19:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The queen holds the king’s hand as he stands."
+      "Their hands touch as she helps him rise."
     ],
     "unspecified_visual_details": [
-      "The words spoken by the queen; the text says they were not understood."
+      "The woman's identity in this verse",
+      "The words she spoke",
+      "The location and the characters' appearances"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "she clasped her hands, being filled with joy",
+        "refs": [
+          "Alma 19:30"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent or letter the queen’s ununderstood words."
+      "Do not invent or display the words that were not understood.",
+      "Do not add people or a location not identified in this verse."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "Lamoni teaches his people",
+    "title": "He rebukes and teaches his people",
     "refs": [
       "Alma 19:31",
       "Alma 19:32"
     ],
-    "summary": "Lamoni sees the contention, goes among his people, rebukes them, and teaches Ammon’s words. Many believe and are converted; others refuse to listen and leave.",
+    "summary": "Seeing contention among his people, he goes forth, rebukes them, and teaches words he heard from Ammon. Those who hear believe and are converted unto the Lord; many others will not hear and go their way.",
     "characters": [
-      "King Lamoni",
-      "the assembled multitude"
+      "The unnamed man referred to as “he”",
+      "His people"
     ],
-    "locations": [
-      "the king’s house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Lamoni saw the contention, went forth, rebuked the people, and taught the words he had heard from Ammon.",
+        "text": "He saw contention among his people, went forth, rebuked them, and taught words he had heard from Ammon.",
         "refs": [
           "Alma 19:31"
         ]
       },
       {
-        "text": "As many as heard Lamoni’s words believed and were converted to the Lord.",
+        "text": "Those who heard his words believed and were converted unto the Lord.",
         "refs": [
           "Alma 19:31"
         ]
       },
       {
-        "text": "Many would not hear Lamoni’s words and went their way.",
+        "text": "Many would not hear his words and went their way.",
         "refs": [
           "Alma 19:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamoni addresses the gathered people; some depart."
+      "He addresses people while some leave."
     ],
     "unspecified_visual_details": [
-      "The specific words Lamoni taught and the number who listened or departed."
+      "The location, appearances, number of people, and specific words he taught."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "went forth and began to rebuke them, and to teach them the words which he had heard from the mouth of Ammon;",
+        "refs": [
+          "Alma 19:31"
+        ]
+      },
+      {
+        "text": "But there were many among them who would not hear his words; therefore they went their way.",
+        "refs": [
+          "Alma 19:32"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Ammon’s earlier words are reported as the subject of Lamoni’s teaching, not shown as a new speech."
+      "The verses report his teaching but do not quote it. They do not name him or place Ammon in this scene."
     ],
     "prohibited_inventions": [
-      "Do not invent Lamoni’s teaching or dialogue."
+      "Do not identify the unnamed man from context outside these verses.",
+      "Do not invent his speech, a location, or Ammon’s presence."
     ],
     "importance": "normal"
   },
@@ -920,43 +975,61 @@
       "Alma 19:33",
       "Alma 19:34"
     ],
-    "summary": "Ammon and Lamoni’s servants minister to the people and testify that their hearts had changed and they no longer desired evil. Many declare that they saw and conversed with angels.",
+    "summary": "When Ammon arose, he and Lamoni’s servants administered unto the people. They declared that their hearts had changed and that they no longer desired to do evil. Many declared that they had seen and conversed with angels, who had told them things of God and his righteousness.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "the king’s servants",
-      "the assembled people"
+      "Ammon",
+      "the servants of Lamoni",
+      "the people"
     ],
-    "locations": [
-      "the king’s house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "When Ammon arose, he ministered to the people; Lamoni’s servants did likewise. They declared that their hearts had changed and they no longer desired evil.",
+        "text": "When Ammon arose, he administered unto them, as did all the servants of Lamoni.",
         "refs": [
           "Alma 19:33"
         ]
       },
       {
-        "text": "Many declared that they had seen angels and conversed with them, and had been told things of God and righteousness.",
+        "text": "They declared to the people that their hearts had changed and that they had no more desire to do evil.",
+        "refs": [
+          "Alma 19:33"
+        ]
+      },
+      {
+        "text": "Many declared that they had seen and conversed with angels, who had told them things of God and his righteousness.",
         "refs": [
           "Alma 19:34"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon and the servants address people who have gathered to hear them."
+      "Ammon and Lamoni’s servants address the people."
     ],
     "unspecified_visual_details": [
-      "The angels’ appearance; the passage reports the people’s testimony but does not describe the angels in this moment.",
-      "The exact words of the testimonies."
+      "The location and appearance of those present are not specified.",
+      "The angels’ appearance is not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that when Ammon arose he also administered unto them, and also did all the servants of Lamoni;",
+        "refs": [
+          "Alma 19:33"
+        ]
+      },
+      {
+        "text": "And behold, many did declare unto the people that they had seen angels and had conversed with them;",
+        "refs": [
+          "Alma 19:34"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The reported angel encounters are not shown as present-tense events."
+      "The angel encounters are reported by the people, not narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict angels or invent the servants’ and witnesses’ testimony."
+      "Do not depict angels appearing in this scene.",
+      "Do not invent testimony or a specific location."
     ],
     "importance": "normal"
   },
@@ -967,34 +1040,40 @@
       "Alma 19:35",
       "Alma 19:36"
     ],
-    "summary": "Many believe the witnesses, are baptized, and become a righteous people. They establish a church among them; the narration describes the Lord’s work beginning among the Lamanites.",
+    "summary": "Many believed in their words. Those who believed were baptized, became a righteous people, and established a church among them. The work of the Lord commenced among the Lamanites.",
     "characters": [
-      "the Lamanites who believe",
-      "the people performing baptisms"
+      "those who believed"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Many believed the witnesses; those who believed were baptized, became a righteous people, and established a church among them.",
+        "text": "Many believed in their words; those who believed were baptized, became a righteous people, and established a church among them.",
         "refs": [
           "Alma 19:35"
         ]
       },
       {
-        "text": "The work of the Lord commenced among the Lamanites, and the Lord began to pour out his Spirit upon them; the narration says his arm is extended to all who repent and believe on his name.",
+        "text": "The work of the Lord commenced among the Lamanites, and the Lord began to pour out his Spirit upon them.",
+        "refs": [
+          "Alma 19:36"
+        ]
+      },
+      {
+        "text": "The narration says the Lord's arm is extended to all people who repent and believe on his name.",
         "refs": [
           "Alma 19:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A baptism and a gathering of believers may represent the stated baptisms and establishment of a church."
+      "A baptism may represent the stated baptisms without identifying who performed them.",
+      "A gathering of believers may represent the establishment of a church without implying a church building."
     ],
     "unspecified_visual_details": [
-      "The baptismal setting, method, officiants, and appearance of the church.",
-      "Any visible manifestation of the Lord’s Spirit."
+      "The baptismal setting and method, and the appearance of the believers.",
+      "The form of the established church."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -1006,11 +1085,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord’s extended arm is figurative teaching, not a literal visible arm."
+      "The Lord’s extended arm is figurative teaching, not a literal visible arm.",
+      "The verse does not describe a visible manifestation of the Spirit."
     ],
     "prohibited_inventions": [
       "Do not depict a literal divine arm or an unspecified miraculous manifestation.",
-      "Do not invent named leaders or details of the church."
+      "Do not invent baptismal officiants, named leaders, or a church building."
     ],
     "importance": "normal"
   }

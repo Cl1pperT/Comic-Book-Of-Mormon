@@ -1,10 +1,12 @@
 {
-  "stamp": "ec7e453be95c65c865473360c6eeca43f02a969e6bc5ce95e82e85bf34b7faa2",
+  "stamp": "931e1fbe3f3af088b305615213d7e375280e77c5e319c3282f678f1a22076359",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The phrase “After Alma finishes speaking” suggests an immediate present-time scene; the supplied account reports the reaction after he had finished speaking, so avoid visually staging his speech as occurring now.",
+        "Whether Amulek is physically present is expressly unspecified; the scene should not require his appearance.",
+        "The quoted narration excerpts are exact and within the supplied verses. The reported accusations are not rendered as dialogue."
       ]
     },
     "scene_002": {
@@ -16,10 +18,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -34,10 +34,8 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -48,10 +46,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -62,15 +58,15 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The scenes depict the shaking and collapse as they happen, while the text narrates these events without specifying their precise visual timing; keep the depiction limited to the stated physical action."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The fallen walls behind Alma and Amulek are a reasonable visual inference, but their precise placement and the city's layout are unspecified."
       ]
     }
   }

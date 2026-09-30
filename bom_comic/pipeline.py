@@ -269,17 +269,27 @@ class Pipeline:
         the old rule. Run before a chapter's scenes change, or its drawings will look stale under the old rule."""
         if not self.store.path("panels.json").exists():
             return 0
-        aspects, upgraded = self.aspects(), 0
+        aspects, upgraded, carried = self.aspects(), 0, False
+        reviews = self.approvals()
         for panel in self.panels():
             path = self.store.path(f"images/{panel.panel_id}.json")
             if not path.exists():
                 continue
             record = self.store.read(f"images/{panel.panel_id}.json")
-            if "art_stamp" in record or record["panel_stamp"] != self.panel_stamp(panel, aspects):
-                continue
-            record.update(art_stamp=self.art_stamp(panel), aspect=aspects[panel.panel_id])
-            self.store.write(f"images/{panel.panel_id}.json", record)
-            upgraded += 1
+            if "art_stamp" not in record:
+                if record["panel_stamp"] != self.panel_stamp(panel, aspects):
+                    continue
+                record.update(art_stamp=self.art_stamp(panel), aspect=aspects[panel.panel_id])
+                self.store.write(f"images/{panel.panel_id}.json", record)
+                upgraded += 1
+            # The image approval covers the record, so carry an approval of the pre-upgrade record forward.
+            legacy = {k: v for k, v in record.items() if k not in ("art_stamp", "aspect")}
+            review = reviews.get("image:" + panel.panel_id)
+            if review and review.get("stamp") == digest(legacy):
+                review["stamp"] = digest(record)
+                carried = True
+        if carried:
+            self.store.write("reviews.json", reviews)
         return upgraded
 
     def portrait_prompt(self, name):

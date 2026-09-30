@@ -1,19 +1,20 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Aaron Journeys to Jerusalem",
+    "title": "Aaron Journeys Toward Jerusalem",
     "refs": [
       "Alma 21:1"
     ],
-    "summary": "After Ammon and his brethren separated in the borders of the Lamanite land, Aaron journeys toward Jerusalem, near the borders of Mormon.",
+    "summary": "Ammon and his brethren separate in the borders of the land of the Lamanites. Aaron then journeys toward the land called Jerusalem by the Lamanites.",
     "characters": [
       "Aaron",
-      "Ammon (son of Mosiah)",
-      "Aaron's brethren"
+      "Ammon",
+      "Ammon's brethren"
     ],
     "locations": [
-      "Borders of the Lamanite land",
-      "Jerusalem"
+      "Borders of the land of the Lamanites",
+      "Jerusalem",
+      "Borders of Mormon"
     ],
     "explicit_facts": [
       {
@@ -23,24 +24,40 @@
         ]
       },
       {
-        "text": "Aaron journeyed toward the land called Jerusalem by the Lamanites; it was away joining the borders of Mormon.",
+        "text": "Aaron took his journey toward the land called Jerusalem by the Lamanites.",
+        "refs": [
+          "Alma 21:1"
+        ]
+      },
+      {
+        "text": "Jerusalem was away joining the borders of Mormon.",
         "refs": [
           "Alma 21:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron traveling toward Jerusalem."
+      "Aaron traveling separately after the group parts."
     ],
     "unspecified_visual_details": [
-      "The appearance of the landscape and travelers.",
-      "The precise route and distance."
+      "The travelers' appearances and clothing.",
+      "The landscape, route, and distance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "Aaron took his journey towards the land which was called by the Lamanites, Jerusalem",
+        "refs": [
+          "Alma 21:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The Lamanites called the land Jerusalem after the land of their fathers’ nativity."
+    ],
     "prohibited_inventions": [
-      "Do not depict Ammon or Aaron's brethren accompanying Aaron on his journey."
+      "Do not depict Ammon or the other brethren accompanying Aaron on his journey.",
+      "Do not invent a visible city, conversation, or additional events."
     ],
     "importance": "normal"
   },
@@ -51,7 +68,7 @@
       "Alma 21:2",
       "Alma 21:3"
     ],
-    "summary": "Lamanites, Amalekites, and the people of Amulon built the great city of Jerusalem. The Amalekites and Amulonites caused the Lamanites to harden their hearts and grow in wickedness.",
+    "summary": "The Lamanites, Amalekites, and people of Amulon had built the great city called Jerusalem. The Amalekites and Amulonites caused the Lamanites to harden their hearts and grow strong in wickedness and abominations.",
     "characters": [
       "Lamanites",
       "Amalekites",
@@ -62,7 +79,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lamanites, Amalekites, and the people of Amulon built the great city called Jerusalem.",
+        "text": "The Lamanites, Amalekites, and people of Amulon had built a great city called Jerusalem.",
         "refs": [
           "Alma 21:2"
         ]
@@ -75,39 +92,55 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The city is established as a great city."
+      "Jerusalem can be shown as an established city."
     ],
     "unspecified_visual_details": [
-      "The city’s architecture, layout, and appearance.",
-      "How the people’s hardening of hearts is visually represented."
+      "The city's architecture, layout, and appearance.",
+      "The people's clothing and physical appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now the Lamanites and the Amalekites and the people of Amulon had built a great city, which was called Jerusalem.",
+        "refs": [
+          "Alma 21:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The description of hardened hearts and wickedness is not a separate supernatural visual event."
+      "The building is reported as already completed; do not depict it as a new construction event.",
+      "Hardened hearts and wickedness are described, not narrated as a visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific act of wickedness not stated in the verses."
+      "Do not depict a specific act of wickedness not stated in the verses.",
+      "Do not invent speech or a visible event to represent the hardening of hearts."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "Aaron Enters a Synagogue",
+    "title": "Aaron Preaches in a Synagogue",
     "refs": [
       "Alma 21:4"
     ],
-    "summary": "Aaron comes to Jerusalem and begins preaching to the Amalekites in their synagogues, built after the order of the Nehors.",
+    "summary": "Aaron comes to Jerusalem and begins preaching to the Amalekites in their synagogues.",
     "characters": [
       "Aaron",
       "Amalekites"
     ],
     "locations": [
-      "Jerusalem synagogue"
+      "Jerusalem",
+      "synagogues"
     ],
     "explicit_facts": [
       {
-        "text": "Aaron came to Jerusalem and first began to preach to the Amalekites.",
+        "text": "Aaron came to the city of Jerusalem and first began to preach to the Amalekites.",
+        "refs": [
+          "Alma 21:4"
+        ]
+      },
+      {
+        "text": "Aaron began to preach to them in their synagogues.",
         "refs": [
           "Alma 21:4"
         ]
@@ -120,19 +153,26 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron preaching inside a synagogue to assembled people."
+      "Aaron preaching to Amalekites inside a synagogue."
     ],
     "unspecified_visual_details": [
       "The synagogue’s appearance and furnishings.",
-      "The people’s clothing and specific arrangement."
+      "The people’s clothing and arrangement."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he began to preach to them in their synagogues,",
+        "refs": [
+          "Alma 21:4"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse reports the order of the synagogues; it does not describe its visual features."
+      "The verse does not describe visual features of the order of the Nehors."
     ],
     "prohibited_inventions": [
-      "Do not show Nehor as physically present."
+      "Do not depict Nehor as physically present or invent Aaron’s sermon."
     ],
     "importance": "normal"
   },
@@ -317,137 +357,175 @@
       "Alma 21:9",
       "Alma 21:10"
     ],
-    "summary": "Aaron opens the scriptures and expounds the coming of Christ, the resurrection, and redemption through Christ’s death, sufferings, and atonement. The people become angry, mock him, and refuse to hear.",
+    "summary": "Aaron opens the scriptures and expounds teachings about Christ, resurrection, and redemption. His listeners become angry, mock him, and refuse to hear him.",
     "characters": [
       "Aaron",
-      "Amalekite synagogue audience"
+      "Unnamed listeners"
     ],
-    "locations": [
-      "Jerusalem synagogue"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Aaron opened the scriptures concerning Christ’s coming, the resurrection of the dead, and redemption through Christ’s death, sufferings, and atonement.",
+        "text": "Aaron began to open the scriptures concerning the coming of Christ, the resurrection of the dead, and redemption through Christ’s death, sufferings, and atonement.",
         "refs": [
           "Alma 21:9"
         ]
       },
       {
-        "text": "As Aaron expounded these things, the people were angry, mocked him, and would not hear him.",
+        "text": "As Aaron began to expound these things, his listeners became angry, mocked him, and would not hear him.",
         "refs": [
           "Alma 21:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron holding or consulting scriptures while teaching.",
-      "Some listeners mocking Aaron."
+      "Aaron consulting scriptures while teaching.",
+      "Listeners visibly reacting as they mock Aaron."
     ],
     "unspecified_visual_details": [
-      "The scriptures’ physical form and appearance.",
-      "The specific gestures of the people mocking him."
+      "The scriptures’ physical form.",
+      "The listeners’ appearance and specific gestures.",
+      "The setting’s appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now Aaron began to open the scriptures unto them concerning the coming of Christ,",
+        "refs": [
+          "Alma 21:9"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses summarize Aaron’s teaching; they do not provide direct quotations of it."
+      "The verses summarize Aaron’s teaching but provide no direct quotation of his speech."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ’s coming, resurrection, or atonement as a present visual event."
+      "Do not depict Christ’s coming, resurrection, or atonement as events occurring in this scene.",
+      "Do not invent Aaron’s words, the listeners’ words, or a specific location."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_007",
-    "title": "Aaron Leaves for Ani-Anti",
+    "title": "Departure for Ani-Anti",
     "refs": [
       "Alma 21:11"
     ],
-    "summary": "Aaron leaves the synagogue and goes to Ani-Anti, where he finds Muloki preaching with Ammah and his brethren; they contend with many about the word.",
+    "summary": "After seeing that they would not hear his words, a man leaves their synagogue and goes to Ani-Anti. There he finds Muloki preaching, along with Ammah and his brethren. They contend with many about the word.",
     "characters": [
-      "Aaron",
+      "The man who departs",
       "Muloki",
       "Ammah",
       "Ammah's brethren",
-      "People in Ani-Anti"
+      "The people with whom they contend"
     ],
     "locations": [
+      "Their synagogue",
       "Ani-Anti"
     ],
     "explicit_facts": [
       {
-        "text": "Aaron departed from the synagogue and came to Ani-Anti.",
+        "text": "He saw that they would not hear his words and departed out of their synagogue.",
         "refs": [
           "Alma 21:11"
         ]
       },
       {
-        "text": "Aaron found Muloki preaching, along with Ammah and his brethren; they contended with many about the word.",
+        "text": "He came to a village called Ani-Anti and found Muloki preaching the word, along with Ammah and his brethren.",
+        "refs": [
+          "Alma 21:11"
+        ]
+      },
+      {
+        "text": "They contended with many about the word.",
         "refs": [
           "Alma 21:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron arriving while Muloki, Ammah, and Ammah’s brethren preach."
+      "The departing man reaches a gathering where Muloki is preaching."
     ],
     "unspecified_visual_details": [
-      "The location and appearance of the gathering.",
-      "The content of the contention."
+      "The appearance of the synagogue and village.",
+      "The appearance and size of the gathering."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "he departed out of their synagogue, and came over to a village which was called Ani-Anti,",
+        "refs": [
+          "Alma 21:11"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not name the man who departs or give the words spoken during the contention."
+    ],
     "prohibited_inventions": [
-      "Do not invent the words spoken in the contention."
+      "Do not identify the departing man by a name absent from the supplied verse.",
+      "Do not invent preaching or debate dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_008",
-    "title": "The Missionaries Go to Middoni",
+    "title": "To the Land of Middoni",
     "refs": [
       "Alma 21:12"
     ],
-    "summary": "Seeing that the people would harden their hearts, the missionaries leave and go to Middoni. They preach to many there, but few believe.",
+    "summary": "They see that the people would harden their hearts, depart for the land of Middoni, and preach the word to many. Few believe what they teach.",
     "characters": [
-      "Aaron",
-      "Muloki",
-      "Ammah",
-      "Ammah's brethren",
-      "People in Middoni"
+      "Unnamed preachers",
+      "Unnamed people"
     ],
     "locations": [
-      "Ani-Anti",
-      "Middoni"
+      "Land of Middoni"
     ],
     "explicit_facts": [
       {
-        "text": "When they saw the people would harden their hearts, they departed and came to Middoni.",
+        "text": "They saw that the people would harden their hearts.",
         "refs": [
           "Alma 21:12"
         ]
       },
       {
-        "text": "They preached to many in Middoni, and few believed their words.",
+        "text": "They departed and came to the land of Middoni.",
+        "refs": [
+          "Alma 21:12"
+        ]
+      },
+      {
+        "text": "They preached the word to many, and few believed what they taught.",
         "refs": [
           "Alma 21:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The missionaries travel from Ani-Anti to Middoni and preach there."
+      "The departure and the preaching can be shown as successive moments.",
+      "The preaching may be shown before a group of listeners."
     ],
     "unspecified_visual_details": [
-      "The route and travel conditions.",
-      "The identity of the few who believed."
+      "The place they departed from and their route to Middoni.",
+      "The identities and appearances of the preachers, listeners, and few believers."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [
-      "The scene shows the move and their preaching in Middoni, not an invented specific speech."
+    "narration": [
+      {
+        "text": "And they did preach the word unto many, and few believed on the words which they taught.",
+        "refs": [
+          "Alma 21:12"
+        ]
+      }
     ],
-    "prohibited_inventions": [],
+    "doctrinal_or_story_notes": [
+      "The verse reports preaching but gives no words spoken by the preachers."
+    ],
+    "prohibited_inventions": [
+      "Do not name the preachers or their place of departure.",
+      "Do not invent a sermon or identify which listeners believed.",
+      "Do not depict hardened hearts as a literal visible event."
+    ],
     "importance": "normal"
   },
   {

@@ -253,79 +253,99 @@
       "Alma 20:11",
       "Alma 20:12"
     ],
-    "summary": "Lamoni explains to his father where he is going and why he had stayed in his own kingdom instead of attending the feast.",
+    "summary": "Lamoni tells his father where he is going and why he stayed in his own kingdom instead of going to the feast.",
     "characters": [
-      "King Lamoni",
-      "The king over all the land (Lamoni's father)"
+      "Lamoni",
+      "Lamoni's father"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Lamoni told his father where he was going because he feared to offend him.",
+        "text": "Lamoni told him where he was going because he feared to offend him.",
         "refs": [
           "Alma 20:11"
         ]
       },
       {
-        "text": "Lamoni told his father why he had stayed in his own kingdom instead of going to the feast.",
+        "text": "Lamoni told him why he stayed in his own kingdom and did not go to his father for the feast.",
         "refs": [
           "Alma 20:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamoni is speaking to his father during their meeting on the journey."
+      "Lamoni speaks to his father."
     ],
     "unspecified_visual_details": [
-      "Lamoni's exact words, since they are summarized rather than quoted; the setting's precise appearance."
+      "The setting's appearance",
+      "Lamoni's exact words"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Lamoni rehearsed unto him whither he was going, for he feared to offend him.",
+        "refs": [
+          "Alma 20:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses summarize Lamoni's explanation but do not supply his exact words; do not invent dialogue."
+      "The verses summarize Lamoni's explanation without quoting his words."
     ],
     "prohibited_inventions": [
-      "Do not add dialogue for Lamoni or portray the feast as a present event."
+      "Do not invent dialogue for Lamoni or depict the feast as happening in this scene."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_006",
-    "title": "The father becomes angry",
+    "title": "Lamoni's father becomes angry",
     "refs": [
       "Alma 20:13",
       "Alma 20:14"
     ],
-    "summary": "Lamoni's father becomes angry after hearing his explanation. He accuses Ammon and the Nephites of deception and commands Lamoni to kill Ammon and return with him to Ishmael, not Middoni.",
+    "summary": "After Lamoni rehearses these things, his father becomes angry and accuses the Nephites of intending to deceive and rob them. He commands Lamoni to slay Ammon with a sword and to return with him to Ishmael instead of going to Middoni.",
     "characters": [
-      "King Lamoni",
-      "The king over all the land (Lamoni's father)",
-      "Ammon (son of Mosiah)"
+      "Lamoni",
+      "Lamoni's father",
+      "Ammon (mentioned)"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location; Middoni and Ishmael are mentioned as destinations"
     ],
     "explicit_facts": [
       {
-        "text": "Lamoni's father became angry and accused the Nephites of being liars who sought to deceive and rob his people.",
+        "text": "Lamoni rehearsed these things to his father, whose anger astonished him.",
         "refs": [
           "Alma 20:13"
         ]
       },
       {
-        "text": "He commanded Lamoni to slay Ammon and to return with him to Ishmael rather than go to Middoni.",
+        "text": "Lamoni's father accused the Nephites of intending to deceive and rob them.",
+        "refs": [
+          "Alma 20:13"
+        ]
+      },
+      {
+        "text": "Lamoni's father commanded him to slay Ammon with a sword.",
+        "refs": [
+          "Alma 20:14"
+        ]
+      },
+      {
+        "text": "Lamoni's father commanded him not to go to Middoni but to return with him to Ishmael.",
         "refs": [
           "Alma 20:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon is present during the confrontation, as the father commands Lamoni to kill him."
+      "Lamoni's father may appear angry, and Lamoni may appear astonished."
     ],
     "unspecified_visual_details": [
-      "Whether the sword is drawn yet; the precise setting and characters' appearance."
+      "The precise setting, appearances, and whether Ammon or a sword is visible are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -333,13 +353,29 @@
         "refs": [
           "Alma 20:13"
         ],
-        "speaker": "The king over all the land (Lamoni's father)"
+        "speaker": "Lamoni's father"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "Now the father of Lamoni commanded him that he should slay Ammon with the sword.",
+        "refs": [
+          "Alma 20:14"
+        ]
+      },
+      {
+        "text": "And he also commanded him that he should not go to the land of Middoni, but that he should return with him to the land of Ishmael.",
+        "refs": [
+          "Alma 20:14"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The father's accusations are his claims, not independently established facts in these verses."
+    ],
     "prohibited_inventions": [
-      "Do not show Lamoni attacking Ammon; no such action occurs."
+      "Do not depict Lamoni attacking Ammon or assume Ammon is physically present.",
+      "Do not depict the alleged thefts as events in this scene."
     ],
     "importance": "normal"
   },

@@ -20,12 +20,19 @@
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene title names the Amalekite as challenging Aaron, consistent with Alma 21:5, but the spoken excerpts omit some of the Amalekite's questions. The summary accurately summarizes those questions.",
+        "Scene chronology is consistent with the supplied verses and preceding-scene value null."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene title calls the location a Jerusalem synagogue; Alma 21:2 and 21:4 establish Jerusalem and its synagogues, while verses 7–8 continue the exchange without restating the location. Its continuity is a reasonable inference.",
+        "The summary compresses the man's statements about Aaron's fathers and their own; his exact dialogue excerpts are contiguous source text and appropriately stop before the next clause.",
+        "The exchange follows scene_004 in the source chronology."
+      ]
     },
     "scene_006": {
       "status": "REJECT",

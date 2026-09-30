@@ -927,10 +927,10 @@
       "Alma 18:37",
       "Alma 18:38"
     ],
-    "summary": "Ammon begins at the creation of the world and Adam, recounting the fall, the records and scriptures through Lehi's departure from Jerusalem, the fathers' wilderness journey and sufferings, and the rebellions of Laman, Lemuel, and Ishmael's sons through the present time.",
+    "summary": "Ammon recounts the creation of the world and Adam, the fall of man, and the records and scriptures through Lehi's departure from Jerusalem. He recounts the fathers' wilderness journey and sufferings, the rebellions of Laman, Lemuel, and the sons of Ishmael, and the records and scriptures down to the present time.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "King Lamoni",
+      "Ammon",
+      "the king",
       "the king's servants"
     ],
     "locations": [
@@ -938,85 +938,116 @@
     ],
     "explicit_facts": [
       {
-        "text": "Ammon began at the creation of the world and Adam and told Lamoni about the fall of man and the records and scriptures down to Lehi's departure from Jerusalem.",
+        "text": "Ammon began with the creation of the world and Adam, told of the fall of man, and rehearsed records and scriptures through Lehi's departure from Jerusalem.",
         "refs": [
           "Alma 18:36"
         ]
       },
       {
-        "text": "Ammon recounted the fathers' wilderness journey and their sufferings with hunger and thirst and their travail.",
+        "text": "Ammon recounted the fathers' wilderness journey and sufferings with hunger and thirst to the king and his servants.",
         "refs": [
           "Alma 18:37"
         ]
       },
       {
-        "text": "Ammon recounted rebellions of Laman, Lemuel, and the sons of Ishmael, and expounded the records and scriptures down to the present time.",
+        "text": "Ammon recounted the rebellions of Laman, Lemuel, and the sons of Ishmael, and expounded records and scriptures down to the present time.",
         "refs": [
           "Alma 18:38"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon teaches Lamoni and the king's servants in the present setting."
+      "Ammon addresses the king and his servants."
     ],
     "unspecified_visual_details": [
-      "The physical format or appearance of the records and scriptures",
-      "The historical events being recounted are not necessarily visible in this scene"
+      "The setting and its appearance",
+      "The appearance or physical format of any records or scriptures"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he also rehearsed unto them (for it was unto the king and to his servants) all the journeyings of their fathers in the wilderness, and all their sufferings with hunger and thirst, and their travail, and so forth.",
+        "refs": [
+          "Alma 18:37"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Keep this as Ammon recounting history; do not depict the historical figures or events as present."
+      "The historical events are recounted, not narrated as occurring in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not insert Lehi, Laman, Lemuel, or the sons of Ishmael as visible participants in the conversation."
+      "Do not depict the recounted historical events as occurring in the present scene.",
+      "Do not give the king or servants names not supplied by these verses."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "Ammon teaches the plan of redemption",
+    "title": "The king believes",
     "refs": [
       "Alma 18:39",
       "Alma 18:40"
     ],
-    "summary": "Ammon explains the plan of redemption, the coming of Christ, and the works of the Lord. After Ammon has explained these things, Lamoni believes his words.",
+    "summary": "A speaker expounded the plan of redemption and made known the coming of Christ and the works of the Lord. After he expounded these things to the king, the king believed all his words.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "King Lamoni",
-      "the king's servants"
+      "The speaker, unnamed in the supplied verses",
+      "The king, unnamed in the supplied verses",
+      "Those addressed as “them,” whose identities are unspecified"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon expounded the plan of redemption, made known the coming of Christ, and made known the works of the Lord.",
+        "text": "The speaker expounded the plan of redemption, which was prepared from the foundation of the world.",
         "refs": [
           "Alma 18:39"
         ]
       },
       {
-        "text": "After Ammon had explained these things, Lamoni believed all his words.",
+        "text": "He made known the coming of Christ and the works of the Lord.",
+        "refs": [
+          "Alma 18:39"
+        ]
+      },
+      {
+        "text": "After he expounded these things to the king, the king believed all his words.",
         "refs": [
           "Alma 18:40"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon teaches while Lamoni and the servants listen."
+      "The speaker and the king are together while the speaker explains these things."
     ],
     "unspecified_visual_details": [
-      "The manner in which Ammon teaches",
-      "Any visual representation of Christ or the plan of redemption"
+      "The location and appearances of those present",
+      "The identities of those addressed as “them”",
+      "The speaker’s manner of teaching"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "he expounded unto them the plan of redemption, which was prepared from the foundation of the world;",
+        "refs": [
+          "Alma 18:39"
+        ]
+      },
+      {
+        "text": "the king believed all his words.",
+        "refs": [
+          "Alma 18:40"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The coming of Christ is taught about, not shown as a present visible event."
+      "The coming of Christ is taught about, not narrated as a visible appearance.",
+      "The supplied verses do not name the speaker or the king."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ appearing in the scene."
+      "Do not assign names to the speaker, king, or other listeners from context outside the supplied verses.",
+      "Do not depict Christ appearing or invent the words of the teaching.",
+      "Do not add a separate scene showing the king’s belief."
     ],
     "importance": "normal"
   },
@@ -1089,55 +1120,63 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "Lamoni is carried to his wife",
+    "title": "Carried to his wife",
     "refs": [
       "Alma 18:43"
     ],
-    "summary": "Lamoni's servants carry him to his wife and lay him on a bed. He lies as if dead for two days and two nights while his wife, sons, and daughters mourn and lament his loss.",
+    "summary": "His servants carry him in to his wife and lay him on a bed. He lies as if dead for two days and two nights. His wife, sons, and daughters mourn over him and greatly lament his loss.",
     "characters": [
-      "King Lamoni",
-      "the king's servants",
-      "the queen of Lamoni",
-      "Lamoni's sons",
-      "Lamoni's daughters"
+      "the man",
+      "his servants",
+      "his wife",
+      "his sons",
+      "his daughters"
     ],
     "locations": [
-      "Unspecified location"
+      "an unspecified place with a bed"
     ],
     "explicit_facts": [
       {
-        "text": "Lamoni's servants carried him to his wife and laid him on a bed.",
+        "text": "His servants carried him in to his wife and laid him on a bed.",
         "refs": [
           "Alma 18:43"
         ]
       },
       {
-        "text": "Lamoni lay as if dead for two days and two nights.",
+        "text": "He lay as if dead for two days and two nights.",
         "refs": [
           "Alma 18:43"
         ]
       },
       {
-        "text": "Lamoni's wife, sons, and daughters mourned and greatly lamented his loss.",
+        "text": "His wife, sons, and daughters mourned over him and greatly lamented his loss.",
         "refs": [
           "Alma 18:43"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The servants carry Lamoni to a bed where his family mourns."
+      "The family is near him while mourning over him."
     ],
     "unspecified_visual_details": [
-      "The family's appearance and number of sons and daughters",
+      "The family's appearance and the number of sons and daughters",
       "The room's design"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and he lay as if he were dead for the space of two days and two nights;",
+        "refs": [
+          "Alma 18:43"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse summarizes two days and two nights; avoid presenting the elapsed time as a single instantaneous event."
+      "The verse spans two days and two nights; do not present that duration as a single instant."
     ],
     "prohibited_inventions": [
-      "Do not add a cause of death or depict Lamoni as definitively dead; the verse says he lay as if dead."
+      "Do not name the man or his family from outside the supplied verse.",
+      "Do not depict him as definitively dead or invent a cause for his condition."
     ],
     "importance": "normal"
   }

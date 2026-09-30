@@ -208,6 +208,13 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
     w, h = (int(n) for n in aspect.split(":"))
     # Subjects of the heavenly figures in this panel: prohibitions about how they look give way to the conventions.
     subjects = tuple(s for name in panel.characters_visible if heavenly(name) for s in heavenly(name)[1])
+    # An angel's wings bleed onto everyone else in the frame; say who has them, and (angels being women) rule out
+    # winged men. Merged into the corrections so it sits near the front of the prompt.
+    mortals = [name for name in panel.characters_visible if not heavenly(name)]
+    if mortals and any((heavenly(name) or [None])[0] == "angel" for name in panel.characters_visible):
+        staging = {"add": ["Only the angel has wings and a glow; " + ", ".join(mortals) + " are ordinary earthly "
+                           "people"], "avoid": ["winged men", "wings on the other people"]}
+        corrections = {key: staging[key] + list((corrections or {}).get(key, [])) for key in ("add", "avoid")}
     references = []
     if corrections and (corrections.get("add") or corrections.get("avoid")):
         references.append(CORRECTIONS_HEADING + "\n" + json.dumps(
