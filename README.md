@@ -56,9 +56,30 @@ The implementation follows [Google's image generation documentation](https://ai.
 2. Place models: `flux1-dev-Q8_0.gguf` in `models/unet`, `t5-v1_1-xxl-encoder-Q8_0.gguf` and `clip_l.safetensors` in `models/clip`, and the Flux `ae.safetensors` in `models/vae`.
 3. Start ComfyUI, then run `bom-comic --run runs/my-run generate --local`.
 
-The recorded prompt is exactly the one Gemini would get. `diffusion_prompts()` in `comic.py` rewrites it deterministically for Flux. Every negated clause ("No lettering…", "never photoreal") moves into a negative prompt, because diffusion models tend to draw whatever a prompt names. Panel content comes first, because Flux weights early tokens most. A panel inference that asks for lettering or speech bubbles is dropped from the positive prompt, since the locked negative forbids them. Nothing is added. The positive/negative pair, seed and full workflow are saved under `api/`. The seed derives from the revision name, so each revision is reproducible and a regeneration differs.
+The recorded prompt is exactly the one Gemini would get. `diffusion_prompts()` in `comic.py` rewrites it deterministically into a picture for Flux, in this order, because Flux weights early tokens most:
+
+1. **Scene:** the first sentence of the scene summary plus its visual inferences, with hedges ("can be shown") removed. Later summary sentences (motives, reported speech) and the scripture facts stay in the approved prompt for review; they aren't drawable. Negated clauses are dropped, since naming a thing invites it.
+2. A reviewer's corrections, if the panel was flagged.
+3. **People**, each followed by their own look in parentheses, e.g. `Nephi (tall athletic young man…, deep blue wool mantle); Laman (…, dark ochre tunic…)`, so Flux can tell whose mantle is blue. When every visible person is a known individual, the line starts `Exactly four people:` and the negative prompt adds `crowd, extra people`.
+4. **Setting**, with the setting record's look; buildings only when the scene mentions a structure.
+5. Mood and camera, then the global style.
+
+The negative prompt is a fixed list of concrete things the renders drift into (lettering, watermarks, photoreal, modern clothing, backpacks, eyeglasses…), plus only the concrete parts of the scene's prohibitions and records ("weapons", "halo", "domes"). Rules written for a reader ("No events beyond the approved scene's cited verses") stay in the approved prompt but never reach the image model, and a prohibition that names a person is dropped, since negating a name suppresses the person. Prompts average about 125 words (they were about 310). The positive/negative pair, seed and full workflow are saved under `api/`. The seed derives from the revision name, so each revision is reproducible and a regeneration differs.
+
+Drawings made before this change stay current: prompts aren't part of any stamp, so only new and redrawn panels get the new prompt.
 
 Optional `.env` overrides: `COMFYUI_URL` (default `http://127.0.0.1:8188`), `COMFYUI_UNET`, `COMFYUI_T5`, `COMFYUI_STEPS` (24), `COMFYUI_CFG` (2.0) and `COMFYUI_GUIDANCE` (2.5). `cfg` above 1 is what makes Flux honor the negative prompt. At 1.0 the negative prompt is ignored and renders are about twice as fast, but modern objects crept in during testing. Expect about 3 minutes per panel on a 12GB card at the defaults. Flux.1 [dev] weights are under a non-commercial license.
+
+### Comparing settings (e.g. a smaller model)
+
+Q8 Flux (about 12.7 GB) doesn't fit in 12 GB of VRAM, so ComfyUI swaps part of it to system RAM on every step. The Q5_K_S GGUF (`flux1-dev-Q5_K_S.gguf`, about 8.3 GB, from the same place as the Q8 file) fits, and at comic page size should be hard to tell apart. Try it on panels you already have before switching:
+
+```sh
+python -m bom_comic.compare --run runs/book/1-nephi/004 --panels panel_003 panel_007 panel_013 \
+    --variant q8 --variant q5:unet=flux1-dev-Q5_K_S.gguf
+```
+
+Each variant renders every listed panel from the same prompt and the same seed, so only the setting differs (keys: `unet`, `t5`, `steps`, `cfg`, `guidance`). The result, in `runs/compare/<time>/`, is `sheet.png`, one row per panel at its size on the page with the panel's current drawing first, and `timings.json` with each variant's median seconds per panel (the first render of each variant, which loads the model, is left out). `--prompts-only` prints the prompts ComfyUI would get without rendering. If Q5 looks the same, set `COMFYUI_UNET=flux1-dev-Q5_K_S.gguf` in `.env`. Test one change at a time: `cfg=1` roughly halves the time but ignores the negative prompt.
 
 ## Run a small portion first
 
@@ -162,6 +183,17 @@ Each run has editable `continuity/characters.json`, `locations.json`, and `visua
 ```
 
 Only add facts with supporting verse references, for example `{ "text": "...", "refs": ["3 Nephi 11:1"] }`. Exact faces, costume details, and architecture belong in design choices, never facts. Do not create named crowd members. Style defaults are reverent, cinematic, realistic, and restrained. Global negative constraints exclude modern details, invented events, gratuitous gore, later chapters, and divine figures. Text continuity improves guidance but cannot guarantee identical designs between images; review and regeneration remain necessary.
+
+### The book's cast and settings
+
+Scenes are written chapter by chapter with free-text labels, so most don't match a character record by name ("Alma" alone appears in 151 scenes), and the same name means different people in different books. `portraits/book-of-mormon/cast.json` resolves them when an image prompt is built:
+
+- **tags:** each record's look in a few words, placed beside the person's name in the Flux prompt.
+- **aliases:** labels mapped to record names, optionally within a chapter range, checked before exact names. A bare "Nephi" is Nephi son of Lehi in 1 Nephi, the older Nephi from 2 Nephi 5, Nephi son of Helaman in Helaman; "Nephi's brethren" in 1 Nephi is Laman, Lemuel and Sam; "the people" in Alma 17–26 are Lamanites. **patterns** do the same with a regular expression, and **fallbacks** (tried after exact names) dress generic crowds in their era's clothing.
+- **records:** crowd costume records with no portrait (Jerusalem townspeople, Nephite people, Lamanite people).
+- **places:** keywords that map a location label to a setting record in `locations.json`, and the era region for each range of chapters. A scene whose place is unspecified continues the previous scene's setting, else the next one's, else the era's region; dream and vision chapters (1 Nephi 8, 11–14) get no region. A specific place without a record keeps its label and gains its era's region, so its architecture fits the time.
+
+Resolution only changes the prompt: scenes, approvals, stamps and existing drawings are untouched. A label's own continuity record still wins over the library. `python -m bom_comic.cast` reports coverage for the written book (every visible person drawn from a record: 38% of scenes by exact name, 75% after resolution; a setting record for 96% of scenes, where 68% had none) and lists the commonest labels that still don't resolve. The nightly job, redraws and the CLI (`--library`, default `portraits/book-of-mormon`; `--library none` for exact labels only) all use it. Everything in these files is design, not scripture, and is yours to edit.
 
 ### Reference portraits
 

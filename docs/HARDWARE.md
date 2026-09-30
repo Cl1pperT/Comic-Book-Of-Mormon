@@ -36,7 +36,9 @@ performs on it, so render-time estimates can be read against the machine that pr
 Notes:
 
 - **VRAM:** the Q8 Flux model doesn't fit entirely in 12 GB; ComfyUI keeps about 7.5 GB on the GPU and offloads about
-  4.8 GB to system RAM, which is why 32 GB of RAM matters.
+  4.8 GB to system RAM, which is why 32 GB of RAM matters. The Q5_K_S GGUF (about 8.3 GB) fits; compare it against Q8
+  on real panels with `python -m bom_comic.compare` (see "Comparing settings" in the README) before switching, and
+  record its time per panel here.
 - **Heat:** under sustained rendering the GPU runs around 85 °C with the fan near 75% and throttles its clock
   slightly (about 1,780 of 2,100 MHz). Lowering the power limit to ~135 W would cool it by several degrees for a
   small speed cost.

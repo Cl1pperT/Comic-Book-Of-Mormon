@@ -1,15 +1,21 @@
 import argparse
 import json
+from pathlib import Path
 from .config import Config
 from .errors import ProviderError
 from .storage import Store
 from .pipeline import Pipeline, character_bible
 from .providers import ComfyUI, Gemini, Ollama, PlaceholderImages
 
+DEFAULT_LIBRARY = "portraits/book-of-mormon"
+
 
 def main():
     parser = argparse.ArgumentParser(description="Source-grounded, human-reviewed scripture comic pipeline")
     parser.add_argument("--run", default="runs/prototype", help="Artifact directory")
+    parser.add_argument("--library", default=DEFAULT_LIBRARY,
+                        help="Character library whose cast.json resolves scene labels in image prompts "
+                             f"(default {DEFAULT_LIBRARY} when present; 'none' to use exact labels only)")
     commands = parser.add_subparsers(dest="command", required=True)
     init = commands.add_parser("init")
     init.add_argument("source")
@@ -100,7 +106,8 @@ def main():
                 provider = Gemini(Config.load(), store)
         if provider is not None:
             provider.reuse_responses = getattr(args, "resume", False)
-        pipeline = Pipeline(store, provider)
+        library = None if args.library in (None, "", "none") or not Path(args.library, "cast.json").exists() else args.library
+        pipeline = Pipeline(store, provider, library)
         if args.command == "bible":
             for name in character_bible(store, provider, args.id):
                 print(f"{name}: {store.path(store.read('index.json')[name]['path'])}")
@@ -131,11 +138,10 @@ def main():
                     if args.kind == "image":
                         print(store.path(pipeline.image_record(panel, aspects)["path"]))
                     else:
-                        from .comic import build_prompt
                         portraits = pipeline.panel_portraits(panel)
                         for name, entry in portraits.items():
                             print(f"Reference portrait for {name}: {store.path(entry['path'])}")
-                        print(build_prompt(panel, pipeline.continuity(), aspects[panel.panel_id], list(portraits)))
+                        print(pipeline.prompt_for(panel, aspects[panel.panel_id], portraits))
         elif args.command == "portraits" and args.adopt:
             for name in pipeline.adopt_portraits(args.adopt):
                 print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])} (adopted)")

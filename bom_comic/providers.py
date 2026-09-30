@@ -265,7 +265,9 @@ class ComfyUI:
             "save": {"class_type": "SaveImage", "inputs": {"images": ["decode", 0], "filename_prefix": "bom_comic/panel"}},
         }
 
-    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None):
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None):
+        """seed: fixed by the caller to compare settings on the same drawing (see compare.py); otherwise derived
+        from the revision name, so each revision is reproducible and a regeneration differs."""
         import io
         import time
         from urllib.parse import urlencode
@@ -273,8 +275,8 @@ class ComfyUI:
         stem = Path(output_path).stem
         positive, negative = diffusion_prompts(prompt)
         width, height = render_size(aspect_ratio or "1:1")
-        # Seeded from the revision name: reproducible per revision, different on regeneration.
-        seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
+        if seed is None:
+            seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]
         edit = None
         if references:

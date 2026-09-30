@@ -810,7 +810,8 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
         "prohibited": ["Do not invent wings or a halo for the angel", "No weapons"]})
     positive, negative = diffusion_prompts(build_prompt(angel, continuity, "4:3"))
     assert "a woman of about thirty with a serene oval face" in positive and "feathered white wings" in positive
-    assert "Every angel has this same face" in positive  # one shared identity keeps angels consistent
+    # Her look sits right after her name, so it can't bleed onto the mortal beside her.
+    assert "The angel who appeared to Alma (A heavenly messenger: a woman of about thirty" in positive
     assert "invented wings" not in negative and "invent wings" not in negative and "halo" not in negative
     assert "weapons" in negative
     # People sharing a panel with an angel don't get her wings.
@@ -827,9 +828,11 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
         "prohibited": ["A visible bodily form of God, as no physical appearance is described"]})
     positive, negative = diffusion_prompts(build_prompt(god, continuity, "4:3"))
     assert "person made entirely of brilliant white light" in positive and "bodily form" not in negative
-    # When God isn't in the panel, the same prohibition stays: he's only drawn where the scene shows him.
+    # When God isn't in the panel the prohibition stays in the approved prompt, but it is a rule for the reader
+    # ("as no physical appearance is described"), not a thing an image model can steer away from.
     voice = god.model_copy(update={"characters_visible": ["Lehi"]})
-    assert "bodily form of God" in diffusion_prompts(build_prompt(voice, continuity, "4:3"))[1]
+    assert "bodily form of God" in build_prompt(voice, continuity, "4:3")
+    assert "bodily form" not in diffusion_prompts(build_prompt(voice, continuity, "4:3"))[1]
     spirit = make_panel(3).model_copy(update={"characters_visible": ["The Spirit", "Nephi"]})
     assert "column of soft, radiant white light" in diffusion_prompts(build_prompt(spirit, continuity, "4:3"))[0]
 
@@ -969,9 +972,11 @@ def test_diffusion_prompts_move_negations_to_negative(pipeline):
     panel = pipeline.panels()[0]
     positive, negative = diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3"))
     assert panel.action in positive
-    assert "lettering, captions, logos, or speech bubbles in the image" in negative
+    assert "lettering, captions, speech bubbles" in negative and "watermark" in negative
     assert "photoreal, a photograph or film still" in negative
     assert "European or Asian" in negative
+    # The approved prompt's rules for a reader stay out of the image model's negative prompt.
+    assert "events beyond" not in negative and "identities or numbers" not in negative
     assert not any(word in positive for word in ("No ", "Never ", "never ", "Visualize only"))
     assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3")) == (positive, negative)
 

@@ -15,7 +15,7 @@ from .storage import Store
 
 REPAIR_ROUNDS = 2
 LIBRARY = Path("portraits/book-of-mormon")
-LOCATIONS = Path("runs/1-nephi-1-4/continuity/locations.json")
+LOCATIONS = LIBRARY / "locations.json"
 # Measured on 1 Nephi 4: the small model writes well at low effort in one call per chapter; auditing needs medium,
 # where low effort flip-flopped between false rejects and passes.
 # Rewrites of rejected scenes go to the mid-size model: they're the hard cases, and few enough to afford it.

@@ -75,9 +75,10 @@ def corrections(text_provider, panel, note):
     return {"add": add, "avoid": avoid}
 
 
-def redraw(store, panel_id, flag, image_provider, text_provider=None):
-    """Redraw one flagged panel and reassemble its chapter; returns the history entry."""
-    pipeline = Pipeline(store, image_provider)
+def redraw(store, panel_id, flag, image_provider, text_provider=None, library=None):
+    """Redraw one flagged panel and reassemble its chapter; returns the history entry. library: the character
+    library whose cast resolves the panel's people and places in the new prompt (see cast.py)."""
+    pipeline = Pipeline(store, image_provider, library)
     panel = next(p for p in pipeline.panels() if p.panel_id == panel_id)
     fixes = flag.get("corrections") or corrections(text_provider, panel, flag["note"])
     pipeline.generate(panel_id, references=False, corrections={panel_id: fixes})

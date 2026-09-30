@@ -101,7 +101,7 @@ def state(book_name, chapter, new_only=False):
 def render_chapter(book_name, chapter, deadline, provider_for):
     """Approve (automated), plan, and render one chapter; returns True when it is fully rendered and assembled."""
     store = Store(book.folder(ROOT, book_name, chapter))
-    pipeline = Pipeline(store, provider_for(store))
+    pipeline = Pipeline(store, provider_for(store), library=LIBRARY)
     report = pipeline.validation()
     reviews = pipeline.approvals()
     for scene in pipeline.scenes():
@@ -229,11 +229,11 @@ def run(until, write=True, render=True, new_only=False):
                         pass  # no Codex: the note is split into instructions without a model
                     try:
                         try:
-                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), text)
+                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), text, LIBRARY)
                         except ProviderError as exc:
                             if text is None or "ComfyUI" in str(exc):
                                 raise
-                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), None)
+                            entry = redraw.redraw(store, panel_id, flag, comfy_provider(store), None, LIBRARY)
                     except (ValueError, ProviderError) as exc:
                         failed_redraws.add((store.root, panel_id))
                         log(f"Redraw of {store.root.name} {panel_id} failed: {exc}")

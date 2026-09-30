@@ -1,0 +1,1445 @@
+{
+  "about": "How scene labels map to this library's records when an image prompt is built (bom_comic/cast.py). tags: each record's look in a few words, placed right after the person's name in the prompt. records: crowd costume records with no portrait. aliases: labels (compared ignoring case, curly quotes and a leading 'the') -> record name or list of names, first match wins, optional from/to chapter range. patterns: the same with a regular expression. fallbacks: patterns tried only after exact record names, for labels nothing else names (generic crowds, minor people of a culture). places: keyword regexes -> setting record ('__region__' = the era's region, '__none__' = not a place to draw), and the era region used when a scene's place is unspecified. Everything here is design, not scripture.",
+  "tags": {
+    "Lehi": "man about sixty, long grey-streaked beard, grey hair under a simple head covering, cream robe, brown striped mantle, wooden walking staff",
+    "Sariah": "elderly woman about sixty-five, lined face, grey-white hair, cream linen veil, madder-red wool dress",
+    "Laman": "tall broad man in his late twenties, thick black beard, heavy brow, dark ochre tunic, fringed charcoal-brown mantle",
+    "Lemuel": "lean man in his mid twenties, short black beard, narrow face, olive-green tunic, tan mantle",
+    "Sam": "young man about twenty, light beard, curly dark-brown hair, cream tunic, sky-blue sash, light brown mantle",
+    "Nephi": "tall athletic young man about 23, short dark beard, shoulder-length dark-brown hair, cream linen tunic, deep blue wool mantle",
+    "Laban": "heavy-set man in his forties, oiled black beard, gold headband, purple-and-crimson robe, bronze scale armor, gold-hilted sword",
+    "Zoram": "clean-shaven young servant, short black hair, plain grey-brown tunic, ring of bronze keys at his waist",
+    "Ishmael": "old man, long white beard, bald crown, faded indigo robe, cream tasselled mantle, walking staff",
+    "The brother of Jared": "massive man in his forties, long black ringleted beard, tan-and-rust fringed wool wrap over one shoulder",
+    "Nephite settlers (2 Nephi)": "early settlers in homespun cream and earth-tone tunics and simple mantles, the women in linen head coverings",
+    "Lamanite warriors (Enos to Alma era)": "shaven-headed warriors with red ochre forehead marks, short animal-skin loin girdles, bare torsos, bows, slings and curved cimeters",
+    "People of Zarahemla (Mulekites)": "rough people in faded, much-mended green and brown garments, crude bronze ornaments, spears",
+    "King Noah's priests": "well-fed court priests in layered crimson, saffron and deep green robes, heavy gold collars and rings",
+    "Amlicites": "dissenters in quilted cotton armor with a red ochre mark on the forehead, hair tied back",
+    "Anti-Nephi-Lehies (people of Ammon)": "peaceful Lamanite families in clean soft blue and white cotton wraps, shell ornaments, unarmed",
+    "Zoramites": "proud wealthy people in richly dyed robes, hair in ringlets, gold bracelets and rings",
+    "Nephite armies of Moroni": "Nephite soldiers in thick quilted cotton armor, leather breastplates, round wooden arm-shields, padded cotton caps, swords and spears",
+    "Stripling warriors": "young men about twenty in quilted cotton armor with soft blue and white accents, round wooden arm-shields",
+    "Gadianton robbers": "shaven-headed bandits with hide head-plates, lamb-skins about the loins, bare torsos, rust-red dye streaks",
+    "Jaredites (in the promised land)": "ancient people in heavy ochre, black and deep red garments with bold geometric borders, obsidian ornaments, long braids",
+    "Jacob (son of Lehi)": "lean man about 28, neat short dark beard, white priest's robe, blue-bordered mantle, small bound record",
+    "Joseph (son of Lehi)": "sturdy man about 25, full curly dark beard, curly hair, white robe, green-bordered mantle",
+    "Nephi (older, land of Nephi)": "tall strong man in his fifties, full grey-streaked beard, cream tunic, deep blue mantle, gold-hilted sword",
+    "Lamanites (2 Nephi era)": "wilderness hunters in ragged garments patched with animal hides, long unkempt hair and beards, bows and spears",
+    "Jacob (old)": "frail old man in his seventies, long white beard, faded white robe, blue-bordered mantle, leaning on a staff",
+    "Enos (young, son of Jacob)": "strong young man, short dark beard, hair tied back, cream tunic, brown hunter's mantle, knife at his belt",
+    "Sherem": "polished man about forty, trimmed beard, oiled hair, charming smile, deep ochre robe with a patterned border",
+    "Second Nephi (king)": "dignified king in his forties, full dark beard, plain gold band, white robe, deep blue mantle",
+    "Proud Nephites (Jacob era)": "haughty wealthy men and women in purple, crimson and gold robes with heavy gold jewelry, chins raised",
+    "Enos (old)": "old outdoorsman in his seventies, short white beard, brown hunter's mantle over a cream tunic, bow on his shoulder",
+    "Jarom": "steady man in his forties, short dark beard, cropped hair, undyed tunic with a blue border, leather satchel",
+    "Omni": "hard soldier in his forties, coarse dark beard, quilted cotton armor, sword at his hip",
+    "Amaron": "thoughtful man in his thirties, neat beard, cream tunic, grey-blue mantle",
+    "Chemish": "quiet clean-shaven man in his thirties, short dark hair, undyed tunic with a woven sash",
+    "Abinadom": "battle-hardened man in his fifties, grey-shot beard, broken nose, quilted cotton armor, wooden shield",
+    "Amaleki": "gentle old man in his seventies, thin white beard, bald crown, plain white robe, plates wrapped in cloth",
+    "Mosiah I (king)": "king in his fifties, grey-streaked beard, plain gold band, white robe, deep blue mantle",
+    "Zarahemla (leader)": "rugged chieftain in his sixties, long grey beard in a single braid, faded green mantle, spear",
+    "King Benjamin": "aged king in his seventies, long white beard, plain gold band, simple white robe, blue mantle",
+    "Mosiah II (king)": "sturdy king in his forties, full dark beard, plain gold band, white robe, deep blue mantle",
+    "Zeniff": "lean intense leader in his forties, close dark beard, hair tied back, quilted vest, traveler's mantle",
+    "King Laman (Lamanite king)": "heavy-set Lamanite king in his fifties, black topknot, jaguar-pelt mantle, jade ear spools, quetzal-feather crest",
+    "King Noah": "heavy indulgent king in his forties, oiled curled beard, crimson and gold robes, tall gold crown set with jade",
+    "Abinadi": "gaunt prophet in his fifties, wild grey-black beard, long unkempt hair, rough frayed undyed robe",
+    "Alma the Elder": "earnest man with a short dark beard, dark hair to the collar, plain white robe, simple blue mantle",
+    "Amulon": "sly former priest in his forties, thin pointed beard, oiled hair, threadbare saffron robe, gold collar",
+    "Gideon": "broad scarred soldier in his thirties, short dark beard, quilted cotton armor, wooden arm-shield, heavy sword",
+    "Gideon (old)": "broad old man in his seventies, white beard, fierce eyes, plain white robe, staff",
+    "King Limhi": "sober young king in his thirties, short beard, plain band, modest robe, faded red mantle",
+    "Ammon (explorer, Mosiah 7)": "powerful explorer in his thirties, thick brown-black beard, curly hair bound with a cord, travel-stained ochre tunic, spear",
+    "Daughters of the Lamanites (Shemlon)": "young women in modest bright red, yellow and turquoise woven dresses, flowers in long black hair",
+    "Alma the Younger (rebel)": "handsome cocky youth about twenty, light beard, long loose dark hair, crimson patterned tunic, gold armband",
+    "Alma the Younger (high priest)": "humble man in his forties, greying dark beard, plain white robe, simple blue mantle, walking staff",
+    "Ammon (son of Mosiah)": "lean strong man in his early thirties, short dark beard, hair tied back, undyed tunic, deep blue shoulder mantle, sling at his belt",
+    "Aaron (son of Mosiah)": "scholarly man in his thirties, neat short beard, hair tied back, undyed tunic, rust-red traveler's mantle",
+    "Omner (son of Mosiah)": "stocky cheerful man in his late twenties, round face, short beard, undyed tunic, olive-green mantle",
+    "Himni (son of Mosiah)": "tall slender young man, light beard, long hair tied back, undyed tunic, grey mantle",
+    "Nehor": "huge charismatic man in his forties, thick trimmed beard, oiled hair, costly purple and gold robes, gold chains",
+    "Amlici": "sharp-featured man in his forties, close beard, red ochre forehead mark, quilted armor under a red mantle, gold band",
+    "Amulek": "warm-eyed man in his forties, well-kept beard, fine blue cotton robe with an embroidered border",
+    "Zeezrom": "slick lawyer in his forties, sharply trimmed beard, slicked hair, grey-and-gold robe, silver ring",
+    "Antionah": "stern chief ruler in his fifties, heavy grey beard, dark red robe with gold trim, gold chain of office",
+    "King Lamoni": "broad clean-shaven Lamanite king in his forties, long black hair, crimson-and-gold cape, quetzal-feather crest in a gold headband",
+    "The queen of Lamoni": "dignified Lamanite queen in her late thirties, black hair braided with jade beads, white huipil with crimson and turquoise embroidery",
+    "Abish": "bright-eyed Lamanite servant woman, single thick black braid, plain undyed huipil with a narrow blue border",
+    "The king over all the land (Lamoni's father)": "aged Lamanite high king, long grey hair, hooked nose, jaguar-pelt cape, towering quetzal-feather headdress",
+    "Anti-Nephi-Lehi (king)": "serene clean-shaven Lamanite king in his forties, long black hair, white robe with soft blue borders, unarmed",
+    "Korihor": "sneering orator in his forties, pointed beard, sleek hair, ochre robe with a patterned border",
+    "Zoram (Zoramite leader)": "haughty man in his fifties, grey ringlets, sharp beard, costly purple robe, gold bracelets, tall gold circlet",
+    "Shiblon": "steady man in his late twenties, short beard, plain white robe, grey mantle",
+    "Corianton": "handsome restless young man, light beard, long loose hair, bright teal tunic, gold armband",
+    "Helaman (son of Alma)": "resolute commander in his forties, greying beard, hair tied back, white robe over quilted cotton armor, sword",
+    "Captain Moroni": "powerful young commander about twenty-five, short dark beard, quilted armor, leather breastplate, round arm-shield, deep red cloak",
+    "Zerahemnah": "fierce Lamanite war-chief, shaven head, red forehead mark, heavy scars, bare torso, skin girdle, curved cimeter",
+    "Lehi (Nephite commander)": "commander in his forties, close grey-shot beard, cropped hair, quilted armor, dark blue cloak",
+    "Amalickiah": "towering handsome man in his forties, sculpted beard, oiled hair, rich black-and-gold robes",
+    "Lehonti": "proud Lamanite commander in his thirties, long hair tied up, skin cloak, spear, red forehead mark",
+    "Ammoron": "heavy angry man in his forties, square beard, jaguar-pelt cape over black robes, gold crown",
+    "Teancum": "lean daring commander in his thirties, short beard, hair bound tight, dark quilted armor, javelin",
+    "Pahoran (chief judge)": "calm chief judge in his fifties, grey beard, white robe of office, blue sash",
+    "Pachus": "arrogant usurper in his forties, sharp beard, gaudy gold-trimmed robe, crown",
+    "Jacob (Zoramite commander)": "stubborn commander in his forties, gold ringlets in his hair, heavy jaw, quilted armor with gold bracelets",
+    "Pahoran (son of Pahoran)": "young chief judge in his thirties, short beard, white robe of office, blue sash",
+    "Paanchi": "angry clean-shaven young noble, scowling, fine red robe with gold trim",
+    "Pacumeni": "composed young noble, neat beard, white robe, blue sash",
+    "Kishkumen": "gaunt conspirator in his thirties, face half-hidden by the hood of a dark grey mantle",
+    "Gadianton": "sleek-bearded conspirator in his forties, hooded eyes, black mantle over a fine robe",
+    "Coriantumr (Nephite dissenter)": "huge man in his forties, thick beard, heavy brow, hide and quilted armor, great war-club",
+    "Moronihah": "commander in his thirties, short beard, quilted cotton armor, deep red cloak",
+    "Helaman (son of Helaman)": "just chief judge in his forties, greying beard, white robe of office, blue sash",
+    "Nephi (son of Helaman)": "tall lean prophet in his forties, dark beard, deep-set eyes, plain white robe, grey mantle",
+    "Lehi (son of Helaman)": "sturdy quiet man in his thirties, short beard, plain white robe, brown mantle",
+    "Aminadab": "man in his forties, tangled beard, worn tunic mixed with Lamanite hide",
+    "Seantum": "sly man in his forties, thin beard, shifting eyes, fine cotton robe",
+    "Samuel the Lamanite": "bold clean-shaven Lamanite prophet in his forties, long black hair tied back, plain white tunic, red woven sash",
+    "Lachoneus": "governor in his fifties, grey beard, white robe of office, blue mantle",
+    "Gidgiddoni": "prophet-commander in his forties, dark beard, quilted armor under a white mantle",
+    "Giddianhi": "robber chief, shaven head with a hide head-plate, rust-red dye streaks, lamb-skin about the loins, gold chain",
+    "Zemnarihah": "broad robber chief in his thirties, shaven head with a hide head-plate, rust-red dye streaks, lamb-skin about the loins",
+    "Nephi (disciple, son of Nephi)": "serene strong prophet in his forties, dark beard, plain white robe",
+    "Timothy": "gentle man in his thirties, short beard, plain white robe",
+    "Jacob (king of a tribe)": "scheming tribal king in his forties, thick beard, dark robe, gold band, sword",
+    "The twelve Nephite disciples": "Nephite men of varied ages and faces, all in plain white cotton robes",
+    "Ammaron": "frail old record-keeper, white beard, plain white robe",
+    "Mormon (young)": "towering sixteen-year-old commander, first beard, hair tied back, quilted armor, dark cloak",
+    "Mormon (old)": "massive weary man in his seventies, white beard, worn quilted armor, faded dark cloak, carrying plates",
+    "Moroni (son of Mormon)": "lean solitary man in his forties, greying beard, travel-worn tunic, hide cloak, carrying the plates",
+    "Aaron (Lamanite king)": "Lamanite war-king in his forties, scarred face, jaguar pelt, quetzal crest, war-club",
+    "Jared": "stocky man in his fifties, long black ringleted beard, tan-and-indigo fringed wool wrap",
+    "Orihah": "Jaredite king in his thirties, braided beard, heavy ochre, black and deep red garments with geometric borders",
+    "Kib": "aging Jaredite king in his sixties, grey braided beard, heavy ochre, black and deep red garments",
+    "Corihor (Jaredite)": "ambitious Jaredite prince in his thirties, short braided beard, heavy ochre, black and deep red garments",
+    "Shule": "massive Jaredite king in his forties, thick black braided beard, heavy ochre, black and deep red garments",
+    "Omer": "troubled Jaredite king in his fifties, greying braided beard, heavy ochre, black and deep red garments",
+    "Jared (son of Omer)": "scheming Jaredite prince in his thirties, sleek braided beard, heavy ochre, black and deep red garments",
+    "The daughter of Jared": "Jaredite princess in her late teens, long black hair braided with gold, deep red and black woven dress",
+    "Akish": "ruthless Jaredite noble in his thirties, trimmed black beard, heavy ochre, black and deep red garments",
+    "Emer": "righteous Jaredite king in his fifties, grey braided beard, heavy ochre, black and deep red garments",
+    "Riplakish": "decadent Jaredite king in his forties, oiled braided beard, heavy rings, ochre, black and deep red garments",
+    "Lib (the hunter)": "vigorous Jaredite king in his forties, braided beard, spear, heavy ochre, black and deep red garments",
+    "Ether": "wild old prophet in his sixties, long white beard, ragged garments, hide cloak",
+    "Coriantumr (Jaredite king)": "huge battle-worn Jaredite king in his fifties, grizzled braided beard, scarred face, ochre, black and deep red garments",
+    "Shiz": "relentless Jaredite war-leader in his forties, black braided beard, ochre, black and deep red garments",
+    "Nephi's wife": "young woman about twenty, long dark-brown braid, cream wool dress, sky-blue head covering",
+    "Ishmael's wife": "older woman about fifty-five, lined face, mostly grey hair, deep-green head veil and dress",
+    "The daughters of Ishmael": "young women in muted red, ochre, olive and cream wool dresses with linen head coverings, each a different face",
+    "The queen of Lamoni's father": "regal Lamanite queen in her fifties, grey-streaked hair coiled high, deep-blue huipil with gold and jade",
+    "The queen of the Lamanites": "proud Lamanite queen about thirty-five, long loose black hair, gold band, black and crimson huipil",
+    "Coriantum's wife": "very old frail Jaredite queen, thin white hair braided with stone beads, heavy ochre, black and deep red garments",
+    "Coriantum's young wife": "young Jaredite woman about twenty, long black hair braided with gold, ochre, black and deep red garments",
+    "Jerusalem townspeople": "Judean men and women of varied ages in wool tunics and mantles of undyed cream, brown, madder red and indigo, head coverings",
+    "Nephite people": "Nephite men, women and children of varied ages in plain cotton tunics and mantles of undyed cream, indigo and earth tones",
+    "Lamanite people": "Lamanite men, women and children of varied ages, long black hair, simple cotton wraps and loincloths, hide mantles, shell ornaments"
+  },
+  "records": {
+    "Jerusalem townspeople": {
+      "group": true,
+      "reference_portrait": false,
+      "scriptural_facts": [],
+      "visual_design_choices": [
+        "Judean townspeople around 600 BC: men and women of varied ages and faces in wool tunics and mantles of undyed cream, brown, madder red and indigo, head coverings, sandals."
+      ],
+      "locked_traits": [
+        "Every face different; never copies of a named character."
+      ]
+    },
+    "Nephite people": {
+      "group": true,
+      "reference_portrait": false,
+      "scriptural_facts": [],
+      "visual_design_choices": [
+        "Nephite men, women and children of varied ages and faces in plain cotton tunics and mantles of undyed cream, indigo and earth tones, sandals; Mesoamerican-inspired New World dress."
+      ],
+      "locked_traits": [
+        "Every face different; never copies of a named character."
+      ]
+    },
+    "Lamanite people": {
+      "group": true,
+      "reference_portrait": false,
+      "scriptural_facts": [],
+      "visual_design_choices": [
+        "Lamanite men, women and children of varied ages and faces, long black hair, simple cotton wraps and loincloths, hide mantles, shell and bead ornaments; Mesoamerican-inspired New World dress."
+      ],
+      "locked_traits": [
+        "Every face different; never copies of a named character."
+      ]
+    }
+  },
+  "aliases": [
+    {
+      "labels": [
+        "the narrator",
+        "narrator",
+        "unnamed first-person narrator",
+        "first-person narrator",
+        "the first-person speaker",
+        "first-person speaker"
+      ],
+      "from": "1 Nephi 8",
+      "to": "1 Nephi 8",
+      "name": "Lehi"
+    },
+    {
+      "labels": [
+        "Nephi"
+      ],
+      "from": "1 Nephi 1",
+      "to": "2 Nephi 4",
+      "name": "Nephi"
+    },
+    {
+      "labels": [
+        "Nephi"
+      ],
+      "from": "2 Nephi 5",
+      "to": "Jacob 1",
+      "name": "Nephi (older, land of Nephi)"
+    },
+    {
+      "labels": [
+        "Nephi"
+      ],
+      "from": "Helaman 1",
+      "to": "Helaman 16",
+      "name": "Nephi (son of Helaman)"
+    },
+    {
+      "labels": [
+        "Nephi"
+      ],
+      "from": "3 Nephi 1",
+      "to": "4 Nephi 1",
+      "name": "Nephi (disciple, son of Nephi)"
+    },
+    {
+      "labels": [
+        "Lehi",
+        "the narrator's father",
+        "my father",
+        "Nephi's father"
+      ],
+      "from": "1 Nephi 1",
+      "to": "2 Nephi 4",
+      "name": "Lehi"
+    },
+    {
+      "labels": [
+        "Lehi"
+      ],
+      "from": "Alma 43",
+      "to": "Alma 62",
+      "name": "Lehi (Nephite commander)"
+    },
+    {
+      "labels": [
+        "Lehi"
+      ],
+      "from": "Helaman 1",
+      "to": "Helaman 16",
+      "name": "Lehi (son of Helaman)"
+    },
+    {
+      "labels": [
+        "Jacob"
+      ],
+      "from": "1 Nephi 18",
+      "to": "Jacob 6",
+      "name": "Jacob (son of Lehi)"
+    },
+    {
+      "labels": [
+        "Jacob"
+      ],
+      "from": "Jacob 7",
+      "to": "Enos 1",
+      "name": "Jacob (old)"
+    },
+    {
+      "labels": [
+        "Jacob"
+      ],
+      "from": "Alma 52",
+      "to": "Alma 52",
+      "name": "Jacob (Zoramite commander)"
+    },
+    {
+      "labels": [
+        "Jacob"
+      ],
+      "from": "3 Nephi 6",
+      "to": "3 Nephi 7",
+      "name": "Jacob (king of a tribe)"
+    },
+    {
+      "labels": [
+        "Joseph"
+      ],
+      "from": "1 Nephi 18",
+      "to": "2 Nephi 5",
+      "name": "Joseph (son of Lehi)"
+    },
+    {
+      "labels": [
+        "Enos"
+      ],
+      "from": "Jacob 7",
+      "to": "Jacob 7",
+      "name": "Enos (young, son of Jacob)"
+    },
+    {
+      "labels": [
+        "Enos"
+      ],
+      "from": "Enos 1",
+      "to": "Enos 1",
+      "name": "Enos (old)"
+    },
+    {
+      "labels": [
+        "Zoram",
+        "the servant of Laban",
+        "servant of Laban",
+        "Laban's servant"
+      ],
+      "from": "1 Nephi 4",
+      "to": "2 Nephi 5",
+      "name": "Zoram"
+    },
+    {
+      "labels": [
+        "Zoram"
+      ],
+      "from": "Alma 30",
+      "to": "Alma 35",
+      "name": "Zoram (Zoramite leader)"
+    },
+    {
+      "labels": [
+        "Nephi's brethren",
+        "Nephi's brothers",
+        "Nephi's elder brothers",
+        "Nephi's older brothers",
+        "Nephi's brethren (individual speaker unspecified)",
+        "Lehi's sons",
+        "his sons",
+        "the sons of Lehi",
+        "my brethren",
+        "the brethren",
+        "his brethren",
+        "Laman, Lemuel, and Sam"
+      ],
+      "from": "1 Nephi 2",
+      "to": "2 Nephi 5",
+      "name": [
+        "Laman",
+        "Lemuel",
+        "Sam"
+      ]
+    },
+    {
+      "labels": [
+        "Nephi and his brethren",
+        "Nephi and his brothers",
+        "Nephi and his companions",
+        "Nephi and his companions (the narrator's \"we\")",
+        "Nephi and his brothers (the narrator's \"we\")",
+        "the four brothers",
+        "Lehi's four sons"
+      ],
+      "from": "1 Nephi 3",
+      "to": "1 Nephi 7",
+      "name": [
+        "Nephi",
+        "Laman",
+        "Lemuel",
+        "Sam"
+      ]
+    },
+    {
+      "labels": [
+        "Laman and Lemuel",
+        "Laman and Lemuel (speaking together)",
+        "the elder brothers"
+      ],
+      "from": "1 Nephi 1",
+      "to": "2 Nephi 5",
+      "name": [
+        "Laman",
+        "Lemuel"
+      ]
+    },
+    {
+      "labels": [
+        "Ishmael's daughters",
+        "the daughters of Ishmael",
+        "daughters of Ishmael"
+      ],
+      "name": "The daughters of Ishmael"
+    },
+    {
+      "labels": [
+        "Alma"
+      ],
+      "from": "Mosiah 17",
+      "to": "Mosiah 26",
+      "name": "Alma the Elder"
+    },
+    {
+      "labels": [
+        "Alma's father"
+      ],
+      "from": "Mosiah 27",
+      "to": "Mosiah 29",
+      "name": "Alma the Elder"
+    },
+    {
+      "labels": [
+        "Alma"
+      ],
+      "from": "Mosiah 27",
+      "to": "Mosiah 27",
+      "name": "Alma the Younger (rebel)"
+    },
+    {
+      "labels": [
+        "Alma"
+      ],
+      "from": "Mosiah 28",
+      "to": "Alma 45",
+      "name": "Alma the Younger (high priest)"
+    },
+    {
+      "labels": [
+        "Moroni",
+        "Captain Moroni",
+        "chief captain Moroni"
+      ],
+      "from": "Alma 43",
+      "to": "Alma 63",
+      "name": "Captain Moroni"
+    },
+    {
+      "labels": [
+        "Moroni",
+        "Moroni (son of Mormon)"
+      ],
+      "from": "Mormon 6",
+      "to": "Moroni 10",
+      "name": "Moroni (son of Mormon)"
+    },
+    {
+      "labels": [
+        "Mormon"
+      ],
+      "from": "Mormon 1",
+      "to": "Mormon 2",
+      "name": "Mormon (young)"
+    },
+    {
+      "labels": [
+        "Mormon"
+      ],
+      "from": "3 Nephi 1",
+      "to": "Moroni 10",
+      "name": "Mormon (old)"
+    },
+    {
+      "labels": [
+        "Mormon"
+      ],
+      "from": "Words of Mormon 1",
+      "to": "Words of Mormon 1",
+      "name": "Mormon (old)"
+    },
+    {
+      "labels": [
+        "Ammon"
+      ],
+      "from": "Mosiah 7",
+      "to": "Mosiah 22",
+      "name": "Ammon (explorer, Mosiah 7)"
+    },
+    {
+      "labels": [
+        "Ammon"
+      ],
+      "from": "Mosiah 27",
+      "to": "Alma 30",
+      "name": "Ammon (son of Mosiah)"
+    },
+    {
+      "labels": [
+        "Aaron"
+      ],
+      "from": "Mosiah 27",
+      "to": "Alma 31",
+      "name": "Aaron (son of Mosiah)"
+    },
+    {
+      "labels": [
+        "Aaron"
+      ],
+      "from": "Mormon 2",
+      "to": "Mormon 2",
+      "name": "Aaron (Lamanite king)"
+    },
+    {
+      "labels": [
+        "Omner"
+      ],
+      "name": "Omner (son of Mosiah)"
+    },
+    {
+      "labels": [
+        "Himni"
+      ],
+      "name": "Himni (son of Mosiah)"
+    },
+    {
+      "labels": [
+        "the sons of Mosiah",
+        "sons of Mosiah",
+        "the four sons of Mosiah"
+      ],
+      "from": "Mosiah 27",
+      "to": "Alma 26",
+      "name": [
+        "Ammon (son of Mosiah)",
+        "Aaron (son of Mosiah)",
+        "Omner (son of Mosiah)",
+        "Himni (son of Mosiah)"
+      ]
+    },
+    {
+      "labels": [
+        "Helaman"
+      ],
+      "from": "Alma 31",
+      "to": "Alma 63",
+      "name": "Helaman (son of Alma)"
+    },
+    {
+      "labels": [
+        "Helaman"
+      ],
+      "from": "Helaman 1",
+      "to": "Helaman 3",
+      "name": "Helaman (son of Helaman)"
+    },
+    {
+      "labels": [
+        "Coriantumr"
+      ],
+      "from": "Omni 1",
+      "to": "Omni 1",
+      "name": "Coriantumr (Jaredite king)"
+    },
+    {
+      "labels": [
+        "Coriantumr"
+      ],
+      "from": "Helaman 1",
+      "to": "Helaman 1",
+      "name": "Coriantumr (Nephite dissenter)"
+    },
+    {
+      "labels": [
+        "Coriantumr"
+      ],
+      "from": "Ether 12",
+      "to": "Ether 15",
+      "name": "Coriantumr (Jaredite king)"
+    },
+    {
+      "labels": [
+        "Mosiah",
+        "King Mosiah"
+      ],
+      "from": "Omni 1",
+      "to": "Omni 1",
+      "name": "Mosiah I (king)"
+    },
+    {
+      "labels": [
+        "Mosiah",
+        "King Mosiah"
+      ],
+      "from": "Words of Mormon 1",
+      "to": "Alma 63",
+      "name": "Mosiah II (king)"
+    },
+    {
+      "labels": [
+        "Benjamin",
+        "King Benjamin"
+      ],
+      "name": "King Benjamin"
+    },
+    {
+      "labels": [
+        "Noah",
+        "King Noah"
+      ],
+      "from": "Mosiah 11",
+      "to": "Mosiah 19",
+      "name": "King Noah"
+    },
+    {
+      "labels": [
+        "Limhi",
+        "King Limhi"
+      ],
+      "name": "King Limhi"
+    },
+    {
+      "labels": [
+        "Lamoni",
+        "King Lamoni"
+      ],
+      "name": "King Lamoni"
+    },
+    {
+      "labels": [
+        "King Laman"
+      ],
+      "name": "King Laman (Lamanite king)"
+    },
+    {
+      "labels": [
+        "the king"
+      ],
+      "from": "Mosiah 11",
+      "to": "Mosiah 17",
+      "name": "King Noah"
+    },
+    {
+      "labels": [
+        "the king"
+      ],
+      "from": "Mosiah 19",
+      "to": "Mosiah 22",
+      "name": "King Limhi"
+    },
+    {
+      "labels": [
+        "the king"
+      ],
+      "from": "Alma 17",
+      "to": "Alma 19",
+      "name": "King Lamoni"
+    },
+    {
+      "labels": [
+        "the king",
+        "Lamoni's father",
+        "the king of the Lamanites"
+      ],
+      "from": "Alma 20",
+      "to": "Alma 23",
+      "name": "The king over all the land (Lamoni's father)"
+    },
+    {
+      "labels": [
+        "the queen"
+      ],
+      "from": "Alma 18",
+      "to": "Alma 19",
+      "name": "The queen of Lamoni"
+    },
+    {
+      "labels": [
+        "the queen"
+      ],
+      "from": "Alma 22",
+      "to": "Alma 22",
+      "name": "The queen of Lamoni's father"
+    },
+    {
+      "labels": [
+        "the queen"
+      ],
+      "from": "Alma 47",
+      "to": "Alma 47",
+      "name": "The queen of the Lamanites"
+    },
+    {
+      "labels": [
+        "Gideon"
+      ],
+      "from": "Mosiah 19",
+      "to": "Mosiah 25",
+      "name": "Gideon"
+    },
+    {
+      "labels": [
+        "Gideon"
+      ],
+      "from": "Alma 1",
+      "to": "Alma 1",
+      "name": "Gideon (old)"
+    },
+    {
+      "labels": [
+        "Pahoran"
+      ],
+      "from": "Alma 50",
+      "to": "Alma 62",
+      "name": "Pahoran (chief judge)"
+    },
+    {
+      "labels": [
+        "Pahoran"
+      ],
+      "from": "Helaman 1",
+      "to": "Helaman 1",
+      "name": "Pahoran (son of Pahoran)"
+    },
+    {
+      "labels": [
+        "Lib"
+      ],
+      "from": "Ether 10",
+      "to": "Ether 10",
+      "name": "Lib (the hunter)"
+    },
+    {
+      "labels": [
+        "Corihor"
+      ],
+      "from": "Ether 7",
+      "to": "Ether 7",
+      "name": "Corihor (Jaredite)"
+    },
+    {
+      "labels": [
+        "Jared"
+      ],
+      "from": "Ether 8",
+      "to": "Ether 8",
+      "name": "Jared (son of Omer)"
+    },
+    {
+      "labels": [
+        "Jared"
+      ],
+      "from": "Ether 1",
+      "to": "Ether 6",
+      "name": "Jared"
+    },
+    {
+      "labels": [
+        "Jared and his brother"
+      ],
+      "from": "Ether 1",
+      "to": "Ether 6",
+      "name": [
+        "Jared",
+        "The brother of Jared"
+      ]
+    },
+    {
+      "labels": [
+        "Jonas",
+        "Mathoni",
+        "Mathonihah",
+        "Kumen",
+        "Kumenonhi",
+        "Jeremiah",
+        "Shemnon",
+        "Zedekiah",
+        "Isaiah"
+      ],
+      "from": "3 Nephi 19",
+      "to": "3 Nephi 19",
+      "name": "The twelve Nephite disciples"
+    },
+    {
+      "labels": [
+        "the twelve",
+        "the twelve disciples",
+        "the disciples",
+        "disciples",
+        "his disciples",
+        "the disciples of Jesus",
+        "disciples of Jesus",
+        "the twelve whom Jesus had chosen",
+        "the twelve Nephite disciples",
+        "disciples of Jesus who tarried"
+      ],
+      "from": "3 Nephi 11",
+      "to": "Moroni 3",
+      "name": "The twelve Nephite disciples"
+    },
+    {
+      "labels": [
+        "Antipus",
+        "Gid",
+        "Teomner",
+        "Lehi's men"
+      ],
+      "from": "Alma 56",
+      "to": "Alma 58",
+      "name": "Nephite armies of Moroni"
+    },
+    {
+      "labels": [
+        "the Jews",
+        "the people",
+        "people",
+        "the multitude",
+        "the people of Jerusalem",
+        "people of Jerusalem",
+        "inhabitants of Jerusalem"
+      ],
+      "from": "1 Nephi 1",
+      "to": "1 Nephi 1",
+      "name": "Jerusalem townspeople"
+    },
+    {
+      "labels": [
+        "the people",
+        "people",
+        "the multitude",
+        "multitude",
+        "Nephites",
+        "Nephite people",
+        "people of Nephi",
+        "the people of Nephi",
+        "Nephi's people",
+        "my people",
+        "his people",
+        "the Nephite settlers"
+      ],
+      "from": "2 Nephi 5",
+      "to": "Omni 1",
+      "name": "Nephite settlers (2 Nephi)"
+    },
+    {
+      "labels": [
+        "the people",
+        "people",
+        "the multitude",
+        "multitude",
+        "the surrounding multitude",
+        "the crowd",
+        "listeners",
+        "the listeners"
+      ],
+      "from": "Alma 17",
+      "to": "Alma 26",
+      "name": "Lamanite people"
+    },
+    {
+      "labels": [
+        "the people",
+        "people",
+        "the multitude",
+        "multitude",
+        "the surrounding multitude",
+        "the crowd",
+        "Nephites",
+        "the Nephites",
+        "Nephite people",
+        "the Nephite people",
+        "people of Nephi",
+        "the people of Nephi",
+        "the people of the church",
+        "people of the church",
+        "Alma's people",
+        "Limhi's people",
+        "Zeniff's people",
+        "Noah's people",
+        "the people of Limhi",
+        "his people",
+        "the people of Zarahemla",
+        "people of Zarahemla",
+        "people of Ammonihah",
+        "the people of Ammonihah",
+        "the Nephite multitude",
+        "those who believe",
+        "believers"
+      ],
+      "from": "Words of Mormon 1",
+      "to": "Moroni 10",
+      "name": "Nephite people"
+    },
+    {
+      "labels": [
+        "People of Zarahemla",
+        "the people of Zarahemla",
+        "Mulekites",
+        "the Mulekites"
+      ],
+      "from": "Omni 1",
+      "to": "Omni 1",
+      "name": "People of Zarahemla (Mulekites)"
+    },
+    {
+      "labels": [
+        "Lamanites",
+        "the Lamanites",
+        "Lamanite people"
+      ],
+      "from": "2 Nephi 5",
+      "to": "Jacob 7",
+      "name": "Lamanites (2 Nephi era)"
+    },
+    {
+      "labels": [
+        "Lamanites",
+        "the Lamanites"
+      ],
+      "from": "Enos 1",
+      "to": "Omni 1",
+      "name": "Lamanite warriors (Enos to Alma era)"
+    },
+    {
+      "labels": [
+        "Lamanites",
+        "the Lamanites",
+        "Lamanite people",
+        "the Lamanite people"
+      ],
+      "from": "Words of Mormon 1",
+      "to": "Moroni 10",
+      "name": "Lamanite people"
+    },
+    {
+      "labels": [
+        "King Noah's priests",
+        "Noah's priests",
+        "the priests of Noah",
+        "the priests of king Noah",
+        "wicked priests",
+        "the priests",
+        "priests"
+      ],
+      "from": "Mosiah 11",
+      "to": "Mosiah 17",
+      "name": "King Noah's priests"
+    },
+    {
+      "labels": [
+        "King Noah's priests",
+        "Noah's priests",
+        "the priests of Noah",
+        "the priests of king Noah",
+        "wicked priests",
+        "the priests",
+        "priests"
+      ],
+      "from": "Mosiah 20",
+      "to": "Mosiah 24",
+      "name": "King Noah's priests"
+    },
+    {
+      "labels": [
+        "the two thousand young men",
+        "two thousand young men",
+        "the two thousand stripling warriors",
+        "stripling warriors",
+        "Helaman's sons",
+        "Helaman's army",
+        "the sons of the people of Ammon",
+        "Helaman's two thousand"
+      ],
+      "from": "Alma 53",
+      "to": "Alma 58",
+      "name": "Stripling warriors"
+    },
+    {
+      "labels": [
+        "Anti-Nephi-Lehies",
+        "the Anti-Nephi-Lehies",
+        "people of Ammon",
+        "the people of Ammon",
+        "the converted Lamanites"
+      ],
+      "from": "Alma 23",
+      "to": "Alma 62",
+      "name": "Anti-Nephi-Lehies (people of Ammon)"
+    },
+    {
+      "labels": [
+        "Zoramites",
+        "the Zoramites",
+        "the Zoramite congregation"
+      ],
+      "name": "Zoramites"
+    },
+    {
+      "labels": [
+        "Amlicites",
+        "the Amlicites"
+      ],
+      "name": "Amlicites"
+    },
+    {
+      "labels": [
+        "Gadianton robbers",
+        "the Gadianton robbers",
+        "robbers",
+        "the robbers",
+        "Gadianton's robbers and murderers",
+        "the band of Gadianton",
+        "Gadianton's band"
+      ],
+      "from": "Helaman 2",
+      "to": "Mormon 9",
+      "name": "Gadianton robbers"
+    },
+    {
+      "labels": [
+        "Jaredites",
+        "the Jaredites",
+        "Jaredite people",
+        "the Jaredite people",
+        "Gathered Jaredite people",
+        "the people of Coriantumr",
+        "people of Coriantumr",
+        "the people of Shiz",
+        "people of Shiz",
+        "Coriantumr's army",
+        "Shiz's army",
+        "the armies of Coriantumr",
+        "the armies of Shiz",
+        "people of the land"
+      ],
+      "from": "Ether 6",
+      "to": "Ether 15",
+      "name": "Jaredites (in the promised land)"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "(?:\\bwe\\b|narrat\\w* group|^group\\b|the brothers|brothers \\(|lehi's sons)",
+      "from": "1 Nephi 3",
+      "to": "1 Nephi 7",
+      "name": [
+        "Nephi",
+        "Laman",
+        "Lemuel",
+        "Sam"
+      ]
+    },
+    {
+      "pattern": "^lamanite (?:army|armies|warriors?|soldiers|guards|captors|prisoners|forces|spies|attackers|chief captains|host)\\b",
+      "from": "Enos 1",
+      "to": "Moroni 10",
+      "name": "Lamanite warriors (Enos to Alma era)"
+    },
+    {
+      "pattern": "^(?:attacking|invading|pursuing) lamanites$",
+      "from": "Enos 1",
+      "to": "Moroni 10",
+      "name": "Lamanite warriors (Enos to Alma era)"
+    },
+    {
+      "pattern": "^nephite (?:army|armies|soldiers|defenders|forces|spies|guards|prisoners|warriors|troops|host)\\b",
+      "from": "Alma 2",
+      "to": "Moroni 10",
+      "name": "Nephite armies of Moroni"
+    },
+    {
+      "pattern": "^(?:moroni|teancum|antipus|lehi|helaman|moronihah|gid|mormon)'s (?:army|armies|men|soldiers|forces|troops)$",
+      "from": "Alma 43",
+      "to": "Mormon 9",
+      "name": "Nephite armies of Moroni"
+    },
+    {
+      "pattern": "^(?:jaredite|coriantumr's|shiz's|lib's|akish's|shared's) (?:army|armies|warriors|soldiers|people|followers|men)$",
+      "from": "Ether 6",
+      "to": "Ether 15",
+      "name": "Jaredites (in the promised land)"
+    }
+  ],
+  "places": {
+    "keywords": [
+      {
+        "match": ".",
+        "from": "1 Nephi 8",
+        "to": "1 Nephi 8",
+        "name": "__none__"
+      },
+      {
+        "match": "^(?!.*jerusalem)(?!.*laban).",
+        "from": "1 Nephi 11",
+        "to": "1 Nephi 14",
+        "name": "__none__"
+      },
+      {
+        "match": "heaven|\\bsky\\b|\\bdream|vision|face of the earth|\\bclouds?\\b",
+        "name": "__none__"
+      },
+      {
+        "match": "jerusalem|laban|house of lehi|lehi's house",
+        "from": "1 Nephi 1",
+        "to": "1 Nephi 22",
+        "name": "Jerusalem (c. 600 BC)"
+      },
+      {
+        "match": "lemuel|red sea|river laman|by the side of a river|tent of my father|father's tent",
+        "from": "1 Nephi 2",
+        "to": "1 Nephi 16",
+        "name": "Valley of Lemuel"
+      },
+      {
+        "match": "shazer|nahom",
+        "name": "Arabian wilderness"
+      },
+      {
+        "match": "bountiful|seashore|irreantum",
+        "from": "1 Nephi 17",
+        "to": "1 Nephi 17",
+        "name": "Bountiful (Old World seashore)"
+      },
+      {
+        "match": "\\bship\\b|\\bsea\\b|many waters|\\bwaters\\b|ocean",
+        "from": "1 Nephi 18",
+        "to": "1 Nephi 18",
+        "name": "The ship at sea"
+      },
+      {
+        "match": "barge",
+        "name": "Jaredite barges"
+      },
+      {
+        "match": "\\bsea\\b|\\bwaters\\b|ocean",
+        "from": "Ether 6",
+        "to": "Ether 6",
+        "name": "Jaredite barges"
+      },
+      {
+        "match": "shelem",
+        "name": "Mount Shelem"
+      },
+      {
+        "match": "moriancumer|seashore",
+        "from": "Ether 2",
+        "to": "Ether 6",
+        "name": "Moriancumer seashore"
+      },
+      {
+        "match": "nimrod|babel|\\btower\\b",
+        "from": "Ether 1",
+        "to": "Ether 2",
+        "name": "Valley of Nimrod"
+      },
+      {
+        "match": "temple",
+        "from": "3 Nephi 11",
+        "to": "3 Nephi 28",
+        "name": "Temple in the land Bountiful"
+      },
+      {
+        "match": "bountiful",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 28",
+        "name": "Temple in the land Bountiful"
+      },
+      {
+        "match": "bountiful|\\bgid\\b|cumeni|mulek|nephihah|manti|judea|antiparah|moroni's camp|morianton|onidah|\\bnoah\\b|fortif",
+        "from": "Alma 43",
+        "to": "Alma 62",
+        "name": "Nephite fortified cities"
+      },
+      {
+        "match": "zarahemla|sidon",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "match": "ammonihah",
+        "name": "Ammonihah"
+      },
+      {
+        "match": "antionum|rameumptom|zoramite",
+        "name": "Antionum"
+      },
+      {
+        "match": "synagogue",
+        "from": "Alma 31",
+        "to": "Alma 35",
+        "name": "Antionum"
+      },
+      {
+        "match": "mormon",
+        "from": "Mosiah 18",
+        "to": "Mosiah 26",
+        "name": "Waters of Mormon"
+      },
+      {
+        "match": "helam",
+        "name": "Land of Helam"
+      },
+      {
+        "match": "lehi-nephi|shilom|shemlon",
+        "name": "City of Lehi-Nephi"
+      },
+      {
+        "match": "land of nephi|city of nephi|^nephi$",
+        "from": "2 Nephi 5",
+        "to": "Omni 1",
+        "name": "City of Nephi"
+      },
+      {
+        "match": "land of nephi|city of nephi|^nephi$|palace",
+        "from": "Mosiah 7",
+        "to": "Mosiah 24",
+        "name": "City of Lehi-Nephi"
+      },
+      {
+        "match": "land of nephi|city of nephi|^nephi$|ishmael|middoni|palace|king's house",
+        "from": "Alma 17",
+        "to": "Alma 26",
+        "name": "Land of Nephi (Lamanite lands)"
+      },
+      {
+        "match": "land of nephi|city of nephi|^nephi$",
+        "from": "Alma 47",
+        "to": "Helaman 5",
+        "name": "Land of Nephi (Lamanite lands)"
+      },
+      {
+        "match": "temple",
+        "from": "2 Nephi 5",
+        "to": "Omni 1",
+        "name": "City of Nephi"
+      },
+      {
+        "match": "temple|tower",
+        "from": "Mosiah 1",
+        "to": "Mosiah 6",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "match": "temple|tower",
+        "from": "Mosiah 7",
+        "to": "Mosiah 24",
+        "name": "City of Lehi-Nephi"
+      },
+      {
+        "match": "cumorah",
+        "name": "Hill Cumorah"
+      },
+      {
+        "match": "desolation|joshua|jashon|\\bshem\\b|teancum|boaz|jordan|lands of inheritance",
+        "from": "Mormon 1",
+        "to": "Mormon 9",
+        "name": "Nephite lands (Mormon era)"
+      },
+      {
+        "match": "wilderness|forest|desert|mountain|\\bhills?\\b|valley|field",
+        "from": "1 Nephi 2",
+        "to": "1 Nephi 7",
+        "name": "Arabian wilderness"
+      },
+      {
+        "match": "wilderness|forest|desert|mountain|\\bhills?\\b|valley|field",
+        "from": "1 Nephi 9",
+        "to": "1 Nephi 10",
+        "name": "Arabian wilderness"
+      },
+      {
+        "match": "wilderness|forest|desert|mountain|\\bhills?\\b|valley|field",
+        "from": "1 Nephi 15",
+        "to": "1 Nephi 17",
+        "name": "Arabian wilderness"
+      },
+      {
+        "match": "wilderness|forest|desert|mountain|valley|field",
+        "from": "Ether 1",
+        "to": "Ether 2",
+        "name": "Valley of Nimrod"
+      },
+      {
+        "match": "wilderness|forest",
+        "name": "Wilderness (New World)"
+      },
+      {
+        "match": "^(?:(?:the|their|all the|throughout the|nephite|lamanite|nephite and lamanite) )?(?:land|lands|nephite lands?|land of promise|promised land|land of the nephites|city|streets|houses|fields|tent|tents|camp|home|the land northward|land northward|land southward)$",
+        "name": "__region__"
+      }
+    ],
+    "regions": [
+      {
+        "from": "1 Nephi 1",
+        "to": "1 Nephi 1",
+        "name": "Jerusalem (c. 600 BC)"
+      },
+      {
+        "from": "1 Nephi 2",
+        "to": "1 Nephi 7",
+        "name": "Valley of Lemuel"
+      },
+      {
+        "from": "1 Nephi 8",
+        "to": "1 Nephi 8",
+        "name": "__none__"
+      },
+      {
+        "from": "1 Nephi 9",
+        "to": "1 Nephi 10",
+        "name": "Valley of Lemuel"
+      },
+      {
+        "from": "1 Nephi 11",
+        "to": "1 Nephi 14",
+        "name": "__none__"
+      },
+      {
+        "from": "1 Nephi 15",
+        "to": "1 Nephi 15",
+        "name": "Valley of Lemuel"
+      },
+      {
+        "from": "1 Nephi 16",
+        "to": "1 Nephi 16",
+        "name": "Arabian wilderness"
+      },
+      {
+        "from": "1 Nephi 17",
+        "to": "1 Nephi 17",
+        "name": "Bountiful (Old World seashore)"
+      },
+      {
+        "from": "1 Nephi 18",
+        "to": "1 Nephi 18",
+        "name": "The ship at sea"
+      },
+      {
+        "from": "1 Nephi 19",
+        "to": "2 Nephi 4",
+        "name": "Promised land (first landing)"
+      },
+      {
+        "from": "2 Nephi 5",
+        "to": "Omni 1",
+        "name": "City of Nephi"
+      },
+      {
+        "from": "Words of Mormon 1",
+        "to": "Mosiah 6",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "Mosiah 7",
+        "to": "Mosiah 24",
+        "name": "City of Lehi-Nephi"
+      },
+      {
+        "from": "Mosiah 25",
+        "to": "Alma 7",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "Alma 8",
+        "to": "Alma 16",
+        "name": "Ammonihah"
+      },
+      {
+        "from": "Alma 17",
+        "to": "Alma 26",
+        "name": "Land of Nephi (Lamanite lands)"
+      },
+      {
+        "from": "Alma 27",
+        "to": "Alma 30",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "Alma 31",
+        "to": "Alma 35",
+        "name": "Antionum"
+      },
+      {
+        "from": "Alma 36",
+        "to": "Alma 42",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "Alma 43",
+        "to": "Alma 62",
+        "name": "Nephite fortified cities"
+      },
+      {
+        "from": "Alma 63",
+        "to": "3 Nephi 10",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "3 Nephi 11",
+        "to": "3 Nephi 28",
+        "name": "Temple in the land Bountiful"
+      },
+      {
+        "from": "3 Nephi 29",
+        "to": "4 Nephi 1",
+        "name": "Land of Zarahemla"
+      },
+      {
+        "from": "Mormon 1",
+        "to": "Mormon 9",
+        "name": "Nephite lands (Mormon era)"
+      },
+      {
+        "from": "Ether 1",
+        "to": "Ether 2",
+        "name": "Valley of Nimrod"
+      },
+      {
+        "from": "Ether 3",
+        "to": "Ether 5",
+        "name": "Moriancumer seashore"
+      },
+      {
+        "from": "Ether 6",
+        "to": "Ether 15",
+        "name": "Jaredite lands"
+      },
+      {
+        "from": "Moroni 1",
+        "to": "Moroni 10",
+        "name": "Nephite lands (Mormon era)"
+      }
+    ],
+    "about_regions": "A region named __none__ gives no setting: dream and vision chapters, whose places are not the family's camp."
+  },
+  "fallbacks": [
+    {
+      "pattern": "\\b(?:people|multitude|listeners|brethren|group|crowd|congregation|followers|believers|converts|inhabitants|audience|hearers|addressees|those addressed|those who)\\b",
+      "from": "1 Nephi 1",
+      "to": "1 Nephi 1",
+      "name": "Jerusalem townspeople"
+    },
+    {
+      "pattern": "\\b(?:people|multitude|listeners|brethren|group|crowd|congregation|followers|believers|converts|inhabitants|audience|hearers|addressees|those addressed|those who)\\b",
+      "from": "2 Nephi 5",
+      "to": "Omni 1",
+      "name": "Nephite settlers (2 Nephi)"
+    },
+    {
+      "pattern": "\\b(?:people|multitude|listeners|brethren|group|crowd|congregation|followers|believers|converts|inhabitants|audience|hearers|addressees|those addressed|those who)\\b",
+      "from": "Alma 17",
+      "to": "Alma 26",
+      "name": "Lamanite people"
+    },
+    {
+      "pattern": "\\b(?:people|multitude|listeners|brethren|group|crowd|congregation|followers|believers|converts|inhabitants|audience|hearers|addressees|those addressed|those who)\\b",
+      "from": "Words of Mormon 1",
+      "to": "Moroni 10",
+      "name": "Nephite people"
+    },
+    {
+      "pattern": ".",
+      "from": "Ether 6",
+      "to": "Ether 15",
+      "name": "Jaredites (in the promised land)"
+    }
+  ]
+}

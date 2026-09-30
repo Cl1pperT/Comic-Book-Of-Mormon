@@ -22,8 +22,12 @@ def _similar(a, b):
     return abs(ratio(a) / ratio(b) - 1) <= ASPECT_TOLERANCE
 
 class Pipeline:
-    def __init__(self, store, provider=None):
-        self.store, self.provider = store, provider
+    def __init__(self, store, provider=None, library=None):
+        """library: a character library folder (e.g. portraits/book-of-mormon) whose cast.json and locations.json
+        resolve scene labels to records when image prompts are built (see cast.py). Without one, prompts use the
+        run's own continuity records by exact label, as before."""
+        self.store, self.provider, self.library = store, provider, library
+        self._cast = None
 
     def init(self, source, start, end):
         if self.store.path("source.json").exists():
@@ -185,8 +189,9 @@ class Pipeline:
         self.store.write("review/draft-panels.json", {
             "status": "DRAFT — NOT APPROVED FOR GENERATION", "scene_stamp": self.stamp(),
             "panels": [p.model_dump() for p in panels]})
+        shown = self.shown(panels)
         self.store.write("review/draft-prompts.json", {
-            p.panel_id: build_prompt(p, self.continuity(), frame_aspect(layout[p.panel_id])) for p in panels})
+            p.panel_id: build_prompt(*shown[p.panel_id], frame_aspect(layout[p.panel_id])) for p in panels})
         lines = ["# Full-story review draft", "",
                  "Not approved for generation. Compare every scene to its cited source before approving.", "",
                  f"{len(scenes)} scenes / {len(panels)} panels / {len({p.page for p in panels})} draft pages", ""]
@@ -239,6 +244,50 @@ class Pipeline:
 
     def aspects(self):
         return {pid: frame_aspect(frame) for pid, frame in frames(self.panels()).items()}
+
+    def cast(self):
+        if self.library is None:
+            return None
+        if self._cast is None:
+            from .cast import Cast
+            self._cast = Cast.load(self.library)
+        return self._cast
+
+    def where(self):
+        """(book, chapter) the run starts in; labels resolve by chapter ("Alma" in Mosiah 18 is Alma the Elder)."""
+        first = self.store.read("source.json")[0]
+        return first["book"], first["chapter"]
+
+    def shown(self, panels):
+        """{panel_id: (panel, continuity)} as the image prompt should see each panel: visible people resolved to
+        the library's records (with their visual tags) and each place resolved to a setting, an unspecified one
+        continuing the previous panel's. Only the prompt uses this. Stamps, approvals and portraits keep the
+        panel's own labels, so resolving differently never makes an approved panel or its drawing stale."""
+        continuity = self.continuity()
+        cast = self.cast()
+        if cast is None:
+            return {panel.panel_id: (panel, continuity) for panel in panels}
+        where = self.where()
+        known_people, known_places = continuity["characters"], continuity["locations"]
+        settings = cast.settings([panel.location for panel in panels], where, known_places)
+        out = {}
+        for panel, places in zip(panels, settings):
+            people = cast.people(panel.characters_visible, where, known_people)
+            characters = dict(known_people)
+            for name in people:
+                record = cast.character(name, known_people)
+                if record:
+                    characters[name] = record
+            locations = {**known_places, **{name: cast.location(name, known_places) for name in places}}
+            out[panel.panel_id] = (panel.model_copy(update={"characters_visible": people, "location": places}),
+                                   {**continuity, "characters": characters, "locations": locations})
+        return out
+
+    def prompt_for(self, panel, aspect, portraits=(), corrections=None, shown=None):
+        """The image prompt for one panel, drawn from its resolved people and setting."""
+        shown = shown or self.shown(self.panels())
+        view, continuity = shown[panel.panel_id]
+        return build_prompt(view, continuity, aspect, list(portraits), corrections)
 
     def panel_stamp(self, panel, aspects=None):
         # Page position and weight only matter through the frame shape, so moving a panel
@@ -452,6 +501,7 @@ class Pipeline:
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
             raise ValueError("Unknown panel")
+        shown = self.shown(panels)
         for panel in panels:
             if identifier and panel.panel_id != identifier:
                 continue
@@ -471,16 +521,17 @@ class Pipeline:
             name = f"{panel.panel_id}_{revision}"
             aspect = aspects[panel.panel_id]
             portraits = self.panel_portraits(panel) if references else {}
-            prompt = build_prompt(panel, self.continuity(), aspect, list(portraits),
-                                  (corrections or {}).get(panel.panel_id))
+            # A label that resolves to someone else (a bare "Nephi" in Helaman) must not bring the wrong face along.
+            portraits = {n: e for n, e in portraits.items() if n in shown[panel.panel_id][0].characters_visible}
+            prompt = self.prompt_for(panel, aspect, portraits, (corrections or {}).get(panel.panel_id), shown)
             self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
                 "portraits": {n: e["path"] for n, e in portraits.items()}})
             path = self.store.path(f"images/{name}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
             records = self.continuity()["characters"]
-            references = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
-                          for n, e in portraits.items()]
-            self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
+            attached = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
+                        for n, e in portraits.items()]
+            self.provider.generate_image(prompt, reference_images=attached or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
                       "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2,
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
