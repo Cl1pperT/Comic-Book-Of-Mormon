@@ -145,41 +145,68 @@
       "Alma 11:18",
       "Alma 11:19"
     ],
-    "summary": "The account lists lesser units of value, including their relationships to one another and to a measure of barley.",
+    "summary": "The account gives the values of lesser units, their relationships to one another, and the value of an antion of gold.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A shiblon was half a senum and corresponded to half a measure of barley; a shiblum was half a shiblon; a leah was half a shiblum.",
+        "text": "The account gives the value of the lesser numbers of their reckoning.",
         "refs": [
-          "Alma 11:14",
-          "Alma 11:15",
-          "Alma 11:16",
+          "Alma 11:14"
+        ]
+      },
+      {
+        "text": "A shiblon is half a senum and corresponds to half a measure of barley.",
+        "refs": [
+          "Alma 11:15"
+        ]
+      },
+      {
+        "text": "A shiblum is half a shiblon.",
+        "refs": [
+          "Alma 11:16"
+        ]
+      },
+      {
+        "text": "A leah is half a shiblum.",
+        "refs": [
           "Alma 11:17"
         ]
       },
       {
-        "text": "An antion of gold equaled three shiblons.",
+        "text": "These numbers are according to their reckoning.",
+        "refs": [
+          "Alma 11:18"
+        ]
+      },
+      {
+        "text": "An antion of gold equals three shiblons.",
         "refs": [
           "Alma 11:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A nonliteral explanatory graphic may show the relative fractions among units."
+      "A nonliteral explanatory graphic could show the stated relationships among units."
     ],
     "unspecified_visual_details": [
-      "The appearance and physical form of the units and the measure of barley."
+      "The physical appearance of the units and the measure of barley."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now this is their number, according to their reckoning.",
+        "refs": [
+          "Alma 11:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "This is explanatory accounting, not a narrated exchange or event."
     ],
     "prohibited_inventions": [
-      "Do not depict the units as actual coins of any particular design."
+      "Do not depict the units as coins of any particular design.",
+      "Do not invent a speaker or a transaction."
     ],
     "importance": "normal"
   },
@@ -189,10 +216,11 @@
     "refs": [
       "Alma 11:20"
     ],
-    "summary": "Those paid according to their employment stirred up disturbances to gain more work and money, and stirred the people against Alma and Amulek.",
+    "summary": "Those paid according to their employ stirred up disturbances to gain more work and money from suits, and stirred the people against Alma and Amulek.",
     "characters": [
-      "people paid according to their employment",
-      "Alma the Younger (high priest)",
+      "those who received wages according to their employ",
+      "the people",
+      "Alma",
       "Amulek"
     ],
     "locations": [
@@ -200,25 +228,45 @@
     ],
     "explicit_facts": [
       {
-        "text": "Those who received wages according to their employ stirred up riots, disturbances, and wickedness to increase their work and money from suits, and stirred the people against Alma and Amulek.",
+        "text": "They received wages according to their employ.",
+        "refs": [
+          "Alma 11:20"
+        ]
+      },
+      {
+        "text": "They stirred up the people to riotings, disturbances, and wickedness to gain more employment and money from suits.",
+        "refs": [
+          "Alma 11:20"
+        ]
+      },
+      {
+        "text": "They stirred up the people against Alma and Amulek.",
         "refs": [
           "Alma 11:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A crowd may be shown agitated against Alma and Amulek, without depicting a specific unmentioned confrontation."
+      "The people may be shown as agitated, without depicting a particular riot or confrontation."
     ],
     "unspecified_visual_details": [
-      "The identities of the agitators, the nature and location of each disturbance, and the crowd’s size or appearance."
+      "The agitators’ identities and appearance, the setting, and the number and appearance of the people."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "therefore they did stir up the people against Alma and Amulek.",
+        "refs": [
+          "Alma 11:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse reports a motive and a pattern of conduct; it does not describe a particular riot in progress."
+      "The verse reports a motive and pattern of conduct, not a particular riot in progress."
     ],
     "prohibited_inventions": [
-      "Do not show a specific riot, suit, or attack as a present-tense event."
+      "Do not depict a specific riot, suit, or attack as a present-tense event.",
+      "Do not invent dialogue or a visible confrontation with Alma and Amulek."
     ],
     "importance": "normal"
   },
@@ -794,7 +842,7 @@
     "refs": [
       "Alma 11:46"
     ],
-    "summary": "When Amulek finishes speaking, the people are astonished and Zeezrom trembles.",
+    "summary": "When Amulek finishes his words, the people begin again to be astonished and Zeezrom begins to tremble.",
     "characters": [
       "Amulek",
       "people",
@@ -805,23 +853,43 @@
     ],
     "explicit_facts": [
       {
-        "text": "When Amulek finished speaking, the people began again to be astonished and Zeezrom began to tremble.",
+        "text": "Amulek had finished his words.",
+        "refs": [
+          "Alma 11:46"
+        ]
+      },
+      {
+        "text": "The people began again to be astonished.",
+        "refs": [
+          "Alma 11:46"
+        ]
+      },
+      {
+        "text": "Zeezrom began to tremble.",
         "refs": [
           "Alma 11:46"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people show astonishment and Zeezrom visibly trembles as Amulek concludes."
+      "The people's astonishment and Zeezrom's trembling may be visible."
     ],
     "unspecified_visual_details": [
-      "The audience’s size, individual identities, and the setting."
+      "The setting, the number of people, and their individual appearances."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now, when Amulek had finished these words the people began again to be astonished, and also Zeezrom began to tremble.",
+        "refs": [
+          "Alma 11:46"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add a response or action by the people beyond astonishment, or by Zeezrom beyond trembling."
+      "Do not add speech or actions beyond what this verse supplies.",
+      "Do not depict an invented setting or assign identities to the people."
     ],
     "importance": "normal"
   }

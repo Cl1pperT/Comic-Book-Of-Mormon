@@ -531,17 +531,17 @@
       "1 Nephi 4:20",
       "1 Nephi 4:21"
     ],
-    "summary": "Nephi goes toward Laban’s treasury, sees Laban’s servant who holds the keys, and commands him in Laban’s voice to go with him into the treasury. The servant supposes Nephi is Laban after seeing the garments and sword.",
+    "summary": "Nephi goes toward Laban’s treasury, sees Laban’s servant with the treasury keys, and commands him in Laban’s voice to go with him into the treasury. Seeing the garments and sword, the servant supposes Nephi is Laban.",
     "characters": [
       "Nephi",
       "Laban’s servant"
     ],
     "locations": [
-      "Laban’s treasury"
+      "Approach to Laban’s treasury"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi goes forth toward Laban’s treasury and sees Laban’s servant, who has the treasury keys.",
+        "text": "Nephi goes toward Laban’s treasury and sees Laban’s servant, who has its keys.",
         "refs": [
           "1 Nephi 4:20"
         ]
@@ -553,26 +553,33 @@
         ]
       },
       {
-        "text": "The servant supposes Nephi is Laban because he sees the garments and sword girded about Nephi’s loins.",
+        "text": "The servant supposes Nephi is Laban after seeing the garments and the sword girded about Nephi’s loins.",
         "refs": [
           "1 Nephi 4:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi wears garments the servant recognizes as Laban’s and has a sword girded about his loins.",
-      "The servant has or carries the keys to the treasury."
+      "Nephi is wearing the garments seen by the servant.",
+      "The servant carries the treasury keys."
     ],
     "unspecified_visual_details": [
-      "Treasury architecture and contents",
+      "The treasury’s architecture and contents",
       "Nephi’s and the servant’s appearance beyond the stated garments and sword",
-      "The servant’s exact position and actions"
+      "The servant’s exact position"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "I saw the servant of Laban who had the keys of the treasury.",
+        "refs": [
+          "1 Nephi 4:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the words Nephi uses; the command is reported indirectly.",
+      "Do not invent the words of Nephi’s command; it is reported indirectly.",
       "Do not depict Nephi as physically transformed into Laban."
     ],
     "importance": "normal"
@@ -587,7 +594,7 @@
       "1 Nephi 4:25",
       "1 Nephi 4:26"
     ],
-    "summary": "The servant speaks to the narrator about the elders of the Jews. The narrator speaks as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids the servant follow him. The servant supposes the narrator is Laban and follows him.",
+    "summary": "Laban’s servant speaks to the narrator about the elders of the Jews. The narrator speaks as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids the servant follow him. The servant supposes the narrator is Laban and follows him.",
     "characters": [
       "The first-person narrator",
       "Laban’s servant"
@@ -601,7 +608,7 @@
         ]
       },
       {
-        "text": "The narrator speaks to the servant as if he were Laban.",
+        "text": "The narrator speaks to him as if he were Laban.",
         "refs": [
           "1 Nephi 4:23"
         ]
@@ -613,13 +620,13 @@
         ]
       },
       {
-        "text": "The narrator bids the servant follow him.",
+        "text": "The narrator bids him follow.",
         "refs": [
           "1 Nephi 4:25"
         ]
       },
       {
-        "text": "The servant supposes the narrator means the brethren of the church and is truly Laban, whom the narrator had slain; the servant follows him.",
+        "text": "The servant supposes the narrator means the brethren of the church and is truly Laban, whom the narrator had slain; he follows the narrator.",
         "refs": [
           "1 Nephi 4:26"
         ]
@@ -630,14 +637,13 @@
     ],
     "unspecified_visual_details": [
       "The encounter’s exact location",
-      "The servant’s exact words",
-      "The appearance and clothing of the narrator and servant",
+      "The speakers’ appearances and clothing",
       "The route they take"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "concerning the elders of the Jews,",
+        "text": "And he spake unto me concerning the elders of the Jews,",
         "refs": [
           "1 Nephi 4:22"
         ]
@@ -668,13 +674,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report speech but do not give its exact spoken words.",
-      "Laban’s earlier death and the servant’s supposition are reported, not new visible events."
+      "The verses report speech without giving its exact spoken words.",
+      "Laban’s death is mentioned as a past event, not an action occurring in this scene.",
+      "The servant’s supposition is reported, not a separate visible event."
     ],
     "prohibited_inventions": [
       "Do not invent dialogue for either speaker.",
       "Do not depict Laban, the elders, or the elder brethren as present in this encounter.",
-      "Do not place the encounter in a treasury or specify a route."
+      "Do not add a treasury entry or specify the encounter’s location or route."
     ],
     "importance": "normal"
   },

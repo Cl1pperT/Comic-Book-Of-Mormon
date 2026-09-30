@@ -1,61 +1,66 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Lord’s Command",
+    "title": "The Lord Speaks to Lehi Again",
     "refs": [
       "1 Nephi 7:1",
       "1 Nephi 7:2"
     ],
-    "summary": "After Lehi finished prophesying concerning his seed, the Lord spoke to him again. The Lord commanded him that Nephi and his brothers should return to Jerusalem and bring Ishmael and his family into the wilderness.",
+    "summary": "After Lehi finished prophesying concerning his seed, the Lord spoke to him again and commanded that Nephi and his brothers return to the land of Jerusalem and bring Ishmael and his family into the wilderness.",
     "characters": [
-      "Lehi",
-      "Nephi",
-      "The Lord",
-      "Nephi’s brothers"
+      "Lehi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After Lehi finished prophesying concerning his seed, the Lord spoke to him again.",
+        "text": "Lehi had finished prophesying concerning his seed before the Lord spoke to him again.",
         "refs": [
           "1 Nephi 7:1"
         ]
       },
       {
-        "text": "The Lord said it was not meet for Lehi to take his family into the wilderness alone; his sons should take daughters to wife and raise up seed unto the Lord in the land of promise.",
+        "text": "The Lord said Lehi should not take his family into the wilderness alone, and that his sons should take daughters to wife and raise up seed unto the Lord in the land of promise.",
         "refs": [
           "1 Nephi 7:1"
         ]
       },
       {
-        "text": "The Lord commanded Lehi that Nephi and his brothers should return to Jerusalem and bring Ishmael and his family into the wilderness.",
+        "text": "The Lord commanded Lehi that Nephi and his brothers should return to the land of Jerusalem and bring Ishmael and his family into the wilderness.",
         "refs": [
           "1 Nephi 7:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi receives the Lord’s communication; the account does not require showing the Lord visibly."
+      "Lehi may be shown receiving the communication without depicting the Lord."
     ],
     "unspecified_visual_details": [
-      "The location and visual form of the Lord’s communication are not stated."
+      "The location and manner of the Lord’s communication are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord commanded him",
+        "text": "the Lord spake unto him again",
+        "refs": [
+          "1 Nephi 7:1"
+        ]
+      },
+      {
+        "text": "the Lord commanded him that I, Nephi, and my brethren, should again return unto the land of Jerusalem, and bring down Ishmael and his family into the wilderness.",
         "refs": [
           "1 Nephi 7:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The Lord speaks in the account but is not described as visibly appearing. The verses do not place Nephi, his brothers, Ishmael, or Ishmael’s family at the communication."
+    ],
     "prohibited_inventions": [
-      "Do not depict Ishmael or his family as present during the command; their presence at this moment is not stated.",
-      "Do not depict a visible form or appearance for the Lord; none is described.",
-      "Do not depict Jerusalem, the wilderness, or the land of promise as the location of the command."
+      "Do not depict the Lord’s appearance.",
+      "Do not show Nephi, his brothers, Ishmael, or Ishmael’s family present during the communication.",
+      "Do not depict the commanded journey as already occurring or assign a location to the communication."
     ],
     "importance": "normal"
   },
@@ -340,37 +345,44 @@
       "1 Nephi 7:14",
       "1 Nephi 7:15"
     ],
-    "summary": "A speaker says that faithfulness will bring the land of promise, reports the rejection of prophets and the expulsion of his father, and warns his listeners against returning to Jerusalem.",
+    "summary": "The speaker promises the land of promise on condition of faithfulness, foretells Jerusalem’s destruction, reports the rejection of prophets and persecution of his father, and warns those addressed against returning to Jerusalem.",
     "characters": [
-      "Unnamed speaker",
-      "Unnamed listeners"
+      "Speaker not named in the supplied verses",
+      "People addressed, not named in the supplied verses"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says that if they are faithful to the Lord, they shall obtain the land of promise, and that the Lord’s words concerning Jerusalem’s destruction must be fulfilled.",
+        "text": "The speaker says that if they are faithful to the Lord, they shall obtain the land of promise and that the Lord’s words concerning Jerusalem’s destruction must be fulfilled.",
         "refs": [
           "1 Nephi 7:13"
         ]
       },
       {
-        "text": "The speaker says the Spirit of the Lord ceaseth soon to strive with them. He reports that they rejected the prophets, cast Jeremiah into prison, sought his father’s life, and drove his father out of the land.",
+        "text": "The speaker says the Spirit of the Lord will soon cease to strive with them and reports that they rejected the prophets and cast Jeremiah into prison.",
         "refs": [
           "1 Nephi 7:14"
         ]
       },
       {
-        "text": "The speaker warns his listeners that they will perish if they return to Jerusalem and says the Spirit of the Lord constrains him to speak.",
+        "text": "The speaker reports that people sought his father’s life and drove him out of the land.",
+        "refs": [
+          "1 Nephi 7:14"
+        ]
+      },
+      {
+        "text": "The speaker warns those addressed that returning to Jerusalem will mean perishing with its people and says the Spirit of the Lord constrains him to speak.",
         "refs": [
           "1 Nephi 7:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker addresses listeners; the events he reports are not happening in the present scene."
+      "The speaker can be shown addressing listeners, without staging the events he reports or foretells."
     ],
     "unspecified_visual_details": [
-      "The speaker’s and listeners’ appearances, their positions, their reactions, and the surroundings are not described."
+      "The setting, clothing, physical appearances, arrangement of listeners, and gestures are unspecified.",
+      "The listeners’ reactions are not described."
     ],
     "spoken_dialogue": [
       {
@@ -378,31 +390,36 @@
         "refs": [
           "1 Nephi 7:13"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker not named in the supplied verses"
       },
       {
         "text": "For behold, the Spirit of the Lord ceaseth soon to strive with them;",
         "refs": [
           "1 Nephi 7:14"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker not named in the supplied verses"
       },
       {
         "text": "Now behold, I say unto you that if ye will return unto Jerusalem ye shall also perish with them.",
         "refs": [
           "1 Nephi 7:15"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker not named in the supplied verses"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Jerusalem’s destruction is foretold; Jeremiah’s imprisonment and the driving out of the speaker’s father are reported, not present events."
+      "The supplied verses do not name the speaker or identify the listeners as his brethren. Identifications attributed to verse 8 or a previous scene cannot be established from these supplied verses alone.",
+      "Each dialogue selection is a contiguous exact excerpt; ending an excerpt at existing punctuation does not omit words within that excerpt.",
+      "Jeremiah’s imprisonment and the father’s persecution are reported past events. Jerusalem’s destruction is foretold, not depicted as presently occurring.",
+      "Obtaining the land of promise is conditional on faithfulness."
     ],
     "prohibited_inventions": [
-      "Do not depict Jerusalem’s destruction, Jeremiah’s imprisonment, or the speaker’s father being driven out as events happening in this scene.",
-      "Do not identify the speaker or listeners by name or relationship from these verses alone.",
-      "Do not give the Spirit of the Lord a visible appearance."
+      "Do not import character identities or relationships from unsupplied verses or scenes.",
+      "Do not stage Jeremiah’s imprisonment, the persecution or expulsion of the speaker’s father, or Jerusalem’s destruction as events occurring during this address.",
+      "Do not portray Jeremiah or the speaker’s father as physically present merely because they are mentioned.",
+      "Do not invent a visible appearance for the Lord or the Spirit of the Lord.",
+      "Do not invent a departure, a return to Jerusalem, or a response from the listeners."
     ],
     "importance": "normal"
   },
@@ -412,23 +429,21 @@
     "refs": [
       "1 Nephi 7:16"
     ],
-    "summary": "After Nephi spoke, his brethren became angry, laid their hands on him, and bound him with cords, seeking to leave him in the wilderness to be devoured by wild beasts.",
+    "summary": "After Nephi spoke to his brethren, they became angry, laid their hands on him, and bound him with cords. They sought to take his life by leaving him in the wilderness to be devoured by wild beasts.",
     "characters": [
       "Nephi",
       "Nephi's brethren"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After Nephi spoke, his brethren were angry with him.",
+        "text": "After Nephi spoke to his brethren, they were angry with him.",
         "refs": [
           "1 Nephi 7:16"
         ]
       },
       {
-        "text": "His brethren laid their hands on Nephi and bound him with cords.",
+        "text": "His brethren laid their hands on him and bound him with cords.",
         "refs": [
           "1 Nephi 7:16"
         ]
@@ -441,17 +456,24 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is shown bound with cords by unnamed brethren."
+      "Nephi can be shown being bound with cords by his brethren."
     ],
     "unspecified_visual_details": [
-      "The number and individual identities of the brethren, exact binding method, and specific wilderness setting are not stated."
+      "The brethren's number and individual identities, the binding method, and the location where they bound Nephi are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they did bind me with cords",
+        "refs": [
+          "1 Nephi 7:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify the brethren as Laman or Lemuel.",
-      "Do not depict wild beasts attacking Nephi; the verse describes the brethren's intention, not an attack."
+      "Do not identify the brethren individually.",
+      "Do not depict Nephi being abandoned or attacked by wild beasts; these are intentions, not events narrated in the verse."
     ],
     "importance": "normal"
   },
@@ -564,7 +586,7 @@
     "refs": [
       "1 Nephi 7:19"
     ],
-    "summary": "Nephi’s brethren were angry again and sought to lay hands on him. One of Ishmael’s daughters, her mother, and one of Ishmael’s sons pleaded with them. They softened their hearts and ceased striving to take Nephi’s life.",
+    "summary": "Nephi’s brethren were angry with him again and sought to lay hands on him. One of Ishmael’s daughters, her mother, and one of Ishmael’s sons pleaded with them. The brethren softened their hearts and ceased striving to take Nephi’s life.",
     "characters": [
       "Nephi",
       "Nephi’s brethren",
@@ -601,7 +623,14 @@
       "The verse does not specify the location, the family members’ words, or their gestures."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they did cease striving to take away my life.",
+        "refs": [
+          "1 Nephi 7:19"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not identify the brethren as Laman and Lemuel.",
@@ -672,37 +701,44 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Forgiveness and Prayer",
+    "title": "Forgiveness, Prayer, and Renewed Travel",
     "refs": [
       "1 Nephi 7:21"
     ],
-    "summary": "Nephi forgave his brothers and exhorted them to pray for forgiveness. They prayed, then the group traveled toward their father's tent.",
+    "summary": "Nephi forgave them and exhorted them to pray to the Lord for forgiveness. They prayed. Afterward, the group resumed traveling toward their father's tent.",
     "characters": [
       "Nephi",
-      "Nephi's brothers"
+      "The people Nephi forgave"
     ],
     "locations": [
-      "On the journey toward their father's tent"
+      "Unspecified place where forgiveness and prayer occur",
+      "Journey toward their father's tent, after the prayer"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi frankly forgave them for what they had done and exhorted them to pray to the Lord their God for forgiveness.",
+        "text": "Nephi forgave them for all they had done and exhorted them to pray to the Lord their God for forgiveness.",
         "refs": [
           "1 Nephi 7:21"
         ]
       },
       {
-        "text": "They prayed; afterward, the group traveled toward the tent of Nephi's father.",
+        "text": "They prayed to the Lord.",
+        "refs": [
+          "1 Nephi 7:21"
+        ]
+      },
+      {
+        "text": "After the prayer, the group traveled again toward their father's tent.",
         "refs": [
           "1 Nephi 7:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brothers can be shown praying after Nephi's exhortation; their travel afterward is a distinct moment."
+      "The prayer and the subsequent travel can be shown as distinct, sequential moments."
     ],
     "unspecified_visual_details": [
-      "The brothers' identities beyond being the people Nephi forgave, the prayer's words, and the setting's visual details are unspecified."
+      "The people's identities and number, the prayer's words, and the surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -727,7 +763,10 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent prayer dialogue or depict the prayer as having specified words."
+      "Do not identify the people forgiven as brothers based on this verse alone.",
+      "Do not invent spoken words for the exhortation or prayer.",
+      "Do not show the group arriving at the tent.",
+      "Do not depict the Lord as visibly appearing."
     ],
     "importance": "normal"
   },

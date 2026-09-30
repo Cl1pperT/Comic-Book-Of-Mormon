@@ -7,17 +7,13 @@
       "Alma 14:2",
       "Alma 14:3"
     ],
-    "summary": "After Alma finishes speaking, many believe and begin to repent and search the scriptures, while the majority want Alma and Amulek destroyed and seek to put them away secretly.",
+    "summary": "After Alma finishes speaking, many believe his words and begin to repent and search the scriptures. The greater part are angry with Alma and Amulek, desire to destroy them, and seek to put them away secretly.",
     "characters": [
       "Alma",
       "Amulek",
-      "Zeezrom",
-      "believers among the people",
-      "opponents among the people"
+      "the people"
     ],
-    "locations": [
-      "Ammonihah"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "After Alma finished speaking, many believed his words and began to repent and search the scriptures.",
@@ -26,30 +22,53 @@
         ]
       },
       {
-        "text": "Most wanted Alma and Amulek destroyed, were angry at Alma and Amulek, and sought to put them away secretly.",
+        "text": "The greater part desired to destroy Alma and Amulek.",
         "refs": [
-          "Alma 14:2",
-          "Alma 14:3"
+          "Alma 14:2"
         ]
       },
       {
-        "text": "The opponents were angry about Alma's plain words to Zeezrom and accused Amulek of lying and reviling against their law, lawyers, and judges.",
+        "text": "They were angry about Alma's plain words to Zeezrom and said Amulek had lied and reviled against their law, lawyers, and judges.",
         "refs": [
           "Alma 14:2"
+        ]
+      },
+      {
+        "text": "Angry with Alma and Amulek for testifying plainly against their wickedness, they sought to put them away secretly.",
+        "refs": [
+          "Alma 14:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Some people may be shown consulting scriptures while others react angrily to the speakers."
+      "Some people may be shown searching scriptures while others react angrily."
     ],
     "unspecified_visual_details": [
-      "The appearance and arrangement of the people, scriptures, and surroundings."
+      "The appearance and arrangement of the people, scriptures, and surroundings.",
+      "Whether Amulek is physically present."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "many of them did believe on his words, and began to repent, and to search the scriptures.",
+        "refs": [
+          "Alma 14:1"
+        ]
+      },
+      {
+        "text": "they sought to put them away privily.",
+        "refs": [
+          "Alma 14:3"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Zeezrom is mentioned as the recipient of Alma's earlier words; these verses do not place him in the scene.",
+      "The accusations against Amulek are reported, not quoted dialogue."
+    ],
     "prohibited_inventions": [
-      "Do not depict the attempted secret removal as an event that occurs; the text says they did not do it."
+      "Do not depict the secret removal or destruction as having occurred.",
+      "Do not invent spoken dialogue or a location."
     ],
     "importance": "normal"
   },
@@ -182,19 +201,32 @@
       "Alma 14:8",
       "Alma 14:9"
     ],
-    "summary": "The people bring together wives, children, and others who believe or have been taught to believe, and cast them and their scriptural records into a fire. Alma and Amulek are taken to witness the destruction.",
+    "summary": "Wives and children are brought together. Those who believed or had been taught to believe are cast into the fire, along with records containing holy scriptures. Alma and Amulek are taken to the place of martyrdom to witness the destruction of those consumed by fire.",
     "characters": [
       "Alma",
       "Amulek",
-      "women and children who believe or have been taught to believe",
-      "the people casting them into the fire"
+      "wives and children",
+      "those who believed or had been taught to believe",
+      "unnamed people carrying out the actions"
     ],
     "locations": [
-      "Ammonihah"
+      "the place of martyrdom"
     ],
     "explicit_facts": [
       {
-        "text": "Believers or those taught to believe, including wives and children brought together, were cast into a fire; records containing holy scriptures were cast in too.",
+        "text": "Wives and children were brought together.",
+        "refs": [
+          "Alma 14:8"
+        ]
+      },
+      {
+        "text": "Those who believed or had been taught to believe in the word of God were cast into the fire.",
+        "refs": [
+          "Alma 14:8"
+        ]
+      },
+      {
+        "text": "Records containing holy scriptures were also cast into the fire.",
         "refs": [
           "Alma 14:8"
         ]
@@ -207,18 +239,28 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The fire and records may be visible, with Alma and Amulek brought nearby to witness."
+      "Alma and Amulek can be shown near enough to witness the fire."
     ],
     "unspecified_visual_details": [
-      "The fire's size, the people's individual identities, and the exact location of the place of martyrdom."
+      "The fire's size",
+      "The individuals' appearances",
+      "The place of martyrdom's precise setting"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they brought their wives and children together,",
+        "refs": [
+          "Alma 14:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The source describes people consumed by fire; represent the event without graphic detail."
+      "Depict the described actions without graphic injury."
     ],
     "prohibited_inventions": [
-      "Do not identify the victims by personal names or invent relationships beyond the stated wives and children."
+      "Do not assign names or biographies to the unnamed people.",
+      "Do not add dialogue, motives, or events."
     ],
     "importance": "normal"
   },
@@ -458,49 +500,54 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Sent to prison",
+    "title": "Questioned in prison after three days",
     "refs": [
       "Alma 14:17",
       "Alma 14:18"
     ],
-    "summary": "Alma and Amulek answer the judge nothing. He strikes them again and delivers them to officers to be imprisoned. After three days, lawyers, judges, priests, and teachers of Nehor's profession come to question them, but they answer nothing.",
+    "summary": "Three days after Alma and Amulek are cast into prison, many lawyers, judges, priests, and teachers of the profession of Nehor enter the prison and question them. Alma and Amulek answer nothing.",
     "characters": [
       "Alma",
       "Amulek",
-      "the chief judge of the land",
-      "officers",
-      "lawyers, judges, priests, and teachers of the profession of Nehor"
+      "many lawyers, judges, priests, and teachers of the profession of Nehor"
     ],
     "locations": [
       "prison"
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek answered the judge nothing; he struck them again and delivered them to officers to be cast into prison.",
+        "text": "Earlier, Alma and Amulek answered an unnamed man nothing; he struck them again and delivered them to officers to be cast into prison.",
         "refs": [
           "Alma 14:17"
         ]
       },
       {
-        "text": "After they had been in prison three days, many lawyers, judges, priests, and teachers of Nehor's profession came to question them; they answered nothing.",
+        "text": "After three days in prison, many lawyers, judges, priests, and teachers of the profession of Nehor came to question Alma and Amulek, who answered nothing.",
         "refs": [
           "Alma 14:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show the later questioning inside the prison, keeping it distinct from the earlier transfer into custody."
+      "Depict the visitors questioning Alma and Amulek inside the prison, without depicting the earlier striking and transfer as simultaneous events."
     ],
     "unspecified_visual_details": [
-      "The prison's construction and the individual identities of the visitors."
+      "The prison's construction and the visitors' individual appearances."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "but they answered them nothing.",
+        "refs": [
+          "Alma 14:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The delivery to prison and the visit three days later are separate moments."
+      "The striking and transfer into custody occur before the visit three days later."
     ],
     "prohibited_inventions": [
-      "Do not invent the questions asked by the visitors; the source only summarizes them."
+      "Do not invent the visitors' questions or depict the earlier striking and transfer as part of the prison visit."
     ],
     "importance": "normal"
   },
@@ -637,12 +684,12 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Many days in prison",
+    "title": "The visit to the prison",
     "refs": [
       "Alma 14:22",
       "Alma 14:23"
     ],
-    "summary": "For many days the people mock Alma and Amulek, withhold food and water, and take their clothes while they remain bound in prison. On the twelfth day of the tenth month, the chief judge and many teachers and lawyers enter the prison.",
+    "summary": "Alma and Amulek suffer many days of mockery and deprivation while bound in prison. After those days, the chief judge, many teachers, and lawyers enter the prison where they are bound.",
     "characters": [
       "Alma",
       "Amulek",
@@ -654,31 +701,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people mocked Alma and Amulek for many days, withheld food and water, took their clothes, and kept them bound with strong cords in prison.",
+        "text": "Alma and Amulek were mocked for many days, denied food and water, deprived of their clothes, and bound with strong cords in prison.",
         "refs": [
           "Alma 14:22"
         ]
       },
       {
-        "text": "After many days, on the twelfth day of the tenth month in the tenth year of the reign of the judges, the chief judge and many teachers and lawyers entered the prison where they were bound.",
+        "text": "After they had suffered for many days, the chief judge over the land of Ammonihah and many teachers and lawyers entered the prison where Alma and Amulek were bound. This was the twelfth day of the tenth month in the tenth year of the reign of the judges over the people of Nephi.",
         "refs": [
           "Alma 14:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek may be shown in prison with cords, deprived of clothing, food, and water; keep nudity non-explicit."
+      "At the time of the visit, Alma and Amulek can be shown bound with cords inside the prison."
     ],
     "unspecified_visual_details": [
-      "The exact depiction of their state after many days and the prison's interior."
+      "The prison's interior and the visitors' appearances are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "after they had thus suffered for many days",
+        "refs": [
+          "Alma 14:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Verse 23 marks a later visit after many days; do not imply this is the next day after verse 20."
+      "The earlier mockery and deprivation are background to the later prison visit, not simultaneous action.",
+      "The words spoken during the mockery are not supplied."
     ],
     "prohibited_inventions": [
-      "Do not depict explicit nudity."
+      "Do not invent the mockers' words or identities.",
+      "Do not depict explicit nudity or invent injuries."
     ],
     "importance": "normal"
   },
@@ -814,52 +870,72 @@
       "Alma 14:27",
       "Alma 14:28"
     ],
-    "summary": "The fearful people fall before reaching the prison's outer door. The earth shakes, the prison walls split and fall, killing those who had struck Alma and Amulek. Alma and Amulek come out unharmed, and all inside except them are slain.",
+    "summary": "Those overcome by fear fall before reaching the prison's outer door. The earth shakes, and the prison walls split and fall, killing those inside except Alma and Amulek. Loosed from their bands and unharmed, Alma and Amulek come out into the city.",
     "characters": [
       "Alma",
       "Amulek",
       "the chief judge",
-      "lawyers, priests, and teachers who struck Alma and Amulek",
-      "other people inside the prison"
+      "the lawyers, priests, and teachers who struck Alma and Amulek",
+      "others inside the prison"
     ],
     "locations": [
-      "prison"
+      "the prison",
+      "the city"
     ],
     "explicit_facts": [
       {
-        "text": "The people were so afraid they fell to the earth and did not reach the outer door.",
+        "text": "Those overcome by fear fell to the earth before reaching the prison's outer door.",
         "refs": [
           "Alma 14:27"
         ]
       },
       {
-        "text": "The earth shook mightily, prison walls split in two and fell, and the chief judge and the lawyers, priests, and teachers who had struck Alma and Amulek were slain by the fall.",
+        "text": "The earth shook mightily; the prison walls split and fell.",
         "refs": [
           "Alma 14:27"
         ]
       },
       {
-        "text": "Alma and Amulek came out of the prison unharmed; the prison had fallen, and everyone inside except them was slain.",
+        "text": "The chief judge and the lawyers, priests, and teachers who had struck Alma and Amulek were killed by the falling walls.",
+        "refs": [
+          "Alma 14:27"
+        ]
+      },
+      {
+        "text": "Everyone within the prison walls except Alma and Amulek was killed.",
+        "refs": [
+          "Alma 14:28"
+        ]
+      },
+      {
+        "text": "Alma and Amulek were unharmed, were loosed from their bands, and came out of the prison into the city.",
         "refs": [
           "Alma 14:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Depict the earthquake and collapsing walls as they happen, without graphic injury or body detail."
+      "The shaking and falling walls can be shown as they happen, without graphic injury."
     ],
     "unspecified_visual_details": [
-      "The precise design of the prison and the appearance of the earthquake."
+      "The prison's design, the city's appearance, and the people's clothing are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma and Amulek came forth out of the prison, and they were not hurt;",
+        "refs": [
+          "Alma 14:28"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The text attributes their deliverance to power granted by the Lord according to their faith in Christ.",
-      "The deaths are narrated as occurring during the collapse; do not add gore."
+      "The verse attributes Alma and Amulek's power to the Lord, according to their faith in Christ."
     ],
     "prohibited_inventions": [
       "Do not depict blood, wounds, or severed body parts.",
-      "Do not show Alma or Amulek harmed."
+      "Do not depict Alma or Amulek as injured.",
+      "Do not invent a visible appearance of the Lord."
     ],
     "importance": "major"
   },
@@ -870,42 +946,63 @@
       "Alma 14:28",
       "Alma 14:29"
     ],
-    "summary": "Alma and Amulek come into the city. People gather after hearing a great noise, see them coming from the fallen prison walls, and flee in great fear.",
+    "summary": "Alma and Amulek come forth from the fallen prison into the city, unharmed and loosed from their bands. People gather after hearing a great noise, see them and the fallen walls, then flee in fear.",
     "characters": [
       "Alma",
       "Amulek",
       "the people coming together by multitudes"
     ],
     "locations": [
-      "the city of Ammonihah"
+      "the prison",
+      "the city"
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek came forth from the prison into the city.",
+        "text": "Alma and Amulek came forth from the prison into the city, unharmed and loosed from their bands.",
         "refs": [
           "Alma 14:28"
         ]
       },
       {
-        "text": "People heard a great noise and came together in multitudes to learn its cause; seeing Alma and Amulek come from the fallen prison walls, they were struck with great fear and fled.",
+        "text": "The prison had fallen to the earth.",
+        "refs": [
+          "Alma 14:28"
+        ]
+      },
+      {
+        "text": "People heard a great noise and came together in multitudes to learn its cause.",
+        "refs": [
+          "Alma 14:29"
+        ]
+      },
+      {
+        "text": "Seeing Alma and Amulek come forth and the fallen prison walls, the people were struck with great fear and fled.",
         "refs": [
           "Alma 14:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The collapsed prison may be visible behind Alma and Amulek as the crowd retreats."
+      "The fallen prison walls may be visible behind Alma and Amulek as the people flee."
     ],
     "unspecified_visual_details": [
-      "The city's layout and the appearance of the crowd."
+      "The city's layout and the appearance of the people."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma and Amulek came forth out of the prison, and they were not hurt;",
+        "refs": [
+          "Alma 14:28"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The goat fleeing with her young from two lions is a simile describing the people's flight, not a literal animal scene."
+      "The comparison to a goat fleeing with her young from two lions is a simile, not an event to depict."
     ],
     "prohibited_inventions": [
-      "Do not depict goats or lions as present."
+      "Do not depict goats or lions as present.",
+      "Do not give the city a name not supplied in these verses."
     ],
     "importance": "normal"
   }

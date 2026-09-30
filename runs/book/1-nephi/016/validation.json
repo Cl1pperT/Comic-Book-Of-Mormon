@@ -1,5 +1,5 @@
 {
-  "stamp": "aa38266bd0b46c1cbe48118368c0edd4b019a590a355b9eb80859533f50fae24",
+  "stamp": "939249bffe85deba8fe45a0a879714dbfb64e3eba4796c92eca797430ebbd6c4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,10 +10,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The group’s identities and number are unspecified; depict them only as an unnamed group. The text places the father’s tent in the valley but does not establish that the narrator or group is physically at the tent."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -22,32 +20,24 @@
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse does not specify that Lehi is inside or beside the tent when the voice speaks; the tent location is an inference."
+        "The cited verse does not specify that Lehi was at his tent when the voice spoke; the tent location is an inference from other context."
       ]
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -58,64 +48,53 @@
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The sorrow and humbling are source-supported, but their specific visible expressions (sorrowful appearance and subdued demeanor) are visual interpretations, not described appearances.",
+        "The preceding scene is consistent in chronology; it uses verse 23, before this scene's events in verses 24–25. The exact setting and the Lord's words are unspecified. "
+      ]
     },
     "scene_019": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source says “our wives” but does not identify them here specifically as Ishmael’s daughters."
+      ]
+    },
+    "scene_020": {
       "status": "PASS",
       "issues": []
     },
-    "scene_020": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
-    },
     "scene_021": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_022": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_023": {
       "status": "PASS",
@@ -126,9 +105,9 @@
       "issues": []
     },
     "scene_025": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Ishmael’s death and burial are reported, but the verse does not describe a visible moment or say whether his body is shown. Treat his character listing as a reference to the reported event, not authorization to depict him or a burial ceremony."
       ]
     },
     "scene_026": {
@@ -138,7 +117,7 @@
     "scene_027": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nahom is specified for Ishmael’s burial in the preceding verse, but the proposal to kill Lehi and Nephi is not explicitly located there."
+        "The cited verse does not specify that this exchange took place at Nahom; that location is inferred from the preceding account."
       ]
     },
     "scene_028": {
@@ -148,7 +127,7 @@
     "scene_029": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse refers to “us” without listing who is present; the character list should not imply that each named person is specifically confirmed in this moment."
+        "The cited verse refers to the group collectively and does not identify its members individually as the listed characters."
       ]
     }
   }

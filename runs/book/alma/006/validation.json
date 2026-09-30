@@ -1,27 +1,31 @@
 {
-  "stamp": "cb85a4d69d457f3058083a75d1b2567e95e0501f9a198f4b011b522cc8d70243",
+  "stamp": "cc0ff016337072d1266bf98c29dce99223372e93ec153ff4cc05a887d10bd385",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The supplied text supports the stated actions and Zarahemla location. The visual inference that Alma places his hands on those ordained is supported by the explicit phrase “by laying on his hands.”",
+        "The narration is an exact excerpt from Alma 6:4. Its wording applies to the beginning of the order-setting, not necessarily to all preceding actions occurring simultaneously; the notes correctly caution against merging the distinct actions."
       ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Zarahemla is listed as the scene location, but Alma 6:5–6 does not explicitly locate the gathering there; treat it as an inference from the preceding context, not a stated fact."
+        "Summary and reasonable visual inference state that the children of God gather together; the verses command them to gather often but do not narrate a specific gathering occurring. Treat any depiction of an actual gathering as an illustrative inference, not a narrated event."
       ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The characterization of Alma as traveling is directly supported, but his specific route, the valley’s and city’s appearance, and whether he crosses the river are unspecified; depict none of these as established details.",
+        "The previous scene concerns gathering, fasting, and prayer; scene_003 follows after Alma made regulations and departed, so avoid presenting the scenes as simultaneous."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narrative places Alma in the valley of Gideon, but this verse does not specify the exact gathering place's visual appearance or how many people are present; keep those details unspecified."
+      ]
     }
   }
 }

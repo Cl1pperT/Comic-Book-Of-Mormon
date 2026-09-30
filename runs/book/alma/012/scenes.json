@@ -6,9 +6,9 @@
       "Alma 12:1",
       "Alma 12:2"
     ],
-    "summary": "After Amulek silences Zeezrom, Alma begins to speak to him before the surrounding multitude, establishing Amulek’s words and unfolding the scriptures further.",
+    "summary": "Seeing that Amulek’s words have silenced Zeezrom and that Zeezrom has begun to tremble, Alma begins speaking to him, establishing Amulek’s words and unfolding the scriptures further. The surrounding multitude hears him.",
     "characters": [
-      "Alma (son of Alma)",
+      "Alma",
       "Zeezrom",
       "Amulek",
       "the surrounding multitude"
@@ -18,36 +18,44 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma sees that Amulek's words have silenced Zeezrom, who trembles under awareness of his guilt.",
+        "text": "Amulek’s words have silenced Zeezrom, and Zeezrom begins to tremble under a consciousness of his guilt.",
         "refs": [
           "Alma 12:1"
         ]
       },
       {
-        "text": "Alma opens his mouth and begins speaking to Zeezrom, establishing Amulek's words and explaining the scriptures further.",
+        "text": "Alma begins speaking to Zeezrom to establish Amulek’s words and unfold the scriptures further.",
         "refs": [
           "Alma 12:1"
         ]
       },
       {
-        "text": "The multitude hears Alma's words; it is great in number.",
+        "text": "The surrounding people hear Alma’s words, and the multitude is great.",
         "refs": [
           "Alma 12:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Zeezrom are positioned so Alma can address him.",
-      "The multitude is gathered within hearing distance."
+      "Alma and Zeezrom are within speaking distance.",
+      "The multitude is within hearing distance."
     ],
     "unspecified_visual_details": [
       "The precise location, clothing, ages, and arrangement of the crowd."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now the words that Alma spake unto Zeezrom were heard by the people round about;",
+        "refs": [
+          "Alma 12:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show any unseen prior exchange as a present action."
+      "Do not depict Amulek’s earlier words as a new present action.",
+      "Do not invent the words Alma speaks."
     ],
     "importance": "normal"
   },

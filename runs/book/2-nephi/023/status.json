@@ -4,21 +4,17 @@
   "verses": 22,
   "scenes": 16,
   "counts": {
-    "PASS": 8,
-    "PASS WITH WARNINGS": 7,
-    "REJECT": 1
+    "PASS": 2,
+    "PASS WITH WARNINGS": 14,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "Showing a banner already raised turns the verse’s command into an event that the source does not report."
-    ]
-  },
-  "calls": 10,
+  "rejected": {},
+  "calls": 12,
   "tokens": {
-    "input_tokens": 70278,
-    "cached_input_tokens": 31488,
+    "input_tokens": 83604,
+    "cached_input_tokens": 43776,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11090,
-    "reasoning_output_tokens": 2895
+    "output_tokens": 10642,
+    "reasoning_output_tokens": 1813
   }
 }

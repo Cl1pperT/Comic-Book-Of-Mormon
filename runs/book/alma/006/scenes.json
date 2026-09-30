@@ -1,61 +1,72 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Church Order Established",
+    "title": "Church Order in Zarahemla",
     "refs": [
       "Alma 6:1",
       "Alma 6:2",
       "Alma 6:3",
       "Alma 6:4"
     ],
-    "summary": "Alma ordains priests and elders to preside over the church in Zarahemla. Repentant nonmembers are baptized and received, while unrepentant, prideful members are rejected and their names blotted out. The church order is established in the city.",
+    "summary": "After speaking to the people of the church in Zarahemla, Alma ordains priests and elders by laying on his hands. Repentant nonmembers are baptized and received into the church. Members who do not repent and humble themselves are rejected, and their names are blotted out. They begin to establish the order of the church in Zarahemla.",
     "characters": [
       "Alma",
       "priests and elders",
-      "repentant nonmembers",
-      "unrepentant, prideful church members"
+      "repentant people who did not belong to the church",
+      "church members who did not repent and humble themselves"
     ],
     "locations": [
       "Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "Alma ordained priests and elders by laying on his hands to preside and watch over the church.",
+        "text": "After speaking to the people of the church in Zarahemla, Alma ordained priests and elders by laying on his hands to preside and watch over the church.",
         "refs": [
           "Alma 6:1"
         ]
       },
       {
-        "text": "Repentant people who did not belong to the church were baptized unto repentance and received into it.",
+        "text": "People who did not belong to the church and repented of their sins were baptized unto repentance and received into the church.",
         "refs": [
           "Alma 6:2"
         ]
       },
       {
-        "text": "Church members who did not repent and humble themselves, including those lifted up in pride, were rejected and their names blotted out.",
+        "text": "Church members who did not repent and humble themselves before God were rejected, and their names were blotted out.",
         "refs": [
           "Alma 6:3"
         ]
       },
       {
-        "text": "The order of the church was established in the city of Zarahemla.",
+        "text": "They began to establish the order of the church in Zarahemla.",
         "refs": [
           "Alma 6:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma lays his hands on the priests and elders as he ordains them."
+      "Alma places his hands on those he ordains."
     ],
     "unspecified_visual_details": [
-      "The appearance and number of the priests, elders, and other people.",
-      "The specific baptismal method and setting."
+      "The appearance and number of the people.",
+      "The baptismal setting and method.",
+      "The physical setting of the ordinations."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And thus they began to establish the order of the church in the city of Zarahemla.",
+        "refs": [
+          "Alma 6:4"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verses report distinct actions; do not depict them as simultaneous."
+    ],
     "prohibited_inventions": [
-      "Do not depict unmentioned individual reactions or identify any person among the groups."
+      "Do not invent individual identities, reactions, or dialogue.",
+      "Do not depict a specific baptismal method or a name-blotting action not described as visibly occurring."
     ],
     "importance": "normal"
   },
@@ -122,14 +133,15 @@
     "refs": [
       "Alma 6:7"
     ],
-    "summary": "After making the regulations, Alma departs from the church in Zarahemla, crosses east of the river Sidon, and goes to the valley of Gideon, where a city has been built and named Gideon.",
+    "summary": "After making the regulations, Alma departs from the church in Zarahemla and goes east of the river Sidon into the valley of Gideon. A city called Gideon had been built there and named after the man slain by Nehor with a sword.",
     "characters": [
       "Alma"
     ],
     "locations": [
       "Zarahemla",
       "river Sidon",
-      "valley of Gideon"
+      "valley of Gideon",
+      "city of Gideon"
     ],
     "explicit_facts": [
       {
@@ -139,24 +151,39 @@
         ]
       },
       {
-        "text": "A city had been built in the valley and called Gideon, after the man slain by Nehor with the sword.",
+        "text": "A city called Gideon had been built in the valley of Gideon.",
+        "refs": [
+          "Alma 6:7"
+        ]
+      },
+      {
+        "text": "The city and valley were called Gideon after the man slain by Nehor with a sword.",
         "refs": [
           "Alma 6:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma travels from Zarahemla across the river Sidon toward the valley of Gideon."
+      "Alma can be shown traveling toward the valley of Gideon."
     ],
     "unspecified_visual_details": [
-      "The route, appearance of the river crossing, and architecture of either city.",
-      "Gideon and Nehor are mentioned as part of the city's history, not shown as present."
+      "Alma's route, whether he crosses the river, and the appearance of the valley and city are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "he departed from them, yea, from the church which was in the city of Zarahemla,",
+        "refs": [
+          "Alma 6:7"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Gideon and Nehor are mentioned only in the account of the place name; their encounter is not a present event."
+    ],
     "prohibited_inventions": [
-      "Do not depict Gideon or Nehor in the present scene."
+      "Do not depict Gideon or Nehor in the present scene or show the historical killing.",
+      "Do not depict a river crossing as established fact."
     ],
     "importance": "normal"
   },

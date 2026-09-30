@@ -4,27 +4,17 @@
   "verses": 25,
   "scenes": 15,
   "counts": {
-    "PASS": 11,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 3
+    "PASS": 12,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_012": [
-      "The address continues from Jacob's self-identification in 2 Nephi 10:1. Labeling the speaker of 10:20–21 and its dialogue as “Unnamed speaker” contradicts that continuity."
-    ],
-    "scene_013": [
-      "The claim that the speaker cannot be identified ignores the continuing address identified as Jacob's in 2 Nephi 10:1. The preceding scene repeats this speaker error."
-    ],
-    "scene_014": [
-      "The claim that the speaker's identity is unspecified ignores the continuing address identified as Jacob's in 2 Nephi 10:1."
-    ]
-  },
-  "calls": 10,
+  "rejected": {},
+  "calls": 15,
   "tokens": {
-    "input_tokens": 71769,
-    "cached_input_tokens": 27264,
+    "input_tokens": 106347,
+    "cached_input_tokens": 48384,
     "cache_write_input_tokens": 0,
-    "output_tokens": 11951,
-    "reasoning_output_tokens": 3622
+    "output_tokens": 14816,
+    "reasoning_output_tokens": 4862
   }
 }

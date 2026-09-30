@@ -1,58 +1,68 @@
 {
-  "stamp": "ca7bc25c20d6285d0ff10ada8b77b511e280c4973b350ef597858a329f137a78",
+  "stamp": "49024703697d131865404bef8a125b5284c2dfa64ded5879614cf0e53cd2c06b",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Showing a banner already raised turns the verse’s command into an event that the source does not report."
+        "“Isaiah the son of Amoz saw the burden” is the verse’s report, not a narrated present-tense visual event; retain the stated prohibition against depicting this as an event in Babylon."
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 2 is a command, not a report that the banner or signals are actually raised. Keep the visual inference conditional and do not depict execution of the command as occurring."
+      ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 5 does not clearly specify who carries the weapons; avoid assigning them to particular members of the multitude."
+        "The speaker’s identity is unspecified; off-screen speech is a visual treatment, not an explicit source fact. Do not imply a visible or identified speaker."
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses are prophetic description; “may be shown” is a visual choice and should not present the gathering or arrival as a separately verified present-tense event. The narration excerpts are exact."
+      ]
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The fear and distress are foretold, not reported as presently occurring. Any depiction must remain prophetic imagery rather than a new enacted scene."
+        "The speaker is not identified. Off-screen speech is a conservative design option, not a fact supplied by the verse."
       ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This is prophecy, not an account of people presently undergoing these conditions. Keep the suggested fearful figures conditional and the similes nonliteral."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The darkened lights are foretold. Do not present the sky image as a sign already occurring."
+        "The prophecy does not specify an empty landscape or visible speaker; these are design choices only and should not imply a specific destruction."
       ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The text describes predicted signs, but does not specify their visual composition or setting. Avoid presenting a particular astronomical scene as a source fact."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is unidentified, and the verse’s future declarations should not be turned into a present-tense punishment scene."
+      ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The flight is foretold, not reported as presently occurring; showing people fleeing risks staging its fulfillment."
+        "The identity and setting of the people are unspecified; depict flight only as a conditional visual inference, not as a newly established event or specific destination."
       ]
     },
     "scene_012": {
@@ -62,25 +72,25 @@
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Listing the Medes and unnamed people as characters must not imply they are physically present in an enacted scene."
+        "The verses foretell violence and identify the Medes, but do not specify the people’s setting or appearance. Keep all foretold acts as prophecy; bows may be shown only as a conditional design choice."
       ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse gives a comparison, not an enacted overthrow. The treatment of Babylon as a subject rather than an enacted setting is suitably conservative; do not show the historical comparison as a separate scene."
+      ]
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The preceding verse names Babylon, making it the contextual referent of “It”; the place is not wholly unspecified when the verses are read in order.",
-        "An empty landscape must be presented as prophetic imagery, not as an aftermath already reached."
+        "The verse’s “It” has an antecedent in the preceding context, but the supplied scene verses alone do not name the place. Keep the place unidentified and any desolate-landscape depiction explicitly conditional."
       ]
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The preceding verses make Babylon the likely referent of “her”; treating that referent as wholly unidentified overlooks the chapter context.",
-        "Desolate houses may represent the prophecy, but must not imply that the foretold condition has already occurred."
+        "The source does not identify “her” or the first-person speaker, and the creature terms’ appearance is unspecified. The prophecy must not be presented as creatures or destruction already occurring; the proposed desolate-house imagery is only a conditional visual treatment."
       ]
     }
   }

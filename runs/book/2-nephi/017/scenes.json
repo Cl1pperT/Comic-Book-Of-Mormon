@@ -1,11 +1,11 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The failed attack on Jerusalem",
+    "title": "The failed campaign toward Jerusalem",
     "refs": [
       "2 Nephi 17:1"
     ],
-    "summary": "Rezin, king of Syria, and Pekah, son of Remaliah, go up to war against Jerusalem but cannot prevail.",
+    "summary": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail.",
     "characters": [
       "Rezin",
       "Pekah son of Remaliah"
@@ -15,40 +15,57 @@
     ],
     "explicit_facts": [
       {
-        "text": "Rezin, king of Syria, and Pekah son of Remaliah went up toward Jerusalem to war against it but could not prevail.",
+        "text": "Rezin was king of Syria.",
+        "refs": [
+          "2 Nephi 17:1"
+        ]
+      },
+      {
+        "text": "Pekah, son of Remaliah, was king of Israel.",
+        "refs": [
+          "2 Nephi 17:1"
+        ]
+      },
+      {
+        "text": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail.",
         "refs": [
           "2 Nephi 17:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The two kings and their forces approach Jerusalem in a military campaign."
+      "Rezin and Pekah approach Jerusalem during a military campaign."
     ],
     "unspecified_visual_details": [
-      "The appearance and number of soldiers, weapons, clothing, architecture, and outcome of the campaign beyond failure to prevail."
+      "Their appearance, clothing, weapons, the number of people accompanying them, and Jerusalem's architecture are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "but could not prevail against it.",
+        "refs": [
+          "2 Nephi 17:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show Jerusalem being captured or a battle outcome not stated."
+      "Do not depict Jerusalem being captured or invent a specific battle or retreat."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Fear in the house of David",
+    "title": "A report to the house of David",
     "refs": [
       "2 Nephi 17:2"
     ],
-    "summary": "The house of David is told Syria is allied with Ephraim; the king and his people are shaken with fear.",
+    "summary": "The house of David is told that Syria is confederate with Ephraim. His heart and the heart of his people are moved.",
     "characters": [
       "The house of David",
-      "People of Judah"
+      "His people"
     ],
-    "locations": [
-      "Jerusalem"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The house of David is told that Syria is confederate with Ephraim.",
@@ -57,17 +74,19 @@
         ]
       },
       {
-        "text": "The heart of the king and his people is moved like trees moved by wind.",
+        "text": "His heart and the heart of his people are moved, compared to trees moved by wind.",
         "refs": [
           "2 Nephi 17:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people appear alarmed upon hearing the report."
+      "The hearers may appear shaken by the report."
     ],
     "unspecified_visual_details": [
-      "The messenger's identity, the precise hearers, and their appearance."
+      "The speaker's identity and appearance.",
+      "The precise location and appearance of the hearers.",
+      "The identity of the person referred to as “his.”"
     ],
     "spoken_dialogue": [
       {
@@ -75,15 +94,24 @@
         "refs": [
           "2 Nephi 17:2"
         ],
-        "speaker": "Unspecified messenger"
+        "speaker": "Unspecified speaker"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And his heart was moved, and the heart of his people, as the trees of the wood are moved with the wind.",
+        "refs": [
+          "2 Nephi 17:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The trees moved by wind are a figure of speech for fear, not a literal event."
+      "The trees moved by wind are a comparison, not a separate narrated event."
     ],
     "prohibited_inventions": [
-      "Do not depict literal trees or wind as the cause of the people's reaction."
+      "Do not identify the speaker or the person referred to as “his.”",
+      "Do not specify Jerusalem as the location or rename “his people” as the people of Judah.",
+      "Do not depict literal trees or wind as the cause of the reaction."
     ],
     "importance": "normal"
   },
@@ -633,37 +661,44 @@
       "2 Nephi 17:23",
       "2 Nephi 17:24"
     ],
-    "summary": "Places once containing valuable vineyards will become briers and thorns; men will come there with bows and arrows because of the overgrowth.",
+    "summary": "Places once containing a thousand vines at a thousand silverlings will become briers and thorns. Men will come there with bows and arrows because the land will become briers and thorns.",
     "characters": [
       "Men"
     ],
     "locations": [
-      "Unspecified location"
+      "Places that once had a thousand vines"
     ],
     "explicit_facts": [
       {
-        "text": "Places that had a thousand vines valued at a thousand silverlings shall become briers and thorns.",
+        "text": "Places that had a thousand vines at a thousand silverlings shall become briers and thorns.",
         "refs": [
           "2 Nephi 17:23"
         ]
       },
       {
-        "text": "Men shall come there with arrows and bows because the land will become briers and thorns.",
+        "text": "Men shall come there with arrows and bows because the land shall become briers and thorns.",
         "refs": [
           "2 Nephi 17:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Men carry bows and arrows into thorn-covered former vineyard land."
+      "Men carry bows and arrows into overgrown land."
     ],
     "unspecified_visual_details": [
       "The men's identities, clothing, number, and purpose beyond coming because of the overgrowth."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "all the land shall become briers and thorns.",
+        "refs": [
+          "2 Nephi 17:24"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse does not say that the men are hunting or fighting."
+      "The verses do not say that the men are hunting or fighting."
     ],
     "prohibited_inventions": [
       "Do not depict battle, a specific conflict, or a named group."
@@ -672,11 +707,11 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Hills for grazing",
+    "title": "Hills for oxen and lesser cattle",
     "refs": [
       "2 Nephi 17:25"
     ],
-    "summary": "Hills once dug with a mattock will no longer be feared for briers and thorns, but will be used by oxen and lesser cattle.",
+    "summary": "Hills dug with a mattock shall be free from fear of briers and thorns and used by oxen and lesser cattle.",
     "characters": [
       "Oxen",
       "Lesser cattle"
@@ -686,25 +721,38 @@
     ],
     "explicit_facts": [
       {
-        "text": "Hills dug with a mattock will be used for sending forth oxen and the treading of lesser cattle, without fear of briers and thorns.",
+        "text": "The verse describes hills that shall be dug with a mattock.",
+        "refs": [
+          "2 Nephi 17:25"
+        ]
+      },
+      {
+        "text": "There shall be no fear of briers and thorns there; the hills shall be for oxen and lesser cattle.",
         "refs": [
           "2 Nephi 17:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Oxen and lesser cattle graze or tread on the hills."
+      "Oxen and lesser cattle may be shown on the hills."
     ],
     "unspecified_visual_details": [
-      "The hills' exact appearance, the number of animals, and whether a herder is present."
+      "The hills’ exact appearance and the number of animals."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "but it shall be for the sending forth of oxen, and the treading of lesser cattle.",
+        "refs": [
+          "2 Nephi 17:25"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This is a future condition described by prophecy."
+      "The verse describes a future condition, not a narrated present event."
     ],
     "prohibited_inventions": [
-      "Do not add a herder or depict an unstated cause for the land's condition."
+      "Do not add a herder or an unstated cause for the hills’ condition."
     ],
     "importance": "normal"
   }

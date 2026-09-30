@@ -1,43 +1,45 @@
 {
-  "stamp": "03abe3fba84e24b53d4c96f6728bbf5b0153ddcb329c5a6ef18ded19725fca55",
+  "stamp": "7484cf476175675e97e8fa51c3d73b66cd1cb2c56b51fd3a2e9f31adc1c19d47",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The two alternatives are supported by the text, but visually labeling them requires nonliteral explanatory design; avoid implying a specific coin appearance or actual payment."
+      ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The account's wording specifies a shiblon as half a senum and half a measure of barley; describing this as a correspondence is supported, but the text does not say the unit physically measures barley."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source identifies Zeezrom and Amulek but does not specify the setting or appearance of the offered silver; keep these visually indeterminate."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The addressee is unnamed in the scene data; the surrounding verses identify him as Zeezrom, but the scene deliberately leaves the label unspecified. Amulek's accusations about the addressee's intent are not independently narrated events."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary omits that Amulek says the Son cannot deny his word; otherwise the exchange and dialogue excerpts are supported. The teaching about the Son is not a visible appearance."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -48,10 +50,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

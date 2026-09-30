@@ -4,65 +4,24 @@
   "verses": 62,
   "scenes": 23,
   "counts": {
-    "PASS": 5,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 15
+    "PASS": 10,
+    "PASS WITH WARNINGS": 11,
+    "REJECT": 2
   },
   "rejected": {
-    "scene_001": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
     "scene_005": [
-      "The supplied source identifies the continuing speaker as Alma (Alma 5:1–3), but the notes and prohibited inventions say his name is not established and forbid identifying him.",
-      "The scene says Alma 5:14–16 are not supplied, but they are supplied and form scene_006."
+      "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim his name cannot be established from the supplied verses."
     ],
-    "scene_007": [
-      "The scene says Alma 5:14–16 are not supplied and denies a continuous transition, but those verses are supplied as scene_006.",
-      "Its prohibition on identifying the speaker as Alma disregards the established speaker in Alma 5:1–3."
-    ],
-    "scene_008": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_009": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_010": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_013": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_014": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_015": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_017": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_019": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_020": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_021": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_022": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_023": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+    "scene_006": [
+      "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim that identifying him requires unsupplied context."
     ]
   },
-  "calls": 16,
+  "calls": 51,
   "tokens": {
-    "input_tokens": 122260,
-    "cached_input_tokens": 49920,
+    "input_tokens": 379959,
+    "cached_input_tokens": 168960,
     "cache_write_input_tokens": 0,
-    "output_tokens": 22301,
-    "reasoning_output_tokens": 6866
+    "output_tokens": 47998,
+    "reasoning_output_tokens": 18382
   }
 }

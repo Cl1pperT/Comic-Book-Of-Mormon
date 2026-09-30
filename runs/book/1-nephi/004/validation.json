@@ -1,5 +1,5 @@
 {
-  "stamp": "f3fabe195dc1936eea09f88ebb4aa3bdf0ec0fe3f198b96eb24d89e0e9001e26",
+  "stamp": "4bed5961b28f5d697a97f5b3b2f0bc023d3abd964218fd300d639c697d3d0179",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,9 +30,9 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "“The servant carries the treasury keys” is more specific than the text, which says the servant had the keys; depict the keys conservatively."
       ]
     },
     "scene_009": {

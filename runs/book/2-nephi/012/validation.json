@@ -1,34 +1,38 @@
 {
-  "stamp": "8f3c601035c5fdd6d487b757e9235ebf697d87401fc961ee9581a0ebc254d139",
+  "stamp": "abe5aa401f9313fa085c15411ed2c2f9c683211d44b38a04e1b4b2b86119d6e9",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Visual inference that people are traveling and gathering at the mountain is not explicit; the verse says nations will flow to it and many people will go there, but does not specify a physical gathering."
+      ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The verse frames the transformation and end of war as future events; depicting people actively reshaping weapons is a reasonable inference, but the scene's timing and whether it is shown as happening now are not specified."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speech is an exhortation in the verse, not necessarily dialogue spoken by a visible character; the unspecified-speaker dialogue treatment is an interpretive choice."
+      ]
     },
     "scene_005": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The exact sense of “replenished from the east” and “please themselves in the children of strangers” is unspecified; avoid illustrating either as a concrete event. The reasonable visual inference lists objects and idols but should not imply they appear together in one particular scene."
       ]
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "“Boweth not down” may be literal or figurative, as the scene notes; avoid presenting it as a definite physical action."
       ]
     },
     "scene_007": {
@@ -36,21 +40,18 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary and facts treat the prophecy as future, but the visual-inference fields could be read as depicting the people entering and the man casting idols as present action. Keep any depiction explicitly prophetic rather than presenting it as an event happening now.",
+        "The stated locations are drawn from the verse imagery, but whether the holes, caves, clefts, and rock tops refer to one setting is unspecified."
       ]
     },
     "scene_011": {

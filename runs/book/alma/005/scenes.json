@@ -1,45 +1,55 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Alma addresses the people",
+    "title": "Alma addresses the people in Zarahemla",
     "refs": [
       "Alma 5:1",
       "Alma 5:2"
     ],
-    "summary": "Alma begins preaching in Zarahemla, speaking to the people of the church there.",
+    "summary": "Alma begins to deliver the word of God to the people, first in Zarahemla. His words to the people in the church established in the city are introduced.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Alma",
+      "people in the church in Zarahemla"
     ],
     "locations": [
       "City of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "Alma began to deliver the word of God first in Zarahemla and then throughout the land.",
+        "text": "Alma began to deliver the word of God to the people, first in Zarahemla and then throughout the land.",
         "refs": [
           "Alma 5:1"
         ]
       },
       {
-        "text": "Alma speaks to the people in the church established in the city of Zarahemla.",
+        "text": "Alma spoke to the people in the church established in the city of Zarahemla.",
         "refs": [
           "Alma 5:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma stands before an assembled congregation."
+      "Alma addresses a group of people in Zarahemla."
     ],
     "unspecified_visual_details": [
-      "The church building's design and furnishings.",
-      "Alma's and the congregation's clothing and appearance."
+      "The setting's architecture and furnishings.",
+      "Alma's and the people's clothing and appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "Alma began to deliver the word of God unto the people, first in the land of Zarahemla",
+        "refs": [
+          "Alma 5:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verses introduce Alma's words but do not supply the words he spoke."
+    ],
     "prohibited_inventions": [
-      "Do not show locations where Alma later preached; only Zarahemla is specified here."
+      "Do not depict his later preaching throughout the land as part of this scene.",
+      "Do not invent spoken words for Alma."
     ],
     "importance": "normal"
   },
@@ -235,88 +245,81 @@
       "Alma 5:12",
       "Alma 5:13"
     ],
-    "summary": "The speaker asks about salvation and recalls his father Alma's belief in Abinadi's words and subsequent change of heart. He recounts his father's preaching to the listeners' fathers, who humbled themselves, trusted in God, remained faithful until the end, and were saved.",
+    "summary": "The speaker asks about salvation and recounts his father Alma’s belief in Abinadi’s words and subsequent change of heart. He reports that Alma preached to those addressed as “your fathers,” who experienced changed hearts, humbled themselves, trusted in God, remained faithful, and were saved.",
     "characters": [
-      "Speaker"
+      "Speaker unidentified by name in the supplied verses",
+      "Those addressed"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker asks on what conditions they are saved and what grounds they had to hope for salvation.",
+        "text": "The speaker asks about the conditions for salvation, grounds for hope, and release from the bands of death and chains of hell.",
         "refs": [
           "Alma 5:10"
         ]
       },
       {
-        "text": "The speaker identifies Alma as his father and recalls his belief in the words delivered by Abinadi, described as a holy prophet.",
+        "text": "The speaker identifies Alma as his father and asks rhetorical questions connecting Alma’s belief with the words delivered by Abinadi, a holy prophet who spoke the words of God.",
         "refs": [
           "Alma 5:11"
         ]
       },
       {
-        "text": "According to his father's faith, a mighty change was wrought in his heart.",
+        "text": "According to his father Alma’s faith, a mighty change was wrought in his heart.",
         "refs": [
           "Alma 5:12"
         ]
       },
       {
-        "text": "His father preached to the listeners' fathers, who experienced a mighty change in their hearts, humbled themselves, trusted in the true and living God, and were faithful until the end; therefore they were saved.",
+        "text": "The speaker reports that Alma preached the word unto “your fathers”; their hearts changed, they humbled themselves, put their trust in the true and living God, were faithful until the end, and were saved.",
         "refs": [
           "Alma 5:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses listeners."
+      "The speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's appearance, clothing, and gestures.",
-      "The setting and the number and appearance of listeners."
+      "Setting and audience size.",
+      "The speaker’s and listeners’ appearances, clothing, positions, and gestures."
     ],
     "spoken_dialogue": [
       {
-        "text": "And now I ask of you on what conditions are they saved?",
+        "text": "And now I ask of you on what conditions are they saved? Yea, what grounds had they to hope for salvation?",
         "refs": [
           "Alma 5:10"
         ],
-        "speaker": "Speaker"
-      },
-      {
-        "text": "Did he not speak the words of God, and my father Alma believe them?",
-        "refs": [
-          "Alma 5:11"
-        ],
-        "speaker": "Speaker"
+        "speaker": "Speaker unidentified by name in the supplied verses"
       },
       {
         "text": "And according to his faith there was a mighty change wrought in his heart.",
         "refs": [
           "Alma 5:12"
         ],
-        "speaker": "Speaker"
+        "speaker": "Speaker unidentified by name in the supplied verses"
       },
       {
         "text": "And behold, they were faithful until the end; therefore they were saved.",
         "refs": [
           "Alma 5:13"
         ],
-        "speaker": "Speaker"
+        "speaker": "Speaker unidentified by name in the supplied verses"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma 5:11 explicitly names the speaker's father Alma, not the speaker. The supplied verses do not establish the speaker's name.",
-      "The father's belief and preaching and the listeners' fathers' response are reported past events, not present action.",
-      "Changes of heart and release from the bands of death and chains of hell are teachings, not explicitly described visible transformations.",
-      "This scene covers only Alma 5:10–13. No direct transition to scene_007 is established; verses 14–16 are not supplied and cannot be reconstructed here."
+      "Only verses 10–13 are supplied; the audit’s reference to verse 3 cannot establish the speaker’s name under the source-only constraint.",
+      "Dialogue uses exact contiguous excerpts; complete verses are not required.",
+      "Alma’s belief and preaching and the fathers’ responses are reported past events, not present scene action.",
+      "The bands of death, chains of hell, and changes of heart are not narrated as visible supernatural events."
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed speaker as Alma using his father's name.",
-      "Do not stage the reported historical events as present action or combine their separate times.",
-      "Do not depict literal supernatural changes of hearts, bands of death, or chains of hell.",
-      "Do not depict God or historical figures as visibly present.",
-      "Do not invent content for verses 14–16 or imply that this scene directly precedes scene_007.",
-      "Do not present unspecified appearances or locations as source-established facts."
+      "Do not identify the speaker by name using unsupplied verses.",
+      "Do not stage reported past events as present action or merge their separate times.",
+      "Do not place Abinadi, the speaker’s father Alma, or the listeners’ fathers physically in the scene.",
+      "Do not depict literal supernatural chains, visible heart transformations, or divine appearances.",
+      "Do not invent dialogue, audience reactions, or source-established visual details."
     ],
     "importance": "normal"
   },
@@ -328,65 +331,75 @@
       "Alma 5:15",
       "Alma 5:16"
     ],
-    "summary": "The speaker asks his brethren of the church about spiritual change, faith in redemption, resurrection, and judgment. He asks them to imagine hearing the Lord commend righteous works.",
+    "summary": "The speaker asks his brethren of the church about spiritual change, faith in redemption, resurrection, and judgment. He asks them to imagine hearing the Lord commend their righteous works.",
     "characters": [
-      "speaker not named in the supplied verses",
+      "speaker (not named in the supplied verses)",
       "brethren of the church"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker addresses his brethren of the church and asks whether they have been spiritually born of God, received his image in their countenances, and experienced a mighty change in their hearts.",
+        "text": "The speaker asks his brethren of the church whether they have spiritually been born of God, received his image in their countenances, and experienced a mighty change in their hearts.",
         "refs": [
           "Alma 5:14"
         ]
       },
       {
-        "text": "He asks about faith in redemption and looking forward to resurrection and judgment according to deeds done in the mortal body.",
+        "text": "The speaker asks whether they exercise faith in redemption and look forward with faith to immortality and judgment according to their mortal deeds.",
         "refs": [
           "Alma 5:15"
         ]
       },
       {
-        "text": "He asks his listeners to imagine hearing the voice of the Lord commend righteous works.",
+        "text": "The speaker asks them to imagine hearing the Lord invite them to come to him and describe their works as righteous.",
         "refs": [
           "Alma 5:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker addresses listeners he calls his brethren of the church."
+      "A speaker addresses listeners whom he calls his brethren of the church."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, and physical appearances of the speaker and listeners.",
-      "The listeners’ responses."
+      "Location and arrangement of the listeners.",
+      "Clothing, ages, and physical appearances.",
+      "Gestures and facial expressions."
     ],
     "spoken_dialogue": [
       {
-        "text": "have ye spiritually been born of God?",
+        "text": "Have ye experienced this mighty change in your hearts?",
         "refs": [
           "Alma 5:14"
         ],
-        "speaker": "speaker not named in the supplied verses"
+        "speaker": "speaker"
       },
       {
-        "text": "I say unto you, can you imagine to yourselves that ye hear the voice of the Lord, saying unto you, in that day: Come unto me ye blessed, for behold, your works have been the works of righteousness upon the face of the earth?",
+        "text": "Do ye exercise faith in the redemption of him who created you?",
+        "refs": [
+          "Alma 5:15"
+        ],
+        "speaker": "speaker"
+      },
+      {
+        "text": "I say unto you, can you imagine to yourselves that ye hear the voice of the Lord, saying unto you, in that day:",
         "refs": [
           "Alma 5:16"
         ],
-        "speaker": "speaker not named in the supplied verses"
+        "speaker": "speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s words are presented within a question about an imagined future hearing, not as a present appearance or a separate speaker in this scene.",
-      "The questions about spiritual change and resurrection do not narrate visible events.",
-      "The supplied verses do not identify the speaker by name."
+      "The supplied verses do not name the speaker; identifying him as Alma would require the unsupplied context cited by the audit.",
+      "The supplied text of Alma 5:16 uses lowercase “can”; the excerpt preserves that capitalization within its original sentence.",
+      "The Lord's words are embedded in an imagined future hearing, not a present utterance.",
+      "Spiritual change, resurrection, and judgment are subjects of questions, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord, a resurrection, or a judgment scene as visibly occurring.",
-      "Do not assign the speaker a name or specify a location from these verses.",
-      "Do not invent listener responses or depict spiritual rebirth, changed hearts, or God's image as literal visible transformations."
+      "Do not depict the Lord appearing or speaking independently in this scene.",
+      "Do not depict resurrection or judgment as occurring.",
+      "Do not literalize spiritual birth, changed hearts, or God's image as visible transformations.",
+      "Do not invent listener responses, names, biographies, or a specific location."
     ],
     "importance": "normal"
   },
@@ -399,9 +412,9 @@
       "Alma 5:19",
       "Alma 5:20"
     ],
-    "summary": "The speaker questions the listeners about falsely claiming righteous works, imagining judgment with guilt, looking up to God with purity, and expecting salvation after yielding to the devil.",
+    "summary": "A speaker asks listeners whether they imagine lying to the Lord about their works, being brought before God's tribunal with guilt and remorse, looking up to God with a pure heart and clean hands, or being saved after yielding themselves to the devil.",
     "characters": [
-      "Unnamed speaker",
+      "Speaker not named in the supplied verses",
       "Listeners addressed by the speaker"
     ],
     "locations": [],
@@ -413,59 +426,57 @@
         ]
       },
       {
-        "text": "The speaker asks whether they imagine appearing before God's tribunal with guilt, remorse, and remembrance of defying God's commandments.",
+        "text": "The speaker asks whether they imagine being brought before God's tribunal with guilt, remorse, and a remembrance of defying God's commandments.",
         "refs": [
           "Alma 5:18"
         ]
       },
       {
-        "text": "The speaker asks whether they can look up to God with a pure heart, clean hands, and God's image engraven upon their countenances.",
+        "text": "The speaker asks whether they can look up to God with a pure heart and clean hands, and with God's image engraven upon their countenances.",
         "refs": [
           "Alma 5:19"
         ]
       },
       {
-        "text": "The speaker questions expecting salvation after yielding to become subjects to the devil.",
+        "text": "The speaker asks whether they can be saved after yielding themselves to become subjects to the devil.",
         "refs": [
           "Alma 5:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A restrained depiction of a speaker addressing listeners can represent the direct address."
+      "A speaker addressing listeners can represent the direct address."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, clothing, and gestures.",
-      "The listeners' identities, number, appearance, and reactions.",
-      "The location, setting, and time of day."
+      "The speaker's appearance, clothing, and gestures.",
+      "The listeners' number, appearance, and reactions.",
+      "The setting and time of day."
     ],
     "spoken_dialogue": [
       {
-        "text": "I say unto you, can ye look up to God at that day with a pure heart and clean hands? I say unto you, can you look up, having the image of God engraven upon your countenances?",
+        "text": "I say unto you, can ye look up to God at that day with a pure heart and clean hands?",
         "refs": [
           "Alma 5:19"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker not named in the supplied verses"
       },
       {
         "text": "I say unto you, can ye think of being saved when you have yielded yourselves to become subjects to the devil?",
         "refs": [
           "Alma 5:20"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker not named in the supplied verses"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The questions describe imagined judgment and moral conditions, not events occurring visibly.",
-      "These supplied verses do not identify the speaker or location.",
-      "Treat this as an excerpt beginning at verse 17, not an uninterrupted continuation from verse 13. Verses 14–16 are not supplied and cannot be reconstructed."
+      "The judgment and moral conditions are posed as questions, not narrated as visible events.",
+      "The supplied verses do not name the speaker or specify a location."
     ],
     "prohibited_inventions": [
       "Do not depict an actual judgment, divine tribunal, appearance of God, or appearance of the devil.",
-      "Do not literalize God's image engraven upon countenances or visualize inner guilt as supernatural phenomena.",
-      "Do not identify the speaker as Alma, assign a priestly office, or identify the listeners or location from outside these verses.",
-      "Do not invent preceding events, transitions, audience responses, or additional dialogue."
+      "Do not literalize God's image engraven upon countenances or depict guilt as a supernatural phenomenon.",
+      "Do not invent preceding events, audience responses, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -477,151 +488,245 @@
       "Alma 5:22",
       "Alma 5:23"
     ],
-    "summary": "Alma teaches that salvation requires garments cleansed through the Redeemer's blood, then asks how stained garments would testify against people before God.",
+    "summary": "A speaker teaches that no one can be saved unless their garments are washed white, then asks his brethren what stained garments would testify against them before God.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "Brethren addressed"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says no one can be saved except their garments are washed white and purified through the Redeemer's blood.",
+        "text": "The speaker says no one can be saved unless their garments are washed white and purified through the blood of the one spoken of by their fathers, who should redeem his people from their sins.",
         "refs": [
           "Alma 5:21"
         ]
       },
       {
-        "text": "He asks how people would feel before God's bar with garments stained with blood and filthiness.",
+        "text": "The speaker asks his brethren how they would feel if they stood before the bar of God with garments stained with blood and filthiness.",
         "refs": [
           "Alma 5:22"
         ]
       },
       {
-        "text": "He says such things would testify that they are murderers and guilty of wickedness.",
+        "text": "The speaker asks whether those things would testify that they are murderers and guilty of wickedness.",
         "refs": [
           "Alma 5:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses the church in Zarahemla."
+      "The speaker addresses a group he calls his brethren."
     ],
     "unspecified_visual_details": [
-      "Any symbolic garments, stains, or future courtroom setting."
+      "The speaker's appearance and clothing.",
+      "The brethren's number and appearance.",
+      "The setting."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "there can no man be saved except his garments are washed white;",
+        "refs": [
+          "Alma 5:21"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "Behold, what will these things testify against you?",
+        "refs": [
+          "Alma 5:22"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "Behold will they not testify that ye are murderers, yea, and also that ye are guilty of all manner of wickedness?",
+        "refs": [
+          "Alma 5:23"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Garment imagery is part of the teaching; no actual stained clothing or blood is narrated."
+      "The garments and the bar of God occur in the speaker's teaching and questions, not as narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict gore, blood, or a literal judgment bar."
+      "Do not identify the speaker or specify a location from the supplied verses.",
+      "Do not depict a literal judgment scene, stained or washed garments, blood, or acts of murder.",
+      "Do not depict God or the Redeemer as physically present."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Who may enter the kingdom",
+    "title": "Who May Have a Place in the Kingdom",
     "refs": [
       "Alma 5:24",
       "Alma 5:25"
     ],
-    "summary": "Alma asks whether the wicked can sit in God's kingdom with the holy prophets and says they cannot, but will be cast out as children of the devil's kingdom.",
+    "summary": "A speaker asks his brethren whether such a person can sit in the kingdom of God with Abraham, Isaac, Jacob, and the holy prophets. He answers no and teaches that such people cannot have a place in the kingdom of heaven and shall be cast out.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unidentified speaker",
+      "Brethren addressed by the speaker"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks whether a wicked person can sit in God's kingdom with Abraham, Isaac, Jacob, and the holy prophets, whose garments are cleansed and spotless.",
+        "text": "The speaker addresses his brethren and asks whether such a person can sit in the kingdom of God with Abraham, Isaac, Jacob, and the holy prophets.",
         "refs": [
           "Alma 5:24"
         ]
       },
       {
-        "text": "He says such a person cannot have a place in heaven and will be cast out as a child of the devil's kingdom.",
+        "text": "The speaker describes the holy prophets’ garments as cleansed, spotless, pure, and white.",
+        "refs": [
+          "Alma 5:24"
+        ]
+      },
+      {
+        "text": "The speaker answers no and says such people cannot have a place in the kingdom of heaven but shall be cast out.",
         "refs": [
           "Alma 5:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues speaking to the congregation."
+      "The speaker addresses a group."
     ],
     "unspecified_visual_details": [
-      "The appearance of Abraham, Isaac, Jacob, the prophets, heaven, and the devil's kingdom."
+      "The setting and the appearances of the speaker and those addressed are unspecified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "do ye suppose that such an one can have a place to sit down in the kingdom of God, with Abraham, with Isaac, and with Jacob, and also all the holy prophets,",
+        "refs": [
+          "Alma 5:24"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "I say unto you, Nay;",
+        "refs": [
+          "Alma 5:25"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "but they shall be cast out for they are the children of the kingdom of the devil.",
+        "refs": [
+          "Alma 5:25"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The named patriarchs and prophets are referenced in teaching; the verse does not place them visibly in the present scene."
+      "Abraham, Isaac, Jacob, and the holy prophets are mentioned in a question, not placed in the speaker’s setting.",
+      "Being cast out is part of the speaker’s teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict the patriarchs, prophets, or a heavenly expulsion."
+      "Do not identify the speaker or specify a setting.",
+      "Do not depict the named figures as present or show a heavenly expulsion.",
+      "Do not assign an identity or backstory to “such an one.”"
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "A present change of heart",
+    "title": "Questions to the brethren",
     "refs": [
       "Alma 5:26",
       "Alma 5:27",
       "Alma 5:28",
       "Alma 5:29"
     ],
-    "summary": "Alma asks whether those who once felt redeeming love still feel it, whether they have walked blamelessly with cleansed garments, and whether they are free of pride and envy and prepared to meet God.",
+    "summary": "A speaker addresses his brethren, asking whether, if they have experienced a change of heart and felt to sing the song of redeeming love, they can feel so now. He asks about blamelessness, humility, pride, and envy. He warns that those not stripped of pride are unprepared to meet God. He wishes that a person not stripped of envy should prepare quickly.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "The speaker's brethren"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks whether those who experienced a change of heart and felt redeeming love can still feel so now.",
+        "text": "The speaker conditionally asks his brethren whether, if they have experienced a change of heart and felt to sing the song of redeeming love, they can feel so now.",
         "refs": [
           "Alma 5:26"
         ]
       },
       {
-        "text": "He asks if they have walked blamelessly, are humble, and have garments cleansed through Christ's blood.",
+        "text": "He asks whether they have walked blamelessly before God and could consider themselves sufficiently humble if called to die at this time.",
         "refs": [
           "Alma 5:27"
         ]
       },
       {
-        "text": "He says the proud are not prepared to meet God and should prepare quickly.",
+        "text": "He asks about garments cleansed and made white through the blood of Christ, who will come to redeem his people from their sins.",
+        "refs": [
+          "Alma 5:27"
+        ]
+      },
+      {
+        "text": "He says those not stripped of pride are not prepared to meet God and declares that they must prepare quickly.",
         "refs": [
           "Alma 5:28"
         ]
       },
       {
-        "text": "He says the envious are unprepared and should prepare quickly.",
+        "text": "He says a person not stripped of envy is unprepared and not found guiltless, and expresses his wish that such a person should prepare quickly.",
         "refs": [
           "Alma 5:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses the assembled church."
+      "A speaker addresses listeners."
     ],
     "unspecified_visual_details": [
-      "The listeners' individual emotional responses."
+      "The location, audience size, clothing, physical appearances, gestures, and listeners' reactions are unspecified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "I would ask, can ye feel so now?",
+        "refs": [
+          "Alma 5:26"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "Have ye walked, keeping yourselves blameless before God?",
+        "refs": [
+          "Alma 5:27"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "Behold, are ye stripped of pride?",
+        "refs": [
+          "Alma 5:28"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "Behold, I say, is there one among you who is not stripped of envy?",
+        "refs": [
+          "Alma 5:29"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Garment cleansing and preparation are teachings, not visible transformations."
+      "The conditional questions do not establish that listeners have experienced the conditions described.",
+      "Cleansed garments and being stripped of pride or envy are teachings, not narrated visible transformations.",
+      "Christ's coming is taught, not depicted as an event occurring during this address."
     ],
     "prohibited_inventions": [
-      "Do not show Christ's blood or supernatural changes to clothing."
+      "Do not identify the speaker or specify a location from these verses alone.",
+      "Do not depict God or Christ as visibly present.",
+      "Do not depict blood, transformed clothing, or literal removal of pride or envy.",
+      "Do not stage singing, a past change of heart, or a listener's death.",
+      "Do not invent audience responses or attribute pride or envy to a particular listener.",
+      "Do not replace the question about feeling so now with a more specific object of feeling.",
+      "Do not turn the speaker's wish concerning a person not stripped of envy into advice stated to the entire group."
     ],
     "importance": "normal"
   },
@@ -766,59 +871,60 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The shepherd calls",
+    "title": "The good shepherd calls",
     "refs": [
       "Alma 5:37",
       "Alma 5:38",
       "Alma 5:39"
     ],
-    "summary": "Alma calls out those who have gone astray and teaches that Christ is the good shepherd; those who will not heed his voice are not his sheep, but belong to the devil's fold.",
+    "summary": "A speaker addresses people who have gone astray, says the good shepherd still calls them, and warns that those who do not heed him are not his sheep but are of the devil's fold.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unidentified speaker",
+      "People addressed as workers of iniquity"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma addresses workers of iniquity and those puffed up in worldly things who have gone astray like sheep without a shepherd.",
+        "text": "The speaker addresses workers of iniquity who have gone astray and says they will not heed the shepherd's voice.",
         "refs": [
           "Alma 5:37"
         ]
       },
       {
-        "text": "He says the shepherd has called and is still calling, but they will not heed his voice.",
-        "refs": [
-          "Alma 5:37"
-        ]
-      },
-      {
-        "text": "He identifies the good shepherd with Christ and says those who do not heed him are not his sheep.",
+        "text": "The speaker says the good shepherd calls in the name of Christ and that those who will not heed him are not his sheep.",
         "refs": [
           "Alma 5:38"
         ]
       },
       {
-        "text": "He says those who are not the good shepherd's sheep belong to the devil's fold.",
+        "text": "The speaker says those who are not the good shepherd's sheep are of the devil's fold.",
         "refs": [
           "Alma 5:39"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma delivers the shepherd imagery as an address, not a literal pastoral scene."
+      "An unidentified speaker addresses other people; the shepherd and sheep imagery is part of the address."
     ],
     "unspecified_visual_details": [
-      "Any shepherd, sheep, fold, or devil's appearance."
+      "The setting, clothing, and appearances of the speaker and listeners are not specified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Behold, I say unto you, that the good shepherd doth call you;",
+        "refs": [
+          "Alma 5:38"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The sheep, shepherd, and fold are metaphorical teachings in this passage."
+      "The shepherd, sheep, and fold are figures used in the speaker's teaching, not narrated physical appearances."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal shepherd or flock."
+      "Do not identify the speaker as Alma or place the address in Zarahemla based on these verses alone.",
+      "Do not depict a literal shepherd, flock, fold, Christ, or the devil as visibly present."
     ],
     "importance": "normal"
   },
@@ -830,97 +936,108 @@
       "Alma 5:41",
       "Alma 5:42"
     ],
-    "summary": "Alma teaches that good comes from God and evil from the devil, and that people follow the shepherd whose voice their works heed; evil works receive death as their wages.",
-    "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
-    ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "summary": "The speaker teaches that good comes from God and evil from the devil, that works reflect which voice a person heeds, and that those who do evil receive death as to righteousness.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says whatever is good comes from God and whatever is evil comes from the devil.",
+        "text": "The speaker says that whatever is good comes from God and whatever is evil comes from the devil.",
         "refs": [
           "Alma 5:40"
         ]
       },
       {
-        "text": "Good works show heed to and following of the good shepherd; evil works show heed to and following of the devil.",
+        "text": "A man who brings forth good works heeds and follows the good shepherd; one who brings forth evil works heeds and follows the devil.",
         "refs": [
           "Alma 5:41"
         ]
       },
       {
-        "text": "Those who do this receive death as wages and are dead to good works.",
+        "text": "The one who does evil receives death as wages, as to things pertaining to righteousness, and is dead to all good works.",
         "refs": [
           "Alma 5:42"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma speaks to the church in Zarahemla."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any visible representation of God, the devil, death, or the shepherd."
+      "The speaker’s identity and appearance.",
+      "The setting and any listeners."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "whatsoever is good cometh from God,",
+        "refs": [
+          "Alma 5:40"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The shepherd and wages language is figurative teaching, not a narrated event."
+      "The shepherd, wages, and death as to righteousness are part of the teaching, not separately narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict a supernatural figure or literal payment."
+      "Do not depict God, the devil, or the good shepherd as visibly present.",
+      "Do not depict literal payment or a physical death.",
+      "Do not assign the speaker a name or specify a location or audience."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Alma testifies of his calling",
+    "title": "A testimony to the people",
     "refs": [
       "Alma 5:43",
       "Alma 5:44",
       "Alma 5:45"
     ],
-    "summary": "Alma asks the people to hear him, says he speaks plainly by God's command and holy order, and testifies that he knows what he has taught is true.",
+    "summary": "Alma asks his listeners to hear him, says he is commanded to stand and testify to the people, and testifies that he knows what he has spoken is true.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Alma",
+      "his listeners"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks his listeners to hear him and says he has spoken plainly according to God's commandments.",
+        "text": "The speaker asks his brethren to hear him and says he has spoken plainly according to God's commandments.",
         "refs": [
           "Alma 5:43"
         ]
       },
       {
-        "text": "He says he is called to speak according to God's holy order in Christ Jesus and commanded to testify of things to come.",
+        "text": "He says he is called to speak according to the holy order of God in Christ Jesus and is commanded to stand and testify to this people.",
         "refs": [
           "Alma 5:44"
         ]
       },
       {
-        "text": "He testifies that he knows the things he has spoken are true and asks how they suppose he knows.",
+        "text": "He testifies that he knows what he has spoken is true and asks how his listeners suppose he knows.",
         "refs": [
           "Alma 5:45"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma stands addressing the congregation."
+      "Alma stands while addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The appearance of Christ Jesus and the nature of Alma's calling."
+      "The setting, clothing, and listeners' appearances are not described."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Behold, I testify unto you that I do know that these things whereof I have spoken are true.",
+        "refs": [
+          "Alma 5:45"
+        ],
+        "speaker": "Alma"
+      }
+    ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The calling and holy order are stated by the speaker; no visible commissioning is described."
+    ],
     "prohibited_inventions": [
-      "Do not depict a calling vision or divine commissioning not described in the verses."
+      "Do not depict a calling vision, a visible divine figure, or a specific location."
     ],
     "importance": "normal"
   },
@@ -985,52 +1102,82 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "Testimony of Jesus Christ",
+    "title": "Testimony and a Call to Repent",
     "refs": [
       "Alma 5:48",
       "Alma 5:49"
     ],
-    "summary": "Alma testifies that Jesus Christ, the Only Begotten Son of the Father, will come to take away the sins of those who steadfastly believe, and says his calling is to preach repentance and rebirth to all in the land.",
+    "summary": "The speaker says he knows Jesus Christ shall come to take away the sins of every man who steadfastly believes on his name. He says he is called to preach to all in the land that they must repent and be born again.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says Jesus Christ shall come, the Son and Only Begotten of the Father, full of grace, mercy, and truth.",
+        "text": "The speaker says he knows Jesus Christ shall come and identifies him as the Son, the Only Begotten of the Father.",
         "refs": [
           "Alma 5:48"
         ]
       },
       {
-        "text": "Christ comes to take away the sins of those who steadfastly believe on his name.",
+        "text": "The speaker says Christ comes to take away the sins of the world, including the sins of every man who steadfastly believes on his name.",
         "refs": [
           "Alma 5:48"
         ]
       },
       {
-        "text": "Alma says he is called to preach to all in the land, old and young, bond and free, that they must repent and be born again.",
+        "text": "The speaker says he is called to preach to all in the land, both old and young and bond and free, that they must repent and be born again.",
         "refs": [
           "Alma 5:49"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma's audience listens to his testimony."
+      "The speaker may be addressing listeners, though these verses do not establish their physical presence."
     ],
     "unspecified_visual_details": [
-      "Christ's appearance, time and place of his coming, and the appearance of people across the land."
+      "The speaker's appearance.",
+      "Whether listeners are physically present.",
+      "The setting of the address."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "I know that Jesus Christ shall come,",
+        "refs": [
+          "Alma 5:48"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "And behold, it is he that cometh to take away the sins of the world, yea, the sins of every man who steadfastly believeth on his name.",
+        "refs": [
+          "Alma 5:48"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "yea, to preach unto all, both old and young, both bond and free;",
+        "refs": [
+          "Alma 5:49"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "yea, to cry unto them that they must repent and be born again.",
+        "refs": [
+          "Alma 5:49"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Christ's future coming is testified of, not shown as a present appearance."
+      "Christ's coming is foretold, not narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ physically or invent a future setting."
+      "Do not depict Christ appearing in this scene.",
+      "Do not assign the speaker a name or specify a city from these verses.",
+      "Do not depict everyone in the land as physically present."
     ],
     "importance": "normal"
   },
@@ -1109,106 +1256,122 @@
     "refs": [
       "Alma 5:52"
     ],
-    "summary": "Alma says the Spirit warns that the ax is laid at the tree's root and every tree without good fruit will be cut down and cast into unquenchable fire.",
+    "summary": "A speaker relays the Spirit's warning about a tree without good fruit being cut down and cast into unquenchable fire, and urges listeners to remember that the Holy One has spoken.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "Listeners addressed by the speaker"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says the Spirit declares that the ax is laid at the root of the tree.",
+        "text": "The speaker says the Spirit declares that the ax is laid at the root of the tree.",
         "refs": [
           "Alma 5:52"
         ]
       },
       {
-        "text": "Every tree that does not bring forth good fruit shall be hewn down and cast into unquenchable fire.",
+        "text": "The warning says every tree that does not bring forth good fruit shall be cut down and cast into unquenchable fire.",
         "refs": [
           "Alma 5:52"
         ]
       },
       {
-        "text": "Alma says the Holy One has spoken it.",
+        "text": "The speaker urges listeners to remember that the Holy One has spoken.",
         "refs": [
           "Alma 5:52"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma voices the warning to the assembled church."
+      "The speaker addresses listeners."
     ],
     "unspecified_visual_details": [
-      "Any literal tree, ax, fire, or visible Holy One."
+      "The speaker's and listeners' appearances",
+      "The setting"
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "And again I say unto you, the Spirit saith: Behold, the ax is laid at the root of the tree;",
+        "refs": [
+          "Alma 5:52"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The tree and ax warning is figurative teaching, not a narrated cutting or burning."
+      "The tree, ax, and fire are part of a warning, not a narrated cutting or burning."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal tree being cut or people being burned."
+      "Do not depict a literal tree being cut or cast into fire.",
+      "Do not invent visible appearances for the Spirit or the Holy One.",
+      "Do not assign the speaker or listeners identities not supplied by the verse."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_020",
-    "title": "Warning against pride and wealth",
+    "title": "Warning against pride and withholding help",
     "refs": [
       "Alma 5:53",
       "Alma 5:54",
       "Alma 5:55",
       "Alma 5:56"
     ],
-    "summary": "Alma challenges his listeners about pride, costly apparel, riches, believing themselves better than others, persecuting humble brethren, and turning away the poor and needy; he warns persistent wrongdoers to repent quickly.",
+    "summary": "A speaker questions his beloved brethren about pride, costly apparel, riches, persecution of humble brethren, and withholding substance from the poor and needy. He warns those who persist in wickedness to repent speedily.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "Beloved brethren"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks whether they will persist in pride, costly apparel, and setting their hearts on worldly things and riches.",
+        "text": "The speaker addresses his beloved brethren and questions whether they will persist in pride, costly apparel, and attachment to riches.",
         "refs": [
           "Alma 5:53"
         ]
       },
       {
-        "text": "He asks whether they will consider themselves better than others and persecute humble brethren who walk after God's holy order.",
+        "text": "He questions whether they will regard themselves as better than others and persecute humble brethren.",
         "refs": [
           "Alma 5:54"
         ]
       },
       {
-        "text": "He asks whether they will turn their backs on the poor and needy and withhold their substance.",
+        "text": "He questions whether they will turn their backs on the poor and needy and withhold their substance.",
         "refs": [
           "Alma 5:55"
         ]
       },
       {
-        "text": "He warns that those persisting in wickedness will be hewn down and cast into the fire unless they speedily repent.",
+        "text": "He warns that those who persist in wickedness will be hewn down and cast into the fire unless they speedily repent.",
         "refs": [
           "Alma 5:56"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses the congregation; no particular wealthy or poor individual is identified."
+      "The speaker addresses listeners, but the verses do not describe their appearance or number."
     ],
     "unspecified_visual_details": [
-      "The listeners' attire, possessions, and any specific acts of persecution or refusal to help."
+      "The setting, clothing, possessions, and appearances of the speaker and listeners."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Yea, and will you persist in turning your backs upon the poor, and the needy, and in withholding your substance from them?",
+        "refs": [
+          "Alma 5:55"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The fire warning is teaching, not a narrated visible event."
+      "The questions do not establish that any listener commits the acts mentioned. The fire is part of a warning, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not invent specific acts, victims, garments, or possessions."
+      "Do not depict a literal trampling of the Holy One, a fire scene, or specific acts of persecution or refusal to help.",
+      "Do not assign the speaker a name, title, or location absent from these verses."
     ],
     "importance": "normal"
   },
@@ -1219,98 +1382,121 @@
       "Alma 5:57",
       "Alma 5:58"
     ],
-    "summary": "Alma calls those who wish to follow the good shepherd to separate from the wicked and says the righteous will be written in the book of life and receive an inheritance at God's right hand.",
+    "summary": "The speaker urges those who desire to follow the good shepherd to separate from the wicked. He teaches that the wicked’s names will not be numbered among the righteous, while the righteous will be written in the book of life and receive an inheritance at God’s right hand.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unnamed speaker",
+      "Those addressed as brethren"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma tells those who want to follow the good shepherd to come out from the wicked and be separate.",
+        "text": "The speaker urges those who desire to follow the good shepherd to come out from the wicked, be separate, and not touch their unclean things.",
         "refs": [
           "Alma 5:57"
         ]
       },
       {
-        "text": "He says the wicked's names will be blotted out and not numbered among the righteous.",
+        "text": "The speaker says the wicked’s names shall be blotted out and not numbered among the righteous.",
         "refs": [
           "Alma 5:57"
         ]
       },
       {
-        "text": "The righteous' names will be written in the book of life and they will receive an inheritance at God's right hand.",
+        "text": "The speaker says the righteous shall be written in the book of life and granted an inheritance at God's right hand.",
         "refs": [
           "Alma 5:58"
         ]
       },
       {
-        "text": "Alma says the word of God must be fulfilled.",
+        "text": "The speaker asks his brethren what they have to say against this and says the word of God must be fulfilled.",
         "refs": [
           "Alma 5:58"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks the instruction to his audience."
+      "A speaker addresses an audience."
     ],
     "unspecified_visual_details": [
-      "The book of life, God's right hand, and any literal act of separating."
+      "The setting, the speaker’s appearance, and the audience’s appearance are not described."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "come ye out from the wicked, and be ye separate, and touch not their unclean things;",
+        "refs": [
+          "Alma 5:57"
+        ],
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "And now, my brethren, what have ye to say against this?",
+        "refs": [
+          "Alma 5:58"
+        ],
+        "speaker": "Unnamed speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The book and inheritance are teachings; the verse does not narrate a visible heavenly scene."
+      "The book of life and inheritance at God's right hand are teachings here, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict names being erased or written in a visible celestial book."
+      "Do not depict names being erased or written in a visible book, a heavenly scene, or people physically separating.",
+      "Do not assign the speaker a name or place the address in a named location."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_022",
-    "title": "The shepherd guards the flock",
+    "title": "The good shepherd",
     "refs": [
       "Alma 5:59",
       "Alma 5:60"
     ],
-    "summary": "Alma asks whether a shepherd watches against wolves and drives an intruding wolf out, then says the good shepherd calls and will bring those who heed him into his fold, where they must allow no ravenous wolf among them.",
+    "summary": "A speaker asks whether a shepherd watches over his sheep and drives out a wolf. The speaker then says the good shepherd calls to those addressed and commands them not to allow a ravenous wolf among them.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Unidentified speaker",
+      "People addressed by the speaker"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma asks whether a shepherd watches his sheep, drives out an entering wolf, and destroys it if able.",
+        "text": "The speaker asks whether a shepherd watches over his sheep to keep wolves from devouring the flock and drives out a wolf that enters.",
         "refs": [
           "Alma 5:59"
         ]
       },
       {
-        "text": "He says the good shepherd calls, brings those who heed him into his fold, and commands them not to allow a ravenous wolf among them.",
+        "text": "The speaker says the good shepherd calls to those addressed, will bring those who heed his voice into his fold, and commands them not to allow a ravenous wolf among them.",
         "refs": [
           "Alma 5:60"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma teaches through a shepherd-and-flock comparison."
+      "The speaker is addressing listeners."
     ],
     "unspecified_visual_details": [
-      "Any literal shepherd, sheep, wolf, or fold."
+      "The speaker’s appearance",
+      "The listeners’ appearance",
+      "The setting"
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "And now I say unto you that the good shepherd doth call after you;",
+        "refs": [
+          "Alma 5:60"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The shepherd, sheep, and wolves serve as figurative teaching; no actual animal action is narrated."
+      "The shepherd, sheep, and wolves are part of the speaker’s teaching, not narrated animal events."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal wolf entering or being driven out."
+      "Do not depict a literal wolf entering the flock or being driven out.",
+      "Do not assign the speaker a name or location not supplied by these verses."
     ],
     "importance": "normal"
   },
@@ -1321,47 +1507,53 @@
       "Alma 5:61",
       "Alma 5:62"
     ],
-    "summary": "Alma commands church members to observe his words and invites those outside the church to come and be baptized unto repentance and partake of the fruit of the tree of life.",
+    "summary": "Alma commands his hearers to observe his words. He speaks by way of command to those who belong to the church and by way of invitation to those who do not.",
     "characters": [
-      "Alma (high priest)",
-      "people of the church in Zarahemla"
+      "Alma"
     ],
-    "locations": [
-      "City of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma commands church members to observe the words he has spoken.",
+        "text": "Alma commands his hearers to observe the words he has spoken.",
         "refs": [
           "Alma 5:61"
         ]
       },
       {
-        "text": "He invites those who do not belong to the church to come and be baptized unto repentance.",
+        "text": "Alma speaks by way of command to those who belong to the church and by way of invitation to those who do not.",
         "refs": [
           "Alma 5:62"
         ]
       },
       {
-        "text": "He says they may also partake of the fruit of the tree of life.",
+        "text": "Alma invites those outside the church to be baptized unto repentance and says they may partake of the fruit of the tree of life.",
         "refs": [
           "Alma 5:62"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma concludes his address to the church and extends the invitation to those outside it."
+      "Alma may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "The identity of any nonmember listeners, a baptismal location, and any literal tree or fruit."
+      "The setting and the appearance or presence of those addressed are not specified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Come and be baptized unto repentance, that ye also may be partakers of the fruit of the tree of life.",
+        "refs": [
+          "Alma 5:62"
+        ],
+        "speaker": "Alma"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The tree of life is invitation imagery; no tree is narrated as physically present."
+      "The fruit of the tree of life is part of Alma's invitation, not a tree narrated as physically present."
     ],
     "prohibited_inventions": [
-      "Do not show a baptism or literal tree of life in this moment."
+      "Do not depict a baptism or a literal tree of life as occurring in this scene.",
+      "Do not assign a location or invented identities to those addressed."
     ],
     "importance": "normal"
   }

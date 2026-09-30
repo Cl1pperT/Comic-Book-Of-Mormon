@@ -77,60 +77,72 @@
       "2 Nephi 10:3",
       "2 Nephi 10:4"
     ],
-    "summary": "Jacob teaches that Christ must come among the Jews and be crucified, and says that miracles among other nations would lead them to repent and know God.",
+    "summary": "The speaker says an angel told him the previous night that Christ would be his name. He teaches that Christ should come among the Jews and that they shall crucify him. He says that if mighty miracles were wrought among other nations, they would repent and know him as their God.",
     "characters": [
-      "Jacob (son of Lehi)"
+      "Speaker whose name is not given in the supplied verses"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob says an angel spoke to him the previous night that Christ would be the name.",
+        "text": "The speaker says an angel spoke to him the previous night about Christ's name.",
         "refs": [
           "2 Nephi 10:3"
         ]
       },
       {
-        "text": "Jacob teaches that Christ must come among the Jews and be crucified.",
+        "text": "The speaker says Christ should come among the Jews and that they shall crucify him.",
         "refs": [
           "2 Nephi 10:3"
         ]
       },
       {
-        "text": "Jacob says miracles among other nations would lead them to repent and know God.",
+        "text": "The speaker says that if mighty miracles were wrought among other nations, they would repent and know him as their God.",
         "refs": [
           "2 Nephi 10:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob continues speaking to his audience."
+      "The speaker addresses others, whom he calls “you.”"
     ],
     "unspecified_visual_details": [
-      "The angel's appearance and the location of the prior conversation are not described."
+      "The speaker's appearance and present location are not described.",
+      "The angel's appearance and the location of the previous night's conversation are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Christ",
+        "text": "Christ—for in the last night the angel spake unto me that this should be his name—should come among the Jews,",
         "refs": [
           "2 Nephi 10:3"
-        ]
+        ],
+        "speaker": "Speaker"
       },
       {
-        "text": "they shall crucify him",
+        "text": "and they shall crucify him",
         "refs": [
           "2 Nephi 10:3"
-        ]
+        ],
+        "speaker": "Speaker"
+      },
+      {
+        "text": "For should the mighty miracles be wrought among other nations they would repent, and know that he be their God.",
+        "refs": [
+          "2 Nephi 10:4"
+        ],
+        "speaker": "Speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The angel's visit is reported as having occurred the previous night, not shown as a present scene.",
-      "Crucifixion and miracles are taught as future or conditional events here, not depicted as present action."
+      "The angel's speech is reported as occurring the previous night, not as a present event.",
+      "The crucifixion is foretold; miracles among other nations are conditional, not narrated events.",
+      "The supplied verses do not name the speaker."
     ],
     "prohibited_inventions": [
-      "Do not depict the angel, Christ, a crucifixion, or miracles in this scene."
+      "Do not depict the angel, Christ, a crucifixion, or miracles as present events.",
+      "Do not assign the speaker a name or invent details about the audience."
     ],
     "importance": "normal"
   },
@@ -615,39 +627,39 @@
       "2 Nephi 10:20",
       "2 Nephi 10:21"
     ],
-    "summary": "An unnamed speaker urges his brethren to remember God, lay aside sins, and not hang down their heads. He recalls being driven from their inheritance and led to a better land, and speaks of the Lord's promises and brethren inhabiting other isles.",
+    "summary": "A speaker urges his beloved brethren to remember God, lay aside their sins, and not hang down their heads. He says they were driven from their land of inheritance, led to a better land, and are upon an isle of the sea. He speaks of the Lord’s promises to those upon the isles and of brethren inhabiting other isles.",
     "characters": [
-      "Unnamed speaker",
-      "Brethren addressed by the speaker"
+      "Speaker",
+      "Beloved brethren addressed by the speaker"
     ],
     "locations": [
-      "Unspecified location upon an isle of the sea"
+      "An isle of the sea"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says their merciful God has given them great knowledge and urges his beloved brethren to remember him, lay aside sins, and not hang down their heads, for they are not cast off.",
+        "text": "The speaker says God has given them great knowledge and urges his beloved brethren to remember him, lay aside their sins, and not hang down their heads because they are not cast off.",
         "refs": [
           "2 Nephi 10:20"
         ]
       },
       {
-        "text": "The speaker reports that they were driven out of their land of inheritance but led to a better land, with the sea made their path by the Lord, and are upon an isle of the sea.",
+        "text": "The speaker says they were driven from their land of inheritance, led to a better land by way of the sea, and are upon an isle of the sea.",
         "refs": [
           "2 Nephi 10:20"
         ]
       },
       {
-        "text": "The speaker declares the Lord's promises great toward those upon the isles of the sea and reasons that other isles exist and are inhabited by their brethren.",
+        "text": "The speaker says the Lord’s promises to those upon the isles of the sea are great and that other isles are inhabited by their brethren.",
         "refs": [
           "2 Nephi 10:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The address may be staged with the unnamed speaker facing listeners."
+      "The speaker may face the brethren he addresses."
     ],
     "unspecified_visual_details": [
-      "The speaker's name and the listeners' group identity are not supplied.",
+      "The speaker’s identity is not established in the supplied verses.",
       "Appearance, clothing, gathering arrangement, and surrounding landscape are unspecified."
     ],
     "spoken_dialogue": [
@@ -656,18 +668,24 @@
         "refs": [
           "2 Nephi 10:20"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Speaker"
+      },
+      {
+        "text": "But great are the promises of the Lord unto them who are upon the isles of the sea;",
+        "refs": [
+          "2 Nephi 10:21"
+        ],
+        "speaker": "Speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "Displacement and travel over the sea are reported past events, not present action.",
-      "Other island inhabitants are mentioned, not established as physically present.",
-      "The supplied verses do not identify the speaker as Jacob or the listeners as Nephite settlers."
+      "The brethren inhabiting other isles are mentioned, not established as physically present."
     ],
     "prohibited_inventions": [
       "Do not depict a present voyage, expulsion, or arrival.",
-      "Do not invent names, biographies, or group identities.",
+      "Do not invent identities or biographies for the speaker or listeners.",
       "Do not depict God or the Lord as visibly appearing.",
       "Do not identify or map the isles or depict distant brethren as present."
     ],

@@ -1,85 +1,120 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The judges and the law",
+    "title": "The judges and the laws",
     "refs": [
       "Alma 1:1"
     ],
-    "summary": "In the first year of the judges, the people abide by the laws established by Mosiah, who has died without leaving a successor.",
+    "summary": "In the first year of the judges’ reign over the people of Nephi, Mosiah had died without leaving a successor. He had established laws that the people acknowledged and were obliged to obey.",
     "characters": [
-      "Nephite people"
+      "people of Nephi",
+      "king Mosiah (mentioned, not present)"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah had died without leaving anyone to reign in his stead; he had established laws, and the people acknowledged and were obliged to abide by them.",
+        "text": "It was the first year of the reign of the judges over the people of Nephi.",
+        "refs": [
+          "Alma 1:1"
+        ]
+      },
+      {
+        "text": "King Mosiah had died, leaving none to reign in his stead.",
+        "refs": [
+          "Alma 1:1"
+        ]
+      },
+      {
+        "text": "Mosiah had established laws; the people acknowledged them and were obliged to abide by them.",
         "refs": [
           "Alma 1:1"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The law-abiding people may be shown in a public setting."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance of Mosiah, if depicted in a retrospective image.",
-      "The appearance of the people, buildings, and laws."
+      "The appearance of the people and their surroundings.",
+      "How, if at all, the laws are represented visually."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they were obliged to abide by the laws which he had made.",
+        "refs": [
+          "Alma 1:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This is narrated background, not a present-time scene of Mosiah's death."
+      "Mosiah’s death and earlier acts are narrated background, not events to stage as happening in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show Mosiah dying or invent a successor."
+      "Do not depict Mosiah’s death as a present event or invent a successor.",
+      "Do not depict a specific act of law enforcement or compliance not described in the verse."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Nehor before Alma",
+    "title": "A Man Brought Before Alma",
     "refs": [
       "Alma 1:2",
       "Alma 1:3"
     ],
-    "summary": "In Alma's first year as chief judge, a large, strong man is brought before him for judgment. The man has preached against the church and advocated popular, supported priests and teachers who need not labor.",
+    "summary": "In the first year of Alma's reign in the judgment-seat, a large man noted for his strength is brought before him to be judged. The man had previously preached among the people against the church and declared that priests and teachers ought to be popular, supported by the people, and not labor with their hands.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Nehor",
-      "People bringing Nehor before Alma"
+      "Alma",
+      "An unnamed man"
     ],
     "locations": [
-      "Judgment seat"
+      "The judgment-seat"
     ],
     "explicit_facts": [
       {
-        "text": "A large and notably strong man was brought before Alma in his first year in the judgment seat.",
+        "text": "In the first year of Alma's reign in the judgment-seat, a man was brought before him to be judged.",
         "refs": [
           "Alma 1:2"
         ]
       },
       {
-        "text": "The man had preached against the church and taught that priests and teachers ought to be popular, supported by the people, and not labor with their hands.",
+        "text": "The man was large and noted for his strength.",
+        "refs": [
+          "Alma 1:2"
+        ]
+      },
+      {
+        "text": "The man had preached among the people against the church, calling his preaching the word of God.",
+        "refs": [
+          "Alma 1:3"
+        ]
+      },
+      {
+        "text": "He declared that priests and teachers ought to be popular, supported by the people, and not labor with their hands.",
         "refs": [
           "Alma 1:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor stands before Alma in a place of judgment."
+      "Alma and the man can be shown facing one another at the judgment-seat."
     ],
     "unspecified_visual_details": [
-      "The appearance of the judgment place and the people who brought him."
+      "The appearance of the judgment-seat, clothing, and any people who brought the man."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "there was a man brought before him to be judged",
+        "refs": [
+          "Alma 1:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Nehor's earlier preaching is reported; do not depict it as a separate event here."
+      "The man's preaching is reported as a prior activity, not an event occurring at the judgment-seat."
     ],
     "prohibited_inventions": [
-      "Do not invent a trial procedure or dialogue."
+      "Do not name the man or depict an invented trial procedure, dialogue, or a simultaneous preaching event."
     ],
     "importance": "normal"
   },
@@ -137,81 +172,115 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Nehor establishes a church",
+    "title": "Pride and costly apparel",
     "refs": [
       "Alma 1:6"
     ],
-    "summary": "Nehor grows proud, wears costly apparel, and begins establishing a church according to his preaching.",
+    "summary": "A man grows proud, begins wearing costly apparel, and begins establishing a church after the manner of his preaching.",
     "characters": [
-      "Nehor"
+      "An unnamed man"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nehor became proud, wore costly apparel, and began to establish a church after the manner of his preaching.",
+        "text": "He began to be lifted up in the pride of his heart.",
+        "refs": [
+          "Alma 1:6"
+        ]
+      },
+      {
+        "text": "He began to wear very costly apparel.",
+        "refs": [
+          "Alma 1:6"
+        ]
+      },
+      {
+        "text": "He began to establish a church after the manner of his preaching.",
         "refs": [
           "Alma 1:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor may be shown in costly clothing as he begins organizing followers."
+      "His costly apparel may be visible."
     ],
     "unspecified_visual_details": [
-      "The clothing's exact design and the form or setting of the church."
+      "The apparel's design, the location, and how the church is established."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And he began to be lifted up in the pride of his heart,",
+        "refs": [
+          "Alma 1:6"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not describe the church as a building or identify the man by name."
+    ],
     "prohibited_inventions": [
-      "Do not invent named followers or a formal church ceremony."
+      "Do not name the man, invent followers or a ceremony, or depict an unspecified church building as established fact."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "Nehor contends with Gideon",
+    "title": "Gideon Withstands an Unnamed Man",
     "refs": [
       "Alma 1:7",
       "Alma 1:8"
     ],
-    "summary": "While going to preach to believers, Nehor meets Gideon, a teacher in the church of God. Nehor contends sharply with him, but Gideon withstands him with the words of God.",
+    "summary": "An unnamed man, going to preach to those who believed his word, meets Gideon, a teacher in the church of God. The man contends sharply with Gideon, who withstands him and admonishes him with the words of God.",
     "characters": [
-      "Nehor",
-      "Gideon"
+      "Gideon",
+      "Unnamed man"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nehor met Gideon, a teacher belonging to the church of God, and contended sharply to lead church members away; Gideon withstood him and admonished him with the words of God.",
+        "text": "The unnamed man was going to preach to those who believed his word when he met a teacher belonging to the church of God.",
         "refs": [
           "Alma 1:7"
         ]
       },
       {
-        "text": "Gideon had been an instrument in delivering Limhi's people from bondage.",
+        "text": "He contended sharply with the teacher to lead away the people of the church; the teacher withstood him, admonishing him with the words of God.",
+        "refs": [
+          "Alma 1:7"
+        ]
+      },
+      {
+        "text": "The teacher was Gideon, who had been an instrument in delivering the people of Limhi out of bondage.",
         "refs": [
           "Alma 1:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The two men may be shown confronting one another."
+      "The two men may be shown facing one another during their contention."
     ],
     "unspecified_visual_details": [
-      "The place and any words spoken in their dispute."
+      "The location, clothing, and appearance of either man."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "but the man withstood him, admonishing him with the words of God.",
+        "refs": [
+          "Alma 1:7"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Gideon's role in Limhi's deliverance is background, not a second event to depict."
+      "Gideon's role in the deliverance of Limhi's people is background, not an event occurring during this encounter."
     ],
     "prohibited_inventions": [
-      "Do not depict the deliverance from bondage or invent dialogue."
+      "Do not name the unnamed man, invent words spoken in the dispute, or depict the earlier deliverance as part of this scene."
     ],
     "importance": "normal"
   },
@@ -221,77 +290,112 @@
     "refs": [
       "Alma 1:9"
     ],
-    "summary": "Angered by Gideon's resistance, Nehor draws his sword and strikes him. Gideon, weakened by age, cannot withstand the blows and is slain.",
+    "summary": "Gideon withstands a man with the words of God. Angered, the man draws his sword and strikes Gideon. Gideon cannot withstand the blows because of his age and is slain.",
     "characters": [
-      "Nehor",
-      "Gideon"
+      "Gideon",
+      "Unnamed man"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nehor drew his sword and began striking Gideon; Gideon was unable to withstand the blows because of his many years and was slain by the sword.",
+        "text": "Gideon withstood the man with the words of God, and the man was angry with Gideon.",
+        "refs": [
+          "Alma 1:9"
+        ]
+      },
+      {
+        "text": "The man drew his sword and began to strike Gideon.",
+        "refs": [
+          "Alma 1:9"
+        ]
+      },
+      {
+        "text": "Gideon could not withstand the blows because of his many years and was slain by the sword.",
         "refs": [
           "Alma 1:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The sword attack may be depicted without showing wounds or blood."
+      "The sword attack can be shown without depicting wounds or blood."
     ],
     "unspecified_visual_details": [
-      "The setting and the men's exact appearance."
+      "The location and the men's exact appearances are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "therefore he was slain by the sword.",
+        "refs": [
+          "Alma 1:9"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not supply the words Gideon spoke."
+    ],
     "prohibited_inventions": [
-      "Do not show gore, blood, or severed body parts."
+      "Do not name the attacker from material outside the supplied verse.",
+      "Do not invent Gideon's spoken words.",
+      "Do not show wounds, blood, or severed body parts."
     ],
     "importance": "major"
   },
   {
     "scene_id": "scene_007",
-    "title": "Nehor is brought to Alma",
+    "title": "The man is brought before Alma",
     "refs": [
       "Alma 1:10",
       "Alma 1:11"
     ],
-    "summary": "Church members take Nehor and bring him before Alma to be judged. Nehor stands before Alma and pleads boldly for himself.",
+    "summary": "The people of the church take the man who slew someone and bring him before Alma for judgment. He stands before Alma and pleads for himself with much boldness.",
     "characters": [
-      "Nehor",
-      "Alma the Younger (high priest)",
-      "People of the church of God"
+      "The man who slew him",
+      "Alma",
+      "The people of the church"
     ],
-    "locations": [
-      "Judgment seat"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The people of the church took the man who slew Gideon and brought him before Alma for judgment.",
+        "text": "The people of the church took the man who slew him and brought him before Alma to be judged according to his crimes.",
         "refs": [
           "Alma 1:10"
         ]
       },
       {
-        "text": "Nehor stood before Alma and pleaded for himself boldly.",
+        "text": "The man stood before Alma and pleaded for himself with much boldness.",
         "refs": [
           "Alma 1:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor may be shown facing Alma, with church members nearby."
+      "The man may be shown facing Alma while he pleads."
     ],
     "unspecified_visual_details": [
-      "The identities and appearance of the people who seized him."
+      "The setting and the characters’ appearances are not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And the man who slew him was taken by the people of the church, and was brought before Alma, to be judged according to the crimes which he had committed.",
+        "refs": [
+          "Alma 1:10"
+        ]
+      },
+      {
+        "text": "And it came to pass that he stood before Alma and pleaded for himself with much boldness.",
+        "refs": [
+          "Alma 1:11"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The words of the man's plea are not supplied."
+    ],
     "prohibited_inventions": [
-      "Do not invent Nehor's plea or other courtroom dialogue."
+      "Do not name the man or the person he slew.",
+      "Do not invent the man's plea, other dialogue, or a specific judgment setting."
     ],
     "importance": "normal"
   },
@@ -408,46 +512,66 @@
       "Alma 1:17",
       "Alma 1:18"
     ],
-    "summary": "Nehor's death does not stop priestcraft. Others preach false doctrines for riches and honor, while fearing legal punishment for known lies, theft, robbery, and murder.",
+    "summary": "Priestcraft continued to spread through the land. Many preached false doctrines for riches and honor. Fearing punishment under the law, they avoided known lies, theft, robbery, and murder, while professing to preach according to their beliefs.",
     "characters": [
-      "False preachers"
+      "Unnamed preachers"
     ],
     "locations": [
-      "Nephite land"
+      "The land"
     ],
     "explicit_facts": [
       {
-        "text": "After Nehor's death, priestcraft continued to spread; many preached false doctrines for riches and honor.",
+        "text": "Priestcraft continued to spread through the land; many preached false doctrines for riches and honor.",
         "refs": [
           "Alma 1:16"
         ]
       },
       {
-        "text": "They dared not lie if it would be known, fearing the law; they pretended to preach according to their belief, and the law could not punish belief.",
+        "text": "They feared punishment for lies that would be known, pretended to preach according to their beliefs, and could not be punished by law for belief.",
         "refs": [
           "Alma 1:17"
         ]
       },
       {
-        "text": "They dared not steal or rob for fear of the law, and murder was punishable by death.",
+        "text": "They feared punishment for theft and did not dare to rob or murder; murder was punishable by death.",
         "refs": [
           "Alma 1:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A preacher addressing listeners may suggest the spread of priestcraft."
+      "Unnamed preachers addressing listeners could represent the reported spread of their teachings."
     ],
     "unspecified_visual_details": [
-      "The particular preachers, listeners, locations, and offenses."
+      "The preachers' appearances, the listeners, and the precise setting."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they went forth preaching false doctrines; and this they did for the sake of riches and honor.",
+        "refs": [
+          "Alma 1:16"
+        ]
+      },
+      {
+        "text": "and now the law could have no power on any man for his belief.",
+        "refs": [
+          "Alma 1:17"
+        ]
+      },
+      {
+        "text": "neither durst they rob, nor murder, for he that murdered was punished unto death.",
+        "refs": [
+          "Alma 1:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "These are summarized conditions, not a specific new crime or trial."
+      "These verses report continuing conditions, not a particular sermon, crime, or trial."
     ],
     "prohibited_inventions": [
-      "Do not show a specific theft, robbery, murder, or named character."
+      "Do not depict a specific theft, robbery, murder, punishment, or trial.",
+      "Do not invent a preacher's words or name any member of the group."
     ],
     "importance": "normal"
   },
@@ -458,41 +582,46 @@
       "Alma 1:19",
       "Alma 1:20"
     ],
-    "summary": "People outside the church persecute church members with words because of their humility and their sharing of God's word without payment.",
+    "summary": "People who did not belong to the church of God began persecuting those who belonged to it and had taken upon themselves the name of Christ. They afflicted them with words because of their humility and their sharing of the word of God without payment.",
     "characters": [
-      "People outside the church of God",
-      "People of the church of God"
+      "People who did not belong to the church of God",
+      "People who belonged to the church of God"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "People who did not belong to the church began persecuting those who did and had taken upon themselves the name of Christ.",
+        "text": "People who did not belong to the church of God began persecuting those who belonged to it and had taken upon themselves the name of Christ.",
         "refs": [
           "Alma 1:19"
         ]
       },
       {
-        "text": "They afflicted church members with words because of their humility and because they shared the word of God with one another without money or price.",
+        "text": "They afflicted church members with words because of their humility, their lack of pride, and their sharing of the word of God with one another without payment.",
         "refs": [
           "Alma 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The groups may be shown facing one another while the persecution is conveyed through gestures."
+      "The groups may be shown facing one another, with gestures conveying verbal persecution."
     ],
     "unspecified_visual_details": [
-      "The words used, the setting, and the identities of the people."
+      "The setting, clothing, individuals' identities, and words spoken by the persecutors are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Yea, they did persecute them, and afflict them with all manner of words,",
+        "refs": [
+          "Alma 1:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The source describes affliction with words, not physical attack in this moment."
+      "The passage describes affliction with words; it does not describe a physical attack."
     ],
     "prohibited_inventions": [
-      "Do not invent insults or depict physical violence in this scene."
+      "Do not invent insults, dialogue, or physical violence."
     ],
     "importance": "normal"
   },
@@ -504,92 +633,110 @@
       "Alma 1:22",
       "Alma 1:23"
     ],
-    "summary": "Although church law forbids persecution, some members grow proud and contend with adversaries, even striking one another. In Alma's second year, this causes the church affliction and trial.",
+    "summary": "Despite a law against persecution, many among the church members became proud and contended with their adversaries, striking one another with their fists. In the second year of Alma's reign, this caused the church much affliction and trial.",
     "characters": [
-      "Proud members of the church of God",
+      "Members of the church",
       "Their adversaries"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Church law forbade members from persecuting nonmembers and forbade persecution among the members.",
+        "text": "A strict law forbade church members from persecuting nonmembers and forbade persecution among themselves.",
         "refs": [
           "Alma 1:21"
         ]
       },
       {
-        "text": "Many members became proud and contended warmly with adversaries, even coming to blows and striking one another with fists.",
+        "text": "Many among them became proud, contended warmly with their adversaries, and struck one another with their fists.",
         "refs": [
           "Alma 1:22"
         ]
       },
       {
-        "text": "In Alma's second year, this caused much affliction and trial for the church.",
+        "text": "This occurred in the second year of Alma's reign and caused the church much affliction and trial.",
         "refs": [
           "Alma 1:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The fistfight may be shown without graphic injury."
+      "The described blows can be shown without visible injury."
     ],
     "unspecified_visual_details": [
-      "The identities and number of those fighting."
+      "The setting, clothing, and identities of the people involved are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they would smite one another with their fists.",
+        "refs": [
+          "Alma 1:22"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The law is background; the described physical action is the members' fighting."
+      "The law provides context for the contention; no enforcement action is described."
     ],
     "prohibited_inventions": [
-      "Do not invent named fighters or injuries."
+      "Do not invent named fighters, dialogue, injuries, or a specific location."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "Some withdraw from the church",
+    "title": "Withdrawal and steadfastness",
     "refs": [
       "Alma 1:24",
       "Alma 1:25"
     ],
-    "summary": "Many harden their hearts, have their names blotted out, or withdraw. Those steadfast in faith patiently bear the persecution.",
+    "summary": "Many had hardened hearts, their names were blotted out, and many withdrew. Those who stood fast in the faith kept God's commandments and patiently bore persecution.",
     "characters": [
-      "People withdrawing from the church of God",
-      "Faithful members of the church of God"
+      "Many who withdrew",
+      "Those who stood fast in the faith"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Many people's hearts hardened, their names were blotted out and they were no longer remembered among God's people, and many withdrew from the church.",
+        "text": "Many people's hearts were hardened, their names were blotted out, and they were remembered no more among the people of God.",
         "refs": [
           "Alma 1:24"
         ]
       },
       {
-        "text": "Those who stood fast in faith remained steadfast in keeping God's commandments and patiently bore persecution.",
+        "text": "Many withdrew themselves from among the people of God.",
+        "refs": [
+          "Alma 1:24"
+        ]
+      },
+      {
+        "text": "Those who stood fast in the faith kept God's commandments and patiently bore persecution.",
         "refs": [
           "Alma 1:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Some people may be shown departing while others remain together."
+      "Some people may be shown leaving a group while others remain."
     ],
     "unspecified_visual_details": [
-      "How names were blotted out and how the persecution appeared."
+      "The setting, clothing, and visible form of the persecution are not specified.",
+      "The manner in which names were blotted out is not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And also many withdrew themselves from among them.",
+        "refs": [
+          "Alma 1:24"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The blotted-out names are reported; avoid inventing a visible supernatural record."
+      "The blotted-out names are reported; the verses do not describe a visible erasure."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine hand or miraculous erasure."
+      "Do not depict a divine hand or miraculous erasure.",
+      "Do not invent a specific act of persecution or dialogue."
     ],
     "importance": "normal"
   },
@@ -651,17 +798,21 @@
       "Alma 1:27",
       "Alma 1:28"
     ],
-    "summary": "Church members share their substance with people in need, dress neatly without costly apparel, and establish church affairs, leading to continual peace again despite persecution.",
+    "summary": "They impart their substance according to what each has to the poor, needy, sick, and afflicted. They do not wear costly apparel but are neat and comely. They establish the affairs of the church and begin to have continual peace again despite persecutions.",
     "characters": [
-      "People of the church of God",
-      "People in need"
+      "Those sharing their substance",
+      "The poor, needy, sick, and afflicted"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Members shared according to their means with the poor, needy, sick, and afflicted; they did not wear costly apparel, but were neat and comely.",
+        "text": "They imparted their substance according to what each had to the poor, needy, sick, and afflicted.",
+        "refs": [
+          "Alma 1:27"
+        ]
+      },
+      {
+        "text": "They did not wear costly apparel, yet were neat and comely.",
         "refs": [
           "Alma 1:27"
         ]
@@ -674,18 +825,32 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Members may be shown sharing goods with people in need."
+      "People may be shown sharing goods with those in need.",
+      "Their clothing may appear neat without appearing costly."
     ],
     "unspecified_visual_details": [
-      "The goods shared, clothing designs, and location."
+      "The goods shared, clothing designs, and setting."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they did impart of their substance, every man according to that which he had, to the poor, and the needy, and the sick, and the afflicted;",
+        "refs": [
+          "Alma 1:27"
+        ]
+      },
+      {
+        "text": "and thus they began to have continual peace again, notwithstanding all their persecutions.",
+        "refs": [
+          "Alma 1:28"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Peace is a reported condition, not a separate visible event."
+      "Peace and persecutions are reported conditions, not separate events to stage here."
     ],
     "prohibited_inventions": [
-      "Do not invent a specific illness, gift, or persecution episode."
+      "Do not invent a specific illness, gift, persecution episode, or location."
     ],
     "importance": "normal"
   },
@@ -696,94 +861,128 @@
       "Alma 1:29",
       "Alma 1:30"
     ],
-    "summary": "The church grows exceedingly rich, with abundant animals, grain, precious metals, fine fabrics, and cloth. In prosperity, members provide for people in need without favoring status or church membership.",
+    "summary": "Because of the church's steadiness, they became exceedingly rich and had abundant goods. In their prosperity, they did not send away people in need and were liberal to all without respect to persons.",
     "characters": [
-      "People of the church of God",
+      "People of the church",
       "People in need"
     ],
-    "locations": [
-      "Nephite land"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The church had abundance of flocks, herds, fatlings, grain, gold, silver, precious things, silk, fine-twined linen, and homely cloth.",
+        "text": "Because of the steadiness of the church, they became exceedingly rich and had abundant flocks, herds, fatlings, grain, gold, silver, precious things, silk, fine-twined linen, and homely cloth.",
         "refs": [
           "Alma 1:29"
         ]
       },
       {
-        "text": "They did not send away those lacking clothing, food, drink, nourishment, or who were sick; they were liberal to all in need, regardless of age, status, sex, or church membership.",
+        "text": "They did not send away those who were naked, hungry, thirsty, sick, or not nourished; they did not set their hearts upon riches and were liberal to all in need without respect to age, status, sex, or church membership.",
         "refs": [
           "Alma 1:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "An abundant supply of goods alongside members sharing with people in need may be depicted."
+      "Abundant goods and people in need may be shown together."
     ],
     "unspecified_visual_details": [
-      "The exact goods, garments, and place of distribution."
+      "The location, people's appearances, and arrangement of the goods are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "an abundance of flocks and herds",
+        "refs": [
+          "Alma 1:29"
+        ]
+      },
+      {
+        "text": "they were liberal to all, both old and young, both bond and free, both male and female",
+        "refs": [
+          "Alma 1:30"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The abundance and generosity are reported conditions."
+      "The abundance and generosity are reported conditions, not a specified single encounter."
     ],
     "prohibited_inventions": [
-      "Do not portray wealth as divine reward beyond what the text states."
+      "Do not invent a named recipient, a specific distribution event, or a location.",
+      "Do not portray the wealth as a divine reward beyond what the verses state."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_017",
-    "title": "Contrasting conduct and peace",
+    "title": "Prosperity, law, and peace",
     "refs": [
       "Alma 1:31",
       "Alma 1:32",
       "Alma 1:33"
     ],
-    "summary": "Church members prosper more than nonmembers. The text describes nonmembers' wicked practices and says the law is enforced; offenders become more still, and there is much peace among the Nephites until Alma's fifth year.",
+    "summary": "Those belonging to the church prospered and became wealthier than those outside it. The text describes wrongdoing among nonmembers and enforcement of the law where possible. People became more still, and peace lasted among the people of Nephi until the fifth year of the reign of the judges.",
     "characters": [
-      "People of the church of God",
-      "People outside the church",
-      "Nephite people"
+      "Those belonging to the church",
+      "Those outside the church",
+      "People of Nephi"
     ],
     "locations": [
-      "Nephite land"
+      "Among the people of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "Church members prospered and became wealthier than those outside the church.",
+        "text": "Those belonging to the church prospered and became wealthier than those who did not belong to it.",
         "refs": [
           "Alma 1:31"
         ]
       },
       {
-        "text": "The text attributes sorceries, idolatry, idleness, strife, costly apparel, persecution, lying, theft, robbery, sexual immorality, murder, and other wickedness to those outside the church; the law was enforced on transgressors as possible.",
+        "text": "The text attributes various forms of wrongdoing to those outside the church and says the law was enforced on transgressors as far as possible.",
         "refs": [
           "Alma 1:32"
         ]
       },
       {
-        "text": "As the law was exercised, people suffered according to their deeds, became more still, and dared not commit known wickedness; there was much peace among the Nephites until Alma's fifth year.",
+        "text": "As the law was exercised, people suffered according to their deeds, became more still, and dared not commit known wickedness. There was much peace among the people of Nephi until the fifth year of the reign of the judges.",
         "refs": [
           "Alma 1:33"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A broad view of people living in a settled community may suggest the reported peace."
+      "A broad community view could suggest the reported peace without depicting a particular incident."
     ],
     "unspecified_visual_details": [
-      "Specific offenders, punishments, and the appearance of peace."
+      "The community's precise setting and appearance",
+      "The appearance of costly apparel",
+      "Specific offenders and punishments"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And thus they did prosper and become far more wealthy than those who did not belong to their church.",
+        "refs": [
+          "Alma 1:31"
+        ]
+      },
+      {
+        "text": "the law was put in force upon all those who did transgress it",
+        "refs": [
+          "Alma 1:32"
+        ]
+      },
+      {
+        "text": "there was much peace among the people of Nephi until the fifth year of the reign of the judges.",
+        "refs": [
+          "Alma 1:33"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The chapter ends with a narrated summary, not a particular crime or punishment scene."
+      "These verses give a narrated account, not a particular crime or punishment scene."
     ],
     "prohibited_inventions": [
-      "Do not invent a specific act, culprit, punishment, or causal doctrine."
+      "Do not invent a specific offender, crime, punishment, or setting.",
+      "Do not depict sorcery as a visible supernatural event."
     ],
     "importance": "normal"
   }

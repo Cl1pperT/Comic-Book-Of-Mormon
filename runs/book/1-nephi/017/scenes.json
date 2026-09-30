@@ -1183,11 +1183,11 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "The Lord shakes Nephi’s brothers",
+    "title": "The Lord shakes Nephi’s brethren",
     "refs": [
       "1 Nephi 17:54"
     ],
-    "summary": "Nephi stretches forth his hand to his brethren. They do not wither, but the Lord shakes them according to his word.",
+    "summary": "Nephi stretches forth his hand toward his brethren. They do not wither, but the Lord shakes them.",
     "characters": [
       "Nephi",
       "Nephi’s brethren"
@@ -1195,7 +1195,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi stretches forth his hand unto his brethren.",
+        "text": "Nephi stretches forth his hand toward his brethren.",
         "refs": [
           "1 Nephi 17:54"
         ]
@@ -1207,29 +1207,37 @@
         ]
       },
       {
-        "text": "The Lord shakes Nephi’s brethren according to the word he had spoken.",
+        "text": "The Lord shakes them according to the word he had spoken.",
         "refs": [
           "1 Nephi 17:54"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi’s hand is extended toward an unnamed group of brothers.",
-      "The brothers are visibly shaken."
+      "Nephi’s hand is extended toward his brethren.",
+      "The brethren visibly shake."
     ],
     "unspecified_visual_details": [
-      "The brothers’ individual identities and number.",
-      "The location and surrounding setting.",
-      "The precise appearance or physical effect of the shaking."
+      "The brethren’s number and individual identities.",
+      "The location and surroundings.",
+      "The precise appearance of the shaking."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that I stretched forth my hand unto my brethren, and they did not wither before me; but the Lord did shake them, even according to the word which he had spoken.",
+        "refs": [
+          "1 Nephi 17:54"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The Lord’s shaking of the brethren is explicitly narrated."
+      "The verse attributes the shaking to the Lord but does not describe the Lord appearing."
     ],
     "prohibited_inventions": [
-      "Do not identify the brothers as Laman, Lemuel, or Sam.",
-      "Do not add injury, electrical effects, or other unspecified manifestations."
+      "Do not depict the Lord visibly.",
+      "Do not add injury or other unspecified effects.",
+      "Do not identify the brethren individually or stage the earlier spoken word."
     ],
     "importance": "major"
   },

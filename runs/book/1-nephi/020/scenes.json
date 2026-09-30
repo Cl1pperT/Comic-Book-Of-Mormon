@@ -518,39 +518,48 @@
     "refs": [
       "1 Nephi 20:21"
     ],
-    "summary": "The Lord recalls that he led the people through deserts, caused water to flow from a rock, and split the rock so the waters gushed out.",
+    "summary": "They thirsted not as he led them through the deserts. He caused water to flow from a rock, cleaved the rock, and the waters gushed out.",
     "characters": [],
     "locations": [
-      "wilderness"
+      "deserts"
     ],
     "explicit_facts": [
       {
-        "text": "The people thirsted not as he led them through the deserts.",
+        "text": "They thirsted not, and he led them through the deserts.",
         "refs": [
           "1 Nephi 20:21"
         ]
       },
       {
-        "text": "He caused waters to flow out of the rock, cleaved the rock, and the waters gushed out.",
+        "text": "He caused water to flow out of the rock for them, cleaved the rock, and the waters gushed out.",
         "refs": [
           "1 Nephi 20:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The recalled event may be shown as a distinct past moment in the desert, with water flowing from a split rock."
+      "The recounted event could be depicted as a distinct past moment, with water gushing from a split rock."
     ],
     "unspecified_visual_details": [
       "The people's identities, number, and appearance.",
-      "The desert's precise location and appearance."
+      "The deserts' precise location and appearance.",
+      "How the rock was cleaved."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they thirsted not; he led them through the deserts; he caused the waters to flow out of the rock for them; he clave the rock also and the waters gushed out.",
+        "refs": [
+          "1 Nephi 20:21"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This verse explicitly recounts a past physical event."
+      "The verse recounts a past event; do not present it as a new event occurring at the time of narration."
     ],
     "prohibited_inventions": [
-      "Do not identify the people or add a visible divine figure."
+      "Do not identify the people or depict an unspecified divine appearance.",
+      "Do not add dialogue or a method for cleaving the rock."
     ],
     "importance": "normal"
   },
@@ -560,24 +569,28 @@
     "refs": [
       "1 Nephi 20:22"
     ],
-    "summary": "The Lord declares that despite all he has done, there is no peace for the wicked.",
+    "summary": "The Lord says there is no peace unto the wicked.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Despite all this and greater things, the Lord says there is no peace unto the wicked.",
+        "text": "The Lord says there is no peace unto the wicked.",
+        "refs": [
+          "1 Nephi 20:22"
+        ]
+      },
+      {
+        "text": "The verse refers to what he has done, and greater also, without specifying those deeds.",
         "refs": [
           "1 Nephi 20:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the declaration as off-screen speech rather than depicting a new event."
+      "The declaration can be presented as text without depicting an event."
     ],
     "unspecified_visual_details": [
-      "The setting and any listeners."
+      "The setting, listeners, and deeds referred to as “all this.”"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -589,10 +602,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse states a teaching, not a visible event."
+      "This verse states a teaching rather than narrating a visible event. Verse 21 is not among the supplied verses."
     ],
     "prohibited_inventions": [
-      "Do not invent a scene of punishment or identify particular people as wicked."
+      "Do not depict events from verse 21, invent the deeds referred to as “all this,” or portray particular people as wicked."
     ],
     "importance": "normal"
   }

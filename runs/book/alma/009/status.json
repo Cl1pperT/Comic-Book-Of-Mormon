@@ -4,24 +4,17 @@
   "verses": 34,
   "scenes": 11,
   "counts": {
-    "PASS": 8,
+    "PASS": 10,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_001": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_005": [
-      "Alma is identified as the speaker in Alma 9:7 and continues speaking through 9:12–13. Calling him unnamed and prohibiting his identification contradicts the supplied verses."
-    ]
-  },
-  "calls": 6,
+  "rejected": {},
+  "calls": 13,
   "tokens": {
-    "input_tokens": 48498,
-    "cached_input_tokens": 21888,
+    "input_tokens": 102465,
+    "cached_input_tokens": 43776,
     "cache_write_input_tokens": 0,
-    "output_tokens": 8564,
-    "reasoning_output_tokens": 2146
+    "output_tokens": 12431,
+    "reasoning_output_tokens": 3926
   }
 }

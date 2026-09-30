@@ -1,5 +1,5 @@
 {
-  "stamp": "e9c453583065cd4d78c26f5bc6bfc1a41d82973dbb6a32b311e0376469d054c1",
+  "stamp": "6c55c0badc50e664bbc1031947700491913958f8ee97b88204fc610471632c14",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,20 +30,18 @@
       "issues": []
     },
     "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “the Lord” is supported by the text, but the Lord’s appearance is unspecified; the unspecified_visual_details correctly flags this."
+      ]
+    },
+    "scene_009": {
       "status": "PASS",
       "issues": []
     },
-    "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The exchange is phrased as a proposed event in the source (\"When a man shall take hold...\"); presenting the men together in a conversation risks turning that conditional prophecy into a present-time scene."
-      ]
-    },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

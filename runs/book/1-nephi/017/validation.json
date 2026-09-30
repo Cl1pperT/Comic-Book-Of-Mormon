@@ -1,5 +1,5 @@
 {
-  "stamp": "d412159749c84e5831258cfea1f42b5b1b42190a9b4e075d8eba2f247acc7e03",
+  "stamp": "236036e0b142cfbe1ff992b40e82a6f070c0ebfc670df2a5d83bf5a2a316f83d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -52,7 +52,7 @@
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Bountiful is listed as the location, but verses 39–40 do not specify where Nephi is speaking; treat Bountiful as an inference, not an established location."
+        "Bountiful is a reasonable contextual location for this continuing address, but verses 39–40 do not specify the location directly."
       ]
     },
     "scene_014": {
@@ -60,18 +60,18 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The sea is mentioned as the place they desire to throw Nephi, but the verses do not establish that it is visible from the unspecified location."
+      ]
     },
     "scene_016": {
       "status": "PASS",
       "issues": []
     },
     "scene_017": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS",

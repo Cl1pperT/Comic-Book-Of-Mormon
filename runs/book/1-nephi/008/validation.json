@@ -1,105 +1,109 @@
 {
-  "stamp": "bc2186930e330e051cb3d0ea6a4d4ac9e1858329907f2c48e1df7bcfdc3975de",
+  "stamp": "7e294573c8df0bc7f7f1fd362ef14a72b02794642ef9abb6339d0c48ce3e5711",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
-    },
-    "scene_002": {
       "status": "PASS",
       "issues": []
     },
-    "scene_003": {
-      "status": "REJECT",
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 2 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Scene presents Lehi speaking to his sons in the wilderness, consistent with verses 2–4; the imagined wilderness is correctly kept distinct. Visual details of the sons and setting remain unspecified."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration excerpts are verbatim and the summary sticks to the supplied events. Visual proximity is a reasonable inference from the man standing before the narrator and speaking to him; the narrator's and man's appearance and surroundings remain unspecified."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary correctly follows verses 7–8. The inference that darkness obscures the waste is reasonable, but the text does not specify the extent or appearance of the darkness."
+      ]
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary is supported by verses 11–12. Holding the fruit is a reasonable inference from partaking, but the fruit’s species, shape, and size are unspecified."
       ]
     },
-    "scene_008": {
+    "scene_007": {
       "status": "PASS",
       "issues": []
     },
-    "scene_009": {
-      "status": "REJECT",
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary and dialogue are supported by verses 15–16. The gesture’s direction is unspecified; the visual-inference wording appropriately presents it as an option."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narrator's identity is not specified by the scene's cited verses; its label as an unnamed first-person narrator is appropriately cautious.",
+        "The visual inference that Laman and Lemuel may be shown apart is not explicit, and their precise positions are unspecified."
       ]
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Scene 010 omits narration of the path in verse 20, but the summary and explicit facts accurately cover it.",
+        "The field's comparison to a world is figurative and appropriately not presented as a literal world."
       ]
     },
     "scene_011": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The observer's identity is unspecified in these verses; the description remains unnamed.",
+        "The approach and beginning on the path are distinct actions within the cited sequence and should not be collapsed into a different chronology."
       ]
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The building is described as standing “as it were in the air”; its support and architecture remain unspecified, as noted.",
+        "The observers in verses 26–27 are first-person narration, but the scene does not identify them by name."
       ]
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_017": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary accurately separates Nephi’s narration in verse 29 from the reported vision in verse 30. The multitudes’ identities and appearance are unspecified."
       ]
     },
-    "scene_018": {
+    "scene_017": {
       "status": "PASS",
       "issues": []
     },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration attributes Lehi’s first-person account to an unspecified “he”; this is supported by the preceding vision context, but Lehi is not named in these verses. The term “observer” is reasonable, not an explicit character identity."
+      ]
+    },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene correctly places Lehi’s words and actions after he finishes recounting the vision. Lehi’s fear and exhortation are supported by verses 36–38; the family’s arrangement and expressions are unspecified."
+      ]
     }
   }
 }

@@ -1,16 +1,14 @@
 {
-  "stamp": "e6cf5ed7a5d03fb8f4af4d08d18312aaec8557772589b5a389b3f697caa40906",
+  "stamp": "e9681ffa5ffb28e69b37990af6060300c3ded04bec78034ebaef1763e51a57d3",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary calls the returning speaker Nephi; the source identifies him in narration, but the scene's character list also uses the non-established label “Nephi's brethren” instead of the established group label “Nephi”'s brethren.”"
       ]
     },
     "scene_003": {
@@ -30,22 +28,24 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotation omits the source's opening “And” and changes the original punctuation from a semicolon to a comma; quotations must be exact excerpts."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration does not quote any source text; the scene's quoted dialogue is exact, but the source requires narration to use quotations."
+      ]
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
@@ -60,19 +60,24 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "scene_014: The verses identify the speaker as Nephi and say he spoke “unto them”; the supplied scene labels him only as “the speaker” and calls the listeners unnamed. Their identities are unspecified in these verses.",
+        "scene_014: The address to listeners is supported, but the number of listeners is not specified."
       ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_015: The verses identify the speaker as Nephi and refer to the listeners as “they”; the scene's labels leave the listeners unnamed. Their identities are unspecified in these verses.",
+        "scene_015: The father's reported sight and the brightness comparison are correctly treated as reported speech, not present visual events."
+      ]
     },
     "scene_016": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "scene_016: The verses identify the speaker as Nephi; “his brethren” are supported, but their individual identities are not specified in these verses.",
+        "scene_016: The summary and notes correctly keep judgment, hell, the kingdom, and the tree of life as teachings rather than present visual events."
       ]
     }
   }

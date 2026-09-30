@@ -1,5 +1,5 @@
 {
-  "stamp": "010339d1c776065181fecdbee259ba5eb1a9783f40c16f814e7241a356a8b3a0",
+  "stamp": "810a9afec508bed8c2002e961bda7368096757cae18ef9e6bfc3e760753fdca9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,10 +10,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt omits the opening “Behold,” but remains verbatim and contiguous; consider preserving the complete supplied phrase for exactness."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -24,12 +22,16 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The Lord hath loved him” is an exact excerpt, but its referent is unresolved in the supplied verses."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The identities of the speaker and the one referred to as “him” are unresolved in the supplied verses."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -40,9 +42,9 @@
       "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The verse recounts the event but does not identify when it occurred; the suggestion to depict it as a distinct past moment is a reasonable but uncertain visual choice."
       ]
     },
     "scene_011": {

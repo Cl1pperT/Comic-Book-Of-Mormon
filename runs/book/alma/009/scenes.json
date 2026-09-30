@@ -5,10 +5,9 @@
     "refs": [
       "Alma 9:1"
     ],
-    "summary": "Alma begins preaching to the people of Ammonihah, accompanied by Amulek.",
+    "summary": "Alma begins preaching to the people of Ammonihah, and they begin to contend with him.",
     "characters": [
-      "Alma (high priest)",
-      "Amulek",
+      "Alma",
       "people of Ammonihah"
     ],
     "locations": [
@@ -16,29 +15,43 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma was commanded by God to take Amulek and preach again to the people of Ammonihah.",
+        "text": "Alma says God commanded him to take Amulek and preach again to the people of Ammonihah.",
         "refs": [
           "Alma 9:1"
         ]
       },
       {
-        "text": "As Alma began preaching, the people contended with him.",
+        "text": "As Alma began to preach, the people began to contend with him.",
         "refs": [
           "Alma 9:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is speaking to a gathering of people; Amulek accompanies him."
+      "Alma addresses people gathered within speaking distance."
     ],
     "unspecified_visual_details": [
-      "The place within Ammonihah, architecture, clothing, and crowd size are not specified."
+      "The precise setting, clothing, and number of people are not specified.",
+      "Amulek's physical presence during the preaching is not established."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "they began to contend with me, saying:",
+        "refs": [
+          "Alma 9:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse introduces what the people say but does not supply their words.",
+      "Amulek is mentioned in the reported command, not established as physically present during the preaching."
+    ],
     "prohibited_inventions": [
-      "Do not depict God visibly; no appearance is described."
+      "Do not depict God visibly; no appearance is described.",
+      "Do not invent dialogue for Alma or the people.",
+      "Do not depict Amulek as physically present.",
+      "Do not stage the previously received command as a present event."
     ],
     "importance": "normal"
   },
@@ -268,33 +281,33 @@
       "Alma 9:12",
       "Alma 9:13"
     ],
-    "summary": "A speaker commands repentance, warns of consequences for not repenting, and recalls words spoken to Lehi about obedience and prosperity and a warning about disobedience.",
+    "summary": "An unnamed speaker calls those addressed to repentance and warns of consequences. The speaker recalls words spoken to Lehi about obedience and prosperity, then separately cites a saying about disobedience and separation from the Lord's presence.",
     "characters": [
-      "Speaker (unnamed in the supplied verses)",
-      "Those addressed (unnamed in the supplied verses)"
+      "Unnamed speaker",
+      "Those addressed"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says repentance is commanded and that those addressed cannot inherit the kingdom of God unless they repent.",
+        "text": "The speaker says those addressed are commanded to repent and cannot inherit the kingdom of God unless they repent.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker warns of destruction and divine anger if those addressed do not repent.",
+        "text": "The speaker warns of utter destruction and visitation in anger if those addressed do not repent.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker recalls words spoken to Lehi promising prosperity in the land for keeping commandments.",
+        "text": "The speaker recalls words spoken to Lehi stating that keeping the commandments brings prosperity in the land.",
         "refs": [
           "Alma 9:13"
         ]
       },
       {
-        "text": "The speaker repeats a warning that those who do not keep the commandments will be cut off from the presence of the Lord.",
+        "text": "The speaker separately introduces with 'And again it is said that:' a saying that those who do not keep the commandments shall be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ]
@@ -304,43 +317,38 @@
       "A speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's and listeners' identities, appearances, clothing, gestures, and positions are unspecified.",
-      "The setting and time of day are unspecified."
+      "The speaker's identity and the listeners' identities and appearances are unspecified.",
+      "The location, clothing, gestures, audience size, and time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, now I say unto you that he commandeth you to repent;",
+        "text": "Behold, now I say unto you that he commandeth you to repent; and except ye repent, ye can in nowise inherit the kingdom of God.",
         "refs": [
           "Alma 9:12"
         ],
-        "speaker": "Speaker"
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
+        "text": "And again it is said that: Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ],
-        "speaker": "Speaker"
-      },
-      {
-        "text": "Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
-        "refs": [
-          "Alma 9:13"
-        ],
-        "speaker": "Speaker"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Only Alma 9:12–13 is supplied; these verses do not name the speaker.",
-      "The words spoken to Lehi are recalled within the speaker's address, not presented as a separate event.",
-      "Destruction and exclusion from the Lord's presence are warnings, not events narrated as occurring."
+      "Dialogue consists of separate exact source excerpts, not the complete address.",
+      "Only the first saying in verse 13 is explicitly introduced as words spoken to Lehi; the second is separately introduced as something said.",
+      "Lehi is mentioned in recalled speech, not established as physically present.",
+      "The consequences are warnings, not events narrated as occurring.",
+      "No divine appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or listeners using unsupplied verses.",
-      "Do not show Lehi as present or stage the earlier words spoken to him as a flashback.",
-      "Do not depict destruction, divine anger, or exclusion from the Lord's presence as visible events occurring here.",
-      "Do not invent a divine appearance or additional dialogue."
+      "Do not identify the speaker or listeners using outside material.",
+      "Do not depict Lehi as present or stage the recalled words as a flashback.",
+      "Do not depict destruction, divine anger, prosperity, or separation from the Lord as events occurring in this scene.",
+      "Do not invent a divine appearance, listener reactions, or additional dialogue."
     ],
     "importance": "normal"
   },

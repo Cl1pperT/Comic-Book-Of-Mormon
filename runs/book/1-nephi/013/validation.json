@@ -1,117 +1,83 @@
 {
-  "stamp": "08893137d20e27e2404c1c3c56e4492403b935fa321b82f753a7f341261a465f",
+  "stamp": "31e4a0bd47fe2991965a9d04ce2f27c619354865a42a3194fa00b2fe2a01b08e",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The angel's identity as the angel who appeared to Nephi is not established in these verses; the location is unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The angel's identity and the location are unspecified; the church and devil are seen in Nephi's vision, but neither's visual appearance is described."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The angel's identity and the location are unspecified; the groups' visual depiction is not described."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The explicit-facts entry that Nephi describes the Gentiles as white, exceedingly fair, and beautiful is accurate, but the visual depiction of these attributes may imply skin color or physical traits beyond what the source establishes; interpret conservatively."
       ]
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The angel's identity, the book's appearance, who carries it, and the observation setting are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Jew's identity and appearance and the book's form are unspecified; “proceedeth out of the mouth” should not be depicted literally."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The visual representation and timing of the removal are unspecified; avoid inventing a literal alteration process or specific actors."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lamb's appearance and any visible form of judgment or mercy are unspecified; the future events are reported, not present action."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lamb's appearance, records' form, and hiding or recovery details are unspecified; the future events are predictions, not present action."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The mountain phrase is figurative teaching; the verses do not establish a present gathering or visible manifestation of the Holy Ghost."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

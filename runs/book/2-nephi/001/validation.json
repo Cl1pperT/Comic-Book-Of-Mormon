@@ -1,27 +1,21 @@
 {
-  "stamp": "da10b26b481121306aef560c27ab14faa723844d5ee59bf607dde63ede215c30",
+  "stamp": "cc29d7528b0d97ac073f532f3e94ae747e04e65fcbac59f4f2b996f8b9ad4aad",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "The characters field identifies “Lehi’s brethren,” but the source identifies them as Nephi’s brethren. This changes their relationship to Lehi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "The spoken_dialogue field attributes “said he” to Lehi, but those words are narration, not Lehi’s speech."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“The land” is listed as a location, although these verses do not establish where Lehi is speaking."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -30,13 +24,13 @@
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is Lehi in the supplied continuing address; the note incorrectly says only verses 10–11 are available to identify him."
+        "The speaker’s identity is unspecified in scene refs 2 Nephi 1:10–11; keeping the speaker unnamed is appropriately conservative. Audience and surroundings are also unspecified."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is Lehi in the supplied continuing address; the note incorrectly says the preceding verses are unavailable."
+        "The speaker's identity is unspecified in verses 12–13; the scene appropriately avoids naming him. The exhortations and metaphors are treated as speech, not literal action."
       ]
     },
     "scene_008": {
@@ -46,7 +40,8 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The note invokes a “supplied audit correction” rather than the supplied verses to support identifying Lehi. The preceding verses themselves establish the continuing speaker."
+        "The scene is broadly faithful. Lehi is not named in these verses; the identification relies on continuity from the preceding scene.",
+        "“Addressees” is a generic label, but the surrounding verses identify them as his sons (2 Nephi 1:19–21)."
       ]
     },
     "scene_010": {
@@ -62,22 +57,16 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The note incorrectly says preceding verses are unavailable; the supplied chapter establishes this as the continuing address. The brother is identified as Nephi later in the supplied passage."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The man is left unidentified, although the continuing supplied passage identifies him as Nephi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The note incorrectly says identifying the speaker as Lehi depends on an address outside the supplied source; the continuing address is supplied."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

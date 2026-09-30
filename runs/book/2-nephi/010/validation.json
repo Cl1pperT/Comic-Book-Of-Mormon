@@ -1,13 +1,15 @@
 {
-  "stamp": "ec034c46c645b6d5cfde898ce65dc786204b817150d3aaf9bfba2285f6804dbc",
+  "stamp": "53aec4448f7062544e409bc97c793d59d2ee4c599d785f87391abeba4ffeae3c",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is identifiable as Jacob from the immediately preceding scene and 2 Nephi 10:1; labeling him as unnamed is inconsistent with that context."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -46,28 +48,24 @@
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The address continues from Jacob's self-identification in 2 Nephi 10:1. Labeling the speaker of 10:20–21 and its dialogue as “Unnamed speaker” contradicts that continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The claim that the speaker cannot be identified ignores the continuing address identified as Jacob's in 2 Nephi 10:1. The preceding scene repeats this speaker error."
+        "The verse continues the address established in verse 1, identifying Jacob as the speaker by context; leaving the speaker unspecified omits that contextual identification."
       ]
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The claim that the speaker's identity is unspecified ignores the continuing address identified as Jacob's in 2 Nephi 10:1."
+        "The verses continue the address established in verse 1, identifying Jacob as the speaker by context; leaving the speaker unspecified omits that contextual identification."
       ]
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Jacob prays” is an interpretation of the closing appeal “may God raise you,” not an explicitly narrated act of prayer in 2 Nephi 10:25."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

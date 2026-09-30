@@ -271,7 +271,7 @@
     "refs": [
       "2 Nephi 1:9"
     ],
-    "summary": "Lehi says he has obtained a promise concerning those whom the Lord God shall bring out of Jerusalem. The promised blessings depend on their keeping his commandments.",
+    "summary": "Lehi says he has obtained a promise. He describes blessings for those whom the Lord God shall bring out of Jerusalem, conditional on their keeping his commandments.",
     "characters": [
       "Lehi"
     ],
@@ -280,13 +280,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lehi says he has obtained a promise concerning those whom the Lord God shall bring out of the land of Jerusalem.",
+        "text": "Lehi says he has obtained a promise.",
         "refs": [
           "2 Nephi 1:9"
         ]
       },
       {
-        "text": "If they keep his commandments, they shall prosper and be blessed on the land, possess it, be kept from other nations, face none who molest them or take away their inheritance, and dwell safely forever.",
+        "text": "The promise concerns those whom the Lord God shall bring out of the land of Jerusalem.",
+        "refs": [
+          "2 Nephi 1:9"
+        ]
+      },
+      {
+        "text": "If they keep his commandments, they shall prosper and be blessed on this land, be kept from other nations, possess the land, face no one who molests them or takes away their inheritance, and dwell safely forever.",
         "refs": [
           "2 Nephi 1:9"
         ]
@@ -296,11 +302,19 @@
       "Lehi may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "Lehi’s location, posture, clothing, and audience are not specified."
+      "Lehi’s location, posture, clothing, and audience are not specified.",
+      "The land’s appearance is not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Wherefore, I, Lehi, have obtained a promise, that inasmuch as those whom the Lord God shall bring out of the land of Jerusalem shall keep his commandments, they shall prosper upon the face of this land; and they shall be kept from all other nations, that they may possess this land unto themselves.",
+        "text": "Wherefore, I, Lehi, have obtained a promise, that inasmuch as those whom the Lord God shall bring out of the land of Jerusalem shall keep his commandments, they shall prosper upon the face of this land;",
+        "refs": [
+          "2 Nephi 1:9"
+        ],
+        "speaker": "Lehi"
+      },
+      {
+        "text": "and there shall be none to molest them, nor to take away the land of their inheritance; and they shall dwell safely forever.",
         "refs": [
           "2 Nephi 1:9"
         ],
@@ -309,11 +323,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The blessings are conditional promises, not events narrated as occurring here."
+      "The blessings are conditional promises, not events narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the promised future prosperity, protection, or conflict as occurring in this scene.",
-      "Do not identify an audience; the verse does not name one."
+      "Do not depict the promised future blessings or protection as already occurring.",
+      "Do not invent an audience or identify the land beyond the verse’s wording.",
+      "Do not depict the Lord God appearing; no appearance is described."
     ],
     "importance": "normal"
   },
@@ -324,50 +339,43 @@
       "2 Nephi 1:10",
       "2 Nephi 1:11"
     ],
-    "summary": "A speaker warns that if a greatly blessed people reject the Holy One of Israel, judgment will rest upon them. Other nations will receive power, and the people will lose their lands and be scattered and smitten.",
+    "summary": "A speaker warns that if the people reject the Holy One of Israel, judgments will rest upon them. The speaker foretells the arrival of other nations, the loss of the people's lands, and their scattering and smiting.",
     "characters": [
       "Speaker not named in the supplied verses"
     ],
     "locations": [
-      "Unspecified location"
+      "Location unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The warning describes a people who have received great blessings, knowledge, power through faith, commandments, and passage into a precious land of promise.",
+        "text": "The people have received great blessings, knowledge, commandments, power through faith, and a precious land of promise.",
         "refs": [
           "2 Nephi 1:10"
         ]
       },
       {
-        "text": "If the people reject the Holy One of Israel, their Messiah, Redeemer, and God, judgment will rest upon them.",
+        "text": "The warning makes judgment conditional on their rejection of the Holy One of Israel.",
         "refs": [
           "2 Nephi 1:10"
         ]
       },
       {
-        "text": "The foretold consequences include other nations being brought to them and given power, loss of their lands, and being scattered and smitten.",
+        "text": "The speaker foretells the arrival of other nations, the loss of the people's lands, and their scattering and smiting.",
         "refs": [
           "2 Nephi 1:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown delivering the warning without depicting its foretold consequences."
+      "A speaker may be shown delivering the warning; the foretold consequences are not shown occurring."
     ],
     "unspecified_visual_details": [
-      "The speaker's name, appearance, clothing, posture, audience, and immediate surroundings are not specified in verses 10–11.",
+      "The speaker's identity, appearance, audience, and surroundings are not specified in the supplied verses.",
       "The identities and appearances of the other nations are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God,",
-        "refs": [
-          "2 Nephi 1:10"
-        ],
-        "speaker": "Speaker not named in the supplied verses"
-      },
-      {
-        "text": "behold, the judgments of him that is just shall rest upon them.",
+        "text": "if the day shall come that they will reject the Holy One of Israel, the true Messiah, their Redeemer and their God, behold, the judgments of him that is just shall rest upon them.",
         "refs": [
           "2 Nephi 1:10"
         ],
@@ -383,15 +391,14 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The warning is conditional; its consequences are foretold, not narrated as occurring.",
-      "The audit references verse 6, but only verses 10–11 are supplied as authoritative source text."
+      "The consequences are foretold, not narrated as occurring.",
+      "The supplied verses do not name the speaker; the audit's reference to a preceding scene cannot establish the speaker's identity under the verses-only constraint."
     ],
     "prohibited_inventions": [
-      "Do not establish the speaker's name using unsupplied verses or audit assertions.",
-      "Do not depict the foretold nations, dispossession, scattering, or smiting as present events.",
-      "Do not stage the previously received blessings or creation as new events.",
-      "Do not invent a visible divine appearance.",
-      "Do not invent identities, biographies, or dialogue for the people or nations."
+      "Do not identify the speaker from an unsupplied preceding scene.",
+      "Do not depict the foretold dispossession, scattering, or smiting as present events.",
+      "Do not stage previously received blessings or the creation as new events.",
+      "Do not invent a visible divine appearance or identities and dialogue for the people or nations."
     ],
     "importance": "normal"
   },
@@ -554,7 +561,7 @@
       "2 Nephi 1:17",
       "2 Nephi 1:18"
     ],
-    "summary": "Lehi asks the addressees to remember to observe the Lord’s statutes and judgments. He describes his anxiety and recurring sorrow and voices fears of destruction or a generational curse.",
+    "summary": "Lehi urges his addressees to remember the Lord’s statutes and judgments. He describes his anxiety and recurring sorrow and voices fears of destruction and a curse lasting many generations.",
     "characters": [
       "Lehi",
       "Addressees"
@@ -564,26 +571,26 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker desires that the addressees remember to observe the Lord’s statutes and judgments, describing this as his anxiety from the beginning.",
+        "text": "The speaker desires that the addressees remember to observe the Lord’s statutes and judgments; he says this has been his anxiety from the beginning.",
         "refs": [
           "2 Nephi 1:16"
         ]
       },
       {
-        "text": "The speaker reports recurring sorrow and fears that the hardness of their hearts might bring the Lord’s wrath upon them and their destruction.",
+        "text": "The speaker reports sorrow from time to time and fears that the hardness of their hearts could bring the Lord’s wrath and their destruction.",
         "refs": [
           "2 Nephi 1:17"
         ]
       },
       {
-        "text": "He fears a curse lasting many generations, sword, famine, hatred, and captivity according to the devil’s will.",
+        "text": "The speaker fears a curse lasting many generations, along with sword, famine, hatred, and captivity according to the devil’s will.",
         "refs": [
           "2 Nephi 1:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi may be shown addressing listeners with an expression of sorrow or concern."
+      "Lehi may be shown addressing listeners with an expression of concern."
     ],
     "unspecified_visual_details": [
       "The surroundings, clothing, physical appearances, and number and arrangement of listeners are unspecified."
@@ -613,9 +620,9 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The name Lehi preserves the continuity expressly identified in the supplied audit correction; these verses do not themselves state his name.",
+      "Lehi’s identification follows the supplied scene continuity; these verses do not name the speaker.",
       "The calamities are feared possibilities, not events narrated as occurring.",
-      "Recurring sorrow is reported within the address, not a separate enacted scene."
+      "The speaker reports recurring sorrow within this address; it is not a separate enacted scene."
     ],
     "prohibited_inventions": [
       "Do not depict the feared destruction, curse, sword, famine, hatred, or captivity as occurring.",

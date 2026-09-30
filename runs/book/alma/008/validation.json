@@ -2,79 +2,109 @@
   "stamp": "1e6b95d5d329e3c4aa0abe56fff4382e23e52ae4668c05ab0ca3ae1aa91ff84c",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_001: The summary and explicit fact add that Alma returned “after his labors” as a reason to rest; the source says he returned to rest from his labors, not that the labors caused his return. The house-arrival inference is reasonable, but “arriving” is not required by the source."
+      ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_002: “west of the river Sidon and by the wilderness border” compresses the source’s separate west-of-river and west-by-wilderness-border descriptions; avoid implying a more precise geography than stated. The rest is supported."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_003: The baptism inference is visually reasonable but does not establish a particular baptismal act, participants, or setting; these are appropriately left unspecified."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_004: The source says Alma traveled three days north of Melek, not simply three days north; “north to Ammonihah” in the explicit fact risks implying a direction from some other point. “The city’s first possessor” is mentioned only as an unnamed background custom, not identified."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_005: “pray alone” is not established; the source does not say whether anyone else is present. The prayer is reported, so no visible divine figure should be added."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_006: The supplied speech excerpt begins mid-verse and omits the speakers’ preceding words in Alma 8:11; the quoted text itself is exact and the dialogue stays under the word limit. The speakers’ identity and setting remain unspecified."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_007: The summary omits the explicitly reported reviling, spitting, and expulsion, while the visual inference says only that Alma may be shown being expelled. Depicting the expulsion is supported, but do not add physical details beyond the text."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_008: Alma’s sorrow and anguish are reported, but the exact visual expression is unspecified; the scene appropriately leaves the angel’s appearance undescribed."
+      ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Alma 8:14 identifies the continuing speaker as an angel who appeared to Alma. The field saying it is unspecified whether the speaker is visible overlooks that context; only the angel’s physical appearance is unspecified."
+        "scene_009: The warning about destroying liberty is correctly treated as speech rather than a present event. The speaker is the angel who delivered Alma’s first message, but no appearance or setting is established."
       ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_010: Entry from the south side is explicitly supported. The source does not establish that the angel accompanied Alma, as the prohibition correctly notes."
+      ]
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_012: Amulek’s angelic vision is only reported in his speech; the scene correctly does not stage it. The dialogue is exact and remains within the word limit."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_013: The source says Alma ate bread and was filled; meat was set before him in the prior verse, but is not said to have been eaten. The meal inference should not imply he ate meat."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_014: The scene correctly treats the rejection, attempted departure, and command as recollection, not present action. The explicit fact that Alma spoke “after he had eaten” is supported; his precise location is not supplied."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_015: “The people grew more gross in their iniquities” reports a change without describing its visible form; the scene appropriately forbids depicting unspecified misconduct or inventing activities."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_016: “The word came” is the source’s report, not a described audible voice or visible messenger; the scene correctly avoids specifying its manner or location."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_017: Alma 8:30 and 8:32 report distinct actions, and the scene explicitly requires that they not be merged or imply continuity. The narration is exact and the visual anchor is limited to preaching and prophesying."
+      ]
     },
     "scene_018": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The note that Alma 8:30 is not supplied is false. That supplied verse identifies the subjects of Alma 8:31 as Alma and Amulek, so the claims that their identities cannot be established contradict the authorized source."
+        "scene_018: Alma 8:31 uses “they” without identifying the subjects within that verse. The scene correctly treats the account as report, not a present-time imprisonment or visible miracle; do not use preceding-scene context to stage the reported events."
       ]
     }
   }

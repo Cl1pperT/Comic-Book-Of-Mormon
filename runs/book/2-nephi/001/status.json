@@ -4,24 +4,17 @@
   "verses": 32,
   "scenes": 16,
   "counts": {
-    "PASS": 7,
-    "PASS WITH WARNINGS": 7,
-    "REJECT": 2
+    "PASS": 13,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_001": [
-      "The characters field identifies “Lehi’s brethren,” but the source identifies them as Nephi’s brethren. This changes their relationship to Lehi."
-    ],
-    "scene_002": [
-      "The spoken_dialogue field attributes “said he” to Lehi, but those words are narration, not Lehi’s speech."
-    ]
-  },
-  "calls": 77,
+  "rejected": {},
+  "calls": 84,
   "tokens": {
-    "input_tokens": 533965,
-    "cached_input_tokens": 283136,
+    "input_tokens": 584944,
+    "cached_input_tokens": 309248,
     "cache_write_input_tokens": 0,
-    "output_tokens": 62043,
-    "reasoning_output_tokens": 19984
+    "output_tokens": 66408,
+    "reasoning_output_tokens": 22033
   }
 }

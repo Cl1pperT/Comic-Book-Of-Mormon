@@ -1,37 +1,37 @@
 {
-  "stamp": "457c8d037c49ef17e156f8a970d4953b8d756022203ec30fb8c09f5f34a21314",
+  "stamp": "638a4eb2b27ca0b4e338c837f11f67b25c9589b01eee8b584b1846b0e3a609be",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Alma, Zeezrom, Amulek, and the multitude are supported by the verses. The label “Alma” is not on the established-character list, but the verses explicitly show Alma present; do not reject on that basis.",
+        "The summary and explicit facts are accurate. Narration is a verbatim excerpt from Alma 12:2; its semicolon is retained. The earlier words of Amulek are only described, not depicted as a present action.",
+        "“Alma and Zeezrom are within speaking distance” and “The multitude is within hearing distance” are reasonable visual inferences from the stated speech and hearing. The actual location and visual details remain unspecified."
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is referenced but not explicitly placed physically in this scene; depicting him as present is uncertain."
+      ]
     },
     "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is referenced but not explicitly placed physically in this scene; depicting him as present is uncertain."
+      ]
+    },
+    "scene_004": {
       "status": "PASS",
       "issues": []
     },
-    "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary says Alma's address is to Zeezrom and the people, but in verses 9–11 Alma is described as expounding to Zeezrom; a surrounding audience is established, though not explicitly stated to listen during this teaching."
-      ]
-    },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and facts present future resurrection and judgment as teachings, appropriately not a present event; narration excerpt is exact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The lake of fire and chains are figures in Alma's teaching, not events shown in the present exchange; visual details correctly remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -46,20 +46,16 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma reports a general account of angels conversing with people; the identities and circumstances are unspecified, and must not be staged as a particular visitation."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The words in narration are reported by Alma as God's call; keep God and the Son offstage as the scene notes require."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

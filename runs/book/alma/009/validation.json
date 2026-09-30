@@ -1,11 +1,9 @@
 {
-  "stamp": "ae44c5ff1b6f5012f813b2bc881d155190c1d0f016eee77bc24bc746e9e3c312",
+  "stamp": "0b232a8f7adcf413eeec0822622ac1ff039134cfcf814f2b95ed18cc6e83079c",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -20,10 +18,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Alma is identified as the speaker in Alma 9:7 and continues speaking through 9:12–13. Calling him unnamed and prohibiting his identification contradicts the supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
@@ -48,7 +44,8 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Alma 9:34 continues the preceding encounter in Ammonihah. Although verse 34 does not repeat the location or identify the listeners, the preceding verses identify them as the people of Ammonihah; the fields calling both unspecified overlook that continuity."
+        "The listed character label “people of Ammonihah” is not established in the provided character-label list; the verse says only “them,” so their identity is uncertain from verse 34 alone.",
+        "The scene leaves location unspecified, appropriately avoiding assuming that Amulek's preaching occurs in Ammonihah."
       ]
     }
   }

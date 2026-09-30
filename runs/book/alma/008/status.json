@@ -4,21 +4,17 @@
   "verses": 32,
   "scenes": 18,
   "counts": {
-    "PASS": 16,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 1,
+    "PASS WITH WARNINGS": 17,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_018": [
-      "The note that Alma 8:30 is not supplied is false. That supplied verse identifies the subjects of Alma 8:31 as Alma and Amulek, so the claims that their identities cannot be established contradict the authorized source."
-    ]
-  },
+  "rejected": {},
   "calls": 17,
   "tokens": {
-    "input_tokens": 124645,
-    "cached_input_tokens": 67584,
+    "input_tokens": 124643,
+    "cached_input_tokens": 71424,
     "cache_write_input_tokens": 0,
-    "output_tokens": 19601,
-    "reasoning_output_tokens": 6931
+    "output_tokens": 19274,
+    "reasoning_output_tokens": 5897
   }
 }

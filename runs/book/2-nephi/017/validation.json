@@ -1,89 +1,65 @@
 {
-  "stamp": "92b6afb3a3f851071e3e77998d43b6f90cce7095810d122d2be8513be957362e",
+  "stamp": "652af8bfb4e49a55808059d5ba1782730474a16c27f0bacd8e754ac46d7ba958",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse refers to 'his heart' without identifying the individual here; attributing it to the king and locating the report in Jerusalem are not explicit."
+        "The identity of “his” and “his people” is unspecified; retain that ambiguity if depicting the reaction."
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord's command is explicit, but it does not say Isaiah and Shearjashub actually meet Ahaz; their meeting and Ahaz's presence at the specified site are uncertain."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Isaiah is instructed to say this to Ahaz, but the verse does not narrate that he delivers the words or specify their location."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Isaiah recounting the counsel directly to Ahaz is not stated; the reported plan should not be staged as a present event. No location is specified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord's declarations and warning are explicit, but Isaiah speaking them to Ahaz is not narrated in these verses; avoid depicting the future breaking of Ephraim."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord speaks to Ahaz and Ahaz refuses, but the verse does not describe a visible divine appearance or specify the setting."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The virgin and child are future prophetic subjects, not present characters in a depicted event. Isaiah is not explicitly identified as the speaker in verses 13–15."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The passage gives prophecy, not a present scene involving the kings or Assyria. Isaiah's continued delivery to Ahaz is an inference, not narrated here."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Whether 'fly' and 'bee' are literal insects or figures for forces is unspecified. The narration is an exact excerpt, but depicts only the prophetic framing, not an occurring event."
+        "The text may use the fly and bee figuratively, and does not settle whether they are literal insects. Depicting them as actual insects among the terrain is therefore uncertain, though the scene notes this ambiguity."
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The shaving is figurative in this prophetic context; the narration is an exact excerpt but should not imply a literal present-time event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "This is a future prophetic condition, not a present event; avoid presenting the man and livestock as occurring now."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }
