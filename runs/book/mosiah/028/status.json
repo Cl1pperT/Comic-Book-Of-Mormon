@@ -4,21 +4,17 @@
   "verses": 20,
   "scenes": 11,
   "counts": {
-    "PASS": 10,
+    "PASS": 11,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 1
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_010": [
-      "Narration for Mosiah 28:19 is a long, contiguous source quotation over the 65-word combined narration-and-dialogue limit by itself (31 words), and misapplies that future-writing statement as scene narration. Replace with a short exact excerpt or omit it."
-    ]
-  },
-  "calls": 9,
+  "rejected": {},
+  "calls": 11,
   "tokens": {
-    "input_tokens": 68230,
-    "cached_input_tokens": 39168,
+    "input_tokens": 81887,
+    "cached_input_tokens": 47616,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7700,
-    "reasoning_output_tokens": 1211
+    "output_tokens": 8472,
+    "reasoning_output_tokens": 1597
   }
 }

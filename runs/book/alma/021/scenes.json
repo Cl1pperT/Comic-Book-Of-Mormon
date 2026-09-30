@@ -406,17 +406,17 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Departure for Ani-Anti",
+    "title": "From the Synagogue to Ani-Anti",
     "refs": [
       "Alma 21:11"
     ],
-    "summary": "After seeing that they would not hear his words, a man leaves their synagogue and goes to Ani-Anti. There he finds Muloki preaching, along with Ammah and his brethren. They contend with many about the word.",
+    "summary": "An unnamed person sees that his words will not be heard, leaves the synagogue, and comes to Ani-Anti. There he finds Muloki preaching, as well as Ammah and his brethren. The verse reports contention with many about the word without fully specifying who took part.",
     "characters": [
-      "The man who departs",
+      "The unnamed person who departs",
       "Muloki",
       "Ammah",
-      "Ammah's brethren",
-      "The people with whom they contend"
+      "His brethren, mentioned with Ammah",
+      "Unspecified people involved in the contention"
     ],
     "locations": [
       "Their synagogue",
@@ -424,30 +424,30 @@
     ],
     "explicit_facts": [
       {
-        "text": "He saw that they would not hear his words and departed out of their synagogue.",
+        "text": "The unnamed person saw that others would not hear his words and departed from their synagogue.",
         "refs": [
           "Alma 21:11"
         ]
       },
       {
-        "text": "He came to a village called Ani-Anti and found Muloki preaching the word, along with Ammah and his brethren.",
+        "text": "He came to a village called Ani-Anti and found Muloki preaching the word, as well as Ammah and his brethren.",
         "refs": [
           "Alma 21:11"
         ]
       },
       {
-        "text": "They contended with many about the word.",
+        "text": "The verse says that they contended with many about the word; it does not fully specify the referent of “they.”",
         "refs": [
           "Alma 21:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The departing man reaches a gathering where Muloki is preaching."
+      "The departure from the synagogue and arrival at Ani-Anti can be shown in sequence."
     ],
     "unspecified_visual_details": [
       "The appearance of the synagogue and village.",
-      "The appearance and size of the gathering."
+      "The appearance and number of people present."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -459,11 +459,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not name the man who departs or give the words spoken during the contention."
+      "The verse does not name the person who departs or provide the words spoken while preaching or contending.",
+      "Do not assign an unambiguous identity to either use of “they.”"
     ],
     "prohibited_inventions": [
-      "Do not identify the departing man by a name absent from the supplied verse.",
-      "Do not invent preaching or debate dialogue."
+      "Do not name the departing person.",
+      "Do not invent preaching or contention dialogue.",
+      "Do not identify the participants in the contention beyond what the verse specifies."
     ],
     "importance": "normal"
   },
@@ -530,18 +532,19 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Aaron and Others Imprisoned",
+    "title": "Aaron and Others Imisoned",
     "refs": [
       "Alma 21:13"
     ],
-    "summary": "Aaron and a certain number of his brethren are taken and cast into prison; the rest flee from Middoni to the surrounding regions.",
+    "summary": "Aaron and some of his brethren are taken and cast into prison. The remainder flee from the land of Middoni to the surrounding regions.",
     "characters": [
       "Aaron",
-      "Aaron's brethren"
+      "His brethren"
     ],
     "locations": [
-      "Middoni prison",
-      "Regions around Middoni"
+      "Prison",
+      "Land of Middoni",
+      "Regions round about"
     ],
     "explicit_facts": [
       {
@@ -551,24 +554,32 @@
         ]
       },
       {
-        "text": "The remainder fled from Middoni to the surrounding regions.",
+        "text": "The remainder fled out of the land of Middoni unto the regions round about.",
         "refs": [
           "Alma 21:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Some missionaries are being taken to prison while others flee."
+      "Some of the brethren could be shown entering confinement; others could be shown departing the land of Middoni."
     ],
     "unspecified_visual_details": [
-      "Who takes them, since the verse does not identify the captors.",
-      "The prison’s appearance and the exact number imprisoned or fleeing."
+      "The captors' identities and appearances.",
+      "The prison's appearance and the exact number of brethren."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Nevertheless, Aaron and a certain number of his brethren were taken and cast into prison, and the remainder of them fled out of the land of Middoni unto the regions round about.",
+        "refs": [
+          "Alma 21:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the identity of the captors."
+      "Do not identify the captors or add dialogue.",
+      "Do not depict the imprisonment and flight as necessarily simultaneous."
     ],
     "importance": "normal"
   },
@@ -579,44 +590,73 @@
       "Alma 21:14",
       "Alma 21:15"
     ],
-    "summary": "Those cast into prison suffer many things, then Lamoni and Ammon deliver them and provide food and clothing. The missionaries go forth again to declare the word.",
+    "summary": "Those cast into prison suffer many things. Lamoni and Ammon deliver them, and they are fed and clothed. Afterward, they go forth again to declare the word.",
     "characters": [
-      "Aaron",
-      "Aaron's imprisoned brethren",
-      "King Lamoni",
-      "Ammon (son of Mosiah)"
+      "Those cast into prison",
+      "Lamoni",
+      "Ammon"
     ],
     "locations": [
-      "Middoni prison"
+      "Prison; its location is unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "Those cast into prison suffered many things and were delivered by Lamoni and Ammon, who fed and clothed them.",
+        "text": "Those cast into prison suffered many things.",
         "refs": [
           "Alma 21:14"
         ]
       },
       {
-        "text": "They went forth again to declare the word after being delivered from prison for the first time.",
+        "text": "Lamoni and Ammon delivered them.",
+        "refs": [
+          "Alma 21:14"
+        ]
+      },
+      {
+        "text": "They were fed and clothed.",
+        "refs": [
+          "Alma 21:14"
+        ]
+      },
+      {
+        "text": "They went forth again to declare the word after their first deliverance from prison.",
         "refs": [
           "Alma 21:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamoni and Ammon helping the released prisoners with food and clothing."
+      "The released people may be shown receiving food and clothing.",
+      "Their departure to declare the word follows their deliverance rather than occurring at the same moment."
     ],
     "unspecified_visual_details": [
-      "The nature of the suffering.",
-      "The food, clothing, and prison’s appearance."
+      "The nature of their suffering.",
+      "The method of their release.",
+      "The prison’s appearance and location.",
+      "The appearance of the food and clothing."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And those who were cast into prison suffered many things",
+        "refs": [
+          "Alma 21:14"
+        ]
+      },
+      {
+        "text": "And they went forth again to declare the word",
+        "refs": [
+          "Alma 21:15"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses state they were delivered and provided for but do not describe the method of their release."
+      "The verses do not name the imprisoned people or describe how Lamoni and Ammon delivered them."
     ],
     "prohibited_inventions": [
-      "Do not depict specific injuries or forms of mistreatment."
+      "Do not give the prisoners invented names or assign the prison a location.",
+      "Do not depict specific mistreatment, injuries, or a method of release.",
+      "Do not invent spoken words for their declaration."
     ],
     "importance": "normal"
   },
@@ -627,45 +667,53 @@
       "Alma 21:16",
       "Alma 21:17"
     ],
-    "summary": "The missionaries preach wherever they are led, in Amalekite synagogues or Lamanite assemblies where admitted. The Lord begins to bless them, and many come to the knowledge of truth and are convinced of their sins and incorrect traditions.",
+    "summary": "They go forth where led by the Spirit of the Lord and preach in Amalekite synagogues and Lamanite assemblies where admitted. The Lord begins to bless them; they bring many to knowledge of the truth and convince many of their sins and incorrect traditions.",
     "characters": [
-      "Aaron",
-      "Aaron's brethren",
+      "Unnamed preachers",
       "Amalekites",
       "Lamanites"
     ],
     "locations": [
-      "Amalekite synagogues",
-      "Lamanite assemblies"
+      "Synagogues of the Amalekites",
+      "Assemblies of the Lamanites"
     ],
     "explicit_facts": [
       {
-        "text": "The missionaries preached in every Amalekite synagogue or Lamanite assembly where they could be admitted.",
+        "text": "They went where they were led by the Spirit of the Lord and preached where they could be admitted.",
         "refs": [
           "Alma 21:16"
         ]
       },
       {
-        "text": "The Lord began to bless them; they brought many to knowledge of the truth and convinced many of their sins and incorrect traditions.",
+        "text": "The Lord began to bless them, and they brought many to knowledge of the truth and convinced many of their sins and incorrect traditions.",
         "refs": [
           "Alma 21:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Missionaries preaching to gathered listeners in different assemblies."
+      "A preacher addressing gathered listeners in an assembly where admitted."
     ],
     "unspecified_visual_details": [
-      "Which specific assemblies are shown.",
-      "How listeners visibly respond."
+      "Which particular synagogue or assembly is shown.",
+      "The appearance of the preachers and listeners."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "preaching the word of God",
+        "refs": [
+          "Alma 21:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The Lord’s blessing is reported, not described as a visible appearance."
+      "The Lord's blessing is reported; no visible appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord appearing or invent specific conversions."
+      "Do not name the preachers or invent their words.",
+      "Do not depict the Lord or the Spirit appearing.",
+      "Do not stage distinct gatherings or later outcomes as one simultaneous event."
     ],
     "importance": "normal"
   },
@@ -676,78 +724,110 @@
       "Alma 21:18",
       "Alma 21:19"
     ],
-    "summary": "Ammon and Lamoni return from Middoni to Ishmael, Lamoni’s land of inheritance. Lamoni does not allow Ammon to serve him or be his servant.",
+    "summary": "Ammon and Lamoni return from the land of Middoni to the land of Ishmael. King Lamoni does not allow Ammon to serve him or be his servant.",
     "characters": [
-      "Ammon (son of Mosiah)",
+      "Ammon",
       "King Lamoni"
     ],
     "locations": [
-      "Middoni",
-      "Ishmael"
+      "Land of Middoni",
+      "Land of Ishmael"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon and Lamoni returned from Middoni to Ishmael, the land of Lamoni’s inheritance.",
+        "text": "Ammon and Lamoni returned from the land of Middoni to the land of Ishmael, the land of their inheritance.",
         "refs": [
           "Alma 21:18"
         ]
       },
       {
-        "text": "King Lamoni would not suffer Ammon to serve him or be his servant.",
+        "text": "King Lamoni would not allow Ammon to serve him or be his servant.",
         "refs": [
           "Alma 21:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon and Lamoni traveling from Middoni to Ishmael."
+      "Ammon and Lamoni traveling toward the land of Ishmael."
     ],
     "unspecified_visual_details": [
-      "Their route, travel means, and manner of arrival.",
-      "How Lamoni communicates his refusal."
+      "Their route and means of travel.",
+      "How Lamoni expresses his refusal."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that Ammon and Lamoni returned from the land of Middoni to the land of Ishmael, which was the land of their inheritance.",
+        "refs": [
+          "Alma 21:18"
+        ]
+      },
+      {
+        "text": "And king Lamoni would not suffer that Ammon should serve him, or be his servant.",
+        "refs": [
+          "Alma 21:19"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "No direct dialogue is supplied for Lamoni’s refusal."
     ],
-    "prohibited_inventions": [],
+    "prohibited_inventions": [
+      "Do not invent words spoken by Lamoni or Ammon."
+    ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "Lamoni Orders Synagogues Built",
+    "title": "Synagogues and Assembly",
     "refs": [
       "Alma 21:20"
     ],
-    "summary": "Lamoni causes synagogues to be built in Ishmael and causes the people under his reign to assemble together.",
+    "summary": "A ruler causes synagogues to be built in the land of Ishmael and causes the people under his reign to assemble.",
     "characters": [
-      "King Lamoni",
-      "People under Lamoni's reign"
+      "Unnamed ruler",
+      "People under his reign"
     ],
     "locations": [
-      "Ishmael"
+      "Land of Ishmael"
     ],
     "explicit_facts": [
       {
-        "text": "Lamoni caused synagogues to be built in Ishmael and caused his people to assemble.",
+        "text": "He caused synagogues to be built in the land of Ishmael.",
+        "refs": [
+          "Alma 21:20"
+        ]
+      },
+      {
+        "text": "He caused the people under his reign to assemble together.",
         "refs": [
           "Alma 21:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People assembling at synagogues in Ishmael."
+      "Synagogue buildings in the land of Ishmael.",
+      "People gathering together."
     ],
     "unspecified_visual_details": [
-      "The synagogues’ design and construction materials.",
-      "The size and composition of the assembly."
+      "The synagogues’ appearance and construction materials.",
+      "The size and appearance of the assembly."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "But he caused that there should be synagogues built in the land of Ishmael;",
+        "refs": [
+          "Alma 21:20"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The ruler is not named in the supplied verse."
+    ],
     "prohibited_inventions": [
-      "Do not invent a specific ceremony or speech."
+      "Do not name the ruler or invent a speech or ceremony.",
+      "Do not assume the assembly takes place inside a synagogue."
     ],
     "importance": "normal"
   },
@@ -758,13 +838,13 @@
       "Alma 21:21",
       "Alma 21:22"
     ],
-    "summary": "Lamoni rejoices over the people and teaches them. He declares that they are free from his father’s oppression and may worship the Lord according to their desires throughout the land under his reign.",
+    "summary": "Lamoni rejoices over the people and teaches them. He declares that they are free from his father’s oppression and may worship the Lord according to their desires in the land under his reign.",
     "characters": [
       "King Lamoni",
       "People under Lamoni's reign"
     ],
     "locations": [
-      "Ishmael"
+      "Land of Ishmael"
     ],
     "explicit_facts": [
       {
@@ -774,32 +854,40 @@
         ]
       },
       {
-        "text": "He declared they were free from the oppression of his father, who had granted him rule over Ishmael and the surrounding land.",
+        "text": "He declared that the people were free from the oppression of his father, who had granted him rule over the land of Ishmael and the surrounding land.",
         "refs": [
           "Alma 21:21"
         ]
       },
       {
-        "text": "He declared they could worship the Lord according to their desires anywhere in the land under his reign.",
+        "text": "He declared that they could worship the Lord according to their desires in any place within the land under his reign.",
         "refs": [
           "Alma 21:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamoni addressing the assembled people."
+      "Lamoni addressing the people he teaches."
     ],
     "unspecified_visual_details": [
-      "The words of Lamoni’s teaching beyond the reported summary.",
-      "The setting and gestures of his address."
+      "The exact place where Lamoni teaches the people.",
+      "His gestures and the people's appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he did rejoice over them, and he did teach them many things.",
+        "refs": [
+          "Alma 21:21"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses summarize Lamoni’s declarations rather than quote them directly."
+      "The verses report Lamoni’s declarations rather than quote his speech directly."
     ],
     "prohibited_inventions": [
-      "Do not depict Lamoni’s father as present."
+      "Do not depict Lamoni’s father as present.",
+      "Do not invent dialogue for Lamoni or details of the teachings summarized in the verses."
     ],
     "importance": "normal"
   },
@@ -809,41 +897,52 @@
     "refs": [
       "Alma 21:23"
     ],
-    "summary": "Ammon preaches righteousness to Lamoni’s people and exhorts them daily. They heed his word and are zealous to keep God’s commandments.",
+    "summary": "Ammon preaches to the people of king Lamoni, teaches them about righteousness, and exhorts them daily. They heed his word and are zealous to keep God’s commandments.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "People under Lamoni's reign"
+      "Ammon",
+      "People of king Lamoni"
     ],
-    "locations": [
-      "Ishmael"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Ammon preached and taught Lamoni’s people about righteousness, exhorting them daily with diligence.",
+        "text": "Ammon preached to the people of king Lamoni and taught them concerning righteousness.",
         "refs": [
           "Alma 21:23"
         ]
       },
       {
-        "text": "The people heeded Ammon’s word and were zealous to keep God’s commandments.",
+        "text": "Ammon exhorted them daily with diligence.",
+        "refs": [
+          "Alma 21:23"
+        ]
+      },
+      {
+        "text": "The people heeded his word and were zealous for keeping God’s commandments.",
         "refs": [
           "Alma 21:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon preaching to a gathered group of Lamoni’s people."
+      "Ammon addressing a group of listeners."
     ],
     "unspecified_visual_details": [
-      "The specific teachings and the people’s visible expressions."
+      "The setting, clothing, and listeners’ appearances."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Ammon did preach unto the people of king Lamoni;",
+        "refs": [
+          "Alma 21:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The people’s response is summarized; no direct words are given."
+      "The verse summarizes repeated teaching and the people’s response; it supplies no sermon wording."
     ],
     "prohibited_inventions": [
-      "Do not invent Ammon’s sermon."
+      "Do not invent Ammon’s sermon or depict the daily exhortations as a single continuous event."
     ],
     "importance": "normal"
   }

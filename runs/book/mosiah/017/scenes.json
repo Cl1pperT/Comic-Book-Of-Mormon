@@ -7,12 +7,12 @@
       "Mosiah 17:2",
       "Mosiah 17:3"
     ],
-    "summary": "After Abinadi finishes speaking, King Noah orders the priests to take him and put him to death. Alma pleads with the king to let Abinadi depart in peace, but the king casts Alma out and sends servants after him to slay him.",
+    "summary": "After Abinadi finishes speaking, the king commands the priests to take him and put him to death. Alma pleads for Abinadi to be allowed to depart in peace. The king causes Alma to be cast out and sends servants after him to slay him.",
     "characters": [
       "Abinadi",
-      "King Noah",
-      "King Noah's priests",
-      "Alma the Elder",
+      "the king",
+      "the priests",
+      "Alma",
       "the king's servants"
     ],
     "locations": [
@@ -20,7 +20,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "After Abinadi finishes speaking, the king commands the priests to take him and put him to death.",
+        "text": "After Abinadi finishes speaking, the king commands the priests to take him and cause him to be put to death.",
         "refs": [
           "Mosiah 17:1"
         ]
@@ -32,58 +32,89 @@
         ]
       },
       {
-        "text": "The king becomes more angry, casts Alma out, and sends servants after him to slay him.",
+        "text": "The king becomes more angry, causes Alma to be cast out, and sends servants after him to slay him.",
         "refs": [
           "Mosiah 17:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is visibly pleading before the king as Abinadi and the priests are present."
+      "Alma may be shown addressing the king while Abinadi and the priests are nearby."
     ],
     "unspecified_visual_details": [
-      "The appearance, clothing, and precise arrangement of the people and place are unspecified."
+      "The people's appearances, clothing, and precise surroundings are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "therefore he began to plead with the king",
+        "refs": [
+          "Mosiah 17:2"
+        ]
+      },
+      {
+        "text": "But the king was more wroth,",
+        "refs": [
+          "Mosiah 17:3"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verses report Alma's plea but do not supply his spoken words."
+    ],
     "prohibited_inventions": [
-      "Do not depict Abinadi being executed in this moment; the king's command does not narrate the execution."
+      "Do not depict Abinadi's execution; only the command is given here.",
+      "Do not invent words for Alma's plea or show the servants catching or killing him.",
+      "Do not add names or titles for the king or Alma beyond those supplied."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Alma Hides and Writes",
+    "title": "Concealed for Many Days",
     "refs": [
       "Mosiah 17:4"
     ],
-    "summary": "Alma flees, hides where his pursuers do not find him, and, while concealed for many days, writes all the words Abinadi had spoken.",
+    "summary": "He flees and hides so they do not find him. Concealed for many days, he writes all the words Abinadi had spoken.",
     "characters": [
-      "Alma the Elder"
+      "The man who fled"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified hiding place"
     ],
     "explicit_facts": [
       {
-        "text": "Alma flees, hides where the pursuers do not find him, and while concealed for many days writes all the words Abinadi had spoken.",
+        "text": "He fled from before them and hid himself; they did not find him.",
+        "refs": [
+          "Mosiah 17:4"
+        ]
+      },
+      {
+        "text": "Concealed for many days, he wrote all the words Abinadi had spoken.",
         "refs": [
           "Mosiah 17:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown writing while concealed."
+      "He may be shown writing while concealed."
     ],
     "unspecified_visual_details": [
-      "The hiding place, writing materials, and specific duration beyond many days are unspecified."
+      "His identity, the identity of “them,” the hiding place, writing materials, and exact number of days are not specified in the supplied verse."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he being concealed for many days did write all the words which Abinadi had spoken.",
+        "refs": [
+          "Mosiah 17:4"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the servants finding or attacking Alma."
+      "Do not name the man based on context outside the supplied verse.",
+      "Do not show anyone finding him or depict Abinadi as present."
     ],
     "importance": "normal"
   },
@@ -94,19 +125,20 @@
       "Mosiah 17:5",
       "Mosiah 17:6"
     ],
-    "summary": "King Noah has his guards surround and take Abinadi; they bind and imprison him. After three days, having counseled with his priests, the king has Abinadi brought before him again.",
+    "summary": "The king has his guards surround and take Abinadi; they bind him and cast him into prison. After three days and counsel with his priests, the king has Abinadi brought before him again.",
     "characters": [
       "Abinadi",
-      "King Noah",
-      "King Noah's priests",
-      "the king's guards"
+      "the king",
+      "the king's guards",
+      "the king's priests"
     ],
     "locations": [
-      "Unspecified location"
+      "prison",
+      "unspecified place before the king"
     ],
     "explicit_facts": [
       {
-        "text": "The king has guards surround and take Abinadi; they bind him and cast him into prison.",
+        "text": "The king causes his guards to surround and take Abinadi; they bind him and cast him into prison.",
         "refs": [
           "Mosiah 17:5"
         ]
@@ -119,18 +151,32 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The binding and imprisonment can be shown as the first visual moment; Abinadi being brought before the king is a later moment and should not be collapsed into it."
+      "Abinadi's arrest and imprisonment can be depicted as one moment; his return before the king occurs after a three-day interval."
     ],
     "unspecified_visual_details": [
-      "The prison's appearance and the exact place of the renewed hearing are unspecified."
+      "The guards' appearance, the prison's appearance, and the place where Abinadi is brought before the king are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they bound him and cast him into prison.",
+        "refs": [
+          "Mosiah 17:5"
+        ]
+      },
+      {
+        "text": "And after three days, having counseled with his priests, he caused that he should again be brought before him.",
+        "refs": [
+          "Mosiah 17:6"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses describe distinct moments separated by three days."
+      "The return before the king follows a three-day interval; it is not simultaneous with the arrest."
     ],
     "prohibited_inventions": [
-      "Do not portray the three-day interval as continuous action or add events during it."
+      "Do not add dialogue, events during the three days, or details of the counsel with the priests.",
+      "Do not depict the arrest and the later return as one continuous moment."
     ],
     "importance": "normal"
   },
@@ -346,45 +392,60 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Abinadi Is Put to Death",
+    "title": "Bound and Scourged",
     "refs": [
       "Mosiah 17:13",
       "Mosiah 17:14"
     ],
-    "summary": "They bind Abinadi and scourge him with faggots. As flames begin to scorch him, he cries out to them.",
+    "summary": "They take and bind a man and scourge his skin with faggots, even unto death. When flames begin to scorch him, he cries unto them.",
     "characters": [
-      "Abinadi",
-      "King Noah's priests"
+      "Unnamed man",
+      "Unnamed people who take and bind him"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "They take and bind Abinadi, and scourge his skin with faggots, even unto death.",
+        "text": "They take and bind him and scourge his skin with faggots, even unto death.",
         "refs": [
           "Mosiah 17:13"
         ]
       },
       {
-        "text": "When flames begin to scorch Abinadi, he cries unto them.",
+        "text": "When flames begin to scorch him, he cries unto them.",
         "refs": [
           "Mosiah 17:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The explicitly described physical action and flames may be depicted without gore."
+      "The binding, scourging, and flames may be shown without depicting wounds or gore."
     ],
     "unspecified_visual_details": [
-      "The precise arrangement of the execution and identities of the people who carry it out are unspecified."
+      "The man's identity, the other people's identities, and the location are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that they took him and bound him, and scourged his skin with faggots, yea, even unto death.",
+        "refs": [
+          "Mosiah 17:13"
+        ]
+      },
+      {
+        "text": "And now when the flames began to scorch him, he cried unto them, saying:",
+        "refs": [
+          "Mosiah 17:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The following speech is spoken as the flames begin to scorch Abinadi."
+      "The supplied verses do not give the words he cries out."
     ],
     "prohibited_inventions": [
+      "Do not identify the man or the people who bind him.",
+      "Do not invent words for his cry.",
       "Do not show wounds, blood, or gore."
     ],
     "importance": "major"
@@ -562,42 +623,54 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "Abinadi Dies",
+    "title": "Abinadi’s Death Reported",
     "refs": [
       "Mosiah 17:20"
     ],
-    "summary": "After speaking, Abinadi falls and dies by fire because he would not deny God's commandments, sealing the truth of his words by his death.",
+    "summary": "The verse reports that Abinadi fell, having suffered death by fire. He was put to death because he would not deny the commandments of God.",
     "characters": [
       "Abinadi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After Abinadi says these words, he falls and has suffered death by fire.",
+        "text": "Abinadi fell when he had said these words, having suffered death by fire.",
         "refs": [
           "Mosiah 17:20"
         ]
       },
       {
-        "text": "Abinadi is put to death because he would not deny God's commandments, sealing the truth of his words by his death.",
+        "text": "He was put to death because he would not deny the commandments of God.",
+        "refs": [
+          "Mosiah 17:20"
+        ]
+      },
+      {
+        "text": "His death sealed the truth of his words.",
         "refs": [
           "Mosiah 17:20"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Abinadi's fall may be shown without depicting gore."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The reactions and presence of other people at the moment of his death are unspecified."
+      "The location, witnesses, and visual staging are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And now, when Abinadi had said these words, he fell, having suffered death by fire;",
+        "refs": [
+          "Mosiah 17:20"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Treat the death as narrated aftermath, not a newly staged event."
+    ],
     "prohibited_inventions": [
-      "Do not add reactions, further action, or a visible divine appearance."
+      "Do not invent the words Abinadi had said, witnesses, reactions, or a visible divine appearance.",
+      "Do not imply an on-screen witness to his death."
     ],
     "importance": "normal"
   }

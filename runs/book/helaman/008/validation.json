@@ -1,0 +1,57 @@
+{
+  "stamp": "767d5cecbafa0387665f2af944634b58bcc7e407685ba415dc71c18e7c94f484",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 2 follows scene 1, and both portray judges addressing people after Nephi has spoken. Scene 2’s label “the man” does not explicitly identify him as Nephi in verses 4–6, although this continuity is a reasonable inference from the passage.",
+        "The narration excerpt is exact, but it omits the surrounding reported context; keep it as narration, not a newly staged action."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene does not establish Nephi's physical presence; the summary and dialogue concern what people say about him, so depict him only if his presence is established independently.",
+        "The summary’s phrase “his warnings” is a reasonable shorthand for the judgments Nephi testified of, not a separate event."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's references and listed explicit facts omit Helaman 8:4–5, which identify those seeking to destroy Nephi as judges and report their earlier appeal to the people. The scene correctly avoids naming them as judges, but the relationship to the previous scene's anger and contention is not fully specified.",
+        "The previous scene says Nephi's physical presence is not established, but Helaman 8:10 explicitly has him begin speaking again to them; depiction of Nephi speaking here is therefore supported. The Red Sea account is correctly presented as recollection, not a concurrent event."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene title, summary, and facts are consistent with Nephi as the speaker, but the character list leaves the speaker unidentified; align these fields rather than suggesting the speaker’s identity is unspecified.",
+        "The dialogue is an exact excerpt from Helaman 8:15; it is a reported teaching, not an event to stage literally."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

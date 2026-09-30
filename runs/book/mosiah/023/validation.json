@@ -1,5 +1,5 @@
 {
-  "stamp": "107d3acb8fec11e19fe0abb28719d934e6e9e995d8c559c44def53e7824fd955",
+  "stamp": "1ae149ac2fe3a1946554b05047db7e6cd6ffe853b2c47ea1b5100efcf590d869",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,10 +22,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the people \"begin building,\" but the verses say they began to build buildings; this is accurate in substance, though the shortened phrasing is less specific."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -36,9 +34,9 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Summary says the people \"will be brought into bondage\" although the verse says they \"were brought into bondage\"; this wording introduces a future chronology not explicit in the source."
+        "Verses 23–24 summarize bondage and deliverance without specifying when or where those events occur; the scene appropriately leaves those details unspecified, but should not be staged as a distinct present-time event."
       ]
     },
     "scene_010": {
@@ -54,27 +52,23 @@
       "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary and narration present the discovery and promise as one scene without specifying their sequence; the source reports these events in order, and the promise follows the discovery of Helam."
       ]
     },
     "scene_016": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary combines distinct movements into one scene; ensure the guards remain at Helam while the remainder go to Nephi, and show some returning later with the guards’ wives and children. The quoted narration is a direct excerpt from Mosiah 23:37."
       ]
     },
     "scene_017": {

@@ -1,0 +1,79 @@
+{
+  "stamp": "0488af72c0193c4d58fd53313b37b6a172096ae857cabe7989461fac0553a913",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The requests in spoken_dialogue are verbatim excerpts but omit words between them; ensure the rendering treats them as separate exact excerpts, not one continuous quotation."
+      ]
+    },
+    "scene_006": {
+      "status": "REJECT",
+      "issues": [
+        "The doctrinal note falsely says the speaker’s identity is outside the supplied source. Helaman 11:9 identifies Nephi as the one who begins this prayer; verses 12–16 continue it. Identify the speaker as Nephi. The previous scene also establishes this continuity."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene combines the army’s expedition and its retreat, which the source places as distinct events in the same year; maintain their separate chronology in any depiction."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

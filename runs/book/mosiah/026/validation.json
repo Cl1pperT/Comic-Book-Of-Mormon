@@ -1,22 +1,21 @@
 {
-  "stamp": "29935e60b595172e35dbd144994b88cac916a5ad301bdb404fce6d350e32a22c",
+  "stamp": "46abdbf60afcc2a785157cc77061bcb87b777be68db88abe5c410c7f65271c90",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The phrase “Many of the rising generation” is a reasonable label, but the verses give no exact ages or boundaries for this group; keep its depiction nonspecific."
       ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The scene appropriately omits the later event in verse 10 in which Alma has them brought before the king; no chronology alteration detected. The phrase “Many people stood and testified” is supported by verse 9.",
+        "“Witnesses” and “People who were brought before Alma” are generic group labels; avoid implying individual identities or invented testimony. The quoted narration is exact and contiguous."
       ]
     },
     "scene_004": {
@@ -28,10 +27,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is labeled unidentified, though the preceding verse says the voice of the Lord came to Alma; the verses therefore strongly imply the speaker is the Lord. The cautious label avoids inventing an identity but is less specific than the context supports."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -58,10 +55,8 @@
       "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

@@ -1,40 +1,44 @@
 {
-  "stamp": "d7fd69056351d0106ef70cbf20f76a0f3d5431c5a47f20584b126e8e1e1810f6",
+  "stamp": "e896beb69ff4221946356ddabfe65ed4fd04de163a4ee610044a7e9d13760e6e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The script presents sequential burial, mourning, and peace as a single scene; ensure these are not depicted simultaneously. The burials are of the Lamanites' dead; the Nephites' dead are mentioned only as unnumbered, with no burial stated."
       ]
     },
-    "scene_003": {
+    "scene_002": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse identifies the man as Anti-Christ but does not name him in this scene's supplied refs. Avoid adding an identity from outside the cited scene; the law and scripture references are background, not events to stage."
+      ]
     },
     "scene_004": {
       "status": "PASS",
       "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The preacher is Korihor, identified in the supplied Alma 30:12 and the preceding scene. The character label and note incorrectly claim his name is not supplied."
+        "Narration excerpt from Alma 30:18 says «leading away the hearts of many» but omits the verse’s immediately following words «causing them to lift up their heads in their wickedness»; this is a permissible exact excerpt, though it leaves out a reported consequence.",
+        "The summary’s «including women and men who commit whoredoms» accurately summarizes a reported consequence and is not enacted as a separate scene."
       ]
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The first narration excerpt identifies the man’s prior purpose and the people of Ammon’s history, but is narration over the present action; avoid staging those earlier events here.",
+        "Ammon is identified as high priest, but his appearance and location within the scene are unspecified."
       ]
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The phrase “being brought before the two officials” is a reasonable visual inference, but the source does not specify their visual arrangement or the exact setting. The preceding scene’s events in Jershon occur before this scene; the scene correctly places Gideon afterward."
       ]
     },
     "scene_008": {
@@ -42,63 +46,78 @@
       "issues": []
     },
     "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location is carried forward from the preceding exchange in Gideon; the cited verses themselves continue Korihor's response without naming that location. Do not depict the chief judge as present, since this scene's refs do not state his presence."
+      ]
+    },
+    "scene_010": {
       "status": "PASS",
       "issues": []
     },
-    "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
-    },
     "scene_011": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The accuser is identifiable from the preceding scene as Korihor; labeling him “Unnamed accuser” obscures that continuity.",
+        "The chief judge was present when the man was brought before Alma in verse 30, but his continued presence during verse 31 is not stated explicitly."
       ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location is Zarahemla according to the chapter context, but not stated in the scene's cited verses. Alma's quoted statements refer to his past labor and travels; do not depict them as flashbacks."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Zarahemla and the chief judge's presence derive from the preceding hearing context rather than these individual verses. His reaction is unspecified."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and chief judge's presence are continued from the hearing context, not stated in these cited verses. Alma's lying-spirit language is accusation, not a visible event."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and chief judge's presence are hearing-context carryovers. Earth and planets are part of Alma's argument, not a required visual spectacle."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and chief judge's presence are hearing-context carryovers. Alma's warning and pronouncement are speech; do not show the effect before verse 50."
+      ]
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The devil's appearance is reported by Korihor as a past event, not occurring during this writing scene; do not stage it as a flashback or invent the angel's appearance."
+      ]
     },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Korihor is unable to speak, but the source does not specify how he makes his plea; depicting written communication is a reasonable inference, not an explicit fact. The chief judge's presence is not stated in these verses."
+      ]
     },
     "scene_020": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The scene is consistent with Alma 30:56–58. Warning: the summary’s phrase “ending iniquity after his manner” is a paraphrase of the source; narration quotes only the exact verse text. The source reports the proclamation and conversion without specifying individual conversion actions or the proclamation’s delivery method, as the scene notes."
       ]
     },
     "scene_021": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Alma 30:59 names Zoram as the Zoramites’ leader but does not place him at Korihor’s death. Listing him as a scene character implies an unsupported appearance."
+        "The Zoramites are named as the people among whom Korihor goes, but the person or group that runs upon and tramples him is unspecified. Do not identify the attackers."
       ]
     }
   }

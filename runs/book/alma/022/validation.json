@@ -1,5 +1,5 @@
 {
-  "stamp": "9ca54df65b5c55060e4f3461b995e58cf983f48d232a138b0ef1b5af52631e08",
+  "stamp": "742775d91a0829d17d4cf820d39553fc1e63e7395fcb680d9b963d91c3ce908b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,10 +34,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "The character label “the queen of Lamoni” asserts an unsupported relationship. The verse identifies her only as the queen associated with the fallen king, Lamoni’s father."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -48,10 +46,8 @@
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The character label “the queen of Lamoni” asserts an unsupported relationship. These verses do not identify the queen as Lamoni’s queen."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

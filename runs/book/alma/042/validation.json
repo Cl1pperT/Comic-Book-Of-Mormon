@@ -1,0 +1,82 @@
+{
+  "stamp": "31719e507da092202056819b6dfb2789b2436b64011605558fb795099c1a493a",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The depiction of the cherubim and flaming sword is supported as a recounted event, not as occurring in the conversation’s present; preserve that chronology.",
+        "“The speaker” is unnamed in this scene’s fields, though the preceding scene identifies Alma as the speaker. The son remains unnamed.",
+        "The source calls them “our first parents”; “the man” is also explicit, but the summary’s “first parents” being sent and the man being drawn out should not imply more than the verse states."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The passage is Alma's teaching, not a narrated visible scene. The suggested symbolic treatment of the probationary period has no specific visual basis; avoid suggesting a literal event or invented characters."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "These verses teach about the Fall and its consequences rather than narrating a new event; the symbolic depiction of separation is an optional creative choice, not a source-specified visual."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source describes conditional consequences and a preparatory state, not visible events; any abstract depiction of these concepts is unspecified creative design."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Justice and redemption are doctrinal concepts in the passage, not visible events. The optional abstract image is creative design, not a source-based visual inference."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "These verses teach about atonement and punishment but do not narrate an atonement event. Any symbolic imagery is unspecified creative design and should not imply a literal scene."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration excerpts are exact and within the word limit, but omit some supplied clauses; the summary and explicit facts accurately cover the relevant content.",
+        "Scene 007 to 008 follows the supplied verse sequence; no chronology alteration detected."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration excerpts are exact and within the word limit, but omit the teaching that people are restored to God's presence for judgment according to works, law, and justice; this is covered in the summary and explicit facts.",
+        "The source states that God ceaseth not to be God, a clause omitted from the summary and narration.",
+        "Scene 008 to 009 follows the supplied verse sequence; no chronology alteration detected."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotes a question from verse 25 without its immediate answer, which may misleadingly suggest it is an assertion; the source's answer is 'Nay; not one whit.' Include that contiguous answer or choose a less ambiguous excerpt."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source uses 'waters of life' as an invitation in doctrinal teaching. The scene appropriately cautions against literalizing it; visual treatment remains unspecified."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

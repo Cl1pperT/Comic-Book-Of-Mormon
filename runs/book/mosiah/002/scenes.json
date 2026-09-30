@@ -147,7 +147,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people pitch their tents around the temple, with each family separate from the others.",
+        "text": "They pitch their tents around the temple, with each family separate from the others.",
         "refs": [
           "Mosiah 2:5"
         ]
@@ -167,7 +167,14 @@
       "The temple's architectural style."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "every family being separate one from another.",
+        "refs": [
+          "Mosiah 2:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "King Benjamin is mentioned as a future speaker, not established as physically present in this scene."
     ],
@@ -184,18 +191,18 @@
       "Mosiah 2:7",
       "Mosiah 2:8"
     ],
-    "summary": "Because the multitude is too great for King Benjamin to teach them all within the temple walls, he has a tower erected. He begins speaking from it. When some cannot hear him, he has his words written and sent to them.",
+    "summary": "The multitude is too great for King Benjamin to teach them all within the temple walls, so he causes a tower to be erected. He begins speaking from the tower. Because not everyone can hear him, he causes his words to be written and sent to those beyond the sound of his voice.",
     "characters": [
       "King Benjamin",
       "his people"
     ],
     "locations": [
-      "temple walls",
-      "tower"
+      "the temple walls",
+      "the tower"
     ],
     "explicit_facts": [
       {
-        "text": "The multitude is so great that King Benjamin cannot teach them all within the temple walls.",
+        "text": "The multitude is too great for King Benjamin to teach them all within the walls of the temple.",
         "refs": [
           "Mosiah 2:7"
         ]
@@ -207,13 +214,13 @@
         ]
       },
       {
-        "text": "He begins speaking to his people from the tower, but not all can hear him.",
+        "text": "King Benjamin begins speaking to his people from the tower, but not all can hear him.",
         "refs": [
           "Mosiah 2:8"
         ]
       },
       {
-        "text": "He causes his words to be written and sent to those who cannot hear his voice.",
+        "text": "He causes his words to be written and sent among those who cannot hear his voice.",
         "refs": [
           "Mosiah 2:8"
         ]
@@ -224,7 +231,7 @@
     ],
     "unspecified_visual_details": [
       "The tower’s height, materials, and design.",
-      "Who writes or delivers the words, and what the writing looks like."
+      "Who writes or carries the words, and what the writing looks like."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -248,12 +255,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses do not supply Benjamin’s spoken words; do not create dialogue for him.",
+      "The verses do not supply Benjamin’s spoken words.",
       "The sending of written words is reported here, not a separate depicted episode."
     ],
     "prohibited_inventions": [
-      "Do not invent the contents of the written words or identify their writers or carriers.",
-      "Do not depict a separate delivery scene."
+      "Do not invent Benjamin’s speech or the contents of the written words.",
+      "Do not identify the writers or carriers or depict a separate delivery scene."
     ],
     "importance": "normal"
   },
@@ -843,15 +850,15 @@
       "Mosiah 2:29",
       "Mosiah 2:30"
     ],
-    "summary": "The speaker says he caused the people to assemble so he could tell them he can no longer be their teacher or king. His frame trembles as he attempts to speak. He says the Lord God supports him and commanded him to declare that his son Mosiah is king and ruler over them.",
+    "summary": "The speaker tells the assembled people he can no longer be their teacher or king. He says his frame trembles as he attempts to speak, the Lord God supports him, and he was commanded to declare that his son Mosiah is king and ruler over them.",
     "characters": [
-      "Mosiah's father",
+      "the speaker",
       "the assembled people"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says he caused the people to assemble to hear his declaration.",
+        "text": "The speaker says he caused the people to assemble so he could make a declaration.",
         "refs": [
           "Mosiah 2:29"
         ]
@@ -869,7 +876,13 @@
         ]
       },
       {
-        "text": "The speaker says the Lord God supports him, permits him to speak, and commanded him to declare that his son Mosiah is king and ruler over the people.",
+        "text": "The speaker says the Lord God supports him and has allowed him to speak.",
+        "refs": [
+          "Mosiah 2:30"
+        ]
+      },
+      {
+        "text": "The speaker says he was commanded to declare that his son Mosiah is king and ruler over the people.",
         "refs": [
           "Mosiah 2:30"
         ]
@@ -888,31 +901,32 @@
         "refs": [
           "Mosiah 2:29"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "the speaker"
       },
       {
         "text": "For even at this time, my whole frame doth tremble exceedingly while attempting to speak unto you;",
         "refs": [
           "Mosiah 2:30"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "the speaker"
       },
       {
         "text": "that my son Mosiah is a king and a ruler over you.",
         "refs": [
           "Mosiah 2:30"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "the speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord God's support is stated but no visible appearance is described."
+      "The Lord God's support is stated, but no visible appearance is described.",
+      "The speaker says he was commanded; the commander's identity is not separately specified in that clause."
     ],
     "prohibited_inventions": [
       "Do not depict Mosiah as physically present.",
       "Do not depict the Lord God as a visible figure.",
-      "Do not specify a temple or another location."
+      "Do not specify a location."
     ],
     "importance": "major"
   },
@@ -924,7 +938,7 @@
       "Mosiah 2:32",
       "Mosiah 2:33"
     ],
-    "summary": "The speaker urges his people to continue keeping commandments, promises prosperity if they keep commandments delivered by his son, and warns against contention and obeying the evil spirit. He teaches the consequence of remaining and dying in sin.",
+    "summary": "The speaker urges his people to continue keeping commandments. He promises prosperity if they keep commandments delivered by his son, warns against contention and obeying the evil spirit, and teaches the consequence of remaining and dying in sin.",
     "characters": [
       "the speaker",
       "his people"
@@ -932,19 +946,19 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says his people have kept his commandments and his father's commandments and have prospered.",
+        "text": "The speaker says his people have kept his commandments and his father's commandments, have prospered, and have been kept from falling into their enemies' hands.",
         "refs": [
           "Mosiah 2:31"
         ]
       },
       {
-        "text": "He says they will prosper and their enemies will have no power over them if they keep the commandments delivered by his son.",
+        "text": "He says that if they keep the commandments of his son, or the commandments of God delivered by him, they will prosper in the land and their enemies will have no power over them.",
         "refs": [
           "Mosiah 2:31"
         ]
       },
       {
-        "text": "He warns his people against contention and obeying the evil spirit spoken of by his father Mosiah.",
+        "text": "He warns his people against contention and obeying the evil spirit.",
         "refs": [
           "Mosiah 2:32"
         ]
@@ -957,7 +971,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses his people."
+      "The speaker addresses a group of his people."
     ],
     "unspecified_visual_details": [
       "The location, clothing, and arrangement of the people are not specified."

@@ -1,0 +1,60 @@
+{
+  "stamp": "f25caf13ae0c36b8527c98946bab48cbf89b3e0b44e006150cfa7d5774dfd67d",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Reading the letter is not explicitly described, though receiving it is."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The flight is reported retrospectively; any depiction should remain clearly a past event within the letter, not a present-tense scene."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is verbatim and within the word limit, but it omits Pahoran’s supplied statement, “My soul standeth fast in that liberty in the which God hath made us free.”",
+        "The unspecified appearance and location and the choice to present the words as text rather than depict a physical exchange are appropriately treated as unspecified or visual inference, not facts."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "stamp": "0dedfb86f51cb53060f7401eb416f116eb4fdfffae1a42715b1423292d76002c",
+  "stamp": "9f9a5049ddcd3221e5d0c6b47702c62c0606180857b4725388326f61e8c3e38d",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The audience is supported by the address to “my brethren,” but its presence or visibility is not explicitly described."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -30,27 +32,28 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Narration quotes only Mosiah 3:14 accurately. However, the summary adds that the people did not understand the law’s dependence on the atonement; verse 15 says they “understood not that the law of Moses availeth nothing except it were through the atonement of his blood.” This is a reasonable paraphrase of the source, though the wording “dependence” is interpretive."
       ]
     },
     "scene_009": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Dialogue excerpts are exact and contiguous. The summary says the speaker “teaches” these points, but these verses provide the speech without explicitly identifying the speaker or describing a present scene. Avoid depicting an unidentified speaker unless the preceding-scene chronology supports it."
       ]
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary and explicit facts omit the verse’s final stated childlike qualities: willingness to submit to all things the Lord sees fit to inflict, as a child submits to a father. The supplied quotations are exact excerpts, but narration omits that portion of the verse.",
+        "The unspecified typography/background design is appropriate for the teaching-only content; no visible event or character is invented."
       ]
     },
     "scene_011": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary accurately frames the spread of knowledge as foretold, not present. The explicit-facts entry calls the speaker “the speaker,” but the verses do not establish a present speaker or scene; the surrounding chapter’s discourse may contextualize speech, but do not depict an unidentified speaker without support from the preceding chronology."
       ]
     },
     "scene_012": {
@@ -62,10 +65,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses do not explicitly identify the speaker in verse 27 as the angel; that identification relies on continuity with the preceding angelic address."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

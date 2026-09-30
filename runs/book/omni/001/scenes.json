@@ -725,18 +725,12 @@
       "Omni 1:21",
       "Omni 1:22"
     ],
-    "summary": "An account tells of Coriantumr and the slain of his people. The people of Zarahemla discovered him, and he dwelt with them for nine moons. The account also concerns his fathers, his first parents who came from the tower when the Lord confounded the people's language, the Lord's judgments, and bones scattered in the land northward.",
-    "characters": [
-      "Coriantumr",
-      "People of Zarahemla"
-    ],
-    "locations": [
-      "The tower",
-      "The land northward"
-    ],
+    "summary": "They gave an account of Coriantumr and the slain of his people. The people of Zarahemla discovered him, and he dwelt with them for nine moons. It also spoke of his fathers, his first parents who came from the tower when the Lord confounded the people's language, the Lord's judgments, and bones scattered in the land northward.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "An account was given of Coriantumr and the slain of his people.",
+        "text": "They gave an account of Coriantumr and the slain of his people.",
         "refs": [
           "Omni 1:21"
         ]
@@ -748,7 +742,7 @@
         ]
       },
       {
-        "text": "The account also spoke briefly of his fathers. His first parents came from the tower when the Lord confounded the people's language.",
+        "text": "It spoke briefly of his fathers. His first parents came from the tower when the Lord confounded the people's language.",
         "refs": [
           "Omni 1:22"
         ]
@@ -764,7 +758,8 @@
     "unspecified_visual_details": [
       "The appearance of Coriantumr and the people of Zarahemla",
       "The circumstances of Coriantumr's discovery",
-      "The appearance and location of the tower"
+      "The appearance and location of the tower",
+      "The account's medium and any present-time setting"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -1133,7 +1128,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that they also took others to a considerable number, and took their journey again into the wilderness.",
+        "text": "and took their journey again into the wilderness.",
         "refs": [
           "Omni 1:29"
         ]
@@ -1145,7 +1140,13 @@
         ]
       },
       {
-        "text": "And these plates are full. And I make an end of my speaking.",
+        "text": "And I am about to lie down in my grave; and these plates are full.",
+        "refs": [
+          "Omni 1:30"
+        ]
+      },
+      {
+        "text": "And I make an end of my speaking.",
         "refs": [
           "Omni 1:30"
         ]

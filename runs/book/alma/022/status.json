@@ -4,24 +4,17 @@
   "verses": 35,
   "scenes": 15,
   "counts": {
-    "PASS": 13,
+    "PASS": 15,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_009": [
-      "The character label “the queen of Lamoni” asserts an unsupported relationship. The verse identifies her only as the queen associated with the fallen king, Lamoni’s father."
-    ],
-    "scene_012": [
-      "The character label “the queen of Lamoni” asserts an unsupported relationship. These verses do not identify the queen as Lamoni’s queen."
-    ]
-  },
-  "calls": 15,
+  "rejected": {},
+  "calls": 18,
   "tokens": {
-    "input_tokens": 122011,
-    "cached_input_tokens": 63488,
+    "input_tokens": 143027,
+    "cached_input_tokens": 80384,
     "cache_write_input_tokens": 0,
-    "output_tokens": 20254,
-    "reasoning_output_tokens": 6136
+    "output_tokens": 21081,
+    "reasoning_output_tokens": 6183
   }
 }

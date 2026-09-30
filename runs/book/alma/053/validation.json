@@ -1,0 +1,82 @@
+{
+  "stamp": "50bb9b6a09ca79dd066a871cdae0287546c880882d8939aa9321865b9d503b50",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The city of Bountiful is not the location stated in verse 3, which says the prisoners were marched into the land Bountiful; keep the scene's location and narration to the source wording."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference that Mulek may be shown as a fortified city is not explicitly described; the verse says it was one of the strongest Lamanite holds, without specifying its appearance.",
+        "The narration is an exact excerpt, but by itself does not state the victory or construction of the stronghold; those facts appear in the summary and explicit_facts with support."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite defenders” are not expressly identified as present in verse 8; the verse reports Lamanite gains and city possession, not the defenders' presence."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Formerly Lamanites” and conversion through Ammon and his brethren are accurate summaries, but this scene's supplied narration quotes only verse 12; ensure any narration uses exact source wording."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The account states that Helaman feared they might lose their souls, but the scene must not present that reported fear as visible or spoken dialogue."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene omits Helaman and his brethren from its character list even though verse 19 says the young men wanted Helaman as their leader; consider including Helaman if he is depicted."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Helaman’s brethren” in the summary are not stated to be present with Helaman in this passage; the passage specifically says the young men wanted Helaman as leader."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied narration's use of “stripling soldiers” and its summary are supported by verse 22, but depiction should not add a battle or unmentioned details of the march."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

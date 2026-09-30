@@ -1,0 +1,51 @@
+{
+  "stamp": "6ce1b8ef02015472c467b768d6dc888118d281cf313f79ba7ca16cfe9234a7e7",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The characters list includes the multitude, but the supplied text only says the travelers withdrew from it; their presence in a depiction is not required."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit fact about the Zoramites taking up arms compresses reported context into the scene; keep it separate from the return to Zarahemla."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse identifies the father only by pronoun; while the surrounding context indicates Alma, depicting him as present in the gathering is not explicit."
+      ]
+    }
+  }
+}

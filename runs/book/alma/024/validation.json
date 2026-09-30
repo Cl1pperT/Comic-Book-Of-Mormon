@@ -1,35 +1,37 @@
 {
-  "stamp": "023287ead51364141cf060ef76032543663eb9c2f0b8bcc7b39f710c0de3b775",
+  "stamp": "a922155f28aa3ddccae2507bb05fb6d7bd720ac5409c38c9ae1d8c4c5aaf6daf",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Scene describes the purpose of travel and the intention to hold a council; neither the council nor Lamoni’s or Anti-Nephi-Lehi’s attendance is established. The scene’s stated caveats appropriately leave this unspecified."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The source says the king commanded the converted people not to take up arms or prepare for war, but does not describe how or where he issued the command. Showing him addressing them is only a visual possibility, not an explicit event."
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 24:7–9 identifies this as the king’s speech; calling him only an unnamed male speaker is conservative but leaves the established speaker unidentified. The dialogue excerpts are verbatim and do not invent speech."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 24:10–11 continues the king’s address, but the character is labeled only “Speaker.” The dialogue excerpts are verbatim and do not invent speech."
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -40,48 +42,44 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is unnamed in the supplied verses; the scene correctly preserves that uncertainty. The listeners are identified only as brethren addressed by the speaker."
+      ]
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",
       "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary accurately describes the narrator’s account, but the scene should remain narration-only: its group labels and subject matter do not establish a present-time gathering or identify individuals."
+      ]
     },
     "scene_018": {
       "status": "PASS",

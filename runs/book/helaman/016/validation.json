@@ -1,0 +1,95 @@
+{
+  "stamp": "56a4cace2c6ab848261fc4d5f519a6f18c6e8adc50fcf7b909a2cf11fba9cd31",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse reports signs and wonders without describing their form; the visual inference should not be rendered as a specific visible event."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Angels' appearance is unspecified; they may be shown appearing, but their visual form should not be invented."
+      ]
+    },
+    "scene_015": {
+      "status": "REJECT",
+      "issues": [
+        "Lettering must be an exact source quotation: 'they began to depend upon their own strength' is not verbatim in Helaman 16:15, which reads 'Nevertheless, the people began to harden their hearts, all save it were the most believing part of them, both of the Nephites and also of the Lamanites, and began to depend upon their own strength and upon their own wisdom, saying:'"
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_021": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

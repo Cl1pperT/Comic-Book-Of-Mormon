@@ -1,0 +1,20 @@
+{
+  "book": "Helaman",
+  "chapter": 12,
+  "verses": 26,
+  "scenes": 13,
+  "counts": {
+    "PASS": 13,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 2,
+  "tokens": {
+    "input_tokens": 20911,
+    "cached_input_tokens": 3840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3923,
+    "reasoning_output_tokens": 0
+  }
+}

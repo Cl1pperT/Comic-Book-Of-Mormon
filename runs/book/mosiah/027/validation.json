@@ -1,5 +1,5 @@
 {
-  "stamp": "c1a26d6c30cfa79384934b2cc0b45d3bfe5d24f95e793adb32c00556d3540803",
+  "stamp": "2bcf4f6aa6008e0bcef5aac4c6f2a0ab17c127fdda5c3fabf936c1a2371338f2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,10 +10,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "The location is identified as Zarahemla, but these verses say only “the land”; Zarahemla is not established here."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -32,9 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The suggested depiction places the angel's departure while the others are fallen. The text says the angel departed, then Alma and the others fell again."
+        "The scene mostly follows Mosiah 27:17–18, and its narration consists of exact contiguous excerpts. The thunderous voice and earth-shaking are correctly described as recalled rather than newly staged. The unspecified departure manner should remain visually unspecified.",
+        "The summary's phrase “After speaking his last words” compresses the departing angel and the group's subsequent fall into one scene, but preserves their order."
       ]
     },
     "scene_009": {
@@ -46,16 +45,12 @@
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The man who causes the priests to assemble is Alma's father in context (verses 20–22); describing him as unidentified contradicts that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The speaker is identifiable as Alma from the preceding verses and the quoted passage; labeling him unnamed and instructing not to name him misstates the supplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
@@ -74,10 +69,8 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source summarizes travel and teaching across multiple places and occasions. Keep any depiction to a single supported setting without implying that distinct journeys or events happened simultaneously."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

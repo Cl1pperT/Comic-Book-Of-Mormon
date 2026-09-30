@@ -1,0 +1,83 @@
+{
+  "stamp": "c726bfbfcf7ae7ccd5c56edf544af84dce9a35ea4dcdd60abec6b8c1c21bb8ed",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 002 has dialogue excerpts that begin mid-sentence; the text matches the verses, but omits context that frames Alma’s knowledge as spiritual and of God."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 013 lists only Alma as a character despite depicting God and numberless angels; the explicit vision description permits their visual depiction, though their appearances are unspecified."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 014 includes unspecified people as present; the verse says Alma manifested to the people, but does not establish that they were physically present at the instant he stood."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

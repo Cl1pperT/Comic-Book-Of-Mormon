@@ -1,0 +1,75 @@
+{
+  "stamp": "ea4f1f661a719a2549098e03569740a1940a63e49e0ec059a94620cc2794e953",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is not an exact contiguous quotation: it omits the source's initial “Thus” and terminal period. Use an exact excerpt, e.g. “Moroni did prepare strongholds against the coming of their enemies”."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

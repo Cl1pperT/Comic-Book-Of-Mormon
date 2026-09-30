@@ -1,65 +1,45 @@
 {
-  "stamp": "eba3732d0537d38689ae3636759468a567d5590e61b77e04aa1484996f420a09",
+  "stamp": "62a71bcc21bef63141d53f54f6eb6e4d10cd43756999d0f311d601d34ff0fa24",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Mosiah 1:1 does not establish that all of Benjamin’s people in Zarahemla were Mulekites; the character label may imply an unsupported identity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The father is King Benjamin in the supplied context (Mosiah 1:1–3), not an unidentified father."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "This continues Benjamin’s address to his three named sons (Mosiah 1:2–5); their identities and number are not unspecified in the supplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker and his three sons are identifiable from Mosiah 1:2–3; the claims that their identities and number are unspecified disregard the supplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Benjamin’s sons are named in Mosiah 1:2; describing them as unnamed is only accurate if limited to these two verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is King Benjamin in the preceding scene and is confirmed by Mosiah 1:15; treating him as unidentified risks breaking continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "This is Benjamin continuing his speech to Mosiah (Mosiah 1:10–15), not an unidentified speaker delivering a separate address."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is Benjamin and the addressee is Mosiah in the supplied context. The suggested audience should not become an invented crowd."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The son receiving the charge is Mosiah, identified in Mosiah 1:10; his identity is not unspecified in the supplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

@@ -6,38 +6,47 @@
       "Mosiah 20:1",
       "Mosiah 20:2"
     ],
-    "summary": "A small number of the Lamanite daughters gather to sing and dance in Shemlon.",
+    "summary": "One day, a small number of the daughters of the Lamanites gather at a place in Shemlon to sing and dance.",
     "characters": [
-      "Daughters of the Lamanites (Shemlon)"
+      "Daughters of the Lamanites"
     ],
     "locations": [
-      "Shemlon"
+      "A place in Shemlon"
     ],
     "explicit_facts": [
       {
-        "text": "The daughters of the Lamanites gathered at a place in Shemlon to sing, dance, and make merry.",
+        "text": "There was a place in Shemlon where the daughters of the Lamanites gathered to sing, dance, and make merry.",
         "refs": [
           "Mosiah 20:1"
         ]
       },
       {
-        "text": "On one day, a small number gathered to sing and dance.",
+        "text": "One day, a small number of them gathered to sing and dance.",
         "refs": [
           "Mosiah 20:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The daughters are visibly singing and dancing."
+      "A small group is gathered together at one place."
     ],
     "unspecified_visual_details": [
-      "Their clothing, ages, appearance, music, and the precise layout of the gathering place are not stated."
+      "The daughters’ ages, clothing, and appearances are not stated.",
+      "The gathering place’s layout and any musical accompaniment are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that there was one day a small number of them gathered together to sing and to dance.",
+        "refs": [
+          "Mosiah 20:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict anyone else at the gathering unless supported by the verses."
+      "Do not add other people, named individuals, or spoken dialogue.",
+      "Do not specify instruments or the appearance of the gathering place."
     ],
     "importance": "normal"
   },
@@ -48,39 +57,50 @@
       "Mosiah 20:3",
       "Mosiah 20:4"
     ],
-    "summary": "The priests of King Noah remain in the wilderness, ashamed and afraid to return to Nephi, and watch the daughters of the Lamanites.",
+    "summary": "Ashamed and afraid to return to the city of Nephi, King Noah’s priests do not return to their wives and children. After tarrying in the wilderness and discovering the daughters of the Lamanites, they lie and watch them.",
     "characters": [
-      "King Noah's priests",
-      "Daughters of the Lamanites (Shemlon)"
+      "King Noah’s priests",
+      "Daughters of the Lamanites"
     ],
     "locations": [
       "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The priests of King Noah feared returning to the city of Nephi and did not dare return to their wives and children.",
+        "text": "The priests of King Noah were ashamed to return to the city of Nephi and feared the people would slay them; they did not dare return to their wives and children.",
         "refs": [
           "Mosiah 20:3"
         ]
       },
       {
-        "text": "After tarrying in the wilderness and discovering the daughters, the priests lay in wait and watched them.",
+        "text": "The priests tarried in the wilderness, discovered the daughters of the Lamanites, and lay watching them.",
         "refs": [
           "Mosiah 20:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The priests observe the gathering from concealed positions."
+      "The priests are positioned where they can see the daughters."
     ],
     "unspecified_visual_details": [
-      "The number and appearance of the priests, their precise hiding places, and the distance to the gathering are not stated."
+      "The number and appearance of the priests and daughters, their exact positions, and their surroundings are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And having tarried in the wilderness, and having discovered the daughters of the Lamanites, they laid and watched them;",
+        "refs": [
+          "Mosiah 20:4"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The priests’ shame and fear are stated in the source; no separate return attempt is narrated."
+    ],
     "prohibited_inventions": [
-      "Do not show the priests' wives or children; they are mentioned but not present in this moment."
+      "Do not show the priests’ wives or children as present.",
+      "Do not invent a gathering or identify its location as Shemlon.",
+      "Do not invent dialogue or an encounter between the priests and the daughters."
     ],
     "importance": "normal"
   },
@@ -90,112 +110,159 @@
     "refs": [
       "Mosiah 20:5"
     ],
-    "summary": "The priests emerge from their hiding places when few daughters are gathered, take twenty-four of them, and carry them into the wilderness.",
+    "summary": "When only a few are gathered to dance, unnamed people emerge from secret places, take twenty-four daughters of the Lamanites, and carry them into the wilderness.",
     "characters": [
-      "King Noah's priests",
-      "Daughters of the Lamanites (Shemlon)"
+      "Unnamed people who take the daughters",
+      "Daughters of the Lamanites"
     ],
     "locations": [
-      "wilderness"
+      "Secret places",
+      "Wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "When few daughters were gathered to dance, the priests came out of secret places, took them, and carried twenty-four into the wilderness.",
+        "text": "Only a few were gathered to dance.",
+        "refs": [
+          "Mosiah 20:5"
+        ]
+      },
+      {
+        "text": "The people who took them came out of secret places.",
+        "refs": [
+          "Mosiah 20:5"
+        ]
+      },
+      {
+        "text": "Twenty-four daughters of the Lamanites were taken and carried into the wilderness.",
         "refs": [
           "Mosiah 20:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The taking and movement into the wilderness may be shown as one continuous action."
+      "The taking and movement into the wilderness can be shown as a continuous action."
     ],
     "unspecified_visual_details": [
-      "The precise route, transport, and appearance of the people are not stated."
+      "The gathering place, route, method of carrying, and people's appearances are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "yea, twenty and four of the daughters of the Lamanites they carried into the wilderness.",
+        "refs": [
+          "Mosiah 20:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add dialogue, resistance, injuries, or a specific method of carrying."
+      "Do not identify the unnamed people, add dialogue or resistance, or depict injuries."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "The Lamanites Prepare for War",
+    "title": "The Lamanites Advance",
     "refs": [
       "Mosiah 20:6",
       "Mosiah 20:7"
     ],
-    "summary": "Angry because they believe Limhi's people took their missing daughters, the Lamanites send their armies toward the land of Nephi, led by their king.",
+    "summary": "The Lamanites find that their daughters are missing and become angry with the people of Limhi, whom they blame. They send their armies toward the land of Nephi to destroy Limhi's people, with their king going before them.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
-      "King Laman (Lamanite king)"
+      "Lamanites",
+      "Lamanite king"
     ],
     "locations": [
       "land of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites became angry with Limhi's people when their daughters were missing, believing Limhi's people had taken them.",
+        "text": "The Lamanites found that their daughters were missing and were angry with the people of Limhi, whom they believed responsible.",
         "refs": [
           "Mosiah 20:6"
         ]
       },
       {
-        "text": "The Lamanites sent their armies to the land of Nephi to destroy Limhi's people, and their king went before them.",
+        "text": "The Lamanites sent their armies to the land of Nephi to destroy the people of Limhi; their king went before his people.",
         "refs": [
           "Mosiah 20:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanite army advances toward the land of Nephi with its king leading."
+      "The king can be shown ahead of the advancing Lamanite army."
     ],
     "unspecified_visual_details": [
       "The army's size, weapons, clothing, route, and the king's appearance are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "yea, even the king himself went before his people;",
+        "refs": [
+          "Mosiah 20:7"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The Lamanites' belief about who was responsible is not established as fact."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lamanite king's later injury in this scene."
+      "Do not name the king or depict Limhi's people taking the daughters.",
+      "Do not depict a battle or injury in this scene."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "Limhi Sets an Ambush",
+    "title": "Limhi Lays Wait",
     "refs": [
       "Mosiah 20:8"
     ],
-    "summary": "Limhi sees the Lamanites' preparations for war from a tower, gathers his people, and lays wait for them in fields and forests.",
+    "summary": "From a tower, Limhi discovers a group's preparations for war. He gathers his people and lays wait for the group in the fields and forests.",
     "characters": [
-      "King Limhi",
-      "Limhi's people"
+      "Limhi",
+      "Limhi's people",
+      "an unnamed group"
     ],
     "locations": [
-      "land of Nephi"
+      "tower",
+      "fields",
+      "forests"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi discovered the Lamanites' preparations from a tower, gathered his people, and laid wait for them in fields and forests.",
+        "text": "Limhi discovered the group and its preparations for war from a tower.",
+        "refs": [
+          "Mosiah 20:8"
+        ]
+      },
+      {
+        "text": "Limhi gathered his people and laid wait for the group in the fields and forests.",
         "refs": [
           "Mosiah 20:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The tower, fields, and forests may be shown as part of the same landscape, with Limhi's people positioned in waiting places."
+      "Limhi may be shown looking out from the tower.",
+      "His people may be shown waiting in fields and forests."
     ],
     "unspecified_visual_details": [
-      "The tower's design, the number of people, and the precise arrangement of the waiting places are not stated."
+      "The tower's design, the number of people, and their exact positions are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "therefore he gathered his people together, and laid wait for them in the fields and in the forests.",
+        "refs": [
+          "Mosiah 20:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the battle before the Lamanites arrive."
+      "Do not identify the unnamed group or depict a battle."
     ],
     "importance": "normal"
   },
@@ -206,17 +273,23 @@
       "Mosiah 20:9",
       "Mosiah 20:10"
     ],
-    "summary": "As the Lamanites arrive, Limhi's people attack from their waiting places. The battle becomes exceedingly fierce.",
+    "summary": "When the Lamanites come up, the people of Limhi attack from their waiting places and begin to slay them. The battle becomes exceedingly sore.",
     "characters": [
-      "Limhi's people",
-      "Lamanite warriors (Enos to Alma era)"
+      "the people of Limhi",
+      "the Lamanites"
     ],
     "locations": [
-      "fields and forests"
+      "the people's waiting places; the broader location is unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "When the Lamanites came up, Limhi's people attacked from their waiting places and began to slay them.",
+        "text": "The Lamanites came up.",
+        "refs": [
+          "Mosiah 20:9"
+        ]
+      },
+      {
+        "text": "The people of Limhi fell upon them from their waiting places and began to slay them.",
         "refs": [
           "Mosiah 20:9"
         ]
@@ -229,18 +302,32 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The fighting may be shown in the fields and forests from the ambushers' positions."
+      "The people of Limhi can be shown emerging from waiting places to fight the approaching Lamanites."
     ],
     "unspecified_visual_details": [
-      "The specific combatants, weapons, and battlefield arrangement are not stated."
+      "The terrain, weapons, clothing, number of combatants, and precise arrangement of the waiting places are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that when the Lamanites had come up, that the people of Limhi began to fall upon them from their waiting places, and began to slay them.",
+        "refs": [
+          "Mosiah 20:9"
+        ]
+      },
+      {
+        "text": "And it came to pass that the battle became exceedingly sore, for they fought like lions for their prey.",
+        "refs": [
+          "Mosiah 20:10"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The comparison to lions is figurative language describing the battle, not a literal animal scene."
+      "The comparison to lions describes how they fought; it does not narrate the appearance of lions."
     ],
     "prohibited_inventions": [
-      "Do not depict literal lions or add graphic injury."
+      "Do not depict literal lions, graphic injuries, or invented battlefield geography.",
+      "Do not add named combatants or dialogue."
     ],
     "importance": "normal"
   },
@@ -250,35 +337,52 @@
     "refs": [
       "Mosiah 20:11"
     ],
-    "summary": "Though outnumbered, Limhi's people fight for their lives and their families and drive the Lamanites before them.",
+    "summary": "Though fewer than the Lamanites, the people of Limhi fight for their lives, wives, and children and begin to drive the Lamanites before them.",
     "characters": [
-      "Limhi's people",
-      "Lamanite warriors (Enos to Alma era)"
+      "People of Limhi",
+      "Lamanites"
     ],
-    "locations": [
-      "fields and forests"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Limhi's people were fewer than the Lamanites, fought for their lives, wives, and children, and drove the Lamanites before them.",
+        "text": "The people of Limhi began to drive the Lamanites before them.",
+        "refs": [
+          "Mosiah 20:11"
+        ]
+      },
+      {
+        "text": "The people of Limhi were not half so numerous as the Lamanites.",
+        "refs": [
+          "Mosiah 20:11"
+        ]
+      },
+      {
+        "text": "They fought for their lives, wives, and children.",
         "refs": [
           "Mosiah 20:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The opposing forces are visibly engaged, with the Lamanites being driven back."
+      "The two groups are engaged in combat, with the Lamanites being driven back."
     ],
     "unspecified_visual_details": [
-      "The number of fighters and the presence or location of the wives and children are not specified."
+      "The location, number of fighters, and presence or location of wives and children are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "But they fought for their lives, and for their wives, and for their children;",
+        "refs": [
+          "Mosiah 20:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The comparison to dragons is figurative language for fierce fighting, not a literal creature scene."
+      "The comparison to dragons describes how fiercely they fought; it does not describe literal dragons."
     ],
     "prohibited_inventions": [
-      "Do not depict literal dragons or show wives and children as present in the battle without textual support."
+      "Do not depict literal dragons or place wives and children at the battle without textual support."
     ],
     "importance": "normal"
   },
@@ -288,117 +392,161 @@
     "refs": [
       "Mosiah 20:12"
     ],
-    "summary": "Among the Lamanites left on the ground, Limhi's people find their king alive but wounded; his people have fled quickly.",
+    "summary": "They find the king of the Lamanites among the dead. He is wounded but alive, having been left on the ground when his people fled quickly.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "Limhi's people",
-      "Lamanite warriors (Enos to Alma era)"
+      "The king of the Lamanites",
+      "Unidentified people who find him"
     ],
     "locations": [
-      "battlefield"
+      "Ground among the dead"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi's people found the Lamanite king among the dead, but he was alive, wounded, and left on the ground as his people fled.",
+        "text": "They found the king of the Lamanites among the dead.",
+        "refs": [
+          "Mosiah 20:12"
+        ]
+      },
+      {
+        "text": "The king was wounded but not dead and had been left on the ground as his people fled quickly.",
         "refs": [
           "Mosiah 20:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king lies on the ground while Limhi's people discover him; other fallen combatants may be present without graphic detail."
+      "The king may be shown lying on the ground near fallen people, without visible wounds or gore.",
+      "The unidentified finders may be shown discovering him."
     ],
     "unspecified_visual_details": [
-      "The king's specific injury, the number of fallen, and the direction of the flight are not stated."
+      "The finders’ identities, the king’s appearance, the nature of his injury, and the setting are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "yet he was not dead, having been wounded and left upon the ground, so speedy was the flight of his people.",
+        "refs": [
+          "Mosiah 20:12"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show blood, gore, or severed body parts."
+      "Do not name the king or the people who find him.",
+      "Do not show the earlier flight as occurring at the moment he is found.",
+      "Do not show blood, gore, or a specific wound."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "The King Is Brought to Limhi",
+    "title": "The King Is Brought Before Limhi",
     "refs": [
       "Mosiah 20:13"
     ],
-    "summary": "Limhi's people bind the Lamanite king's wounds, bring him before Limhi, and propose that he be slain.",
+    "summary": "An unnamed group takes the king of the Lamanites, binds his wounds, and brings him before Limhi. They report that he was wounded, fell among their dead, and was left behind; they propose killing him.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "Limhi's people",
-      "King Limhi"
+      "King of the Lamanites",
+      "Limhi",
+      "Unnamed group who brought the king"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified place where Limhi receives the king"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi's people bound the king's wounds, brought him before Limhi, and said he should be slain.",
+        "text": "The group took the king, bound his wounds, and brought him before Limhi.",
+        "refs": [
+          "Mosiah 20:13"
+        ]
+      },
+      {
+        "text": "The group reports that the king received a wound, fell among their dead, and was left behind.",
+        "refs": [
+          "Mosiah 20:13"
+        ]
+      },
+      {
+        "text": "The group proposes killing the king.",
         "refs": [
           "Mosiah 20:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The bound-up wounds may be shown without depicting the injury itself."
+      "The king may be shown with his wounds covered by bindings."
     ],
     "unspecified_visual_details": [
-      "The place where Limhi receives the king and the speaker among Limhi's people are not specified."
+      "The location's appearance is unspecified.",
+      "The group members' identities and the individual speaker are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, here is the king of the Lamanites;",
+        "text": "Behold, here is the king of the Lamanites; he having received a wound has fallen among their dead, and they have left him; and behold, we have brought him before you; and now let us slay him.",
         "refs": [
           "Mosiah 20:13"
         ],
-        "speaker": "Limhi's people"
-      },
-      {
-        "text": "and now let us slay him.",
-        "refs": [
-          "Mosiah 20:13"
-        ],
-        "speaker": "Limhi's people"
+        "speaker": "Unnamed group who brought the king"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And they took him and bound up his wounds, and brought him before Limhi, and said:",
+        "refs": [
+          "Mosiah 20:13"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The fall among the dead and abandonment are reported by the group, not events to stage as occurring before Limhi."
+    ],
     "prohibited_inventions": [
-      "Do not assign the quoted words to a named individual."
+      "Do not give the king or group members names not supplied in the verse.",
+      "Do not assign the speech to a particular individual.",
+      "Do not show wounds, blood, or gore."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Limhi Questions the King",
+    "title": "Limhi Questions the Man Brought to Him",
     "refs": [
       "Mosiah 20:14"
     ],
-    "summary": "Limhi refuses to have the Lamanite king slain, asks that he be brought near, and questions him about the attack and their oaths.",
+    "summary": "Limhi tells others not to slay a man but to bring him to Limhi. They bring him, and Limhi asks why they have come to war against his people and why they would break their oath.",
     "characters": [
-      "King Limhi",
-      "King Laman (Lamanite king)",
-      "Limhi's people"
+      "Limhi",
+      "The man brought to Limhi",
+      "Those addressed by Limhi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi said the king should not be slain, asked that he be brought to him, and questioned why the king had made war despite Limhi's people keeping their oath.",
+        "text": "Limhi told others not to slay the man and to bring him so Limhi could see him.",
+        "refs": [
+          "Mosiah 20:14"
+        ]
+      },
+      {
+        "text": "They brought the man to Limhi.",
+        "refs": [
+          "Mosiah 20:14"
+        ]
+      },
+      {
+        "text": "Limhi questioned the man about coming to war against his people and breaking an oath.",
         "refs": [
           "Mosiah 20:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Limhi and the Lamanite king face one another as Limhi speaks."
+      "The man is near enough for Limhi to address him after being brought."
     ],
     "unspecified_visual_details": [
-      "Their precise location, posture, and the king's response during Limhi's speech are not stated."
+      "The location, appearances, and postures are not stated."
     ],
     "spoken_dialogue": [
       {
@@ -406,85 +554,76 @@
         "refs": [
           "Mosiah 20:14"
         ],
-        "speaker": "King Limhi"
+        "speaker": "Limhi"
       },
       {
-        "text": "What cause have ye to come up to war against my people?",
+        "text": "What cause have ye to come up to war against my people? Behold, my people have not broken the oath that I made unto you; therefore, why should ye break the oath which ye made unto my people?",
         "refs": [
           "Mosiah 20:14"
         ],
-        "speaker": "King Limhi"
-      },
-      {
-        "text": "Behold, my people have not broken the oath that I made unto you;",
-        "refs": [
-          "Mosiah 20:14"
-        ],
-        "speaker": "King Limhi"
-      },
-      {
-        "text": "therefore, why should ye break the oath which ye made unto my people?",
-        "refs": [
-          "Mosiah 20:14"
-        ],
-        "speaker": "King Limhi"
+        "speaker": "Limhi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they brought him.",
+        "refs": [
+          "Mosiah 20:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add dialogue or a response from the king in this scene."
+      "Do not identify the man or give him a response.",
+      "Do not depict a battle or an oath-making event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "The King Explains the Attack",
+    "title": "The King Explains the War",
     "refs": [
       "Mosiah 20:15"
     ],
-    "summary": "The Lamanite king tells Limhi that he broke the oath because he believed Limhi's people had taken the daughters, and that anger led him to war.",
+    "summary": "The king says he broke the oath because the people he addresses carried away the daughters of his people. He says that, in anger, he caused his people to go to war against them.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "King Limhi"
+      "the king"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The king said he broke the oath because he believed Limhi's people had carried away the daughters, and in anger caused his people to go to war.",
+        "text": "The king says he broke the oath because the people he addresses carried away the daughters of his people.",
+        "refs": [
+          "Mosiah 20:15"
+        ]
+      },
+      {
+        "text": "The king says that, in anger, he caused his people to come up to war against the people he addresses.",
         "refs": [
           "Mosiah 20:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king speaks to Limhi in the continuing encounter."
+      "The king speaks to an addressee whose identity is not given in this verse."
     ],
     "unspecified_visual_details": [
-      "The king's gestures and the precise setting are not stated."
+      "The setting, the king's appearance, and his gestures are not stated."
     ],
     "spoken_dialogue": [
       {
-        "text": "I have broken the oath because thy people did carry away the daughters of my people;",
+        "text": "I have broken the oath because thy people did carry away the daughters of my people; therefore, in my anger I did cause my people to come up to war against thy people.",
         "refs": [
           "Mosiah 20:15"
         ],
-        "speaker": "King Laman (Lamanite king)"
-      },
-      {
-        "text": "therefore, in my anger I did cause my people to come up to war against thy people.",
-        "refs": [
-          "Mosiah 20:15"
-        ],
-        "speaker": "King Laman (Lamanite king)"
+        "speaker": "the king"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the taking of the daughters as a present-time event."
+      "Do not identify the king or his addressee by name from this verse.",
+      "Do not depict the carrying away of the daughters or the war as occurring during this speech."
     ],
     "importance": "normal"
   },
@@ -607,135 +746,143 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Gideon Urges Peace",
+    "title": "A Plea to Pacify the King",
     "refs": [
       "Mosiah 20:19",
       "Mosiah 20:20",
       "Mosiah 20:21",
       "Mosiah 20:22"
     ],
-    "summary": "Gideon urges Limhi to tell the Lamanite king the truth and pacify his people, warns of their approaching forces, recalls Abinadi's words, and advises keeping the oath to stop the bloodshed.",
+    "summary": "An unnamed speaker urges telling the king what has happened so his people may be pacified, warns that numerous hosts are coming against their small group, asks whether Abinadi’s words have been fulfilled because they did not heed the Lord or turn from their iniquities, and urges pacifying the king, fulfilling their oath, accepting bondage rather than death, and stopping the bloodshed.",
     "characters": [
-      "Gideon",
-      "King Limhi",
-      "Limhi's people"
+      "Unnamed speaker"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Gideon urged Limhi to tell the king what had happened so the Lamanites might be pacified, noting they were preparing to attack and Limhi's people were few.",
+        "text": "The speaker urges someone to tell the king what has happened so the king may pacify his people. The speaker says those people are preparing to come against the speaker’s group, which is few in number.",
         "refs": [
           "Mosiah 20:19"
         ]
       },
       {
-        "text": "Gideon warned that the Lamanites had numerous hosts and Limhi's people would perish unless the king pacified them.",
+        "text": "The speaker says numerous hosts are coming and that the speaker’s group will perish unless the king pacifies them.",
         "refs": [
           "Mosiah 20:20"
         ]
       },
       {
-        "text": "Gideon asked whether Abinadi's words were fulfilled because the people had not hearkened to the Lord or turned from iniquity.",
+        "text": "The speaker asks whether Abinadi’s words have been fulfilled because the group did not hearken to the Lord’s words or turn from their iniquities.",
         "refs": [
           "Mosiah 20:21"
         ]
       },
       {
-        "text": "Gideon urged them to pacify the king and fulfill their oath, saying bondage was better than losing their lives and they should stop the bloodshed.",
+        "text": "The speaker urges pacifying the king and fulfilling an oath made to him, says bondage is better than losing their lives, and calls for an end to the bloodshed.",
         "refs": [
           "Mosiah 20:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Gideon speaks to Limhi and those present; the warnings and teachings can be presented as off-screen speech over the supported setting."
+      "The speaker may address others in the group; the verses do not identify the listeners."
     ],
     "unspecified_visual_details": [
-      "The precise setting and the approaching Lamanite army's appearance are not stated for this speech moment."
+      "The speaker’s identity and appearance, the precise setting, and the appearance of the approaching hosts are not stated."
     ],
     "spoken_dialogue": [
       {
-        "text": "And now, behold, and tell the king of these things,",
+        "text": "and behold also there are but few of us.",
         "refs": [
           "Mosiah 20:19"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "And behold, they come with their numerous hosts;",
         "refs": [
           "Mosiah 20:20"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "For are not the words of Abinadi fulfilled,",
+        "text": "For are not the words of Abinadi fulfilled, which he prophesied against us—and all this because we would not hearken unto the words of the Lord, and turn from our iniquities?",
         "refs": [
           "Mosiah 20:21"
         ],
-        "speaker": "Gideon"
-      },
-      {
-        "text": "And now let us pacify the king, and we fulfil the oath which we have made unto him;",
-        "refs": [
-          "Mosiah 20:22"
-        ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "therefore, let us put a stop to the shedding of so much blood.",
         "refs": [
           "Mosiah 20:22"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Abinadi is mentioned in Gideon's speech but is not present in this moment."
+      "Abinadi is mentioned in speech; the verses do not place him in this scene.",
+      "The approaching hosts are reported in speech, not directly narrated as visible in this moment."
     ],
     "prohibited_inventions": [
-      "Do not show Abinadi or literal visualizations of his prophecy."
+      "Do not identify the speaker, king, listeners, or opposing people by names absent from these verses.",
+      "Do not depict Abinadi, the approaching hosts, or a literal visualization of his prophecy in this speech moment.",
+      "Do not invent a setting, further action, or additional dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Limhi Explains What Happened",
+    "title": "Limhi Tells the King",
     "refs": [
       "Mosiah 20:23"
     ],
-    "summary": "Limhi tells the Lamanite king about his father and the priests who fled into the wilderness, attributing the carrying away of the daughters to them.",
+    "summary": "Limhi tells the king about his father and the priests who fled into the wilderness, and attributes the carrying away of the daughters to the priests.",
     "characters": [
-      "King Limhi",
-      "King Laman (Lamanite king)"
+      "Limhi",
+      "the king"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi told the king about his father and the priests who fled into the wilderness, and attributed the carrying away of the daughters to them.",
+        "text": "Limhi told the king about his father and the priests who had fled into the wilderness.",
+        "refs": [
+          "Mosiah 20:23"
+        ]
+      },
+      {
+        "text": "Limhi attributed the carrying away of the daughters to the priests.",
         "refs": [
           "Mosiah 20:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Limhi addresses the king in the continuing encounter."
+      "Limhi addresses the king."
     ],
     "unspecified_visual_details": [
-      "The precise setting and the king's response during Limhi's explanation are not stated."
+      "The setting and the king's response are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And now Limhi told the king all the things concerning his father, and the priests that had fled into the wilderness, and attributed the carrying away of their daughters to them.",
+        "refs": [
+          "Mosiah 20:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The priests and the carrying away are recounted, not a present-time event."
+      "The priests' flight and the carrying away are recounted, not shown as present-time events."
     ],
     "prohibited_inventions": [
-      "Do not depict the priests or the taking of the daughters as occurring in this scene."
+      "Do not depict the priests' flight or the carrying away as occurring in this scene.",
+      "Do not invent Limhi's exact spoken words or the king's response."
     ],
     "importance": "normal"
   },
@@ -748,7 +895,7 @@
     "summary": "The king is pacified toward his people. He proposes going without arms to meet his people and swears that his people will not slay the people he addresses.",
     "characters": [
       "The king",
-      "The people he addresses"
+      "The people the king addresses"
     ],
     "locations": [
       "Unspecified location"
@@ -761,17 +908,24 @@
         ]
       },
       {
-        "text": "The king told them to go without arms to meet his people and swore that his people would not slay their people.",
+        "text": "The king proposed going without arms to meet his people.",
+        "refs": [
+          "Mosiah 20:24"
+        ]
+      },
+      {
+        "text": "The king swore that his people would not slay the people he addressed.",
         "refs": [
           "Mosiah 20:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king speaks to a group of people."
+      "The king speaks to people who can hear him."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, gestures, and number of listeners are not stated."
+      "The setting, clothing, gestures, and number of listeners are not stated.",
+      "The supplied verse does not name the king or the people he addresses."
     ],
     "spoken_dialogue": [
       {
@@ -792,7 +946,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify the king or the people beyond what this verse states.",
+      "Do not identify the king or the people he addresses beyond what the supplied verse states.",
       "Do not show the proposed meeting as having occurred."
     ],
     "importance": "normal"
@@ -803,41 +957,55 @@
     "refs": [
       "Mosiah 20:25"
     ],
-    "summary": "Limhi's people follow the king unarmed to meet the Lamanites. The Lamanite king bows before them and pleads on their behalf.",
+    "summary": "They followed the king without arms and met the Lamanites. The king of the Lamanites bowed before them and pleaded on behalf of the people of Limhi.",
     "characters": [
-      "King Laman (Lamanite king)",
-      "King Limhi",
-      "Limhi's people",
-      "Lamanite warriors (Enos to Alma era)"
+      "The king",
+      "Those who followed the king",
+      "The Lamanites",
+      "The king of the Lamanites"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified meeting place"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi's people followed the king unarmed to meet the Lamanites.",
+        "text": "They followed the king and went without arms to meet the Lamanites.",
         "refs": [
           "Mosiah 20:25"
         ]
       },
       {
-        "text": "At the meeting, the Lamanite king bowed before them and pleaded for Limhi's people.",
+        "text": "They met the Lamanites.",
+        "refs": [
+          "Mosiah 20:25"
+        ]
+      },
+      {
+        "text": "The king of the Lamanites bowed before them and pleaded on behalf of the people of Limhi.",
         "refs": [
           "Mosiah 20:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The unarmed meeting and the king's bow may be shown together as one continuous encounter."
+      "The departure and meeting can be shown as successive moments."
     ],
     "unspecified_visual_details": [
-      "The meeting place and the king's precise words are not stated."
+      "The meeting place, clothing, and precise words of the plea are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that they followed the king, and went forth without arms to meet the Lamanites.",
+        "refs": [
+          "Mosiah 20:25"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the content of the king's plea."
+      "Do not name the kings or identify the people who followed the king beyond what the verse states.",
+      "Do not invent words for the Lamanite king’s plea."
     ],
     "importance": "normal"
   },
@@ -847,33 +1015,48 @@
     "refs": [
       "Mosiah 20:26"
     ],
-    "summary": "Seeing Limhi's people unarmed, the Lamanites have compassion, are pacified, and return with their king in peace to their own land.",
+    "summary": "The Lamanites see that Limhi's people are unarmed, have compassion on them, are pacified, and return with their king in peace to their own land.",
     "characters": [
-      "Limhi's people",
-      "Lamanite warriors (Enos to Alma era)",
-      "King Laman (Lamanite king)"
+      "The Lamanites",
+      "The people of Limhi",
+      "The Lamanites' king"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location",
+      "The Lamanites' own land"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites saw that Limhi's people were unarmed, had compassion on them, were pacified, and returned peacefully with their king to their own land.",
+        "text": "The Lamanites saw that the people of Limhi were without arms.",
+        "refs": [
+          "Mosiah 20:26"
+        ]
+      },
+      {
+        "text": "The Lamanites had compassion on them, were pacified towards them, and returned with their king in peace to their own land.",
         "refs": [
           "Mosiah 20:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanites and their king depart together peacefully."
+      "The Lamanites and their king can be shown departing peacefully."
     ],
     "unspecified_visual_details": [
-      "The route and the appearance of the Lamanites' own land are not stated."
+      "The setting, route, clothing, and appearances are not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And when the Lamanites saw the people of Limhi, that they were without arms, they had compassion on them and were pacified towards them, and returned with their king in peace to their own land.",
+        "refs": [
+          "Mosiah 20:26"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
+      "Do not name the king or assign an era to the Lamanites.",
       "Do not add a further encounter or events after their peaceful return."
     ],
     "importance": "normal"

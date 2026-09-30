@@ -5,41 +5,53 @@
     "refs": [
       "Mosiah 27:1"
     ],
-    "summary": "Church members complain to Alma about persecution; Alma brings the case before King Mosiah, who consults his priests.",
+    "summary": "Persecution by unbelievers becomes great; the church complains to its leaders and to Alma. Alma lays the case before King Mosiah, who consults his priests.",
     "characters": [
       "members of the church",
-      "Alma (the Younger, high priest)",
-      "Mosiah II (king)",
-      "the king's priests"
+      "unbelievers",
+      "church leaders",
+      "Alma",
+      "King Mosiah",
+      "Mosiah's priests"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified locations"
     ],
     "explicit_facts": [
       {
-        "text": "Unbelievers persecute members of the church, who complain to their leaders and to Alma.",
+        "text": "Unbelievers inflict persecution on the church, which complains to its leaders and to Alma.",
         "refs": [
           "Mosiah 27:1"
         ]
       },
       {
-        "text": "Alma lays the case before Mosiah, and Mosiah consults with his priests.",
+        "text": "Alma lays the case before King Mosiah, who consults his priests.",
         "refs": [
           "Mosiah 27:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The church members can be shown presenting their complaint to Alma."
+      "Church members may be shown bringing their complaint to Alma.",
+      "The consultation with the priests is a subsequent action, not part of the complaint to Alma."
     ],
     "unspecified_visual_details": [
-      "The location, clothing, age, and appearance of the people are not specified."
+      "The settings, clothing, ages, and appearances are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma laid the case before their king, Mosiah.",
+        "refs": [
+          "Mosiah 27:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict a specific act of persecution not described in the verse."
+      "Do not depict a specific act of persecution.",
+      "Do not invent the words of any complaint or consultation.",
+      "Do not identify Alma as Alma the Younger or assign him an office."
     ],
     "importance": "normal"
   },
@@ -195,48 +207,56 @@
       "Mosiah 27:9",
       "Mosiah 27:10"
     ],
-    "summary": "Alma, son of Alma, and the sons of Mosiah are among the unbelievers. Alma is described as wicked and idolatrous, flattering people and leading many into his ways, harming the church. He and the sons of Mosiah secretly seek to destroy the church and lead the people astray.",
+    "summary": "Alma, son of Alma, and the sons of Mosiah are numbered among the unbelievers. Alma flatters people, leads many to follow his iniquities, and causes dissension. He goes about secretly with the sons of Mosiah seeking to destroy the church and lead people astray.",
     "characters": [
-      "Alma (the Younger, rebel)",
-      "the sons of Mosiah"
+      "Alma, son of Alma",
+      "the sons of Mosiah",
+      "unnamed people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The sons of Mosiah and Alma, son of Alma, are numbered among the unbelievers; Alma is wicked and idolatrous.",
+        "text": "The sons of Mosiah and Alma, son of Alma, are numbered among the unbelievers; Alma is described as wicked and idolatrous.",
         "refs": [
           "Mosiah 27:8"
         ]
       },
       {
-        "text": "Alma uses flattery and leads many to follow his iniquities, hindering the church and causing dissension.",
+        "text": "Alma speaks flattery, leads many people to follow his iniquities, hinders the church, and causes dissension.",
         "refs": [
           "Mosiah 27:8",
           "Mosiah 27:9"
         ]
       },
       {
-        "text": "Alma secretly goes about with the sons of Mosiah seeking to destroy the church and lead the people astray.",
+        "text": "Alma goes about secretly with the sons of Mosiah seeking to destroy the church and lead the people of the Lord astray.",
         "refs": [
           "Mosiah 27:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and the sons of Mosiah can be shown together as they go about secretly."
+      "Alma and the sons of Mosiah may be shown together as they go about secretly."
     ],
     "unspecified_visual_details": [
-      "The place, their appearance, and any particular act of persuasion are unspecified."
+      "Their appearance, the location, and any particular act of persuasion are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "he did go about secretly with the sons of Mosiah seeking to destroy the church",
+        "refs": [
+          "Mosiah 27:10"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Their secret opposition is summarized in narration; no specific gathering or speech is supplied."
+      "The verses summarize their opposition; they do not supply a specific conversation or gathering."
     ],
     "prohibited_inventions": [
-      "Do not invent specific words, targets, or actions of their campaign."
+      "Do not invent words spoken by Alma or the sons of Mosiah, specific targets of their efforts, or a particular setting."
     ],
     "importance": "normal"
   },
@@ -248,46 +268,76 @@
       "Mosiah 27:11",
       "Mosiah 27:12"
     ],
-    "summary": "As Alma and the sons of Mosiah rebel, the angel of the Lord appears, descends as in a cloud, and speaks with a voice like thunder that shakes the earth. They fall to the earth in astonishment and do not understand his words.",
+    "summary": "As the person referred to as “he” goes about secretly with the sons of Mosiah seeking to destroy the church and lead astray the people, the angel of the Lord appears to them and descends as it were in a cloud. He speaks as it were with a voice of thunder, causing the earth beneath them to shake. They fall to the earth in astonishment and do not understand his words.",
     "characters": [
-      "Alma (the Younger, rebel)",
+      "the person referred to as “he” in Mosiah 27:10",
       "the sons of Mosiah",
       "the angel of the Lord"
     ],
     "locations": [
-      "Unspecified location"
+      "unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The angel of the Lord appears to Alma and those with him, descending as it were in a cloud.",
+        "text": "He goes about secretly with the sons of Mosiah, seeking to destroy the church and lead astray the people of the Lord.",
+        "refs": [
+          "Mosiah 27:10"
+        ]
+      },
+      {
+        "text": "The angel of the Lord appears to them and descends as it were in a cloud.",
         "refs": [
           "Mosiah 27:11"
         ]
       },
       {
-        "text": "The angel speaks with a voice like thunder, causing the earth to shake beneath them.",
+        "text": "The angel speaks as it were with a voice of thunder, causing the earth on which they stand to shake.",
         "refs": [
           "Mosiah 27:11"
         ]
       },
       {
-        "text": "They fall to the earth in astonishment and do not understand his words.",
+        "text": "They fall to the earth in astonishment and do not understand the angel’s words.",
         "refs": [
           "Mosiah 27:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The angel can be shown descending in a cloud, as explicitly described."
+      "The group can be shown standing as the earth shakes, then falling to the earth."
     ],
     "unspecified_visual_details": [
-      "The angel's bodily appearance, clothing, and the exact landscape are unspecified."
+      "The angel’s bodily appearance and clothing are unspecified.",
+      "The exact landscape and the people’s appearances are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "behold, the angel of the Lord appeared unto them;",
+        "refs": [
+          "Mosiah 27:11"
+        ]
+      },
+      {
+        "text": "and he descended as it were in a cloud;",
+        "refs": [
+          "Mosiah 27:11"
+        ]
+      },
+      {
+        "text": "And so great was their astonishment, that they fell to the earth,",
+        "refs": [
+          "Mosiah 27:12"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The angel speaks, but the supplied verses do not give his words.",
+      "The supplied verses refer to one person as “he” without giving his name."
+    ],
     "prohibited_inventions": [
-      "Do not invent the angel's appearance beyond the cloud-like descent."
+      "Do not invent the angel’s words or bodily appearance.",
+      "Do not assign a name to the person referred to as “he” using information outside the supplied verses."
     ],
     "importance": "major"
   },
@@ -424,7 +474,7 @@
       "Mosiah 27:17",
       "Mosiah 27:18"
     ],
-    "summary": "The angel departs after his last words to Alma. Then Alma and those with him fall again to the earth in great astonishment. They had beheld the angel and knew that only God's power could cause the earth to shake as it had.",
+    "summary": "After speaking his last words to Alma, the angel departs. Alma and those with him then fall again to the earth in great astonishment.",
     "characters": [
       "Alma",
       "Those with Alma",
@@ -435,19 +485,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The angel finishes speaking to Alma and departs.",
+        "text": "The angel's last words to Alma precede his departure.",
         "refs": [
           "Mosiah 27:17"
         ]
       },
       {
-        "text": "Alma and those with him then fall again to the earth in great astonishment.",
+        "text": "Alma and those with him fall again to the earth in great astonishment.",
         "refs": [
           "Mosiah 27:18"
         ]
       },
       {
-        "text": "They had seen an angel of the Lord, whose voice was as thunder and shook the earth.",
+        "text": "They had beheld an angel of the Lord, whose voice was as thunder and shook the earth.",
         "refs": [
           "Mosiah 27:18"
         ]
@@ -460,7 +510,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The group's posture and expressions may convey astonishment as they fall after the angel has departed."
+      "The group's posture may convey astonishment as they fall after the angel departs."
     ],
     "unspecified_visual_details": [
       "The angel's appearance and manner of departure are not described.",
@@ -468,15 +518,28 @@
       "Clothing, terrain, lighting, and time of day are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and he departed.",
+        "refs": [
+          "Mosiah 27:17"
+        ]
+      },
+      {
+        "text": "And now Alma and those that were with him fell again to the earth,",
+        "refs": [
+          "Mosiah 27:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The angel's thunderous voice and the shaking earth are recalled here; do not stage them as a new occurrence.",
       "The comparison to the earth parting asunder does not establish that it actually split."
     ],
     "prohibited_inventions": [
-      "Do not show the angel departing while the group is already fallen; preserve departure followed by their falling again.",
+      "Do not show the group falling before the angel departs.",
       "Do not invent the angel's final words or a supernatural departure effect.",
-      "Do not identify Alma's companions as the sons of Mosiah or add unsupported names or biographies.",
+      "Do not identify Alma's companions or add unsupported biographies.",
       "Do not invent a visible appearance for God.",
       "Do not depict the earth splitting apart."
     ],
@@ -488,18 +551,18 @@
     "refs": [
       "Mosiah 27:19"
     ],
-    "summary": "Alma becomes unable to speak or move his hands. Those with him carry him helpless until he is laid before his father.",
+    "summary": "Alma becomes unable to speak or move his hands. Those with him carry him until he is laid before his father.",
     "characters": [
-      "Alma (the Younger, rebel)",
-      "the sons of Mosiah",
-      "Alma the Elder"
+      "Alma",
+      "those with Alma",
+      "Alma's father"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma becomes dumb and too weak to move his hands.",
+        "text": "Alma becomes unable to speak or move his hands.",
         "refs": [
           "Mosiah 27:19"
         ]
@@ -512,33 +575,43 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Those with Alma can be shown carrying him toward his father."
+      "Alma can be shown being carried by those with him."
     ],
     "unspecified_visual_details": [
-      "The route, setting, and means of carrying him are unspecified."
+      "The setting, route, and means of carrying Alma are unspecified.",
+      "The appearances of Alma, his companions, and his father are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and carried helpless, even until he was laid before his father.",
+        "refs": [
+          "Mosiah 27:19"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse describes movement to his father; no intermediate location is specified."
+      "The verse does not identify those with Alma or name his father."
     ],
     "prohibited_inventions": [
+      "Do not identify Alma's companions or name his father from outside this verse.",
       "Do not portray a specific injury or diagnose Alma's condition."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Alma the Elder rejoices",
+    "title": "His father rejoiced",
     "refs": [
       "Mosiah 27:20",
       "Mosiah 27:21"
     ],
-    "summary": "Alma's companions recount what happened to his father, who rejoices, recognizing God's power. He gathers a multitude to witness what the Lord has done for his son and those with him.",
+    "summary": "They recount to his father all that happened to them. He rejoices, knowing it was the power of God. He then causes a multitude to be gathered to witness what the Lord has done for his son and those with him.",
     "characters": [
-      "Alma (the Younger, rebel)",
-      "Alma the Elder",
-      "the sons of Mosiah",
+      "his father",
+      "those who recounted what happened",
+      "his son",
+      "those who were with his son",
       "a multitude"
     ],
     "locations": [
@@ -546,31 +619,55 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma's companions tell his father all that happened, and his father rejoices, knowing it was God's power.",
+        "text": "They recounted to his father all that had happened to them.",
         "refs": [
           "Mosiah 27:20"
         ]
       },
       {
-        "text": "Alma's father causes a multitude to gather to witness what the Lord has done for his son and those with him.",
+        "text": "His father rejoiced because he knew it was the power of God.",
+        "refs": [
+          "Mosiah 27:20"
+        ]
+      },
+      {
+        "text": "He caused a multitude to be gathered to witness what the Lord had done for his son and those with him.",
         "refs": [
           "Mosiah 27:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The multitude can be shown gathered near Alma and his father."
+      "His father may be shown expressing joy."
     ],
     "unspecified_visual_details": [
-      "The place and the size or appearance of the multitude are unspecified."
+      "The location and the people's appearances are unspecified.",
+      "How the multitude is gathered is unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they rehearsed unto his father all that had happened unto them; and his father rejoiced, for he knew that it was the power of God.",
+        "refs": [
+          "Mosiah 27:20"
+        ]
+      },
+      {
+        "text": "And he caused that a multitude should be gathered together that they might witness what the Lord had done for his son, and also for those that were with him.",
+        "refs": [
+          "Mosiah 27:21"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The companions' account is summarized, not quoted."
+      "The account of what happened is reported, not quoted.",
+      "The verses do not identify the father, son, or others by name.",
+      "The recounting precedes the father's rejoicing and his causing the multitude to be gathered."
     ],
     "prohibited_inventions": [
-      "Do not invent the companions' report as direct dialogue."
+      "Do not invent the contents of their account or words used to gather the multitude.",
+      "Do not depict the Lord appearing or the recounted events as a new present-tense scene.",
+      "Do not imply the son or multitude is visibly present during the recounting."
     ],
     "importance": "normal"
   },

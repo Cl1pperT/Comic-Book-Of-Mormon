@@ -1,0 +1,79 @@
+{
+  "stamp": "1295b66f1eb22fb4afa80eca42b155a66e65614c30f5b6628e82f0193e7e433a",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene omits the explicit ending of Alma 37:4: the plates are preserved so every nation, kindred, tongue, and people may know the mysteries contained on them. Consider including it in the summary or narration.",
+        "The proposed bright surface is supported by Alma 37:5, but the verse states retained brightness conditionally (if the plates are kept); avoid implying a present glow or depicting a preservation event.",
+        "The previous scene presents Alma’s command to keep the records; this scene’s prophecy and conditional brightness remain reported statements, not subsequent events shown occurring."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The notes incorrectly say the son is unnamed in the supplied verses: Alma 37:20 names Helaman. The preceding scene identifies the continuing speaker as Alma, so labeling both participants unnamed obscures established continuity."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma says the director “is” or “was” a compass, while the entry renders this as “interpreted as a compass”; this is a minor phrasing uncertainty, not an invented fact. The quoted dialogue is an exact contiguous excerpt."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Speech excerpts match the supplied verses, but the selected excerpts total 48 words; the unnamed speaker and addressed son are consistent with the text, yet their visible presence and setting are not established. Depict only the address, without implying a particular appearance, location, or compass visibility."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

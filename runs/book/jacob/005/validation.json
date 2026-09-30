@@ -1,5 +1,5 @@
 {
-  "stamp": "80b7ddb0338cb925172fc1b31548090246e31063de22bca64faf309ccd796370",
+  "stamp": "d2d96ad2ad25ac238cd52dd1329e33e4b7686f400fdcc449a5405f783ff73dac",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,9 +22,9 @@
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The quoted narration is an exact excerpt, but it omits the verse’s action of hiding branches in the nethermost parts; the visual inference that they are placed in multiple parts is directly supported by the verse. The Lord’s appearance is correctly left unspecified."
       ]
     },
     "scene_007": {
@@ -32,24 +32,22 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “They go to where the natural branches were hidden” treats the plural locations from verse 14 as a single destination; verse 20 identifies their destination only as where the master hid the branches. The scene should avoid implying all natural branches were in one place."
+      ]
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary compresses the sequential examination of several distinct trees and branches into a single description; keep them visually and chronologically distinct."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -60,9 +58,10 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary slightly overstates the text: verse 40 says the wild fruit overcame the good-fruit-bearing part and the branch withered and died, but does not explicitly say that the branch was the last branch. The reference to the last tree is supported.",
+        "The previous scene’s narration presents an altered quotation: its excerpt omits the source’s initial “But behold,” and therefore is not an exact contiguous excerpt. This does not alter the chronology of the audited scene."
       ]
     },
     "scene_015": {
@@ -90,9 +89,10 @@
       "issues": []
     },
     "scene_021": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The unnamed laborers are supported by the servants laboring in Jacob 5:72–74, but their specific appearance and number are unspecified.",
+        "The natural fruit's return and wild branches being removed are explicitly described; visually showing laborers tending trees at that exact moment is an inference, not a narrated task."
       ]
     },
     "scene_022": {
@@ -100,8 +100,10 @@
       "issues": []
     },
     "scene_023": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene correctly treats Jacob 5:77 as a prediction rather than depicting the gathering or burning as present events. The quoted dialogue is verbatim. The speaker is not identified in this verse, but the vineyard allegory and preceding scene identify him as the Lord of the vineyard; labeling him only as an unidentified speaker is conservative. The location is mentioned in the speech, not established as the scene's visual setting."
+      ]
     }
   }
 }

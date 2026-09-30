@@ -1,5 +1,5 @@
 {
-  "stamp": "b6e11d14ce022ffeb8b86421d693b6c08cf051cc180373506606a6c2daff14e0",
+  "stamp": "47e988724dbcc95a6a738b048056a39c312b44556767ca09383fc71b38716b1a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,29 +14,33 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene places the event in the forests, but Enos 1:5–6 does not specify the location; this carries forward a plausible but unstated continuity from the previous scene."
+      ]
     },
     "scene_005": {
       "status": "REJECT",
       "issues": [
-        "The notes incorrectly say Enos 1:2 was not supplied; it is included in the supplied source. The prohibition based on that claim is therefore unsupported."
+        "The summary says the responding speaker attributes his own wholeness to faith. Enos 1:8 says the narrator's faith made the narrator whole."
       ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The forests setting is not specified in Enos 1:9–10; continuity from prior scenes is a reasonable but unstated visual choice."
+      ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forest location carries forward from Enos 1:3 but is not stated in Enos 1:11–12; treat it as a continuity inference, not an explicit fact."
+        "The forests setting is not specified in Enos 1:11–12; continuity is plausible but not explicit."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forest location is inferred from the earlier hunting account, not stated in Enos 1:13–14."
+        "The forests setting is not specified in Enos 1:13–14; continuity is plausible but not explicit."
       ]
     },
     "scene_009": {
@@ -46,7 +50,7 @@
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forest location is inferred from earlier verses, not stated in Enos 1:18."
+        "The forests setting is not stated in Enos 1:18; continuity is plausible but not explicit."
       ]
     },
     "scene_011": {
@@ -54,23 +58,18 @@
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The character labels specify 2 Nephi-era groups, but Enos 1:20 does not establish that those earlier settlers are present.",
-        "Showing a wilderness group with tents and weapons as a current scene risks enacting Enos’s retrospective description."
+        "“Wilderness” is a visual setting for the reported Lamanite way of life, but the verse is retrospective summary and does not establish a particular present-time scene or encounter."
       ]
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Crops and animals may illustrate Enos’s report, but a staged present-tense farming event would turn his summary into a new scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Depicting an unnamed prophet addressing a gathering stages a particular sermon from Enos’s summary of ongoing preaching; no such scene is narrated."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

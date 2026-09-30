@@ -1,55 +1,71 @@
 {
-  "stamp": "fbc9103f022f4b037761468e1a3ccf3f27372a6f62aee26940c83a4a6663f348",
+  "stamp": "8247acb3afd8783ec18fb323ba6d04c2ded06f9fcdfa66a5bb020220f066de3d",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The narration excerpt from Mosiah 2:2 ends with a semicolon, but the supplied verse continues; it is a contiguous exact excerpt, so this is acceptable, though the truncation should remain clear."
       ]
     },
-    "scene_004": {
+    "scene_003": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary compresses the tower's erection, Benjamin's speaking, and the sending of written words into one scene, although the text reports the latter as subsequent actions; keep them distinct in any depiction. The notes correctly flag the written-word sending as reported, not a separate delivery scene."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Speakers are unnamed in these verses; the identified king may be shown addressing listeners, but his visual identity is unspecified."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is identifiable as the king from context in the supplied preceding verses, but scene 007 calls him unnamed; this is conservative rather than contradictory."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is the king in the immediately preceding speech context; labeling him unnamed is conservative, but the visual identity should not add unsupported traits."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“A man called king” is awkwardly phrased; source establishes the speaker is the king whom listeners call their king, not that they newly call him king in this moment."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker remains King Benjamin by continuity from the source address, although the scene uses an unidentified label; no unsupported naming is introduced."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Immediately blesses” is a claim within the speech and accurately reflects the source, but it is presented as a fact in the scene summary rather than clearly attributed as the speaker’s teaching."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is the same king in the continuous address; the generic label is conservative. The age inference is explicitly supported by the king’s statement that he is old."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -60,12 +76,16 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is continuous with the preceding address and thus can reasonably be understood as King Benjamin, but the scene leaves him unnamed. Lehi and the prophets are correctly treated as mentioned rather than present."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is continuous with the preceding address and can reasonably be understood as King Benjamin; the unnamed label is conservative. The listed visual inferences do not specify unsupported appearances."
+      ]
     }
   }
 }

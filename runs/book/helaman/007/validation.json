@@ -1,0 +1,52 @@
+{
+  "stamp": "0f34fe4efcab75064318fe54372755162f4ad5c6c1e677fcb86eb3f929be9fdc",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue is not an exact contiguous quotation: it inserts “the” after “because of this.” Source Helaman 7:9 reads “because of this the wickedness of my brethren.” Use the source wording verbatim. The summary and facts otherwise accurately reflect the verses; the earlier generation is described as part of Nephi’s speech, not a present event.",
+        "The previous scene’s summary says sorrow “overwhelms” Nephi, which is not stated in Helaman 7:6; the verse says his heart was swollen with sorrow and he exclaimed in agony."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s identity for “the speaker” is not stated within refs 13–15, although the preceding scene and verse 12 identify him as Nephi. The tower’s connection to Nephi is established in verse 10.",
+        "The statement that the people gathered because of his mourning is supported, but the scene summary’s “upon his tower” is better read as context from verse 14; verse 13 itself only says he addresses them.",
+        "The dialogue consists of exact excerpts, but its selections omit portions of the verses; this is permissible under the scene notes and the excerpts themselves are verbatim."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

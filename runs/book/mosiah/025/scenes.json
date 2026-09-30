@@ -6,14 +6,14 @@
       "Mosiah 25:1",
       "Mosiah 25:4"
     ],
-    "summary": "King Mosiah gathers the people, assembled in two bodies: the people of Nephi and the people of Zarahemla.",
+    "summary": "King Mosiah caused the people to gather. The people of Nephi and the people of Zarahemla assembled in two bodies.",
     "characters": [
-      "Mosiah II (king)",
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "king Mosiah",
+      "people of Nephi",
+      "people of Zarahemla"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified gathering place"
     ],
     "explicit_facts": [
       {
@@ -23,23 +23,37 @@
         ]
       },
       {
-        "text": "The people of Nephi and the people of Zarahemla assembled together in two bodies.",
+        "text": "The people of Nephi and the people of Zarahemla were assembled together in two bodies.",
         "refs": [
           "Mosiah 25:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Two distinct gathered crowds can be shown."
+      "Two gathered bodies of people can be shown."
     ],
     "unspecified_visual_details": [
-      "The exact gathering place, clothing, architecture, and crowd size are not stated."
+      "The gathering place, clothing, architecture, and number of people are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And now king Mosiah caused that all the people should be gathered together.",
+        "refs": [
+          "Mosiah 25:1"
+        ]
+      },
+      {
+        "text": "And now all the people of Nephi were assembled together, and also all the people of Zarahemla, and they were gathered together in two bodies.",
+        "refs": [
+          "Mosiah 25:4"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the historical arrival of Mulek's people as a present event."
+      "Do not label the people of Zarahemla as Mulekites or depict an earlier arrival as a present event.",
+      "Do not invent a speech by king Mosiah."
     ],
     "importance": "normal"
   },
@@ -100,87 +114,97 @@
     "refs": [
       "Mosiah 25:5"
     ],
-    "summary": "Mosiah reads the records of Zeniff to the people, covering the account from the people’s departure from Zarahemla until their return.",
+    "summary": "Mosiah reads and causes the records of the people of Zeniff to be read to his people. The records cover the period from their departure from Zarahemla until their return.",
     "characters": [
-      "Mosiah II (king)",
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "Mosiah",
+      "Mosiah’s people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah read, and caused to be read, the records of Zeniff to his people.",
+        "text": "Mosiah read and caused the records of Zeniff to be read to his people.",
         "refs": [
           "Mosiah 25:5"
         ]
       },
       {
-        "text": "The records covered the time from leaving Zarahemla until returning.",
+        "text": "He read the records of the people of Zeniff, covering the time from their departure from Zarahemla until their return.",
         "refs": [
           "Mosiah 25:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown reading to the gathered people."
+      "Mosiah may be shown reading while his people listen."
     ],
     "unspecified_visual_details": [
-      "The records’ physical appearance and the setting are not specified."
+      "The records’ physical form and the setting are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Mosiah did read, and caused to be read, the records of Zeniff to his people;",
+        "refs": [
+          "Mosiah 25:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The records’ earlier events are reported, not depicted here as present action."
+      "The departure and return are the period covered by the records, not events occurring during this reading."
     ],
     "prohibited_inventions": [
-      "Do not show the departure, afflictions, or return as a flashback scene."
+      "Do not depict the departure or return as present action.",
+      "Do not assign names or identities to Mosiah’s people beyond what the verse states."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "Mosiah Reads Alma’s Account",
+    "title": "Reading Alma’s Account",
     "refs": [
       "Mosiah 25:6"
     ],
-    "summary": "Mosiah reads the account of Alma and his brethren and their afflictions, from their departure from Zarahemla until their return.",
+    "summary": "He reads the account of Alma and his brethren and their afflictions, covering the time from their departure from the land of Zarahemla until their return.",
     "characters": [
-      "Mosiah II (king)",
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "The reader"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah read the account of Alma and his brethren and their afflictions.",
+        "text": "He read the account of Alma and his brethren and all their afflictions.",
         "refs": [
           "Mosiah 25:6"
         ]
       },
       {
-        "text": "The account covered the time from leaving Zarahemla until returning.",
+        "text": "The account covers the time from their departure from the land of Zarahemla until their return.",
         "refs": [
           "Mosiah 25:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown reading to the people."
+      "The reader may be shown reading an account."
     ],
     "unspecified_visual_details": [
-      "The place, records’ appearance, and listeners’ individual reactions are not specified here."
+      "The reader’s appearance, the account’s appearance, the reading location, and any listeners are not specified in the supplied verse."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he also read the account of Alma and his brethren, and all their afflictions, from the time they left the land of Zarahemla until the time they returned again.",
+        "refs": [
+          "Mosiah 25:6"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The afflictions are summarized in a record, not narrated as a present event."
+      "The afflictions and journey are contents of the account, not events occurring during the reading."
     ],
     "prohibited_inventions": [
-      "Do not stage the afflictions or journey as a flashback."
+      "Do not add listeners or depict the afflictions or journey as present events."
     ],
     "importance": "normal"
   },
@@ -191,7 +215,7 @@
       "Mosiah 25:7",
       "Mosiah 25:8"
     ],
-    "summary": "Mosiah finishes reading the records. His people who tarried in the land are struck with wonder and amazement, then behold those delivered out of bondage and are filled with exceedingly great joy.",
+    "summary": "Mosiah finishes reading the records. His people who tarried in the land are struck with wonder and amazement. When they behold those delivered out of bondage, they are filled with exceedingly great joy.",
     "characters": [
       "Mosiah",
       "His people who tarried in the land",
@@ -227,7 +251,14 @@
       "The verses do not specify the setting, the people's appearance, or their gestures."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they were filled with exceedingly great joy.",
+        "refs": [
+          "Mosiah 25:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not identify the delivered people by names or group labels not given in these verses.",
@@ -241,39 +272,46 @@
     "refs": [
       "Mosiah 25:9"
     ],
-    "summary": "Thinking of their brethren slain by the Lamanites, the people grieve and shed tears.",
+    "summary": "They think of their brethren slain by the Lamanites, feel sorrow, and shed many tears.",
     "characters": [
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "Unnamed people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people thought of their brethren who had been slain by the Lamanites.",
+        "text": "They thought of their brethren who had been slain by the Lamanites.",
         "refs": [
           "Mosiah 25:9"
         ]
       },
       {
-        "text": "They were filled with sorrow and shed many tears.",
+        "text": "They were filled with sorrow and shed many tears of sorrow.",
         "refs": [
           "Mosiah 25:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The gathered people may be shown weeping."
+      "The people may be shown weeping."
     ],
     "unspecified_visual_details": [
-      "The slain brethren are not shown; their identities and the place of their deaths are unstated."
+      "The people's identities and surroundings are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they were filled with sorrow, and even shed many tears of sorrow.",
+        "refs": [
+          "Mosiah 25:9"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not stage the killings as a present event."
+      "Do not depict the killings as a present event.",
+      "Do not identify the grieving people beyond what the verse states."
     ],
     "importance": "normal"
   },
@@ -283,17 +321,16 @@
     "refs": [
       "Mosiah 25:10"
     ],
-    "summary": "Remembering God’s goodness and power in delivering Alma and his brethren, the people raise their voices and give thanks to God.",
+    "summary": "They think of God's goodness and power in delivering Alma and his brethren from the Lamanites and bondage, then raise their voices and give thanks to God.",
     "characters": [
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "Unnamed people giving thanks"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people thought of God’s goodness and power in delivering Alma and his brethren from the Lamanites and bondage.",
+        "text": "They thought of God's immediate goodness and his power in delivering Alma and his brethren from the Lamanites and bondage.",
         "refs": [
           "Mosiah 25:10"
         ]
@@ -309,13 +346,23 @@
       "The people may be shown raising their voices together."
     ],
     "unspecified_visual_details": [
-      "The passage gives no exact words of thanks or visible depiction of God."
+      "The location, the words of thanks, and the people's appearances are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "they did raise their voices and give thanks to God.",
+        "refs": [
+          "Mosiah 25:10"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The deliverance is recalled, not narrated as happening in this moment."
+    ],
     "prohibited_inventions": [
-      "Do not invent spoken words or portray God as visibly present."
+      "Do not depict the deliverance as a simultaneous event.",
+      "Do not invent words of thanks or a visible appearance of God."
     ],
     "importance": "normal"
   },
@@ -325,23 +372,22 @@
     "refs": [
       "Mosiah 25:11"
     ],
-    "summary": "Thinking of the Lamanites as their brethren and of their sinful and polluted state, the people feel pain and anguish for their souls.",
+    "summary": "They thought upon the Lamanites, their brethren, and felt pain and anguish for the welfare of their souls.",
     "characters": [
-      "Nephites",
-      "People of Zarahemla (Mulekites)"
+      "Unnamed people who thought upon the Lamanites"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people thought upon the Lamanites, whom they considered their brethren, and their sinful and polluted state.",
+        "text": "They thought upon the Lamanites, who were their brethren, and their sinful and polluted state.",
         "refs": [
           "Mosiah 25:11"
         ]
       },
       {
-        "text": "They felt pain and anguish for the welfare of the Lamanites’ souls.",
+        "text": "They were filled with pain and anguish for the welfare of the Lamanites’ souls.",
         "refs": [
           "Mosiah 25:11"
         ]
@@ -351,15 +397,23 @@
       "The people may be shown in sorrowful reflection."
     ],
     "unspecified_visual_details": [
-      "The Lamanites are the subject of the people’s thoughts, not necessarily present."
+      "The people's appearance and surroundings are not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they were filled with pain and anguish for the welfare of their souls.",
+        "refs": [
+          "Mosiah 25:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The description of the Lamanites’ state is the people’s reported thought."
+      "The Lamanites are the subject of the people's thoughts; the verse does not place them in the scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lamanites as present or invent visible spiritual conditions."
+      "Do not depict the Lamanites as present or invent visible spiritual conditions.",
+      "Do not identify the unnamed people more specifically."
     ],
     "importance": "normal"
   },
@@ -369,7 +423,7 @@
     "refs": [
       "Mosiah 25:12"
     ],
-    "summary": "The children of Amulon and his brethren, displeased with their fathers’ conduct, refuse their fathers’ names and take the name of Nephi to be numbered among the Nephites.",
+    "summary": "The children of Amulon and his brethren, displeased with their fathers’ conduct, no longer wish to be called by their fathers’ names. They take the name of Nephi to be numbered among the Nephites.",
     "characters": [
       "Children of Amulon and his brethren"
     ],
@@ -384,7 +438,7 @@
         ]
       },
       {
-        "text": "They took upon themselves the name of Nephi to be called the children of Nephi and numbered among the Nephites.",
+        "text": "They took upon themselves the name of Nephi so they might be called the children of Nephi and numbered among the Nephites.",
         "refs": [
           "Mosiah 25:12"
         ]
@@ -397,7 +451,14 @@
       "Their ages, individual identities, location, and any formal naming ceremony are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they took upon themselves the name of Nephi",
+        "refs": [
+          "Mosiah 25:12"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not invent a ceremony, individual names, or visible actions beyond the stated change of name."
@@ -502,49 +563,57 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Alma Teaches the Assemblies",
+    "title": "Alma Speaks to the Assemblies",
     "refs": [
       "Mosiah 25:15",
       "Mosiah 25:16"
     ],
-    "summary": "Alma preaches repentance and faith on the Lord as he goes from one large body of assembled people to another. He exhorts Limhi’s people and those delivered from bondage to remember the Lord’s deliverance.",
+    "summary": "Alma speaks to people assembled in large bodies, going from one body to another to preach repentance and faith on the Lord. He exhorts the people of Limhi, his brethren, and all those delivered from bondage to remember that the Lord delivered them.",
     "characters": [
-      "Alma the Elder",
-      "Nephites",
-      "People of Zarahemla (Mulekites)",
-      "King Limhi",
-      "Limhi’s people"
+      "Alma",
+      "Assembled people",
+      "People of Limhi",
+      "His brethren",
+      "Those delivered from bondage"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma spoke to the people assembled in large bodies, going from one body to another and preaching repentance and faith on the Lord.",
+        "text": "Alma spoke to people assembled in large bodies and went from one body to another, preaching repentance and faith on the Lord.",
         "refs": [
           "Mosiah 25:15"
         ]
       },
       {
-        "text": "Alma exhorted Limhi’s people and all those delivered from bondage to remember that the Lord delivered them.",
+        "text": "Alma exhorted the people of Limhi, his brethren, and all those delivered from bondage to remember that the Lord delivered them.",
         "refs": [
           "Mosiah 25:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be depicted addressing one gathered body at a time."
+      "Alma may be shown addressing one assembled body at a time."
     ],
     "unspecified_visual_details": [
-      "Exact words of the preaching and the location are not supplied."
+      "The location, clothing, and appearance of the people are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma did speak unto them, when they were assembled together in large bodies,",
+        "refs": [
+          "Mosiah 25:15"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Teaching is summarized in the source; do not turn its summary into invented dialogue."
+      "The preaching and exhortation are summarized, not quoted as direct speech."
     ],
     "prohibited_inventions": [
-      "Do not invent exact sermon wording."
+      "Do not invent sermon wording or depict the deliverance as a present event.",
+      "Do not assume Limhi is physically present."
     ],
     "importance": "normal"
   },
@@ -554,83 +623,112 @@
     "refs": [
       "Mosiah 25:17"
     ],
-    "summary": "After Alma finishes teaching, King Limhi and all his people desire baptism.",
+    "summary": "After Alma taught the people many things and finished speaking, King Limhi and all his people desired baptism.",
     "characters": [
-      "Alma the Elder",
+      "Alma",
       "King Limhi",
-      "Limhi’s people"
+      "Limhi's people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After Alma taught many things and finished speaking, King Limhi desired baptism.",
+        "text": "Alma taught the people many things and finished speaking.",
         "refs": [
           "Mosiah 25:17"
         ]
       },
       {
-        "text": "All Limhi’s people also desired baptism.",
+        "text": "King Limhi desired to be baptized.",
+        "refs": [
+          "Mosiah 25:17"
+        ]
+      },
+      {
+        "text": "All his people also desired to be baptized.",
         "refs": [
           "Mosiah 25:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Limhi and his people may be shown expressing their desire to be baptized."
+      "Alma, Limhi, and the people may be shown together after Alma finishes speaking."
     ],
     "unspecified_visual_details": [
-      "No request in the form of dialogue is given; the place and gestures are unspecified."
+      "The place, clothing, and gestures are not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that after Alma had taught the people many things, and had made an end of speaking to them, that king Limhi was desirous that he might be baptized; and all his people were desirous that they might be baptized also.",
+        "refs": [
+          "Mosiah 25:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent spoken requests."
+      "Do not invent spoken requests or depict a baptism as occurring in this verse."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "Alma Baptizes Limhi’s People",
+    "title": "Alma Baptizes in the Water",
     "refs": [
       "Mosiah 25:18"
     ],
-    "summary": "Alma goes into the water and baptizes those who believe his words; those baptized belong to the church of God.",
+    "summary": "Alma goes into the water and baptizes people whose identities are unspecified. Those he baptizes belong to the church of God because of their belief in his words.",
     "characters": [
-      "Alma the Elder",
-      "King Limhi",
-      "Limhi’s people"
+      "Alma",
+      "Unnamed people Alma baptizes"
     ],
     "locations": [
-      "Unspecified location"
+      "Water at an unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma went forth into the water and baptized them after the manner he baptized his brethren in the waters of Mormon.",
+        "text": "Alma went into the water and baptized them.",
         "refs": [
           "Mosiah 25:18"
         ]
       },
       {
-        "text": "Those he baptized belonged to the church of God because of their belief on Alma’s words.",
+        "text": "He baptized them after the manner he had baptized his brethren in the waters of Mormon.",
+        "refs": [
+          "Mosiah 25:18"
+        ]
+      },
+      {
+        "text": "Those he baptized belonged to the church of God because of their belief in Alma's words.",
         "refs": [
           "Mosiah 25:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A baptism in water may be depicted."
+      "Alma and a person he baptizes may be shown in the water."
     ],
     "unspecified_visual_details": [
-      "The water’s location, baptismal method, and number of people baptized are not specified."
+      "The water's location, the baptismal method, and the number and identities of those baptized are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "Therefore, Alma did go forth into the water and did baptize them;",
+        "refs": [
+          "Mosiah 25:18"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The waters of Mormon are mentioned as a comparison of baptismal manner, not identified as this scene's location."
+    ],
     "prohibited_inventions": [
-      "Do not identify the water as the waters of Mormon; the verse states that the manner was the same."
+      "Do not identify the people baptized or depict named people other than Alma.",
+      "Do not identify this water as the waters of Mormon.",
+      "Do not invent a baptismal method or spoken words."
     ],
     "importance": "normal"
   },
@@ -641,17 +739,17 @@
       "Mosiah 25:19",
       "Mosiah 25:20"
     ],
-    "summary": "King Mosiah grants Alma authority to establish churches throughout Zarahemla and to ordain priests and teachers, as the people are too numerous for one teacher or one assembly.",
+    "summary": "King Mosiah grants Alma authority to establish churches throughout Zarahemla and power to ordain priests and teachers over every church. The people are too numerous for one teacher to govern or for all to hear the word of God in one assembly.",
     "characters": [
-      "Mosiah II (king)",
-      "Alma the Elder"
+      "King Mosiah",
+      "Alma"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah granted Alma authority to establish churches throughout Zarahemla and power to ordain priests and teachers over every church.",
+        "text": "King Mosiah granted Alma authority to establish churches throughout the land of Zarahemla and power to ordain priests and teachers over every church.",
         "refs": [
           "Mosiah 25:19"
         ]
@@ -664,16 +762,25 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah and Alma may be shown together as the grant of authority is reported."
+      "Mosiah and Alma may be shown together when the grant of authority is depicted."
     ],
     "unspecified_visual_details": [
-      "No formal appointment action or exact setting is described."
+      "The exact setting and manner of the grant are not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And it came to pass that king Mosiah granted unto Alma that he might establish churches throughout all the land of Zarahemla;",
+        "refs": [
+          "Mosiah 25:19"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The number of people is given as the reason for this arrangement."
+    ],
     "prohibited_inventions": [
-      "Do not invent a ceremony or words spoken by Mosiah."
+      "Do not invent a ceremony, spoken words, or an assembly taking place at the time of the grant."
     ],
     "importance": "normal"
   },
@@ -684,43 +791,53 @@
       "Mosiah 25:21",
       "Mosiah 25:22"
     ],
-    "summary": "The people assemble in different bodies called churches, each with priests and teachers. Each priest preaches as Alma delivered the word, and all the churches are one church of God, teaching repentance and faith in God.",
+    "summary": "They assemble in different bodies called churches. Each church has priests and teachers, and every priest preaches the word delivered to him by Alma. Though many, the churches are one church, the church of God; only repentance and faith in God are preached.",
     "characters": [
-      "Nephites",
-      "People of Zarahemla (Mulekites)",
-      "Church members",
-      "Priests and teachers"
+      "People assembled in churches",
+      "Priests",
+      "Teachers"
     ],
-    "locations": [
-      "Land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The people assembled in different bodies called churches, each with priests and teachers; every priest preached the word as delivered by Alma.",
+        "text": "They assembled in different bodies called churches, each having priests and teachers.",
         "refs": [
           "Mosiah 25:21"
         ]
       },
       {
-        "text": "Though many, the churches were one church, the church of God; nothing was preached except repentance and faith in God.",
+        "text": "Every priest preached the word delivered to him by Alma.",
+        "refs": [
+          "Mosiah 25:21"
+        ]
+      },
+      {
+        "text": "The many churches were one church, the church of God, and preached only repentance and faith in God.",
         "refs": [
           "Mosiah 25:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Separate assemblies can be represented as distinct groups of church members."
+      "The different bodies can be shown as separate assemblies."
     ],
     "unspecified_visual_details": [
-      "The buildings, exact number of people in each body, and individual teachers are not specified."
+      "The setting, clothing, number of assemblies, and appearance of individuals are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they did assemble themselves together in different bodies, being called churches;",
+        "refs": [
+          "Mosiah 25:21"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The source summarizes the teaching; do not invent sermon dialogue."
+      "Do not turn the summarized preaching into invented sermon dialogue. Alma is mentioned as the source of the word, not described as present."
     ],
     "prohibited_inventions": [
-      "Do not depict the churches as a supernatural physical union."
+      "Do not depict a supernatural physical union of the churches or invent an appearance for God."
     ],
     "importance": "normal"
   },
@@ -731,16 +848,16 @@
       "Mosiah 25:23",
       "Mosiah 25:24"
     ],
-    "summary": "There are seven churches in Zarahemla. Those who desire to take the name of Christ or God join the churches and are called the people of God; the Lord pours out his Spirit upon them, and they are blessed and prosper in the land.",
+    "summary": "There were seven churches in the land of Zarahemla. Those who desired to take upon them the name of Christ or God joined the churches. They were called the people of God; the Lord poured out his Spirit upon them, and they were blessed and prospered in the land.",
     "characters": [
-      "Church members"
+      "People who joined the churches"
     ],
     "locations": [
       "Land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "There were seven churches in the land of Zarahemla, and those desiring to take the name of Christ or God joined them.",
+        "text": "There were seven churches in the land of Zarahemla, and those who desired to take upon them the name of Christ or God joined them.",
         "refs": [
           "Mosiah 25:23"
         ]
@@ -756,12 +873,19 @@
       "The seven churches may be represented by distinct gathered communities."
     ],
     "unspecified_visual_details": [
-      "The source does not describe the Lord’s Spirit as a visible form or specify a visual sign of blessing and prosperity."
+      "The verses do not specify the churches’ appearance or a visible form for the Lord’s Spirit."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they were called the people of God.",
+        "refs": [
+          "Mosiah 25:24"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The Lord’s Spirit and the people’s blessing are stated, but no visible appearance or sign is specified."
+      "The Lord’s Spirit, blessing, and prosperity are stated, but no visible manifestation is described."
     ],
     "prohibited_inventions": [
       "Do not depict a visible divine figure, supernatural light, or other unmentioned manifestation."

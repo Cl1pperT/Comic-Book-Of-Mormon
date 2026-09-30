@@ -289,34 +289,49 @@
     "refs": [
       "Jacob 5:14"
     ],
-    "summary": "The Lord goes and hides the tame olive tree’s natural branches in different parts of the lowest area of the vineyard.",
+    "summary": "The Lord of the vineyard goes his way and hides the tame olive-tree’s natural branches in different nethermost parts of the vineyard.",
     "characters": [
       "the Lord of the vineyard"
     ],
     "locations": [
-      "the nethermost part of the vineyard"
+      "the nethermost parts of the vineyard"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord hides the natural branches in different parts of the nethermost vineyard according to his will.",
+        "text": "The Lord of the vineyard went his way and hid the natural branches of the tame olive-tree in the nethermost parts of the vineyard.",
+        "refs": [
+          "Jacob 5:14"
+        ]
+      },
+      {
+        "text": "He hid some branches in one part and some in another, according to his will and pleasure.",
         "refs": [
           "Jacob 5:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lord places natural branches at more than one location in the vineyard."
+      "The branches are placed in more than one part of the vineyard."
     ],
     "unspecified_visual_details": [
-      "The exact number and locations of the branches."
+      "The exact number of branches and their precise hiding places.",
+      "The Lord’s physical appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "some in one and some in another",
+        "refs": [
+          "Jacob 5:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse describes the branches being hidden, not people."
+      "The verse describes branches being hidden, not people."
     ],
     "prohibited_inventions": [
-      "Do not add the servant to this action; the verse names only the Lord as going and hiding the branches."
+      "Do not add a servant to this action.",
+      "Do not depict a specific appearance for the Lord."
     ],
     "importance": "normal"
   },
@@ -381,13 +396,13 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Fruit Laid Up",
+    "title": "The Fruit of the Natural Branches",
     "refs": [
       "Jacob 5:18",
       "Jacob 5:19",
       "Jacob 5:20"
     ],
-    "summary": "The Lord explains that the roots’ strength enabled the wild branches to produce tame fruit. He and the servant then visit the hidden natural branches; the first has borne much good fruit, which the Lord directs the servant to store.",
+    "summary": "The Lord tells the servant that the wild branches have produced tame fruit and says he will lay up fruit. He invites the servant to the nethermost part of the vineyard. They go to where the natural branches were hidden. He sees that the first has produced much good fruit and tells the servant to lay it up.",
     "characters": [
       "the Lord of the vineyard",
       "the servant"
@@ -398,44 +413,69 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says the wild branches took moisture from the root, and its strength enabled them to produce tame fruit; he plans to store the fruit.",
+        "text": "The Lord says the wild branches have taken moisture from the root and produced tame fruit through its strength; he says he will lay up fruit.",
         "refs": [
           "Jacob 5:18"
         ]
       },
       {
-        "text": "The Lord and servant go to the nethermost part to see whether the natural branches have borne fruit.",
+        "text": "The Lord invites the servant to the nethermost part of the vineyard to see whether the natural branches have produced fruit.",
         "refs": [
           "Jacob 5:19"
         ]
       },
       {
-        "text": "The first natural branch has borne much good fruit, and the Lord directs that its fruit be gathered and stored.",
+        "text": "They go to where the master hid the natural branches. The Lord sees that the first has produced much good fruit and instructs the servant to lay it up.",
         "refs": [
           "Jacob 5:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The first natural branch can be shown bearing abundant fruit, with the servant gathering some."
+      "The Lord and servant can be shown together looking at the first fruit-bearing natural branch."
     ],
     "unspecified_visual_details": [
-      "The exact appearance of the stored fruit and storage place."
+      "The appearances of the Lord, the servant, the fruit, and the vineyard's terrain are not specified.",
+      "No storage place is described."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "the wild branches have brought forth tame fruit.",
+        "refs": [
+          "Jacob 5:18"
+        ],
+        "speaker": "the Lord of the vineyard"
+      },
+      {
+        "text": "Come, let us go to the nethermost part of the vineyard,",
+        "refs": [
+          "Jacob 5:19"
+        ],
+        "speaker": "the Lord of the vineyard"
+      },
+      {
+        "text": "Take of the fruit thereof, and lay it up against the season,",
+        "refs": [
+          "Jacob 5:20"
+        ],
+        "speaker": "the Lord of the vineyard"
+      }
+    ],
     "narration": [
       {
-        "text": "Take of the fruit thereof, and lay it up against the season",
+        "text": "And it came to pass that they went forth whither the master had hid the natural branches of the tree,",
         "refs": [
           "Jacob 5:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The spoken explanation in verse 18 reports the allegory’s meaning of the roots and branches; do not visualize it as a separate supernatural event."
+      "Keep the sequence of the Lord's explanation and invitation, their journey, his observation of the first branch, and his instruction.",
+      "Do not depict the root's strength as a separate supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not add a harvest from other branches at this moment."
+      "Do not show the servant gathering or storing fruit; the verse gives only an instruction.",
+      "Do not show fruit being harvested from other branches."
     ],
     "importance": "normal"
   },
@@ -572,47 +612,63 @@
       "Jacob 5:29",
       "Jacob 5:30"
     ],
-    "summary": "The Lord and servant nourish all the vineyard’s fruit. After a long time, they return because the end is drawing near and find all sorts of fruit on the tree whose natural branches were removed and wild branches grafted in.",
+    "summary": "The Lord of the vineyard and his servant nourish all the fruit of the vineyard. A long time passes. The Lord calls his servant to labor again, and they go down into the vineyard. They come to a tree bearing all sorts of fruit.",
     "characters": [
       "the Lord of the vineyard",
-      "the servant"
+      "the servant of the Lord of the vineyard"
     ],
     "locations": [
       "the vineyard"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord and servant nourish all the fruit of the vineyard.",
+        "text": "The Lord of the vineyard and his servant nourish all the fruit of the vineyard.",
         "refs": [
           "Jacob 5:28"
         ]
       },
       {
-        "text": "After a long time, the Lord calls the servant to labor again, saying the time draws near and fruit must be stored.",
+        "text": "A long time passes before the Lord calls his servant to labor again in the vineyard.",
         "refs": [
           "Jacob 5:29"
         ]
       },
       {
-        "text": "They go to the tree with natural branches removed and wild branches grafted in and find all sorts of fruit cumbering it.",
+        "text": "The Lord says the time draws near and he must lay up fruit against the season.",
+        "refs": [
+          "Jacob 5:29"
+        ]
+      },
+      {
+        "text": "They go down into the vineyard and come to a tree whose natural branches had been broken off and wild branches grafted in; all sorts of fruit cumber it.",
         "refs": [
           "Jacob 5:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The tree can be shown bearing a variety of fruit."
+      "The tree can be shown bearing visibly different kinds of fruit."
     ],
     "unspecified_visual_details": [
-      "The specific appearance of the different kinds of fruit."
+      "The specific appearance of the fruit and the vineyard."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Come, let us go down into the vineyard, that we may labor again in the vineyard.",
+        "refs": [
+          "Jacob 5:29"
+        ],
+        "speaker": "the Lord of the vineyard"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "A long time separates the earlier nourishment from this visit."
+      "A long time separates the nourishment from the later visit.",
+      "The Lord's words about the approaching end are spoken dialogue, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not combine this visit with the later tasting and judgment of the fruit."
+      "Do not combine this visit with a later tasting or judgment of the fruit.",
+      "Do not depict the earlier breaking off or grafting of branches as happening during this visit."
     ],
     "importance": "normal"
   },
@@ -743,13 +799,13 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Hidden Branches Are Corrupt",
+    "title": "The Natural Branches Are Corrupt",
     "refs": [
       "Jacob 5:38",
       "Jacob 5:39",
       "Jacob 5:40"
     ],
-    "summary": "The Lord and servant go to the lowest parts of the vineyard and find that the fruit of the first, second, and last natural branches has become corrupt. On the last, wild fruit has overtaken the part that bore good fruit, and that branch has withered and died.",
+    "summary": "The Lord of the vineyard and his servant go down into the nethermost parts of the vineyard. They find that the fruit of the first, second, and last natural branches has become corrupt. Wild fruit has overcome the good-fruit-bearing part of the last tree, and the branch has withered and died.",
     "characters": [
       "the Lord of the vineyard",
       "the servant"
@@ -759,37 +815,47 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord proposes checking whether the natural branches in the nethermost vineyard have borne evil fruit.",
+        "text": "The Lord of the vineyard asks his servant to go with him to check the natural branches in the nethermost parts of the vineyard.",
         "refs": [
           "Jacob 5:38"
         ]
       },
       {
-        "text": "They find that the fruit of the first, second, and last natural branches has become corrupt.",
+        "text": "They go down and see that the fruit of the first, second, and last natural branches has become corrupt.",
         "refs": [
           "Jacob 5:39"
         ]
       },
       {
-        "text": "On the last tree, wild fruit has overcome the good-bearing part, and that branch has withered and died.",
+        "text": "Wild fruit of the last has overcome the part of the tree that bore good fruit, and the branch has withered and died.",
         "refs": [
           "Jacob 5:40"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show the last tree with a withered branch beside the wild fruit that overtook it."
+      "The Lord of the vineyard and the servant can be shown observing the branches.",
+      "The last tree can be shown with wild fruit and a withered branch."
     ],
     "unspecified_visual_details": [
-      "The exact appearance of the corrupt fruit."
+      "The exact appearance of the fruit, trees, Lord of the vineyard, and servant."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Let us go down into the nethermost parts of the vineyard, and behold if the natural branches have also brought forth evil fruit.",
+        "refs": [
+          "Jacob 5:38"
+        ],
+        "speaker": "the Lord of the vineyard"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The branches are part of the allegory, not additional people."
+      "The branches are elements of the vineyard allegory, not additional people."
     ],
     "prohibited_inventions": [
-      "Do not depict the tree being destroyed."
+      "Do not depict the tree being destroyed.",
+      "Do not depict the change from good fruit to corrupt fruit as a separate observed event."
     ],
     "importance": "normal"
   },
@@ -1240,42 +1306,56 @@
       "Jacob 5:73",
       "Jacob 5:74"
     ],
-    "summary": "Natural fruit begins to return. Natural branches thrive as wild branches are removed, with root and top kept equal in strength. The labor continues until the bad is removed and the trees bear natural fruit as one body, with equal fruit.",
+    "summary": "Natural fruit begins to return, natural branches thrive, and wild branches are removed. Labor continues until the bad has been cast out of the vineyard; the trees again bear natural fruit, and the fruits are equal.",
     "characters": [
-      "the Lord of the vineyard",
-      "the servant",
-      "other servants"
+      "unnamed laborers"
     ],
     "locations": [
       "the vineyard"
     ],
     "explicit_facts": [
       {
-        "text": "Natural fruit begins to appear again; natural branches thrive, wild branches are removed, and root and top are kept equal in strength.",
+        "text": "Natural fruit begins to appear again; natural branches grow and thrive; wild branches are plucked off and cast away; the root and top are kept equal according to their strength.",
         "refs": [
           "Jacob 5:73"
         ]
       },
       {
-        "text": "The servants labor until the bad is removed and the trees again bear natural fruit, becoming like one body with equal fruits.",
+        "text": "They labor diligently until the bad has been cast out of the vineyard.",
+        "refs": [
+          "Jacob 5:74"
+        ]
+      },
+      {
+        "text": "The trees again bear natural fruit, become like one body, and have equal fruits; the Lord of the vineyard preserves the natural fruit.",
         "refs": [
           "Jacob 5:74"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The trees can be shown bearing natural fruit while servants continue tending them."
+      "Unnamed laborers can be shown tending trees and removing wild branches while natural fruit appears."
     ],
     "unspecified_visual_details": [
-      "The precise appearance of natural versus wild fruit."
+      "The appearance of the fruit, trees, and laborers.",
+      "The number of trees and laborers."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And there began to be the natural fruit again in the vineyard;",
+        "refs": [
+          "Jacob 5:73"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse compares the trees to one body; do not depict them literally merging into a single tree."
+      "The trees becoming like one body is a comparison, not a literal merging."
     ],
     "prohibited_inventions": [
-      "Do not add a visible supernatural transformation of the trees."
+      "Do not depict the trees literally merging.",
+      "Do not invent a visible appearance for the Lord of the vineyard.",
+      "Do not invent names or dialogue for the laborers."
     ],
     "importance": "normal"
   },
@@ -1340,51 +1420,58 @@
   },
   {
     "scene_id": "scene_023",
-    "title": "The Vineyard’s End Foretold",
+    "title": "The Vineyard’s Foretold End",
     "refs": [
       "Jacob 5:77"
     ],
-    "summary": "The Lord says that when evil fruit again comes into the vineyard, the good and bad will be gathered; he will preserve the good and cast away the bad, and afterward the vineyard will be burned.",
+    "summary": "A speaker foretells that evil fruit will again come into the vineyard, the good and bad will be gathered, the good preserved and the bad cast away. Then the season and end will come, and the vineyard will be burned.",
     "characters": [
-      "the Lord of the vineyard"
+      "unidentified speaker"
     ],
     "locations": [
-      "the vineyard"
+      "the vineyard (mentioned, not shown)"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says that when evil fruit again comes, the good and bad will be gathered; the good will be preserved and the bad cast away.",
+        "text": "The speaker says evil fruit will again come into the vineyard and the good and bad will be gathered.",
         "refs": [
           "Jacob 5:77"
         ]
       },
       {
-        "text": "The Lord says that afterward the season and end will come and the vineyard will be burned with fire.",
+        "text": "The speaker says the good will be preserved and the bad cast away into its own place.",
         "refs": [
           "Jacob 5:77"
         ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "A symbolic image of good and bad fruit separated may accompany the Lord’s stated future plan."
-    ],
-    "unspecified_visual_details": [
-      "When this future event occurs and how the gathering and burning appear."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
+      },
       {
-        "text": "then cometh the season and the end",
+        "text": "The speaker says the season and end will come, and the vineyard will be burned with fire.",
         "refs": [
           "Jacob 5:77"
         ]
       }
     ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The speaker’s identity and appearance.",
+      "The vineyard’s appearance and when the foretold events occur."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "And when the time cometh that evil fruit shall again come into my vineyard, then will I cause the good and the bad to be gathered; and the good will I preserve unto myself, and the bad will I cast away into its own place. And then cometh the season and the end; and my vineyard will I cause to be burned with fire.",
+        "refs": [
+          "Jacob 5:77"
+        ],
+        "speaker": "unidentified speaker"
+      }
+    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a future event described in the Lord’s speech, not a present-time event in the vineyard."
+      "The gathering, preservation, casting away, and burning are foretold, not narrated as events occurring now."
     ],
     "prohibited_inventions": [
-      "Do not depict the future gathering or burning as occurring now."
+      "Do not depict the foretold gathering or burning as occurring in the present scene.",
+      "Do not give the speaker an identity or appearance not established by the supplied verse."
     ],
     "importance": "normal"
   }

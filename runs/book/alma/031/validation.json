@@ -1,5 +1,5 @@
 {
-  "stamp": "e81980bc8ad6d6d47e5546f1c7848074ebc67821d87d14d90f4f6a8fff1f31eb",
+  "stamp": "9d1702ef340e9c737fd69404e1976964f66cccf16c41919c6cd8224b0f7ef469",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -20,10 +20,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Unnamed leader” is an invented character label: verses 6–7 identify the leader by context as Alma.",
-        "The scene lists the named companions and location but omits Alma from the characters and does not represent the explicit fact that Alma took them among the Zoramites to preach. Its narration quotes verse 7 but omits the essential subject/action."
+        "Alma is identified contextually from the preceding scene; his name is not stated in verses 6–7. Keep this identification contextual rather than presenting it as explicit wording from those verses.",
+        "The travelers may be depicted together among the Zoramites, but their appearances, travel, and exact surroundings are unspecified."
       ]
     },
     "scene_005": {
@@ -42,11 +42,8 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "The dialogue excerpts are not contiguous exact excerpts: verse 15’s “Holy, holy God;” is followed immediately by omitted words before verse 16’s excerpt, and the verse 17 excerpt likewise skips the beginning. The instructions prohibit ellipses/alteration and require separate exact short excerpts; separate entries are permitted, but each excerpt itself must match source exactly.",
-        "The explicit-facts claim that God “will be a spirit forever” is the speaker’s belief stated in prayer, not an independently established fact; it should be attributed as a claim."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
@@ -68,9 +65,7 @@
     "scene_012": {
       "status": "REJECT",
       "issues": [
-        "The summary says “A man” and characters say “Unnamed male speaker,” but verses 26–29 do not establish the speaker’s gender; this invents a fact.",
-        "The summary turns the prayer’s reported descriptions of pride, ornaments, and claims into a contemporaneous scene. Source presents them as the speaker’s address about the people, not as events occurring before him.",
-        "The dialogue excerpts are not exact: “O, how long, O Lord” omits following words within verse 26, and “Behold, O my God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold,” omits the source’s “and” before “their ornaments.” Use only exact contiguous excerpts."
+        "Alma 31:24–26 identifies the speaker as Alma: the “he” in verse 26 refers to Alma in verses 24–25. Calling him “Unnamed speaker” and prohibiting his identification contradicts the supplied source and preceding scene."
       ]
     },
     "scene_013": {

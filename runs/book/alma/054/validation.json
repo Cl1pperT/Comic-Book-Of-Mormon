@@ -1,0 +1,61 @@
+{
+  "stamp": "92b60d4aa2e7cfb1870f89aa82dafbc9d8336533665c13c61b3273c2f2a06703",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The request and Moroni’s rejoicing are explicitly narrated, but a written request is not specified; depicting one is a visual inference. The supplied scene shows no specific place or appearance."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Moroni’s quoted excerpt is verbatim. A writing setting or off-screen delivery is not specified; the epistle is described as written, but whether Moroni is shown writing is uncertain."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is verbatim. Depicting Moroni or an epistle-writing setting during these words is uncertain; the verses present them as contents of the epistle, not a newly occurring speech."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is verbatim. Depicting Moroni or an epistle-writing setting during these words is uncertain; the threatened actions are conditional, not events occurring now."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ammoron’s quoted excerpt is verbatim. The verses say he received the epistle and wrote a reply, but do not specify the place or whether he is shown writing."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is verbatim. The verse presents this as part of Ammoron’s epistle; a present-tense writing scene or off-screen speech is not explicitly specified."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is verbatim. The verses give Ammoron’s words in his epistle; a present-tense writing scene or off-screen speech is not explicitly specified."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is verbatim. Ammoron’s ancestry is only asserted in the letter; Zoram and the events in Jerusalem are correctly excluded as present. Whether Ammoron is shown writing is unspecified."
+      ]
+    }
+  }
+}

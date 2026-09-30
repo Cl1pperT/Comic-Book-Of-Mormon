@@ -231,7 +231,7 @@
       "Mosiah 3:7",
       "Mosiah 3:8"
     ],
-    "summary": "He shall suffer temptations, bodily pain, hunger, thirst, fatigue, and anguish. He shall be called Jesus Christ, and his mother shall be called Mary.",
+    "summary": "He shall suffer temptations, bodily pain, hunger, thirst, fatigue, and anguish so great that blood comes from every pore. He shall be called Jesus Christ, and his mother shall be called Mary.",
     "characters": [
       "Jesus Christ (foretold, not present)",
       "Mary (named, not present)"
@@ -279,6 +279,12 @@
         ]
       },
       {
+        "text": "for behold, blood cometh from every pore,",
+        "refs": [
+          "Mosiah 3:7"
+        ]
+      },
+      {
         "text": "so great shall be his anguish for the wickedness and the abominations of his people.",
         "refs": [
           "Mosiah 3:7"
@@ -310,54 +316,72 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "Rejection, Crucifixion, and Resurrection Foretold",
+    "title": "Foretold Rejection, Rising, and Judgment",
     "refs": [
       "Mosiah 3:9",
       "Mosiah 3:10"
     ],
-    "summary": "The angel foretells that Jesus will be rejected, scourged, crucified, and rise on the third day, and that he will stand to judge the world.",
+    "summary": "The verses foretell that he will come unto his own, be considered a man and said to have a devil, be scourged and crucified, rise from the dead on the third day, and stand to judge the world.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "The unnamed figure referred to as “he”",
+      "His own",
+      "Children of men"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel foretells that Jesus will come unto his own, be considered a man and accused of having a devil, then scourged and crucified.",
+        "text": "He will come unto his own so that salvation might come to the children of men through faith on his name.",
         "refs": [
           "Mosiah 3:9"
         ]
       },
       {
-        "text": "The angel foretells that Jesus will rise from the dead on the third day and stand to judge the world.",
+        "text": "They will consider him a man, say he has a devil, scourge him, and crucify him.",
+        "refs": [
+          "Mosiah 3:9"
+        ]
+      },
+      {
+        "text": "He will rise from the dead on the third day and stand to judge the world.",
         "refs": [
           "Mosiah 3:10"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is speaking to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance and all details of the future events."
+      "The figure’s appearance and identity are not stated in these verses.",
+      "No location or visual details of the foretold events are specified."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "and shall scourge him, and shall crucify him.",
+        "refs": [
+          "Mosiah 3:9"
+        ]
+      },
       {
         "text": "And he shall rise the third day from the dead;",
         "refs": [
           "Mosiah 3:10"
-        ],
-        "speaker": "an angel from God"
+        ]
+      },
+      {
+        "text": "and behold, he standeth to judge the world;",
+        "refs": [
+          "Mosiah 3:10"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The events are foretold and must not be staged as present action."
+      "The passage links salvation to faith on his name and his standing to judge the world to righteous judgment.",
+      "These are foretold events, not events established as occurring together in a present scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the scourging, crucifixion, resurrection, or judgment as happening in the angel’s scene."
+      "Do not identify the figure or assign a speaker from these verses alone.",
+      "Do not stage the foretold events as one simultaneous present-tense scene.",
+      "Do not invent appearances, locations, wounds, or additional actions."
     ],
     "importance": "normal"
   },
@@ -422,47 +446,59 @@
       "Mosiah 3:14",
       "Mosiah 3:15"
     ],
-    "summary": "The angel teaches that prophets declared Christ’s coming so believers could receive remission of sins, and that God appointed the law of Moses for his stiffnecked people. Signs, wonders, types, shadows, and prophetic words pointed to Christ, but the people hardened their hearts and did not understand the law’s dependence on the atonement.",
+    "summary": "The Lord God sent holy prophets to declare Christ’s coming. He appointed the law of Moses to his people. Signs, wonders, types, shadows, and prophets pointed to Christ’s coming, but the people hardened their hearts and did not understand the law’s dependence on the atonement.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "holy prophets",
+      "the Lord God's people"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel says the Lord sent holy prophets among all people to declare that Christ should come and that believers might receive remission of sins and rejoice.",
+        "text": "The Lord God sent holy prophets among all the children of men to declare these things to every kindred, nation, and tongue.",
         "refs": [
           "Mosiah 3:13"
         ]
       },
       {
-        "text": "The angel says God appointed the law of Moses to his stiffnecked people.",
+        "text": "Those who believed Christ should come might receive remission of sins and rejoice.",
+        "refs": [
+          "Mosiah 3:13"
+        ]
+      },
+      {
+        "text": "The Lord God appointed the law of Moses to his stiffnecked people.",
         "refs": [
           "Mosiah 3:14"
         ]
       },
       {
-        "text": "The angel says signs, wonders, types, shadows, and prophets showed the people Christ’s coming, but they hardened their hearts and did not understand that the law availed only through the atonement of Christ’s blood.",
+        "text": "Signs, wonders, types, shadows, and holy prophets concerned his coming, but the people hardened their hearts and did not understand that the law of Moses availed nothing except through the atonement of his blood.",
         "refs": [
           "Mosiah 3:15"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is speaking to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance; the forms of the signs, wonders, types, and shadows."
+      "The prophets’ and people’s appearances",
+      "The locations and forms of the signs, wonders, types, and shadows"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Yet the Lord God saw that his people were a stiffnecked people, and he appointed unto them a law, even the law of Moses.",
+        "refs": [
+          "Mosiah 3:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The signs, types, and shadows are described as teachings and indications, not as specific visual events."
+      "The verses recount events and teachings without specifying a present speaker or a single visual setting."
     ],
     "prohibited_inventions": [
-      "Do not invent particular signs, wonders, prophets, or historical scenes."
+      "Do not depict an angel or King Benjamin on the authority of these verses alone.",
+      "Do not invent particular prophets, signs, wonders, or appearances of divine figures.",
+      "Do not combine the recounted events into one present-tense encounter."
     ],
     "importance": "normal"
   },
@@ -474,91 +510,117 @@
       "Mosiah 3:17",
       "Mosiah 3:18"
     ],
-    "summary": "The angel teaches that little children are blessed and Christ’s blood atones for their sins, that salvation comes only through Christ, and that infants who die in infancy do not perish; people must humble themselves and believe in Christ’s atoning blood.",
+    "summary": "An unidentified speaker teaches that little children are blessed, salvation comes only through Christ, and an infant who dies in infancy does not perish. People are called to humble themselves and believe in Christ’s atoning blood.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "Unidentified speaker"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel says little children are blessed and Christ’s blood atones for their sins.",
+        "text": "Little children are blessed, and Christ’s blood atones for their sins.",
         "refs": [
           "Mosiah 3:16"
         ]
       },
       {
-        "text": "The angel says salvation comes only through the name of Christ, the Lord Omnipotent.",
+        "text": "Salvation comes only through the name of Christ, the Lord Omnipotent.",
         "refs": [
           "Mosiah 3:17"
         ]
       },
       {
-        "text": "The angel says an infant who dies in infancy does not perish and that people must humble themselves and believe in Christ’s atoning blood.",
+        "text": "An infant who dies in infancy does not perish; people must humble themselves, become as little children, and believe in salvation through Christ’s atoning blood.",
         "refs": [
           "Mosiah 3:18"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is speaking to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance; whether any children are present in the remembered encounter."
+      "The speaker’s appearance and location.",
+      "Whether any children are present."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "they are blessed;",
+        "refs": [
+          "Mosiah 3:16"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "only in and through the name of Christ, the Lord Omnipotent.",
+        "refs": [
+          "Mosiah 3:17"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "the infant perisheth not that dieth in his infancy;",
+        "refs": [
+          "Mosiah 3:18"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses teach doctrine; they do not describe a child or infant physically present in this scene."
+      "These verses teach about salvation; they do not narrate a visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not add children as visible characters or depict salvation as a visible supernatural event."
+      "Do not identify the speaker as an angel or King Benjamin from these verses alone.",
+      "Do not depict children, an infant, Christ, or a supernatural event as physically present solely because they are mentioned."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "The Natural Man and the Holy Spirit",
+    "title": "The Natural Man and Childlike Humility",
     "refs": [
       "Mosiah 3:19"
     ],
-    "summary": "The angel teaches that the natural man is an enemy to God unless he yields to the Holy Spirit, puts off the natural man through Christ’s atonement, and becomes childlike, submissive, meek, humble, patient, and loving.",
-    "characters": [
-      "King Benjamin",
-      "an angel from God"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The natural man is an enemy to God, has been since the fall of Adam, and will remain so unless he yields to the Holy Spirit, puts off the natural man, becomes a saint through Christ’s atonement, and becomes as a child.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel teaches that the natural man is an enemy to God unless he yields to the Holy Spirit and becomes a saint through Christ’s atonement.",
+        "text": "The natural man is an enemy to God, has been from the fall of Adam, and will be forever unless he yields to the enticings of the Holy Spirit.",
         "refs": [
           "Mosiah 3:19"
         ]
       },
       {
-        "text": "The angel describes becoming as a child: submissive, meek, humble, patient, full of love, and willing to submit to what the Lord sees fit.",
+        "text": "The verse calls for putting off the natural man, becoming a saint through the atonement of Christ the Lord, and becoming as a child: submissive, meek, humble, patient, and full of love.",
         "refs": [
           "Mosiah 3:19"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is speaking to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance; any visual form for the natural man or Holy Spirit."
+      "Background and typography for a text-only presentation."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever,",
+        "refs": [
+          "Mosiah 3:19"
+        ]
+      },
+      {
+        "text": "becometh as a child, submissive, meek, humble, patient, full of love,",
+        "refs": [
+          "Mosiah 3:19"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The natural man and childlike qualities are figurative teachings, not characters or literal transformations."
+      "The verse presents a teaching, not a narrated visible event. It does not identify a speaker or audience."
     ],
     "prohibited_inventions": [
-      "Do not depict a supernatural transformation or a personified natural man or Holy Spirit."
+      "Do not depict an angel, King Benjamin, or a supernatural transformation.",
+      "Do not personify the natural man or give the Holy Spirit a visible form."
     ],
     "importance": "normal"
   },
@@ -569,41 +631,52 @@
       "Mosiah 3:20",
       "Mosiah 3:21"
     ],
-    "summary": "The angel foretells that knowledge of the Savior will spread among every nation, kindred, tongue, and people, and teaches that none will be blameless before God except little children, with repentance and faith in the Lord God Omnipotent.",
+    "summary": "An unidentified speaker foretells that knowledge of the Savior will spread throughout every nation, kindred, tongue, and people, and teaches who may be found blameless before God when that time comes.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "Unidentified speaker"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel foretells that knowledge of the Savior will spread throughout every nation, kindred, tongue, and people.",
+        "text": "The speaker says that a time will come when knowledge of the Savior will spread throughout every nation, kindred, tongue, and people.",
         "refs": [
           "Mosiah 3:20"
         ]
       },
       {
-        "text": "The angel teaches that none will be blameless before God except little children, and that repentance and faith are required.",
+        "text": "The speaker says that when that time comes, none shall be found blameless before God except little children, only through repentance and faith on the name of the Lord God Omnipotent.",
         "refs": [
           "Mosiah 3:21"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is speaking to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance and any future scenes of people receiving knowledge."
+      "The speaker’s identity, appearance, and surroundings."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "And moreover, I say unto you, that the time shall come when the knowledge of the Savior shall spread throughout every nation, kindred, tongue, and people.",
+        "refs": [
+          "Mosiah 3:20"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "And behold, when that time cometh, none shall be found blameless before God, except it be little children, only through repentance and faith on the name of the Lord God Omnipotent.",
+        "refs": [
+          "Mosiah 3:21"
+        ],
+        "speaker": "Unidentified speaker"
+      }
+    ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The spread of knowledge is future and not shown as a present event."
+      "The spread of knowledge is foretold, not described as occurring in the scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a montage of future nations or people."
+      "Do not identify the speaker or depict the foretold spread as a present event.",
+      "Do not depict God or the Savior as visibly present."
     ],
     "importance": "normal"
   },
@@ -682,7 +755,7 @@
       "Mosiah 3:24",
       "Mosiah 3:25"
     ],
-    "summary": "The Lord says that they will stand as a bright testimony against this people at judgment, when every person will be judged according to their works. Those whose works are evil will confront their guilt and shrink from the Lord’s presence into misery and endless torment.",
+    "summary": "The Lord says they will stand as a testimony against this people at the judgment day, when each person will be judged according to their works. Those whose works are evil will face their guilt and shrink from the Lord’s presence into misery and endless torment.",
     "characters": [
       "the Lord (speaker; no appearance described)"
     ],
@@ -709,7 +782,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The physical setting and any visible appearance of the Lord or the people are not described."
+      "The physical setting and the appearance of the Lord and the people are not described."
     ],
     "spoken_dialogue": [
       {
@@ -718,18 +791,18 @@
           "Mosiah 3:24"
         ],
         "speaker": "the Lord"
-      }
-    ],
-    "narration": [
+      },
       {
-        "text": "And thus saith the Lord:",
+        "text": "And if they be evil they are consigned to an awful view of their own guilt and abominations,",
         "refs": [
-          "Mosiah 3:24"
-        ]
+          "Mosiah 3:25"
+        ],
+        "speaker": "the Lord"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Judgment and its consequences are described as future events, not events occurring in a present setting."
+      "Judgment and its consequences are described as future events, not as events occurring in a present setting."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord’s appearance or stage a present judgment or torment scene.",
@@ -739,60 +812,87 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Cup of Wrath",
+    "title": "Justice and Mercy",
     "refs": [
       "Mosiah 3:26",
       "Mosiah 3:27"
     ],
-    "summary": "The angel says justice cannot deny the cup of God’s wrath to the wicked and mercy can no longer claim them; their torment is likened to an unquenchable lake of fire and brimstone. The angel says the Lord commanded him and ends with Amen.",
+    "summary": "An unidentified speaker says that they have drunk from the cup of God's wrath, that justice could not deny this and mercy could claim them no more. The speaker likens their torment to a lake of fire and brimstone, says the Lord commanded the speaker, and concludes with Amen.",
     "characters": [
-      "King Benjamin",
-      "an angel from God"
+      "unidentified speaker"
     ],
     "locations": [
-      "Unspecified location"
+      "unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says the wicked have drunk from the cup of God’s wrath, justice could not deny them, and mercy could claim them no more.",
+        "text": "The speaker says they have drunk from the cup of the wrath of God and that justice could no more deny this than it could deny Adam's fall because he partook of the forbidden fruit.",
         "refs": [
           "Mosiah 3:26"
         ]
       },
       {
-        "text": "The Lord compares their torment to a lake of fire and brimstone with unquenchable flames and smoke ascending forever.",
+        "text": "The speaker says mercy could claim them no more forever.",
+        "refs": [
+          "Mosiah 3:26"
+        ]
+      },
+      {
+        "text": "The speaker compares their torment to a lake of fire and brimstone with unquenchable flames and smoke ascending forever.",
         "refs": [
           "Mosiah 3:27"
         ]
       },
       {
-        "text": "The angel says the Lord commanded him and concludes, Amen.",
+        "text": "The speaker says the Lord commanded the speaker and concludes with Amen.",
         "refs": [
           "Mosiah 3:27"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel is concluding his message to Benjamin."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance and any literal setting for the figurative lake of fire and brimstone."
+      "The speaker's identity and appearance.",
+      "The speaker's surroundings."
     ],
     "spoken_dialogue": [
+      {
+        "text": "Therefore, they have drunk out of the cup of the wrath of God,",
+        "refs": [
+          "Mosiah 3:26"
+        ],
+        "speaker": "unidentified speaker"
+      },
+      {
+        "text": "therefore, mercy could have claim on them no more forever.",
+        "refs": [
+          "Mosiah 3:26"
+        ],
+        "speaker": "unidentified speaker"
+      },
+      {
+        "text": "And their torment is as a lake of fire and brimstone,",
+        "refs": [
+          "Mosiah 3:27"
+        ],
+        "speaker": "unidentified speaker"
+      },
       {
         "text": "Thus hath the Lord commanded me. Amen.",
         "refs": [
           "Mosiah 3:27"
         ],
-        "speaker": "an angel from God"
+        "speaker": "unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The lake of fire and brimstone is presented as a comparison for torment; do not turn the figure of speech into a literal scene."
+      "The lake of fire and brimstone is a comparison for torment, not a narrated visible place."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal lake of fire, visible flames, smoke, or damned people."
+      "Do not identify the speaker as the Lord, an angel, or King Benjamin.",
+      "Do not depict a literal lake of fire, flames, smoke, or people undergoing torment.",
+      "Do not depict Adam's fall as occurring in this scene."
     ],
     "importance": "normal"
   }

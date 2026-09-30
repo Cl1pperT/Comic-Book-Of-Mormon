@@ -1,34 +1,30 @@
 {
-  "stamp": "c4f033d1697d16071bc84f75d8a0aad48ad9ed514e55d85e15bef2abc472ff5d",
+  "stamp": "dbd772015f68ebe4f1c8f045b199b8e45230eb33f5ed04a6fe44ac72a51a4561",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The claim that participants beyond the Lamanites are unspecified overlooks Alma 28:3, which reports a tremendous slaughter among the people of Nephi in the same battle account."
       ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "'Their land' is source wording, but the verse does not specify which land; depicting a particular terrain or settlement would be creative design, not a source fact."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The scene leaves characters and locations unspecified, appropriately; any depiction of people praying would be a reasonable but unspecified visual choice, since the verse does not identify participants or describe how they prayed."
       ]
     },
     "scene_006": {
@@ -36,38 +32,33 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “the account recalls” is a reasonable description of the verse's account, but the verse does not describe a present scene. The scene notes correctly caution against depicting one."
+      ]
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary's wording “The account concerns” accurately presents a summary, not a newly occurring battle; however, the narration omits the verse's initial “And” and final period, so it is not an exact quotation as required.",
+        "The second narration excerpt omits the verse's final period, so it is not exact."
       ]
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

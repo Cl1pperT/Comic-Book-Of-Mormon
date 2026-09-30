@@ -168,14 +168,14 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Nephi appoints a king",
+    "title": "Nephi anoints a ruler",
     "refs": [
       "Jacob 1:9"
     ],
-    "summary": "As Nephi grows old and foresees his approaching death, he anoints a man to be king and ruler over his people.",
+    "summary": "Nephi begins to grow old, sees that he must soon die, and anoints a man to be king and ruler over his people.",
     "characters": [
       "Nephi",
-      "Second Nephi (king)"
+      "An unnamed man"
     ],
     "locations": [
       "Unspecified location"
@@ -195,18 +195,26 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown anointing the unnamed man who will reign as king."
+      "Nephi and the unnamed man may be shown together during the anointing."
     ],
     "unspecified_visual_details": [
-      "The new king's personal name, appearance, and the manner of anointing."
+      "The man's name and appearance.",
+      "The location and manner of anointing."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now Nephi began to be old, and he saw that he must soon die;",
+        "refs": [
+          "Jacob 1:9"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The text does not provide the newly anointed king's personal name; the people later call rulers by ordinal titles."
+      "The verse does not name the man Nephi anointed."
     ],
     "prohibited_inventions": [
-      "Do not assign the king a personal name or invent anointing words or ritual details."
+      "Do not give the man a name or invent anointing words or ritual details."
     ],
     "importance": "normal"
   },
@@ -292,7 +300,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Nephi died.",
+        "text": "And it came to pass that Nephi died.",
         "refs": [
           "Jacob 1:12"
         ]
@@ -362,41 +370,51 @@
       "Jacob 1:15",
       "Jacob 1:16"
     ],
-    "summary": "Under the second king, the people of Nephi begin to harden their hearts, indulge in wicked practices, desire many wives and concubines, seek gold and silver, and become somewhat proud.",
+    "summary": "Under the second king, the people of Nephi began to grow hard in their hearts, indulge somewhat in wicked practices, search much gold and silver, and become somewhat proud.",
     "characters": [
-      "Second Nephi (king)",
-      "Proud Nephites (Jacob era)"
+      "People of Nephi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Under the second king, the people of Nephi began to harden their hearts and indulge somewhat in wicked practices, including desiring many wives and concubines.",
+        "text": "The people of Nephi began to grow hard in their hearts and indulge somewhat in wicked practices under the reign of the second king.",
         "refs": [
           "Jacob 1:15"
         ]
       },
       {
-        "text": "They began to search much gold and silver and became somewhat lifted up in pride.",
+        "text": "The verse compares those practices to David of old desiring many wives and concubines, and mentions Solomon as his son.",
+        "refs": [
+          "Jacob 1:15"
+        ]
+      },
+      {
+        "text": "The people began to search much gold and silver and became somewhat lifted up in pride.",
         "refs": [
           "Jacob 1:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People seeking gold and silver may be shown alongside signs of pride; no specific individual or activity is identified."
+      "People may be shown searching for gold and silver, without specifying how or where."
     ],
     "unspecified_visual_details": [
-      "The people involved, the setting of their searching, and any particular display of wealth or practice."
+      "The setting, the people's appearances, and the manner of their search."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "began to search much gold and silver",
+        "refs": [
+          "Jacob 1:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "David and Solomon are comparisons in Jacob's teaching, not present characters in the scene."
+      "David and Solomon are mentioned as comparisons, not as people present at this time."
     ],
     "prohibited_inventions": [
-      "Do not depict David or Solomon, or invent individual marriages, concubines, or a specific mining scene."
+      "Do not depict David or Solomon as present, identify the unnamed second king, invent individual relationships, or specify a mining method."
     ],
     "importance": "normal"
   },

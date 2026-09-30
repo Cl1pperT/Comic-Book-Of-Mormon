@@ -67,12 +67,12 @@
       "Mosiah 23:4",
       "Mosiah 23:5"
     ],
-    "summary": "They arrive at a beautiful, pleasant land with pure water, pitch tents, till the ground, and begin building.",
+    "summary": "They come to a beautiful and pleasant land with pure water. They pitch tents, begin to till the ground, and begin to build buildings.",
     "characters": [
-      "Alma's people"
+      "Unnamed group"
     ],
     "locations": [
-      "Land of Helam"
+      "A beautiful and pleasant land with pure water"
     ],
     "explicit_facts": [
       {
@@ -82,18 +82,25 @@
         ]
       },
       {
-        "text": "They pitch tents, till the ground, and begin building; they are industrious and work exceedingly.",
+        "text": "They pitch tents, begin to till the ground, and begin to build buildings.",
+        "refs": [
+          "Mosiah 23:5"
+        ]
+      },
+      {
+        "text": "They are industrious and labor exceedingly.",
         "refs": [
           "Mosiah 23:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Tents, cultivated ground, and buildings in progress are visible."
+      "Tents and people working the ground or beginning construction may be visible."
     ],
     "unspecified_visual_details": [
       "The land's precise geography, plants, and colors.",
-      "The design of the tents and buildings."
+      "The tents' and buildings' designs.",
+      "The number and appearance of the people."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -104,11 +111,10 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [
-      "The land is later called Helam."
-    ],
+    "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Adding a specific water source, crop, or building design not stated in the passage."
+      "Naming the land or the group.",
+      "Specifying a water source, crop, or building design not stated in the verses."
     ],
     "importance": "normal"
   },
@@ -698,78 +704,99 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The lost army finds Amulon's group",
+    "title": "The Lamanite armies find the priests",
     "refs": [
       "Mosiah 23:30",
       "Mosiah 23:31",
       "Mosiah 23:32"
     ],
-    "summary": "The Lamanite army that followed Limhi's people has been lost in the wilderness for many days. It finds Noah's priests at Amulon, where they have begun to possess the land and till the ground. Amulon leads the priests.",
+    "summary": "The Lamanite armies, lost in the wilderness for many days after following king Limhi's people, find the priests of king Noah at Amulon. The land has begun to be possessed and tilled. Amulon leads the priests.",
     "characters": [
-      "Lamanite warriors (Alma era)",
-      "King Noah's priests",
+      "Lamanite armies",
+      "Priests of king Noah",
       "Amulon"
     ],
     "locations": [
+      "Wilderness",
       "Amulon"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanite armies that followed king Limhi's people have been lost in the wilderness for many days.",
+        "text": "The Lamanite armies followed king Limhi's people and were lost in the wilderness for many days.",
         "refs": [
           "Mosiah 23:30"
         ]
       },
       {
-        "text": "They find Noah's priests in Amulon; the priests have begun to possess the land and till the ground.",
+        "text": "The armies found the priests of king Noah in a place called Amulon.",
         "refs": [
           "Mosiah 23:31"
         ]
       },
       {
-        "text": "Amulon is the leader of the priests.",
+        "text": "The land of Amulon had begun to be possessed and tilled.",
+        "refs": [
+          "Mosiah 23:31"
+        ]
+      },
+      {
+        "text": "Amulon was the leader of the priests.",
         "refs": [
           "Mosiah 23:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The priests are present where the Lamanite army finds them."
+      "The armies and priests are in the same place when the armies find them.",
+      "Tilled ground may be visible at Amulon."
     ],
     "unspecified_visual_details": [
-      "The duration and route of the army's journey beyond 'many days'.",
-      "The appearance of the place and the people."
+      "The appearance of the people and Amulon.",
+      "The appearance and layout of Amulon.",
+      "The armies' route through the wilderness."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And behold, they had found those priests of king Noah, in a place which they called Amulon;",
+        "refs": [
+          "Mosiah 23:31"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The army's lost journey is reported; do not depict it as a separate present-tense scene here."
+      "The many days lost in the wilderness are reported background, not a separate present-tense scene."
     ],
     "prohibited_inventions": [
-      "Inventing a confrontation or dialogue at the meeting."
+      "A confrontation or dialogue when the armies find the priests.",
+      "Depicting king Limhi or king Noah as present."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "Amulon pleads for his people",
+    "title": "Amulon and the wives plead",
     "refs": [
       "Mosiah 23:33",
       "Mosiah 23:34"
     ],
-    "summary": "Amulon pleads with the Lamanites, and sends the wives, daughters of the Lamanites, to plead with their brethren not to destroy their husbands. The Lamanites have compassion and spare Amulon and his brethren.",
+    "summary": "Amulon pleads with the Lamanites and sends their wives, daughters of the Lamanites, to plead with their brethren not to destroy their husbands. The Lamanites have compassion on Amulon and his brethren and do not destroy them because of their wives.",
     "characters": [
       "Amulon",
-      "King Noah's priests",
-      "Lamanite warriors (Alma era)",
-      "Lamanite women (wives of Noah's priests)"
+      "the wives",
+      "the Lamanites",
+      "Amulon's brethren"
     ],
-    "locations": [
-      "Amulon"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Amulon pleads with the Lamanites and sends the wives, who are daughters of the Lamanites, to plead with their brethren not to destroy their husbands.",
+        "text": "Amulon pleads with the Lamanites.",
+        "refs": [
+          "Mosiah 23:33"
+        ]
+      },
+      {
+        "text": "Amulon sends their wives, who are daughters of the Lamanites, to plead with their brethren not to destroy their husbands.",
         "refs": [
           "Mosiah 23:33"
         ]
@@ -782,42 +809,69 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Amulon and the wives plead before the Lamanites."
+      "Amulon and the wives can be shown pleading with the Lamanites."
     ],
     "unspecified_visual_details": [
-      "The exact words spoken and the physical arrangement of the plea."
+      "The setting, clothing, physical arrangement, and gestures are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that Amulon did plead with the Lamanites;",
+        "refs": [
+          "Mosiah 23:33"
+        ]
+      },
+      {
+        "text": "and he also sent forth their wives, who were the daughters of the Lamanites, to plead with their brethren,",
+        "refs": [
+          "Mosiah 23:33"
+        ]
+      },
+      {
+        "text": "And the Lamanites had compassion on Amulon and his brethren, and did not destroy them, because of their wives.",
+        "refs": [
+          "Mosiah 23:34"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The plea is summarized; no direct speech is supplied."
+      "The pleas are reported without their spoken words."
     ],
     "prohibited_inventions": [
-      "Inventing dialogue or showing an execution."
+      "Do not invent dialogue, a specific location, or an execution.",
+      "Do not identify the brethren or wives beyond what these verses state."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Amulon's group joins the Lamanites",
+    "title": "The discovery of Helam",
     "refs": [
       "Mosiah 23:35",
       "Mosiah 23:36"
     ],
-    "summary": "Amulon and his brethren join the Lamanites, who are traveling in the wilderness in search of the land of Nephi. They discover Helam, where Alma and his brethren live. The Lamanites promise Alma's people their lives and liberty if they show the way to Nephi.",
+    "summary": "Amulon and his brethren join the Lamanites. While traveling through the wilderness in search of the land of Nephi, they discover the land of Helam, possessed by Alma and his brethren. The Lamanites promise Alma and his brethren their lives and liberty if they show the way to the land of Nephi.",
     "characters": [
       "Amulon",
-      "King Noah's priests",
-      "Lamanite warriors (Alma era)",
+      "Amulon's brethren",
+      "Lamanites",
       "Alma",
-      "Alma's people"
+      "Alma's brethren"
     ],
     "locations": [
+      "Wilderness",
       "Land of Helam"
     ],
     "explicit_facts": [
       {
-        "text": "Amulon and his brethren join the Lamanites; together they travel in the wilderness seeking the land of Nephi and discover Helam, occupied by Alma and his brethren.",
+        "text": "Amulon and his brethren join the Lamanites.",
+        "refs": [
+          "Mosiah 23:35"
+        ]
+      },
+      {
+        "text": "They travel in the wilderness seeking the land of Nephi and discover the land of Helam, which is possessed by Alma and his brethren.",
         "refs": [
           "Mosiah 23:35"
         ]
@@ -830,19 +884,28 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanites and Amulon's group are together when they discover Helam."
+      "Amulon and his brethren can be shown traveling with the Lamanites."
     ],
     "unspecified_visual_details": [
-      "The route, duration, and appearance of the journey.",
-      "Whether Alma's people are present when the promise is made."
+      "The travelers' clothing and appearance.",
+      "The route and appearance of the wilderness and Helam.",
+      "How the promise is conveyed."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Amulon and his brethren did join the Lamanites",
+        "refs": [
+          "Mosiah 23:35"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses report the travel and promise; they do not provide the promise's exact spoken wording."
+      "The promise is reported, but its exact spoken words are not supplied."
     ],
     "prohibited_inventions": [
-      "Inventing dialogue or merging this journey with the earlier army's search for Limhi's people."
+      "Do not invent spoken dialogue or identify Amulon's brethren beyond the supplied text.",
+      "Do not depict the land of Nephi as reached."
     ],
     "importance": "normal"
   },
@@ -853,19 +916,20 @@
       "Mosiah 23:37",
       "Mosiah 23:38"
     ],
-    "summary": "After Alma shows the way to Nephi, the Lamanites break their promise and set guards around Helam over Alma and his brethren. The rest go to Nephi; some return to Helam with the wives and children of the guards left there.",
+    "summary": "After Alma shows the Lamanites the way to the land of Nephi, they do not keep their promise and set guards around Helam over Alma and his brethren. The remainder go to Nephi; some return to Helam with the guards' wives and children.",
     "characters": [
       "Alma",
-      "Alma's people",
-      "Lamanite warriors (Alma era)",
-      "Wives and children of the Lamanite guards"
+      "Alma's brethren",
+      "Lamanites",
+      "Wives and children of the guards"
     ],
     "locations": [
-      "Land of Helam"
+      "Land of Helam",
+      "Land of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "After Alma shows the way to Nephi, the Lamanites do not keep their promise and set guards around Helam over Alma and his brethren.",
+        "text": "Alma shows the Lamanites the way to the land of Nephi; they do not keep their promise and set guards around Helam over Alma and his brethren.",
         "refs": [
           "Mosiah 23:37"
         ]
@@ -878,19 +942,28 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamanite guards are stationed around Helam; wives and children arrive with some returning Lamanites."
+      "Guards are positioned around Helam.",
+      "Some returning Lamanites are accompanied by the guards' wives and children."
     ],
     "unspecified_visual_details": [
-      "The precise timing and route of the groups' movements.",
-      "The number of guards, wives, and children."
+      "The groups' routes and the time between their movements.",
+      "The number and appearance of the guards and their families."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "but they set guards round about the land of Helam, over Alma and his brethren.",
+        "refs": [
+          "Mosiah 23:37"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "These are distinct movements: the guards remain at Helam, others go to Nephi, and some return with families."
+      "The guarding of Helam, the remainder's departure for Nephi, and the return of some with the guards' families are distinct events."
     ],
     "prohibited_inventions": [
-      "Depicting violence or inventing the guards' identities and motives."
+      "Invented violence, identities, motives, or dialogue.",
+      "Showing the departure for Nephi and the later return as one simultaneous event."
     ],
     "importance": "normal"
   },

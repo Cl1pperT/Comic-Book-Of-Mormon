@@ -5,7 +5,7 @@
     "refs": [
       "Alma 27:1"
     ],
-    "summary": "Lamanites who had gone to war against the Nephites return to the land of Nephi after failing to destroy them.",
+    "summary": "Lamanites who had gone to war against the Nephites return to the land of Nephi after their struggles to destroy the Nephites proved vain.",
     "characters": [
       "Lamanites who went to war against the Nephites"
     ],
@@ -14,7 +14,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites who had gone to war against the Nephites return to the land of Nephi after failing to destroy them.",
+        "text": "The Lamanites had gone to war against the Nephites.",
+        "refs": [
+          "Alma 27:1"
+        ]
+      },
+      {
+        "text": "After many struggles to destroy the Nephites, they found that seeking their destruction was in vain and returned to the land of Nephi.",
         "refs": [
           "Alma 27:1"
         ]
@@ -27,7 +33,14 @@
       "Their number, clothing, weapons, and exact route."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they returned again to the land of Nephi.",
+        "refs": [
+          "Alma 27:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not depict a battle in progress; the verse summarizes prior struggles."
@@ -41,42 +54,59 @@
       "Alma 27:2",
       "Alma 27:3"
     ],
-    "summary": "The Amalekites stir up anger against the people of Anti-Nephi-Lehi, who refuse to take up arms and suffer themselves to be slain.",
+    "summary": "After their loss, the Amalekites cannot seek revenge from the Nephites. They stir up anger against the people of Anti-Nephi-Lehi and begin again to destroy them. The people of Anti-Nephi-Lehi refuse to take their arms and suffer themselves to be slain.",
     "characters": [
       "Amalekites",
-      "Lamanites stirred up by the Amalekites",
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "people stirred up by the Amalekites",
+      "people of Anti-Nephi-Lehi"
     ],
-    "locations": [
-      "land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Amalekites stir up the people in anger against the Anti-Nephi-Lehies, and they begin again to destroy them.",
+        "text": "The Amalekites are exceedingly angry because of their loss and see that they cannot seek revenge from the Nephites.",
         "refs": [
           "Alma 27:2"
         ]
       },
       {
-        "text": "The Anti-Nephi-Lehies refuse to take up their arms and suffer themselves to be slain.",
+        "text": "The Amalekites stir up the people in anger against the people of Anti-Nephi-Lehi, who are their brethren, and they begin again to destroy them.",
+        "refs": [
+          "Alma 27:2"
+        ]
+      },
+      {
+        "text": "The people of Anti-Nephi-Lehi again refuse to take their arms and suffer themselves to be slain.",
         "refs": [
           "Alma 27:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The scene may show armed attackers and unarmed Anti-Nephi-Lehies, without graphic injury."
+      "The attack may be shown without gore, with the people of Anti-Nephi-Lehi not taking up arms."
     ],
     "unspecified_visual_details": [
-      "The attackers' exact identities beyond the groups named, numbers, clothing, weapons, and the manner of the killing."
+      "The location, numbers of people, clothing, weapons, and attackers' identities beyond those stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "therefore they began again to destroy them.",
+        "refs": [
+          "Alma 27:2"
+        ]
+      },
+      {
+        "text": "Now this people again refused to take their arms, and they suffered themselves to be slain according to the desires of their enemies.",
+        "refs": [
+          "Alma 27:3"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses do not describe individual deaths or show wounds."
+      "The loss and inability to seek revenge are background to this attack, not additional events to stage in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict gore, wounds, or specific deaths."
+      "Do not add named individuals, speeches, a specific location, or graphic injury."
     ],
     "importance": "normal"
   },
@@ -336,37 +366,42 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Ammon reports the Lord's words",
+    "title": "Ammon tells the king",
     "refs": [
       "Alma 27:13"
     ],
-    "summary": "Ammon tells the king all the words the Lord spoke to him.",
+    "summary": "Ammon went and told the king all the words the Lord had said to him.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Anti-Nephi-Lehi (king)"
+      "Ammon",
+      "the king"
     ],
-    "locations": [
-      "land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Ammon tells the king all the words the Lord said to him.",
+        "text": "Ammon went and told the king all the words the Lord had said to him.",
         "refs": [
           "Alma 27:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon and the king are together as Ammon reports the message."
+      "Ammon and the king are together while Ammon tells him the words."
     ],
     "unspecified_visual_details": [
-      "The setting, exact words repeated to the king, and other people present."
+      "The setting, their appearances, and the words Ammon repeated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And now it came to pass that Ammon went and told the king all the words which the Lord had said unto him.",
+        "refs": [
+          "Alma 27:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent dialogue for Ammon's report."
+      "Do not invent the words Ammon spoke or depict the Lord appearing in this scene."
     ],
     "importance": "normal"
   },
@@ -376,16 +411,22 @@
     "refs": [
       "Alma 27:14"
     ],
-    "summary": "The people gather their flocks and herds, leave the land, and enter the wilderness between the lands of Nephi and Zarahemla, near the borders.",
+    "summary": "The people gather their flocks and herds, depart from the land, and come into the wilderness between the lands of Nephi and Zarahemla, near the borders.",
     "characters": [
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "the people of the Lord"
     ],
     "locations": [
-      "wilderness between the land of Nephi and the land of Zarahemla"
+      "the wilderness between the land of Nephi and the land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "The people gather together with their flocks and herds, depart from the land, and enter the wilderness between Nephi and Zarahemla near the borders.",
+        "text": "They gathered together all their people and their flocks and herds.",
+        "refs": [
+          "Alma 27:14"
+        ]
+      },
+      {
+        "text": "They departed out of the land and came into the wilderness dividing the land of Nephi from the land of Zarahemla, near the borders.",
         "refs": [
           "Alma 27:14"
         ]
@@ -395,13 +436,21 @@
       "People and livestock can be shown traveling through wilderness."
     ],
     "unspecified_visual_details": [
-      "Their numbers, the route, terrain, and the exact border location."
+      "The group's size, the terrain, the route, and the exact border location."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and departed out of the land,",
+        "refs": [
+          "Alma 27:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not specify an exact border or route."
+      "Do not specify an exact border or route.",
+      "Do not assign the people a name not given in this verse."
     ],
     "importance": "normal"
   },
@@ -629,7 +678,14 @@
       "The details of the events they report."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Alma conducted his brethren back to the land of Zarahemla; even to his own house.",
+        "refs": [
+          "Alma 27:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The events in the land of Nephi are reported, not depicted as happening now."
     ],
@@ -645,33 +701,46 @@
     "refs": [
       "Alma 27:21"
     ],
-    "summary": "The chief judge sends a proclamation throughout the land asking the people whether to admit the Anti-Nephi-Lehies.",
+    "summary": "The chief judge sends a proclamation throughout all the land seeking the people's voice about admitting their brethren, the people of Anti-Nephi-Lehi.",
     "characters": [
-      "Chief judge of Zarahemla",
-      "People of Zarahemla (Mulekites)"
+      "The chief judge"
     ],
     "locations": [
-      "land of Zarahemla"
+      "All the land"
     ],
     "explicit_facts": [
       {
-        "text": "The chief judge sends a proclamation throughout the land seeking the people's voice about admitting the Anti-Nephi-Lehies.",
+        "text": "The chief judge sent a proclamation throughout all the land.",
+        "refs": [
+          "Alma 27:21"
+        ]
+      },
+      {
+        "text": "He sought the people's voice concerning admitting their brethren, the people of Anti-Nephi-Lehi.",
         "refs": [
           "Alma 27:21"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The proclamation may be represented as being circulated through the land."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "How the proclamation is delivered, its wording, and the people's gathering or method of response."
+      "The proclamation's delivery method, physical form, and exact wording are not stated.",
+      "The people's response is not described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "the chief judge sent a proclamation throughout all the land",
+        "refs": [
+          "Alma 27:21"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The people of Anti-Nephi-Lehi are the subject of the proclamation; their presence is not stated."
+    ],
     "prohibited_inventions": [
-      "Do not invent a particular messenger, assembly, or voting procedure."
+      "Do not invent a messenger, assembly, voting procedure, response, or appearance by the people of Anti-Nephi-Lehi."
     ],
     "importance": "normal"
   },
@@ -792,7 +861,14 @@
       "The content of Ammon's report and Alma's account."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Alma also related unto them his conversion, with Ammon and Aaron, and his brethren.",
+        "refs": [
+          "Alma 27:25"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "Alma's conversion is related, not shown as a present event.",
       "The mention of Aaron and the brethren does not establish that they are present."
@@ -806,13 +882,13 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "The people settle in Jershon",
+    "title": "The people of Ammon in Jershon",
     "refs": [
       "Alma 27:26"
     ],
-    "summary": "The news brings great joy. The people go down to Jershon, take possession of the land, and are called the people of Ammon by the Nephites.",
+    "summary": "They experience great joy, go down into the land of Jershon, and take possession of it. The Nephites call them the people of Ammon, a name that distinguishes them thereafter.",
     "characters": [
-      "Anti-Nephi-Lehies (people of Ammon)",
+      "the people of Ammon",
       "Nephites"
     ],
     "locations": [
@@ -820,13 +896,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The news causes great joy among the people.",
+        "text": "It causes great joy among them.",
         "refs": [
           "Alma 27:26"
         ]
       },
       {
-        "text": "They go to Jershon and take possession of it; the Nephites call them the people of Ammon thereafter.",
+        "text": "They go down into the land of Jershon and take possession of it.",
+        "refs": [
+          "Alma 27:26"
+        ]
+      },
+      {
+        "text": "The Nephites call them the people of Ammon, and that name distinguishes them thereafter.",
         "refs": [
           "Alma 27:26"
         ]
@@ -836,13 +918,20 @@
       "The people can be shown arriving in Jershon."
     ],
     "unspecified_visual_details": [
-      "The manner of taking possession and any settlement structures."
+      "The manner of taking possession and the appearance of the land."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they went down into the land of Jershon, and took possession of the land of Jershon;",
+        "refs": [
+          "Alma 27:26"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent ceremonies, buildings, or spoken naming rituals."
+      "Do not invent a cause for the joy, a naming ceremony, settlement structures, or spoken dialogue."
     ],
     "importance": "normal"
   },

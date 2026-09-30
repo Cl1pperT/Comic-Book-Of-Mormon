@@ -234,84 +234,79 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Enos Asks How",
+    "title": "How Is It Done?",
     "refs": [
       "Enos 1:7",
       "Enos 1:8"
     ],
-    "summary": "Enos asks how it is done. The responding speaker explains that Enos's faith in Christ has made him whole and speaks of Christ's future manifestation in the flesh.",
+    "summary": "The narrator asks the Lord how it is done. The responding speaker attributes his wholeness to faith in Christ and says many years will pass before Christ manifests himself in the flesh.",
     "characters": [
-      "Enos",
-      "Unidentified speaker"
+      "First-person narrator",
+      "Unidentified responding speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Enos addresses the Lord and asks how it is done.",
+        "text": "The narrator addresses the Lord and asks how it is done.",
         "refs": [
           "Enos 1:7"
         ]
       },
       {
-        "text": "The responding speaker is referred to as “he.”",
+        "text": "The responding speaker says the narrator has never before heard or seen Christ.",
         "refs": [
           "Enos 1:8"
         ]
       },
       {
-        "text": "The speaker says Enos has never before heard or seen Christ.",
+        "text": "The speaker says many years will pass before Christ manifests himself in the flesh.",
         "refs": [
           "Enos 1:8"
         ]
       },
       {
-        "text": "The speaker says many years will pass before Christ manifests himself in the flesh and that Enos's faith has made him whole.",
+        "text": "The speaker attributes the narrator's wholeness to his faith in Christ.",
         "refs": [
           "Enos 1:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Enos may be depicted speaking and listening, with the response presented without a visible speaker."
+      "The narrator may be shown speaking and listening, with the response heard from an unseen speaker."
     ],
     "unspecified_visual_details": [
-      "The location, Enos's appearance, clothing, posture, and surrounding environment are unspecified.",
-      "The responding speaker's appearance is not described."
+      "Location, surroundings, clothing, physical appearance, and posture are unspecified.",
+      "No appearance of the responding speaker is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "Lord, how is it done?",
+        "text": "And I said: Lord, how is it done?",
         "refs": [
           "Enos 1:7"
         ],
-        "speaker": "Enos"
+        "speaker": "First-person narrator"
       },
       {
-        "text": "Because of thy faith in Christ, whom thou hast never before heard nor seen.",
+        "text": "And he said unto me: Because of thy faith in Christ, whom thou hast never before heard nor seen. And many years pass away before he shall manifest himself in the flesh; wherefore, go to, thy faith hath made thee whole.",
         "refs": [
           "Enos 1:8"
         ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "And many years pass away before he shall manifest himself in the flesh; wherefore, go to, thy faith hath made thee whole.",
-        "refs": [
-          "Enos 1:8"
-        ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unidentified responding speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Christ's future manifestation is a statement in dialogue, not an event occurring in this scene.",
+      "The first-person narrator is labeled descriptively because these verses do not establish his age or parentage.",
+      "Christ's future manifestation is discussed, not depicted as occurring.",
       "Being made whole does not establish a visible physical transformation.",
-      "The requested chronology clause from Enos 1:2 cannot be added because that verse is not supplied."
+      "No forest location or location continuity is established by these verses.",
+      "The dialogue excerpts retain the source's introductory reporting clauses."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ or the responding speaker visibly; no appearance is described.",
-      "Do not stage Christ's future manifestation as a present event.",
-      "Do not add a wrestle, remission event, or chronology from unsupplied verses.",
-      "Do not invent additional dialogue, a specific location, or a visible healing."
+      "Do not depict Christ or invent a visible appearance for the responding speaker.",
+      "Do not show a visible healing or supernatural transformation.",
+      "Do not establish a forest or another specific location as a source fact.",
+      "Do not add age, parentage, events, or dialogue unsupported by these verses."
     ],
     "importance": "normal"
   },

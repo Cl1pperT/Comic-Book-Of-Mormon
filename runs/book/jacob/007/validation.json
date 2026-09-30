@@ -1,10 +1,10 @@
 {
-  "stamp": "655f0d0e4433b20864c8248fe0719b0a89f92376214fdf22f408b2b3582fab47",
+  "stamp": "6c8f8e7eaf40149252623c4be1fdc4166781447406490bca3e561f4605c135af",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The inference that people are gathered to hear Sherem is not explicit; the source only says he preached among the people."
       ]
     },
     "scene_002": {
@@ -16,8 +16,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Jacob 7:7’s contention identifies the earlier unnamed man as Sherem, but scene 002’s character entry correctly leaves him unnamed; the scene itself is consistent with the preceding chronology."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -48,33 +50,32 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not name the speaker; while Sherem is clear from preceding context, labeling him only as “the speaker” is conservative and consistent with the scene’s notes."
+      ]
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "The visual inference places the man falling to earth after speaking. Jacob 7:20–21 says he died and the multitude fell; the man's fall occurred earlier, in Jacob 7:15."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",
       "issues": []
     },
     "scene_016": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The explicit outcome that the people became conquerors is summarized, but no victory is depicted; keep it as reported summary rather than a present-tense battle or victory scene.",
+        "The group labels “Lamanites” and “People of Nephi” are supported by the verses, though their visual appearance and the means of fortification are unspecified."
       ]
     },
     "scene_018": {

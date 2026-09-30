@@ -5,13 +5,13 @@
     "refs": [
       "Mosiah 1:1"
     ],
-    "summary": "The land of Zarahemla has no contention, and King Benjamin enjoys continual peace for the remainder of his days.",
+    "summary": "There was no more contention among King Benjamin's people in the land of Zarahemla, and he had continual peace for the remainder of his days.",
     "characters": [
       "King Benjamin",
-      "People of Zarahemla (Mulekites)"
+      "People belonging to King Benjamin"
     ],
     "locations": [
-      "Zarahemla"
+      "Land of Zarahemla"
     ],
     "explicit_facts": [
       {
@@ -44,6 +44,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
+      "Do not identify the people as Mulekites.",
       "Do not depict a specific conflict or its resolution."
     ],
     "importance": "normal"
@@ -647,7 +648,14 @@
       "No present setting or visible speaker is specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty.",
+        "refs": [
+          "Mosiah 1:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The verse recounts past events rather than establishing an event unfolding in the present scene."
     ],

@@ -1,0 +1,109 @@
+{
+  "stamp": "61892e191360ff8976178b6ed39ef74d83baf61ca334b2042a2247b1cd79b93e",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Moroni’s location and the identity of whoever informed him are unspecified; avoid implying a particular setting or messenger."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The setting, pole, and armor design are unspecified; these require conservative creative choices."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The extent and appearance of the named land are unspecified; do not imply a particular landscape."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and size of the gathering are unspecified."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The setting, number, and identities of the people are unspecified."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Jacob and Joseph are recalled in reported speech, not described as present; the scene correctly prohibits depicting them."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people’s reactions are unspecified; avoid assigning them particular reactions."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene generally follows Alma 46:28, but its narration is a fragment rather than a complete quotation. The phrase “gathered together all the people who were desirous to maintain their liberty,” is exact source text, but the comma leaves the quotation incomplete; use a shorter complete excerpt or separate exact excerpts.",
+        "The visual inference that people gather around Moroni is plausible, but the verse only says he gathered the people; it does not specify they gathered around him.",
+        "The previous scene's visual inference that Moroni is addressing people gathered around him is not established by Alma 46:27, which reports his words without specifying the audience or location. Avoid relying on that inference for continuity."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The starting point and route are unspecified; avoid depicting a specific route as established fact."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wilderness terrain, tents, and army formation are unspecified."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and means by which the remaining men were taken are unspecified; the simultaneous depiction is an inference, not explicit timing detail."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The deaths are reported, but their setting and manner are unspecified; the scene appropriately prohibits depicting executions."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A single tower is a representative visual inference; the source says the title was raised on every tower in Nephite-held lands."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The characters field uses labels not literally named in the verse; Helaman and the high priests are explicitly present, but the source does not specify which high priests. The four-year period is a summary, not a single event to stage."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location 'the land' is not stated in these verses. The narration excerpts are exact, but the first ('thus they went out…') omits the preceding explanation of what they believed; avoid implying a particular deathbed, visible soul, or afterlife scene."
+      ]
+    }
+  }
+}

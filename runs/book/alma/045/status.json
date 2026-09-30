@@ -1,0 +1,27 @@
+{
+  "book": "Alma",
+  "chapter": 45,
+  "verses": 24,
+  "scenes": 16,
+  "counts": {
+    "PASS": 12,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 2
+  },
+  "rejected": {
+    "scene_006": [
+      "The unspecified_visual_details and doctrinal_or_story_notes falsely state that the supplied verses do not identify the speaker or listener and that Alma 45:9 was not supplied. Alma 45:9 identifies Alma speaking to Helaman, and Alma 45:15 confirms it."
+    ],
+    "scene_007": [
+      "The doctrinal_or_story_notes falsely state that the supplied verses do not name the speaker and that the attribution relies on an unsupplied verse. Alma 45:9 identifies Alma speaking to Helaman, and Alma 45:15 confirms it."
+    ]
+  },
+  "calls": 7,
+  "tokens": {
+    "input_tokens": 63661,
+    "cached_input_tokens": 20992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8747,
+    "reasoning_output_tokens": 1600
+  }
+}

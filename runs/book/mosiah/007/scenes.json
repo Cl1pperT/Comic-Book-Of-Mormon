@@ -168,7 +168,20 @@
       "The hill's appearance, tent design, and terrain are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and there they pitched their tents.",
+        "refs": [
+          "Mosiah 7:5"
+        ]
+      },
+      {
+        "text": "and they went down into the land of Nephi.",
+        "refs": [
+          "Mosiah 7:6"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not assign a number or identities to the other members of the group.",
@@ -194,20 +207,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "They met the king of the people in the land of Nephi and the land of Shilom.",
+        "text": "They met the king of the people who were in the land of Nephi and the land of Shilom.",
         "refs": [
           "Mosiah 7:7"
         ]
       },
       {
-        "text": "They were surrounded by the king’s guard, taken, bound, and committed to prison.",
+        "text": "The king’s guard surrounded them; they were taken, bound, and committed to prison.",
         "refs": [
           "Mosiah 7:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The guard can be shown surrounding the unnamed people."
+      "The guard can be shown surrounding the people who met the king."
     ],
     "unspecified_visual_details": [
       "The meeting place",
@@ -224,12 +237,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The land of Shilom identifies where some of the king’s people were, not the meeting place."
+      "Only Mosiah 7:7 is supplied; preceding travel cannot be depicted or used to establish this scene’s continuity."
     ],
     "prohibited_inventions": [
       "Do not identify the unnamed people from this verse alone.",
       "Do not specify where the meeting occurred.",
-      "Do not invent a reason for their imprisonment, resistance, or violence."
+      "Do not invent preceding travel, a reason for imprisonment, resistance, or violence."
     ],
     "importance": "normal"
   },
@@ -486,7 +499,7 @@
     "refs": [
       "Mosiah 7:16"
     ],
-    "summary": "King Limhi commands his guards not to bind Ammon or his brethren anymore and directs them to bring their brethren from the hill north of Shilom into the city so they may eat, drink, and rest after suffering hunger, thirst, and fatigue.",
+    "summary": "King Limhi commands his guards not to bind Ammon or his brethren anymore and arranges for their brethren to be brought from the hill north of Shilom into the city so they may eat, drink, and rest after suffering hunger, thirst, and fatigue.",
     "characters": [
       "King Limhi",
       "Limhi's guards",
@@ -502,7 +515,7 @@
         ]
       },
       {
-        "text": "Limhi directed that their brethren be brought from the hill north of Shilom into the city to eat, drink, and rest.",
+        "text": "Limhi caused their brethren to be brought from the hill north of Shilom into the city so they could eat, drink, and rest.",
         "refs": [
           "Mosiah 7:16"
         ]
@@ -515,15 +528,22 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The scene can focus on Limhi giving his command to the guards without showing the journey to the hill or its outcome."
+      "The scene can focus on Limhi giving his command without showing the trip to the hill or its outcome."
     ],
     "unspecified_visual_details": [
-      "The location of Limhi's command",
+      "The location where Limhi gives his command",
       "Clothing and physical appearances",
       "The arrangement of those present"
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "king Limhi commanded his guards that they should no more bind Ammon nor his brethren,",
+        "refs": [
+          "Mosiah 7:16"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not depict the brethren at the hill as present for Limhi's command.",
@@ -568,7 +588,14 @@
       "The proclamation's form, how it was conveyed, and the temple's appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "king Limhi sent a proclamation among all his people,",
+        "refs": [
+          "Mosiah 7:17"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The verse states the purpose of the proclamation, not that the people have gathered or that Limhi has spoken."
     ],
@@ -914,12 +941,12 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "Affliction and Conditional Deliverance",
+    "title": "Reported Affliction and Conditional Deliverance",
     "refs": [
       "Mosiah 7:32",
       "Mosiah 7:33"
     ],
-    "summary": "The Lord's promise is fulfilled, and the addressed people are smitten and afflicted. Deliverance from bondage is conditional on turning to the Lord, trusting him, and serving him diligently, according to his own will and pleasure.",
+    "summary": "The passage reports that the Lord's promise has been fulfilled and the addressed people are smitten and afflicted. It states that deliverance from bondage depends on their turning to the Lord, trusting him, and serving him diligently.",
     "characters": [
       "Addressed people (referenced; physical presence unspecified)"
     ],
@@ -940,7 +967,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The setting, the identity of any speaker, and the number and appearance of the addressed people are unspecified.",
+      "The setting, the speaker's identity, and the number and appearance of the addressed people are unspecified.",
       "The physical form of the affliction and bondage and the people's response are unspecified."
     ],
     "spoken_dialogue": [],
@@ -959,6 +986,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
+      "Verse 32 reports affliction; it does not narrate a new act of affliction occurring in the scene.",
       "Deliverance is conditional and promised, not narrated as occurring.",
       "These verses do not identify a speaker or describe a visible divine appearance."
     ],

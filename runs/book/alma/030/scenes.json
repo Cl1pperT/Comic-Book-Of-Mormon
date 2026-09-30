@@ -75,41 +75,74 @@
       "Alma 30:4",
       "Alma 30:5"
     ],
-    "summary": "The people observe the commandments and ordinances of God according to the law of Moses. There is no disturbance through the sixteenth year and continual peace at the beginning of the seventeenth year.",
+    "summary": "The people keep the commandments and ordinances according to the law of Moses. They have no disturbance during the sixteenth year of the judges, and there is continual peace at the commencement of the seventeenth year.",
     "characters": [
-      "Nephites"
+      "The people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people observed the commandments of the Lord and the ordinances of God according to the law of Moses.",
+        "text": "The people observed the commandments of the Lord and were strict in observing the ordinances of God according to the law of Moses.",
         "refs": [
           "Alma 30:3"
         ]
       },
       {
-        "text": "There was no disturbance throughout the sixteenth year, and continual peace at the commencement of the seventeenth year.",
+        "text": "The people were taught to keep the law of Moses until it should be fulfilled.",
         "refs": [
-          "Alma 30:4",
+          "Alma 30:3"
+        ]
+      },
+      {
+        "text": "The people had no disturbance throughout the sixteenth year of the reign of the judges over the people of Nephi.",
+        "refs": [
+          "Alma 30:4"
+        ]
+      },
+      {
+        "text": "There was continual peace at the commencement of the seventeenth year of the reign of the judges.",
+        "refs": [
           "Alma 30:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People observing religious ordinances may be shown in a general communal setting."
+      "The people may be shown together, without depicting a specific ordinance.",
+      "Peace may be conveyed through an undisturbed setting rather than a separate event."
     ],
     "unspecified_visual_details": [
-      "The specific ordinances, gathering place, participants, and time of day are unspecified."
+      "The location, clothing, time of day, and form of the ordinances are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "the people did observe to keep the commandments of the Lord",
+        "refs": [
+          "Alma 30:3"
+        ]
+      },
+      {
+        "text": "the people did have no disturbance in all the sixteenth year",
+        "refs": [
+          "Alma 30:4"
+        ]
+      },
+      {
+        "text": "in the commencement of the seventeenth year of the reign of the judges, there was continual peace.",
+        "refs": [
+          "Alma 30:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The text says the people were taught to keep the law of Moses until it should be fulfilled."
+      "The law of Moses was to be kept until it should be fulfilled.",
+      "The sixteenth year and the commencement of the seventeenth year are distinct periods, not simultaneous action."
     ],
     "prohibited_inventions": [
-      "Do not depict an unspecified ordinance as a particular ritual."
+      "Do not portray a particular ordinance or ritual not specified in the verses.",
+      "Do not invent a disturbance, speaker, or dialogue."
     ],
     "importance": "normal"
   },
@@ -297,43 +330,43 @@
       "Alma 30:17",
       "Alma 30:18"
     ],
-    "summary": "A man challenges belief in remission of sins. He denies atonement, teaches that people prosper through their abilities and conquer through strength, and declares that no conduct is a crime. His preaching leads many astray, and he teaches that death is the end.",
+    "summary": "An unnamed man challenges belief in remission of sins. He speaks against atonement, teaches that people prosper according to their genius and conquer according to their strength, and says that no act is a crime. His preaching leads many astray, including women and men who commit whoredoms. He tells them that death is the end.",
     "characters": [
-      "male preacher whose name is not supplied",
+      "unnamed male preacher",
       "unnamed listeners"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker attributes belief in remission of sins to a frenzied mind and ancestral traditions.",
+        "text": "The preacher attributes belief in remission of sins to a frenzied mind and the traditions of the listeners' fathers.",
         "refs": [
           "Alma 30:16"
         ]
       },
       {
-        "text": "He teaches that no atonement can be made for sins, that people fare according to their management, prosper according to their genius, and conquer according to their strength, and that whatever a person does is no crime.",
+        "text": "He teaches that no atonement can be made for sins, that people fare according to their management, prosper according to their genius, conquer according to their strength, and that whatever a person does is no crime.",
         "refs": [
           "Alma 30:17"
         ]
       },
       {
-        "text": "The narrator reports that his preaching leads many into wickedness and leads many women and men to commit whoredoms.",
+        "text": "His preaching leads away the hearts of many and leads many women and men to commit whoredoms.",
         "refs": [
           "Alma 30:18"
         ]
       },
       {
-        "text": "He teaches that death is the end.",
+        "text": "He tells them that death is the end.",
         "refs": [
           "Alma 30:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The preacher may be shown addressing listeners without individualized reactions."
+      "The preacher can be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "Location, clothing, physical appearances, audience size, and spatial arrangement are unspecified."
+      "The location, clothing, physical appearances, audience size, and spatial arrangement are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -341,17 +374,23 @@
         "refs": [
           "Alma 30:16"
         ],
-        "speaker": "male preacher whose name is not supplied"
+        "speaker": "unnamed male preacher"
       },
       {
         "text": "But behold, it is the effect of a frenzied mind;",
         "refs": [
           "Alma 30:16"
         ],
-        "speaker": "male preacher whose name is not supplied"
+        "speaker": "unnamed male preacher"
       }
     ],
     "narration": [
+      {
+        "text": "And many more such things did he say unto them,",
+        "refs": [
+          "Alma 30:17"
+        ]
+      },
       {
         "text": "And thus he did preach unto them, leading away the hearts of many,",
         "refs": [
@@ -360,109 +399,151 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not name the preacher. The audit's identification relies on preceding verses not supplied here and cannot establish his name under the source-only constraint.",
-      "The preacher's claims are attributed teachings, not established doctrinal facts.",
-      "The reported consequences of his preaching must not become separate enacted incidents or be portrayed as simultaneous audience behavior."
+      "The supplied verses do not name the preacher; the audit's reference to verse 12 is outside the supplied source.",
+      "The preacher's claims are attributed teachings, not established facts.",
+      "The consequences reported in verse 18 are not separate events to enact within this scene."
     ],
     "prohibited_inventions": [
-      "Do not import names or identifying details from unsupplied verses.",
+      "Do not import a name or identifying details from unsupplied verses.",
       "Do not invent a location, listener biographies, dialogue, or individual conversions.",
-      "Do not stage sexual acts, deaths, or conquests from the summarized consequences and teachings.",
-      "Do not literalize leading away hearts or invent supernatural appearances."
+      "Do not stage sexual acts, deaths, or conquests mentioned in teachings or reported consequences.",
+      "Do not depict hearts being literally led away or invent supernatural appearances."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_006",
-    "title": "Korihor is taken to Ammon",
+    "title": "The man is taken before Ammon",
     "refs": [
       "Alma 30:19",
       "Alma 30:20"
     ],
-    "summary": "Korihor goes to Jershon to preach among the people of Ammon. They take him, bind him, and carry him before Ammon, their high priest.",
+    "summary": "A man goes to Jershon to preach among the people of Ammon. They take and bind him, then carry him before Ammon.",
     "characters": [
-      "Korihor",
-      "Anti-Nephi-Lehies (people of Ammon)",
-      "Ammon (son of Mosiah)"
+      "the man",
+      "people of Ammon",
+      "Ammon"
     ],
     "locations": [
       "land of Jershon"
     ],
     "explicit_facts": [
       {
-        "text": "Korihor went to Jershon to preach among the people of Ammon.",
+        "text": "The man went to Jershon to preach among the people of Ammon.",
         "refs": [
           "Alma 30:19"
         ]
       },
       {
-        "text": "The people of Ammon took and bound him and carried him before Ammon, their high priest.",
+        "text": "The people of Ammon took and bound the man, then carried him before Ammon.",
+        "refs": [
+          "Alma 30:20"
+        ]
+      },
+      {
+        "text": "Ammon was a high priest over that people.",
         "refs": [
           "Alma 30:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Korihor may be shown bound and escorted before Ammon."
+      "The man can be shown bound while being taken before Ammon."
     ],
     "unspecified_visual_details": [
-      "The number and identity of those who seized and escorted Korihor are unspecified."
+      "The man's appearance is unspecified.",
+      "The number and appearance of the people who took him are unspecified.",
+      "Ammon's appearance and the setting within Jershon are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Now this man went over to the land of Jershon also, to preach these things among the people of Ammon, who were once the people of the Lamanites.",
+        "refs": [
+          "Alma 30:19"
+        ]
+      },
+      {
+        "text": "for they took him, and bound him, and carried him before Ammon, who was a high priest over that people.",
+        "refs": [
+          "Alma 30:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The people of Ammon are identified as formerly the people of the Lamanites."
+      "The people of Ammon were once the people of the Lamanites."
     ],
     "prohibited_inventions": [
-      "Do not give unnamed members of the people of Ammon individual names or biographies."
+      "Do not identify the man by a name absent from these verses.",
+      "Do not give unnamed members of the people of Ammon names or biographies.",
+      "Do not invent the content of the man's preaching or any dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_007",
-    "title": "Korihor is sent from Jershon",
+    "title": "Taken before the high priest and chief judge",
     "refs": [
       "Alma 30:21"
     ],
-    "summary": "Ammon causes Korihor to be carried out of Jershon. Korihor goes to Gideon, where he is taken and bound and brought before the high priest and chief judge.",
+    "summary": "After he was caused to be carried out of the land, the man came over into the land of Gideon and began to preach there. He did not have much success; he was then taken, bound, and carried before the high priest and chief judge over the land.",
     "characters": [
-      "Korihor",
-      "Ammon (son of Mosiah)",
-      "people of Ammon",
-      "high priest of Gideon",
-      "chief judge of Gideon"
+      "the man",
+      "unnamed people who take and bind him",
+      "high priest",
+      "chief judge"
     ],
     "locations": [
-      "land of Jershon",
       "land of Gideon"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon caused Korihor to be carried out of Jershon.",
+        "text": "He was caused to be carried out of the land before coming to Gideon.",
         "refs": [
           "Alma 30:21"
         ]
       },
       {
-        "text": "Korihor went to Gideon, where he was taken and bound and carried before the high priest and chief judge.",
+        "text": "He came over into the land of Gideon and began to preach there.",
+        "refs": [
+          "Alma 30:21"
+        ]
+      },
+      {
+        "text": "He did not have much success there.",
+        "refs": [
+          "Alma 30:21"
+        ]
+      },
+      {
+        "text": "He was taken, bound, and carried before the high priest and chief judge over the land.",
         "refs": [
           "Alma 30:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "This transition can be shown as Korihor being escorted from Jershon and subsequently brought bound before officials in Gideon."
+      "The bound man may be shown being brought before the two officials."
     ],
     "unspecified_visual_details": [
-      "The people who carry Korihor and the exact route are unspecified."
+      "The man's appearance and the identities and appearances of those who bind him are unspecified.",
+      "The officials’ appearances, the bindings, and the exact setting are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "for he was taken and bound and carried before the high priest, and also the chief judge over the land.",
+        "refs": [
+          "Alma 30:21"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The two locations represent separate moments in the sequence."
+      "The removal from the prior land and the preaching in Gideon precede the moment when he is carried before the officials; do not depict these events as simultaneous."
     ],
     "prohibited_inventions": [
-      "Do not collapse the departure from Jershon and the hearing in Gideon into one location."
+      "Do not name the man, the person who caused his removal, or the land from which he was removed.",
+      "Do not invent preaching words, a hearing, a judgment, or a motive for binding him."
     ],
     "importance": "normal"
   },
@@ -606,94 +687,104 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "Korihor is sent to Zarahemla",
+    "title": "Delivered to the Officers",
     "refs": [
       "Alma 30:29",
       "Alma 30:30"
     ],
-    "summary": "Giddonah and the chief judge see Korihor's hardness of heart and do not reply. They bind him, deliver him to officers, and send him to Zarahemla before Alma and the chief judge over the land.",
+    "summary": "The high priest and chief judge deliver the bound man to the officers.",
     "characters": [
-      "Korihor",
-      "Giddonah",
-      "chief judge of Gideon",
-      "officers"
+      "the man",
+      "the high priest",
+      "the chief judge",
+      "the officers"
     ],
-    "locations": [
-      "land of Gideon",
-      "land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The high priest and chief judge did not reply to Korihor; they had him bound and delivered him to officers.",
+        "text": "The high priest and chief judge caused the man to be bound.",
         "refs": [
           "Alma 30:29"
         ]
       },
       {
-        "text": "They sent Korihor to Zarahemla to be brought before Alma and the chief judge who governed the land.",
+        "text": "They delivered him into the hands of the officers.",
         "refs": [
           "Alma 30:29"
-        ]
-      },
-      {
-        "text": "Before Alma and the chief judge, Korihor continued in the same manner and blasphemed.",
-        "refs": [
-          "Alma 30:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The transfer can be shown as an escort from Gideon followed by Korihor before Alma and the chief judge in Zarahemla."
+      "The man can be shown bound as the officers take custody of him."
     ],
     "unspecified_visual_details": [
-      "The officers, transport, route, and appearance of the chief judge are unspecified."
+      "The binding material, clothing, appearances, and surroundings are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they delivered him up into the hands of the officers,",
+        "refs": [
+          "Alma 30:29"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The two locations mark consecutive events, not one simultaneous setting."
+      "The appearance before Alma and the chief judge in Alma 30:30 occurs later and is not depicted in this scene."
     ],
     "prohibited_inventions": [
-      "Do not portray Korihor's travel as a specific mode of transport."
+      "Do not invent speech or depict the later appearance before Alma as part of this handover.",
+      "Do not name the man or specify how he is bound."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "Korihor accuses Alma",
+    "title": "Accusation before Alma",
     "refs": [
       "Alma 30:31"
     ],
-    "summary": "Before Alma, Korihor rises with swelling words and accuses the priests and teachers of leading the people astray for gain.",
+    "summary": "He rises before Alma, reviles the priests and teachers, and accuses them of leading the people after their fathers’ traditions for the sake of glutting on the people’s labors.",
     "characters": [
-      "Korihor",
-      "Alma the Younger (high priest)",
-      "chief judge over the land"
+      "Unnamed accuser",
+      "Alma"
     ],
-    "locations": [
-      "land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Korihor rose before Alma and reviled against the priests and teachers, accusing them of seeking gain from the people's labor.",
+        "text": "He rose before Alma and reviled the priests and teachers.",
+        "refs": [
+          "Alma 30:31"
+        ]
+      },
+      {
+        "text": "He accused the priests and teachers of leading the people after their fathers’ traditions for the sake of glutting on the people’s labors.",
         "refs": [
           "Alma 30:31"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Korihor may be shown standing and addressing Alma and the chief judge."
+      "The accuser may be shown rising before Alma."
     ],
     "unspecified_visual_details": [
-      "The manner and furnishings of the hearing are unspecified."
+      "The setting, clothing, and appearances are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And he did rise up in great swelling words before Alma, and did revile against the priests and teachers, accusing them of leading away the people after the silly traditions of their fathers, for the sake of glutting on the labors of the people.",
+        "refs": [
+          "Alma 30:31"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The accusation is summarized by the narrator."
+      "The accusation is reported, not established as fact or quoted as direct speech."
     ],
     "prohibited_inventions": [
-      "Do not invent a verbatim quote for Korihor's accusation."
+      "Do not invent the accuser’s words.",
+      "Do not depict the priests, teachers, or people as present solely because they are mentioned."
     ],
     "importance": "normal"
   },
@@ -1277,7 +1368,14 @@
       "The recipients' individual identities and specific acts of conversion are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And Korihor did go about from house to house, begging food for his support.",
+        "refs": [
+          "Alma 30:58"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The proclamation and its effects are reported; they need not be depicted as simultaneous with Korihor's begging."
     ],

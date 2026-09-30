@@ -1,91 +1,67 @@
 {
-  "stamp": "03b4dd7fdb675f4e45e6e174640fd168a71fe6d856f128e0f57cfefda5917a24",
+  "stamp": "32c6e0e8f7d52a692995be80f658330baa930dcfe047ee6e90edce3c461dd439",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The claim that the travelers’ number is unspecified overlooks the sixteen men authorized in Mosiah 7:2 and referred to as setting out in 7:3."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The people who meet the king are Ammon, Amaleki, Helem, and Hem from Mosiah 7:6; treating them as unidentified overlooks the preceding verse."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The people brought before Limhi are the four travelers identified in Mosiah 7:6–7, not people whose identities and number are wholly unknown."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The prohibition on naming the king overlooks his identification as Limhi in Mosiah 7:9."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Mosiah 7:17–18 identifies the speaker as Limhi and establishes the temple gathering. The scene incorrectly says his identity and the gathering’s location are unsupplied and prohibits specifying the temple."
+        "The summary calls the speaker “he” but does not identify him. Mosiah 7:18–20 leaves his identity implicit; the narration excerpt from verse 20 is exact, but the identity must remain unspecified."
       ]
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "This continues Limhi’s address begun in Mosiah 7:18. The claims that the speaker and listeners cannot be identified, and the prohibition on identifying the speaker, contradict that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "This continues Limhi’s address to the gathered people. The claims that its speaker is unidentified and must not be identified contradict Mosiah 7:17–18."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "These verses continue Limhi’s address to the gathered people. The claims that no speaker or audience is established, and the prohibition on depicting either, contradict Mosiah 7:17–18."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Limhi is reciting these warnings within his address. The claims that no physical speaker or audience is specified, and the prohibition on depicting either, contradict Mosiah 7:17–18."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "These verses continue Limhi’s address to the people gathered in Mosiah 7:18. The claims that the speaker and audience presence are unspecified, and the prohibition on identifying or depicting them, contradict that context."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

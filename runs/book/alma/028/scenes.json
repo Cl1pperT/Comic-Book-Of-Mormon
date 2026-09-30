@@ -1,118 +1,186 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Armies in the Wilderness",
+    "title": "Jershon and the Wilderness Report",
     "refs": [
       "Alma 28:1"
     ],
-    "summary": "The Lamanite armies followed their brethren into the wilderness as Nephite armies were positioned around Jershon and the borders of Zarahemla.",
+    "summary": "The people of Ammon were established in Jershon, where the verse also mentions an established church. Nephite armies were positioned round about Jershon and in all the borders round about Zarahemla. The verse reports that Lamanite armies had followed their brethren into the wilderness.",
     "characters": [
-      "Nephite armies of Moroni",
-      "Lamanite warriors (Enos to Alma era)"
+      "people of Ammon",
+      "Nephite armies"
     ],
     "locations": [
-      "wilderness",
       "land of Jershon",
-      "borders of the land of Zarahemla"
+      "borders round about the land of Zarahemla",
+      "wilderness (reported location only)"
     ],
     "explicit_facts": [
       {
-        "text": "The people of Ammon and a church were established in Jershon, and Nephite armies were set around Jershon and the borders of Zarahemla.",
+        "text": "The people of Ammon were established in the land of Jershon.",
         "refs": [
           "Alma 28:1"
         ]
       },
       {
-        "text": "The Lamanite armies followed their brethren into the wilderness.",
+        "text": "The verse states \"and a church also established in the land of Jershon\" without identifying who established it.",
+        "refs": [
+          "Alma 28:1"
+        ]
+      },
+      {
+        "text": "Nephite armies were set round about Jershon and in all the borders round about Zarahemla.",
+        "refs": [
+          "Alma 28:1"
+        ]
+      },
+      {
+        "text": "Lamanite armies had followed their brethren into the wilderness; this is reported prior action.",
         "refs": [
           "Alma 28:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The armies are positioned in the named lands and borders, with the Lamanite army moving into the wilderness."
+      "A restrained establishing view may suggest the settled situation in Jershon without reenacting its establishment."
     ],
     "unspecified_visual_details": [
-      "The armies' exact size, formations, clothing, weapons, and terrain."
+      "Terrain, distances, army sizes, clothing, equipment, and individual appearances are unspecified.",
+      "The church's physical setting is unspecified; no church building is described."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "after the people of Ammon were established in the land of Jershon, and a church also established in the land of Jershon,",
+        "refs": [
+          "Alma 28:1"
+        ]
+      },
+      {
+        "text": "behold the armies of the Lamanites had followed their brethren into the wilderness.",
+        "refs": [
+          "Alma 28:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "No person or group is identified as establishing the church.",
+      "The Lamanite armies and their brethren belong to the reported movement, not the physically present cast.",
+      "Preserve the distinction between established conditions and previously completed movement."
+    ],
     "prohibited_inventions": [
-      "Do not depict the people of Ammon, church members, or Lamanites' brethren as present; the verse does not place them visibly in this moment."
+      "Do not reenact reported establishment or pursuit as new present-tense events.",
+      "Do not depict a simultaneous Lamanite march or confrontation.",
+      "Do not invent an actor establishing the church or assume a church building.",
+      "Do not invent commanders, dialogue, motives, or identities for their brethren.",
+      "Do not reduce Nephite positions to only the borders of Zarahemla."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "The Great Battle",
+    "title": "A Tremendous Battle",
     "refs": [
       "Alma 28:2"
     ],
-    "summary": "A tremendous battle took place, and tens of thousands of Lamanites were slain and scattered.",
+    "summary": "A tremendous battle occurred, such as had never been known among all the people in the land since Lehi left Jerusalem. Tens of thousands of Lamanites were slain and scattered abroad.",
     "characters": [
-      "Nephite armies of Moroni",
-      "Lamanite warriors (Enos to Alma era)"
+      "Lamanites (reported, not staged)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A tremendous battle occurred, unlike any known since Lehi left Jerusalem, and tens of thousands of Lamanites were slain and scattered.",
+        "text": "There was a tremendous battle, such as had never been known among all the people in the land from the time Lehi left Jerusalem.",
+        "refs": [
+          "Alma 28:2"
+        ]
+      },
+      {
+        "text": "Tens of thousands of Lamanites were slain and scattered abroad.",
         "refs": [
           "Alma 28:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Opposing armies are engaged in battle; non-graphic combat and scattered figures may convey the stated outcome."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The battle's exact location, tactics, weapons, and the identities of individual fighters."
+      "The battle's precise location, participants beyond the Lamanites, weapons, tactics, and individual appearances are unspecified.",
+      "A nonrepresentational background for the narrated report is a presentation choice, not a source fact."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And thus there was a tremendous battle; yea, even such an one as never had been known among all the people in the land from the time Lehi left Jerusalem; yea, and tens of thousands of the Lamanites were slain and scattered abroad.",
+        "refs": [
+          "Alma 28:2"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Present this verse as a narrated report, not an enacted battle.",
+      "Lehi's departure from Jerusalem supplies a historical comparison, not a simultaneous event."
+    ],
     "prohibited_inventions": [
-      "Do not depict gore, wounds, blood, or severed body parts."
+      "Do not invent opposing combatants or specify who fought whom.",
+      "Do not stage combat, fleeing, or an aftermath tableau from this summarized report.",
+      "Do not depict Lehi or Jerusalem as present in the battle.",
+      "Do not invent dialogue, individual fighters, motives, or tactics.",
+      "Do not depict wounds, blood, gore, or severed body parts."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "The Nephites Return",
+    "title": "The People of Nephi Return",
     "refs": [
       "Alma 28:3"
     ],
-    "summary": "There was a great slaughter among the Nephites; the Lamanites were driven and scattered, and the Nephites returned to their land.",
+    "summary": "There was a tremendous slaughter among the people of Nephi. The Lamanites were driven and scattered, and the people of Nephi returned to their land.",
     "characters": [
-      "Nephite armies of Moroni",
-      "Lamanite warriors (Enos to Alma era)"
+      "people of Nephi",
+      "Lamanites"
     ],
     "locations": [
-      "Unspecified location",
-      "Nephite land"
+      "their land"
     ],
     "explicit_facts": [
       {
-        "text": "There was a tremendous slaughter among the Nephites; the Lamanites were driven and scattered, and the Nephites returned to their land.",
+        "text": "There was a tremendous slaughter among the people of Nephi.",
+        "refs": [
+          "Alma 28:3"
+        ]
+      },
+      {
+        "text": "The Lamanites were driven and scattered.",
+        "refs": [
+          "Alma 28:3"
+        ]
+      },
+      {
+        "text": "The people of Nephi returned to their land.",
         "refs": [
           "Alma 28:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The retreating Lamanites and returning Nephites can be shown as separate movements within this aftermath."
+      "The Lamanites dispersing and the people of Nephi returning can be shown as distinct movements."
     ],
     "unspecified_visual_details": [
-      "The route, terrain, and exact place of the battle and return."
+      "The terrain, route, and appearance of their land are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "the people of Nephi returned again to their land.",
+        "refs": [
+          "Alma 28:3"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show slain individuals or graphic injury."
+      "Do not add named commanders, dialogue, or graphic injury."
     ],
     "importance": "normal"
   },
@@ -123,38 +191,52 @@
       "Alma 28:4",
       "Alma 28:5"
     ],
-    "summary": "Mourning was heard throughout the Nephite land as people grieved for slain kindred, including husbands, sons, brothers, and fathers.",
+    "summary": "Great mourning and lamentation were heard throughout the land among the people of Nephi. Widows, fathers, daughters, and brothers mourned kindred who had been slain.",
     "characters": [
-      "Nephite mourners"
+      "People of Nephi mourning their kindred"
     ],
     "locations": [
-      "Nephite land"
+      "The land of the people of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "Great mourning and lamentation were heard throughout the land among the Nephites.",
+        "text": "Great mourning and lamentation were heard throughout the land among the people of Nephi.",
         "refs": [
           "Alma 28:4"
         ]
       },
       {
-        "text": "Widows mourned husbands, fathers mourned sons, daughters mourned brothers, and brothers mourned fathers slain among their kindred.",
+        "text": "Widows mourned husbands, fathers mourned sons, daughters mourned brothers, and brothers mourned fathers.",
+        "refs": [
+          "Alma 28:5"
+        ]
+      },
+      {
+        "text": "The people mourned kindred who had been slain.",
         "refs": [
           "Alma 28:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group of mourners may be shown expressing grief, without asserting specific individual identities beyond the relationships stated."
+      "Mourners may be shown expressing grief."
     ],
     "unspecified_visual_details": [
-      "The mourners' appearances, number, gathering places, and whether they mourn together or separately."
+      "The mourners’ appearances, number, clothing, and exact surroundings are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "the cry of mourning was heard among all of them,",
+        "refs": [
+          "Alma 28:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not portray specific deaths or assign names to mourners or the slain."
+      "Do not depict the earlier deaths as occurring in this scene.",
+      "Do not invent names, individual histories, or spoken words for the mourners."
     ],
     "importance": "normal"
   },
@@ -164,32 +246,41 @@
     "refs": [
       "Alma 28:6"
     ],
-    "summary": "The people experienced a sorrowful, solemn day marked by much fasting and prayer.",
-    "characters": [
-      "Nephite mourners"
-    ],
-    "locations": [
-      "Nephite land"
-    ],
+    "summary": "A sorrowful day was a time of solemnity, much fasting, and prayer.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "It was a sorrowful day and a time of solemnity, much fasting, and prayer.",
+        "text": "It was a sorrowful day and a time of solemnity.",
+        "refs": [
+          "Alma 28:6"
+        ]
+      },
+      {
+        "text": "It was a time of much fasting and prayer.",
         "refs": [
           "Alma 28:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People may be depicted in quiet prayer or fasting, without specifying a ritual or setting."
+      "Unspecified people may be shown praying quietly."
     ],
     "unspecified_visual_details": [
-      "Where the people fasted and prayed, and the form of their prayers."
+      "The location, the people involved, and the form of their prayers."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And now surely this was a sorrowful day; yea, a time of solemnity, and a time of much fasting and prayer.",
+        "refs": [
+          "Alma 28:6"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent spoken prayers or a particular worship ceremony."
+      "Do not invent spoken prayers, a particular worship ceremony, or the identities of the people involved."
     ],
     "importance": "normal"
   },
@@ -285,14 +376,12 @@
     "refs": [
       "Alma 28:9"
     ],
-    "summary": "The account concerns wars and contentions among the Nephites and wars between the Nephites and Lamanites; the fifteenth year ended.",
+    "summary": "The account concerns wars and contentions among the Nephites and wars between the Nephites and the Lamanites. The fifteenth year of the reign of the judges ended.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The account concerns wars and contentions among the Nephites and wars between the Nephites and Lamanites.",
+        "text": "The account concerns wars and contentions among the Nephites and wars between the Nephites and the Lamanites.",
         "refs": [
           "Alma 28:9"
         ]
@@ -306,60 +395,85 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any specific war, battle, person, or place to depict."
+      "The appearance of any people or places associated with the account is unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And this is the account of the wars and contentions among the Nephites, and also the wars between the Nephites and the Lamanites;",
+        "refs": [
+          "Alma 28:9"
+        ]
+      },
+      {
+        "text": "and the fifteenth year of the reign of the judges is ended",
+        "refs": [
+          "Alma 28:9"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This is a summary, not a newly occurring battle scene."
+      "This verse summarizes wars; it does not narrate a newly occurring battle."
     ],
     "prohibited_inventions": [
-      "Do not turn the summary into a present-tense battle."
+      "Do not depict a specific battle or invent participants, places, or dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Lives Lost Over Fifteen Years",
+    "title": "Retrospective Account of Loss",
     "refs": [
       "Alma 28:10",
       "Alma 28:11"
     ],
-    "summary": "The years from the first through the fifteenth brought many thousands of deaths; many bodies lay in the earth or in heaps, while many mourned their kindred and feared endless woe for them.",
-    "characters": [
-      "Nephite mourners",
-      "Lamanite mourners"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The span from the first year to the fifteenth brought about the destruction of many thousands of lives and awful bloodshed. Many thousands of bodies lay in the earth, while many thousands moldered in heaps upon it. Many thousands mourned lost kindred, fearing, according to the promises of the Lord, that they were consigned to endless wo.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The first through fifteenth years brought the destruction of many thousand lives and an awful scene of bloodshed.",
+        "text": "The span from the first year to the fifteenth brought about the destruction of many thousands of lives and awful bloodshed.",
         "refs": [
           "Alma 28:10"
         ]
       },
       {
-        "text": "Many thousands of bodies were laid in the earth or moldering in heaps, and many mourned their kindred, fearing they were consigned to endless woe according to the Lord's promises.",
+        "text": "The bodies of many thousands are laid low in the earth, while those of many thousands are moldering in heaps upon the earth.",
+        "refs": [
+          "Alma 28:11"
+        ]
+      },
+      {
+        "text": "Many thousands mourn the loss of their kindred because they have reason to fear, according to the promises of the Lord, that they are consigned to endless wo.",
         "refs": [
           "Alma 28:11"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mourners may be shown alongside non-graphic signs of death, without identifying a particular battle or time."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The bodies' identities, specific location, and the circumstances of their deaths."
+      "No single location, gathering of mourners, or discrete moment is established.",
+      "The appearances and identities of the mourners and dead are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And from the first year to the fifteenth has brought to pass the destruction of many thousand lives; yea, it has brought to pass an awful scene of bloodshed.",
+        "refs": [
+          "Alma 28:10"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "These verses summarize losses across a span of years rather than narrating one discrete battle."
+      "Present this as a retrospective textual account, not a newly enacted event or continuation of an earlier scene.",
+      "The reference to endless wo reports the mourners' fear; it does not establish a visible supernatural event or confirm the fate of particular people."
     ],
     "prohibited_inventions": [
-      "Do not depict gore, blood, wounds, or severed body parts; do not identify the dead or assign them to a particular battle."
+      "Do not stage a present-tense gathering of mourners, battle, burial, or battlefield aftermath.",
+      "Do not compress losses across separate times into one depicted event.",
+      "Do not invent names, affiliations, relationships, locations, or dialogue.",
+      "Do not depict blood, wounds, gore, or severed body parts.",
+      "Do not visibly depict endless wo or invent an appearance of the Lord."
     ],
     "importance": "normal"
   },
@@ -369,35 +483,51 @@
     "refs": [
       "Alma 28:12"
     ],
-    "summary": "Many mourned their kindred yet rejoiced in the hope, and knowledge from the Lord's promises, that they were raised to dwell at God's right hand in never-ending happiness.",
-    "characters": [
-      "Nephite mourners",
-      "Lamanite mourners"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The report describes many thousands mourning the loss of their kindred while rejoicing in hope, and reports their knowledge, according to the promises of the Lord, concerning the departed’s never-ending happiness.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Many mourned their kindred but rejoiced and exulted in the hope, and knew according to the Lord's promises that they were raised to dwell at God's right hand in never-ending happiness.",
+        "text": "Many thousands of others mourn the loss of their kindred.",
+        "refs": [
+          "Alma 28:12"
+        ]
+      },
+      {
+        "text": "They also rejoice and exult in hope.",
+        "refs": [
+          "Alma 28:12"
+        ]
+      },
+      {
+        "text": "The report states that they know, according to the promises of the Lord, that their departed kindred are raised to dwell at the right hand of God in never-ending happiness.",
         "refs": [
           "Alma 28:12"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The contrast between grief and hope may be conveyed through mourners' expressions without visualizing heaven or the dead."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The mourners' identities and any visible depiction of God's right hand or the promised state."
+      "No setting, physical appearances, clothing, gestures, or facial expressions are specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "While many thousands of others truly mourn for the loss of their kindred, yet they rejoice and exult in the hope, and even know, according to the promises of the Lord, that they are raised to dwell at the right hand of God, in a state of never-ending happiness.",
+        "refs": [
+          "Alma 28:12"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The promise is reported as belief and hope, not as a narrated visible heavenly scene."
+      "This is a continuing report, not a newly staged present-time gathering.",
+      "The verse reports hope and knowledge according to the Lord’s promises; it does not narrate a visible raising or divine appearance.",
+      "The mourners and departed kindred are mentioned in narration, not established as physically present scene participants."
     ],
     "prohibited_inventions": [
-      "Do not depict deceased people in heaven or God appearing."
+      "Do not stage the reported mourners as a present-time crowd or invent their expressions or actions.",
+      "Do not depict God, heaven, a raising, or the departed dwelling at God’s right hand.",
+      "Do not invent identities, relationships beyond kindred, dialogue, locations, or a shared moment for the reported losses."
     ],
     "importance": "normal"
   },
@@ -407,14 +537,12 @@
     "refs": [
       "Alma 28:13"
     ],
-    "summary": "The narrator reflects that sin and transgression, and the devil's power through cunning plans, bring about great inequality among people.",
+    "summary": "The narrator reflects on the great inequality of man because of sin, transgression, and the power of the devil.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The narrator attributes the great inequality of man to sin and transgression and the devil's power through cunning plans devised to ensnare people's hearts.",
+        "text": "The verse attributes the great inequality of man to sin and transgression, and to the power of the devil through cunning plans devised to ensnare people's hearts.",
         "refs": [
           "Alma 28:13"
         ]
@@ -422,15 +550,22 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any visual representation of the devil, sin, or the figure of speech about ensnaring hearts."
+      "Any visual design used to accompany this teaching."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And thus we see how great the inequality of man is because of sin and transgression, and the power of the devil, which comes by the cunning plans which he hath devised to ensnare the hearts of men.",
+        "refs": [
+          "Alma 28:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The language is a teaching and metaphor, not a narrated supernatural event."
+      "This verse states a teaching rather than narrating a visible event. Ensnaring hearts is figurative language."
     ],
     "prohibited_inventions": [
-      "Do not depict the devil or literal snares as visible events."
+      "Do not depict the devil, literal snares, or a supernatural event as visibly occurring."
     ],
     "importance": "normal"
   },
@@ -440,14 +575,18 @@
     "refs": [
       "Alma 28:14"
     ],
-    "summary": "The narrator calls people to diligence in the Lord's vineyards and reflects on sorrow for death and destruction and joy because of the light of Christ unto life.",
+    "summary": "The verse calls for diligence in the Lord's vineyards and identifies death and destruction as reasons for sorrow and the light of Christ unto life as a reason for joy.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The narrator teaches the call to diligence in laboring in the Lord's vineyards and gives sorrow for death and destruction and joy because of the light of Christ unto life as reasons for sorrow and rejoicing.",
+        "text": "The verse calls for men to labor diligently in the vineyards of the Lord.",
+        "refs": [
+          "Alma 28:14"
+        ]
+      },
+      {
+        "text": "It identifies death and destruction among men as reasons for sorrow, and the light of Christ unto life as a reason for joy.",
         "refs": [
           "Alma 28:14"
         ]
@@ -455,12 +594,19 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any vineyard, worker, or visible depiction of the light of Christ."
+      "No physical setting or visible action is specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And thus we see the great call of diligence of men to labor in the vineyards of the Lord; and thus we see the great reason of sorrow, and also of rejoicing—sorrow because of death and destruction among men, and joy because of the light of Christ unto life.",
+        "refs": [
+          "Alma 28:14"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The vineyard and light language is teaching, not a narrated visible scene."
+      "The vineyard and light language is teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
       "Do not create a literal vineyard scene or depict Christ appearing."

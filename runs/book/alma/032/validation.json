@@ -1,0 +1,89 @@
+{
+  "stamp": "4c3f437b8f4f6e7e5829f11f40bc9406a238fb2c4f1cc62c42d70238cdab5003",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The proposed visual inference that the multitude gathers near Alma to hear its foremost member speak is reasonable, but the verses do not specify their precise positioning or that they gather specifically to hear him."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration quotes a portion of Alma's spoken line as narration rather than identifying it as speech; content is exact, but the field classification is uncertain."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Unidentified speaker is not named in these verses, and the speaker's identity and setting remain unspecified; avoid implying a particular appearance or location. The reported speakers and the people in the teaching comparison are not present as visible events.",
+        "The supplied dialogue is verbatim, but the final excerpt from Alma 32:19 omits the verse’s closing comparison; ensure no visuals imply a different or completed action. The previous scene’s chronology does not conflict. The 46 quoted words are within the 65-word limit."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration is a direct quotation of Alma's teaching rather than narration of an event; this is a field-classification uncertainty, not an invented quotation."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is not identified in these verses; the label “unnamed speaker” is appropriately cautious, but the preceding scene names Alma, and the verses do not explicitly confirm continuity of speaker.",
+        "Summary says listeners are “afflicted and cast out,” while the verse directly addresses them as such; this is supported, though the clause “desired to know what to do” is phrased as the speaker’s report.",
+        "Dialogue fragments are exact contiguous excerpts, but the second excerpt begins mid-sentence and omits the verse’s intervening wording; the prompt permits separate short exact excerpts. Angels and children are mentioned in general teaching, not as present events."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration is an exact excerpt from Alma's spoken address rather than event narration; the speech itself is identified separately, so this is a field-classification uncertainty."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary slightly overstates that the seed is planted: verse 33 frames this conditionally with “because ye have tried the experiment, and planted the seed.” Treat it as part of the teaching, not as a present scene event."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is a verbatim excerpt from verse 38, but it is a conditional teaching image, not an event; ensure it is presented as speech rather than visual action.",
+        "The visual inference correctly frames a neglected tree as illustrative, but the verses do not specify its appearance or any actual depiction."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

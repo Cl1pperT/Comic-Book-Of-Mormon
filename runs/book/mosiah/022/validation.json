@@ -1,70 +1,61 @@
 {
-  "stamp": "476ddeed4857f3a448531c95583121f5a405328682ba966b96351b46d1d63a79",
+  "stamp": "5382be9bb6229c9edb7a2d7d851149a867b5e1e99f52aab0b5fa786d622e5b46",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Lamanites (2 Nephi era)” misidentifies the Lamanites in this Mosiah-era scene."
+        "The people are considering departure, not shown physically leaving in this verse; the visual inference is appropriately qualified, but the phrase “considering flight” is not stated verbatim."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The prohibition on naming the king is too strict: Mosiah 22:1 identifies him as Limhi."
+        "“The king” is unnamed in the supplied verses. The scene does not invent his identity; visual posture or demeanor is unspecified."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Mosiah 22:5, included in the supplied source, explicitly identifies Gideon as the speaker of verses 6–8. The speaker label and note claiming his identity is unavailable contradict the source."
+        "The speaker is Gideon, established by the supplied preceding verse (Mosiah 22:5); labeling him only “Unnamed speaker” leaves the character unidentified. Use the established Gideon label without inferring beyond the text.",
+        "The summary says “back pass” and “proposes” accurately, but the phrase “a last tribute” can read as an event; clarify it is proposed, not delivered in this scene.",
+        "The dialogue excerpts are verbatim and within the word limit. Avoid depicting the route, camp, women, children, or livestock as physically present: they are mentioned in Gideon’s proposal, not established as present during the speech."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The prohibition on naming the king is too strict: Mosiah 22:1 identifies him as Limhi."
+        "Whether Gideon is visibly present is unspecified; the scene appropriately identifies this uncertainty."
       ]
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "“Lamanites (2 Nephi era)” misidentifies the recipients in this Mosiah-era scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The source names Ammon and his brethren as leaders, but the scene labels them only as “Ammon” and “Ammon’s brethren”; consider using the established character label “Ammon (explorer, Mosiah 7)” to avoid ambiguity."
       ]
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "“Lamanites (2 Nephi era)” misidentifies the pursuers in this Mosiah-era scene.",
-        "This pursuit follows the departure in time, although the verse recounts it after the reception in Zarahemla. The scene must not imply that the pursuit began after that reception."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

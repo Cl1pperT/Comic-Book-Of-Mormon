@@ -1,0 +1,96 @@
+{
+  "stamp": "e938f15a3602d573b7da4a6c756a5aefd11c13593297887ab7ec4487b1be0532",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The arriving men and provisions join the army's encampment” is a plausible but unspecified visual inference; the verses say they arrived and joined the band, without specifying an encampment."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses say the returning men arrived in time to check “them,” but do not explicitly identify “them” as the Lamanites; the summary's claim that the Lamanites are about to overpower the force is an inference. The scene's visual inference likewise stages the Lamanites pressing toward the force, which is plausible but not specified as a visible action.",
+        "The return “on the morrow” and the timely arrival are both stated, but the text does not specify whether these descriptions refer to precisely the same moment. Avoid adding staging that fixes more chronology than the verses give."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary places the battle at Cumeni, but verses 19–21 do not explicitly locate the battle there; the preceding scene also does not establish a location for the later battle."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scenes skip verses 17–18, which establish the returning escort's timely arrival to check the Lamanites as they nearly overpowered Helaman's force. The summary should not imply the victory occurred solely after the retreat from the battle area; the account says the escort and young soldiers beat the Lamanites."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the Lamanites flee, but verse 24 places the tending after they had fled, with no fleeing event included in this scene's refs; their retreat is narrated in scene_011."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“A quiet moment of reflection” is an uncertain visual inference: the verses describe astonishment and Helaman's interpretation, but do not specify a quiet setting or moment."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary states the spies “would destroy their people,” but the verse reports their warning as future speech, not as an established event or certain outcome."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary places this reported event at an unspecified location, appropriately, but the visual inference of a “sudden uprising” is not explicit beyond the prisoners rising in rebellion."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Gid declares they have again been delivered and credits God, but this is reported speech in Gid's account, not necessarily a present-tense scene at Cumeni; keep the words as reported rather than staging them as occurring on arrival."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

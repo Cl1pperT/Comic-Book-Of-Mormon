@@ -1,16 +1,14 @@
 {
-  "stamp": "c5ec3a274c914b835793d83aba7a01ca2b31557dc48e153cbff0574a31767705",
+  "stamp": "8b8c582ca189194c367c997166a80b6f8ea1333b67279c9457a4431ad9be9de7",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Alma 27:2 leaves some ambiguity about whether the Amalekites or the people they stirred up are the immediate agents who begin destroying the Anti-Nephi-Lehies; the summary attributes the action to the Amalekites."
       ]
     },
     "scene_003": {
@@ -26,65 +24,65 @@
       "issues": []
     },
     "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord’s speech is quoted as two excerpts from Alma 27:12 that omit the intervening words; the quotations themselves are verbatim and the omission is not marked with ellipses, as required. The Lord's manner of communicating the answer is unspecified."
+      ]
+    },
+    "scene_007": {
       "status": "PASS",
       "issues": []
     },
-    "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
-    },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_011": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_012": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The narration excerpt “and he fell again to the earth” is verbatim, but does not itself state that Ammon fell; showing the fall is supported by the explicit fact in Alma 27:17. The visual setting and others’ reactions remain unspecified."
       ]
     },
-    "scene_013": {
-      "status": "REJECT",
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The narrative reflection quotes Alma 27:18, but its description as narration rather than a separate visible event is an interpretation; specific gestures and setting are unspecified."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is an exact excerpt from Alma 27:21, but it omits the verse’s stated purpose: seeking the people’s voice concerning admission of the people of Anti-Nephi-Lehi. The summary and explicit facts correctly include that purpose.",
+        "The chief judge's presence as a character is supported; the source does not specify his appearance or where he sends the proclamation from. The scene correctly leaves these details unstated.",
+        "The previous scene's events are presented as preceding context, not merged into the current scene."
       ]
     },
     "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people’s voice is explicitly reported, but how it is voiced and who, if anyone, is visibly speaking are unspecified."
+      ]
+    },
+    "scene_015": {
       "status": "PASS",
       "issues": []
     },
-    "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
-    },
     "scene_016": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The inference that the people are shown in a settled community carries forward scene_016's settlement in Jershon; Alma 27:27–30 does not specify a setting or a particular moment. Avoid presenting it as a distinct event in this scene."
+        "The proposed nonviolent, settled-community depiction is a visual inference; the verses summarize qualities and choices across an unspecified period rather than describe a specific setting or present action."
       ]
     }
   }

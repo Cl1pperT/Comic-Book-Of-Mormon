@@ -1,5 +1,5 @@
 {
-  "stamp": "d7e2b8e8f03efe4bb00a90a37302257f71d282cdee188621f6fdcb879ee2b4ca",
+  "stamp": "4f57c4f8886db48e85b244123b4b9c6880702ede30d35d079ae1f7b5876d8317",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,51 +22,42 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The pronoun in Mosiah 11:10–11 refers to Noah in the chapter’s continuous account; the prohibition against identifying him overlooks that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "The builder is not an unidentified character. In context, “he” refers to Noah (Mosiah 11:8–12), so the character label and prohibition against naming him are incorrect."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "The man in Mosiah 11:14–15 is Noah in the continuous account. Treating his identity as unsupplied and prohibiting that identification contradicts the supplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The group opposed by Noah’s armies is the Lamanites: “them” in Mosiah 11:18 refers back to the Lamanites in 11:17. Calling the group unidentified is incorrect."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "These words continue Abinadi’s prophecy begun in Mosiah 11:20. The claim that no human speaker can be named, and the omission of Abinadi as speaker, contradict that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is Abinadi, continuing the prophecy begun in Mosiah 11:20; labeling him “Unnamed speaker” misidentifies the speaker."
+        "The quoted excerpt from Mosiah 11:24 is exact, but omits the condition and timing that the people cry to the Lord; preserve that context if the excerpt is intended to convey the full warning.",
+        "The speaker is identifiable from the supplied context as Abinadi (Mosiah 11:20); the scene labels him only as an unnamed speaker. Audience and location remain unspecified."
       ]
     },
     "scene_015": {

@@ -809,57 +809,72 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "The Gathered Multitude Murmurs",
+    "title": "The Gathered Multitude",
     "refs": [
       "Alma 22:24",
       "Alma 22:25"
     ],
-    "summary": "A multitude gathers because of the queen’s command and murmurs against Aaron and his brethren. The king stands among them and ministers to them, and they are pacified toward the missionaries.",
+    "summary": "A multitude gathers because of the queen’s command and murmurs because of Aaron and his brethren. The king stands among them and administers to them. They are pacified toward Aaron and those with him.",
     "characters": [
-      "the queen of Lamoni",
-      "the king over all the land (Lamoni's father)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
+      "the king",
       "the gathered multitude"
     ],
-    "locations": [
-      "the king’s palace in the land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A multitude gathers because of the queen’s command and murmurs because of Aaron and his brethren.",
+        "text": "A multitude gathered because of the queen’s commandment.",
         "refs": [
           "Alma 22:24"
         ]
       },
       {
-        "text": "The king stands among the multitude and ministers to them; they are pacified toward Aaron and his companions.",
+        "text": "Great murmurings began among them because of Aaron and his brethren.",
+        "refs": [
+          "Alma 22:24"
+        ]
+      },
+      {
+        "text": "The king stood among the multitude and administered to them.",
+        "refs": [
+          "Alma 22:25"
+        ]
+      },
+      {
+        "text": "The multitude was pacified toward Aaron and those with him.",
         "refs": [
           "Alma 22:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king addresses a gathered crowd while Aaron and his brethren are present."
+      "The gathered multitude becomes calmer after the king administers to them."
     ],
     "unspecified_visual_details": [
-      "The size and appearance of the multitude and the content of the king’s ministry."
+      "The gathering place and its appearance.",
+      "Whether the queen, Aaron, or his brethren are physically present.",
+      "The multitude’s size and appearance and the manner of the king’s administration."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were pacified towards Aaron and those who were with him.",
+        "text": "there began to be great murmurings among them because of Aaron and his brethren.",
+        "refs": [
+          "Alma 22:24"
+        ]
+      },
+      {
+        "text": "But the king stood forth among them and administered unto them.",
         "refs": [
           "Alma 22:25"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The text gives no words spoken by the king in this address."
+      "No words spoken by the king or the multitude are supplied."
     ],
     "prohibited_inventions": [
-      "Do not invent the king’s speech or depict an attack."
+      "Do not place the gathering in a palace or another specified location.",
+      "Do not invent the king’s speech, an attack, or the physical presence of people only mentioned in the verses."
     ],
     "importance": "normal"
   },
@@ -869,45 +884,50 @@
     "refs": [
       "Alma 22:26"
     ],
-    "summary": "After seeing the people pacified, the king has Aaron and his brethren stand in the midst of the multitude and preach the word to them.",
+    "summary": "The king sees that the people are pacified and causes Aaron and his brethren to stand in the midst of the multitude and preach to them.",
     "characters": [
-      "the king over all the land (Lamoni's father)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "the gathered multitude"
+      "the king",
+      "Aaron",
+      "Aaron's brethren",
+      "the multitude"
     ],
-    "locations": [
-      "the king’s palace in the land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "When the king sees that the people are pacified, he causes Aaron and his brethren to stand in the multitude’s midst and preach the word to them.",
+        "text": "The king sees that the people are pacified.",
+        "refs": [
+          "Alma 22:26"
+        ]
+      },
+      {
+        "text": "The king causes Aaron and his brethren to stand forth in the midst of the multitude and preach the word to them.",
         "refs": [
           "Alma 22:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron and his brethren stand before the gathered people."
+      "The multitude is gathered around Aaron and his brethren as they stand in its midst."
     ],
     "unspecified_visual_details": [
-      "The sermon’s content, the people’s reactions, and any specific speech."
+      "The location and its appearance.",
+      "The content of the preaching and the multitude's reactions."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they should preach the word unto them.",
+        "text": "And it came to pass that when the king saw that the people were pacified, he caused that Aaron and his brethren should stand forth in the midst of the multitude, and that they should preach the word unto them.",
         "refs": [
           "Alma 22:26"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The preaching is stated, but its words are not supplied."
+      "The verse states that they preach the word but does not supply their words."
     ],
     "prohibited_inventions": [
-      "Do not invent sermon dialogue."
+      "Do not specify a palace or any other location.",
+      "Do not name Aaron's brethren or invent sermon dialogue."
     ],
     "importance": "normal"
   },

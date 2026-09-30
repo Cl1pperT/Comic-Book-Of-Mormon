@@ -152,9 +152,9 @@
       "Alma 31:6",
       "Alma 31:7"
     ],
-    "summary": "He took Ammon, Aaron, Omner, Amulek, Zeezrom, Shiblon, and Corianton with him among the Zoramites to preach. He left Himni in the church in Zarahemla and did not take Helaman.",
+    "summary": "Alma took Ammon, Aaron, Omner, Amulek, Zeezrom, Shiblon, and Corianton with him. They went among the Zoramites to preach the word. Himni remained in the church in Zarahemla, and Alma did not take Helaman.",
     "characters": [
-      "Unnamed leader",
+      "Alma",
       "Ammon",
       "Aaron",
       "Omner",
@@ -168,19 +168,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "He took Ammon, Aaron, and Omner with him, and left Himni in the church in Zarahemla.",
+        "text": "He took Ammon, Aaron, and Omner with him and left Himni in the church in Zarahemla.",
         "refs": [
           "Alma 31:6"
         ]
       },
       {
-        "text": "He also took Amulek and Zeezrom, who were at Melek, and two of his sons.",
+        "text": "He took Amulek and Zeezrom, who were at Melek, and two of his sons.",
         "refs": [
           "Alma 31:6"
         ]
       },
       {
-        "text": "The sons he took were Shiblon and Corianton. He did not take his eldest son, Helaman.",
+        "text": "The sons he took were Shiblon and Corianton; he did not take his eldest son, Helaman.",
         "refs": [
           "Alma 31:7"
         ]
@@ -196,11 +196,23 @@
       "The traveling party may be shown together among the Zoramites."
     ],
     "unspecified_visual_details": [
-      "The leader is not named in the supplied verses.",
+      "Alma is the contextual identification of “he”; his name does not appear in the supplied verse text.",
       "The travelers’ appearances, manner of travel, and exact surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Therefore he took Ammon, and Aaron, and Omner;",
+        "refs": [
+          "Alma 31:6"
+        ]
+      },
+      {
+        "text": "but the names of those whom he took with him were Shiblon and Corianton;",
+        "refs": [
+          "Alma 31:7"
+        ]
+      },
       {
         "text": "these are the names of those who went with him among the Zoramites, to preach unto them the word.",
         "refs": [
@@ -208,10 +220,13 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Going among the Zoramites to preach is stated; an act of preaching is not narrated in these verses."
+    ],
     "prohibited_inventions": [
       "Do not show Himni or Helaman as members of the traveling party.",
-      "Do not depict the party gathering at Melek or Zarahemla; the verses do not place the whole group at either location."
+      "Do not depict the whole party gathering at Melek or Zarahemla.",
+      "Do not invent a sermon or spoken dialogue."
     ],
     "importance": "normal"
   },
@@ -405,32 +420,32 @@
       "Alma 31:17",
       "Alma 31:18"
     ],
-    "summary": "A prayer calls God holy, declares belief that God has elected the speakers and that there shall be no Christ, contrasts their claimed fate with that of others, and ends with thanks.",
+    "summary": "A prayer addresses God as holy, expresses the speakers’ beliefs about their election and Christ, contrasts their claimed fate with that of others, and ends with thanks.",
     "characters": [
-      "Unidentified speaker"
+      "Unidentified prayer speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The prayer addresses God as holy and says God will be a spirit forever.",
+        "text": "The speaker says they believe God is holy and will be a spirit forever.",
         "refs": [
           "Alma 31:15"
         ]
       },
       {
-        "text": "The speakers say they believe God has elected them as holy children and made known that there shall be no Christ.",
+        "text": "The speaker says they believe God has elected them as holy children and made known that there shall be no Christ.",
         "refs": [
           "Alma 31:16"
         ]
       },
       {
-        "text": "The speakers say others are elected to be cast down to hell.",
+        "text": "The speaker says they are elected to be saved while others are elected to be cast down to hell.",
         "refs": [
           "Alma 31:17"
         ]
       },
       {
-        "text": "The prayer ends with thanks and calls the speakers a chosen and holy people.",
+        "text": "The prayer ends by thanking God and calling the speakers a chosen and holy people.",
         "refs": [
           "Alma 31:18"
         ]
@@ -438,44 +453,44 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker’s identity, appearance, and surroundings are not specified in these verses."
+      "The prayer speaker’s identity and appearance, the number of people present, and the setting are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Holy, holy God;",
+        "text": "Holy, holy God; we believe that thou art God,",
         "refs": [
           "Alma 31:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unidentified prayer speaker"
       },
       {
         "text": "and also thou hast made it known unto us that there shall be no Christ.",
         "refs": [
           "Alma 31:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unidentified prayer speaker"
       },
       {
         "text": "whilst all around us are elected to be cast by thy wrath down to hell;",
         "refs": [
           "Alma 31:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unidentified prayer speaker"
       },
       {
         "text": "And again we thank thee, O God, that we are a chosen and a holy people. Amen.",
         "refs": [
           "Alma 31:18"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unidentified prayer speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Claims about divine election and Christ are the speakers’ beliefs, not established facts."
+      "Claims about divine election, Christ, and others’ fate are the speaker’s beliefs, not independently established facts."
     ],
     "prohibited_inventions": [
-      "Do not depict a stand, congregation, named location, Christ, or a supernatural event not described in these verses."
+      "Do not depict God, Christ, hell, a supernatural event, or a specific setting not described in these verses."
     ],
     "importance": "normal"
   },
@@ -661,90 +676,79 @@
       "Alma 31:28",
       "Alma 31:29"
     ],
-    "summary": "A man lifts his voice to heaven. He laments wickedness, describes people who cry to God while taking pride in costly adornments, and recounts their claims to be chosen and that there will be no Christ.",
+    "summary": "An unnamed speaker lifts his voice to heaven and cries to the Lord. In his prayer, he describes people's pride and adornments and reports their claims that they are chosen while others shall perish and that God has revealed there shall be no Christ.",
     "characters": [
-      "Unnamed male speaker"
+      "Unnamed speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "He lifted his voice to heaven and cried to the Lord about wickedness among the children of men.",
+        "text": "The speaker lifts his voice to heaven and asks how long the Lord will allow his servants to behold wickedness among the children of men.",
         "refs": [
           "Alma 31:26"
         ]
       },
       {
-        "text": "He said that people cry to God while their hearts are swallowed up in pride.",
+        "text": "In his prayer, he says the people cry to God while filled with pride and the vain things of the world.",
         "refs": [
           "Alma 31:27"
         ]
       },
       {
-        "text": "He described their costly apparel, ringlets, bracelets, gold ornaments, and precious things, and recounted their claim to be chosen while others perish.",
+        "text": "He describes costly apparel, ringlets, bracelets, gold ornaments, and precious things, saying the people's hearts are set upon them.",
         "refs": [
           "Alma 31:28"
         ]
       },
       {
-        "text": "He said they claim God made it known to them that there will be no Christ.",
+        "text": "He reports the people's claim that they are chosen by God while others shall perish.",
+        "refs": [
+          "Alma 31:28"
+        ]
+      },
+      {
+        "text": "He reports their claim that God has made known to them that there shall be no Christ.",
         "refs": [
           "Alma 31:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown with his face raised as he cries to heaven."
+      "The speaker may look upward while lifting his voice to heaven."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance and exact surroundings are not specified.",
-      "The design of the apparel and ornaments is not specified."
+      "The speaker's name, appearance, clothing, and precise posture are unspecified.",
+      "The setting and the positions or physical presence of the people described are not established.",
+      "The designs of the described apparel and ornaments are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "O, how long, O Lord",
+        "text": "O, how long, O Lord, wilt thou suffer that thy servants shall dwell here below in the flesh, to behold such gross wickedness among the children of men?",
         "refs": [
           "Alma 31:26"
         ],
-        "speaker": "Unnamed male speaker"
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "Behold, O God, they cry unto thee, and yet their hearts are swallowed up in their pride.",
-        "refs": [
-          "Alma 31:27"
-        ],
-        "speaker": "Unnamed male speaker"
-      },
-      {
-        "text": "Behold, O my God, their costly apparel, and their ringlets, and their bracelets, and their ornaments of gold,",
-        "refs": [
-          "Alma 31:28"
-        ],
-        "speaker": "Unnamed male speaker"
-      },
-      {
-        "text": "there shall be no Christ.",
+        "text": "Yea, and they say that thou hast made it known unto them that there shall be no Christ.",
         "refs": [
           "Alma 31:29"
         ],
-        "speaker": "Unnamed male speaker"
+        "speaker": "Unnamed speaker"
       }
     ],
-    "narration": [
-      {
-        "text": "And he lifted up his voice to heaven, and cried, saying:",
-        "refs": [
-          "Alma 31:26"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The description of hearts swallowed up in pride is figurative, not a visible event.",
-      "The claims attributed to the people are reported within the speaker’s prayer; the verses do not place those people in the scene."
+      "The people's claims are reported within the speaker's prayer, not independently affirmed or staged as present dialogue.",
+      "Hearts swallowed up in pride and being puffed up are figurative descriptions, not visible supernatural events.",
+      "These verses do not name the speaker."
     ],
     "prohibited_inventions": [
-      "Do not name the speaker, the people he describes, or the location.",
-      "Do not depict a heart being swallowed or show God appearing.",
-      "Do not stage the people’s reported claims as a separate event."
+      "Do not identify the unnamed speaker as Alma using material outside these verses.",
+      "Do not stage the people's reported prayers or claims as separate or simultaneous events.",
+      "Do not invent a divine appearance or response.",
+      "Do not literalize the figurative descriptions of pride.",
+      "Do not invent names, biographies, dialogue, or an exact location."
     ],
     "importance": "normal"
   },

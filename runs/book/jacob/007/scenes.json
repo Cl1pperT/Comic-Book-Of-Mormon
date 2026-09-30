@@ -8,7 +8,8 @@
     ],
     "summary": "After some years, Sherem came among the people of Nephi and preached that there should be no Christ.",
     "characters": [
-      "Sherem"
+      "Sherem",
+      "People of Nephi"
     ],
     "locations": [
       "Unspecified location"
@@ -40,7 +41,14 @@
       "The number and appearance of the people, clothing, architecture, and exact place."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "there came a man among the people of Nephi, whose name was Sherem.",
+        "refs": [
+          "Jacob 7:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The teaching that there should be no Christ is a spoken teaching, not a visible event."
     ],
@@ -533,7 +541,7 @@
       "Jacob 7:13",
       "Jacob 7:14"
     ],
-    "summary": "An unnamed man asks Jacob to show him a sign by the power of the Holy Ghost. Jacob questions tempting God for a sign, says the man will deny what he knows to be true, describes a sign conditionally, and asks that the Lord's will be done.",
+    "summary": "A man asks Jacob for a sign by the power of the Holy Ghost. Jacob questions tempting God, says the man will deny what he knows to be true, describes a possible sign if God smites him, and asks that the Lord's will be done.",
     "characters": [
       "Jacob",
       "Unnamed man addressing Jacob"
@@ -543,19 +551,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The man asks Jacob to show him a sign by the power of the Holy Ghost.",
+        "text": "The man asks Jacob for a sign by the power of the Holy Ghost.",
         "refs": [
           "Jacob 7:13"
         ]
       },
       {
-        "text": "Jacob questions whether he should tempt God to show the man a sign.",
+        "text": "Jacob questions tempting God to show the man a sign in something the man knows to be true.",
         "refs": [
           "Jacob 7:14"
         ]
       },
       {
-        "text": "Jacob says the man will deny what he knows to be true because he is of the devil.",
+        "text": "Jacob says the man will deny it because he is of the devil.",
         "refs": [
           "Jacob 7:14"
         ]
@@ -567,14 +575,14 @@
         ]
       },
       {
-        "text": "Jacob asks that the Lord's will, not his own, be done.",
+        "text": "Jacob asks that the Lord's will, rather than his own, be done.",
         "refs": [
           "Jacob 7:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The two speakers are conversing."
+      "Jacob and the man are speaking to each other."
     ],
     "unspecified_visual_details": [
       "The speakers' appearances and ages",
@@ -582,7 +590,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Show me a sign by this power of the Holy Ghost, in the which ye know so much.",
+        "text": "Show me a sign",
         "refs": [
           "Jacob 7:13"
         ],
@@ -596,7 +604,21 @@
         "speaker": "Jacob"
       },
       {
-        "text": "but if God shall smite thee, let that be a sign unto thee",
+        "text": "Yet thou wilt deny it, because thou art of the devil.",
+        "refs": [
+          "Jacob 7:14"
+        ],
+        "speaker": "Jacob"
+      },
+      {
+        "text": "if God shall smite thee, let that be a sign unto thee",
+        "refs": [
+          "Jacob 7:14"
+        ],
+        "speaker": "Jacob"
+      },
+      {
+        "text": "he has power, both in heaven and in earth; and also, that Christ shall come.",
         "refs": [
           "Jacob 7:14"
         ],
@@ -612,12 +634,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The proposed sign is conditional; these verses do not report it happening.",
+      "The sign is conditional; these verses do not report it happening.",
       "The man addressing Jacob is not named in the supplied verses."
     ],
     "prohibited_inventions": [
-      "Do not depict God smiting the man or any other visible sign.",
-      "Do not depict the Holy Ghost, God, or Christ as visibly appearing.",
+      "Do not depict God smiting the man or any visible sign.",
+      "Do not depict the Holy Ghost, God, or Christ visibly appearing.",
       "Do not assign a name to the man or ages to either speaker."
     ],
     "importance": "normal"
@@ -894,7 +916,7 @@
       "Jacob 7:20",
       "Jacob 7:21"
     ],
-    "summary": "After speaking, the man could say no more and died. The multitude witnessed his words as he was about to die and were exceedingly astonished. The power of God came down upon them; they were overcome and fell to the earth.",
+    "summary": "After speaking, the man could say no more and died. The multitude witnessed him speak as he was about to die and were exceedingly astonished. The power of God came down upon them; they were overcome and fell to the earth.",
     "characters": [
       "the man",
       "the multitude"
@@ -923,7 +945,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The multitude is present to witness the man speaking and falling to the earth afterward."
+      "The multitude is close enough to witness the man speaking."
     ],
     "unspecified_visual_details": [
       "The man's identity and appearance.",
@@ -931,7 +953,14 @@
       "The location and any visible form of God's power."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and he gave up the ghost.",
+        "refs": [
+          "Jacob 7:20"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The verses do not supply the man's preceding words."
     ],
@@ -1000,13 +1029,11 @@
     "refs": [
       "Jacob 7:23"
     ],
-    "summary": "Peace and the love of God were restored among the people; they searched the scriptures and no longer hearkened to Sherem's words.",
+    "summary": "Peace and the love of God were restored among the people. They searched the scriptures and no longer hearkened to the wicked man's words.",
     "characters": [
-      "people of Nephi"
+      "the people"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Peace and the love of God were restored among the people.",
@@ -1015,70 +1042,99 @@
         ]
       },
       {
-        "text": "The people searched the scriptures and no longer hearkened to Sherem's words.",
+        "text": "The people searched the scriptures.",
+        "refs": [
+          "Jacob 7:23"
+        ]
+      },
+      {
+        "text": "The people no longer hearkened to the wicked man's words.",
         "refs": [
           "Jacob 7:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People may be shown reading scriptures together."
+      "People may be shown looking through scriptures."
     ],
     "unspecified_visual_details": [
-      "The setting, the scriptures' physical form, and how many people are present."
+      "The location, the scriptures' physical form, and the number of people present."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they searched the scriptures, and hearkened no more to the words of this wicked man.",
+        "refs": [
+          "Jacob 7:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Peace and God's love are stated outcomes, not visible supernatural effects."
+      "Peace and the love of God are stated outcomes, not visible supernatural effects."
     ],
     "prohibited_inventions": [
-      "Do not show a visible divine presence."
+      "Do not identify the wicked man by name or depict a divine appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_017",
-    "title": "The Nephites fortify against the Lamanites",
+    "title": "The People of Nephi Fortify Against the Lamanites",
     "refs": [
       "Jacob 7:24",
       "Jacob 7:25"
     ],
-    "summary": "Efforts to reclaim the Lamanites were vain; they delighted in wars and sought continually to destroy the Nephites. The Nephites fortified themselves and became conquerors of their enemies.",
+    "summary": "Many means to reclaim the Lamanites were devised but were vain. The Lamanites sought continually to destroy the people of Nephi. The people of Nephi fortified against them and became conquerors of their enemies.",
     "characters": [
-      "Lamanites (2 Nephi era)",
-      "Nephite settlers (2 Nephi)"
+      "Lamanites",
+      "People of Nephi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Many means were devised to reclaim and restore the Lamanites to the knowledge of truth, but all were vain; they delighted in wars and bloodshed, hated the Nephites, and sought to destroy them continually.",
+        "text": "Many means were devised to reclaim and restore the Lamanites to the knowledge of the truth, but they were vain.",
         "refs": [
           "Jacob 7:24"
         ]
       },
       {
-        "text": "The people of Nephi fortified themselves with arms and might, trusting in God, and became conquerors of their enemies.",
+        "text": "The Lamanites delighted in wars and bloodshed, hated the people of Nephi, and sought continually to destroy them by force of arms.",
+        "refs": [
+          "Jacob 7:24"
+        ]
+      },
+      {
+        "text": "The people of Nephi fortified against them with their arms and all their might, trusted in God, and became conquerors of their enemies.",
         "refs": [
           "Jacob 7:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Nephites may be shown reinforcing a defensive position with arms."
+      "Members of the people of Nephi may be shown preparing a defense with arms."
     ],
     "unspecified_visual_details": [
-      "Specific battles, weapons, fortifications, casualties, and the manner of victory."
+      "The appearance of the people, their arms, and any defensive structures.",
+      "The means devised to reclaim the Lamanites and the manner of victory."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Wherefore, the people of Nephi did fortify against them with their arms, and with all their might, trusting in the God and rock of their salvation;",
+        "refs": [
+          "Jacob 7:25"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses summarize conflict and its outcome; they do not describe a particular battle."
+      "These verses summarize continuing conflict and its outcome without narrating a particular battle.",
+      "“Rock of their salvation” is not a description of a visible figure."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific combat event or show wounds, blood, or severed body parts."
+      "Do not stage a particular battle or depict wounds, blood, or severed body parts.",
+      "Do not depict a visible divine figure or literal rock as the object of trust."
     ],
     "importance": "normal"
   },

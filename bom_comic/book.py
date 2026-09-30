@@ -57,8 +57,11 @@ def held(path):
         return False
     if os.name == "nt":
         import subprocess
-        out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH"], capture_output=True, text=True).stdout
-        return str(pid) in out
+        out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH", "/FO", "CSV"], capture_output=True,
+                             text=True).stdout
+        # Windows reuses process IDs: a lock left by a killed run can name an unrelated process, so only a live
+        # Python process counts as holding it.
+        return any(line.lower().startswith('"python') and f'"{pid}"' in line for line in out.splitlines())
     try:
         os.kill(pid, 0)
         return True

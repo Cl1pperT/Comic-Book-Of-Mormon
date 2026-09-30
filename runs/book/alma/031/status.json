@@ -1,0 +1,24 @@
+{
+  "book": "Alma",
+  "chapter": 31,
+  "verses": 38,
+  "scenes": 17,
+  "counts": {
+    "PASS": 7,
+    "PASS WITH WARNINGS": 9,
+    "REJECT": 1
+  },
+  "rejected": {
+    "scene_012": [
+      "Alma 31:24–26 identifies the speaker as Alma: the “he” in verse 26 refers to Alma in verses 24–25. Calling him “Unnamed speaker” and prohibiting his identification contradicts the supplied source and preceding scene."
+    ]
+  },
+  "calls": 20,
+  "tokens": {
+    "input_tokens": 139008,
+    "cached_input_tokens": 75264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21814,
+    "reasoning_output_tokens": 7848
+  }
+}

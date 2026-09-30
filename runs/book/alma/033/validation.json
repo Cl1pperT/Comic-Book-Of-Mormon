@@ -1,0 +1,67 @@
+{
+  "stamp": "f50b6b0fb567710c1339c1b406f19961c3bff1cb1d071f582988025312d2942a",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wilderness is only a recalled setting in Zenos’s quoted prayer; avoid implying Alma’s present location is the wilderness."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The field and house are recalled in Zenos’s quotation; avoid depicting them as present-time action or establishing them as the current setting."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The closet is recalled in Zenos’s quotation; avoid depicting it as Alma’s present setting or staging Zenos’s prayer as current action."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Congregations and enemies are referenced in Zenos’s quotation, not located in Alma’s present scene; the quotation also reports destruction, which must not be staged as current action."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Zenock’s stoning is retrospective, not a present-time event; do not stage the violence."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wilderness and raised type are recalled in Alma’s teaching, not established as the present setting; the type’s appearance is unspecified."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This is retrospective teaching, not an unfolding wilderness event; the people, type, and manner of perishing are unspecified."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

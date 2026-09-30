@@ -1,23 +1,17 @@
 {
-  "stamp": "6f3e54b6317adcfc2132b6c2592d2b58a9f421dba9a0fc2f43c81dc8acf07d82",
+  "stamp": "4c9f5e98d2dbea9a097701ad74bee2219945338f7afce09ac27ef508de81bb72",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
@@ -35,64 +29,54 @@
       ]
     },
     "scene_006": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Aaron is explicitly named as present, but the verse uses only “they” for the angry listeners; their identities are unspecified. Use the listeners established by context without assigning them names or identities beyond the text."
       ]
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "Summary and narration are supported by Alma 21:11, but the narration omits the verse’s continuation about finding Muloki preaching, and Ammah and his brethren; this is an incomplete excerpt, not a contradiction.",
+        "The scene properly leaves the participants in “they contended” unspecified. Visual inference showing departure and arrival in sequence is reasonable, but avoid implying an unambiguous identity for the unnamed person or the contention participants.",
+        "The preceding scene’s sequence is compatible with the supplied verses; no chronology change is apparent."
       ]
     },
     "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The referent of “they” is not explicitly identified in this verse; keep the preachers unnamed and avoid asserting a specific group identity."
       ]
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The preachers are referred to as “they” in context; their names are not supplied in these verses. Do not depict the Spirit or the Lord as visible characters."
       ]
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

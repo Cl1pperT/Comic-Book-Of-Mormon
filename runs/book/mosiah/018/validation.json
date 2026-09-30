@@ -1,20 +1,22 @@
 {
-  "stamp": "971d79d5cd6cfcbaa9c4db4846b489c11cffea8f200f7a57b234fc476d04b9c2",
+  "stamp": "1a330e8bc4224f9ab912e4d23600358b6ab19ad340970ffe39acea7685770486",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The prior scene is consistent with Mosiah 18:1–3; it does not alter the events or chronology here.",
+        "“Alma” is identifiable from the supplied context, but the established character label is “Alma the Elder.”"
       ]
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "“Alma addresses the gathered people” is a reasonable inference from their gathering to hear him, not an explicitly described staging detail.",
+        "“Alma” is identifiable from the supplied context, but the established character label is “Alma the Elder.”"
       ]
     },
     "scene_004": {
@@ -34,35 +36,29 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The unnamed man is visually identified only as the speaker of the commands; source verses 23–26 do not name him. Keep his identity unspecified and do not depict a gathering or specific labor, which are prescribed rather than narrated here."
       ]
     },
     "scene_014": {
@@ -70,16 +66,12 @@
       "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",

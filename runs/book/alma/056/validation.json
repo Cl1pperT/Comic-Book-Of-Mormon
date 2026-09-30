@@ -1,0 +1,139 @@
+{
+  "stamp": "aa7a6a40c972ad63604a1475c999a28d34d2dee0dfe780267bd294fdc16f1d4a",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_001: Reading the letter is a reasonable visual inference, but receiving it is the only explicitly stated action; keep the depicted reading limited to the unspecified time and place."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_002: The summary combines the young men’s later readiness to break the covenant with their taking up weapons and coming forth to defend their country; the verses report this in a letter and across distinct moments, so avoid presenting it as one continuous present-time event."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_003: The character label “Lamanite warriors (Alma 56)” is not established in the provided list, and verse 10 reports their earlier killing rather than depicting it. Avoid showing that earlier action in this scene."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_004: The statement that the fallen are happy is Helaman’s reported belief; the visual inference correctly avoids depicting the deaths or prisoners as witnessed events."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_005: The cities’ possession by the Lamanites is reported background, not a present action; the scene appropriately prohibits depicting their capture."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_006: The divine favor and preservation are reported, not a visible appearance or event; no divine figure should be added."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_007: The rear attack is only a hoped-for plan and did not occur; keep it out of the visual scene."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_008: The Lamanites’ holding position is a reasonable inference, but the text does not specify a location or a particular holding action to depict."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_009: The provisions’ arrival and reinforcements are reported, but the verses do not explicitly place them at Judea; treat that location as uncertain."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_010: The march is a stratagem toward an intended destination, not an arrival; the group’s appearance with provisions is an inference from the feint."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_011: The spies’ report is summarized without supplied words; do not invent dialogue or stage an unsupported reporting scene."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_012: Helaman’s account frames the Lamanites’ supposed intent to kill his force as conjecture, not confirmed motive."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_013: The camp is stated, but the pursuers’ visibility from it is unspecified; keep them out of the image unless shown at an established distance."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_014: The account reports flight over the course of the day; avoid compressing separate moments into one continuous scene."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_015: The reason the Lamanites halted is unspecified; do not imply a motive."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_017: The mothers’ teaching and the young men’s lack of battle experience are reported past facts, not events to stage here; no mothers or invented teaching dialogue should appear."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_018: Antipus’s army’s battle and Helaman’s return are distinct actions; avoid making the scene imply they began simultaneously."
+      ]
+    },
+    "scene_019": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_019: The verse states that Antipus and leaders fell by the sword, but does not describe the precise action; depict no wounds, blood, or severed body parts."
+      ]
+    },
+    "scene_020": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_021": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_021: The surrender and subsequent counting are consecutive but distinct actions; do not collapse them into a single instant."
+      ]
+    },
+    "scene_022": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_022: “Strength of God” and “miraculous strength” are reported comparisons, not descriptions of visible supernatural effects; depict no divine appearance or invented effects."
+      ]
+    },
+    "scene_023": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_023: Sending prisoners toward Zarahemla and marching back toward Judea are distinct movements; neither arrival is stated."
+      ]
+    }
+  }
+}

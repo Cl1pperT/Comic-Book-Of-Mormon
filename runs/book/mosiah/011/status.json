@@ -4,33 +4,17 @@
   "verses": 29,
   "scenes": 17,
   "counts": {
-    "PASS": 11,
+    "PASS": 16,
     "PASS WITH WARNINGS": 1,
-    "REJECT": 5
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_007": [
-      "The builder is not an unidentified character. In context, “he” refers to Noah (Mosiah 11:8–12), so the character label and prohibition against naming him are incorrect."
-    ],
-    "scene_009": [
-      "The man in Mosiah 11:14–15 is Noah in the continuous account. Treating his identity as unsupplied and prohibiting that identification contradicts the supplied context."
-    ],
-    "scene_011": [
-      "The group opposed by Noah’s armies is the Lamanites: “them” in Mosiah 11:18 refers back to the Lamanites in 11:17. Calling the group unidentified is incorrect."
-    ],
-    "scene_013": [
-      "These words continue Abinadi’s prophecy begun in Mosiah 11:20. The claim that no human speaker can be named, and the omission of Abinadi as speaker, contradict that context."
-    ],
-    "scene_014": [
-      "The speaker is Abinadi, continuing the prophecy begun in Mosiah 11:20; labeling him “Unnamed speaker” misidentifies the speaker."
-    ]
-  },
-  "calls": 16,
+  "rejected": {},
+  "calls": 18,
   "tokens": {
-    "input_tokens": 111017,
-    "cached_input_tokens": 59136,
+    "input_tokens": 125281,
+    "cached_input_tokens": 67584,
     "cache_write_input_tokens": 0,
-    "output_tokens": 18550,
-    "reasoning_output_tokens": 6951
+    "output_tokens": 18343,
+    "reasoning_output_tokens": 6341
   }
 }

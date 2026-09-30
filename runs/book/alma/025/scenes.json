@@ -43,37 +43,51 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Attack on Ammonihah",
+    "title": "Attack in Ammonihah",
     "refs": [
       "Alma 25:2"
     ],
-    "summary": "The Lamanites take their armies into the borders of Zarahemla and destroy the people in the land of Ammonihah.",
+    "summary": "They take their armies into the borders of the land of Zarahemla, fall upon the people in the land of Ammonihah, and destroy them.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
+      "armies",
       "people in the land of Ammonihah"
     ],
     "locations": [
+      "borders of the land of Zarahemla",
       "land of Ammonihah"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites take their armies over into the borders of Zarahemla, fall upon the people in Ammonihah, and destroy them.",
+        "text": "They took their armies into the borders of the land of Zarahemla.",
+        "refs": [
+          "Alma 25:2"
+        ]
+      },
+      {
+        "text": "They fell upon the people in the land of Ammonihah and destroyed them.",
         "refs": [
           "Alma 25:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanite army attacks people in Ammonihah."
+      "The armies attack people in Ammonihah."
     ],
     "unspecified_visual_details": [
-      "The appearance of the town, the size of either group, and the precise actions of the attack."
+      "The armies' identity, the groups' sizes, their appearances, and the precise actions of the attack."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "But they took their armies and went over into the borders of the land of Zarahemla, and fell upon the people who were in the land of Ammonihah, and destroyed them.",
+        "refs": [
+          "Alma 25:2"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show graphic injury or add named participants."
+      "Do not identify the armies beyond what this verse states, add named participants, or show gore."
     ],
     "importance": "normal"
   },
@@ -84,42 +98,51 @@
       "Alma 25:3",
       "Alma 25:4"
     ],
-    "summary": "The Lamanites have many battles with the Nephites and are driven and slain. Almost all the seed of Amulon and his brethren are among those slain by Nephites.",
+    "summary": "The Lamanites fight many battles with the Nephites and are driven and slain. Almost all the seed of Amulon and his brethren are among the Lamanites slain by Nephites.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite warriors",
-      "seed of Amulon and his brethren"
+      "Lamanites",
+      "Nephites",
+      "Seed of Amulon and his brethren"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified locations"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites have many battles with the Nephites, in which they are driven and slain.",
+        "text": "They had many battles with the Nephites, in which they were driven and slain.",
         "refs": [
           "Alma 25:3"
         ]
       },
       {
-        "text": "Almost all the seed of Amulon and his brethren who are slain are killed by the Nephites.",
+        "text": "Almost all the seed of Amulon and his brethren, the priests of Noah, were among the Lamanites slain by Nephites.",
         "refs": [
           "Alma 25:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephite and Lamanite forces clash; Lamanites are driven back."
+      "One battle may show Nephites fighting Lamanites and driving them back."
     ],
     "unspecified_visual_details": [
-      "The number and identity of combatants in any single battle, battlefield, and battle tactics."
+      "Battlefield locations, combatants' appearances, and tactics are not specified.",
+      "The seed of Amulon and his brethren cannot be identified by appearance from these verses."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And after that, they had many battles with the Nephites, in the which they were driven and slain.",
+        "refs": [
+          "Alma 25:3"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verses summarize multiple battles; this scene should not imply that all occurred at one time."
+      "The verses summarize many battles; do not present them as one simultaneous event."
     ],
     "prohibited_inventions": [
-      "Do not depict Amulon or Noah's priests as present; the passage identifies their seed and brethren."
+      "Do not depict Amulon or the priests of Noah as physically present.",
+      "Do not invent names, dialogue, identifying marks, or individual combat stories."
     ],
     "importance": "normal"
   },
@@ -252,35 +275,38 @@
     "refs": [
       "Alma 25:7"
     ],
-    "summary": "The rulers who are the remnant of Amulon's children cause all those who believe these things to be put to death.",
+    "summary": "The rulers who were the remnant of the children of Amulon caused all those who believed in these things to be put to death.",
     "characters": [
       "rulers who were the remnant of the children of Amulon",
-      "Lamanite believers"
+      "those who believed in these things"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The rulers who are the remnant of Amulon's children cause all who believe these things to be put to death.",
+        "text": "The rulers who were the remnant of the children of Amulon caused all those who believed in these things to be put to death.",
         "refs": [
           "Alma 25:7"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The rulers oversee the killing of believers."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The place and means of death, and how many people are present."
+      "Location, number and appearance of people, and means of death."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "caused that they should be put to death, yea, all those that believed in these things.",
+        "refs": [
+          "Alma 25:7"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse summarizes the killings; it does not specify a particular execution moment."
+      "The verse reports the deaths without describing a particular execution moment."
     ],
     "prohibited_inventions": [
-      "Do not show gore or specify a killing method."
+      "Do not invent an execution method, a specific execution moment, or gore."
     ],
     "importance": "normal"
   },
@@ -290,11 +316,10 @@
     "refs": [
       "Alma 25:8"
     ],
-    "summary": "The martyrdom stirs many of the believers' brethren to anger. Contention begins in the wilderness, and the Lamanites hunt the seed of Amulon and his brethren, who flee into the east wilderness.",
+    "summary": "The martyrdom stirs many of their brethren to anger. Contention begins in the wilderness. The Lamanites begin to hunt and slay the seed of Amulon and his brethren, who flee into the east wilderness.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
-      "seed of Amulon and his brethren",
-      "Lamanite believers"
+      "Lamanites",
+      "seed of Amulon and his brethren"
     ],
     "locations": [
       "wilderness",
@@ -302,31 +327,47 @@
     ],
     "explicit_facts": [
       {
-        "text": "The martyrdom stirs many of the believers' brethren to anger, and contention begins in the wilderness.",
+        "text": "The martyrdom causes many of their brethren to be stirred up to anger.",
         "refs": [
           "Alma 25:8"
         ]
       },
       {
-        "text": "The Lamanites hunt and begin to slay the seed of Amulon and his brethren, who flee into the east wilderness.",
+        "text": "Contention begins in the wilderness.",
+        "refs": [
+          "Alma 25:8"
+        ]
+      },
+      {
+        "text": "The Lamanites begin to hunt and slay the seed of Amulon and his brethren; those pursued flee into the east wilderness.",
         "refs": [
           "Alma 25:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lamanites pursue members of Amulon's seed as they flee toward the east wilderness."
+      "A pursuit through wilderness terrain could depict the hunt and flight."
     ],
     "unspecified_visual_details": [
-      "The precise location of the contention, pursuit, and killings, and whether these events occur at the same time."
+      "The appearance of the people and wilderness.",
+      "The precise timing and placement of the contention, killings, and flight."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they fled into the east wilderness.",
+        "refs": [
+          "Alma 25:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "This verse summarizes a sequence; do not collapse contention, pursuit, and flight into one simultaneous event."
+      "The verse summarizes a sequence; do not depict all its events as simultaneous.",
+      "The martyrdom is mentioned as a cause, not narrated here as a present event."
     ],
     "prohibited_inventions": [
-      "Do not identify individual pursuers or fugitives."
+      "Do not identify individual pursuers or fugitives.",
+      "Do not invent dialogue or depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
@@ -474,14 +515,14 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Return and joining the people of God",
+    "title": "Joining the people of Anti-Nephi-Lehi",
     "refs": [
       "Alma 25:13"
     ],
-    "summary": "When the Lamanites see they cannot overpower the Nephites, they return to their own land. Many settle in Ishmael and Nephi and join the Anti-Nephi-Lehies, the people of God.",
+    "summary": "After the Lamanites see they cannot overpower the Nephites, they return to their own land. Many come to dwell in the lands of Ishmael and Nephi and join the people of Anti-Nephi-Lehi.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "Lamanites",
+      "people of Anti-Nephi-Lehi"
     ],
     "locations": [
       "land of Ishmael",
@@ -489,31 +530,45 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites return to their own land after seeing they cannot overpower the Nephites.",
+        "text": "The Lamanites return to their own land when they see they cannot overpower the Nephites.",
         "refs": [
           "Alma 25:13"
         ]
       },
       {
-        "text": "Many settle in the land of Ishmael and the land of Nephi and join the Anti-Nephi-Lehies, the people of God.",
+        "text": "Many Lamanites come to dwell in the land of Ishmael and the land of Nephi.",
+        "refs": [
+          "Alma 25:13"
+        ]
+      },
+      {
+        "text": "They join the people of God, who are the people of Anti-Nephi-Lehi.",
         "refs": [
           "Alma 25:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Newcomers join the Anti-Nephi-Lehies in one of the named lands."
+      "Newcomers join the people of Anti-Nephi-Lehi in one of the named lands."
     ],
     "unspecified_visual_details": [
-      "The exact route, settlement arrangements, and which named land is shown for the joining."
+      "Which named land is shown for the joining, and the people's clothing and surroundings."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and did join themselves to the people of God, who were the people of Anti-Nephi-Lehi.",
+        "refs": [
+          "Alma 25:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The return and later settlement are separate events within the verse; show the joining as the scene's visual moment."
+      "The return and the subsequent dwelling and joining are distinct events; depict the joining as the scene's moment."
     ],
     "prohibited_inventions": [
-      "Do not combine the earlier return journey and later joining as simultaneous."
+      "Do not show the return journey and the joining as simultaneous.",
+      "Do not invent an encounter or dialogue with the Nephites."
     ],
     "importance": "normal"
   },

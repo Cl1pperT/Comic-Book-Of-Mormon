@@ -1,15 +1,13 @@
 {
-  "stamp": "987508c6f6a75734b25b4f63025121b7d7cff97d1d806eb2e7b0783c8b46ea8c",
+  "stamp": "9b7016aae300e29060c4cab5d393b1c4f12e942c691150c925373035f56cee53",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -64,19 +62,17 @@
       "issues": []
     },
     "scene_016": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The inference that Alma and other judges may be shown together is not explicit; the text does not specify their presence in one place or at the same time. Keep any depiction of the transition conservative."
       ]
     },
     "scene_019": {

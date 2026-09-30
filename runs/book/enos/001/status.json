@@ -5,27 +5,20 @@
   "scenes": 17,
   "counts": {
     "PASS": 10,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 3
+    "PASS WITH WARNINGS": 6,
+    "REJECT": 1
   },
   "rejected": {
     "scene_005": [
-      "The notes incorrectly say Enos 1:2 was not supplied; it is included in the supplied source. The prohibition based on that claim is therefore unsupported."
-    ],
-    "scene_012": [
-      "The character labels specify 2 Nephi-era groups, but Enos 1:20 does not establish that those earlier settlers are present.",
-      "Showing a wilderness group with tents and weapons as a current scene risks enacting Enos’s retrospective description."
-    ],
-    "scene_014": [
-      "Depicting an unnamed prophet addressing a gathering stages a particular sermon from Enos’s summary of ongoing preaching; no such scene is narrated."
+      "The summary says the responding speaker attributes his own wholeness to faith. Enos 1:8 says the narrator's faith made the narrator whole."
     ]
   },
-  "calls": 13,
+  "calls": 16,
   "tokens": {
-    "input_tokens": 92520,
-    "cached_input_tokens": 26880,
+    "input_tokens": 113086,
+    "cached_input_tokens": 39552,
     "cache_write_input_tokens": 0,
-    "output_tokens": 15907,
-    "reasoning_output_tokens": 4760
+    "output_tokens": 16272,
+    "reasoning_output_tokens": 3841
   }
 }

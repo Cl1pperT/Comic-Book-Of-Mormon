@@ -1,23 +1,21 @@
 {
-  "stamp": "5adde38b4dc17803a8577b7598a882cd5221a72a364324655f373a635a1fdb45",
+  "stamp": "d0f136ffb37c5f94425bd0b977ddda5aa79dae49128cf3589db89be274442d33",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The verse does not identify the fleeing man by name; the character label “The man who fled” is generic, but his identity remains unspecified.",
+        "A hiding place is not stated; “Unspecified hiding place” is appropriately unspecified. Depicting him writing while concealed is a reasonable visual inference, not an explicit description of a visible scene.",
+        "The preceding scene's summary says the king sends servants after Alma “to slay him,” which is supported, but any depiction of that pursuit or of Alma's fate should not be merged into this scene."
       ]
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -32,23 +30,31 @@
       "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The unnamed man is explicitly identified as Abinadi in the supplied preceding verses (Mosiah 17:9–12); labeling him only “Unnamed man” omits that source-supported identity. The preceding scene’s chronology is consistent.",
+        "The phrase “When flames begin to scorch him, he cries unto them” is supported by verse 14, but the scene must not depict the content of his cry, which is given only in verse 15 and is outside the scene’s refs.",
+        "“The binding, scourging, and flames may be shown without depicting wounds or gore” is a reasonable visual inference; avoid implying death, which is not narrated in these verses."
       ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene omits the explicitly narrated flames scorching Abinadi (Mosiah 17:14) while presenting his warning as a speech scene; it should not be staged as an earlier or separate event, since the source places the speech after the flames begin."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is titled “Abinadi’s Final Words,” but verses 18–19 alone do not establish these as his final words; verse 20 says he fell after saying them.",
+        "Abinadi is shown speaking as flames scorch him, but the cited refs are verses 18–19; this action is established immediately before, in verse 14, and must not imply a different chronology."
+      ]
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
+        "The summary, listed explicit facts, and narration accurately reflect Mosiah 17:20. The previous scene's dialogue and summary also match verses 18–19; its inference that Abinadi speaks as flames scorch him is consistent with the text that he suffers death by fire, though flames are not described visually.",
+        "The unspecified-details note says witnesses are unspecified, but the prohibition against implying an on-screen witness treats their absence as established. The verse does not state whether witnesses were present. Also, the verse gives no location, but the empty locations array is conservative."
       ]
     }
   }

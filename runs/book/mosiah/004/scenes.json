@@ -28,13 +28,20 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "King Benjamin stands where he can see the gathered multitude."
+      "King Benjamin is positioned where he can see the multitude."
     ],
     "unspecified_visual_details": [
       "The place, clothing, architecture, and appearance of the multitude."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they had fallen to the earth",
+        "refs": [
+          "Mosiah 4:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not depict the angel as present; the verse only refers to words previously delivered by the angel."
@@ -98,40 +105,55 @@
     "refs": [
       "Mosiah 4:3"
     ],
-    "summary": "After the people speak, the Spirit of the Lord comes upon them; they receive remission of sins and feel joy and peace of conscience.",
+    "summary": "After they speak, the Spirit of the Lord comes upon them. They receive a remission of their sins and are filled with joy and peace of conscience.",
     "characters": [
-      "the multitude"
+      "the people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After the people speak, the Spirit of the Lord comes upon them.",
+        "text": "After they had spoken, the Spirit of the Lord came upon them.",
         "refs": [
           "Mosiah 4:3"
         ]
       },
       {
-        "text": "They are filled with joy and have peace of conscience because of their faith in Jesus Christ, who should come according to King Benjamin's words.",
+        "text": "They were filled with joy, received a remission of their sins, and had peace of conscience.",
+        "refs": [
+          "Mosiah 4:3"
+        ]
+      },
+      {
+        "text": "Their peace of conscience followed their exceeding faith in Jesus Christ, who should come according to King Benjamin's words.",
         "refs": [
           "Mosiah 4:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people may be shown reacting with joy and relief."
+      "The people may be shown expressing joy."
     ],
     "unspecified_visual_details": [
-      "Any visible form or appearance of the Spirit of the Lord."
+      "The people's appearance and surroundings.",
+      "Any visible appearance of the Spirit of the Lord."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and they were filled with joy, having received a remission of their sins, and having peace of conscience,",
+        "refs": [
+          "Mosiah 4:3"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse does not describe a visible form for the Spirit."
+      "The verse describes no visible form for the Spirit of the Lord."
     ],
     "prohibited_inventions": [
-      "Do not invent a visible manifestation, light, or figure for the Spirit."
+      "Do not invent a visible manifestation, light, or figure for the Spirit of the Lord.",
+      "Do not invent the words the people spoke."
     ],
     "importance": "normal"
   },

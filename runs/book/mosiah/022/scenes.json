@@ -5,40 +5,48 @@
     "refs": [
       "Mosiah 22:1"
     ],
-    "summary": "Ammon and King Limhi consult with the gathered people about escaping bondage and seek the voice of the people.",
+    "summary": "Ammon and king Limhi consult with the people about deliverance from bondage. They cause all the people to gather so they can hear the people's voice on the matter.",
     "characters": [
-      "Ammon (explorer, Mosiah 7)",
-      "King Limhi",
-      "the people of Limhi"
+      "Ammon",
+      "king Limhi",
+      "the people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon and King Limhi consult with the people about how to escape bondage.",
+        "text": "Ammon and king Limhi began to consult with the people about how to deliver themselves from bondage.",
         "refs": [
           "Mosiah 22:1"
         ]
       },
       {
-        "text": "They cause all the people to gather to express their voice on the matter.",
+        "text": "They caused all the people to gather to hear the people's voice on the matter.",
         "refs": [
           "Mosiah 22:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A gathered assembly is consulting together."
+      "Ammon, king Limhi, and the gathered people are together for the consultation."
     ],
     "unspecified_visual_details": [
-      "The place, arrangement, clothing, and appearance of the assembly are not specified."
+      "The location, arrangement, clothing, and appearances are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Ammon and king Limhi began to consult with the people",
+        "refs": [
+          "Mosiah 22:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict a specific escape plan as already chosen."
+      "Do not depict a specific escape plan as already chosen.",
+      "Do not invent individual statements from the people."
     ],
     "importance": "normal"
   },
@@ -185,52 +193,52 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "A proposed route through the back pass",
+    "title": "A proposed departure by night",
     "refs": [
       "Mosiah 22:6",
       "Mosiah 22:7",
       "Mosiah 22:8"
     ],
-    "summary": "A speaker proposes gathering livestock, paying a last tribute of wine, and departing with women and children through a secret pass into the wilderness, traveling around the land of Shilom.",
+    "summary": "An unnamed speaker describes a back pass and proposes gathering flocks and herds, paying a last tribute of wine to the Lamanites, and departing with women and children into the wilderness.",
     "characters": [
-      "Speaker not named in the supplied verses"
+      "Unnamed speaker"
     ],
     "locations": [
-      "Unspecified location of the speech"
+      "Location of the speech unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker describes a back pass through the back wall on the back side of the city and states that the Lamanites, or their guards, are drunken by night.",
+        "text": "The speaker describes a back pass through the back wall on the back side of the city and says the Lamanites, or their guards, are drunken by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker proposes sending a proclamation for the people to gather their flocks and herds to drive into the wilderness by night.",
+        "text": "The speaker proposes sending a proclamation for the people to gather their flocks and herds and drive them into the wilderness by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker proposes paying the last tribute of wine according to the addressee's command and passing through the secret pass on the left of the Lamanite camp when they are drunken and asleep.",
+        "text": "The speaker says they will pay the last tribute of wine to the Lamanites according to the addressee's command, then pass through a secret pass on the left of the Lamanite camp when they are drunken and asleep.",
         "refs": [
           "Mosiah 22:7"
         ]
       },
       {
-        "text": "The proposed departure includes women, children, flocks, and herds, with travel into the wilderness around the land of Shilom.",
+        "text": "The proposed departure includes women, children, flocks, and herds; the group would travel into the wilderness and around the land of Shilom.",
         "refs": [
           "Mosiah 22:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown explaining the proposal without depicting its execution."
+      "The unnamed speaker may be shown speaking; the proposed actions need not be shown taking place."
     ],
     "unspecified_visual_details": [
-      "The speaker's name, appearance, clothing, and gestures are not supplied.",
-      "The speech's location, time of day, and audience composition are unspecified.",
-      "The physical designs of the wall, pass, and camp are unspecified."
+      "The speaker's identity and appearance are not supplied.",
+      "The speech's location and time and the addressee's identity are unspecified.",
+      "The wall, passes, and camp are not physically described."
     ],
     "spoken_dialogue": [
       {
@@ -238,27 +246,33 @@
         "refs": [
           "Mosiah 22:6"
         ],
-        "speaker": "Speaker not named in the supplied verses"
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "pay the last tribute of wine to the Lamanites,",
+        "refs": [
+          "Mosiah 22:7"
+        ],
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "Thus we will depart with our women and our children, our flocks, and our herds into the wilderness; and we will travel around the land of Shilom.",
         "refs": [
           "Mosiah 22:8"
         ],
-        "speaker": "Speaker not named in the supplied verses"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "These verses present a proposal, not its execution.",
-      "The audit identifies Gideon using verse 5, but that verse is outside the permitted source. The supplied verses 6–8 do not name the speaker.",
-      "The summary describes the supplied speech event; it is not spoken narration."
+      "The supplied verses do not identify the speaker or the addressee."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Gideon based on the audit's reference to an excluded verse.",
-      "Do not depict the proclamation, tribute delivery, drinking, sleep, livestock gathering, or escape as occurring during this speech.",
-      "Do not assume that women, children, livestock, or Lamanite guards are physically present at the speech.",
-      "Do not invent dialogue, the addressee's identity, or a visible route demonstration."
+      "Do not identify the speaker or addressee using verses outside the supplied source.",
+      "Do not depict the proclamation, tribute delivery, drinking, sleep, livestock gathering, or departure as occurring during this speech.",
+      "Do not assume the women, children, livestock, or Lamanite guards are physically present at the speech.",
+      "Do not invent additional dialogue or a visible route demonstration."
     ],
     "importance": "normal"
   },
@@ -360,59 +374,74 @@
     "refs": [
       "Mosiah 22:11"
     ],
-    "summary": "At night, Limhi’s people depart into the wilderness with their flocks and herds, travel around Shilom, and head toward Zarahemla led by Ammon and his brethren.",
+    "summary": "The people of king Limhi depart by night into the wilderness with their flocks and herds, go around the land of Shilom, and head toward the land of Zarahemla, led by Ammon and his brethren.",
     "characters": [
-      "the people of Limhi",
-      "Ammon (explorer, Mosiah 7)",
-      "Ammon’s brethren"
+      "the people of king Limhi",
+      "Ammon",
+      "Ammon's brethren"
     ],
     "locations": [
-      "wilderness"
+      "wilderness",
+      "land of Shilom",
+      "land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi’s people depart by night into the wilderness with their flocks and herds.",
+        "text": "The people of king Limhi depart by night into the wilderness with their flocks and herds.",
         "refs": [
           "Mosiah 22:11"
         ]
       },
       {
-        "text": "They go around Shilom and head toward Zarahemla, led by Ammon and his brethren.",
+        "text": "They go around the land of Shilom and head toward the land of Zarahemla, led by Ammon and his brethren.",
         "refs": [
           "Mosiah 22:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The traveling group includes livestock and is moving through wilderness at night."
+      "A group travels with livestock through the wilderness at night."
     ],
     "unspecified_visual_details": [
-      "The number of people and animals, lighting, and route’s appearance are unspecified."
+      "The number and appearance of the people and animals, the lighting, and the terrain are unspecified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "the people of king Limhi did depart by night into the wilderness",
+        "refs": [
+          "Mosiah 22:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the Lamanites’ camp or the secret pass as part of the departure unless supported by the verse."
+      "Do not depict arrival in Zarahemla or add events, dialogue, or people not stated in this verse."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_008",
-    "title": "The journey continues with their provisions",
+    "title": "The journey continues",
     "refs": [
       "Mosiah 22:12"
     ],
-    "summary": "The people carry their gold, silver, precious things, and provisions into the wilderness and continue their journey.",
+    "summary": "They take their gold, silver, precious things, and provisions into the wilderness and continue their journey.",
     "characters": [
-      "the people of Limhi"
+      "unnamed travelers"
     ],
     "locations": [
       "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The people take the gold, silver, precious things, and provisions they can carry into the wilderness and continue their journey.",
+        "text": "They take the gold, silver, and precious things they can carry, along with their provisions, into the wilderness.",
+        "refs": [
+          "Mosiah 22:12"
+        ]
+      },
+      {
+        "text": "They continue their journey.",
         "refs": [
           "Mosiah 22:12"
         ]
@@ -422,13 +451,21 @@
       "Travelers carry portable belongings and provisions."
     ],
     "unspecified_visual_details": [
-      "The specific objects, containers, and arrangement of the traveling group are not stated."
+      "The specific objects, containers, and arrangement of the travelers are not stated."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "into the wilderness; and they pursued their journey.",
+        "refs": [
+          "Mosiah 22:12"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add a specific incident during the journey."
+      "Do not add a specific incident during the journey.",
+      "Do not assign the travelers names or biographies."
     ],
     "importance": "normal"
   },
@@ -438,39 +475,50 @@
     "refs": [
       "Mosiah 22:13"
     ],
-    "summary": "After many days in the wilderness, Limhi’s people arrive in Zarahemla, join Mosiah’s people, and become his subjects.",
+    "summary": "After many days in the wilderness, the group arrives in the land of Zarahemla, joins Mosiah’s people, and becomes his subjects.",
     "characters": [
-      "the people of Limhi",
+      "the arriving group",
       "Mosiah’s people"
     ],
     "locations": [
+      "wilderness",
       "land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "After many days in the wilderness, Limhi’s people arrive in Zarahemla.",
+        "text": "The group had been many days in the wilderness before arriving in the land of Zarahemla.",
         "refs": [
           "Mosiah 22:13"
         ]
       },
       {
-        "text": "They join Mosiah’s people and become his subjects.",
+        "text": "They joined Mosiah’s people and became his subjects.",
         "refs": [
           "Mosiah 22:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The arriving group meets people in Zarahemla."
+      "The arriving group and some of Mosiah’s people may be shown together in Zarahemla."
     ],
     "unspecified_visual_details": [
-      "The exact place of arrival and the manner of joining are not specified."
+      "The group’s identity, the exact arrival place, and the manner of joining are not specified."
     ],
     "spoken_dialogue": [],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And after being many days in the wilderness they arrived in the land of Zarahemla, and joined Mosiah’s people, and became his subjects.",
+        "refs": [
+          "Mosiah 22:13"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not say that Mosiah is visibly present."
+    ],
     "prohibited_inventions": [
-      "Do not identify Mosiah as visibly present in this arrival scene; his reception is narrated separately."
+      "Do not identify the arriving group by a name not supplied in this verse.",
+      "Do not depict Mosiah as present or add a reception, ceremony, or dialogue."
     ],
     "importance": "normal"
   },

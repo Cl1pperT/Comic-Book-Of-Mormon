@@ -1,0 +1,87 @@
+{
+  "stamp": "ccb573b4fecd41e1cc47d94c4405e9ab25d3a7e837491ab133e593260b82e611",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene combines recurring, unspecific outcomes from verses 27–28; it must remain a summary, not depict a particular victory or battle."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verses 29–30 report repeated attempts at separate, unspecified times; do not render them as one specific incident."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wine-testing practice is reported generally; the scene must not imply that a particular drink was confirmed poisoned or stage an otherwise unspecified test."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Moroni is explicitly preparing to attack, but no attack occurs in these verses; do not show combat."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This is a chronological statement only, with no described visual event; avoid inventing a scene or ceremony."
+      ]
+    }
+  }
+}

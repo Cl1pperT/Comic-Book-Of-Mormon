@@ -1,5 +1,5 @@
 {
-  "stamp": "2941c8114505bc55d3145980fde0687b8b4ccb478cda8d063781686216dc45b2",
+  "stamp": "f305b75357a8984fef5eddf794effcd2f3f15e76c1214e3b499dfd70b4b83105",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,10 +38,8 @@
       "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "Narration for Mosiah 28:19 is a long, contiguous source quotation over the 65-word combined narration-and-dialogue limit by itself (31 words), and misapplies that future-writing statement as scene narration. Replace with a short exact excerpt or omit it."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

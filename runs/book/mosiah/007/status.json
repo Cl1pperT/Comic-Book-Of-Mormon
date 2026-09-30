@@ -4,45 +4,17 @@
   "verses": 33,
   "scenes": 15,
   "counts": {
-    "PASS": 2,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 9
+    "PASS": 14,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_003": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_008": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_009": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_010": [
-      "Mosiah 7:17–18 identifies the speaker as Limhi and establishes the temple gathering. The scene incorrectly says his identity and the gathering’s location are unsupplied and prohibits specifying the temple."
-    ],
-    "scene_011": [
-      "This continues Limhi’s address begun in Mosiah 7:18. The claims that the speaker and listeners cannot be identified, and the prohibition on identifying the speaker, contradict that context."
-    ],
-    "scene_012": [
-      "This continues Limhi’s address to the gathered people. The claims that its speaker is unidentified and must not be identified contradict Mosiah 7:17–18."
-    ],
-    "scene_013": [
-      "These verses continue Limhi’s address to the gathered people. The claims that no speaker or audience is established, and the prohibition on depicting either, contradict Mosiah 7:17–18."
-    ],
-    "scene_014": [
-      "Limhi is reciting these warnings within his address. The claims that no physical speaker or audience is specified, and the prohibition on depicting either, contradict Mosiah 7:17–18."
-    ],
-    "scene_015": [
-      "These verses continue Limhi’s address to the people gathered in Mosiah 7:18. The claims that the speaker and audience presence are unspecified, and the prohibition on identifying or depicting them, contradict that context."
-    ]
-  },
-  "calls": 37,
+  "rejected": {},
+  "calls": 45,
   "tokens": {
-    "input_tokens": 247660,
-    "cached_input_tokens": 127872,
+    "input_tokens": 301720,
+    "cached_input_tokens": 162048,
     "cache_write_input_tokens": 0,
-    "output_tokens": 36759,
-    "reasoning_output_tokens": 14549
+    "output_tokens": 38047,
+    "reasoning_output_tokens": 14053
   }
 }

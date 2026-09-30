@@ -1,0 +1,52 @@
+{
+  "stamp": "8dae1f5f575978b46ff0b22d0644bf5f598ba7163a7fb03dc4ffcf0e305b7bc2",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration uses exact contiguous excerpts, but omits other supplied details; this is acceptable selective narration, not a factual error.",
+        "The summary's “condemns the addressees” is a reasonable characterization of the stated condemnation, not a direct quotation.",
+        "Prior scene says Moroni writes to Pahoran; scene_002's text continues the letter, not a new face-to-face address. Its unspecified medium and prohibition against assuming one are consistent. Reported suffering and deaths are not staged as present events."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the king-men weakened the people, but the cited verses attribute the enemy's gains to internal wickedness and the internal war, not exclusively to the king-men.",
+        "The explicit fact that the king-men fought their own people is supported, but scene 005's summary should keep that separate from the reported Lamanite invasion rather than imply a new combined event."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

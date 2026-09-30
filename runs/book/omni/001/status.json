@@ -4,24 +4,17 @@
   "verses": 30,
   "scenes": 20,
   "counts": {
-    "PASS": 15,
+    "PASS": 17,
     "PASS WITH WARNINGS": 3,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_014": [
-      "The scene lists Coriantumr and the people of Zarahemla as characters and includes the tower and land northward as locations, although its notes correctly state these are reported past events, not present-time scenes. Those fields risk presenting the discovery, dwelling, tower event, or scattered bones as depicted events, contrary to the stated prohibitions."
-    ],
-    "scene_020": [
-      "Lettering must be an exact source quotation: 'And these plates are full. And I make an end of my speaking.' is not verbatim in Omni 1:30, which reads 'And I, Amaleki, had a brother, who also went with them; and I have not since known concerning them. And I am about to lie down in my grave; and these plates are full. And I make an end of my speaking.'"
-    ]
-  },
-  "calls": 12,
+  "rejected": {},
+  "calls": 16,
   "tokens": {
-    "input_tokens": 95573,
-    "cached_input_tokens": 52992,
+    "input_tokens": 123928,
+    "cached_input_tokens": 69888,
     "cache_write_input_tokens": 0,
-    "output_tokens": 16014,
-    "reasoning_output_tokens": 5476
+    "output_tokens": 17581,
+    "reasoning_output_tokens": 5974
   }
 }

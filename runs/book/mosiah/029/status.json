@@ -4,27 +4,17 @@
   "verses": 47,
   "scenes": 19,
   "counts": {
-    "PASS": 16,
-    "PASS WITH WARNINGS": 0,
-    "REJECT": 3
+    "PASS": 18,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_016": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_018": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ]
-  },
-  "calls": 9,
+  "rejected": {},
+  "calls": 17,
   "tokens": {
-    "input_tokens": 70345,
-    "cached_input_tokens": 39936,
+    "input_tokens": 124946,
+    "cached_input_tokens": 69888,
     "cache_write_input_tokens": 0,
-    "output_tokens": 12345,
-    "reasoning_output_tokens": 3318
+    "output_tokens": 14901,
+    "reasoning_output_tokens": 4201
   }
 }

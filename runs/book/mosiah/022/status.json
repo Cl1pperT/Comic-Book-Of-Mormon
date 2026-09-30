@@ -4,43 +4,17 @@
   "verses": 16,
   "scenes": 11,
   "counts": {
-    "PASS": 1,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 8
+    "PASS": 6,
+    "PASS WITH WARNINGS": 5,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_001": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_002": [
-      "“Lamanites (2 Nephi era)” misidentifies the Lamanites in this Mosiah-era scene."
-    ],
-    "scene_004": [
-      "Mosiah 22:5, included in the supplied source, explicitly identifies Gideon as the speaker of verses 6–8. The speaker label and note claiming his identity is unavailable contradict the source."
-    ],
-    "scene_006": [
-      "“Lamanites (2 Nephi era)” misidentifies the recipients in this Mosiah-era scene."
-    ],
-    "scene_007": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_008": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_009": [
-      "Scene has 0 words of lettering: give it at least one exact excerpt of 3 or more words from its verses, as narration or speech"
-    ],
-    "scene_011": [
-      "“Lamanites (2 Nephi era)” misidentifies the pursuers in this Mosiah-era scene.",
-      "This pursuit follows the departure in time, although the verse recounts it after the reception in Zarahemla. The scene must not imply that the pursuit began after that reception."
-    ]
-  },
-  "calls": 11,
+  "rejected": {},
+  "calls": 21,
   "tokens": {
-    "input_tokens": 84772,
-    "cached_input_tokens": 43008,
+    "input_tokens": 155390,
+    "cached_input_tokens": 81408,
     "cache_write_input_tokens": 0,
-    "output_tokens": 12856,
-    "reasoning_output_tokens": 4819
+    "output_tokens": 17585,
+    "reasoning_output_tokens": 6483
   }
 }

@@ -53,14 +53,14 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Aaron is unavailable",
+    "title": "Mosiah sends a written word",
     "refs": [
       "Mosiah 29:3",
       "Mosiah 29:4"
     ],
-    "summary": "Aaron has gone to the land of Nephi, will not take the kingdom, and none of Mosiah's sons is willing to rule. Mosiah sends the people another message in writing.",
+    "summary": "Aaron had gone to the land of Nephi, so Mosiah could not confer the kingdom on him. Aaron would not take the kingdom, and none of Mosiah's sons was willing to take it. Mosiah sent a written word among the people.",
     "characters": [
-      "Mosiah (king)",
+      "King Mosiah",
       "the people"
     ],
     "locations": [
@@ -68,32 +68,46 @@
     ],
     "explicit_facts": [
       {
-        "text": "Aaron has gone to the land of Nephi, so Mosiah cannot confer the kingdom on him; Aaron will not take it, and none of Mosiah's sons is willing to take it.",
+        "text": "Aaron had gone to the land of Nephi, so the king could not confer the kingdom on him.",
         "refs": [
           "Mosiah 29:3"
         ]
       },
       {
-        "text": "Mosiah sends another message among the people, this time in writing.",
+        "text": "Aaron would not take the kingdom, and none of Mosiah's sons was willing to take it.",
+        "refs": [
+          "Mosiah 29:3"
+        ]
+      },
+      {
+        "text": "King Mosiah again sent word among the people, in writing.",
         "refs": [
           "Mosiah 29:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The written message can be shown being prepared or distributed, without specifying its physical form."
+      "A written message may be shown without specifying its physical form."
     ],
     "unspecified_visual_details": [
-      "Where Mosiah writes the message and how it is distributed.",
-      "Whether any messenger or recipient is shown."
+      "The location and manner of distribution of the written word.",
+      "Whether a messenger or recipient is shown."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Therefore king Mosiah sent again among the people;",
+        "refs": [
+          "Mosiah 29:4"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The passage reports Aaron's absence and refusal; it does not depict him in this scene."
+      "Aaron's absence and refusal are reported, not shown as events occurring alongside the sending of the written word."
     ],
     "prohibited_inventions": [
-      "Do not show Aaron, other sons of Mosiah, or events in the land of Nephi as physically present."
+      "Do not show Aaron, Mosiah's other sons, or events in the land of Nephi as physically present in this scene.",
+      "Do not invent the contents of the written word."
     ],
     "importance": "normal"
   },
@@ -328,58 +342,63 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "The possibility of righteous kings",
+    "title": "The possibility of just kings",
     "refs": [
       "Mosiah 29:13",
       "Mosiah 29:14"
     ],
-    "summary": "Mosiah says that righteous kings who establish God's laws could make kingship expedient. He recalls his own labor to teach God's commandments and establish peace.",
-    "characters": [
-      "the people"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The speaker explains when kingship would be expedient and says he has labored to teach God's commandments and establish peace throughout the land.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah says that if kings consistently established God's laws and judged according to God's commandments, it would be expedient to have kings.",
+        "text": "The speaker says that if just kings consistently established God's laws and judged according to his commandments, kingship would be expedient.",
         "refs": [
           "Mosiah 29:13"
         ]
       },
       {
-        "text": "Mosiah says he labored to teach God's commandments and establish peace throughout the land.",
+        "text": "The speaker cites his father Benjamin as an example of such a king.",
+        "refs": [
+          "Mosiah 29:13"
+        ]
+      },
+      {
+        "text": "The speaker says he has labored to teach God's commandments and establish peace throughout the land.",
         "refs": [
           "Mosiah 29:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The message can be conveyed through off-screen narration over a neutral setting."
+      "The words can be presented without depicting the speaker or the past events he mentions."
     ],
     "unspecified_visual_details": [
-      "Any visual representation of Mosiah's past labor or the land's peace."
+      "The speaker's appearance and location.",
+      "How the words are visually presented."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "if this could always be the case then it would be expedient that ye should always have kings",
+        "text": "it would be expedient that ye should always have kings to rule over you.",
         "refs": [
           "Mosiah 29:13"
         ]
       },
       {
-        "text": "to teach you the commandments of God,",
+        "text": "to teach you the commandments of God, and to establish peace throughout the land,",
         "refs": [
           "Mosiah 29:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "King Benjamin is mentioned as a past example, not shown as physically present."
+      "Benjamin is cited as a past example; the verses do not place him in the present scene.",
+      "The proposed just kings are hypothetical."
     ],
     "prohibited_inventions": [
-      "Do not depict King Benjamin or invent a flashback to his reign."
+      "Do not depict hypothetical kings as reigning or show Benjamin physically present.",
+      "Do not turn the speaker's past labor into a new present-tense event."
     ],
     "importance": "normal"
   },
@@ -877,20 +896,20 @@
       "Mosiah 29:37",
       "Mosiah 29:38"
     ],
-    "summary": "After Mosiah sends his words among the people, they are convinced. They relinquish their desire for a king, want every man to have an equal chance throughout the land, and express willingness to answer for their own sins.",
+    "summary": "After King Mosiah sends his words among the people, they are convinced of their truth. They relinquish their desire for a king, want every man to have an equal chance throughout the land, and express willingness to answer for their own sins.",
     "characters": [
       "the people"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "King Mosiah had sent these things forth among the people, and they were convinced of the truth of his words.",
+        "text": "King Mosiah sent these things forth among the people, who were convinced of the truth of his words.",
         "refs": [
           "Mosiah 29:37"
         ]
       },
       {
-        "text": "The people relinquished their desires for a king and became exceedingly anxious that every man should have an equal chance throughout all the land.",
+        "text": "The people relinquished their desires for a king and became exceedingly anxious that every man should have an equal chance throughout the land.",
         "refs": [
           "Mosiah 29:38"
         ]
@@ -908,7 +927,14 @@
       "The people's appearance."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Therefore they relinquished their desires for a king,",
+        "refs": [
+          "Mosiah 29:38"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not depict an assembly; it is not described in these verses.",
@@ -991,53 +1017,61 @@
       "Mosiah 29:43",
       "Mosiah 29:44"
     ],
-    "summary": "The people appoint judges throughout the land. Alma becomes the first chief judge as well as high priest, and judges righteously, with continual peace through the land; thus begins the reign of the judges.",
+    "summary": "Judges are appointed throughout the land, and Alma is appointed the first chief judge. He judges righteously, there is continual peace through the land, and the reign of the judges begins.",
     "characters": [
-      "the people",
-      "Alma the Younger (high priest)"
+      "Alma",
+      "the people called the Nephites"
     ],
     "locations": [
       "the land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "The people appoint judges throughout the land to rule according to the law.",
+        "text": "Judges are appointed throughout the land to judge according to the law.",
         "refs": [
           "Mosiah 29:41"
         ]
       },
       {
-        "text": "Alma is appointed first chief judge and is also high priest; his father conferred the church office and charge upon him.",
+        "text": "Alma is appointed the first chief judge and is also the high priest. His father had conferred the office upon him and given him charge concerning the affairs of the church.",
         "refs": [
           "Mosiah 29:42"
         ]
       },
       {
-        "text": "Alma walks in the Lord's ways, keeps the commandments, judges righteously, and there is continual peace through the land.",
+        "text": "Alma walks in the ways of the Lord, keeps his commandments, and judges righteous judgments; there is continual peace through the land.",
         "refs": [
           "Mosiah 29:43"
         ]
       },
       {
-        "text": "The reign of the judges begins throughout the land of Zarahemla among the Nephites, with Alma as first and chief judge.",
+        "text": "The reign of the judges begins throughout the land of Zarahemla among the Nephites, with Alma as the first and chief judge.",
         "refs": [
           "Mosiah 29:44"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people's appointment of judges and Alma's appointment may be shown as distinct beats within the transition to the judges' reign."
+      "Alma and other judges may be shown as distinct figures during the transition to the reign of judges."
     ],
     "unspecified_visual_details": [
-      "The appointment process, the identity of other judges, and how the appointments are formalized."
+      "The appointment process, the identity of the other judges, and how appointments are formalized."
     ],
     "spoken_dialogue": [],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And thus commenced the reign of the judges throughout all the land of Zarahemla",
+        "refs": [
+          "Mosiah 29:44"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The father who conferred Alma's church office is unnamed in these verses."
+      "The conferral by Alma's father is described as having already occurred; it is not part of the present appointment."
     ],
     "prohibited_inventions": [
-      "Do not assign a name to Alma's father from outside this passage."
+      "Do not name Alma's father from outside these verses or depict the earlier conferral as occurring during the judges' appointment.",
+      "Do not invent appointment dialogue or ceremonies."
     ],
     "importance": "major"
   },
