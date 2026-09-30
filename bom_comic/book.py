@@ -392,6 +392,29 @@ def fix_speakers(root="runs/book", make_provider=None):
     return results, "done"
 
 
+def compile_pdf(root="runs/book", out=None):
+    """Stitch every assembled chapter's pages into one PDF, in book order; returns (path, chapters, pages).
+    Uses each chapter's last assembly, so a chapter waiting to be re-rendered shows its previous pages."""
+    from PIL import Image
+    from .reader import chapters as assembled, title
+    out = Path(out or Path(root) / "comic-progress.pdf")
+    pages, names = [], []
+    for chapter_id, store in assembled(Store(root)).items():
+        manifest = store.read("final/manifest.json")
+        count = max(panel["page"] for panel in manifest["panels"])
+        # Only the pages this assembly made (an earlier, longer assembly may have left extra page files).
+        files = [store.path(f"pages/page_{n:03d}.png") for n in range(1, count + 1)]
+        if all(f.exists() for f in files):
+            pages += files
+            names.append(title(store, chapter_id))
+    if not pages:
+        raise ValueError(f"No assembled chapters under {root}")
+    images = (Image.open(p).convert("RGB") for p in pages)
+    first = next(images)
+    first.save(out, save_all=True, append_images=images, resolution=150, quality=88)
+    return out, names, len(pages)
+
+
 def write_book(root="runs/book", source="data/full-scripture.txt", start=None, max_chapters=None, make_provider=None):
     """Write chapters in order from `start` ("Book chapter"), skipping finished ones. Stops at a usage limit.
     Holds the book's writing lock, so a second writer (e.g. the nightly job) never works on the same chapter."""

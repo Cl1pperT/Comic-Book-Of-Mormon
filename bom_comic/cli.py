@@ -60,6 +60,8 @@ def main():
     book.add_argument("--max-chapters", type=int, help="Stop after writing this many chapters")
     book.add_argument("--repair", action="store_true", help="First re-repair written chapters that still have rejected scenes")
     book.add_argument("--speakers", action="store_true", help="First name speakers labelled like 'Unidentified speaker'")
+    compiler = commands.add_parser("compile", help="Stitch every assembled chapter under --run into one PDF, in book order")
+    compiler.add_argument("--out", help="Output file (default: <run>/comic-progress.pdf)")
     reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
     reader.add_argument("--port", type=int, default=8765)
     reader.add_argument("--no-browser", action="store_true", help="Print the address without opening a browser")
@@ -155,6 +157,10 @@ def main():
                 print(f"Repaired {len(repaired)} chapters; stopped: {reason}")
             written, reason = write_book(args.root, start=args.start, max_chapters=args.max_chapters)
             print(f"Wrote {len(written)} chapters; stopped: {reason}")
+        elif args.command == "compile":
+            from .book import compile_pdf
+            path, names, pages = compile_pdf(args.run, args.out)
+            print(f"{path}: {pages} pages, {len(names)} chapters ({names[0]} to {names[-1]})")
         elif args.command == "read":
             from .reader import serve
             serve(store, args.port, not args.no_browser)
