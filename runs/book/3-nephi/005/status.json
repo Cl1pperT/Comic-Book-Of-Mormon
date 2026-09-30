@@ -1,0 +1,20 @@
+{
+  "book": "3 Nephi",
+  "chapter": 5,
+  "verses": 26,
+  "scenes": 13,
+  "counts": {
+    "PASS": 10,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 9,
+  "tokens": {
+    "input_tokens": 76031,
+    "cached_input_tokens": 37120,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6982,
+    "reasoning_output_tokens": 1370
+  }
+}

@@ -657,56 +657,67 @@
       "Helaman 16:15",
       "Helaman 16:16"
     ],
-    "summary": "Except for the most believing among the Nephites and Lamanites, people harden their hearts and depend on their own strength and wisdom, dismissing the foretold works as guesses and denying they can happen.",
+    "summary": "Except for the most believing among the Nephites and Lamanites, the people begin to harden their hearts and rely on their own strength and wisdom. They say some things may have been guessed correctly, but deny that the great and marvelous works spoken of can happen.",
     "characters": [
       "Nephites",
-      "Lamanites (2 Nephi era)"
+      "Lamanites"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "All but the most believing part of the Nephites and Lamanites begin to harden their hearts and depend on their own strength and wisdom.",
+        "text": "The people begin to harden their hearts, except for the most believing among the Nephites and Lamanites.",
         "refs": [
           "Helaman 16:15"
         ]
       },
       {
-        "text": "They say some things may have been guessed correctly, but the great and marvelous works cannot happen.",
+        "text": "They begin to depend on their own strength and wisdom.",
+        "refs": [
+          "Helaman 16:15"
+        ]
+      },
+      {
+        "text": "They say some things may have been guessed correctly, but the great and marvelous works spoken of cannot happen.",
         "refs": [
           "Helaman 16:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People may be shown discussing their doubts."
+      "People may be shown speaking to one another."
     ],
     "unspecified_visual_details": [
-      "Specific people, setting, and gestures."
+      "The location, clothing, appearances, and gestures are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Some things they may have guessed right, among so many;",
+        "text": "Some things they may have guessed right, among so many; but behold, we know that all these great and marvelous works cannot come to pass, of which has been spoken.",
         "refs": [
           "Helaman 16:16"
         ],
-        "speaker": "the people who hardened their hearts"
+        "speaker": "the people who began to harden their hearts"
       }
     ],
     "narration": [
       {
-        "text": "they began to depend upon their own strength",
+        "text": "Nevertheless, the people began to harden their hearts,",
+        "refs": [
+          "Helaman 16:15"
+        ]
+      },
+      {
+        "text": "and began to depend upon their own strength and upon their own wisdom, saying:",
         "refs": [
           "Helaman 16:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Do not depict the rejected future works as visible events."
+      "The great and marvelous works are discussed, not shown occurring."
     ],
     "prohibited_inventions": [
-      "Do not invent supernatural imagery or specific marvelous works."
+      "Do not depict the great and marvelous works as occurring.",
+      "Do not invent named speakers or a specific setting."
     ],
     "importance": "normal"
   },

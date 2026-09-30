@@ -1,0 +1,85 @@
+{
+  "stamp": "4abfa2a3e65f183e34effe4698ba0e54ddb81595b8fc23ffa7f438e708b1bf11",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Visual depiction of an unspecified group in discussion or looking expectantly is a reasonable but optional inference; the record keeper is not present in the described scene."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The landscape under the storm is a reasonable visual inference, but the source does not specify the landscape or viewpoint."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing the city and inhabitants sinking is a reasonable visual inference; keep the drowning non-graphic."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source states that earth was carried up and a mountain came to occupy the city's place, but does not specify the exact appearance or mechanics; avoid implying more."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Two separate regional views are a reasonable visual inference; exact sites and damage are unspecified."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source describes varied city destruction and deaths but does not name the cities or specify their appearance; avoid implying a particular sequence or location."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A fractured landscape is supported, but its terrain and the scale of the fractures are unspecified."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Survivors feeling the vapor is explicitly stated; their identities and setting are unspecified, and the vapor should not be rendered as a visible substance beyond the source."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "An attempt to kindle light is only an optional visual inference; no person or attempt is stated in the source."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The mourning is explicit, but the people's identities and precise locations are unspecified."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The quoted lament is verbatim and the burning is treated as past; speakers and their location are unspecified."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The quoted lament is verbatim and the deaths and burial are treated as past; speakers and their location are unspecified."
+      ]
+    }
+  }
+}

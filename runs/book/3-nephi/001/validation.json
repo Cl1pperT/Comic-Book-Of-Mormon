@@ -1,9 +1,11 @@
 {
-  "stamp": "c773fbc26676cdb52ea2ab6123c39c397e254bf631fc0829834b4965e945a59c",
+  "stamp": "6ea3fc266dc9b9aa7349e30ed2b90e387c81731decc11e3d1765a54b83f5bf57",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The charge’s precise location and timing relative to Nephi’s departure are unspecified; depicting both Nephis together is a reasonable but uncertain visual inference."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -52,40 +54,14 @@
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse reports signs and wonders without describing their form; the visual inference should not be rendered as a specific visible event."
+        "Scene 013 combines separate year summaries (92nd and 93rd) into one scene; ensure the years are not depicted as a continuous moment. The supplied narration omits the explicit cause of the 92nd year's glad tidings (signs coming to pass), though the fact is included in the summary."
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Angels' appearance is unspecified; they may be shown appearing, but their visual form should not be invented."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_016": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_017": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_018": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_019": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_020": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_021": {
       "status": "PASS",
       "issues": []
     }

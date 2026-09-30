@@ -1,0 +1,64 @@
+{
+  "stamp": "0b3d787b874894c2491e32babc0fa9d16268c45bd596f1f3dfcdd1da218eef8f",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source says the word of God was preached but does not identify a preacher; depicting one would be a visual inference, not an identified character."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing Mormon in prayer is an uncertain visual inference: he says he has reason to bless God and Jesus Christ but does not describe praying."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The promises are correctly framed as future events, not as a present gathering. Narration is an exact excerpt from 3 Nephi 5:26. The specified timing and lands remain unstated; the scene supplies no visual depiction or added characters.",
+        "The preceding scene’s recollection of the fathers’ journey is not carried into this scene as a present event. Its summary presents statements by Mormon as facts, but the scene does not identify a speaking character; the source text supports the statements as Mormon’s narration. Specific uncertainty: whether any narrator is visually present is unspecified."
+      ]
+    }
+  }
+}

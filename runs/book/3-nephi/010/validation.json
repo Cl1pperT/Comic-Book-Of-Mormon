@@ -1,0 +1,48 @@
+{
+  "stamp": "76d0fb15e99477c4cad5acd2d7cf708cec3dbb969fc4f538ed78f7a1f2065bb9",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "REJECT",
+      "issues": [
+        "Character labels “Nephite settlers (2 Nephi)” and “Lamanite warriors (Enos to Alma era)” are not supported for this scene; the verses identify the spared people of Nephi and those called Lamanites but do not establish these established-character groups as present.",
+        "Narration quotation “Showing his body unto them” is not a contiguous exact excerpt: the source begins “Showing his body unto them, and ministering unto them;”. Use an exact contiguous excerpt with unchanged punctuation, such as “Showing his body unto them,”."
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "stamp": "c773fbc26676cdb52ea2ab6123c39c397e254bf631fc0829834b4965e945a59c",
+  "stamp": "1d284278568e1d983702b2f462d360a7845e980aa2986934f2848328a05a47bd",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source says the robbers were “dyed in blood,” but the visual guidance must not result in visible blood, which is prohibited by the instructions. Depict the described attire and head-plates without showing blood."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -50,16 +52,12 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse reports signs and wonders without describing their form; the visual inference should not be rendered as a specific visible event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Angels' appearance is unspecified; they may be shown appearing, but their visual form should not be invented."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",
@@ -74,18 +72,6 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_019": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_020": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_021": {
       "status": "PASS",
       "issues": []
     }
