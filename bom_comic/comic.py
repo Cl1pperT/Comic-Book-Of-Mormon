@@ -155,16 +155,19 @@ HEAVENLY = [
     ("christ", re.compile(r"^(?:the\s+)?(?:Jesus|Christ|Lamb of God|Son of God|Redeemer|Messiah|One descending)\b",
                           re.I), (), {
         "visual_design_choices": ["Jesus Christ, a man clothed in a white robe."],
-        "locked_traits": ["Always the same man in a white robe."]}, "Jesus Christ"),
+        "locked_traits": ["Always the same man in a white robe."],
+        "visual_tag": "a man clothed in a white robe"}, "Jesus Christ"),
     ("spirit", re.compile(r"^(?:[Tt]he\s+)?(?:Spirit\b|Holy Ghost\b)"), ("spirit", "holy ghost"), {
         "visual_design_choices": ["Shown only as a tall column of soft, radiant white light: no body, face, "
                                   "or human features of any kind."],
-        "locked_traits": ["Always the same column of white light, never a person."]}, None),
+        "locked_traits": ["Always the same column of white light, never a person."],
+        "visual_tag": "a tall column of soft, radiant white light"}, None),
     ("god", re.compile(r"^(?:the\s+)?(?:God(?: the Father)?|Lord God|Lord)\b(?!['’]|\s+of\b)", re.I),
      ("god", "lord", "father"), {
         "visual_design_choices": ["A person made entirely of brilliant white light: a human outline so bright that "
                                   "no face, features, or clothing can be made out."],
-        "locked_traits": ["Always the same figure of pure light, never a detailed face or body."]}, None),
+        "locked_traits": ["Always the same figure of pure light, never a detailed face or body."],
+        "visual_tag": "a person made entirely of brilliant white light, a glowing human outline"}, None),
     # Every angel is the same woman, so her face stays consistent from panel to panel (a crowd of angels shares it).
     # One the text clearly describes as a man is fixed by a reader flag.
     ("angel", re.compile(r"^(?:(?:the|an|a)\s+)?(?:numberless\s+)?(?:concourses?\s+of\s+)?angels?\b", re.I),
@@ -200,8 +203,13 @@ def _conventional(name, record):
     _, subjects, convention, _ = match
     # In the figure's own record the subject is implied, so any rule about its look gives way to the convention.
     kept = [t for t in record.get("locked_traits", []) if not any(a in t.lower() for a in _APPEARANCE)]
-    return {**record, "visual_design_choices": convention["visual_design_choices"],
-            "locked_traits": convention["locked_traits"] + kept}
+    out = {**record, "visual_design_choices": convention["visual_design_choices"],
+           "locked_traits": convention["locked_traits"] + kept}
+    # The diffusion prompt's short look (the design text is phrased partly as negations, which it can't use).
+    out.pop("visual_tag", None)
+    if convention.get("visual_tag"):
+        out["visual_tag"] = convention["visual_tag"]
+    return out
 
 
 def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
@@ -356,9 +364,92 @@ _BUILT_WORDS = ("temple", "pyramid", "court", "palace", "city", "cities", "house
     "fortress", "structure", "hall", "stairway", "ruins", "prison", "market")
 
 
+# The approved prompt's rules are written for a reader ("No events beyond the approved scene's cited verses"); an
+# image model can't act on those, and naming a thing in a negative prompt only helps when the thing is concrete. So
+# the diffusion negative is this fixed list of things the renders actually drift into, plus only the concrete parts of
+# the scene's own prohibitions and records ("weapons", "halo", "domes").
+DIFFUSION_NEGATIVE = ["text", "lettering", "captions", "speech bubbles", "logo", "watermark", "signature",
+                      "photograph", "photorealistic", "3d render", "modern clothing", "modern objects", "eyeglasses",
+                      "backpacks", "zippers", "wristwatches", "baseball caps", "gore", "blood", "superhero costume",
+                      "cartoon caricature"]
+_ABSTRACT = re.compile(
+    r"\b(?:verses?|scriptur\w*|texts?|textual|invent\w*|events?|narrat\w*|impl(?:y|ied|ying|ies)|identif\w*|assign\w*|"
+    r"appearance|describ\w*|stat(?:e|ed|es)|specif\w*|present|presence|speech|speak\w*|words?|spoken|story|"
+    r"doctrin\w*|symbol\w*|future|past|later|earlier|depict\w*|portray\w*|show\w*|nam(?:e|ed|es|ing)|label\w*|"
+    r"interpret\w*|literal\w*|metaphor\w*|reported|beyond|unsupported|approved|identit\w*|numbers?|chapters?|"
+    r"sources?|records?|unless|except|only|should|would|could|may|might|must|possib\w*|feared|visibl[ey]|"
+    r"physical\w*|bodily|direct\w*|quot\w*|dialogue|off-screen|conveyed|outside|clarif\w*|indicat\w*|suggest\w*|"
+    r"contradict\w*|accura\w*|diagnos\w*|condition|anachronis\w*|embellish\w*|fantasy|parody|humor)\b", re.I)
+_NEGATION = re.compile(r"\b(?:no|not|never|nothing|without|neither|nor)\b|n't\b", re.I)
+_HEDGE = re.compile(r"\b(?:can|could|may|might|should|would|will)\s+(?:also\s+)?(?:be\s+)?(?:shown|depicted|drawn|"
+                    r"portrayed|represented|visualized|illustrated|seen)(?:\s+as)?\s*", re.I)
+_META = re.compile(r"off-?screen|\brepresent|visual beat|\bpanel\b|without assigning|\bdescribed\b|\bimplied\b|"
+                   r"\bconvey|\bindicat|\bsuggest|\bsymboli|\bmetaphor|\bcaption|\blettering|\binvent", re.I)
+_NUMBERS = ["", "one", "two", "three", "four", "five", "six"]
+# A style line that points the reader at the records instead of describing a look.
+_STYLE_META = re.compile(r"\b(?:described|record|records)\b", re.I)
+
+
+def _moment(action, inferences, limit=55):
+    """What the panel shows, as concrete as the approved scene allows: the first sentence of its summary (later
+    sentences carry motives and reported speech, e.g. "They desire his company so the Jews will not learn of their
+    flight"), then its visual inferences with the hedges ("can be shown") removed. Negated and meta clauses are
+    dropped: they describe what not to draw, which a positive prompt can only invite. Joined with semicolons, so the
+    prompt's sentences stay one per section."""
+    first = re.split(r"(?<=[.!?])\s+", action.strip())[0] if action.strip() else ""
+    parts = []
+    for clause in _clauses(first) + [c for text in inferences for c in _clauses(text)]:
+        if _NEGATION.search(clause) or _META.search(clause):
+            continue
+        clause = _HEDGE.sub("", clause).strip(" ,.")
+        low = clause.lower()
+        if not clause or any(low in p.lower() or p.lower() in low for p in parts):
+            continue
+        if parts and sum(len(p.split()) for p in parts) + len(clause.split()) > limit:
+            break
+        parts.append(clause)
+    return "; ".join(parts) if parts else action.strip(" .\n")
+
+
+def _concrete(clause, names):
+    """The thing a prohibition names, if it is something an image model can steer away from, else None. Mentions of
+    the panel's own people are stripped ("halo on the Lamb of God" -> "halo"); a prohibition about a person who is
+    in the panel is dropped, since negating a name suppresses the person."""
+    text = _LEAD.sub("", clause.strip(" .")).strip(" ,")
+    text = re.sub(r"^(?:any|an?|the)\s+", "", text, flags=re.I)
+    for name in names:
+        text = re.sub(r"\s*\b(?:on|for|of|around|over|near|upon|to|with|from|about)\s+(?:the\s+)?" + re.escape(name)
+                      + r"(?:'s|’s)?\b", "", text, flags=re.I)
+    if not text or len(text.split()) > 7 or _ABSTRACT.search(text) or re.search(r"[\d:\"“”]", text):
+        return None
+    if any(re.search(r"\b" + re.escape(word) + r"\b", text, re.I) for name in names for word in _name_words(name)):
+        return None
+    # Someone not in the panel ("Nephi's parents", "the Lamb of God"): naming a person can't steer a drawing away.
+    if re.search(r"\b[A-Z][\w-]*['’]s\b", text) or re.search(r"\s[A-Z]", text):
+        return None
+    return text
+
+
+def _name_words(name):
+    """The words of a label that identify someone ("Nephi", "Lamb", "Christ"), not "the" or "of"."""
+    return [w for w in re.findall(r"[A-Z][\w'’-]+", name) if w not in ("The", "A", "An")] or [name]
+
+
+def _look(record, limit):
+    """A person's or place's look in a few words, from its visual tag or its design choices."""
+    from .cast import auto_tag
+    tag = record.get("visual_tag") or auto_tag(record, limit)
+    return tag.replace(". ", ", ").strip(" .")
+
+
 def diffusion_prompts(prompt):
-    # Diffusion models can't obey "no X" (naming X invites it), so negated clauses move to the
-    # negative prompt. Nothing is added; preamble, creative-latitude and shape lines are dropped.
+    """(positive, negative) for a diffusion model from an approved build_prompt() prompt.
+
+    The positive prompt is a picture, not the story: the concrete moment, then each visible person by name with
+    their own look beside it (so Flux can tell whose mantle is blue), then the setting and its look, the camera, and
+    the style. Scripture facts, motives and summaries stay in the approved prompt for review; they aren't drawable.
+    Diffusion models can't obey "no X" (naming X invites it), so negations move to the negative prompt, and only
+    the concrete ones (see DIFFUSION_NEGATIVE)."""
     sections, current = {}, None
     for block in prompt.split("\n\n"):
         head, _, body = block.partition("\n")
@@ -369,49 +460,89 @@ def diffusion_prompts(prompt):
     style = json.loads(sections["GLOBAL STYLE"])
     people = json.loads(sections["VISIBLE PEOPLE"])
     places = json.loads(sections["LOCATION"])
+    action = sections["APPROVED ACTION"]
     location_records = json.loads(sections["LOCATION CONSISTENCY (design choices are not scripture)"])
+    character_records = json.loads(sections["CHARACTER CONSISTENCY (design choices are not scripture)"])
+    inferences = json.loads(sections["REASONABLE VISUAL INFERENCES"])
+    creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
     # Flux weights early tokens most, so the panel's own content leads and global style follows.
-    positive, negative = ["Scene: " + sections["APPROVED ACTION"].strip(" .\n")], []
+    positive, negative = ["Scene: " + _moment(action, inferences)], []
     # A reviewer's corrections to an earlier drawing come right after the scene, where they carry the most weight.
     corrections = json.loads(sections.get(CORRECTIONS_HEADING, "{}"))
     positive += [item.strip(" .") for item in corrections.get("add", []) if item.strip(" .")]
     negative += [item.strip(" .") for item in corrections.get("avoid", []) if item.strip(" .")]
-    facts = [c["text"] for c in json.loads(sections["EXPLICIT SCRIPTURAL FACTS"])]
-    inferences = json.loads(sections["REASONABLE VISUAL INFERENCES"])
-    creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
-    _sort_clauses(inferences + facts, positive, negative)
+    negative += DIFFUSION_NEGATIVE
+    names = list(people)
     if people:
-        # Heavenly figures with a fixed identity go by it (e.g. "the Lamb of God" is drawn as Jesus Christ, not a lamb).
-        shown = [(heavenly(p) or (None,) * 4)[3] or p for p in people]
-        positive.append("People: " + ", ".join(dict.fromkeys(shown)))
+        entries, known = [], True
+        for name in dict.fromkeys(people):
+            record = character_records.get(name) or {}
+            match = heavenly(name)
+            # Heavenly figures with a fixed identity go by it (e.g. "the Lamb of God" is drawn as Jesus Christ).
+            shown = (match[3] if match else None) or name
+            names.append(shown)
+            look = _look(record, 45 if match else 30) if record else ""
+            if look.lower().startswith(shown.lower()):
+                look = look[len(shown):].strip(" ,:")  # "Jesus Christ, a man clothed in a white robe"
+            entries.append(f"{shown} ({look})" if look else shown)
+            known = known and bool(record) and not match and not is_group(record)
+        count = len(entries)
+        # Every visible person is a known individual: say how many, so Flux doesn't pad the frame with extras.
+        if known and count < len(_NUMBERS):
+            head = "One person only" if count == 1 else f"Exactly {_NUMBERS[count]} people"
+            positive.append(head + ": " + "; ".join(entries))
+            negative += ["crowd", "extra people", "background figures"]
+        else:
+            positive.append("People: " + "; ".join(entries))
+    # "Architecture" rules describe what a building should look like if the panel's own content already calls for
+    # one; asserted unconditionally they put a temple in every panel, including open-country scenes. Setting
+    # records keep their buildings apart for the same reason.
+    unrecorded = [place for place in places if not location_records.get(place)]
+    looks = [text for record in location_records.values() for text in record.get("visual_design_choices", [])]
+    built = any(word in text.lower() for text in unrecorded + looks + inferences + creative + [action]
+                for word in _BUILT_WORDS)
     if places:
-        positive.append("Setting: " + ", ".join(places))
+        settings = []
+        for place in places:
+            record = location_records.get(place) or {}
+            look = ", ".join(record.get("visual_design_choices", []) + (record.get("architecture", []) if built else []))
+            look = look.replace(". ", ", ").strip(" .")
+            settings.append(f"{place} ({look})" if look else place)
+        positive.append("Setting: " + "; ".join(settings))
     positive.append(sections["MOOD / COMPOSITION / CAMERA"].replace(" / ", ", "))
-    # "Architecture ..." style rules only describe what a building should look like if the panel's
-    # own content already calls for one; asserted unconditionally they put a temple in every panel,
-    # including open-country scenes. Gate them on whether anything here actually mentions a structure.
-    location_text = [text for record in location_records.values()
-                      for text in record.get("scriptural_facts", []) + record.get("visual_design_choices", [])
-                      + record.get("locked_traits", [])]
-    location_text = [t["text"] if isinstance(t, dict) else t for t in location_text]
-    built = any(word in text.lower() for text in places + facts + inferences + creative + location_text
-                + [sections["APPROVED ACTION"]] for word in _BUILT_WORDS)
     style_positive, style_negative = [], []
     _sort_clauses([style.get("description", ""), *style.get("locked_traits", [])], style_positive, style_negative)
     architecture, other_style = [], []
     for clause in style_positive:
+        if _STYLE_META.search(clause):
+            continue  # "Each character's clothing ... follow their own time and place as described in their record"
         (architecture if _ARCHITECTURE_CLAUSE.match(clause) else other_style).append(clause)
     positive += other_style + (architecture if built else [])
     negative += style_negative
     if not built:
         negative.append("buildings, temples, pyramids, palaces, or other man-made structures")
-    for key in ("LOCATION CONSISTENCY (design choices are not scripture)", "CHARACTER CONSISTENCY (design choices are not scripture)"):
-        for record in json.loads(sections[key]).values():
-            facts = [f["text"] if isinstance(f, dict) else f for f in record.get("scriptural_facts", [])]
-            _sort_clauses(facts + record.get("visual_design_choices", []) + record.get("locked_traits", []), positive, negative)
+    # Records' own "never" rules: always a setting's; a person's only when they're alone in the frame, since one
+    # person's "no crown" must not strip the crown from the king beside him.
+    rules = [text for record in location_records.values() for text in record.get("locked_traits", [])]
+    if len(people) == 1:
+        rules += [text for record in character_records.values()
+                  for text in record.get("visual_design_choices", []) + record.get("locked_traits", [])]
+    for text in rules:
+        for clause in _clauses(text):
+            head, *tails = _TAIL.split(clause)
+            for item in ([head] if _NEGATED.match(head) else []) + tails:
+                negative.append(_concrete(item, names))
     for line in sections["NEGATIVE CONSTRAINTS"].splitlines():
-        _sort_clauses([line], positive, negative, constraints=True)
-    return ". ".join(positive) + ".", ", ".join(negative)
+        if line in NEGATIVE:
+            continue  # the global rules, replaced by DIFFUSION_NEGATIVE
+        for clause in _clauses(line):
+            negative.append(_concrete(clause, names))
+    seen, kept = set(), []
+    for item in negative:
+        if item and item.lower() not in seen:
+            seen.add(item.lower())
+            kept.append(item)
+    return ". ".join(positive) + ".", ", ".join(kept)
 
 
 _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scripture)",
