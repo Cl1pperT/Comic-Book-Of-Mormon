@@ -518,72 +518,76 @@
       "Ether 12:24",
       "Ether 12:25"
     ],
-    "summary": "The first-person speaker says the Lord commanded him. He tells the Lord of his fear that the Gentiles will mock their words because of weakness in writing, and contrasts that weakness with their power in speech and the brother of Jared’s writing.",
+    "summary": "Moroni reports receiving a command from the Lord and recounts having spoken to him.",
     "characters": [
-      "First-person speaker"
+      "Moroni (son of Mormon)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says his fathers obtained by faith a promise that these things would come to their brethren through the Gentiles, and says the Lord commanded him.",
+        "text": "Moroni identifies the Lord who commanded him as Jesus Christ.",
         "refs": [
           "Ether 12:22"
         ]
       },
       {
-        "text": "The speaker says he told the Lord that the Gentiles would mock because of weakness in writing, and says the people could speak much because of the Holy Ghost.",
+        "text": "Moroni reports a promise obtained by his fathers through faith.",
         "refs": [
-          "Ether 12:23"
+          "Ether 12:22"
         ]
       },
       {
-        "text": "The speaker says they could write but little because of the awkwardness of their hands, unlike the brother of Jared, whose writing he describes as mighty.",
+        "text": "Moroni records his own address to the Lord concerning writing, speaking, and the Gentiles.",
+        "refs": [
+          "Ether 12:23",
+          "Ether 12:24",
+          "Ether 12:25"
+        ]
+      },
+      {
+        "text": "The brother of Jared is mentioned within Moroni’s reported address, not described as present.",
         "refs": [
           "Ether 12:24"
-        ]
-      },
-      {
-        "text": "The speaker says their words are powerful but difficult to write, and fears the Gentiles will mock their words.",
-        "refs": [
-          "Ether 12:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown addressing the Lord without depicting a visible response or appearance."
+      "A restrained, non-dramatized presentation can accompany Moroni’s account without reenacting the reported address."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance and posture.",
-      "The location and any writing materials."
+      "Moroni’s physical appearance, clothing, and posture.",
+      "Setting, lighting, and any writing materials.",
+      "The time and physical circumstances of the reported address."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Lord, the Gentiles will mock at these things, because of our weakness in writing;",
+        "text": "And it is by faith that my fathers have obtained the promise that these things should come unto their brethren through the Gentiles; therefore the Lord hath commanded me, yea, even Jesus Christ.",
         "refs": [
-          "Ether 12:23"
-        ],
-        "speaker": "First-person speaker"
+          "Ether 12:22"
+        ]
       },
       {
-        "text": "and I fear lest the Gentiles shall mock at our words.",
+        "text": "And I said unto him: Lord, the Gentiles will mock at these things, because of our weakness in writing;",
         "refs": [
-          "Ether 12:25"
-        ],
-        "speaker": "First-person speaker"
+          "Ether 12:23"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The fathers, Gentiles, and brother of Jared are mentioned, not described as present.",
-      "The speaker’s comparisons about speech and writing are statements, not separate visible events."
+      "All narration is voiced by Moroni (son of Mormon); the second excerpt introduces his reported speech.",
+      "The reported address must not become a new present-tense encounter.",
+      "The fathers, their brethren, the Gentiles, and the brother of Jared are mentioned rather than established as physically present.",
+      "These verses describe no visible appearance of Jesus Christ or the Holy Ghost."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by a name absent from the supplied verses.",
-      "Do not show the fathers, Gentiles, or brother of Jared as present.",
-      "Do not invent a visible appearance or response for the Lord.",
-      "Do not stage the speaker writing as a present action."
+      "Do not depict a visible divine appearance or invent a divine response.",
+      "Do not stage the fathers obtaining the promise or the brother of Jared writing.",
+      "Do not show the Gentiles actually mocking.",
+      "Do not invent a present action of Moroni writing.",
+      "Do not literalize powerful words or stumbling over word placement as supernatural or physical events."
     ],
     "importance": "normal"
   },

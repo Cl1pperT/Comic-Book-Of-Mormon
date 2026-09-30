@@ -1,15 +1,13 @@
 {
-  "stamp": "b633a0f7f1c612316a1812b1b3fb8797cc2e72310221e88dbe7d308ed8d1a89c",
+  "stamp": "1e548d51bf4eb806b6b0e2dad9b74bafbfde4e68d4157badef0d0368c49349e9",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Mosiah 12:1 identifies the continuing speaker as Abinadi; do not treat him as a new unidentified speaker."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -80,15 +78,14 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The preceding exchange identifies Abinadi as the continuing speaker and the priests as those addressed; generic labels must not imply different participants."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The exchange continues Abinadi's address to the priests. Generic labels must not imply new participants, and the respondents' reported answer must remain narration."
+        "The speaker is unidentified in verses 31–32; the preceding scene identifies him as Abinadi, but that identity is not established by this scene’s supplied refs. The conservative label “Unidentified speaker” is appropriate.",
+        "The answer is reported in narration, not direct dialogue; the scene correctly preserves it as narration."
       ]
     },
     "scene_020": {

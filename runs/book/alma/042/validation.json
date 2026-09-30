@@ -1,5 +1,5 @@
 {
-  "stamp": "31719e507da092202056819b6dfb2789b2436b64011605558fb795099c1a493a",
+  "stamp": "43f8e8b1ece67c0b6d1e769f73de1796a02f0472aacfa435b632fe967fbf6343",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,9 +8,9 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The depiction of the cherubim and flaming sword is supported as a recounted event, not as occurring in the conversation’s present; preserve that chronology.",
-        "“The speaker” is unnamed in this scene’s fields, though the preceding scene identifies Alma as the speaker. The son remains unnamed.",
-        "The source calls them “our first parents”; “the man” is also explicit, but the summary’s “first parents” being sent and the man being drawn out should not imply more than the verse states."
+        "The son is unnamed in the supplied verses; retaining him as an unnamed character is appropriate, but his presence in a visual depiction is inferred from Alma addressing him.",
+        "Alma's son and the conversation setting have no described appearance or location; visual design must remain unspecified.",
+        "The scene title's “guarded tree of life” is a reasonable shorthand for the cherubim and sword placed to keep the tree, not a separate source detail."
       ]
     },
     "scene_003": {

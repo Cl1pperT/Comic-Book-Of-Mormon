@@ -1,5 +1,5 @@
 {
-  "stamp": "9f9a5049ddcd3221e5d0c6b47702c62c0606180857b4725388326f61e8c3e38d",
+  "stamp": "8fac9776fb600d4a022c54240fc6fd211f07654524daa0d104c3242022d9174b",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -38,10 +38,8 @@
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Dialogue excerpts are exact and contiguous. The summary says the speaker “teaches” these points, but these verses provide the speech without explicitly identifying the speaker or describing a present scene. Avoid depicting an unidentified speaker unless the preceding-scene chronology supports it."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
@@ -51,14 +49,14 @@
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary accurately frames the spread of knowledge as foretold, not present. The explicit-facts entry calls the speaker “the speaker,” but the verses do not establish a present speaker or scene; the surrounding chapter’s discourse may contextualize speech, but do not depict an unidentified speaker without support from the preceding chronology."
-      ]
-    },
-    "scene_012": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is unidentified in the supplied verses; the dialogue attribution to “Unidentified speaker” is a reasonable placeholder, not an established identity."
+      ]
     },
     "scene_013": {
       "status": "PASS",

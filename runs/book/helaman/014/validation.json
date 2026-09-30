@@ -1,5 +1,5 @@
 {
-  "stamp": "7eaa538fb62d422e95474300a9c5875e7362cd43b73c0641a4696603d74f7ae9",
+  "stamp": "a040a44b773732444ba9dc4619a3fbd60b54c2745eb7c4120fb9847d6935a37a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,11 +22,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied dialogue omits the intervening source words between quoted excerpts (including the stated conditions of repentance, the description of Jesus Christ, and the purpose of believing); as dialogue excerpts, the quoted text itself is exact. The summary accurately covers these points.",
-        "The previous scene’s account of Samuel’s commission and rejection is not re-staged in this scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",

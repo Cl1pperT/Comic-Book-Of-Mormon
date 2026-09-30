@@ -1,5 +1,5 @@
 {
-  "stamp": "d2d96ad2ad25ac238cd52dd1329e33e4b7686f400fdcc449a5405f783ff73dac",
+  "stamp": "8a13357d9b7ee73872a7aff37e276a34f3555a8df38fbef6e71888f0d21e61ef",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -102,7 +102,7 @@
     "scene_023": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene correctly treats Jacob 5:77 as a prediction rather than depicting the gathering or burning as present events. The quoted dialogue is verbatim. The speaker is not identified in this verse, but the vineyard allegory and preceding scene identify him as the Lord of the vineyard; labeling him only as an unidentified speaker is conservative. The location is mentioned in the speech, not established as the scene's visual setting."
+        "The verse provides no visual description or explicit appearance for the speaker, and the vineyard and events are only spoken of as future; depict no present action beyond the speech. The previous scene depicts earlier events, so preserve that chronology."
       ]
     }
   }

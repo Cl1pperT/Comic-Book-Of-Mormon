@@ -1,5 +1,5 @@
 {
-  "stamp": "4ed7cbac06107aaa7f30bb184f9bc771cf153adea03db586a42dba673fab130d",
+  "stamp": "f265f9cad6188d193c090a08fbebadb553834eac4462fa831c7bfec1414a7e86",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -42,8 +42,10 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The content is otherwise supported: the signs are presented as promises, not as occurring events, and both dialogue excerpts are verbatim. The label “Jesus Christ (at Bountiful)” is not established by these verses; speaker identity is unspecified here. The accompanying note not to identify the speaker conflicts with that label."
+      ]
     },
     "scene_012": {
       "status": "PASS",

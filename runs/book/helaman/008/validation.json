@@ -1,5 +1,5 @@
 {
-  "stamp": "767d5cecbafa0387665f2af944634b58bcc7e407685ba415dc71c18e7c94f484",
+  "stamp": "e26723e8fd935b8a7016563f341dd3d69b14d8f2f42410d68420717b70e8074a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -27,11 +27,8 @@
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene title, summary, and facts are consistent with Nephi as the speaker, but the character list leaves the speaker unidentified; align these fields rather than suggesting the speaker’s identity is unspecified.",
-        "The dialogue is an exact excerpt from Helaman 8:15; it is a reported teaching, not an event to stage literally."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
@@ -46,12 +43,18 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is named as Nephi in the dialogue field, but Helaman 8:24–26 do not identify the speaker. The preceding scene’s attribution and chronology are consistent with this continuation, but the name is not explicit in these scene refs."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is not identified in Helaman 8:27–28; the scene correctly leaves the speaker unidentified. The previous scene labels its speaker Nephi, but that identity is not stated in the supplied verses for this scene, so continuity of identity is uncertain.",
+        "The address is not said to occur at the judgment-seat; it is only mentioned as the place to go and search. The scene appropriately leaves the address location unspecified.",
+        "The quoted dialogue is verbatim and within the word limit; the murder is reported, not depicted as occurring."
+      ]
     }
   }
 }

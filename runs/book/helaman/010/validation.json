@@ -1,5 +1,5 @@
 {
-  "stamp": "5c4767980f68cb98b03b44022b4d99f3842b8c616dad9f1dbf0c6c3e4898fd7a",
+  "stamp": "47e001055b1a53cf74331392141e4eadfc178ae90cc2cfcc6fcb54235aeb8f1e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,8 +12,12 @@
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The voice is identified as God in the dialogue, but its visible source is unspecified; the scene appropriately leaves it off-screen or otherwise unseen.",
+        "The blessing and promises are spoken, not narrated as visible miracles or actions.",
+        "Chronology follows the previous scene: the voice addresses Nephi after it comes to him while he ponders."
+      ]
     },
     "scene_004": {
       "status": "PASS",

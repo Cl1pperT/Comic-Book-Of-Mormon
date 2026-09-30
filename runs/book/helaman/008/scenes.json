@@ -311,7 +311,7 @@
     ],
     "summary": "The speaker says his addressees deny his words and the words of their fathers and Moses. He recalls Moses lifting the brazen serpent in the wilderness and teaches that those who look upon the Son of God with faith and a contrite spirit might live eternally.",
     "characters": [
-      "Unidentified speaker",
+      "Nephi (son of Helaman)",
       "Unidentified addressees",
       "Moses (mentioned, not present)"
     ],
@@ -357,7 +357,7 @@
         "refs": [
           "Helaman 8:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi (son of Helaman)"
       }
     ],
     "narration": [],
@@ -566,7 +566,7 @@
     ],
     "summary": "A speaker accuses those addressed of rejecting evidence and truth, rebelling against God, and committing wickedness, and warns of destruction unless they repent.",
     "characters": [
-      "Unidentified speaker",
+      "Nephi (son of Helaman)",
       "Those addressed"
     ],
     "locations": [
@@ -605,7 +605,7 @@
         "refs": [
           "Helaman 8:25"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi (son of Helaman)"
       }
     ],
     "narration": [],
@@ -620,18 +620,18 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "The judge’s murder is revealed",
+    "title": "The judge’s murder is reported",
     "refs": [
       "Helaman 8:27",
       "Helaman 8:28"
     ],
-    "summary": "A speaker tells the addressees to search at the judgment-seat, saying their judge has been murdered by his brother, who seeks to sit in the judgment-seat. The speaker says both belong to a secret band.",
+    "summary": "A speaker tells the addressees to go to the judgment-seat and search. The speaker says their judge has been murdered by his brother, who seeks to sit in the judgment-seat, and says both belong to a secret band.",
     "characters": [
       "Unidentified speaker",
       "Unidentified addressees"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location of the address; judgment-seat mentioned"
     ],
     "explicit_facts": [
       {
@@ -641,26 +641,40 @@
         ]
       },
       {
-        "text": "The speaker says their judge has been murdered and lies in his blood; his brother murdered him and seeks to sit in the judgment-seat.",
+        "text": "The speaker says their judge has been murdered and lies in his blood.",
         "refs": [
           "Helaman 8:27"
         ]
       },
       {
-        "text": "The speaker says both belong to a secret band whose author is Gadianton and the evil one.",
+        "text": "The speaker says the judge’s brother murdered him and seeks to sit in the judgment-seat.",
+        "refs": [
+          "Helaman 8:27"
+        ]
+      },
+      {
+        "text": "The speaker says both belong to the addressees’ secret band and names Gadianton and the evil one in connection with its authorship.",
         "refs": [
           "Helaman 8:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker addresses others; the murder is reported, not shown occurring."
+      "A speaker addresses others; the murder is reported rather than shown happening."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance are not stated.",
-      "The appearance of the addressees and the judgment-seat is not stated."
+      "The speaker’s identity and appearance are not given in the supplied verses.",
+      "The addressees’ appearance and the setting of the address are not described.",
+      "The appearance of the judgment-seat is not described."
     ],
     "spoken_dialogue": [
+      {
+        "text": "go ye in unto the judgment-seat, and search;",
+        "refs": [
+          "Helaman 8:27"
+        ],
+        "speaker": "Unidentified speaker"
+      },
       {
         "text": "your judge is murdered, and he lieth in his blood;",
         "refs": [
@@ -669,7 +683,14 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "they both belong to your secret band,",
+        "text": "and he hath been murdered by his brother, who seeketh to sit in the judgment-seat.",
+        "refs": [
+          "Helaman 8:27"
+        ],
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "And behold, they both belong to your secret band, whose author is Gadianton and the evil one who seeketh to destroy the souls of men.",
         "refs": [
           "Helaman 8:28"
         ],
@@ -678,11 +699,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses report the murder; they do not narrate it happening during this address."
+      "The judge’s death and his brother’s involvement are stated in the address, not narrated as occurring during it."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Nephi from these verses alone.",
-      "Do not show the murder occurring or place the judge, his brother, or Gadianton visibly at the address."
+      "Do not identify the speaker from these verses alone.",
+      "Do not show the murder occurring or place the judge, his brother, or Gadianton at the address.",
+      "Do not depict the evil one as visibly present."
     ],
     "importance": "major"
   }

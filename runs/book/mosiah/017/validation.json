@@ -1,5 +1,5 @@
 {
-  "stamp": "d0f136ffb37c5f94425bd0b977ddda5aa79dae49128cf3589db89be274442d33",
+  "stamp": "854ff5685dcf479f4b817ce3f199b40f0a1a8cc60ffa7998a07769791b04875c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -40,7 +40,9 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene omits the explicitly narrated flames scorching Abinadi (Mosiah 17:14) while presenting his warning as a speech scene; it should not be staged as an earlier or separate event, since the source places the speech after the flames begin."
+        "The previous scene's wording that flames begin to scorch him is supported, but the supplied text does not explicitly say he is already bound and scourged «unto death» before this moment; chronology in its summary compresses the events of verses 13–14.",
+        "The current scene's speaker is explicitly Abinadi from verse 20, but that identifying verse is outside this scene's refs; the dialogue itself is accurately quoted from verses 15–17.",
+        "The addressees are addressed as «ye» and «thy seed»; their identities and the physical setting remain unspecified. The warning and flock comparison are not present-tense events."
       ]
     },
     "scene_009": {

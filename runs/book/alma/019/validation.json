@@ -1,21 +1,28 @@
 {
-  "stamp": "ee730a0b3477b5b14d5df0dfce6c983e4bd912336eadbaf5303045edf5e860ad",
+  "stamp": "3e5b8c266a0dab7e1007fa94a67a30177a8a7a2b306210b48a756c91e9c3fed9",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary and explicit facts accurately reflect the supplied verses. Dialogue and narration are verbatim excerpts. The scene does not establish the husband's presence, and the preceding scene remains chronologically distinct.",
+        "The location 'An unspecified place where Ammon meets the queen' is an unspecified creative detail, not an explicit fact; the source only says Ammon went in unto the queen."
+      ]
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and facts accurately represent verses 8–10. The quotation for Ammon in verse 10 is a verbatim excerpt, but it ends with a semicolon; his sentence continues in the supplied verse. This is a permissible short excerpt, though any further speech must be quoted as another exact excerpt.",
+        "The preceding scene’s summary and narration describe only verses 6–7, and do not alter the chronology of this scene.",
+        "The facing-each-other visual inference is plausible but not specified; clothing, expressions, setting, and the man’s visibility are correctly marked unspecified. The servants are mentioned, not stated to be present."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -48,7 +55,9 @@
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The assembled multitude is listed as a character and described as watching Abish help the queen rise, but verse 29 does not explicitly say they remain present or watch during this action; this relies on continuity from verse 28."
+        "The queen’s rising and crying out are supported, but the source does not specify that the assembled multitude watches during these actions; the visual inference should not assert that.",
+        "The named servants and King Lamoni are not stated to be present in verse 29. They may belong to the immediate broader episode, but their presence in this specific scene is uncertain.",
+        "The dialogue is verbatim and the summary reflects the supplied events. Hell is figurative in the queen’s words, not a visible location."
       ]
     },
     "scene_013": {

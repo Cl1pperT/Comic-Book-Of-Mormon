@@ -329,7 +329,7 @@
     "characters": [
       "Nephi’s brethren",
       "The sons of Ishmael",
-      "Their wives"
+      "The daughters of Ishmael"
     ],
     "locations": [
       "At sea; aboard a vessel (reasonable visual inference)."
@@ -744,11 +744,11 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Family’s Pleas",
+    "title": "Grief and Unsoftened Hearts",
     "refs": [
       "1 Nephi 18:19"
     ],
-    "summary": "Jacob and Joseph are grieved because of their mother’s afflictions. Nephi’s wife and children do not soften his brethren’s hearts to release him.",
+    "summary": "Jacob and Joseph, young and needing nourishment, grieve because of their mother’s afflictions. Nephi’s wife has tears and prayers, but she and his children do not soften his brethren’s hearts to release him.",
     "characters": [
       "Jacob",
       "Joseph",
@@ -761,19 +761,19 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Jacob and Joseph are young and have need of much nourishment.",
+        "text": "Jacob and Joseph are young, need much nourishment, and are grieved because of their mother’s afflictions.",
         "refs": [
           "1 Nephi 18:19"
         ]
       },
       {
-        "text": "Jacob and Joseph are grieved because of their mother’s afflictions.",
+        "text": "Nephi’s wife has tears and prayers.",
         "refs": [
           "1 Nephi 18:19"
         ]
       },
       {
-        "text": "Nephi’s wife has tears and prayers, and Nephi’s children also do not soften his brethren’s hearts to release him.",
+        "text": "Nephi’s wife and children do not soften his brethren’s hearts to release him.",
         "refs": [
           "1 Nephi 18:19"
         ]
@@ -786,7 +786,7 @@
     "unspecified_visual_details": [
       "The location and the family members’ appearances are not specified.",
       "The words of the prayers are not supplied.",
-      "The verse does not describe Nephi’s brethren’s appearance or actions."
+      "The verse does not describe how Nephi is restrained or what his brethren do."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -800,8 +800,8 @@
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
       "Do not invent spoken pleas or prayer wording.",
-      "Do not depict a location or details of appearance not stated in the verse.",
-      "Do not depict the brethren releasing Nephi; the verse says their hearts were not softened."
+      "Do not depict the brethren releasing Nephi.",
+      "Do not invent a specific form of restraint, a location, or details of appearance."
     ],
     "importance": "normal"
   },

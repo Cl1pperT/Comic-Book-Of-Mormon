@@ -223,7 +223,7 @@
       "Nephi",
       "Nephi's brethren",
       "Zoram",
-      "daughters of Ishmael"
+      "The daughters of Ishmael"
     ],
     "locations": [],
     "explicit_facts": [
@@ -1065,7 +1065,7 @@
       "Sam",
       "Nephi",
       "Sons of Ishmael",
-      "Ishmael's daughters"
+      "The daughters of Ishmael"
     ],
     "locations": [
       "wilderness"
@@ -1425,7 +1425,7 @@
     ],
     "summary": "Ishmael's daughters mourn their father's loss and their afflictions in the wilderness. They murmur against the narrator's father and the narrator and desire to return to Jerusalem.",
     "characters": [
-      "Ishmael's daughters"
+      "The daughters of Ishmael"
     ],
     "locations": [
       "wilderness"
@@ -1462,7 +1462,7 @@
         "refs": [
           "1 Nephi 16:35"
         ],
-        "speaker": "Ishmael's daughters"
+        "speaker": "The daughters of Ishmael"
       }
     ],
     "narration": [],
@@ -1615,61 +1615,68 @@
     "refs": [
       "1 Nephi 16:39"
     ],
-    "summary": "The Lord's voice speaks many words to the group and chastens them. They turn away their anger, repent, and are blessed with food so they do not perish.",
+    "summary": "The Lord's voice speaks many words to the people and chastens them. They turn away their anger and repent. The Lord blesses the group with food so they do not perish.",
     "characters": [
-      "Lehi",
-      "Sariah",
-      "Laman",
-      "Lemuel",
-      "Sam",
       "Nephi",
-      "Zoram",
-      "Sons of Ishmael",
-      "Ishmael's daughters"
+      "The Lord",
+      "unnamed people addressed by the Lord's voice"
     ],
-    "locations": [
-      "Nahom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord is with the group, and the Lord's voice speaks many words and chastens them.",
+        "text": "The Lord is with Nephi's group; his voice speaks many words to them and chastens them exceedingly.",
         "refs": [
           "1 Nephi 16:39"
         ]
       },
       {
-        "text": "After being chastened, they turn away their anger, repent, and receive food so they do not perish.",
+        "text": "After the chastening, they turn away their anger and repent of their sins.",
+        "refs": [
+          "1 Nephi 16:39"
+        ]
+      },
+      {
+        "text": "The Lord blesses the group again with food, so they do not perish.",
         "refs": [
           "1 Nephi 16:39"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group may be shown responding to an unseen voice, then receiving food."
+      "The people addressed may be shown listening to an unseen voice."
     ],
     "unspecified_visual_details": [
-      "The voice's words, manner of chastening, and source of the food are not specified."
+      "The location and the identities of the other people are not specified.",
+      "The source and appearance of the food are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did turn away their anger,",
+        "text": "the Lord was with us, yea, even the voice of the Lord came and did speak many words unto them, and did chasten them exceedingly;",
         "refs": [
           "1 Nephi 16:39"
         ]
       },
       {
-        "text": "and did repent of their sins,",
+        "text": "they did turn away their anger, and did repent of their sins,",
+        "refs": [
+          "1 Nephi 16:39"
+        ]
+      },
+      {
+        "text": "the Lord did bless us again with food, that we did not perish.",
         "refs": [
           "1 Nephi 16:39"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "No visible appearance of the Lord is described."
+      "The Lord's voice is described, but no visible appearance or exact words are given. The blessing with food is a reported outcome, not a separately described food-receiving event."
     ],
     "prohibited_inventions": [
-      "Do not show the Lord visibly or invent the words spoken."
+      "Do not depict a visible appearance of the Lord or invent words for his voice.",
+      "Do not assign specific identities to the unnamed people or specify a location.",
+      "Do not stage a separate food-receiving event or invent how the food was provided."
     ],
     "importance": "normal"
   }

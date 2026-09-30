@@ -1,5 +1,5 @@
 {
-  "stamp": "36da184dc25d31a65f14b4f5c9fcb0b32574e7f70ee5ddfe0c93a107f167a775",
+  "stamp": "6e0cd90c86aad610659c782427bbdde2642a5404600ea4f72892b88d3fbf0ff1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,7 +22,8 @@
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary calls the reporting speaker unidentified, but Mosiah 8:11–12 continues the king’s direct speech addressed to the same person as in verse 7; the king’s identity remains unspecified here."
+        "The preceding scene introduces the unnamed king and person addressed, while this scene identifies them as Limhi and Ammon. The supplied verses establish this continuity, but the spoken excerpts skip Limhi’s immediately prior exchange in verse 6.",
+        "The scene is a conversation; the artifacts' arrival is correctly presented only as reported, not as a current event. The conversation's setting and the artifacts' exact appearance remain unspecified."
       ]
     },
     "scene_006": {

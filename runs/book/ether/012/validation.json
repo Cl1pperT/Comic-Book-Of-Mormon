@@ -1,5 +1,5 @@
 {
-  "stamp": "58223d70bbd7dc8e955c141a56f7d8746f11169dc571b0446d59afd267211e51",
+  "stamp": "be19767a61b8df4c4d5f84d03ae2baec7d46411c9584f859e535e71e7c58dd8a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -44,10 +44,8 @@
       ]
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Both dialogue excerpts are verbatim, but omit the source’s immediately preceding address, “for Lord,” and “wherefore,” respectively; ensure excerpts remain exact contiguous text. The unspecified first-person speaker is appropriately not identified, and the scene does not stage reported or comparative content as present action."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",

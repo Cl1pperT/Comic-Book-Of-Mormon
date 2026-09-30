@@ -1,5 +1,5 @@
 {
-  "stamp": "a44935a5ba570e16a97ac2c34744b0a2f206343b612ff787ff284d0438a92799",
+  "stamp": "489f87ceff70b8433375cd90e0519df0172eeccc199c97c728e1fbe16e8e9eef",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -56,7 +56,8 @@
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The title “The Family’s Pleas” may imply spoken pleas, which the verse does not describe; it mentions tears, prayers, and grief."
+        "The supplied narration reproduces the verse verbatim and is within the 65-word limit. Visual depictions of the grieving children and the wife in tears and prayer are reasonable inferences, but their appearance, setting, and Nephi’s restraint are unspecified.",
+        "The previous scene describes earlier events (verses 17–18); this scene’s verse 19 follows them chronologically. Do not combine those events into a single present-tense scene or depict the later release in verse 20."
       ]
     },
     "scene_015": {

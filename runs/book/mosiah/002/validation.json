@@ -1,5 +1,5 @@
 {
-  "stamp": "8247acb3afd8783ec18fb323ba6d04c2ded06f9fcdfa66a5bb020220f066de3d",
+  "stamp": "7e7820d218f29ff377de62767de221472224005663167eef1bee18c01ddd1f01",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -32,16 +32,12 @@
       ]
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is identifiable as the king from context in the supplied preceding verses, but scene 007 calls him unnamed; this is conservative rather than contradictory."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is the king in the immediately preceding speech context; labeling him unnamed is conservative, but the visual identity should not add unsupported traits."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
@@ -50,16 +46,12 @@
       ]
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker remains King Benjamin by continuity from the source address, although the scene uses an unidentified label; no unsupported naming is introduced."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Immediately blesses” is a claim within the speech and accurately reflects the source, but it is presented as a fact in the scene summary rather than clearly attributed as the speaker’s teaching."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
@@ -76,16 +68,12 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is continuous with the preceding address and thus can reasonably be understood as King Benjamin, but the scene leaves him unnamed. Lehi and the prophets are correctly treated as mentioned rather than present."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is continuous with the preceding address and can reasonably be understood as King Benjamin; the unnamed label is conservative. The listed visual inferences do not specify unsupported appearances."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

@@ -731,41 +731,30 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "Coriantum’s later family",
+    "title": "Coriantum takes a wife in old age",
     "refs": [
       "Ether 9:24",
       "Ether 9:25"
     ],
-    "summary": "Coriantum’s wife dies aged 102. In old age he marries a young maid and has sons and daughters; he lives to 142. Com succeeds him and later begets Heth and other children.",
+    "summary": "In his old age, Coriantum took a young maid to wife.",
     "characters": [
       "Coriantum",
-      "Coriantum’s wife",
-      "Coriantum’s young wife",
-      "Com",
-      "Heth"
+      "young maid"
     ],
-    "locations": [
-      "Coriantum’s kingdom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Coriantum’s wife died aged 102; later he took a young maid to wife and had sons and daughters, living to age 142.",
+        "text": "Coriantum took a young maid to wife in his old age.",
         "refs": [
           "Ether 9:24"
-        ]
-      },
-      {
-        "text": "Com reigned in Coriantum’s stead for forty-nine years and begat Heth and other sons and daughters.",
-        "refs": [
-          "Ether 9:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The marriage and succession may be shown without specifying ceremony or family arrangement."
+      "Coriantum and the young maid may be shown together without depicting a specific ceremony."
     ],
     "unspecified_visual_details": [
-      "The appearance and names of Coriantum’s other children are unspecified."
+      "Their appearance, clothing, and surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -777,10 +766,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The wife’s death, later marriage, and Com’s reign are distinct events."
+      "The wife's death in Ether 9:24 and Com's succession and reign in Ether 9:25 are separate events, not depicted in this scene."
     ],
     "prohibited_inventions": [
-      "Do not invent identities for unnamed sons and daughters."
+      "Do not depict the wife's death, Coriantum's children, or Com's reign as occurring at this moment.",
+      "Do not invent a ceremony, location, dialogue, or identities for unnamed people."
     ],
     "importance": "normal"
   },

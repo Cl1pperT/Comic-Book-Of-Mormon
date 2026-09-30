@@ -1,13 +1,17 @@
 {
-  "stamp": "3f75a444ad87aca2529e9a2ded4dff209cab8b018a53c056ea04a87f6cf834a5",
+  "stamp": "7f421b227e8899f21176608f767f4cf3df3c000980ec06f57fbe9fdcf2fb3dd0",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the speaker \"declares that he must fulfil God's commandments\" but omits that he says his hearers are angry because he told them the truth; this is an incomplete summary, not an invented event.",
+        "The label \"Abinadi\" is established elsewhere and fits the verses' continuity with the preceding scene, though his name is not stated in refs 2–4.",
+        "The preceding scene's label \"The king's priests\" adds a relationship not stated in Mosiah 13:2, which only says \"they\"; however, Mosiah 13:1 explicitly identifies the addressed priests, so this carries through without altering chronology."
+      ]
     },
     "scene_003": {
       "status": "PASS",

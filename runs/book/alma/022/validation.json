@@ -1,5 +1,5 @@
 {
-  "stamp": "742775d91a0829d17d4cf820d39553fc1e63e7395fcb680d9b963d91c3ce908b",
+  "stamp": "21169724fdb424f82c0488744c7fcf2e02a0cec108f8e6dc0fb468a1aa351ce5",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,16 +34,23 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 009: The verse places the queen and group in the king’s presence but does not name a palace or the land of Nephi; that location is unsupported. “As though they had been the cause of his fall” describes how they appeared to her, not a confirmed cause.",
+        "Scene 009: Narration is an exact excerpt, but the queen’s anger is narrated alongside the servants’ report and her seeing the king and Aaron’s group; avoid implying a different order."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is consistent with Alma 22:20–21 and preserves the preceding scene’s chronology. Visualizing fear is a reasonable inference; the text does not describe facial expressions or setting."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene follows Alma 22:22–23 in order, and its narration and dialogue are exact excerpts within the 65-word limit. The location and visible expressions are unspecified; the scene appropriately leaves them open. Conversion is narrated as an outcome, not shown as a separate event."
+      ]
     },
     "scene_012": {
       "status": "PASS",

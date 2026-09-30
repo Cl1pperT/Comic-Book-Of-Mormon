@@ -1,5 +1,5 @@
 {
-  "stamp": "c7910ffe520385aa2d69ebfe3d0fe8b8c6da2c47078c112083cff85508bfa831",
+  "stamp": "42daa544876d07664ea5e2d6d58dc2da82f3c983ada8cc4ba27b5f4c600db18f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -67,11 +67,8 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The location is unspecified by Alma 18:43; “an unspecified place with a bed” is a conservative description, not a stated setting.",
-        "The prior scene depicts Lamoni falling to the earth, while this scene has servants carrying him to his wife and laying him on a bed. Preserve this sequence and do not imply the events occur simultaneously."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

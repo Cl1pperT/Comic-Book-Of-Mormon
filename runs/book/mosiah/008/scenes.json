@@ -268,17 +268,17 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The records and the request for translation",
+    "title": "Limhi asks about translation",
     "refs": [
       "Mosiah 8:9",
       "Mosiah 8:10",
       "Mosiah 8:11",
       "Mosiah 8:12"
     ],
-    "summary": "An unidentified speaker reports that a group brought engraved gold plates, breastplates, and damaged swords. The speaker recalls an earlier question about translation, asks whether the addressee knows anyone who can translate, and expresses a desire to learn about the destroyed people and the cause of their destruction.",
+    "summary": "Limhi tells Ammon that a group brought engraved gold plates, breastplates, and damaged swords. He says no one in the land can interpret the plates, asks about translation, and expresses a desire to learn the cause of a people's destruction.",
     "characters": [
-      "Unidentified speaker",
-      "Unidentified addressee"
+      "King Limhi",
+      "Ammon"
     ],
     "locations": [
       "Unspecified location"
@@ -291,7 +291,7 @@
         ]
       },
       {
-        "text": "The group also brought large, perfectly sound breastplates of brass and copper.",
+        "text": "The group also brought large, perfectly sound breastplates of brass and of copper.",
         "refs": [
           "Mosiah 8:10"
         ]
@@ -303,62 +303,64 @@
         ]
       },
       {
-        "text": "The speaker says no one in the land can interpret the language or engravings on the plates and reports having earlier asked the addressee whether they could translate.",
+        "text": "Limhi says no one in the land can interpret the language or engravings on the plates and recalls asking Ammon whether he could translate.",
         "refs": [
           "Mosiah 8:11"
         ]
       },
       {
-        "text": "The speaker asks whether the addressee knows anyone who can translate and wishes to learn about the people connected with the records and the cause of their destruction.",
+        "text": "Limhi asks whether Ammon knows anyone who can translate and wants to learn about the people connected with the records and the cause of their destruction.",
         "refs": [
           "Mosiah 8:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The artifacts can be illustrated as reported objects without depicting their arrival as a present event."
+      "Limhi may be shown addressing Ammon."
     ],
     "unspecified_visual_details": [
-      "The setting and the participants’ appearances.",
-      "The plates’ engravings and the artifacts’ precise shapes."
+      "The setting and participants’ appearances.",
+      "The precise shapes of the artifacts and the form of the engravings."
     ],
     "spoken_dialogue": [
+      {
+        "text": "they have brought twenty-four plates which are filled with engravings, and they are of pure gold.",
+        "refs": [
+          "Mosiah 8:9"
+        ],
+        "speaker": "King Limhi"
+      },
+      {
+        "text": "there is no one in the land that is able to interpret the language or the engravings that are on the plates.",
+        "refs": [
+          "Mosiah 8:11"
+        ],
+        "speaker": "King Limhi"
+      },
       {
         "text": "Knowest thou of any one that can translate?",
         "refs": [
           "Mosiah 8:12"
         ],
-        "speaker": "Unidentified speaker"
-      }
-    ],
-    "narration": [
-      {
-        "text": "they have brought twenty-four plates which are filled with engravings, and they are of pure gold.",
-        "refs": [
-          "Mosiah 8:9"
-        ]
+        "speaker": "King Limhi"
       },
       {
-        "text": "they have brought breastplates, which are large, and they are of brass and of copper, and are perfectly sound.",
+        "text": "I am desirous to know the cause of their destruction.",
         "refs": [
-          "Mosiah 8:10"
-        ]
-      },
-      {
-        "text": "the blades thereof were cankered with rust",
-        "refs": [
-          "Mosiah 8:11"
-        ]
+          "Mosiah 8:12"
+        ],
+        "speaker": "King Limhi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The earlier question about translation is reported speech, not a new exchange in this scene.",
-      "The destruction is discussed, not depicted as a present event."
+      "The artifacts’ arrival and the earlier question about translation are reported, not present actions.",
+      "The people's destruction is discussed, not depicted."
     ],
     "prohibited_inventions": [
-      "Do not name the speaker, addressee, or group.",
+      "Do not show the reported arrival of the artifacts as a present event.",
       "Do not depict the people's destruction or invent its cause.",
-      "Do not show the reported arrival of the artifacts as a present event."
+      "Do not invent an identity or history for the group that brought the artifacts."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "a24980553a396d880f6ace12407a32750fc461e6c65122e92423ec3ba7ba1f9a",
+  "stamp": "7d2fc3ec2da4130d4f8d29d88673c209d7c45c13d9a1e67131b1569f7f181c43",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -56,10 +56,8 @@
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker in Mosiah 20:19–22 is not identified in the supplied verses. The summary and labels preserve this uncertainty; the dialogue assigns the speech to an unnamed speaker as a necessary scene label."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

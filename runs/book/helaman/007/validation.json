@@ -1,5 +1,5 @@
 {
-  "stamp": "0f34fe4efcab75064318fe54372755162f4ad5c6c1e677fcb86eb3f929be9fdc",
+  "stamp": "a42c5ed99a6279da33ee804b65eb747c59bddf0d6566560687ad5143a7c8690f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -37,12 +37,17 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says “asks how they have forgotten God,” but the exact speech is a question; ensure any dialogue uses the supplied wording verbatim. The listed dialogue excerpts are exact.",
+        "“Gathered multitudes” is supported by the preceding verses, but their appearance and the location are unspecified; depict only Nephi addressing them, without showing threatened outcomes or accused crimes."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene appropriately treats the city’s loss and the audience’s destruction as conditional warnings, not present events. The addressed audience is not identified beyond Nephi’s “my brethren,” so its visual identity and number remain unspecified."
+      ]
     },
     "scene_010": {
       "status": "PASS",

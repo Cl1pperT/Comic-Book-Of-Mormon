@@ -1,5 +1,5 @@
 {
-  "stamp": "62a71bcc21bef63141d53f54f6eb6e4d10cd43756999d0f311d601d34ff0fa24",
+  "stamp": "fcc83846ff67967f61121604baf66d003b07a7fd735db03ecedacbde75294620",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,8 +26,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaking character is omitted from the characters list, although the dialogue presents a speaker; the verses and preceding context indicate this continues the address to Mosiah."
+      ]
     },
     "scene_008": {
       "status": "PASS",

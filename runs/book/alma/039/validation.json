@@ -1,95 +1,67 @@
 {
-  "stamp": "dd80626b1120fedbd17d71f56be8b0eb7c3aa2fbcb89b31d878c2ca80e2b4e13",
+  "stamp": "4fd156596b61ed684cd15a5954c0ed0005145518fa68b4cff991804aad2f9e67",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "Summary and explicit facts refer to an unidentified speaker, son, and brother, but the character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The character field and quoted speech assign the speaker a named label not identified in this supplied verse."
+        "The verse contains an unidentified speaker’s counsel, but the characters field is empty; consider listing the unidentified speaker without assigning an identity."
       ]
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "The character field assigns the speaker a named label not identified in these supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "REJECT",
-      "issues": [
-        "The character field and quoted speech assign the speaker a named label not identified in this supplied verse."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

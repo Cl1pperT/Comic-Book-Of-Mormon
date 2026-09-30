@@ -350,10 +350,10 @@
       "Mosiah 26:19",
       "Mosiah 26:20"
     ],
-    "summary": "A speaker blesses Alma and the people, speaks of the church Alma established and Alma’s inquiry concerning the transgressor, and covenants eternal life to Alma.",
+    "summary": "The Lord blesses Alma and the people for their faith, speaks of the church Alma established, blesses the people willing to bear his name, blesses Alma for his inquiry concerning the transgressor, and covenants eternal life to him.",
     "characters": [
       "Alma",
-      "Unidentified speaker"
+      "The Lord"
     ],
     "locations": [
       "Unspecified location"
@@ -372,13 +372,13 @@
         ]
       },
       {
-        "text": "Alma has established a church among the people; the speaker says they shall be established and shall be his people.",
+        "text": "Alma has established a church among the people; the Lord says they shall be established and shall be his people.",
         "refs": [
           "Mosiah 26:17"
         ]
       },
       {
-        "text": "The people willing to bear the speaker’s name are blessed.",
+        "text": "The people willing to bear the Lord’s name are blessed; they shall be called by his name and are his.",
         "refs": [
           "Mosiah 26:18"
         ]
@@ -390,65 +390,72 @@
         ]
       },
       {
-        "text": "The speaker calls Alma his servant, covenants eternal life to him, and says Alma will serve him, go forth in his name, and gather his sheep.",
+        "text": "The Lord calls Alma his servant, covenants eternal life to him, and says Alma will serve him, go forth in his name, and gather his sheep.",
         "refs": [
           "Mosiah 26:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown listening without showing the speaker."
+      "Alma may be depicted as the recipient of the address, without inventing an action or reaction."
     ],
     "unspecified_visual_details": [
-      "Alma’s appearance and the location are not described.",
-      "The speaker’s appearance is not described; the other people mentioned are not stated to be present."
+      "The current location and Alma’s appearance are not described.",
+      "The Lord’s appearance is not described; the other people mentioned are not stated to be present."
     ],
     "spoken_dialogue": [
       {
-        "text": "Thou art blessed because of thy exceeding faith in the words alone of my servant Abinadi.",
+        "text": "Blessed art thou, Alma,",
         "refs": [
           "Mosiah 26:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "The Lord"
       },
       {
         "text": "And blessed are they because of their exceeding faith",
         "refs": [
           "Mosiah 26:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "The Lord"
       },
       {
-        "text": "and they shall be established, and they shall be my people.",
+        "text": "And blessed art thou because thou hast established a church among this people; and they shall be established, and they shall be my people.",
         "refs": [
           "Mosiah 26:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "The Lord"
+      },
+      {
+        "text": "for in my name shall they be called; and they are mine.",
+        "refs": [
+          "Mosiah 26:18"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "thou art blessed.",
+        "refs": [
+          "Mosiah 26:19"
+        ],
+        "speaker": "The Lord"
       },
       {
         "text": "I covenant with thee that thou shalt have eternal life;",
         "refs": [
           "Mosiah 26:20"
         ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "and thou shalt serve me and go forth in my name, and shalt gather together my sheep.",
-        "refs": [
-          "Mosiah 26:20"
-        ],
-        "speaker": "Unidentified speaker"
+        "speaker": "The Lord"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not explicitly name the speaker.",
-      "The baptisms, establishment of the church, and Alma’s inquiry are referred to as past events; gathering the sheep is stated as future action."
+      "The baptisms, establishment of the church, and Alma’s inquiry are referred to as past events; gathering the sheep is stated as future action.",
+      "The charge to gather the Lord’s sheep need not be depicted as literal sheep."
     ],
     "prohibited_inventions": [
       "Do not depict the baptisms, the founding of the church, the inquiry, or the gathering of sheep as happening during this speech.",
-      "Do not give the speaker a visible form or identify Alma as Alma the Younger from these verses alone.",
-      "Do not depict literal sheep solely from the speaker’s figurative charge."
+      "Do not invent a visible appearance for the Lord or a reaction from Alma.",
+      "Do not depict literal sheep solely from the Lord’s figurative charge."
     ],
     "importance": "normal"
   },

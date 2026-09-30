@@ -1,5 +1,5 @@
 {
-  "stamp": "43cf35b8f774f79cee34368d670a2b4c042b3f941b0af8a85dd2a4a506590fd7",
+  "stamp": "77343c5e0bff553482d56e7238529f5f7005e40200ae50b3da0824b1128ee753",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -58,8 +58,11 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 015: The claim that the cloud obscures the voice’s source from listeners is not stated; the voice is described only as coming “as if it were above the cloud.” Treat this as uncertain visual inference.",
+        "Scene 015: The summary says the walls tremble “again,” consistent with verse 31, but the previous scene ends at verse 28, so this scene’s sequence follows the supplied chronology."
+      ]
     },
     "scene_016": {
       "status": "PASS",

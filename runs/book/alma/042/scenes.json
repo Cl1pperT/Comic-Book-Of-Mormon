@@ -58,46 +58,48 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "The guarded tree of life",
+    "title": "Alma explains the guarded tree of life",
     "refs": [
       "Alma 42:2",
       "Alma 42:3"
     ],
-    "summary": "The speaker addresses his son and recounts the first parents being sent from Eden to till the ground, the man being drawn out, and cherubim and a flaming sword being placed at the garden’s east end to keep the tree of life.",
+    "summary": "Alma tells his son he will explain. He recounts that the Lord God sent our first parents from the garden of Eden to till the ground, drew out the man, and placed cherubim and a turning flaming sword at the garden’s east end to keep the tree of life.",
     "characters": [
-      "The speaker",
-      "His son"
+      "Alma the Younger",
+      "Alma’s son (unnamed in the supplied verses)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker addresses his son and says he will explain.",
+        "text": "Alma addresses his son and says he will explain.",
         "refs": [
           "Alma 42:2"
         ]
       },
       {
-        "text": "The Lord God sent the first parents forth from Eden to till the ground and drew out the man.",
+        "text": "The Lord God sent our first parents forth from the garden of Eden to till the ground and drew out the man.",
         "refs": [
           "Alma 42:2"
         ]
       },
       {
-        "text": "He placed cherubim and a flaming sword that turned every way at the east end of Eden to keep the tree of life.",
+        "text": "The Lord God placed cherubim and a flaming sword that turned every way at the garden’s east end to keep the tree of life.",
         "refs": [
           "Alma 42:2"
         ]
       },
       {
-        "text": "The man had become as God, knowing good and evil; the cherubim and sword were placed so that he should not partake of the fruit.",
+        "text": "The man had become as God, knowing good and evil; the cherubim and sword were placed so that he would not partake of the fruit.",
         "refs": [
           "Alma 42:3"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma and his son may be shown during Alma’s explanation, without depicting the recounted Eden events as happening then."
+    ],
     "unspecified_visual_details": [
-      "The appearance and setting of the speaker and his son are not specified.",
+      "The conversation’s location and the appearances of Alma and his son are not specified.",
       "The appearances of the Lord God and cherubim are not specified."
     ],
     "spoken_dialogue": [
@@ -106,25 +108,33 @@
         "refs": [
           "Alma 42:2"
         ],
-        "speaker": "The speaker"
-      }
-    ],
-    "narration": [
+        "speaker": "Alma the Younger"
+      },
       {
-        "text": "he placed at the east end of the garden of Eden, cherubim, and a flaming sword which turned every way, to keep the tree of life—",
+        "text": "For behold, after the Lord God sent our first parents forth from the garden of Eden, to till the ground, from whence they were taken—",
         "refs": [
           "Alma 42:2"
-        ]
+        ],
+        "speaker": "Alma the Younger"
+      },
+      {
+        "text": "Now, we see that the man had become as God, knowing good and evil;",
+        "refs": [
+          "Alma 42:3"
+        ],
+        "speaker": "Alma the Younger"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Eden events are recounted, not established as occurring during the speaker’s conversation.",
-      "The possibility of the man taking and eating the fruit is stated as a reason for the guards, not as an event that occurred."
+      "The Eden events are recounted, not described as occurring during Alma’s explanation.",
+      "Taking and eating the fruit is presented as a possibility the guards were placed to prevent, not as an event that occurred."
     ],
     "prohibited_inventions": [
-      "Do not stage the recounted Eden events as occurring in the conversation’s present.",
+      "Do not stage the recounted Eden events as occurring during Alma’s explanation.",
       "Do not invent an appearance for the Lord God or cherubim.",
-      "Do not depict the man taking or eating the fruit."
+      "Do not depict the man taking or eating the fruit.",
+      "Do not give Alma’s son a name based on material outside the supplied verses."
     ],
     "importance": "normal"
   },

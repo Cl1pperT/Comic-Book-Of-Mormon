@@ -1,5 +1,5 @@
 {
-  "stamp": "5382be9bb6229c9edb7a2d7d851149a867b5e1e99f52aab0b5fa786d622e5b46",
+  "stamp": "25c5c4ee37a578eeedac695efb39b55ddbd91212e3c20eff255890951e46bb40",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,9 +20,8 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is Gideon, established by the supplied preceding verse (Mosiah 22:5); labeling him only “Unnamed speaker” leaves the character unidentified. Use the established Gideon label without inferring beyond the text.",
-        "The summary says “back pass” and “proposes” accurately, but the phrase “a last tribute” can read as an event; clarify it is proposed, not delivered in this scene.",
-        "The dialogue excerpts are verbatim and within the word limit. Avoid depicting the route, camp, women, children, or livestock as physically present: they are mentioned in Gideon’s proposal, not established as present during the speech."
+        "The unnamed-speaker uncertainty is overstated: verse 5 explicitly identifies Gideon as the speaker introducing this speech, so labeling the dialogue speaker Gideon and listing him as a character are supported.",
+        "The proposed nighttime departure is not narrated as happening here; the scene correctly treats it as a proposal. The preceding scene's chronology is consistent. The proposed route and camp are mentioned but their visual appearance remains unspecified."
       ]
     },
     "scene_005": {
