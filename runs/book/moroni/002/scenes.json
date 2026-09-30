@@ -1,0 +1,134 @@
+[
+  {
+    "scene_id": "scene_001",
+    "title": "Christ Instructs the Disciples",
+    "refs": [
+      "Moroni 2:1",
+      "Moroni 2:2"
+    ],
+    "summary": "Christ lays his hands upon the twelve disciples he has chosen and instructs them to pray to the Father in his name. He tells them that they will have power to give the Holy Ghost to those upon whom they lay their hands.",
+    "characters": [
+      "Jesus Christ (at Bountiful)",
+      "the twelve Nephite disciples"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Christ laid his hands upon the twelve disciples he had chosen.",
+        "refs": [
+          "Moroni 2:1"
+        ]
+      },
+      {
+        "text": "Christ called the disciples by name and instructed them to call on the Father in his name in mighty prayer.",
+        "refs": [
+          "Moroni 2:2"
+        ]
+      },
+      {
+        "text": "Christ said they would have power to give the Holy Ghost to those upon whom they laid their hands.",
+        "refs": [
+          "Moroni 2:2"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Christ and the disciples are together during the instruction."
+    ],
+    "unspecified_visual_details": [
+      "The exact location, clothing, arrangement, gestures beyond the laying on of hands, and appearance of the disciples are not stated."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Ye shall call on the Father in my name, in mighty prayer;",
+        "refs": [
+          "Moroni 2:2"
+        ],
+        "speaker": "Jesus Christ (at Bountiful)"
+      },
+      {
+        "text": "and in my name shall ye give it, for thus do mine apostles.",
+        "refs": [
+          "Moroni 2:2"
+        ],
+        "speaker": "Jesus Christ (at Bountiful)"
+      }
+    ],
+    "narration": [
+      {
+        "text": "The words of Christ, which he spake unto his disciples,",
+        "refs": [
+          "Moroni 2:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The instruction concerns the disciples' authority to give the Holy Ghost."
+    ],
+    "prohibited_inventions": [
+      "Do not depict the Holy Ghost visibly; the verse reports its reception in the subsequent event."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_002",
+    "title": "The Disciples Heard",
+    "refs": [
+      "Moroni 2:3"
+    ],
+    "summary": "Christ spoke these words at the time of his first appearing. The multitude did not hear them, but the disciples did. The verse reports that the Holy Ghost fell on as many as the disciples laid their hands on.",
+    "characters": [
+      "Christ",
+      "the disciples",
+      "the multitude"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Christ spoke these words at the time of his first appearing.",
+        "refs": [
+          "Moroni 2:3"
+        ]
+      },
+      {
+        "text": "The multitude did not hear the words, but the disciples did.",
+        "refs": [
+          "Moroni 2:3"
+        ]
+      },
+      {
+        "text": "The Holy Ghost fell on as many as the disciples laid their hands on.",
+        "refs": [
+          "Moroni 2:3"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The location and the appearances of Christ, the disciples, and the multitude are not described.",
+      "The verse does not specify when the laying on of hands occurred or describe a visible appearance of the Holy Ghost."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "Now Christ spake these words unto them at the time of his first appearing; and the multitude heard it not, but the disciples heard it; and on as many as they laid their hands, fell the Holy Ghost.",
+        "refs": [
+          "Moroni 2:3"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not explicitly place the laying on of hands at the time of Christ's first appearing."
+    ],
+    "prohibited_inventions": [
+      "Do not specify Christ's unquoted words or invent dialogue.",
+      "Do not depict a visible manifestation of the Holy Ghost.",
+      "Do not assign a location, a number or identity to the disciples, or a precise time for the laying on of hands."
+    ],
+    "importance": "normal"
+  }
+]

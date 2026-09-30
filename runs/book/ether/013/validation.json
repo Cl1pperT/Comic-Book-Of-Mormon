@@ -1,0 +1,69 @@
+{
+  "stamp": "da079c22b154d35c459171d9525bc32268542ab272f81cadcf4df34ce4a56a82",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene depicts Moroni writing, but the verses only say he proceeds to finish his record; writing is a reasonable inference, not an explicit action. The text also does not specify a location."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The warning is reported to Ether, but its manner of delivery is unspecified; depict no visible divine figure."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Shared's forces are not mentioned in the verse; their depiction is an inference from his giving battle."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Shared's forces are not mentioned in the verse; their depiction is an inference from his being defeated."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse says robbers were on the land but does not specify their presence in any particular fighting band or location."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary combines Coriantumr's two-year absence from battle with the bloodshed across the land; these are concurrent reported developments over time, not a single instantaneous event."
+      ]
+    }
+  }
+}

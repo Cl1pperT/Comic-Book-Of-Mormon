@@ -1,0 +1,34 @@
+{
+  "stamp": "4a5e4aa160de184bdeed3c958b2f4d27cc062875a569096aed4d74d81f003acd",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration excerpts are exact, but none alone states that baptized elders, priests, and teachers had to show worthiness; the summary and explicit fact supply that relationship from Moroni 6:1.",
+        "The visual inference of a baptismal setting is not needed to convey these requirements and risks implying a particular event; keep it abstract or off-screen."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary combines activities described as frequent into a single-sounding meeting; preserve that these were recurring practices rather than one specific gathering."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the witnesses and elders form a conditional process, but verse 7's syntax does not explicitly describe a hearing or specify the elders' role beyond being present when the three witnesses condemn the offender. Treating this as a general process is reasonable; avoid staging a particular proceeding."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary compresses the alternative activities into a single meeting formulation; retain that the source lists what the Spirit might lead them to do, without asserting all happened together."
+      ]
+    }
+  }
+}

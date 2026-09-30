@@ -1,0 +1,53 @@
+{
+  "stamp": "20d315e602e69d6065587d1dc0fb283f3ac330770ea51f3c05c31ba8838ca8d8",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 002's explicit facts, summary, and dialogue assert that Jesus says the multitude desires to see what he did for their brethren at Jerusalem and that their faith is sufficient; this is from verse 8, but the supplied spoken_dialogue quotation is not exact: the source says “For I perceive that ye desire that I should show unto you what I have done unto your brethren at Jerusalem, for I see that your faith is sufficient that I should heal you.”",
+        "The phrase “He expresses compassion” is supported by Jesus's speech in verse 6; “looks steadfastly at him” is supported by verse 5. The wording that they look “as if asking” should remain clearly figurative, not an explicit request.",
+        "No healing has yet occurred in verses 5–8; the scene's summary correctly presents healing as a promise/invitation."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source says the children were brought but does not specify that adults carried or guided them; depict only the act of bringing them."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene facts and narration are supported by 3 Nephi 17:15–17; verses 16–17 are testimony, not additional staged events, as the scene notes correctly state. The multitude hearing Jesus is explicit, so the visual inference that it is close enough to hear is reasonable. Individual placements remain unspecified."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

@@ -1,57 +1,75 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "War spreads",
+    "title": "War throughout the land",
     "refs": [
       "Helaman 11:1",
       "Helaman 11:2"
     ],
-    "summary": "Contentions increase into wars throughout the land. The secret band of robbers carries on destruction and wickedness, and war continues through the seventy-second and seventy-third years.",
+    "summary": "In the seventy-second year of the reign of the judges, contentions increase and wars occur throughout the land among the people of Nephi. A secret band of robbers carries on destruction and wickedness. The war lasts through that year and the seventy-third year.",
     "characters": [
-      "Nephite people",
-      "Gadianton robbers"
+      "People of Nephi",
+      "Secret band of robbers"
     ],
     "locations": [
-      "Nephite lands"
+      "All the land"
     ],
     "explicit_facts": [
       {
-        "text": "Contentions increase into wars throughout all the land among the people of Nephi.",
+        "text": "In the seventy-second year of the reign of the judges, contentions increase and wars occur throughout all the land among the people of Nephi.",
         "refs": [
           "Helaman 11:1"
         ]
       },
       {
-        "text": "The secret band of robbers carries on destruction and wickedness, and the war lasts through the seventy-second and seventy-third years.",
+        "text": "A secret band of robbers carries on destruction and wickedness.",
         "refs": [
+          "Helaman 11:2"
+        ]
+      },
+      {
+        "text": "The war lasts through the seventy-second year and continues in the seventy-third year.",
+        "refs": [
+          "Helaman 11:1",
           "Helaman 11:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A broad view of conflict across Nephite lands can convey the reported widespread wars."
+      "A broad, non-specific view of conflict can convey the reported widespread wars."
     ],
     "unspecified_visual_details": [
-      "The combatants' identities, clothing, weapons, and the specific locations of battles are not given."
+      "The combatants' clothing, weapons, and the locations of particular conflicts are not specified.",
+      "The appearance of the secret band of robbers is not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there were wars throughout all the land",
+        "text": "there were wars throughout all the land among all the people of Nephi.",
         "refs": [
           "Helaman 11:1"
         ]
       },
       {
-        "text": "this secret band of robbers",
+        "text": "And it was this secret band of robbers who did carry on this work of destruction and wickedness.",
+        "refs": [
+          "Helaman 11:2"
+        ]
+      },
+      {
+        "text": "And this war did last all that year; and in the seventy and third year it did also last.",
         "refs": [
           "Helaman 11:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verses report a war spanning two years; they do not describe a particular battle."
+    ],
     "prohibited_inventions": [
-      "Do not assign the robbers a named leader or depict a specific battle not described."
+      "Do not name the secret band of robbers or give its members invented identities.",
+      "Do not depict a specific battle, leader, or act of destruction as a documented event.",
+      "Do not merge the seventy-second and seventy-third years into a single moment."
     ],
     "importance": "normal"
   },

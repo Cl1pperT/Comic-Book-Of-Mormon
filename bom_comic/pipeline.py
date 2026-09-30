@@ -4,7 +4,7 @@ import re
 from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
-from .analysis import RULES, analyze, unquote, validate_batch, validate_scene
+from .analysis import RULES, analyze, speaker_note, unquote, validate_batch, validate_scene
 from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
     portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
 from .scripture import load, select
@@ -63,7 +63,8 @@ class Pipeline:
                 raise ValueError("Unknown scene")
             old = scenes[index]
             verses = [v for v in self.verses() if v.ref in old.refs]
-            prompt = RULES + "\nRegenerate exactly one scene using only these verses. Preserve all refs. Return one \n"
+            prompt = (RULES + "\nRegenerate exactly one scene using only these verses. Preserve all refs."
+                      + speaker_note(verses[0].book, verses[0].chapter) + " Return one \n")
             request = {"source": [v.model_dump() for v in verses], "previous_draft": old.model_dump()}
             # Without the audit's reasons, a rewrite tends to repeat the same mistake.
             if self.store.path("validation.json").exists():
@@ -256,9 +257,20 @@ class Pipeline:
         """What a panel's drawing depends on: its content except the lettering (added at assembly) and its place on
         the page, its own verses, the continuity, and any attached portraits. Unlike panel_stamp it ignores the
         chapter's other scenes, so repairing one scene doesn't make every drawing in the chapter stale."""
+        return self._art_stamp(panel)
+
+    def _art_stamp(self, panel, whole_continuity=False):
+        # Version 2 covers only the records the panel draws from (its visible people, its locations, the style), so
+        # adding or editing someone else's record doesn't restale it. whole_continuity gives version 1, which
+        # records made before that change were stamped with.
+        continuity = self.continuity()
+        if not whole_continuity:
+            continuity = {"characters": {n: continuity["characters"].get(n) for n in panel.characters_visible},
+                          "locations": {n: continuity["locations"].get(n) for n in panel.location},
+                          "visual_style": continuity["visual_style"]}
         source = {v.ref: v.text for v in self.verses()}
         value = {"panel": panel.model_dump(exclude=ART_EXCLUDE), "verses": [source.get(ref) for ref in panel.refs],
-                 "continuity": self.continuity()}
+                 "continuity": continuity}
         portraits = self.panel_portraits(panel)
         if portraits:
             value["portraits"] = {name: [entry["path"], entry["image_hash"]] for name, entry in portraits.items()}
@@ -276,16 +288,22 @@ class Pipeline:
             if not path.exists():
                 continue
             record = self.store.read(f"images/{panel.panel_id}.json")
+            before = dict(record)
             if "art_stamp" not in record:
                 if record["panel_stamp"] != self.panel_stamp(panel, aspects):
                     continue
-                record.update(art_stamp=self.art_stamp(panel), aspect=aspects[panel.panel_id])
+                record.update(art_stamp=self.art_stamp(panel), aspect=aspects[panel.panel_id], art_version=2)
+            elif record.get("art_version") != 2:
+                if record["art_stamp"] != self._art_stamp(panel, whole_continuity=True):
+                    continue
+                record.update(art_stamp=self.art_stamp(panel), art_version=2)
+            if record != before:
                 self.store.write(f"images/{panel.panel_id}.json", record)
                 upgraded += 1
-            # The image approval covers the record, so carry an approval of the pre-upgrade record forward.
-            legacy = {k: v for k, v in record.items() if k not in ("art_stamp", "aspect")}
+            # The image approval covers the record, so carry an approval of an earlier form of it forward.
+            earlier = [before, {k: v for k, v in before.items() if k not in ("art_stamp", "aspect", "art_version")}]
             review = reviews.get("image:" + panel.panel_id)
-            if review and review.get("stamp") == digest(legacy):
+            if review and review.get("stamp") != digest(record) and review.get("stamp") in [digest(e) for e in earlier]:
                 review["stamp"] = digest(record)
                 carried = True
         if carried:
@@ -393,7 +411,8 @@ class Pipeline:
         actual = hashlib.sha256(self.store.path(record["path"]).read_bytes()).hexdigest()
         if "art_stamp" in record:
             aspect = (aspects or self.aspects())[panel.panel_id]
-            current = record["art_stamp"] == self.art_stamp(panel) and _similar(record["aspect"], aspect)
+            stamp = self.art_stamp(panel) if record.get("art_version") == 2 else self._art_stamp(panel, True)
+            current = record["art_stamp"] == stamp and _similar(record["aspect"], aspect)
         else:
             current = record["panel_stamp"] == self.panel_stamp(panel, aspects)
         if not current or actual != record["image_hash"]:
@@ -463,7 +482,7 @@ class Pipeline:
                           for n, e in portraits.items()]
             self.provider.generate_image(prompt, reference_images=references or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
-                      "art_stamp": self.art_stamp(panel), "aspect": aspect,
+                      "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2,
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
                       "references": list(portraits)}
             self.store.write(f"images/{panel.panel_id}.json", record)

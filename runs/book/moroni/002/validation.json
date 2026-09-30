@@ -1,0 +1,19 @@
+{
+  "stamp": "4adfdc3c3bdb9dfc5c5892a7bf198594bd5b6790aa34166487376068ed3f8e0a",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Christ speaking and the disciples hearing at the first appearing are supported, but scene 001 does not establish the precise location, clothing, or staging; these are appropriately marked unspecified. Its dialogue and narration are exact source excerpts.",
+        "The scene says Christ called the disciples by name and instructed them to pray, but the quoted dialogue omits the intervening exact clause, “and after ye have done this ye shall have power that to him upon whom ye shall lay your hands, ye shall give the Holy Ghost;”. Since the summary and explicit facts cover the instruction, this is an incomplete quotation rather than invented speech."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not specify when the disciples laid hands on people; avoid depicting that action as necessarily simultaneous with Christ speaking or with his first appearing.",
+        "The Holy Ghost’s falling is reported, but no visible manifestation is described; do not depict one. The scene correctly notes this uncertainty."
+      ]
+    }
+  }
+}

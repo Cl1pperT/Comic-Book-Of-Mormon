@@ -1,0 +1,44 @@
+{
+  "stamp": "1019463aafb2e711ee31619da9f93dbcf6532b56edf623427069b3b7d5082ab5",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is consistent with the supplied verses. The speaker's identity is not named in these verses; listeners are addressed but not identified or counted.",
+        "Visual inference is reasonable, but the listeners' appearance and setting remain unspecified."
+      ]
+    }
+  }
+}

@@ -1,79 +1,98 @@
 {
-  "stamp": "0488af72c0193c4d58fd53313b37b6a172096ae857cabe7989461fac0553a913",
+  "stamp": "3f60894613ab23d68e4a7bd2322bb9e4b3c5d1acac9378c14f1cb133a1f9db81",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The phrase “All the land” is broader than the source’s “all the land among all the people of Nephi”; keep the location tied to that stated scope.",
+        "The visual inference of a broad view of conflict is an interpretation; the verses report widespread wars but describe no visible battle or particular conflict."
+      ]
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite and Lamanite lands” is a reasonable broad location inference, but the verses do not specify particular lands or settlements."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite lands” is a broad location inference; the verses do not specify where the people appeal to their leaders."
+      ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The requests in spoken_dialogue are verbatim excerpts but omit words between them; ensure the rendering treats them as separate exact excerpts, not one continuous quotation."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The doctrinal note falsely says the speaker’s identity is outside the supplied source. Helaman 11:9 identifies Nephi as the one who begins this prayer; verses 12–16 continue it. Identify the speaker as Nephi. The previous scene also establishes this continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_009": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_010": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_011": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_012": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_013": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene combines the army’s expedition and its retreat, which the source places as distinct events in the same year; maintain their separate chronology in any depiction."
+        "“Nephite lands” is not specified in verse 17, which says rain fell upon the earth."
       ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite lands” is a broad location inference; the verses do not specify where the rejoicing occurs."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses describe building up waste places, but do not specify structures or that people are repairing them; keep the proposed rebuilding imagery nonspecific."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite and Lamanite lands” is a broad location inference; the verses refer to peace in the land and do not specify distinct territories."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite lands” is a broad location inference; the verse does not specify where the preaching takes place."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite and Lamanite lands” is a broad location inference; the verses do not specify where the war or retreat occurs."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite and Lamanite lands” is a broad location inference; the verse says destruction was among both peoples but does not specify locations."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Wilderness” is explicitly given as the destination of the captives, but the verses do not identify the location of the attacks or the broader location of the scene."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephite lands” is a broad location inference; the verses describe the people’s conduct over several years without specifying a setting."
+      ]
     }
   }
 }

@@ -1,0 +1,85 @@
+{
+  "stamp": "7404b1404b19970ead008e2a27632faeae987c0a7ab848162e50f5c5e9b8687a",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The present-tense image of the speaker addressing a group is a reasonable inference from the report that he cried to the people, but the verse does not describe the setting or their visible response."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“After the tenth year” is imprecise: verse 4 says after this tenth year had passed, totaling 360 years from Christ’s coming. The king’s warning is conveyed by an epistle; depiction of Mormon receiving or reading it is a reasonable but unspecified visual choice."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Nephite armies of Moroni” adds an unsupported association with Moroni; the passage identifies Mormon’s armies and the Lamanite armies. The exact placement of defenses and the city’s relation to the narrow pass are partly visualized but not described in detail."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene does not identify the groups, but given the preceding scene and chapter context the groups are the Lamanites and Mormon's people; maintain the supplied generic labels.",
+        "The sea is explicit in the verse, but the battle site's precise location and who cast the dead into the sea are unspecified."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration uses verbatim excerpts, but its wording about the Nephites' intent omits the verse's exact wording “avenge themselves of the blood”; keep this as source narration rather than presenting it as dialogue.",
+        "The oath's location, gestures, and participants beyond the Nephites are unspecified."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is verbatim, but the scene summary attributes refusal to wickedness and abomination, and recounts past actions; avoid depicting these reported events as simultaneous with the refusal.",
+        "Mormon's location, appearance, and visible manner of refusing command are unspecified."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord is described as speaking by voice only; no visible form or location is specified.",
+        "The people's threatened cutting off is a prediction, not a present event."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The proposed visual of Mormon standing apart is an inference, not stated spatially; the source says he stood as an idle witness. No unspecified future event should be depicted, as the scene correctly notes."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Mormon addresses the twelve tribes, but verse 18 says he writes to them; this should not imply they are present or directly addressed in a spoken scene. The proposed writing depiction is a reasonable visual inference."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary’s “all humanity” is a broad paraphrase of “every soul who belongs to the whole human family of Adam.” Keep this as written teaching, not a present judgment scene; the visual-inference field correctly cautions against staging the future event."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stamp": "cd5df895b539d598c15bdae0b811263e0fc1ede38322d75ec9cab296a666574b",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The written record is a reasonable visual aid, but no record or narrator is explicitly described; keep both visually unspecified beyond the suggested record. The quoted narration excerpts are exact and within the supplied verses."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

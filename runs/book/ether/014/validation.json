@@ -1,0 +1,83 @@
+{
+  "stamp": "22f964e73114b6a3852b2d8c2d3b242fe2d4cd22071d10eaa9854de2d80e2892",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts align with Ether 14:3–4. The visual inference of sword combat is supported by “many thousands fell by the sword,” though the source does not explicitly describe combatants wielding swords.",
+        "Narration is quoted verbatim and totals 17 words, within the 65-word limit.",
+        "The preceding scene concerns earlier events and does not alter this scene’s chronology. The scene correctly keeps the pursuit before the battle in the wilderness."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference of a city burning as Shiz's forces advance may combine separate actions across multiple cities into one simultaneous moment, which the scene's prohibited-inventions field disallows."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

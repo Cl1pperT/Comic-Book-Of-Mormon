@@ -1,0 +1,68 @@
+{
+  "stamp": "65611da5f99cea246c6758df89796f8dbefecaf3fecf0b151eaad237281dfce9",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker and characters described only as “he” are not identified by the supplied verses; the scene correctly avoids naming him. “Unspecified location” is a placeholder, not a source-established location."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reasonable visual inference depicts the multitude sitting while the disciples go to fetch bread and wine; verse 2 gives this sequence but does not explicitly confirm that the multitude has sat down yet."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Unspecified location is appropriately cautious, but the verses do not establish the setting or participants’ appearances.",
+        "The preceding scene’s summary recasts reported past action as happening immediately before its teaching; the source supports the sequence, but not a single continuous present-tense scene."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

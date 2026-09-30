@@ -1,0 +1,78 @@
+{
+  "stamp": "0445838477b308c1f753d998beee6b80abe6cd1e08d03f46b774306f4df34b1b",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Mormon” does not match the established character label “Mormon (young)” for this account; the text identifies him as Mormon, so the intended identity is clear."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Ammaron came to Mormon when Mormon was about ten years old” compresses the source’s approximate timing: Ammaron came about the time he hid up the records, while Mormon was about ten. The scene should preserve that this timing is approximate.",
+        "The summary’s “take the plates of Nephi” and “engrave what he has observed” are future instructions, not actions in the scene; the notes and prohibitions correctly flag this distinction. Keep the scene to the conversation.",
+        "The dialogue excerpts are verbatim and contiguous; narration is empty. The preceding scene’s record-making is not improperly merged into this conversation."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label “Mormon (young)” conveys an age the scene does not specify; verse 1:5 gives descent and parentage but no age."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene compresses events: Mormon’s arrival at Zarahemla at age eleven (verse 6) and the land’s described condition (verse 7) are reported consecutively, not necessarily simultaneous. Depict them as separate or use a non-specific representation.",
+        "The character label “Mormon’s father” is supported by the verse, but is not the established label “Mormon (young)” or a named character."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene title says war “begins near Zarahemla,” while the source says the war began among them at the borders of Zarahemla by Sidon; the framing should not imply a battle action or a more specific site."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary combines gathering and multiple battles within the same year; they are reported in sequence and should not be compressed into one moment. Specific battle action is permitted only as a conservative depiction of the reported battles; avoid adding weapons or other unspecified details."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the Lamanites “withdraw their design,” but the verse does not explain the design; avoid implying a particular plan or negotiation."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration excerpt “knew of the goodness of Jesus.” is not a contiguous exact excerpt: the verse reads “tasted and knew of the goodness of Jesus.” Use a verbatim excerpt."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary states that Mormon remained among the people and that the land was cursed, events the verse reports in sequence; do not present them as a single simultaneous scene or depict the curse visibly."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene combines the robbers’ infestation, inhabitants hiding treasure, and the treasure’s slipperiness, which the verse relates in sequence; avoid implying all occur simultaneously or inventing a specific robbery."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the events “fulfill” the words of Abinadi and Samuel; this is supported by the verse, but they are cited in narration and should not be shown as present."
+      ]
+    }
+  }
+}

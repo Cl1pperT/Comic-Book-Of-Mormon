@@ -1,0 +1,15 @@
+{
+  "stamp": "a7e65bf35e9172c963479258fe43e2aab49566763cb6925285858a07443470a7",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Jesus Christ is explicitly identified as the speaker, but is omitted from the characters list."
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "stamp": "58223d70bbd7dc8e955c141a56f7d8746f11169dc571b0446d59afd267211e51",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ether 12:3–4 do not explicitly specify an outdoor setting or daylight as a visual scene; show only the stated time span and exhortation without implying an exact setting."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses summarize separate past events; do not stage them together or as present action. The scene notes and prohibited inventions correctly flag this, but any visual rendering requires that restraint. Narration consists of exact source excerpts."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration paraphrases Ether 12:20 rather than quoting it verbatim, contrary to the quotation requirement. The scene’s facts and chronology otherwise align with the source; unspecified finger appearance and setting are appropriately left open."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Both dialogue excerpts are verbatim, but omit the source’s immediately preceding address, “for Lord,” and “wherefore,” respectively; ensure excerpts remain exact contiguous text. The unspecified first-person speaker is appropriately not identified, and the scene does not stage reported or comparative content as present action."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpts omit the Lord’s statements in Ether 12:27–28; include them if the scene is intended to represent the full speech."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpt from Ether 12:29 omits the source’s immediately preceding “And” only, so it is still an exact contiguous excerpt; narration is also verbatim. Mount Zerin and the disciples are correctly treated as reported rather than present-time events. The identity and appearance of the words Moroni heard remain unspecified."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is largely supported. The narrator is explicitly identified as Moroni in Ether 12:38, within the supplied source, though not in the scene's cited refs; the scene does not name him.",
+        "The Lord is explicitly the speaker in Ether 12:37, but the verses do not specify whether the response is audible, so the visual inference that it may be heard is uncertain.",
+        "Narration and dialogue quote exact source wording and total 59 words, within the 65-word limit. The previous scene's reflection is not turned into a new present-tense event."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

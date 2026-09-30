@@ -1,0 +1,61 @@
+{
+  "stamp": "5a3f32a85d115534017d0a662751b11229f3319ba53ea43dcccd89500d8aedbd",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 001: The summary says the plates were found by Limhi’s people, but Ether 1:2 specifies only that the twenty-four plates were found by them; it does not say they found the record itself. The claimed present-day-narrator visual is a reasonable inference, not an explicit setting."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 010: Jared’s second dialogue excerpt omits the preceding source phrase “And if it so be,” so it is not contiguous verbatim verse text as required."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 011: The Lord’s quoted excerpt omits the source sentence’s opening “And” and therefore is not an exact contiguous quotation."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 012: The quoted excerpt from Ether 1:43 is truncated before the sentence ends, omitting its punctuation; under the instruction to preserve exact excerpts without alteration, it is not a complete exact quotation."
+      ]
+    }
+  }
+}

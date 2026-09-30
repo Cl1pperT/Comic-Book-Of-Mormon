@@ -1,0 +1,93 @@
+{
+  "stamp": "521fbab2a95509ad8f1463c36fd8b11b73c8c335d35edfe31cdeb0fc20d8fd29",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing Shule as an infant is a reasonable inference from Kib begetting him, but the verse does not specify when or how Shule is visually present during Kib’s captivity."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Moron is where Shule was carried captive (verse 17), but verse 18 does not explicitly locate Noah’s house or the prison there."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The rescue is anchored to Noah’s house and the prison, but their spatial relationship is unspecified; avoid implying the prison is inside the house or presenting the separate actions as a single simultaneous moment.",
+        "Noah is explicitly slain, but how he is slain is unspecified; show no particular method or visual detail beyond the non-gory action.",
+        "Narration is an exact excerpt from Ether 7:18. The separate narration excerpt is acceptable; do not add words or ellipses."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

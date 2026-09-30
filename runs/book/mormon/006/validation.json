@@ -1,0 +1,53 @@
+{
+  "stamp": "72a5829616d5e3665b437ea940d49aa830686fa72286b033fb95623eb82f6992",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Mormon’s people march before the Lamanites” is explicit, but the scene’s unspecified location is appropriate; do not imply this march occurs at Cumorah, which is only requested as the gathering place in these verses.",
+        "The writing surface and implement are reasonable visual inferences, not source facts; keep their design unspecified. The king’s appearance and the place of writing or receiving are also unspecified."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses say the remainder had gathered after 384 years; they do not explicitly establish a separate later gathering moment after the camping. Avoid implying a precise chronology between the camping and the completed gathering beyond the text."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source places Mormon’s record-making and concealment after the people had gathered; keep this scene after scene_002 without suggesting the records were hidden before the gathering was complete.",
+        "Handling plates, concealing records in the hill, and Moroni receiving the few plates are grounded in the verse, but the concealment place and method and plate appearance are unspecified."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene says survivors behold the ten thousand led by Moroni, but Mormon 6:12 does not explicitly say that group had been hewn down; the prior verse's phrase about beholding the slain applies expressly to the group led by Mormon."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "This follows Mormon’s lament, as in the source. Keep the judgment, resurrection, and Christ’s judgment seat as spoken-of future events, not visible present events; their appearance is unspecified."
+      ]
+    }
+  }
+}

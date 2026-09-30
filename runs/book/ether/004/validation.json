@@ -1,0 +1,55 @@
+{
+  "stamp": "856ece265b7bfc9e5e5b4ba96ac861a2d45c486a48f74d945f4a68a60ff63e63",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord’s words in Ether 4:6–7 are quoted accurately, but the summary and explicit facts identify the speaker as Jesus Christ; verse 6 says only “the Lord,” and verse 7 names Jesus Christ. This is plausible across the passage but not explicit for verse 6.",
+        "The claim that addressed people “become clean before him” is supported in substance by the verse’s phrase “clean before the Lord”; there is no described visual setting or audience."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene correctly treats the heavens, earthquake, and fire as declarations rather than present events. The summary’s “Jesus Christ warns” is supported by the surrounding direct speech, though the verse 8 introduction itself uses “he.”",
+        "“People will know at the last day that he speaks” accurately summarizes the text; the actual quotation given is a contiguous excerpt."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

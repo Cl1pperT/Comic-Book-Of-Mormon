@@ -1,0 +1,20 @@
+{
+  "book": "Moroni",
+  "chapter": 8,
+  "verses": 30,
+  "scenes": 10,
+  "counts": {
+    "PASS": 10,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 2,
+  "tokens": {
+    "input_tokens": 30102,
+    "cached_input_tokens": 15616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4171,
+    "reasoning_output_tokens": 598
+  }
+}

@@ -1,87 +1,117 @@
 {
-  "stamp": "47e988724dbcc95a6a738b048056a39c312b44556767ca09383fc71b38716b1a",
+  "stamp": "c5c09c0cec797500a98f3d3af76e3f84b18f9acb3145ef7bb34c04a58ae342c9",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Enos (young, son of Jacob)” is not established by these verses; age and parentage are unspecified. The fact that he recalls his father does not identify him as Jacob.",
+        "The recollection framing is a reasonable visual inference, not an explicit event or staging detail."
+      ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
+        "A visible hunt is a reasonable depiction of the stated hunting, but the means and whether beasts appear are unspecified."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
+        "“Forests” is a reasonable location inference from the preceding verse, but verse 4 itself does not specify the prayer's location."
+      ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene places the event in the forests, but Enos 1:5–6 does not specify the location; this carries forward a plausible but unstated continuity from the previous scene."
+        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
+        "The voice's identity and physical source are unspecified; the proposed inference of Enos responding inwardly should not imply an identified or visible speaker."
       ]
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The summary says the responding speaker attributes his own wholeness to faith. Enos 1:8 says the narrator's faith made the narrator whole."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The forests setting is not specified in Enos 1:9–10; continuity from prior scenes is a reasonable but unstated visual choice."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forests setting is not specified in Enos 1:11–12; continuity is plausible but not explicit."
+        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
+        "The forest location carries forward from earlier scenes, but is not stated in verses 11–12; do not treat it as explicit fact."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forests setting is not specified in Enos 1:13–14; continuity is plausible but not explicit."
+        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
+        "The forest location is carried forward from earlier scenes, not specified in verses 13–14.",
+        "The desire concerns conditional future possibilities and reported past/current circumstances; avoid depicting them as events occurring in this prayer moment."
       ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's summary says Enos “asks in faith”; this is supported, but the passage also reports the covenant and Enos's later certainty, not a visible covenant event.",
+        "Location and continuity are unspecified in these verses; avoid treating any setting as explicit."
+      ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The forests setting is not stated in Enos 1:18; continuity is plausible but not explicit."
+        "The Lord's response is presented as dialogue, but the off-screen voice designation is a conservative inference; the text does not specify a visible or audible staging.",
+        "The forest location is not stated in verse 18."
       ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“People of Nephi” is a supported group, but their appearance and the setting of Enos's address are unspecified. The proposed addressing posture is only a visual inference."
+      ]
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Wilderness” is a visual setting for the reported Lamanite way of life, but the verse is retrospective summary and does not establish a particular present-time scene or encounter."
+        "The characters use “Nephite settlers (2 Nephi)” and “Lamanites (2 Nephi era),” labels whose specific settler/era qualifications are not established by Enos 1:20; safer labels are the text's “people of Nephi” and “Lamanites.”",
+        "The location “Wilderness” is supported by the report that Lamanites wandered in the wilderness, but this is a summary of circumstances, not a particular present encounter.",
+        "“Many ate nothing save raw meat” is a reasonable rendering of “many of them did eat nothing save it was raw meat”; avoid presenting it as an event happening now."
       ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The people of Nephi” is supported; no specific location, arrangement, or simultaneous display of all listed crops and animals is specified."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's “harsh preaching, prophesying, reminders, and plain speech continually stirred them” is consistent with the text's general account, but no particular sermon or gathering is narrated.",
+        "The people are described as stiffnecked and hard to understand; their individual identities and appearances remain unspecified."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character list names Enos although the scene notes correctly say the verse does not establish him as visibly present; ensure he is treated only as the reporting voice, not depicted in the wars."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Enos (old)” is a reasonable inference from “I began to be old,” but no particular appearance or surroundings are specified.",
+        "The 179-year reference is a time measure, not a present depiction of Lehi leaving Jerusalem; the prohibition correctly preserves this chronology."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The future encounter, Redeemer's face, and quoted future words are expectations described by Enos, not present events; the notes and prohibitions correctly preserve this distinction.",
+        "“Enos” is supported by the chapter context, but no age or setting is specified here."
+      ]
     }
   }
 }

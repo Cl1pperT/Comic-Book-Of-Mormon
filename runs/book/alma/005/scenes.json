@@ -245,7 +245,7 @@
       "Alma 5:12",
       "Alma 5:13"
     ],
-    "summary": "The speaker asks about salvation and recounts his father Alma’s belief in Abinadi’s words and subsequent change of heart. He reports that Alma preached to those addressed as “your fathers,” who experienced changed hearts, humbled themselves, trusted in God, remained faithful, and were saved.",
+    "summary": "The speaker asks about salvation and recounts his father Alma’s belief in Abinadi’s words and the change wrought in Alma’s heart. He reports that Alma preached to those addressed as “your fathers,” whose hearts changed; they humbled themselves, trusted in God, remained faithful, and were saved.",
     "characters": [
       "Speaker unidentified by name in the supplied verses",
       "Those addressed"
@@ -259,19 +259,19 @@
         ]
       },
       {
-        "text": "The speaker identifies Alma as his father and asks rhetorical questions connecting Alma’s belief with the words delivered by Abinadi, a holy prophet who spoke the words of God.",
+        "text": "The speaker identifies Alma as his father and says Alma believed words delivered by Abinadi, whom he calls a holy prophet.",
         "refs": [
           "Alma 5:11"
         ]
       },
       {
-        "text": "According to his father Alma’s faith, a mighty change was wrought in his heart.",
+        "text": "According to Alma’s faith, a mighty change was wrought in his heart.",
         "refs": [
           "Alma 5:12"
         ]
       },
       {
-        "text": "The speaker reports that Alma preached the word unto “your fathers”; their hearts changed, they humbled themselves, put their trust in the true and living God, were faithful until the end, and were saved.",
+        "text": "Alma preached the word to those addressed as “your fathers.” Their hearts changed; they humbled themselves, trusted in the true and living God, remained faithful until the end, and were saved.",
         "refs": [
           "Alma 5:13"
         ]
@@ -286,40 +286,31 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "And now I ask of you on what conditions are they saved? Yea, what grounds had they to hope for salvation?",
+        "text": "And now I ask of you on what conditions are they saved?",
         "refs": [
           "Alma 5:10"
         ],
         "speaker": "Speaker unidentified by name in the supplied verses"
       },
       {
-        "text": "And according to his faith there was a mighty change wrought in his heart.",
+        "text": "Behold, I can tell you—did not my father Alma believe in the words which were delivered by the mouth of Abinadi?",
         "refs": [
-          "Alma 5:12"
-        ],
-        "speaker": "Speaker unidentified by name in the supplied verses"
-      },
-      {
-        "text": "And behold, they were faithful until the end; therefore they were saved.",
-        "refs": [
-          "Alma 5:13"
+          "Alma 5:11"
         ],
         "speaker": "Speaker unidentified by name in the supplied verses"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Only verses 10–13 are supplied; the audit’s reference to verse 3 cannot establish the speaker’s name under the source-only constraint.",
-      "Dialogue uses exact contiguous excerpts; complete verses are not required.",
       "Alma’s belief and preaching and the fathers’ responses are reported past events, not present scene action.",
-      "The bands of death, chains of hell, and changes of heart are not narrated as visible supernatural events."
+      "The bands of death, chains of hell, and changes of heart are not narrated as visible events."
     ],
     "prohibited_inventions": [
       "Do not identify the speaker by name using unsupplied verses.",
       "Do not stage reported past events as present action or merge their separate times.",
       "Do not place Abinadi, the speaker’s father Alma, or the listeners’ fathers physically in the scene.",
       "Do not depict literal supernatural chains, visible heart transformations, or divine appearances.",
-      "Do not invent dialogue, audience reactions, or source-established visual details."
+      "Do not invent dialogue or audience reactions."
     ],
     "importance": "normal"
   },

@@ -59,6 +59,7 @@ def main():
     book.add_argument("--start", help="First chapter, e.g. '1 Nephi 1' (finished chapters are skipped either way)")
     book.add_argument("--max-chapters", type=int, help="Stop after writing this many chapters")
     book.add_argument("--repair", action="store_true", help="First re-repair written chapters that still have rejected scenes")
+    book.add_argument("--speakers", action="store_true", help="First name speakers labelled like 'Unidentified speaker'")
     reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
     reader.add_argument("--port", type=int, default=8765)
     reader.add_argument("--no-browser", action="store_true", help="Print the address without opening a browser")
@@ -145,7 +146,10 @@ def main():
             print(pipeline.assemble())
         elif args.command == "book":
             Config.load()
-            from .book import repair_blocked, write_book
+            from .book import fix_speakers, repair_blocked, write_book
+            if args.speakers:
+                named, reason = fix_speakers(args.root)
+                print(f"Named speakers in {len(named)} chapters; stopped: {reason}")
             if args.repair:
                 repaired, reason = repair_blocked(args.root)
                 print(f"Repaired {len(repaired)} chapters; stopped: {reason}")

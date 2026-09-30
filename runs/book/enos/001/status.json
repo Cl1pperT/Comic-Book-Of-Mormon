@@ -4,21 +4,17 @@
   "verses": 27,
   "scenes": 17,
   "counts": {
-    "PASS": 10,
-    "PASS WITH WARNINGS": 6,
-    "REJECT": 1
+    "PASS": 2,
+    "PASS WITH WARNINGS": 15,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_005": [
-      "The summary says the responding speaker attributes his own wholeness to faith. Enos 1:8 says the narrator's faith made the narrator whole."
-    ]
-  },
-  "calls": 16,
+  "rejected": {},
+  "calls": 21,
   "tokens": {
-    "input_tokens": 113086,
-    "cached_input_tokens": 39552,
+    "input_tokens": 148573,
+    "cached_input_tokens": 56448,
     "cache_write_input_tokens": 0,
-    "output_tokens": 16272,
-    "reasoning_output_tokens": 3841
+    "output_tokens": 20203,
+    "reasoning_output_tokens": 5480
   }
 }

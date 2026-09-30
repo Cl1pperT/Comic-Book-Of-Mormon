@@ -1,5 +1,5 @@
 {
-  "stamp": "e06c971b2b440a48122b780b6bead3a2b81af17717ec5c211e93335cbf53e9bb",
+  "stamp": "0c77aba4ba64336e095fb5cff721cfda8c264a6647094d76ee41868b8fdd676f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,26 +18,22 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene title calls this a prophecy, but Alma says he has something to prophesy; the text does not explicitly identify it as a prophecy. This is a minor label inference."
-      ]
-    },
-    "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The unspecified_visual_details and doctrinal_or_story_notes falsely state that the supplied verses do not identify the speaker or listener and that Alma 45:9 was not supplied. Alma 45:9 identifies Alma speaking to Helaman, and Alma 45:15 confirms it."
-      ]
-    },
-    "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "The doctrinal_or_story_notes falsely state that the supplied verses do not name the speaker and that the attribution relies on an unsupplied verse. Alma 45:9 identifies Alma speaking to Helaman, and Alma 45:15 confirms it."
-      ]
-    },
-    "scene_008": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts correctly present the pursuit and extinction as prophecy, not present events. However, “great and dreadful day” is included in the summary without its context: the source calls it “that great and dreadful day,” referring back to the foretold events."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -56,10 +52,8 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene summary says Alma \"is never heard of more,\" reporting what the text states after his departure; depicting this as an event in the departure scene would improperly merge later reporting."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",

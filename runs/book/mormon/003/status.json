@@ -1,0 +1,20 @@
+{
+  "book": "Mormon",
+  "chapter": 3,
+  "verses": 22,
+  "scenes": 14,
+  "counts": {
+    "PASS": 4,
+    "PASS WITH WARNINGS": 10,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 14,
+  "tokens": {
+    "input_tokens": 109155,
+    "cached_input_tokens": 64000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12673,
+    "reasoning_output_tokens": 3555
+  }
+}

@@ -1,0 +1,667 @@
+[
+  {
+    "scene_id": "scene_001",
+    "title": "Mormon’s record",
+    "refs": [
+      "Mormon 1:1"
+    ],
+    "summary": "Mormon says he is making a record of what he has seen and heard.",
+    "characters": [
+      "Mormon"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Mormon says he makes a record of what he has seen and heard and calls it the Book of Mormon.",
+        "refs": [
+          "Mormon 1:1"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Mormon may be shown writing or preparing a record."
+    ],
+    "unspecified_visual_details": [
+      "Mormon’s age and appearance; the writing surface, tools, and surroundings."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "I, Mormon, make a record",
+        "refs": [
+          "Mormon 1:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict any specific event in the record as happening in this scene."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_002",
+    "title": "Ammaron instructs young Mormon",
+    "refs": [
+      "Mormon 1:2",
+      "Mormon 1:3",
+      "Mormon 1:4"
+    ],
+    "summary": "Ammaron comes to Mormon when Mormon is about ten years old and instructs him to remember his observations and, at about twenty-four, go to hill Shim in the land Antum, take the plates of Nephi, leave the remaining records, and engrave what he has observed.",
+    "characters": [
+      "Mormon (young)",
+      "Ammaron"
+    ],
+    "locations": [
+      "Unspecified location of the conversation"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Ammaron came to Mormon when Mormon was about ten years old; Mormon had begun to learn after the manner of his people.",
+        "refs": [
+          "Mormon 1:2"
+        ]
+      },
+      {
+        "text": "Ammaron described Mormon as sober and quick to observe.",
+        "refs": [
+          "Mormon 1:2"
+        ]
+      },
+      {
+        "text": "Ammaron instructed Mormon to remember what he had observed and, when about twenty-four, go to hill Shim in the land Antum.",
+        "refs": [
+          "Mormon 1:3"
+        ]
+      },
+      {
+        "text": "Ammaron said he had deposited sacred engravings there and instructed Mormon to take the plates of Nephi, leave the remainder in place, and engrave his observations on the plates of Nephi.",
+        "refs": [
+          "Mormon 1:3",
+          "Mormon 1:4"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Ammaron and young Mormon are together during the conversation."
+    ],
+    "unspecified_visual_details": [
+      "Their appearance, the exact setting, and whether any records are visible during the conversation."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "I perceive that thou art a sober child, and art quick to observe;",
+        "refs": [
+          "Mormon 1:2"
+        ],
+        "speaker": "Ammaron"
+      },
+      {
+        "text": "when ye are about twenty and four years old",
+        "refs": [
+          "Mormon 1:3"
+        ],
+        "speaker": "Ammaron"
+      },
+      {
+        "text": "go to the land Antum, unto a hill which shall be called Shim;",
+        "refs": [
+          "Mormon 1:3"
+        ],
+        "speaker": "Ammaron"
+      },
+      {
+        "text": "ye shall take the plates of Nephi unto yourself",
+        "refs": [
+          "Mormon 1:4"
+        ],
+        "speaker": "Ammaron"
+      },
+      {
+        "text": "and ye shall engrave on the plates of Nephi all the things that ye have observed concerning this people.",
+        "refs": [
+          "Mormon 1:4"
+        ],
+        "speaker": "Ammaron"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The journey to Shim and the handling and engraving of the plates are future instructions, not events occurring in this scene."
+    ],
+    "prohibited_inventions": [
+      "Do not depict Mormon traveling to Shim, taking the plates, or engraving them in this scene.",
+      "Do not place the conversation at hill Shim or show the records as physically present without textual support."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_003",
+    "title": "Mormon remembers",
+    "refs": [
+      "Mormon 1:5"
+    ],
+    "summary": "Mormon says he remembered Ammaron’s commands.",
+    "characters": [
+      "Mormon (young)"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Mormon says he is a descendant of Nephi, that his father was named Mormon, and that he remembered Ammaron’s commands.",
+        "refs": [
+          "Mormon 1:5"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Mormon may be shown in thought, recalling Ammaron’s instruction."
+    ],
+    "unspecified_visual_details": [
+      "Mormon’s age, appearance, surroundings, and whether Ammaron is present."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "I remembered the things which Ammaron commanded me.",
+        "refs": [
+          "Mormon 1:5"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict Ammaron as physically present; the verse reports Mormon remembering."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_004",
+    "title": "Mormon goes to Zarahemla",
+    "refs": [
+      "Mormon 1:6",
+      "Mormon 1:7"
+    ],
+    "summary": "At eleven, Mormon is carried by his father into the land southward, to the land of Zarahemla, where the land is covered with buildings and the people are very numerous.",
+    "characters": [
+      "Mormon (young)",
+      "Mormon’s father"
+    ],
+    "locations": [
+      "Zarahemla"
+    ],
+    "explicit_facts": [
+      {
+        "text": "At eleven years old, Mormon was carried by his father into the land southward, to the land of Zarahemla.",
+        "refs": [
+          "Mormon 1:6"
+        ]
+      },
+      {
+        "text": "The face of the land had become covered with buildings, and the people were almost as numerous as the sand of the sea.",
+        "refs": [
+          "Mormon 1:7"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Mormon’s father carries him as they enter a built-up, populous land."
+    ],
+    "unspecified_visual_details": [
+      "Their appearance, the buildings’ design, and the specific route or point of arrival."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "was carried by my father into the land southward",
+        "refs": [
+          "Mormon 1:6"
+        ]
+      },
+      {
+        "text": "covered with buildings",
+        "refs": [
+          "Mormon 1:7"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not add a named city or identify the father beyond the verse."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_005",
+    "title": "War begins near Zarahemla",
+    "refs": [
+      "Mormon 1:8",
+      "Mormon 1:9",
+      "Mormon 1:10"
+    ],
+    "summary": "War begins between the Nephites and the Lamanites, as the Lamanites, Lemuelites, and Ishmaelites are called Lamanites. The war begins in the borders of Zarahemla by the waters of Sidon.",
+    "characters": [
+      "Nephites",
+      "Lamanites"
+    ],
+    "locations": [
+      "Borders of Zarahemla by the waters of Sidon"
+    ],
+    "explicit_facts": [
+      {
+        "text": "War began between the Nephites and the Lamanites, including the named constituent peoples in the account.",
+        "refs": [
+          "Mormon 1:8",
+          "Mormon 1:9"
+        ]
+      },
+      {
+        "text": "The war began in the borders of Zarahemla, by the waters of Sidon.",
+        "refs": [
+          "Mormon 1:10"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The two groups may be shown facing one another at the stated border setting."
+    ],
+    "unspecified_visual_details": [
+      "The combatants’ appearance, numbers at this moment, weapons, and any specific action."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "there began to be a war between the Nephites",
+        "refs": [
+          "Mormon 1:8"
+        ]
+      },
+      {
+        "text": "by the waters of Sidon",
+        "refs": [
+          "Mormon 1:10"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict a battle action here; the verse says the war began, without describing a particular clash."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_006",
+    "title": "Nephite victories",
+    "refs": [
+      "Mormon 1:11"
+    ],
+    "summary": "The Nephites gather more than thirty thousand men, fight several battles that year, defeat the Lamanites, and slay many of them.",
+    "characters": [
+      "Nephites",
+      "Lamanites"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The Nephites gathered more than thirty thousand men.",
+        "refs": [
+          "Mormon 1:11"
+        ]
+      },
+      {
+        "text": "In several battles that year, the Nephites beat the Lamanites and slew many of them.",
+        "refs": [
+          "Mormon 1:11"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "A battle may be depicted with Nephites fighting and prevailing over Lamanites."
+    ],
+    "unspecified_visual_details": [
+      "Battle locations, combatants’ appearance, weapons, and the number killed."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "the Nephites did beat the Lamanites",
+        "refs": [
+          "Mormon 1:11"
+        ]
+      },
+      {
+        "text": "and did slay many of them.",
+        "refs": [
+          "Mormon 1:11"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "No gore, blood, or severed body parts."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_007",
+    "title": "Peace after the war",
+    "refs": [
+      "Mormon 1:12"
+    ],
+    "summary": "The Lamanites withdraw their design, and peace settles in the land for about four years with no bloodshed.",
+    "characters": [
+      "Lamanites"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The Lamanites withdrew their design; peace settled in the land and remained for about four years, with no bloodshed.",
+        "refs": [
+          "Mormon 1:12"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "A quiet landscape may convey the reported period of peace."
+    ],
+    "unspecified_visual_details": [
+      "Whether any people are visible, and the specific place or visual signs of peace."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "peace did remain for the space of about four years",
+        "refs": [
+          "Mormon 1:12"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict a specific treaty or negotiation."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_008",
+    "title": "Wickedness and the disciples’ removal",
+    "refs": [
+      "Mormon 1:13",
+      "Mormon 1:14"
+    ],
+    "summary": "Wickedness prevails; the Lord takes away his beloved disciples, and miracles, healing, gifts, and the Holy Ghost cease because of the people’s iniquity and unbelief.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Wickedness prevailed, and the Lord took away his beloved disciples; miracles and healing ceased because of the people’s iniquity.",
+        "refs": [
+          "Mormon 1:13"
+        ]
+      },
+      {
+        "text": "There were no gifts from the Lord, and the Holy Ghost did not come upon anyone because of wickedness and unbelief.",
+        "refs": [
+          "Mormon 1:14"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The reported loss may be conveyed through a restrained, non-literal image of an empty setting."
+    ],
+    "unspecified_visual_details": [
+      "How the disciples were taken away and any visible form of the Lord, the Holy Ghost, or spiritual gifts."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "the work of miracles and of healing did cease",
+        "refs": [
+          "Mormon 1:13"
+        ]
+      },
+      {
+        "text": "there were no gifts from the Lord",
+        "refs": [
+          "Mormon 1:14"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The cessation is reported as an outcome of iniquity and unbelief; do not invent a visible supernatural event."
+    ],
+    "prohibited_inventions": [
+      "Do not depict the Lord, disciples’ departure, miracles, healing, or the Holy Ghost in a form not described."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_009",
+    "title": "Mormon is visited",
+    "refs": [
+      "Mormon 1:15"
+    ],
+    "summary": "At fifteen, Mormon says he was visited of the Lord and knew the goodness of Jesus.",
+    "characters": [
+      "Mormon (young)"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "At fifteen years old and of a sober mind, Mormon says he was visited of the Lord and tasted and knew the goodness of Jesus.",
+        "refs": [
+          "Mormon 1:15"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Mormon may be shown alone in a reflective moment."
+    ],
+    "unspecified_visual_details": [
+      "The nature or visible appearance of the visit, and what “tasted” refers to."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "I was visited of the Lord",
+        "refs": [
+          "Mormon 1:15"
+        ]
+      },
+      {
+        "text": "knew of the goodness of Jesus.",
+        "refs": [
+          "Mormon 1:15"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse does not describe the Lord’s appearance or specify a visible manifestation."
+    ],
+    "prohibited_inventions": [
+      "Do not depict the Lord or Jesus as visibly appearing."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_010",
+    "title": "Mormon’s preaching is forbidden",
+    "refs": [
+      "Mormon 1:16",
+      "Mormon 1:17"
+    ],
+    "summary": "Mormon endeavors to preach, but his mouth is shut and he is forbidden to preach because the people have rebelled and hardened their hearts. He remains among them; the land is cursed for their sake.",
+    "characters": [
+      "Mormon (young)"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Mormon endeavored to preach, but his mouth was shut and he was forbidden to preach because the people had wilfully rebelled against God.",
+        "refs": [
+          "Mormon 1:16"
+        ]
+      },
+      {
+        "text": "The beloved disciples were taken away out of the land because of iniquity; Mormon remained among the people but was forbidden to preach because of their hard hearts.",
+        "refs": [
+          "Mormon 1:16",
+          "Mormon 1:17"
+        ]
+      },
+      {
+        "text": "The land was cursed for the people’s sake because of the hardness of their hearts.",
+        "refs": [
+          "Mormon 1:17"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Mormon may be shown attempting to address people without speaking."
+    ],
+    "unspecified_visual_details": [
+      "How the prohibition is communicated, whether listeners are present, and any visible manifestation of the curse."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "I did endeavor to preach unto this people",
+        "refs": [
+          "Mormon 1:16"
+        ]
+      },
+      {
+        "text": "my mouth was shut",
+        "refs": [
+          "Mormon 1:16"
+        ]
+      },
+      {
+        "text": "I did remain among them",
+        "refs": [
+          "Mormon 1:17"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The shut mouth and curse are stated, but no visible mechanism or appearance is described."
+    ],
+    "prohibited_inventions": [
+      "Do not depict a specific supernatural force closing Mormon’s mouth or a visible curse."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_011",
+    "title": "Treasures are hidden",
+    "refs": [
+      "Mormon 1:18"
+    ],
+    "summary": "Gadianton robbers among the Lamanites infest the land. Inhabitants begin hiding treasures in the earth, but the treasures become slippery and cannot be held or retained, as the Lord has cursed the land.",
+    "characters": [
+      "Gadianton robbers",
+      "Inhabitants of the land"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Gadianton robbers among the Lamanites infested the land.",
+        "refs": [
+          "Mormon 1:18"
+        ]
+      },
+      {
+        "text": "Inhabitants began hiding treasures in the earth; the treasures became slippery and could not be held or retained because the Lord had cursed the land.",
+        "refs": [
+          "Mormon 1:18"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "A person may be shown attempting to hold treasure as it slips away, without specifying its magical mechanism."
+    ],
+    "unspecified_visual_details": [
+      "The treasure’s form, the people’s identities, the robbers’ appearance, and how the treasure slips away."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "the inhabitants thereof began to hide up their treasures in the earth",
+        "refs": [
+          "Mormon 1:18"
+        ]
+      },
+      {
+        "text": "they could not hold them, nor retain them again.",
+        "refs": [
+          "Mormon 1:18"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The verse reports the treasure’s unusual slipperiness; do not add a supernatural visual effect."
+    ],
+    "prohibited_inventions": [
+      "Do not identify individual inhabitants or robbers, or invent a specific robbery."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_012",
+    "title": "Sorceries and magics",
+    "refs": [
+      "Mormon 1:19"
+    ],
+    "summary": "Sorceries, witchcrafts, and magics occur across the land, fulfilling the words of Abinadi and Samuel the Lamanite.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Sorceries, witchcrafts, and magics occurred across the land; the power of the evil one was wrought upon the land, fulfilling the words of Abinadi and Samuel the Lamanite.",
+        "refs": [
+          "Mormon 1:19"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Use a symbolic, non-specific image to convey the reported prevalence of sorceries, witchcrafts, and magics."
+    ],
+    "unspecified_visual_details": [
+      "Specific practitioners, acts, visual effects, and any appearance of the evil one."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "there were sorceries, and witchcrafts, and magics",
+        "refs": [
+          "Mormon 1:19"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Abinadi and Samuel the Lamanite are cited as historical figures in the narration, not shown as present."
+    ],
+    "prohibited_inventions": [
+      "Do not depict Abinadi, Samuel the Lamanite, or a visible supernatural figure."
+    ],
+    "importance": "normal"
+  }
+]

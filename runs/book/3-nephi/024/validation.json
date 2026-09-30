@@ -1,0 +1,59 @@
+{
+  "stamp": "71d70a72ffc9085e5739bdefc567382db4b78b50f63b6d52bee73fab44df1eea",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene separates two actions in verse 1 into one continuous scene; preserve their order (writing first, then expounding and speaking)."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reported question is not explicitly attributed to the people in the verse; avoid assigning it to visible or individual speakers."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people speaking often to one another and the book being written are narrated in past tense; avoid staging them as a present-time scene."
+      ]
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

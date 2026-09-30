@@ -1,0 +1,791 @@
+[
+  {
+    "scene_id": "scene_001",
+    "title": "Omer’s Line",
+    "refs": [
+      "Ether 8:1"
+    ],
+    "summary": "Omer succeeds his father as king and begets Jared, who has sons and daughters.",
+    "characters": [
+      "Omer",
+      "Jared"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Omer reigned in his father’s stead.",
+        "refs": [
+          "Ether 8:1"
+        ]
+      },
+      {
+        "text": "Omer begat Jared, and Jared begat sons and daughters.",
+        "refs": [
+          "Ether 8:1"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Omer and Jared may be shown together to suggest the succession and family line."
+    ],
+    "unspecified_visual_details": [
+      "The appearance and ages of Omer, Jared, and the other children are unspecified.",
+      "The place and circumstances of the births and succession are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "Omer reigned in his stead.",
+        "refs": [
+          "Ether 8:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict births or additional family relationships beyond those stated."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_002",
+    "title": "Jared Takes His Father Captive",
+    "refs": [
+      "Ether 8:2",
+      "Ether 8:3"
+    ],
+    "summary": "After gaining half the kingdom, Jared gave battle to his father and carried him into captivity.",
+    "characters": [
+      "Jared",
+      "Jared’s father"
+    ],
+    "locations": [],
+    "explicit_facts": [
+      {
+        "text": "Jared rebelled against his father and dwelt in the land of Heth.",
+        "refs": [
+          "Ether 8:2"
+        ]
+      },
+      {
+        "text": "Jared flattered many people with cunning words until he gained half the kingdom.",
+        "refs": [
+          "Ether 8:2"
+        ]
+      },
+      {
+        "text": "After gaining half the kingdom, Jared gave battle to his father, carried him into captivity, and made him serve in captivity.",
+        "refs": [
+          "Ether 8:3"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The scene may show Jared carrying his father away into captivity, without specifying how he is restrained."
+    ],
+    "unspecified_visual_details": [
+      "Jared’s father is not named in the supplied verses.",
+      "The location and appearance of the place of captivity are not stated.",
+      "The nature of the father’s service in captivity is not stated."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "he did carry away his father into captivity,",
+        "refs": [
+          "Ether 8:3"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Jared’s rebellion, move to Heth, and gain of half the kingdom precede the battle; do not depict these separate times as simultaneous with the captivity."
+    ],
+    "prohibited_inventions": [
+      "Do not name Jared’s father or invent followers, dialogue, restraints, battle tactics, or a specific task of service."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_003",
+    "title": "Omer’s Captivity",
+    "refs": [
+      "Ether 8:4"
+    ],
+    "summary": "During Omer’s reign, he spends half of his days in captivity and begets sons and daughters, including Esrom and Coriantumr.",
+    "characters": [
+      "Omer",
+      "Esrom",
+      "Coriantumr"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Omer was in captivity for half of his days during his reign.",
+        "refs": [
+          "Ether 8:4"
+        ]
+      },
+      {
+        "text": "Omer begat sons and daughters, including Esrom and Coriantumr.",
+        "refs": [
+          "Ether 8:4"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The time and place of Omer’s children’s births are unspecified.",
+      "The verse does not state that Esrom or Coriantumr were present during Omer’s captivity."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "he was in captivity the half of his days",
+        "refs": [
+          "Ether 8:4"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "This is a narrated summary of a period, not a specified individual event."
+    ],
+    "prohibited_inventions": [
+      "Do not show Omer’s children present in a captivity scene as though the verse says they were there."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_004",
+    "title": "A Night Battle",
+    "refs": [
+      "Ether 8:5"
+    ],
+    "summary": "Esrom and Coriantumr, angered by Jared, raise an army and fight him by night.",
+    "characters": [
+      "Esrom",
+      "Coriantumr",
+      "Jared",
+      "Esrom and Coriantumr’s army",
+      "Jared’s army"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Esrom and Coriantumr were exceedingly angry because of Jared’s actions and raised an army to battle him.",
+        "refs": [
+          "Ether 8:5"
+        ]
+      },
+      {
+        "text": "They fought Jared by night.",
+        "refs": [
+          "Ether 8:5"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The battle may be shown at night."
+    ],
+    "unspecified_visual_details": [
+      "The exact battlefield, combatants’ numbers, and equipment are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "they did give battle unto him by night.",
+        "refs": [
+          "Ether 8:5"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict specific injuries or deaths in this scene; those are narrated in the next verse."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_005",
+    "title": "Jared Spared",
+    "refs": [
+      "Ether 8:6"
+    ],
+    "summary": "After Jared’s army is slain, Esrom and Coriantumr are about to kill Jared. He pleads for his life and offers to yield the kingdom to his father; they spare him.",
+    "characters": [
+      "Jared",
+      "Esrom",
+      "Coriantumr",
+      "Esrom and Coriantumr’s army",
+      "Jared’s army"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "They had slain Jared’s army and were about to slay Jared.",
+        "refs": [
+          "Ether 8:6"
+        ]
+      },
+      {
+        "text": "Jared pleaded that they spare him and promised to give the kingdom to his father.",
+        "refs": [
+          "Ether 8:6"
+        ]
+      },
+      {
+        "text": "They granted Jared his life.",
+        "refs": [
+          "Ether 8:6"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Jared may be shown pleading while Esrom and Coriantumr stand ready to kill him."
+    ],
+    "unspecified_visual_details": [
+      "The precise words of Jared’s plea and any other speech are not given.",
+      "The verse does not state the fate or appearance of individual members of either army."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "they did grant unto him his life.",
+        "refs": [
+          "Ether 8:6"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not show the killing of Jared’s army as a separate moment in this scene."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_006",
+    "title": "Jared’s Sorrow",
+    "refs": [
+      "Ether 8:7",
+      "Ether 8:8"
+    ],
+    "summary": "Jared is sorrowful over losing the kingdom, which he had set his heart on. His daughter sees his sorrow and devises a plan to regain the kingdom for him.",
+    "characters": [
+      "Jared",
+      "The daughter of Jared"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Jared became exceedingly sorrowful because he lost the kingdom and had set his heart on it and worldly glory.",
+        "refs": [
+          "Ether 8:7"
+        ]
+      },
+      {
+        "text": "Jared’s daughter saw his sorrow and thought of a plan to redeem the kingdom to him.",
+        "refs": [
+          "Ether 8:8"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Jared’s daughter may be shown observing her sorrowful father."
+    ],
+    "unspecified_visual_details": [
+      "The place where they are and the daughter’s specific plan at this point are unspecified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "Jared became exceedingly sorrowful",
+        "refs": [
+          "Ether 8:7"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict the plan as already carried out."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_007",
+    "title": "The Daughter’s Proposal",
+    "refs": [
+      "Ether 8:9",
+      "Ether 8:10"
+    ],
+    "summary": "Jared’s daughter speaks with her father, refers to an old record and secret plans that obtained kingdoms, and proposes that she dance for Akish so he will ask to marry her. She suggests Jared demand his father’s head in exchange.",
+    "characters": [
+      "The daughter of Jared",
+      "Jared"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Jared’s daughter was exceedingly fair and spoke with her father about his sorrow and the record of the fathers.",
+        "refs": [
+          "Ether 8:9"
+        ]
+      },
+      {
+        "text": "She proposed dancing before Akish to please him so that he would desire her as a wife.",
+        "refs": [
+          "Ether 8:10"
+        ]
+      },
+      {
+        "text": "She proposed that Jared demand his father’s head as the condition for giving her to Akish.",
+        "refs": [
+          "Ether 8:10"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The conversation may be depicted with the daughter speaking to Jared."
+    ],
+    "unspecified_visual_details": [
+      "The record’s appearance and the setting of their conversation are unspecified.",
+      "Akish is not present in this conversation."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Whereby hath my father so much sorrow?",
+        "refs": [
+          "Ether 8:9"
+        ],
+        "speaker": "The daughter of Jared"
+      },
+      {
+        "text": "Behold, is there not an account concerning them of old, that they by their secret plans did obtain kingdoms and great glory?",
+        "refs": [
+          "Ether 8:9"
+        ],
+        "speaker": "The daughter of Jared"
+      },
+      {
+        "text": "I will dance before him, and I will please him, that he will desire me to wife;",
+        "refs": [
+          "Ether 8:10"
+        ],
+        "speaker": "The daughter of Jared"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not show Akish hearing the proposal or the dance in this scene."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_008",
+    "title": "The Dance Before Akish",
+    "refs": [
+      "Ether 8:11"
+    ],
+    "summary": "Omer is Akish’s friend. After Jared sends for Akish, Jared’s daughter dances before Akish and pleases him; Akish desires her as his wife.",
+    "characters": [
+      "The daughter of Jared",
+      "Akish",
+      "Jared"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Omer was a friend of Akish, and Jared sent for Akish.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      },
+      {
+        "text": "Jared’s daughter danced before Akish and pleased him, and he desired her as his wife.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The dance may be shown with Akish watching."
+    ],
+    "unspecified_visual_details": [
+      "The location, music, dance style, and appearance of the participants are unspecified.",
+      "Omer is not stated to be present."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "the daughter of Jared danced before him",
+        "refs": [
+          "Ether 8:11"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not show Omer as present merely because he was Akish’s friend."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_009",
+    "title": "The Marriage Condition",
+    "refs": [
+      "Ether 8:11",
+      "Ether 8:12"
+    ],
+    "summary": "Akish asks Jared to give him his daughter as a wife. Jared agrees only if Akish brings him the head of Omer, the king.",
+    "characters": [
+      "Akish",
+      "Jared"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Akish asked Jared to give him Jared’s daughter as a wife.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      },
+      {
+        "text": "Jared said he would give her to Akish if Akish brought him the head of his father, the king.",
+        "refs": [
+          "Ether 8:12"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Akish and Jared may be shown facing one another in conversation."
+    ],
+    "unspecified_visual_details": [
+      "The place and circumstances of this conversation are unspecified.",
+      "Jared’s daughter is not stated to be present."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Give her unto me to wife.",
+        "refs": [
+          "Ether 8:11"
+        ],
+        "speaker": "Akish"
+      },
+      {
+        "text": "I will give her unto you, if ye will bring unto me the head of my father, the king.",
+        "refs": [
+          "Ether 8:12"
+        ],
+        "speaker": "Jared"
+      }
+    ],
+    "narration": [],
+    "doctrinal_or_story_notes": [],
+    "prohibited_inventions": [
+      "Do not depict Omer’s death or Akish carrying out Jared’s demand."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_010",
+    "title": "The Oath",
+    "refs": [
+      "Ether 8:13",
+      "Ether 8:14",
+      "Ether 8:15"
+    ],
+    "summary": "Akish gathers his kinsfolk at Jared’s house and asks them to swear loyalty to him. They swear severe penalties for disobedience or disclosure, and Akish administers old oaths associated with seeking power.",
+    "characters": [
+      "Akish",
+      "Akish’s kinsfolk"
+    ],
+    "locations": [
+      "Jared’s house"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Akish gathered his kinsfolk at Jared’s house and asked them to swear faithfulness to him.",
+        "refs": [
+          "Ether 8:13"
+        ]
+      },
+      {
+        "text": "They swore by God, heaven, earth, and their heads; disobedience would cost a head, and disclosure would cost a life.",
+        "refs": [
+          "Ether 8:14"
+        ]
+      },
+      {
+        "text": "Akish administered oaths given by those of old who sought power, handed down from Cain.",
+        "refs": [
+          "Ether 8:15"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "Akish may be shown addressing his assembled kinsfolk."
+    ],
+    "unspecified_visual_details": [
+      "The exact gestures, arrangement, and appearance of the oath-taking are unspecified.",
+      "Cain is referenced in narration and is not established as visibly present."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "Will ye swear unto me that ye will be faithful unto me in the thing which I shall desire of you?",
+        "refs": [
+          "Ether 8:13"
+        ],
+        "speaker": "Akish"
+      }
+    ],
+    "narration": [
+      {
+        "text": "Akish did administer unto them the oaths",
+        "refs": [
+          "Ether 8:15"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The text does not disclose the manner of the oaths and combinations."
+    ],
+    "prohibited_inventions": [
+      "Do not invent the undisclosed oath ritual or portray Cain as present."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_011",
+    "title": "The Combination’s Purpose",
+    "refs": [
+      "Ether 8:16",
+      "Ether 8:17",
+      "Ether 8:18"
+    ],
+    "summary": "The oaths are kept by the devil’s power to conceal wrongdoing and aid those seeking power. Jared’s daughter suggested searching out the old practices; Jared influenced Akish, who administered them to his kindred and friends through promises. They form a secret combination.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The oaths were kept up by the devil’s power to conceal, assist the power-seeking, and enable wicked acts.",
+        "refs": [
+          "Ether 8:16"
+        ]
+      },
+      {
+        "text": "Jared’s daughter prompted Jared to search out the old practices; Jared prompted Akish, who administered them to his kindred and friends through promises.",
+        "refs": [
+          "Ether 8:17"
+        ]
+      },
+      {
+        "text": "They formed a secret combination.",
+        "refs": [
+          "Ether 8:18"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "No single time or specific visible action is established across this narrated account.",
+      "The devil is mentioned as the source of power, but no visible appearance is described."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "they formed a secret combination",
+        "refs": [
+          "Ether 8:18"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "This passage describes a practice and its purposes; it does not narrate a distinct visible supernatural event."
+    ],
+    "prohibited_inventions": [
+      "Do not depict the devil visibly or combine the separate influences on Jared and Akish into one event."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_012",
+    "title": "Moroni’s Warning",
+    "refs": [
+      "Ether 8:19",
+      "Ether 8:20",
+      "Ether 8:21"
+    ],
+    "summary": "Moroni explains that the Lord does not work in secret combinations or will people to shed blood. Moroni says he will not write the manner of the oaths, notes their presence among peoples including the Lamanites, and states that they caused the destruction of the people he discusses and the people of Nephi.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "The Lord does not work in secret combinations or will that people shed blood, and has forbidden it from the beginning.",
+        "refs": [
+          "Ether 8:19"
+        ]
+      },
+      {
+        "text": "Moroni does not write the manner of the oaths and combinations; he says they exist among all people and among the Lamanites.",
+        "refs": [
+          "Ether 8:20"
+        ]
+      },
+      {
+        "text": "The combinations caused the destruction of the people Moroni discusses and the people of Nephi.",
+        "refs": [
+          "Ether 8:21"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "Moroni’s physical setting and appearance are unspecified.",
+      "The people and events referred to in the retrospective are not shown as a present-time scene."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "the Lord worketh not in secret combinations",
+        "refs": [
+          "Ether 8:19"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "These are Moroni’s teachings and retrospective statements, not a newly narrated visible event."
+    ],
+    "prohibited_inventions": [
+      "Do not stage the destruction or depict the Lord appearing."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_013",
+    "title": "Warning to the Nations",
+    "refs": [
+      "Ether 8:22",
+      "Ether 8:23",
+      "Ether 8:24"
+    ],
+    "summary": "Moroni warns that nations upholding secret combinations for power and gain will be destroyed. He urges the Gentiles to repent and not allow murderous combinations to gain power, and warns them to awaken when they see such things among them.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "A nation that upholds secret combinations for power and gain until they spread throughout it will be destroyed.",
+        "refs": [
+          "Ether 8:22"
+        ]
+      },
+      {
+        "text": "Moroni urges the Gentiles to repent and not let murderous combinations gain power over them.",
+        "refs": [
+          "Ether 8:23"
+        ]
+      },
+      {
+        "text": "Moroni commands the people to awaken to their situation when they see such combinations among them.",
+        "refs": [
+          "Ether 8:24"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The Gentiles are addressed but are not described as physically present.",
+      "No particular nation or visible future event is specified."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "O ye Gentiles, it is wisdom in God",
+        "refs": [
+          "Ether 8:23"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "This is instruction and prophecy, not a depicted destruction scene."
+    ],
+    "prohibited_inventions": [
+      "Do not portray the predicted destruction as occurring in the present."
+    ],
+    "importance": "normal"
+  },
+  {
+    "scene_id": "scene_014",
+    "title": "The Consequences of Secret Combinations",
+    "refs": [
+      "Ether 8:25",
+      "Ether 8:26"
+    ],
+    "summary": "Moroni warns that secret combinations seek to overthrow freedom and bring destruction, describing the devil as the father of lies and recalling murder and persecution of prophets. He says he is commanded to write so evil may be done away and people persuaded to do good and be saved.",
+    "characters": [],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "Moroni says secret combinations seek to overthrow freedom and bring destruction, and attributes their source to the devil, the father of lies.",
+        "refs": [
+          "Ether 8:25"
+        ]
+      },
+      {
+        "text": "Moroni says the liar caused murder and the murder, stoning, and casting out of prophets from the beginning.",
+        "refs": [
+          "Ether 8:25"
+        ]
+      },
+      {
+        "text": "Moroni says he is commanded to write these things so evil may be done away and people may be persuaded to do good and be saved.",
+        "refs": [
+          "Ether 8:26"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "No specific present-time person or location is described.",
+      "Past persecution and the devil are referenced, not narrated as visible events in the present."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "that they may be persuaded to do good continually",
+        "refs": [
+          "Ether 8:26"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The devil, the first parents, and the prophets are mentioned in teaching and narration, not established as visibly present."
+    ],
+    "prohibited_inventions": [
+      "Do not depict the devil, first parents, or specific prophets as present."
+    ],
+    "importance": "normal"
+  }
+]

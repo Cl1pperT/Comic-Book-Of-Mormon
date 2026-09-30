@@ -428,57 +428,59 @@
     "refs": [
       "Alma 45:14"
     ],
-    "summary": "Alma prophesies that those who remain and are not destroyed will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord, whom the Lamanites will pursue until they become extinct.",
+    "summary": "The verse foretells that those who remain after a great and dreadful day will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord. The Lamanites will pursue those disciples until they become extinct. The prophecy will be fulfilled because of iniquity.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Helaman (son of Alma)"
+      "Lamanites",
+      "disciples of the Lord",
+      "those who remain"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma said survivors would be numbered among the Lamanites and become like them, except a few called disciples of the Lord.",
+        "text": "Those who remain and are not destroyed will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord.",
         "refs": [
           "Alma 45:14"
         ]
       },
       {
-        "text": "He said the Lamanites would pursue those disciples until they became extinct.",
+        "text": "The Lamanites will pursue the disciples until they become extinct.",
+        "refs": [
+          "Alma 45:14"
+        ]
+      },
+      {
+        "text": "The prophecy will be fulfilled because of iniquity.",
         "refs": [
           "Alma 45:14"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma speaks the prophecy to Helaman."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identities and appearance of the future survivors and disciples."
+      "The identity of the speaker and any listener.",
+      "The location and appearance of those mentioned."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "this prophecy shall be fulfilled.",
-        "refs": [
-          "Alma 45:14"
-        ],
-        "speaker": "Alma the Younger (high priest)"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "whosoever remaineth, and is not destroyed",
+        "text": "shall be numbered among the Lamanites, and shall become like unto them",
+        "refs": [
+          "Alma 45:14"
+        ]
+      },
+      {
+        "text": "because of iniquity, this prophecy shall be fulfilled.",
         "refs": [
           "Alma 45:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is reported prophecy, not a present-tense depiction of pursuit."
+      "The pursuit and extinction are foretold, not narrated as present events."
     ],
     "prohibited_inventions": [
-      "Showing future Lamanites or disciples as present in the scene.",
-      "Depicting pursuit or extinction as happening now."
+      "Identifying the speaker or a listener.",
+      "Depicting the foretold pursuit or extinction as happening now."
     ],
     "importance": "normal"
   },

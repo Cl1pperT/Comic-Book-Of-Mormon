@@ -1,0 +1,20 @@
+{
+  "book": "Ether",
+  "chapter": 3,
+  "verses": 28,
+  "scenes": 12,
+  "counts": {
+    "PASS": 9,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
+  },
+  "rejected": {},
+  "calls": 4,
+  "tokens": {
+    "input_tokens": 45016,
+    "cached_input_tokens": 20224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5989,
+    "reasoning_output_tokens": 1082
+  }
+}

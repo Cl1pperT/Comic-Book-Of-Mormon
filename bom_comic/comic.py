@@ -2,6 +2,7 @@ import json
 import math
 import re
 from pathlib import Path
+from .analysis import vague_speaker
 from .models import Panel
 
 NEGATIVE = ["No additional named characters or unlisted events", "No modern objects or buildings",
@@ -625,7 +626,8 @@ def _caption_options(draw, panel, frame, fonts):
     left, top, right, bottom = x + BORDER, y + BORDER, x + w - BORDER, y + h - BORDER
     ref = _ref_range(panel.refs)
     narration = [(None, c.text) for c in panel.narration]
-    speech = [(s.speaker, f"“{s.text}”") for s in panel.dialogue]
+    # A label that names no one ("UNIDENTIFIED SPEAKER") adds nothing on the page, so the quote stands alone.
+    speech = [(None if vague_speaker(s.speaker) else s.speaker, f"“{s.text}”") for s in panel.dialogue]
 
     def variants(blocks, ref, fill, corners):
         default = _box(draw, blocks, ref, fonts, inner_w, inner_h * 0.3)[0]

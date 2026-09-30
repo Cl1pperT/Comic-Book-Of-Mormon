@@ -279,6 +279,70 @@ def recheck(root="runs/book"):
     return changed
 
 
+SPEAKER_PROMPT = """Some speech lines in this chapter's comic scenes have a speaker label that names no one. For each
+listed line, name the speaker when the chapter's verses or its first-person narrator make it clear (for example the
+narrator's "I", or a person the nearby verses name as speaking); use the known character labels exactly when one
+applies. When the verses genuinely don't say who speaks, return an empty speaker. Never guess.
+"""
+
+
+def fix_speakers(root="runs/book", make_provider=None):
+    """Name the speakers of speech lines labelled "Unidentified speaker" and the like, one call per affected
+    chapter, then re-audit just the changed scenes (a rejected one goes through the normal repair). Drawn chapters
+    re-render afterwards, redrawing only panels whose visible people changed."""
+    from .analysis import narrator, vague_speaker
+    from .models import SpeakerFixes
+    make_provider = make_provider or _codex()
+    results = []
+    try:
+        with writing_lock(root):
+            for status_path in sorted(Path(root).glob("*/*/status.json")):
+                store = Store(status_path.parent)
+                status = store.read("status.json")
+                pipeline = Pipeline(store, make_provider(store))
+                pipeline.provider.reuse_responses = True
+                scenes = pipeline.scenes()
+                lines = [{"scene_id": s.scene_id, "line": i, "label": q.speaker, "text": q.text, "refs": q.refs}
+                         for s in scenes for i, q in enumerate(s.spoken_dialogue) if vague_speaker(q.speaker)]
+                if not lines:
+                    continue
+                _upgrade(pipeline)  # drawn chapters keep drawings whose content didn't change
+                request = {"narrator": narrator(status["book"], status["chapter"]),
+                           "known_character_labels": list(pipeline.continuity()["characters"]),
+                           "lines": lines, "chapter": [v.model_dump() for v in pipeline.verses()]}
+                try:
+                    answer = pipeline.provider.structured(SPEAKER_PROMPT + json.dumps(request), SpeakerFixes,
+                                                          "speakers", "repair")
+                except ProviderError as exc:
+                    if "usage limit" in str(exc).lower():
+                        return results, "usage limit"
+                    print(f"{status['book']} {status['chapter']} speakers failed: {exc}", flush=True)
+                    continue
+                wanted = {(line["scene_id"], line["line"]) for line in lines}
+                by_id, changed = {s.scene_id: s for s in scenes}, set()
+                for fix in answer.fixes:
+                    name = fix.speaker.strip()
+                    scene = by_id.get(fix.scene_id)
+                    if not name or vague_speaker(name) or scene is None or (fix.scene_id, fix.line) not in wanted:
+                        continue
+                    speech = scene.spoken_dialogue[fix.line]
+                    old, speech.speaker = speech.speaker, name
+                    # The same vague label among the visible people is the same person.
+                    scene.characters = list(dict.fromkeys(name if c == old else c for c in scene.characters))
+                    changed.add(fix.scene_id)
+                if not changed:
+                    continue
+                store.write("scenes.json", [s.model_dump() for s in scenes])
+                report = _escalate(pipeline, _repair(pipeline, pipeline.revalidate(sorted(changed))))
+                fixed = _finish(store, pipeline, status["book"], status["chapter"], status["verses"], report)
+                results.append(fixed)
+                print(f"Speakers named in {status['book']} {status['chapter']}: {len(changed)} scenes "
+                      f"({len(lines)} vague lines) | {fixed['counts']['REJECT']} rejected", flush=True)
+    except Busy as exc:
+        return results, f"another writer is running ({exc})"
+    return results, "done"
+
+
 def write_book(root="runs/book", source="data/full-scripture.txt", start=None, max_chapters=None, make_provider=None):
     """Write chapters in order from `start` ("Book chapter"), skipping finished ones. Stops at a usage limit.
     Holds the book's writing lock, so a second writer (e.g. the nightly job) never works on the same chapter."""

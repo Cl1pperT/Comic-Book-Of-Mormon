@@ -1,0 +1,88 @@
+{
+  "stamp": "cc05e8eb3349f657484013020eb4640056dfaa80a7b848c2cd9567b1829ff59b",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s preceding scene depicts the three being caught up into heaven immediately before this ministry, following the source’s sequence. However, the prior scene’s “characters” field labels them as “The twelve Nephite disciples,” though these verses say it is the three who are caught up. The prior scene also omits the explicitly described seeing and hearing of unspeakable things from its narration; this does not alter chronology but is an omission.",
+        "“The three” is not an established label in the supplied label list, but the source supports the three disciples as present.",
+        "The phrase “The narrator does not know whether they were mortal or immortal after their transfiguration” accurately reflects verse 17; the scene appropriately leaves their state unspecified.",
+        "The proposed listening or baptism depiction is a reasonable generic illustration of reported ministry, but no particular occasion is documented. Do not portray it as a specific narrated event."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 015’s narration uses separate verbatim excerpts, but omits the source punctuation between “Behold, I was about to write the names of those who were never to taste of death” and “the Lord forbade”; no ellipsis or altered quotation appears. Mormon’s narration is consistent with the cited text. The unspecified depiction should remain conservative."
+      ]
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Future ministry and divine judgment are properly framed as narration rather than present scenes, but the blank characters field leaves the narrator/speaker of the narration unspecified."
+      ]
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The future works and judgment are not staged as present events, but the blank characters field leaves the narrator/speaker of the narration unspecified."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

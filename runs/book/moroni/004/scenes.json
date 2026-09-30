@@ -1,0 +1,72 @@
+[
+  {
+    "scene_id": "scene_001",
+    "title": "The Sacramental Prayer",
+    "refs": [
+      "Moroni 4:1",
+      "Moroni 4:2",
+      "Moroni 4:3"
+    ],
+    "summary": "An elder or priest administers the sacrament; the church kneels and prays to the Father in the name of Christ, asking that the bread be blessed and sanctified.",
+    "characters": [
+      "An elder or priest",
+      "the church"
+    ],
+    "locations": [
+      "Unspecified location"
+    ],
+    "explicit_facts": [
+      {
+        "text": "An elder or priest administers the flesh and blood of Christ to the church according to Christ’s commandments.",
+        "refs": [
+          "Moroni 4:1"
+        ]
+      },
+      {
+        "text": "The church kneels with the elder or priest, who prays to the Father in the name of Christ.",
+        "refs": [
+          "Moroni 4:2"
+        ]
+      },
+      {
+        "text": "The prayer asks God to bless and sanctify the bread for those who partake.",
+        "refs": [
+          "Moroni 4:3"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "The elder or priest is visible administering bread to the assembled church.",
+      "Members of the church kneel during the prayer."
+    ],
+    "unspecified_visual_details": [
+      "The church's identity, size, and composition.",
+      "The architecture, furnishings, clothing, and appearance of the people."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it;",
+        "refs": [
+          "Moroni 4:3"
+        ],
+        "speaker": "An elder or priest"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And they did kneel down with the church, and pray to the Father in the name of Christ, saying:",
+        "refs": [
+          "Moroni 4:2"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The prayer identifies the bread as a remembrance of the body of Christ and asks that those who partake always have his Spirit with them."
+    ],
+    "prohibited_inventions": [
+      "Do not depict Christ or the Father as visibly present.",
+      "Do not add a particular church, congregation identity, or architectural setting."
+    ],
+    "importance": "normal"
+  }
+]

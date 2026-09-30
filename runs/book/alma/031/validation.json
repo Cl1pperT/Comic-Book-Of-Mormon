@@ -1,82 +1,68 @@
 {
-  "stamp": "9d1702ef340e9c737fd69404e1976964f66cccf16c41919c6cd8224b0f7ef469",
+  "stamp": "c966c44cf12a2627fd8aa2b014d01e0b3737cd049f0a17308f329d87f323c773",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the Zoramites are turning from the Lord; the source says they are perverting the Lord's ways and their leader is leading them to idol worship, not that they are turning away.",
-        "The scene character label “Alma” is not among the established labels; source identifies him as Alma, so this is a labeling consistency issue."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene does not literalize the Nephites’ reported fear or invent an alliance, battle, or loss.",
-        "The character labels “Zoramites” and “Nephites” are not among the established labels; both groups are explicit in the source."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma is identified contextually from the preceding scene; his name is not stated in verses 6–7. Keep this identification contextual rather than presenting it as explicit wording from those verses.",
-        "The travelers may be depicted together among the Zoramites, but their appearances, travel, and exact surroundings are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the Zoramites “had fallen into errors,” but the source specifies great errors and particular neglected commandments and daily prayer; the summary is an acceptable compression, though less precise.",
-        "The scene uses “Alma” rather than the established label “Alma the Younger (high priest)”; source context does identify Alma."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary says the people gathered one day each week, but the supplied verses describe only that they gathered on one day of the week; recurrence is not explicit in verses 12–14.",
+        "Location Antionum is inferred from the prior context and not stated in the scene's cited verse 14."
+      ]
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says “After hearing the prayers” and that every man offers the same prayer, which reflects verses 19–22; however, it compresses successive reported actions into a scene. Ensure the visual does not imply Alma and his party are present at the stand while every worshipper prays unless that staging is treated as inference.",
-        "The spoken-prayer content is properly kept as reported rather than invented dialogue."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The visual inference “with fine goods” can suggest visible goods, which the source describes but does not specify as objects present in this particular observed scene; the specific goods and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 31:24–26 identifies the speaker as Alma: the “he” in verse 26 refers to Alma in verses 24–25. Calling him “Unnamed speaker” and prohibiting his identification contradicts the supplied source and preceding scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
-      "issues": []
+      "issues": [
+        "Antionum is not identified as the location of Alma's prayer in verses 30–31; setting is unspecified."
+      ]
     },
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is Alma by the prayer’s continuous context, and the named fellow laborers and two sons are identified in verse 32; labeling the speaker merely “Unnamed prayer speaker” obscures that context.",
-        "“The speaker names … among the fellow laborers with him” is accurate, but the named companions are not established as physically present in the scene solely by this prayer wording; depicting them nearby should remain an inference, as noted."
+        "The source identifies the speaker as Alma through the surrounding narration (Alma 31:36: “when Alma had said these words”), but the scene correctly avoids naming him because that identification is outside its cited verses.",
+        "The inference that fellow laborers may be shown near the speaker is not directly established as a specific visual arrangement; the verses say they are with him, without specifying their position."
       ]
     },
     "scene_015": {
@@ -86,15 +72,12 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The preceding scene reports Alma clapping his hands on those with him; verse 37’s “they” refers to those people. The scene’s character label avoids naming them, but its unspecified identities should be understood in that context."
+        "The preceding verse says the people with Alma separated from one another, but this verse's 'they' refers to those people; their identity as Alma's companions is supported by the preceding context, not verse 37 alone."
       ]
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord’s provision and their lack of hunger or thirst are explicit, but the summary’s broad phrasing may suggest a distinct present-tense visible event despite unspecified form and timing; keep it as narration, not a literal apparition or invented provision scene.",
-        "“The Lord provides” is supported by verse 38; the scene’s empty characters list is acceptable only if no visible Lord or companions are depicted."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

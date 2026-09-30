@@ -383,6 +383,47 @@ def test_recheck_rejects_silent_scenes_in_chapters_not_yet_drawn(tmp_path, monke
     assert book.recheck(tmp_path / "book") == []  # nothing new the second time
 
 
+def test_fix_speakers_names_vague_speakers_and_reaudits_only_those_scenes(tmp_path, monkeypatch):
+    import json
+    from bom_comic import book
+    from bom_comic.analysis import vague_speaker
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict, Speech, SpeakerFixes, SpeakerFix
+    source = tmp_path / "src.txt"
+    source.write_text("1 Nephi 1:1 TEST FIXTURE: Have ye inquired of the Lord.\n"
+                      "1 Nephi 1:2 TEST FIXTURE: We have not inquired at all.\n", encoding="utf-8")
+    monkeypatch.setattr(book, "_continuity", lambda: {"characters": {"Nephi": {}}, "locations": {}, "visual_style": {}})
+    audited, asked = [], []
+
+    class Fake:
+        def __init__(self, store):
+            pass
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            if schema is ChapterVerdicts:
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                audited.append(ids)
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="PASS") for i in ids])
+            if schema is SpeakerFixes:
+                asked.append(json.loads(prompt[prompt.index("{"):]))
+                # The narrator's line is Nephi; the brothers' reply stays unknown.
+                return SpeakerFixes(fixes=[SpeakerFix(scene_id="scene_001", line=0, speaker="Nephi"),
+                                           SpeakerFix(scene_id="scene_002", line=0, speaker="")])
+            verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:])
+            assert "first-person narrator (\"I\") is Nephi" in prompt  # writers are told who "I" is
+            ref = lambda v: f"{v['book']} {v['chapter']}:{v['verse']}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
+                characters=["Unidentified speaker"], explicit_facts=[Claim(text="x", refs=[ref(v)])],
+                spoken_dialogue=[Speech(speaker="Unidentified speaker", text=v["text"], refs=[ref(v)])]) for v in verses])
+    book.write_book(tmp_path / "book", source, make_provider=Fake)
+    audited.clear()
+    results, reason = book.fix_speakers(tmp_path / "book", make_provider=Fake)
+    assert reason == "done" and len(results) == 1 and asked[0]["narrator"] == "Nephi" and len(asked[0]["lines"]) == 2
+    scenes = json.loads((tmp_path / "book" / "1-nephi" / "001" / "scenes.json").read_text(encoding="utf-8"))
+    assert scenes[0]["spoken_dialogue"][0]["speaker"] == "Nephi" and scenes[0]["characters"] == ["Nephi"]
+    assert vague_speaker(scenes[1]["spoken_dialogue"][0]["speaker"])  # left alone: the text doesn't say
+    assert audited == [["scene_001"]]  # only the changed scene is re-audited
+
+
 def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_model(monkeypatch):
     from bom_comic import book
     monkeypatch.setenv("CODEX_ESCALATE_MODEL", "frontier")

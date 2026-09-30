@@ -1,0 +1,105 @@
+{
+  "stamp": "102147333401cbe239cffd9c4bbe8c1faa8ca7408536f963fa0fc16941d0feeb",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The inference that the attack itself can be shown is not clearly supported: the text says the conspirators obtained Jared’s head and that Jared was murdered, but does not specify the method or depict the act. Depict Jared seated with his audience; treat the murder as narration rather than a shown attack. The previous scene’s events are correctly kept separate."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Akish’s land” is an inferred location; the source only says Nimrah fled out of the land and dwelt with Omer."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Restoration and the later anointing are distinct events; the scene notes this, but should not depict them as simultaneous."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The two years of peace, Omer’s death, and Emer’s succession occur in sequence, not as one instant; the scene notes this distinction."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source reports that Emer saw the Son of Righteousness but gives no appearance; do not visually portray an unspecified form."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_017": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The warning and the later persecution are separate moments; the scene notes this and should not depict them simultaneously."
+      ]
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dearth and the serpents’ arrival are distinct events; the scene notes this and should not combine them as simultaneous."
+      ]
+    },
+    "scene_019": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_020": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Eating the carcasses and the later repentance are separate moments; the scene notes this and should not depict them simultaneously."
+      ]
+    },
+    "scene_021": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

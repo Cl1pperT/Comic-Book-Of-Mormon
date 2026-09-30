@@ -1,4 +1,5 @@
 import json
+import re
 from .models import ChapterVerdicts, SceneBatch, Verdict
 from .scripture import coordinate
 
@@ -21,6 +22,37 @@ If uncertain, choose a conservative interpretation.'''
 
 
 MIN_LETTERING = 3
+# A speech label that names no one ("Unidentified speaker", "The speaker", "Narrator", ...).
+VAGUE_SPEAKER = re.compile(r"^(?:the\s+)?(?:(?:unnamed|unidentified|unspecified|unknown|first[- ]person)\b.*|"
+                           r"speakers?(?:\s+not named.*)?|narrator|voice)$", re.I)
+
+
+def vague_speaker(label):
+    return bool(VAGUE_SPEAKER.match((label or "").strip()))
+
+
+def narrator(book, chapter):
+    """Who the first-person "I" is in a chapter, from the books' own attributions."""
+    if book in ("1 Nephi", "2 Nephi"):
+        return "Nephi"
+    if book in ("Jacob", "Enos", "Jarom"):
+        return book
+    if book == "Omni":
+        return ("each record keeper in turn, named as he begins: Omni, then Amaron, Chemish, Abinadom, "
+                "and Amaleki")
+    if book == "Mormon":
+        return "Mormon" if chapter <= 7 else "Moroni (son of Mormon)"
+    if book in ("Ether", "Moroni"):
+        return "Moroni (son of Mormon)"
+    if book == "Words of Mormon":
+        return "Mormon"
+    return "Mormon, the abridger, who rarely speaks as \"I\"; speech belongs to the people the verses name"
+
+
+def speaker_note(book, chapter):
+    return (f"\nIn this chapter the first-person narrator (\"I\") is {narrator(book, chapter)}. Name every speaker "
+            "the verses or this narrator make clear, using the known character labels; use a generic speaker "
+            "label only when the speaker is truly unknown.")
 
 
 def unquote(scene):
@@ -72,7 +104,7 @@ someone present, even if unnamed. Likewise list every VISIBLE setting in "locati
 characters for VISIBLE people only. IDs will be assigned later.
 Every ref (scene refs and each claim's refs) is one supplied verse's exact "Book chapter:verse"
 string, e.g. "Alma 17:21" — never a range like "Alma 17:21-23" and never a bare chapter. A scene
-covering several verses lists each of their refs separately.''' + known + '''\nSource:\n'''
+covering several verses lists each of their refs separately.''' + known + speaker_note(book, chapter) + '''\nSource:\n'''
             result = provider.structured(prompt + json.dumps([v.model_dump() for v in chunk]),
                                          SceneBatch, f"analyze_{slug}_{chapter}_{offset}")
             scenes.extend(unquote(scene) for scene in result.scenes)

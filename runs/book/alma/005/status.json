@@ -4,24 +4,17 @@
   "verses": 62,
   "scenes": 23,
   "counts": {
-    "PASS": 10,
-    "PASS WITH WARNINGS": 11,
-    "REJECT": 2
+    "PASS": 21,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_005": [
-      "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim his name cannot be established from the supplied verses."
-    ],
-    "scene_006": [
-      "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim that identifying him requires unsupplied context."
-    ]
-  },
-  "calls": 51,
+  "rejected": {},
+  "calls": 53,
   "tokens": {
-    "input_tokens": 379959,
-    "cached_input_tokens": 168960,
+    "input_tokens": 396777,
+    "cached_input_tokens": 177408,
     "cache_write_input_tokens": 0,
-    "output_tokens": 47998,
-    "reasoning_output_tokens": 18382
+    "output_tokens": 47739,
+    "reasoning_output_tokens": 17520
   }
 }

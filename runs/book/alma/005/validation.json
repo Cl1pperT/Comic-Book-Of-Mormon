@@ -1,5 +1,5 @@
 {
-  "stamp": "59b2d4b5c958d1904ccc62d5d36808c957c0b70b2e77561d2dbb328fdd5f50cc",
+  "stamp": "e550ae62ab2102b4a1542a0e30a59f949c1c9715ef3f522c867329d44ce33a69",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,37 +14,30 @@
       "issues": []
     },
     "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpt “Behold, I say unto you, Nay, they were not.” is not verbatim: Alma 5:8 reads “Behold, I say unto you, Nay, they were not.” Actually matches exactly; however, the summary's “deliverance from hell” may overstate Alma 5:6, which asks whether their souls were delivered from hell. Marking as a minor summary uncertainty."
+      ]
+    },
+    "scene_005": {
       "status": "PASS",
       "issues": []
     },
-    "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim his name cannot be established from the supplied verses."
-      ]
-    },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 5:3 is included in the supplied source and identifies the speaker as Alma. The character label and notes incorrectly claim that identifying him requires unsupplied context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The continuing speaker is Alma, established in Alma 5:3 and sustained through the surrounding address, although this scene labels him unnamed. Identify him as Alma where the schema permits; do not treat the questions as a new speaker or scene.",
-        "The supplied dialogue quotes from Alma 5:19–20 are exact excerpts. The summary’s descriptions of guilt, remorse, and yielding are hypothetical questions, not events; keep any depiction nonliteral and avoid showing an actual judgment or devil."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker and listeners are appropriately unidentified; their appearances and setting remain unspecified. The garments and being cast out are teachings, not visible events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -55,70 +48,54 @@
       "issues": []
     },
     "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration “he sendeth an invitation unto all men” is an exact source excerpt, but its unanchored pronoun could be unclear when used as standalone narration. The source attributes the invitation to “he” without identifying that figure in these verses; avoid depicting an identified speaker."
+      ]
+    },
+    "scene_013": {
       "status": "PASS",
       "issues": []
     },
-    "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The shepherd and sheep imagery is figurative teaching, not a literal scene; the supplied visual safeguards correctly note this. The speaker's identity and setting remain unspecified."
-      ]
-    },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker and audience are not identified in these verses; keep them unspecified. The quoted narration is exact and the teaching's metaphors should not be depicted literally."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma's identity is not stated within these three verses, though the established character label is permissible. His standing is commanded, but the actual performance is not explicitly narrated; depicting him standing is a reasonable, limited inference."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The previous scene identifies Alma as the speaker, so labeling him only as “Unnamed speaker” loses the established speaker identity. The remaining content is consistent with the supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS",
       "issues": []
     },
     "scene_019": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is identifiable as Alma from the supplied context (Alma 5:61), though scene 019 does not name him. Depicting a speaker addressing listeners is a reasonable inference; their appearances and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_020": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is Alma in context, but the scene leaves him unnamed. The summary's reference to “his beloved brethren” is supported by verse 53; audience number and appearances remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_021": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is Alma in context, though not named in these verses. The summary accurately frames the book of life and inheritance as teachings, not visible events; no physical separation or heavenly scene is supported."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_022": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is Alma in context, but these verses do not name him. Shepherd, sheep, and wolves are teaching imagery, not narrated animal events; no setting or visual appearance is specified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_023": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma is explicitly named in verse 61. The people addressed are not described; showing Alma speaking is a reasonable inference, but their presence, appearance, and setting are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

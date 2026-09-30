@@ -48,6 +48,15 @@ class Corrections(Model):
     add: List[str] = []
     avoid: List[str] = []
 
+class SpeakerFix(Model):
+    scene_id: str
+    line: int
+    speaker: str
+
+class SpeakerFixes(Model):
+    """Names for speech lines whose speaker label named no one; an empty speaker means still unknown."""
+    fixes: List[SpeakerFix] = []
+
 class SceneVerdict(Verdict):
     scene_id: str
 

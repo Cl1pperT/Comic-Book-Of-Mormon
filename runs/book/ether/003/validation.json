@@ -1,0 +1,62 @@
+{
+  "stamp": "f369d172570400c9446690d1f5ab01304a44eaa5f181d514c5ae65cf96d507e3",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mount Shelem is not named in these retrospective verses; carrying the location over from the preceding encounter is a reasonable continuity inference, not an explicit fact here. The scene correctly notes that no new visual moment is specified."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mount Shelem is not named in these retrospective verses; carrying the location over from the preceding encounter is a reasonable continuity inference, not an explicit fact here. The scene correctly frames this as a recap, not a separate event."
+      ]
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the Lord will write and seal the things, but Ether 3:22 says the brother of Jared will write and seal them. Correct the actor.",
+        "The summary's statement that the stones will magnify the writing 'in his due time' is inaccurate: Ether 3:24 says 'in my own due time.'",
+        "The dialogue excerpts are not verbatim contiguous quotations: they alter source wording and omit surrounding words. For example, Ether 3:22 says 'ye shall write them and shall seal them up'; Ether 3:23 begins 'And behold, these two stones will I give unto thee'.",
+        "The speaker label 'The Lord' is supported by Ether 3:21–24, but depicting the Lord visibly is prohibited by the scene's unspecified visual details and the source does not describe his appearance here."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS",
+      "issues": []
+    }
+  }
+}

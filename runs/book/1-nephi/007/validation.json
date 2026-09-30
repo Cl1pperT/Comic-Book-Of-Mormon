@@ -1,5 +1,5 @@
 {
-  "stamp": "b45c54f8f483e7924b534b93f062264022e53e07e5170d5513a0c6c2b68681b4",
+  "stamp": "e760f14c87b28e13f640c8392a7b4cd62b53e813d1aef2fc38616b76ad1b4a62",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -24,7 +24,7 @@
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The character labels and story note say the speaker is unidentified, but 1 Nephi 7:8 names Nephi, and the preceding scene establishes his continuing address to Laman and Lemuel. The scene should preserve that continuity rather than treat verses 13–15 as an isolated speech."
+        "The supplied verses identify the speaker as Nephi, and the preceding scene identifies the addressees as Laman and Lemuel; although the scene’s labels are more cautious, they omit these source-supported identities. The pictured listeners’ exact identity and arrangement remain a visual choice."
       ]
     },
     "scene_007": {

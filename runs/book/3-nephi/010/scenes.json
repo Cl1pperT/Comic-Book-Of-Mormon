@@ -473,63 +473,65 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "Christ manifests himself to the spared people",
+    "title": "Narrative report of Christ’s manifestation",
     "refs": [
       "3 Nephi 10:18",
       "3 Nephi 10:19"
     ],
-    "summary": "At the end of the thirty-fourth year, the spared people of Nephi and those who had been called Lamanites receive great favors and blessings. Soon after Christ's ascension into heaven, he manifests himself to them, shows them his body, and ministers to them.",
+    "summary": "The narrator reports great favors and blessings for the spared people of Nephi and those who had been called Lamanites, referring to the ending of the thirty-fourth year. He reports that Christ manifested himself to them soon after his ascension, showing his body and ministering to them, and defers the account of that ministry.",
     "characters": [
-      "Christ",
-      "the spared people of Nephi",
-      "those who had been called Lamanites and were spared"
+      "Christ (reported only)",
+      "the spared people of Nephi (reported only)",
+      "those who had been called Lamanites and were spared (reported only)"
     ],
     "locations": [
-      "Unspecified location"
+      "No location specified"
     ],
     "explicit_facts": [
       {
-        "text": "The spared people of Nephi and those who had been called Lamanites were shown great favors and received great blessings.",
+        "text": "The narrator refers to the ending of the thirty-fourth year and reports great favors and blessings for the spared people of Nephi and those who had been called Lamanites.",
         "refs": [
           "3 Nephi 10:18"
         ]
       },
       {
-        "text": "Soon after his ascension into heaven, Christ manifested himself to them, showed them his body, and ministered to them.",
+        "text": "Christ manifested himself to them soon after his ascension into heaven, showing his body and ministering to them.",
         "refs": [
           "3 Nephi 10:18",
           "3 Nephi 10:19"
         ]
       },
       {
-        "text": "The narrator says an account of Christ's ministry will be given later and ends his sayings for the time being.",
+        "text": "The narrator promises an account of Christ’s ministry hereafter and ends his sayings for the time being.",
         "refs": [
           "3 Nephi 10:19"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Christ is visibly present to the people when he shows them his body."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The location, number and arrangement of people, Christ's physical features and clothing, and the manner of his ministry."
+      "Any nonrepresentational background or typography used to present this narrative report.",
+      "The location, people's number and arrangement, Christ’s physical features and clothing, and specific ministering actions are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Showing his body unto them,",
+        "text": "Showing his body unto them, and ministering unto them; and an account of his ministry shall be given hereafter. Therefore for this time I make an end of my sayings.",
         "refs": [
           "3 Nephi 10:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The ascension is mentioned as an earlier event, not described as occurring during this manifestation.",
-      "The acts and words of Christ's ministry are not specified here."
+      "This is a narrative report and transition to a deferred account, not an enacted manifestation scene.",
+      "The reported showing of Christ’s body does not authorize staging this summarized event as happening now.",
+      "The ascension is mentioned only as an earlier event."
     ],
     "prohibited_inventions": [
-      "Do not depict the earlier ascension as simultaneous with this manifestation.",
-      "Do not add specific teachings, healings, dialogue, or details of Christ's appearance."
+      "Do not enact the reported manifestation or ministry, including as a flashback.",
+      "Do not depict the ascension or combine its timing with the manifestation.",
+      "Do not invent a visible narrator, setting, divine appearance, dialogue, teachings, healings, or reactions.",
+      "Do not depict blessings poured upon heads as a literal visible substance."
     ],
     "importance": "normal"
   }

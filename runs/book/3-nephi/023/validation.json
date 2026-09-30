@@ -1,0 +1,30 @@
+{
+  "stamp": "d22f820287e4871c157ba823e616865554bacdeba942215eb56a5c7cc2b53762",
+  "results": {
+    "scene_001": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker label “the Lord” is not the source’s explicit label here; the text identifies the speaker as Jesus (3 Nephi 23:6–9). Consider using “Jesus.”"
+      ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts are supported by 3 Nephi 23:14. The visual inference that Jesus addresses the recipients is reasonable, but the verse does not specify their identities or how he addresses them.",
+        "Narration reproduces the verse verbatim and stays within the word limit. Keep the previous scene's writing episode distinct in chronology; this scene follows the expounding of the scriptures."
+      ]
+    }
+  }
+}

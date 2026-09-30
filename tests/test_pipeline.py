@@ -248,6 +248,27 @@ def test_older_drawing_records_are_upgraded_while_still_current(pipeline):
     assert pipeline.assemble().exists()
 
 
+def test_new_records_for_other_people_dont_restale_drawings(pipeline):
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    panel = pipeline.panels()[0]
+    # A drawing stamped the older way (whole continuity) is upgraded while it still matches that rule.
+    record = pipeline.store.read("images/panel_001.json")
+    v1 = {**{k: v for k, v in record.items() if k != "art_version"}, "art_stamp": pipeline._art_stamp(panel, True)}
+    pipeline.store.write("images/panel_001.json", v1)
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    assert pipeline.upgrade_image_records() == 1
+    upgraded = pipeline.store.read("images/panel_001.json")
+    assert upgraded["art_version"] == 2 and upgraded["art_stamp"] == pipeline.art_stamp(panel)
+    assert pipeline.approvals()["image:panel_001"]["stamp"] == digest(upgraded)  # approval carried forward
+    # Adding someone else's record (e.g. a newly named wife) leaves the drawing current.
+    characters = pipeline.store.read("continuity/characters.json")
+    characters["Nephi's wife"] = {"scriptural_facts": [], "visual_design_choices": ["A young woman"], "locked_traits": []}
+    pipeline.store.write("continuity/characters.json", characters)
+    assert pipeline.image_record(pipeline.panels()[0])
+
+
 def test_flag_on_a_panel_redrawn_some_other_way_is_settled(pipeline):
     from bom_comic import reader, redraw
     ready(pipeline)
@@ -811,6 +832,15 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
     assert "bodily form of God" in diffusion_prompts(build_prompt(voice, continuity, "4:3"))[1]
     spirit = make_panel(3).model_copy(update={"characters_visible": ["The Spirit", "Nephi"]})
     assert "column of soft, radiant white light" in diffusion_prompts(build_prompt(spirit, continuity, "4:3"))[0]
+
+
+def test_vague_speaker_labels_are_left_off_the_page():
+    from bom_comic.comic import _caption_options, _measure
+    draw, fonts = _measure()
+    panel = make_panel(1).model_copy(update={"narration": [], "dialogue": [
+        Speech(speaker="Unidentified speaker", text="TEST FIXTURE words here", refs=["3 Nephi 8:1"])]})
+    [options] = _caption_options(draw, panel, (48, 48, 600, 400), fonts)
+    assert "speaker" not in [kind for kind, _ in options[0][1]]  # the quote stands alone
 
 
 def test_scene_without_lettering_gets_only_a_small_verse_tag():

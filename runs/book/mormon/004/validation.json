@@ -1,0 +1,89 @@
+{
+  "stamp": "49e701140ce0695794b456f6d67b27d274c4246e1552129e6c52b42c025a51fc",
+  "results": {
+    "scene_001": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Character labels identify the Lamanites as warriors and the Nephite armies as Moroni’s, though neither detail is established by these verses; use as established labels only, not as additional facts."
+      ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reasonable visual inference that the Nephites are shown being repelled is not stated in Mormon 4:4; the text only says they began to be smitten. Depict only the advance and the beginning of being smitten, without specifying how that appears."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label identifies the Lamanites as warriors, a detail not established by these verses; use as an established label only, not as an additional fact."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Nephite armies as Moroni’s and the Lamanites as warriors; neither detail is established by this verse. The visual-inference field combines successive actions, so they must remain chronologically distinct."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Nephite armies as Moroni’s and the Lamanites as warriors, details not established by this verse. The proposed visual inference is an aftermath, but the verse gives no specific visible aftermath."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Nephite armies as Moroni’s and the Lamanites as warriors, details not established by this verse."
+      ]
+    },
+    "scene_011": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Lamanite forces as warriors and the Nephite armies as Moroni’s, details not established by these verses."
+      ]
+    },
+    "scene_013": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Lamanite forces as warriors and the Nephite armies as Moroni’s, details not established by this verse."
+      ]
+    },
+    "scene_014": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character labels identify the Nephite armies as Moroni’s and the Lamanite forces as warriors, details not established by these verses. The visual-inference field correctly flags successive moments; do not combine them into one instant."
+      ]
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Mormon (old)” assigns an age not established by this verse; depict Mormon without specifying age."
+      ]
+    }
+  }
+}
