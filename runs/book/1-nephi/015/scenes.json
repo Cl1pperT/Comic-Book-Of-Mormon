@@ -180,7 +180,7 @@
     ],
     "summary": "The narrator asks a group whether they have inquired of the Lord. They say they have not and that the Lord makes no such thing known to them.",
     "characters": [
-      "Narrator",
+      "Nephi",
       "Unnamed group"
     ],
     "locations": [],
@@ -213,7 +213,7 @@
         "refs": [
           "1 Nephi 15:8"
         ],
-        "speaker": "Narrator"
+        "speaker": "Nephi"
       },
       {
         "text": "We have not; for the Lord maketh no such thing known unto us.",
@@ -303,56 +303,64 @@
       "1 Nephi 15:12",
       "1 Nephi 15:13"
     ],
-    "summary": "A speaker says the house of Israel was compared to an olive tree and explains their father's meaning concerning the grafting in of natural branches and the future course of the gospel.",
+    "summary": "Nephi explains the comparison of the house of Israel to an olive tree and their being a branch broken off from it. He explains his father's teaching about grafting through the fulness of the Gentiles and the future coming of the gospel to the remnant of their seed.",
     "characters": [
-      "unnamed speaker",
+      "Nephi",
       "unnamed addressees"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the house of Israel was compared to an olive tree by the Spirit of the Lord in their father and asks whether they are a branch broken off from Israel.",
+        "text": "Nephi says the house of Israel was compared to an olive tree by the Spirit of the Lord which was in their father.",
         "refs": [
           "1 Nephi 15:12"
         ]
       },
       {
-        "text": "The speaker says that, after the Messiah is manifested and their seed has dwindled in unbelief for many years and generations, the gospel will come to the Gentiles and then to the remnant of their seed.",
+        "text": "Nephi asks whether they are broken off from the house of Israel and are a branch of it.",
+        "refs": [
+          "1 Nephi 15:12"
+        ]
+      },
+      {
+        "text": "Nephi explains their father's meaning concerning the grafting in of natural branches through the fulness of the Gentiles.",
+        "refs": [
+          "1 Nephi 15:13"
+        ]
+      },
+      {
+        "text": "Nephi teaches that in the latter days, when their seed shall have dwindled in unbelief for many years, and many generations after the Messiah shall be manifested in body unto the children of men, the fulness of the gospel shall come to the Gentiles and from them to the remnant of their seed.",
         "refs": [
           "1 Nephi 15:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses others."
+      "Nephi can be shown addressing others."
     ],
     "unspecified_visual_details": [
-      "The setting, appearances, clothing, and gestures are not specified."
+      "The setting, clothing, physical appearances, gestures, and arrangement of the addressees are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I say unto you, that the house of Israel was compared unto an olive-tree, by the Spirit of the Lord which was in our father;",
+        "text": "Behold, I say unto you, that the house of Israel was compared unto an olive-tree, by the Spirit of the Lord which was in our father; and behold are we not broken off from the house of Israel, and are we not a branch of the house of Israel?",
         "refs": [
           "1 Nephi 15:12"
         ],
-        "speaker": "unnamed speaker"
-      },
-      {
-        "text": "then shall the fulness of the gospel of the Messiah come unto the Gentiles, and from the Gentiles unto the remnant of our seed—",
-        "refs": [
-          "1 Nephi 15:13"
-        ],
-        "speaker": "unnamed speaker"
+        "speaker": "Nephi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The olive tree and grafting are comparisons in the speaker's teaching, not narrated visible events.",
-      "The events described as occurring in the latter days are not occurring in this scene."
+      "The olive tree, broken branch, and grafting are figures in Nephi's teaching, not narrated visible events.",
+      "The latter-day events and the Messiah's manifestation are described in teaching, not occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not assign names to the speaker or addressees or place them in a tent.",
-      "Do not depict a literal grafting event, the Messiah's appearance, or future peoples as physically present."
+      "Do not invent identities, biographies, reactions, or dialogue for the unnamed addressees.",
+      "Do not stage literal branch-breaking or grafting as an event.",
+      "Do not depict future peoples or the Messiah's manifestation as present action.",
+      "Do not depict their father as physically present merely because he is mentioned.",
+      "Do not invent a visible appearance of the Spirit of the Lord."
     ],
     "importance": "normal"
   },
@@ -363,18 +371,26 @@
       "1 Nephi 15:14",
       "1 Nephi 15:15"
     ],
-    "summary": "The remnant of the speaker's seed is foretold to learn of its identity, forefathers, and Redeemer. The speaker asks whether they will rejoice, praise God, receive strength and nourishment, and come to God's true fold.",
-    "characters": [],
+    "summary": "Nephi foretells that the remnant of their seed will recognize their covenant identity and learn of their forefathers, their Redeemer, and his doctrine. He asks whether they will rejoice, praise God, receive nourishment from the true vine, and come to God's true fold.",
+    "characters": [
+      "Nephi"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The remnant is foretold to know that they are of the house of Israel and the Lord's covenant people, and to learn of their forefathers, Redeemer, and his doctrine.",
+        "text": "Nephi foretells that the remnant of their seed will know they are of the house of Israel and are the covenant people of the Lord.",
         "refs": [
           "1 Nephi 15:14"
         ]
       },
       {
-        "text": "The speaker asks whether the remnant will rejoice and praise God, receive strength and nourishment from the true vine, and come to God's true fold.",
+        "text": "They will learn of their forefathers and the gospel and doctrine of their Redeemer, that they may know how to come unto him and be saved.",
+        "refs": [
+          "1 Nephi 15:14"
+        ]
+      },
+      {
+        "text": "Nephi asks whether they will rejoice and praise their everlasting God, receive strength and nourishment from the true vine, and come to the true fold of God.",
         "refs": [
           "1 Nephi 15:15"
         ]
@@ -382,34 +398,29 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's appearance and surroundings are not specified.",
-      "The future remnant's appearance is not specified."
+      "Nephi's appearance, clothing, gestures, and surroundings are not specified.",
+      "No listeners are identified in these verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "And then at that day will they not rejoice and give praise unto their everlasting God, their rock and their salvation?",
+        "text": "And then at that day will they not rejoice and give praise unto their everlasting God, their rock and their salvation? Yea, at that day, will they not receive the strength and nourishment from the true vine? Yea, will they not come unto the true fold of God?",
         "refs": [
           "1 Nephi 15:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       }
     ],
-    "narration": [
-      {
-        "text": "And at that day shall the remnant of our seed know that they are of the house of Israel, and that they are the covenant people of the Lord;",
-        "refs": [
-          "1 Nephi 15:14"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The true vine and true fold are figurative teachings, not narrated visible events.",
-      "Verse 15 poses questions rather than narrating the remnant's actions as occurring."
+      "The remnant's knowledge and rejoicing concern a future time, not events occurring before Nephi.",
+      "The rock, true vine, and true fold are figurative teachings, not narrated supernatural appearances.",
+      "The dialogue preserves the supplied verse's complete wording and punctuation."
     ],
     "prohibited_inventions": [
-      "Do not assign a named speaker, companions, or location.",
-      "Do not depict the future remnant as present with the speaker.",
-      "Do not depict a literal vine or fold as a supernatural event."
+      "Do not stage the foretold outcomes as present events.",
+      "Do not depict the remnant, forefathers, or Redeemer as physically present with Nephi.",
+      "Do not invent a visible divine appearance or literal supernatural manifestations of the figurative teachings.",
+      "Do not invent companions, dialogue, or a specific setting."
     ],
     "importance": "normal"
   },
@@ -420,63 +431,71 @@
       "1 Nephi 15:16",
       "1 Nephi 15:17"
     ],
-    "summary": "A speaker says that they shall be remembered among the house of Israel and grafted into the true olive tree. The speaker explains that this will follow their scattering by the Gentiles and come by way of the Gentiles.",
+    "summary": "Nephi teaches that they shall be remembered again among the house of Israel and grafted into the true olive-tree. Explaining their father's meaning, he says this will follow scattering by the Gentiles and come by way of the Gentiles, that the Lord may show his power unto them.",
     "characters": [
-      "Unidentified speaker"
+      "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says they shall be remembered again among the house of Israel and grafted into the true olive tree as a natural branch.",
+        "text": "Nephi says they shall be remembered again among the house of Israel and grafted into the true olive-tree as a natural branch.",
         "refs": [
           "1 Nephi 15:16"
         ]
       },
       {
-        "text": "The speaker says this will not happen until after they are scattered by the Gentiles, and that it will come by way of the Gentiles so the Lord may show his power unto them.",
+        "text": "Nephi identifies his explanation as what their father means.",
         "refs": [
           "1 Nephi 15:17"
         ]
       },
       {
-        "text": "The speaker refers to what “our father” means and says the Lord shall be rejected by the Jews, or the house of Israel.",
+        "text": "Nephi says this will not come to pass until after they are scattered by the Gentiles.",
+        "refs": [
+          "1 Nephi 15:17"
+        ]
+      },
+      {
+        "text": "Nephi says it shall come by way of the Gentiles, that the Lord may show his power unto the Gentiles, because he shall be rejected of the Jews, or the house of Israel.",
         "refs": [
           "1 Nephi 15:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A person speaks; the addressee or addressees need not be shown."
+      "Nephi may be shown speaking without showing his unidentified addressees."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance.",
-      "The location and appearance of any addressees."
+      "Nephi's appearance, clothing, posture, and gestures.",
+      "The setting and the number and appearance of the addressees."
     ],
     "spoken_dialogue": [
       {
-        "text": "they shall be remembered again among the house of Israel; they shall be grafted in, being a natural branch of the olive-tree, into the true olive-tree.",
+        "text": "Behold, I say unto you, Yea; they shall be remembered again among the house of Israel; they shall be grafted in, being a natural branch of the olive-tree, into the true olive-tree.",
         "refs": [
           "1 Nephi 15:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       },
       {
-        "text": "and he meaneth that it will not come to pass until after they are scattered by the Gentiles;",
+        "text": "And this is what our father meaneth; and he meaneth that it will not come to pass until after they are scattered by the Gentiles;",
         "refs": [
           "1 Nephi 15:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Grafting is part of the speaker’s teaching, not a narrated physical event.",
-      "Scattering is described as preceding the promised outcome, not as occurring during this speech."
+      "Grafting is a figure within Nephi's teaching, not a narrated visible event.",
+      "Scattering precedes the promised outcome; neither is described as occurring during this speech.",
+      "The referenced father, Gentiles, Jews, and house of Israel are not established as physically present."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker or addressees names.",
-      "Do not establish a location or depict the referenced father as present.",
-      "Do not depict scattering or grafting as a present event."
+      "Do not invent identities or biographies for the addressees or for those described as they.",
+      "Do not depict the referenced father as present.",
+      "Do not stage scattering, grafting, or rejection as events occurring during the speech.",
+      "Do not invent a visible appearance of the Lord or a demonstration of divine power."
     ],
     "importance": "normal"
   },
@@ -486,26 +505,26 @@
     "refs": [
       "1 Nephi 15:18"
     ],
-    "summary": "An unidentified speaker explains that their father spoke of their seed and all the house of Israel, pointing to a covenant the Lord made to Abraham that would be fulfilled in the latter days.",
+    "summary": "Nephi explains that their father spoke of their seed and all the house of Israel, pointing to the covenant the Lord made with Abraham, to be fulfilled in the latter days.",
     "characters": [
-      "Unidentified speaker"
+      "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says their father spoke not only of their seed but also of all the house of Israel.",
+        "text": "Nephi says their father spoke not only of their seed but also of all the house of Israel.",
         "refs": [
           "1 Nephi 15:18"
         ]
       },
       {
-        "text": "The speaker says their father pointed to a covenant the Lord made to Abraham, which would be fulfilled in the latter days.",
+        "text": "The covenant the Lord made with Abraham should be fulfilled in the latter days.",
         "refs": [
           "1 Nephi 15:18"
         ]
       },
       {
-        "text": "The verse quotes the covenant promise that all the kindreds of the earth would be blessed in Abraham's seed.",
+        "text": "The covenant promise states that all the kindreds of the earth shall be blessed in Abraham's seed.",
         "refs": [
           "1 Nephi 15:18"
         ]
@@ -513,8 +532,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's appearance and location are not specified.",
-      "No audience is identified."
+      "Nephi's appearance, posture, and location are unspecified.",
+      "No audience is identified in the supplied verse."
     ],
     "spoken_dialogue": [
       {
@@ -522,17 +541,18 @@
         "refs": [
           "1 Nephi 15:18"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker reports the covenant and quotes its promise; the verse does not depict the covenant being made or fulfilled."
+      "Nephi quotes the Lord's covenant promise within his explanation; this is not a new speech by a visibly present divine figure.",
+      "The covenant's establishment and latter-day fulfillment are discussed, not shown occurring."
     ],
     "prohibited_inventions": [
-      "Do not depict Abraham or the Lord as physically present.",
-      "Do not assign a location or identify an audience.",
-      "Do not depict the latter-day fulfillment as occurring in this scene."
+      "Do not depict Abraham, the Lord, or Nephi's father as physically present.",
+      "Do not invent an audience or identify a location.",
+      "Do not stage the covenant's establishment or future fulfillment as events occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -885,7 +905,7 @@
     ],
     "summary": "The speaker tells the listeners that their father saw God's justice divide the wicked from the righteous and describes its brightness. The listeners ask what this means.",
     "characters": [
-      "First-person speaker",
+      "Nephi",
       "Unnamed listeners"
     ],
     "locations": [],
@@ -915,7 +935,7 @@
         "refs": [
           "1 Nephi 15:30"
         ],
-        "speaker": "First-person speaker"
+        "speaker": "Nephi"
       },
       {
         "text": "Doth this thing mean the torment of the body in the days of probation, or doth it mean the final state of the soul after the death of the temporal body, or doth it speak of the things which are temporal?",

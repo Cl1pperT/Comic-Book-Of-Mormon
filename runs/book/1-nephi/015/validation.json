@@ -1,5 +1,5 @@
 {
-  "stamp": "e9681ffa5ffb28e69b37990af6060300c3ded04bec78034ebaef1763e51a57d3",
+  "stamp": "60b1864fa41760ffd906222cc7ec6f7f215e54fe0c09fbefa41ad04839b4d7f2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -16,8 +16,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prior scene establishes that Nephi spoke to his brothers, and the group’s reply here is consistent with that context; however, these verses do not identify every person in the group or which one speaks. The scene appropriately leaves those details unspecified."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -28,16 +30,12 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration quotation omits the source's opening “And” and changes the original punctuation from a semicolon to a comma; quotations must be exact excerpts."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration does not quote any source text; the scene's quoted dialogue is exact, but the source requires narration to use quotations."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -67,11 +65,8 @@
       ]
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_015: The verses identify the speaker as Nephi and refer to the listeners as “they”; the scene's labels leave the listeners unnamed. Their identities are unspecified in these verses.",
-        "scene_015: The father's reported sight and the brightness comparison are correctly treated as reported speech, not present visual events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",

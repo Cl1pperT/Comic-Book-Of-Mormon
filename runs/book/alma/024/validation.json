@@ -1,5 +1,5 @@
 {
-  "stamp": "a922155f28aa3ddccae2507bb05fb6d7bd720ac5409c38c9ae1d8c4c5aaf6daf",
+  "stamp": "d9b2a38dd9256387d348a9ee4d42d04e0b43efa88fbc0cd44860a43d703a35ad",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,20 +22,18 @@
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma 24:7–9 identifies this as the king’s speech; calling him only an unnamed male speaker is conservative but leaves the established speaker unidentified. The dialogue excerpts are verbatim and do not invent speech."
-      ]
-    },
-    "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma 24:10–11 continues the king’s address, but the character is labeled only “Speaker.” The dialogue excerpts are verbatim and do not invent speech."
-      ]
-    },
-    "scene_007": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 24:13's warning about swords being washed bright through the Son's blood is omitted from the summary and spoken_dialogue; ensure any portrayal preserves the source's conditional, metaphorical teaching and does not depict physical cleansing."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -44,7 +42,9 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is unnamed in the supplied verses; the scene correctly preserves that uncertainty. The listeners are identified only as brethren addressed by the speaker."
+        "The speaker is the king in the surrounding account (Alma 24:17 says “when the king had made an end of these sayings”), but the scene correctly avoids assigning him an identity; the quoted verses alone do not name him.",
+        "“Brethren addressed by the speaker” is supported by the address in verse 16, but they are not otherwise described; keep them visually unspecified.",
+        "The scene correctly treats hiding and burying the swords, and the destruction of the people, as conditional speech rather than events occurring here. The previous scene's narrated statement does not establish an angelic appearance in this scene."
       ]
     },
     "scene_010": {

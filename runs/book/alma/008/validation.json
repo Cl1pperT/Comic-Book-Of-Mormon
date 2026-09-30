@@ -1,5 +1,5 @@
 {
-  "stamp": "1e6b95d5d329e3c4aa0abe56fff4382e23e52ae4668c05ab0ca3ae1aa91ff84c",
+  "stamp": "87c081a1ec496bfc9e47b6d5160a4fcc2cfe85f482ca03909ea8e5bd85dee721",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -32,10 +32,8 @@
       ]
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_006: The supplied speech excerpt begins mid-verse and omits the speakers’ preceding words in Alma 8:11; the quoted text itself is exact and the dialogue stays under the word limit. The speakers’ identity and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",

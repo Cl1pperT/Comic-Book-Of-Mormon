@@ -1,5 +1,5 @@
 {
-  "stamp": "abe5aa401f9313fa085c15411ed2c2f9c683211d44b38a04e1b4b2b86119d6e9",
+  "stamp": "911ffc9f2d29257b9f5a47b6f5b05b17eed3aefbb9eb2ca23372ec83dcdb49a1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,7 +20,7 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speech is an exhortation in the verse, not necessarily dialogue spoken by a visible character; the unspecified-speaker dialogue treatment is an interpretive choice."
+        "The spoken dialogue is a verbatim quotation from 2 Nephi 12:5, but naming Isaiah as the speaker is not explicit in that verse; the source context identifies Isaiah as the one who saw the word concerning Judah and Jerusalem (2 Nephi 12:1), not necessarily as the speaker of this exhortation. The speaker identity is therefore uncertain. The preceding scene does not alter the chronology."
       ]
     },
     "scene_005": {

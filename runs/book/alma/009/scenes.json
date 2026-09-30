@@ -276,14 +276,14 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Call to Repent",
+    "title": "A Call to Repent",
     "refs": [
       "Alma 9:12",
       "Alma 9:13"
     ],
-    "summary": "An unnamed speaker calls those addressed to repentance and warns of consequences. The speaker recalls words spoken to Lehi about obedience and prosperity, then separately cites a saying about disobedience and separation from the Lord's presence.",
+    "summary": "A speaker calls those addressed to repent, warns of the consequences of not repenting, and recalls a saying spoken to Lehi about keeping the commandments. The speaker then cites a saying about not keeping the commandments.",
     "characters": [
-      "Unnamed speaker",
+      "Unidentified speaker",
       "Those addressed"
     ],
     "locations": [],
@@ -295,19 +295,19 @@
         ]
       },
       {
-        "text": "The speaker warns of utter destruction and visitation in anger if those addressed do not repent.",
+        "text": "The speaker warns that if they do not repent, they will be destroyed and visited in anger.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker recalls words spoken to Lehi stating that keeping the commandments brings prosperity in the land.",
+        "text": "The speaker recalls words spoken to Lehi saying that those who keep the commandments shall prosper in the land.",
         "refs": [
           "Alma 9:13"
         ]
       },
       {
-        "text": "The speaker separately introduces with 'And again it is said that:' a saying that those who do not keep the commandments shall be cut off from the presence of the Lord.",
+        "text": "The speaker separately cites a saying that those who do not keep the commandments shall be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ]
@@ -317,7 +317,7 @@
       "A speaker may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and the listeners' identities and appearances are unspecified.",
+      "The speaker's and listeners' identities and appearances are unspecified.",
       "The location, clothing, gestures, audience size, and time of day are unspecified."
     ],
     "spoken_dialogue": [
@@ -326,28 +326,27 @@
         "refs": [
           "Alma 9:12"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "And again it is said that: Inasmuch as ye will not keep my commandments ye shall be cut off from the presence of the Lord.",
+        "text": "Behold, do ye not remember the words which he spake unto Lehi, saying that: Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
         "refs": [
           "Alma 9:13"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Dialogue consists of separate exact source excerpts, not the complete address.",
-      "Only the first saying in verse 13 is explicitly introduced as words spoken to Lehi; the second is separately introduced as something said.",
-      "Lehi is mentioned in recalled speech, not established as physically present.",
-      "The consequences are warnings, not events narrated as occurring.",
+      "The supplied verses do not name the current speaker.",
+      "Lehi is mentioned in recalled words; his presence is not established.",
+      "The warned consequences are not narrated as occurring.",
       "No divine appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or listeners using outside material.",
+      "Do not identify the speaker or listeners from material outside the supplied verses.",
       "Do not depict Lehi as present or stage the recalled words as a flashback.",
-      "Do not depict destruction, divine anger, prosperity, or separation from the Lord as events occurring in this scene.",
+      "Do not depict the warned consequences as occurring.",
       "Do not invent a divine appearance, listener reactions, or additional dialogue."
     ],
     "importance": "normal"

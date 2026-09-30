@@ -2863,5 +2863,164 @@
     "locked_traits": [
       "No signatures, watermarks, or artist marks in the image."
     ]
+  },
+  "Nephi's wife": {
+    "scriptural_facts": [
+      {
+        "text": "Nephi took one of the daughters of Ishmael to wife.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      },
+      {
+        "text": "With her tears and prayers she pleaded for Nephi when his brothers bound him.",
+        "refs": [
+          "1 Nephi 18:19"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A young Israelite woman of about twenty, around 600 BC, a daughter of Ishmael.",
+      "Olive skin, large dark-brown eyes, a gentle but steady expression, long dark-brown hair in a single thick braid.",
+      "Undyed cream wool dress with a woven sash of sky blue and ochre, a sky-blue linen head covering, a light-brown traveling mantle, sandals."
+    ],
+    "locked_traits": [
+      "Same face, braid, and sky-blue head covering in every panel.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "Ishmael's wife": {
+    "scriptural_facts": [
+      {
+        "text": "Ishmael's wife stood with Nephi when some of her children rebelled.",
+        "refs": [
+          "1 Nephi 7:6"
+        ]
+      },
+      {
+        "text": "She and one of her daughters pleaded with Nephi's brothers for his life.",
+        "refs": [
+          "1 Nephi 7:19"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "An Israelite matron of about fifty, around 600 BC, the mother of Ishmael's sons and daughters.",
+      "Warm olive-brown face with laugh lines, dark hair streaked with grey under a deep-green head veil, kind dark eyes.",
+      "Long deep-green wool dress, a cream linen mantle, a woven belt, sandals."
+    ],
+    "locked_traits": [
+      "Same face and deep-green veil in every panel.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "The daughters of Ishmael": {
+    "group": true,
+    "scriptural_facts": [
+      {
+        "text": "Nephi, his brothers, and Zoram took the daughters of Ishmael to wife.",
+        "refs": [
+          "1 Nephi 16:7"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "Young Israelite sisters around 600 BC, the wives of Laman, Lemuel, Sam, Nephi, and Zoram; each clearly a different person in face, age (late teens to late twenties), and build.",
+      "Wool dresses in muted madder red, ochre, olive, and cream, linen head coverings, woven sashes, sandals.",
+      "Skin tones vary naturally from sister to sister."
+    ],
+    "locked_traits": [
+      "Never identical faces; Nephi's wife among them keeps her own face and sky-blue head covering.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "The queen of Lamoni's father": {
+    "scriptural_facts": [
+      {
+        "text": "When the king fell as if dead, the queen came in and commanded that Aaron and his brethren be slain.",
+        "refs": [
+          "Alma 22:19"
+        ]
+      },
+      {
+        "text": "Her servants would not lay hands on them, pleading that one was mightier than all of them.",
+        "refs": [
+          "Alma 22:20"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A Lamanite queen in her fifties, wife of the king over all the land; regal and quick to command.",
+      "Brown skin, grey-streaked black hair coiled high and pinned with gold, strong features.",
+      "A deep-blue cotton huipil with gold and jade embroidery, a heavy jade collar, gold ear spools. Mesoamerican-inspired New World dress; nothing European or Asian."
+    ],
+    "locked_traits": [
+      "Always the high king's queen in deep blue and gold.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "The queen of the Lamanites": {
+    "scriptural_facts": [
+      {
+        "text": "When her husband the king was slain, the queen sent to Amalickiah and asked him to spare the people of the city.",
+        "refs": [
+          "Alma 47:32",
+          "Alma 47:33"
+        ]
+      },
+      {
+        "text": "Amalickiah sought her favor and took her to wife.",
+        "refs": [
+          "Alma 47:35"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A Lamanite queen of about thirty-five, proud and grieving.",
+      "Brown skin, long black hair worn loose beneath a band of gold and obsidian, dark watchful eyes.",
+      "A black and crimson cotton huipil with gold embroidery, obsidian and gold jewelry. Mesoamerican-inspired New World dress; nothing European or Asian."
+    ],
+    "locked_traits": [
+      "Always in black and crimson with obsidian and gold jewelry.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "Coriantum's wife": {
+    "scriptural_facts": [
+      {
+        "text": "Coriantum's wife died, being a hundred and two years old.",
+        "refs": [
+          "Ether 9:24"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A very old Jaredite queen, frail and dignified, near the end of a long life.",
+      "Bronze skin deeply lined, thin white hair braided with small stone beads.",
+      "Ancient Jaredite dress: heavy woven garments in ochre, black, and deep red with bold geometric borders, stone and obsidian ornaments; never Nephite in style."
+    ],
+    "locked_traits": [
+      "Always visibly very old.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "Coriantum's young wife": {
+    "scriptural_facts": [
+      {
+        "text": "In his old age Coriantum took a young maid to wife and had sons and daughters.",
+        "refs": [
+          "Ether 9:24"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A young Jaredite woman of about twenty, calm and composed.",
+      "Bronze skin, long black hair braided with gold, bright dark eyes.",
+      "Ancient Jaredite dress: heavy woven garments in ochre, black, and deep red with bold geometric borders, stone and obsidian ornaments; never Nephite in style."
+    ],
+    "locked_traits": [
+      "Same face and gold-braided hair in every panel.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
   }
 }

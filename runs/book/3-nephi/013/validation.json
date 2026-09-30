@@ -1,5 +1,5 @@
 {
-  "stamp": "7fe6572d29bb525ec30015a5edf7a7825dc2d42ef877055e1156d1d0d1a57805",
+  "stamp": "31a78d306a5d9ed60af08378d65cdfa49edab349d276ea0828bceaac8db3a4d1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -42,8 +42,11 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses identify the speaker as Jesus, so the unspecified speaker identity in the visual details and the prohibition against identifying the speaker are overcautious/inconsistent. The listeners are not specified in these verses.",
+        "The summary says the speaker asks two questions; verse 26 contains one question and verse 27 another, so this is accurate. The supplied dialogue quotes match the verses exactly. The preceding scene’s chronology is consistent with this continuation. No birds or physical growth are asserted as visible events."
+      ]
     },
     "scene_012": {
       "status": "PASS",

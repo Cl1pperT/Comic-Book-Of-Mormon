@@ -1,5 +1,5 @@
 {
-  "stamp": "edb0593e523f15cdf2988d13c25b41633edf81ec989ad5bdd638a3f941a5f48c",
+  "stamp": "9a12a7c4fefdd4d6f8759d4edcf58ee0400622b1db05160a576d95273aa2aed8",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -8,8 +8,10 @@
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not name the speaker or establish that this scene takes place at Bountiful; the established Jesus Christ (at Bountiful) label is permissible if the source shows that person present, but that presence is only established by the supplied preceding scene, not these verses. The setting and any listeners remain unspecified."
+      ]
     },
     "scene_003": {
       "status": "PASS",

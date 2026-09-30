@@ -106,40 +106,40 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "The Speaker’s Lament",
+    "title": "Nephi’s Lament",
     "refs": [
       "2 Nephi 16:5"
     ],
-    "summary": "The speaker laments being undone and having unclean lips, says he dwells among a people of unclean lips, and says he has seen the King, the Lord of Hosts.",
+    "summary": "Nephi laments that he is undone, describes himself and the people among whom he dwells as having unclean lips, and says his eyes have seen the King, the Lord of Hosts.",
     "characters": [
-      "Unnamed speaker"
+      "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says he is undone and is a man of unclean lips.",
+        "text": "Nephi says he is undone and is a man of unclean lips.",
         "refs": [
           "2 Nephi 16:5"
         ]
       },
       {
-        "text": "The speaker says he dwells among a people of unclean lips.",
+        "text": "Nephi says he dwells among a people of unclean lips.",
         "refs": [
           "2 Nephi 16:5"
         ]
       },
       {
-        "text": "The speaker says his eyes have seen the King, the Lord of Hosts.",
+        "text": "Nephi says his eyes have seen the King, the Lord of Hosts.",
         "refs": [
           "2 Nephi 16:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown speaking."
+      "Nephi may be shown speaking with distress."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance and surroundings are unspecified."
+      "Nephi’s appearance, clothing, posture, and surroundings are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -147,17 +147,27 @@
         "refs": [
           "2 Nephi 16:5"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Nephi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Then said I:",
+        "refs": [
+          "2 Nephi 16:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The verse says the speaker has seen the King, the Lord of Hosts; it does not describe that figure’s appearance or say the figure is visibly present while the speaker talks."
+      "The task explicitly identifies the first-person narrator as Nephi.",
+      "The statement about seeing the King reports an experience; this verse does not describe a divine appearance or establish visible divine presence while Nephi speaks.",
+      "Unclean lips should remain a spoken description, not a literal visual transformation."
     ],
     "prohibited_inventions": [
-      "Do not depict the people mentioned as physically present.",
-      "Do not invent an appearance for the King, the Lord of Hosts.",
-      "Do not assign a location not stated in the supplied verse."
+      "Do not substitute Isaiah for the narrator explicitly identified by the task.",
+      "Do not depict the mentioned people as physically present.",
+      "Do not invent or stage an appearance of the King, the Lord of Hosts.",
+      "Do not invent a location or additional events."
     ],
     "importance": "normal"
   },

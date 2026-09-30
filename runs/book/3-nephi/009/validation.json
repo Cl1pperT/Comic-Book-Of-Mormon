@@ -1,62 +1,63 @@
 {
-  "stamp": "f1521ac09acedd6db7b2361f3a5ed725dd76462ab1930e2eb6f6a5bdd55a1e0c",
+  "stamp": "030d884d7d5610dccda8138b1a468a2b58f49077b52125e097b6572f0ea19a71",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s standalone statements that the voice says the devil laughs and its angels rejoice, and that the sons and daughters fell because of iniquity and abominations, are explicit in the quoted proclamation but don't establish a visibly staged event. The notes correctly caution against depicting the devil, angels, or deaths.",
+        "The visual inference that inhabitants may be shown hearing the voice is reasonable, but the text does not specify how they respond or what they look like."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Depict the burning only as a clearly retrospective illustration, not as an event occurring in the present scene."
+        "The voice reports a past destruction; depicting the city burning is a visual illustration, not a present-tense event."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Depict the submerged city only as a clearly retrospective illustration, not as an event occurring in the present scene."
+        "The voice reports a past destruction; an underwater city is only an illustration, not a present-tense event."
       ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Depict the earth-covered city only as a clearly retrospective illustration, not as an event occurring in the present scene."
+        "The voice reports a past destruction; showing earth over the city is only an illustration, not a present-tense event."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Depict the sunken city only as a clearly retrospective illustration, not as an event occurring in the present scene."
+        "The voice reports a past destruction; a sunken city is only an illustration, not a present-tense event."
       ]
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Any views of the three cities and replacement waters must remain clearly retrospective illustrations, not a newly occurring sequence."
+        "The verse reports waters in place of the cities but does not specify three separate inset views; these are optional visual interpretation, not stated events or geography."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Any views of the four cities and changed terrain must remain clearly retrospective illustrations, not a newly occurring sequence."
+        "The verse reports the cities sunk and hills and valleys made in their places, but does not specify separate views; these are optional visual interpretation, not a stated sequence."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Depict the burning only as a clearly retrospective illustration, not as an event occurring in the present scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Any views of the four cities burning must remain clearly retrospective illustrations; do not stage the reported destruction as a present event."
+        "The voice reports the cities’ destruction; depicting them burning is an illustration, not a present-tense event. The earlier rejection of prophets and stoning must not be staged as current action."
       ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The altered-land overview is unspecified; keep it restrained and avoid implying any particular destruction."
+        "The summary accurately reflects a general retrospective statement; any overview of altered land is illustrative because no particular locations or destructions are specified."
       ]
     },
     "scene_011": {

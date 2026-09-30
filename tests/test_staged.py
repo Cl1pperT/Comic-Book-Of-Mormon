@@ -424,6 +424,48 @@ def test_fix_speakers_names_vague_speakers_and_reaudits_only_those_scenes(tmp_pa
     assert audited == [["scene_001"]]  # only the changed scene is re-audited
 
 
+def test_relabel_gives_unnamed_wives_their_identity(tmp_path, monkeypatch):
+    import json
+    from bom_comic import book
+    from bom_comic.models import ChapterVerdicts, Claim, Scene, SceneBatch, SceneVerdict, Speech
+    source = tmp_path / "src.txt"
+    source.write_text("1 Nephi 1:1 TEST FIXTURE: I took a wife.\n1 Nephi 1:2 TEST FIXTURE: My father spoke.\n",
+                      encoding="utf-8")
+    library = tmp_path / "library"
+    library.mkdir()
+    (library / "characters.json").write_text(json.dumps({"Nephi": {}, "Nephi's wife": {"visual_design_choices": ["x"]}}),
+                                             encoding="utf-8")
+    monkeypatch.setattr(book, "LIBRARY", library)
+    monkeypatch.setattr(book, "_continuity", lambda: {"characters": {"Nephi": {}}, "locations": {}, "visual_style": {}})
+    audited = []
+
+    class Fake:
+        def __init__(self, store):
+            pass
+
+        def structured(self, prompt, schema, tag, kind="text"):
+            if schema is ChapterVerdicts:
+                ids = [s["scene_id"] for s in json.loads(prompt[prompt.index("{"):])["scenes"]]
+                audited.append(ids)
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id=i, status="PASS") for i in ids])
+            verses = json.loads(prompt[prompt.rindex("Source:\n") + 8:])
+            ref = lambda v: f"{v['book']} {v['chapter']}:{v['verse']}"
+            return SceneBatch(scenes=[Scene(scene_id="scene_0", title="t", refs=[ref(v)], summary="s",
+                characters=["Nephi", "Nephi’s wife"] if v["verse"] == 1 else ["Nephi"],
+                explicit_facts=[Claim(text="x", refs=[ref(v)])],
+                spoken_dialogue=[Speech(speaker="Nephi’s wife" if v["verse"] == 1 else "Nephi", text=v["text"],
+                                        refs=[ref(v)])]) for v in verses])
+    book.write_book(tmp_path / "book", source, make_provider=Fake)
+    audited.clear()
+    changed = book.relabel(tmp_path / "book", lambda b, c: {"Nephi’s wife": "Nephi's wife"}, make_provider=Fake)
+    assert changed == [("1 Nephi", 1, ["scene_001"])] and audited == [["scene_001"]]
+    run = tmp_path / "book" / "1-nephi" / "001"
+    scene = json.loads((run / "scenes.json").read_text(encoding="utf-8"))[0]
+    assert scene["characters"] == ["Nephi", "Nephi's wife"] and scene["spoken_dialogue"][0]["speaker"] == "Nephi's wife"
+    # The chapter now carries her record, so her panels are drawn from it.
+    assert "Nephi's wife" in json.loads((run / "continuity" / "characters.json").read_text(encoding="utf-8"))
+
+
 def test_escalation_rewrites_with_the_frontier_model_and_reaudits_with_the_mid_model(monkeypatch):
     from bom_comic import book
     monkeypatch.setenv("CODEX_ESCALATE_MODEL", "frontier")

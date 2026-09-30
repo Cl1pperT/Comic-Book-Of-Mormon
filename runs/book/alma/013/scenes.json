@@ -8,7 +8,7 @@
     ],
     "summary": "The speaker asks his brethren to remember when the Lord God gave commandments to his children and ordained priests after the order of his Son to teach the people. The priests' manner of ordination was intended to help the people look forward to his Son for redemption.",
     "characters": [
-      "Unidentified speaker",
+      "Alma the Younger (high priest)",
       "Brethren addressed by the speaker"
     ],
     "locations": [
@@ -46,7 +46,7 @@
         "refs": [
           "Alma 13:1"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
     "narration": [
@@ -339,7 +339,7 @@
       "Alma 13:14",
       "Alma 13:15"
     ],
-    "summary": "Brethren are urged to humble themselves before God and bring forth fruit meet for repentance. The appeal refers to the people in Melchizedek's days, Melchizedek's high priesthood, and Abraham's payment of tithes to him.",
+    "summary": "A speaker urges his brethren to humble themselves before God and bring forth fruit meet for repentance. He refers to the people in Melchizedek’s days, Melchizedek’s high priesthood, and Abraham’s payment of tithes to Melchizedek.",
     "characters": [
       "Unidentified speaker",
       "Brethren addressed"
@@ -355,13 +355,13 @@
         ]
       },
       {
-        "text": "The speaker urges them to humble themselves as the people in Melchizedek's days did.",
+        "text": "The speaker urges them to humble themselves as the people in Melchizedek’s days did.",
         "refs": [
           "Alma 13:14"
         ]
       },
       {
-        "text": "Melchizedek was a high priest after the order previously discussed and took upon him the high priesthood forever.",
+        "text": "Melchizedek was a high priest after the order the speaker had discussed and took upon him the high priesthood forever.",
         "refs": [
           "Alma 13:14"
         ]
@@ -519,14 +519,14 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "A warning about the scriptures",
+    "title": "Alma’s warning about the scriptures",
     "refs": [
       "Alma 13:19",
       "Alma 13:20"
     ],
-    "summary": "The speaker says many were before and after the person referred to as “him,” but none were greater. The speaker says the scriptures are before the addressees and warns against wresting them.",
+    "summary": "Alma says many came before and after the person he refers to as “him,” but none were greater. He says the scriptures are before his addressees and warns them against wresting them.",
     "characters": [
-      "Unidentified speaker",
+      "Alma the Younger (high priest)",
       "Unidentified addressees"
     ],
     "locations": [
@@ -534,23 +534,22 @@
     ],
     "explicit_facts": [
       {
-        "text": "Many were before and after the person referred to as “him,” but none were greater; he was more particularly mentioned.",
+        "text": "Many were before and after the person referred to as “him,” but none were greater, and he was more particularly mentioned.",
         "refs": [
           "Alma 13:19"
         ]
       },
       {
-        "text": "The speaker says the scriptures are before the addressees and warns that wresting them will bring destruction upon them.",
+        "text": "The scriptures are before the addressees; the warning says wresting them will bring about their destruction.",
         "refs": [
           "Alma 13:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses others; their appearance is not described."
+      "Alma addresses others; their appearance is not described."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance.",
       "The addressees’ number and appearance.",
       "The setting and the physical form, if any, of the scriptures."
     ],
@@ -560,14 +559,14 @@
         "refs": [
           "Alma 13:19"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma the Younger (high priest)"
       },
       {
-        "text": "Behold, the scriptures are before you; if ye will wrest them it shall be to your own destruction.",
+        "text": "Now I need not rehearse the matter; what I have said may suffice. Behold, the scriptures are before you; if ye will wrest them it shall be to your own destruction.",
         "refs": [
           "Alma 13:20"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
     "narration": [],
@@ -575,8 +574,8 @@
       "The warning about destruction is not a depicted event."
     ],
     "prohibited_inventions": [
-      "Identifying the speaker or the person referred to as “him” from outside these verses.",
-      "Depicting destruction or inventing a scripture-reading event."
+      "Depicting the people mentioned as having come before or afterwards as present.",
+      "Depicting the warned-of destruction or inventing a scripture-reading event."
     ],
     "importance": "normal"
   },

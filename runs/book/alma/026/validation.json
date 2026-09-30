@@ -1,13 +1,15 @@
 {
-  "stamp": "78b0dc3d17635a7948fcf36e55bac2d6f27258fd41fabcd22dcc9f651ea9c915",
+  "stamp": "7ea86c9bc4a03077fc70afcc43ed6887fe45e1c7efb043a5e07f268d8644020d",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source explicitly identifies Ammon as the speaker (Alma 26:1), but this scene's verses alone do not; his identity is supported by the immediately preceding scene and the verse introducing these words. The dialogue excerpts are verbatim. Darkness, light, and fold are figurative, not visible events; keep them nonliteral. The source does not specify the speaker's appearance or location. No chronology change is apparent from the preceding scene."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -22,28 +24,38 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ammon is identified by the immediately preceding scene and the supplied Alma 26:10–11 context; the notes claiming his identity is not established are inaccurate. The speaker is not named within this scene’s verses alone."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ammon is identified by continuity from the preceding scenes and the supplied Alma 26:10–11 context; the notes claiming his identity is not established are inaccurate. The speaker is not named within this scene’s verses alone."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ammon is identified by continuity from the preceding scenes and the supplied Alma 26:10–11 context; the notes claiming his identity is not established are inaccurate. The speaker is not named within this scene’s verses alone."
+      ]
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The two quoted questions in spoken_dialogue are accurately excerpted, but a visual rendering must keep them as reported speech rather than depict the questioners or recalled exchange as present events; the scene notes correctly flag this uncertainty."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wilderness is explicitly recalled in verse 26, but its appearance and the location of the present address are unspecified; keep any depiction conservative and do not stage the recalled entry or reported call to arms as present events."
+      ]
     },
     "scene_012": {
       "status": "PASS",
@@ -58,8 +70,12 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied text supports the reported burial and the group's preference to sacrifice their lives rather than take an enemy's life. This scene does not show a burial occurring now; the notes correctly caution against staging it.",
+        "The passage does not identify the speaker, so “Unidentified speaker” is appropriately cautious. The dialogue and narration are exact excerpts from the cited verses.",
+        "The previous scene is consistent in chronology: it presents recalled afflictions and reported results, not a conflicting present-time event."
+      ]
     },
     "scene_016": {
       "status": "PASS",

@@ -279,6 +279,55 @@ def recheck(root="runs/book"):
     return changed
 
 
+def relabel(root="runs/book", aliases=None, make_provider=None):
+    """Rename people's labels in written scenes (visible people and speakers) to known identities, e.g.
+    "Nephi’s wife" -> "Nephi's wife". aliases(book, chapter) returns {old label: new label} for a chapter. New
+    library records are copied into every chapter's continuity first, then changed scenes are re-audited (a rejected
+    one goes through the normal repair). Returns [(book, chapter, changed scene ids)]."""
+    make_provider = make_provider or _codex()
+    library = json.loads((LIBRARY / "characters.json").read_text(encoding="utf-8"))
+    out = []
+    with writing_lock(root):
+        for status_path in sorted(Path(root).glob("*/*/status.json")):
+            store = Store(status_path.parent)
+            status = store.read("status.json")
+            pipeline = Pipeline(store, None)
+            _upgrade(pipeline)  # before continuity or scenes change
+            characters = store.read("continuity/characters.json")
+            missing = {name: record for name, record in library.items() if name not in characters}
+            if missing:
+                store.write("continuity/characters.json", {**characters, **missing})
+            mapping = aliases(status["book"], status["chapter"])
+            scenes, changed = pipeline.scenes(), set()
+            for scene in scenes:
+                people = list(dict.fromkeys(mapping.get(c, c) for c in scene.characters))
+                speakers = [mapping.get(q.speaker, q.speaker) for q in scene.spoken_dialogue]
+                if people != scene.characters or speakers != [q.speaker for q in scene.spoken_dialogue]:
+                    scene.characters = people
+                    for q, name in zip(scene.spoken_dialogue, speakers):
+                        q.speaker = name
+                    changed.add(scene.scene_id)
+            if not changed:
+                continue
+            store.write("scenes.json", [s.model_dump() for s in scenes])
+            pipeline.provider = make_provider(store)
+            pipeline.provider.reuse_responses = True
+            try:
+                report = _escalate(pipeline, _repair(pipeline, pipeline.revalidate(sorted(changed))))
+            except ProviderError as exc:
+                print(f"{status['book']} {status['chapter']}: relabelled, but the re-audit stopped: {exc}", flush=True)
+                # Left blocked so the next repair pass re-audits it.
+                status["rejected"]["(audit)"] = ["Scenes changed after their last audit; re-audit needed"]
+                status["counts"]["REJECT"] += 1
+                store.write("status.json", status)
+                out.append((status["book"], status["chapter"], sorted(changed)))
+                continue
+            _finish(store, pipeline, status["book"], status["chapter"], status["verses"], report)
+            out.append((status["book"], status["chapter"], sorted(changed)))
+            print(f"Relabelled {status['book']} {status['chapter']}: {len(changed)} scenes", flush=True)
+    return out
+
+
 SPEAKER_PROMPT = """Some speech lines in this chapter's comic scenes have a speaker label that names no one. For each
 listed line, name the speaker when the chapter's verses or its first-person narrator make it clear (for example the
 narrator's "I", or a person the nearby verses name as speaking); use the known character labels exactly when one

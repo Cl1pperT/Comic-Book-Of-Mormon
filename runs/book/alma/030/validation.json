@@ -1,5 +1,5 @@
 {
-  "stamp": "e896beb69ff4221946356ddabfe65ed4fd04de163a4ee610044a7e9d13760e6e",
+  "stamp": "64d9c6236a9c3cb778e941de687a8391bd1af45d3f0c233cfaa200f9e43faad4",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -24,8 +24,8 @@
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration excerpt from Alma 30:18 says «leading away the hearts of many» but omits the verse’s immediately following words «causing them to lift up their heads in their wickedness»; this is a permissible exact excerpt, though it leaves out a reported consequence.",
-        "The summary’s «including women and men who commit whoredoms» accurately summarizes a reported consequence and is not enacted as a separate scene."
+        "The note claiming Alma 30:12 is outside the supplied source is inaccurate: it appears in the provided source and preceding scene. Korihor is nevertheless consistent with the preceding scene.",
+        "The reported consequences in verse 18 should remain narration, not be staged as separate events; the scene’s prohibition correctly flags this."
       ]
     },
     "scene_006": {

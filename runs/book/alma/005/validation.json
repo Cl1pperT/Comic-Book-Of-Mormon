@@ -1,5 +1,5 @@
 {
-  "stamp": "e550ae62ab2102b4a1542a0e30a59f949c1c9715ef3f522c867329d44ce33a69",
+  "stamp": "4585b47b4325c0c5fd1dcdfc5893cb7694b4a816029ab1a9c87118d7b2e1e2c9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -24,20 +24,27 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is unnamed in these verses; the dialogue is correctly presented as his speech, and the imagined future voice of the Lord is not staged as a present utterance.",
+        "The questions and imagined commendation are not events to depict literally; the scene's notes and prohibitions correctly caution against that."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene does not provide exact dialogue for Alma 5:17–18, but its summary accurately describes those questions. Dialogue excerpts from Alma 5:19–20 are verbatim; no narration or staged judgment is added."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Alma 5:21 dialogue excerpt begins mid-verse and is exact, but does not include the verse’s opening words. The remaining dialogue excerpts are verbatim and do not turn the teaching into a visible event."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -70,28 +77,46 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker; the established label Alma the Younger (high priest) is plausible from the preceding scene, but not confirmed in these verses.",
+        "Listeners may be shown only as an uncertain visual inference; their physical presence is not established."
+      ]
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker; Alma the Younger (high priest) is plausible from the preceding scene, but not confirmed here.",
+        "Listeners are addressed as “my beloved brethren” and “this people,” but their physical presence, number, and appearance are unspecified; depict no visible Spirit, Son of God, or King of heaven."
+      ]
     },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker or explicitly establish that listeners are physically present; the character labels are plausible from context but uncertain.",
+        "The dialogue excerpt is exact, but covers only the first clause of the warning. Any additional speech must use exact contiguous source text; keep the tree, ax, and fire figurative rather than depicting literal events."
+      ]
     },
     "scene_020": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker; the Alma label is plausible from context but uncertain.",
+        "The dialogue is an exact excerpt, and the summary accurately frames the questions as questions and the fire as a warning; do not depict the questioned conduct as occurring."
+      ]
     },
     "scene_021": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker; the Alma label is plausible from context but uncertain.",
+        "The summary accurately describes teachings rather than visible events; avoid depicting physical separation or a visible book or heavenly inheritance."
+      ]
     },
     "scene_022": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the speaker; the Alma label is plausible from context but uncertain.",
+        "The shepherd and wolves are a teaching, not narrated animal events; no physical flock encounter should be depicted."
+      ]
     },
     "scene_023": {
       "status": "PASS",

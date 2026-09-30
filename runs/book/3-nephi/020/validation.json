@@ -1,5 +1,5 @@
 {
-  "stamp": "9bd9ede5a7f4654f3a42b413402d4c31565d1acb78e2fd696ea572aee52ca90d",
+  "stamp": "8e5c4df4d799e7f11d4cce25b0bfcb4395f45f76ab5a649accffaf336f10c100",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -14,10 +14,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The preceding scene identifies the speaker as Jesus and the listeners as the multitude; labeling them unnamed loses that established continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",

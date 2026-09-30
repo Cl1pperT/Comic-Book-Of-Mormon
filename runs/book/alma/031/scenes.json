@@ -422,7 +422,7 @@
     ],
     "summary": "A prayer addresses God as holy, expresses the speakers’ beliefs about their election and Christ, contrasts their claimed fate with that of others, and ends with thanks.",
     "characters": [
-      "Unidentified prayer speaker"
+      "Zoramites"
     ],
     "locations": [],
     "explicit_facts": [
@@ -461,28 +461,28 @@
         "refs": [
           "Alma 31:15"
         ],
-        "speaker": "Unidentified prayer speaker"
+        "speaker": "Zoramites"
       },
       {
         "text": "and also thou hast made it known unto us that there shall be no Christ.",
         "refs": [
           "Alma 31:16"
         ],
-        "speaker": "Unidentified prayer speaker"
+        "speaker": "Zoramites"
       },
       {
         "text": "whilst all around us are elected to be cast by thy wrath down to hell;",
         "refs": [
           "Alma 31:17"
         ],
-        "speaker": "Unidentified prayer speaker"
+        "speaker": "Zoramites"
       },
       {
         "text": "And again we thank thee, O God, that we are a chosen and a holy people. Amen.",
         "refs": [
           "Alma 31:18"
         ],
-        "speaker": "Unidentified prayer speaker"
+        "speaker": "Zoramites"
       }
     ],
     "narration": [],
@@ -678,7 +678,7 @@
     ],
     "summary": "An unnamed speaker lifts his voice to heaven and cries to the Lord. In his prayer, he describes people's pride and adornments and reports their claims that they are chosen while others shall perish and that God has revealed there shall be no Christ.",
     "characters": [
-      "Unnamed speaker"
+      "Alma the Younger (high priest)"
     ],
     "locations": [],
     "explicit_facts": [
@@ -727,14 +727,14 @@
         "refs": [
           "Alma 31:26"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma the Younger (high priest)"
       },
       {
         "text": "Yea, and they say that thou hast made it known unto them that there shall be no Christ.",
         "refs": [
           "Alma 31:29"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
     "narration": [],
@@ -820,20 +820,20 @@
       "Alma 31:34",
       "Alma 31:35"
     ],
-    "summary": "The speaker prays for comfort and success for himself and his fellow laborers. He asks for strength to bear coming afflictions and for power and wisdom to bring the people again to the Lord.",
+    "summary": "Alma prays for comfort and success for himself and his fellow laborers. He asks for strength to bear coming afflictions and for power and wisdom to bring the people again to the Lord.",
     "characters": [
-      "Unnamed prayer speaker",
+      "Alma the Younger (high priest)",
       "Ammon",
       "Aaron",
       "Omner",
       "Amulek",
       "Zeezrom",
-      "The speaker's two unnamed sons"
+      "Alma's two unnamed sons"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker names Ammon, Aaron, Omner, Amulek, Zeezrom, and his two sons as fellow laborers with him, and asks for comfort and success.",
+        "text": "Alma names Ammon, Aaron, Omner, Amulek, Zeezrom, and his two sons as fellow laborers with him, and asks for comfort and success.",
         "refs": [
           "Alma 31:32"
         ]
@@ -851,18 +851,15 @@
         ]
       },
       {
-        "text": "He calls their souls precious and asks for power and wisdom to bring them again to the Lord.",
+        "text": "He says the souls of those people are precious and that many of them are their brethren; he asks for power and wisdom to bring them again to the Lord.",
         "refs": [
           "Alma 31:35"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The fellow laborers may be shown near the speaker because he says they are with him."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's name is not given in the supplied verses.",
-      "The location, appearances, and prayer posture are not stated."
+      "The location, appearances, prayer posture, and positions of the fellow laborers are not stated."
     ],
     "spoken_dialogue": [
       {
@@ -870,40 +867,40 @@
         "refs": [
           "Alma 31:32"
         ],
-        "speaker": "Unnamed prayer speaker"
+        "speaker": "Alma the Younger (high priest)"
       },
       {
         "text": "Wilt thou grant unto them that they may have strength,",
         "refs": [
           "Alma 31:33"
         ],
-        "speaker": "Unnamed prayer speaker"
+        "speaker": "Alma the Younger (high priest)"
       },
       {
         "text": "O Lord, wilt thou grant unto us that we may have success in bringing them again unto thee in Christ.",
         "refs": [
           "Alma 31:34"
         ],
-        "speaker": "Unnamed prayer speaker"
+        "speaker": "Alma the Younger (high priest)"
       },
       {
         "text": "Behold, O Lord, their souls are precious,",
         "refs": [
           "Alma 31:35"
         ],
-        "speaker": "Unnamed prayer speaker"
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The requested success is a hope expressed in prayer, not an accomplished event.",
-      "The afflictions are forthcoming, not occurring during the prayer."
+      "Success is requested, not reported as accomplished.",
+      "The afflictions are anticipated, not described as occurring during the prayer."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by name from verses not supplied.",
       "Do not depict the people as already brought back to the Lord.",
       "Do not depict the anticipated afflictions as occurring during this prayer.",
-      "Do not assign names to the two sons or a location to the scene."
+      "Do not assign names to the two sons or a location to the scene.",
+      "Do not depict Christ as visibly present."
     ],
     "importance": "normal"
   },

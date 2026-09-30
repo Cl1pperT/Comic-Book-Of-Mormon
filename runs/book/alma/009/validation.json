@@ -1,5 +1,5 @@
 {
-  "stamp": "0b232a8f7adcf413eeec0822622ac1ff039134cfcf814f2b95ed18cc6e83079c",
+  "stamp": "6b624e5feba9b8553f69f3006d2724ee171c4f1a899afe6e5c7b683534a18a51",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,8 +18,12 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source identifies the speaker as Alma in Alma 9:7, though scene labels him unidentified; the source does not name the listeners in verses 12–13. Keep Lehi as mentioned in recalled speech, not physically present.",
+        "The summary's phrase “a saying about not keeping the commandments” is accurate, but the second dialogue excerpt omits the separate saying in Alma 9:13. Include it only as a separate exact quotation if depicting it.",
+        "The preceding scene presents Alma speaking to people; scene 005 continues that speech, not a new time or flashback."
+      ]
     },
     "scene_006": {
       "status": "PASS",

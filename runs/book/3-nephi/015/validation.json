@@ -1,5 +1,5 @@
 {
-  "stamp": "1019463aafb2e711ee31619da9f93dbcf6532b56edf623427069b3b7d5082ab5",
+  "stamp": "1b9ad5649cae12c72292be0afed78d8c548b94d21a6c65ec070b2fc35305cf79",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,11 +34,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene is consistent with the supplied verses. The speaker's identity is not named in these verses; listeners are addressed but not identified or counted.",
-        "Visual inference is reasonable, but the listeners' appearance and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

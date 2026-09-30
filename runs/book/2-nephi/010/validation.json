@@ -1,15 +1,13 @@
 {
-  "stamp": "53aec4448f7062544e409bc97c793d59d2ee4c599d785f87391abeba4ffeae3c",
+  "stamp": "251e335d21aa8cb3879accc6db9941b099b32b6398ed2b5c521bd357239fec76",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is identifiable as Jacob from the immediately preceding scene and 2 Nephi 10:1; labeling him as unnamed is inconsistent with that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -48,8 +46,11 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not identify the speaker by name; labeling him Jacob (son of Lehi) is supported by the chapter context but not established by the supplied verses alone. The scene correctly flags this uncertainty under unspecified visual details.",
+        "The summary's phrase “He speaks of the Lord’s promises” is supported by verse 21, though the quoted dialogue is exact and within the word limit."
+      ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",

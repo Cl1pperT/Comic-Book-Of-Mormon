@@ -4,17 +4,21 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 5,
+    "PASS": 4,
     "PASS WITH WARNINGS": 3,
-    "REJECT": 0
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 3,
+  "rejected": {
+    "scene_003": [
+      "2 Nephi 16:5 identifies the speaker only as “I,” not Nephi. The summary, character list, explicit facts, visual inference, dialogue attribution, and notes all present that unsupported identification as fact."
+    ]
+  },
+  "calls": 7,
   "tokens": {
-    "input_tokens": 36977,
-    "cached_input_tokens": 19200,
+    "input_tokens": 63866,
+    "cached_input_tokens": 23424,
     "cache_write_input_tokens": 0,
-    "output_tokens": 6267,
-    "reasoning_output_tokens": 286
+    "output_tokens": 7867,
+    "reasoning_output_tokens": 947
   }
 }

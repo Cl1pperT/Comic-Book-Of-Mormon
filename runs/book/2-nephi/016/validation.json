@@ -1,5 +1,5 @@
 {
-  "stamp": "9c9253ec123fb73e1f1fe79b33d6a19e9cf2c64825af76220e01c5ad9d3a89d5",
+  "stamp": "53001961305baceda2788daa6968076dcd223c3d58eeebae4c4092f566205907",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,8 +10,10 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "2 Nephi 16:5 identifies the speaker only as “I,” not Nephi. The summary, character list, explicit facts, visual inference, dialogue attribution, and notes all present that unsupported identification as fact."
+      ]
     },
     "scene_004": {
       "status": "PASS",

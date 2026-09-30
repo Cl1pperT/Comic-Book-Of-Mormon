@@ -1,5 +1,5 @@
 {
-  "stamp": "4c3f437b8f4f6e7e5829f11f40bc9406a238fb2c4f1cc62c42d70238cdab5003",
+  "stamp": "6f6d2af3fd326d2eb55677a1847bb28c4690b82b239d5c8d6d95fc8add830db5",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,11 +30,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Unidentified speaker is not named in these verses, and the speaker's identity and setting remain unspecified; avoid implying a particular appearance or location. The reported speakers and the people in the teaching comparison are not present as visible events.",
-        "The supplied dialogue is verbatim, but the final excerpt from Alma 32:19 omits the verse’s closing comparison; ensure no visuals imply a different or completed action. The previous scene’s chronology does not conflict. The 46 quoted words are within the 65-word limit."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
@@ -45,9 +42,9 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is not identified in these verses; the label “unnamed speaker” is appropriately cautious, but the preceding scene names Alma, and the verses do not explicitly confirm continuity of speaker.",
-        "Summary says listeners are “afflicted and cast out,” while the verse directly addresses them as such; this is supported, though the clause “desired to know what to do” is phrased as the speaker’s report.",
-        "Dialogue fragments are exact contiguous excerpts, but the second excerpt begins mid-sentence and omits the verse’s intervening wording; the prompt permits separate short exact excerpts. Angels and children are mentioned in general teaching, not as present events."
+        "The source identifies the speaker as Alma by his first-person address and context, but the specific label “Alma the Younger (high priest)” is not established by these verses; avoid treating that fuller identity as explicit here.",
+        "The summary says listeners “have been ... cast out,” while verse 24 says they are afflicted and cast out in the context of what they desire to know. The source does not specify the circumstances beyond this.",
+        "Dialogue excerpts are contiguous and verbatim. Angels and children are mentioned only in teaching, not as present events; the notes and prohibited-invention guidance correctly preserve that distinction."
       ]
     },
     "scene_010": {
@@ -57,22 +54,28 @@
       ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
+      ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Summary slightly overstates that the seed is planted: verse 33 frames this conditionally with “because ye have tried the experiment, and planted the seed.” Treat it as part of the teaching, not as a present scene event."
+        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
       ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
+      ]
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
@@ -82,8 +85,13 @@
       ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Dialogue fragments are not exact contiguous quotations from the supplied verses: the first omits intervening text in Alma 32:41, and the second omits intervening descriptors in Alma 32:42. Ellipses or omissions within a quotation are disallowed.",
+        "The explicit-facts summary for Alma 32:41 omits looking forward to the fruit and the stated result that the tree becomes a tree springing up unto everlasting life; the Alma 32:42 fact omits the fruit's descriptions and the feast until filled, without hunger or thirst.",
+        "The characters include a specific speaker and brethren addressed, but Alma 32:41–43 do not name the speaker or establish that the addressees are the previously established Alma character. These identities are presented as facts rather than cautious visual inference.",
+        "The narration/dialogue content treats conditional teaching about nourishing the word and its fruit as spoken address, which is permissible, but the label and explicit fact 'The speaker promises' improperly assert an unidentified speaker as a scene fact. Previous scene contains no present speaker or audience to establish continuity."
+      ]
     }
   }
 }

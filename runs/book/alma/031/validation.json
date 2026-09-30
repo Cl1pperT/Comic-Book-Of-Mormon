@@ -1,5 +1,5 @@
 {
-  "stamp": "c966c44cf12a2627fd8aa2b014d01e0b3737cd049f0a17308f329d87f323c773",
+  "stamp": "085490dd3eeff1fb4dd0ae6481fc3a1db338801a55c3e80e01a7f8f17e0384b4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -49,8 +49,11 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not name the speaker; the label “Alma the Younger (high priest)” is an inference from outside the supplied verses, though the established character label is permitted. The scene itself notes this uncertainty.",
+        "The described apparel and ornaments are reported in prayer, not explicitly shown as a present visual event; depicting them would be a visual inference, and should not stage the people's claims as current dialogue."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -61,8 +64,9 @@
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source identifies the speaker as Alma through the surrounding narration (Alma 31:36: “when Alma had said these words”), but the scene correctly avoids naming him because that identification is outside its cited verses.",
-        "The inference that fellow laborers may be shown near the speaker is not directly established as a specific visual arrangement; the verses say they are with him, without specifying their position."
+        "Specific uncertainty: the verses name Ammon, Aaron, and Omner as fellow laborers but do not identify them as the established son of Mosiah labels; using only the first names avoids asserting those identities.",
+        "The scene fields are otherwise supported: prayer content is quoted from the supplied text, and anticipated afflictions and requested success are not presented as events already occurring or accomplished.",
+        "Chronology preserves the previous scene's prayer as continuing; no events from verses 36–38 are included."
       ]
     },
     "scene_015": {

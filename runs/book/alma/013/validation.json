@@ -1,9 +1,13 @@
 {
-  "stamp": "0e46626e2d4dfa10cb8c58c7914caf2411e97f8e71f72500e3f50014cd200937",
+  "stamp": "c84e0af19b26bf0a85d19efc85307ab00e3e92f394836bc33bf94360d150cede",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses identify the speaker only as addressing “my brethren”; the established Alma label is plausible from context but is not established by these supplied verses.",
+        "“Brethren addressed by the speaker” is supported as an audience, but their presence in a visual scene is not specified.",
+        "The summary says the priests’ ordination was intended to help people look forward to the Son for redemption; this is supported, though the verses describe it as teaching, not as a present event. The note correctly cautions against staging an ordination."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -22,8 +26,11 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 13:14–15 support the references to Melchizedek and Abraham, but the scene’s quotation of verse 15 is a separate excerpt and omits the intervening words “yea, even our father Abraham paid tithes of one-tenth part of all he possessed.” The excerpts remain verbatim; ensure no omitted speech is implied.",
+        "“Unidentified speaker” and “Brethren addressed” are consistent with the verses, but their identities and appearance are unspecified. The prior scene’s retrospective account does not establish a present event here."
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -34,8 +41,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The identity of “him” in Alma 13:19 is unspecified in the supplied verses; do not depict or identify him. The scriptures being “before you” supports their mention, but does not specify a physical form or whether they are visibly present.",
+        "The addressees are implied by Alma’s words (“unto you”), but their number and appearance are unspecified. The previous scene describes Melchizedek’s earlier events; keep it chronologically separate from Alma’s present address."
+      ]
     },
     "scene_010": {
       "status": "PASS",
