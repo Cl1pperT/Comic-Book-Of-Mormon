@@ -1,5 +1,5 @@
 {
-  "stamp": "6f6d2af3fd326d2eb55677a1847bb28c4690b82b239d5c8d6d95fc8add830db5",
+  "stamp": "f9883a85aa4bce25c5e257edeed9bd5776baf38c801f439a84598a3b8bab98f4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -85,12 +85,11 @@
       ]
     },
     "scene_016": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Dialogue fragments are not exact contiguous quotations from the supplied verses: the first omits intervening text in Alma 32:41, and the second omits intervening descriptors in Alma 32:42. Ellipses or omissions within a quotation are disallowed.",
-        "The explicit-facts summary for Alma 32:41 omits looking forward to the fruit and the stated result that the tree becomes a tree springing up unto everlasting life; the Alma 32:42 fact omits the fruit's descriptions and the feast until filled, without hunger or thirst.",
-        "The characters include a specific speaker and brethren addressed, but Alma 32:41–43 do not name the speaker or establish that the addressees are the previously established Alma character. These identities are presented as facts rather than cautious visual inference.",
-        "The narration/dialogue content treats conditional teaching about nourishing the word and its fruit as spoken address, which is permissible, but the label and explicit fact 'The speaker promises' improperly assert an unidentified speaker as a scene fact. Previous scene contains no present speaker or audience to establish continuity."
+        "Visual inference of a speaker addressing listeners is reasonable from the address to “my brethren,” but the verses do not explicitly narrate a present gathering or identify the speaker, listeners, or setting. The conditional tree, fruit, and feast are teaching imagery, not events to depict.",
+        "Explicit fact for Alma 32:42 omits that the fruit is plucked “by and by”; the summary also omits “looking forward” to the fruit in Alma 32:41. These are incomplete rather than contradictory.",
+        "Dialogue excerpts are verbatim contiguous text. The preceding scene's imagery is correctly treated as conditional teaching, not a present event."
       ]
     }
   }

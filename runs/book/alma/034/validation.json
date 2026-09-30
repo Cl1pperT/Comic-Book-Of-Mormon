@@ -1,5 +1,5 @@
 {
-  "stamp": "1afc392e1add2889ff36049ed03c3cccf2486692fe4a10458bef4dffb8f0ae64",
+  "stamp": "c6d1b5c54e4e037288d54679dc27ccccd8bb8e4746fe18dd26587e0acbe7cb82",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -56,20 +56,28 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is not named in the supplied verses; the speech is attributable to the speaker, but that identity is not established by this source alone."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is not named in the supplied verses; the words are attributed to an unnamed speaker. The summary's reference to a “reported saying” is somewhat imprecise: the verse says “the Lord hath said,” but does not describe a present visual event."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is not named in the supplied verses; the speaker is unnamed here. The dialogue and narration are exact excerpts, but their separation omits intervening words and must not be read as one continuous quotation."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Amulek is not named in the supplied verses; the counsel comes from an unnamed speaker. The summary says “his brethren,” consistent with the address “my brethren,” but does not establish a named speaker."
+      ]
     }
   }
 }

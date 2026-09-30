@@ -1,5 +1,5 @@
 {
-  "stamp": "1295b66f1eb22fb4afa80eca42b155a66e65614c30f5b6628e82f0193e7e433a",
+  "stamp": "689814d90562dca05fba0161780e3e6aa3c3757256a9e4fed273138b867aa1d9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,10 +34,8 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The notes incorrectly say the son is unnamed in the supplied verses: Alma 37:20 names Helaman. The preceding scene identifies the continuing speaker as Alma, so labeling both participants unnamed obscures established continuity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -68,7 +66,8 @@
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speech excerpts match the supplied verses, but the selected excerpts total 48 words; the unnamed speaker and addressed son are consistent with the text, yet their visible presence and setting are not established. Depict only the address, without implying a particular appearance, location, or compass visibility."
+        "The verses identify Alma's addressee as “my son” but do not name him; “Speaker's son (addressed)” is a reasonable label, not a supplied character name.",
+        "No location or appearance is specified. The dialogue excerpts are exact contiguous text, and the scene appropriately treats the comparison as teaching rather than a present journey. The preceding scene's account of past events does not alter this chronology."
       ]
     },
     "scene_016": {
