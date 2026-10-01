@@ -5,8 +5,8 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, speaker_note, unquote, validate_batch, validate_scene
-from .comic import (DEFAULT_CONTINUITY, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
-    portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect)
+from .comic import (DEFAULT_CONTINUITY, PAGE_SIZE, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
+    portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect, shot_groups)
 from .scripture import load, select
 
 # Kontext drops or blends faces past a few reference images, so a panel attaches at most this many.
@@ -15,17 +15,17 @@ MAX_REFERENCES = 3
 ART_EXCLUDE = {"page", "panel_number", "weight", "narration", "dialogue"}
 # A drawing still fits a frame whose shape changed by up to this much; assembly crops the difference.
 ASPECT_TOLERANCE = 0.04
+# A chapter's cover art fills the page.
+COVER_ASPECT = "7:10"
 
 
-# Panels render at their size on the page, within these bounds: below 0.65 MP Flux starts to lose faces and
-# coherence, and above ~1 MP (its native scale) it's slower without looking better at 150 dpi. Tested on 1 Nephi 3
-# (runs/compare/render-size): 138 s a panel against 197 s at a flat 1 MP, no visible loss at page size.
-RENDER_MIN_PIXELS, RENDER_MAX_PIXELS = 650_000, 1024 * 1024
-
-
-def render_pixels(frame):
-    """Pixels to render a panel at, from its frame (x, y, w, h) on the page."""
-    return int(min(max(frame[2] * frame[3], RENDER_MIN_PIXELS), RENDER_MAX_PIXELS))
+def _draw(provider, prompt, path, aspect, references=None, size=None):
+    """Render through any provider; only one that takes a frame size (ComfyUI) is told it."""
+    import inspect
+    kwargs = {"reference_images": references or None, "output_path": path, "aspect_ratio": aspect}
+    if size and "size" in inspect.signature(provider.generate_image).parameters:
+        kwargs["size"] = tuple(size)
+    provider.generate_image(prompt, **kwargs)
 
 
 def _similar(a, b):
@@ -200,9 +200,9 @@ class Pipeline:
         self.store.write("review/draft-panels.json", {
             "status": "DRAFT — NOT APPROVED FOR GENERATION", "scene_stamp": self.stamp(),
             "panels": [p.model_dump() for p in panels]})
-        shown = self.shown(panels)
+        shown, intro = self.shown(panels), self.intro()
         self.store.write("review/draft-prompts.json", {
-            p.panel_id: build_prompt(*shown[p.panel_id], frame_aspect(layout[p.panel_id])) for p in panels})
+            p.panel_id: self.prompt_for(p, frame_aspect(layout[p.panel_id]), shown=shown, intro=intro) for p in panels})
         lines = ["# Full-story review draft", "",
                  "Not approved for generation. Compare every scene to its cited source before approving.", "",
                  f"{len(scenes)} scenes / {len(panels)} panels / {len({p.page for p in panels})} draft pages", ""]
@@ -294,11 +294,86 @@ class Pipeline:
                                    {**continuity, "characters": characters, "locations": locations})
         return out
 
-    def prompt_for(self, panel, aspect, portraits=(), corrections=None, shown=None):
-        """The image prompt for one panel, drawn from its resolved people and setting."""
+    def prompt_for(self, panel, aspect, portraits=(), corrections=None, shown=None, intro=None):
+        """The image prompt for one panel, drawn from its resolved people and setting, marked when it shows a dream
+        or vision (from the chapter's guide)."""
         shown = shown or self.shown(self.panels())
         view, continuity = shown[panel.panel_id]
-        return build_prompt(view, continuity, aspect, list(portraits), corrections)
+        return build_prompt(view, continuity, aspect, list(portraits), corrections,
+                            self.vision_of(panel, intro if intro is not None else self.intro()))
+
+    # The chapter's guide: opener card, cover, dreams and visions (chapter.py) -----------------------------------
+
+    def intro(self):
+        """The chapter's reader's guide, or None (none written yet, or its audit rejected it)."""
+        from .chapter import read
+        return read(self.store)
+
+    def vision_of(self, panel, intro=None):
+        """{"kind", "seer"} when the panel shows what someone sees in a dream or vision, else None."""
+        from .chapter import vision_for
+        vision = vision_for(intro, panel.refs)
+        return {"kind": vision.kind, "seer": vision.seer} if vision else None
+
+    def visions(self, panels, intro=None):
+        """{panel_id: page label} for the panels showing a dream or vision ("NEPHI'S VISION")."""
+        from .chapter import label, vision_for
+        out = {}
+        for panel in panels:
+            vision = vision_for(intro, panel.refs)
+            if vision:
+                out[panel.panel_id] = label(vision)
+        return out
+
+    def cover_panel(self, intro):
+        """The cover's moment as a panel, so it is drawn with the same cast, settings and style as the pages."""
+        cover = intro.cover
+        return Panel(panel_id="panel_000", scene_id="cover", page=1, panel_number=1, weight=PAGE_UNITS,
+                     refs=cover.refs, characters_visible=cover.characters,
+                     location=[cover.location] if cover.location else [], action=cover.moment, shot="splash",
+                     mood="Reverent, monumental", camera="Book-cover composition, full figures, slightly low angle",
+                     composition="One strong central moment, open sky or plain space across the top third",
+                     dialogue=[], narration=[], visual_facts=[], visual_inferences=[], creative_details=[],
+                     prohibited=[])
+
+    def cover_stamp(self, intro):
+        return digest({"cover": intro.cover.model_dump(), "style": self.continuity()["visual_style"],
+                       "vision": self.vision_of(self.cover_panel(intro), intro)})
+
+    def cover_record(self, intro=None):
+        """The current cover drawing's record; raises if there is none or it no longer fits the guide."""
+        intro = intro or self.intro()
+        if intro is None:
+            raise ValueError("No chapter guide; write one with `book --intros`")
+        record = self.store.read("images/cover.json")
+        actual = hashlib.sha256(self.store.path(record["path"]).read_bytes()).hexdigest()
+        if record["stamp"] != self.cover_stamp(intro) or actual != record["image_hash"]:
+            raise ValueError("Cover is stale or modified; render it again")
+        return record
+
+    def cover(self, regenerate=False):
+        """Render the chapter's cover art from its guide (reusing a current one unless regenerate)."""
+        intro = self.intro()
+        if intro is None:
+            return None
+        if not regenerate:
+            try:
+                return self.cover_record(intro)
+            except (ValueError, FileNotFoundError):
+                pass
+        panel = self.cover_panel(intro)
+        view, continuity = self.shown([panel])[panel.panel_id]
+        prompt = build_prompt(view, continuity, COVER_ASPECT, vision=self.vision_of(panel, intro))
+        name = f"cover_{uuid4().hex[:12]}"
+        self.store.write(f"prompts/{name}.json", {"cover": intro.cover.model_dump(), "prompt": prompt})
+        path = self.store.path(f"images/{name}.png")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        _draw(self.provider, prompt, path, COVER_ASPECT, size=PAGE_SIZE)
+        record = {"path": str(path.relative_to(self.store.root)), "stamp": self.cover_stamp(intro),
+                  "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json"}
+        self.store.write("images/cover.json", record)
+        self.store.event("cover", **record)
+        return record
 
     def panel_stamp(self, panel, aspects=None):
         # Page position and weight only matter through the frame shape, so moving a panel
@@ -475,6 +550,11 @@ class Pipeline:
             current = record["art_stamp"] == stamp and _similar(record["aspect"], aspect)
         else:
             current = record["panel_stamp"] == self.panel_stamp(panel, aspects)
+        if current and record.get("master"):
+            # A panel continuing a master shot is current only while the master still shows the same drawing.
+            master = self.store.path(f"images/{record['master']}.json")
+            current = master.exists() and self.store.read(f"images/{record['master']}.json")["image_hash"] == \
+                record["image_hash"]
         if not current or actual != record["image_hash"]:
             raise ValueError("Image is stale or modified; regenerate and review")
         return record
@@ -488,6 +568,12 @@ class Pipeline:
             if decision == "approve" and verdict["status"] == "PASS WITH WARNINGS" and not note:
                 raise ValueError("Explain acceptance of warnings with --note")
             stamp = digest({"report": report, "scene": identifier})
+        elif kind == "intro":
+            if self.intro() is None:
+                raise ValueError("No usable chapter guide to review")
+            stamp = digest(self.store.read("intro.json"))
+        elif kind == "cover":
+            stamp = digest(self.cover_record())
         else:
             panel = next((p for p in self.panels() if p.panel_id == identifier), None)
             if panel is None:
@@ -512,55 +598,102 @@ class Pipeline:
         return [name for name in panel.characters_visible
                 if portrait_eligible(records.get(name)) and not is_group(records.get(name))]
 
-    def generate(self, identifier=None, skip_main=False, references=True, corrections=None):
-        """Render approved panels. With references=False the art is drawn from the text records alone (first
-        drafts); reference portraits are for panels flagged later as needing them. corrections maps a panel ID to
-        a reviewer's {"add", "avoid"} instructions for redrawing it."""
+    def generate(self, identifier=None, skip_main=False, references=True, corrections=None, reuse=True):
+        """Render approved panels; returns the IDs of the panels given a new or relinked drawing. With
+        references=False the art is drawn from the text records alone (first drafts); reference portraits are for
+        panels flagged later as needing them. corrections maps a panel ID to a reviewer's {"add", "avoid"}
+        instructions for redrawing it. reuse: a panel continuing a master shot (comic.shot_groups) shows a crop of
+        the master's drawing instead of a render of its own; False draws it on its own (a reviewer's redraw)."""
         panels = self.panels()
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
             raise ValueError("Unknown panel")
-        shown = self.shown(panels)
         layout = frames(panels)
+        groups = shot_groups(panels, layout)
+        masters = {master for master, _ in groups.values()}
+        by_id = {p.panel_id: p for p in panels}
+        shown, intro = self.shown(panels), self.intro()
+        changed = []
         for panel in panels:
             if identifier and panel.panel_id != identifier:
                 continue
             if skip_main and self.main_characters(panel):
                 continue
-            review = self.approvals().get("panel:" + panel.panel_id, {})
-            if review.get("decision") != "approve" or review.get("stamp") != self.panel_stamp(panel, aspects):
-                raise ValueError(f"Review panel composition/continuity before generation: {panel.panel_id}")
+            self._require_approval(panel, aspects)
             # Batch generation resumes; explicit --id always regenerates with a new revision.
-            if not identifier and self.store.path(f"images/{panel.panel_id}.json").exists():
-                try:
-                    self.image_record(panel, aspects)
-                    continue
-                except ValueError:
-                    pass
-            revision = uuid4().hex[:12]
-            name = f"{panel.panel_id}_{revision}"
-            aspect = aspects[panel.panel_id]
-            portraits = self.panel_portraits(panel) if references else {}
-            # A label that resolves to someone else (a bare "Nephi" in Helaman) must not bring the wrong face along.
-            portraits = {n: e for n, e in portraits.items() if n in shown[panel.panel_id][0].characters_visible}
-            prompt = self.prompt_for(panel, aspect, portraits, (corrections or {}).get(panel.panel_id), shown)
-            self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
-                "portraits": {n: e["path"] for n, e in portraits.items()}})
-            path = self.store.path(f"images/{name}.png")
-            path.parent.mkdir(parents=True, exist_ok=True)
-            records = self.continuity()["characters"]
-            attached = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
-                        for n, e in portraits.items()]
-            pixels = render_pixels(layout[panel.panel_id])
-            if hasattr(self.provider, "pixels"):
-                self.provider.pixels = pixels
-            self.provider.generate_image(prompt, reference_images=attached or None, output_path=path, aspect_ratio=aspect)
-            record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
-                      "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2, "pixels": pixels,
-                      "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
-                      "references": list(portraits)}
-            self.store.write(f"images/{panel.panel_id}.json", record)
-            self.store.event("generate", panel_id=panel.panel_id, **record)
+            if not identifier and self._current(panel, aspects):
+                continue
+            if reuse and panel.panel_id in groups:
+                master_id, index = groups[panel.panel_id]
+                if not self._current(by_id[master_id], aspects):
+                    self._require_approval(by_id[master_id], aspects)
+                    changed += self._render(by_id[master_id], aspects, layout, shown, intro, references,
+                                            corrections, wide=True)
+                self._link(panel, by_id[master_id], index, aspects)
+                changed.append(panel.panel_id)
+                continue
+            changed += self._render(panel, aspects, layout, shown, intro, references, corrections,
+                                    wide=panel.panel_id in masters)
+        return list(dict.fromkeys(changed))
+
+    def _require_approval(self, panel, aspects):
+        review = self.approvals().get("panel:" + panel.panel_id, {})
+        if review.get("decision") != "approve" or review.get("stamp") != self.panel_stamp(panel, aspects):
+            raise ValueError(f"Review panel composition/continuity before generation: {panel.panel_id}")
+
+    def _current(self, panel, aspects):
+        if not self.store.path(f"images/{panel.panel_id}.json").exists():
+            return False
+        try:
+            self.image_record(panel, aspects)
+            return True
+        except (ValueError, FileNotFoundError):
+            return False
+
+    def _render(self, panel, aspects, layout, shown, intro, references, corrections, wide=False):
+        """Draw one panel with a new revision; panels continuing it as a master shot are relinked to the new
+        drawing. wide: a master shot is drawn at full size, since the panels continuing it show crops of it."""
+        revision = uuid4().hex[:12]
+        name = f"{panel.panel_id}_{revision}"
+        aspect = aspects[panel.panel_id]
+        portraits = self.panel_portraits(panel) if references else {}
+        # A label that resolves to someone else (a bare "Nephi" in Helaman) must not bring the wrong face along.
+        portraits = {n: e for n, e in portraits.items() if n in shown[panel.panel_id][0].characters_visible}
+        prompt = self.prompt_for(panel, aspect, portraits, (corrections or {}).get(panel.panel_id), shown, intro)
+        self.store.write(f"prompts/{name}.json", {"panel": panel.model_dump(), "aspect": aspect, "prompt": prompt,
+            "portraits": {n: e["path"] for n, e in portraits.items()}})
+        path = self.store.path(f"images/{name}.png")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        records = self.continuity()["characters"]
+        attached = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
+                    for n, e in portraits.items()]
+        _draw(self.provider, prompt, path, aspect, attached, None if wide else layout[panel.panel_id][2:])
+        record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
+                  "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2,
+                  "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
+                  "references": list(portraits)}
+        self.store.write(f"images/{panel.panel_id}.json", record)
+        self.store.event("generate", panel_id=panel.panel_id, **record)
+        changed = [panel.panel_id]
+        # Panels already showing this master shot follow it to the new drawing.
+        for other in self.panels():
+            path = self.store.path(f"images/{other.panel_id}.json")
+            if other.panel_id != panel.panel_id and path.exists() and \
+                    self.store.read(f"images/{other.panel_id}.json").get("master") == panel.panel_id:
+                index = self.store.read(f"images/{other.panel_id}.json").get("crop_index", 1)
+                self._link(other, panel, index, aspects)
+                changed.append(other.panel_id)
+        return changed
+
+    def _link(self, panel, master, index, aspects):
+        """Show a crop of the master shot's current drawing in this panel (assembly picks the crop)."""
+        shot = self.store.read(f"images/{master.panel_id}.json")
+        record = {"path": shot["path"], "master": master.panel_id, "crop_index": index,
+                  "panel_stamp": self.panel_stamp(panel, aspects), "art_stamp": self.art_stamp(panel),
+                  "aspect": aspects[panel.panel_id], "art_version": 2, "image_hash": shot["image_hash"],
+                  "prompt": shot.get("prompt"), "references": []}
+        self.store.write(f"images/{panel.panel_id}.json", record)
+        self.store.event("link", panel_id=panel.panel_id, master=master.panel_id, crop_index=index)
 
     def assemble(self):
         panels = self.panels()
@@ -575,10 +708,33 @@ class Pipeline:
             if review.get("decision") != "approve" or review.get("stamp") != digest(record):
                 raise ValueError(f"Image {panel.panel_id} requires human visual/scripture review")
             images[panel.panel_id] = record
-        path = assemble(self.store, panels, images)
-        self.store.write("final/manifest.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels], "images": images})
+        intro = self.intro()
+        cover = self.approved_cover(intro)
+        visions = self.visions(panels, intro)
+        path = assemble(self.store, panels, images, cover, visions)
+        self.store.write("final/manifest.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels],
+                                                 "images": images, "cover": cover, "visions": visions})
         self.store.event("assemble", path=str(path))
         return path
+
+
+    def approved_cover(self, intro=None):
+        """The cover page's content when the guide and its cover art are current and approved, else None (the
+        chapter is assembled without a cover page)."""
+        intro = intro or self.intro()
+        if intro is None:
+            return None
+        try:
+            record = self.cover_record(intro)
+        except (ValueError, FileNotFoundError):
+            return None
+        reviews = self.approvals()
+        approved = lambda key, value: reviews.get(key, {}).get("decision") == "approve" and \
+            reviews[key].get("stamp") == digest(value)
+        if not (approved("intro:chapter", self.store.read("intro.json")) and approved("cover:cover", record)):
+            return None
+        return {"image": record, "intro": intro.model_dump(), "where": list(self.where()),
+                "intro_stamp": digest(self.store.read("intro.json"))}
 
 
 def character_bible(store, provider, identifier=None):

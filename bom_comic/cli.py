@@ -40,7 +40,7 @@ def main():
     commands.add_parser("plan")
     commands.add_parser("preview", help="Save a review-only storyboard and draft prompts")
     review = commands.add_parser("review")
-    review.add_argument("kind", choices=["scene", "panel", "image"])
+    review.add_argument("kind", choices=["scene", "panel", "image", "intro", "cover"])
     review.add_argument("id", nargs="?")
     review.add_argument("--decision", choices=["approve", "reject"])
     review.add_argument("--note", default="")
@@ -59,6 +59,10 @@ def main():
     generation.add_argument("--local", action="store_true", help="Render with a local ComfyUI server (COMFYUI_URL) instead of Gemini")
     generation.add_argument("--skip-main", action="store_true", help="Only render panels with no main (portrait-eligible, named) character")
     generation.add_argument("--kontext", action="store_true", help="With --local, attach reference portraits (FLUX.1 Kontext); by default local drafts are plain Flux from the text records")
+    cover_cmd = commands.add_parser("cover", help="Render the chapter's cover art from its guide (intro.json)")
+    cover_cmd.add_argument("--redo", action="store_true", help="Render a new revision even if the current one fits")
+    cover_cmd.add_argument("--local", action="store_true", help="Render with ComfyUI")
+    cover_cmd.add_argument("--placeholder", action="store_true", help="Offline placeholder art")
     commands.add_parser("assemble")
     book = commands.add_parser("book", help="Write (not render) the book's scenes chapter by chapter with Codex, one run per chapter")
     book.add_argument("--root", default="runs/book", help="Folder holding one run per chapter")
@@ -66,6 +70,8 @@ def main():
     book.add_argument("--max-chapters", type=int, help="Stop after writing this many chapters")
     book.add_argument("--repair", action="store_true", help="First re-repair written chapters that still have rejected scenes")
     book.add_argument("--speakers", action="store_true", help="First name speakers labelled like 'Unidentified speaker'")
+    book.add_argument("--intros", action="store_true",
+                      help="Only write each chapter's reader's guide (cover moment, opener card, dream/vision ranges)")
     compiler = commands.add_parser("compile", help="Stitch every assembled chapter under --run into one PDF, in book order")
     compiler.add_argument("--out", help="Output file (default: <run>/comic-progress.pdf)")
     reader = commands.add_parser("read", help="Read the assembled draft in a browser and flag panels to re-render")
@@ -74,7 +80,7 @@ def main():
     args = parser.parse_args()
     store = Store(args.run)
     try:
-        if args.command in ("validate", "plan", "preview", "review", "portraits", "generate", "assemble") and not store.path("scenes.json").exists():
+        if args.command in ("validate", "plan", "preview", "review", "portraits", "generate", "cover", "assemble") and not store.path("scenes.json").exists():
             raise ValueError("No scenes.json yet. Run analyze successfully before this stage.")
         provider = None
         if args.command in ("analyze", "validate"):
@@ -96,7 +102,7 @@ def main():
                 provider = Gemini(Config.load(), store)
         elif args.command == "portraits" and args.adopt:
             provider = None
-        elif args.command in ("portraits", "bible", "generate"):
+        elif args.command in ("portraits", "bible", "generate", "cover"):
             if getattr(args, "placeholder", False):
                 provider = PlaceholderImages()
             elif getattr(args, "local", False):
@@ -126,6 +132,10 @@ def main():
                 if not args.id:
                     raise ValueError("A decision requires an individual scene/panel ID")
                 pipeline.review(args.kind, args.id, args.decision, args.note)
+            elif args.kind == "intro":
+                print(json.dumps({"guide": store.read("intro.json"), "source": store.read("source.json")}, indent=2))
+            elif args.kind == "cover":
+                print(store.path(pipeline.cover_record()["path"]))
             elif args.kind == "scene":
                 print(json.dumps({"source": store.read("source.json"), "scenes": store.read("scenes.json"),
                     "validation": store.read("validation.json") if store.path("validation.json").exists() else "not validated"}, indent=2))
@@ -149,12 +159,24 @@ def main():
             for name in pipeline.portraits(args.id):
                 print(f"{name}: {store.path(pipeline.portrait_index()[name]['path'])}")
         elif args.command == "generate":
-            pipeline.generate(args.id, skip_main=args.skip_main, references=args.kontext or not args.local)
+            # An explicit --id draws that panel on its own, even if it would continue a master shot.
+            pipeline.generate(args.id, skip_main=args.skip_main, references=args.kontext or not args.local,
+                              reuse=not args.id)
+        elif args.command == "cover":
+            record = pipeline.cover(regenerate=args.redo)
+            if record is None:
+                raise ValueError("No usable chapter guide; write one with `book --intros` first")
+            print(store.path(record["path"]))
+            print("Review it, then: review intro chapter --decision approve; review cover cover --decision approve")
         elif args.command == "assemble":
             print(pipeline.assemble())
         elif args.command == "book":
             Config.load()
-            from .book import fix_speakers, repair_blocked, write_book
+            from .book import fix_speakers, repair_blocked, write_book, write_intros
+            if args.intros:
+                guides, reason = write_intros(args.root)
+                print(f"Wrote {len(guides)} chapter guides; stopped: {reason}")
+                return
             if args.speakers:
                 named, reason = fix_speakers(args.root)
                 print(f"Named speakers in {len(named)} chapters; stopped: {reason}")

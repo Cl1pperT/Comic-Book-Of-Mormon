@@ -231,19 +231,13 @@ def test_drawings_survive_lettering_edits_and_small_reshapes_but_not_content_edi
         pipeline.image_record(panel, {panel.panel_id: f"{w * 3}:{h * 2}"})
 
 
-def test_panels_render_at_page_size_within_bounds(pipeline):
-    from bom_comic.pipeline import render_pixels, RENDER_MIN_PIXELS, RENDER_MAX_PIXELS
-    assert render_pixels((0, 0, 645, 527)) == RENDER_MIN_PIXELS          # small panel: raised to 0.65 MP
-    assert render_pixels((0, 0, 900, 900)) == 810000                     # mid-size panel: its page size
-    assert render_pixels((0, 0, 1304, 1868)) == RENDER_MAX_PIXELS        # full-page splash: capped at 1 MP
-    seen = []
-    pipeline.provider.pixels = None
-    original = pipeline.provider.generate_image
-    pipeline.provider.generate_image = lambda *a, **k: seen.append(pipeline.provider.pixels) or original(*a, **k)
-    ready(pipeline)
-    pipeline.generate()
-    record = pipeline.store.read("images/panel_001.json")
-    assert seen == [record["pixels"]] and RENDER_MIN_PIXELS <= record["pixels"] <= RENDER_MAX_PIXELS
+def test_panels_render_at_page_size_never_below_the_owners_floor():
+    from bom_comic.providers import target_pixels
+    floor = target_pixels((10, 10))
+    assert 650_000 <= floor < 651_000                                     # the chosen floor: never under ~0.65 MP
+    assert target_pixels((645, 527)) == floor                             # small panel: raised to the floor
+    assert target_pixels((900, 900)) == 810_000                           # mid-size panel: its page size
+    assert target_pixels((1304, 1868)) == 1024 * 1024                     # full-page splash: capped at 1 MP
 
 
 def test_older_drawing_records_are_upgraded_while_still_current(pipeline):
@@ -841,16 +835,17 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
     angel = make_panel(1).model_copy(update={"characters_visible": ["The angel who appeared to Alma", "Alma"],
         "prohibited": ["Do not invent wings or a halo for the angel", "No weapons"]})
     positive, negative = diffusion_prompts(build_prompt(angel, continuity, "4:3"))
-    assert "a woman of about thirty with a serene oval face" in positive and "feathered white wings" in positive
-    # Her look sits right after her name, so it can't bleed onto the mortal beside her.
-    assert "The angel who appeared to Alma (A heavenly messenger: a woman of about thirty" in positive
+    # One wingless convention for every angel, its look right after its name so it can't bleed onto Alma.
+    assert "The angel who appeared to Alma (a radiant man in shining white robes, his whole figure glowing" in positive
+    assert "wings" not in positive
     assert "invented wings" not in negative and "invent wings" not in negative and "halo" not in negative
     assert "weapons" in negative
-    # People sharing a panel with an angel don't get her wings.
-    assert positive.split(". ")[1] == "Only the angel has wings and a glow; Alma are ordinary earthly people"
-    assert negative.startswith("winged men, wings on the other people")
+    # People sharing a panel with an angel don't get his glow, and no one in any panel gets wings.
+    assert positive.split(". ")[1] == ("Only the angel glows; Alma are ordinary earthly people in plain daylight "
+                                       "colors")
+    assert negative.startswith("glowing people, winged people") and "angel wings" in negative
     alone = angel.model_copy(update={"characters_visible": ["The angel who appeared to Alma"]})
-    assert "winged men" not in diffusion_prompts(build_prompt(alone, continuity, "4:3"))[1]
+    assert "glowing people" not in diffusion_prompts(build_prompt(alone, continuity, "4:3"))[1]
     lamb = make_panel(4).model_copy(update={"characters_visible": ["the Lamb of God"],
                                             "prohibited": ["No halo on the Lamb of God"]})
     positive, negative = diffusion_prompts(build_prompt(lamb, continuity, "4:3"))

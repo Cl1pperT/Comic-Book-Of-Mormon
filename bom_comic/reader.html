@@ -169,8 +169,8 @@ function renderPages() {
   panels = {};
   for (const page of data.pages) {
     const figure = el("div", {className: "page"}, [
-      el("span", {className: "page-label", textContent: "Page " + page.number}),
-      el("img", {src: `/page/${page.number}${q()}`, alt: "Page " + page.number, width: W, height: H}),
+      el("span", {className: "page-label", textContent: page.label ?? "Page " + page.number}),
+      el("img", {src: `/page/${page.number}${q()}`, alt: page.label ?? "Page " + page.number, width: W, height: H}),
     ]);
     for (const panel of page.panels) {
       const [x, y, w, h] = panel.frame;

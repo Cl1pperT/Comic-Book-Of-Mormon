@@ -70,16 +70,20 @@ Drawings made before this change stay current: prompts aren't part of any stamp,
 
 Optional `.env` overrides: `COMFYUI_URL` (default `http://127.0.0.1:8188`), `COMFYUI_UNET`, `COMFYUI_T5`, `COMFYUI_STEPS` (24), `COMFYUI_CFG` (2.0) and `COMFYUI_GUIDANCE` (2.5). `cfg` above 1 is what makes Flux honor the negative prompt. At 1.0 the negative prompt is ignored and renders are about twice as fast, but modern objects crept in during testing. Expect about 3 minutes per panel on a 12GB card at the defaults. Flux.1 [dev] weights are under a non-commercial license.
 
-### Comparing settings (e.g. a smaller model)
+**Render size.** Each panel is rendered at about its own size on the 150 dpi page (`COMFYUI_RENDER_SCALE`, default 1.0, times the frame's pixels), kept between `COMFYUI_MIN_MEGAPIXELS` (0.4; Flux loses detail below that) and `COMFYUI_MAX_MEGAPIXELS` (1.0). A typical panel is about 0.6 MP on the page, so rendering every panel at 1 MP spent time on detail the page never showed. Master shots and covers are rendered at the maximum, since they are cropped or fill the page. Raise the scale if you print larger.
 
-Q8 Flux (about 12.7 GB) doesn't fit in 12 GB of VRAM, so ComfyUI swaps part of it to system RAM on every step. The Q5_K_S GGUF (`flux1-dev-Q5_K_S.gguf`, about 8.3 GB, from the same place as the Q8 file) fits, and at comic page size should be hard to tell apart. Try it on panels you already have before switching:
+### Comparing settings
+
+Try a setting on panels you already have before switching to it:
 
 ```sh
 python -m bom_comic.compare --run runs/book/1-nephi/004 --panels panel_003 panel_007 panel_013 \
     --variant q8 --variant q5:unet=flux1-dev-Q5_K_S.gguf
 ```
 
-Each variant renders every listed panel from the same prompt and the same seed, so only the setting differs (keys: `unet`, `t5`, `steps`, `cfg`, `guidance`). The result, in `runs/compare/<time>/`, is `sheet.png`, one row per panel at its size on the page with the panel's current drawing first, and `timings.json` with each variant's median seconds per panel (the first render of each variant, which loads the model, is left out). `--prompts-only` prints the prompts ComfyUI would get without rendering. If Q5 looks the same, set `COMFYUI_UNET=flux1-dev-Q5_K_S.gguf` in `.env`. Test one change at a time: `cfg=1` roughly halves the time but ignores the negative prompt.
+On the RTX 3060, the Q5_K_S GGUF was no faster than Q8, but smaller renders were (see Render size above).
+
+Each variant renders every listed panel from the same prompt and the same seed, at the panel's render size, so only the setting differs (keys: `unet`, `t5`, `steps`, `cfg`, `guidance`). The result, in `runs/compare/<time>/`, is `sheet.png`, one row per panel at its size on the page with the panel's current drawing first, and `timings.json` with each variant's median seconds per panel (the first render of each variant, which loads the model, is left out). `--prompts-only` prints the prompts ComfyUI would get without rendering. Test one change at a time: `cfg=1` roughly halves the time but ignores the negative prompt.
 
 ## Run a small portion first
 
@@ -184,6 +188,30 @@ Each run has editable `continuity/characters.json`, `locations.json`, and `visua
 
 Only add facts with supporting verse references, for example `{ "text": "...", "refs": ["3 Nephi 11:1"] }`. Exact faces, costume details, and architecture belong in design choices, never facts. Do not create named crowd members. Style defaults are reverent, cinematic, realistic, and restrained. Global negative constraints exclude modern details, invented events, gratuitous gore, later chapters, and divine figures. Text continuity improves guidance but cannot guarantee identical designs between images; review and regeneration remain necessary.
 
+### Chapter guides, cover pages, dreams and visions
+
+Each chapter gets a reader's guide, written for someone who has never read the book, in `intro.json` beside its scenes (`bom_comic/chapter.py`). One text-model call writes:
+
+- **title:** a few plain words naming what happens ("Nephi Returns for the Brass Plates");
+- **recap:** where the story stands as the chapter begins, drawn from the previous chapter's guide;
+- **opener:** who is here, where they are, and what happens, in at most 90 words;
+- **cover:** the chapter's most important drawable moment, with the verses that show it;
+- **visions:** every run of verses that shows what someone sees in a dream or vision, with the seer.
+
+A second call audits the guide against the chapter's verses (code first checks references and lengths). A rejected guide gets one rewrite, told why; a guide still rejected is never used. Write guides for the whole book with `bom-comic book --intros` (resumable; current guides are skipped). The nightly job writes a chapter's guide before rendering it.
+
+**Cover page.** `cover` renders the cover moment full page, with the same cast, settings and style as the panels. Assembly adds it as page 0: the art full bleed, the book, chapter and title across the top, and the opener card at the bottom in dark ink, set apart from the cream scripture captions and marked "A reader's guide, not scripture." A cover page appears only when the guide and the cover art are approved (`review intro chapter --decision approve`, `review cover cover --decision approve`); the nightly job approves both as first drafts and re-assembles already-rendered chapters when their guide appears. `compile` and the reader include it.
+
+**Dreams and visions.** Panels whose verses fall mostly inside a dream or vision range are drawn and framed as one: the prompt adds "Seen in Nephi's vision: a luminous, dreamlike scene…", and assembly gives the panel soft glowing edges, a deep indigo frame with a gold inner line, and a small "NEPHI'S VISION" tab on the first such panel on each page, placed clear of captions and faces.
+
+**Angels** are one wingless convention: a radiant man in shining white robes, glowing with golden light, a little above the ground (scripture calls an angel "he" and never gives angels wings). "Winged people" and "angel wings" are in every panel's negative prompt, and people sharing a panel with an angel are told they are ordinary people in daylight colors, so neither wings nor glow bleed onto them. Panels drawn before this keep their art until redrawn.
+
+### Master shots
+
+A run of panels showing the same people in the same place, led by speech rather than new action, reuses one drawing: the first panel's (the master shot, rendered at full size), with each following panel showing a different crop of it, moving from face to face so a conversation reads as cuts between speakers. A shot carries lettering over at most two thirds of a page's live area (`MASTER_TEXT_SHARE` in `comic.py`); past that the next panel gets a new drawing, so a long speech still turns into pictures. Grouping is computed from the approved panels, so nothing is stored and approvals don't change. Across the written book this reuses a drawing for 319 panels (about 9.5%).
+
+When the master is redrawn, the panels continuing it follow the new drawing. A panel a reviewer flags, or one regenerated with `generate --id`, is drawn on its own. Drawings that already exist are kept: only undrawn panels join a master shot.
+
 ### The book's cast and settings
 
 Scenes are written chapter by chapter with free-text labels, so most don't match a character record by name ("Alma" alone appears in 151 scenes), and the same name means different people in different books. `portraits/book-of-mormon/cast.json` resolves them when an image prompt is built:
@@ -221,7 +249,8 @@ portraits/                        character reference portraits and their index
 api/                              model prompts and raw SDK responses
 prompts/                          versioned structured image instructions
 images/                           versioned PNGs and current-image records
-pages/                            assembled PNG pages
+pages/                            assembled PNG pages (page_000.png is the cover page, when there is one)
+intro.json                        the chapter's reader's guide and its audit
 final/comic.pdf, manifest.json     printable comic and panel-to-source trace
 history.jsonl                     timestamps, reviews, generations, errors
 archive/                          previous versions of overwritten JSON artifacts

@@ -201,7 +201,8 @@ def test_compare_renders_every_variant_from_the_same_seed_and_makes_a_sheet(tmp_
     class Fake(PlaceholderImages):
         unet, t5, steps, cfg, guidance = "q8.gguf", "t5.gguf", 24, 2.0, 2.5
 
-        def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None):
+        def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None,
+                           size=None):
             seen.append((self.unet, seed, prompt))
             return super().generate_image(prompt, reference_images, output_path, aspect_ratio)
     out = compare(p.store.root, ["panel_001"], [parse_variant("q8"), parse_variant("q5:unet=q5.gguf")],
@@ -213,13 +214,3 @@ def test_compare_renders_every_variant_from_the_same_seed_and_makes_a_sheet(tmp_
     assert (out / "sheet.png").exists() and (out / "q5" / "panel_001.png").exists()
 
 
-def test_compare_size_renders_at_the_panels_page_size_with_an_optional_floor():
-    from bom_comic.compare import parse_variant, pixels_for
-    from bom_comic.providers import render_size
-    frame = (0, 0, 645, 659)  # a typical panel: 0.43 MP on the page
-    assert parse_variant("small:size=frame-min-0.65") == ("small", {"size": "frame-min-0.65"})
-    assert pixels_for("frame", frame) == 645 * 659
-    assert pixels_for("frame-min-0.65", frame) == 650000 and pixels_for("frame-min-0.3", frame) == 645 * 659
-    assert pixels_for("1.05", frame) == 1050000
-    w, h = render_size("645:659", pixels_for("frame", frame))
-    assert w % 16 == 0 and h % 16 == 0 and abs(w * h - 645 * 659) / (645 * 659) < 0.05

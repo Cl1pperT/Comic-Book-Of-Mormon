@@ -5,9 +5,9 @@ Use it to judge a speed-up before adopting it, e.g. the smaller Q5 GGUF model ag
     python -m bom_comic.compare --run runs/book/1-nephi/004 --panels panel_003 panel_007 panel_013 \\
         --variant q8 --variant q5:unet=flux1-dev-Q5_K_S.gguf
 
-A variant is NAME or NAME:key=value,... with keys unet, t5, steps, cfg, guidance, and size (unset keys keep the
-COMFYUI_* settings). size is "frame" (render at the panel's size on the page), "frame-min-0.65" (the same, but never
-below 0.65 megapixels), or a number of megapixels. Every variant draws each panel from the same prompt and the same seed, so only the setting differs.
+A variant is NAME or NAME:key=value,... with keys unet, t5, steps, cfg, guidance (unset keys keep the COMFYUI_*
+settings). Every variant draws each panel from the same prompt and the same seed, at the size the pipeline renders it,
+so only the setting differs.
 Variants run one after another, so each model loads once; the first render of each variant includes that load and is
 left out of its median time.
 
@@ -25,15 +25,7 @@ from pathlib import Path
 from .comic import diffusion_prompts, frames, _fonts
 from .storage import Store
 
-SETTINGS = {"unet": str, "t5": str, "steps": int, "cfg": float, "guidance": float, "size": str}
-
-
-def pixels_for(size, frame):
-    """Render pixels for a size setting and the panel's frame (x, y, w, h) on the page."""
-    if size == "frame" or size.startswith("frame-min-"):
-        floor = float(size[len("frame-min-"):]) * 1e6 if size.startswith("frame-min-") else 0
-        return int(max(frame[2] * frame[3], floor))
-    return int(float(size) * 1e6)
+SETTINGS = {"unet": str, "t5": str, "steps": int, "cfg": float, "guidance": float}
 LABEL_HEIGHT = 56
 
 
@@ -70,22 +62,20 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
     for name, overrides in variants:
         provider = make()
         for key, value in overrides.items():
-            if key != "size":
-                setattr(provider, key, value)
+            setattr(provider, key, value)
         renders = {}
         for pid in panel_ids:
-            if "size" in overrides:
-                provider.pixels = pixels_for(overrides["size"], layout[pid])
             prompt = pipeline.prompt_for(panels[pid], aspects[pid], shown=shown)
             path = store.path(f"{name}/{pid}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
             started = time.monotonic()
-            provider.generate_image(prompt, output_path=path, aspect_ratio=aspects[pid], seed=seed_for(run, pid))
+            # Sized to the panel's frame, as the pipeline renders it (COMFYUI_RENDER_SCALE and the MP limits apply).
+            provider.generate_image(prompt, output_path=path, aspect_ratio=aspects[pid], seed=seed_for(run, pid),
+                                    size=tuple(layout[pid][2:]))
             renders[pid] = round(time.monotonic() - started, 1)
             print(f"{name} {pid}: {renders[pid]}s", flush=True)
         warm = list(renders.values())[1:] or list(renders.values())
-        timings[name] = {"settings": {k: overrides.get(k, getattr(provider, k, None)) for k in SETTINGS},
-                         "seconds": renders,
+        timings[name] = {"settings": {k: getattr(provider, k, None) for k in SETTINGS}, "seconds": renders,
                          "median_seconds": statistics.median(warm)}
     store.write("timings.json", {"run": str(run), "panels": panel_ids, "variants": timings})
     sheet(pipeline, panel_ids, [name for name, _ in variants], layout, store, timings)

@@ -392,6 +392,51 @@ def fix_speakers(root="runs/book", make_provider=None):
     return results, "done"
 
 
+def write_intros(root="runs/book", make_provider=None, only=None):
+    """Write each written chapter's reader's guide (see chapter.py) in book order, skipping chapters whose guide is
+    current. Each guide's recap draws on the previous chapter's guide. only: a set of (book, chapter) to limit to.
+    Stops at a usage limit; returns ([(book, chapter, status)], reason)."""
+    from . import chapter as guide
+    make_provider = make_provider or _codex()
+    done, previous, last_book = [], None, None
+    try:
+        with writing_lock(root):
+            for status_path in _book_order(root):
+                store = Store(status_path.parent)
+                status = store.read("status.json")
+                key = (status["book"], status["chapter"])
+                if status["book"] != last_book:
+                    previous, last_book = None, status["book"]  # a new book starts without a recap
+                pipeline = Pipeline(store, None)
+                wanted = only is None or key in only
+                if wanted and not guide.current(pipeline) and not status["counts"]["REJECT"]:
+                    pipeline.provider = make_provider(store)
+                    pipeline.provider.reuse_responses = True
+                    try:
+                        record = guide.write(pipeline, previous)
+                    except (ProviderError, ValueError) as exc:  # ValueError: a reply that didn't fit the schema
+                        if "usage limit" in str(exc).lower():
+                            return done, "usage limit"
+                        print(f"{key[0]} {key[1]} guide failed: {exc}", flush=True)
+                        previous = None
+                        continue
+                    done.append((*key, record["verdict"]["status"]))
+                    print(f"Guide for {key[0]} {key[1]}: {record['verdict']['status']}", flush=True)
+                intro = guide.read(store)
+                previous = {"title": intro.title, "opener": intro.opener} if intro else None
+    except Busy as exc:
+        return done, f"another writer is running ({exc})"
+    return done, "done"
+
+
+def _book_order(root):
+    from .scripture import BOOKS
+    def key(path):
+        status = json.loads(path.read_text(encoding="utf-8"))
+        return BOOKS.index(status["book"]), status["chapter"]
+    return sorted(Path(root).glob("*/*/status.json"), key=key)
+
+
 def compile_pdf(root="runs/book", out=None):
     """Stitch every assembled chapter's pages into one PDF, in book order; returns (path, chapters, pages).
     Uses each chapter's last assembly, so a chapter waiting to be re-rendered shows its previous pages."""
@@ -403,7 +448,8 @@ def compile_pdf(root="runs/book", out=None):
         manifest = store.read("final/manifest.json")
         count = max(panel["page"] for panel in manifest["panels"])
         # Only the pages this assembly made (an earlier, longer assembly may have left extra page files).
-        files = [store.path(f"pages/page_{n:03d}.png") for n in range(1, count + 1)]
+        # Page 0 is the chapter's cover page, when its assembly has one.
+        files = [store.path(f"pages/page_{n:03d}.png") for n in range(0 if manifest.get("cover") else 1, count + 1)]
         if all(f.exists() for f in files):
             pages += files
             names.append(title(store, chapter_id))
