@@ -452,6 +452,11 @@ def _look(record, limit):
     return tag.replace(". ", ", ").strip(" .")
 
 
+# A short style statement placed ahead of the scene in the diffusion prompt; empty (off) unless set. Under test
+# (runs/compare/style-anchor) before being adopted.
+STYLE_ANCHOR = ""
+
+
 def diffusion_prompts(prompt):
     """(positive, negative) for a diffusion model from an approved build_prompt() prompt.
 
@@ -557,6 +562,9 @@ def diffusion_prompts(prompt):
         if item and item.lower() not in seen:
             seen.add(item.lower())
             kept.append(item)
+    if STYLE_ANCHOR:
+        # Flux's CLIP encoder reads only the first ~60 words, so a style named only at the end never reaches it.
+        positive.insert(0, STYLE_ANCHOR)
     return ". ".join(positive) + ".", ", ".join(kept)
 
 

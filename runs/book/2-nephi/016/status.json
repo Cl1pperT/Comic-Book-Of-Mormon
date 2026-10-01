@@ -4,29 +4,21 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 3,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 3
+    "PASS": 4,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 1
   },
   "rejected": {
-    "scene_003": [
-      "The supplied verses do not identify the first-person speaker as Nephi. The summary, character label, visual inference, dialogue attribution, and note present that unsupported identity as fact.",
-      "The summary calls the people 'his people,' but the verse says only 'a people.'"
-    ],
-    "scene_004": [
-      "The supplied verses do not identify the first-person narrator as Nephi. The summary, character label, and note present that unsupported identity as fact.",
-      "The note claims the user explicitly identified the narrator as Nephi, but the supplied request does not do so."
-    ],
     "scene_007": [
-      "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, dialogue speaker, visual inference, and notes present that unsupported identification as fact. The questioner must remain unidentified."
+      "The scene identifies Nephi as the first-person questioner, but the supplied verses do not establish that Nephi asks “Lord, how long?” The unsupported attribution appears in the summary, characters, explicit facts, dialogue speaker, and notes."
     ]
   },
-  "calls": 28,
+  "calls": 37,
   "tokens": {
-    "input_tokens": 203207,
-    "cached_input_tokens": 38016,
+    "input_tokens": 272375,
+    "cached_input_tokens": 57216,
     "cache_write_input_tokens": 0,
-    "output_tokens": 19784,
-    "reasoning_output_tokens": 5016
+    "output_tokens": 26368,
+    "reasoning_output_tokens": 7398
   }
 }

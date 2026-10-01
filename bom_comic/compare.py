@@ -22,6 +22,7 @@ import json
 import statistics
 import time
 from pathlib import Path
+from . import comic
 from .comic import diffusion_prompts, frames, _fonts
 from .storage import Store
 
@@ -61,8 +62,10 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
     timings = {}
     for name, overrides in variants:
         provider = make()
+        comic.STYLE_ANCHOR = overrides.get("anchor", "")  # a prompt setting, not a provider one
         for key, value in overrides.items():
-            setattr(provider, key, value)
+            if key != "anchor":
+                setattr(provider, key, value)
         renders = {}
         for pid in panel_ids:
             prompt = pipeline.prompt_for(panels[pid], aspects[pid], shown=shown)
@@ -75,7 +78,9 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
             renders[pid] = round(time.monotonic() - started, 1)
             print(f"{name} {pid}: {renders[pid]}s", flush=True)
         warm = list(renders.values())[1:] or list(renders.values())
-        timings[name] = {"settings": {k: getattr(provider, k, None) for k in SETTINGS}, "seconds": renders,
+        comic.STYLE_ANCHOR = ""
+        timings[name] = {"settings": {**{k: getattr(provider, k, None) for k in SETTINGS},
+                                      "anchor": overrides.get("anchor", "")}, "seconds": renders,
                          "median_seconds": statistics.median(warm)}
     store.write("timings.json", {"run": str(run), "panels": panel_ids, "variants": timings})
     sheet(pipeline, panel_ids, [name for name, _ in variants], layout, store, timings)

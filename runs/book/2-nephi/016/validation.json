@@ -1,5 +1,5 @@
 {
-  "stamp": "975a8d26d5bb7ace6ca773ee2a4fdfa4ee982f642367c7e594754c62877e7044",
+  "stamp": "37147cd86f8545d864317edb16bfa148f6e358360d808bc6e7827339ace5ee74",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,39 +10,39 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The supplied verses do not identify the first-person speaker as Nephi. The summary, character label, visual inference, dialogue attribution, and note present that unsupported identity as fact.",
-        "The summary calls the people 'his people,' but the verse says only 'a people.'"
+        "The verses do not identify the first-person speaker as Nephi; the scene notes that the prompt identifies the speaker, but the supplied verses alone do not support that identification. The dialogue and its speaker label otherwise match verse 5.",
+        "The summary paraphrases the speech rather than using source quotations, contrary to the instruction that narration use source quotations.",
+        "The reasonable visual inference that Nephi appears distressed is plausible but not specified by the verse; retain only as a clearly marked inference."
       ]
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The supplied verses do not identify the first-person narrator as Nephi. The summary, character label, and note present that unsupported identity as fact.",
-        "The note claims the user explicitly identified the narrator as Nephi, but the supplied request does not do so."
+        "The verses identify the recipient only as “me”; labeling him Nephi depends on the user-provided narrator identification, not these verses. The altar and tongs are explicitly mentioned, but their location and placement in the scene are unspecified; avoid implying a temple setting or staging the earlier taking of the coal as simultaneous with the laying of it on the mouth."
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Speaker and addressee are not identified in verses 9–10; retaining “Unidentified speaker” is appropriately cautious, but their identity remains uncertain."
+        "The Lord’s question is heard as a voice, but the verse does not describe a visible appearance. Isaiah’s presence in the temple during this exchange is not established by this verse; the temple location carries forward from the preceding vision and should not be treated as certain."
       ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, dialogue speaker, visual inference, and notes present that unsupported identification as fact. The questioner must remain unidentified."
+        "The scene identifies Nephi as the first-person questioner, but the supplied verses do not establish that Nephi asks “Lord, how long?” The unsupported attribution appears in the summary, characters, explicit facts, dialogue speaker, and notes."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
+      "status": "PASS",
       "issues": [
-        "The tenth and “holy seed” are not identified or given a specified appearance; scene appropriately leaves characters and setting unspecified. The tree language is figurative, not a present visual event."
+        "The comparison is correctly treated as metaphor rather than a staged tree event, and the foretold return is not presented as occurring in the scene."
       ]
     }
   }
