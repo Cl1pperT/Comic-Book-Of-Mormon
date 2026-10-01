@@ -452,9 +452,10 @@ def _look(record, limit):
     return tag.replace(". ", ", ").strip(" .")
 
 
-# A short style statement placed ahead of the scene in the diffusion prompt; empty (off) unless set. Under test
-# (runs/compare/style-anchor) before being adopted.
-STYLE_ANCHOR = ""
+# A short style statement placed ahead of the scene in the diffusion prompt (compared with and without in
+# runs/compare/style-anchor). It isn't part of the art stamp, so changing it doesn't make existing drawings stale.
+# Positive wording only: "never a photograph" is already in the negative prompt.
+STYLE_ANCHOR = "Hand-inked graphic novel illustration, bold black ink linework, painted comic color"
 
 
 def diffusion_prompts(prompt):
@@ -995,7 +996,7 @@ def _cover_fonts():
 
 def draw_cover(art_path, intro, where):
     """A chapter's cover page: its cover art full bleed, the chapter and its title across the top, and the opener
-    card at the bottom in dark ink, set apart from the cream scripture captions, marked as a guide, not scripture."""
+    card at the bottom in dark ink, set apart from the cream scripture captions."""
     from PIL import Image, ImageDraw, ImageOps
     width, height = PAGE_SIZE
     fonts = _cover_fonts()
@@ -1017,9 +1018,9 @@ def draw_cover(art_path, intro, where):
                                                       ("IN THIS CHAPTER", intro["opener"])) if text]
     rows = []
     for heading, text in sections:
-        rows += [("heading", heading)] + [("body", line) for line in _wrap(draw, text, fonts["body"], inner)] + [("gap", "")]
-    rows += [("note", "A reader's guide, not scripture. The chapter's own words follow.")]
-    step = {"heading": 34, "body": 37, "gap": 14, "note": 30}
+        rows += [("gap", "")] if rows else []
+        rows += [("heading", heading)] + [("body", line) for line in _wrap(draw, text, fonts["body"], inner)]
+    step = {"heading": 34, "body": 37, "gap": 14}
     card_h = 2 * 30 + sum(step[kind] for kind, _ in rows)
     top = height - BOTTOM - card_h
     card = Image.new("L", PAGE_SIZE, 0)
@@ -1033,8 +1034,6 @@ def draw_cover(art_path, intro, where):
             _tracked(draw, (MARGIN + 34, baseline - 8), text, fonts["heading"], VISION_GOLD, 3, anchor="left")
         elif kind == "body":
             draw.text((MARGIN + 34, baseline - 8), text, font=fonts["body"], fill=PAPER, anchor="ls")
-        elif kind == "note":
-            draw.text((MARGIN + 34, baseline - 8), text, font=fonts["note"], fill="#b9ab8c", anchor="ls")
     return page
 
 

@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import pytest
 from bom_comic.cast import Cast, auto_tag, within
-from bom_comic.comic import DEFAULT_CONTINUITY, build_prompt, diffusion_prompts
+from bom_comic.comic import DEFAULT_CONTINUITY, STYLE_ANCHOR, build_prompt, diffusion_prompts
 from bom_comic.models import Claim, Panel
 from bom_comic.pipeline import Pipeline
 from bom_comic.providers import PlaceholderImages
@@ -127,7 +127,7 @@ def test_diffusion_prompt_is_a_picture_with_each_look_beside_its_name():
                   "locations": {"Jerusalem": {"visual_design_choices": ["Limestone hill city"]}}}
     positive, negative = diffusion_prompts(build_prompt(panel(), continuity, "4:3"))
     # The first sentence of the summary and the de-hedged inference; no motives, no negated clause, no facts.
-    assert positive.startswith("Scene: Laman and Lemuel beat Nephi with a rod; The rod raised. ")
+    assert positive.startswith(STYLE_ANCHOR + ". Scene: Laman and Lemuel beat Nephi with a rod; The rod raised. ")
     assert "rule over them" not in positive and "angel" not in positive and "A fact" not in positive
     assert "Exactly two people: Laman (Ochre tunic); Lemuel (Green tunic)." in positive
     assert "Setting: Jerusalem (Limestone hill city)" in positive

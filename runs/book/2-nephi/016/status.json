@@ -4,21 +4,17 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 4,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 1
+    "PASS": 6,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_007": [
-      "The scene identifies Nephi as the first-person questioner, but the supplied verses do not establish that Nephi asks “Lord, how long?” The unsupported attribution appears in the summary, characters, explicit facts, dialogue speaker, and notes."
-    ]
-  },
-  "calls": 37,
+  "rejected": {},
+  "calls": 41,
   "tokens": {
-    "input_tokens": 272375,
-    "cached_input_tokens": 57216,
+    "input_tokens": 288295,
+    "cached_input_tokens": 51072,
     "cache_write_input_tokens": 0,
-    "output_tokens": 26368,
-    "reasoning_output_tokens": 7398
+    "output_tokens": 27711,
+    "reasoning_output_tokens": 7985
   }
 }

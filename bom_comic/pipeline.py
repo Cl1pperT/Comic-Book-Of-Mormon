@@ -598,12 +598,15 @@ class Pipeline:
         return [name for name in panel.characters_visible
                 if portrait_eligible(records.get(name)) and not is_group(records.get(name))]
 
-    def generate(self, identifier=None, skip_main=False, references=True, corrections=None, reuse=True):
+    def generate(self, identifier=None, skip_main=False, references=True, corrections=None, reuse=True,
+                 full_size=False):
         """Render approved panels; returns the IDs of the panels given a new or relinked drawing. With
         references=False the art is drawn from the text records alone (first drafts); reference portraits are for
         panels flagged later as needing them. corrections maps a panel ID to a reviewer's {"add", "avoid"}
         instructions for redrawing it. reuse: a panel continuing a master shot (comic.shot_groups) shows a crop of
-        the master's drawing instead of a render of its own; False draws it on its own (a reviewer's redraw)."""
+        the master's drawing instead of a render of its own; False draws it on its own (a reviewer's redraw).
+        full_size: draw at the maximum size instead of the frame's, as drawings were before page-sized renders (a
+        redraw for a style flag; slower, but steadier in style)."""
         panels = self.panels()
         aspects = self.aspects()
         if identifier and identifier not in {p.panel_id for p in panels}:
@@ -633,7 +636,7 @@ class Pipeline:
                 changed.append(panel.panel_id)
                 continue
             changed += self._render(panel, aspects, layout, shown, intro, references, corrections,
-                                    wide=panel.panel_id in masters)
+                                    wide=full_size or panel.panel_id in masters)
         return list(dict.fromkeys(changed))
 
     def _require_approval(self, panel, aspects):

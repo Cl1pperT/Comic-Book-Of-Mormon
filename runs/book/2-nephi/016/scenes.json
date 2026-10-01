@@ -110,7 +110,7 @@
     "refs": [
       "2 Nephi 16:5"
     ],
-    "summary": "Nephi laments that he is undone and a man of unclean lips, says he dwells among a people of unclean lips, and says his eyes have seen the King, the Lord of Hosts.",
+    "summary": "Nephi laments that he is undone, says he dwells among a people of unclean lips, and says his eyes have seen the King, the Lord of Hosts.",
     "characters": [
       "Nephi"
     ],
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "text": "Nephi says he dwells among a people of unclean lips.",
+        "text": "Nephi says he dwells in the midst of a people of unclean lips.",
         "refs": [
           "2 Nephi 16:5"
         ]
@@ -135,9 +135,7 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Nephi may appear distressed while speaking."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "Nephi's appearance, clothing, posture, and surroundings are unspecified."
     ],
@@ -150,14 +148,21 @@
         "speaker": "Nephi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Then said I:",
+        "refs": [
+          "2 Nephi 16:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The supplied prompt identifies the first-person speaker as Nephi.",
-      "The people and the King are mentioned in Nephi's speech; the verse does not describe them as present during his lament."
+      "The supplied context identifies the first-person narrator as Nephi.",
+      "The verse reports that Nephi has seen the King; it does not describe the King appearing during this speech."
     ],
     "prohibited_inventions": [
-      "Do not depict the mentioned people or the King as present.",
-      "Do not stage the reported sight of the King.",
+      "Do not depict the mentioned people or the King as visibly present.",
+      "Do not stage Nephi's reported sight of the King as a new event.",
       "Do not depict unclean lips as visible contamination.",
       "Do not invent a location, additional events, or dialogue."
     ],
@@ -232,31 +237,40 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Isaiah Answers",
+    "title": "Nephi Answers",
     "refs": [
       "2 Nephi 16:8"
     ],
-    "summary": "The Lord asks whom to send, and Isaiah offers himself.",
+    "summary": "Nephi hears the Lord ask whom to send and who will go for them. Nephi offers to go.",
     "characters": [
-      "Isaiah",
+      "Nephi",
       "The Lord"
     ],
-    "locations": [
-      "Temple"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Isaiah hears the Lord ask whom to send and who will go for them; Isaiah answers, offering himself.",
+        "text": "Nephi hears the voice of the Lord.",
+        "refs": [
+          "2 Nephi 16:8"
+        ]
+      },
+      {
+        "text": "The Lord asks whom to send and who will go for them.",
+        "refs": [
+          "2 Nephi 16:8"
+        ]
+      },
+      {
+        "text": "Nephi offers himself to be sent.",
         "refs": [
           "2 Nephi 16:8"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah remains in the temple while hearing and answering."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No new appearance of the Lord is described in this verse."
+      "The location is not specified.",
+      "The Lord's visible appearance is not described."
     ],
     "spoken_dialogue": [
       {
@@ -271,15 +285,16 @@
         "refs": [
           "2 Nephi 16:8"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Nephi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s voice is heard; the verse does not specify a new visible appearance."
+      "The verse describes the Lord's voice, not a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not invent another speaker or a new form for the Lord."
+      "Do not identify Nephi as Isaiah or place the exchange in a temple.",
+      "Do not invent a visible form for the Lord."
     ],
     "importance": "normal"
   },

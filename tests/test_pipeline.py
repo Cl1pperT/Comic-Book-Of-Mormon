@@ -312,7 +312,7 @@ def test_flag_on_a_panel_redrawn_some_other_way_is_settled(pipeline):
 
 def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_path):
     from bom_comic import reader, redraw
-    from bom_comic.comic import diffusion_prompts
+    from bom_comic.comic import diffusion_prompts, STYLE_ANCHOR
     from bom_comic.models import Corrections
     ready(pipeline)
     pipeline.generate()
@@ -334,7 +334,8 @@ def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_p
     assert asked[0][0] is Corrections and "baseball caps" in asked[0][2]
     # The corrections lead the image prompt, and the thing to avoid goes to the negative prompt.
     positive, negative = diffusion_prompts(images[0]["prompt"])
-    assert positive.startswith("Scene: ") and positive.split(". ")[1] == "plain wool head coverings"
+    # The style line comes first, then the scene.
+    assert positive.startswith(STYLE_ANCHOR + ". Scene: ") and positive.split(". ")[2] == "plain wool head coverings"
     assert negative.startswith("baseball caps")
     # New drawing, flag retired to history, chapter reassembled, reader marks it for another look.
     now = pipeline.image_record(pipeline.panels()[0])
@@ -349,6 +350,26 @@ def test_flagged_panel_is_redrawn_with_the_reviewers_corrections(pipeline, tmp_p
     assert redraw.redrawn(pipeline.store) == {}
     redraw.redraw(store, panel_id, flag, pipeline.provider, None)
     assert "caps on anyone" in diffusion_prompts(images[-1]["prompt"])[1]
+
+
+def test_style_flags_are_redrawn_at_full_size(pipeline, monkeypatch):
+    from bom_comic import pipeline as module, reader, redraw
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    sizes = []
+    original = module._draw
+    monkeypatch.setattr(module, "_draw", lambda *a, **k: (sizes.append(a[5] if len(a) > 5 else k.get("size")),
+                                                         original(*a, **k)))
+    root = pipeline.store.root.parent
+    for note in ("Anachronism: no caps", "Art error: Inconsistent style"):
+        reader.flag(pipeline.store, "panel_001", note)
+        [(store, panel_id, flag)] = redraw.pending(root)
+        entry = redraw.redraw(store, panel_id, flag, pipeline.provider, None)
+    # Other notes keep the frame's size; a style note draws at the maximum, as before page-sized renders.
+    assert sizes[0] is not None and sizes[1] is None, sizes
+    assert entry["how"].endswith("at full size")
 
 
 def test_reader_pages_through_a_folder_of_chapters_in_book_order(pipeline, tmp_path):
@@ -841,7 +862,7 @@ def test_heavenly_conventions_win_over_prohibitions_about_their_look(pipeline):
     assert "invented wings" not in negative and "invent wings" not in negative and "halo" not in negative
     assert "weapons" in negative
     # People sharing a panel with an angel don't get his glow, and no one in any panel gets wings.
-    assert positive.split(". ")[1] == ("Only the angel glows; Alma are ordinary earthly people in plain daylight "
+    assert positive.split(". ")[2] == ("Only the angel glows; Alma are ordinary earthly people in plain daylight "
                                        "colors")
     assert negative.startswith("glowing people, winged people") and "angel wings" in negative
     alone = angel.model_copy(update={"characters_visible": ["The angel who appeared to Alma"]})

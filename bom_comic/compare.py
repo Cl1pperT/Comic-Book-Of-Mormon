@@ -60,9 +60,10 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
     store = Store(out)
     make = provider_factory or (lambda: ComfyUI(store))
     timings = {}
+    anchor = comic.STYLE_ANCHOR  # a variant may set its own ("" for none); restored after each
     for name, overrides in variants:
         provider = make()
-        comic.STYLE_ANCHOR = overrides.get("anchor", "")  # a prompt setting, not a provider one
+        comic.STYLE_ANCHOR = overrides.get("anchor", anchor)  # a prompt setting, not a provider one
         for key, value in overrides.items():
             if key != "anchor":
                 setattr(provider, key, value)
@@ -78,9 +79,9 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
             renders[pid] = round(time.monotonic() - started, 1)
             print(f"{name} {pid}: {renders[pid]}s", flush=True)
         warm = list(renders.values())[1:] or list(renders.values())
-        comic.STYLE_ANCHOR = ""
+        comic.STYLE_ANCHOR = anchor
         timings[name] = {"settings": {**{k: getattr(provider, k, None) for k in SETTINGS},
-                                      "anchor": overrides.get("anchor", "")}, "seconds": renders,
+                                      "anchor": overrides.get("anchor", anchor)}, "seconds": renders,
                          "median_seconds": statistics.median(warm)}
     store.write("timings.json", {"run": str(run), "panels": panel_ids, "variants": timings})
     sheet(pipeline, panel_ids, [name for name, _ in variants], layout, store, timings)

@@ -8,6 +8,7 @@ starts another round.
 """
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from .comic import _sort_clauses
 from .models import Corrections
@@ -16,6 +17,9 @@ from .reader import FLAGS, chapters, flags
 from .storage import Store
 
 HISTORY = "review/flag-history.json"
+# A note about the art style ("Wrong art style", "inconsistent art") is redrawn at full size, as drawings were before
+# renders were sized to their frames: slower, but steadier in style.
+STYLE_NOTE = re.compile(r"\bstyle\b|\binconsistent art\b", re.I)
 PROMPT = """A reviewer flagged this drawn comic panel. Turn the reviewer's note into short instructions for an
 image-generation model that will redraw the panel.
 "add": things the new image must show, each a short positive visual phrase (never "no ..." or "not ...").
@@ -85,14 +89,17 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None, library=No
     panel = next(p for p in pipeline.panels() if p.panel_id == panel_id)
     fixes = flag.get("corrections") or corrections(text_provider, panel, flag["note"])
     # Drawn on its own even if it continued a master shot; panels continuing it, if it is one, follow the redraw.
-    changed = pipeline.generate(panel_id, references=False, corrections={panel_id: fixes}, reuse=False)
+    full_size = bool(STYLE_NOTE.search(flag["note"]))
+    changed = pipeline.generate(panel_id, references=False, corrections={panel_id: fixes}, reuse=False,
+                                full_size=full_size)
     record = pipeline.image_record(panel)
     for other in changed:
         pipeline.review("image", other, "approve", "AUTOMATED redraw after reviewer flag: " + flag["note"] +
                         (". Review the new drawing in the reader." if other == panel_id else
                          f". This panel continues {panel_id}'s master shot."))
     # Recorded before assembly, so an assembly problem can't strand a finished drawing.
-    entry = _settle(store, panel_id, flag, record, fixes, "Redrawn from the reviewer's note")
+    entry = _settle(store, panel_id, flag, record, fixes, "Redrawn from the reviewer's note" +
+                    (" at full size" if full_size else ""))
     store.event("redraw", panel_id=panel_id, note=flag["note"], image=record["path"])
     pipeline.assemble()
     return entry
