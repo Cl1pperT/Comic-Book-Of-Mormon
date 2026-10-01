@@ -185,6 +185,8 @@ HEAVENLY = [
 ]
 # Objects drawn the same way wherever a panel's action names them, applied when the prompt is built like HEAVENLY.
 # Entries: (pattern over the action and inferences, description for the image model, things it must not look like).
+CHURCH = re.compile(r"\bgreat and abominable church\b|\babominable church\b|\bwhore of all the earth\b|"
+                    r"\bmother of (?:abominations|harlots)\b|\bchurch of the devil\b|\bgreat church\b", re.I)
 OBJECTS = [
     # The Liahona (1 Nephi 16:10, 16:29; Alma 37:38): "a round ball of curious workmanship... of fine brass", two
     # spindles within, writing on them. "The compass" in 1 Nephi 18 must not bring a modern magnetic compass along.
@@ -194,7 +196,24 @@ OBJECTS = [
      "engraved writing along the spindles",
      ["giant ball", "boulder-sized ball", "modern magnetic compass", "compass rose", "compass needle dial",
       "clock face", "glass globe", "crystal ball"]),
+    # The church of the devil (1 Nephi 13:4-9, 14:9-17; 2 Nephi 28:18): scripture's "whore of all the earth" and
+    # "mother of abominations" name a church, so it is never drawn as a woman or one figure. Its look comes from the
+    # verses' gold, silver, silks, scarlets and fine-twined linen and its sitting "upon many waters"; no building, so
+    # it carries no real church's (or the Nephites' own) architecture or symbols.
+    (CHURCH,
+     "The great and abominable church, shown as a vast proud throng: crowds of people in costly scarlet, purple and "
+     "gold clothing amid heaps of gold, silver and fine silks, spread across dark, many waters under a shadowed sky",
+     ["a woman seated on the waters", "a single robed figure", "glowing figure", "halo", "cathedral", "church building",
+      "cross", "clergy robes", "religious symbols"]),
 ]
+# Labels for the church of the devil in VISIBLE PEOPLE: drawn by its OBJECTS entry, not as a person. "Harlots" goes
+# with it only in a panel about the church (1 Nephi 13:7), where the throng shows the worldliness the verse names.
+_CHURCH_PEOPLE = re.compile(r"^(?:the\s+)?harlots$", re.I)
+
+
+def symbolic(name, action=""):
+    """Whether a VISIBLE PEOPLE label stands for something drawn as a symbol (OBJECTS) rather than a person."""
+    return bool(CHURCH.search(name) or (_CHURCH_PEOPLE.match(name.strip()) and CHURCH.search(action)))
 # A prohibition about one of these figures that mentions how it looks contradicts its convention.
 _APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form", "body", "appearance", "figure",
                "face", "feature", "visib", "depict", "shape", "gender", "woman", "female")
@@ -234,6 +253,9 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, visi
     """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel.
     vision: {"kind": "dream" or "vision", "seer": ...} when the panel shows what someone sees in one (chapter.py)."""
     w, h = (int(n) for n in aspect.split(":"))
+    # The church of the devil is drawn from its OBJECTS entry, never as one of the people in the frame.
+    panel = panel.model_copy(update={"characters_visible": [n for n in panel.characters_visible
+                                                            if not symbolic(n, panel.action)]})
     # Subjects of the heavenly figures in this panel: prohibitions about how they look give way to the conventions.
     subjects = tuple(s for name in panel.characters_visible if heavenly(name) for s in heavenly(name)[1])
     # An angel's glow bleeds onto everyone else in the frame; say who has it. Merged into the corrections so it sits
@@ -506,10 +528,12 @@ def diffusion_prompts(prompt):
                         "golden light, its edges dissolving into glowing haze")
     negative += DIFFUSION_NEGATIVE
     # Named objects look the same in every panel that shows them.
+    throng = False
     for pattern, look, unlike in OBJECTS:
         if pattern.search(" ".join([action, *inferences])):
             positive.append(look)
             negative += unlike
+            throng = throng or pattern is CHURCH
     names = list(people)
     if people:
         entries, known = [], True
@@ -526,7 +550,7 @@ def diffusion_prompts(prompt):
             known = known and bool(record) and not match and not is_group(record)
         count = len(entries)
         # Every visible person is a known individual: say how many, so Flux doesn't pad the frame with extras.
-        if known and count < len(_NUMBERS):
+        if known and count < len(_NUMBERS) and not throng:  # the church is drawn as a crowd
             head = "One person only" if count == 1 else f"Exactly {_NUMBERS[count]} people"
             positive.append(head + ": " + "; ".join(entries))
             negative += ["crowd", "extra people", "background figures"]
