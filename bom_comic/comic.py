@@ -143,6 +143,7 @@ def portrait_aspect(record):
 
 
 CORRECTIONS_HEADING = "REVIEWER CORRECTIONS"
+VISION_HEADING = "DREAM OR VISION"
 
 # Fixed art conventions for heavenly figures, matched on the scene's free-form labels. They are design choices, not
 # scripture, and they win over records or scene prohibitions that would contradict them (e.g. "no invented wings").
@@ -168,14 +169,19 @@ HEAVENLY = [
                                   "no face, features, or clothing can be made out."],
         "locked_traits": ["Always the same figure of pure light, never a detailed face or body."],
         "visual_tag": "a person made entirely of brilliant white light, a glowing human outline"}, None),
-    # Every angel is the same woman, so her face stays consistent from panel to panel (a crowd of angels shares it).
-    # One the text clearly describes as a man is fixed by a reader flag.
+    # Every angel is the same figure, so it stays consistent from panel to panel (a crowd of angels shares it). No
+    # wings: scripture never gives angels wings, and drawn wings bled onto the people beside them. A man, as the text
+    # calls an angel "he" (1 Nephi 3:30; 1 Nephi 11:11 "in the form of a man"); the golden glow sets him apart from
+    # Christ's plain white robe.
     ("angel", re.compile(r"^(?:(?:the|an|a)\s+)?(?:numberless\s+)?(?:concourses?\s+of\s+)?angels?\b", re.I),
      ("angel",), {
-        "visual_design_choices": ["A heavenly messenger: a woman of about thirty with a serene oval face, olive skin, "
-                                  "dark brown eyes, and long wavy dark-brown hair, with large feathered white wings, "
-                                  "dressed in pure white, glowing softly."],
-        "locked_traits": ["Every angel has this same face, hair, wings, and pure white dress in every panel."]}, None),
+        "visual_design_choices": ["A heavenly messenger: a radiant man of about thirty with a calm, kind face, in "
+                                  "shining white robes, his whole figure glowing with soft golden-white light, standing "
+                                  "in the air a little above the ground."],
+        "locked_traits": ["Every angel has this same face, shining white robes, and golden glow in every panel.",
+                          "No wings, ever."],
+        "visual_tag": "a radiant man in shining white robes, his whole figure glowing with soft golden-white light, "
+                      "standing in the air a little above the ground"}, None),
 ]
 # A prohibition about one of these figures that mentions how it looks contradicts its convention.
 _APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form", "body", "appearance", "figure",
@@ -212,17 +218,18 @@ def _conventional(name, record):
     return out
 
 
-def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
-    """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel."""
+def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, vision=None):
+    """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel.
+    vision: {"kind": "dream" or "vision", "seer": ...} when the panel shows what someone sees in one (chapter.py)."""
     w, h = (int(n) for n in aspect.split(":"))
     # Subjects of the heavenly figures in this panel: prohibitions about how they look give way to the conventions.
     subjects = tuple(s for name in panel.characters_visible if heavenly(name) for s in heavenly(name)[1])
-    # An angel's wings bleed onto everyone else in the frame; say who has them, and (angels being women) rule out
-    # winged men. Merged into the corrections so it sits near the front of the prompt.
+    # An angel's glow bleeds onto everyone else in the frame; say who has it. Merged into the corrections so it sits
+    # near the front of the prompt.
     mortals = [name for name in panel.characters_visible if not heavenly(name)]
     if mortals and any((heavenly(name) or [None])[0] == "angel" for name in panel.characters_visible):
-        staging = {"add": ["Only the angel has wings and a glow; " + ", ".join(mortals) + " are ordinary earthly "
-                           "people"], "avoid": ["winged men", "wings on the other people"]}
+        staging = {"add": ["Only the angel glows; " + ", ".join(mortals) + " are ordinary earthly people in plain "
+                           "daylight colors"], "avoid": ["glowing people", "winged people"]}
         corrections = {key: staging[key] + list((corrections or {}).get(key, [])) for key in ("add", "avoid")}
     references = []
     if corrections and (corrections.get("add") or corrections.get("avoid")):
@@ -253,6 +260,7 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None):
             {name: _conventional(name, continuity["characters"].get(name, {}))
              for name in panel.characters_visible}),
         *references,
+        *([VISION_HEADING + "\n" + json.dumps(vision)] if vision else []),
         "APPROVED ACTION\n" + panel.action,
         "VISIBLE PEOPLE\n" + json.dumps(panel.characters_visible),
         "LOCATION\n" + json.dumps(panel.location),
@@ -368,7 +376,9 @@ _BUILT_WORDS = ("temple", "pyramid", "court", "palace", "city", "cities", "house
 # image model can't act on those, and naming a thing in a negative prompt only helps when the thing is concrete. So
 # the diffusion negative is this fixed list of things the renders actually drift into, plus only the concrete parts of
 # the scene's own prohibitions and records ("weapons", "halo", "domes").
-DIFFUSION_NEGATIVE = ["text", "lettering", "captions", "speech bubbles", "logo", "watermark", "signature",
+# Wings are in every panel's list: no one in the book has them, and Flux otherwise adds them near any glow.
+DIFFUSION_NEGATIVE = ["winged people", "angel wings", "feathered wings",
+                      "text", "lettering", "captions", "speech bubbles", "logo", "watermark", "signature",
                       "photograph", "photorealistic", "3d render", "modern clothing", "modern objects", "eyeglasses",
                       "backpacks", "zippers", "wristwatches", "baseball caps", "gore", "blood", "superhero costume",
                       "cartoon caricature"]
@@ -471,6 +481,11 @@ def diffusion_prompts(prompt):
     corrections = json.loads(sections.get(CORRECTIONS_HEADING, "{}"))
     positive += [item.strip(" .") for item in corrections.get("add", []) if item.strip(" .")]
     negative += [item.strip(" .") for item in corrections.get("avoid", []) if item.strip(" .")]
+    vision = json.loads(sections.get(VISION_HEADING, "null"))
+    if vision:
+        # Seen, not happening: a dream or vision has its own light, so the reader can tell it from the story around it.
+        positive.append(f"Seen in {vision['seer']}'s {vision['kind']}: a luminous, dreamlike scene bathed in soft "
+                        "golden light, its edges dissolving into glowing haze")
     negative += DIFFUSION_NEGATIVE
     names = list(people)
     if people:
@@ -549,7 +564,7 @@ _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scrip
              "CHARACTER CONSISTENCY (design choices are not scripture)", "APPROVED ACTION", "VISIBLE PEOPLE",
              "LOCATION", "EXPLICIT SCRIPTURAL FACTS", "REASONABLE VISUAL INFERENCES", "UNSPECIFIED CREATIVE DETAILS",
              "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS", PORTRAITS_HEADING,
-             CORRECTIONS_HEADING}
+             CORRECTIONS_HEADING, VISION_HEADING}
 
 
 # Page geometry in pixels at 150 dpi. Panels fill the live area edge to edge with thin gutters.
@@ -865,7 +880,159 @@ def _corner(box, frame):
     return ("top" if box[1] - y < h / 2 else "bottom") + "-" + ("left" if box[0] - x < w / 2 else "right")
 
 
-def assemble(store, panels, images):
+# A master shot is drawn once and reused, cropped differently, by the panels that continue it: the same people in
+# the same place, talking. Its panels together may carry lettering over at most this share of a page's live area;
+# past that the next panel gets a new drawing, so a long speech still turns into pictures, not a page of text.
+MASTER_TEXT_SHARE = 2 / 3
+
+
+def _live_area():
+    width, height = PAGE_SIZE
+    return (width - 2 * MARGIN) * (height - MARGIN - BOTTOM)
+
+
+def _speech_led(panel):
+    spoken = sum(len(q.text.split()) for q in panel.dialogue)
+    return bool(panel.dialogue) and spoken >= sum(len(c.text.split()) for c in panel.narration)
+
+
+def shot_groups(panels, layout=None):
+    """{panel_id: (master panel_id, index)} for each panel that continues a master shot (index 1, 2, ... in order).
+
+    A panel continues the shot before it when it shows exactly the same people in the same place, is led by speech
+    rather than new action, isn't a full-page moment, and the shot's lettering so far plus its own stays within
+    MASTER_TEXT_SHARE of a page. A pure function of the approved panels and their layout, so nothing is stored and
+    approvals don't change."""
+    layout = layout or frames(panels)
+    draw, fonts = _measure()
+    budget = MASTER_TEXT_SHARE * _live_area()
+    groups, master, key, used, index = {}, None, None, 0, 0
+    for panel in panels:
+        boxes = _lettering(draw, panel, layout[panel.panel_id], fonts) or []
+        area = sum((b[2] - b[0]) * (b[3] - b[1]) for b, _, _ in boxes)
+        here = (frozenset(panel.characters_visible), tuple(panel.location))
+        if master is not None and here == key and panel.characters_visible and _speech_led(panel) \
+                and panel.shot != "splash" and used + area <= budget:
+            index += 1
+            used += area
+            groups[panel.panel_id] = (master.panel_id, index)
+        else:
+            master, key, used, index = panel, here, area, 0
+    return groups
+
+
+def master_crop(size, frame_size, index, faces=None):
+    """The part of a master shot a continuing panel shows: about two thirds of it at the panel's own shape, moved
+    to a different face (or third of the picture) each time, so a conversation reads as cuts between speakers."""
+    width, height = size
+    ratio = frame_size[0] / frame_size[1]
+    crop_h = height * 0.7
+    crop_w = crop_h * ratio
+    if crop_w > width * 0.85:
+        crop_w = width * 0.85
+        crop_h = crop_w / ratio
+    if crop_h > height:
+        crop_h, crop_w = height, height * ratio
+    faces = sorted(faces or [], key=lambda f: f[0])
+    if faces:
+        x, y, w, h = faces[(index - 1) % len(faces)]
+        cx, cy = x + w / 2, y + h * 0.9  # a little below the eyes, so shoulders and gesture are in frame
+    else:
+        cx, cy = [(0.5, 0.45), (0.3, 0.45), (0.7, 0.45)][(index - 1) % 3]
+        cx, cy = cx * width, cy * height
+    left = min(max(0, cx - crop_w / 2), width - crop_w)
+    top = min(max(0, cy - crop_h / 2), height - crop_h)
+    return round(left), round(top), round(left + crop_w), round(top + crop_h)
+
+
+# Dream and vision panels: a deep indigo frame with a gold inner line, and a label on the first of a run on each page.
+VISION_INK, VISION_GOLD, VISION_BORDER = "#26305e", "#d4b25c", 9
+
+
+def _vision_frame(page, draw, frame, label, boxes, fonts, art_faces):
+    """Mark a dream or vision panel: soft glowing edges, the vision frame, and (when label) a small tab naming whose
+    dream or vision it is, placed where it covers no caption box and the fewest faces."""
+    from PIL import Image, ImageDraw, ImageFilter
+    x, y, w, h = frame
+    glow = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(glow).rectangle([0, 0, w - 1, h - 1], outline=150, width=max(8, min(w, h) // 14))
+    glow = glow.filter(ImageFilter.GaussianBlur(max(6, min(w, h) // 18)))
+    page.paste(Image.new("RGB", (w, h), "#fff4d6"), (x, y), glow)
+    draw.rectangle([x, y, x + w - 1, y + h - 1], outline=VISION_INK, width=VISION_BORDER)
+    draw.rectangle([x + VISION_BORDER, y + VISION_BORDER, x + w - 1 - VISION_BORDER, y + h - 1 - VISION_BORDER],
+                   outline=VISION_GOLD, width=2)
+    if not label:
+        return None
+    tab_w = int(_tracked_width(draw, label, fonts["speaker"])) + 2 * PAD
+    tab_h = 34
+    inset = VISION_BORDER + 4
+    spots = [(x + (w - tab_w) // 2, y + inset), (x + w - tab_w - inset, y + inset), (x + inset, y + inset),
+             (x + (w - tab_w) // 2, y + h - tab_h - inset)]
+    faces = [(x + fx, y + fy, x + fx + fw, y + fy + fh) for fx, fy, fw, fh in art_faces or []]
+    def cost(spot):
+        tab = (spot[0], spot[1], spot[0] + tab_w, spot[1] + tab_h)
+        return (sum(_overlap(tab, b) for b in boxes), sum(_overlap(tab, f) for f in faces))
+    left, top = min(spots, key=cost)
+    draw.rectangle([left, top, left + tab_w, top + tab_h], fill=VISION_INK, outline=VISION_GOLD, width=2)
+    _tracked(draw, (left + PAD, top + 23), label, fonts["speaker"], VISION_GOLD, 2, anchor="left")
+    return [left, top, left + tab_w, top + tab_h]
+
+
+def _cover_fonts():
+    from PIL import ImageFont
+    load = lambda name, size: ImageFont.truetype(str(FONTS / f"EBGaramond-{name}.ttf"), size)
+    return {"title": load("SemiBold", 66), "kicker": load("Regular", 24), "heading": load("SemiBold", 20),
+            "body": load("Regular", 27), "note": load("Italic", 20)}
+
+
+def draw_cover(art_path, intro, where):
+    """A chapter's cover page: its cover art full bleed, the chapter and its title across the top, and the opener
+    card at the bottom in dark ink, set apart from the cream scripture captions, marked as a guide, not scripture."""
+    from PIL import Image, ImageDraw, ImageOps
+    width, height = PAGE_SIZE
+    fonts = _cover_fonts()
+    with Image.open(art_path) as im:
+        page = ImageOps.fit(im.convert("RGB"), PAGE_SIZE, Image.LANCZOS)
+    shade = Image.new("L", PAGE_SIZE, 0)
+    shade_draw = ImageDraw.Draw(shade)
+    for row in range(330):  # a dark band behind the title, fading into the art
+        shade_draw.line([(0, row), (width, row)], fill=int(190 * (1 - row / 330) ** 0.8))
+    page.paste(Image.new("RGB", PAGE_SIZE, INK), (0, 0), shade)
+    draw = ImageDraw.Draw(page)
+    book, chapter = where
+    _tracked(draw, (width / 2, 92), f"{book} · Chapter {chapter}".upper(), fonts["kicker"], "#e9dcb8", 4)
+    lines = _wrap(draw, intro["title"], fonts["title"], width - 4 * MARGIN)
+    for i, line in enumerate(lines[:2]):
+        draw.text((width / 2, 178 + i * 76), line, font=fonts["title"], fill=PAPER, anchor="ms")
+    inner = width - 2 * MARGIN - 2 * 34
+    sections = [(heading, text) for heading, text in (("PREVIOUSLY", intro.get("recap", "")),
+                                                      ("IN THIS CHAPTER", intro["opener"])) if text]
+    rows = []
+    for heading, text in sections:
+        rows += [("heading", heading)] + [("body", line) for line in _wrap(draw, text, fonts["body"], inner)] + [("gap", "")]
+    rows += [("note", "A reader's guide, not scripture. The chapter's own words follow.")]
+    step = {"heading": 34, "body": 37, "gap": 14, "note": 30}
+    card_h = 2 * 30 + sum(step[kind] for kind, _ in rows)
+    top = height - BOTTOM - card_h
+    card = Image.new("L", PAGE_SIZE, 0)
+    ImageDraw.Draw(card).rectangle([MARGIN, top, width - MARGIN, height - BOTTOM], fill=232)
+    page.paste(Image.new("RGB", PAGE_SIZE, INK), (0, 0), card)
+    draw.rectangle([MARGIN, top, width - MARGIN, height - BOTTOM], outline=VISION_GOLD, width=2)
+    baseline = top + 30
+    for kind, text in rows:
+        baseline += step[kind]
+        if kind == "heading":
+            _tracked(draw, (MARGIN + 34, baseline - 8), text, fonts["heading"], VISION_GOLD, 3, anchor="left")
+        elif kind == "body":
+            draw.text((MARGIN + 34, baseline - 8), text, font=fonts["body"], fill=PAPER, anchor="ls")
+        elif kind == "note":
+            draw.text((MARGIN + 34, baseline - 8), text, font=fonts["note"], fill="#b9ab8c", anchor="ls")
+    return page
+
+
+def assemble(store, panels, images, cover=None, visions=None):
+    """cover: {"image": cover record, "intro": guide, "where": (book, chapter)} for a cover page (page 0).
+    visions: {panel_id: label} for panels that show a dream or vision."""
     from PIL import Image, ImageDraw, ImageOps
     fonts = _fonts()
     width, height = PAGE_SIZE
@@ -875,11 +1042,19 @@ def assemble(store, panels, images):
         group = sorted((p for p in panels if p.page == number), key=lambda p: p.panel_number)
         page = Image.new("RGB", PAGE_SIZE, PAPER)
         draw = ImageDraw.Draw(page)
+        labelled = set()
         for panel in group:
             x, y, w, h = frame = layout[panel.panel_id]
-            with Image.open(store.path(images[panel.panel_id]["path"])) as im:
+            record = images[panel.panel_id]
+            crop = None
+            with Image.open(store.path(record["path"])) as im:
+                im = im.convert("RGB")
+                if record.get("master"):
+                    # A panel continuing a master shot shows its own part of the master's drawing.
+                    crop = master_crop(im.size, (w, h), record.get("crop_index", 1), detect_faces(im))
+                    im = im.crop(crop)
                 # Art is rendered for this frame's shape; fit only trims rounding differences.
-                art = ImageOps.fit(im.convert("RGB"), (w, h), Image.LANCZOS)
+                art = ImageOps.fit(im, (w, h), Image.LANCZOS)
             page.paste(art, (x, y))
             draw.rectangle([x, y, x + w - 1, y + h - 1], outline=INK, width=BORDER)
             if _lettering(draw, panel, frame, fonts) is None:
@@ -888,10 +1063,21 @@ def assemble(store, panels, images):
             # where faces are.
             faces = detect_faces(art)
             boxes, covered = place_captions(_caption_options(draw, panel, frame, fonts), frame, faces)
+            tab = None
+            if panel.panel_id in (visions or {}):
+                label = visions[panel.panel_id]
+                # The label goes on the first panel of each run of the same dream or vision on a page.
+                tab = _vision_frame(page, draw, frame, label if label not in labelled else None,
+                                    [b for b, _, _ in boxes], fonts, faces)
+                labelled.add(label)
             for box, rows, fill in boxes:
                 _draw_box(draw, rows, box, fonts, fill)
             placements[panel.panel_id] = {"page": number, "corners": [_corner(b, frame) for b, _, _ in boxes],
                                           "faces": faces, "covered_faces": covered}
+            if crop:
+                placements[panel.panel_id]["master_crop"] = {"master": record["master"], "box": list(crop)}
+            if tab:
+                placements[panel.panel_id]["vision_label"] = tab
             if covered:
                 store.event("caption_overlap", panel_id=panel.panel_id, covered_faces=covered)
         baseline = height - BOTTOM / 2 + 8
@@ -902,6 +1088,12 @@ def assemble(store, panels, images):
         path.parent.mkdir(parents=True, exist_ok=True)
         page.save(path)
         pages.append(page)
+    if cover:
+        page = draw_cover(store.path(cover["image"]["path"]), cover["intro"], cover["where"])
+        path = store.path("pages/page_000.png")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        page.save(path)
+        pages.insert(0, page)
     store.write("final/captions.json", placements)
     target = store.path("final/comic.pdf")
     target.parent.mkdir(parents=True, exist_ok=True)

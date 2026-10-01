@@ -147,6 +147,18 @@ def nearest_gemini_aspect(aspect):
     return min(GEMINI_ASPECTS, key=lambda a: abs(math.log(_ratio(a) / _ratio(aspect))))
 
 
+def target_pixels(size=None):
+    """How many pixels to render for a frame of size (w, h) on the 150 dpi page: the frame's own area times
+    COMFYUI_RENDER_SCALE, kept between COMFYUI_MIN_MEGAPIXELS (Flux loses detail below about 0.4 MP) and
+    COMFYUI_MAX_MEGAPIXELS. Rendering a small panel at 1 MP spent time on detail the page never shows."""
+    high = float(os.getenv("COMFYUI_MAX_MEGAPIXELS", "1.0")) * 1024 * 1024
+    if not size:
+        return int(high)
+    low = float(os.getenv("COMFYUI_MIN_MEGAPIXELS", "0.4")) * 1024 * 1024
+    scale = float(os.getenv("COMFYUI_RENDER_SCALE", "1.0"))
+    return int(min(high, max(low, size[0] * size[1] * scale)))
+
+
 def render_size(aspect, pixels=1024 * 1024):
     """About one megapixel (Flux's native scale) in multiples of 16."""
     ratio = _ratio(aspect)
@@ -265,16 +277,17 @@ class ComfyUI:
             "save": {"class_type": "SaveImage", "inputs": {"images": ["decode", 0], "filename_prefix": "bom_comic/panel"}},
         }
 
-    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None):
+    def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None, size=None):
         """seed: fixed by the caller to compare settings on the same drawing (see compare.py); otherwise derived
-        from the revision name, so each revision is reproducible and a regeneration differs."""
+        from the revision name, so each revision is reproducible and a regeneration differs. size: the frame's
+        (width, height) on the page; the render is sized to it (see target_pixels), else the 1 MP maximum."""
         import io
         import time
         from urllib.parse import urlencode
         from .comic import diffusion_prompts
         stem = Path(output_path).stem
         positive, negative = diffusion_prompts(prompt)
-        width, height = render_size(aspect_ratio or "1:1")
+        width, height = render_size(aspect_ratio or "1:1", target_pixels(size))
         if seed is None:
             seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]

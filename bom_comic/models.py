@@ -83,3 +83,26 @@ class Panel(Model):
     visual_inferences: List[str]
     creative_details: List[str]
     prohibited: List[str]
+
+class CoverMoment(Model):
+    """The one moment a chapter's cover shows: drawable, and supported by its refs."""
+    moment: str = Field(min_length=1)
+    characters: List[str] = []
+    location: str = ""
+    refs: List[str] = Field(min_length=1)
+
+class VisionRange(Model):
+    """Verses that show what someone sees in a dream or vision, not events happening around them."""
+    kind: Literal["dream", "vision"]
+    seer: str = Field(min_length=1)
+    first_ref: str
+    last_ref: str
+
+class ChapterIntro(Model):
+    """A reader's guide to a chapter, written for someone who has never read the book. Not scripture: it is set
+    apart from the chapter's own words on the cover page."""
+    title: str = Field(min_length=1)
+    recap: str = ""
+    opener: str = Field(min_length=1)
+    cover: CoverMoment
+    visions: List[VisionRange] = []

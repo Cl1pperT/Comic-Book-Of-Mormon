@@ -81,10 +81,13 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None, library=No
     pipeline = Pipeline(store, image_provider, library)
     panel = next(p for p in pipeline.panels() if p.panel_id == panel_id)
     fixes = flag.get("corrections") or corrections(text_provider, panel, flag["note"])
-    pipeline.generate(panel_id, references=False, corrections={panel_id: fixes})
+    # Drawn on its own even if it continued a master shot; panels continuing it, if it is one, follow the redraw.
+    changed = pipeline.generate(panel_id, references=False, corrections={panel_id: fixes}, reuse=False)
     record = pipeline.image_record(panel)
-    pipeline.review("image", panel_id, "approve",
-                    "AUTOMATED redraw after reviewer flag: " + flag["note"] + ". Review the new drawing in the reader.")
+    for other in changed:
+        pipeline.review("image", other, "approve", "AUTOMATED redraw after reviewer flag: " + flag["note"] +
+                        (". Review the new drawing in the reader." if other == panel_id else
+                         f". This panel continues {panel_id}'s master shot."))
     # Recorded before assembly, so an assembly problem can't strand a finished drawing.
     entry = _settle(store, panel_id, flag, record, fixes, "Redrawn from the reviewer's note")
     store.event("redraw", panel_id=panel_id, note=flag["note"], image=record["path"])

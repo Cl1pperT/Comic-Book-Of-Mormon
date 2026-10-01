@@ -68,7 +68,9 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
             path = store.path(f"{name}/{pid}.png")
             path.parent.mkdir(parents=True, exist_ok=True)
             started = time.monotonic()
-            provider.generate_image(prompt, output_path=path, aspect_ratio=aspects[pid], seed=seed_for(run, pid))
+            # Sized to the panel's frame, as the pipeline renders it (COMFYUI_RENDER_SCALE and the MP limits apply).
+            provider.generate_image(prompt, output_path=path, aspect_ratio=aspects[pid], seed=seed_for(run, pid),
+                                    size=tuple(layout[pid][2:]))
             renders[pid] = round(time.monotonic() - started, 1)
             print(f"{name} {pid}: {renders[pid]}s", flush=True)
         warm = list(renders.values())[1:] or list(renders.values())

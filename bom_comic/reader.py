@@ -62,8 +62,10 @@ def draft(store):
     for panel in sorted(panels, key=lambda p: (p.page, p.panel_number)):
         pages.setdefault(panel.page, []).append({"id": panel.panel_id, "scene_id": panel.scene_id,
                                                  "refs": _ref_range(panel.refs), "frame": layout[panel.panel_id]})
+    # The cover page (page 0: cover art and the opener card) comes first when the assembly has one.
+    cover = [{"number": 0, "label": "Cover", "panels": []}] if manifest.get("cover") else []
     return {"run": store.root.name, "size": PAGE_SIZE, "images": manifest["images"],
-            "pages": [{"number": n, "panels": group} for n, group in sorted(pages.items())]}
+            "pages": cover + [{"number": n, "panels": group} for n, group in sorted(pages.items())]}
 
 
 def flag(store, panel_id, note):
@@ -92,7 +94,8 @@ def overview(store):
     for chapter_id, chapter in chapters(store).items():
         manifest = chapter.read("final/manifest.json")
         panels = [Panel.model_validate(p) for p in manifest["panels"]]
-        out.append({"id": chapter_id, "title": title(chapter, chapter_id), "pages": len({p.page for p in panels}),
+        out.append({"id": chapter_id, "title": title(chapter, chapter_id),
+                    "pages": len({p.page for p in panels}) + bool(manifest.get("cover")),
                     "panels": {p.panel_id: _ref_range(p.refs) for p in panels}, "flags": flags(chapter),
                     "redrawn": redrawn(chapter)})
     return out

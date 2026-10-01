@@ -87,8 +87,16 @@ def state(book_name, chapter, new_only=False):
         manifest = run / "final" / "manifest.json"
         # A chapter whose scenes changed after assembly (e.g. repaired) renders again; drawings that still fit
         # are reused, so only changed panels are redrawn.
-        if not manifest.exists() or json.loads(manifest.read_text(encoding="utf-8"))["scene_stamp"] == \
-                Pipeline(Store(run), None).stamp():
+        if not manifest.exists():
+            return "rendered"
+        assembled = json.loads(manifest.read_text(encoding="utf-8"))
+        if assembled["scene_stamp"] == Pipeline(Store(run), None).stamp():
+            # A guide written (or rewritten) since the last assembly gives the chapter its cover page: assemble
+            # again (only the cover is drawn; every panel is still current).
+            guide = run / "intro.json"
+            if guide.exists() and Pipeline(Store(run), None).intro() is not None and \
+                    (assembled.get("cover") or {}).get("intro_stamp") != digest(Store(run).read("intro.json")):
+                return "ready"
             return "rendered"
     if (run / "render-error.json").exists():
         return "failed"  # waits for a person; delete render-error.json to retry
@@ -134,6 +142,21 @@ def render_chapter(book_name, chapter, deadline, provider_for):
         log(f"  {book_name} {chapter} {panel.panel_id} drawn in {time.monotonic() - started:.0f}s")
     for panel in panels:
         pipeline.review("image", panel.panel_id, "approve", IMAGE_NOTE)
+    if pipeline.intro() is not None:
+        # The cover page: the chapter's guide (opener card) and its cover art, both first drafts for the reader.
+        reviews = pipeline.approvals()
+        if reviews.get("intro:chapter", {}).get("stamp") != digest(store.read("intro.json")):
+            pipeline.review("intro", "chapter", "approve", "AUTOMATED nightly approval: the chapter guide passed its "
+                            "audit. Read it on the cover page.")
+        try:
+            pipeline.cover_record()
+        except (ValueError, FileNotFoundError):
+            if datetime.datetime.now() >= deadline:
+                return False
+            started = time.monotonic()
+            pipeline.cover()
+            log(f"  {book_name} {chapter} cover drawn in {time.monotonic() - started:.0f}s")
+        pipeline.review("cover", "cover", "approve", IMAGE_NOTE)
     pdf = pipeline.assemble()
     store.write("render.json", {"pdf": str(pdf), "panels": len(panels), "time": datetime.datetime.now().isoformat()})
     return True
@@ -256,6 +279,14 @@ def run(until, write=True, render=True, new_only=False):
                 if comfy is None and not comfy_up():
                     comfy = start_comfy(night / "comfyui.log")
                 name, chapter = todo[0]
+                if codex_ok and not (book.folder(ROOT, name, chapter) / "intro.json").exists():
+                    # The chapter's guide (cover moment, opener card, dreams and visions) before its pages.
+                    try:
+                        _, reason = book.write_intros(ROOT, make_codex, only={(name, chapter)})
+                        if reason == "usage limit":
+                            codex_ok = False
+                    except ProviderError as exc:
+                        log(f"Guide for {name} {chapter} not written: {exc}")
                 log(f"Rendering {name} {chapter}")
                 try:
                     finished = render_chapter(name, chapter, deadline, comfy_provider)

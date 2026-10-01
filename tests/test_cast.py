@@ -201,7 +201,8 @@ def test_compare_renders_every_variant_from_the_same_seed_and_makes_a_sheet(tmp_
     class Fake(PlaceholderImages):
         unet, t5, steps, cfg, guidance = "q8.gguf", "t5.gguf", 24, 2.0, 2.5
 
-        def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None):
+        def generate_image(self, prompt, reference_images=None, output_path=None, aspect_ratio=None, seed=None,
+                           size=None):
             seen.append((self.unet, seed, prompt))
             return super().generate_image(prompt, reference_images, output_path, aspect_ratio)
     out = compare(p.store.root, ["panel_001"], [parse_variant("q8"), parse_variant("q5:unet=q5.gguf")],
