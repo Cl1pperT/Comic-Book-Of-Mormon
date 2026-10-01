@@ -17,6 +17,17 @@ ART_EXCLUDE = {"page", "panel_number", "weight", "narration", "dialogue"}
 ASPECT_TOLERANCE = 0.04
 
 
+# Panels render at their size on the page, within these bounds: below 0.65 MP Flux starts to lose faces and
+# coherence, and above ~1 MP (its native scale) it's slower without looking better at 150 dpi. Tested on 1 Nephi 3
+# (runs/compare/render-size): 138 s a panel against 197 s at a flat 1 MP, no visible loss at page size.
+RENDER_MIN_PIXELS, RENDER_MAX_PIXELS = 650_000, 1024 * 1024
+
+
+def render_pixels(frame):
+    """Pixels to render a panel at, from its frame (x, y, w, h) on the page."""
+    return int(min(max(frame[2] * frame[3], RENDER_MIN_PIXELS), RENDER_MAX_PIXELS))
+
+
 def _similar(a, b):
     ratio = lambda aspect: (lambda w, h: w / h)(*(int(n) for n in aspect.split(":")))
     return abs(ratio(a) / ratio(b) - 1) <= ASPECT_TOLERANCE
@@ -487,6 +498,14 @@ class Pipeline:
         self.store.write("reviews.json", reviews)
         self.store.event("review", kind=kind, identifier=identifier, decision=decision, note=note)
 
+    def reapprove_panels(self, note):
+        """Record `note` as the approval of every panel whose approval went stale (e.g. continuity records were added
+        or changed). Used by automated runs, whose panel approvals are automated in the first place."""
+        aspects, reviews = self.aspects(), self.approvals()
+        for panel in self.panels():
+            if reviews.get("panel:" + panel.panel_id, {}).get("stamp") != self.panel_stamp(panel, aspects):
+                self.review("panel", panel.panel_id, "approve", note)
+
     def main_characters(self, panel):
         """Visible named individuals whose record can seed a portrait; these need identity-preserving art."""
         records = self.continuity()["characters"]
@@ -502,6 +521,7 @@ class Pipeline:
         if identifier and identifier not in {p.panel_id for p in panels}:
             raise ValueError("Unknown panel")
         shown = self.shown(panels)
+        layout = frames(panels)
         for panel in panels:
             if identifier and panel.panel_id != identifier:
                 continue
@@ -531,9 +551,12 @@ class Pipeline:
             records = self.continuity()["characters"]
             attached = [(f"{n} (group costume sheet)" if is_group(records.get(n)) else n, self.store.path(e["path"]))
                         for n, e in portraits.items()]
+            pixels = render_pixels(layout[panel.panel_id])
+            if hasattr(self.provider, "pixels"):
+                self.provider.pixels = pixels
             self.provider.generate_image(prompt, reference_images=attached or None, output_path=path, aspect_ratio=aspect)
             record = {"path": str(path.relative_to(self.store.root)), "panel_stamp": self.panel_stamp(panel, aspects),
-                      "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2,
+                      "art_stamp": self.art_stamp(panel), "aspect": aspect, "art_version": 2, "pixels": pixels,
                       "image_hash": hashlib.sha256(path.read_bytes()).hexdigest(), "prompt": f"prompts/{name}.json",
                       "references": list(portraits)}
             self.store.write(f"images/{panel.panel_id}.json", record)

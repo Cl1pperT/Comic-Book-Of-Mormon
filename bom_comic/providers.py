@@ -170,6 +170,8 @@ class ComfyUI:
         self.kontext_unet = os.getenv("COMFYUI_KONTEXT_UNET", "flux1-kontext-dev-Q8_0.gguf")
         self.kontext_cfg = float(os.getenv("COMFYUI_KONTEXT_CFG", "1.0"))
         self.kontext_guidance = float(os.getenv("COMFYUI_KONTEXT_GUIDANCE", "2.5"))
+        # Pixels per render (about 1 megapixel, Flux's native scale, unless changed).
+        self.pixels = int(os.getenv("COMFYUI_PIXELS", str(1024 * 1024)))
 
     def kontext_text(self, prompt, names):
         """The edit Kontext applies to the Flux draft: only the referenced people change."""
@@ -274,7 +276,7 @@ class ComfyUI:
         from .comic import diffusion_prompts
         stem = Path(output_path).stem
         positive, negative = diffusion_prompts(prompt)
-        width, height = render_size(aspect_ratio or "1:1")
+        width, height = render_size(aspect_ratio or "1:1", self.pixels)
         if seed is None:
             seed = int(hashlib.sha256(stem.encode()).hexdigest()[:12], 16)
         references = [r if isinstance(r, tuple) else (Path(r).stem, r) for r in reference_images or []]

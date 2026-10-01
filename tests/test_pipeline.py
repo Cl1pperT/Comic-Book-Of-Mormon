@@ -231,6 +231,21 @@ def test_drawings_survive_lettering_edits_and_small_reshapes_but_not_content_edi
         pipeline.image_record(panel, {panel.panel_id: f"{w * 3}:{h * 2}"})
 
 
+def test_panels_render_at_page_size_within_bounds(pipeline):
+    from bom_comic.pipeline import render_pixels, RENDER_MIN_PIXELS, RENDER_MAX_PIXELS
+    assert render_pixels((0, 0, 645, 527)) == RENDER_MIN_PIXELS          # small panel: raised to 0.65 MP
+    assert render_pixels((0, 0, 900, 900)) == 810000                     # mid-size panel: its page size
+    assert render_pixels((0, 0, 1304, 1868)) == RENDER_MAX_PIXELS        # full-page splash: capped at 1 MP
+    seen = []
+    pipeline.provider.pixels = None
+    original = pipeline.provider.generate_image
+    pipeline.provider.generate_image = lambda *a, **k: seen.append(pipeline.provider.pixels) or original(*a, **k)
+    ready(pipeline)
+    pipeline.generate()
+    record = pipeline.store.read("images/panel_001.json")
+    assert seen == [record["pixels"]] and RENDER_MIN_PIXELS <= record["pixels"] <= RENDER_MAX_PIXELS
+
+
 def test_older_drawing_records_are_upgraded_while_still_current(pipeline):
     ready(pipeline)
     pipeline.generate()
@@ -267,6 +282,23 @@ def test_new_records_for_other_people_dont_restale_drawings(pipeline):
     characters["Nephi's wife"] = {"scriptural_facts": [], "visual_design_choices": ["A young woman"], "locked_traits": []}
     pipeline.store.write("continuity/characters.json", characters)
     assert pipeline.image_record(pipeline.panels()[0])
+
+
+def test_redraw_renews_panel_approvals_that_went_stale(pipeline):
+    from bom_comic import reader, redraw
+    ready(pipeline)
+    pipeline.generate()
+    pipeline.review("image", "panel_001", "approve", "Placeholder software test")
+    pipeline.assemble()
+    reader.flag(pipeline.store, "panel_001", "Clones")
+    # New records copied into the chapter restale every panel approval (they cover the whole continuity).
+    characters = pipeline.store.read("continuity/characters.json")
+    characters["Nephi's wife"] = {"scriptural_facts": [], "visual_design_choices": ["A young woman"], "locked_traits": []}
+    pipeline.store.write("continuity/characters.json", characters)
+    [(store, panel_id, flag)] = redraw.pending(pipeline.store.root.parent)
+    redraw.redraw(store, panel_id, flag, pipeline.provider, None)
+    assert pipeline.approvals()["panel:panel_001"]["note"].startswith("AUTOMATED composition approval")
+    assert pipeline.store.read("final/manifest.json")["images"]["panel_001"]["path"] != flag["image_path"]
 
 
 def test_flag_on_a_panel_redrawn_some_other_way_is_settled(pipeline):

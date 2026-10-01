@@ -1,5 +1,5 @@
 {
-  "stamp": "53001961305baceda2788daa6968076dcd223c3d58eeebae4c4092f566205907",
+  "stamp": "1b0e04e9ca1eb53c313e5e7ef611c11770d13fdc24eb7d692fd28e44caafa413",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,37 +10,33 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "2 Nephi 16:5 identifies the speaker only as “I,” not Nephi. The summary, character list, explicit facts, visual inference, dialogue attribution, and notes all present that unsupported identification as fact."
-      ]
-    },
-    "scene_004": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_004": {
+      "status": "REJECT",
+      "issues": [
+        "The summary, characters, and explicit facts identify the first-person figure as Nephi, but the supplied verses do not identify him. The scene's claimed instruction establishing that identity is not an authority.",
+        "The notes incorrectly state that verse 2 was not supplied; it is included in the source."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary paraphrases dialogue rather than quoting source; spoken dialogue itself is exact.",
-        "The inference that Isaiah remains in the temple is not stated in verse 8."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The claim that the Lord's answer can be heard off-screen while Isaiah listens in the temple is not established for verses 11–12; the verses do not specify Isaiah's location during this exchange."
+        "The speaker is unnamed in the supplied verses, but the immediately preceding scene identifies the Lord speaking. The scene's unspecified-speaker treatment is conservative; attribution across the scene boundary remains uncertain."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The inference that the Lord's words can be heard off-screen while Isaiah listens in the temple is not established for verse 13; the verse does not specify Isaiah's location during this exchange."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

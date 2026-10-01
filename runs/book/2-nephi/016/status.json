@@ -4,21 +4,22 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 4,
-    "PASS WITH WARNINGS": 3,
+    "PASS": 6,
+    "PASS WITH WARNINGS": 1,
     "REJECT": 1
   },
   "rejected": {
-    "scene_003": [
-      "2 Nephi 16:5 identifies the speaker only as “I,” not Nephi. The summary, character list, explicit facts, visual inference, dialogue attribution, and notes all present that unsupported identification as fact."
+    "scene_004": [
+      "The summary, characters, and explicit facts identify the first-person figure as Nephi, but the supplied verses do not identify him. The scene's claimed instruction establishing that identity is not an authority.",
+      "The notes incorrectly state that verse 2 was not supplied; it is included in the source."
     ]
   },
-  "calls": 7,
+  "calls": 21,
   "tokens": {
-    "input_tokens": 63866,
-    "cached_input_tokens": 23424,
+    "input_tokens": 157834,
+    "cached_input_tokens": 38016,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7867,
-    "reasoning_output_tokens": 947
+    "output_tokens": 15933,
+    "reasoning_output_tokens": 3694
   }
 }

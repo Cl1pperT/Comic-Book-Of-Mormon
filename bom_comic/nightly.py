@@ -117,10 +117,7 @@ def render_chapter(book_name, chapter, deadline, provider_for):
         pipeline.adopt_portraits(LIBRARY)
     aspects = pipeline.aspects()
     panels = pipeline.panels()
-    reviews = pipeline.approvals()
-    for panel in panels:
-        if reviews.get("panel:" + panel.panel_id, {}).get("stamp") != pipeline.panel_stamp(panel, aspects):
-            pipeline.review("panel", panel.panel_id, "approve", "AUTOMATED nightly composition approval.")
+    pipeline.reapprove_panels("AUTOMATED nightly composition approval.")
     for panel in panels:
         try:
             pipeline.image_record(panel, aspects)
