@@ -110,26 +110,26 @@
     "refs": [
       "2 Nephi 16:5"
     ],
-    "summary": "Nephi laments that he is undone, says he has unclean lips and dwells among a people of unclean lips, and says he has seen the King, the Lord of Hosts.",
+    "summary": "Nephi laments that he is undone, describes himself and his people as having unclean lips, and says his eyes have seen the King, the Lord of Hosts.",
     "characters": [
       "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi says he is undone and is a man of unclean lips.",
+        "text": "The first-person speaker laments that he is undone and is a man of unclean lips.",
         "refs": [
           "2 Nephi 16:5"
         ]
       },
       {
-        "text": "Nephi says he dwells among a people of unclean lips.",
+        "text": "He says he dwells among a people of unclean lips.",
         "refs": [
           "2 Nephi 16:5"
         ]
       },
       {
-        "text": "Nephi says his eyes have seen the King, the Lord of Hosts.",
+        "text": "He says his eyes have seen the King, the Lord of Hosts.",
         "refs": [
           "2 Nephi 16:5"
         ]
@@ -139,7 +139,7 @@
       "Nephi may appear distressed while speaking."
     ],
     "unspecified_visual_details": [
-      "Nephi’s appearance, clothing, posture, and surroundings are unspecified."
+      "His appearance, clothing, posture, and surroundings are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -152,13 +152,14 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied instruction identifies the first-person speaker as Nephi.",
-      "His statement that he has seen the King does not establish that the King is visibly present during this speech.",
-      "Unclean lips should not be depicted as a physical transformation."
+      "The user explicitly identifies the chapter’s first-person narrator as Nephi; the verse uses “I.”",
+      "The reported sight of the King does not establish a visible divine appearance in this speaking moment.",
+      "Unclean lips are not described as a physical transformation."
     ],
     "prohibited_inventions": [
       "Do not depict the mentioned people as physically present.",
-      "Do not stage an appearance of the King, the Lord of Hosts.",
+      "Do not stage an appearance of the King, the Lord of Hosts, or a flashback to the reported sight.",
+      "Do not literalize unclean lips as visible contamination or transformation.",
       "Do not invent a location, additional events, or additional dialogue."
     ],
     "importance": "normal"
@@ -170,7 +171,7 @@
       "2 Nephi 16:6",
       "2 Nephi 16:7"
     ],
-    "summary": "One of the seraphim flies to Nephi with a live coal in his hand, previously taken from the altar with tongs. The seraph lays it upon Nephi's mouth and declares that his iniquity is taken away and his sin purged.",
+    "summary": "One of the seraphim flies to Nephi with a live coal in his hand, previously taken from the altar with tongs. The seraph lays it upon Nephi’s mouth and speaks.",
     "characters": [
       "Nephi",
       "Seraph"
@@ -178,7 +179,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "One of the seraphim flew to the first-person narrator, identified as Nephi by the supplied instruction, carrying a live coal in his hand.",
+        "text": "One of the seraphim flew to the first-person narrator with a live coal in his hand.",
         "refs": [
           "2 Nephi 16:6"
         ]
@@ -190,13 +191,13 @@
         ]
       },
       {
-        "text": "The seraph laid the coal upon the narrator's mouth.",
+        "text": "The seraph laid the coal upon the narrator’s mouth.",
         "refs": [
           "2 Nephi 16:7"
         ]
       },
       {
-        "text": "The seraph declared that the coal had touched the narrator's lips, his iniquity was taken away, and his sin purged.",
+        "text": "The seraph declared that the coal had touched the narrator’s lips, his iniquity was taken away, and his sin purged.",
         "refs": [
           "2 Nephi 16:7"
         ]
@@ -204,9 +205,9 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The encounter's location and the altar's position are unspecified.",
-      "The supplied verses describe the seraph flying and having a hand, but provide no further appearance details.",
-      "Nephi's appearance and the designs of the altar and tongs are unspecified."
+      "The encounter’s location and the altar’s position are unspecified.",
+      "The seraph’s appearance beyond the stated hand and flight is unspecified.",
+      "The narrator’s appearance and the designs of the altar and tongs are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -219,14 +220,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied instruction explicitly identifies the first-person narrator as Nephi; these two verses do not independently name him. The conflicting audit identification as Isaiah is not adopted.",
-      "Verse 2 is not supplied and cannot establish appearance details for this scene.",
-      "The removal of iniquity and purging of sin are the seraph's declarations, not described visible transformations."
+      "The verses identify the narrator only in the first person. The character label Nephi follows the user’s explicit identification, not a name stated in these verses.",
+      "The removal of iniquity and purging of sin are the seraph’s declarations, not described visible transformations."
     ],
     "prohibited_inventions": [
-      "Do not invent a temple setting or establish the encounter's position relative to the altar.",
-      "Do not stage the earlier taking of the coal as a simultaneous event.",
-      "Do not import wing counts, wing arrangements, or other appearance details from unsupplied verses.",
+      "Do not invent a temple setting or spatial relationship to the altar.",
+      "Do not stage the previously reported taking of the coal as a present or simultaneous action.",
+      "Do not import appearance details from unsupplied verses, including wing number or facial features.",
       "Do not invent additional figures, dialogue, burns, wounds, pain reactions, or visible purification effects."
     ],
     "importance": "normal"
@@ -361,7 +361,7 @@
       "2 Nephi 16:11",
       "2 Nephi 16:12"
     ],
-    "summary": "Nephi asks how long. The Lord answers with a prediction of desolation, removal of men, and forsaking.",
+    "summary": "Nephi asks the Lord how long. The Lord answers by predicting desolation, the removal of men far away, and great forsaking in the land.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -369,30 +369,30 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Then said I: Lord, how long?",
+        "text": "Nephi, identified as the first-person narrator in the supplied instructions, asks the Lord how long.",
         "refs": [
           "2 Nephi 16:11"
         ]
       },
       {
-        "text": "And he said: Until the cities be wasted without inhabitant, and the houses without man, and the land be utterly desolate;",
+        "text": "The Lord answers that cities will be without inhabitants, houses without people, and the land utterly desolate.",
         "refs": [
           "2 Nephi 16:11"
         ]
       },
       {
-        "text": "And the Lord have removed men far away, for there shall be a great forsaking in the midst of the land.",
+        "text": "The response describes the Lord removing men far away and a great forsaking in the land.",
         "refs": [
           "2 Nephi 16:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown listening to the answer."
+      "Nephi may be shown listening to the response."
     ],
     "unspecified_visual_details": [
-      "The location is not specified.",
-      "The Lord’s visible appearance is not described."
+      "The setting and Nephi's appearance, clothing, and posture are unspecified.",
+      "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [
       {
@@ -419,11 +419,14 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The desolation, removal, and forsaking are described in the answer, not narrated as events occurring in this scene."
+      "The supplied narrator identification establishes Nephi as the speaker of the question.",
+      "Desolation, removal, and forsaking belong to the Lord's answer, not to events shown occurring during this exchange.",
+      "The dialogue excerpts preserve the supplied wording and punctuation; speech introductions are not spoken dialogue."
     ],
     "prohibited_inventions": [
-      "Do not show the predicted desolation or removal as present action.",
-      "Do not invent a visible appearance for the Lord or a specific location."
+      "Do not substitute Isaiah for the explicitly identified narrator, Nephi.",
+      "Do not depict predicted desolation or removal as present action.",
+      "Do not invent a visible divine appearance, a specific setting, additional characters, or additional dialogue."
     ],
     "importance": "normal"
   },

@@ -4,22 +4,29 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 6,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 3,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 3
   },
   "rejected": {
+    "scene_003": [
+      "The supplied verses do not identify the first-person speaker as Nephi. The summary, character label, visual inference, dialogue attribution, and note present that unsupported identity as fact.",
+      "The summary calls the people 'his people,' but the verse says only 'a people.'"
+    ],
     "scene_004": [
-      "The summary, characters, and explicit facts identify the first-person figure as Nephi, but the supplied verses do not identify him. The scene's claimed instruction establishing that identity is not an authority.",
-      "The notes incorrectly state that verse 2 was not supplied; it is included in the source."
+      "The supplied verses do not identify the first-person narrator as Nephi. The summary, character label, and note present that unsupported identity as fact.",
+      "The note claims the user explicitly identified the narrator as Nephi, but the supplied request does not do so."
+    ],
+    "scene_007": [
+      "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, dialogue speaker, visual inference, and notes present that unsupported identification as fact. The questioner must remain unidentified."
     ]
   },
-  "calls": 21,
+  "calls": 28,
   "tokens": {
-    "input_tokens": 157834,
+    "input_tokens": 203207,
     "cached_input_tokens": 38016,
     "cache_write_input_tokens": 0,
-    "output_tokens": 15933,
-    "reasoning_output_tokens": 3694
+    "output_tokens": 19784,
+    "reasoning_output_tokens": 5016
   }
 }

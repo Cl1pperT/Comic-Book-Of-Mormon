@@ -1,5 +1,5 @@
 {
-  "stamp": "1b0e04e9ca1eb53c313e5e7ef611c11770d13fdc24eb7d692fd28e44caafa413",
+  "stamp": "975a8d26d5bb7ace6ca773ee2a4fdfa4ee982f642367c7e594754c62877e7044",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,14 +10,17 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The supplied verses do not identify the first-person speaker as Nephi. The summary, character label, visual inference, dialogue attribution, and note present that unsupported identity as fact.",
+        "The summary calls the people 'his people,' but the verse says only 'a people.'"
+      ]
     },
     "scene_004": {
       "status": "REJECT",
       "issues": [
-        "The summary, characters, and explicit facts identify the first-person figure as Nephi, but the supplied verses do not identify him. The scene's claimed instruction establishing that identity is not an authority.",
-        "The notes incorrectly state that verse 2 was not supplied; it is included in the source."
+        "The supplied verses do not identify the first-person narrator as Nephi. The summary, character label, and note present that unsupported identity as fact.",
+        "The note claims the user explicitly identified the narrator as Nephi, but the supplied request does not do so."
       ]
     },
     "scene_005": {
@@ -25,18 +28,22 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is unnamed in the supplied verses, but the immediately preceding scene identifies the Lord speaking. The scene's unspecified-speaker treatment is conservative; attribution across the scene boundary remains uncertain."
+        "Speaker and addressee are not identified in verses 9–10; retaining “Unidentified speaker” is appropriately cautious, but their identity remains uncertain."
+      ]
+    },
+    "scene_007": {
+      "status": "REJECT",
+      "issues": [
+        "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, dialogue speaker, visual inference, and notes present that unsupported identification as fact. The questioner must remain unidentified."
       ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The tenth and “holy seed” are not identified or given a specified appearance; scene appropriately leaves characters and setting unspecified. The tree language is figurative, not a present visual event."
+      ]
     }
   }
 }

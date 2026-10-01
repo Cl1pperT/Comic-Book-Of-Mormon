@@ -20,7 +20,7 @@ The demo creates `runs/offline-demo/final/comic.pdf`. Use a different `--run` di
 
 ## Supply scripture
 
-JSON input is an array of `{ "book": "3 Nephi", "chapter": 8, "verse": 1, "text": "..." }` objects. See `examples/source-format.json` for structure; replace its placeholder. Plain UTF-8 text also works, with one fully referenced verse per line:
+JSON input is an array of `{ "book": "3 Nephi", "chapter": 8, "verse": 1, "text": "..." }` objects; `data/full-scripture.json` is a complete example. Plain UTF-8 text also works, with one fully referenced verse per line:
 
 ```text
 3 Nephi 8:1 <paste the complete verse here>
