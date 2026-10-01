@@ -1029,6 +1029,20 @@ def test_diffusion_prompts_move_negations_to_negative(pipeline):
     assert diffusion_prompts(build_prompt(panel, DEFAULT_CONTINUITY, "4:3")) == (positive, negative)
 
 
+def test_the_liahona_looks_the_same_wherever_it_is_named(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    prompt = lambda action: diffusion_prompts(build_prompt(panel.model_copy(update={"action": action}),
+                                                           DEFAULT_CONTINUITY, "4:3"))
+    for action in ("Ann finds a round ball of fine brass.", "Ben takes the compass, which works again."):
+        positive, negative = prompt(action)
+        assert "The Liahona: a small round ball of fine polished brass" in positive and "modern magnetic compass" in negative
+    # "Encompassed" and "compass themselves about" are not the Liahona.
+    for action in ("Ann is encompassed by waters.", "They compass themselves about with sparks."):
+        assert "Liahona" not in prompt(action)[0]
+
+
 def test_diffusion_prompts_only_asserts_architecture_when_a_structure_is_in_scene(pipeline):
     """Architecture style rules describe a building IF one appears; asserted unconditionally
     they put a temple in every panel, including open-country scenes with no structure at all."""

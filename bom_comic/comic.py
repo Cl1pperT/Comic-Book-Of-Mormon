@@ -183,6 +183,18 @@ HEAVENLY = [
         "visual_tag": "a radiant man in shining white robes, his whole figure glowing with soft golden-white light, "
                       "standing in the air a little above the ground"}, None),
 ]
+# Objects drawn the same way wherever a panel's action names them, applied when the prompt is built like HEAVENLY.
+# Entries: (pattern over the action and inferences, description for the image model, things it must not look like).
+OBJECTS = [
+    # The Liahona (1 Nephi 16:10, 16:29; Alma 37:38): "a round ball of curious workmanship... of fine brass", two
+    # spindles within, writing on them. "The compass" in 1 Nephi 18 must not bring a modern magnetic compass along.
+    (re.compile(r"\bLiahona\b|\bthe compass\b|\bball\b|\bspindles?\b|\bdirector\b", re.I),
+     "The Liahona: a small round ball of fine polished brass, small enough to hold in two hands, its surface finely "
+     "engraved with intricate curling patterns, open at the top to show two slender brass spindles inside, faint "
+     "engraved writing along the spindles",
+     ["giant ball", "boulder-sized ball", "modern magnetic compass", "compass rose", "compass needle dial",
+      "clock face", "glass globe", "crystal ball"]),
+]
 # A prohibition about one of these figures that mentions how it looks contradicts its convention.
 _APPEARANCE = ("wing", "halo", "glow", "light", "radian", "robe", "white", "form", "body", "appearance", "figure",
                "face", "feature", "visib", "depict", "shape", "gender", "woman", "female")
@@ -493,6 +505,11 @@ def diffusion_prompts(prompt):
         positive.append(f"Seen in {vision['seer']}'s {vision['kind']}: a luminous, dreamlike scene bathed in soft "
                         "golden light, its edges dissolving into glowing haze")
     negative += DIFFUSION_NEGATIVE
+    # Named objects look the same in every panel that shows them.
+    for pattern, look, unlike in OBJECTS:
+        if pattern.search(" ".join([action, *inferences])):
+            positive.append(look)
+            negative += unlike
     names = list(people)
     if people:
         entries, known = [], True
@@ -991,7 +1008,7 @@ def _cover_fonts():
     from PIL import ImageFont
     load = lambda name, size: ImageFont.truetype(str(FONTS / f"EBGaramond-{name}.ttf"), size)
     return {"title": load("SemiBold", 66), "kicker": load("Regular", 24), "heading": load("SemiBold", 20),
-            "body": load("Regular", 27), "note": load("Italic", 20)}
+            "body": load("Regular", 27)}
 
 
 def draw_cover(art_path, intro, where):
