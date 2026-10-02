@@ -99,6 +99,21 @@ def test_guide_is_written_audited_and_repaired(run):
     assert any("Cover refs" in i for i in issues) and any("opener is 100 words" in i for i in issues)
 
 
+def test_a_rejected_guide_is_retried_once_from_its_draft(run):
+    run.provider = Fake(verdicts=("REJECT", "REJECT"))
+    rejected = guide.write(run)
+    # A draft that passes its second audit is kept as it is.
+    run.provider = Fake(verdicts=("PASS",))
+    assert guide.write(run, retry=rejected)["verdict"]["status"] == "PASS"
+    assert [tag for tag, _ in run.provider.asked] == ["intro_retry_audit"]
+    # One that fails again is repaired, told why, instead of starting over; it is marked so it isn't repeated.
+    run.provider = Fake(verdicts=("REJECT", "PASS"))
+    record = guide.write(run, retry=rejected)
+    assert [tag for tag, _ in run.provider.asked] == ["intro_retry_audit", "intro_repair", "intro_reaudit"]
+    assert "x" in run.provider.asked[1][1] and rejected["intro"]["title"] in run.provider.asked[1][1]
+    assert record["verdict"]["status"] == "PASS" and record["escalated"] and guide.read(run.store)
+
+
 def test_dreams_and_visions_mark_their_panels(run):
     guide.write(run)
     intro = run.intro()

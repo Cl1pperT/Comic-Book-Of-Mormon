@@ -1057,38 +1057,35 @@
       "1 Nephi 16:26",
       "1 Nephi 16:27"
     ],
-    "summary": "The Lord's voice tells Lehi to look upon the ball and see what is written. Lehi, Nephi's brothers, the sons of Ishmael, and their wives fear and tremble when Lehi sees the writing.",
+    "summary": "The voice of the Lord tells Lehi to look at the ball and its writing. When Lehi sees what is written, he, Nephi's brethren, the sons of Ishmael, and their wives fear and tremble exceedingly.",
     "characters": [
       "Lehi",
-      "Laman",
-      "Lemuel",
-      "Sam",
-      "Nephi",
+      "Nephi's brethren",
       "Sons of Ishmael",
-      "The daughters of Ishmael"
+      "Their wives"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord's voice tells Lehi to look upon the ball and behold what is written.",
+        "text": "The voice of the Lord tells Lehi to look upon the ball and behold what is written.",
         "refs": [
-          "1 Nephi 16:26"
+          "1 Nephi 16:26",
+          "1 Nephi 16:27"
         ]
       },
       {
-        "text": "When Lehi sees the writing, he, Nephi's brothers, the sons of Ishmael, and their wives fear and tremble exceedingly.",
+        "text": "When Lehi beholds what is written on the ball, he, Nephi's brethren, the sons of Ishmael, and their wives fear and tremble exceedingly.",
         "refs": [
           "1 Nephi 16:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The ball may be shown with writing as Lehi looks at it, with the named group nearby."
+      "Lehi may be shown looking at the ball while the others react."
     ],
     "unspecified_visual_details": [
-      "The writing's content and visual form are not provided."
+      "The content and appearance of the writing are not given.",
+      "The location is not specified."
     ],
     "spoken_dialogue": [
       {
@@ -1101,10 +1098,10 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The divine voice is audible in the account, but no visible divine appearance is described."
+      "The voice is heard, but no visible appearance of the Lord is described."
     ],
     "prohibited_inventions": [
-      "Do not invent the writing's content or show the Lord."
+      "Do not invent the writing's content, depict the Lord, or identify individual brethren not named in these verses."
     ],
     "importance": "normal"
   },
@@ -1479,32 +1476,36 @@
     "refs": [
       "1 Nephi 16:37"
     ],
-    "summary": "Laman tells Lemuel and the sons of Ishmael that they should kill Lehi and Nephi.",
+    "summary": "Laman tells Lemuel and the sons of Ishmael that they should slay their father and their brother Nephi.",
     "characters": [
       "Laman",
       "Lemuel",
       "Sons of Ishmael"
     ],
-    "locations": [
-      "Nahom"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Laman tells Lemuel and the sons of Ishmael to slay Lehi and Nephi.",
+        "text": "Laman speaks to Lemuel and the sons of Ishmael.",
+        "refs": [
+          "1 Nephi 16:37"
+        ]
+      },
+      {
+        "text": "Laman proposes slaying their father and their brother Nephi.",
         "refs": [
           "1 Nephi 16:37"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman may be shown speaking privately or among the group, with Lemuel and the sons of Ishmael listening."
+      "Lemuel and the sons of Ishmael may be shown listening to Laman."
     ],
     "unspecified_visual_details": [
-      "Their precise positions and any gestures are not specified."
+      "The location, positions, and gestures are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, let us slay our father, and also our brother Nephi,",
+        "text": "Behold, let us slay our father, and also our brother Nephi, who has taken it upon him to be our ruler and our teacher, who are his elder brethren.",
         "refs": [
           "1 Nephi 16:37"
         ],
@@ -1512,9 +1513,12 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The claim that Nephi has taken it upon himself to rule and teach is part of Laman's speech."
+    ],
     "prohibited_inventions": [
-      "Do not depict an attempted attack; the verse records a proposal."
+      "Do not assign a location or depict an attempted attack.",
+      "Do not show Nephi or their father as present solely because Laman mentions them."
     ],
     "importance": "normal"
   },

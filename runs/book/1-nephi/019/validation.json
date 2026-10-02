@@ -1,5 +1,5 @@
 {
-  "stamp": "ad3a4af44ab239341187630e3501b7514388d0c9e5ad64e8086d1e47414b6276",
+  "stamp": "d511d39e6445a73b4c7c94d434a99b462a865109c75fd4f8df022402b64a33bd",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,12 +12,14 @@
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The supplied verses identify the first-person writer as Nephi in nearby context, but verses 6–7 do not name the writer; depicting him specifically as Nephi relies on that contextual identification."
+        "The summary adds that Nephi acknowledges his weakness, but the narration omits that statement; include a contiguous exact quotation if narration must support all summarized events. The displayed narration excerpts are otherwise verbatim, and the figurative trampling is correctly treated as figurative."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary includes the prophesied scourging, smiting, spitting, and his suffering, but the narration quotes only verses 8–9’s first two clauses. Add separate exact excerpts to support those stated events. The future mistreatment is correctly kept out of Nephi’s present."
+      ]
     },
     "scene_005": {
       "status": "PASS",

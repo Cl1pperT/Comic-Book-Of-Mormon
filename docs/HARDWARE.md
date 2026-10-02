@@ -30,7 +30,7 @@ performs on it, so render-time estimates can be read against the machine that pr
 | One panel (Flux dev Q8, ~1 megapixel, 24 steps, cfg 2) | 195–215 s, about 8 s per step |
 | First panel of a run (includes loading the model) | ~245 s |
 | One reference portrait | ~3–4 min |
-| One night (11 PM–7 AM) | ~100–120 panels, about 6–8 chapters |
+| One night (11 PM–7:45 AM) | ~100–120 panels, about 6–8 chapters |
 | Writing one chapter with Codex (write + check + repairs) | ~2–5 min |
 
 Notes:

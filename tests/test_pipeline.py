@@ -1043,6 +1043,25 @@ def test_the_liahona_looks_the_same_wherever_it_is_named(pipeline):
         assert "Liahona" not in prompt(action)[0]
 
 
+def test_the_church_of_the_devil_is_never_drawn_as_a_person(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0].model_copy(update={
+        "action": "Ann beholds the whore of all the earth seated upon many waters.",
+        "characters_visible": ["Ann", "the whore of all the earth", "harlots"]})
+    continuity = {**DEFAULT_CONTINUITY, "characters": {"Ann": {"visual_design_choices": ["A woman in a red cloak."]}}}
+    positive, negative = diffusion_prompts(build_prompt(panel, continuity, "4:3"))
+    assert "The great and abominable church, shown as a vast proud throng" in positive
+    assert "a woman seated on the waters" in negative and "cross" in negative
+    # Its labels leave the people list, and the throng isn't forbidden by a head count.
+    assert "People: Ann (" in positive and "whore of all the earth (" not in positive and "harlots" not in positive
+    assert "One person only" not in positive and "crowd" not in negative.split(", ")
+    # "Harlots" elsewhere (Alma 39) are people like any other.
+    other = panel.model_copy(update={"action": "Ann speaks of harlots.", "characters_visible": ["Ann", "harlots"]})
+    assert "People: Ann (" in diffusion_prompts(build_prompt(other, continuity, "4:3"))[0]
+    assert "harlots" in diffusion_prompts(build_prompt(other, continuity, "4:3"))[0].split("People: ")[1]
+
+
 def test_diffusion_prompts_only_asserts_architecture_when_a_structure_is_in_scene(pipeline):
     """Architecture style rules describe a building IF one appears; asserted unconditionally
     they put a temple in every panel, including open-country scenes with no structure at all."""

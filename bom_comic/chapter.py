@@ -36,6 +36,8 @@ authority. REJECT if the guide states anything the verses (or, for the recap, th
 names the wrong person or place, misdescribes a dream or vision range (one that is not a dream or vision, or a
 missing one), or gives a cover moment the cited verses do not show. PASS WITH WARNINGS for small imprecision that would
 not mislead a new reader. Otherwise PASS. List each problem in issues.
+Judge only the guide's own text (title, recap, opener, cover, visions). The scenes are supplied as context and are
+audited separately: a problem in a scene's labels or summary is not a problem in the guide.
 """
 
 
@@ -72,19 +74,28 @@ def request(pipeline, previous=None):
             "previous_chapter_guide": previous}
 
 
-def write(pipeline, previous=None):
+def write(pipeline, previous=None, retry=None):
     """Write, audit, and if needed repair once the chapter's guide; saves and returns the intro.json record.
-    previous: the previous chapter's guide (title, opener), for the recap."""
+    previous: the previous chapter's guide (title, opener), for the recap. retry: a rejected intro.json record to
+    re-audit and, if it still fails, repair, instead of writing a fresh draft."""
     provider, verses = pipeline.provider, pipeline.verses()
     ask = request(pipeline, previous)
-    intro = provider.structured(PROMPT + json.dumps(ask), ChapterIntro, "intro")
-    verdict = _audit(provider, intro, ask, verses, "intro_audit")
+    if retry:
+        # The rejected draft is audited again first (by the escalation auditor, and audit rules can have changed
+        # since); only a draft that still fails is rewritten, told why.
+        intro = ChapterIntro.model_validate(retry["intro"])
+        verdict = _audit(provider, intro, ask, verses, "intro_retry_audit")
+    else:
+        intro = provider.structured(PROMPT + json.dumps(ask), ChapterIntro, "intro")
+        verdict = _audit(provider, intro, ask, verses, "intro_audit")
     if verdict.status == "REJECT":
         fix = PROMPT + "\nAn audit rejected the previous draft for these reasons; fix them:\n- " + \
             "\n- ".join(verdict.issues) + "\nPrevious draft: " + intro.model_dump_json() + "\n"
         intro = provider.structured(fix + json.dumps(ask), ChapterIntro, "intro_repair", "repair")
         verdict = _audit(provider, intro, ask, verses, "intro_reaudit")
     record = {"intro": intro.model_dump(), "verdict": verdict.model_dump(), "stamp": stamp(pipeline)}
+    if retry:
+        record["escalated"] = True  # one escalated retry per rejected guide; a later one is for a person
     pipeline.store.write(INTRO, record)
     pipeline.store.event("intro", status=verdict.status, issues=verdict.issues)
     return record

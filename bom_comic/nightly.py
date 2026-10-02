@@ -5,7 +5,7 @@ a half-rendered chapter keeps its finished panels (only panels without a current
 here are recorded as AUTOMATED first-draft approvals; review happens afterwards in the reader, where flagged panels
 wait for a later re-render. Chapters whose scenes are still rejected after repair are skipped and reported.
 
-Run: python -m bom_comic.nightly --until 07:00
+Run: python -m bom_comic.nightly --until 07:45
 """
 import argparse
 import datetime
@@ -276,8 +276,9 @@ def run(until, write=True, render=True, new_only=False):
                 if comfy is None and not comfy_up():
                     comfy = start_comfy(night / "comfyui.log")
                 name, chapter = todo[0]
-                if codex_ok and not (book.folder(ROOT, name, chapter) / "intro.json").exists():
-                    # The chapter's guide (cover moment, opener card, dreams and visions) before its pages.
+                if codex_ok:
+                    # The chapter's guide (cover moment, opener card, dreams and visions) before its pages; skipped
+                    # when current, and a rejected one gets a single escalated retry (book.write_intros).
                     try:
                         _, reason = book.write_intros(ROOT, make_codex, only={(name, chapter)})
                         if reason == "usage limit":
@@ -312,7 +313,7 @@ def run(until, write=True, render=True, new_only=False):
 
 def main():
     parser = argparse.ArgumentParser(description="Nightly write-ahead and render job")
-    parser.add_argument("--until", default="07:00", help="Stop starting new panels at this local time (HH:MM)")
+    parser.add_argument("--until", default="07:45", help="Stop starting new panels at this local time (HH:MM)")
     parser.add_argument("--no-write", action="store_true", help="Render only; don't call Codex")
     parser.add_argument("--no-render", action="store_true", help="Write/repair scenes only")
     parser.add_argument("--new-only", action="store_true",

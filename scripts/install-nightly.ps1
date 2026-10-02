@@ -6,6 +6,6 @@ $trigger = New-ScheduledTaskTrigger -Daily -At "23:00"
 # WakeToRun brings the PC out of sleep at midnight (Windows' "Allow wake timers" power setting must be on).
 # No StartWhenAvailable: a missed midnight shouldn't turn into a daytime render.
 $settings = New-ScheduledTaskSettingsSet -WakeToRun -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
-    -ExecutionTimeLimit (New-TimeSpan -Hours 9) -MultipleInstances IgnoreNew  # the job itself stops at 7 AM
+    -ExecutionTimeLimit (New-TimeSpan -Hours 10) -MultipleInstances IgnoreNew  # the job itself stops at 7:45 AM
 Register-ScheduledTask -TaskName "ComicBOM Nightly" -Action $action -Trigger $trigger -Settings $settings `
-    -Description "Write Book of Mormon comic scenes ahead with Codex, then render chapters with ComfyUI until 7am." -Force
+    -Description "Write Book of Mormon comic scenes ahead with Codex, then render chapters with ComfyUI until 7:45am." -Force

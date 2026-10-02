@@ -6,6 +6,7 @@ leaves status.json in its folder and is skipped on the next run, so a run stoppe
 """
 import json
 import os
+from contextlib import contextmanager, nullcontext
 from pathlib import Path
 from .analysis import deterministic_issues, unquote
 from .errors import ProviderError
@@ -146,12 +147,10 @@ def _repair(pipeline, report):
     return report
 
 
-def _escalate(pipeline, report):
-    """One last round for scenes the regular repairs couldn't fix: stronger models for the rewrite and the re-audit.
-    Providers without model settings (tests, other services) just get one more ordinary round."""
-    if not _rejected(report):
-        return report
-    provider = pipeline.provider
+@contextmanager
+def stronger(provider):
+    """The escalation models for rewrites ("repair") and audits ("validator") while inside. Providers without model
+    settings (tests, other services) are left as they are."""
     models, effort = getattr(provider, "models", None), getattr(provider, "effort", None)
     saved = (dict(models), dict(effort)) if models is not None and effort is not None else None
     if saved:
@@ -160,6 +159,19 @@ def _escalate(pipeline, report):
         effort.update(repair=os.getenv("CODEX_ESCALATE_EFFORT", effort["repair"]),
                       validator=os.getenv("CODEX_ESCALATE_VALIDATOR_EFFORT", effort["validator"]))
     try:
+        yield
+    finally:
+        if saved:
+            models.clear(), models.update(saved[0])
+            effort.clear(), effort.update(saved[1])
+
+
+def _escalate(pipeline, report):
+    """One last round for scenes the regular repairs couldn't fix: stronger models for the rewrite and the re-audit.
+    Providers without model settings (tests, other services) just get one more ordinary round."""
+    if not _rejected(report):
+        return report
+    with stronger(pipeline.provider):
         rejected = _rejected(report)
         for sid in rejected:
             try:
@@ -169,10 +181,6 @@ def _escalate(pipeline, report):
         # Only the rewritten scenes face the stricter auditor; re-auditing the whole chapter rejected scenes the
         # regular auditor had passed (Mosiah 7 went from 2 rejected to 6).
         return pipeline.revalidate(rejected)
-    finally:
-        if saved:
-            models.clear(), models.update(saved[0])
-            effort.clear(), effort.update(saved[1])
 
 
 def _finish(store, pipeline, book, chapter, last, report):
@@ -395,6 +403,7 @@ def fix_speakers(root="runs/book", make_provider=None):
 def write_intros(root="runs/book", make_provider=None, only=None):
     """Write each written chapter's reader's guide (see chapter.py) in book order, skipping chapters whose guide is
     current. Each guide's recap draws on the previous chapter's guide. only: a set of (book, chapter) to limit to.
+    A current guide its audit rejected gets one retry with the escalation models, repairing the rejected draft.
     Stops at a usage limit; returns ([(book, chapter, status)], reason)."""
     from . import chapter as guide
     make_provider = make_provider or _codex()
@@ -409,11 +418,16 @@ def write_intros(root="runs/book", make_provider=None, only=None):
                     previous, last_book = None, status["book"]  # a new book starts without a recap
                 pipeline = Pipeline(store, None)
                 wanted = only is None or key in only
-                if wanted and not guide.current(pipeline) and not status["counts"]["REJECT"]:
+                fresh = not guide.current(pipeline)
+                old = store.read(guide.INTRO) if store.path(guide.INTRO).exists() else None
+                retry = old if not fresh and old and old["verdict"]["status"] == "REJECT" and \
+                    not old.get("escalated") else None
+                if wanted and (fresh or retry) and not status["counts"]["REJECT"]:
                     pipeline.provider = make_provider(store)
                     pipeline.provider.reuse_responses = True
                     try:
-                        record = guide.write(pipeline, previous)
+                        with stronger(pipeline.provider) if retry else nullcontext():
+                            record = guide.write(pipeline, previous, retry)
                     except (ProviderError, ValueError) as exc:  # ValueError: a reply that didn't fit the schema
                         if "usage limit" in str(exc).lower():
                             return done, "usage limit"

@@ -1,5 +1,5 @@
 {
-  "stamp": "054e372ef071aa872adc234eaf6d3a0154ac64905ceaf9ed8868b24e7ddc4a96",
+  "stamp": "42d069224ba4d7163cbf861e50bf350b0f0e3afe27f3ac0cc311b3dc6b725a4d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -81,10 +81,8 @@
     "scene_019": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene is consistent with 1 Nephi 16:26–27. The prior scene’s reported sequence does not alter this chronology.",
-        "Warning: “wilderness” as the location is not specified in these verses.",
-        "Warning: The named character labels are supported by the supplied verses, but the collective terms “sons of Ishmael” and “our wives” do not establish the individual identities of every person listed.",
-        "The ball may be shown with writing, but the source does not specify its visual form or content; do not depict the Lord, whose voice alone is described. The dialogue is verbatim."
+        "The dialogue is a verbatim excerpt from 1 Nephi 16:26, but omits the source's introductory phrase identifying the voice as the speaker; the stated speaker is nevertheless supported.",
+        "The listed characters use collective labels rather than the verse's wording: it identifies Nephi's father, his brethren, the sons of Ishmael, and “our wives,” without specifying whose wives individually. No individual identities should be inferred."
       ]
     },
     "scene_020": {
@@ -118,10 +116,8 @@
       "issues": []
     },
     "scene_027": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The cited verse does not specify that this exchange took place at Nahom; that location is inferred from the preceding account."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_028": {
       "status": "PASS",
