@@ -417,6 +417,13 @@ def test_reader_pages_through_a_folder_of_chapters_in_book_order(pipeline, tmp_p
         # A chapter outside the discovered list is refused.
         with pytest.raises(urllib.error.HTTPError):
             urllib.request.urlopen(base + "/data?chapter=../..")
+        # The book's title page, once made, comes first.
+        (root / "title").mkdir()
+        shutil.copy(root / "alma/001/pages/page_001.png", root / "title/page.png")
+        chapters = json.loads(urllib.request.urlopen(base + "/chapters").read())
+        assert [c["title"] for c in chapters] == ["Title page", "1 Nephi 2", "Alma 1"]
+        assert json.loads(urllib.request.urlopen(base + "/data?chapter=title").read())["pages"][0]["label"] == "Title page"
+        assert urllib.request.urlopen(base + "/page/0?chapter=title").read().startswith(b"\x89PNG")
     finally:
         reader.ThreadingHTTPServer = real
         for server in servers:

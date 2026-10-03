@@ -17,6 +17,7 @@ from .storage import Store
 
 FLAGS = "review/flags.json"
 COVER = "cover"  # the chapter's cover art, flagged like a panel (it has its own page, page 0)
+TITLE = "title"  # the book's title page (title.py), shown first when a folder of runs has one; nothing to flag
 PAGE = Path(__file__).parent / "reader.html"
 
 
@@ -94,10 +95,18 @@ def flag(store, panel_id, note):
     return current
 
 
+def title_page(store):
+    """The book's title page image under a folder of runs, or None."""
+    path = store.root / TITLE / "page.png"
+    return path if path.exists() and not store.path("final/manifest.json").exists() else None
+
+
 def overview(store):
     """Every assembled chapter with its size and flags, for the chapter picker and the book-wide flag list."""
     from .redraw import redrawn  # redraw builds on this module
     out = []
+    if title_page(store):
+        out.append({"id": TITLE, "title": "Title page", "pages": 1, "panels": {}, "flags": {}, "redrawn": {}})
     for chapter_id, chapter in chapters(store).items():
         manifest = chapter.read("final/manifest.json")
         panels = [Panel.model_validate(p) for p in manifest["panels"]]
@@ -144,6 +153,11 @@ def serve(store, port=8765, open_browser=True):
                     self.send(PAGE.read_bytes(), "text/html; charset=utf-8")
                 elif url.path == "/chapters":
                     self.send_json(overview(store))
+                elif url.path == "/data" and query.get("chapter", [""])[0] == TITLE and title_page(store):
+                    self.send_json({"run": TITLE, "size": PAGE_SIZE, "images": {}, "flags": {}, "redrawn": {},
+                                    "pages": [{"number": 0, "label": "Title page", "panels": []}]})
+                elif url.path == "/page/0" and query.get("chapter", [""])[0] == TITLE and title_page(store):
+                    self.send(title_page(store).read_bytes(), "image/png")
                 elif url.path == "/data":
                     from .redraw import redrawn
                     run = chapter(query)

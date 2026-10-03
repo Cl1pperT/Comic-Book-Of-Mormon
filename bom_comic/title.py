@@ -23,7 +23,7 @@ HERO_ASPECT = "7:10"
 # (key, chapter folder whose cast resolves the label, label, place, action). 3 Nephi 11:8: "they saw a Man descending
 # out of heaven; and he was clothed in a white robe".
 HERO = ("hero", "3-nephi/011", "Jesus Christ", "Temple in the land Bountiful",
-        "Jesus Christ descends out of heaven with his arms outstretched, rays of light breaking through the clouds "
+        "Jesus Christ, in a plain all-white robe, descends out of heaven with his arms outstretched, rays of light breaking through the clouds "
         "behind him, above a great terraced stone temple of ancient South American design with broad stairways, a "
         "multitude gathered on the plaza below looking up in awe")
 # Ten figures across the book, in its order: two rows of five.
@@ -45,27 +45,33 @@ CHARACTERS = [
     ("moroni", "moroni/010", "Moroni", "", "Moroni, alone, kneels to hide the gold plates in the earth of a hillside",
      "MORONI"),
 ]
+# Things a drawing must not show (its negative prompt): Christ's robe is plain white (3 Nephi 11:8); Ammon's weapon at
+# Sebus is a sling (Alma 17:36).
+AVOID = {"hero": ["a red sash", "a colored mantle or stole"], "ammon": ["bow and arrows", "a bow"]}
 COLUMNS, PANEL_H, GAP, NAME_H = 5, 280, 14, 34
 PANEL_W = (PAGE_SIZE[0] - 2 * MARGIN - (COLUMNS - 1) * GAP) // COLUMNS
 PANEL_ASPECT = "8:9"  # about PANEL_W x PANEL_H
 
 
-def _panel(pipeline, label, place, action, hero):
+def _panel(pipeline, label, place, action, hero, avoid=()):
     return Panel(panel_id="panel_001", scene_id="title", page=1, panel_number=1, weight=6 if hero else 1,
                  refs=[pipeline.verses()[0].ref], characters_visible=[label], location=[place] if place else [],
                  action=action, shot="splash" if hero else "close",
                  mood="Reverent, glorious, monumental" if hero else "Heroic, reverent",
-                 camera="Book-cover composition, low angle" if hero else "Waist-up heroic portrait, slight low angle",
+                 camera="Book-cover composition, low angle" if hero else
+                 "Close-up portrait from the chest up, slight low angle",
                  composition=("Christ at upper center, open sky across the top fifth, the temple across the middle, "
-                              "the crowd along the bottom") if hero else "One figure filling the frame",
-                 dialogue=[], narration=[], visual_facts=[], visual_inferences=[], creative_details=[], prohibited=[])
+                              "the crowd along the bottom") if hero else
+                 "One figure, head and shoulders large in the frame, the setting only behind him",
+                 dialogue=[], narration=[], visual_facts=[], visual_inferences=[], creative_details=[],
+                 prohibited=list(avoid))
 
 
-def prompt_for(run, label, place, action, aspect, hero=False):
+def prompt_for(run, label, place, action, aspect, hero=False, avoid=()):
     """The structured prompt for one title-page drawing, drawn like a panel of that chapter."""
     from .pipeline import Pipeline
     pipeline = Pipeline(Store(ROOT / run), None, LIBRARY)
-    panel = _panel(pipeline, label, place, action, hero)
+    panel = _panel(pipeline, label, place, action, hero, avoid)
     view, continuity = pipeline.shown([panel])[panel.panel_id]
     return build_prompt(view, continuity, aspect)
 
@@ -82,7 +88,7 @@ def draw(provider, store, redraw=()):
         if path.exists() and key not in redraw:
             continue
         path.parent.mkdir(parents=True, exist_ok=True)
-        prompt = prompt_for(run, label, place, action, aspect, hero)
+        prompt = prompt_for(run, label, place, action, aspect, hero, AVOID.get(key, ()))
         store.write(f"prompts/{key}.json", {"prompt": prompt})
         # Each drawing keeps its own file (ComfyUI's seed comes from the name, so a redraw differs); key.png is the
         # one the page uses.
