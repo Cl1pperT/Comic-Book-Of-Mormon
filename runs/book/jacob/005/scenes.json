@@ -1,64 +1,90 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Zenos’s Allegory Introduced",
+    "title": "Jacob Introduces Zenos’s Likeness",
     "refs": [
       "Jacob 5:1",
       "Jacob 5:2",
       "Jacob 5:3"
     ],
-    "summary": "Jacob recalls the words of Zenos, who likens the house of Israel to a tame olive tree nourished in a vineyard until it grows old and begins to decay.",
-    "characters": [],
+    "summary": "Jacob asks his brethren to remember Zenos’s words to the house of Israel. Zenos calls Israel to listen and quotes the Lord likening it to a tame olive tree that a man nourished in his vineyard before it grew old and began to decay.",
+    "characters": [
+      "Jacob",
+      "Zenos (quoted, not physically present)",
+      "The Lord (quoted, not visibly present)"
+    ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location of Jacob’s address",
+      "Vineyard within the likeness"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob refers to Zenos’s words to the house of Israel.",
+        "text": "Jacob asks his brethren whether they remember reading the words Zenos spoke to the house of Israel.",
         "refs": [
           "Jacob 5:1"
         ]
       },
       {
-        "text": "Zenos calls the house of Israel to hear his words as a prophet of the Lord.",
+        "text": "Zenos calls on the house of Israel to hear his words as a prophet of the Lord.",
         "refs": [
           "Jacob 5:2"
         ]
       },
       {
-        "text": "The Lord likens the house of Israel to a tame olive tree that a man nourishes in a vineyard; it grows old and begins to decay.",
+        "text": "Zenos quotes the Lord likening the house of Israel to a tame olive tree that a man took and nourished in his vineyard; the tree grew old and began to decay.",
         "refs": [
           "Jacob 5:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The olive tree and vineyard can be shown as illustrations of the allegory being related."
+      "Jacob may be shown addressing his brethren.",
+      "The tree and vineyard may appear as an illustration of the likeness, not as a separate historical event."
     ],
     "unspecified_visual_details": [
-      "Whether Jacob is visibly present while the allegory is recounted.",
-      "The identities and appearances of Zenos and the man in the allegory."
+      "The appearance of Jacob and his brethren.",
+      "The location of Jacob’s address.",
+      "The appearance of the tree, vineyard, and unnamed man within the likeness."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Behold, my brethren, do ye not remember to have read the words of the prophet Zenos,",
+        "text": "Behold, my brethren, do ye not remember to have read the words of the prophet Zenos, which he spake unto the house of Israel, saying:",
         "refs": [
           "Jacob 5:1"
-        ]
+        ],
+        "speaker": "Jacob"
       },
       {
-        "text": "I will liken thee, O house of Israel, like unto a tame olive-tree",
+        "text": "Hearken, O ye house of Israel, and hear the words of me, a prophet of the Lord.",
+        "refs": [
+          "Jacob 5:2"
+        ],
+        "speaker": "Zenos"
+      },
+      {
+        "text": "For behold, thus saith the Lord,",
         "refs": [
           "Jacob 5:3"
-        ]
+        ],
+        "speaker": "Zenos"
+      },
+      {
+        "text": "I will liken thee, O house of Israel, like unto a tame olive-tree,",
+        "refs": [
+          "Jacob 5:3"
+        ],
+        "speaker": "The Lord (quoted by Zenos)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The olive tree is explicitly a likeness for the house of Israel, not a separate literal event."
+      "The tame olive tree is explicitly a likeness for the house of Israel.",
+      "The Lord’s words are quoted by Zenos; the verses do not describe the Lord appearing."
     ],
     "prohibited_inventions": [
-      "Do not depict the allegory as a literal historical event involving named historical people."
+      "Do not depict Zenos or the Lord as physically present at Jacob’s address.",
+      "Do not present the tree’s growth and decay as a separate literal historical scene.",
+      "Do not invent appearances, identities, or dialogue for the unnamed man or Jacob’s brethren."
     ],
     "importance": "normal"
   },

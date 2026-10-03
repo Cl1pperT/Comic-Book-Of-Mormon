@@ -1,9 +1,12 @@
 {
-  "stamp": "43f8e8b1ece67c0b6d1e769f73de1796a02f0472aacfa435b632fe967fbf6343",
+  "stamp": "b11ba52b69523d1abab8a45c212fd01f47b6400bd7b3bf8c58a0ea0f6a9f2d4d",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The first spoken excerpt omits the verse’s opening “And now,” so it is not an exact contiguous quotation as written; quote the full phrase “And now, my son, I perceive there is somewhat more which doth worry your mind” or use an exact shorter excerpt.",
+        "The second spoken excerpt is not verbatim: source says “Now behold, my son,” not “my son,” and the excerpt also changes punctuation. The presented Eden details are correctly framed as Alma recounting a past event, not as simultaneous action."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

@@ -388,7 +388,8 @@
     "summary": "A speaker commands a young addressee to counsel with his elder brothers in his undertakings and heed their counsel.",
     "characters": [
       "Unidentified speaker",
-      "Young addressee"
+      "Young addressee",
+      "Elder brothers (mentioned)"
     ],
     "locations": [
       "Unspecified location"
@@ -408,14 +409,14 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses the young person."
+      "The speaker addresses the young addressee."
     ],
     "unspecified_visual_details": [
       "The speaker’s and addressee’s appearances and surroundings."
     ],
     "spoken_dialogue": [
       {
-        "text": "And give heed to their counsel.",
+        "text": "And I command you to take it upon you to counsel with your elder brothers in your undertakings; for behold, thou art in thy youth, and ye stand in need to be nourished by your brothers. And give heed to their counsel.",
         "refs": [
           "Alma 39:10"
         ],
@@ -427,8 +428,8 @@
       "Do not depict being nourished by the brothers as literal feeding."
     ],
     "prohibited_inventions": [
-      "Do not assign a name to the speaker or addressee.",
-      "Do not show the elder brothers as present."
+      "Do not assign names to the speaker, addressee, or brothers.",
+      "Do not show the elder brothers as present or depict the addressee seeking their counsel as an event in this scene."
     ],
     "importance": "normal"
   },

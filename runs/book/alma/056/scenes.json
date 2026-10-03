@@ -56,7 +56,7 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "The young men volunteer",
+    "title": "The young men take up weapons",
     "refs": [
       "Alma 56:3",
       "Alma 56:4",
@@ -65,20 +65,20 @@
       "Alma 56:7",
       "Alma 56:8"
     ],
-    "summary": "In the letter, Helaman reports that two thousand young men descended from Laman took up weapons and came to defend their country. Their fathers had covenanted not to take up weapons against their brethren; when the young men were ready to break that covenant to defend the Nephites, Helaman would not let them.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Two thousand young men took up weapons, wanted the first-person speaker to lead them, and came forth to defend their country. Their fathers had covenanted not to take up weapons against their brethren. In the twenty-sixth year, the fathers were about to break that covenant, but the speaker would not allow it.",
+    "characters": [
+      "Two thousand young men"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The two thousand young men are descendants of Laman, eldest son of Lehi.",
+        "text": "The two thousand young men were descendants of Laman, the eldest son of Lehi.",
         "refs": [
           "Alma 56:3"
         ]
       },
       {
-        "text": "The two thousand young men took up weapons and wanted Helaman to lead them in defending their country.",
+        "text": "The young men took up weapons, wanted the first-person speaker as their leader, and came forth to defend their country.",
         "refs": [
           "Alma 56:5"
         ]
@@ -90,23 +90,23 @@
         ]
       },
       {
-        "text": "In the twenty-sixth year, the young men were about to break that covenant and take up weapons in the Nephites’ defense.",
+        "text": "In the twenty-sixth year, the fathers were about to break their covenant and take up weapons in defense of the speaker's people.",
         "refs": [
           "Alma 56:7"
         ]
       },
       {
-        "text": "Helaman would not allow them to break the covenant, supposing God would strengthen the Nephites.",
+        "text": "The first-person speaker would not allow the fathers to break their covenant, supposing God would strengthen his people.",
         "refs": [
           "Alma 56:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The young men can be shown with weapons, expressing readiness to defend their country."
+      "The young men may be shown carrying weapons."
     ],
     "unspecified_visual_details": [
-      "Whether the young men are shown in a single gathering or in separate moments; their clothing and the place of the reported events."
+      "The young men's appearance, the weapons' design, and the location are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -115,19 +115,15 @@
         "refs": [
           "Alma 56:5"
         ]
-      },
-      {
-        "text": "I would not suffer them",
-        "refs": [
-          "Alma 56:8"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The covenant and Helaman’s decision are reported in the letter, not narrated as a present-time event."
+      "The fathers' covenant and their later intention to break it are reported events, not events to combine with the young men's gathering.",
+      "Verse 8's first-person action is conveyed in the summary rather than an unattributed first-person caption."
     ],
     "prohibited_inventions": [
-      "Do not show their fathers making the covenant in this scene."
+      "Do not insert a name into a quotation or depict the fathers making their earlier covenant in this scene.",
+      "Do not depict the fathers' contemplated action as something the young men did."
     ],
     "importance": "normal"
   },
@@ -204,51 +200,70 @@
       "Alma 56:11",
       "Alma 56:12"
     ],
-    "summary": "Helaman says the Nephites can console themselves that those who died did so for their country and God. He reports that the Lamanites retained many prisoners, all chief captains, and supposes they were then in the land of Nephi if they had not been slain.",
-    "characters": [],
+    "summary": "In his letter, Helaman consoles his people about those who died for their country and God. He reports that the Lamanites retained many prisoners, all chief captains, and supposes they are in the land of Nephi if they have not been slain.",
+    "characters": [
+      "Helaman",
+      "Lamanites",
+      "chief captains"
+    ],
     "locations": [
-      "Unspecified location"
+      "land of Nephi (supposed location of the prisoners)"
     ],
     "explicit_facts": [
       {
-        "text": "Helaman says the fallen died in the cause of their country and God, and that they are happy.",
+        "text": "Helaman says those who died in the cause of their country and God are happy.",
         "refs": [
           "Alma 56:11"
         ]
       },
       {
-        "text": "The Lamanites retained many prisoners, all of whom were chief captains; Helaman supposes they were in the land of Nephi if not slain.",
+        "text": "The Lamanites retained many prisoners, all chief captains.",
+        "refs": [
+          "Alma 56:12"
+        ]
+      },
+      {
+        "text": "Helaman supposes the prisoners are in the land of Nephi, if they have not been slain.",
         "refs": [
           "Alma 56:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "No specific visual action is needed; this can be conveyed as off-screen narration over an unspecified setting."
+      "The reports can be conveyed without depicting the deaths, captures, or prisoners as present events."
     ],
     "unspecified_visual_details": [
-      "The appearance and location of the prisoners, and the circumstances of any deaths."
+      "Helaman's appearance and location",
+      "The prisoners' appearance and actual location",
+      "The circumstances of the deaths and captures"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they have died in the cause of their country and of their God",
+        "text": "Nevertheless, we may console ourselves in this point, that they have died in the cause of their country and of their God, yea, and they are happy.",
         "refs": [
           "Alma 56:11"
         ]
       },
       {
-        "text": "the Lamanites had also retained many prisoners",
+        "text": "And the Lamanites had also retained many prisoners",
+        "refs": [
+          "Alma 56:12"
+        ]
+      },
+      {
+        "text": "And we suppose that they are now at this time in the land of Nephi;",
         "refs": [
           "Alma 56:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are reported losses and a supposition about the prisoners’ location, not a new present-time scene."
+      "The narration remains Helaman's letter. The prisoners' location is a supposition, not a witnessed fact."
     ],
     "prohibited_inventions": [
-      "Do not depict the deaths, capture, or prisoners’ present location as witnessed events."
+      "Do not depict the deaths or captures as witnessed events.",
+      "Do not establish the prisoners' location or fate as certain."
     ],
     "importance": "normal"
   },

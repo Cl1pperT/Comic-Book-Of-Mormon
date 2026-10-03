@@ -1,9 +1,11 @@
 {
-  "stamp": "481cf622de9cca986bf2694c97a649ec956b1fe2ea7aa2af527e8387d4a56e09",
+  "stamp": "7678715b28c5669fcb076ef90934c83d8d87920e7bb344cb0f807b06404830f5",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied text supports Alma's expressed wish, but the record is presented as direct spoken dialogue; the verses provide Alma's first-person words without specifying that they are spoken aloud."
+      ]
     },
     "scene_002": {
       "status": "PASS",

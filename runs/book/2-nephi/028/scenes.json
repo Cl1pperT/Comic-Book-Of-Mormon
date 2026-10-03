@@ -1,56 +1,71 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The words will come to pass",
+    "title": "Nephi’s words to his brethren",
     "refs": [
       "2 Nephi 28:1",
       "2 Nephi 28:2"
     ],
-    "summary": "Nephi tells his brethren that the things he has spoken will come to pass and that the book's words will be valuable to the children of men, especially his seed.",
+    "summary": "Nephi tells his brethren that he has spoken as constrained by the Spirit, expresses certainty that what he spoke will come to pass, and says that things written out of the book will be of great worth.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "Nephi’s brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says the Spirit constrained him to speak and that the things he spoke must come to pass.",
+        "text": "Nephi says he has spoken to his brethren as constrained by the Spirit and knows that what he spoke must come to pass.",
         "refs": [
           "2 Nephi 28:1"
         ]
       },
       {
-        "text": "The things written out of the book will be of great worth to the children of men, especially Nephi's seed, a remnant of the house of Israel.",
+        "text": "Nephi says that things written out of the book will be of great worth to the children of men, especially their seed, a remnant of the house of Israel.",
         "refs": [
           "2 Nephi 28:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi addresses his brethren while speaking."
+      "Nephi addresses his brethren."
     ],
     "unspecified_visual_details": [
-      "The brethren's identities and appearance; the setting and objects."
+      "The brethren’s individual identities and appearances.",
+      "The setting and whether the book is physically present."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I have spoken unto you, according as the Spirit hath constrained me",
+        "text": "I have spoken unto you, according as the Spirit hath constrained me;",
         "refs": [
           "2 Nephi 28:1"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
-        "text": "the things which shall be written out of the book shall be of great worth unto the children of men",
+        "text": "wherefore, I know that they must surely come to pass.",
+        "refs": [
+          "2 Nephi 28:1"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "And the things which shall be written out of the book shall be of great worth unto the children of men, and especially unto our seed, which is a remnant of the house of Israel.",
         "refs": [
           "2 Nephi 28:2"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The predicted fulfillment and worth of the writings are Nephi’s statements, not events shown occurring here."
+    ],
     "prohibited_inventions": [
-      "Do not depict future events described in the rest of the chapter as occurring in this moment."
+      "Do not depict the Spirit with an invented visible appearance.",
+      "Do not depict predicted events as occurring in this scene.",
+      "Do not invent identities for the brethren or assume the book is physically present."
     ],
     "importance": "normal"
   },
@@ -814,45 +829,57 @@
     "refs": [
       "2 Nephi 28:32"
     ],
-    "summary": "Nephi quotes the Lord's warning to the Gentiles that they will deny him despite his continual mercy, and that he will be merciful if they repent and come unto him.",
-    "characters": [],
+    "summary": "Nephi relays the Lord's warning that the Gentiles will deny him despite his continual offer of mercy. The Lord says he will be merciful if they repent and come unto him.",
+    "characters": [
+      "Nephi",
+      "Lord God of Hosts",
+      "Gentiles"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord pronounces woe to the Gentiles, says they will deny him despite his extended arm, and promises mercy if they repent and come unto him.",
+        "text": "The Lord pronounces woe to the Gentiles and says they will deny him despite his extended arm.",
+        "refs": [
+          "2 Nephi 28:32"
+        ]
+      },
+      {
+        "text": "The Lord says he will be merciful to them if they repent and come unto him.",
         "refs": [
           "2 Nephi 28:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The teaching can be conveyed as off-screen narration; the extended arm is figurative in this passage."
+      "Nephi's account can be conveyed through narration without depicting the Lord or the Gentiles.",
+      "The extended arm is figurative in this teaching."
     ],
     "unspecified_visual_details": [
-      "The Gentiles, setting, and any divine appearance are unspecified."
+      "The setting and the appearances of Nephi and the Gentiles are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I will be merciful unto them",
+        "text": "Wo be unto the Gentiles, saith the Lord God of Hosts!",
         "refs": [
           "2 Nephi 28:32"
         ]
       },
       {
-        "text": "if they will repent and come unto me",
+        "text": "I will be merciful unto them, saith the Lord God, if they will repent and come unto me;",
         "refs": [
           "2 Nephi 28:32"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The extended arm is a figure of speech, not a described visible appearance."
+      "The narration retains the verse's attribution to the Lord; its first-person promise is not Nephi's own speech."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine arm or a visible divine figure."
+      "Do not depict a divine arm or visible divine figure.",
+      "Do not stage a new encounter with the Gentiles."
     ],
     "importance": "normal"
   }

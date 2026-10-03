@@ -7,42 +7,54 @@
       "Mosiah 18:2",
       "Mosiah 18:3"
     ],
-    "summary": "Alma privately teaches willing listeners the words of Abinadi, including teachings about Christ, resurrection, redemption, and ascension; many believe.",
+    "summary": "After fleeing king Noah’s servants and repenting, Alma privately teaches willing listeners the words of Abinadi. He teaches about what is to come, resurrection, and redemption through Christ. Many believe his words.",
     "characters": [
       "Alma",
-      "Listeners"
+      "Unnamed listeners"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified places among the people"
     ],
     "explicit_facts": [
       {
-        "text": "Alma repented and went about privately among the people, teaching Abinadi's words.",
+        "text": "Alma fled from the servants of king Noah and repented of his sins and iniquities.",
         "refs": [
           "Mosiah 18:1"
         ]
       },
       {
-        "text": "The teachings concerned what was to come, resurrection, redemption through Christ's power, sufferings, death, resurrection, and ascension.",
+        "text": "Alma went about privately among the people and began teaching the words of Abinadi.",
+        "refs": [
+          "Mosiah 18:1"
+        ]
+      },
+      {
+        "text": "His teachings concerned what was to come, the resurrection of the dead, and redemption through the power, sufferings, death, resurrection, and ascension of Christ.",
         "refs": [
           "Mosiah 18:2"
         ]
       },
       {
-        "text": "Alma taught those who would hear, privately so the king would not learn of it, and many believed.",
+        "text": "Alma taught those who would hear him privately so the king would not learn of it; many believed his words.",
         "refs": [
           "Mosiah 18:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks quietly to a small group of listeners."
+      "Alma addresses people who have come to hear him."
     ],
     "unspecified_visual_details": [
-      "The exact location, time of day, and appearance of Alma and the listeners."
+      "The exact setting, time of day, clothing, and appearances of Alma and his listeners."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And now, it came to pass that Alma, who had fled from the servants of king Noah, repented of his sins and iniquities, and went about privately among the people, and began to teach the words of Abinadi—",
+        "refs": [
+          "Mosiah 18:1"
+        ]
+      },
       {
         "text": "And many did believe his words.",
         "refs": [
@@ -51,10 +63,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The cited teachings are described in narration, not given as verbatim dialogue from Alma."
+      "The content of Alma’s teaching is reported by the narrator, Mormon, not supplied as verbatim speech."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ or the resurrection as a visible event."
+      "Do not invent dialogue for Alma or the listeners.",
+      "Do not depict Christ, resurrection, redemption, or ascension as visible events in this scene.",
+      "Do not place Abinadi or king Noah physically among the listeners."
     ],
     "importance": "normal"
   },
@@ -638,7 +652,7 @@
       "Mosiah 18:25",
       "Mosiah 18:26"
     ],
-    "summary": "An unnamed man commands sabbath observance, daily thanksgiving, and priestly labor for support. One day each week is set apart for gathering to teach and worship, with further assemblies as often as possible.",
+    "summary": "A man commands sabbath observance, daily thanksgiving, and labor by the priests he ordained. One day each week is set apart for gathering to teach and worship, with additional assemblies whenever possible. The priests are instructed not to depend on the people for support.",
     "characters": [
       "Unnamed man referred to as “he”",
       "Those he commanded",
@@ -665,14 +679,14 @@
         ]
       },
       {
-        "text": "The priests were not to depend on the people for support. For their labor they were to receive the grace of God, so they might grow strong in the Spirit and teach with power and authority from God.",
+        "text": "The priests were not to depend on the people for support. For their labor they were to receive the grace of God, so they might grow strong in the Spirit, have the knowledge of God, and teach with power and authority from God.",
         "refs": [
           "Mosiah 18:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The unnamed man addresses those receiving his commands."
+      "The man addresses those receiving his commands."
     ],
     "unspecified_visual_details": [
       "The location, clothing, and appearance of those present.",
@@ -681,18 +695,38 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And he also commanded them that the priests whom he had ordained should labor with their own hands for their support.",
+        "text": "observe the sabbath day, and keep it holy",
+        "refs": [
+          "Mosiah 18:23"
+        ]
+      },
+      {
+        "text": "should labor with their own hands for their support.",
         "refs": [
           "Mosiah 18:24"
+        ]
+      },
+      {
+        "text": "And there was one day in every week that was set apart",
+        "refs": [
+          "Mosiah 18:25"
+        ]
+      },
+      {
+        "text": "And the priests were not to depend upon the people for their support;",
+        "refs": [
+          "Mosiah 18:26"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The weekly gatherings and priestly labor are prescribed here; these verses do not narrate a particular gathering or workday."
+      "These verses prescribe gatherings and priestly labor; they do not narrate a particular gathering or workday.",
+      "The supplied verses do not name the man referred to as “he.”"
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed man or specify a location from outside these verses.",
-      "Do not depict a particular gathering or work task as an event narrated here."
+      "Do not name the man or add wording from verses outside the supplied text.",
+      "Do not depict a particular gathering or work task as an event narrated here.",
+      "Do not visibly depict the Lord or the grace of God; these verses describe no such appearance."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "236036e0b142cfbe1ff992b40e82a6f070c0ebfc670df2a5d83bf5a2a316f83d",
+  "stamp": "f73e37cbff77d37b9fb4a7527b0f7c530113862898d41065e7e94dc54f8bf109",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,8 +34,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary and explicit facts overstate verse 22: it says the brothers affirm Jerusalem's people were righteous and that their father led them away because they heeded him; it does not say Nephi says his brethren murmured and complained against them. This is a reported complaint, not an additional present-tense event.",
+        "The dialogue excerpts are verbatim and within the word limit. Visual specifics remain appropriately unspecified; do not depict the reported wilderness hardships or Jerusalem as present action."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -56,13 +59,16 @@
       ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and facts are source-supported. The scene is appropriately an address by Nephi; the exact setting and whether his brothers are visibly present are not specified. The cited facts and prohibitions correctly keep past and possible future events from becoming present action. The dialogue excerpts are verbatim; combined dialogue is within the word limit."
+      ]
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The sea is mentioned as the place they desire to throw Nephi, but the verses do not establish that it is visible from the unspecified location."
+        "The supplied source covers verses 48–51 but does not identify the group in this scene as Nephi’s brothers; that identification is inferable from the preceding address and subsequent verses, but remains unstated in verse 48.",
+        "The proposed visual of the group approaching is supported, but the precise arrangement and whether they are shown mid-approach are unspecified."
       ]
     },
     "scene_016": {

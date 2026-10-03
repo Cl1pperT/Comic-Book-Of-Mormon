@@ -72,72 +72,78 @@
       "2 Nephi 2:3",
       "2 Nephi 2:4"
     ],
-    "summary": "Lehi speaks to Jacob about his blessing, future with Nephi, service to God, redemption, and what he has beheld.",
+    "summary": "Lehi tells Jacob that he shall be blessed, dwell safely with his brother Nephi, and serve God. He speaks of Jacob’s redemption and earlier beholding of the Redeemer’s glory, the Redeemer’s coming salvation, and the unchanging Spirit.",
     "characters": [
       "Lehi",
-      "Jacob (son of Lehi)"
+      "Jacob",
+      "Nephi (mentioned)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi says Jacob’s soul shall be blessed, he shall dwell safely with Nephi, and his days shall be spent in the service of God.",
+        "text": "The addressee shall be blessed, dwell safely with his brother Nephi, and spend his days serving God.",
         "refs": [
           "2 Nephi 2:3"
         ]
       },
       {
-        "text": "Lehi says Jacob is redeemed through the righteousness of his Redeemer, and that Jacob has beheld that the Redeemer comes in the fulness of time to bring salvation to men.",
+        "text": "The speaker declares the addressee redeemed because of his Redeemer’s righteousness.",
         "refs": [
           "2 Nephi 2:3"
         ]
       },
       {
-        "text": "Lehi says Jacob beheld the Redeemer’s glory in his youth and is blessed like those to whom the Redeemer shall minister in the flesh.",
+        "text": "The addressee has beheld that the Redeemer comes in the fulness of time to bring salvation to men.",
+        "refs": [
+          "2 Nephi 2:3"
+        ]
+      },
+      {
+        "text": "The addressee beheld the Redeemer’s glory in his youth and is blessed even as those to whom he shall minister in the flesh.",
         "refs": [
           "2 Nephi 2:4"
         ]
       },
       {
-        "text": "Lehi says the Spirit is the same yesterday, today, and forever, the way is prepared from the fall of man, and salvation is free.",
+        "text": "The Spirit is the same yesterday, today, and forever; the way is prepared from the fall of man, and salvation is free.",
         "refs": [
           "2 Nephi 2:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is addressing Jacob; the Redeemer and the events referred to are not shown as occurring in the present moment."
+      "Lehi may be shown addressing Jacob without depicting the past experiences or future events described in his speech."
     ],
     "unspecified_visual_details": [
-      "The appearance and age of Lehi and Jacob, their gestures, clothing, and exact surroundings."
+      "Physical appearances, clothing, gestures, spatial arrangement, setting, and time of day are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "thou shalt dwell safely with thy brother, Nephi;",
+        "text": "Wherefore, I know that thou art redeemed, because of the righteousness of thy Redeemer;",
         "refs": [
           "2 Nephi 2:3"
-        ]
+        ],
+        "speaker": "Lehi"
       },
       {
-        "text": "I know that thou art redeemed, because of the righteousness of thy Redeemer;",
-        "refs": [
-          "2 Nephi 2:3"
-        ]
-      },
-      {
-        "text": "thou hast beheld in thy youth his glory;",
+        "text": "And the way is prepared from the fall of man, and salvation is free.",
         "refs": [
           "2 Nephi 2:4"
-        ]
+        ],
+        "speaker": "Lehi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Redeemer’s coming and Jacob’s earlier beholding of his glory are mentioned, not narrated as present events."
+      "The supplied continuity correction identifies Lehi as the continuing speaker and Jacob as his addressee; these names are not independently established by these two verses.",
+      "Nephi’s identification as narrator does not replace Lehi as the speaker of this continuing address.",
+      "Jacob’s earlier beholding and the Redeemer’s future ministry are reported, not present visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict the Redeemer or a vision; no appearance is described in these verses."
+      "Do not invent a visible appearance of the Redeemer or Spirit.",
+      "Do not stage Jacob’s earlier beholding, the fall of man, or future ministry as present events.",
+      "Do not assume Nephi is physically present.",
+      "Do not add dialogue, relationships, or events beyond the supplied text and explicit continuity correction."
     ],
     "importance": "normal"
   },

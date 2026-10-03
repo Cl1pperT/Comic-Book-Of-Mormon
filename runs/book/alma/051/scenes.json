@@ -292,53 +292,72 @@
       "Alma 51:15",
       "Alma 51:16"
     ],
-    "summary": "Moroni sees the Lamanites entering the borders and is angered by the king-men’s stubbornness. He sends a petition, with the people’s voice, asking the governor for authority to compel the dissenters to defend the country or put them to death. The request is granted.",
+    "summary": "Moroni sees the Lamanites coming into the borders of the land and is angered by the stubbornness of people he had labored to preserve. He sends a petition, with the voice of the people, asking the governor for power to compel the dissenters to defend their country or put them to death. The request is granted according to the voice of the people.",
     "characters": [
       "Moroni",
-      "king-men",
-      "governor of the land"
+      "Lamanites",
+      "dissenters",
+      "governor of the land",
+      "the people"
     ],
     "locations": [
-      "Nephite land"
+      "borders of the land"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni saw the Lamanites entering the land’s borders and was exceedingly angry at the dissenters’ stubbornness.",
+        "text": "Moroni saw the Lamanites coming into the borders of the land and was exceedingly angry at the stubbornness of people he had labored to preserve.",
         "refs": [
           "Alma 51:14"
         ]
       },
       {
-        "text": "Moroni sent a petition asking the governor for power to compel the dissenters to defend their country or put them to death.",
+        "text": "Moroni sent a petition, with the voice of the people, to the governor, seeking power to compel the dissenters to defend their country or put them to death.",
         "refs": [
           "Alma 51:15"
         ]
       },
       {
-        "text": "The petition was granted according to the voice of the people.",
+        "text": "The request was granted according to the voice of the people.",
         "refs": [
           "Alma 51:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may be shown sending the petition to the governor."
+      "Moroni may be shown sending the petition, without depicting a face-to-face meeting with the governor."
     ],
     "unspecified_visual_details": [
-      "Whether Moroni and the governor are together, and the governor’s appearance."
+      "The petition’s physical form and means of delivery.",
+      "The appearances of Moroni, the dissenters, and the governor."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "it was granted according to the voice of the people",
+        "text": "he sent a petition, with the voice of the people, unto the governor of the land,",
+        "refs": [
+          "Alma 51:15"
+        ]
+      },
+      {
+        "text": "desiring that he should read it, and give him (Moroni) power to compel those dissenters to defend their country or to put them to death.",
+        "refs": [
+          "Alma 51:15"
+        ]
+      },
+      {
+        "text": "And it came to pass that it was granted according to the voice of the people.",
         "refs": [
           "Alma 51:16"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verses do not name who granted the request."
+    ],
     "prohibited_inventions": [
-      "Do not depict an execution; the verse records a request for authority, not an execution."
+      "Do not identify the dissenters as king-men from these supplied verses.",
+      "Do not depict an execution or treat the requested penalty as an event that occurred.",
+      "Do not portray Moroni and the governor meeting in person."
     ],
     "importance": "normal"
   },

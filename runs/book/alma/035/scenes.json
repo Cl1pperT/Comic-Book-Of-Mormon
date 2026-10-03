@@ -122,7 +122,7 @@
       "Alma 35:5",
       "Alma 35:6"
     ],
-    "summary": "The rulers, priests, and teachers keep their desires from the people and privately learn their minds. Afterward, those who favor the words spoken by Alma and his brethren are cast out of the land. Many come to the land of Jershon.",
+    "summary": "The rulers, priests, and teachers conceal their desires and privately learn the people's minds. Afterward, many people who favor the words spoken by Alma and his brethren are cast out of the land and come to Jershon.",
     "characters": [
       "Rulers",
       "Priests",
@@ -135,20 +135,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "The rulers, priests, and teachers did not let the people know their desires and privately found out their minds.",
+        "text": "The rulers, priests, and teachers did not let the people know their desires and privately found out the people's minds.",
         "refs": [
           "Alma 35:5"
         ]
       },
       {
-        "text": "Afterward, those who favored the words spoken by Alma and his brethren were cast out of the land; they were many and came to the land of Jershon.",
+        "text": "Afterward, many who favored the words spoken by Alma and his brethren were cast out of the land and came to Jershon.",
         "refs": [
           "Alma 35:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The private inquiry and the later departure and arrival can be shown as distinct moments, without suggesting they happened at the same time."
+      "The private inquiry and the later expulsion and arrival are distinct moments."
     ],
     "unspecified_visual_details": [
       "How the rulers, priests, and teachers learned the people's views.",
@@ -158,7 +158,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "therefore they found out privily the minds of all the people.",
+        "text": "Now their rulers and their priests and their teachers did not let the people know concerning their desires; therefore they found out privily the minds of all the people.",
         "refs": [
           "Alma 35:5"
         ]
@@ -344,7 +344,7 @@
     "refs": [
       "Alma 35:13"
     ],
-    "summary": "The people of Ammon depart Jershon and come to Melek, giving place in Jershon to the Nephite armies. War commences between the Lamanites and Nephites in the eighteenth year of the reign of the judges.",
+    "summary": "The people of Ammon leave Jershon for Melek, giving place in Jershon for the Nephite armies. War commences between the Lamanites and Nephites in the eighteenth year of the reign of the judges.",
     "characters": [
       "People of Ammon",
       "Nephite armies"
@@ -355,7 +355,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people of Ammon departed Jershon and came to Melek.",
+        "text": "The people of Ammon departed from Jershon and came to Melek.",
         "refs": [
           "Alma 35:13"
         ]
@@ -380,7 +380,8 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The people of Ammon can be shown traveling away from Jershon toward Melek."
+      "The people of Ammon can be shown traveling from Jershon toward Melek.",
+      "Space in Jershon can be shown becoming available for the Nephite armies."
     ],
     "unspecified_visual_details": [
       "The route, travelers’ appearance, and armies’ appearance."
@@ -388,7 +389,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and thus commenced a war betwixt the Lamanites and the Nephites",
+        "text": "And the people of Ammon departed out of the land of Jershon, and came over into the land of Melek, and gave place in the land of Jershon for the armies of the Nephites,",
+        "refs": [
+          "Alma 35:13"
+        ]
+      },
+      {
+        "text": "and thus commenced a war betwixt the Lamanites and the Nephites, in the eighteenth year of the reign of the judges;",
         "refs": [
           "Alma 35:13"
         ]
@@ -442,7 +449,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and they have taken up arms to defend themselves, and their wives, and children, and their lands.",
+        "text": "bringing many of the Zoramites to repentance; and as many as were brought to repentance were driven out of their land; but they have lands for their inheritance in the land of Jershon, and they have taken up arms to defend themselves, and their wives, and children, and their lands.",
         "refs": [
           "Alma 35:14"
         ]
@@ -514,33 +521,33 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "His Sons Are Gathered",
+    "title": "The Sons Are Gathered",
     "refs": [
       "Alma 35:16"
     ],
-    "summary": "He causes his sons to be gathered so that he might give each a separate charge concerning righteousness. An account of his commandments comes from his own record.",
+    "summary": "A father causes his sons to be gathered so that he might give each a separate charge concerning righteousness. The account of his commandments comes from his own record.",
     "characters": [
-      "The sons",
-      "Their father, unnamed in the supplied verse"
+      "The unnamed father",
+      "His sons"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "He caused his sons to be gathered together.",
+        "text": "A father caused his sons to be gathered together.",
         "refs": [
           "Alma 35:16"
         ]
       },
       {
-        "text": "His purpose was to give each son a separate charge concerning righteousness.",
+        "text": "He intended to give each son a separate charge concerning righteousness.",
         "refs": [
           "Alma 35:16"
         ]
       },
       {
-        "text": "The account of his commandments to them comes from his own record.",
+        "text": "The account of his commandments comes from his own record.",
         "refs": [
           "Alma 35:16"
         ]
@@ -550,23 +557,23 @@
       "The sons can be shown gathered together."
     ],
     "unspecified_visual_details": [
-      "The sons' names and number, the setting, whether their father is visibly present, and the record's appearance."
+      "The father's name, the sons' names and number, the setting, and the record's appearance are not supplied."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Therefore, he caused that his sons should be gathered together,",
+        "text": "Therefore, he caused that his sons should be gathered together, that he might give unto them every one his charge, separately, concerning the things pertaining unto righteousness.",
         "refs": [
           "Alma 35:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse states the purpose of the gathering but does not narrate the separate charges being delivered here."
+      "The verse gives the purpose of the gathering but does not narrate the separate charges being delivered."
     ],
     "prohibited_inventions": [
-      "Do not supply names, the contents of the charges, or spoken commandments.",
-      "Do not depict the separate charges as taking place in this scene."
+      "Do not name the father or sons from material outside the supplied verse.",
+      "Do not invent or depict the contents or delivery of the separate charges."
     ],
     "importance": "normal"
   }

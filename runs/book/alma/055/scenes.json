@@ -1,13 +1,13 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Moroni’s reply",
+    "title": "Moroni receives the epistle",
     "refs": [
       "Alma 55:1",
       "Alma 55:2",
       "Alma 55:3"
     ],
-    "summary": "After receiving Ammoron’s epistle, Moroni is angry and declares he will not exchange prisoners unless Ammoron withdraws his purpose. Moroni says he will seek death among the Lamanites until they sue for peace.",
+    "summary": "Moroni receives an epistle and becomes more angry. He says he will not exchange prisoners unless Ammoron withdraws his purpose. He says he knows where the Lamanites guard his people who are prisoners and that he will seek death among them until they sue for peace.",
     "characters": [
       "Captain Moroni"
     ],
@@ -16,50 +16,79 @@
     ],
     "explicit_facts": [
       {
-        "text": "Moroni is more angry because he knows Ammoron knows the cause for war is unjust.",
+        "text": "Moroni has received an epistle and is more angry.",
         "refs": [
           "Alma 55:1"
         ]
       },
       {
-        "text": "Moroni refuses to exchange prisoners unless Ammoron withdraws his purpose.",
+        "text": "Moroni knows that Ammoron knows his cause for war against the people of Nephi is not just.",
+        "refs": [
+          "Alma 55:1"
+        ]
+      },
+      {
+        "text": "Moroni says he will not exchange prisoners unless Ammoron withdraws his purpose.",
         "refs": [
           "Alma 55:2"
         ]
       },
       {
-        "text": "Moroni says he will seek death among the Lamanites until they sue for peace.",
+        "text": "Moroni says he knows where the Lamanites guard his people whom they have taken prisoners.",
+        "refs": [
+          "Alma 55:3"
+        ]
+      },
+      {
+        "text": "Moroni says he will seek death among them until they sue for peace.",
         "refs": [
           "Alma 55:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni has received an epistle and may be holding it."
+      "Moroni may be shown holding the epistle he has received."
     ],
     "unspecified_visual_details": [
-      "The epistle’s appearance and the setting are unspecified."
+      "The epistle’s appearance and Moroni’s surroundings are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "I will not exchange prisoners with Ammoron save he will withdraw his purpose,",
+        "text": "I will not exchange prisoners with Ammoron save he will withdraw his purpose, as I have stated in my epistle;",
         "refs": [
           "Alma 55:2"
+        ],
+        "speaker": "Captain Moroni"
+      },
+      {
+        "text": "I know the place where the Lamanites do guard my people whom they have taken prisoners;",
+        "refs": [
+          "Alma 55:3"
+        ],
+        "speaker": "Captain Moroni"
+      },
+      {
+        "text": "I will seek death among them until they shall sue for peace.",
+        "refs": [
+          "Alma 55:3"
         ],
         "speaker": "Captain Moroni"
       }
     ],
     "narration": [
       {
-        "text": "he was more angry,",
+        "text": "when Moroni had received this epistle he was more angry,",
         "refs": [
           "Alma 55:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni’s stated intention is not an event that has happened in these verses."
+    ],
     "prohibited_inventions": [
-      "Do not show Ammoron as present; he is addressed in an epistle."
+      "Do not show Ammoron or the prisoners as present with Moroni.",
+      "Do not depict combat, a prisoner exchange, or a peace negotiation as occurring in this scene."
     ],
     "importance": "normal"
   },

@@ -1,13 +1,15 @@
 {
-  "stamp": "50ada85489e3413b3efd06780cfd6b289f9db65a38136e4960d61413a44dee01",
+  "stamp": "8a750864e4a2063306e18f2571352072c061da8b855bc6f5fe230099714f0b56",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit facts and narration accurately quote verses 1–2; the notes appropriately treat this as prophecy, not a witnessed event. The wording “The identity and appearance of ‘him’ are not specified” is cautious, though verse 1 identifies the prophetic figure by the rod/branch imagery without resolving his identity. The plant motif is a symbolic visual inference, not an event."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -22,8 +24,11 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The preceding scene describes prophetic language, not a present witnessed gathering; this scene correctly identifies its events as future. Keep any depiction symbolic rather than showing a literal assembly or the Lord's appearance.",
+        "The listed locations are drawn from the prophecy, but it does not explicitly call each one a location from which the remnant is recovered; preserve the exact wording and avoid adding routes or a gathering site."
+      ]
     },
     "scene_007": {
       "status": "PASS",

@@ -1,5 +1,5 @@
 {
-  "stamp": "f9883a85aa4bce25c5e257edeed9bd5776baf38c801f439a84598a3b8bab98f4",
+  "stamp": "bcc27251e3d6a2475a6ab3ec04e9f74c65dcecde9f074785ae0ff5729304cda4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -42,9 +42,7 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source identifies the speaker as Alma by his first-person address and context, but the specific label “Alma the Younger (high priest)” is not established by these verses; avoid treating that fuller identity as explicit here.",
-        "The summary says listeners “have been ... cast out,” while verse 24 says they are afflicted and cast out in the context of what they desire to know. The source does not specify the circumstances beyond this.",
-        "Dialogue excerpts are contiguous and verbatim. Angels and children are mentioned only in teaching, not as present events; the notes and prohibited-invention guidance correctly preserve that distinction."
+        "The 3 exact dialogue excerpts total 63 words, within the 65-word limit. The setting and appearance remain unspecified, as the scene notes."
       ]
     },
     "scene_010": {
@@ -54,27 +52,23 @@
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
+        "Reasonable inference: the passage is part of Alma’s ongoing address to listeners, but these verses do not explicitly identify the listeners or specify their physical presence in this moment."
       ]
     },
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The identity of the speaker is not established in the supplied verses; labeling him Alma the Younger (high priest) relies on context beyond the cited verses."
+        "Reasonable inference: Alma is addressing an audience, but these verses do not specify the audience’s physical presence or identity. The seed and tree imagery is appropriately treated as teaching, not literal action."
       ]
     },
     "scene_015": {
@@ -87,9 +81,8 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Visual inference of a speaker addressing listeners is reasonable from the address to “my brethren,” but the verses do not explicitly narrate a present gathering or identify the speaker, listeners, or setting. The conditional tree, fruit, and feast are teaching imagery, not events to depict.",
-        "Explicit fact for Alma 32:42 omits that the fruit is plucked “by and by”; the summary also omits “looking forward” to the fruit in Alma 32:41. These are incomplete rather than contradictory.",
-        "Dialogue excerpts are verbatim contiguous text. The preceding scene's imagery is correctly treated as conditional teaching, not a present event."
+        "The verses do not explicitly identify the speaker as addressing an audience in the present scene, though “my brethren” supports brethren as addressees (Alma 32:43). The proposed speaker/listener staging is a reasonable visual inference, not an explicit event.",
+        "The supplied preceding scene includes only an excerpt of Alma 32:38 and summarizes the tree imagery as teaching; it does not establish a present visible tree event. This scene correctly treats the imagery as conditional teaching."
       ]
     }
   }

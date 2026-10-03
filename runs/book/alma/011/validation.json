@@ -1,5 +1,5 @@
 {
-  "stamp": "7484cf476175675e97e8fa51c3d73b66cd1cb2c56b51fd3a2e9f31adc1c19d47",
+  "stamp": "4146c25b2128febf9e776c7d698ab3c86d65fa476ba2fc00bc6bc689b4f6b6c4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -46,8 +46,12 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpts are exact and narration is empty, but the scene specifies no narration or dialogue word-count total; verify the combined count remains within 65 words.",
+        "Listeners are a reasonable inference from Amulek addressing an audience, but their presence is not directly narrated in verses 42–45; keep them visually indistinct and unnamed.",
+        "Previous scene chronology is consistent: Alma 11:38–41 precedes the continued address in verses 42–45; do not depict future resurrection or judgment as occurring in the present."
+      ]
     },
     "scene_011": {
       "status": "PASS",

@@ -1,5 +1,5 @@
 {
-  "stamp": "32c6e0e8f7d52a692995be80f658330baa930dcfe047ee6e90edce3c461dd439",
+  "stamp": "4e3a9951a4c020193ce4c42a28726103467268c5abdfbec0b22800ebfc0a4e18",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,10 +38,8 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary calls the speaker “he” but does not identify him. Mosiah 7:18–20 leaves his identity implicit; the narration excerpt from verse 20 is exact, but the identity must remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

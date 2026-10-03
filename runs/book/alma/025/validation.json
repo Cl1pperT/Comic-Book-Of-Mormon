@@ -1,5 +1,5 @@
 {
-  "stamp": "3cbc4bf6904c1de901dd76415e535c737f690e764c0af91fdd02f80b1e098384",
+  "stamp": "4111b24870fbd467664dc7bac8c165f43cfbf796d4853906b0ca256612243951",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -36,10 +36,9 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The quoted narration omits the verse's initial capitalization, so it is not an exact quotation; capitalize “They” or use a different exact excerpt.",
-        "The summary describes the seed as hunted at that day but does not include the verse's explicit agent, the Lamanites. This is an omission, not an invented event."
+        "The supplied verses do not identify the narrator as Mormon. The summary, character list, and story notes assign him that speaking role without support from the source."
       ]
     },
     "scene_009": {

@@ -7,7 +7,7 @@
       "Mosiah 8:2",
       "Mosiah 8:3"
     ],
-    "summary": "After finishing his speech, Limhi tells his people about their brethren in Zarahemla. He has Ammon stand before the multitude. Ammon recounts what happened to their brethren from Zeniff’s departure until his own arrival, then rehearses and explains King Benjamin’s last words.",
+    "summary": "After finishing his speech, King Limhi tells his people about their brethren in Zarahemla. He has Ammon stand before the multitude. Ammon recounts what happened to their brethren from Zeniff’s departure until his own arrival, then rehearses and explains King Benjamin’s last words.",
     "characters": [
       "King Limhi",
       "Ammon",
@@ -18,13 +18,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "Limhi finishes speaking to his people and tells them about their brethren in the land of Zarahemla.",
+        "text": "King Limhi finishes speaking to his people and tells them about their brethren in the land of Zarahemla.",
         "refs": [
           "Mosiah 8:1"
         ]
       },
       {
-        "text": "Limhi causes Ammon to stand before the multitude and recount what happened to their brethren from Zeniff’s departure until Ammon’s arrival.",
+        "text": "King Limhi causes Ammon to stand before the multitude and recount what happened to their brethren from Zeniff’s departure until Ammon’s arrival.",
         "refs": [
           "Mosiah 8:2"
         ]
@@ -45,19 +45,25 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he told his people all the things",
+        "text": "king Limhi had made an end of speaking to his people",
         "refs": [
           "Mosiah 8:1"
         ]
       },
       {
-        "text": "he caused that Ammon should stand up",
+        "text": "he told his people all the things concerning their brethren",
+        "refs": [
+          "Mosiah 8:1"
+        ]
+      },
+      {
+        "text": "he caused that Ammon should stand up before the multitude",
         "refs": [
           "Mosiah 8:2"
         ]
       },
       {
-        "text": "and explained them to the people of king Limhi",
+        "text": "And he also rehearsed unto them the last words which king Benjamin had taught them, and explained them to the people of king Limhi",
         "refs": [
           "Mosiah 8:3"
         ]
@@ -123,65 +129,61 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "The plates are brought to Ammon",
+    "title": "The plates are brought before Ammon",
     "refs": [
       "Mosiah 8:5",
       "Mosiah 8:6"
     ],
-    "summary": "Limhi has his people's record brought before Ammon. After reading it, Ammon is asked whether he can interpret languages and says he cannot.",
+    "summary": "The king has the plates containing his people's record brought before Ammon to read. After Ammon reads the record, the king asks whether he can interpret languages, and Ammon says he cannot.",
     "characters": [
-      "King Limhi",
-      "Ammon (explorer, Mosiah 7)"
+      "The king",
+      "Ammon"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi has the plates containing his people's record brought before Ammon so Ammon can read them.",
+        "text": "The king causes the plates containing his people's record, dating from their departure from Zarahemla, to be brought before Ammon for him to read.",
         "refs": [
-          "Mosiah 8:5"
+          "Mosiah 8:5",
+          "Mosiah 8:6"
         ]
       },
       {
-        "text": "After reading the record, Ammon is asked whether he can interpret languages and answers that he cannot.",
+        "text": "After Ammon reads the record, the king asks whether he can interpret languages, and Ammon tells him he cannot.",
         "refs": [
           "Mosiah 8:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The record is placed before Ammon, who reads it."
+      "Ammon reads the record brought before him."
     ],
     "unspecified_visual_details": [
-      "The appearance and material of the record's plates; the room and furnishings."
+      "The plates' material and appearance; the setting and furnishings."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "that he could not.",
-        "refs": [
-          "Mosiah 8:6"
-        ],
-        "speaker": "Ammon (explorer, Mosiah 7)"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the plates which contained the record of his people",
+        "text": "he caused that the plates which contained the record of his people from the time that they left the land of Zarahemla, should be brought before Ammon, that he might read them.",
         "refs": [
           "Mosiah 8:5"
         ]
       },
       {
-        "text": "as soon as Ammon had read the record",
+        "text": "Now, as soon as Ammon had read the record, the king inquired of him to know if he could interpret languages, and Ammon told him that he could not.",
         "refs": [
           "Mosiah 8:6"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Ammon's answer is reported indirectly; the verses supply no verbatim dialogue."
+    ],
     "prohibited_inventions": [
-      "Do not depict the plates as the twenty-four gold plates described later; the text distinguishes them."
+      "Do not invent direct speech for the king or Ammon.",
+      "Do not assign the plates an unstated material or appearance."
     ],
     "importance": "normal"
   },
@@ -449,14 +451,14 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Ammon explains the seer's gift",
+    "title": "The king and Ammon discuss a seer",
     "refs": [
       "Mosiah 8:15",
       "Mosiah 8:16",
       "Mosiah 8:17",
       "Mosiah 8:18"
     ],
-    "summary": "The king says a seer is greater than a prophet. Ammon says a seer is also a revelator and prophet, explains what a seer can know and make known, and says God has provided a means for people to work mighty miracles through faith and benefit others.",
+    "summary": "The king says a seer is greater than a prophet. Ammon says a seer is also a revelator and prophet. The account continues with teachings about what a seer can know and what man may do through faith.",
     "characters": [
       "the king",
       "Ammon"
@@ -470,19 +472,19 @@
         ]
       },
       {
-        "text": "Ammon says a seer is a revelator and a prophet, and that a person may receive great power from God.",
+        "text": "Ammon says a seer is a revelator and a prophet, and that a man may receive great power from God.",
         "refs": [
           "Mosiah 8:16"
         ]
       },
       {
-        "text": "Ammon says a seer can know things past and future and make hidden or otherwise unknown things known.",
+        "text": "A seer can know things past and future and make hidden or otherwise unknown things known.",
         "refs": [
           "Mosiah 8:17"
         ]
       },
       {
-        "text": "Ammon says God has provided a means for people, through faith, to work mighty miracles and benefit fellow beings.",
+        "text": "God has provided a means for man, through faith, to work mighty miracles and become a great benefit to his fellow beings.",
         "refs": [
           "Mosiah 8:18"
         ]
@@ -494,38 +496,36 @@
     "unspecified_visual_details": [
       "Their appearances, gestures, and surroundings are not described."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
         "text": "And the king said that a seer is greater than a prophet.",
         "refs": [
           "Mosiah 8:15"
-        ],
-        "speaker": "the king"
+        ]
       },
       {
         "text": "And Ammon said that a seer is a revelator and a prophet also;",
         "refs": [
           "Mosiah 8:16"
-        ],
-        "speaker": "Ammon"
-      }
-    ],
-    "narration": [
+        ]
+      },
       {
-        "text": "But a seer can know of things which are past,",
+        "text": "things which are past, and also of things which are to come,",
         "refs": [
           "Mosiah 8:17"
         ]
       },
       {
-        "text": "Thus God has provided a means that man, through faith, might work mighty miracles;",
+        "text": "Thus God has provided a means that man, through faith, might work mighty miracles; therefore he becometh a great benefit to his fellow beings.",
         "refs": [
           "Mosiah 8:18"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The statements about knowledge and miracles are teachings, not narrated visible events."
+      "The king’s and Ammon’s words are reported indirectly; the verses provide no direct-speech quotation.",
+      "Knowledge and miracles are teachings here, not narrated visible events."
     ],
     "prohibited_inventions": [
       "Do not depict a vision, miracle, divine appearance, or revealed event as occurring in this scene.",
@@ -541,7 +541,7 @@
       "Mosiah 8:20",
       "Mosiah 8:21"
     ],
-    "summary": "After Ammon finishes speaking, the king rejoices, gives thanks to God, speaks of the plates and interpreters, praises the Lord's works, and compares people to a wild flock.",
+    "summary": "After Ammon finishes speaking, the king rejoices and gives thanks to God. He speaks of the plates and interpreters, praises the Lord's works, says people will not seek wisdom, and compares them to a wild flock.",
     "characters": [
       "the king",
       "Ammon"
@@ -557,19 +557,19 @@
         ]
       },
       {
-        "text": "The king says a great mystery is contained within the plates and that the interpreters were prepared to unfold mysteries.",
+        "text": "The king says the plates contain a great mystery and the interpreters were prepared to unfold mysteries.",
         "refs": [
           "Mosiah 8:19"
         ]
       },
       {
-        "text": "The king praises the Lord's works and patience and says people will not seek wisdom.",
+        "text": "The king praises the Lord's works and says people will not seek wisdom.",
         "refs": [
           "Mosiah 8:20"
         ]
       },
       {
-        "text": "The king compares people to a wild flock fleeing its shepherd, scattering, and being devoured by forest beasts.",
+        "text": "The king compares people to a wild flock fleeing its shepherd.",
         "refs": [
           "Mosiah 8:21"
         ]
@@ -595,18 +595,32 @@
           "Mosiah 8:20"
         ],
         "speaker": "the king"
+      },
+      {
+        "text": "they will not seek wisdom,",
+        "refs": [
+          "Mosiah 8:20"
+        ],
+        "speaker": "the king"
+      },
+      {
+        "text": "Yea, they are as a wild flock which fleeth from the shepherd,",
+        "refs": [
+          "Mosiah 8:21"
+        ],
+        "speaker": "the king"
       }
     ],
     "narration": [
       {
-        "text": "And now, when Ammon had made an end of speaking these words the king rejoiced exceedingly, and gave thanks to God, saying:",
+        "text": "the king rejoiced exceedingly, and gave thanks to God, saying:",
         "refs": [
           "Mosiah 8:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The flock, shepherd, and beasts are a comparison in the king's speech, not a narrated event."
+      "The flock and shepherd are a comparison in the king's speech, not a narrated event."
     ],
     "prohibited_inventions": [
       "Do not depict a literal flock, shepherd, or beasts.",

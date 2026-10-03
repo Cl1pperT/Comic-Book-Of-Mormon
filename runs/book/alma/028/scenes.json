@@ -5,7 +5,7 @@
     "refs": [
       "Alma 28:1"
     ],
-    "summary": "The people of Ammon were established in Jershon, where the verse also mentions an established church. Nephite armies were positioned round about Jershon and in all the borders round about Zarahemla. The verse reports that Lamanite armies had followed their brethren into the wilderness.",
+    "summary": "The people of Ammon and a church were established in Jershon. Nephite armies were set around Jershon and along the borders of Zarahemla. Lamanite armies had followed their brethren into the wilderness.",
     "characters": [
       "people of Ammon",
       "Nephite armies"
@@ -17,19 +17,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people of Ammon were established in the land of Jershon.",
+        "text": "The people of Ammon were established in Jershon.",
         "refs": [
           "Alma 28:1"
         ]
       },
       {
-        "text": "The verse states \"and a church also established in the land of Jershon\" without identifying who established it.",
+        "text": "A church was established in Jershon; the verse does not identify who established it.",
         "refs": [
           "Alma 28:1"
         ]
       },
       {
-        "text": "Nephite armies were set round about Jershon and in all the borders round about Zarahemla.",
+        "text": "Nephite armies were set around Jershon and along all the borders around Zarahemla.",
         "refs": [
           "Alma 28:1"
         ]
@@ -42,16 +42,23 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A restrained establishing view may suggest the settled situation in Jershon without reenacting its establishment."
+      "A settled view of Jershon can convey the established situation without reenacting its establishment.",
+      "Nephite army positions can be shown without depicting a confrontation."
     ],
     "unspecified_visual_details": [
       "Terrain, distances, army sizes, clothing, equipment, and individual appearances are unspecified.",
-      "The church's physical setting is unspecified; no church building is described."
+      "No church building is described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "after the people of Ammon were established in the land of Jershon, and a church also established in the land of Jershon,",
+        "text": "the people of Ammon were established in the land of Jershon,",
+        "refs": [
+          "Alma 28:1"
+        ]
+      },
+      {
+        "text": "and the armies of the Nephites were set round about the land of Jershon, yea, in all the borders round about the land of Zarahemla;",
         "refs": [
           "Alma 28:1"
         ]
@@ -64,16 +71,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "No person or group is identified as establishing the church.",
-      "The Lamanite armies and their brethren belong to the reported movement, not the physically present cast.",
-      "Preserve the distinction between established conditions and previously completed movement."
+      "The Lamanite movement is reported as already completed, not shown as a simultaneous march.",
+      "The verse does not identify the brethren beyond calling them the Lamanite armies’ brethren."
     ],
     "prohibited_inventions": [
-      "Do not reenact reported establishment or pursuit as new present-tense events.",
+      "Do not reenact the establishment or pursuit as new present-tense events.",
       "Do not depict a simultaneous Lamanite march or confrontation.",
-      "Do not invent an actor establishing the church or assume a church building.",
-      "Do not invent commanders, dialogue, motives, or identities for their brethren.",
-      "Do not reduce Nephite positions to only the borders of Zarahemla."
+      "Do not invent a church building, its founder, commanders, dialogue, or motives.",
+      "Do not identify the brethren more specifically than the verse does."
     ],
     "importance": "normal"
   },

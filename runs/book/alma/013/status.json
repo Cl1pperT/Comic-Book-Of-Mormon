@@ -9,12 +9,12 @@
     "REJECT": 0
   },
   "rejected": {},
-  "calls": 32,
+  "calls": 35,
   "tokens": {
-    "input_tokens": 233239,
-    "cached_input_tokens": 128384,
+    "input_tokens": 256595,
+    "cached_input_tokens": 136832,
     "cache_write_input_tokens": 0,
-    "output_tokens": 24712,
-    "reasoning_output_tokens": 8964
+    "output_tokens": 25971,
+    "reasoning_output_tokens": 9657
   }
 }

@@ -623,47 +623,62 @@
       "Alma 17:21",
       "Alma 17:22"
     ],
-    "summary": "Ammon is brought before King Lamoni, who asks whether he wishes to dwell among the Lamanites.",
+    "summary": "Ammon is carried before Lamoni, king over the land of Ishmael. Lamoni inquires whether Ammon desires to dwell in the land among the Lamanites or among his people.",
     "characters": [
-      "Ammon (son of Mosiah)",
+      "Ammon",
       "King Lamoni"
     ],
     "locations": [
-      "Unspecified location"
+      "Land of Ishmael; the specific setting is unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "Ammon is carried before the king of the land of Ishmael, named Lamoni and descended from Ishmael.",
+        "text": "Ammon was carried before the king over the land of Ishmael.",
         "refs": [
           "Alma 17:21"
         ]
       },
       {
-        "text": "Lamoni asks Ammon whether he desires to dwell among the Lamanites.",
+        "text": "The king was named Lamoni and was a descendant of Ishmael.",
+        "refs": [
+          "Alma 17:21"
+        ]
+      },
+      {
+        "text": "Lamoni inquired whether Ammon desired to dwell in the land among the Lamanites or among his people.",
         "refs": [
           "Alma 17:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king and Ammon may be shown facing one another during the inquiry."
+      "Ammon and Lamoni may be shown facing one another during the inquiry."
     ],
     "unspecified_visual_details": [
-      "The location's architecture, furnishings, attendants, and clothing."
+      "The setting's architecture, furnishings, and clothing.",
+      "The identity and appearance of anyone who carried Ammon before the king."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "if it were his desire to dwell in the land among the Lamanites, or among his people.",
+        "text": "And thus Ammon was carried before the king who was over the land of Ishmael; and his name was Lamoni; and he was a descendant of Ishmael.",
+        "refs": [
+          "Alma 17:21"
+        ]
+      },
+      {
+        "text": "And the king inquired of Ammon if it were his desire to dwell in the land among the Lamanites, or among his people.",
         "refs": [
           "Alma 17:22"
-        ],
-        "speaker": "King Lamoni"
+        ]
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The inquiry is reported by the narrator, not quoted as Lamoni's direct speech."
+    ],
     "prohibited_inventions": [
-      "Do not add attendants or a royal court unless supported elsewhere in the supplied verses."
+      "Do not turn Lamoni's reported inquiry into direct dialogue.",
+      "Do not invent a royal court, named attendants, or Ammon's reply."
     ],
     "importance": "normal"
   },

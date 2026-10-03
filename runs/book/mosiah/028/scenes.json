@@ -187,32 +187,33 @@
       "Mosiah 28:6",
       "Mosiah 28:7"
     ],
-    "summary": "King Mosiah inquires of the Lord whether he should let his sons preach among the Lamanites. The Lord tells Mosiah to let them go up, says many will believe their words and have eternal life, and promises to deliver his sons from the Lamanites.",
+    "summary": "King Mosiah inquires of the Lord whether to let his sons preach among the Lamanites. The Lord tells him to let them go and promises that many will believe, have eternal life, and that his sons will be delivered from the Lamanites.",
     "characters": [
-      "King Mosiah"
+      "King Mosiah",
+      "the Lord"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "King Mosiah went and inquired of the Lord whether he should let his sons preach among the Lamanites.",
+        "text": "King Mosiah inquired of the Lord whether to let his sons go among the Lamanites to preach the word.",
         "refs": [
           "Mosiah 28:6"
         ]
       },
       {
-        "text": "The Lord told Mosiah to let his sons go up, said many would believe their words and have eternal life, and promised to deliver his sons from the Lamanites.",
+        "text": "The Lord told Mosiah to let his sons go, said many would believe their words and have eternal life, and promised to deliver his sons from the Lamanites.",
         "refs": [
           "Mosiah 28:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown in the act of inquiring; the Lord's answer may be conveyed without depicting a visible form."
+      "Mosiah may be shown inquiring; the Lord's answer need not be accompanied by a visible form."
     ],
     "unspecified_visual_details": [
-      "The place of inquiry and the manner in which the Lord communicates."
+      "The place of inquiry and how the Lord communicates."
     ],
     "spoken_dialogue": [
       {
@@ -225,18 +226,19 @@
     ],
     "narration": [
       {
-        "text": "king Mosiah went and inquired of the Lord",
+        "text": "And king Mosiah went and inquired of the Lord if he should let his sons go up among the Lamanites to preach the word.",
         "refs": [
           "Mosiah 28:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord's promise is spoken; its fulfillment is not depicted in this scene."
+      "Present the narration of Mosiah's inquiry before the Lord's reply.",
+      "The Lord's promises are spoken, not shown as fulfilled."
     ],
     "prohibited_inventions": [
-      "Do not depict a visible form of the Lord; no appearance is described.",
-      "Do not depict the sons preaching or being delivered; these events are not narrated here."
+      "Do not depict a visible form of the Lord; none is described.",
+      "Do not depict the sons preaching or being delivered in this scene."
     ],
     "importance": "normal"
   },
@@ -348,7 +350,7 @@
       "Mosiah 28:11",
       "Mosiah 28:12"
     ],
-    "summary": "Mosiah takes the brass plates, the plates of Nephi, and the records and things he had preserved, including the translated gold-plate records delivered to him by Limhi. He does so because his people are eager to learn about the destroyed people.",
+    "summary": "Mosiah takes the brass-plate records, the plates of Nephi, and the things he had preserved. He does so because his people greatly desire to learn about a people who had been destroyed.",
     "characters": [
       "Mosiah II (king)"
     ],
@@ -357,29 +359,29 @@
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah took the brass plates, the plates of Nephi, and the things he had preserved according to God's commandments.",
+        "text": "Mosiah took the records engraved on the brass plates, the plates of Nephi, and the things he had kept and preserved according to God's commandments.",
         "refs": [
           "Mosiah 28:11"
         ]
       },
       {
-        "text": "He had translated and caused to be written the records from the gold plates found by Limhi's people and delivered to him by Limhi.",
+        "text": "Before this, Mosiah had translated and caused to be written the records on gold plates found by Limhi's people and delivered to him by Limhi.",
         "refs": [
           "Mosiah 28:11"
         ]
       },
       {
-        "text": "Mosiah did this because his people greatly desired to know about the people who had been destroyed.",
+        "text": "Mosiah acted because his people greatly desired to know about the people who had been destroyed.",
         "refs": [
           "Mosiah 28:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown handling records and plates."
+      "Mosiah may be shown handling plates and records as he takes them."
     ],
     "unspecified_visual_details": [
-      "The number, dimensions, material appearance, arrangement, and markings of the records."
+      "The setting, arrangement, and appearance of the records and plates are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -390,17 +392,18 @@
         ]
       },
       {
-        "text": "they were desirous beyond measure to know concerning those people who had been destroyed",
+        "text": "And this he did because of the great anxiety of his people; for they were desirous beyond measure to know concerning those people who had been destroyed.",
         "refs": [
           "Mosiah 28:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Limhi is mentioned as the deliverer of records but is not stated to be present."
+      "The translation and Limhi's delivery are prior events, not actions occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict Limhi handing over the plates in this scene."
+      "Do not depict Limhi delivering the plates or Mosiah translating them as part of this scene.",
+      "Do not depict the destroyed people or invent details of their destruction."
     ],
     "importance": "normal"
   },

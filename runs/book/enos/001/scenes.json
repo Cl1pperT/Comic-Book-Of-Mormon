@@ -387,32 +387,37 @@
       "Enos 1:11",
       "Enos 1:12"
     ],
-    "summary": "Enos’s faith in the Lord becomes unshaken, and he prays with many long strugglings for the Lamanites. After he prays and labors diligently, the Lord says he will grant Enos according to his desires because of his faith.",
+    "summary": "After hearing words, Enos’s faith begins to be unshaken in the Lord. He prays with many long strugglings for his brethren, the Lamanites. After he prays and labors diligently, the Lord says he will grant Enos according to his desires because of his faith.",
     "characters": [
-      "Enos (young, son of Jacob)"
+      "Enos",
+      "The Lord"
     ],
-    "locations": [
-      "Forests"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Enos’s faith in the Lord becomes unshaken, and he prays with many long strugglings for his Lamanite brethren.",
+        "text": "After hearing words, Enos’s faith begins to be unshaken in the Lord.",
         "refs": [
           "Enos 1:11"
         ]
       },
       {
-        "text": "After Enos has prayed and labored diligently, the Lord says he will grant according to Enos’s desires because of his faith.",
+        "text": "Enos prays with many long strugglings for his brethren, the Lamanites.",
+        "refs": [
+          "Enos 1:11"
+        ]
+      },
+      {
+        "text": "After Enos prays and labors diligently, the Lord says he will grant Enos according to his desires because of his faith.",
         "refs": [
           "Enos 1:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Enos may be shown praying; the Lord’s response is off-screen."
+      "Enos may be shown praying."
     ],
     "unspecified_visual_details": [
-      "The source does not describe a visible appearance of the Lord."
+      "The location, Enos’s appearance, and any visible appearance of the Lord are not described."
     ],
     "spoken_dialogue": [
       {
@@ -420,7 +425,7 @@
         "refs": [
           "Enos 1:12"
         ],
-        "speaker": "The Lord (off-screen)"
+        "speaker": "The Lord"
       }
     ],
     "narration": [
@@ -429,11 +434,17 @@
         "refs": [
           "Enos 1:11"
         ]
+      },
+      {
+        "text": "I prayed unto him with many long strugglings for my brethren, the Lamanites.",
+        "refs": [
+          "Enos 1:11"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly."
+      "Do not depict the Lord visibly or invent a location, Enos’s appearance, or additional speech."
     ],
     "importance": "normal"
   },
@@ -677,64 +688,66 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Nephites and Lamanites",
+    "title": "Enos’s Record of the Lamanites",
     "refs": [
       "Enos 1:20"
     ],
-    "summary": "Enos reports that the Nephites diligently sought to restore the Lamanites to true faith in God, but their labors were vain. He describes the Lamanites’ hatred and way of life, including dwelling in tents, wandering in the wilderness, and using bows, cimeters, and axes.",
+    "summary": "Enos reports that the people of Nephi diligently sought to restore the Lamanites to faith in God, but their labors were vain. He describes the Lamanites’ way of life and says they continually sought to destroy his people.",
     "characters": [
-      "Nephite settlers (2 Nephi)",
-      "Lamanites (2 Nephi era)"
+      "Enos (narrator)",
+      "people of Nephi",
+      "Lamanites"
     ],
     "locations": [
-      "Wilderness"
+      "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The Nephites diligently sought to restore the Lamanites to true faith in God, but their labors were vain and the Lamanites’ hatred was fixed.",
+        "text": "The people of Nephi diligently sought to restore the Lamanites to faith in God, but their labors were vain.",
         "refs": [
           "Enos 1:20"
         ]
       },
       {
-        "text": "Enos describes the Lamanites as dwelling in tents, wandering in the wilderness, wearing short skin girdles and having shaven heads, and skilled with bows, cimeters, and axes.",
+        "text": "Enos says the Lamanites dwelt in tents and wandered in the wilderness, wore short skin girdles, had shaven heads, and were skilled with the bow, cimeter, and ax.",
         "refs": [
           "Enos 1:20"
         ]
       },
       {
-        "text": "Enos reports that many ate nothing save raw meat and continually sought to destroy the Nephites.",
+        "text": "Enos says many of the Lamanites ate only raw meat and that they continually sought to destroy his people.",
         "refs": [
           "Enos 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A conservative illustration may show Lamanites in a wilderness setting with tents and the listed tools or weapons."
+      "A non-specific wilderness illustration may show tents and Lamanites with the clothing and weapons Enos describes."
     ],
     "unspecified_visual_details": [
-      "The account does not specify individuals, their names, or a particular encounter during these activities."
+      "The verse gives no individual names, tent designs, or particular encounter to depict."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the people of Nephi did seek diligently to restore the Lamanites unto the true faith in God.",
+        "text": "And I bear record that the people of Nephi did seek diligently to restore the Lamanites unto the true faith in God.",
         "refs": [
           "Enos 1:20"
         ]
       },
       {
-        "text": "But our labors were vain; their hatred was fixed",
+        "text": "But our labors were vain; their hatred was fixed,",
         "refs": [
           "Enos 1:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is Enos’s summary of peoples’ circumstances, not a narrated attack occurring in the present."
+      "This verse is Enos’s report, not a narrated instance of an attack or conversion attempt."
     ],
     "prohibited_inventions": [
-      "Do not stage a specific battle, attack, or conversion attempt."
+      "Do not stage a specific battle, attack, or conversion attempt.",
+      "Do not depict Enos or the people of Nephi as physically present among the pictured Lamanites solely because he mentions them."
     ],
     "importance": "normal"
   },

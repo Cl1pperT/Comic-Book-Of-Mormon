@@ -6,52 +6,54 @@
       "Alma 29:1",
       "Alma 29:2"
     ],
-    "summary": "The speaker wishes he could go forth as an angel and proclaim repentance and the plan of redemption to every people.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Alma wishes he could speak to every people and declare repentance and the plan of redemption to every soul.",
+    "characters": [
+      "Alma"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker wishes he were an angel and could proclaim repentance to every people.",
+        "text": "Alma wishes he were an angel and could cry repentance unto every people.",
         "refs": [
           "Alma 29:1"
         ]
       },
       {
-        "text": "He wishes to declare repentance and the plan of redemption to every soul, so people would repent and there would be no more sorrow on earth.",
+        "text": "Alma wishes to declare repentance and the plan of redemption to every soul, so that people would repent and sorrow would cease across the earth.",
         "refs": [
           "Alma 29:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use off-screen narration over a neutral, non-specific setting; the angel and worldwide proclamation are expressed as a wish, not as a visible event."
+      "Alma's wish can be presented without depicting it as an event."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, age, clothing, posture, and location are not specified.",
-      "No angel, trumpet, thunder, or worldwide audience is explicitly present."
+      "Alma's appearance and location are not specified.",
+      "No angel, trumpet, or worldwide audience is described as physically present."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "O that I were an angel",
+        "text": "O that I were an angel, and could have the wish of mine heart,",
         "refs": [
           "Alma 29:1"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "repentance and the plan of redemption",
+        "text": "Yea, I would declare unto every soul, as with the voice of thunder, repentance and the plan of redemption,",
         "refs": [
           "Alma 29:2"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The wish is not a narrated transformation or angelic appearance."
+      "The angel, thunderous voice, and worldwide proclamation are part of Alma's wish, not narrated events."
     ],
     "prohibited_inventions": [
-      "Do not depict the speaker transformed into an angel or actually addressing all peoples.",
+      "Do not depict Alma becoming an angel or actually addressing every people.",
       "Do not depict a literal trumpet, earth-shaking voice, or sorrow-free world."
     ],
     "importance": "normal"

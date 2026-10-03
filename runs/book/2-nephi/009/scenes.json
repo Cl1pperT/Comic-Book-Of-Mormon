@@ -1,59 +1,71 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Covenants and gathering",
+    "title": "Nephi speaks of the covenants",
     "refs": [
       "2 Nephi 9:1",
       "2 Nephi 9:2"
     ],
-    "summary": "Jacob speaks of the Lord’s covenants with the house of Israel and the future restoration and gathering of the Jews.",
+    "summary": "Nephi tells his brethren why he has read these things. He speaks of the Lord’s covenants with the house of Israel, the Lord’s words to the Jews through holy prophets, and their future restoration and gathering.",
     "characters": [
-      "Jacob (old)"
+      "Nephi",
+      "Nephi’s brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob says he has read these things so his brethren may know the Lord’s covenants with all the house of Israel.",
+        "text": "Nephi says he has read these things so his brethren might know of the Lord’s covenants with all the house of Israel.",
         "refs": [
           "2 Nephi 9:1"
         ]
       },
       {
-        "text": "The Lord has spoken to the Jews through holy prophets, and they will be restored to the true church and fold of God and gathered to their inheritance lands.",
+        "text": "The Lord has spoken to the Jews through holy prophets from generation to generation.",
+        "refs": [
+          "2 Nephi 9:2"
+        ]
+      },
+      {
+        "text": "Nephi speaks of a future time when they will be restored to the true church and fold of God, gathered to their lands of inheritance, and established in their lands of promise.",
         "refs": [
           "2 Nephi 9:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob addresses an audience of brethren."
+      "Nephi addresses his brethren."
     ],
     "unspecified_visual_details": [
-      "The audience’s appearance and size.",
-      "The precise setting and time of day."
+      "The appearance and number of the brethren.",
+      "The setting and time of day.",
+      "The appearance of anything Nephi has read."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I have read these things",
+        "text": "And now, my beloved brethren, I have read these things that ye might know concerning the covenants of the Lord that he has covenanted with all the house of Israel—",
         "refs": [
           "2 Nephi 9:1"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
-        "text": "they shall be gathered home to the lands of their inheritance",
+        "text": "when they shall be gathered home to the lands of their inheritance, and shall be established in all their lands of promise.",
         "refs": [
           "2 Nephi 9:2"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The promised gathering is future, not a present event."
+      "The restoration and gathering are described as future events, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a future gathering as occurring in this scene."
+      "Do not identify the speaker as Jacob.",
+      "Do not depict the future restoration or gathering as occurring in this scene.",
+      "Do not depict the Lord, prophets, or Jews as physically present merely because Nephi mentions them."
     ],
     "importance": "normal"
   },

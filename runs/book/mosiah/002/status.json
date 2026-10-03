@@ -4,17 +4,21 @@
   "verses": 41,
   "scenes": 16,
   "counts": {
-    "PASS": 11,
+    "PASS": 10,
     "PASS WITH WARNINGS": 5,
-    "REJECT": 0
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 36,
+  "rejected": {
+    "scene_014": [
+      "The note claiming that no preceding scene or information from Mosiah 2:30 is established contradicts the supplied preceding scene and source text. The address in verses 31–33 continues the speaker’s address in verse 30."
+    ]
+  },
+  "calls": 40,
   "tokens": {
-    "input_tokens": 260908,
-    "cached_input_tokens": 137088,
+    "input_tokens": 293488,
+    "cached_input_tokens": 149760,
     "cache_write_input_tokens": 0,
-    "output_tokens": 29293,
-    "reasoning_output_tokens": 11010
+    "output_tokens": 31624,
+    "reasoning_output_tokens": 12029
   }
 }

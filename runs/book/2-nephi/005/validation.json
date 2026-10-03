@@ -1,5 +1,5 @@
 {
-  "stamp": "80a31c61bbc1e8f3ddc82a5a40cfc78d9e94d42718614ae8e78a48e7ccca752f",
+  "stamp": "9831e3252ff77bf8088b0a648911fd884f7a60e07c96425c0444aeabd035e520",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,8 +34,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The harvest is supported, but the visual inference of people gathering a crop is not specified in the verses; it is a reasonable representation of reaping. “The people referred to as ‘we’” remains unnamed in the source.",
+        "The preceding scene summarizes observance of the law; this scene does not incorrectly combine its observance with the harvest. The narration quotes supplied text and is within the 65-word limit."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -82,12 +85,16 @@
       "issues": []
     },
     "scene_021": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord God is explicitly identified as the speaker, but how the communication occurs is unspecified; avoid depicting a particular mode or visible appearance."
+      ]
     },
     "scene_022": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location, tools, materials, and appearance of the plates are unspecified; keep these details generic."
+      ]
     },
     "scene_023": {
       "status": "PASS",

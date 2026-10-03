@@ -897,39 +897,47 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "A command to preach repentance",
+    "title": "The word comes to Alma",
     "refs": [
       "Alma 8:29"
     ],
-    "summary": "The word came to Alma, directing him to tell Amulek to prophesy repentance to the people and warning of the Lord's anger if they did not repent.",
+    "summary": "The word came to Alma, telling him to go and to tell Amulek to prophesy repentance to the people, with a warning of the Lord's anger if they did not repent.",
     "characters": [
       "Alma"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The word came to Alma and told him to go and tell Amulek to prophesy to the people.",
+        "text": "The word came to Alma and told him to go.",
         "refs": [
           "Alma 8:29"
         ]
       },
       {
-        "text": "The message called the people to repent and warned that the Lord would visit them in anger if they did not.",
+        "text": "Alma was told to tell Amulek to go forth and prophesy to the people.",
+        "refs": [
+          "Alma 8:29"
+        ]
+      },
+      {
+        "text": "The message called the people to repent and warned of the Lord's anger if they did not.",
         "refs": [
           "Alma 8:29"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma may be shown receiving the message without showing its source."
+    ],
     "unspecified_visual_details": [
       "Alma's location.",
       "How the word came to Alma.",
-      "Whether anyone else was present."
+      "Whether Amulek or anyone else was present."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And the word came to Alma, saying: Go;",
+        "text": "And the word came to Alma, saying: Go; and also say unto my servant Amulek, go forth and prophesy unto this people, saying—",
         "refs": [
           "Alma 8:29"
         ]
@@ -942,10 +950,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not describe a visible messenger or an audible speaker."
+      "The verse gives Alma an instruction concerning Amulek; it does not narrate Alma delivering that instruction.",
+      "The verse does not describe a visible messenger or specify how the word came."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine figure, specify how the word came, or place Alma in an unstated location."
+      "Do not depict a divine figure or visible messenger.",
+      "Do not show Alma meeting Amulek or Amulek preaching in this scene.",
+      "Do not specify how the word came or place Alma in an unstated location."
     ],
     "importance": "normal"
   },

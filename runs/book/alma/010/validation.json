@@ -1,5 +1,5 @@
 {
-  "stamp": "f77816611e95d7b4cc23f9a19dd67f6617c5f00c245e347fd3d979828414c200",
+  "stamp": "09bb67c30e44973bae246be463fa69708cc5dcef55189d5620268a5f5c13662b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,11 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is consistent with Alma 10:8, but its encounter is narrated retrospectively; the text does not describe a present-tense meeting or provide its exact staging.",
+        "“The man Amulek meets” is unnamed in the supplied verses; keep him unidentified beyond Amulek’s description as the man who had been speaking to the audience about the things of God. The supplied dialogue is an exact excerpt."
+      ]
     },
     "scene_005": {
       "status": "PASS",

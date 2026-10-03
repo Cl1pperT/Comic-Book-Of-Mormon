@@ -1,5 +1,5 @@
 {
-  "stamp": "c726bfbfcf7ae7ccd5c56edf544af84dce9a35ea4dcdd60abec6b8c1c21bb8ed",
+  "stamp": "e95da99f0ad63bcbc243233df1c11d057ebdf1d9e0f2f66f7f19ad1337ea4801",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -54,14 +54,12 @@
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene 013 lists only Alma as a character despite depicting God and numberless angels; the explicit vision description permits their visual depiction, though their appearances are unspecified."
+        "Alma explicitly says he thought he saw God and the angels, but this is framed as a thought/perception; visually depicting them as actually present is an interpretive choice and should preserve that framing rather than assert an objective heavenly event."
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene 014 includes unspecified people as present; the verse says Alma manifested to the people, but does not establish that they were physically present at the instant he stood."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

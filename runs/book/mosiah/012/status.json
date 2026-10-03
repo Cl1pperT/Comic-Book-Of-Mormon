@@ -4,17 +4,22 @@
   "verses": 37,
   "scenes": 21,
   "counts": {
-    "PASS": 16,
-    "PASS WITH WARNINGS": 5,
-    "REJECT": 0
+    "PASS": 14,
+    "PASS WITH WARNINGS": 6,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 33,
+  "rejected": {
+    "scene_005": [
+      "The supplied verses do not identify the narrator as Mormon; the summary and notes present that speaker identity as fact.",
+      "The spoken dialogue repeats Mosiah 12:7 after the preceding scene already quoted it, despite describing this scene as a continuation rather than a replay."
+    ]
+  },
+  "calls": 39,
   "tokens": {
-    "input_tokens": 240922,
-    "cached_input_tokens": 124928,
+    "input_tokens": 285822,
+    "cached_input_tokens": 146816,
     "cache_write_input_tokens": 0,
-    "output_tokens": 34282,
-    "reasoning_output_tokens": 12358
+    "output_tokens": 39963,
+    "reasoning_output_tokens": 15270
   }
 }

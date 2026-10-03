@@ -1,13 +1,18 @@
 {
-  "stamp": "125d747eb98d73c430197750935213f221b409c1635718004659a1cf9164d215",
+  "stamp": "d7f4e504c9a25ae90f184cee7be8938bf69e9c33dce0bb10355e871c2df54b66",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The verses identify the first-person speaker only as “me” and “I”; they do not show Nephi present or identify him as the speaker. The character label and notes assert that unsupported identity."
+      ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The verses do not show Nephi present or identify him as the first-person speaker. The character label and notes assert that unsupported identity.",
+        "The title implies the child was named, but the verse supplies only an instruction to name him."
+      ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",

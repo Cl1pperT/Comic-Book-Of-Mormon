@@ -1,5 +1,5 @@
 {
-  "stamp": "82e0cc04abe8b3271bf73555fe7b5574a163d74d674416e768901f6ed15cd6ff",
+  "stamp": "67387e49a3915ebdcde09b592dacf18fbe79c46e8858f380c4579f15545ca8d9",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -10,8 +10,10 @@
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The proposed Lamanite-side viewpoint for the chief captains is a reasonable visual inference, but their exact position and vantage point are unspecified."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -29,8 +31,11 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene mostly tracks the supplied verses and keeps Moroni’s supposition retrospective. However, “The group marched toward Noah to battle, according to Moroni’s desires” overstates verse 15: the march and its cause are stated in verses 12–13, while verse 15 says this outcome was according to Moroni’s desires. The unnamed group is specifically the Lamanites or Amalickiahites in context, but the scene conservatively leaves them unnamed.",
+        "Narration excerpt from Alma 49:15 is contiguous and verbatim, but starts mid-sentence and conveys only the outcome, not that Moroni had supposed this would happen. The narration’s word count is within the limit."
+      ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
@@ -39,8 +44,10 @@
       ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lamanites are listed as characters, but Alma 49:18–20 describes the fortifications and Nephite preparations, not Lamanites physically present in this scene. Their presence is supported only by the preceding verse's report that their armies were brought up."
+      ]
     },
     "scene_009": {
       "status": "PASS",

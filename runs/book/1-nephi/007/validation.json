@@ -1,5 +1,5 @@
 {
-  "stamp": "9d5fa33d565a579588e370e97e7c3137230e0b74c8af3915828857a9d9db6d82",
+  "stamp": "21eb6232a24c4f846865f50e98c4085327170f8921c38d943e1a3fbc6c27138d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,12 +14,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The listed label “Ishmael’s sons and their families” is not in the established character labels, but the text explicitly places the two sons and their families in the rebellion. The number and appearance of family members beyond this are unspecified.",
-        "“Wilderness” is supported as the setting during the rebellion; no specific landscape or route is given.",
-        "The preceding scene reports travel down into the wilderness to the father’s tent; this scene occurs later during a wilderness journey, with no chronology conflict."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -48,8 +44,10 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The unnamed “they” in verse 20 is not explicitly identified; keep their identities unspecified as the scene does."
+      ]
     },
     "scene_012": {
       "status": "PASS",

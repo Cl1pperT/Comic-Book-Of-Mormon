@@ -57,50 +57,50 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Gideon threatens the king",
+    "title": "Gideon draws his sword",
     "refs": [
       "Mosiah 19:3",
       "Mosiah 19:4"
     ],
-    "summary": "A lesser part of the people threatens the king amid great contention. Gideon, a strong man and enemy of the king, draws his sword and swears to kill him.",
+    "summary": "The lesser part begins threatening the king, and great contention begins among them. Gideon draws his sword and swears in wrath that he will slay the king.",
     "characters": [
-      "the lesser part of the people",
       "Gideon",
-      "King Noah"
+      "the lesser part",
+      "the king (mentioned, not necessarily present)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The lesser part threatened the king, and great contention began among the people.",
+        "text": "The lesser part began threatening the king, and great contention began among them.",
         "refs": [
           "Mosiah 19:3"
         ]
       },
       {
-        "text": "Gideon was a strong man and an enemy of the king; he drew his sword and swore in anger that he would slay the king.",
+        "text": "Gideon was a strong man and an enemy of the king. He drew his sword and swore in wrath that he would slay the king.",
         "refs": [
           "Mosiah 19:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Gideon may be shown drawing a sword while the king and people are nearby."
+      "Gideon can be shown drawing his sword among people in contention."
     ],
     "unspecified_visual_details": [
-      "The precise setting, the king’s appearance, and the people’s clothing are not stated."
+      "The setting, clothing, appearances, and the king’s physical presence are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he drew his sword",
+        "text": "And the lesser part began to breathe out threatenings against the king, and there began to be a great contention among them.",
         "refs": [
-          "Mosiah 19:4"
+          "Mosiah 19:3"
         ]
       },
       {
-        "text": "he would slay the king",
+        "text": "And now there was a man among them whose name was Gideon, and he being a strong man and an enemy to the king, therefore he drew his sword, and swore in his wrath that he would slay the king.",
         "refs": [
           "Mosiah 19:4"
         ]
@@ -108,7 +108,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not supply words for Gideon’s oath; the oath’s wording is not given."
+      "Do not invent the words of Gideon’s oath.",
+      "Do not assume the king is physically present."
     ],
     "importance": "normal"
   },

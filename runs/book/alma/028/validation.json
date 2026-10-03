@@ -1,9 +1,12 @@
 {
-  "stamp": "dbd772015f68ebe4f1c8f045b199b8e45230eb33f5ed04a6fe44ac72a51a4561",
+  "stamp": "c2e9a67a87576d3e7c7f59af38ba3ad33ec3dfbbee5336171973eb91b065eccc",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration’s first and second excerpts omit the verse’s opening words, so they are not contiguous exact quotations as required. Use the complete verse or separate contiguous excerpts that preserve the original wording.",
+        "“Nephite armies” is supported by the verse, but “people of Ammon” is a shortened character label; the source calls them “the people of Ammon.”"
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

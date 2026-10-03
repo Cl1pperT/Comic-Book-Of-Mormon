@@ -1,23 +1,23 @@
 {
-  "stamp": "61892e191360ff8976178b6ed39ef74d83baf61ca334b2042a2247b1cd79b93e",
+  "stamp": "8fe11f1b0f648561d336602fa81ea1554ed1b5271d592b3917f50a6f5d1a9fef",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene does not state how the separate facts are visually staged; avoid implying that Amalickiah's leadership, the gathering, and the group's intent were all observed simultaneously."
+      ]
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Moroni’s location and the identity of whoever informed him are unspecified; avoid implying a particular setting or messenger."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
@@ -64,16 +64,12 @@
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The starting point and route are unspecified; avoid depicting a specific route as established fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The wilderness terrain, tents, and army formation are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS WITH WARNINGS",

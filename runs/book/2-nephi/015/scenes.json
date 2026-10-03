@@ -6,40 +6,55 @@
       "2 Nephi 15:1",
       "2 Nephi 15:2"
     ],
-    "summary": "A beloved vineyard is planted on a fruitful hill, enclosed, and equipped; it yields wild grapes.",
-    "characters": [],
+    "summary": "The narrator announces a song concerning his beloved’s vineyard on a fruitful hill. The song recounts fencing, stone removal, planting the choicest vine, and construction of a tower and wine-press. Expected grapes give way to wild grapes.",
+    "characters": [
+      "Nephi (narrator; identified by the task, not explicitly named in these verses)"
+    ],
     "locations": [
-      "A fruitful hill"
+      "The song’s vineyard on a very fruitful hill; the narrator’s location is unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The beloved has a vineyard on a very fruitful hill.",
+        "text": "The first-person narrator announces that he will sing a song concerning his beloved’s vineyard.",
         "refs": [
           "2 Nephi 15:1"
         ]
       },
       {
-        "text": "He fenced the vineyard, cleared stones, planted a choice vine, built a tower and made a wine-press.",
+        "text": "The song describes the well-beloved as having a vineyard on a very fruitful hill.",
+        "refs": [
+          "2 Nephi 15:1"
+        ]
+      },
+      {
+        "text": "The song recounts that he fenced the vineyard, removed its stones, planted the choicest vine, built a tower in its midst, and made a wine-press.",
         "refs": [
           "2 Nephi 15:2"
         ]
       },
       {
-        "text": "The vineyard brought forth wild grapes instead of grapes.",
+        "text": "He expected grapes, but the vineyard brought forth wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A cultivated plot with a fence, a tower, a wine-press, vines, and wild grapes."
+      "A clearly illustrative, static image of the song’s vineyard may include the fence, vine, tower, wine-press, and wild grapes, without reenacting its preparation or implying a witnessed event."
     ],
     "unspecified_visual_details": [
-      "The beloved's identity and appearance.",
-      "The vineyard's precise layout, architecture, and colors."
+      "The narrator’s physical appearance and setting.",
+      "The well-beloved’s identity and appearance.",
+      "The vineyard’s layout, architectural forms, colors, and the appearance of its wild grapes."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And then will I sing to my well-beloved a song of my beloved, touching his vineyard.",
+        "refs": [
+          "2 Nephi 15:1"
+        ]
+      },
       {
         "text": "My well-beloved hath a vineyard in a very fruitful hill.",
         "refs": [
@@ -47,17 +62,22 @@
         ]
       },
       {
-        "text": "it brought forth wild grapes.",
+        "text": "and he looked that it should bring forth grapes, and it brought forth wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The vineyard is later identified as the house of Israel."
+      "Attribute the narration to Nephi according to the task’s explicit identification; these two verses do not independently name the first-person narrator.",
+      "The vineyard belongs to the song’s content, not a separately narrated witnessed scene.",
+      "These verses do not explain what the vineyard or well-beloved represents."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord or any other figure as the beloved; the text does not state his visible identity or appearance."
+      "Do not invent a physical appearance or divine identity for the well-beloved.",
+      "Do not stage the vineyard’s preparation and fruit production as simultaneous present action.",
+      "Do not invent a singing audience, narrator location, or visible divine appearance.",
+      "Do not claim that these verses explicitly name Nephi."
     ],
     "importance": "normal"
   },

@@ -1,9 +1,12 @@
 {
-  "stamp": "8aef927361441084d614d13a0b1fbf605e127fd3b7a1b168732c4cc79c616c2b",
+  "stamp": "9be1ba0e0ec30f733616c25b5437371829bc07c1f4838eabd81cba87fbd88a6f",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied source says only “my father”; identifying him as Lehi relies on the established character context, not this verse alone.",
+        "The narration is an exact excerpt but omits the verse’s final clause; this is acceptable as a separate excerpt, though it does not include every fact in the summary."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

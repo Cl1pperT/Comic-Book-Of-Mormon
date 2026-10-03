@@ -203,13 +203,14 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Nephi goes to the mountain",
+    "title": "Nephi goes up into the mountain",
     "refs": [
       "1 Nephi 17:7"
     ],
-    "summary": "After many days in Bountiful, Nephi hears the Lord’s voice telling him to go into the mountain. Nephi goes up and cries unto the Lord.",
+    "summary": "After many days in Bountiful, the Lord's voice tells Nephi to go into the mountain. Nephi goes up into the mountain and cries unto the Lord.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "The Lord (voice only)"
     ],
     "locations": [
       "Bountiful",
@@ -217,23 +218,30 @@
     ],
     "explicit_facts": [
       {
-        "text": "After many days in Bountiful, Nephi hears the Lord's voice telling him to arise and go into the mountain.",
+        "text": "Nephi had been in Bountiful for many days when the voice of the Lord came to him.",
         "refs": [
           "1 Nephi 17:7"
         ]
       },
       {
-        "text": "Nephi goes up into the mountain and cries unto the Lord.",
+        "text": "The Lord told Nephi to arise and go into the mountain.",
+        "refs": [
+          "1 Nephi 17:7"
+        ]
+      },
+      {
+        "text": "Nephi arose, went up into the mountain, and cried unto the Lord.",
         "refs": [
           "1 Nephi 17:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown ascending a mountain; the Lord is represented only by the explicitly mentioned voice, not an invented appearance."
+      "Nephi may be shown ascending the mountain; the Lord has no visible appearance in the verse."
     ],
     "unspecified_visual_details": [
-      "The mountain's appearance and any visible representation of the voice."
+      "Nephi's appearance and clothing.",
+      "The mountain's appearance."
     ],
     "spoken_dialogue": [
       {
@@ -244,12 +252,26 @@
         "speaker": "The Lord"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "after I, Nephi, had been in the land of Bountiful for the space of many days, the voice of the Lord came unto me, saying:",
+        "refs": [
+          "1 Nephi 17:7"
+        ]
+      },
+      {
+        "text": "And it came to pass that I arose and went up into the mountain, and cried unto the Lord.",
+        "refs": [
+          "1 Nephi 17:7"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The command and Nephi's ascent form one continuous moment."
+      "Nephi is the first-person narrator and the person addressed by the Lord's voice. His ascent follows the command."
     ],
     "prohibited_inventions": [
-      "Do not give the Lord a visible form or add visual effects for the voice."
+      "Do not depict the Lord's appearance or add a visual effect for the voice.",
+      "Do not invent words for Nephi's cry unto the Lord."
     ],
     "importance": "normal"
   },
@@ -500,14 +522,14 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "The brothers rebuke Nephi",
+    "title": "The brothers complain against Nephi",
     "refs": [
       "1 Nephi 17:19",
       "1 Nephi 17:20",
       "1 Nephi 17:21",
       "1 Nephi 17:22"
     ],
-    "summary": "Nephi is sorrowful at his brothers’ hard-heartedness. Seeing this, they rejoice and complain that he cannot build a ship, criticize their father’s decision to leave Jerusalem, and say they might have been happy in their land of inheritance.",
+    "summary": "Nephi is sorrowful because of their hard hearts. Seeing his sorrow, his brothers rejoice and complain that he cannot construct a ship. They criticize their father, recount wilderness hardships, and say they might have enjoyed their possessions and land of inheritance.",
     "characters": [
       "Nephi",
       "Nephi’s brothers"
@@ -521,32 +543,32 @@
         ]
       },
       {
-        "text": "When Nephi’s brothers see his sorrow, they rejoice and say he cannot construct a ship because he lacks judgment.",
+        "text": "When they see Nephi’s sorrow, his brothers rejoice over him and say he cannot construct a ship.",
         "refs": [
           "1 Nephi 17:19"
         ]
       },
       {
-        "text": "The brothers say their father led them out of Jerusalem and describe wilderness hardships, including women bearing children there.",
+        "text": "The brothers criticize their father and speak of women toiling and bearing children in the wilderness.",
         "refs": [
           "1 Nephi 17:20"
         ]
       },
       {
-        "text": "The brothers say they might have enjoyed their possessions and land of inheritance and might have been happy.",
+        "text": "The brothers say they might have enjoyed their possessions and land of inheritance.",
         "refs": [
           "1 Nephi 17:21"
         ]
       },
       {
-        "text": "The brothers say they regard the people of Jerusalem as righteous and claim their father led them away because they hearkened to his words; the account says they murmured and complained against Nephi and his father.",
+        "text": "The brothers call the people of Jerusalem righteous; Nephi says his brethren murmured and complained against them.",
         "refs": [
           "1 Nephi 17:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi and his brothers may be shown together during the present encounter."
+      "Nephi and his brothers may be shown together during the encounter."
     ],
     "unspecified_visual_details": [
       "The brothers’ individual identities and number present.",
@@ -555,7 +577,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "We knew that ye could not construct a ship, for we knew that ye were lacking in judgment; wherefore, thou canst not accomplish so great a work.",
+        "text": "We knew that ye could not construct a ship,",
         "refs": [
           "1 Nephi 17:19"
         ],
@@ -569,7 +591,14 @@
         "speaker": "Nephi’s brothers"
       },
       {
-        "text": "Behold, these many years we have suffered in the wilderness,",
+        "text": "our women have toiled, being big with child; and they have borne children in the wilderness and suffered all things, save it were death;",
+        "refs": [
+          "1 Nephi 17:20"
+        ],
+        "speaker": "Nephi’s brothers"
+      },
+      {
+        "text": "we might have enjoyed our possessions and the land of our inheritance;",
         "refs": [
           "1 Nephi 17:21"
         ],
@@ -578,11 +607,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The wilderness hardships and claims about Jerusalem are reported as part of the brothers’ complaint, not separate present-tense scenes."
+      "The hardships and lost possessions are part of the brothers’ complaint, not separate events occurring during this encounter.",
+      "The brothers’ assessment of the people of Jerusalem is their claim."
     ],
     "prohibited_inventions": [
       "Do not identify the brothers individually by name.",
-      "Do not depict earlier journey events, Jerusalem, or wilderness hardships as happening in this scene."
+      "Do not depict Jerusalem or earlier wilderness hardships as happening in this scene."
     ],
     "importance": "normal"
   },
@@ -677,71 +707,94 @@
       "1 Nephi 17:31",
       "1 Nephi 17:32"
     ],
-    "summary": "Nephi recounts the drowning of Pharaoh’s armies, Israel’s manna and water in the wilderness, the Lord’s leading, Israel’s rebellion, and events after the Jordan crossing.",
+    "summary": "Nephi recounts the drowning of Pharaoh’s armies, manna and water in the wilderness, the Lord’s leading, Israel’s rebellion, and events after the Jordan crossing.",
     "characters": [
       "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi recounts that the armies of Pharaoh were drowned in the Red Sea.",
+        "text": "The armies of Pharaoh were drowned in the Red Sea.",
         "refs": [
           "1 Nephi 17:27"
         ]
       },
       {
-        "text": "Nephi recounts that the people were fed manna in the wilderness.",
+        "text": "The people were fed with manna in the wilderness.",
         "refs": [
           "1 Nephi 17:28"
         ]
       },
       {
-        "text": "Nephi recounts that Moses smote a rock by his word according to God’s power, and water came forth so the children of Israel could quench their thirst.",
+        "text": "Moses smote a rock by his word according to the power of God in him; water came forth for the children of Israel to drink.",
         "refs": [
           "1 Nephi 17:29"
         ]
       },
       {
-        "text": "Nephi recounts that the Lord went before Israel, led them, and gave them light by night; they hardened their hearts and reviled against Moses and God.",
+        "text": "The Lord led them and gave them light by night; they hardened their hearts and reviled against Moses and God.",
         "refs": [
           "1 Nephi 17:30"
         ]
       },
       {
-        "text": "Nephi recounts that the Lord destroyed and led them and did all things for them according to his word.",
+        "text": "According to his word, the Lord destroyed and led them and did all things for them.",
         "refs": [
           "1 Nephi 17:31"
         ]
       },
       {
-        "text": "Nephi recounts that after they crossed the Jordan, the Lord made them mighty to drive out the children of the land.",
+        "text": "After they crossed the Jordan, the Lord made them mighty to drive out the children of the land.",
         "refs": [
           "1 Nephi 17:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi recounts these events to those he addresses; the historical events are not shown as happening in the present."
+      "Nephi is addressing listeners; the historical events he recounts need not appear as present action."
     ],
     "unspecified_visual_details": [
-      "Nephi’s appearance, posture, and surroundings are not specified.",
+      "Nephi’s appearance, posture, listeners, and surroundings are not specified.",
       "The appearance of the historical people and places is not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "But ye know that the Egyptians were drowned in the Red Sea, who were the armies of Pharaoh.",
+        "refs": [
+          "1 Nephi 17:27"
+        ],
+        "speaker": "Nephi"
+      },
       {
         "text": "And ye also know that they were fed with manna in the wilderness.",
         "refs": [
           "1 Nephi 17:28"
-        ]
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "smote the rock, and there came forth water,",
+        "refs": [
+          "1 Nephi 17:29"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "the Lord their God, their Redeemer, going before them, leading them by day and giving light unto them by night,",
+        "refs": [
+          "1 Nephi 17:30"
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses present past events as Nephi’s account rather than as events occurring in the current scene."
+      "The historical events are recounted by Nephi, not established as occurring in the current scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the historical events as present-tense action.",
-      "Do not assign identities or biographies to unnamed people."
+      "Do not combine the recounted events into one present-tense scene.",
+      "Do not invent appearances for the Lord, Moses, or unnamed people.",
+      "Do not add dialogue or details beyond the supplied verses."
     ],
     "importance": "normal"
   },
@@ -923,7 +976,7 @@
       "1 Nephi 17:46",
       "1 Nephi 17:47"
     ],
-    "summary": "Nephi addresses his brothers, recounting Israel’s wilderness rebellion and warning of destruction. He says his father was commanded to depart into the wilderness, accuses his brothers of seeking his father’s life, and expresses anguish and weakness.",
+    "summary": "Nephi recounts past events, warns those he addresses, and expresses anguish and weakness.",
     "characters": [
       "Nephi",
       "Nephi’s brothers"
@@ -933,37 +986,43 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says the Lord sent fiery flying serpents among the people in the wilderness and prepared a way for those bitten to be healed; many perished.",
+        "text": "Nephi says the Lord sent fiery flying serpents among people in the wilderness, provided a way for those bitten to be healed by looking, and that many perished.",
         "refs": [
           "1 Nephi 17:41"
         ]
       },
       {
-        "text": "Nephi says the people hardened their hearts and reviled against Moses and God, yet were led into the land of promise.",
+        "text": "Nephi says those people hardened their hearts and reviled against Moses and God, yet were led into the land of promise.",
         "refs": [
           "1 Nephi 17:42"
         ]
       },
       {
-        "text": "Nephi says the people have become nearly wicked unto ripeness, and he fears they may be destroyed, except for a few led into captivity.",
+        "text": "Nephi says they have become wicked and may be about to be destroyed; he says a few will be led into captivity.",
         "refs": [
           "1 Nephi 17:43"
         ]
       },
       {
-        "text": "Nephi says the Lord commanded his father to depart into the wilderness, and that the Jews and his brothers sought to take his father’s life.",
+        "text": "Nephi says the Lord commanded his father to depart into the wilderness, and that the Jews and those he addresses sought his father’s life.",
         "refs": [
           "1 Nephi 17:44"
         ]
       },
       {
-        "text": "Nephi says his brothers have seen an angel and heard the Lord’s voice, including a voice like thunder that caused the earth to shake.",
+        "text": "Nephi says those he addresses saw an angel who spoke to them and heard a voice that spoke softly and later like thunder, causing the earth to shake.",
         "refs": [
           "1 Nephi 17:45"
         ]
       },
       {
-        "text": "Nephi says his soul is rent with anguish, his heart is pained, and his frame has no strength.",
+        "text": "Nephi asks why those he addresses are hard in their hearts after speaking of what God’s word can do.",
+        "refs": [
+          "1 Nephi 17:46"
+        ]
+      },
+      {
+        "text": "Nephi says he is anguished, fears those he addresses will be cast off, and has no strength.",
         "refs": [
           "1 Nephi 17:47"
         ]
@@ -973,9 +1032,8 @@
       "Nephi may be shown addressing his brothers and appearing physically weak."
     ],
     "unspecified_visual_details": [
-      "The exact appearance, clothing, and arrangement of the people.",
-      "The precise visible signs of Nephi’s weakness.",
-      "The specific location of this address."
+      "The setting, clothing, appearances, and arrangement of those present.",
+      "How Nephi’s weakness appears visibly."
     ],
     "spoken_dialogue": [
       {
@@ -984,35 +1042,31 @@
           "1 Nephi 17:46"
         ],
         "speaker": "Nephi"
-      }
-    ],
-    "narration": [
-      {
-        "text": "Behold, my soul is rent with anguish because of you,",
-        "refs": [
-          "1 Nephi 17:47"
-        ]
       },
       {
-        "text": "and my heart is pained;",
+        "text": "Behold, my soul is rent with anguish because of you, and my heart is pained; I fear lest ye shall be cast off forever.",
         "refs": [
           "1 Nephi 17:47"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
-        "text": "I fear lest ye shall be cast off forever.",
+        "text": "Behold, I am full of the Spirit of God, insomuch that my frame has no strength.",
         "refs": [
           "1 Nephi 17:47"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The wilderness history, prophetic warnings, and prior experiences are recounted, not newly occurring events in this scene."
+      "The wilderness events, the angel’s appearance, the shaking earth, and the command to Nephi’s father are recounted as past events, not occurring during this address.",
+      "Nephi speaks of possible destruction and future captivity; neither is shown as occurring here."
     ],
     "prohibited_inventions": [
-      "Do not depict the serpents, healing, angel, thunderous voice, or shaking earth as present events.",
-      "Do not depict destruction or the father’s departure as happening now.",
-      "Do not assign names beyond those provided by the text."
+      "Do not show the recounted events or future destruction as present action.",
+      "Do not invent an appearance for the angel or depict an unspecified divine figure.",
+      "Do not add dialogue, named people, or a specific setting."
     ],
     "importance": "normal"
   },
@@ -1025,7 +1079,7 @@
       "1 Nephi 17:50",
       "1 Nephi 17:51"
     ],
-    "summary": "Angry with Nephi and desiring to throw him into the sea, an unnamed group comes forward to lay hands on him. Nephi commands them not to touch him. He tells them not to murmur against their father or withhold their labor, says God commanded him to build a ship, gives a conditional example about water becoming earth, and asks whether the Lord can instruct him to build the ship.",
+    "summary": "After Nephi's prior address, an unnamed group is angry and wants to throw him into the sea. As they approach to lay hands on him, Nephi commands them not to touch him and warns them of God's power. He then tells them not to murmur against their father or withhold their labor, says God commanded him to build a ship, gives a conditional example about water becoming earth, and asks whether the Lord can instruct him to build a ship.",
     "characters": [
       "Nephi",
       "Unnamed group"
@@ -1035,19 +1089,25 @@
     ],
     "explicit_facts": [
       {
-        "text": "The group is angry with Nephi, desires to throw him into the sea, and comes forward to lay hands on him.",
+        "text": "After Nephi's prior address, the group is angry with him and desires to throw him into the sea.",
         "refs": [
           "1 Nephi 17:48"
         ]
       },
       {
-        "text": "Nephi commands the group not to touch him and says he is filled with the power of God.",
+        "text": "The group comes forward to lay hands on Nephi, and he commands them not to touch him.",
         "refs": [
           "1 Nephi 17:48"
         ]
       },
       {
-        "text": "Nephi says the group should stop murmuring against their father and withholding labor from him; he says God commanded him to build a ship.",
+        "text": "Nephi warns that anyone who lays hands on him will wither and that God will smite him.",
+        "refs": [
+          "1 Nephi 17:48"
+        ]
+      },
+      {
+        "text": "Nephi tells them not to murmur against their father or withhold their labor from him, because God commanded him to build a ship.",
         "refs": [
           "1 Nephi 17:49"
         ]
@@ -1059,7 +1119,7 @@
         ]
       },
       {
-        "text": "Nephi asks how the Lord, having great power, could not instruct him to build a ship.",
+        "text": "Nephi asks how the Lord could not instruct him to build a ship.",
         "refs": [
           "1 Nephi 17:51"
         ]
@@ -1067,7 +1127,7 @@
     ],
     "reasonable_visual_inferences": [
       "Nephi and the unnamed group may be shown together as the group approaches him.",
-      "The sea may be visible, without showing anyone thrown into it."
+      "The sea may be visible, but no one is shown being thrown into it."
     ],
     "unspecified_visual_details": [
       "The precise location, weather, clothing, ages, and appearances are not stated.",
@@ -1075,47 +1135,35 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "In the name of the Almighty God, I command you that ye touch me not,",
+        "text": "In the name of the Almighty God, I command you that ye touch me not, for I am filled with the power of God,",
         "refs": [
           "1 Nephi 17:48"
-        ],
-        "speaker": "Nephi"
-      },
-      {
-        "text": "how is it that he cannot instruct me, that I should build a ship?",
-        "refs": [
-          "1 Nephi 17:51"
         ],
         "speaker": "Nephi"
       }
     ],
     "narration": [
       {
-        "text": "they were angry with me",
+        "text": "they were angry with me, and were desirous to throw me into the depths of the sea;",
         "refs": [
           "1 Nephi 17:48"
         ]
       },
       {
-        "text": "and as they came forth to lay their hands upon me",
+        "text": "as they came forth to lay their hands upon me I spake unto them, saying:",
         "refs": [
           "1 Nephi 17:48"
-        ]
-      },
-      {
-        "text": "for God had commanded me that I should build a ship.",
-        "refs": [
-          "1 Nephi 17:49"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The water-to-earth statement is a conditional example, not an event to depict."
+      "The water-to-earth statement is conditional, not a narrated event.",
+      "The text does not say whether anyone touches Nephi after his command."
     ],
     "prohibited_inventions": [
       "Do not depict water becoming earth, flesh being consumed, or anyone withering.",
       "Do not assign names or biographies to the unnamed group.",
-      "Do not depict the group throwing Nephi into the sea."
+      "Do not depict the group throwing Nephi into the sea or assert that Nephi's command visibly stops them."
     ],
     "importance": "normal"
   },

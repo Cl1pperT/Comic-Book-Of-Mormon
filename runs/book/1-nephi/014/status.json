@@ -4,17 +4,21 @@
   "verses": 30,
   "scenes": 17,
   "counts": {
-    "PASS": 15,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 0
+    "PASS": 11,
+    "PASS WITH WARNINGS": 5,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 41,
+  "rejected": {
+    "scene_012": [
+      "1 Nephi 14:17 continues the angel’s speech begun in verse 16. The scene incorrectly presents that speech as Nephi’s narration, lists no speaker, and states that no separate speaker is established."
+    ]
+  },
+  "calls": 123,
   "tokens": {
-    "input_tokens": 326458,
-    "cached_input_tokens": 166144,
+    "input_tokens": 578765,
+    "cached_input_tokens": 283264,
     "cache_write_input_tokens": 0,
-    "output_tokens": 24135,
-    "reasoning_output_tokens": 1550
+    "output_tokens": 34135,
+    "reasoning_output_tokens": 5498
   }
 }

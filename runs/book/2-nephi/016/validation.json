@@ -1,9 +1,11 @@
 {
-  "stamp": "b8d297cb24431f5e36be16861d8d1786a2a650f8a4c05b193f6662bd662bcce3",
+  "stamp": "97639fc73bad0ba840ed97f511c6cbbb02fc6b8655342b3088c66d49a3c9fe2e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The verses identify the person who sees the Lord only as “I”; they do not identify that person as Nephi. The summary, characters, and doctrinal_or_story_notes incorrectly present that identification as fact."
+      ]
     },
     "scene_002": {
       "status": "PASS",

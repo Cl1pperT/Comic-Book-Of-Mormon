@@ -453,11 +453,9 @@
       "Mosiah 23:21",
       "Mosiah 23:22"
     ],
-    "summary": "The account teaches that the Lord chastens his people and tries their patience and faith; those who trust in him will be lifted up at the last day, as was this people.",
+    "summary": "The Lord chastens his people and tries their patience and faith. Those who trust in him will be lifted up at the last day; the passage says it was thus with this people.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The Lord sees fit to chasten his people and tries their patience and faith.",
@@ -466,7 +464,7 @@
         ]
       },
       {
-        "text": "Those who put their trust in the Lord will be lifted up at the last day; the account says this was so with this people.",
+        "text": "Whoever trusts in the Lord will be lifted up at the last day; the passage says it was thus with this people.",
         "refs": [
           "Mosiah 23:22"
         ]
@@ -474,22 +472,30 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No present visual event or specific people are described in these verses."
+      "No visible event, setting, or appearance is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "whosoever putteth his trust in him the same shall be lifted up at the last day.",
+        "text": "Nevertheless the Lord seeth fit to chasten his people; yea, he trieth their patience and their faith.",
+        "refs": [
+          "Mosiah 23:21"
+        ]
+      },
+      {
+        "text": "Nevertheless—whosoever putteth his trust in him the same shall be lifted up at the last day. Yea, and thus it was with this people.",
         "refs": [
           "Mosiah 23:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a teaching and summary, not a narrated visible heavenly event."
+      "These verses present a teaching, not a narrated visible event or spoken dialogue."
     ],
     "prohibited_inventions": [
-      "Depicting a divine appearance or the people being lifted into heaven."
+      "Attributing spoken dialogue to anyone.",
+      "Depicting a divine appearance or people visibly being lifted up.",
+      "Adding events or quotations from verses not supplied here."
     ],
     "importance": "normal"
   },
@@ -851,7 +857,7 @@
       "Mosiah 23:35",
       "Mosiah 23:36"
     ],
-    "summary": "Amulon and his brethren join the Lamanites. While traveling through the wilderness in search of the land of Nephi, they discover the land of Helam, possessed by Alma and his brethren. The Lamanites promise Alma and his brethren their lives and liberty if they show the way to the land of Nephi.",
+    "summary": "Amulon and his brethren join the Lamanites. While traveling through the wilderness in search of the land of Nephi, they discover Helam, which is possessed by Alma and his brethren. The Lamanites promise Alma and his brethren their lives and liberty if they show them the way to the land of Nephi.",
     "characters": [
       "Amulon",
       "Amulon's brethren",
@@ -871,30 +877,37 @@
         ]
       },
       {
-        "text": "They travel in the wilderness seeking the land of Nephi and discover the land of Helam, which is possessed by Alma and his brethren.",
+        "text": "While traveling in the wilderness in search of the land of Nephi, they discover the land of Helam.",
         "refs": [
           "Mosiah 23:35"
         ]
       },
       {
-        "text": "The Lamanites promise Alma and his brethren their lives and liberty if they show the way to the land of Nephi.",
+        "text": "Alma and his brethren possess the land of Helam.",
+        "refs": [
+          "Mosiah 23:35"
+        ]
+      },
+      {
+        "text": "The Lamanites promise Alma and his brethren their lives and liberty if they show them the way to the land of Nephi.",
         "refs": [
           "Mosiah 23:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amulon and his brethren can be shown traveling with the Lamanites."
+      "Amulon and his brethren may be shown traveling with the Lamanites.",
+      "Alma and his brethren may be shown in Helam when the travelers discover it."
     ],
     "unspecified_visual_details": [
-      "The travelers' clothing and appearance.",
-      "The route and appearance of the wilderness and Helam.",
+      "The people's appearances and clothing.",
+      "The appearance of the wilderness and Helam.",
       "How the promise is conveyed."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And Amulon and his brethren did join the Lamanites",
+        "text": "And Amulon and his brethren did join the Lamanites, and they were traveling in the wilderness in search of the land of Nephi when they discovered the land of Helam, which was possessed by Alma and his brethren.",
         "refs": [
           "Mosiah 23:35"
         ]
@@ -904,8 +917,9 @@
       "The promise is reported, but its exact spoken words are not supplied."
     ],
     "prohibited_inventions": [
-      "Do not invent spoken dialogue or identify Amulon's brethren beyond the supplied text.",
-      "Do not depict the land of Nephi as reached."
+      "Do not invent dialogue for the Lamanites or Alma's group.",
+      "Do not depict the land of Nephi as reached.",
+      "Do not give unnamed members of either group invented names or biographies."
     ],
     "importance": "normal"
   },

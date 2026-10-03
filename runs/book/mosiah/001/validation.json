@@ -1,5 +1,5 @@
 {
-  "stamp": "fcc83846ff67967f61121604baf66d003b07a7fd735db03ecedacbde75294620",
+  "stamp": "8b9a1ea7a5099f4fe556a4a111b1c26f990645e3542ebb3b02f4ba9581df87de",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -28,7 +28,7 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaking character is omitted from the characters list, although the dialogue presents a speaker; the verses and preceding context indicate this continues the address to Mosiah."
+        "The spoken dialogue is split into excerpts but omits text between them; each excerpt is exact, and the omitted phrases do not alter the claims. The staged action remains limited to Mosiah being brought before Benjamin and addressed; future events are not depicted."
       ]
     },
     "scene_008": {

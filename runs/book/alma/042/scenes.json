@@ -6,53 +6,65 @@
       "Alma 42:1",
       "Alma 42:2"
     ],
-    "summary": "Alma identifies his son’s concern about God’s justice and begins explaining it, recalling the expulsion from Eden.",
+    "summary": "Alma identifies his son’s concern about the justice of punishing sinners. He begins to explain by recounting the first parents’ departure from Eden and the guarding of the tree of life.",
     "characters": [
-      "Alma (son of Alma)"
+      "Alma (son of Alma)",
+      "Alma’s son"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says his son is troubled about God’s justice in the sinner’s punishment.",
+        "text": "Alma says his son is troubled by the justice of God in the punishment of the sinner.",
         "refs": [
           "Alma 42:1"
         ]
       },
       {
-        "text": "Alma says he will explain the matter and recounts the Lord God sending the first parents from Eden to till the ground.",
+        "text": "Alma says he will explain and recounts that the Lord God sent the first parents from Eden to till the ground.",
+        "refs": [
+          "Alma 42:2"
+        ]
+      },
+      {
+        "text": "Alma recounts that the Lord God placed cherubim and a flaming sword at the east end of Eden to guard the tree of life.",
         "refs": [
           "Alma 42:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to his son in a teaching setting; the son may be shown listening."
+      "Alma speaks to his son, who may be shown listening."
     ],
     "unspecified_visual_details": [
-      "The son’s name, appearance, age, and the physical setting of this conversation."
+      "The son’s name, appearance, and age.",
+      "The physical setting of the conversation."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I perceive there is somewhat more which doth worry your mind",
+        "text": "my son, I perceive there is somewhat more which doth worry your mind",
         "refs": [
           "Alma 42:1"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       },
       {
-        "text": "I will explain this thing unto thee.",
+        "text": "my son, I will explain this thing unto thee.",
         "refs": [
           "Alma 42:2"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This chapter presents Alma’s instruction to his son; it does not name the son."
+      "The Eden account is part of Alma’s explanation, not a simultaneous event."
     ],
     "prohibited_inventions": [
-      "Do not identify the son by name or depict him as a named known character."
+      "Do not name the son.",
+      "Do not depict the Eden account as occurring during this conversation.",
+      "Do not invent an appearance for the Lord God."
     ],
     "importance": "normal"
   },

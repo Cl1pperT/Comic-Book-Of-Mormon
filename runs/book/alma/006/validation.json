@@ -1,5 +1,5 @@
 {
-  "stamp": "cc0ff016337072d1266bf98c29dce99223372e93ec153ff4cc05a887d10bd385",
+  "stamp": "998e34be27c46b56254f7bc9ebfaeda61eeae8eef34994e67259fe11720d8ea6",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -22,10 +22,8 @@
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narrative places Alma in the valley of Gideon, but this verse does not specify the exact gathering place's visual appearance or how many people are present; keep those details unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

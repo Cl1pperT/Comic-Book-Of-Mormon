@@ -89,49 +89,52 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "The Called Ones",
+    "title": "The Commanded and Called Ones",
     "refs": [
       "2 Nephi 23:3"
     ],
-    "summary": "The speaker declares that sanctified and mighty ones have been commanded and called.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The speaker says he has commanded his sanctified ones and called his mighty ones. He says his anger is not upon those who rejoice in his highness.",
+    "characters": [
+      "The Lord"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the sanctified ones have been commanded and the mighty ones called.",
+        "text": "The speaker says he has commanded his sanctified ones and called his mighty ones.",
+        "refs": [
+          "2 Nephi 23:3"
+        ]
+      },
+      {
+        "text": "The speaker says his anger is not upon those who rejoice in his highness.",
         "refs": [
           "2 Nephi 23:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The verse can be presented as off-screen speech over an unspecified setting."
+      "The declaration may be presented without depicting the commanded or called ones."
     ],
     "unspecified_visual_details": [
-      "The appearance, identity, and location of the sanctified and mighty ones; whether they are visible."
+      "The appearance and location of the sanctified and mighty ones.",
+      "The setting and any visible appearance of the speaker."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I have commanded my sanctified ones",
+        "text": "I have commanded my sanctified ones, I have also called my mighty ones, for mine anger is not upon them that rejoice in my highness.",
         "refs": [
           "2 Nephi 23:3"
-        ]
-      },
-      {
-        "text": "I have also called my mighty ones",
-        "refs": [
-          "2 Nephi 23:3"
-        ]
+        ],
+        "speaker": "The Lord"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse does not describe the called ones assembling or acting."
+      "The verse reports commands and a call; it does not describe the called ones assembling or acting."
     ],
     "prohibited_inventions": [
-      "Do not depict an army gathering as a present-tense event."
+      "Do not depict an army gathering or a new command being issued as a present-tense event.",
+      "Do not invent a visible appearance for the Lord."
     ],
     "importance": "normal"
   },
@@ -790,7 +793,7 @@
       "2 Nephi 23:21",
       "2 Nephi 23:22"
     ],
-    "summary": "The verses foretell wild beasts, doleful creatures, owls, satyrs, and dragons in houses and palaces. They also foretell an approaching end, destruction, mercy for a people, and the perishing of the wicked.",
+    "summary": "The verses foretell creatures inhabiting houses and palaces, an approaching end, speedy destruction, mercy for a people, and the perishing of the wicked.",
     "characters": [],
     "locations": [
       "Houses",
@@ -811,47 +814,47 @@
         ]
       },
       {
-        "text": "The text says her time is near and her day shall not be prolonged.",
+        "text": "Her time is near, and her day shall not be prolonged.",
         "refs": [
           "2 Nephi 23:22"
         ]
       },
       {
-        "text": "A first-person declaration foretells her speedy destruction, mercy for the speaker's people, and the perishing of the wicked; the verses do not identify the speaker or her.",
+        "text": "A first-person declaration foretells her speedy destruction, mercy for the speaker's people, and the perishing of the wicked.",
         "refs": [
           "2 Nephi 23:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Desolate houses may serve as a visual representation of the prophecy, without showing the foretold events as already occurring."
+      "Houses and palaces can be shown as the setting of the prophecy, without presenting the foretold events as already occurring."
     ],
     "unspecified_visual_details": [
-      "The identity of the first-person speaker and of “her.”",
+      "The identity of “her” and of the first-person speaker within the quoted prophecy.",
       "The appearance or literal nature of satyrs and dragons.",
       "The architecture, geographic setting, and manner of destruction."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "But wild beasts of the desert shall lie there; and their houses shall be full of doleful creatures; and owls shall dwell there, and satyrs shall dance there.",
+        "text": "But wild beasts of the desert shall lie there;",
         "refs": [
           "2 Nephi 23:21"
         ]
       },
       {
-        "text": "And the wild beasts of the islands shall cry in their desolate houses, and dragons in their pleasant palaces;",
+        "text": "And the wild beasts of the islands shall cry in their desolate houses, and dragons in their pleasant palaces; and her time is near to come, and her day shall not be prolonged. For I will destroy her speedily; yea, for I will be merciful unto my people, but the wicked shall perish.",
         "refs": [
           "2 Nephi 23:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are prophetic statements, not narrated present-tense events. The source does not identify the first-person speaker or establish a visible appearance for satyrs or dragons."
+      "These are prophetic statements, not narrated present-tense events. The supplied verses do not identify “her” or the first-person speaker within the prophecy."
     ],
     "prohibited_inventions": [
-      "Do not identify the first-person speaker or “her.”",
-      "Do not give satyrs or dragons invented designs.",
+      "Do not identify “her” or the first-person speaker within the prophecy.",
+      "Do not invent designs for satyrs or dragons.",
       "Do not depict the foretold creatures, destruction, mercy, or perishing as events already occurring."
     ],
     "importance": "normal"

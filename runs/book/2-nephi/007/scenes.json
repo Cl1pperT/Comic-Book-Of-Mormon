@@ -1,55 +1,71 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "A question of being cast off",
+    "title": "The Lord’s question",
     "refs": [
       "2 Nephi 7:1"
     ],
-    "summary": "The Lord speaks to the house of Israel about being put away and sold because of iniquities and transgressions.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi introduces the Lord’s words. The Lord asks whether he has put his addressees away or cast them off forever, and says they sold themselves for their iniquities.",
+    "characters": [
+      "Nephi",
+      "The Lord"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord asks whether he has put the house of Israel away or cast it off forever.",
+        "text": "Nephi introduces these words as the Lord’s speech.",
         "refs": [
           "2 Nephi 7:1"
         ]
       },
       {
-        "text": "The Lord says they sold themselves for their iniquities, and their mother was put away for their transgressions.",
+        "text": "The Lord asks whether he has put his addressees away or cast them off forever.",
+        "refs": [
+          "2 Nephi 7:1"
+        ]
+      },
+      {
+        "text": "The Lord says they sold themselves for their iniquities and their mother was put away for their transgressions.",
         "refs": [
           "2 Nephi 7:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The passage can be presented as off-screen divine speech without depicting the Lord."
+      "The Lord’s words can be presented without depicting his appearance."
     ],
     "unspecified_visual_details": [
-      "No visible person, setting, or visual appearance is specified."
+      "No setting or appearance is specified for Nephi or the Lord."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Have I put thee away, or have I cast thee off forever?",
         "refs": [
           "2 Nephi 7:1"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
-        "text": "for your iniquities have ye sold yourselves",
+        "text": "Behold, for your iniquities have ye sold yourselves, and for your transgressions is your mother put away.",
+        "refs": [
+          "2 Nephi 7:1"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [
+      {
+        "text": "Yea, for thus saith the Lord:",
         "refs": [
           "2 Nephi 7:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The divorce and sale language is figurative speech, not a narrated event."
+      "The divorce and sale language is part of the Lord’s address, not a narrated transaction."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal divorce, sale, or creditor transaction."
+      "Do not depict a literal divorce, sale, creditor transaction, or visible appearance of the Lord."
     ],
     "importance": "normal"
   },

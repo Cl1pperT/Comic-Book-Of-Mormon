@@ -1,5 +1,5 @@
 {
-  "stamp": "49024703697d131865404bef8a125b5284c2dfa64ded5879614cf0e53cd2c06b",
+  "stamp": "f72e9fb86618f66fdfe9d27b10f14cdced500744cabda802d14c718e9e1b2209",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,10 +12,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Verse 2 is a command, not a report that the banner or signals are actually raised. Keep the visual inference conditional and do not depict execution of the command as occurring."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
@@ -90,7 +88,8 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source does not identify “her” or the first-person speaker, and the creature terms’ appearance is unspecified. The prophecy must not be presented as creatures or destruction already occurring; the proposed desolate-house imagery is only a conditional visual treatment."
+        "The prophecy is presented as quoted narration rather than a current event, consistent with the notes. “Houses and palaces” as a setting is a reasonable inference, but depicting them as a unified scene is not specified.",
+        "The identity of “her” and the first-person speaker is unspecified, as noted. The source also does not specify what “dragons” or “satyrs” look like or whether they are literal creatures."
       ]
     }
   }

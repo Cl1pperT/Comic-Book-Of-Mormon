@@ -1,5 +1,5 @@
 {
-  "stamp": "689814d90562dca05fba0161780e3e6aa3c3757256a9e4fed273138b867aa1d9",
+  "stamp": "d6aefbe616c42cd34357612d68a6c4efd598d147badfed7b33b0f03cff60659b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -64,11 +64,8 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses identify Alma's addressee as “my son” but do not name him; “Speaker's son (addressed)” is a reasonable label, not a supplied character name.",
-        "No location or appearance is specified. The dialogue excerpts are exact contiguous text, and the scene appropriately treats the comparison as teaching rather than a present journey. The preceding scene's account of past events does not alter this chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

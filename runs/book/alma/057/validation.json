@@ -1,5 +1,5 @@
 {
-  "stamp": "e938f15a3602d573b7da4a6c756a5aefd11c13593297887ab7ec4487b1be0532",
+  "stamp": "93007a3aafd47f112255b6b748ade6644e6c71913cbd8f1f5c88383413410aea",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -36,11 +36,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied verses say the returning men arrived in time to check “them,” but do not explicitly identify “them” as the Lamanites; the summary's claim that the Lamanites are about to overpower the force is an inference. The scene's visual inference likewise stages the Lamanites pressing toward the force, which is plausible but not specified as a visible action.",
-        "The return “on the morrow” and the timely arrival are both stated, but the text does not specify whether these descriptions refer to precisely the same moment. Avoid adding staging that fixes more chronology than the verses give."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",

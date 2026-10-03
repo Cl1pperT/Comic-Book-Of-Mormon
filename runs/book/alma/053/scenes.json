@@ -1,44 +1,64 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Prisoners Bury the Dead",
+    "title": "Prisoners Assigned Burial Labor",
     "refs": [
       "Alma 53:1"
     ],
-    "summary": "Lamanite prisoners bury the dead under guard.",
+    "summary": "Lamanite prisoners were placed under guard and compelled to bury their dead and slain Nephites, with Moroni assigning men to guard them during their labors.",
     "characters": [
-      "Lamanite prisoners",
-      "Nephite guards"
+      "Prisoners of the Lamanites",
+      "Moroni",
+      "Men placed as guards by Moroni"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Guards were set over the Lamanite prisoners, who were compelled to bury their dead and the slain Nephites; Moroni placed men to guard them as they worked.",
+        "text": "Guards were set over the prisoners of the Lamanites.",
+        "refs": [
+          "Alma 53:1"
+        ]
+      },
+      {
+        "text": "The prisoners were compelled to go forth and bury their dead and the slain Nephites.",
+        "refs": [
+          "Alma 53:1"
+        ]
+      },
+      {
+        "text": "Moroni placed men over the prisoners to guard them during their labors.",
         "refs": [
           "Alma 53:1"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Prisoners dig graves while armed guards watch nearby."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The precise location, number of prisoners and guards, clothing, tools, and appearance of the dead."
+      "The location, number of prisoners and guards, clothing, tools, and burial arrangements are unspecified.",
+      "Moroni's physical presence during the burial labor is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did set guards over the prisoners of the Lamanites",
+        "text": "And it came to pass that they did set guards over the prisoners of the Lamanites, and did compel them to go forth and bury their dead, yea, and also the dead of the Nephites who were slain;",
         "refs": [
           "Alma 53:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Mormon is the narrator; no direct speech is supplied.",
+      "Retain this as a narrated report rather than staging a newly invented present-tense burial scene.",
+      "The verse does not establish a separate chronological sequence between setting guards and Moroni placing men over the prisoners."
+    ],
     "prohibited_inventions": [
-      "Do not depict identifiable individual dead or add dialogue."
+      "Do not stage the reported actions as a single specified moment or invent an order for the guard assignments.",
+      "Do not identify the unspecified 'they' or attribute the compulsion specifically to Moroni.",
+      "Do not add dialogue, named prisoners, individual identities for the dead, or motives.",
+      "Do not depict Moroni as necessarily present during the burial work.",
+      "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
@@ -99,56 +119,54 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Prisoners Returned to Bountiful",
+    "title": "Digging the Ditch at Bountiful",
     "refs": [
       "Alma 53:3"
     ],
-    "summary": "After burying the dead, Lamanite prisoners are marched back into Bountiful and set to digging a ditch around the city.",
+    "summary": "After burying their dead and the Nephite dead, the Lamanites were marched back into Bountiful. By Moroni's orders, Teancum caused them to begin digging a ditch around the land or city of Bountiful.",
     "characters": [
-      "Lamanite prisoners",
+      "Lamanites",
       "Teancum"
     ],
     "locations": [
-      "Land of Bountiful"
+      "Land or city of Bountiful"
     ],
     "explicit_facts": [
       {
-        "text": "After burying both Lamanite and Nephite dead, the Lamanites were marched back into Bountiful.",
+        "text": "The Lamanites finished burying their dead and the dead of the Nephites before being marched back into Bountiful.",
         "refs": [
           "Alma 53:3"
         ]
       },
       {
-        "text": "By Moroni's orders, Teancum caused them to begin digging a ditch around Bountiful.",
+        "text": "By Moroni's orders, Teancum caused the Lamanites to begin digging a ditch around the land or city of Bountiful.",
         "refs": [
           "Alma 53:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Prisoners march toward Bountiful, with Teancum overseeing the beginning of the ditch work."
+      "Lamanites beginning ditch work at Bountiful."
     ],
     "unspecified_visual_details": [
-      "The route, the number of prisoners, and the precise appearance of the land."
+      "The number of Lamanites, the tools used, and the ditch's exact shape and dimensions.",
+      "Whether Teancum is physically present at the digging."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were marched back into the land Bountiful",
-        "refs": [
-          "Alma 53:3"
-        ]
-      },
-      {
-        "text": "commence laboring in digging a ditch",
+        "text": "And it came to pass that after the Lamanites had finished burying their dead and also the dead of the Nephites, they were marched back into the land Bountiful; and Teancum, by the orders of Moroni, caused that they should commence laboring in digging a ditch round about the land, or the city, Bountiful.",
         "refs": [
           "Alma 53:3"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The burial and march precede the ditch work; they are not simultaneous actions in this scene."
+    ],
     "prohibited_inventions": [
-      "Do not depict the burial in this scene; it occurred before the march."
+      "Do not depict the earlier burial or march as occurring during the ditch work.",
+      "Do not depict Moroni as physically present or invent dialogue, escorts, or burial details."
     ],
     "importance": "normal"
   },
@@ -247,58 +265,64 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "Moroni's Victory at Mulek",
+    "title": "Retrospective Account of Mulek",
     "refs": [
       "Alma 53:6"
     ],
-    "summary": "Moroni had gained a victory over a Lamanite army, obtained possession of Mulek, and built a stronghold to retain prisoners.",
-    "characters": [
-      "Moroni"
-    ],
-    "locations": [
-      "City of Mulek"
-    ],
+    "summary": "Moroni had gained a victory over a Lamanite army, obtained possession of Mulek, and built a stronghold to retain his prisoners.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Moroni gained a victory over one of the greatest armies of the Lamanites.",
+        "text": "Moroni had gained a victory over one of the greatest armies of the Lamanites.",
         "refs": [
           "Alma 53:6"
         ]
       },
       {
-        "text": "Moroni obtained possession of Mulek, one of the strongest Lamanite holds in the land of Nephi.",
+        "text": "Moroni had obtained possession of Mulek, one of the strongest Lamanite holds in the land of Nephi.",
         "refs": [
           "Alma 53:6"
         ]
       },
       {
-        "text": "Moroni built a stronghold to retain his prisoners.",
+        "text": "Moroni had built a stronghold to retain his prisoners.",
         "refs": [
           "Alma 53:6"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mulek may be shown as a fortified city in a static view."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance of Mulek and the design of the stronghold."
+      "The appearance of Mulek and the design and location of the stronghold are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and had obtained possession of the city of Mulek",
+        "text": "Moroni had thus gained a victory over one of the greatest of the armies of the Lamanites,",
+        "refs": [
+          "Alma 53:6"
+        ]
+      },
+      {
+        "text": "and had obtained possession of the city of Mulek, which was one of the strongest holds of the Lamanites in the land of Nephi;",
+        "refs": [
+          "Alma 53:6"
+        ]
+      },
+      {
+        "text": "and thus he had also built a stronghold to retain his prisoners.",
         "refs": [
           "Alma 53:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports these events retrospectively; do not stage them as occurring at the same moment."
+      "The verse reports completed events retrospectively; it does not place them at one moment."
     ],
     "prohibited_inventions": [
-      "Do not depict an ongoing battle or invent its participants or details.",
-      "Do not invent an appearance for Moroni or the prisoners."
+      "Do not stage an ongoing battle, the taking of Mulek, and stronghold construction as simultaneous events.",
+      "Do not depict Moroni as physically present in a current scene or invent the appearance of the city, stronghold, or prisoners."
     ],
     "importance": "normal"
   },
@@ -364,48 +388,58 @@
     "refs": [
       "Alma 53:8"
     ],
-    "summary": "While Moroni is absent amid Nephite intrigue and dissensions, Lamanite armies in the south by the west sea gain ground and take several Nephite cities.",
+    "summary": "While Moroni is absent because of intrigue and dissensions among the Nephites, Lamanite armies by the west sea in the south gain ground over the Nephites and obtain possession of a number of their cities.",
     "characters": [
       "Lamanite armies",
-      "Nephite defenders"
+      "Nephites",
+      "Moroni (absent)"
     ],
     "locations": [
-      "Nephite cities in the south by the west sea"
+      "West sea, south",
+      "Cities in that part of the land"
     ],
     "explicit_facts": [
       {
-        "text": "Lamanite armies on the west sea, south, gained ground over the Nephites while Moroni was absent because of intrigue and dissensions among the Nephites.",
+        "text": "The armies of the Lamanites were on the west sea, south.",
         "refs": [
           "Alma 53:8"
         ]
       },
       {
-        "text": "The Lamanites obtained possession of a number of Nephite cities in that part of the land.",
+        "text": "Moroni was absent on account of intrigue among the Nephites, which caused dissensions among them.",
+        "refs": [
+          "Alma 53:8"
+        ]
+      },
+      {
+        "text": "The Lamanite armies gained ground over the Nephites and obtained possession of a number of their cities in that part of the land.",
         "refs": [
           "Alma 53:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A captured city may be shown with Lamanite forces present, without depicting an unreported battle."
+      "Lamanite forces may be shown in a city they already possess, without depicting its capture."
     ],
     "unspecified_visual_details": [
-      "The cities' names, which city to show, and the circumstances of their capture."
+      "The cities’ names and appearance.",
+      "The number of cities and the circumstances of their capture."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they had obtained possession of a number of their cities",
+        "text": "the armies of the Lamanites, on the west sea, south, while in the absence of Moroni on account of some intrigue amongst the Nephites, which caused dissensions amongst them, had gained some ground over the Nephites, yea, insomuch that they had obtained possession of a number of their cities in that part of the land.",
         "refs": [
           "Alma 53:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports gains and captures; it does not narrate a specific battle."
+      "Mormon reports territorial gains and possession of cities; the verse does not narrate a specific battle."
     ],
     "prohibited_inventions": [
-      "Do not show the capture as a present-tense battle or identify unnamed cities."
+      "Do not depict an unreported battle or the moment of capture.",
+      "Do not identify the unnamed cities or invent participants in the intrigue."
     ],
     "importance": "normal"
   },
@@ -459,102 +493,129 @@
       "Alma 53:11",
       "Alma 53:12"
     ],
-    "summary": "The people of Ammon, formerly Lamanites, had been converted through Ammon and his brethren and brought to Zarahemla, where the Nephites protected them. Their oath forbade them to take up arms or shed blood; the account says they would have let their brethren kill them without the pity and love of Ammon and his brethren.",
+    "summary": "Mormon recounts that the people of Ammon, formerly Lamanites, were converted, brought to Zarahemla, and protected by the Nephites. Their oath kept them from taking up arms or shedding blood.",
     "characters": [
-      "Anti-Nephi-Lehies (people of Ammon)"
+      "People of Ammon"
     ],
     "locations": [
       "Land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "The people of Ammon were formerly Lamanites and were converted unto the Lord through Ammon and his brethren, or through the power and word of God.",
+        "text": "The people of Ammon were formerly Lamanites and had been converted unto the Lord by Ammon and his brethren, or rather by the power and word of God.",
         "refs": [
           "Alma 53:10"
         ]
       },
       {
-        "text": "They were brought to Zarahemla and protected by the Nephites.",
+        "text": "They were brought to the land of Zarahemla and protected by the Nephites.",
         "refs": [
           "Alma 53:10",
           "Alma 53:12"
         ]
       },
       {
-        "text": "Because of their oath, they would not take up arms or shed blood; they would have suffered themselves to fall into their brethren's hands but for the pity and love of Ammon and his brethren.",
+        "text": "Their oath kept them from taking up arms against their brethren; they had sworn never to shed blood again.",
+        "refs": [
+          "Alma 53:11"
+        ]
+      },
+      {
+        "text": "Mormon says they would have suffered themselves to fall into their brethren's hands but for the pity and love of Ammon and his brethren.",
         "refs": [
           "Alma 53:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people of Ammon may be shown together in Zarahemla, without depicting a specific conversion or protection incident."
+      "The people of Ammon may be shown as a group in Zarahemla without staging a specific past event."
     ],
     "unspecified_visual_details": [
-      "The appearance of Ammon and his brethren, who are referred to in narration but not stated to be present."
+      "Their clothing, ages, and individual appearances are not specified.",
+      "The appearance of Zarahemla is not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they ever had been protected by the Nephites",
+        "text": "I have somewhat to say concerning the people of Ammon",
         "refs": [
-          "Alma 53:12"
+          "Alma 53:10"
+        ]
+      },
+      {
+        "text": "they had been brought down into the land of Zarahemla, and had ever since been protected by the Nephites.",
+        "refs": [
+          "Alma 53:10"
+        ]
+      },
+      {
+        "text": "they had taken an oath that they never would shed blood more",
+        "refs": [
+          "Alma 53:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Conversion and earlier protection are reported history, not present-tense events."
+      "Conversion, relocation, and protection are reported as earlier events, not actions occurring in this scene.",
+      "The account attributes their conversion ultimately to the power and word of God."
     ],
     "prohibited_inventions": [
-      "Do not depict Ammon or his brethren as physically present; the verses do not place them in this scene."
+      "Do not depict Ammon or his brethren as physically present.",
+      "Do not stage a conversion, oath-taking, attack, or rescue; none is narrated as occurring at this moment.",
+      "Do not invent dialogue or a particular act of Nephite protection."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "The People of Ammon Feel Compassion",
+    "title": "Helaman Persuades the People of Ammon",
     "refs": [
       "Alma 53:13",
       "Alma 53:14",
       "Alma 53:15"
     ],
-    "summary": "Seeing the Nephites' danger and afflictions, the people of Ammon wish to take up arms. As they are about to take their weapons, Helaman and his brethren persuade them not to break their oath; Helaman fears for their souls, and they must watch their brethren endure afflictions.",
+    "summary": "The people of Ammon see the Nephites' danger and afflictions and desire to defend their country. As they are about to take their weapons, Helaman and his brethren persuade them; taking up arms would break their oath. Helaman fears they might lose their souls, and those who made the covenant must behold their brethren endure afflictions.",
     "characters": [
-      "Anti-Nephi-Lehies (people of Ammon)",
-      "Helaman (son of Alma)",
-      "Helaman's brethren"
+      "People of Ammon",
+      "Helaman",
+      "Helaman's brethren",
+      "Nephites"
     ],
-    "locations": [
-      "Land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Seeing the danger and afflictions borne by the Nephites for them, the people of Ammon feel compassion and desire to take up arms in defense of their country.",
+        "text": "The people of Ammon are moved with compassion by the danger and afflictions the Nephites bear for them and desire to take up arms in defense of their country.",
         "refs": [
           "Alma 53:13"
         ]
       },
       {
-        "text": "As they are about to take their weapons, Helaman and his brethren persuade them not to break their oath.",
+        "text": "As they are about to take their weapons, the persuasions of Helaman and his brethren stop them from breaking their oath.",
         "refs": [
           "Alma 53:14"
         ]
       },
       {
-        "text": "Helaman fears they might lose their souls; those who made the covenant must watch their brethren endure afflictions in dangerous circumstances.",
+        "text": "Helaman fears they might lose their souls; those who entered the covenant must behold their brethren in dangerous circumstances and afflictions.",
         "refs": [
           "Alma 53:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show the people of Ammon with weapons as Helaman and his brethren persuade them to stop, before they take up arms."
+      "The people of Ammon pause near weapons while Helaman and his brethren address them."
     ],
     "unspecified_visual_details": [
-      "The words of the persuasion, specific weapons, and the visual form of their afflictions."
+      "The setting, clothing, number of people, types of weapons, and words of the persuasion are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "they were moved with compassion and were desirous to take up arms in the defence of their country.",
+        "refs": [
+          "Alma 53:13"
+        ]
+      },
       {
         "text": "they were about to take their weapons of war",
         "refs": [
@@ -562,17 +623,19 @@
         ]
       },
       {
-        "text": "overpowered by the persuasions of Helaman and his brethren",
+        "text": "they were overpowered by the persuasions of Helaman and his brethren",
         "refs": [
           "Alma 53:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage reports persuasion but gives no quoted speech."
+      "The passage reports persuasion but quotes no speech.",
+      "Helaman's fear for their souls is stated; it is not a visible event."
     ],
     "prohibited_inventions": [
-      "Do not invent dialogue or depict them breaking their oath."
+      "Do not invent Helaman's words or depict the oath being broken.",
+      "Do not depict the Nephites' afflictions as a simultaneous encounter with the persuasion."
     ],
     "importance": "normal"
   },
@@ -584,13 +647,11 @@
       "Alma 53:17",
       "Alma 53:18"
     ],
-    "summary": "The sons of the people of Ammon who had not made the oath assemble with weapons, call themselves Nephites, covenant to fight for Nephite liberty and protection, and number two thousand.",
+    "summary": "Many sons who had not entered the covenant against taking up weapons assembled, called themselves Nephites, covenanted to defend Nephite liberty and the land, and took up weapons. Two thousand young men entered this covenant.",
     "characters": [
-      "Sons of the people of Ammon"
+      "Two thousand young men"
     ],
-    "locations": [
-      "Land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Many sons had not entered the covenant against taking up weapons to defend themselves; those able to bear arms assembled and called themselves Nephites.",
@@ -612,13 +673,19 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "An assembly of young men bearing weapons can represent their gathering and covenant."
+      "A wide view could convey the size of the assembly."
     ],
     "unspecified_visual_details": [
-      "Their individual identities, appearance, clothing, and the form of the covenant."
+      "The location, individual appearances, clothing, weapon types, and form of the covenant are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "they had many sons",
+        "refs": [
+          "Alma 53:16"
+        ]
+      },
       {
         "text": "they did assemble themselves together at this time",
         "refs": [
@@ -633,57 +700,69 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "No individual son is named in these verses."
+      "The supplied verses do not identify the sons' parents or name any individual young man."
     ],
     "prohibited_inventions": [
-      "Do not add personal names or invented spoken oath wording."
+      "Do not identify the parents, add a location, or invent spoken covenant wording."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "The Young Men Choose Helaman",
+    "title": "Young Men Take Weapons and Seek Helaman as Leader",
     "refs": [
       "Alma 53:19",
       "Alma 53:20",
       "Alma 53:21"
     ],
-    "summary": "The two thousand young men become a great support to the Nephites, take up weapons, and want Helaman as their leader. They are described as courageous, strong, active, trustworthy, truthful, sober, and taught to keep God's commandments and walk uprightly.",
+    "summary": "The young men become a great support to the Nephites, take their weapons of war, and want Helaman as their leader.",
     "characters": [
-      "Sons of the people of Ammon",
-      "Helaman (son of Alma)"
+      "Young men",
+      "Helaman (mentioned)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The young men became a great support to the Nephites, took up weapons, and wanted Helaman as their leader.",
+        "text": "They became a great support to the Nephites, took their weapons of war, and wanted Helaman as their leader.",
         "refs": [
           "Alma 53:19"
         ]
       },
       {
-        "text": "They were young, courageous, strong, active, and true in their entrusted responsibilities.",
+        "text": "They were young men described as courageous, strong, active, and true in what they were entrusted with.",
         "refs": [
           "Alma 53:20"
         ]
       },
       {
-        "text": "They were people of truth and soberness, taught to keep God's commandments and walk uprightly before him.",
+        "text": "They were described as men of truth and soberness who had been taught to keep God's commandments and walk uprightly before him.",
         "refs": [
           "Alma 53:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Helaman may be shown with the assembled young men as they choose him to lead them."
+      "The young men may be shown together with weapons."
     ],
     "unspecified_visual_details": [
-      "The moment and manner of their choice, as well as individual appearances."
+      "Their number, individual appearances, the location, and whether Helaman is present."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "they were all young men",
+        "refs": [
+          "Alma 53:20"
+        ]
+      },
+      {
+        "text": "they took their weapons of war",
+        "refs": [
+          "Alma 53:19"
+        ]
+      },
       {
         "text": "they would that Helaman should be their leader",
         "refs": [
@@ -698,10 +777,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Character qualities are supplied by the narration; do not invent a ceremony."
+      "Their qualities are the narrator's description, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine appearance or add spoken words."
+      "Do not identify the young men as sons of the people of Ammon; that identification is not in the supplied verses.",
+      "Do not invent a selection ceremony, spoken words, or a divine appearance."
     ],
     "importance": "normal"
   },

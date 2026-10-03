@@ -221,54 +221,56 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Lehi describes baptism at Bethabara",
+    "title": "Nephi recounts his father’s words about baptism",
     "refs": [
       "1 Nephi 10:9",
       "1 Nephi 10:10"
     ],
-    "summary": "Lehi says the Messiah will be baptized with water at Bethabara beyond Jordan; afterward, the baptizer will behold and bear record that he baptized the Lamb of God.",
+    "summary": "Nephi recounts that his father said an unnamed person should baptize with water in Bethabara, beyond Jordan, including the Messiah. Afterward, that person should behold and bear record that he had baptized the Lamb of God.",
     "characters": [
+      "Nephi",
       "Lehi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi says the baptizer should baptize in Bethabara, beyond Jordan, with water, and baptize the Messiah with water.",
+        "text": "Nephi says his father spoke of someone baptizing with water in Bethabara, beyond Jordan, including the Messiah.",
         "refs": [
           "1 Nephi 10:9"
         ]
       },
       {
-        "text": "After baptizing the Messiah with water, the baptizer should behold and bear record that he had baptized the Lamb of God, who should take away the sins of the world.",
+        "text": "Nephi says that after baptizing the Messiah, that person should behold and bear record that he had baptized the Lamb of God, who should take away the sins of the world.",
         "refs": [
           "1 Nephi 10:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is recounting what his father said; the future baptism is not shown as a present event."
+      "The account can be presented as Nephi’s narration without showing the future baptism."
     ],
     "unspecified_visual_details": [
-      "Lehi's surroundings and appearance are not specified.",
-      "The identity and appearance of the baptizer are not specified.",
-      "No appearance of the Messiah or the Lamb of God is described."
+      "Nephi’s and Lehi’s appearances and surroundings are not specified.",
+      "The baptizer’s identity and appearance are not specified.",
+      "No appearance of the Messiah is described."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
         "text": "And my father said he should baptize in Bethabara, beyond Jordan;",
         "refs": [
           "1 Nephi 10:9"
-        ],
-        "speaker": "Lehi"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The baptism and subsequent testimony are described as future events, not events occurring in this scene."
+      "The baptism and subsequent testimony are described as future events, not events occurring in this scene.",
+      "Lehi’s words are reported by Nephi, not quoted as Lehi’s direct speech."
     ],
     "prohibited_inventions": [
-      "Do not depict the future baptism or the Messiah as physically present.",
-      "Do not identify the unnamed baptizer or invent additional speakers."
+      "Do not depict the future baptism as occurring in this scene.",
+      "Do not identify the baptizer or invent direct dialogue for Lehi.",
+      "Do not depict the Messiah or Lamb of God as physically present."
     ],
     "importance": "normal"
   },

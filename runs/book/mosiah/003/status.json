@@ -4,17 +4,27 @@
   "verses": 27,
   "scenes": 14,
   "counts": {
-    "PASS": 10,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 0
+    "PASS": 8,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 3
   },
-  "rejected": {},
-  "calls": 29,
+  "rejected": {
+    "scene_004": [
+      "Mosiah 3:2–3 identifies the angel as the speaker, and the prophecy in 3:5–6 continues that speech. The claims that the speaker is unidentified and must not be identified contradict the supplied source and the preceding scene."
+    ],
+    "scene_011": [
+      "The supplied verses do not identify the speaker as an angel. The character label, dialogue speaker, summary, and speaker note present that identity as fact without source support."
+    ],
+    "scene_012": [
+      "The supplied verses do not identify the speaker as an angel. The character label, dialogue speaker, explicit facts, and speaker note present that identity as fact without source support."
+    ]
+  },
+  "calls": 39,
   "tokens": {
-    "input_tokens": 216883,
-    "cached_input_tokens": 108544,
+    "input_tokens": 285471,
+    "cached_input_tokens": 136192,
     "cache_write_input_tokens": 0,
-    "output_tokens": 24292,
-    "reasoning_output_tokens": 10270
+    "output_tokens": 31916,
+    "reasoning_output_tokens": 13533
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "14cb1333eb898743739c38293df23f0385a6e3e721fb8d0b5d0bd914fe45cd54",
+  "stamp": "fd3b93eb57078213b0dcd56fa38892d2713b809618a9de70a2610e0552c88b42",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -20,8 +20,10 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses report Lehi’s words through Nephi but do not specify the setting or establish where Nephi and Lehi are physically present; depicting them together is an uncertain visual choice."
+      ]
     },
     "scene_006": {
       "status": "PASS",

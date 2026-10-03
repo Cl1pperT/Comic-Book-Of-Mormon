@@ -291,49 +291,68 @@
       "Alma 23:14",
       "Alma 23:15"
     ],
-    "summary": "The Amalekites, except one, and the Amulonites do not convert; they harden their hearts and the hearts of Lamanites in the areas where they live. The account identifies the cities where people repented and converted.",
+    "summary": "Only one Amalekite converted, and no Amulonites converted. They hardened their hearts and the hearts of Lamanites where they lived. The narrator has named the cities where Lamanites repented and converted.",
     "characters": [
       "Amalekites",
       "Amulonites",
-      "Lamanites in the affected areas"
+      "Lamanites"
     ],
     "locations": [
-      "Lamanite lands"
+      "The part of the land where the Amalekites and Amulonites dwelt",
+      "Their villages and cities",
+      "The previously named cities of the Lamanites"
     ],
     "explicit_facts": [
       {
-        "text": "The Amalekites were not converted except for one, and none of the Amulonites converted; they hardened their own hearts and those of Lamanites where they lived.",
+        "text": "The Amalekites were not converted except for one; no Amulonites were converted.",
         "refs": [
           "Alma 23:14"
         ]
       },
       {
-        "text": "The narrator says the cities where people repented and converted have been named.",
+        "text": "They hardened their own hearts and the hearts of Lamanites in the part of the land where they dwelt, including their villages and cities.",
+        "refs": [
+          "Alma 23:14"
+        ]
+      },
+      {
+        "text": "Mormon says the cities of the Lamanites where people repented, came to the knowledge of the truth, and converted have been named.",
         "refs": [
           "Alma 23:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A contrast between resistant groups and the previously listed converted communities is reasonable, without placing them in a shared event."
+      "A visual contrast may distinguish the resistant groups from the previously named converted cities without placing them together in a new event."
     ],
     "unspecified_visual_details": [
-      "The identity of the one converted Amalekite, the individuals present, and the exact locations."
+      "The identity of the one converted Amalekite",
+      "The appearance of the people and settlements",
+      "The exact locations of the villages and cities"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Amalekites were not converted, save only one",
+        "text": "And the Amalekites were not converted, save only one; neither were any of the Amulonites; but they did harden their hearts, and also the hearts of the Lamanites in that part of the land wheresoever they dwelt, yea, and all their villages and all their cities.",
         "refs": [
           "Alma 23:14"
+        ]
+      },
+      {
+        "text": "Therefore, we have named all the cities of the Lamanites",
+        "refs": [
+          "Alma 23:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Hardening hearts is figurative language and should not be shown as a physical transformation."
+      "Mormon is the first-person narrator, not a speaker in a depicted exchange.",
+      "Hardening hearts is figurative, not a visible physical change."
     ],
     "prohibited_inventions": [
-      "Do not portray hearts physically changing or invent a confrontation."
+      "Do not depict hearts physically changing.",
+      "Do not invent a confrontation, dialogue, or an identity for the one converted Amalekite.",
+      "Do not place the previously named converted communities in a new shared event with these groups."
     ],
     "importance": "normal"
   },

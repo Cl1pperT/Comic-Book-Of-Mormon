@@ -1,17 +1,23 @@
 {
-  "stamp": "ae676c6983b1e4634cebe772e411d2627ea6b67458e684c85a66161948bd6d14",
+  "stamp": "bcf230ca6d3c8ff1501be8a52c35b23f9cd51a7f8e2a6877cb3d178eddb6a83d",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Son's crucifixion and death are foretold, not occurring in the speaking scene; the supplied visual-inference and prohibition notes correctly require keeping them off-screen.",
+        "The sheep comparison and descriptions of intercession/redemption are teachings or figurative language, not literal visible events; avoid staging them as such."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“God breaketh the bands of death” and the Son “standing betwixt them and justice” are presented as teachings, not narrated visible action; keep them nonliteral rather than depicting a visible heavenly scene.",
+        "The Son's ascension is stated, but no visible appearance or setting is described; do not invent one."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -30,16 +36,22 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts are supported by the supplied verses. However, narration quotes only parts of verses 22 and 23 and omits intervening wording; use separate short exact excerpts if quoting. The verse 24 narration is verbatim.",
+        "No visible setting or appearance is specified, and the notes correctly caution against staging resurrection as a present-tense event.",
+        "The preceding scene treats Abinadi’s speech as occurring earlier; this scene introduces no conflicting chronology."
+      ]
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The word “every” in the summary of Mosiah 15:28 is broader than the verse’s exact list (“every nation, kindred, tongue, and people”); keep the wording tied to that list. The prophetic wording in verses 29–31 must not be staged as events occurring during the speech, as the scene notes already caution."
+      ]
     }
   }
 }

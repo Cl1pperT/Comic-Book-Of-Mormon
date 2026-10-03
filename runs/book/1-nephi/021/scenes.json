@@ -5,31 +5,39 @@
     "refs": [
       "1 Nephi 21:1"
     ],
-    "summary": "A speaker calls to scattered Israel and says the Lord called him from the womb and made mention of his name.",
-    "characters": [],
+    "summary": "A speaker addresses the house of Israel, the isles, and people from far away, and says the Lord called him from the womb and made mention of his name.",
+    "characters": [
+      "Unidentified speaker"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker addresses the house of Israel, including those scattered abroad and people from far away.",
+        "text": "The speaker addresses the house of Israel, including those broken off and scattered abroad.",
         "refs": [
           "1 Nephi 21:1"
         ]
       },
       {
-        "text": "The Lord called the speaker from the womb and made mention of his name before birth.",
+        "text": "The speaker calls on the isles and people from far away to listen.",
+        "refs": [
+          "1 Nephi 21:1"
+        ]
+      },
+      {
+        "text": "The speaker says the Lord called him from the womb and made mention of his name.",
         "refs": [
           "1 Nephi 21:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The address can be presented as off-screen speech over an unspecified setting."
+      "The address may be heard without showing the speaker or listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity, appearance, age, and physical location are not stated.",
-      "No listeners or visible people are specified."
+      "The speaker's identity, appearance, and location are not stated.",
+      "No listeners are described as visibly present."
     ],
     "spoken_dialogue": [
       {
@@ -37,22 +45,22 @@
         "refs": [
           "1 Nephi 21:1"
         ],
-        "speaker": "The speaker"
-      }
-    ],
-    "narration": [
+        "speaker": "Unidentified speaker"
+      },
       {
-        "text": "the Lord hath called me from the womb;",
+        "text": "Listen, O isles, unto me, and hearken ye people from far; the Lord hath called me from the womb; from the bowels of my mother hath he made mention of my name.",
         "refs": [
           "1 Nephi 21:1"
-        ]
+        ],
+        "speaker": "Unidentified speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The chapter is presented as prophetic speech; its metaphors should not be visualized as literal events."
+      "The speaker identifies himself only through his statement that the Lord called him from the womb; the verse does not supply his name."
     ],
     "prohibited_inventions": [
-      "Do not show a birth or identify the speaker as a particular person."
+      "Do not assign the speaker a name or depict a birth, the Lord's appearance, or distant listeners as present."
     ],
     "importance": "normal"
   },

@@ -1,9 +1,11 @@
 {
-  "stamp": "e49bcb9a1530bf2fce62d6747e92c2bc7728c3e1f82afe375fcb0c33b541d88f",
+  "stamp": "dad79c7ddb84a75367d095bcf26273c592520fbf7a2d4d64b70549fad133b2c6",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses identify Jacob’s audience as “my brethren,” but do not specify a physical location or explicitly describe him addressing them; depict the listeners and setting conservatively. The prophecy’s vineyard language is not a narrated present event."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

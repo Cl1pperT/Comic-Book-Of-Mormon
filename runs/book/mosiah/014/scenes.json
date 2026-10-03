@@ -1,56 +1,75 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The report and the tender plant",
+    "title": "Isaiah’s report and comparison",
     "refs": [
       "Mosiah 14:1",
       "Mosiah 14:2"
     ],
-    "summary": "Isaiah’s words ask who believed the report and describe the servant growing like a tender plant and a root out of dry ground.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Isaiah’s words are introduced. They ask who has believed the report and to whom the arm of the Lord is revealed, then compare an unnamed figure’s growth to a tender plant and a root out of dry ground.",
+    "characters": [
+      "Isaiah (quoted, not physically present)"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The words ask who believed the report and to whom the arm of the Lord is revealed.",
+        "text": "The words are attributed to Isaiah.",
         "refs": [
           "Mosiah 14:1"
         ]
       },
       {
-        "text": "The servant grows before him as a tender plant and as a root out of dry ground; he has no form or comeliness, and no beauty that people should desire.",
+        "text": "Isaiah’s words ask who has believed the report and to whom the arm of the Lord is revealed.",
+        "refs": [
+          "Mosiah 14:1"
+        ]
+      },
+      {
+        "text": "An unnamed figure is compared to a tender plant and a root out of dry ground, and is described as having no form, comeliness, or desirable beauty.",
         "refs": [
           "Mosiah 14:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A small plant or root emerging from dry ground can illustrate the comparison."
+      "A tender plant and dry ground could illustrate the comparison symbolically, not as a narrated event."
     ],
     "unspecified_visual_details": [
-      "The servant's appearance, age, clothing, and setting are not specified."
+      "The unnamed figure’s identity, physical appearance, clothing, and setting are not specified.",
+      "The person introducing Isaiah’s words is not named in the supplied verses."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Who hath believed our report, and to whom is the arm of the Lord revealed?",
         "refs": [
           "Mosiah 14:1"
-        ]
+        ],
+        "speaker": "Isaiah"
       },
       {
-        "text": "For he shall grow up before him as a tender plant, and as a root out of dry ground;",
+        "text": "For he shall grow up before him as a tender plant, and as a root out of dry ground; he hath no form nor comeliness; and when we shall see him there is no beauty that we should desire him.",
         "refs": [
           "Mosiah 14:2"
+        ],
+        "speaker": "Isaiah"
+      }
+    ],
+    "narration": [
+      {
+        "text": "Yea, even doth not Isaiah say:",
+        "refs": [
+          "Mosiah 14:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The plant and root are figures of speech, not a narrated visible event."
+      "The plant and root are figures of speech, not a narrated visible event.",
+      "Isaiah is cited, not shown as physically present."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific historical person or assert a named identity for the servant."
+      "Do not name or depict the unnamed figure as a specific historical person.",
+      "Do not invent an appearance for Isaiah or the unnamed figure.",
+      "Do not present the comparison as a literal supernatural event."
     ],
     "importance": "normal"
   },

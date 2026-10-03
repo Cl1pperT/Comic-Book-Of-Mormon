@@ -173,52 +173,60 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Amulek returns and meets Alma",
+    "title": "Amulek meets the man on his way home",
     "refs": [
       "Alma 10:8"
     ],
-    "summary": "Amulek obeys and returns toward his house; on the way he finds the man the angel said he would receive, identified as the man now speaking to the people about God.",
+    "summary": "Amulek obeys the angel's voice and returns toward his house. On the way, he finds the man he was told to receive into his house.",
     "characters": [
       "Amulek",
-      "Alma the Younger (high priest)"
+      "The man Amulek meets"
     ],
     "locations": [
-      "Unspecified location"
+      "On the way toward Amulek's house"
     ],
     "explicit_facts": [
       {
-        "text": "Amulek obeyed the angel and returned toward his house.",
+        "text": "Amulek obeyed the angel's voice and returned toward his house.",
         "refs": [
           "Alma 10:8"
         ]
       },
       {
-        "text": "On the way, Amulek found the man he had been told to receive into his house; that man is identified as the one speaking to the audience about God.",
+        "text": "On the way, Amulek found the man the angel had told him to receive into his house.",
+        "refs": [
+          "Alma 10:8"
+        ]
+      },
+      {
+        "text": "Amulek identifies the man as the one who has been speaking to his audience about the things of God.",
         "refs": [
           "Alma 10:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amulek and Alma meet while Amulek is traveling toward home."
+      "Amulek encounters the man while traveling toward home."
     ],
     "unspecified_visual_details": [
-      "Their precise location, appearance, clothing, gestures, and whether their meeting is a roadside encounter."
+      "The exact location, appearance, clothing, and gestures of either man."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "And as I was going thither I found the man",
         "refs": [
           "Alma 10:8"
-        ]
+        ],
+        "speaker": "Amulek"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma's presence at this meeting is reported retrospectively by Amulek."
+      "Amulek recounts this meeting retrospectively; the man's speaking to the audience is not part of the meeting scene."
     ],
     "prohibited_inventions": [
-      "Do not portray a later audience speech in this meeting scene."
+      "Do not depict the angel appearing during this encounter.",
+      "Do not depict the man's later speech as occurring during this encounter."
     ],
     "importance": "normal"
   },

@@ -802,10 +802,10 @@
       "Alma 58:36",
       "Alma 58:37"
     ],
-    "summary": "The speaker reports that his group has regained its cities and lands. They do not know why the government has not sent more strength. He considers possible explanations without establishing either one and expresses trust that God will deliver them despite their armies’ weakness.",
+    "summary": "Helaman reports that his group has obtained its cities and lands. They do not know why the government has not sent more strength. He considers possible explanations without establishing either one and expresses trust that God will deliver them.",
     "characters": [
-      "Unidentified first-person speaker",
-      "The speaker’s group",
+      "Helaman",
+      "Helaman’s group",
       "Men who came up unto the group"
     ],
     "locations": [
@@ -813,56 +813,71 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says God has given his group victory over lands and that they have obtained cities and lands that were their own.",
+        "text": "Helaman says his group has obtained cities and lands that were their own and credits God with giving them victory.",
         "refs": [
           "Alma 58:33"
         ]
       },
       {
-        "text": "Neither the speaker’s group nor the men who came up unto them know why they have not received greater strength.",
+        "text": "Neither his group nor the men who came up unto them know why they have not received greater strength.",
         "refs": [
           "Alma 58:34"
         ]
       },
       {
-        "text": "The speaker raises the possibility that the recipients have drawn forces to another quarter of the land and says that, if so, his group does not wish to murmur.",
+        "text": "He raises the possibility that the recipients have drawn forces to another quarter of the land; he does not establish that this happened.",
         "refs": [
           "Alma 58:35"
         ]
       },
       {
-        "text": "The speaker fears a faction in the government may be preventing more men from being sent; he does not establish that such a faction exists.",
+        "text": "He fears that a faction in the government may be withholding assistance; he does not establish that such a faction exists.",
         "refs": [
           "Alma 58:36"
         ]
       },
       {
-        "text": "The speaker expresses trust that God will deliver his group despite the weakness of their armies.",
+        "text": "He trusts that God will deliver them despite the weakness of their armies.",
         "refs": [
           "Alma 58:37"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The first-person report can be conveyed through narration without staging the reported events."
+      "The first-person report can be presented without staging the reported victory or either proposed explanation."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance, immediate setting, and the report’s physical form are unspecified."
+      "Helaman’s appearance, immediate setting, and the report’s physical form are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "we trust God will deliver us",
+        "text": "But behold, we trust in our God who has given us victory over those lands,",
+        "refs": [
+          "Alma 58:33"
+        ],
+        "speaker": "Helaman"
+      },
+      {
+        "text": "Now we do not know the cause that the government does not grant us more strength;",
+        "refs": [
+          "Alma 58:34"
+        ],
+        "speaker": "Helaman"
+      },
+      {
+        "text": "But, behold, it mattereth not—we trust God will deliver us, notwithstanding the weakness of our armies,",
         "refs": [
           "Alma 58:37"
-        ]
+        ],
+        "speaker": "Helaman"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
       "The diversion of forces and the possible government faction remain uncertainties, not established events."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by name or assign a name to his group.",
+      "Do not add “I am Helaman, the son of Alma.” as a quotation; it does not appear in the supplied verses.",
       "Do not stage either proposed explanation as fact or depict the reported victory as a new present-tense event."
     ],
     "importance": "normal"

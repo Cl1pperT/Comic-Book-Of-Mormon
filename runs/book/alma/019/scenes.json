@@ -426,11 +426,11 @@
       "Alma 19:15",
       "Alma 19:16"
     ],
-    "summary": "Ammon kneels in prayer and thanksgiving, is overcome with joy, and sinks to the earth with two others. Seeing them fallen, the king's servants cry unto God and call on the name of the Lord until they too fall. Abish does not fall.",
+    "summary": "Ammon kneels in prayer and thanksgiving, is overcome with joy, and sinks to the earth with two others. Seeing them fallen, the king’s servants cry unto God and call on his name until all have fallen except Abish.",
     "characters": [
       "Ammon",
-      "two other fallen people, unidentified in these verses",
-      "the king's servants",
+      "Two others among the three who sank to the earth, unidentified in the supplied verses",
+      "The king’s servants",
       "Abish"
     ],
     "locations": [
@@ -438,67 +438,90 @@
     ],
     "explicit_facts": [
       {
-        "text": "Ammon knelt and prayed in thanksgiving to God, was overpowered with joy, and was among three who sank to the earth.",
+        "text": "Ammon saw the Spirit of the Lord poured out upon the Lamanites according to his prayers.",
         "refs": [
           "Alma 19:14"
         ]
       },
       {
-        "text": "The king's servants saw that they had fallen and began to cry unto God; fear of the Lord had come upon them.",
+        "text": "Ammon knelt and began to pray and give thanks to God; overcome with joy, he was among three who sank to the earth.",
+        "refs": [
+          "Alma 19:14"
+        ]
+      },
+      {
+        "text": "The king’s servants saw that they had fallen and began to cry unto God because the fear of the Lord had come upon them.",
         "refs": [
           "Alma 19:15"
         ]
       },
       {
-        "text": "They called on the name of the Lord until all had fallen except Abish, a Lamanitish woman.",
+        "text": "These servants had previously testified before the king concerning the great power of Ammon.",
+        "refs": [
+          "Alma 19:15"
+        ]
+      },
+      {
+        "text": "The servants called on the name of the Lord until all had fallen to the earth except Abish, a Lamanitish woman.",
         "refs": [
           "Alma 19:16"
         ]
       },
       {
-        "text": "Abish had been converted unto the Lord for many years, on account of what the verse calls “a remarkable vision of her father.”",
+        "text": "Abish had been converted unto the Lord for many years on account of a remarkable vision of her father.",
         "refs": [
           "Alma 19:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon and two others are on the ground before the servants fall.",
+      "Ammon and two others are on the ground when the servants see them.",
       "Abish remains unfallen."
     ],
     "unspecified_visual_details": [
-      "The identities of the other two who sank to the earth.",
+      "The identities of the other two among the three who sank to the earth in verse 14.",
       "The exact number and appearance of the servants.",
-      "The setting and the appearance or content of the vision mentioned in Abish's backstory."
+      "The setting.",
+      "The appearance or content of the vision mentioned in Abish’s backstory."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he fell upon his knees, and began to pour out his soul in prayer and thanksgiving to God for what he had done for his brethren;",
+        "text": "he fell upon his knees,",
         "refs": [
           "Alma 19:14"
         ]
       },
       {
-        "text": "and thus they all three had sunk to the earth.",
+        "text": "he was also overpowered with joy; and thus they all three had sunk to the earth.",
         "refs": [
           "Alma 19:14"
         ]
       },
       {
-        "text": "they did call on the name of the Lord, in their might",
+        "text": "they also began to cry unto God,",
+        "refs": [
+          "Alma 19:15"
+        ]
+      },
+      {
+        "text": "even until they had all fallen to the earth, save it were one of the Lamanitish women, whose name was Abish,",
         "refs": [
           "Alma 19:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The remarkable vision is background to Abish's conversion, not an event occurring in this scene."
+      "Mormon is the narrator; the verses supply no direct words for Ammon’s or the servants’ prayers.",
+      "Abish’s conversion, the vision, and the servants’ earlier testimony are background, not events occurring in this scene.",
+      "The supplied verses do not identify the other two among the three who sank to the earth in verse 14 or establish the queen’s presence.",
+      "Preserve the sequence: Ammon falls, the servants see those fallen, and then the servants call upon God until they fall except Abish."
     ],
     "prohibited_inventions": [
-      "Do not identify the other two fallen people from outside these verses.",
+      "Do not identify the other two or add the queen based on verses outside the supplied text.",
       "Do not depict the vision or invent its content.",
-      "Do not invent words for the prayers or portray the Spirit of the Lord as a visible figure."
+      "Do not invent words for the prayers or portray the Spirit of the Lord as a visible figure.",
+      "Do not depict the earlier testimony or prior mourning as present events."
     ],
     "importance": "normal"
   },
@@ -571,11 +594,11 @@
       "Alma 19:20",
       "Alma 19:21"
     ],
-    "summary": "A multitude gathers at the king’s house and sees the king, queen, and servants prostrate on the earth. They also see Ammon. Some murmur about the cause; others rebuke them, and men who scattered the king’s flocks also rebuke them.",
+    "summary": "A multitude assembles at the king’s house and sees the king, queen, and servants lying prostrate, as well as Ammon. Some people murmur about the cause. Others rebuke them, and men who had scattered the king’s flocks also rebuke them.",
     "characters": [
       "the multitude",
       "the king",
-      "The queen of Lamoni",
+      "the queen",
       "the king’s servants",
       "Ammon",
       "the men who scattered the king’s flocks"
@@ -585,7 +608,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "A multitude gathered at the king’s house and saw the king, queen, and servants lying prostrate as though dead.",
+        "text": "A multitude came to the king’s house and saw the king, queen, and servants lying prostrate as though dead.",
         "refs": [
           "Alma 19:18"
         ]
@@ -597,13 +620,13 @@
         ]
       },
       {
-        "text": "Some people murmured that evil had come upon them or the king’s house because the king had allowed the Nephite to remain in the land.",
+        "text": "Some people attributed the evil they perceived to the king’s allowing the Nephite to remain in the land.",
         "refs": [
           "Alma 19:19"
         ]
       },
       {
-        "text": "Others rebuked them, blaming the king for slaying servants whose flocks had been scattered at the waters of Sebus.",
+        "text": "Others rebuked them and blamed the king for slaying servants whose flocks had been scattered at the waters of Sebus.",
         "refs": [
           "Alma 19:20"
         ]
@@ -616,12 +639,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The gathered people can see the prostrate figures and Ammon at the king’s house."
+      "The assembled people can see the prostrate figures and Ammon at the king’s house."
     ],
     "unspecified_visual_details": [
       "The house’s appearance and the people’s clothing.",
       "The multitude’s size and arrangement.",
-      "The identities and positions of individual speakers."
+      "The positions of individual speakers."
     ],
     "spoken_dialogue": [
       {
@@ -634,32 +657,20 @@
     ],
     "narration": [
       {
-        "text": "And there came a multitude,",
-        "refs": [
-          "Alma 19:18"
-        ]
-      },
-      {
-        "text": "And now the people began to murmur among themselves;",
+        "text": "some saying that it was a great evil that had come upon them, or upon the king and his house, because he had suffered that the Nephite should remain in the land.",
         "refs": [
           "Alma 19:19"
-        ]
-      },
-      {
-        "text": "And they were also rebuked by those men",
-        "refs": [
-          "Alma 19:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 19 reports the murmurers’ claim indirectly, not as verbatim dialogue.",
+      "Verse 19 reports what some people were saying indirectly, rather than giving their verbatim speech; its quoted words provide the context for the rebuttal.",
       "The events at the waters of Sebus occurred earlier and are not shown here.",
       "The verse does not say Ammon is prostrate."
     ],
     "prohibited_inventions": [
       "Do not depict the earlier events at the waters of Sebus.",
-      "Do not visually identify or position the men who scattered the flocks at the king’s house.",
+      "Do not invent individual identities or positions for the men who scattered the flocks.",
       "Do not assign names or biographies to unnamed people."
     ],
     "importance": "normal"
@@ -672,7 +683,7 @@
       "Alma 19:23",
       "Alma 19:24"
     ],
-    "summary": "Angry with Ammon because his brother had been slain with Ammon’s sword, a man raises his sword to strike Ammon but falls dead. The multitude sees him fall, fears to touch him or any of those who had fallen, and marvels at what happened.",
+    "summary": "A man angry with Ammon because his brother had been slain with the sword of Ammon raises his sword to strike Ammon and falls dead. The multitude sees him fall, fears to touch him or any of those who had fallen, and marvels at what happened.",
     "characters": [
       "the man with the sword",
       "Ammon",
@@ -687,7 +698,7 @@
         ]
       },
       {
-        "text": "The narration says the Lord had told Mosiah, Ammon’s father, that he would spare Ammon, and Mosiah trusted him unto the Lord.",
+        "text": "Mormon says Ammon could not be slain because the Lord had said he would spare him; Mosiah, Ammon’s father, trusted him unto the Lord.",
         "refs": [
           "Alma 19:23"
         ]
@@ -700,23 +711,29 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The man is visible to the multitude as he raises his sword and falls."
+      "The multitude can see the man fall."
     ],
     "unspecified_visual_details": [
-      "The physical manner and cause of the man’s fall beyond what the verses state.",
+      "The physical manner of the man’s fall beyond what the verse states.",
       "The appearance of the setting and the people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Now we see that Ammon could not be slain, for the Lord had said unto Mosiah, his father: I will spare him, and it shall be unto him according to thy faith—therefore, Mosiah trusted him unto the Lord.",
+        "text": "as he lifted the sword to smite him, behold, he fell dead.",
+        "refs": [
+          "Alma 19:22"
+        ]
+      },
+      {
+        "text": "Now we see that Ammon could not be slain,",
         "refs": [
           "Alma 19:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 23 reports an earlier statement to Mosiah; it is not a new event occurring during the man’s fall."
+      "Verse 23 reports an earlier statement to Mosiah, not an event occurring during the man’s fall."
     ],
     "prohibited_inventions": [
       "Do not show the sword striking Ammon or add injury details.",
@@ -805,31 +822,38 @@
     "refs": [
       "Alma 19:29"
     ],
-    "summary": "Abish takes the queen by the hand, and the queen rises and cries out to Jesus and God.",
+    "summary": "A woman takes the queen by the hand. At her touch, the queen rises, stands, and cries out to Jesus and God.",
     "characters": [
-      "Abish",
-      "The queen of Lamoni",
-      "the assembled multitude",
-      "King Lamoni",
-      "Ammon (son of Mosiah)",
-      "the king’s servants"
+      "The queen",
+      "The woman who took the queen's hand"
     ],
-    "locations": [
-      "the king’s house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Abish took the queen by the hand, and the queen arose, stood, and cried out to Jesus and God.",
+        "text": "A woman took the queen by the hand, hoping to raise her from the ground.",
+        "refs": [
+          "Alma 19:29"
+        ]
+      },
+      {
+        "text": "As soon as the woman touched her hand, the queen arose and stood on her feet.",
+        "refs": [
+          "Alma 19:29"
+        ]
+      },
+      {
+        "text": "The queen cried out in a loud voice to Jesus and God.",
         "refs": [
           "Alma 19:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abish helps the queen rise from the ground as the multitude watches."
+      "The queen is on the ground before the woman touches her hand.",
+      "The woman and the queen are close enough to hold hands."
     ],
     "unspecified_visual_details": [
-      "The crowd’s reactions and the queen’s precise expression."
+      "The setting and the women's appearances."
     ],
     "spoken_dialogue": [
       {
@@ -837,20 +861,37 @@
         "refs": [
           "Alma 19:29"
         ],
-        "speaker": "The queen of Lamoni"
+        "speaker": "The queen"
       },
       {
         "text": "O blessed God, have mercy on this people!",
         "refs": [
           "Alma 19:29"
         ],
-        "speaker": "The queen of Lamoni"
+        "speaker": "The queen"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "she went and took the queen by the hand, that perhaps she might raise her from the ground;",
+        "refs": [
+          "Alma 19:29"
+        ]
+      },
+      {
+        "text": "and as soon as she touched her hand she arose and stood upon her feet,",
+        "refs": [
+          "Alma 19:29"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The queen speaks of being saved from hell; the verse does not depict hell as a visible place."
+    ],
     "prohibited_inventions": [
-      "Do not depict hell as a visible location or event."
+      "Do not identify the woman by name from this verse alone.",
+      "Do not depict hell as a visible location or event.",
+      "Do not add onlookers or a setting not specified in the supplied verse."
     ],
     "importance": "normal"
   },
@@ -913,7 +954,7 @@
     ],
     "summary": "Seeing contention among his people, he goes forth, rebukes them, and teaches words he heard from Ammon. Those who hear believe and are converted unto the Lord; many others will not hear and go their way.",
     "characters": [
-      "The unnamed man referred to as “he”",
+      "The unidentified man referred to as “he”",
       "His people"
     ],
     "locations": [],
@@ -938,15 +979,15 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "He addresses people while some leave."
+      "He addresses his people while some depart."
     ],
     "unspecified_visual_details": [
-      "The location, appearances, number of people, and specific words he taught."
+      "His identity, the location, appearances, number of people, and the specific words he taught."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "went forth and began to rebuke them, and to teach them the words which he had heard from the mouth of Ammon;",
+        "text": "And he, immediately, seeing the contention among his people, went forth and began to rebuke them, and to teach them the words which he had heard from the mouth of Ammon;",
         "refs": [
           "Alma 19:31"
         ]
@@ -959,10 +1000,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report his teaching but do not quote it. They do not name him or place Ammon in this scene."
+      "These verses do not identify “he” or quote his teaching. Ammon is mentioned as the source of words he had heard, not as present in this scene."
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed man from context outside these verses.",
+      "Do not identify “he” using verses outside the supplied text.",
       "Do not invent his speech, a location, or Ammon’s presence."
     ],
     "importance": "normal"

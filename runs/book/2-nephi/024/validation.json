@@ -1,5 +1,5 @@
 {
-  "stamp": "d76b94ec65040dead5dc2bd27b06633dc07207ad9896312b6cc6493b86c196a6",
+  "stamp": "944d84e4d5767c8acdfc0bd62904b1e250b2944de11ccdf2fe0eeeec28dde662",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The doctrinal_or_story_notes identify Nephi as the narrator, but the supplied verses do not identify a narrator. This presents an unsupported speaker as fact."
+      ]
     },
     "scene_009": {
       "status": "PASS",

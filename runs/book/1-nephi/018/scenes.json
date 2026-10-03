@@ -171,16 +171,23 @@
     "refs": [
       "1 Nephi 18:5"
     ],
-    "summary": "The voice of the Lord comes to Lehi that they should arise and go down into the ship.",
+    "summary": "The voice of the Lord comes to Lehi with an instruction that they should arise and go down into the ship.",
     "characters": [
-      "Lehi"
+      "Lehi",
+      "Nephi (narrator)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The voice of the Lord comes to Lehi, instructing them to arise and go down into the ship.",
+        "text": "The voice of the Lord came to Nephi’s father, Lehi.",
+        "refs": [
+          "1 Nephi 18:5"
+        ]
+      },
+      {
+        "text": "The instruction was that they should arise and go down into the ship.",
         "refs": [
           "1 Nephi 18:5"
         ]
@@ -190,20 +197,23 @@
       "Lehi is present when the voice comes to him."
     ],
     "unspecified_visual_details": [
-      "The voice’s sound, source appearance, and setting are not specified."
+      "The location, the voice’s sound, and any visible source of the voice are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the voice of the Lord came unto my father",
+        "text": "And it came to pass that the voice of the Lord came unto my father, that we should arise and go down into the ship.",
         "refs": [
           "1 Nephi 18:5"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi; “my father” refers to Lehi. The verse reports the instruction rather than quoting the voice’s words directly."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lord as visibly appearing."
+      "Do not depict the Lord visibly appearing.",
+      "Do not turn the reported instruction into direct dialogue or show the group boarding the ship."
     ],
     "importance": "normal"
   },

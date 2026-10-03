@@ -1,40 +1,46 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Aaron Arrives at the King’s Palace",
+    "title": "Aaron Before the King",
     "refs": [
       "Alma 22:1",
       "Alma 22:2"
     ],
-    "summary": "After leaving Middoni, Aaron is led by the Spirit to the land of Nephi and enters the king’s palace with his brethren. He bows and identifies them as Ammon’s brethren, whom the king released from prison.",
+    "summary": "After departing Middoni, Aaron is led by the Spirit to the land of Nephi. He enters the king’s palace with his brethren, bows before the king, and identifies them as Ammon’s brethren whom the king delivered from prison.",
     "characters": [
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "the king over all the land (Lamoni's father)"
+      "Aaron",
+      "Aaron’s brethren",
+      "the king (Lamoni’s father)"
     ],
     "locations": [
       "the king’s palace in the land of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "Aaron is led by the Spirit from Middoni to the land of Nephi, to the palace of the king over all the land except Ishmael; the king is Lamoni’s father.",
+        "text": "After departing Middoni, Aaron is led by the Spirit to the land of Nephi, to the house of the king.",
         "refs": [
           "Alma 22:1"
         ]
       },
       {
-        "text": "Aaron enters the palace with his brethren, bows before the king, and says they are Ammon’s brethren whom the king delivered from prison.",
+        "text": "The king rules over all the land except the land of Ishmael and is Lamoni’s father.",
+        "refs": [
+          "Alma 22:1"
+        ]
+      },
+      {
+        "text": "Aaron enters the king’s palace with his brethren, bows before the king, and addresses him.",
         "refs": [
           "Alma 22:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Aaron and his brethren are shown before the king, with Aaron bowing."
+      "Aaron and his brethren stand before the king while Aaron bows."
     ],
     "unspecified_visual_details": [
-      "The palace’s architecture, furnishings, and the clothing or appearance of those present."
+      "The palace’s architecture and furnishings.",
+      "The clothing and physical appearance of those present."
     ],
     "spoken_dialogue": [
       {
@@ -42,22 +48,24 @@
         "refs": [
           "Alma 22:2"
         ],
-        "speaker": "Aaron (son of Mosiah)"
+        "speaker": "Aaron"
       }
     ],
     "narration": [
       {
-        "text": "he was led by the Spirit to the land of Nephi",
+        "text": "we will return to the account of Aaron and his brethren; for after he departed from the land of Middoni he was led by the Spirit to the land of Nephi",
         "refs": [
           "Alma 22:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Ammon’s earlier prison release is mentioned, not shown as a present event."
+      "The prison release is mentioned in Aaron’s speech, not shown as a present event.",
+      "The Spirit’s appearance is not described."
     ],
     "prohibited_inventions": [
-      "Do not depict Ammon or the prison release in this scene."
+      "Do not depict Ammon, the prison release, or a visible form for the Spirit.",
+      "Do not assign names or biographies to Aaron’s brethren."
     ],
     "importance": "normal"
   },
@@ -943,9 +951,8 @@
       "Alma 22:33",
       "Alma 22:34"
     ],
-    "summary": "The account records that the king sent a proclamation throughout his land. It describes where the Lamanites and Nephites lived, the lands of Bountiful and Desolation, and the small neck of land. The Nephites had inhabited Bountiful and used guards and armies to hem in the Lamanites on the south.",
+    "summary": "The king sent a proclamation throughout his land. The account describes where the Lamanites and Nephites lived, the lands of Bountiful and Desolation, and the small neck of land. The Nephites inhabited Bountiful and used guards and armies to hem in the Lamanites on the south.",
     "characters": [
-      "the king",
       "Lamanites",
       "Nephites"
     ],
@@ -1010,7 +1017,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A schematic map with labeled lands, coasts, wilderness, and the small neck can convey the geographic account without presenting reported events as simultaneous action."
+      "A schematic map with labeled lands, coasts, wilderness, and the small neck can convey the geographic account without placing the king or the peoples together in a single gathering."
     ],
     "unspecified_visual_details": [
       "Exact map scale and border shapes",
@@ -1039,9 +1046,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses give geographic and historical narration, not a single present-tense gathering or battle."
+      "The verses give geographic and historical narration, not a single present-tense gathering or battle. The king is mentioned but should not appear in the map-like view."
     ],
     "prohibited_inventions": [
+      "Do not place the king alongside the Nephites and Lamanites in the geographic view.",
       "Do not stage the proclamation, settlement, and military actions as one simultaneous event.",
       "Do not invent a battle, named individuals, proclamation wording, or dialogue.",
       "Do not depict unspecified map boundaries as exact."

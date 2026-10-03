@@ -1,5 +1,5 @@
 {
-  "stamp": "f2777706751cc22e1a4a1c04bbb3360be8b8be3391ecbaf7ee59d3fcb4fb3f9c",
+  "stamp": "fba34d0849e7b7e549c92bc3cd760c22aaf45cc9a743f9cb45081e909a0253f9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -44,10 +44,8 @@
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is labeled unidentified, but the preceding passage identifies the continuing first-person speaker as Nephi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",

@@ -1,9 +1,11 @@
 {
-  "stamp": "6e0cd90c86aad610659c782427bbdde2642a5404600ea4f72892b88d3fbf0ff1",
+  "stamp": "451b72b963872b3b6dcde51c5c24bf615ec3f380285f54946d7992400a518072",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s timeline is consistent with Mosiah 8:1–3; no preceding scene was supplied. Limhi’s and Ammon’s specific words are not given, so avoid invented dialogue. “Ammon stands before the multitude” is supported, but the text does not explicitly say the people are gathered while he speaks; depicting them gathered is a reasonable visual inference. The unspecified location, clothing, and appearances should remain undescribed or be treated as creative design, not facts."
+      ]
     },
     "scene_002": {
       "status": "PASS",

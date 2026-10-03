@@ -1,9 +1,11 @@
 {
-  "stamp": "6c55c0badc50e664bbc1031947700491913958f8ee97b88204fc610471632c14",
+  "stamp": "2e34c199dc33501b79156fd63892b0fb643181c29e90dfc1edaafe717800a520",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse is a prophetic declaration; depicting any removal or the Lord visibly would go beyond what is narrated. Symbolic imagery is a reasonable but uncertain visual inference."
+      ]
     },
     "scene_002": {
       "status": "PASS",

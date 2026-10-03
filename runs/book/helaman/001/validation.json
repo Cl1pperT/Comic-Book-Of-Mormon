@@ -2,8 +2,10 @@
   "stamp": "8f6941a382a2d7030cb35406c0ea9e311bd24c877ada87a77c8f4fc0681ba87e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption gives neither the sons’ names nor the nature of the difficulty. Since the faces are unidentified, a first-time reader cannot tell that the dispute is over who will succeed their father as chief judge. Fix: Use the scene’s wording: “Pahoran had died… therefore there began to be a serious contention concerning who should have the judgment-seat among the brethren, who were the sons of Pahoran. Now these are their names… Pahoran, Paanchi, and Pacumeni.”"
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
@@ -12,70 +14,96 @@
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption’s “he” is ambiguous: the picture includes Paanchi and his supporters, and the caption does not identify who is taken and condemned. Fix: Use the scene’s wording: “Paanchi… was about to flatter away those people to rise up in rebellion… And… he was taken, and was tried according to the voice of the people, and condemned unto death.”"
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption says Pahoran was murdered, but the scene does not identify which Pahoran. With both Pahoran’s son and Paanchi’s supporters present, the reader could mistake the victim for the recently condemned Paanchi or his father. Fix: Use the scene’s wording: “they sent forth one Kishkumen… and murdered Pahoran as he sat upon the judgment-seat.”"
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption names Kishkumen but does not explain what he is fleeing from; without the preceding text, the pursuit and escape are unclear. Fix: Use the scene’s wording: “he was pursued by the servants of Pahoran; but… so speedy was the flight of Kishkumen that no man could overtake him.”"
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: “They” is not identified in the caption, so the reader cannot tell who makes the secrecy pact with Kishkumen. Fix: Use the scene’s wording: “he went unto those that sent him, and they all entered into a covenant… that they would tell no man that Kishkumen had murdered Pahoran.”"
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption does not identify Kishkumen or his band as the people mingling among the Nephites, leaving the action and its connection to the murder unclear. Fix: Use the scene’s wording: “Kishkumen and his band, who had covenanted with him, did mingle themselves among the people.”"
+      ]
     },
     "scene_008": {
       "status": "PASS",
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The summary states the Lamanites came down to pitch battle “led by Coriantumr,” but verse 15 does not specify when he began leading them; avoid implying his leadership began during the earlier gathering and arming. The narration is an exact excerpt from verse 14. “Lamanite army” is a reasonable group label, though not an established character label. The location is unspecified, as noted."
+        "Story continuity: The caption reports the army gathering but does not identify its Lamanite origin or introduce Coriantumr as its leader, although both are needed to follow the next scenes. Fix: Use the scene’s wording: “the Lamanites had gathered together an innumerable army… And they were led by a man whose name was Coriantumr.”"
       ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: “He” in the caption could refer to Tubaloth or Coriantumr, both pictured. The reader cannot tell who appoints whom. Fix: Use the scene’s wording: “the king of the Lamanites, whose name was Tubaloth… did appoint Coriantumr to be their leader.”"
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption says guards were insufficient but does not identify the cause or the resulting vulnerability, so the sudden invasion in the next scene may seem unmotivated. Fix: Use the scene’s wording: “because of so much contention and so much difficulty in the government, that they had not kept sufficient guards in the land of Zarahemla.”"
+      ]
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption uses “him” for Pacumeni without naming him, so the reader cannot identify who is killed at the city wall. Fix: Use the scene’s wording: “Pacumeni, who was the chief judge, did flee before Coriantumr… Coriantumr did smite him against the wall, insomuch that he died.”"
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption does not name Coriantumr or say where his army is marching, making the move from capturing Zarahemla to advancing through the land unclear. Fix: Use the scene’s wording: “he did march forth with a large army, even towards the city of Bountiful.”"
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption’s “they” and “them” do not reveal who is attacking whom, and the reader cannot see how the invasion gives Moronihah an advantage. Fix: Use the scene’s wording: “this march of Coriantumr through the center of the land gave Moronihah great advantage over them.”"
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption’s “he” could mean Moronihah or Lehi, and it omits why Lehi is being sent or where he is to intercept the Lamanites. Fix: Use the scene’s wording: “when Moronihah had discovered this, he immediately sent forth Lehi with an army round about to head them before they should come to the land Bountiful.”"
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The caption does not identify the force that Lehi heads off or say that the Lamanites retreat, leaving the battle’s outcome unclear. Fix: Use the scene’s wording: “he did head them before they came to the land Bountiful… and they began to retreat back towards the land of Zarahemla.”"
+      ]
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Story continuity: The captions describe the retreat and encirclement, but omit that Coriantumr is killed. The later surrender therefore lacks a clear account of what happened to the invading leader. Fix: Add the scene’s wording: “among the number who were slain Coriantumr was also found.”"
+      ]
     },
     "scene_019": {
       "status": "PASS",

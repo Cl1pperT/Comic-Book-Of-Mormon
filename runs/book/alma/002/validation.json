@@ -1,5 +1,5 @@
 {
-  "stamp": "22f5ad185995530a533eaa89eb6de71f57db0ca27d8529de22517ea37ae97df6",
+  "stamp": "6da5c475eada37232994b630d33729947aa6f87610cc01def97e5f0a852c760a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -42,8 +42,10 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The note identifies the narrator as Mormon, but the supplied verses do not identify the narrator. This presents an unsupported speaker attribution as fact."
+      ]
     },
     "scene_012": {
       "status": "PASS",
@@ -64,8 +66,8 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“The man referred to as ‘he’” is reasonably understood from the sequence to be Alma, but the cited verses do not name him explicitly.",
-        "Narration excerpts are verbatim contiguous clauses, though the omitted wording leaves the actor and context unspecified."
+        "The claim that the man called “he” is unidentified overlooks the supplied context: Alma is the antecedent in Alma 2:33–34. The scene does not depict or name him, so this does not alter the depicted flight.",
+        "Alma 2:36 gives the fleeing group's direction as toward the wilderness west and north; only the precise direction at the moment flight begins remains unspecified."
       ]
     },
     "scene_017": {

@@ -441,11 +441,11 @@
       "Alma 57:17",
       "Alma 57:18"
     ],
-    "summary": "On the morrow, the men sent with the prisoners return while the Lamanites are upon the speaker's force. They arrive in time to check those who are about to overpower the force. Ammoron has sent provisions and a numerous army to support the Lamanites.",
+    "summary": "On the morrow, the men sent with the prisoners return while the Lamanites threaten to overpower the defending force. No inquiry is made about the prisoners. The returning men arrive in time to check the Lamanites and prevent the defenders from falling into their hands. Ammoron had sent provisions and a numerous army to support the Lamanites.",
     "characters": [
       "the men sent with the prisoners",
       "the Lamanites",
-      "the speaker's force"
+      "the defending force"
     ],
     "locations": [],
     "explicit_facts": [
@@ -457,36 +457,37 @@
         ]
       },
       {
-        "text": "The speaker's force does not inquire about the prisoners because the Lamanites are upon them.",
+        "text": "The defenders do not inquire about the prisoners because the Lamanites are upon them.",
         "refs": [
           "Alma 57:17"
         ]
       },
       {
-        "text": "Ammoron has sent a new supply of provisions and a numerous army to support the Lamanites.",
+        "text": "The returning men arrive in time to check the Lamanites, who are about to overpower the defenders, and save the defenders from falling into their hands.",
         "refs": [
-          "Alma 57:17"
-        ]
-      },
-      {
-        "text": "The returning men arrive in time to check those who are about to overpower the speaker's force.",
-        "refs": [
+          "Alma 57:17",
           "Alma 57:18"
+        ]
+      },
+      {
+        "text": "Ammoron had sent a new supply of provisions and a numerous army to support the Lamanites.",
+        "refs": [
+          "Alma 57:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The returning men can be shown reaching the threatened force while the Lamanites press toward it."
+      "The returning men can be shown reaching the threatened defenders as the Lamanites press against them."
     ],
     "unspecified_visual_details": [
-      "The location and terrain.",
-      "The appearance and number of the returning men.",
-      "What happened to the prisoners."
+      "Location and terrain.",
+      "Clothing, weapons, and physical appearances.",
+      "Exact troop numbers and formations."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And now behold, we did not inquire of them concerning the prisoners; for behold, the Lamanites were upon us, and they returned in season to save us from falling into their hands.",
+        "text": "But it came to pass that on the morrow they did return.",
         "refs": [
           "Alma 57:17"
         ]
@@ -498,11 +499,16 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied verses contain no spoken dialogue and do not identify the narrator by name.",
+      "Ammoron's support is reported as an earlier action, not a separate event to stage within this scene."
+    ],
     "prohibited_inventions": [
-      "Do not depict or specify the prisoners' fate.",
-      "Do not depict Ammoron as physically present.",
-      "Do not name the speaker, the force, or the location from these verses alone."
+      "Do not depict a narrator as physically present based solely on first-person narration.",
+      "Do not depict Ammoron as physically present or stage his earlier dispatch of support.",
+      "Do not invent the prisoners' fate or show them returning.",
+      "Do not add dialogue, named combatants, specific tactics, or an outcome beyond checking the Lamanites and preventing capture.",
+      "Do not show wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },

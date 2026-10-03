@@ -196,44 +196,53 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Tents at the Place of Slaying",
+    "title": "Tents Near the Land of Their Fathers",
     "refs": [
       "Mosiah 9:4"
     ],
-    "summary": "After wandering for many days, Zeniff's people pitch their tents where their brethren had been slain, near the land of their fathers.",
+    "summary": "After many days’ wandering in the wilderness, the group pitches tents at the place where their brethren were slain, near the land of their fathers.",
     "characters": [
-      "Zeniff's people"
+      "Unnamed group who pitched the tents"
     ],
     "locations": [
-      "Unspecified location"
+      "The place where their brethren were slain, near the land of their fathers"
     ],
     "explicit_facts": [
       {
-        "text": "After many days wandering in the wilderness, the people pitched their tents where their brethren had been slain, near the land of their fathers.",
+        "text": "The group wandered in the wilderness for many days before pitching their tents.",
+        "refs": [
+          "Mosiah 9:4"
+        ]
+      },
+      {
+        "text": "They pitched their tents where their brethren were slain, near the land of their fathers.",
         "refs": [
           "Mosiah 9:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group is encamped in tents."
+      "The tents form a temporary camp."
     ],
     "unspecified_visual_details": [
-      "The exact location and landscape.",
-      "The appearance of the tents and camp."
+      "The terrain and exact location.",
+      "The number and appearance of the people and tents."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "we pitched our tents in the place where our brethren were slain",
+        "text": "Nevertheless, after many days’ wandering in the wilderness we pitched our tents in the place where our brethren were slain, which was near to the land of our fathers.",
         "refs": [
           "Mosiah 9:4"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verse does not name the group referred to as “we”; do not attribute this first-person narration to a named person on the basis of this verse alone."
+    ],
     "prohibited_inventions": [
-      "Do not show the earlier deaths as occurring now."
+      "Do not depict the earlier deaths as happening during this encampment.",
+      "Do not assign a name to the group or identify its members from this verse alone."
     ],
     "importance": "normal"
   },

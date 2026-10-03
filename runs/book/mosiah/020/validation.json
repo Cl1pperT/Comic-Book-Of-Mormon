@@ -1,5 +1,5 @@
 {
-  "stamp": "7d2fc3ec2da4130d4f8d29d88673c209d7c45c13d9a1e67131b1569f7f181c43",
+  "stamp": "c5d376abad3f2343447b6af54314c5062ea288bdaf6a64769f1a9b176867776c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location is described as unspecified, but Mosiah 20:11 does not establish a particular location; keep the battle setting visually indeterminate. The omitted comparison to dragons is correctly treated as figurative."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -42,22 +44,28 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is grounded in Mosiah 20:15, but the king’s addressee is unspecified; any visual depiction of whom he addresses should remain unidentified."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not specify the searchers or setting; keep both visually unspecified."
+      ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The inference that members of Limhi's people may be present is plausible but not stated; Gideon addresses the king, and a visual depiction need not include other listeners."
+        "The king and his father are unnamed in these verses; preserve those identities as unspecified. The location and appearances are also unstated."
       ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The listeners Gideon addresses are not identified. The hosts and Abinadi are referenced in speech, not described as present in this scene."
+      ]
     },
     "scene_015": {
       "status": "PASS",
@@ -68,8 +76,12 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts are supported by Mosiah 20:25. The phrase “Those who followed the king” is a reasonable reference to the verse’s unnamed “they,” but their identity is not specified here.",
+        "The visual inference of journey and meeting as successive moments is reasonable, provided they remain in the source’s order and are not conflated with later events in verse 26.",
+        "Narration quotes the source verbatim and stays within the word limit. The plea’s words and the king they followed are correctly left unspecified. The previous scene presents the meeting as proposed, not already occurred."
+      ]
     },
     "scene_018": {
       "status": "PASS",

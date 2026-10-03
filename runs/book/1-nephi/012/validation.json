@@ -1,5 +1,5 @@
 {
-  "stamp": "ba217f5d80bd673a7fb2c5982a8ad86c3ca3f7e61ed77d85f56e9d0db0fbadbf",
+  "stamp": "d5866e9241e198b118afd8bb25f27e10c67a8f62dbb45288a04e488b405a00d6",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -66,8 +66,12 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary presents the verse's reported vision as a current event; avoid staging the people becoming this way in the present. The verse describes their condition after they had dwindled in unbelief.",
+        "The collective terms “dark, loathsome, and filthy” do not specify literal physical appearance; depict them conservatively and do not infer racialized traits. The notes appropriately caution against this.",
+        "The narration is verbatim, but uses a longer excerpt; it is within the word limit and does not alter the source."
+      ]
     }
   }
 }

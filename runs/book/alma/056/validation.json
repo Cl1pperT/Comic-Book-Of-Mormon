@@ -1,5 +1,5 @@
 {
-  "stamp": "aa7a6a40c972ad63604a1475c999a28d34d2dee0dfe780267bd294fdc16f1d4a",
+  "stamp": "fd2c8247a6893e809f5b9947f8e8caa4cda28c4159855f1ed4ac830b1e389c48",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -10,7 +10,8 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_002: The summary combines the young men’s later readiness to break the covenant with their taking up weapons and coming forth to defend their country; the verses report this in a letter and across distinct moments, so avoid presenting it as one continuous present-time event."
+        "The summary’s statement that the fathers were about to break their covenant is explicitly anchored to the twenty-sixth year (Alma 56:7), while the young men’s taking up weapons is reported separately without a date; keep these as distinct events, as the scene notes require.",
+        "The line of narration is an exact excerpt from Alma 56:5, but omits the verse’s preceding word “Therefore”; retain it only as a standalone quotation, not as an alteration to a longer quotation."
       ]
     },
     "scene_003": {
@@ -22,7 +23,9 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_004: The statement that the fallen are happy is Helaman’s reported belief; the visual inference correctly avoids depicting the deaths or prisoners as witnessed events."
+        "The scene is careful to present the prisoners’ presence in the land of Nephi as Helaman’s supposition, not a certain fact. The narration uses exact, contiguous source quotations.",
+        "The character label “Lamanites” is supported by the source; “chief captains” are described as prisoners, not individually identified characters. The visual inferences appropriately avoid staging past deaths or captures as present events.",
+        "The preceding scene’s events are not carried into this scene as a present-tense occurrence. The scenes can be read as successive passages in Helaman’s letter, though the source does not specify a visual setting for the letter."
       ]
     },
     "scene_005": {

@@ -177,38 +177,36 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Nephi agrees",
+    "title": "Nephi's answer and his father's gladness",
     "refs": [
       "1 Nephi 3:7",
       "1 Nephi 3:8"
     ],
-    "summary": "Nephi promises to obey, and Lehi is exceedingly glad when he hears Nephi’s words.",
+    "summary": "Nephi tells his father he will do what the Lord has commanded. After hearing him, his father is exceedingly glad and knows Nephi has been blessed of the Lord.",
     "characters": [
       "Nephi",
       "Lehi"
     ],
-    "locations": [
-      "the tent of my father"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi promises to do what the Lord has commanded and says the Lord prepares a way for people to accomplish what he commands.",
+        "text": "Nephi tells his father he will do what the Lord has commanded and says the Lord prepares a way to accomplish his commandments.",
         "refs": [
           "1 Nephi 3:7"
         ]
       },
       {
-        "text": "Lehi is exceedingly glad after hearing Nephi and knows Nephi has been blessed by the Lord.",
+        "text": "After hearing Nephi's words, his father is exceedingly glad and knows Nephi has been blessed of the Lord.",
         "refs": [
           "1 Nephi 3:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi speaks to Lehi; Lehi reacts with gladness."
+      "Nephi speaks to his father; his father reacts with gladness."
     ],
     "unspecified_visual_details": [
-      "Specific gestures or expressions are not described."
+      "Their surroundings, clothing, and specific gestures are not described."
     ],
     "spoken_dialogue": [
       {
@@ -219,12 +217,21 @@
         "speaker": "Nephi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "he was exceedingly glad, for he knew that I had been blessed of the Lord.",
+        "refs": [
+          "1 Nephi 3:8"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Nephi’s statement is a teaching, not a supernatural visual event."
+      "Nephi's statement about the Lord preparing a way is his spoken belief, not a narrated visible event.",
+      "Verse 8 is Nephi's narration, not words spoken by his father."
     ],
     "prohibited_inventions": [
-      "Do not depict a miraculous path or divine intervention; neither is narrated here."
+      "Do not give Nephi's father dialogue.",
+      "Do not depict a miraculous path or a visible divine appearance."
     ],
     "importance": "normal"
   },
@@ -287,8 +294,9 @@
       "1 Nephi 3:11",
       "1 Nephi 3:12"
     ],
-    "summary": "The group casts lots to decide who will enter Laban’s house. The lot falls upon Laman. He enters the house, talks with Laban as Laban sits there, and requests the records engraved on brass plates.",
+    "summary": "Nephi and the group cast lots to decide who will enter Laban’s house. The lot falls upon Laman. He enters the house, talks with Laban while Laban sits there, and asks for the records engraved on brass plates that contain the genealogy of Nephi’s father.",
     "characters": [
+      "Nephi",
       "Laman",
       "Laban",
       "unnamed members of the group casting lots"
@@ -299,32 +307,32 @@
     ],
     "explicit_facts": [
       {
-        "text": "The group cast lots to decide who would enter Laban’s house, and the lot fell upon Laman.",
+        "text": "Nephi and the group cast lots to decide who would enter Laban’s house; the lot fell upon Laman.",
         "refs": [
           "1 Nephi 3:11"
         ]
       },
       {
-        "text": "Laman entered Laban’s house and talked with him while Laban sat in the house.",
+        "text": "Laman entered Laban’s house and talked with Laban while Laban sat in the house.",
         "refs": [
           "1 Nephi 3:11"
         ]
       },
       {
-        "text": "Laman desired records engraved on brass plates; the records contained the genealogy of the narrator’s father.",
+        "text": "Laman asked Laban for records engraved on brass plates; the records contained the genealogy of Nephi’s father.",
         "refs": [
           "1 Nephi 3:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman and a seated Laban can be shown together inside the house during their conversation.",
-      "The casting of lots and Laman’s visit occur in sequence, not simultaneously."
+      "The casting of lots precedes Laman’s visit; the two moments should not be shown as simultaneous.",
+      "Laman can be shown speaking with a seated Laban inside the house."
     ],
     "unspecified_visual_details": [
-      "The method and objects used to cast lots are unspecified.",
-      "The house’s appearance and the brass plates’ appearance are unspecified.",
-      "The exact location of the lot-casting is unspecified."
+      "The objects and method used to cast lots are unspecified.",
+      "The location where lots are cast and the appearance of Laban’s house are unspecified.",
+      "The location and appearance of the brass plates are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -333,13 +341,25 @@
         "refs": [
           "1 Nephi 3:11"
         ]
+      },
+      {
+        "text": "the lot fell upon Laman; and Laman went in unto the house of Laban, and he talked with him as he sat in his house.",
+        "refs": [
+          "1 Nephi 3:11"
+        ]
+      },
+      {
+        "text": "And he desired of Laban the records which were engraven upon the plates of brass, which contained the genealogy of my father.",
+        "refs": [
+          "1 Nephi 3:12"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the mechanics of casting lots or Laman’s exact spoken words.",
-      "Do not show the plates as physically present in the house; their location is not stated.",
-      "Do not identify unnamed group members from outside the supplied verses."
+      "Do not invent Laman’s exact spoken words or words for Laban.",
+      "Do not show the brass plates physically present in the house; their location is not stated.",
+      "Do not invent the mechanics of casting lots or identify unnamed group members from outside these verses."
     ],
     "importance": "normal"
   },
@@ -350,43 +370,47 @@
       "1 Nephi 3:13",
       "1 Nephi 3:14"
     ],
-    "summary": "Laban angrily thrusts Laman out, refuses the records, and threatens to kill him. Laman flees and reports what happened to his brothers.",
+    "summary": "Laban angrily thrusts Laman out, refuses to let him have the records, and threatens to kill him. Laman flees and tells the others what Laban did. They become exceedingly sorrowful, and Nephi's brethren are about to return to their father in the wilderness.",
     "characters": [
       "Laban",
       "Laman",
       "Nephi",
-      "Lemuel",
-      "Sam"
+      "Nephi's brethren"
     ],
-    "locations": [
-      "house of Laban"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Laban was angry, thrust Laman out, refused him the records, and threatened to slay him.",
+        "text": "Laban was angry, thrust Laman out of his presence, and would not let him have the records.",
         "refs": [
           "1 Nephi 3:13"
         ]
       },
       {
-        "text": "Laman fled and told his brothers what Laban had done.",
+        "text": "Laban called Laman a robber and threatened to slay him.",
+        "refs": [
+          "1 Nephi 3:13"
+        ]
+      },
+      {
+        "text": "Laman fled and told the others what Laban had done.",
         "refs": [
           "1 Nephi 3:14"
         ]
       },
       {
-        "text": "The brothers became exceedingly sorrowful, and they were about to return to their father in the wilderness.",
+        "text": "The group became exceedingly sorrowful, and Nephi's brethren were about to return to their father in the wilderness.",
         "refs": [
           "1 Nephi 3:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman’s report and the brothers’ sorrow take place after he flees Laban’s presence."
+      "Laman's report to the others occurs after he flees Laban's presence."
     ],
     "unspecified_visual_details": [
-      "The brothers’ exact location during the report is unspecified.",
-      "No weapon or attempt to kill Laman is described."
+      "The location of Laban's encounter with Laman is unspecified.",
+      "The location where Laman reports to the others is unspecified.",
+      "No weapon is described."
     ],
     "spoken_dialogue": [
       {
@@ -397,11 +421,27 @@
         "speaker": "Laban"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "But Laman fled out of his presence, and told the things which Laban had done, unto us.",
+        "refs": [
+          "1 Nephi 3:14"
+        ]
+      },
+      {
+        "text": "And we began to be exceedingly sorrowful, and my brethren were about to return unto my father in the wilderness.",
+        "refs": [
+          "1 Nephi 3:14"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi. Laman's report is described, but its words are not supplied."
+    ],
     "prohibited_inventions": [
-      "Do not show Laban carrying out the threatened killing.",
-      "Do not merge Laman’s escape with the later pursuit in verse 25."
+      "Do not depict Laban carrying out his threat.",
+      "Do not invent dialogue for Laman's report.",
+      "Do not depict the brethren's contemplated return as an accomplished journey."
     ],
     "importance": "normal"
   },
@@ -504,38 +544,41 @@
       "1 Nephi 3:22",
       "1 Nephi 3:23"
     ],
-    "summary": "The group goes down to the land of their inheritance and gathers gold, silver, and precious things. Afterward, they go up again to the house of Laban.",
+    "summary": "Nephi and the group go down to the land of their inheritance and gather their gold, silver, and precious things. Afterward, they go up again to the house of Laban.",
     "characters": [
-      "Unnamed group referred to as “we”"
+      "Nephi",
+      "Unnamed companions"
     ],
     "locations": [
-      "the land of our inheritance",
+      "the land of their inheritance",
       "the house of Laban"
     ],
     "explicit_facts": [
       {
-        "text": "The group went down to the land of their inheritance and gathered their gold, silver, and precious things.",
+        "text": "Nephi and the group went down to the land of their inheritance and gathered their gold, silver, and precious things.",
         "refs": [
           "1 Nephi 3:22"
         ]
       },
       {
-        "text": "After gathering those things, the group went up again to the house of Laban.",
+        "text": "After gathering those things, they went up again to the house of Laban.",
         "refs": [
           "1 Nephi 3:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The journey to the house of Laban follows the gathering rather than occurring simultaneously."
+    ],
     "unspecified_visual_details": [
-      "The group's identities and appearances are not specified.",
+      "The companions’ identities and appearances are not specified in these verses.",
       "The quantity and appearance of the possessions are not specified.",
       "The appearance of either location is not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "we did gather together our gold, and our silver, and our precious things.",
+        "text": "we went down to the land of our inheritance, and we did gather together our gold, and our silver, and our precious things.",
         "refs": [
           "1 Nephi 3:22"
         ]
@@ -549,7 +592,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not assign names to members of the group.",
+      "Do not assign names or biographies to the unnamed companions.",
       "Do not depict Laban as present.",
       "Do not show the gathering and the later journey as simultaneous."
     ],
@@ -562,16 +605,17 @@
       "1 Nephi 3:24",
       "1 Nephi 3:25"
     ],
-    "summary": "The group asks Laban for the records engraved on brass plates, offering gold, silver, and precious things. Laban sees their property, desires it, thrusts them out, and sends his servants to slay them so he can obtain it.",
+    "summary": "Nephi and the group go to Laban and ask for the records engraved on brass plates, offering their gold, silver, and precious things. Laban sees their property, desires it, thrusts them out, and sends his servants to slay them so he can obtain it.",
     "characters": [
+      "Nephi",
       "Laban",
-      "the group offering the property",
+      "Nephi's unnamed group",
       "Laban's servants"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The group went in unto Laban and asked for the records engraved on brass plates, offering gold, silver, and precious things.",
+        "text": "Nephi and the group went to Laban and requested the records engraved on brass plates, offering gold, silver, and precious things.",
         "refs": [
           "1 Nephi 3:24"
         ]
@@ -583,14 +627,14 @@
         ]
       },
       {
-        "text": "Laban thrust the group out and sent his servants to slay them so he could obtain their property.",
+        "text": "Laban thrust them out and sent his servants to slay them so he could obtain their property.",
         "refs": [
           "1 Nephi 3:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laban and the group are together during the offer.",
+      "Laban can see the offered property.",
       "The servants may be shown receiving Laban's order after he thrusts the group out."
     ],
     "unspecified_visual_details": [
@@ -599,17 +643,17 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "when Laban saw our property",
+        "text": "when Laban saw our property, and that it was exceedingly great, he did lust after it, insomuch that he thrust us out, and sent his servants to slay us, that he might obtain our property.",
         "refs": [
           "1 Nephi 3:25"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report an order to slay the group, not a killing."
+      "The verse reports an order to slay the group, not a killing."
     ],
     "prohibited_inventions": [
-      "Do not assign names to the group, invent spoken words, or depict anyone being killed."
+      "Do not invent spoken words, depict a killing, or assign names to the unnamed members of the group or the servants."
     ],
     "importance": "normal"
   },
@@ -620,8 +664,9 @@
       "1 Nephi 3:26",
       "1 Nephi 3:27"
     ],
-    "summary": "The group flees before Laban’s servants, leaves its property behind, and escapes into the wilderness. The servants do not overtake them, and they hide in a rock cavity.",
+    "summary": "Nephi and the group flee before Laban’s servants, leave their property behind, flee into the wilderness without being overtaken, and hide in a rock cavity. The property falls into Laban’s hands.",
     "characters": [
+      "Nephi",
       "The fleeing group",
       "Laban’s servants"
     ],
@@ -631,13 +676,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The group fled before Laban’s servants and was obliged to leave its property behind; the property fell into Laban’s hands.",
+        "text": "Nephi and the group fled before Laban’s servants, had to leave their property behind, and the property fell into Laban’s hands.",
         "refs": [
           "1 Nephi 3:26"
         ]
       },
       {
-        "text": "The group fled into the wilderness, was not overtaken by the servants, and hid in the cavity of a rock.",
+        "text": "They fled into the wilderness; the servants did not overtake them; they hid in a rock cavity.",
         "refs": [
           "1 Nephi 3:27"
         ]
@@ -647,14 +692,20 @@
       "The fleeing group can be shown hiding inside the rock cavity."
     ],
     "unspecified_visual_details": [
-      "The group’s number and appearances are not specified.",
-      "The rock cavity and wilderness terrain are not described.",
-      "Whether the servants are visible when the group hides is unspecified."
+      "The number and appearances of the fleeing people and servants are not specified.",
+      "The property’s form and the rock cavity’s appearance are not described.",
+      "Whether the servants are visible while the group hides is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "we hid ourselves in the cavity of a rock.",
+        "text": "we did flee before the servants of Laban, and we were obliged to leave behind our property, and it fell into the hands of Laban.",
+        "refs": [
+          "1 Nephi 3:26"
+        ]
+      },
+      {
+        "text": "we fled into the wilderness, and the servants of Laban did not overtake us, and we hid ourselves in the cavity of a rock.",
         "refs": [
           "1 Nephi 3:27"
         ]
@@ -662,7 +713,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify members of the fleeing group by names not given in these verses.",
+      "Do not name other members of the fleeing group.",
       "Do not show the servants overtaking or attacking the group.",
       "Do not depict Laban physically receiving the property."
     ],
@@ -674,35 +725,43 @@
     "refs": [
       "1 Nephi 3:28"
     ],
-    "summary": "Laman and Lemuel are angry with the narrator and their father. Lemuel hearkens to Laman. They speak many hard words to their younger brothers and strike them with a rod.",
+    "summary": "Laman and Lemuel are angry with Nephi and his father. Lemuel hearkens to Laman. The two speak hard words to Nephi and their other younger brother or brothers, then strike them with a rod.",
     "characters": [
       "Laman",
       "Lemuel",
-      "their younger brothers"
+      "Nephi",
+      "other younger brother or brothers"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Laman and Lemuel were angry with the narrator and their father; Lemuel hearkened to Laman.",
+        "text": "Laman and Lemuel were angry with Nephi and his father; Lemuel hearkened to Laman.",
         "refs": [
           "1 Nephi 3:28"
         ]
       },
       {
-        "text": "Laman and Lemuel spoke many hard words to their younger brothers and struck them with a rod.",
+        "text": "Laman and Lemuel spoke hard words to Nephi and their other younger brother or brothers and struck them with a rod.",
         "refs": [
           "1 Nephi 3:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman and Lemuel are close enough to their younger brothers to strike them with a rod."
+      "Laman and Lemuel are close enough to the younger brothers to strike them."
     ],
     "unspecified_visual_details": [
-      "The location, the rod’s appearance, and the brothers’ precise positions are unspecified."
+      "The location, the rod’s appearance, and the younger brothers’ precise positions are unspecified.",
+      "The verse does not name the younger brother or brothers besides Nephi."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Laman was angry with me, and also with my father; and also was Lemuel, for he hearkened unto the words of Laman.",
+        "refs": [
+          "1 Nephi 3:28"
+        ]
+      },
       {
         "text": "Wherefore Laman and Lemuel did speak many hard words unto us, their younger brothers, and they did smite us even with a rod.",
         "refs": [
@@ -711,11 +770,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The words spoken are not supplied and should not be written as dialogue."
+      "Nephi is the first-person narrator. The hard words are not supplied as dialogue."
     ],
     "prohibited_inventions": [
-      "Do not add a location, spoken words, or the father’s physical presence.",
-      "Do not show wounds, blood, or gore."
+      "Do not name the other younger brother or brothers or add spoken words.",
+      "Do not depict the father as physically present or show wounds, blood, or gore."
     ],
     "importance": "normal"
   },

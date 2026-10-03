@@ -1,5 +1,5 @@
 {
-  "stamp": "085490dd3eeff1fb4dd0ae6481fc3a1db338801a55c3e80e01a7f8f17e0384b4",
+  "stamp": "9c6766b2958947fb15503f1453a0821c7875a807c7d3e01f60f9351f5c6cf7a8",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -74,10 +74,8 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The preceding verse says the people with Alma separated from one another, but this verse's 'they' refers to those people; their identity as Alma's companions is supported by the preceding context, not verse 37 alone."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",

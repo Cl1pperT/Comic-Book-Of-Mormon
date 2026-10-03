@@ -368,72 +368,89 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Comfort and Courage",
+    "title": "Comfort and Fear",
     "refs": [
       "2 Nephi 8:12",
       "2 Nephi 8:13"
     ],
-    "summary": "The Lord says he comforts his people and asks why they fear mortal men and the oppressor, reminding them that he made the heavens and foundations of the earth.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "“I am he; yea, I am he that comforteth you.” “And where is the fury of the oppressor?”",
+    "characters": [
+      "The Lord"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord identifies himself as the one who comforts his people and asks why they fear mortal man.",
+        "text": "The speaker identifies himself as the one who comforts the addressee and questions fear of mortal man.",
         "refs": [
           "2 Nephi 8:12"
         ]
       },
       {
-        "text": "The Lord says he made the heavens and foundations of the earth and asks where the oppressor's fury is.",
+        "text": "The speech identifies the Lord as the addressee’s maker, who stretched forth the heavens and laid the earth’s foundations.",
+        "refs": [
+          "2 Nephi 8:13"
+        ]
+      },
+      {
+        "text": "The speaker questions forgetting the Lord and continually fearing the oppressor’s fury as though destruction were imminent.",
         "refs": [
           "2 Nephi 8:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speech may be voiced off-screen over an unspecified setting."
+      "The speech can be presented without a visible speaker or a specific physical setting."
     ],
     "unspecified_visual_details": [
-      "The identity or appearance of the oppressed and oppressor.",
-      "Any visible form of the Lord."
+      "The addressee’s identity and appearance.",
+      "The oppressor’s identity and appearance.",
+      "The physical setting; no divine appearance is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I am he; yea, I am he that comforteth you.",
+        "text": "I am he; yea, I am he that comforteth you. Behold, who art thou, that thou shouldst be afraid of man, who shall die, and of the son of man, who shall be made like unto grass?",
         "refs": [
           "2 Nephi 8:12"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
         "text": "And where is the fury of the oppressor?",
         "refs": [
           "2 Nephi 8:13"
-        ]
+        ],
+        "speaker": "The Lord"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's making of the heavens and earth is recalled, not shown as a present event."
+      "Creation is recalled in speech, not narrated as a present event.",
+      "The comparison to grass is figurative, not a visible transformation.",
+      "The oppressor’s anticipated destruction is not narrated as an actual attack."
     ],
     "prohibited_inventions": [
-      "Do not depict creation or invent a visible divine figure."
+      "Do not depict an unstated visible appearance of the Lord.",
+      "Do not stage creation, an oppressor’s attack, or a person transforming into grass.",
+      "Do not invent an audience, setting, or additional dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "The Captive Exile Hastens",
+    "title": "Assurance to the Captive Exile",
     "refs": [
       "2 Nephi 8:14",
       "2 Nephi 8:15",
       "2 Nephi 8:16"
     ],
-    "summary": "The captive exile hastens to be released and avoid death in the pit and hunger. The Lord declares his name and says he has put words in the addressed person's mouth and covered them with his hand's shadow.",
-    "characters": [],
+    "summary": "The captive exile hasteneth, that he may be loosed, and that he should not die in the pit, nor that his bread should fail. But I am the Lord thy God, whose waves roared; the Lord of Hosts is my name.",
+    "characters": [
+      "The Lord (speaker; not visibly depicted)",
+      "The captive exile (mentioned)",
+      "Zion (addressed)"
+    ],
     "locations": [
-      "Unspecified location"
+      "Unspecified; no physical setting established"
     ],
     "explicit_facts": [
       {
@@ -443,53 +460,67 @@
         ]
       },
       {
-        "text": "The Lord says his waves roared and names himself the Lord of Hosts.",
+        "text": "The Lord identifies himself as the Lord thy God and the Lord of Hosts, whose waves roared.",
         "refs": [
           "2 Nephi 8:15"
         ]
       },
       {
-        "text": "The Lord says he put his words in the addressed person's mouth and covered them in the shadow of his hand, to plant the heavens, lay earth's foundations, and say to Zion, 'Behold, thou art my people.'",
+        "text": "The Lord says he has put his words in the addressee's mouth and covered the addressee in the shadow of his hand.",
+        "refs": [
+          "2 Nephi 8:16"
+        ]
+      },
+      {
+        "text": "The Lord states the purpose of planting the heavens, laying the foundations of the earth, and saying to Zion that Zion is his people.",
         "refs": [
           "2 Nephi 8:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speech may be voiced off-screen; the captive exile is mentioned but no definite visual description is given."
+      "A nonrepresentational presentation can accompany the words without staging reported events or depicting divine appearance."
     ],
     "unspecified_visual_details": [
-      "Whether the captive exile is visible.",
-      "The identity of the person addressed in verse 16.",
-      "Any appearance for the Lord or his hand."
+      "Background, typography, and composition.",
+      "The exile's appearance and physical surroundings.",
+      "The identity of the addressee designated by 'thy' and 'thee'."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "The captive exile hasteneth, that he may be loosed,",
-        "refs": [
-          "2 Nephi 8:14"
-        ]
-      },
-      {
-        "text": "But I am the Lord thy God, whose waves roared;",
+        "text": "But I am the Lord thy God, whose waves roared; the Lord of Hosts is my name.",
         "refs": [
           "2 Nephi 8:15"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
         "text": "Behold, thou art my people.",
         "refs": [
           "2 Nephi 8:16"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [
+      {
+        "text": "The captive exile hasteneth, that he may be loosed, and that he should not die in the pit, nor that his bread should fail.",
+        "refs": [
+          "2 Nephi 8:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The shadow of the Lord's hand is figurative protection; the planting of heavens and foundations is not narrated as occurring now."
+      "The exile's release, survival, and continued bread are aims, not narrated outcomes.",
+      "The final dialogue excerpt is embedded in the Lord's stated purpose of speaking to Zion, not a separately staged encounter.",
+      "The hand, heavens, and foundations language does not establish a visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not invent an appearance for the Lord or a literal hand.",
-      "Do not stage creation as a present event."
+      "Do not stage the reported exile's hastening as a new present-tense event.",
+      "Do not depict release, death, starvation, or arrival at a destination.",
+      "Do not invent a visible appearance of the Lord or a literal divine hand.",
+      "Do not stage roaring waves, creation, or words physically entering a mouth.",
+      "Do not invent an identity for the addressee or place mentioned figures together physically."
     ],
     "importance": "normal"
   },
@@ -665,52 +696,64 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The Afflicters' Turn",
+    "title": "The Afflicters' Words",
     "refs": [
       "2 Nephi 8:23"
     ],
-    "summary": "The Lord says he will put the cup into the hand of those who afflict Jerusalem, who had told her to bow down and had walked over her as over the ground and street.",
+    "summary": "The Lord promises to put an unspecified thing into the hand of those who afflict the addressee. He recounts their demand to bow down and describes the addressee's body as ground and street to those who went over.",
     "characters": [
-      "Jerusalem's afflicters"
+      "The Lord (speaker; not visibly depicted)",
+      "those who afflict the addressee (mentioned)",
+      "the addressee (addressed)"
     ],
-    "locations": [
-      "Jerusalem"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says he will put the cup into the hand of those who afflict Jerusalem; they told her to bow down, and she laid her body as the ground and street to those who went over.",
-        "refs": [
-          "2 Nephi 8:23"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "The verse recalls oppression and promises reversal; it does not require depicting a new present act."
-    ],
-    "unspecified_visual_details": [
-      "The identity and appearance of the afflicters.",
-      "Whether the past oppression is visually shown."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "But I will put it into the hand of them that afflict thee;",
+        "text": "The speaker promises to put what is called “it” into the hand of those who afflict the addressee.",
         "refs": [
           "2 Nephi 8:23"
         ]
       },
       {
-        "text": "Bow down, that we may go over—",
+        "text": "The afflicters previously demanded that the addressee bow down so they could go over.",
+        "refs": [
+          "2 Nephi 8:23"
+        ]
+      },
+      {
+        "text": "The addressee's body is described as having been laid as the ground and street to those who went over.",
         "refs": [
           "2 Nephi 8:23"
         ]
       }
     ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The identity and appearance of the addressee and afflicters.",
+      "What “it” refers to.",
+      "The physical setting."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "But I will put it into the hand of them that afflict thee; who have said to thy soul: Bow down, that we may go over—and thou hast laid thy body as the ground and as the street to them that went over.",
+        "refs": [
+          "2 Nephi 8:23"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The cup is figurative; the verse describes past humiliation and future reversal."
+      "The Lord is the continuing speaker, rather than Nephi.",
+      "The afflicters' demand is embedded reported speech, not a present encounter.",
+      "The promised transfer is not narrated as completed.",
+      "The ground-and-street comparison does not establish a literal transformation."
     ],
     "prohibited_inventions": [
-      "Do not invent the afflicters' identities or depict the promised reversal as already happening."
+      "Do not invent a visible appearance for the Lord.",
+      "Do not stage the reported affliction as a new present-tense event.",
+      "Do not identify the unspecified object, addressee, or afflicters.",
+      "Do not depict the promised transfer as completed or the body as literally transformed into ground or street."
     ],
     "importance": "normal"
   },

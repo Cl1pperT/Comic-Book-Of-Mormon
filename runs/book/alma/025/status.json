@@ -5,16 +5,20 @@
   "scenes": 14,
   "counts": {
     "PASS": 10,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 0
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 12,
+  "rejected": {
+    "scene_008": [
+      "The supplied verses do not identify the narrator as Mormon. The summary, character list, and story notes assign him that speaking role without support from the source."
+    ]
+  },
+  "calls": 16,
   "tokens": {
-    "input_tokens": 84132,
-    "cached_input_tokens": 51456,
+    "input_tokens": 112459,
+    "cached_input_tokens": 64128,
     "cache_write_input_tokens": 0,
-    "output_tokens": 8629,
-    "reasoning_output_tokens": 1823
+    "output_tokens": 10734,
+    "reasoning_output_tokens": 2810
   }
 }

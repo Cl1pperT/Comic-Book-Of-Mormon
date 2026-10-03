@@ -1,9 +1,11 @@
 {
-  "stamp": "bcd422223ea311d566320a2f027c52ca1dbfd7ff1052929747a6f9ee27c3486b",
+  "stamp": "18d193ab8b5df1916e9fd10f3003bf9570907971b62d43ae4848122477c280c5",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma 15:2 uses “they” for the people relating the account; the verses do not specify which individuals spoke. The summary and narration appropriately leave them unidentified."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -25,16 +27,13 @@
       ]
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Zeezrom’s house” is not explicitly located in the verses; the source says they entered the house unto Zeezrom in Sidom.",
-        "Alma’s prayer is explicit, but Zeezrom’s continued presence during it is not restated; the inference that he is present is plausible from the immediate chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene 007: “After Alma speaks” lacks an explicit scene break in the verse, and the crowd’s witnessing is only a reasonable inference; the verse says the event astonished the people, not that they were present as it happened."
+        "The source does not specify that other people are present for Zeezrom’s rising and walking, so the inference that people witness it should remain visually conservative; the people’s astonishment is explicit, but their presence or number is not described."
       ]
     },
     "scene_008": {
@@ -54,8 +53,10 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s event is reported retrospectively, not shown as a present-tense action; its own notes and prohibitions correctly flag this. The verse also begins with Alma and Amulek together, but does not specify whether Alma is physically present during Amulek’s loss or rejection."
+      ]
     },
     "scene_013": {
       "status": "PASS",

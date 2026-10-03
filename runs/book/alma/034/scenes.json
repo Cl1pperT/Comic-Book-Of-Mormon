@@ -6,7 +6,7 @@
       "Alma 34:1",
       "Alma 34:2"
     ],
-    "summary": "After speaking to the people, Alma sits on the ground. Amulek rises and begins teaching them about what they had been taught concerning Christ before their dissension.",
+    "summary": "After Alma finishes speaking, he sits on the ground. Amulek rises and begins teaching the audience about the coming of Christ.",
     "characters": [
       "Alma",
       "Amulek",
@@ -17,7 +17,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma sits on the ground after speaking to the people.",
+        "text": "Alma sits on the ground after speaking to the audience.",
         "refs": [
           "Alma 34:1"
         ]
@@ -29,21 +29,21 @@
         ]
       },
       {
-        "text": "Amulek says they had been taught about the coming of Christ, whom he calls the Son of God, before their dissension.",
+        "text": "Amulek says the audience had been taught about the coming of Christ before their dissension, and identifies Christ as the Son of God.",
         "refs": [
           "Alma 34:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The audience is close enough to hear Amulek speak."
+      "The audience is close enough to hear Amulek teaching."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, and audience members’ appearances are not specified."
+      "The location, clothing, physical appearances, and size and arrangement of the audience are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "My brethren, I think that it is impossible that ye should be ignorant of the things which have been spoken concerning the coming of Christ, who is taught by us to be the Son of God;",
+        "text": "My brethren, I think that it is impossible that ye should be ignorant of the things which have been spoken concerning the coming of Christ,",
         "refs": [
           "Alma 34:2"
         ],
@@ -52,19 +52,22 @@
     ],
     "narration": [
       {
-        "text": "he sat down upon the ground, and Amulek arose and began to teach them, saying:",
+        "text": "And now it came to pass that after Alma had spoken these words unto them he sat down upon the ground, and Amulek arose and began to teach them, saying:",
         "refs": [
           "Alma 34:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Alma is present and seated as Amulek begins teaching.",
-      "Christ’s coming is discussed, not narrated as a visible event."
+      "Amulek speaks the quoted teaching.",
+      "Christ's coming is discussed, not narrated as a visible event.",
+      "The earlier teaching and dissension are reported background, not actions occurring in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict Christ or his coming.",
-      "Do not invent details of the earlier teaching or the dissension."
+      "Do not stage the earlier teaching or dissension.",
+      "Do not invent additional dialogue, audience reactions, or audience identities.",
+      "Do not present unspecified visual design choices as source facts."
     ],
     "importance": "normal"
   },

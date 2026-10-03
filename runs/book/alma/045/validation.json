@@ -1,5 +1,5 @@
 {
-  "stamp": "0c77aba4ba64336e095fb5cff721cfda8c264a6647094d76ee41868b8fdd676f",
+  "stamp": "9debc93229fff715b13893db6551b832221944d7a275546b7647a35d90458fc2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,17 +22,21 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mormon is not explicitly identified in the supplied verses; verse 10 begins “And these are the words,” but does not name the narrator. Alma’s prophecy itself and its predictions are accurately represented. The no-setting/no-listener cautions appropriately reflect unspecified details."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied context identifies Helaman as the addressee (Alma 45:15), contrary to the unspecified-details and prohibited-inventions notes. The scene does not depict or name a different addressee."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary and explicit facts correctly present the pursuit and extinction as prophecy, not present events. However, “great and dreadful day” is included in the summary without its context: the source calls it “that great and dreadful day,” referring back to the foretold events."
+        "The prophecy is accurately treated as future events, not present action. The phrase “a great and dreadful day” is source language, but its visual realization should remain unspecified; the source does not describe the day’s appearance or setting."
       ]
     },
     "scene_009": {
@@ -64,8 +68,10 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary, explicit facts, and quotations are supported. However, “priests and teachers” are described as appointed in the previous scene and are not stated to be present during the later dissension; depict only the people among whom dissension arose. The source does not specify the location or appearance of the dissension or riches."
+      ]
     }
   }
 }

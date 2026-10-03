@@ -84,7 +84,10 @@
       "Mosiah 15:7"
     ],
     "summary": "The Son does not yield to temptation and suffers mockery, scourging, rejection, and disownment by his people. After working many mighty miracles, he shall be led, crucified, and slain.",
-    "characters": [],
+    "characters": [
+      "Abinadi",
+      "the Son"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -112,39 +115,39 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
-    "unspecified_visual_details": [
-      "The speaker, audience, setting, and appearances are not identified in these verses."
+    "reasonable_visual_inferences": [
+      "Abinadi may be shown speaking; the Son's suffering and death are the subject of his teaching, not events occurring in his setting."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "unspecified_visual_details": [
+      "Abinadi's appearance, his audience, and the setting are not specified in these verses.",
+      "The Son's appearance and the details of the foretold events are not specified."
+    ],
+    "spoken_dialogue": [
       {
-        "text": "suffereth temptation, and yieldeth not to the temptation",
+        "text": "And thus the flesh becoming subject to the Spirit, or the Son to the Father, being one God, suffereth temptation, and yieldeth not to the temptation, but suffereth himself to be mocked, and scourged, and cast out, and disowned by his people.",
         "refs": [
           "Mosiah 15:5"
-        ]
-      },
-      {
-        "text": "after working many mighty miracles among the children of men, he shall be led",
-        "refs": [
-          "Mosiah 15:6"
-        ]
+        ],
+        "speaker": "Abinadi"
       },
       {
         "text": "Yea, even so he shall be led, crucified, and slain",
         "refs": [
           "Mosiah 15:7"
-        ]
+        ],
+        "speaker": "Abinadi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses describe the Son becoming subject to the Father and his will being swallowed up in the will of the Father.",
-      "The suffering and death are described in teaching, not narrated as events occurring in the speaker's present setting."
+      "The opening quotation identifies the Son as the subject of the teaching; the later reference to “he” continues that teaching.",
+      "The sheep comparison in Mosiah 15:6 is a figure of speech, not a narrated animal scene.",
+      "The Son's will is described as being swallowed up in the will of the Father."
     ],
     "prohibited_inventions": [
-      "Do not identify or depict a speaker or audience from these verses alone.",
-      "Do not portray the reported suffering, miracles, or crucifixion as occurring in the teaching setting.",
-      "Do not depict the sheep comparison as a literal event."
+      "Do not portray the foretold suffering, miracles, or crucifixion as occurring in Abinadi's speaking setting.",
+      "Do not depict the sheep comparison as a literal event.",
+      "Do not invent an audience, location, appearance, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -155,8 +158,11 @@
       "Mosiah 15:8",
       "Mosiah 15:9"
     ],
-    "summary": "God breaks the bands of death and gives the Son power to intercede for the children of men. The Son has ascended into heaven, is filled with compassion, and has redeemed them.",
-    "characters": [],
+    "summary": "God has gained victory over death and given the Son power to intercede for the children of men. The Son has ascended into heaven, is filled with compassion for them, and has redeemed them.",
+    "characters": [
+      "God",
+      "the Son"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -168,13 +174,14 @@
       {
         "text": "The Son has ascended into heaven, is filled with compassion toward the children of men, stands between them and justice, and has redeemed them.",
         "refs": [
+          "Mosiah 15:8",
           "Mosiah 15:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker, audience, physical setting, and appearances are not specified."
+      "No physical appearances or visible setting are specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -192,10 +199,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "These verses state teachings about intercession and redemption; they do not describe a visible heavenly appearance."
+      "These verses teach intercession and redemption; they do not describe a visible heavenly appearance. Verse 9 does not use the title “the Lord.”"
     ],
     "prohibited_inventions": [
-      "Do not identify a speaker or audience from these verses.",
+      "Do not add “the Lord” to a quotation or identify an otherwise unnamed speaker or audience.",
       "Do not depict justice as a person or invent a visible heavenly scene."
     ],
     "importance": "normal"
@@ -440,9 +447,9 @@
       "Mosiah 15:20",
       "Mosiah 15:21"
     ],
-    "summary": "A speaker teaches that redemption was prepared from the foundation of the world, that the Son brings about the resurrection of the dead, and that a first resurrection extends until the resurrection of Christ.",
+    "summary": "Abinadi speaks of redemption, the Son’s power over the dead, and a first resurrection.",
     "characters": [
-      "Continuing speaker"
+      "Abinadi"
     ],
     "locations": [],
     "explicit_facts": [
@@ -453,7 +460,7 @@
         ]
       },
       {
-        "text": "The bands of death shall be broken; the Son reigneth, has power over the dead, and brings about the resurrection of the dead.",
+        "text": "The bands of death shall be broken; the Son reigns, has power over the dead, and brings about the resurrection of the dead.",
         "refs": [
           "Mosiah 15:20"
         ]
@@ -466,11 +473,11 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The words “I say unto you” suggest that the speaker is addressing an audience."
+      "Abinadi is addressing listeners, as indicated by “I say unto you.”"
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance are not stated in these verses.",
-      "The audience’s identity and appearance.",
+      "Abinadi’s appearance.",
+      "The listeners’ identities and appearances.",
       "The location and its appearance."
     ],
     "spoken_dialogue": [
@@ -479,31 +486,29 @@
         "refs": [
           "Mosiah 15:19"
         ],
-        "speaker": "Continuing speaker"
+        "speaker": "Abinadi"
       },
       {
         "text": "But behold, the bands of death shall be broken, and the Son reigneth, and hath power over the dead; therefore, he bringeth to pass the resurrection of the dead.",
         "refs": [
           "Mosiah 15:20"
         ],
-        "speaker": "Continuing speaker"
+        "speaker": "Abinadi"
       },
       {
         "text": "And there cometh a resurrection, even a first resurrection;",
         "refs": [
           "Mosiah 15:21"
         ],
-        "speaker": "Continuing speaker"
+        "speaker": "Abinadi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses teach about redemption and resurrection; they do not narrate a visible resurrection occurring during the speech.",
-      "The supplied verses do not name the continuing speaker."
+      "These verses teach about redemption and resurrection; they do not narrate a visible resurrection occurring during the speech."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker a name based on context outside the supplied verses.",
-      "Do not depict the Son appearing or dead people rising during this scene.",
+      "Do not depict the Son appearing or dead people rising during this speech.",
       "Do not depict the bands of death as literal visible restraints."
     ],
     "importance": "normal"
@@ -516,18 +521,18 @@
       "Mosiah 15:23",
       "Mosiah 15:24"
     ],
-    "summary": "The verses teach that the prophets, those who believed their words, and those who kept God's commandments shall come forth in the first resurrection. Those who died before Christ came without having salvation declared to them also have part in it.",
+    "summary": "The verses teach that prophets, those who believed their words, and those who kept God's commandments shall come forth in the first resurrection. They also say that those who died before Christ came without having salvation declared to them have part in it.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "All the prophets, those who believed their words, and those who kept God's commandments shall come forth in the first resurrection.",
+        "text": "The prophets, those who believed their words, and those who kept God's commandments shall come forth in the first resurrection.",
         "refs": [
           "Mosiah 15:22"
         ]
       },
       {
-        "text": "They are raised to dwell with God and have eternal life through Christ, who has broken the bands of death.",
+        "text": "They are raised to dwell with God and have eternal life through Christ.",
         "refs": [
           "Mosiah 15:23"
         ]
@@ -541,8 +546,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearances of those described are not specified.",
-      "No setting is specified in these verses."
+      "No setting is specified.",
+      "The appearances of those described are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -559,17 +564,17 @@
         ]
       },
       {
-        "text": "And thus the Lord bringeth about the restoration of these;",
+        "text": "and these are they that have died before Christ came, in their ignorance, not having salvation declared unto them.",
         "refs": [
           "Mosiah 15:24"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The resurrection and restoration are teachings in these verses, not narrated visible events occurring in a specified setting."
+      "The resurrection and restoration are taught here, not narrated as visible events occurring in a specified setting."
     ],
     "prohibited_inventions": [
-      "Do not identify or depict a speaker or audience based on these verses alone.",
+      "Do not invent a speaker or audience from these verses alone.",
       "Do not depict the resurrection or restoration as a present-tense visible event.",
       "Do not invent appearances for God, Christ, the Lord, or those described."
     ],
@@ -583,7 +588,7 @@
       "Mosiah 15:26",
       "Mosiah 15:27"
     ],
-    "summary": "Little children have eternal life. Those who wilfully rebel against God, know his commandments but do not keep them, and die in their sins have no part in the first resurrection. Salvation does not come to them; the Lord cannot deny justice.",
+    "summary": "Abinadi teaches that little children have eternal life. He warns that those who knowingly rebel against God and die in their sins have no part in the first resurrection, and says the Lord cannot deny justice.",
     "characters": [
       "Abinadi"
     ],
@@ -596,7 +601,7 @@
         ]
       },
       {
-        "text": "Those who wilfully rebel against God, know his commandments but do not keep them, and die in their sins have no part in the first resurrection.",
+        "text": "Those who knowingly rebel against God, do not keep his commandments, and die in their sins have no part in the first resurrection.",
         "refs": [
           "Mosiah 15:26"
         ]
@@ -609,53 +614,71 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi continues speaking to an audience."
+      "Abinadi is speaking to listeners addressed as “ye.”"
     ],
     "unspecified_visual_details": [
-      "Abinadi's appearance.",
-      "The audience's identity and appearance.",
+      "Abinadi’s appearance.",
+      "The listeners’ identities and appearances.",
       "The location."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "And little children also have eternal life.",
         "refs": [
           "Mosiah 15:25"
-        ]
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "But behold, and fear, and tremble before God, for ye ought to tremble;",
+        "refs": [
+          "Mosiah 15:26"
+        ],
+        "speaker": "Abinadi"
       },
       {
         "text": "these are they that have no part in the first resurrection.",
         "refs": [
           "Mosiah 15:26"
-        ]
+        ],
+        "speaker": "Abinadi"
+      },
+      {
+        "text": "For salvation cometh to none such;",
+        "refs": [
+          "Mosiah 15:27"
+        ],
+        "speaker": "Abinadi"
       },
       {
         "text": "for he cannot deny justice when it has its claim.",
         "refs": [
           "Mosiah 15:27"
-        ]
+        ],
+        "speaker": "Abinadi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The warning and references to the first resurrection are teachings, not visible events narrated in these verses."
+      "The first resurrection, redemption, and justice are discussed as teachings, not narrated as visible events in these verses."
     ],
     "prohibited_inventions": [
-      "Do not invent an identity for the audience.",
-      "Do not depict a judgment, punishment, or resurrection scene."
+      "Do not identify or characterize the listeners beyond what the verses establish.",
+      "Do not depict a judgment, punishment, or resurrection as occurring in this scene.",
+      "Do not invent an appearance for God or the Lord."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Salvation Declared to Every Nation",
+    "title": "Abinadi Speaks of Salvation",
     "refs": [
       "Mosiah 15:28",
       "Mosiah 15:29",
       "Mosiah 15:30",
       "Mosiah 15:31"
     ],
-    "summary": "Abinadi speaks of the Lord’s salvation being declared to every people, watchmen singing, Jerusalem being comforted and redeemed, and the ends of the earth seeing salvation.",
+    "summary": "Abinadi says the Lord’s salvation will be declared to every people. His prophetic words speak of watchmen singing, Jerusalem’s redemption, and the ends of the earth seeing salvation.",
     "characters": [
       "Abinadi"
     ],
@@ -664,13 +687,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord’s salvation shall be declared to every nation, kindred, tongue, and people.",
+        "text": "Abinadi says the Lord’s salvation will be declared to every nation, kindred, tongue, and people.",
         "refs": [
           "Mosiah 15:28"
         ]
       },
       {
-        "text": "The watchmen shall lift their voices and sing together when the Lord brings again Zion.",
+        "text": "The prophetic words say watchmen will lift their voices and sing when the Lord brings again Zion.",
         "refs": [
           "Mosiah 15:29"
         ]
@@ -682,21 +705,21 @@
         ]
       },
       {
-        "text": "The Lord has made bare his holy arm before the nations, and all the ends of the earth shall see God’s salvation.",
+        "text": "The words say the Lord has made bare his holy arm before the nations and that all the ends of the earth shall see God’s salvation.",
         "refs": [
           "Mosiah 15:31"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi is speaking, as established by the preceding scenes."
+      "Abinadi speaks; the watchmen and Jerusalem are subjects of his prophetic words, not figures shown alongside him."
     ],
     "unspecified_visual_details": [
-      "Abinadi’s appearance, audience, and surroundings are not described in these verses."
+      "Abinadi’s appearance, audience, and surroundings are not specified in these verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "And now I say unto you that the time shall come that the salvation of the Lord shall be declared to every nation, kindred, tongue, and people.",
+        "text": "the time shall come that the salvation of the Lord shall be declared to every nation, kindred, tongue, and people.",
         "refs": [
           "Mosiah 15:28"
         ],
@@ -717,7 +740,7 @@
         "speaker": "Abinadi"
       },
       {
-        "text": "The Lord hath made bare his holy arm in the eyes of all the nations;",
+        "text": "and all the ends of the earth shall see the salvation of our God.",
         "refs": [
           "Mosiah 15:31"
         ],
@@ -726,12 +749,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The watchmen, Zion, Jerusalem, and the Lord’s holy arm are spoken of; these verses do not narrate them as visibly present with Abinadi."
+      "Verses 29–31 shift into prophetic words addressing the Lord and Jerusalem. Abinadi voices these words; the verses do not identify the watchmen as their present speakers.",
+      "The Lord’s holy arm is part of the prophetic wording, not a described bodily appearance."
     ],
     "prohibited_inventions": [
       "Do not invent an audience or its identity.",
-      "Do not stage the foretold events as occurring during this speech.",
-      "Do not depict the Lord’s holy arm as a visible bodily appearance."
+      "Do not stage the foretold events as occurring during Abinadi’s speech.",
+      "Do not depict the Lord’s holy arm as a visible bodily appearance or assign the quoted words to the watchmen."
     ],
     "importance": "normal"
   }

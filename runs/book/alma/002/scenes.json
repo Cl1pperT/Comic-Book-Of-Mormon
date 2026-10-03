@@ -601,9 +601,9 @@
       "Alma 2:24",
       "Alma 2:25"
     ],
-    "summary": "On the morrow, a group returns to the Nephite camp in haste, astonished and afraid. They report seeing a numerous Lamanite host joined by the Amlicites in Minon. They say their brethren are fleeing toward the city with their flocks and families, and warn what may happen if they do not hurry.",
+    "summary": "On the morrow, the group returns to the Nephite camp in haste and fear. They report seeing a numerous Lamanite host joined by the Amlicites in Minon. They say their brethren are fleeing toward the city with their flocks and families, and warn that the city and their families are in danger if they do not hurry.",
     "characters": [
-      "The returning group",
+      "Those who followed the camp of the Amlicites",
       "Nephites in the camp"
     ],
     "locations": [
@@ -617,13 +617,13 @@
         ]
       },
       {
-        "text": "They report seeing a numerous Lamanite host in the land of Minon and say the Amlicites have joined them.",
+        "text": "They say they followed the camp of the Amlicites and saw a numerous Lamanite host in Minon, which the Amlicites had joined.",
         "refs": [
           "Alma 2:24"
         ]
       },
       {
-        "text": "They report that their brethren are fleeing toward the city with their flocks, wives, and children.",
+        "text": "They say their brethren are fleeing toward the city with their flocks, wives, and children.",
         "refs": [
           "Alma 2:25"
         ]
@@ -648,24 +648,41 @@
         "refs": [
           "Alma 2:24"
         ],
-        "speaker": "The returning group"
+        "speaker": "Those who followed the camp of the Amlicites"
       },
       {
-        "text": "and they are fleeing before them with their flocks, and their wives, and their children, towards our city; and except we make haste they obtain possession of our city, and our fathers, and our wives, and our children be slain.",
+        "text": "and they are fleeing before them with their flocks, and their wives, and their children, towards our city;",
         "refs": [
           "Alma 2:25"
         ],
-        "speaker": "The returning group"
+        "speaker": "Those who followed the camp of the Amlicites"
+      },
+      {
+        "text": "except we make haste they obtain possession of our city,",
+        "refs": [
+          "Alma 2:25"
+        ],
+        "speaker": "Those who followed the camp of the Amlicites"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "they returned into the camp of the Nephites in great haste,",
+        "refs": [
+          "Alma 2:23"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The events in Minon and the flight toward the city are reported at the camp, not shown as simultaneous action.",
-      "The supplied verses do not name the returning people; names from outside them are not included."
+      "The supplied verses do not give the returning speakers’ personal names.",
+      "Narration belongs to Mormon; the report belongs to the returning group.",
+      "The warning describes a threatened outcome, not a completed capture or killing."
     ],
     "prohibited_inventions": [
-      "Do not assign names or biographies to the returning group.",
-      "Do not show the Lamanite host, the Amlicites, or the fleeing families as physically present in this camp scene."
+      "Do not assign personal names or biographies to the returning group.",
+      "Do not show the Lamanite host, the Amlicites, or the fleeing families as physically present in this camp scene.",
+      "Do not depict the reported events as a separate present-tense scene or show the threatened capture and deaths as accomplished events."
     ],
     "importance": "normal"
   },
@@ -895,14 +912,13 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "The west bank of Sidon",
+    "title": "Flight on the west bank of Sidon",
     "refs": [
       "Alma 2:34",
       "Alma 2:35"
     ],
-    "summary": "He clears the west bank of the river Sidon by throwing slain Lamanites' bodies into the water, making room for his people to cross and contend with the Lamanites and Amlicites. After all his people cross, the Lamanites and Amlicites begin to flee before them.",
+    "summary": "He cleared the west bank of Sidon by throwing slain Lamanites' bodies into the waters so his people might have room to cross and contend with the Lamanites and Amlicites. After all his people had crossed, the Lamanites and Amlicites began to flee before them.",
     "characters": [
-      "The man referred to as “he”",
       "His people",
       "Lamanites",
       "Amlicites"
@@ -913,45 +929,58 @@
     ],
     "explicit_facts": [
       {
-        "text": "He clears the west bank of the river Sidon by throwing the bodies of slain Lamanites into the water to make room for his people to cross and contend with the Lamanites and Amlicites.",
+        "text": "He cleared the west bank by throwing the bodies of slain Lamanites into the waters of Sidon, so his people might have room to cross and contend with the Lamanites and Amlicites.",
         "refs": [
           "Alma 2:34"
         ]
       },
       {
-        "text": "After all his people cross the river Sidon, the Lamanites and Amlicites begin to flee before them.",
+        "text": "The Lamanites and Amlicites began to flee before his people after they had all crossed the river Sidon.",
+        "refs": [
+          "Alma 2:35"
+        ]
+      },
+      {
+        "text": "The fleeing Lamanites and Amlicites were so numerous that they could not be numbered.",
         "refs": [
           "Alma 2:35"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The crossing can be shown after the bank is cleared."
+      "Use the beginning of the flight after the completed crossing as the single depicted moment; his people may be positioned on the west bank."
     ],
     "unspecified_visual_details": [
-      "The man's appearance and identity within these supplied verses.",
-      "The number of bodies shown and the crossing's exact arrangement."
+      "The identity and appearance of the man referred to as 'he' are not supplied.",
+      "Clothing, equipment, weather, lighting, and the bank's precise terrain are unspecified.",
+      "Exact crowd numbers, formations, and direction of flight are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "throwing the bodies of the Lamanites who had been slain into the waters of Sidon,",
+        "text": "And thus he cleared the ground, or rather the bank, which was on the west of the river Sidon,",
         "refs": [
           "Alma 2:34"
         ]
       },
       {
-        "text": "the Lamanites and the Amlicites began to flee before them,",
+        "text": "And it came to pass that when they had all crossed the river Sidon that the Lamanites and the Amlicites began to flee before them,",
         "refs": [
           "Alma 2:35"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Mormon is the narrator; neither verse supplies spoken dialogue.",
+      "Bank-clearing is prior context, with the stated purpose of allowing room to cross and contend. Depict only the subsequent beginning of flight, after all have crossed.",
+      "The supplied verses do not identify 'he'; do not supply a name from outside context."
+    ],
     "prohibited_inventions": [
-      "Do not identify the man or his people by names not supplied in these verses.",
-      "Do not show gore or graphic injuries.",
-      "Do not depict the flight before all his people have crossed."
+      "Do not reenact the prior bank-clearing or crossing alongside the flight, or combine them into a continuous present-tense sequence.",
+      "Do not show flight beginning before all his people have crossed.",
+      "Do not invent names, dialogue, motives, or individual biographies.",
+      "Do not show wounds, blood, severed body parts, or other gore.",
+      "Do not place Mormon visibly at the event merely because he narrates it."
     ],
     "importance": "normal"
   },

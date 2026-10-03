@@ -756,7 +756,7 @@
       "Mosiah 27:25",
       "Mosiah 27:26"
     ],
-    "summary": "The speaker says he has repented, been redeemed of the Lord, and been born of the Spirit. He reports the Lord’s teaching about being born again. The passage teaches that becoming new creatures is necessary to inherit the kingdom of God.",
+    "summary": "Alma says he has repented, been redeemed of the Lord, and been born of the Spirit. He reports the Lord’s teaching about being born again and inheriting the kingdom of God.",
     "characters": [
       "Alma the Younger (rebel)"
     ],
@@ -765,29 +765,29 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says he has repented of his sins, been redeemed of the Lord, and been born of the Spirit.",
+        "text": "Alma says he has repented of his sins, been redeemed of the Lord, and been born of the Spirit.",
         "refs": [
           "Mosiah 27:24"
         ]
       },
       {
-        "text": "The speaker reports the Lord’s teaching that all mankind must be born again, changed from their carnal and fallen state to righteousness, redeemed of God, and become his sons and daughters.",
+        "text": "Alma reports that the Lord told him all mankind must be born again, changed from their carnal and fallen state to righteousness, becoming God's sons and daughters.",
         "refs": [
           "Mosiah 27:25"
         ]
       },
       {
-        "text": "The passage teaches that they become new creatures and otherwise cannot inherit the kingdom of God.",
+        "text": "The teaching states that they become new creatures and otherwise cannot inherit the kingdom of God.",
         "refs": [
           "Mosiah 27:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown speaking."
+      "Alma may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance, clothing, posture, and surroundings are unspecified.",
+      "Alma’s appearance, clothing, posture, and surroundings are unspecified.",
       "No audience is specified.",
       "No visible appearance of the Lord or physical manifestation of spiritual rebirth is described."
     ],
@@ -800,30 +800,36 @@
         "speaker": "Alma the Younger (rebel)"
       },
       {
-        "text": "Marvel not that all mankind, yea, men and women, all nations, kindreds, tongues and people, must be born again;",
+        "text": "And the Lord said unto me:",
         "refs": [
           "Mosiah 27:25"
         ],
-        "speaker": "The speaker, quoting the Lord"
-      }
-    ],
-    "narration": [
+        "speaker": "Alma the Younger (rebel)"
+      },
+      {
+        "text": "must be born again; yea, born of God,",
+        "refs": [
+          "Mosiah 27:25"
+        ],
+        "speaker": "Alma the Younger (rebel)"
+      },
       {
         "text": "And thus they become new creatures; and unless they do this, they can in nowise inherit the kingdom of God.",
         "refs": [
           "Mosiah 27:26"
-        ]
+        ],
+        "speaker": "Alma the Younger (rebel)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses refer to the speaker without stating his name; identification from preceding verses is outside this source selection.",
-      "The Lord’s words are reported by the speaker, not delivered through a newly staged encounter.",
+      "Alma reports the Lord’s words; the passage does not stage a separate encounter with the Lord.",
       "Being born again and becoming new creatures are spiritual teachings, not narrated visible transformations."
     ],
     "prohibited_inventions": [
-      "Do not invent an audience or a separate encounter with the Lord.",
+      "Do not invent an audience or stage a separate encounter with the Lord.",
       "Do not depict the Lord appearing, a visible supernatural transformation, or the kingdom of God as a visible location.",
-      "Do not stage the speaker’s reported repentance or redemption as separate events."
+      "Do not stage Alma’s reported repentance or redemption as separate events."
     ],
     "importance": "normal"
   },

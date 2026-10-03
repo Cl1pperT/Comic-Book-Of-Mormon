@@ -1,55 +1,73 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Dissent against the church",
+    "title": "Amalickiah Leads the Angry Gathering",
     "refs": [
       "Alma 46:1",
       "Alma 46:2",
       "Alma 46:3"
     ],
-    "summary": "Those who rejected Helaman and his brethren gathered against them, angry and intent on killing them. Amalickiah led them.",
+    "summary": "Those who would not heed Helaman and his brethren gathered against their brethren. They were angry and determined to kill them. Amalickiah led the angry group.",
     "characters": [
       "Amalickiah",
-      "Helaman",
-      "Helaman's brethren",
-      "the dissenters"
+      "those who would not heed Helaman and his brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Those who would not heed Helaman and his brethren gathered against them and were determined to kill them.",
+        "text": "Those who would not heed Helaman and his brethren gathered against their brethren.",
+        "refs": [
+          "Alma 46:1"
+        ]
+      },
+      {
+        "text": "The gathered people were exceedingly angry and determined to kill their brethren.",
         "refs": [
           "Alma 46:1",
           "Alma 46:2"
         ]
       },
       {
-        "text": "Amalickiah was a large, strong man and the leader of those who were angry.",
+        "text": "Amalickiah was a large, strong man who led those who were angry against their brethren.",
         "refs": [
           "Alma 46:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The opposing groups can be shown facing one another in a tense gathering."
+      "Amalickiah can be shown among the gathered people, visibly larger than others to help identify him."
     ],
     "unspecified_visual_details": [
-      "The gathering place, clothing, weapons, and the precise number of people are not given."
+      "The gathering place, clothing, weapons, and number of people are not specified.",
+      "Helaman and his brethren are mentioned, but their physical presence at the gathering is not established."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "were gathered together against their brethren.",
+        "text": "And it came to pass that as many as would not hearken to the words of Helaman and his brethren were gathered together against their brethren.",
         "refs": [
           "Alma 46:1"
+        ]
+      },
+      {
+        "text": "they were exceedingly wroth, insomuch that they were determined to slay them.",
+        "refs": [
+          "Alma 46:2"
+        ]
+      },
+      {
+        "text": "Now the leader of those who were wroth against their brethren was a large and a strong man; and his name was Amalickiah.",
+        "refs": [
+          "Alma 46:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict an attack or killing; the text reports intent, not an act."
+      "Do not depict an attack or killing; the verses state intent, not an act.",
+      "Do not assume Helaman and his brethren are physically present at the gathering."
     ],
     "importance": "normal"
   },
@@ -61,46 +79,51 @@
       "Alma 46:5",
       "Alma 46:6"
     ],
-    "summary": "Amalickiah and his supporters sought power. He promised his supporters rule over the people if they established him as king, leading them into dissension despite the preaching of Helaman and his brethren.",
+    "summary": "Amalickiah desired to be king. People seeking power wanted him as king and were led by his flatteries into dissension, despite the preaching of Helaman and his brethren.",
     "characters": [
       "Amalickiah",
-      "the dissenters",
+      "the people who wanted him as king",
       "Helaman",
       "Helaman's brethren"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Amalickiah desired to be king; his supporters also wanted him as king and sought power.",
+        "text": "Amalickiah desired to be king.",
         "refs": [
           "Alma 46:4"
         ]
       },
       {
-        "text": "Amalickiah flattered his supporters with a promise to make them rulers if they established him as king.",
+        "text": "The people who wanted Amalickiah as king were wroth; the greater part of them were lower judges seeking power.",
+        "refs": [
+          "Alma 46:4"
+        ]
+      },
+      {
+        "text": "Amalickiah led them by flatteries concerning making them rulers if they supported and established him as king.",
         "refs": [
           "Alma 46:5"
         ]
       },
       {
-        "text": "They were led into dissension despite Helaman and his brethren preaching and caring for the church as high priests.",
+        "text": "They were led into dissension despite the preaching of Helaman and his brethren, who were high priests caring for the church.",
         "refs": [
           "Alma 46:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amalickiah may be shown addressing his supporters."
+      "The people seeking power may be depicted as a group, without assigning them individual identities."
     ],
     "unspecified_visual_details": [
-      "No setting, specific gestures, or exact words of Amalickiah's promise are supplied."
+      "The location, appearances, and gestures are not specified.",
+      "The verses do not place Amalickiah's flatteries and Helaman's preaching in one simultaneous gathering."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he would make them rulers over the people.",
+        "text": "And they had been led by the flatteries of Amalickiah, that if they would support him and establish him to be their king that he would make them rulers over the people.",
         "refs": [
           "Alma 46:5"
         ]
@@ -108,7 +131,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent direct dialogue for Amalickiah or show a coronation."
+      "Do not invent direct dialogue for Amalickiah or the people.",
+      "Do not depict a coronation or combine separate events into one gathering."
     ],
     "importance": "normal"
   },
@@ -177,38 +201,38 @@
       "Alma 46:10",
       "Alma 46:11"
     ],
-    "summary": "The narrator says Amalickiah led many toward wickedness and against the church and liberty. Moroni, chief commander of the Nephite armies, heard of the dissensions and became angry with Amalickiah.",
+    "summary": "Amalickiah led many people toward wickedness and toward seeking to destroy the church of God and the foundation of liberty. Moroni heard of the dissensions and was angry with Amalickiah.",
     "characters": [
-      "Moroni",
-      "Amalickiah"
+      "Amalickiah",
+      "Moroni"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The narrator attributes the people's turn toward wickedness and opposition to the church and liberty to Amalickiah's cunning and flattering words.",
+        "text": "Amalickiah used cunning and flattering words to lead many people toward wickedness and toward seeking to destroy the church of God and the foundation of liberty.",
         "refs": [
           "Alma 46:10"
         ]
       },
       {
-        "text": "Moroni was chief commander of the Nephite armies; on hearing of the dissensions, he was angry with Amalickiah.",
+        "text": "Moroni was chief commander of the Nephite armies. He heard of the dissensions and was angry with Amalickiah.",
         "refs": [
           "Alma 46:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may be shown receiving news, with a grave or angry expression."
+      "Moroni may be shown with an angry expression after hearing of the dissensions."
     ],
     "unspecified_visual_details": [
-      "The source does not say where Moroni was or who informed him."
+      "Moroni's location and how he heard of the dissensions are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he was angry with Amalickiah.",
+        "text": "And now it came to pass that when Moroni, who was the chief commander of the armies of the Nephites, had heard of these dissensions, he was angry with Amalickiah.",
         "refs": [
           "Alma 46:11"
         ]
@@ -216,7 +240,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a messenger, a meeting, or words spoken to Moroni."
+      "Do not invent a messenger, a meeting, or words spoken to Moroni.",
+      "Do not depict Amalickiah as physically present when Moroni hears of the dissensions."
     ],
     "importance": "normal"
   },
@@ -629,53 +654,68 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Amalickiah flees",
+    "title": "Amalickiah departs",
     "refs": [
       "Alma 46:29",
       "Alma 46:30"
     ],
-    "summary": "Amalickiah saw Moroni's people outnumbered his and that his own people doubted their cause. Fearing failure, he departed with those willing to follow him toward the land of Nephi. Moroni considered stopping them, knowing Amalickiah intended to provoke the Lamanites.",
+    "summary": "Amalickiah saw that Moroni’s people outnumbered the Amalickiahites and that his own people doubted their cause. Fearing failure, he departed into the land of Nephi with those willing to go. Moroni thought of stopping or bringing them back.",
     "characters": [
       "Amalickiah",
-      "the Amalickiahites"
+      "the Amalickiahites",
+      "Moroni"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified starting location",
+      "land of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "Amalickiah saw that Moroni's people outnumbered the Amalickiahites and that his people doubted their cause; he departed with those willing to go to the land of Nephi.",
+        "text": "Amalickiah saw that Moroni’s people were more numerous than the Amalickiahites and that his people doubted the justice of their cause.",
         "refs": [
           "Alma 46:29"
         ]
       },
       {
-        "text": "Moroni considered cutting off or bringing back Amalickiah's people, and knew Amalickiah would stir up the Lamanites to anger and battle to pursue his aims.",
+        "text": "Amalickiah took those of his people who would go and departed into the land of Nephi.",
+        "refs": [
+          "Alma 46:29"
+        ]
+      },
+      {
+        "text": "Moroni thought of cutting off Amalickiah’s people or taking them back, and knew Amalickiah would stir up the Lamanites to anger and battle.",
         "refs": [
           "Alma 46:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amalickiah and his willing followers may be shown departing."
+      "Amalickiah may be shown departing with willing followers."
     ],
     "unspecified_visual_details": [
-      "The precise starting point and route are not identified."
+      "The starting point, route, and appearance of the people are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he took those of his people who would and departed into the land of Nephi.",
+        "text": "And it came to pass that when Amalickiah saw that the people of Moroni were more numerous than the Amalickiahites",
+        "refs": [
+          "Alma 46:29"
+        ]
+      },
+      {
+        "text": "therefore, fearing that he should not gain the point, he took those of his people who would and departed into the land of Nephi.",
         "refs": [
           "Alma 46:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moroni's intention and knowledge are narrated; no confrontation occurs in these verses."
+      "Moroni’s thoughts and knowledge are narrated; the verses do not place him at Amalickiah’s departure."
     ],
     "prohibited_inventions": [
-      "Do not show Moroni's army intercepting them yet."
+      "Do not show Moroni intercepting the departing people.",
+      "Do not depict Moroni’s contemplated actions or Amalickiah’s anticipated actions as events occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -686,48 +726,66 @@
       "Alma 46:31",
       "Alma 46:32"
     ],
-    "summary": "Moroni took his assembled, armed army, which had covenanted to keep the peace, and marched with tents into the wilderness to cut off Amalickiah's course. He headed Amalickiah's armies there.",
+    "summary": "Moroni took his gathered and armed army, whose members had covenanted to keep the peace, and marched with tents into the wilderness to cut off Amalickiah's course. He headed the armies of Amalickiah.",
     "characters": [
       "Moroni",
-      "the Nephite army",
-      "Amalickiah",
-      "the Amalickiahites"
+      "Moroni's army",
+      "the armies of Amalickiah"
     ],
     "locations": [
       "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni took his gathered, armed army, whose members had covenanted to keep the peace, and marched with tents into the wilderness to cut off Amalickiah.",
+        "text": "Moroni's armies had gathered, armed themselves, and entered into a covenant to keep the peace.",
         "refs": [
           "Alma 46:31"
         ]
       },
       {
-        "text": "Moroni marched into the wilderness and headed Amalickiah's armies.",
+        "text": "Moroni took his army and marched with tents into the wilderness to cut off Amalickiah's course.",
+        "refs": [
+          "Alma 46:31"
+        ]
+      },
+      {
+        "text": "Moroni marched into the wilderness and headed the armies of Amalickiah.",
         "refs": [
           "Alma 46:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The army may be shown marching with tents through wilderness terrain."
+      "Moroni's army may be shown marching with tents through wilderness terrain."
     ],
     "unspecified_visual_details": [
-      "The wilderness terrain, tents, and army's formation are not specified."
+      "The terrain, tents, weapons, and army formations are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "marched out with his tents into the wilderness,",
+        "text": "Moroni thought it was expedient that he should take his armies,",
         "refs": [
           "Alma 46:31"
+        ]
+      },
+      {
+        "text": "he took his army and marched out with his tents into the wilderness, to cut off the course of Amalickiah in the wilderness.",
+        "refs": [
+          "Alma 46:31"
+        ]
+      },
+      {
+        "text": "and headed the armies of Amalickiah.",
+        "refs": [
+          "Alma 46:32"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add combat; none is described."
+      "Do not depict combat; none is described.",
+      "Do not depict Amalickiah as physically present; the verses name his armies but do not place him there."
     ],
     "importance": "normal"
   },

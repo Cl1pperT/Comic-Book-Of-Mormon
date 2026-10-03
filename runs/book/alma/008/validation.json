@@ -1,5 +1,5 @@
 {
-  "stamp": "87c081a1ec496bfc9e47b6d5160a4fcc2cfe85f482ca03909ea8e5bd85dee721",
+  "stamp": "0b30c00f0fdf54aca1e5e20c2f0381fa8b182314b98fe8f3b8e8047b679cc8c2",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -88,10 +88,8 @@
       ]
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_016: “The word came” is the source’s report, not a described audible voice or visible messenger; the scene correctly avoids specifying its manner or location."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",

@@ -1,9 +1,12 @@
 {
-  "stamp": "8c2a3f025a280c6507d69611f0713a5a21c8a03ce4f113984bd3f089380457cf",
+  "stamp": "1d5c78b3d613fc0cccf9fb30412bca0471ca3d78ceae745e7c806d4ee44c01db",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The first two explicit facts summarize conditions and outcomes together; the source does not explicitly say the promised manifestation and removal of stumbling blocks happen only after both conditions. The conditional promises are conveyed accurately overall, but the conditional framing in the summary is slightly overgeneralized.",
+        "The visual inference to use narration or text is a presentation choice, not a source-derived visual fact. No specific visual event is introduced. The supplied quotations are verbatim excerpts and within the word limit."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -14,8 +17,11 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary and explicit facts accurately reflect verse 7. Spoken dialogue and narration are exact contiguous excerpts; combined length is within 65 words. Visual treatment correctly identifies this as teaching rather than a visible future event. Warning: the Lamb of God is the speaker in the verse, but the source does not describe his appearance; do not depict one.",
+        "The previous scene’s events are from verses 5–6 and do not alter the chronology of this scene. Its content is outside this scene’s audit."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -28,7 +34,7 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The vision says the whore of all the earth sat upon many waters, but does not describe her appearance; avoid rendering the metaphor as a specific literal person."
+        "The verse identifies the figure as “the whore of all the earth” but does not specify a literal human appearance; depict her seated on many waters only as the vision expressly describes, and leave other visual details unspecified."
       ]
     },
     "scene_008": {
@@ -46,12 +52,17 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “the angel speaks to him” fits verse 16, but do not imply the speech occurs after the wars are fully established: the verse says it occurs as wars begin.",
+        "The angel's presence and dialogue are explicit; the angel's visual appearance is unspecified."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "1 Nephi 14:17 continues the angel’s speech begun in verse 16. The scene incorrectly presents that speech as Nephi’s narration, lists no speaker, and states that no separate speaker is established."
+      ]
     },
     "scene_013": {
       "status": "PASS",

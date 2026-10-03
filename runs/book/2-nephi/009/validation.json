@@ -1,9 +1,11 @@
 {
-  "stamp": "25859b5fd4cba0ee1f0baede490f35c029bce761dfff6756044670dcd15daabf",
+  "stamp": "6656e8b100e571d542e585761b493031c8417940e17f3341e4243dc4f3894ec4",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify where or when Nephi speaks, or how many brethren are present; those details must remain unspecified. The brethren’s appearance is likewise not established. The future restoration and gathering are correctly treated as future, not as present events."
+      ]
     },
     "scene_002": {
       "status": "PASS",

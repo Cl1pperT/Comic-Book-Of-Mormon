@@ -1,5 +1,5 @@
 {
-  "stamp": "5ad416b5c5c73cdfce8a1deda22cd8e3abf1750b632a6ee574630e90b68a821f",
+  "stamp": "11b627a5185cdc8a9f2b3eaa795fb4d9d62ef3fae3d63c456406bd6b8c1aa633",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -56,8 +56,11 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene states that the unnamed people met by Ammon are not identified as his brethren by these verses; the preceding verse does identify those brought out of prison as Ammon’s brethren, so avoid asserting an unproven identity between the groups.",
+        "The narration quotes exact, contiguous excerpts from Alma 20:29 and stays within the combined 65-word limit. The scene summary accurately reports the past events without staging them as present action."
+      ]
     }
   }
 }

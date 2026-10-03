@@ -1,5 +1,5 @@
 {
-  "stamp": "652af8bfb4e49a55808059d5ba1782730474a16c27f0bacd8e754ac46d7ba958",
+  "stamp": "dba39dcf79ebe077753512b991fb220d98568d290d295790cae8ccb0e59c4dd1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The identity of “his” and “his people” is unspecified; retain that ambiguity if depicting the reaction."
+        "“The house of David” may refer collectively to the royal household; the passage does not specify who received the report or the precise referent of “his.” Depict the reaction without assigning identities or a location."
       ]
     },
     "scene_003": {
@@ -36,13 +36,16 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“A speaker addresses the house of David” is supported, but does not identify who the speaker or listeners are; the visual design correctly leaves them unidentified.",
+        "The sign and the child’s conception, birth, and eating are foretold, not shown as present events; the scene notes this constraint."
+      ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The text may use the fly and bee figuratively, and does not settle whether they are literal insects. Depicting them as actual insects among the terrain is therefore uncertain, though the scene notes this ambiguity."
+        "The text does not establish whether the fly and bee are literal insects or figurative; scene notes appropriately flag this uncertainty and prohibit a literal supernatural spectacle."
       ]
     },
     "scene_011": {

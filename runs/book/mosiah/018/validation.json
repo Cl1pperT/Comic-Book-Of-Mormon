@@ -1,5 +1,5 @@
 {
-  "stamp": "1a330e8bc4224f9ab912e4d23600358b6ab19ad340970ffe39acea7685770486",
+  "stamp": "44496271214ac09b4246deedfe6ceacdd9645745aff7be9674083cfdc0898449",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -52,8 +52,10 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The note that the supplied verses do not name the man overlooks the preceding scene and Mosiah 18:18, which identify Alma as the antecedent of “he.” The scene otherwise avoids naming him."
+      ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",

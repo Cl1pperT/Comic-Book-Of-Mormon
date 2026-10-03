@@ -479,8 +479,10 @@
     "refs": [
       "Alma 24:14"
     ],
-    "summary": "God has shown mercy to the people and made things known to them beforehand so they might not perish. He visits them by his angels so the plan of salvation might be known to them and future generations.",
-    "characters": [],
+    "summary": "The king says God has had mercy on his people and made things known beforehand so they might not perish. He says God visits them by his angels so the plan of salvation might be known to them and future generations.",
+    "characters": [
+      "the king"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -506,20 +508,28 @@
     "unspecified_visual_details": [
       "The verse does not specify a location or describe anyone's appearance."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "And the great God has had mercy on us, and made these things known unto us that we might not perish;",
+        "refs": [
+          "Alma 24:14"
+        ],
+        "speaker": "the king"
+      },
       {
         "text": "therefore, in his mercy he doth visit us by his angels, that the plan of salvation might be made known unto us as well as unto future generations.",
         "refs": [
           "Alma 24:14"
-        ]
+        ],
+        "speaker": "the king"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse does not place a particular angelic visit at the moment of this statement."
+      "The king speaks of angelic visits but does not describe one occurring during this speech."
     ],
     "prohibited_inventions": [
-      "Do not depict a particular angelic visit or invent a visible appearance for God or his angels."
+      "Do not depict a particular angelic visit during the speech or invent an appearance for God or his angels."
     ],
     "importance": "normal"
   },

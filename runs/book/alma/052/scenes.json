@@ -1,45 +1,45 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Amalickiah Dead",
+    "title": "Amalickiah Found Dead",
     "refs": [
       "Alma 52:1",
       "Alma 52:2"
     ],
-    "summary": "The Lamanites find Amalickiah dead in his tent and Teancum ready for battle. Afraid, they retreat into Mulek and seek protection in its fortifications.",
+    "summary": "On the first morning of the first month, the Lamanites find Amalickiah dead in his tent and see that Teancum is ready to give them battle. Afraid, they abandon their plan to march northward and retreat into Mulek, seeking protection in its fortifications.",
     "characters": [
       "Amalickiah",
       "Teancum",
-      "Lamanite warriors (Amalickiah’s army)"
+      "Lamanites"
     ],
     "locations": [
-      "Lamanite camp near Mulek"
+      "Amalickiah’s tent",
+      "city of Mulek"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites found Amalickiah dead in his own tent and saw Teancum ready to give them battle.",
+        "text": "The Lamanites found Amalickiah dead in his own tent and saw that Teancum was ready to give them battle that day.",
         "refs": [
           "Alma 52:1"
         ]
       },
       {
-        "text": "The Lamanites were afraid and retreated with their army into the city of Mulek, seeking protection in its fortifications.",
+        "text": "The Lamanites were afraid, abandoned their plan to march northward, and retreated with their army into Mulek for protection in its fortifications.",
         "refs": [
           "Alma 52:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amalickiah’s body is visible inside the tent.",
-      "Teancum and the Lamanite army face one another across the camp."
+      "The Lamanites can see Amalickiah inside his tent."
     ],
     "unspecified_visual_details": [
-      "The tent’s design, the exact camp layout, and the characters’ clothing are not specified."
+      "The tent’s design, the army’s appearance, and the fortifications’ construction are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they found Amalickiah was dead in his own tent",
+        "text": "they found Amalickiah was dead in his own tent; and they also saw that Teancum was ready to give them battle on that day.",
         "refs": [
           "Alma 52:1"
         ]
@@ -47,7 +47,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict how Amalickiah died; this passage does not state it."
+      "Do not state or depict who killed Amalickiah or how he died; these verses do not say."
     ],
     "importance": "normal"
   },

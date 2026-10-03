@@ -1,5 +1,5 @@
 {
-  "stamp": "fc1d365bd6b349ffa213c6ba09cc58d940d5024867741c52087ae7d8d713a88a",
+  "stamp": "36a4b99a00179ed42e1f91acb56ba7c9c28df0e4bad9c7b8f1b68f45cc91ec1e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,12 +14,18 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue-free narration is an exact contiguous excerpt from 2 Nephi 32:7. “Nephi Mourns” and the proposed mourning depiction are supported by the verse; the unspecified visual details are appropriately identified.",
+        "Chronology follows scene_003: Nephi’s utterance is stopped and he mourns, then addresses his beloved brethren in scene_005. The Spirit’s stopping of speech is reported, not depicted as a visible event."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses support Nephi addressing and teaching his beloved brethren, but do not establish whether they are physically present; the visual-inference and unspecified-details fields correctly flag this uncertainty.",
+        "The preceding scene's mourning occurs before Nephi's address in this scene; no chronology is altered. The listed dialogue consists of exact contiguous excerpts, and the scene contains no narration. Word limit is met."
+      ]
     }
   }
 }

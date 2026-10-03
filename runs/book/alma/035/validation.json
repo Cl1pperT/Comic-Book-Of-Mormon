@@ -1,5 +1,5 @@
 {
-  "stamp": "6ce1b8ef02015472c467b768d6dc888118d281cf313f79ba7ca16cfe9234a7e7",
+  "stamp": "2df06cbee5b0b259234937a6ed2a3883137e1e125607ec7b4e264a076920801b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,8 +12,12 @@
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts accurately distinguish the private inquiry from the later expulsion and arrival. The narration is an exact source quotation and within the 65-word limit.",
+        "Alma and his brethren are mentioned only as the speakers of favored words, not as present characters. The expulsion's origin is unspecified.",
+        "The inquiry and later expulsion/arrival are distinct moments; do not depict them simultaneously."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -28,13 +32,17 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reported commencement of war is correctly distinguished from a depicted battle, but its precise visual treatment is unspecified.",
+        "The narration quotes exact source excerpts; the second excerpt ends with a semicolon instead of the source comma, a minor punctuation change."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The explicit fact about the Zoramites taking up arms compresses reported context into the scene; keep it separate from the return to Zarahemla."
+        "The return is supported, but the passage does not specify an arrival moment or the group's appearance; the proposed arrival is a reasonable visual inference, not an explicit detail.",
+        "The reported Zoramite displacement and defense are correctly identified as context, not part of the return scene."
       ]
     },
     "scene_009": {
@@ -44,7 +52,7 @@
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse identifies the father only by pronoun; while the surrounding context indicates Alma, depicting him as present in the gathering is not explicit."
+        "“Unspecified location” is an explicit acknowledgment of missing information, not a source-stated location; keep the setting unspecified. The verse does not give the father’s name, the sons’ names or number, or show the separate charges being delivered. The narration is verbatim from the supplied verse, and no chronology is altered."
       ]
     }
   }

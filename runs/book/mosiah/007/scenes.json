@@ -607,72 +607,91 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "An Address to the Gathered People",
+    "title": "Limhi Addresses the Gathered People",
     "refs": [
       "Mosiah 7:18",
       "Mosiah 7:19",
       "Mosiah 7:20"
     ],
-    "summary": "After the people gather, he addresses them, urging comfort, rejoicing, and trust in God. He recalls God's past preservation of his people and attributes their bondage to their iniquities and abominations.",
+    "summary": "After the people gather, Limhi addresses them. He urges them to take comfort, rejoice, and trust in God; recalls God's past care for his people; and attributes their bondage to their iniquities and abominations.",
     "characters": [
-      "He (identity not supplied)",
+      "Limhi",
       "Gathered people"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "After the people gather, he speaks to them.",
+        "text": "The people gather, and Limhi speaks to them.",
         "refs": [
           "Mosiah 7:18"
         ]
       },
       {
-        "text": "He urges comfort and says release from subjection to their enemies is near, expressing trust that an effectual struggle remains.",
+        "text": "Limhi says the time when they will no longer be subject to their enemies is near and trusts that an effectual struggle remains.",
         "refs": [
           "Mosiah 7:18"
         ]
       },
       {
-        "text": "He urges rejoicing and trust in the God of Abraham, Isaac, and Jacob, recalling deliverance from Egypt, passage through the Red Sea on dry ground, and provision of manna.",
+        "text": "Limhi urges the people to rejoice and trust in God, recalling the deliverance of the children of Israel from Egypt and their provision in the wilderness.",
         "refs": [
           "Mosiah 7:19"
         ]
       },
       {
-        "text": "He says God brought their fathers out of Jerusalem and has preserved his people, and attributes their bondage to their iniquities and abominations.",
+        "text": "Limhi says God brought their fathers out of Jerusalem and preserved his people, and he attributes their bondage to their iniquities and abominations.",
         "refs": [
           "Mosiah 7:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "He directs his address toward the gathered people."
+      "Limhi faces or otherwise addresses the gathered people."
     ],
     "unspecified_visual_details": [
-      "The gathering's location and physical arrangement.",
-      "Clothing, ages, physical appearances, gestures, and individual reactions."
+      "The gathering's location and arrangement.",
+      "Clothing, ages, appearances, gestures, and individual reactions."
     ],
     "spoken_dialogue": [
       {
-        "text": "And again, that same God has brought our fathers out of the land of Jerusalem, and has kept and preserved his people even until now; and behold, it is because of our iniquities and abominations that he has brought us into bondage.",
+        "text": "O ye, my people, lift up your heads and be comforted;",
+        "refs": [
+          "Mosiah 7:18"
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "Therefore, lift up your heads, and rejoice,",
+        "refs": [
+          "Mosiah 7:19"
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "and behold, it is because of our iniquities and abominations that he has brought us into bondage.",
         "refs": [
           "Mosiah 7:20"
         ],
-        "speaker": "He (identity not supplied)"
+        "speaker": "Limhi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And it came to pass that when they had gathered themselves together that he spake unto them in this wise, saying:",
+        "refs": [
+          "Mosiah 7:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The supplied verses refer to the person addressing the people only as he.",
-      "The historical deliverances are recalled within the address, not occurring at the gathering.",
-      "Release from subjection is anticipated, not depicted as already accomplished."
+      "The historical events are recalled in Limhi's address, not occurring at the gathering.",
+      "Release from subjection is anticipated, not accomplished in these verses."
     ],
     "prohibited_inventions": [
-      "Do not name or assign a title to the person addressing the people.",
-      "Do not specify a temple or other unprovided location.",
+      "Do not specify an unprovided location or invent audience responses.",
       "Do not stage the recalled historical events as present action.",
-      "Do not visibly depict God or the historical figures mentioned in the address.",
-      "Do not invent audience responses or an accomplished liberation."
+      "Do not depict God or the historical figures mentioned in the address as physically present.",
+      "Do not depict an accomplished liberation."
     ],
     "importance": "normal"
   },
@@ -683,61 +702,80 @@
       "Mosiah 7:21",
       "Mosiah 7:22"
     ],
-    "summary": "The account recounts Zeniff’s deception, a treaty with king Laman, and possessions of part of the land yielded into Zeniff’s hands. It reports current tribute exacted by the king of the Lamanites: half the people’s corn, barley, grain of every kind, increase of flocks and herds, and all they have or possess—or their lives.",
-    "characters": [],
-    "locations": [],
+    "summary": "Limhi recounts how king Laman deceived Zeniff, entered into a treaty with him, and yielded possessions of part of the land to him. Limhi reports the tribute the people now pay to the king of the Lamanites.",
+    "characters": [
+      "Limhi",
+      "Zeniff (mentioned)",
+      "king Laman (mentioned)"
+    ],
+    "locations": [
+      "Lehi-Nephi (mentioned)",
+      "Shilom (mentioned)"
+    ],
     "explicit_facts": [
       {
-        "text": "The account describes Zeniff as having been made king over this people, overzealous to inherit the land of his fathers, and deceived by king Laman’s cunning and craftiness.",
+        "text": "Zeniff was made king over this people and was overzealous to inherit the land of his fathers.",
         "refs": [
           "Mosiah 7:21"
         ]
       },
       {
-        "text": "The account states that king Laman entered into a treaty with king Zeniff and yielded into his hands possessions of part of the land: the city of Lehi-Nephi, the city of Shilom, and the land round about.",
+        "text": "King Laman deceived Zeniff, entered into a treaty with him, and yielded him possessions of part of the land, including Lehi-Nephi, Shilom, and the surrounding land.",
         "refs": [
           "Mosiah 7:21"
         ]
       },
       {
-        "text": "Verse 22 attributes the sole purpose of bringing the people into subjection or bondage to “he,” without naming that referent within the verse.",
+        "text": "King Laman did this to bring the people into subjection or bondage.",
         "refs": [
+          "Mosiah 7:21",
           "Mosiah 7:22"
         ]
       },
       {
-        "text": "The account reports current tribute to the king of the Lamanites amounting to one half of the people’s corn, barley, and grain of every kind; one half of the increase of their flocks and herds; and one half of all they have or possess, exacted of them or their lives.",
+        "text": "The people pay the king of the Lamanites tribute amounting to half their corn, barley, other grain, increase of flocks and herds, and all they have or possess; he exacts it or their lives.",
         "refs": [
           "Mosiah 7:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The direct address permits a restrained depiction of an unidentified speaker addressing unspecified listeners, but does not establish their identities or physical arrangement."
+      "Limhi's direct address permits a restrained depiction of him speaking to listeners."
     ],
     "unspecified_visual_details": [
-      "Whether to depict the address visually rather than use a neutral presentation.",
-      "The speaker’s identity and appearance, listeners’ appearance, setting, clothing, and staging are unspecified."
+      "The setting, appearances, clothing, and arrangement of Limhi and his listeners are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "being deceived by the cunning and craftiness of king Laman,",
+        "refs": [
+          "Mosiah 7:21"
+        ],
+        "speaker": "Limhi"
+      },
       {
         "text": "And all this he did, for the sole purpose of bringing this people into subjection or into bondage.",
         "refs": [
           "Mosiah 7:22"
-        ]
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "we at this time do pay tribute to the king of the Lamanites,",
+        "refs": [
+          "Mosiah 7:22"
+        ],
+        "speaker": "Limhi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The treaty and yielding of possessions are recounted past events, not events staged during the address.",
-      "The tribute is reported as a current obligation; no particular collection or delivery is narrated.",
-      "The phrase addressing all as witnesses does not independently establish a distinct audience of witnesses."
+      "The treaty and transfer of possessions are past events recounted by Limhi, not actions occurring during the address.",
+      "The tribute is a reported current obligation; no collection or delivery is narrated."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker from outside these verses.",
       "Do not stage the treaty, transfer of possessions, tribute collection, or tribute delivery as a new present-tense event.",
-      "Do not depict Zeniff or king Laman as physically present during the address.",
-      "Do not invent a named referent within verse 22 for “he.”",
+      "Do not depict Zeniff or king Laman as physically present during Limhi's address.",
       "Do not depict executions or violence based on the phrase “or our lives.”"
     ],
     "importance": "normal"
@@ -750,24 +788,26 @@
       "Mosiah 7:24",
       "Mosiah 7:25"
     ],
-    "summary": "The affliction is described as grievous and a reason to mourn. Many brethren have been slain, attributed to iniquity. The people refused to hearken to the Lord's words, and contentions led to bloodshed among themselves.",
-    "characters": [],
+    "summary": "The speaker calls the affliction grievous and gives reasons to mourn: many brethren have been slain because of iniquity. He says the people would not hearken to the Lord's words, and contentions led to bloodshed among themselves.",
+    "characters": [
+      "Limhi"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The affliction is described as great and grievous, giving reason to mourn.",
+        "text": "The speaker describes the affliction as great and grievous and says there is reason to mourn.",
         "refs": [
           "Mosiah 7:23"
         ]
       },
       {
-        "text": "Many brethren have been slain, their blood described as spilt in vain because of iniquity.",
+        "text": "Many brethren have been slain; the speaker attributes their deaths to iniquity.",
         "refs": [
           "Mosiah 7:24"
         ]
       },
       {
-        "text": "The text states that without the people's transgression, the Lord would not have suffered this great evil to come upon them.",
+        "text": "The speaker says the Lord would not have suffered this evil to come upon the people if they had not fallen into transgression.",
         "refs": [
           "Mosiah 7:25"
         ]
@@ -780,32 +820,47 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A restrained, somber visual treatment is consistent with the expressed mourning."
+      "A somber treatment is consistent with the expressed mourning."
     ],
     "unspecified_visual_details": [
-      "The identity and appearance of whoever delivers the address.",
-      "The setting, time of day, and number and appearance of those addressed."
+      "The setting and time of day.",
+      "The appearance and number of those addressed."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Yea, I say unto you, great are the reasons which we have to mourn; for behold how many of our brethren have been slain, and their blood has been spilt in vain, and all because of iniquity.",
+        "text": "And now, is not this grievous to be borne? And is not this, our affliction, great? Now behold, how great reason we have to mourn.",
+        "refs": [
+          "Mosiah 7:23"
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "for behold how many of our brethren have been slain, and their blood has been spilt in vain, and all because of iniquity.",
         "refs": [
           "Mosiah 7:24"
-        ]
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "But behold, they would not hearken unto his words;",
+        "refs": [
+          "Mosiah 7:25"
+        ],
+        "speaker": "Limhi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not identify the person delivering the address.",
-      "The deaths, transgression, and contentions are reported past events, not present action.",
-      "The statement about the Lord permitting evil is part of the address, not a narrated divine appearance."
+      "The deaths and contentions are reported past events, not action occurring during the address.",
+      "The statement about the Lord permitting evil does not describe a visible divine appearance.",
+      "The supplied verses do not contain the preceding introduction to the address, so its wording is not quoted."
     ],
     "prohibited_inventions": [
-      "Do not assign an identity, name, biography, or location to the unidentified person delivering the address.",
-      "Do not stage the reported deaths or contentions as a new scene or as occurring during the address.",
+      "Do not quote or stage the unsupplied introduction to the address.",
+      "Do not stage the reported deaths or contentions as present action.",
       "Do not depict blood, wounds, or bodies to illustrate the reported bloodshed.",
       "Do not visibly depict the Lord; no appearance is described.",
-      "Do not invent dialogue or combine separate times into one event."
+      "Do not invent dialogue, a location, or details about those addressed."
     ],
     "importance": "normal"
   },

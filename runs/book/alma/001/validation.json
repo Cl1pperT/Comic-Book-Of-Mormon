@@ -1,16 +1,13 @@
 {
-  "stamp": "4b00035ff696763fc7657ff1859892f7aad73acf8fc11e334a10c2f7d89bd637",
+  "stamp": "a8bc32fb66b68d06be6651ca02048f119fbc46e4cb4fbb4eafd7a72165e629a7",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The visual interpretation of Alma and the unnamed man facing one another at the judgment-seat is plausible, but the verses do not describe their positions or the judgment-seat setting.",
-        "The summary says the man was brought before Alma, but the preceding scene only establishes background and does not depict an earlier chronology conflict."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -21,8 +18,12 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration is verbatim and within the word limit. The scene’s summary and facts accurately distinguish the encounter from Gideon’s earlier deliverance.",
+        "The visual inference of the men facing one another is reasonable, but the source does not specify their positions or depict the content of the dispute; keep the staging conservative.",
+        "The unnamed man in scene_005 is the same man introduced in scene_004, consistent with the supplied chronology. The scene does not improperly include the later violence described in Alma 1:9."
+      ]
     },
     "scene_006": {
       "status": "PASS",

@@ -1,5 +1,5 @@
 {
-  "stamp": "25c5c4ee37a578eeedac695efb39b55ddbd91212e3c20eff255890951e46bb40",
+  "stamp": "ff11b780c38d1f99dece7e3577d73195792a6d240868163b94f01ee91943c033",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,11 +18,8 @@
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The unnamed-speaker uncertainty is overstated: verse 5 explicitly identifies Gideon as the speaker introducing this speech, so labeling the dialogue speaker Gideon and listing him as a character are supported.",
-        "The proposed nighttime departure is not narrated as happening here; the scene correctly treats it as a proposal. The preceding scene's chronology is consistent. The proposed route and camp are mentioned but their visual appearance remains unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

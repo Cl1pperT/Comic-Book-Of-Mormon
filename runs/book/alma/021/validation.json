@@ -1,5 +1,5 @@
 {
-  "stamp": "4c9f5e98d2dbea9a097701ad74bee2219945338f7afce09ac27ef508de81bb72",
+  "stamp": "834fefd6b43291e89f0e0f8489459e6a3e987c2007a03713e17171abfbecb543",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -35,12 +35,8 @@
       ]
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary and narration are supported by Alma 21:11, but the narration omits the verse’s continuation about finding Muloki preaching, and Ammah and his brethren; this is an incomplete excerpt, not a contradiction.",
-        "The scene properly leaves the participants in “they contended” unspecified. Visual inference showing departure and arrival in sequence is reasonable, but avoid implying an unambiguous identity for the unnamed person or the contention participants.",
-        "The preceding scene’s sequence is compatible with the supplied verses; no chronology change is apparent."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

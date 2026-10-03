@@ -362,37 +362,40 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "The fallen morning star",
+    "title": "Poetic Address to Lucifer",
     "refs": [
       "2 Nephi 24:12",
       "2 Nephi 24:13",
       "2 Nephi 24:14"
     ],
-    "summary": "The speaker describes Lucifer’s fall and recalls his intentions to ascend, exalt his throne, and be like the Most High.",
+    "summary": "The poetic passage addresses Lucifer as fallen from heaven and cut down to the ground, and reports inward aspirations to ascend, exalt his throne, sit upon the mount of the congregation, and be like the Most High.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Lucifer, son of the morning, is described as fallen from heaven and cut down to the ground.",
+        "text": "The passage addresses Lucifer as son of the morning, fallen from heaven, cut down to the ground, and one who weakened the nations.",
         "refs": [
           "2 Nephi 24:12"
         ]
       },
       {
-        "text": "He said in his heart that he would ascend into heaven, exalt his throne above the stars, sit on the mount of the congregation, ascend above the clouds, and be like the Most High.",
+        "text": "The poetic address attributes inward words to Lucifer about ascending into heaven, exalting his throne above the stars of God, and sitting upon the mount of the congregation in the sides of the north.",
+        "refs": [
+          "2 Nephi 24:13"
+        ]
+      },
+      {
+        "text": "The reported inward words continue with aspirations to ascend above the clouds and be like the Most High.",
         "refs": [
           "2 Nephi 24:13",
           "2 Nephi 24:14"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The fall and ambitions may be shown as symbolic imagery, not as a literal narrated event."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Lucifer’s appearance, the appearance of heaven, throne, stars, clouds, or mount."
+      "No physical staging, visible appearances, or present location is supplied.",
+      "Typography and a nonrepresentational background for presenting the passage are creative design choices."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -403,18 +406,30 @@
         ]
       },
       {
-        "text": "I will be like the Most High.",
+        "text": "For thou hast said in thy heart:",
+        "refs": [
+          "2 Nephi 24:13"
+        ]
+      },
+      {
+        "text": "I will ascend above the heights of the clouds; I will be like the Most High.",
         "refs": [
           "2 Nephi 24:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage gives no visual description of Lucifer or the Most High."
+      "Nephi is the narrator under the supplied narrator identification; this does not establish his visible presence or a face-to-face encounter.",
+      "Lucifer is addressed within poetry, not established as a physically present character.",
+      "The inward words are reported through narration, not presented as audible dialogue.",
+      "Heaven, stars, the throne, the mount, and clouds belong to the poetic address and inward aspirations, not an established visible setting."
     ],
     "prohibited_inventions": [
-      "Do not portray an unstated divine or angelic appearance.",
-      "Do not stage the quoted ambitions as events that occur in the present."
+      "Do not stage an encounter between Nephi and Lucifer.",
+      "Do not depict the poetic fall or cutting down as a newly occurring visible event.",
+      "Do not depict the proposed ascent, enthronement, or likeness to the Most High as accomplished events.",
+      "Do not invent visible appearances for Lucifer, God, or the Most High.",
+      "Do not turn inward words into audible speech."
     ],
     "importance": "normal"
   },

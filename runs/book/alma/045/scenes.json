@@ -245,7 +245,7 @@
     "refs": [
       "Alma 45:9"
     ],
-    "summary": "Alma tells Helaman that he has a prophecy to share, says it must not be made known until fulfilled, and instructs him to write the words.",
+    "summary": "Alma tells Helaman he has something to prophesy, directs him not to make it known until it is fulfilled, and tells him to write the words he will say.",
     "characters": [
       "Alma the Younger (high priest)",
       "Helaman (son of Alma)"
@@ -255,102 +255,113 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma said he had a prophecy for Helaman that must not be made known until it was fulfilled, and told him to write the words.",
+        "text": "Alma says he has something to prophesy to Helaman.",
+        "refs": [
+          "Alma 45:9"
+        ]
+      },
+      {
+        "text": "Alma tells Helaman not to make the prophecy known until it is fulfilled and to write the words he will say.",
         "refs": [
           "Alma 45:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Helaman may be preparing to write as Alma speaks."
+      "Alma and Helaman may be shown together while Alma speaks."
     ],
     "unspecified_visual_details": [
-      "Whether Helaman is writing at this exact moment and the writing materials."
+      "The location, their appearances, and any writing materials are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "therefore write the words which I shall say.",
+        "text": "But behold, I have somewhat to prophesy unto thee; but what I prophesy unto thee ye shall not make known; yea, what I prophesy unto thee shall not be made known, even until the prophecy is fulfilled; therefore write the words which I shall say.",
         "refs": [
           "Alma 45:9"
         ],
         "speaker": "Alma the Younger (high priest)"
       }
     ],
-    "narration": [
-      {
-        "text": "what I prophesy unto thee shall not be made known",
-        "refs": [
-          "Alma 45:9"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Depicting future events as happening in this scene."
+      "Depicting the prophecy’s contents or future events as happening in this scene.",
+      "Showing Helaman already writing as an explicit fact."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_006",
-    "title": "Prophecy Concerning the Nephites",
+    "title": "Alma’s Prophecy Concerning the Nephites",
     "refs": [
       "Alma 45:10",
       "Alma 45:11"
     ],
-    "summary": "A prophecy foretells that the Nephites will dwindle in unbelief four hundred years after Jesus Christ manifests himself to them, followed by wars, pestilences, famines, and bloodshed until the people of Nephi become extinct.",
-    "characters": [],
+    "summary": "Alma foretells that the Nephites will dwindle in unbelief four hundred years after Jesus Christ manifests himself to them. He foretells that they will then see wars, pestilences, famines, and bloodshed until the people of Nephi become extinct.",
+    "characters": [
+      "Alma",
+      "Mormon"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The prophecy attributes its perception to the spirit of revelation.",
+        "text": "Alma says he perceives the prophecy according to the spirit of revelation in him.",
         "refs": [
           "Alma 45:10"
         ]
       },
       {
-        "text": "The Nephites are foretold to dwindle in unbelief four hundred years after Jesus Christ manifests himself to them.",
+        "text": "Alma foretells that the Nephites will dwindle in unbelief four hundred years after Jesus Christ manifests himself to them.",
         "refs": [
           "Alma 45:10"
         ]
       },
       {
-        "text": "The prophecy foretells wars, pestilences, famines, and bloodshed until the people of Nephi become extinct.",
+        "text": "Alma foretells wars, pestilences, famines, and bloodshed until the people of Nephi become extinct.",
         "refs": [
           "Alma 45:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The prophecy can be presented as text without depicting a speaker or the future events."
+      "The prophecy may be presented as spoken words or on-screen text without depicting the predicted events."
     ],
     "unspecified_visual_details": [
-      "The supplied verses do not identify the speaker, listeners, or setting.",
-      "Typography and background are unspecified presentation choices."
+      "The supplied verses do not specify the setting, listeners, or anyone’s appearance.",
+      "Typography and background are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "in four hundred years from the time that Jesus Christ shall manifest himself unto them, shall dwindle in unbelief.",
+        "text": "Behold, I perceive that this very people, the Nephites, according to the spirit of revelation which is in me, in four hundred years from the time that Jesus Christ shall manifest himself unto them, shall dwindle in unbelief.",
         "refs": [
           "Alma 45:10"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
         "text": "Yea, and then shall they see wars and pestilences, yea, famines and bloodshed, even until the people of Nephi shall become extinct—",
         "refs": [
           "Alma 45:11"
+        ],
+        "speaker": "Alma"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And these are the words:",
+        "refs": [
+          "Alma 45:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are predictions, not narrated occurrences of the predicted events.",
-      "The audit identifies Alma by citing Alma 45:9, but that verse was not supplied; no speaker identity is assigned here."
+      "Mormon introduces Alma’s words; Alma speaks the prophecy.",
+      "The foretold events are not narrated as occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Adding a named or visibly depicted speaker or listeners unsupported by the supplied verses.",
       "Showing the foretold calamities or extinction as events occurring in this scene.",
       "Depicting Jesus Christ’s manifestation or inventing his appearance.",
-      "Combining the manifestation and subsequent predicted events into one visible moment."
+      "Inventing listeners, a setting, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -361,18 +372,20 @@
       "Alma 45:12",
       "Alma 45:13"
     ],
-    "summary": "The prophecy foretells dwindling unbelief and iniquity before the fourth generation has entirely passed away. Those now numbered among the people of Nephi, or their descendants, will no longer be numbered among that people.",
-    "characters": [],
+    "summary": "Alma foretells dwindling unbelief and great iniquity before the fourth generation has entirely passed away. He foretells that those now numbered among the people of Nephi, or their descendants, will no longer be numbered among them.",
+    "characters": [
+      "Alma"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The prophecy foretells dwindling in unbelief, works of darkness, lasciviousness, and all manner of iniquities.",
+        "text": "The prophecy describes dwindling in unbelief and falling into works of darkness, lasciviousness, and all manner of iniquities.",
         "refs": [
           "Alma 45:12"
         ]
       },
       {
-        "text": "The people will sin against great light and knowledge; the fourth generation will not entirely pass away before the great iniquity comes.",
+        "text": "The people will sin against great light and knowledge; from the day referenced, the fourth generation will not all pass away before this great iniquity comes.",
         "refs": [
           "Alma 45:12"
         ]
@@ -384,41 +397,48 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
-    "unspecified_visual_details": [
-      "No visible setting, physical appearance, or staging is specified."
+    "reasonable_visual_inferences": [
+      "Alma may be shown delivering the prophecy without visualizing its future fulfillment."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "unspecified_visual_details": [
+      "The setting, clothing, physical appearance, gestures, and staging are unspecified.",
+      "These verses do not identify the addressee."
+    ],
+    "spoken_dialogue": [
       {
-        "text": "they shall dwindle in unbelief and fall into the works of darkness",
+        "text": "Yea, and this because they shall dwindle in unbelief and fall into the works of darkness, and lasciviousness, and all manner of iniquities;",
         "refs": [
           "Alma 45:12"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "even the fourth generation shall not all pass away before this great iniquity shall come.",
+        "text": "yea, I say unto you, that from that day, even the fourth generation shall not all pass away before this great iniquity shall come.",
         "refs": [
           "Alma 45:12"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
         "text": "shall no more be numbered among the people of Nephi.",
         "refs": [
           "Alma 45:13"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Present the prophecy through source narration without staging its future events.",
-      "The supplied verses do not name the speaker; the audit's attribution relies on an unsupplied verse.",
-      "No visible speaker or addressee is established for depiction."
+      "Each dialogue entry is a separate contiguous source excerpt, not a merged quotation.",
+      "The prophecy concerns future events, not events occurring during the speech.",
+      "The supplied verses do not specify the day referenced by 'from that day' or how people cease to be numbered among the people of Nephi."
     ],
     "prohibited_inventions": [
-      "Importing a speaker's identity or an addressee from unsupplied verses.",
-      "Depicting future generations or foretold iniquity as present events.",
-      "Literalizing works of darkness as a supernatural visual event.",
-      "Inventing the mechanism by which people cease to be numbered among the people of Nephi."
+      "Showing the foretold iniquity or later generations as present events.",
+      "Literalizing works of darkness or great light as visible supernatural phenomena.",
+      "Inventing how people cease to be numbered among the people of Nephi.",
+      "Inventing an addressee, additional dialogue, or a specific historical setting.",
+      "Depicting Mormon or the future descendants as physically present."
     ],
     "importance": "normal"
   },
@@ -428,8 +448,9 @@
     "refs": [
       "Alma 45:14"
     ],
-    "summary": "The verse foretells that those who remain after a great and dreadful day will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord. The Lamanites will pursue those disciples until they become extinct. The prophecy will be fulfilled because of iniquity.",
+    "summary": "Alma foretells that those who remain after a great and dreadful day will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord. He foretells that the Lamanites will pursue those disciples until they become extinct and says the prophecy will be fulfilled because of iniquity.",
     "characters": [
+      "Alma",
       "Lamanites",
       "disciples of the Lord",
       "those who remain"
@@ -437,7 +458,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Those who remain and are not destroyed will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord.",
+        "text": "Those who remain and are not destroyed in the great and dreadful day will be numbered among the Lamanites and become like them, except for a few called disciples of the Lord.",
         "refs": [
           "Alma 45:14"
         ]
@@ -455,32 +476,42 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
-    "unspecified_visual_details": [
-      "The identity of the speaker and any listener.",
-      "The location and appearance of those mentioned."
+    "reasonable_visual_inferences": [
+      "Alma may be shown speaking the prophecy."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "unspecified_visual_details": [
+      "The location, audience, and appearances are not specified in the supplied verse."
+    ],
+    "spoken_dialogue": [
       {
-        "text": "shall be numbered among the Lamanites, and shall become like unto them",
+        "text": "shall be numbered among the Lamanites, and shall become like unto them, all, save it be a few who shall be called the disciples of the Lord;",
         "refs": [
           "Alma 45:14"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "because of iniquity, this prophecy shall be fulfilled.",
+        "text": "and them shall the Lamanites pursue even until they shall become extinct.",
         "refs": [
           "Alma 45:14"
-        ]
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "And now, because of iniquity, this prophecy shall be fulfilled.",
+        "refs": [
+          "Alma 45:14"
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
       "The pursuit and extinction are foretold, not narrated as present events."
     ],
     "prohibited_inventions": [
-      "Identifying the speaker or a listener.",
-      "Depicting the foretold pursuit or extinction as happening now."
+      "Depicting the foretold pursuit or extinction as happening now.",
+      "Inventing a listener, location, or appearance."
     ],
     "importance": "normal"
   },
@@ -695,49 +726,62 @@
     "refs": [
       "Alma 45:19"
     ],
-    "summary": "The account says Alma was righteous and that a saying spread in the church that he was taken up by the Spirit or buried by the hand of the Lord, even as Moses. The account says they suppose the Lord received Alma in the spirit and know nothing of his death and burial.",
+    "summary": "Mormon calls Alma righteous and reports that a saying spread in the church about what happened to him. He cites scripture concerning Moses, supposes the Lord received Alma in the spirit, and says Alma’s death and burial are unknown.",
     "characters": [
-      "Church members"
+      "Mormon (narrator)",
+      "Alma (mentioned)",
+      "Moses (mentioned)",
+      "Church members (mentioned)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The account calls Alma righteous and says a saying went abroad in the church that he was taken up by the Spirit or buried by the hand of the Lord, even as Moses.",
+        "text": "Mormon calls Alma a righteous man.",
         "refs": [
           "Alma 45:19"
         ]
       },
       {
-        "text": "The account says they suppose Alma was received by the Lord in the spirit and know nothing of his death or burial.",
+        "text": "A saying went abroad in the church that Alma was taken up by the Spirit or buried by the hand of the Lord, even as Moses; these are reported possibilities, not witnessed events.",
+        "refs": [
+          "Alma 45:19"
+        ]
+      },
+      {
+        "text": "Mormon says the scriptures state that the Lord took Moses unto himself.",
+        "refs": [
+          "Alma 45:19"
+        ]
+      },
+      {
+        "text": "Mormon supposes the Lord received Alma in the spirit and says they know nothing concerning Alma’s death and burial.",
         "refs": [
           "Alma 45:19"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The saying is reported as circulating among church members; the reported possibilities need not be shown."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Who first spread the saying, and when or where it was discussed."
+      "Where and when the saying circulated.",
+      "The appearances of Alma, Moses, Mormon, and the church members."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "we know nothing concerning his death and burial.",
+        "text": "therefore, for this cause we know nothing concerning his death and burial.",
         "refs": [
           "Alma 45:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports a saying and a supposition, not a witnessed account of Alma’s fate.",
-      "Moses is mentioned in comparison and need not be physically present."
+      "The narration is Mormon’s, not Alma’s.",
+      "The saying and supposition do not establish what happened to Alma. Moses is mentioned in comparison, not placed in the scene."
     ],
     "prohibited_inventions": [
       "Depicting Alma being taken up, buried, or received by the Lord as an observed event.",
-      "Depicting Moses as present."
+      "Depicting Moses, the Spirit, or the Lord as visibly present.",
+      "Inventing a speaker or dialogue for the saying."
     ],
     "importance": "normal"
   },
@@ -844,53 +888,70 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "The People Turn Proud",
+    "title": "Dissension After the Appointments",
     "refs": [
       "Alma 45:23",
       "Alma 45:24"
     ],
-    "summary": "After priests and teachers are appointed, dissension arises among the people. They refuse to heed Helaman and his brethren, grow proud because of their great riches, and will not walk uprightly before God.",
+    "summary": "After Helaman and his brethren appoint priests and teachers over the churches, dissension arises among the people. Those in the dissension refuse to heed Helaman and his brethren, grow proud because of their great riches, and will not walk uprightly before God.",
     "characters": [
-      "Helaman (son of Alma)",
+      "Helaman",
       "Helaman’s brethren",
-      "Nephite people"
+      "priests and teachers",
+      "people among whom dissension arose"
     ],
     "locations": [
-      "Nephite land"
+      "the churches"
     ],
     "explicit_facts": [
       {
-        "text": "After priests and teachers were appointed, dissension arose and the people would not heed Helaman and his brethren.",
+        "text": "Helaman and his brethren appointed priests and teachers over the churches.",
         "refs": [
           "Alma 45:23"
         ]
       },
       {
-        "text": "The people grew proud because of their great riches and would not heed the words or walk uprightly before God.",
+        "text": "After the appointments, dissension arose among the people, who would not heed Helaman and his brethren.",
+        "refs": [
+          "Alma 45:23"
+        ]
+      },
+      {
+        "text": "Those who would not heed them grew proud because of their great riches and would not walk uprightly before God.",
         "refs": [
           "Alma 45:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Helaman and his brethren may be shown addressing people who are unreceptive."
+      "The people involved in the dissension may be shown apart from Helaman and his brethren, without depicting a specific confrontation."
     ],
     "unspecified_visual_details": [
-      "How dissension appeared, which individuals opposed the teaching, and what forms their riches took."
+      "The appearance of the people and their surroundings.",
+      "The visible form of the dissension and the riches."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they grew proud, being lifted up in their hearts",
+        "text": "And now it came to pass that after Helaman and his brethren had appointed priests and teachers over the churches that there arose a dissension among them, and they would not give heed to the words of Helaman and his brethren;",
+        "refs": [
+          "Alma 45:23"
+        ]
+      },
+      {
+        "text": "But they grew proud, being lifted up in their hearts, because of their exceedingly great riches;",
         "refs": [
           "Alma 45:24"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The people who grew proud are those described as refusing to heed Helaman and his brethren; the passage does not say Helaman and his brethren grew proud."
+    ],
     "prohibited_inventions": [
-      "Inventing a specific dispute, speech, or act of defiance.",
-      "Treating pride as a literal visible elevation."
+      "Inventing a specific dispute, spoken words, or act of defiance.",
+      "Depicting pride as literal physical elevation.",
+      "Showing the appointments and the later dissension as simultaneous events."
     ],
     "importance": "normal"
   }

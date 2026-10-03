@@ -960,69 +960,87 @@
   },
   {
     "scene_id": "scene_018",
-    "title": "Jacob’s children",
+    "title": "Concerning the house of Jacob",
     "refs": [
       "2 Nephi 27:33",
       "2 Nephi 27:34",
       "2 Nephi 27:35"
     ],
-    "summary": "The Lord says Jacob will no longer be ashamed or pale. When Jacob sees his children among him, they will sanctify the Lord’s name and fear the God of Israel. Those who erred in spirit will understand, and those who murmured will learn doctrine.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi attributes to the Lord a prophecy concerning the house of Jacob: Jacob will not be ashamed or pale; his children will sanctify the Lord’s name and the Holy One of Jacob and fear the God of Israel; those who erred or murmured will gain understanding and learn doctrine.",
+    "characters": [
+      "Nephi",
+      "The Lord",
+      "Jacob",
+      "Jacob’s children"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says Jacob will no longer be ashamed or pale.",
+        "text": "Nephi attributes the words concerning the house of Jacob to the Lord, who redeemed Abraham.",
         "refs": [
           "2 Nephi 27:33"
         ]
       },
       {
-        "text": "When Jacob sees his children among him, they will sanctify the Lord’s name and the Holy One of Jacob, and fear the God of Israel.",
+        "text": "Jacob shall not be ashamed, nor shall his face grow pale.",
+        "refs": [
+          "2 Nephi 27:33"
+        ]
+      },
+      {
+        "text": "When Jacob sees his children in his midst, they shall sanctify the Lord’s name and the Holy One of Jacob and fear the God of Israel.",
         "refs": [
           "2 Nephi 27:34"
         ]
       },
       {
-        "text": "Those who erred in spirit will come to understanding, and those who murmured will learn doctrine.",
+        "text": "Those who erred in spirit shall come to understanding, and those who murmured shall learn doctrine.",
         "refs": [
           "2 Nephi 27:35"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Jacob and his children may be represented symbolically as a family group, without assigning individual identities."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Jacob’s identity, the children’s identities, their appearance, and the setting are not specified."
+      "No location, physical appearances, or visible occasion for this prophecy is specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Jacob shall not now be ashamed",
         "refs": [
           "2 Nephi 27:33"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
-        "text": "they shall sanctify my name",
+        "text": "they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel.",
         "refs": [
           "2 Nephi 27:34"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
-        "text": "they that murmured shall learn doctrine",
+        "text": "They also that erred in spirit shall come to understanding, and they that murmured shall learn doctrine.",
         "refs": [
           "2 Nephi 27:35"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [
+      {
+        "text": "Therefore, thus saith the Lord, who redeemed Abraham, concerning the house of Jacob:",
+        "refs": [
+          "2 Nephi 27:33"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a prophecy concerning the house of Jacob; no specific historical figures are necessarily shown."
+      "These are prophetic statements, not a narrated present-time gathering. The narration identifies the Lord as the speaker of the quoted prophecy."
     ],
     "prohibited_inventions": [
-      "Do not identify Jacob’s children as named individuals or depict a particular historical gathering."
+      "Do not depict the prophecy as a present-time event or invent an appearance for the Lord.",
+      "Do not assign names or biographies to Jacob’s children or invent a setting."
     ],
     "importance": "normal"
   }

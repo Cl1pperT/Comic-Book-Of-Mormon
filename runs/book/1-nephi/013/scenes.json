@@ -265,7 +265,7 @@
     "refs": [
       "1 Nephi 13:12"
     ],
-    "summary": "Nephi beholds a man among the Gentiles, separated by many waters from the seed of his brethren. The Spirit of God comes down and works upon the man. The man goes across the waters to the seed of Nephi's brethren in the promised land.",
+    "summary": "Nephi beholds a man among the Gentiles, separated by many waters from the seed of Nephi's brethren. The Spirit of God comes down and works upon the man. The man goes across the waters to the seed of Nephi's brethren in the promised land.",
     "characters": [
       "Nephi",
       "an unnamed man among the Gentiles",
@@ -298,7 +298,7 @@
     ],
     "reasonable_visual_inferences": [
       "Water separates the man from the seed of Nephi's brethren.",
-      "The man's journey can be shown as a sequence rather than a single moment."
+      "The man's departure and arrival can be shown in sequence, rather than as one moment."
     ],
     "unspecified_visual_details": [
       "The man's identity and appearance.",
@@ -308,19 +308,31 @@
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "And I looked and beheld a man among the Gentiles,",
+        "refs": [
+          "1 Nephi 13:12"
+        ]
+      },
+      {
         "text": "and I beheld the Spirit of God, that it came down and wrought upon the man;",
+        "refs": [
+          "1 Nephi 13:12"
+        ]
+      },
+      {
+        "text": "and he went forth upon the many waters, even unto the seed of my brethren, who were in the promised land.",
         "refs": [
           "1 Nephi 13:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse recounts what Nephi beheld; it does not specify the Spirit's visual form."
+      "The first-person narrator is Nephi. The source does not say what the Spirit of God looked like; the narration must not add “Nephi” inside a verse quotation."
     ],
     "prohibited_inventions": [
       "Do not name the man or specify a vessel or route.",
-      "Do not depict a particular visible form for the Spirit of God.",
-      "Do not add an angel to this scene."
+      "Do not invent a visible form for the Spirit of God.",
+      "Do not add an angel or dialogue."
     ],
     "importance": "normal"
   },

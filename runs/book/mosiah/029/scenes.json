@@ -113,38 +113,44 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Mosiah's written address begins",
+    "title": "Mosiah's words about the kingdom",
     "refs": [
       "Mosiah 29:5",
       "Mosiah 29:6"
     ],
-    "summary": "In his written message, Mosiah asks the people to consider their desire for a king and explains that the person to whom the kingdom rightly belongs has declined it.",
+    "summary": "Mosiah asks the people to consider their desire for a king and declares that the person to whom the kingdom rightly belongs has declined it.",
     "characters": [
-      "the people"
+      "Mosiah",
+      "the people",
+      "the unnamed person to whom the kingdom rightly belongs"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah's written message addresses the people and asks them to consider their desire for a king.",
+        "text": "The speaker addresses the people as brethren and asks them to consider the cause before them.",
         "refs": [
           "Mosiah 29:5"
         ]
       },
       {
-        "text": "Mosiah says the rightful heir has declined and will not take the kingdom.",
+        "text": "The people desire a king.",
+        "refs": [
+          "Mosiah 29:5"
+        ]
+      },
+      {
+        "text": "The person to whom the kingdom rightly belongs has declined and will not take the kingdom.",
         "refs": [
           "Mosiah 29:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The written address may be presented as off-screen speech over a setting supported by the message's distribution among the people."
+      "The quoted words can be presented as attributed text without depicting a live address."
     ],
     "unspecified_visual_details": [
-      "The place where recipients read or hear the message.",
-      "The appearance of the written message."
+      "Where or how the people receive these words.",
+      "The appearance of Mosiah, the people, and the unnamed person."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -155,17 +161,25 @@
         ]
       },
       {
-        "text": "he to whom the kingdom doth rightly belong has declined,",
+        "text": "for ye are desirous to have a king.",
+        "refs": [
+          "Mosiah 29:5"
+        ]
+      },
+      {
+        "text": "Now I declare unto you that he to whom the kingdom doth rightly belong has declined, and will not take upon him the kingdom.",
         "refs": [
           "Mosiah 29:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mosiah is the authorial speaker of the written address; the verses do not describe a live speech event."
+      "Attribute the quoted first-person words to Mosiah, not to Mormon.",
+      "These verses do not describe how the words were delivered."
     ],
     "prohibited_inventions": [
-      "Do not stage this written address as a face-to-face gathering or depict Mosiah speaking to a crowd."
+      "Do not add the framing words from another verse.",
+      "Do not depict a live speech, a recipient reading, or the unnamed person's refusal as an event shown here."
     ],
     "importance": "normal"
   },
@@ -1017,7 +1031,7 @@
       "Mosiah 29:43",
       "Mosiah 29:44"
     ],
-    "summary": "Judges are appointed throughout the land, and Alma is appointed the first chief judge. He judges righteously, there is continual peace through the land, and the reign of the judges begins.",
+    "summary": "Judges are appointed throughout the land, and Alma is appointed the first chief judge. Alma judges righteous judgments, there is continual peace through the land, and the reign of the judges begins.",
     "characters": [
       "Alma",
       "the people called the Nephites"
@@ -1052,13 +1066,19 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and other judges may be shown as distinct figures during the transition to the reign of judges."
+      "Alma may be shown among the people during his appointment."
     ],
     "unspecified_visual_details": [
       "The appointment process, the identity of the other judges, and how appointments are formalized."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Alma was appointed to be the first chief judge, he being also the high priest",
+        "refs": [
+          "Mosiah 29:42"
+        ]
+      },
       {
         "text": "And thus commenced the reign of the judges throughout all the land of Zarahemla",
         "refs": [
@@ -1067,10 +1087,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The conferral by Alma's father is described as having already occurred; it is not part of the present appointment."
+      "The conferral by Alma's father had already occurred; it is not part of the present appointment.",
+      "Alma's later judgments and the continual peace are not simultaneous actions to stage within the appointment."
     ],
     "prohibited_inventions": [
-      "Do not name Alma's father from outside these verses or depict the earlier conferral as occurring during the judges' appointment.",
+      "Do not depict the earlier conferral as occurring during the judges' appointment.",
       "Do not invent appointment dialogue or ceremonies."
     ],
     "importance": "major"
@@ -1083,7 +1104,7 @@
       "Mosiah 29:46",
       "Mosiah 29:47"
     ],
-    "summary": "His father dies at eighty-two. Mosiah also dies at sixty-three, in the thirty-third year of his reign. The reign of kings over the people of Nephi and the days of Alma end.",
+    "summary": "His father died at eighty-two. Mosiah died also at sixty-three, in the thirty-third year of his reign. The reign of kings over the people of Nephi and the days of Alma ended.",
     "characters": [
       "The father mentioned in verse 45",
       "Mosiah"
@@ -1091,7 +1112,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "His father died at eighty-two, having lived to fulfill the commandments of God.",
+        "text": "His father died at eighty-two, having lived to fulfil the commandments of God.",
         "refs": [
           "Mosiah 29:45"
         ]
@@ -1103,7 +1124,7 @@
         ]
       },
       {
-        "text": "The reign of kings over the people of Nephi ended.",
+        "text": "The reign of the kings over the people of Nephi ended.",
         "refs": [
           "Mosiah 29:47"
         ]
@@ -1115,25 +1136,46 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The two deaths can be shown as separate moments."
+    ],
     "unspecified_visual_details": [
       "The location and circumstances of either death.",
-      "The appearance of the people mentioned.",
-      "The referent of “his” in verse 45 is not identified within these verses."
+      "The appearance of those mentioned.",
+      "The identity of “his father” is not established within these verses."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "And now it came to pass that his father died,",
+        "refs": [
+          "Mosiah 29:45"
+        ]
+      },
+      {
+        "text": "And it came to pass that Mosiah died also,",
+        "refs": [
+          "Mosiah 29:46"
+        ]
+      },
+      {
         "text": "And thus ended the reign of the kings over the people of Nephi;",
+        "refs": [
+          "Mosiah 29:47"
+        ]
+      },
+      {
+        "text": "and thus ended the days of Alma, who was the founder of their church.",
         "refs": [
           "Mosiah 29:47"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report deaths and an ending, but do not establish Alma’s physical presence at either death."
+      "The verses do not place Alma at either death."
     ],
     "prohibited_inventions": [
+      "Do not identify the father beyond the supplied wording.",
       "Do not depict Alma as present at either death.",
       "Do not invent a deathbed, cause of death, ceremony, burial, or dialogue."
     ],

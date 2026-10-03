@@ -1,5 +1,5 @@
 {
-  "stamp": "416c3beeff7f8399a39997fd8fe74ab1932b493d8b2e83613b97d590da57c880",
+  "stamp": "12e9544f7879e15a856dc33fa31009053128ea12cd94a6af09e34796614323fa",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses identify the returnees as Limhi and his people, not specifically Nephites; the inference of showing them entering together is reasonable but not explicit."
+        "Scene 002 follows the preceding return to Nephi with the source's explicit passage of “many days”; the chronology is consistent. The stated visual inference of people carrying burdens while being driven follows the text, but the text does not specify how the Lamanites enter the borders, what the burdens contain, or the setting’s appearance. The narration uses exact, contiguous source excerpts. The king’s oath is reported, not depicted. No unsupported events or characters identified."
       ]
     },
     "scene_003": {
@@ -60,14 +60,14 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The identity of the man referred to as “he” is not stated in verse 24; the scene appropriately leaves him unnamed."
+        "Summary and visual inference present the watching/lying in wait as a depictable current scene, while the text only reports that the people watched and laid wait; the specific moment and staging are not stated."
       ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",
@@ -82,8 +82,10 @@
       "issues": []
     },
     "scene_020": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration uses only exact source excerpts, and recalled events are correctly treated as past. The supplied verses identify the group as Ammon and his brethren but do not explicitly state that all the mourners were physically together; depicting them grieving together is a visual inference, not an explicit fact."
+      ]
     },
     "scene_021": {
       "status": "PASS",

@@ -5,7 +5,7 @@
     "refs": [
       "2 Nephi 17:1"
     ],
-    "summary": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail.",
+    "summary": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail against it.",
     "characters": [
       "Rezin",
       "Pekah son of Remaliah"
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "text": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail.",
+        "text": "Rezin and Pekah went up toward Jerusalem to war against it, but could not prevail against it.",
         "refs": [
           "2 Nephi 17:1"
         ]
@@ -42,7 +42,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "but could not prevail against it.",
+        "text": "Rezin, king of Syria, and Pekah the son of Remaliah, king of Israel, went up toward Jerusalem to war against it, but could not prevail against it.",
         "refs": [
           "2 Nephi 17:1"
         ]
@@ -63,7 +63,8 @@
     "summary": "The house of David is told that Syria is confederate with Ephraim. His heart and the heart of his people are moved.",
     "characters": [
       "The house of David",
-      "His people"
+      "His people",
+      "Unspecified speaker"
     ],
     "locations": [],
     "explicit_facts": [
@@ -81,12 +82,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The hearers may appear shaken by the report."
+      "Those receiving the report may appear shaken."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
-      "The precise location and appearance of the hearers.",
-      "The identity of the person referred to as “his.”"
+      "The identity and appearance of the person who gives the report.",
+      "The precise location and appearance of those who receive it.",
+      "The precise referent of “his.”"
     ],
     "spoken_dialogue": [
       {
@@ -99,6 +100,12 @@
     ],
     "narration": [
       {
+        "text": "And it was told the house of David, saying:",
+        "refs": [
+          "2 Nephi 17:2"
+        ]
+      },
+      {
         "text": "And his heart was moved, and the heart of his people, as the trees of the wood are moved with the wind.",
         "refs": [
           "2 Nephi 17:2"
@@ -109,40 +116,47 @@
       "The trees moved by wind are a comparison, not a separate narrated event."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or the person referred to as “his.”",
-      "Do not specify Jerusalem as the location or rename “his people” as the people of Judah.",
+      "Do not identify the report's speaker or replace “his” with an unsupported name.",
+      "Do not assign a precise location or a more specific identity to his people.",
       "Do not depict literal trees or wind as the cause of the reaction."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "Isaiah is sent to meet Ahaz",
+    "title": "The Lord directs Isaiah to meet Ahaz",
     "refs": [
       "2 Nephi 17:3"
     ],
-    "summary": "The Lord tells Isaiah to go with his son Shearjashub to meet Ahaz at the end of the conduit of the upper pool.",
+    "summary": "The Lord tells Isaiah to go with his son Shearjashub to meet Ahaz at the end of the conduit of the upper pool in the highway of the fuller’s field.",
     "characters": [
+      "The Lord",
       "Isaiah",
       "Shearjashub",
       "Ahaz"
     ],
     "locations": [
-      "Unspecified location"
+      "End of the conduit of the upper pool in the highway of the fuller’s field (named destination)"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord tells Isaiah to go with Shearjashub to meet Ahaz at the end of the conduit of the upper pool in the highway of the fuller's field.",
+        "text": "The Lord speaks to Isaiah.",
+        "refs": [
+          "2 Nephi 17:3"
+        ]
+      },
+      {
+        "text": "The Lord directs Isaiah and his son Shearjashub to go meet Ahaz at the specified location.",
         "refs": [
           "2 Nephi 17:3"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah and Shearjashub meet Ahaz at the specified water conduit."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Whether Ahaz is already there when Isaiah and his son arrive; the appearance of the conduit and surrounding area."
+      "The location where Isaiah receives the command.",
+      "Whether Shearjashub or Ahaz is present when the command is given.",
+      "The appearance of the named people and destination."
     ],
     "spoken_dialogue": [
       {
@@ -154,62 +168,66 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Ahaz is the person Isaiah is told to meet, not a stated recipient of a message in this verse."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described."
+      "Do not depict the meeting as having happened.",
+      "Do not add words from the next verse.",
+      "Do not give the Lord a visible appearance; none is described."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "Isaiah reassures Ahaz",
+    "title": "A Warning Not to Fear",
     "refs": [
       "2 Nephi 17:4"
     ],
-    "summary": "Isaiah delivers the Lord's warning to Ahaz not to fear Rezin and the son of Remaliah.",
+    "summary": "An unidentified speaker directs someone to tell another person not to fear the fierce anger of Rezin with Syria and the son of Remaliah.",
     "characters": [
-      "Isaiah",
-      "Ahaz"
+      "Rezin",
+      "son of Remaliah",
+      "Unidentified speaker",
+      "Unidentified addressee"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Isaiah is instructed to tell Ahaz to take heed, be quiet, and not fear or be faint-hearted over Rezin and the son of Remaliah.",
+        "text": "The speaker directs someone to tell another person to take heed, be quiet, and not fear or be faint-hearted.",
+        "refs": [
+          "2 Nephi 17:4"
+        ]
+      },
+      {
+        "text": "The warning refers to the fierce anger of Rezin with Syria and of the son of Remaliah.",
         "refs": [
           "2 Nephi 17:4"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah speaks to Ahaz at their meeting place."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Ahaz's response and the visible appearance of the two kings."
+      "The identities and appearances of the speaker and addressee are not supplied.",
+      "The location is not supplied."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "Take heed, and be quiet; fear not, neither be faint-hearted",
+        "text": "And say unto him: Take heed, and be quiet; fear not, neither be faint-hearted for the two tails of these smoking firebrands, for the fierce anger of Rezin with Syria, and of the son of Remaliah.",
         "refs": [
           "2 Nephi 17:4"
-        ],
-        "speaker": "Isaiah"
-      },
-      {
-        "text": "for the two tails of these smoking firebrands",
-        "refs": [
-          "2 Nephi 17:4"
-        ],
-        "speaker": "Isaiah"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The smoking firebrands are a figure of speech, not literal objects."
+      "The smoking firebrands are figurative language, not literal objects.",
+      "The verse gives an instruction to speak; it does not narrate the instruction being delivered to its intended recipient."
     ],
     "prohibited_inventions": [
-      "Do not depict Rezin or Pekah as present."
+      "Do not identify the speaker or addressee as Isaiah or Ahaz from this verse alone.",
+      "Do not depict Rezin or the son of Remaliah as present.",
+      "Do not depict literal smoking firebrands."
     ],
     "importance": "normal"
   },
@@ -268,68 +286,85 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "The plot will fail",
+    "title": "The Lord God’s declaration and warning",
     "refs": [
       "2 Nephi 17:7",
       "2 Nephi 17:8",
       "2 Nephi 17:9"
     ],
-    "summary": "The Lord declares the plan will not stand and warns that Ephraim will cease to be a people; Ahaz must believe to be established.",
+    "summary": "The Lord God says it will not stand or come to pass, identifies the heads of Syria, Damascus, Ephraim, and Samaria, foretells Ephraim’s breaking within three score and five years, and warns that those who will not believe will not be established.",
     "characters": [
-      "Isaiah",
-      "Ahaz"
+      "Lord God"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord declares that the plot will not stand or come to pass.",
+        "text": "The Lord God says it will not stand or come to pass.",
         "refs": [
           "2 Nephi 17:7"
         ]
       },
       {
-        "text": "The Lord says Ephraim will be broken within sixty-five years so that it will not be a people.",
+        "text": "Damascus is the head of Syria, and Rezin is the head of Damascus.",
         "refs": [
           "2 Nephi 17:8"
         ]
       },
       {
-        "text": "Ahaz is warned that unless he believes, he will not be established.",
+        "text": "Ephraim is foretold to be broken within three score and five years so that it will not be a people.",
+        "refs": [
+          "2 Nephi 17:8"
+        ]
+      },
+      {
+        "text": "Samaria is the head of Ephraim, and Remaliah’s son is the head of Samaria.",
+        "refs": [
+          "2 Nephi 17:9"
+        ]
+      },
+      {
+        "text": "The warning says that those who will not believe will not be established.",
         "refs": [
           "2 Nephi 17:9"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah speaks the Lord's message to Ahaz."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any visual representation of the future breaking of Ephraim."
+      "The setting, audience, and appearance of any messenger are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "It shall not stand, neither shall it come to pass.",
+        "text": "It shall not stand",
         "refs": [
           "2 Nephi 17:7"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Lord God"
       },
       {
-        "text": "If ye will not believe surely ye shall not be established.",
+        "text": "For the head of Syria is Damascus, and the head of Damascus, Rezin; and within three score and five years shall Ephraim be broken that it be not a people.",
+        "refs": [
+          "2 Nephi 17:8"
+        ],
+        "speaker": "Lord God"
+      },
+      {
+        "text": "And the head of Ephraim is Samaria, and the head of Samaria is Remaliah’s son. If ye will not believe surely ye shall not be established.",
         "refs": [
           "2 Nephi 17:9"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Lord God"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophecy is spoken, not depicted as a separate future event."
+      "Ephraim’s breaking is foretold, not narrated as an event occurring in this scene.",
+      "The Lord God is identified as the source of the words; these verses do not describe a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not create a visual scene of Ephraim's future destruction."
+      "Do not depict Ephraim’s foretold breaking as a present event.",
+      "Do not identify an addressee or a human messenger from these verses.",
+      "Do not invent a visible appearance for the Lord God."
     ],
     "importance": "normal"
   },
@@ -400,63 +435,74 @@
       "2 Nephi 17:14",
       "2 Nephi 17:15"
     ],
-    "summary": "The Lord declares a sign: a virgin will conceive and bear a son named Immanuel, who will eat butter and honey.",
+    "summary": "An unidentified speaker addresses the house of David and asks whether it is a small thing to weary men and whether they will weary his God also. He says the Lord will give a sign: a virgin shall conceive and bear a son named Immanuel, who shall eat butter and honey to know to refuse evil and choose good.",
     "characters": [
-      "Ahaz"
+      "Unidentified speaker",
+      "House of David"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord addresses the house of David and says a virgin shall conceive and bear a son named Immanuel.",
+        "text": "A speaker addresses the house of David and asks whether they will weary his God as well as men.",
         "refs": [
-          "2 Nephi 17:13",
+          "2 Nephi 17:13"
+        ]
+      },
+      {
+        "text": "The speaker says the Lord himself shall give a sign: a virgin shall conceive, bear a son, and call his name Immanuel.",
+        "refs": [
           "2 Nephi 17:14"
         ]
       },
       {
-        "text": "The child shall eat butter and honey.",
+        "text": "The son shall eat butter and honey so that he may know to refuse evil and choose good.",
         "refs": [
           "2 Nephi 17:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The message is delivered to Ahaz."
+      "The speaker may be depicted addressing listeners, without identifying any individual listener."
     ],
     "unspecified_visual_details": [
-      "The identity and appearance of the virgin and child, and when or where the prophesied birth takes place."
+      "The speaker's identity and appearance.",
+      "The listeners' appearances and number.",
+      "The virgin's and son's appearances, and the time and place of the foretold events."
     ],
     "spoken_dialogue": [
       {
-        "text": "Hear ye now, O house of David; is it a small thing for you to weary men, but will ye weary my God also?",
+        "text": "O house of David; is it a small thing for you to weary men, but will ye weary my God also?",
         "refs": [
           "2 Nephi 17:13"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "Behold, a virgin shall conceive, and shall bear a son, and shall call his name Immanuel.",
+        "text": "Therefore, the Lord himself shall give you a sign—Behold, a virgin shall conceive, and shall bear a son, and shall call his name Immanuel.",
         "refs": [
           "2 Nephi 17:14"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "Butter and honey shall he eat,",
+        "text": "Butter and honey shall he eat, that he may know to refuse the evil and to choose the good.",
         "refs": [
           "2 Nephi 17:15"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The future birth is spoken as prophecy; do not stage it as a present event."
+      "The speaker says the Lord will give the sign; the verse does not depict the Lord speaking.",
+      "The conception, birth, and eating are foretold, not narrated as present events."
     ],
     "prohibited_inventions": [
-      "Do not invent the virgin's or child's identity, appearance, or birthplace."
+      "Do not identify the speaker or any listener as Ahaz or Isaiah from these verses alone.",
+      "Do not stage the foretold events as occurring during this address.",
+      "Do not invent appearances, a birthplace, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -467,32 +513,34 @@
       "2 Nephi 17:16",
       "2 Nephi 17:17"
     ],
-    "summary": "Before the child can choose good and refuse evil, the land Ahaz abhors will be forsaken by both its kings; the Lord will bring days of affliction through the king of Assyria.",
+    "summary": "The speaker foretells that the land will be forsaken by both its kings before the child knows to refuse evil and choose good. The Lord will bring days unlike those since Ephraim departed from Judah upon the person addressed, that person's people, and that person's father's house. The king of Assyria is mentioned.",
     "characters": [
-      "Ahaz"
+      "Unknown speaker"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Before the child knows to refuse evil and choose good, the land Ahaz abhors will be forsaken by both its kings.",
+        "text": "Before the child knows to refuse evil and choose good, the land the addressee abhors will be forsaken by both its kings.",
         "refs": [
           "2 Nephi 17:16"
         ]
       },
       {
-        "text": "The Lord shall bring upon Ahaz, his people, and his father's house days unlike those since Ephraim departed from Judah, through the king of Assyria.",
+        "text": "The Lord will bring upon the addressee, the addressee's people, and the addressee's father's house days not seen since Ephraim departed from Judah.",
+        "refs": [
+          "2 Nephi 17:17"
+        ]
+      },
+      {
+        "text": "The king of Assyria is mentioned, but the verse does not make his role in the foretold days clear.",
         "refs": [
           "2 Nephi 17:17"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah's message continues to Ahaz."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The future events involving the kings and Assyria."
+      "The speaker's identity, appearance, and surroundings are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -500,15 +548,24 @@
         "refs": [
           "2 Nephi 17:16"
         ],
-        "speaker": "Isaiah"
+        "speaker": "Unknown speaker"
+      },
+      {
+        "text": "The Lord shall bring upon thee, and upon thy people, and upon thy father’s house, days that have not come from the day that Ephraim departed from Judah, the king of Assyria.",
+        "refs": [
+          "2 Nephi 17:17"
+        ],
+        "speaker": "Unknown speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These are future events reported in prophecy, not a present visual scene."
+      "Both verses foretell future events rather than narrate those events taking place."
     ],
     "prohibited_inventions": [
-      "Do not stage an Assyrian invasion or kings abandoning the land."
+      "Do not depict the kings leaving the land or the foretold days as present events.",
+      "Do not assign the king of Assyria a role beyond what the wording establishes.",
+      "Do not invent an appearance for the Lord or the child."
     ],
     "importance": "normal"
   },
@@ -519,45 +576,56 @@
       "2 Nephi 17:18",
       "2 Nephi 17:19"
     ],
-    "summary": "The Lord will summon the fly from Egypt and the bee from Assyria; they will settle in desolate valleys, rock holes, thorns, and bushes.",
+    "summary": "In that day, the Lord shall hiss for the fly in Egypt and the bee in Assyria. They shall come and rest in desolate valleys, holes of rocks, thorns, and bushes.",
     "characters": [],
     "locations": [
+      "Egypt",
+      "Assyria",
       "Desolate valleys"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord shall hiss for the fly in Egypt and the bee in Assyria.",
+        "text": "The Lord shall hiss for the fly in the uttermost part of Egypt and the bee in Assyria.",
         "refs": [
           "2 Nephi 17:18"
         ]
       },
       {
-        "text": "They shall come and rest in desolate valleys, holes of rocks, thorns, and bushes.",
+        "text": "They shall come and rest in desolate valleys, holes of rocks, on thorns, and on bushes.",
         "refs": [
           "2 Nephi 17:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The fly and bee may be shown among the listed desolate terrain."
+      "A text-led depiction may show the named terrain without staging the prophecy as an event happening now."
     ],
     "unspecified_visual_details": [
-      "Whether the fly and bee are literal insects or figures of speech; their number and appearance."
+      "The terrain's precise appearance and lighting.",
+      "Whether the fly and bee are literal insects or figures of speech."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it shall come to pass in that day",
+        "text": "And it shall come to pass in that day that the Lord shall hiss for the fly that is in the uttermost part of Egypt, and for the bee that is in the land of Assyria.",
         "refs": [
           "2 Nephi 17:18"
+        ]
+      },
+      {
+        "text": "And they shall come, and shall rest all of them in the desolate valleys, and in the holes of the rocks, and upon all thorns, and upon all bushes.",
+        "refs": [
+          "2 Nephi 17:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fly and bee may signify forces from Egypt and Assyria; do not portray them as armies without explicit support."
+      "Present this as a future prophecy, not a present-tense event.",
+      "Do not make a literal supernatural spectacle from potentially figurative language."
     ],
     "prohibited_inventions": [
-      "Do not depict human armies or a divine figure."
+      "Do not depict human armies or give the Lord an invented visible appearance.",
+      "Do not assign the fly or bee an identity beyond the supplied wording."
     ],
     "importance": "normal"
   },
@@ -567,55 +635,60 @@
     "refs": [
       "2 Nephi 17:20"
     ],
-    "summary": "The Lord's message compares Assyria's action to a hired razor shaving the head, hair of the feet, and beard.",
-    "characters": [],
+    "summary": "A prophecy says that in the same day the Lord shall shave the head and hair of the feet with a hired razor, and it shall consume the beard; the verse connects the razor with those beyond the river and the king of Assyria.",
+    "characters": [
+      "The Lord",
+      "King of Assyria"
+    ],
     "locations": [
-      "Unspecified location"
+      "Beyond the river (mentioned, not established as the scene's setting)"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord shall shave with a hired razor by the king of Assyria the head and hair of the feet, and it shall consume the beard.",
+        "text": "The verse says the Lord shall shave with a hired razor, mentions those beyond the river and the king of Assyria, and says the razor shall consume the beard.",
         "refs": [
           "2 Nephi 17:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The razor is a metaphor for the king of Assyria's action."
+      "The shaving imagery may be treated as figurative rather than depicted as a literal event."
     ],
     "unspecified_visual_details": [
-      "The identity of the person being shaved and the historical event represented."
+      "Who, if anyone, is represented by the head, hair of the feet, and beard.",
+      "The appearance of the Lord, the king of Assyria, and the place beyond the river."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord shave with a razor that is hired",
+        "text": "In the same day shall the Lord shave with a razor that is hired, by them beyond the river, by the king of Assyria, the head, and the hair of the feet; and it shall also consume the beard.",
         "refs": [
           "2 Nephi 17:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The shaving imagery is figurative; the source does not narrate a literal shaving."
+      "This is prophetic shaving imagery, not a narrated literal shaving scene."
     ],
     "prohibited_inventions": [
-      "Do not show a person being shaved or identify a specific victim."
+      "Do not show a literal shaving, identify a person being shaved, or invent an appearance for the Lord or the king of Assyria."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "A man with livestock",
+    "title": "A future condition in the land",
     "refs": [
       "2 Nephi 17:21",
       "2 Nephi 17:22"
     ],
-    "summary": "In that day a man will tend a young cow and two sheep; those left in the land will eat butter and honey.",
+    "summary": "In that day, a man shall nourish a young cow and two sheep. They shall give abundant milk; he shall eat butter, and everyone left in the land shall eat butter and honey.",
     "characters": [
-      "A man"
+      "A man",
+      "Everyone left in the land"
     ],
     "locations": [
-      "Unspecified location"
+      "The land"
     ],
     "explicit_facts": [
       {
@@ -625,32 +698,47 @@
         ]
       },
       {
-        "text": "Those left in the land shall eat butter and honey.",
+        "text": "The animals shall give an abundance of milk, and the man shall eat butter.",
+        "refs": [
+          "2 Nephi 17:22"
+        ]
+      },
+      {
+        "text": "Everyone left in the land shall eat butter and honey.",
         "refs": [
           "2 Nephi 17:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The man tends the young cow and two sheep."
+      "A future-condition illustration may place the man with the young cow and two sheep."
     ],
     "unspecified_visual_details": [
-      "The man's identity, appearance, and exact location; the number and identities of those left in the land."
+      "The man's identity and appearance.",
+      "The land's exact location and appearance.",
+      "The number and identities of those left in the land."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "for the abundance of milk they shall give he shall eat butter",
+        "text": "And it shall come to pass in that day, a man shall nourish a young cow and two sheep;",
+        "refs": [
+          "2 Nephi 17:21"
+        ]
+      },
+      {
+        "text": "And it shall come to pass, for the abundance of milk they shall give he shall eat butter; for butter and honey shall every one eat that is left in the land.",
         "refs": [
           "2 Nephi 17:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a future prophetic condition."
+      "The verses describe a future condition, not a narrated present-tense event."
     ],
     "prohibited_inventions": [
-      "Do not identify the man or invent a household or community."
+      "Do not identify the man or invent a household or community.",
+      "Do not depict Nephi or another speaker as physically present."
     ],
     "importance": "normal"
   },
@@ -661,7 +749,7 @@
       "2 Nephi 17:23",
       "2 Nephi 17:24"
     ],
-    "summary": "Places once containing a thousand vines at a thousand silverlings will become briers and thorns. Men will come there with bows and arrows because the land will become briers and thorns.",
+    "summary": "Places that once had a thousand vines at a thousand silverlings will become briers and thorns. Men will come there with arrows and bows because the land will become briers and thorns.",
     "characters": [
       "Men"
     ],
@@ -691,7 +779,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "all the land shall become briers and thorns.",
+        "text": "With arrows and with bows shall men come thither, because all the land shall become briers and thorns.",
         "refs": [
           "2 Nephi 17:24"
         ]
@@ -711,7 +799,7 @@
     "refs": [
       "2 Nephi 17:25"
     ],
-    "summary": "Hills dug with a mattock shall be free from fear of briers and thorns and used by oxen and lesser cattle.",
+    "summary": "Hills dug with a mattock shall have no fear of briers and thorns and shall be used by oxen and lesser cattle.",
     "characters": [
       "Oxen",
       "Lesser cattle"
@@ -727,7 +815,13 @@
         ]
       },
       {
-        "text": "There shall be no fear of briers and thorns there; the hills shall be for oxen and lesser cattle.",
+        "text": "Fear of briers and thorns shall not come there.",
+        "refs": [
+          "2 Nephi 17:25"
+        ]
+      },
+      {
+        "text": "The hills shall be for the sending forth of oxen and the treading of lesser cattle.",
         "refs": [
           "2 Nephi 17:25"
         ]
@@ -742,7 +836,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "but it shall be for the sending forth of oxen, and the treading of lesser cattle.",
+        "text": "And all hills that shall be digged with the mattock, there shall not come thither the fear of briers and thorns; but it shall be for the sending forth of oxen, and the treading of lesser cattle.",
         "refs": [
           "2 Nephi 17:25"
         ]

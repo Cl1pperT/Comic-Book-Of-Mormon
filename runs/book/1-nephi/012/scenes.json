@@ -878,56 +878,51 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "Dwindling in unbelief",
+    "title": "Nephi beholds the people",
     "refs": [
       "1 Nephi 12:23"
     ],
-    "summary": "Nephi beheld that after they dwindled in unbelief, they became a dark, loathsome, and filthy people, full of idleness and all manner of abominations.",
+    "summary": "Nephi beheld that, after they had dwindled in unbelief, they became a dark, loathsome, and filthy people, full of idleness and all manner of abominations.",
     "characters": [
+      "Nephi",
       "the people Nephi beheld"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi beheld that after they had dwindled in unbelief, they became a dark, loathsome, and filthy people, full of idleness and all manner of abominations.",
+        "text": "Nephi beheld the people after they had dwindled in unbelief.",
+        "refs": [
+          "1 Nephi 12:23"
+        ]
+      },
+      {
+        "text": "They became a dark, loathsome, and filthy people, full of idleness and all manner of abominations.",
         "refs": [
           "1 Nephi 12:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group depiction can convey the collective description without assigning unsupported traits to individuals."
+      "Nephi may be shown observing the group, without specifying how he beheld them."
     ],
     "unspecified_visual_details": [
-      "The group's identity, setting, appearance, and the visual meaning of the description are unspecified.",
-      "Specific abominations are not described."
+      "The group's identity, setting, physical appearance, and specific abominations are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "after they had dwindled in unbelief",
-        "refs": [
-          "1 Nephi 12:23"
-        ]
-      },
-      {
-        "text": "they became a dark, and loathsome, and a filthy people,",
-        "refs": [
-          "1 Nephi 12:23"
-        ]
-      },
-      {
-        "text": "full of idleness and all manner of abominations.",
+        "text": "And it came to pass that I beheld, after they had dwindled in unbelief they became a dark, and loathsome, and a filthy people, full of idleness and all manner of abominations.",
         "refs": [
           "1 Nephi 12:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse gives a collective description; it does not specify lineage or authorize racialized physical traits."
+      "The description is collective; the verse does not specify lineage or racialized physical traits."
     ],
     "prohibited_inventions": [
-      "Do not assert the group’s lineage, invent specific abominations, or assign unsupported identities, biographies, or physical characteristics."
+      "Do not invent a setting, lineage, specific abominations, or physical traits for the people.",
+      "Do not depict their earlier dwindling in unbelief as a simultaneous event."
     ],
     "importance": "normal"
   }

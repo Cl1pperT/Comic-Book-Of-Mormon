@@ -1,15 +1,17 @@
 {
-  "stamp": "b102dd74143e99b6abd9a841f1edffb55468bdfa30cfd50b827e364271114feb",
+  "stamp": "35787fbf99499655aaea3fa352aa20c563d6ddfa4c1644fd1779d1e1f75e4c10",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The inference that people are gathered to hear Sherem is not explicit; the source only says he preached among the people."
-      ]
-    },
-    "scene_002": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The man is identified as Sherem in the immediately preceding scene (Jacob 7:1), but the current scene avoids naming him; this is consistent with the supplied verses.",
+        "The visual inference that he is shown among people is plausible from Jacob 7:3, but no specific setting or encounter is described here.",
+        "Narration excerpts are exact source quotations and remain under the 65-word limit; the fact that he could use flattery and power of speech is supported by Jacob 7:4 but is not included in the narration."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -52,7 +54,8 @@
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse does not name the speaker; while Sherem is clear from preceding context, labeling him only as “the speaker” is conservative and consistent with the scene’s notes."
+        "The explicit facts and quoted narration are supported by Jacob 7:17–18, and the preceding scene preserves the chronology. The speaker is unnamed in these verses; the label “unnamed speaker” is appropriate, but depicting the address is a reasonable visual inference, not an explicit description of staging.",
+        "Unspecified visual details correctly identify the location and appearances as unstated."
       ]
     },
     "scene_013": {
@@ -72,15 +75,14 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The explicit outcome that the people became conquerors is summarized, but no victory is depicted; keep it as reported summary rather than a present-tense battle or victory scene.",
-        "The group labels “Lamanites” and “People of Nephi” are supported by the verses, though their visual appearance and the means of fortification are unspecified."
-      ]
-    },
-    "scene_018": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_018": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Jacob 7:27 reports telling Enos to take the plates and Enos's promise, but the summary's wording could be read as staging those events; the notes correctly say they are reported, not present-tense. Narration quotes only the stated conclusion, so keep the reported exchange unstaged."
+      ]
     }
   }
 }

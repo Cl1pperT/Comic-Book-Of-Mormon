@@ -1,5 +1,5 @@
 {
-  "stamp": "b2ade56924c54bc7925c3f8b8d530d6eab77b621c9be022062239c8b5e380570",
+  "stamp": "e699c1e3bce5604384548f070594fd4304666f0879e553b8c2f4c3ef03265917",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,14 +30,15 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Narration omits the start of the source clause, so the excerpt reads as a fragment; otherwise it is exact and within the word limit."
-      ]
-    },
-    "scene_009": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary describes the aftermath in one-day terms without naming its timing relative to the prior recovery scene; retain Alma 16:9–10 chronology and do not imply the events occur simultaneously.",
+        "The explicit fact that the slain were of the profession of Nehor is supported, but no identity or affiliation beyond that should be visually assigned to individual bodies."
+      ]
     },
     "scene_010": {
       "status": "PASS",

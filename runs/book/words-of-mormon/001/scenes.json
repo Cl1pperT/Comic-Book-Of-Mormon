@@ -431,18 +431,21 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Contention Among Benjamin's People",
+    "title": "Contentions Among King Benjamin's People",
     "refs": [
       "Words of Mormon 1:12"
     ],
-    "summary": "Mormon notes that King Benjamin had some contention among his own people.",
-    "characters": [],
+    "summary": "Mormon reports that King Benjamin had some contentions among his own people.",
+    "characters": [
+      "Mormon",
+      "King Benjamin"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "King Benjamin had some contention among his own people.",
+        "text": "King Benjamin had somewhat of contentions among his own people.",
         "refs": [
           "Words of Mormon 1:12"
         ]
@@ -450,22 +453,22 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The people involved, location, and form of the contention are not specified."
+      "The people involved, location, and form of the contentions are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he had somewhat of contentions among his own people.",
+        "text": "And now, concerning this king Benjamin—he had somewhat of contentions among his own people.",
         "refs": [
           "Words of Mormon 1:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse summarizes contention without identifying participants or describing an incident."
+      "Mormon reports the contentions; the verse does not depict a specific incident or place Mormon or King Benjamin visibly at one."
     ],
     "prohibited_inventions": [
-      "Do not invent a specific argument, participants, or confrontation."
+      "Do not invent a specific argument, participants, confrontation, or visible appearance for Mormon or King Benjamin."
     ],
     "importance": "normal"
   },

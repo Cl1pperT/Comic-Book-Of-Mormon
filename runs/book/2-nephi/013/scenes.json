@@ -1,55 +1,73 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Resources and leaders removed",
+    "title": "Supports and leaders taken away",
     "refs": [
       "2 Nephi 13:1",
       "2 Nephi 13:2",
       "2 Nephi 13:3"
     ],
-    "summary": "The Lord takes away Jerusalem and Judah’s supplies and an array of leaders and skilled people.",
+    "summary": "The Lord of Hosts is declared to take away Jerusalem and Judah’s supports and the listed people.",
     "characters": [],
     "locations": [
-      "Jerusalem"
+      "Jerusalem",
+      "Judah"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord takes away the stay and staff, bread, and water from Jerusalem and Judah.",
+        "text": "The Lord of Hosts takes away the stay and the staff, the whole staff of bread, and the whole stay of water from Jerusalem and Judah.",
         "refs": [
           "2 Nephi 13:1"
         ]
       },
       {
-        "text": "The listed people taken away include mighty men, warriors, judges, prophets, prudent and ancient people, captains, counselors, artisans, and orators.",
+        "text": "The people listed include the mighty man, the man of war, the judge, the prophet, the prudent, and the ancient.",
         "refs": [
-          "2 Nephi 13:2",
+          "2 Nephi 13:2"
+        ]
+      },
+      {
+        "text": "The list continues with the captain of fifty, the honorable man, the counselor, the cunning artificer, and the eloquent orator.",
+        "refs": [
           "2 Nephi 13:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Symbolic depiction of provisions and civic or military leaders departing Jerusalem."
+      "The supports and listed roles could be represented symbolically alongside the declaration, without depicting a removal event."
     ],
     "unspecified_visual_details": [
-      "Whether the Lord is visibly depicted.",
-      "The identities, appearance, and number of the listed people.",
-      "How the loss of provisions and leaders is shown."
+      "The identities and appearances of the listed people.",
+      "How the supports and roles are represented visually."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "For behold, the Lord, the Lord of Hosts, doth take away from Jerusalem",
+        "text": "the Lord, the Lord of Hosts, doth take away from Jerusalem, and from Judah, the stay and the staff, the whole staff of bread, and the whole stay of water—",
         "refs": [
           "2 Nephi 13:1"
+        ]
+      },
+      {
+        "text": "The mighty man, and the man of war, the judge, and the prophet",
+        "refs": [
+          "2 Nephi 13:2"
+        ]
+      },
+      {
+        "text": "The captain of fifty, and the honorable man, and the counselor, and the cunning artificer, and the eloquent orator.",
+        "refs": [
+          "2 Nephi 13:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The taking away is stated as prophetic declaration; do not invent a narrated removal event."
+      "This is a prophetic declaration, not a narrated visible removal event."
     ],
     "prohibited_inventions": [
-      "A visible appearance of the Lord not described in the verses.",
-      "Specific identities or biographies for the unnamed people."
+      "A visible appearance of the Lord.",
+      "A newly staged removal event.",
+      "Names or biographies for the listed people."
     ],
     "importance": "normal"
   },

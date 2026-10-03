@@ -114,29 +114,35 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Nephihah is attacked",
+    "title": "The people of Nephihah are attacked",
     "refs": [
       "Alma 59:5",
       "Alma 59:6",
       "Alma 59:7"
     ],
-    "summary": "While Moroni prepares to battle the Lamanites, the Lamanites attack the gathered people of Nephihah and begin to slay them. People who had fled Manti and the surrounding land had joined the Lamanites.",
+    "summary": "While Moroni prepares to battle the Lamanites, the Lamanites attack the gathered people of Nephihah and begin to slay them. People who had fled Manti and the surrounding land had previously joined the Lamanites.",
     "characters": [
       "People of Nephihah",
       "Lamanites"
     ],
     "locations": [
-      "Nephihah"
+      "This part of the land"
     ],
     "explicit_facts": [
       {
-        "text": "While Moroni was preparing to battle the Lamanites, the Lamanites attacked the people of Nephihah, who had gathered from the cities of Moroni, Lehi, and Morianton.",
+        "text": "Moroni was preparing to battle the Lamanites while the attack occurred.",
         "refs": [
           "Alma 59:5"
         ]
       },
       {
-        "text": "People compelled to flee Manti and the surrounding land had joined the Lamanites in this part of the land.",
+        "text": "The people of Nephihah had gathered from the cities of Moroni, Lehi, and Morianton and were attacked by the Lamanites.",
+        "refs": [
+          "Alma 59:5"
+        ]
+      },
+      {
+        "text": "People compelled to flee Manti and the surrounding land had joined the Lamanites.",
         "refs": [
           "Alma 59:6"
         ]
@@ -149,29 +155,29 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The attack may be shown as physical action without gore."
+      "The Lamanites' attack and the beginning of the slaughter may be depicted as physical action without gore."
     ],
     "unspecified_visual_details": [
       "The participants' exact appearances and numbers.",
-      "The layout of Nephihah."
+      "The precise location and terrain of the attack."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "were attacked by the Lamanites.",
+        "text": "the people of Nephihah, who were gathered together from the city of Moroni and the city of Lehi and the city of Morianton, were attacked by the Lamanites.",
         "refs": [
           "Alma 59:5"
         ]
       },
       {
-        "text": "they did begin to slay them with an exceedingly great slaughter.",
+        "text": "by the command of Ammoron they came forth against the people of Nephihah, and they did begin to slay them with an exceedingly great slaughter.",
         "refs": [
           "Alma 59:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moroni's preparations occur while the attack takes place; the verses do not place him at Nephihah.",
+      "Moroni's preparations occur while the attack takes place; the verses do not place him at the attack.",
       "The flight from Manti and the joining of the Lamanites are prior events, not actions occurring during this attack."
     ],
     "prohibited_inventions": [

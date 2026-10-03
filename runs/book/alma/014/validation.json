@@ -1,5 +1,5 @@
 {
-  "stamp": "931e1fbe3f3af088b305615213d7e375280e77c5e319c3282f678f1a22076359",
+  "stamp": "d58317dc7d6ac5121d2e1932cf128b6636468b05e40caddfa099160345855dc5",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -18,8 +18,11 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied source explicitly says Alma and Amulek were carried to the place so they could witness the destruction, but does not say who carried them; the scene's attribution to the same unnamed actors is plausible from context, not explicit in the cited verses.",
+        "The stated visuals must preserve chronology: first the wives and children are brought together and believers and records are cast into the fire (Alma 14:8), then Alma and Amulek are carried to the place (Alma 14:9)."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -34,8 +37,11 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's chronology follows the preceding scene: Alma and Amulek are delivered to prison before the three-day interval and visitors' arrival. The preceding scene's “place of martyrdom” location for the chief judge's confrontation is not stated in the supplied verses; this uncertainty does not alter the current scene.",
+        "The visual inference of visitors questioning Alma and Amulek is supported, but the visitors' specific questions and individual appearances are unspecified. The narration is an exact excerpt from Alma 14:18. No dialogue is added."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -60,7 +66,8 @@
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scenes depict the shaking and collapse as they happen, while the text narrates these events without specifying their precise visual timing; keep the depiction limited to the stated physical action."
+        "Scene omits the explicitly supplied aftermath in Alma 14:29: multitudes run together after hearing the noise, see Alma and Amulek emerge, then flee in fear. This is a scene-boundary choice, but the source sequence continues immediately.",
+        "The note attributing Alma and Amulek’s power to the Lord is supported by Alma 14:28; keep it as a story note, not a visible appearance."
       ]
     },
     "scene_015": {

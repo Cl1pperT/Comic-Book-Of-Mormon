@@ -28,7 +28,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses people gathered within speaking distance."
+      "Alma addresses people within speaking distance."
     ],
     "unspecified_visual_details": [
       "The precise setting, clothing, and number of people are not specified.",
@@ -37,15 +37,15 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they began to contend with me, saying:",
+        "text": "And again, I, Alma, having been commanded of God that I should take Amulek and go forth and preach again unto this people, or the people who were in the city of Ammonihah, it came to pass as I began to preach unto them, they began to contend with me, saying:",
         "refs": [
           "Alma 9:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse introduces what the people say but does not supply their words.",
-      "Amulek is mentioned in the reported command, not established as physically present during the preaching."
+      "The verse introduces the people's response but does not supply their words.",
+      "The command is reported as having already been given, not shown as a present event."
     ],
     "prohibited_inventions": [
       "Do not depict God visibly; no appearance is described.",
@@ -281,70 +281,84 @@
       "Alma 9:12",
       "Alma 9:13"
     ],
-    "summary": "A speaker calls those addressed to repent, warns of the consequences of not repenting, and recalls a saying spoken to Lehi about keeping the commandments. The speaker then cites a saying about not keeping the commandments.",
+    "summary": "Alma calls those addressed to repent, warns of the consequences if they do not, and recalls words spoken to Lehi about keeping the commandments. He also cites a saying about not keeping them.",
     "characters": [
-      "Unidentified speaker",
+      "Alma",
       "Those addressed"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says those addressed are commanded to repent and cannot inherit the kingdom of God unless they repent.",
+        "text": "Alma says that an unidentified “he” commands those addressed to repent and that they cannot inherit the kingdom of God unless they repent.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker warns that if they do not repent, they will be destroyed and visited in anger.",
+        "text": "Alma warns that failure to repent will bring destruction and a visit in anger.",
         "refs": [
           "Alma 9:12"
         ]
       },
       {
-        "text": "The speaker recalls words spoken to Lehi saying that those who keep the commandments shall prosper in the land.",
+        "text": "Alma recalls words spoken to Lehi saying that those who keep the commandments shall prosper in the land.",
         "refs": [
           "Alma 9:13"
         ]
       },
       {
-        "text": "The speaker separately cites a saying that those who do not keep the commandments shall be cut off from the presence of the Lord.",
+        "text": "Alma cites a saying that those who do not keep the commandments shall be cut off from the presence of the Lord.",
         "refs": [
           "Alma 9:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker may be shown addressing listeners."
+      "Alma may be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker's and listeners' identities and appearances are unspecified.",
-      "The location, clothing, gestures, audience size, and time of day are unspecified."
+      "The appearance and number of the listeners are unspecified.",
+      "The location, clothing, gestures, and time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, now I say unto you that he commandeth you to repent; and except ye repent, ye can in nowise inherit the kingdom of God.",
+        "text": "he commandeth you to repent; and except ye repent, ye can in nowise inherit the kingdom of God.",
         "refs": [
           "Alma 9:12"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       },
       {
-        "text": "Behold, do ye not remember the words which he spake unto Lehi, saying that: Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
+        "text": "or he will utterly destroy you from off the face of the earth;",
+        "refs": [
+          "Alma 9:12"
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "he will visit you in his anger",
+        "refs": [
+          "Alma 9:12"
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "Inasmuch as ye shall keep my commandments, ye shall prosper in the land?",
         "refs": [
           "Alma 9:13"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not name the current speaker.",
+      "The identity of “he” is not specified in the supplied verses.",
       "Lehi is mentioned in recalled words; his presence is not established.",
       "The warned consequences are not narrated as occurring.",
       "No divine appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or listeners from material outside the supplied verses.",
+      "Do not identify the unnamed “he” from these verses alone.",
       "Do not depict Lehi as present or stage the recalled words as a flashback.",
       "Do not depict the warned consequences as occurring.",
       "Do not invent a divine appearance, listener reactions, or additional dialogue."

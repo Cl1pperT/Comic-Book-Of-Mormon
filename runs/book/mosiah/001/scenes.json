@@ -372,17 +372,17 @@
     "refs": [
       "Mosiah 1:10"
     ],
-    "summary": "Mosiah is brought before an unnamed speaker, who asks him to proclaim a gathering and says he will proclaim Mosiah king and ruler on the morrow.",
+    "summary": "Mosiah is brought before King Benjamin, who asks him to proclaim a gathering of the people of Zarahemla and the people of Mosiah. Benjamin says he will proclaim Mosiah king and ruler on the morrow.",
     "characters": [
-      "Mosiah",
-      "Unnamed speaker"
+      "King Benjamin",
+      "Mosiah"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker had Mosiah brought before him.",
+        "text": "Mosiah was brought before the speaker.",
         "refs": [
           "Mosiah 1:10"
         ]
@@ -394,7 +394,7 @@
         ]
       },
       {
-        "text": "The speaker asked Mosiah to make a proclamation among the people of Zarahemla and the people of Mosiah so they could gather together.",
+        "text": "The speaker asked Mosiah to make a proclamation so the people of Zarahemla and the people of Mosiah could gather together.",
         "refs": [
           "Mosiah 1:10"
         ]
@@ -407,58 +407,49 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah and the speaker may be shown together as the speaker addresses him."
+      "Mosiah and the speaker may be shown together while the speaker addresses him."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, physical appearances, and manner of Mosiah's arrival are unspecified."
+      "Their appearances, clothing, surroundings, and the manner of Mosiah's arrival are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "My son,",
+        "text": "My son, I would that ye should make a proclamation",
         "refs": [
           "Mosiah 1:10"
         ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "I would that ye should make a proclamation throughout all this land",
-        "refs": [
-          "Mosiah 1:10"
-        ],
-        "speaker": "Unnamed speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "that thereby they may be gathered together;",
         "refs": [
           "Mosiah 1:10"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "on the morrow I shall proclaim unto this my people out of mine own mouth that thou art a king and a ruler over this people",
         "refs": [
           "Mosiah 1:10"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [
       {
-        "text": "Therefore, he had Mosiah brought before him;",
+        "text": "Therefore, he had Mosiah brought before him; and these are the words which he spake unto him, saying:",
         "refs": [
           "Mosiah 1:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The gathering and the proclamation of Mosiah as king are proposed future events, not events narrated as occurring here.",
-      "The supplied verse does not name the speaker."
+      "The gathering and proclamation of Mosiah as king are future events in this verse, not events occurring in the scene."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker by a name absent from the supplied verse.",
       "Do not depict the gathering, public proclamation, or coronation as occurring here.",
       "Do not invent attendants, additional dialogue, or ceremonial objects.",
-      "Do not depict the Lord as appearing; the verse only mentions him."
+      "Do not depict the Lord as appearing; he is only mentioned."
     ],
     "importance": "normal"
   },
@@ -469,18 +460,20 @@
       "Mosiah 1:11",
       "Mosiah 1:12"
     ],
-    "summary": "An unidentified speaker says he will give the people a name to distinguish them, because they have diligently kept the Lord's commandments. He says the name will not be blotted out except through transgression.",
-    "characters": [],
+    "summary": "King Benjamin says he will give the people a name to distinguish them because they have diligently kept the Lord’s commandments. He says the name will not be blotted out except through transgression.",
+    "characters": [
+      "King Benjamin"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says he will give the people a name to distinguish them above the people the Lord God brought out of Jerusalem.",
+        "text": "King Benjamin says he will give the people a name to distinguish them above the people the Lord God brought out of Jerusalem.",
         "refs": [
           "Mosiah 1:11"
         ]
       },
       {
-        "text": "He gives their diligence in keeping the Lord's commandments as his reason.",
+        "text": "He gives their diligence in keeping the Lord’s commandments as his reason.",
         "refs": [
           "Mosiah 1:11"
         ]
@@ -492,33 +485,35 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "King Benjamin may be shown speaking."
+    ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance are not specified.",
-      "No setting or audience is established.",
-      "The name itself is not given."
+      "King Benjamin’s appearance and the setting are not specified.",
+      "The name itself is not given.",
+      "The people referred to need not be shown as a gathered audience."
     ],
     "spoken_dialogue": [
       {
-        "text": "I shall give this people a name,",
+        "text": "And moreover, I shall give this people a name",
         "refs": [
           "Mosiah 1:11"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "and this I do because they have been a diligent people in keeping the commandments of the Lord.",
         "refs": [
           "Mosiah 1:11"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "And I give unto them a name that never shall be blotted out, except it be through transgression.",
         "refs": [
           "Mosiah 1:12"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
@@ -526,9 +521,9 @@
       "Blotting out the name is a stated condition, not an event narrated here."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as King Benjamin or Mormon from these verses alone.",
-      "Do not invent the name, a setting, an audience, or a naming ceremony.",
-      "Do not depict the conditional blotting out as occurring."
+      "Do not invent the name, a setting, or a naming ceremony.",
+      "Do not depict the conditional blotting out as occurring.",
+      "Do not depict the Lord God or people brought out of Jerusalem as physically present."
     ],
     "importance": "normal"
   },
@@ -539,9 +534,9 @@
       "Mosiah 1:13",
       "Mosiah 1:14"
     ],
-    "summary": "An unidentified speaker warns of what would happen if the favored people fell into transgression. The speaker says their fathers would have fallen into the hands of the Lamanites without the Lord's preservation.",
+    "summary": "The speaker warns that transgression would lead to the people's loss of divine preservation. He says their fathers would have fallen into the hands of the Lamanites without that preservation.",
     "characters": [
-      "Unidentified speaker"
+      "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
@@ -559,54 +554,39 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker is addressing others, but the verses do not identify them."
+      "The speaker is addressing others."
     ],
     "unspecified_visual_details": [
       "The speaker's appearance, clothing, posture, and gestures are unspecified.",
-      "The audience's identity and number, the location, and the time of day are unspecified."
+      "The addressees' identities and number, the location, and the time of day are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "if this highly favored people of the Lord should fall into transgression,",
+        "text": "if this highly favored people of the Lord should fall into transgression, and become a wicked and an adulterous people, that the Lord will deliver them up,",
         "refs": [
           "Mosiah 1:13"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
-        "text": "that thereby they become weak like unto their brethren;",
-        "refs": [
-          "Mosiah 1:13"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "and he will no more preserve them",
-        "refs": [
-          "Mosiah 1:13"
-        ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "if he had not extended his arm in the preservation of our fathers they must have fallen into the hands of the Lamanites, and become victims to their hatred.",
+        "text": "For I say unto you, that if he had not extended his arm in the preservation of our fathers they must have fallen into the hands of the Lamanites, and become victims to their hatred.",
         "refs": [
           "Mosiah 1:14"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "The warning is conditional, not a report that the people have transgressed.",
-      "The fathers' fate without divine preservation is counterfactual, not an event occurring in this scene.",
-      "These verses do not identify the speaker or addressees.",
+      "The fathers' fate without divine preservation is counterfactual.",
       "The reference to the Lord extending his arm does not describe a visible appearance."
     ],
     "prohibited_inventions": [
       "Do not depict the warned-of transgression or its consequences as occurring.",
-      "Do not stage the fathers' hypothetical capture or a Lamanite attack as a present event.",
+      "Do not stage the fathers' hypothetical capture or a Lamanite attack.",
       "Do not depict a visible divine figure or literal divine arm.",
-      "Do not identify the speaker as King Benjamin or invent identities or dialogue for the addressees.",
+      "Do not invent identities or dialogue for the addressees.",
       "Do not treat the fathers, brethren, or Lamanites as physically present."
     ],
     "importance": "normal"
@@ -680,14 +660,20 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "A Retrospective Account of the Journey",
+    "title": "A Retrospective Account",
     "refs": [
       "Mosiah 1:17"
     ],
-    "summary": "The verse recounts that an unnamed group was unfaithful, failed to prosper or progress in its journey, was driven back, incurred God's displeasure, and suffered famine and sore afflictions to remind them of their duty.",
+    "summary": "Those referred to as “they” were unfaithful, did not prosper or progress in their journey, and were driven back. They incurred the displeasure of God and were smitten with famine and sore afflictions to stir them to remember their duty.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
+      {
+        "text": "The verse does not identify those referred to as “they.”",
+        "refs": [
+          "Mosiah 1:17"
+        ]
+      },
       {
         "text": "They were unfaithful, did not prosper or progress in their journey, and were driven back.",
         "refs": [
@@ -695,7 +681,7 @@
         ]
       },
       {
-        "text": "They incurred God's displeasure and were smitten with famine and sore afflictions to stir them to remember their duty.",
+        "text": "They incurred the displeasure of God and were smitten with famine and sore afflictions to stir them to remember their duty.",
         "refs": [
           "Mosiah 1:17"
         ]
@@ -703,24 +689,25 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The group's identity, appearance, and journey route are unspecified.",
-      "No present setting or visible speaker is specified."
+      "The identity and appearance of those referred to as “they” are unspecified.",
+      "The route and setting of the journey are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty.",
+        "text": "Therefore, as they were unfaithful they did not prosper nor progress in their journey, but were driven back, and incurred the displeasure of God upon them; and therefore they were smitten with famine and sore afflictions, to stir them up in remembrance of their duty.",
         "refs": [
           "Mosiah 1:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse recounts past events rather than establishing an event unfolding in the present scene."
+      "The verse recounts events rather than establishing a present-tense scene."
     ],
     "prohibited_inventions": [
-      "Do not enact the journey, famine, or afflictions as present-tense events.",
-      "Do not invent a visible narrator, identify the group, or depict God visibly."
+      "Do not identify those referred to as “they” or invent their appearance or route.",
+      "Do not depict God visibly or invent a visible narrator.",
+      "Do not present the recounted events as happening now."
     ],
     "importance": "normal"
   },

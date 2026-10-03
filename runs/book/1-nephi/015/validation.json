@@ -1,15 +1,15 @@
 {
-  "stamp": "60b1864fa41760ffd906222cc7ec6f7f215e54fe0c09fbefa41ad04839b4d7f2",
+  "stamp": "6fe2e56f0ee8a0d630abc9681f07d4d6488a124222a5bb69e98f1c03dfe60553",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary calls the returning speaker Nephi; the source identifies him in narration, but the scene's character list also uses the non-established label “Nephi's brethren” instead of the established group label “Nephi”'s brethren.”"
+        "scene_001: Nephi’s return and the brethren’s dispute are supported. Their exact number and appearance are unspecified; the visual inference that they are close enough to be seen is reasonable, not explicitly stated."
       ]
+    },
+    "scene_002": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -18,7 +18,7 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The prior scene establishes that Nephi spoke to his brothers, and the group’s reply here is consistent with that context; however, these verses do not identify every person in the group or which one speaks. The scene appropriately leaves those details unspecified."
+        "The verses do not identify those addressed in verses 8–9, nor specify their number; the scene correctly leaves both unspecified. The preceding scene identifies Nephi’s brothers, but that does not establish they are the respondents here."
       ]
     },
     "scene_005": {
@@ -58,22 +58,18 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_014: The verses identify the speaker as Nephi and say he spoke “unto them”; the supplied scene labels him only as “the speaker” and calls the listeners unnamed. Their identities are unspecified in these verses.",
-        "scene_014: The address to listeners is supported, but the number of listeners is not specified."
-      ]
-    },
-    "scene_015": {
       "status": "PASS",
       "issues": []
     },
-    "scene_016": {
+    "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_016: The verses identify the speaker as Nephi; “his brethren” are supported, but their individual identities are not specified in these verses.",
-        "scene_016: The summary and notes correctly keep judgment, hell, the kingdom, and the tree of life as teachings rather than present visual events."
+        "The source says Nephi spoke “unto them” but does not establish that the listeners are specifically his brethren; the scene’s label “unnamed listeners” is a conservative but uncertain identification of who is present."
       ]
+    },
+    "scene_016": {
+      "status": "PASS",
+      "issues": []
     }
   }
 }

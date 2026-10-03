@@ -1,59 +1,74 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Alma is asked about faith",
+    "title": "Alma answers about faith and worship",
     "refs": [
       "Alma 33:1",
       "Alma 33:2"
     ],
-    "summary": "After Alma speaks, the people ask how to believe and plant the word. Alma tells them that being cast out of their synagogues does not prevent worship and urges them to search the scriptures.",
+    "summary": "After Alma had spoken, people send to ask whether they should believe in one God to obtain the fruit he mentioned, how to plant the seed or word in their hearts, and how to begin exercising faith. Alma corrects their supposition that exclusion from their synagogues prevents worship and tells them to search and understand the scriptures.",
     "characters": [
       "Alma",
-      "the people who question Alma"
+      "The people who question Alma"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After Alma speaks, people ask whether they should believe in one God, how to plant the word, and how to begin exercising faith.",
+        "text": "After Alma had spoken, people sent to him desiring to know whether they should believe in one God to obtain the fruit he had mentioned.",
         "refs": [
           "Alma 33:1"
         ]
       },
       {
-        "text": "Alma says being cast out of their synagogues does not mean they cannot worship God, and urges them to search the scriptures.",
+        "text": "They also sought to know how to plant the seed or word in their hearts and how to begin exercising faith.",
+        "refs": [
+          "Alma 33:1"
+        ]
+      },
+      {
+        "text": "Alma recalls their statement that they could not worship God because they were cast out of their synagogues.",
+        "refs": [
+          "Alma 33:2"
+        ]
+      },
+      {
+        "text": "Alma says that supposing they cannot worship God is an error, urges them to search the scriptures, and says they misunderstand the scriptures if they suppose these teach that restriction.",
         "refs": [
           "Alma 33:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses a group of people gathered before him."
+      "Alma may be shown addressing those seeking his answer."
     ],
     "unspecified_visual_details": [
-      "The precise setting, clothing, age, and appearance of Alma and the people are not given."
+      "The location, clothing, ages, appearances, and arrangement of listeners are unspecified.",
+      "The means by which the question reaches Alma is unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, ye have said that ye could not worship your God because ye are cast out of your synagogues.",
+        "text": "Behold, ye have said that ye could not worship your God because ye are cast out of your synagogues. But behold, I say unto you, if ye suppose that ye cannot worship God, ye do greatly err, and ye ought to search the scriptures; if ye suppose that they have taught you this, ye do not understand them.",
         "refs": [
           "Alma 33:2"
         ],
         "speaker": "Alma"
       }
     ],
-    "narration": [
-      {
-        "text": "they sent forth unto him desiring to know",
-        "refs": [
-          "Alma 33:1"
-        ]
-      }
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "Use the reported inquiry as context for Alma’s reply, not as an invented spoken exchange.",
+      "The seed, word planted in hearts, and fruit are teaching figures, not narrated visible supernatural events.",
+      "Alma is the explicit speaker. Any more specific established character label is uncertain from these supplied verses alone.",
+      "No narration is used; the dialogue contains 58 words."
     ],
-    "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the expulsion from the synagogues as happening now; it is referred to as prior context."
+      "Do not stage the earlier synagogue exclusion as a present event.",
+      "Do not invent a messenger, delivery method, or spoken question.",
+      "Do not depict literal seeds planted in hearts or literal fruit as the fulfillment of this teaching.",
+      "Do not invent a divine appearance.",
+      "Do not add identifying details to Alma or biographies to the unnamed people."
     ],
     "importance": "normal"
   },

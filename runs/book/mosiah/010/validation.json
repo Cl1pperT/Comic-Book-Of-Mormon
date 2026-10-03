@@ -1,5 +1,5 @@
 {
-  "stamp": "40f0556a88b0b50a00ddeedbe356685be06b67e394b26aeb5797200915a1546a",
+  "stamp": "2ca6d645b828e39045764739819917ee05257b341a6d575355bf96e6dd22d4f9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -40,8 +40,10 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The man is not identified by name in the supplied verses; retain the generic identification and do not label him Nephi."
+      ]
     },
     "scene_011": {
       "status": "PASS",

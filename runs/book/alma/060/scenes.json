@@ -1,33 +1,45 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Moroni writes to Pahoran",
+    "title": "An epistle to Pahoran",
     "refs": [
       "Alma 60:1"
     ],
-    "summary": "Moroni writes an epistle to Pahoran, chief judge and governor, and to those chosen to govern the affairs of the war.",
+    "summary": "A writer writes again to Pahoran, the chief judge and governor, addressing the epistle to him and to those chosen to govern and manage the affairs of the war.",
     "characters": [
-      "Moroni"
+      "Unnamed epistle writer"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified writing location"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni writes again to Pahoran, governor of the land, in the city of Zarahemla, and addresses those chosen to govern and manage the war.",
+        "text": "The writer writes again to Pahoran, the governor of the land.",
+        "refs": [
+          "Alma 60:1"
+        ]
+      },
+      {
+        "text": "The epistle is addressed to Pahoran in Zarahemla and to those chosen to govern and manage the affairs of the war.",
         "refs": [
           "Alma 60:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni is writing a letter."
+      "The writer may be shown composing an epistle."
     ],
     "unspecified_visual_details": [
-      "The place where Moroni writes, writing materials, clothing, and appearance."
+      "The writer’s identity in this verse, appearance, writing materials, and location are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And it came to pass that he wrote again to the governor of the land, who was Pahoran",
+        "refs": [
+          "Alma 60:1"
+        ]
+      },
       {
         "text": "Behold, I direct mine epistle to Pahoran",
         "refs": [
@@ -35,9 +47,12 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person words are part of the epistle, not words spoken by Mormon. The supplied verse does not name the writer, so the quotation cannot be changed to say “I, Moroni.”"
+    ],
     "prohibited_inventions": [
-      "Do not depict Pahoran or other addressees as present; this verse presents them as recipients of the letter."
+      "Do not depict Pahoran or the other addressees as present with the writer.",
+      "Do not add a name to the epistle’s first-person quotation."
     ],
     "importance": "normal"
   },

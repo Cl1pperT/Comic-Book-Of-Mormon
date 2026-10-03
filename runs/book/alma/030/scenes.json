@@ -1209,61 +1209,66 @@
       "Alma 30:52",
       "Alma 30:53"
     ],
-    "summary": "Korihor writes that he knows the power of God made him dumb and that he always knew there was a God. He recounts that the devil appeared to him in the form of an angel, taught him what to say, and deceived him.",
+    "summary": "Korihor writes that he cannot speak, attributes his condition to God's power, and says he always knew there was a God. He writes that the devil had deceived him, appeared to him in the form of an angel, and taught him what to say. Korihor says he taught those words and came to believe them.",
     "characters": [
-      "Korihor",
-      "Alma the Younger (high priest)",
-      "chief judge over the land"
+      "Korihor"
     ],
-    "locations": [
-      "land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Korihor wrote that he was dumb, that only God's power could bring it upon him, and that he had always known there was a God.",
+        "text": "Korihor put forth his hand and wrote that he could not speak.",
         "refs": [
           "Alma 30:52"
         ]
       },
       {
-        "text": "Korihor wrote that the devil appeared to him in the form of an angel and instructed him to reclaim the people.",
+        "text": "Korihor wrote that only the power of God could have brought his condition upon him and that he had always known there was a God.",
+        "refs": [
+          "Alma 30:52"
+        ]
+      },
+      {
+        "text": "Korihor wrote that the devil had deceived him, appeared to him in the form of an angel, and taught him what to say.",
         "refs": [
           "Alma 30:53"
         ]
       },
       {
-        "text": "Korihor said he taught the devil's words because they pleased the carnal mind and that he had believed them true.",
+        "text": "Korihor wrote that he taught the devil's words because they pleased the carnal mind, came to believe them, and withstood the truth.",
         "refs": [
           "Alma 30:53"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Korihor writing may be depicted in the hearing. The reported appearance of the devil is a past event and need not be depicted."
+      "Korihor can be shown writing his confession; the words may be shown as written text."
     ],
     "unspecified_visual_details": [
-      "The time, place, and details of the reported angelic appearance are unspecified."
+      "The writing surface and surroundings are unspecified.",
+      "The earlier appearance Korihor reports is not visually detailed beyond the form of an angel."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I always knew that there was a God.",
+        "text": "And Korihor put forth his hand and wrote, saying: I know that I am dumb, for I cannot speak; and I know that nothing save it were the power of God could bring this upon me; yea, and I always knew that there was a God.",
         "refs": [
           "Alma 30:52"
         ]
       },
       {
-        "text": "he appeared unto me in the form of an angel,",
+        "text": "And he said unto me: There is no God; yea, and he taught me that which I should say.",
         "refs": [
           "Alma 30:53"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The angel appearance is reported by Korihor as an earlier event, not narrated as present in the hearing."
+      "Both narration excerpts are Korihor's written confession, not spoken dialogue. In the second excerpt, Korihor reports what the devil said to him earlier."
     ],
     "prohibited_inventions": [
-      "Do not depict a flashback angel or give it an appearance beyond Korihor's words."
+      "Do not add a question from the chief judge or depict him, Alma, or a specified location; none appears in these verses.",
+      "Do not stage the reported earlier appearance as part of Korihor's present act of writing.",
+      "Do not portray Korihor's written words as spoken aloud."
     ],
     "importance": "normal"
   },

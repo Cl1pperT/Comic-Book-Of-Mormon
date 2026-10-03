@@ -1,5 +1,5 @@
 {
-  "stamp": "362d75eb655b028744d92fc547bffde9e8e5f7fc406d002d1f5ba975aeceb84a",
+  "stamp": "578b42191be854c90648ce10fdf35d0b36d430ac74ba88232c3cafda0813104b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -80,8 +80,11 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prophecy is accurately summarized, but the spoken-dialogue excerpts omit source words (“neither shall his face now wax pale” in verse 33 and “But when he seeth his children, the work of my hands, in the midst of him” in verse 34). These are partial quotations, not verbatim full-verse dialogue; ensure any quoted wording remains an exact contiguous excerpt.",
+        "The source presents the prophecy as the Lord’s words, but does not establish a visible Lord, Nephi as a present character, or a physical scene. The notes and unspecified details appropriately caution against depicting these as present events."
+      ]
     }
   }
 }

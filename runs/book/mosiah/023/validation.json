@@ -1,5 +1,5 @@
 {
-  "stamp": "1ae149ac2fe3a1946554b05047db7e6cd6ffe853b2c47ea1b5100efcf590d869",
+  "stamp": "cc202e45658fe45f558983b50682bbc52ac1b3fa344b3e33125b14319cd172df",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -60,10 +60,8 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and narration present the discovery and promise as one scene without specifying their sequence; the source reports these events in order, and the promise follows the discovery of Helam."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",

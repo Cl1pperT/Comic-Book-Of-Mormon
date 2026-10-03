@@ -1,5 +1,5 @@
 {
-  "stamp": "31e4a0bd47fe2991965a9d04ce2f27c619354865a42a3194fa00b2fe2a01b08e",
+  "stamp": "dde620d9002341a82e18091ea622dbaf2c75666ca9dc439a9890d5078c9814ca",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,8 +18,10 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied text does not explicitly say the man departs and arrives at separate times; showing those moments in sequence is an interpretive staging choice, though the journey itself is stated. The Spirit’s visual form and the man’s identity and appearance remain unspecified."
+      ]
     },
     "scene_006": {
       "status": "PASS",

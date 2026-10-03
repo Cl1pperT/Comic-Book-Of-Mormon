@@ -1,9 +1,11 @@
 {
-  "stamp": "b6dfbce76a47fda464fc1ac7ad969800aab0de5001613f59921ca22ee928e534",
+  "stamp": "61e1f0ab047b37dbe730a0cab2d0cb4381e7e11c5281d04d557dd1252125438e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source does not explicitly say Nephi addresses his brethren in a visible scene; that is a reasonable inference from his words. Keep any staging minimal and avoid implying an unspecified setting or physical book."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -62,8 +64,12 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary calls this a warning despite the verse’s woe; more importantly, its opening attribution that Nephi relays the message is not stated in the supplied verse. The Lord speaks in the verse, but no visible appearance is described.",
+        "The narration quotes only exact, contiguous excerpts; the first-person promise remains the Lord’s speech, not Nephi’s. The figurative extended arm should not be rendered as a literal visual event.",
+        "The source does not specify a setting or the appearances of Nephi or the Gentiles; avoid depicting them as present in a newly staged scene."
+      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "074f50a117c8a10840ad6fe265eb2b235ea0068ee926534a9688a4e3ec1e1a3f",
+  "stamp": "cde1a788b6d89d7ce3759c4de46186263abfc0454f2846bfcee4cbc03053cce6",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,11 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lord's “visit” in great judgment and the sparing/deliverance are explicit, but the manner of judgment and deliverance is unspecified; do not depict a specific action or visible appearance.",
+        "The earlier departure from Jerusalem and preservation are background in verse 6, not events of this scene. The preceding scene correctly treats verse 5's destruction as reported rather than present action."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -26,13 +29,15 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_007 summary's 'Abinadom ends his account' and Amaleki's introduction are sequential in the record, not a shared present moment; the notes correctly flag this. Visual depiction of Amaleki with his introduction is a reasonable inference, but his appearance and setting are unspecified."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The unnamed person referred to as “he” is identifiable from the preceding verse as Mosiah; leaving him unnamed is conservative but less specific than the supplied context."
+        "scene_008 summary appropriately follows the sequence, but narration omits the source's intervening detail that the travelers were led by preachings and prophesyings and continually admonished by God's word. Depicting the entire departure-to-arrival journey in one image could compress separate times; show only a moment or represent it nonliterally. 'He' remains unnamed in these verses."
       ]
     },
     "scene_009": {
@@ -52,12 +57,18 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 013: The narration is an exact source quotation and within the word limit. Mosiah is present, but his label is not among the established labels; the verses do support his presence. The visual inference that he examines the stone is reasonable, not explicit. The unnamed bringer and setting remain unspecified."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene correctly treats Coriantumr's discovery, his dwelling with the people of Zarahemla, and the account of his fathers as reported events rather than staging them as present action. Narration uses exact contiguous quotations and stays within the word limit.",
+        "The summary's phrase “The people of Zarahemla discovered Coriantumr” accurately restates the source, but the exact source says “Coriantumr was discovered by the people of Zarahemla.”",
+        "The fact about the Lord's severity and scattered bones is appropriately cautious about the unspecified referents. The “tower” and “land northward” are mentioned in the source, though they are not established as present visual locations."
+      ]
     },
     "scene_015": {
       "status": "PASS",
@@ -70,10 +81,8 @@
       ]
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The first-person narrator is unnamed in verse 25; identifying the speaker as Amaleki is supported by the preceding context, but the scene conservatively leaves the narrator unnamed."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS",

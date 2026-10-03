@@ -754,14 +754,26 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that Ammon and Lamoni proceeded on their journey towards the land of Middoni. And Lamoni found favor in the eyes of the king of the land; therefore the brethren of Ammon were brought forth out of prison.",
+        "text": "And it came to pass that Ammon and Lamoni proceeded on their journey towards the land of Middoni.",
+        "refs": [
+          "Alma 20:28"
+        ]
+      },
+      {
+        "text": "And Lamoni found favor in the eyes of the king of the land;",
+        "refs": [
+          "Alma 20:28"
+        ]
+      },
+      {
+        "text": "therefore the brethren of Ammon were brought forth out of prison.",
         "refs": [
           "Alma 20:28"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The narration supplies the preceding journey and Lamoni's finding favor with the king as context; neither is staged as a separate scene or depicted as simultaneous with the release."
+      "The journey and Lamoni's finding favor are narrated as preceding context, not depicted as simultaneous with the release."
     ],
     "prohibited_inventions": [
       "Do not depict the king, Ammon, or Lamoni as present at the prison without textual support.",
@@ -777,7 +789,7 @@
       "Alma 20:29",
       "Alma 20:30"
     ],
-    "summary": "Ammon meets them and is exceedingly sorrowful. They are naked, their skin is worn from strong cords, and they have patiently endured hunger, thirst, and other afflictions. The verses recount their earlier mistreatment and imprisonment in Middoni, followed by their delivery by Lamoni and Ammon.",
+    "summary": "Ammon meets an unnamed group and is exceedingly sorrowful. They have suffered while bound and imprisoned in Middoni for many days and have been delivered by Lamoni and Ammon.",
     "characters": [
       "Ammon",
       "The unnamed people Ammon meets"
@@ -791,7 +803,13 @@
         ]
       },
       {
-        "text": "They were naked, their skin was worn from being bound with strong cords, and they had patiently suffered hunger, thirst, and other afflictions.",
+        "text": "They were naked, and their skin was worn from being bound with strong cords.",
+        "refs": [
+          "Alma 20:29"
+        ]
+      },
+      {
+        "text": "They had suffered hunger, thirst, and other afflictions, yet were patient.",
         "refs": [
           "Alma 20:29"
         ]
@@ -804,12 +822,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon’s expression can convey sorrow as he meets them.",
-      "Their appearance can convey hardship without showing wounds or gore."
+      "Ammon’s expression can convey sorrow.",
+      "The group’s appearance can convey hardship without showing wounds or gore."
     ],
     "unspecified_visual_details": [
       "The meeting place and its appearance.",
-      "The unnamed people’s identities and individual appearances."
+      "The group’s identities and individual appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -828,12 +846,13 @@
     ],
     "doctrinal_or_story_notes": [
       "The mistreatment and imprisonment are recounted as past events, not staged during the meeting.",
-      "The verses do not place Lamoni at the meeting."
+      "These supplied verses call the people “them”; they do not identify them as “the brethren of Ammon.”"
     ],
     "prohibited_inventions": [
-      "Do not depict the people responsible for the earlier mistreatment as present at the meeting.",
-      "Do not invent names, relationships, speech, or a location for the meeting.",
-      "Do not stage the recounted mistreatment and imprisonment as happening during the meeting."
+      "Do not identify the group as Ammon’s brethren on the authority of these verses.",
+      "Do not depict those responsible for the earlier mistreatment as present at the meeting.",
+      "Do not invent speech or a location for the meeting.",
+      "Do not stage the recounted mistreatment and imprisonment during the meeting."
     ],
     "importance": "normal"
   }

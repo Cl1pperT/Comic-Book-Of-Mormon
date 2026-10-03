@@ -1,5 +1,5 @@
 {
-  "stamp": "7ea86c9bc4a03077fc70afcc43ed6887fe45e1c7efb043a5e07f268d8644020d",
+  "stamp": "dfc5f2b95b975f61a14c2fb45d1747d3149598debe4afc054d2747d50e91099b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,12 +12,16 @@
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_003: The cited dialogue excerpts are exact, but omit surrounding words from the verses. The text does not specify a physical setting or describe listeners; keep any depiction of them and of Ammon’s appearance unspecified. Harvest and storm imagery is figurative, not a literal event."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "scene_004: The cited dialogue excerpts are exact, but omit surrounding words from the verses. The brethren’s hatred and estrangement are counterfactual, and their physical presence is not established. The call to sing does not establish that anyone sings in the scene."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -46,16 +50,12 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The two quoted questions in spoken_dialogue are accurately excerpted, but a visual rendering must keep them as reported speech rather than depict the questioners or recalled exchange as present events; the scene notes correctly flag this uncertainty."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The wilderness is explicitly recalled in verse 26, but its appearance and the location of the present address are unspecified; keep any depiction conservative and do not stage the recalled entry or reported call to arms as present events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -70,12 +70,8 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied text supports the reported burial and the group's preference to sacrifice their lives rather than take an enemy's life. This scene does not show a burial occurring now; the notes correctly caution against staging it.",
-        "The passage does not identify the speaker, so “Unidentified speaker” is appropriately cautious. The dialogue and narration are exact excerpts from the cited verses.",
-        "The previous scene is consistent in chronology: it presents recalled afflictions and reported results, not a conflicting present-time event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",

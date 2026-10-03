@@ -178,53 +178,79 @@
       "1 Nephi 7:6",
       "1 Nephi 7:7"
     ],
-    "summary": "As they journeyed in the wilderness, Laman and Lemuel, two daughters of Ishmael, two sons of Ishmael and their families rebelled against Nephi, Sam, Ishmael, Ishmael’s wife, and Ishmael’s three other daughters. In the rebellion, they desired to return to the land of Jerusalem.",
+    "summary": "While journeying in the wilderness, Laman, Lemuel, two daughters of Ishmael, and Ishmael’s two sons and their families rebelled against Nephi, Sam, Ishmael, his wife, and his three other daughters. The rebels desired to return to the land of Jerusalem.",
     "characters": [
       "Nephi",
       "Laman",
       "Lemuel",
       "Sam",
       "Ishmael",
-      "Ishmael's wife",
+      "Ishmael’s wife",
       "The daughters of Ishmael",
-      "Ishmael’s sons and their families"
+      "Ishmael’s two sons and their families"
     ],
     "locations": [
       "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "As they journeyed in the wilderness, Laman and Lemuel, two daughters of Ishmael, two sons of Ishmael and their families rebelled against Nephi, Sam, Ishmael, Ishmael’s wife, and Ishmael’s three other daughters.",
+        "text": "The rebellion occurred while the group journeyed in the wilderness.",
         "refs": [
           "1 Nephi 7:6"
         ]
       },
       {
-        "text": "In the rebellion, they were desirous to return to the land of Jerusalem.",
+        "text": "Laman, Lemuel, two daughters of Ishmael, and Ishmael’s two sons and their families rebelled against Nephi, Sam, Ishmael, his wife, and his three other daughters.",
+        "refs": [
+          "1 Nephi 7:6"
+        ]
+      },
+      {
+        "text": "During the rebellion, the rebels desired to return to the land of Jerusalem.",
         "refs": [
           "1 Nephi 7:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The opposing sides are present during the wilderness journey."
+      "The opposing groups may be visually distinguished through their placement within the wilderness setting."
     ],
     "unspecified_visual_details": [
-      "The form of the rebellion, the individuals’ positions, and their appearance are not specified."
+      "Physical appearances, clothing, terrain, weather, and time of day are unspecified.",
+      "Specific gestures or acts constituting the rebellion are not described.",
+      "The sizes and composition of the sons’ families are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass in the which rebellion, they were desirous to return unto the land of Jerusalem.",
+        "text": "as we journeyed in the wilderness,",
+        "refs": [
+          "1 Nephi 7:6"
+        ]
+      },
+      {
+        "text": "behold Laman and Lemuel, and two of the daughters of Ishmael, and the two sons of Ishmael and their families, did rebel against us;",
+        "refs": [
+          "1 Nephi 7:6"
+        ]
+      },
+      {
+        "text": "they were desirous to return unto the land of Jerusalem.",
         "refs": [
           "1 Nephi 7:7"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Nephi is the first-person narrator.",
+      "Two of Ishmael’s daughters rebelled; his three other daughters were among those opposed.",
+      "A desire to return to Jerusalem is stated, not an actual return."
+    ],
     "prohibited_inventions": [
-      "Do not assign names or biographies to unnamed family members.",
-      "Do not depict a particular act, confrontation, or route back to Jerusalem; these are not described."
+      "Do not invent dialogue, threats, combat, or specific acts of rebellion.",
+      "Do not name unnamed family members or invent their biographies.",
+      "Do not depict arrival at a tent or a return journey to Jerusalem.",
+      "Do not depict all of Ishmael’s daughters as rebels."
     ],
     "importance": "normal"
   },
@@ -429,7 +455,7 @@
     "refs": [
       "1 Nephi 7:16"
     ],
-    "summary": "After Nephi spoke to his brethren, they became angry, laid their hands on him, and bound him with cords. They sought to take his life by leaving him in the wilderness to be devoured by wild beasts.",
+    "summary": "After Nephi spoke to his brethren, they became angry, laid their hands on him, and bound him with cords. They sought to take his life and leave him in the wilderness to be devoured by wild beasts.",
     "characters": [
       "Nephi",
       "Nephi's brethren"
@@ -449,7 +475,7 @@
         ]
       },
       {
-        "text": "They sought to take Nephi's life by leaving him in the wilderness to be devoured by wild beasts.",
+        "text": "They sought to take Nephi's life and leave him in the wilderness to be devoured by wild beasts.",
         "refs": [
           "1 Nephi 7:16"
         ]
@@ -463,6 +489,12 @@
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "when I, Nephi, had spoken these words unto my brethren, they were angry with me.",
+        "refs": [
+          "1 Nephi 7:16"
+        ]
+      },
       {
         "text": "they did bind me with cords",
         "refs": [
@@ -544,7 +576,7 @@
     "refs": [
       "1 Nephi 7:18"
     ],
-    "summary": "After Nephi had said words, the bands were loosed from his hands and feet. He stood before his brethren and spoke to them again.",
+    "summary": "After Nephi said these words, the bands were loosed from his hands and feet. He stood before his brethren and spoke to them again.",
     "characters": [
       "Nephi",
       "Nephi’s brethren"
@@ -552,14 +584,26 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi had said words; the bands were loosed from his hands and feet; he stood before his brethren and spoke to them again.",
+        "text": "Nephi had said words.",
+        "refs": [
+          "1 Nephi 7:18"
+        ]
+      },
+      {
+        "text": "The bands were loosed from Nephi’s hands and feet.",
+        "refs": [
+          "1 Nephi 7:18"
+        ]
+      },
+      {
+        "text": "Nephi stood before his brethren and spoke to them again.",
         "refs": [
           "1 Nephi 7:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi stands before his brethren after the bands are loosed."
+      "Nephi’s hands and feet are free of the bands when he stands before his brethren."
     ],
     "unspecified_visual_details": [
       "The location, the brethren’s appearance, how the bands were loosed, and what Nephi said are unspecified."
@@ -567,16 +611,18 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the bands were loosed from off my hands and feet,",
+        "text": "the bands were loosed from off my hands and feet, and I stood before my brethren, and I spake unto them again.",
         "refs": [
           "1 Nephi 7:18"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi."
+    ],
     "prohibited_inventions": [
-      "Do not depict the preceding words or invent their content.",
-      "Do not add a visible supernatural figure or mechanism for the bands’ release."
+      "Do not invent the content of Nephi’s speech.",
+      "Do not depict a visible supernatural figure or invent a mechanism for the bands’ release."
     ],
     "importance": "normal"
   },
@@ -586,7 +632,7 @@
     "refs": [
       "1 Nephi 7:19"
     ],
-    "summary": "Nephi’s brethren were angry with him again and sought to lay hands on him. One of Ishmael’s daughters, her mother, and one of Ishmael’s sons pleaded with them. The brethren softened their hearts and ceased striving to take Nephi’s life.",
+    "summary": "Nephi’s brethren were angry with him again and sought to lay hands on him. One of Ishmael’s daughters, her mother, and one of Ishmael’s sons pleaded with the brethren, who softened their hearts and ceased striving to take Nephi’s life.",
     "characters": [
       "Nephi",
       "Nephi’s brethren",
@@ -597,7 +643,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi’s brethren were angry with him again and sought to lay hands upon him.",
+        "text": "Nephi’s brethren were angry with him again and sought to lay hands on him.",
         "refs": [
           "1 Nephi 7:19"
         ]
@@ -609,46 +655,48 @@
         ]
       },
       {
-        "text": "Nephi’s brethren softened their hearts and ceased striving to take away his life.",
+        "text": "Nephi’s brethren softened their hearts and ceased striving to take Nephi’s life.",
         "refs": [
           "1 Nephi 7:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The three members of Ishmael’s family plead with Nephi’s brethren."
+      "The three members of Ishmael’s family face Nephi’s brethren as they plead."
     ],
     "unspecified_visual_details": [
-      "The verse does not identify Nephi’s brethren by name.",
-      "The verse does not specify the location, the family members’ words, or their gestures."
+      "The location is not specified.",
+      "The verse does not give the pleading family members’ gestures or words."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and they did cease striving to take away my life.",
+        "text": "And it came to pass that they were angry with me again, and sought to lay hands upon me; but behold, one of the daughters of Ishmael, yea, and also her mother, and one of the sons of Ishmael, did plead with my brethren, insomuch that they did soften their hearts; and they did cease striving to take away my life.",
         "refs": [
           "1 Nephi 7:19"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi."
+    ],
     "prohibited_inventions": [
-      "Do not identify the brethren as Laman and Lemuel.",
-      "Do not call the daughter’s mother Ishmael’s wife.",
-      "Do not invent the words spoken in the plea."
+      "Do not name the brethren or the three pleading family members.",
+      "Do not invent words spoken in the plea.",
+      "Do not specify a location or depict injury."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "The Brothers Ask Forgiveness",
+    "title": "They Plead with Nephi for Forgiveness",
     "refs": [
       "1 Nephi 7:20"
     ],
-    "summary": "They were sorrowful because of their wickedness, bowed down before Nephi, and pleaded with him to forgive them for what they had done against him.",
+    "summary": "They were sorrowful because of their wickedness, bowed down before Nephi, and pleaded for his forgiveness for what they had done against him.",
     "characters": [
       "Nephi",
-      "his brothers"
+      "unnamed people"
     ],
     "locations": [],
     "explicit_facts": [
@@ -672,36 +720,33 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi's brothers are shown bowed down before him."
+      "The unnamed people can be shown bowing before Nephi."
     ],
     "unspecified_visual_details": [
-      "The brothers' names, appearances, expressions, and exact posture are unspecified.",
+      "The identities and appearances of those bowing are unspecified.",
       "The location is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were sorrowful, because of their wickedness, insomuch that they did bow down before me,",
-        "refs": [
-          "1 Nephi 7:20"
-        ]
-      },
-      {
-        "text": "and did plead with me that I would forgive them of the thing that they had done against me.",
+        "text": "And it came to pass that they were sorrowful, because of their wickedness, insomuch that they did bow down before me, and did plead with me that I would forgive them of the thing that they had done against me.",
         "refs": [
           "1 Nephi 7:20"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi."
+    ],
     "prohibited_inventions": [
-      "Do not invent the brothers' spoken words, names, or motives beyond the supplied verse."
+      "Do not identify the unnamed people as Nephi’s brothers or invent their spoken words.",
+      "Do not depict the earlier wrongdoing as a new event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "Forgiveness, Prayer, and Renewed Travel",
+    "title": "Nephi Forgives Them; They Pray and Travel On",
     "refs": [
       "1 Nephi 7:21"
     ],
@@ -712,7 +757,7 @@
     ],
     "locations": [
       "Unspecified place where forgiveness and prayer occur",
-      "Journey toward their father's tent, after the prayer"
+      "Journey toward their father's tent"
     ],
     "explicit_facts": [
       {
@@ -735,7 +780,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The prayer and the subsequent travel can be shown as distinct, sequential moments."
+      "The prayer and subsequent travel can be shown as distinct, sequential moments."
     ],
     "unspecified_visual_details": [
       "The people's identities and number, the prayer's words, and the surroundings are not specified."
@@ -743,7 +788,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that I did frankly forgive them all that they had done,",
+        "text": "I did frankly forgive them all that they had done, and I did exhort them that they would pray unto the Lord their God for forgiveness.",
         "refs": [
           "1 Nephi 7:21"
         ]
@@ -755,15 +800,17 @@
         ]
       },
       {
-        "text": "we did again travel on our journey towards the tent of our father.",
+        "text": "And after they had done praying unto the Lord we did again travel on our journey towards the tent of our father.",
         "refs": [
           "1 Nephi 7:21"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi."
+    ],
     "prohibited_inventions": [
-      "Do not identify the people forgiven as brothers based on this verse alone.",
+      "Do not identify the people forgiven from this verse alone.",
       "Do not invent spoken words for the exhortation or prayer.",
       "Do not show the group arriving at the tent.",
       "Do not depict the Lord as visibly appearing."
@@ -776,18 +823,18 @@
     "refs": [
       "1 Nephi 7:22"
     ],
-    "summary": "The narrator, his brethren, and all the house of Ishmael came down to the tent of the narrator’s father. They gave thanks unto the Lord their God and offered sacrifice and burnt offerings unto him.",
+    "summary": "Nephi, his brethren, and all the house of Ishmael came down to the tent of Nephi’s father. They gave thanks to the Lord their God and offered sacrifice and burnt offerings unto him.",
     "characters": [
-      "the narrator",
-      "the narrator’s brethren",
+      "Nephi",
+      "Nephi’s brethren",
       "all the house of Ishmael"
     ],
     "locations": [
-      "the tent of the narrator’s father"
+      "the tent of Nephi’s father"
     ],
     "explicit_facts": [
       {
-        "text": "The narrator, his brethren, and all the house of Ishmael came down unto the tent of the narrator’s father.",
+        "text": "Nephi, his brethren, and all the house of Ishmael came down unto the tent of Nephi’s father.",
         "refs": [
           "1 Nephi 7:22"
         ]
@@ -800,16 +847,22 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The group is at the father’s tent after coming down to it."
+      "The group is gathered at the tent after arriving."
     ],
     "unspecified_visual_details": [
-      "The identities and appearances of the narrator’s brethren and members of Ishmael’s household are not specified.",
-      "The tent’s appearance and the form of the sacrifice and burnt offerings are not described."
+      "The appearances of the people and the tent are not described.",
+      "The form of the sacrifice and burnt offerings is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did give thanks unto the Lord their God;",
+        "text": "I and my brethren and all the house of Ishmael had come down unto the tent of my father, they did give thanks unto the Lord their God;",
+        "refs": [
+          "1 Nephi 7:22"
+        ]
+      },
+      {
+        "text": "and they did offer sacrifice and burnt offerings unto him.",
         "refs": [
           "1 Nephi 7:22"
         ]
@@ -817,7 +870,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add individual names, dialogue, or details about the tent or offerings that the verse does not provide.",
+      "Do not add dialogue or identify individual members of the groups beyond what is supplied.",
       "Do not depict a visible divine figure; no appearance is described."
     ],
     "importance": "normal"

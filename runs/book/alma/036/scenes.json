@@ -137,58 +137,54 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "The angel stops them",
+    "title": "By the way",
     "refs": [
       "Alma 36:6"
     ],
-    "summary": "Alma recounts that he and the sons of Mosiah were seeking to destroy the church when God sent a holy angel to stop them by the way.",
+    "summary": "Alma recounts going about with the sons of Mosiah, seeking to destroy the church of God, and reports that God sent his holy angel “to stop us by the way.”",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "The angel who appeared to Alma"
+      "Alma"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma went with the sons of Mosiah seeking to destroy the church of God.",
+        "text": "Alma reports going about with the sons of Mosiah, seeking to destroy the church of God.",
         "refs": [
           "Alma 36:6"
         ]
       },
       {
-        "text": "God sent his holy angel to stop them by the way.",
+        "text": "Alma reports that God sent his holy angel “to stop us by the way.”",
         "refs": [
           "Alma 36:6"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The encounter occurs along a route, but its precise location is unspecified."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The route’s landscape and the group’s clothing or equipment.",
-      "The angel’s appearance."
+      "The setting and audience of Alma’s account are unspecified in this verse.",
+      "Alma’s appearance, clothing, and gestures are unspecified.",
+      "The reported way and the angel’s appearance are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "God sent his holy angel to stop us by the way.",
+        "text": "For I went about with the sons of Mosiah, seeking to destroy the church of God; but behold, God sent his holy angel to stop us by the way.",
         "refs": [
           "Alma 36:6"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a past event Alma recounts to Helaman; the scene depicts the remembered encounter."
+      "The first-person account belongs to Alma, not Mormon, as clarified by the supplied audit.",
+      "The sons of Mosiah and the angel are mentioned in a retrospective account, not established as present with the speaker."
     ],
     "prohibited_inventions": [
-      "Do not add other companions or actions beyond the account.",
-      "Do not invent the angel’s appearance."
+      "Do not stage the reported journey or angel encounter as a new present-tense scene.",
+      "Do not invent a visible appearance for God or the angel.",
+      "Do not invent an audience, additional dialogue, or individual names for the sons of Mosiah.",
+      "Do not expand the wording “to stop us by the way” into additional motives or purposes."
     ],
     "importance": "normal"
   },
@@ -249,31 +245,38 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Alma sees the angel",
+    "title": "Alma beholds the angel",
     "refs": [
       "Alma 36:8"
     ],
-    "summary": "The voice tells Alma to arise; Alma stands and sees the angel.",
+    "summary": "A voice tells Alma to arise. Alma rises, stands, and beholds the angel.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "The angel who appeared to Alma"
+      "Alma the Younger",
+      "The angel"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The voice tells Alma, “Arise.” Alma rises, stands, and beholds the angel.",
+        "text": "A voice tells Alma to arise.",
+        "refs": [
+          "Alma 36:8"
+        ]
+      },
+      {
+        "text": "Alma rises, stands, and beholds the angel.",
         "refs": [
           "Alma 36:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is upright and facing the angel when he beholds him."
+      "Alma is upright when he beholds the angel."
     ],
     "unspecified_visual_details": [
-      "The angel’s appearance, clothing, and position."
+      "The angel’s appearance, clothing, and position.",
+      "The surrounding setting."
     ],
     "spoken_dialogue": [
       {
@@ -281,22 +284,24 @@
         "refs": [
           "Alma 36:8"
         ],
-        "speaker": "The angel who appeared to Alma"
+        "speaker": "The angel"
       }
     ],
     "narration": [
       {
-        "text": "I arose and stood up,",
+        "text": "And I arose and stood up, and beheld the angel.",
         "refs": [
           "Alma 36:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The angel is visibly present because Alma explicitly says he beheld him."
+      "The “I” in the narration refers to Alma, not the angel.",
+      "The verse does not explicitly state that the voice belongs to the angel."
     ],
     "prohibited_inventions": [
-      "Do not add physical traits or clothing for the angel."
+      "Do not assign the angel an appearance, clothing, or position.",
+      "Do not depict a separate visible speaker for the voice."
     ],
     "importance": "normal"
   },
@@ -348,64 +353,77 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Alma falls and cannot move",
+    "title": "Alma recalls falling to the earth",
     "refs": [
       "Alma 36:10",
       "Alma 36:11"
     ],
-    "summary": "Alma falls to the earth and remains unable to speak or use his limbs for three days and three nights; the angel speaks further, but Alma hears no more.",
+    "summary": "Alma reports that the angel’s warning filled him with fear and amazement lest he be destroyed, and he fell to the earth and heard no more. He could not open his mouth or use his limbs for three days and three nights. His brethren heard further words from the angel that Alma did not hear.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "The angel who appeared to Alma",
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)"
+      "Alma (first-person narrator)",
+      "The angel (reported speaker)",
+      "Alma’s brethren (reported participants)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma falls to the earth and for three days and three nights cannot open his mouth or use his limbs.",
+        "text": "Alma fell to the earth and could not open his mouth or use his limbs for three days and three nights.",
         "refs": [
           "Alma 36:10"
         ]
       },
       {
-        "text": "The angel speaks more things, heard by Alma’s brethren but not by Alma.",
+        "text": "Hearing the angel’s warning caused Alma great fear and amazement lest he be destroyed; he fell and heard no more.",
         "refs": [
           "Alma 36:11"
         ]
       },
       {
-        "text": "Alma says he fell and heard no more after hearing the angel’s warning.",
+        "text": "The angel spoke further things that Alma’s brethren heard but Alma did not.",
         "refs": [
           "Alma 36:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is shown lying on the ground while the others are present to hear the angel."
+      "Alma’s brethren were within hearing distance of the angel during the reported event."
     ],
     "unspecified_visual_details": [
-      "The other men’s reactions and the angel’s appearance.",
-      "How the passage of three days and three nights is visually indicated."
+      "The location, clothing, and physical appearances of Alma and his brethren are unspecified.",
+      "The angel’s appearance is not described and must not be supplied visually.",
+      "The setting and audience of Alma’s retrospective account are unspecified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "If thou wilt be destroyed of thyself, seek no more to destroy the church of God",
+        "refs": [
+          "Alma 36:11"
+        ],
+        "speaker": "The angel (quoted in Alma’s account)"
+      }
+    ],
     "narration": [
       {
-        "text": "I could not open my mouth, neither had I the use of my limbs.",
+        "text": "And it came to pass that I fell to the earth; and it was for the space of three days and three nights that I could not open my mouth, neither had I the use of my limbs.",
         "refs": [
           "Alma 36:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Three days and three nights are a duration, not a succession of separately described events."
+      "Alma, not Mormon, is the first-person speaker of this account.",
+      "Keep these events retrospective; do not stage the reported experience as a new present-tense scene.",
+      "The verses describe the same fall, not two separate falls.",
+      "The three days and three nights are a reported duration, not a single compressed moment."
     ],
     "prohibited_inventions": [
-      "Do not invent the additional words spoken by the angel; Alma says he did not hear them."
+      "Do not visibly depict the angel; no appearance is described.",
+      "Do not invent the angel’s further words.",
+      "Do not invent names, biographies, or reactions for Alma’s brethren.",
+      "Do not invent an audience or setting for the account.",
+      "Do not add unconsciousness, wounds, recovery, or events during the three-day duration."
     ],
     "importance": "normal"
   },
@@ -417,79 +435,92 @@
       "Alma 36:13",
       "Alma 36:14"
     ],
-    "summary": "Alma recounts being tormented by the memory of his sins, recognizing his rebellion and the harm he had led others toward.",
+    "summary": "Alma recalls torment over his sins, his rebellion against God, his failure to keep God's commandments, and his having led many of God's children toward destruction. The thought of coming into God's presence fills him with horror.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says he was racked with torment and his soul was harrowed up by his sins.",
+        "text": "Alma says his soul was racked with torment over his sins.",
         "refs": [
           "Alma 36:12"
         ]
       },
       {
-        "text": "He remembered his sins and iniquities and recognized that he had rebelled against God and not kept God’s commandments.",
+        "text": "Alma remembered his sins and recognized that he had rebelled against God and not kept God's commandments.",
         "refs": [
           "Alma 36:13"
         ]
       },
       {
-        "text": "Alma says he had murdered many of God’s children, or rather led them away unto destruction, and feared coming into God’s presence.",
+        "text": "Alma says he had led many of God's children toward destruction.",
+        "refs": [
+          "Alma 36:14"
+        ]
+      },
+      {
+        "text": "The thought of coming into God's presence racked Alma's soul with horror.",
         "refs": [
           "Alma 36:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma’s recollection may be conveyed through a close view of him in distress, without literalizing figurative language."
+      "A restrained focus on Alma could convey inward anguish without depicting the events he remembers."
     ],
     "unspecified_visual_details": [
-      "The setting and Alma’s bodily expression or posture."
+      "Alma's appearance, clothing, posture, and surroundings."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I had not kept his holy commandments.",
+        "text": "But I was racked with eternal torment,",
+        "refs": [
+          "Alma 36:12"
+        ]
+      },
+      {
+        "text": "Yea, I did remember all my sins and iniquities,",
         "refs": [
           "Alma 36:13"
         ]
       },
       {
-        "text": "or rather led them away unto destruction;",
+        "text": "the very thought of coming into the presence of my God did rack my soul with inexpressible horror.",
         "refs": [
           "Alma 36:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Torment, pains of hell, and being harrowed up are described as Alma’s spiritual anguish, not as visible supernatural scenery."
+      "These verses recount Alma's past actions and inward experience; they do not describe him speaking aloud here. Alma qualifies “murdered” with “or rather led them away unto destruction.”"
     ],
     "prohibited_inventions": [
-      "Do not depict past victims, crimes, hell, or a divine judgment scene; these are not narrated as present visible events."
+      "Do not stage Alma's remembered actions as present events or depict victims, hell, God appearing, or a judgment scene.",
+      "Do not assign these words to Mormon as spoken dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Alma dreads judgment",
+    "title": "Alma's thought and three days of torment",
     "refs": [
       "Alma 36:15",
       "Alma 36:16"
     ],
-    "summary": "Alma longs to be banished and cease to exist rather than stand before God to be judged; his torment lasts three days and three nights.",
+    "summary": "Alma wishes he could be banished and cease to exist rather than stand before God to be judged. He is racked for three days and three nights.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma thinks that he wishes he could be banished and become extinct in soul and body rather than stand before God to be judged.",
+        "text": "Alma thinks he wishes to be banished and become extinct in soul and body rather than stand before God to be judged for his deeds.",
         "refs": [
           "Alma 36:15"
         ]
@@ -502,41 +533,42 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma remains incapacitated on the ground during this period, as established in the account."
+      "Alma may appear distressed while experiencing the pain he describes."
     ],
     "unspecified_visual_details": [
-      "The precise staging and setting during this passage of time."
+      "Alma's physical position and surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Oh, thought I, that I could be banished",
+        "text": "Oh, thought I, that I could be banished and become extinct both soul and body, that I might not be brought to stand in the presence of my God, to be judged of my deeds.",
         "refs": [
           "Alma 36:15"
         ]
       },
       {
-        "text": "for three days and for three nights",
+        "text": "And now, for three days and for three nights was I racked, even with the pains of a damned soul.",
         "refs": [
           "Alma 36:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The wish and the pains are reported inward experiences, not literal scenes of banishment or damnation."
+      "Alma's wish and description of pain report inward experiences, not visible events of banishment, judgment, or damnation."
     ],
     "prohibited_inventions": [
-      "Do not depict Alma actually disappearing, dying, or standing before God in judgment."
+      "Do not depict Alma actually disappearing, dying, or standing before God in judgment.",
+      "Do not place Alma on the ground or specify a setting not given in these verses."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Alma remembers Jesus Christ",
+    "title": "Alma remembers his father’s prophecy",
     "refs": [
       "Alma 36:17"
     ],
-    "summary": "While tormented by the memory of his sins, Alma remembers hearing his father prophesy that Jesus Christ, the Son of God, would atone for the sins of the world.",
+    "summary": "While tormented by the memory of his sins, Alma remembers hearing his father prophesy to the people concerning Jesus Christ’s coming and atonement for the sins of the world.",
     "characters": [
       "Alma the Younger (high priest)"
     ],
@@ -545,48 +577,56 @@
     ],
     "explicit_facts": [
       {
-        "text": "During his torment, Alma remembers hearing his father prophesy to the people concerning Jesus Christ, the Son of God, and his atonement for the sins of the world.",
+        "text": "Alma is tormented by the memory of his many sins.",
+        "refs": [
+          "Alma 36:17"
+        ]
+      },
+      {
+        "text": "Alma remembers hearing his father prophesy to the people concerning the coming of Jesus Christ, a Son of God, to atone for the sins of the world.",
         "refs": [
           "Alma 36:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The moment can be shown as Alma remembering while alone in focus."
+      "Alma can be shown in distress as he remembers."
     ],
     "unspecified_visual_details": [
-      "The circumstances of the father’s earlier prophecy and the people who heard it."
+      "Alma’s surroundings and physical appearance are not described.",
+      "The setting and appearance of his father’s earlier prophecy are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I remembered also to have heard my father prophesy",
+        "text": "as I was thus racked with torment, while I was harrowed up by the memory of my many sins,",
         "refs": [
           "Alma 36:17"
         ]
       },
       {
-        "text": "concerning the coming of one Jesus Christ, a Son of God,",
+        "text": "I remembered also to have heard my father prophesy unto the people concerning the coming of one Jesus Christ, a Son of God, to atone for the sins of the world.",
         "refs": [
           "Alma 36:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Alma remembers a prior prophecy; do not stage that earlier public address as occurring now."
+      "The prophecy is remembered, not delivered in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not show Jesus Christ appearing to Alma; no appearance is described."
+      "Do not stage the earlier prophecy as a present event.",
+      "Do not depict Jesus Christ appearing to Alma; no appearance is described."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "Alma cries for mercy",
+    "title": "Alma cries within his heart",
     "refs": [
       "Alma 36:18"
     ],
-    "summary": "Alma cries within his heart to Jesus Christ for mercy.",
+    "summary": "Alma's mind catches hold upon a thought, and he cries within his heart to Jesus, the Son of God, for mercy.",
     "characters": [
       "Alma the Younger (high priest)"
     ],
@@ -595,127 +635,144 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma says that as his mind caught hold on the thought, he cried within his heart to Jesus, the Son of God, for mercy.",
+        "text": "Alma says his mind caught hold upon a thought.",
+        "refs": [
+          "Alma 36:18"
+        ]
+      },
+      {
+        "text": "Alma cried within his heart to Jesus, the Son of God, for mercy.",
         "refs": [
           "Alma 36:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown in prayerful distress; the cry is inward, not spoken aloud."
+      "Alma may appear distressed; his cry is inward rather than audible."
     ],
     "unspecified_visual_details": [
-      "Alma’s precise posture and surroundings."
+      "Alma's posture and surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "O Jesus, thou Son of God,",
-        "refs": [
-          "Alma 36:18"
-        ]
-      },
-      {
-        "text": "have mercy on me,",
+        "text": "Now, as my mind caught hold upon this thought, I cried within my heart: O Jesus, thou Son of God, have mercy on me, who am in the gall of bitterness, and am encircled about by the everlasting chains of death.",
         "refs": [
           "Alma 36:18"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The quoted plea is an inward cry, not audible dialogue."
+      "The first-person plea is Alma's inward cry. The chains of death are figurative, not a visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict Jesus visibly appearing or answering."
+      "Do not depict literal chains or Jesus visibly appearing or answering.",
+      "Do not present the inward cry as audible speech."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "Alma’s anguish lifts",
+    "title": "Alma describes joy after pain",
     "refs": [
       "Alma 36:19",
       "Alma 36:20",
       "Alma 36:21"
     ],
-    "summary": "Alma says he can no longer remember his pains and describes marvelous light and joy exceeding his pain.",
+    "summary": "Alma recounts that he could no longer remember his pains or be harrowed by the memory of his sins. He says he beheld marvelous light and felt joy exceeding his pain. Addressing his son, he compares his bitter pain with his sweet joy.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger",
+      "Alma's son"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After his thought of Jesus, Alma says he could remember his pains and sins no more.",
+        "text": "Alma says he could remember his pains no more and was no longer harrowed by the memory of his sins.",
         "refs": [
           "Alma 36:19"
         ]
       },
       {
-        "text": "Alma describes beholding marvelous light and feeling joy exceeding his pain.",
+        "text": "Alma says he beheld marvelous light and felt joy exceeding his pain.",
         "refs": [
           "Alma 36:20"
         ]
       },
       {
-        "text": "Alma compares his joy’s sweetness with the exquisite bitterness of his pain.",
+        "text": "Alma addresses his son and compares his bitter pain with his sweet joy.",
         "refs": [
           "Alma 36:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A change in lighting may suggest Alma’s reported experience of marvelous light."
+      "Alma may be shown addressing his son while recounting his past experience."
     ],
     "unspecified_visual_details": [
-      "Whether the light is a visible external source, and its color, shape, or origin."
+      "The location and the appearances of Alma and his son.",
+      "The light's color, shape, and source."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "I could remember my pains no more;",
         "refs": [
           "Alma 36:19"
-        ]
+        ],
+        "speaker": "Alma the Younger"
       },
       {
-        "text": "what marvelous light I did behold;",
+        "text": "And oh, what joy, and what marvelous light I did behold;",
         "refs": [
           "Alma 36:20"
-        ]
+        ],
+        "speaker": "Alma the Younger"
       },
       {
-        "text": "my soul was filled with joy",
+        "text": "there could be nothing so exquisite and so bitter as were my pains.",
         "refs": [
-          "Alma 36:20"
-        ]
+          "Alma 36:21"
+        ],
+        "speaker": "Alma the Younger"
+      },
+      {
+        "text": "there can be nothing so exquisite and sweet as was my joy.",
+        "refs": [
+          "Alma 36:21"
+        ],
+        "speaker": "Alma the Younger"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The text reports Alma’s experience of light; it does not identify a visible figure or source for it."
+      "Alma recounts a past experience; the verses do not identify the light's source or describe a visible divine figure."
     ],
     "prohibited_inventions": [
-      "Do not add Jesus, God, or angels as visible sources of the light."
+      "Do not depict Jesus, God, or an angel as the source of the light.",
+      "Do not name Alma's son or add a response from him.",
+      "Do not present Alma's recollection as a new event occurring while he addresses his son."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "Alma beholds a vision",
+    "title": "Alma describes what he thought he saw",
     "refs": [
       "Alma 36:22"
     ],
-    "summary": "Alma says he thought he saw God seated on his throne, surrounded by numberless angels singing and praising God.",
+    "summary": "Alma says he thought he saw God seated on his throne, surrounded by numberless angels singing and praising God, and that his soul longed to be there.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger (high priest)",
+      "God",
+      "angels"
     ],
     "locations": [
-      "the heavens"
+      "the scene Alma says he thought he saw"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says he thought he saw God sitting upon his throne, surrounded by numberless angels singing and praising their God.",
+        "text": "Alma says he thought he saw God sitting on his throne, surrounded by numberless angels in the attitude of singing and praising God.",
         "refs": [
           "Alma 36:22"
         ]
@@ -728,31 +785,26 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The vision may be represented with God seated on a throne and countless angels singing and praising, as Alma describes."
+      "Represent what Alma says he thought he saw: God seated on a throne, surrounded by angels in the attitude of singing and praising."
     ],
     "unspecified_visual_details": [
-      "God’s appearance, the angels’ appearance and number beyond “numberless,” and the throne’s design."
+      "The appearances of God and the angels, and the throne’s design, are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "God sitting upon his throne,",
+        "text": "Yea, methought I saw, even as our father Lehi saw, God sitting upon his throne, surrounded with numberless concourses of angels, in the attitude of singing and praising their God; yea, and my soul did long to be there.",
         "refs": [
           "Alma 36:22"
-        ]
-      },
-      {
-        "text": "surrounded with numberless concourses of angels,",
-        "refs": [
-          "Alma 36:22"
-        ]
+        ],
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma frames this as what he thought he saw; the verse explicitly describes God enthroned and angels singing and praising."
+      "Alma frames this as what he thought he saw. Lehi is mentioned for comparison, not as physically present in this scene."
     ],
     "prohibited_inventions": [
-      "Do not invent the appearance of God, angelic clothing, architecture, or additional heavenly figures."
+      "Do not invent the appearance of God or the angels, additional heavenly figures, or a visible appearance by Lehi."
     ],
     "importance": "normal"
   },
@@ -772,7 +824,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma’s limbs receive their strength again and he stands upon his feet.",
+        "text": "Alma’s limbs receive their strength again, and he stands upon his feet.",
         "refs": [
           "Alma 36:23"
         ]
@@ -785,7 +837,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The people are present to witness Alma standing and his manifestation."
+      "People are present when Alma stands and manifests to them."
     ],
     "unspecified_visual_details": [
       "The people’s identities and number, the manner of Alma’s manifestation, and the setting."
@@ -793,98 +845,104 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "my limbs did receive their strength again,",
-        "refs": [
-          "Alma 36:23"
-        ]
-      },
-      {
-        "text": "I stood upon my feet,",
+        "text": "But behold, my limbs did receive their strength again, and I stood upon my feet, and did manifest unto the people that I had been born of God.",
         "refs": [
           "Alma 36:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse gives no specific words spoken by Alma to the people."
+      "The verse gives no specific words spoken to the people."
     ],
     "prohibited_inventions": [
-      "Do not invent Alma’s speech or the people’s response."
+      "Do not invent speech, the people’s response, or a visible depiction of being born of God."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "Alma labors to bring others to repentance",
+    "title": "Alma recounts the fruit of his labors",
     "refs": [
       "Alma 36:24",
       "Alma 36:25",
       "Alma 36:26"
     ],
-    "summary": "Alma recounts that he has labored without ceasing to bring souls to repentance and that the Lord gives him joy in the fruit of his labors.",
+    "summary": "Alma tells his son that he has labored without ceasing to bring souls to repentance. He says the Lord gives him great joy in the fruit of his labors and that many have been born of God.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Unspecified people"
+      "Alma the Younger",
+      "Alma's son"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "From that time until the present of his counsel, Alma says he has labored without ceasing to bring souls to repentance and to the joy he tasted.",
+        "text": "Alma says he has labored without ceasing to bring souls to repentance.",
         "refs": [
           "Alma 36:24"
         ]
       },
       {
-        "text": "Alma says the Lord gives him great joy in the fruit of his labors.",
+        "text": "Alma addresses his son and says the Lord gives him great joy in the fruit of his labors.",
         "refs": [
           "Alma 36:25"
         ]
       },
       {
-        "text": "Alma says many have been born of God, tasted as he tasted, and know the things he has spoken of.",
+        "text": "Alma says many have been born of God and know the things of which he has spoken.",
         "refs": [
           "Alma 36:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown teaching people, but the account does not specify a particular teaching occasion."
+      "Alma may be shown addressing his son; the verses do not establish a particular setting."
     ],
     "unspecified_visual_details": [
-      "The people’s identities, number, and setting, and any particular occasion of Alma’s labor."
+      "Alma's and his son's appearances",
+      "The location and circumstances of this address",
+      "The identities and appearances of the many people Alma mentions"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I have labored without ceasing,",
+        "text": "Yea, and from that time even until now, I have labored without ceasing, that I might bring souls unto repentance;",
         "refs": [
           "Alma 36:24"
-        ]
+        ],
+        "speaker": "Alma the Younger"
       },
       {
-        "text": "the Lord doth give me exceedingly great joy",
+        "text": "Yea, and now behold, O my son, the Lord doth give me exceedingly great joy in the fruit of my labors;",
         "refs": [
           "Alma 36:25"
-        ]
+        ],
+        "speaker": "Alma the Younger"
+      },
+      {
+        "text": "many have been born of God,",
+        "refs": [
+          "Alma 36:26"
+        ],
+        "speaker": "Alma the Younger"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a summary of Alma’s ongoing labor, not a single specifically dated event."
+      "Alma recounts ongoing labor and its fruit; these verses do not narrate a particular conversion as it occurs."
     ],
     "prohibited_inventions": [
-      "Do not depict one particular conversion or claim a specific person was converted here."
+      "Do not depict a specific conversion or teaching occasion as an event narrated here.",
+      "Do not invent identities for the people Alma mentions or visibly depict divine figures not described as appearing."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_016",
-    "title": "God supports and delivers Alma",
+    "title": "Alma’s testimony of deliverance",
     "refs": [
       "Alma 36:27"
     ],
-    "summary": "Alma testifies that God has supported him in trials and delivered him from prison, bonds, and death, and that he trusts God to deliver him still.",
+    "summary": "Alma says God has supported him through trials and afflictions, delivered him from prison, bonds, and death, and will deliver him still.",
     "characters": [
       "Alma the Younger (high priest)"
     ],
@@ -893,104 +951,114 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma says God has supported him in trials, troubles, and afflictions.",
+        "text": "Alma says he has been supported through trials, troubles, and afflictions.",
         "refs": [
           "Alma 36:27"
         ]
       },
       {
-        "text": "Alma says God has delivered him from prison, bonds, and death, and he trusts God to deliver him still.",
+        "text": "Alma says God has delivered him from prison, bonds, and death.",
+        "refs": [
+          "Alma 36:27"
+        ]
+      },
+      {
+        "text": "Alma says he trusts God to deliver him still.",
         "refs": [
           "Alma 36:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The verse summarizes past deliverances; no particular prison, bonds, or death event is specified for depiction."
+      "Alma may be shown speaking; the verse does not depict any particular past deliverance as it happens."
     ],
     "unspecified_visual_details": [
-      "The circumstances, time, and setting of each deliverance."
+      "The setting and appearance of the speaker.",
+      "The circumstances of the past deliverances."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "God has delivered me from prison, and from bonds, and from death;",
+        "text": "And I have been supported under trials and troubles of every kind, yea, and in all manner of afflictions; yea, God has delivered me from prison, and from bonds, and from death; yea, and I do put my trust in him, and he will still deliver me.",
         "refs": [
           "Alma 36:27"
-        ]
+        ],
+        "speaker": "Alma the Younger (high priest)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The deliverances are reported collectively and are not separate present-tense scenes."
+      "The prison, bonds, and death deliverances are reported as past events, not narrated as present action."
     ],
     "prohibited_inventions": [
-      "Do not invent a prison escape, restraint, near-death event, or other specific episode."
+      "Do not invent or depict a specific prison escape, restraint, near-death episode, or visible divine appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_017",
-    "title": "Alma remembers God’s deliverance of their fathers",
+    "title": "Alma remembers deliverance and urges remembrance",
     "refs": [
       "Alma 36:28",
       "Alma 36:29"
     ],
-    "summary": "Alma recalls God bringing their fathers out of Egypt and Jerusalem, delivering them from bondage, and leading them to the promised land; he urges Helaman to remember their captivity.",
+    "summary": "Alma says God will raise him up at the last day. He recalls God bringing their fathers out of Egypt and the land of Jerusalem, leading them to the promised land, and delivering them from captivity. He urges his listeners to remember their captivity.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Helaman (son of Alma)"
+      "Alma the Younger (high priest)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says God will raise him up at the last day to dwell with Him in glory, and he will praise God forever.",
+        "text": "Alma says God will raise him up at the last day to dwell with Him in glory.",
         "refs": [
           "Alma 36:28"
         ]
       },
       {
-        "text": "Alma recalls God bringing their fathers out of Egypt, swallowing up the Egyptians in the Red Sea, leading the fathers into the promised land, and delivering them from captivity.",
+        "text": "Alma says God brought their fathers out of Egypt, swallowed up the Egyptians in the Red Sea, led their fathers into the promised land, and delivered them from bondage and captivity.",
         "refs": [
           "Alma 36:28"
         ]
       },
       {
-        "text": "Alma says God also brought their fathers out of Jerusalem and delivered them from bondage and captivity; he urges Helaman to remember their captivity.",
+        "text": "Alma says God brought their fathers out of the land of Jerusalem and continued to deliver them from bondage and captivity. He urges his listeners to remember their captivity.",
         "refs": [
           "Alma 36:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues speaking to Helaman; the historical deliverances are recollections, not a single current event."
+      "Alma is speaking to listeners; the past deliverances are being recalled, not occurring in the present scene."
     ],
     "unspecified_visual_details": [
-      "The settings and details of the remembered deliverances and Alma’s future dwelling in glory."
+      "The listeners’ identities and appearance",
+      "The present setting",
+      "The appearance of the remembered places and events"
     ],
     "spoken_dialogue": [
       {
-        "text": "ye also ought to retain in remembrance, as I have done, their captivity.",
+        "text": "he has brought our fathers out of Egypt, and he has swallowed up the Egyptians in the Red Sea; and he led them by his power into the promised land; yea, and he has delivered them out of bondage and captivity from time to time.",
+        "refs": [
+          "Alma 36:28"
+        ],
+        "speaker": "Alma the Younger (high priest)"
+      },
+      {
+        "text": "yea, and ye also ought to retain in remembrance, as I have done, their captivity.",
         "refs": [
           "Alma 36:29"
         ],
         "speaker": "Alma the Younger (high priest)"
       }
     ],
-    "narration": [
-      {
-        "text": "he has swallowed up the Egyptians in the Red Sea;",
-        "refs": [
-          "Alma 36:28"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Red Sea and Jerusalem deliverances are cited as past history; the future resurrection is testimony, not a present visible event."
+      "The deliverances are recalled as past events; being raised up at the last day is Alma’s expectation, not a present visible event."
     ],
     "prohibited_inventions": [
-      "Do not stage the Exodus, the Red Sea, Jerusalem’s departure, or the resurrection as events happening now."
+      "Do not depict the Exodus, the Red Sea event, the departure from Jerusalem, or the last day as happening in the present scene.",
+      "Do not assign an identity to the listeners from these verses alone or depict God’s appearance."
     ],
     "importance": "normal"
   },

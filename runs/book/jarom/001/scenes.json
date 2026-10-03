@@ -97,29 +97,42 @@
     "refs": [
       "Jarom 1:3"
     ],
-    "summary": "Jarom describes the people’s hardness of heart and God’s mercy in not yet sweeping them from the land.",
+    "summary": "Jarom says much should be done among this people because of their spiritual condition. He says God is merciful to them and has not yet swept them from the land.",
     "characters": [
-      "Jarom"
+      "Jarom",
+      "the people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jarom says much must be done among the people because of their hardness, deafness, blindness, and stiffness; God is merciful and has not yet swept them from the land.",
+        "text": "Jarom says much should be done among this people because of the hardness of their hearts, deafness of their ears, blindness of their minds, and stiffness of their necks.",
+        "refs": [
+          "Jarom 1:3"
+        ]
+      },
+      {
+        "text": "God is exceedingly merciful to them and has not yet swept them from the land.",
         "refs": [
           "Jarom 1:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jarom may be shown writing as he reflects on the people."
+      "Jarom may be represented as the narrator; no physical action is specified."
     ],
     "unspecified_visual_details": [
-      "The people’s identities, individual appearance, and any specific setting."
+      "The people's appearances and the specific setting."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Behold, it is expedient that much should be done among this people",
+        "refs": [
+          "Jarom 1:3"
+        ]
+      },
       {
         "text": "God is exceedingly merciful unto them",
         "refs": [
@@ -137,7 +150,7 @@
       "The descriptions of deafness, blindness, and stiff necks are figures of speech, not literal visible conditions."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine intervention or destruction; neither is narrated as occurring."
+      "Do not depict literal deafness or blindness, a divine appearance, or destruction; none is narrated as occurring."
     ],
     "importance": "normal"
   },
@@ -193,41 +206,48 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The Nephites at Two Hundred Years",
+    "title": "Two Hundred Years Have Passed",
     "refs": [
       "Jarom 1:5"
     ],
-    "summary": "Two hundred years have passed; the Nephites are strong, observe the law of Moses and the sabbath, and have strict laws.",
+    "summary": "Two hundred years have passed. The people of Nephi have grown strong in the land, observe the law of Moses and the sabbath, do not profane or blaspheme, and have exceedingly strict laws.",
     "characters": [
-      "Nephite settlers (2 Nephi)"
+      "Jarom (narrator)",
+      "people of Nephi"
     ],
     "locations": [
-      "Nephite land"
+      "the land of the people of Nephi"
     ],
     "explicit_facts": [
       {
-        "text": "Two hundred years have passed, and the people of Nephi have grown strong in the land.",
+        "text": "Two hundred years had passed, and the people of Nephi had grown strong in the land.",
         "refs": [
           "Jarom 1:5"
         ]
       },
       {
-        "text": "They observe the law of Moses and keep the sabbath day holy; they do not profane or blaspheme, and the laws of the land are exceedingly strict.",
+        "text": "The people observed the law of Moses and kept the sabbath day holy unto the Lord.",
+        "refs": [
+          "Jarom 1:5"
+        ]
+      },
+      {
+        "text": "They did not profane or blaspheme, and the laws of the land were exceedingly strict.",
         "refs": [
           "Jarom 1:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A community of Nephites may be shown in their land."
+      "The people of Nephi may be shown together in their land."
     ],
     "unspecified_visual_details": [
-      "The community’s architecture, clothing, specific sabbath observances, and the content or enforcement of the laws."
+      "Architecture, clothing, particular sabbath observances, and the content or enforcement of the laws."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the people of Nephi had waxed strong in the land.",
+        "text": "And now, behold, two hundred years had passed away, and the people of Nephi had waxed strong in the land.",
         "refs": [
           "Jarom 1:5"
         ]
@@ -239,9 +259,11 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Jarom is the first-person narrator; this verse does not place him physically in the scene."
+    ],
     "prohibited_inventions": [
-      "Do not invent a particular ritual, law, or legal proceeding."
+      "Do not invent a particular ritual, law, legal proceeding, or visible appearance for Jarom."
     ],
     "importance": "normal"
   },
@@ -678,7 +700,7 @@
       "Jarom 1:14",
       "Jarom 1:15"
     ],
-    "summary": "Jarom says he will write no more, directs his brethren to Nephi’s other plates for records of wars, and gives his plates to his son Omni to keep.",
+    "summary": "Jarom says he will write no more because the plates are small. He directs his brethren to the other plates of Nephi for records of their wars, then delivers these plates to his son Omni.",
     "characters": [
       "Jarom",
       "Omni"
@@ -688,28 +710,34 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jarom says the plates are small and directs his brethren to the other plates of Nephi for records of wars.",
+        "text": "Jarom says he will write no more because the plates are small.",
         "refs": [
           "Jarom 1:14"
         ]
       },
       {
-        "text": "Jarom delivers the plates to his son Omni to be kept according to the commandments of his fathers.",
+        "text": "Jarom directs his brethren to the other plates of Nephi, on which records of their wars are engraved.",
+        "refs": [
+          "Jarom 1:14"
+        ]
+      },
+      {
+        "text": "Jarom delivers these plates into the hands of his son Omni so they may be kept according to the commandments of his fathers.",
         "refs": [
           "Jarom 1:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jarom handing plates to Omni."
+      "Jarom handing the plates to Omni."
     ],
     "unspecified_visual_details": [
-      "The location, the plates’ appearance, and the ages and appearances of Jarom and Omni."
+      "The location and the appearances of Jarom, Omni, and the plates."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I deliver these plates into the hands of my son Omni",
+        "text": "And I deliver these plates into the hands of my son Omni, that they may be kept according to the commandments of my fathers.",
         "refs": [
           "Jarom 1:15"
         ]

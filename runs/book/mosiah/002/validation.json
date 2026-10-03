@@ -1,5 +1,5 @@
 {
-  "stamp": "7e7820d218f29ff377de62767de221472224005663167eef1bee18c01ddd1f01",
+  "stamp": "7ff57a476749697824778b5545def90725d90962ba956e22ce0babb4af9a59c0",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -64,8 +64,10 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The note claiming that no preceding scene or information from Mosiah 2:30 is established contradicts the supplied preceding scene and source text. The address in verses 31–33 continues the speaker’s address in verse 30."
+      ]
     },
     "scene_015": {
       "status": "PASS",

@@ -6,43 +6,50 @@
       "Jacob 6:1",
       "Jacob 6:2"
     ],
-    "summary": "Jacob addresses his brethren, recalls Zenos’s comparison of the house of Israel to a tame olive-tree, and prophesies that the Lord’s servants shall nourish and prune the vineyard a last time before the end soon comes.",
+    "summary": "Jacob addresses his brethren and prophesies that Zenos’s words concerning the house of Israel will come to pass. He speaks of a last time when the Lord’s servants will nourish and prune his vineyard, after which the end soon comes.",
     "characters": [
-      "Jacob"
+      "Jacob",
+      "Jacob’s brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jacob addresses his brethren and says Zenos likened the house of Israel to a tame olive-tree.",
+        "text": "Jacob addresses his brethren and identifies his words as a prophecy.",
         "refs": [
           "Jacob 6:1"
         ]
       },
       {
-        "text": "Jacob prophesies that the servants of the Lord shall go forth to nourish and prune his vineyard for the last time, after which the end soon comes.",
+        "text": "Zenos likened the house of Israel to a tame olive-tree.",
+        "refs": [
+          "Jacob 6:1"
+        ]
+      },
+      {
+        "text": "Jacob says the servants of the Lord shall go forth in his power to nourish and prune his vineyard for the last time, after which the end soon comes.",
         "refs": [
           "Jacob 6:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob is speaking to listeners."
+      "Jacob speaks to listeners."
     ],
     "unspecified_visual_details": [
-      "Jacob’s appearance, his listeners’ appearance, and the physical setting are not specified."
+      "Jacob’s appearance, his listeners’ appearance, and the physical setting are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "And now, behold, my brethren, as I said unto you that I would prophesy, behold, this is my prophecy—that the things which this prophet Zenos spake, concerning the house of Israel, in the which he likened them unto a tame olive-tree, must surely come to pass.",
+        "text": "this is my prophecy—that the things which this prophet Zenos spake, concerning the house of Israel, in the which he likened them unto a tame olive-tree, must surely come to pass.",
         "refs": [
           "Jacob 6:1"
         ],
         "speaker": "Jacob"
       },
       {
-        "text": "and after that the end soon cometh.",
+        "text": "the servants of the Lord shall go forth in his power, to nourish and prune his vineyard; and after that the end soon cometh.",
         "refs": [
           "Jacob 6:2"
         ],
@@ -51,11 +58,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The olive-tree and vineyard language belongs to the prophecy; it is not narrated as a visible event."
+      "The olive-tree and vineyard language is part of the prophecy, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal olive-tree, vineyard, or servants pruning as a present event.",
-      "Do not depict Zenos as physically present."
+      "Do not depict the prophesied pruning as a present event.",
+      "Do not depict Zenos as physically present.",
+      "Do not invent appearances or a specific setting."
     ],
     "importance": "normal"
   },

@@ -1,11 +1,9 @@
 {
-  "stamp": "f85e8d1a2cc133d0b17438588bc326ce7e17d78d904aa628812e7cb0ff397869",
+  "stamp": "a025547a673514c1e6d26e4b6191ae3735d7a627711e88080f942fd5a31dac7d",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary, explicit facts, and quoted narration align with verses 1–2. The tender plant/root is figurative, so depicting it as a literal event would be uncertain; no visual is supplied to assess."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

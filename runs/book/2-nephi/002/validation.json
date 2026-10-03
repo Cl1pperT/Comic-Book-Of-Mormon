@@ -1,14 +1,14 @@
 {
-  "stamp": "bcc801171fd8b662002de53591e88197cef460b886caf490f644af02a1d4661f",
+  "stamp": "479cc40085ae334440bc0ea3996b65c55b703242500938ea7d70fab9b3d53a86",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "Lehi and Jacob are not explicitly said to be physically together while he speaks; the imagined visual staging is a reasonable but nonessential inference."
+        "The doctrinal_or_story_notes state that Nephi is identified as narrator, but the supplied verses do not establish that identification. The source-only rule does not permit presenting it as fact."
       ]
     },
     "scene_003": {

@@ -171,7 +171,7 @@
       "1 Nephi 11:6",
       "1 Nephi 11:7"
     ],
-    "summary": "The Spirit praises the Lord, blesses Nephi for believing in the Son of God, and tells him what he will behold as a sign.",
+    "summary": "After Nephi speaks, the Spirit cries aloud, praises the Lord, blesses Nephi for his belief, and promises him a sign: he will behold the tree whose fruit his father tasted, then a man descending out of heaven, whom witnesses will identify as the Son of God.",
     "characters": [
       "Nephi",
       "The Spirit"
@@ -179,7 +179,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "After Nephi speaks, the Spirit cries aloud, praising the Lord, the most high God.",
+        "text": "After Nephi speaks, the Spirit cries with a loud voice and praises the Lord, the most high God.",
         "refs": [
           "1 Nephi 11:6"
         ]
@@ -191,43 +191,22 @@
         ]
       },
       {
-        "text": "The Spirit says the sign is that Nephi will behold the tree his father tasted from, then a man descending out of heaven; witnesses will bear record that the man is the Son of God.",
+        "text": "The Spirit says that, as a sign, Nephi will behold the tree whose fruit his father tasted, then a man descending out of heaven. After witnessing the man, witnesses will bear record that he is the Son of God.",
         "refs": [
           "1 Nephi 11:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Spirit is speaking to Nephi."
+      "The Spirit addresses Nephi."
     ],
     "unspecified_visual_details": [
-      "The Spirit's visible form and the setting are unspecified.",
-      "The promised tree and descending man are not shown as present events."
+      "The setting and the Spirit’s visible form are unspecified.",
+      "The promised tree and descending man are not present events in these verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "Hosanna to the Lord, the most high God; for he is God over all the earth, yea, even above all.",
-        "refs": [
-          "1 Nephi 11:6"
-        ],
-        "speaker": "The Spirit"
-      },
-      {
-        "text": "And blessed art thou, Nephi, because thou believest in the Son of the most high God;",
-        "refs": [
-          "1 Nephi 11:6"
-        ],
-        "speaker": "The Spirit"
-      },
-      {
-        "text": "wherefore, thou shalt behold the things which thou hast desired.",
-        "refs": [
-          "1 Nephi 11:6"
-        ],
-        "speaker": "The Spirit"
-      },
-      {
-        "text": "And behold this thing shall be given unto thee for a sign,",
+        "text": "And behold this thing shall be given unto thee for a sign, that after thou hast beheld the tree which bore the fruit which thy father tasted, thou shalt also behold a man descending out of heaven, and him shall ye witness; and after ye have witnessed him ye shall bear record that it is the Son of God.",
         "refs": [
           "1 Nephi 11:7"
         ],
@@ -235,9 +214,12 @@
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The tree and descending man are promised future sights, not events occurring in this scene."
+    ],
     "prohibited_inventions": [
-      "Do not depict the promised tree or the man descending from heaven as occurring in this moment."
+      "Do not depict the promised tree or the man descending from heaven as occurring in this moment.",
+      "Do not invent a visible form for the Spirit or a setting."
     ],
     "importance": "normal"
   },

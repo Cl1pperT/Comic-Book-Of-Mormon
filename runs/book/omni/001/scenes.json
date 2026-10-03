@@ -43,23 +43,22 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Omni’s War and Record",
+    "title": "Omni Confers the Plates on Amaron",
     "refs": [
       "Omni 1:2",
       "Omni 1:3"
     ],
-    "summary": "Omni reports fighting to defend the Nephites, admits his failures to keep the Lord’s commandments, recalls periods of peace and war, and transfers the plates to Amaron.",
+    "summary": "Omni reports that he fought to preserve the Nephites from the Lamanites, did not keep the Lord’s commandments as he ought, and lived through seasons of peace and war. After 282 years had passed, he confers the plates on his son Amaron.",
     "characters": [
       "Omni",
-      "Nephites",
-      "Lamanites"
+      "Amaron"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Omni fought with the sword to preserve the Nephites from the Lamanites.",
+        "text": "Omni says he fought much with the sword to preserve the Nephites from the Lamanites.",
         "refs": [
           "Omni 1:2"
         ]
@@ -71,40 +70,41 @@
         ]
       },
       {
-        "text": "Omni reports seasons of peace and serious war and bloodshed; after 282 years he conferred the plates upon his son Amaron.",
+        "text": "Omni reports many seasons of peace and many seasons of serious war and bloodshed.",
+        "refs": [
+          "Omni 1:3"
+        ]
+      },
+      {
+        "text": "After 282 years had passed, Omni conferred the plates upon his son Amaron.",
         "refs": [
           "Omni 1:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Omni may be shown holding or transferring the plates."
+      "Show Omni passing the plates to Amaron to depict the stated handoff."
     ],
     "unspecified_visual_details": [
-      "The location, appearance of the combatants, and any specific battle."
+      "The location, clothing, appearances, and physical details of the plates are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I fought much with the sword",
-        "refs": [
-          "Omni 1:2"
-        ]
-      },
-      {
-        "text": "and I conferred them upon my son Amaron.",
+        "text": "I had kept these plates according to the commandments of my fathers; and I conferred them upon my son Amaron.",
         "refs": [
           "Omni 1:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The report spans multiple years; do not depict one specific battle as the whole account."
+      "Omni’s fighting and the seasons of peace and war are retrospective reports, not events occurring during the handoff."
     ],
     "prohibited_inventions": [
-      "Do not depict Amaron’s appearance or a particular battle."
+      "Do not depict a particular battle or combine the reported years of war and peace with the handoff.",
+      "Do not invent dialogue, a setting, or appearances for Omni or Amaron."
     ],
-    "importance": "normal"
+    "importance": "major"
   },
   {
     "scene_id": "scene_003",
@@ -167,6 +167,7 @@
     ],
     "summary": "The Lord visited the people in great judgment, spared the righteous from perishing, and delivered them from their enemies.",
     "characters": [
+      "The Lord",
       "Unnamed people",
       "The righteous",
       "Unnamed enemies"
@@ -176,52 +177,52 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord had led them out of the land of Jerusalem and preserved them from falling into the hands of their enemies.",
+        "text": "The Lord had led the people out of the land of Jerusalem and preserved them from falling into the hands of their enemies.",
         "refs": [
           "Omni 1:6"
         ]
       },
       {
-        "text": "The Lord would not allow his words to their fathers about keeping his commandments and prospering in the land to go unverified.",
+        "text": "The Lord had told their fathers that those who did not keep his commandments would not prosper in the land.",
         "refs": [
           "Omni 1:6"
         ]
       },
       {
-        "text": "The Lord visited them in great judgment, spared the righteous from perishing, and delivered them from their enemies.",
+        "text": "The Lord visited the people in great judgment, spared the righteous from perishing, and delivered them from their enemies.",
         "refs": [
           "Omni 1:7"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "People may be shown moving away from unnamed enemies, without specifying how they were delivered."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The location, the form of the judgment, and the means of deliverance."
+      "The form of the judgment, the means of deliverance, and the location are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord did visit them in great judgment;",
+        "text": "Inasmuch as ye will not keep my commandments ye shall not prosper in the land.",
         "refs": [
-          "Omni 1:7"
+          "Omni 1:6"
         ]
       },
       {
-        "text": "but did deliver them out of the hands of their enemies.",
+        "text": "Wherefore, the Lord did visit them in great judgment; nevertheless, he did spare the righteous that they should not perish, but did deliver them out of the hands of their enemies.",
         "refs": [
           "Omni 1:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The earlier departure from Jerusalem is background, not part of the judgment and deliverance occurring here.",
-      "The verses do not describe a visible appearance of the Lord."
+      "Omni is the record keeper narrating these verses. The first narration excerpt quotes words the Lord had spoken to their fathers; it is not a new speech in this scene.",
+      "The departure from Jerusalem is background, not part of this judgment and deliverance.",
+      "The supplied verses do not identify the people further or describe a visible appearance of the Lord. The requested wording about the more wicked Nephites is not in the supplied verses and cannot be added."
     ],
     "prohibited_inventions": [
-      "Do not identify the enemies as Lamanites or give the unnamed people a name.",
-      "Do not invent a visible appearance of the Lord, a specific judgment event, or a means of deliverance."
+      "Do not add events or wording from verse 5.",
+      "Do not name the enemies or the unnamed people.",
+      "Do not invent a visible appearance of the Lord, a specific form of judgment, or a means of deliverance."
     ],
     "importance": "normal"
   },
@@ -335,12 +336,12 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Amaleki Introduces Mosiah",
+    "title": "Amaleki Begins His Account",
     "refs": [
       "Omni 1:11",
       "Omni 1:12"
     ],
-    "summary": "A record of the people is engraved on plates held by kings. Amaleki identifies himself as Abinadom’s son and begins an account of Mosiah, who was made king over the land of Zarahemla and warned to flee the land of Nephi with those who would heed the Lord.",
+    "summary": "Abinadom ends his account. Amaleki identifies himself as Abinadom’s son and begins to speak about Mosiah, who was made king over the land of Zarahemla and was warned to flee the land of Nephi.",
     "characters": [
       "Amaleki"
     ],
@@ -349,13 +350,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The record of this people is engraved on plates held by the kings according to the generations.",
+        "text": "The record of the people is engraved on plates held by kings according to the generations.",
         "refs": [
           "Omni 1:11"
         ]
       },
       {
-        "text": "Amaleki identifies himself as the son of Abinadom.",
+        "text": "Abinadom says he knows of no revelation or prophecy beyond what has been written, and ends his account.",
+        "refs": [
+          "Omni 1:11"
+        ]
+      },
+      {
+        "text": "Amaleki identifies himself as Abinadom’s son.",
         "refs": [
           "Omni 1:12"
         ]
@@ -368,14 +375,20 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Amaleki may be shown delivering or recording his account; Mosiah need not appear."
+      "Show Amaleki in the picture as his account begins, with his quoted introduction as the caption."
     ],
     "unspecified_visual_details": [
-      "Amaleki’s surroundings and appearance.",
-      "How the warning was conveyed to Mosiah."
+      "Amaleki’s appearance and surroundings.",
+      "The manner in which Mosiah received the warning."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And I make an end.",
+        "refs": [
+          "Omni 1:11"
+        ]
+      },
       {
         "text": "Behold, I am Amaleki, the son of Abinadom.",
         "refs": [
@@ -384,13 +397,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Omni 1:11 does not identify its first-person speaker in the supplied text.",
-      "Mosiah’s warning and proposed departure are reported, not shown occurring in this scene."
+      "The first narration excerpt is Abinadom’s conclusion; the second is Amaleki’s introduction. They are successive record keepers, not speakers in a shared moment.",
+      "Mosiah’s warning is reported here, not shown happening."
     ],
     "prohibited_inventions": [
-      "Do not show Mosiah physically present or depict his departure as already occurring.",
-      "Do not depict the Lord or invent the manner of the warning.",
-      "Do not attribute Omni 1:11’s first-person statements to Amaleki."
+      "Do not omit Amaleki from the picture accompanying his introduction.",
+      "Do not show Abinadom and Amaleki concluding and beginning their accounts simultaneously.",
+      "Do not depict Mosiah’s departure or invent how the Lord warned him.",
+      "Do not depict the Lord’s appearance."
     ],
     "importance": "normal"
   },
@@ -400,7 +414,7 @@
     "refs": [
       "Omni 1:13"
     ],
-    "summary": "He did as the Lord commanded. Those who hearkened departed into the wilderness, were led by preachings and prophesyings and continually admonished by the word of God, and eventually came to the land of Zarahemla.",
+    "summary": "He did as the Lord commanded him. Those who hearkened departed into the wilderness, were led and continually admonished, and came to the land of Zarahemla.",
     "characters": [
       "The unnamed person referred to as “he”",
       "Those who hearkened unto the voice of the Lord"
@@ -429,7 +443,7 @@
         ]
       },
       {
-        "text": "They were led through the wilderness until they came to the land of Zarahemla.",
+        "text": "They came down through the wilderness into the land of Zarahemla.",
         "refs": [
           "Omni 1:13"
         ]
@@ -440,19 +454,19 @@
     ],
     "unspecified_visual_details": [
       "The travelers’ number and appearance",
-      "The terrain and route",
+      "The wilderness terrain and route",
       "The appearance of the land of Zarahemla"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And they departed out of the land into the wilderness, as many as would hearken unto the voice of the Lord;",
+        "text": "And it came to pass that he did according as the Lord had commanded him.",
         "refs": [
           "Omni 1:13"
         ]
       },
       {
-        "text": "and they were led by many preachings and prophesyings.",
+        "text": "And they departed out of the land into the wilderness, as many as would hearken unto the voice of the Lord;",
         "refs": [
           "Omni 1:13"
         ]
@@ -465,64 +479,73 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The journey unfolds over time; departure, travel, and arrival should not be compressed into one moment.",
-      "Being led by the power of the Lord’s arm does not establish a visible arm."
+      "Departure, travel, and arrival occur in sequence, not in one moment.",
+      "This verse does not name “he,” identify the land they departed, or state a reason for leaving.",
+      "The Lord’s power is described, but no visible divine arm or appearance is stated."
     ],
     "prohibited_inventions": [
-      "Do not name the travelers or assign them an unstated identity or relationship.",
-      "Do not invent spoken words, named preachers, or prophets.",
+      "Do not add the preceding verse’s wording or identify “he” from material outside the supplied verse.",
+      "Do not invent spoken words, named preachers, prophets, or travelers.",
       "Do not depict a literal divine arm or an unstated divine appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "The Peoples Meet",
+    "title": "Rejoicing Among the People of Zarahemla",
     "refs": [
       "Omni 1:14"
     ],
-    "summary": "Mosiah’s people discover the people of Zarahemla, who rejoice along with Zarahemla because Mosiah’s people brought the plates of brass.",
+    "summary": "After the discovery of the people of Zarahemla, they rejoice, and Zarahemla rejoices exceedingly because the Lord sent the people of Mosiah with the plates of brass containing the record of the Jews.",
     "characters": [
-      "Mosiah I (king)",
-      "Nephite followers of Mosiah",
-      "People of Zarahemla (Mulekites)",
-      "Zarahemla (leader)"
+      "People of Zarahemla",
+      "Zarahemla",
+      "People of Mosiah"
     ],
-    "locations": [
-      "Land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah’s people discovered the people of Zarahemla.",
+        "text": "A people called the people of Zarahemla were discovered.",
         "refs": [
           "Omni 1:14"
         ]
       },
       {
-        "text": "The people of Zarahemla and Zarahemla rejoiced because the Lord had sent Mosiah’s people with the plates of brass containing the record of the Jews.",
+        "text": "The people of Zarahemla rejoiced, and Zarahemla rejoiced exceedingly.",
+        "refs": [
+          "Omni 1:14"
+        ]
+      },
+      {
+        "text": "The Lord had sent the people of Mosiah with the plates of brass, which contained the record of the Jews.",
         "refs": [
           "Omni 1:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The groups may be shown meeting and rejoicing; plates of brass may be visible."
+      "Zarahemla and his people may be shown rejoicing.",
+      "The plates of brass may be shown with the people of Mosiah."
     ],
     "unspecified_visual_details": [
-      "The appearance of the plates, the precise meeting place, and the people’s clothing."
+      "The location, clothing, and appearance of the plates are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Now, there was great rejoicing among the people of Zarahemla",
+        "text": "Now, there was great rejoicing among the people of Zarahemla; and also Zarahemla did rejoice exceedingly, because the Lord had sent the people of Mosiah with the plates of brass which contained the record of the Jews.",
         "refs": [
           "Omni 1:14"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Amaleki is the record keeper narrating this verse. The Lord's sending of the people of Mosiah is given as the reason for the rejoicing, not as a visible appearance."
+    ],
     "prohibited_inventions": [
-      "Do not invent a ceremony or words spoken at the meeting."
+      "Do not depict the discovery and the rejoicing as simultaneous.",
+      "Do not invent dialogue, a ceremony, or a visible appearance of the Lord.",
+      "Do not depict Mosiah himself solely because his people are mentioned."
     ],
     "importance": "normal"
   },
@@ -533,48 +556,67 @@
       "Omni 1:15",
       "Omni 1:16"
     ],
-    "summary": "Mosiah discovers that the people of Zarahemla came from Jerusalem during Zedekiah’s captivity, journeyed through the wilderness, crossed the great waters, and settled where Mosiah found them.",
+    "summary": "Amaleki recounts that Mosiah discovered the people of Zarahemla had come from Jerusalem when Zedekiah was carried captive to Babylon. They had journeyed through the wilderness, crossed the great waters, and dwelt in the land where Mosiah discovered them.",
     "characters": [
-      "Mosiah I (king)",
-      "People of Zarahemla (Mulekites)"
+      "Amaleki (narrator)",
+      "Mosiah",
+      "People of Zarahemla",
+      "Zedekiah (mentioned)"
     ],
     "locations": [
-      "Land of Zarahemla"
+      "Jerusalem (mentioned)",
+      "Babylon (mentioned)",
+      "The wilderness (recounted)",
+      "The great waters (recounted)",
+      "The land where Mosiah discovered the people"
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah learned that the people of Zarahemla came from Jerusalem when Zedekiah was carried captive into Babylon.",
+        "text": "Mosiah discovered that the people of Zarahemla came from Jerusalem when Zedekiah, king of Judah, was carried captive to Babylon.",
         "refs": [
           "Omni 1:15"
         ]
       },
       {
-        "text": "They journeyed in the wilderness, crossed the great waters by the hand of the Lord, and dwelt in the land where Mosiah discovered them.",
+        "text": "The people journeyed in the wilderness and were brought by the hand of the Lord across the great waters.",
+        "refs": [
+          "Omni 1:16"
+        ]
+      },
+      {
+        "text": "They had dwelt in the land where Mosiah discovered them from that time forth.",
         "refs": [
           "Omni 1:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The account may be presented as narration over the Zarahemla setting, rather than staging the earlier journey."
+      "Present the account as Amaleki’s narration rather than staging the earlier journey or captivity as a present-tense event."
     ],
     "unspecified_visual_details": [
-      "The route, means of crossing the waters, and visual details of the journey."
+      "The route through the wilderness, the means of crossing the waters, and the appearance of the land are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they had dwelt there from that time forth.",
+        "text": "Mosiah discovered that the people of Zarahemla came out from Jerusalem at the time that Zedekiah, king of Judah, was carried away captive into Babylon.",
+        "refs": [
+          "Omni 1:15"
+        ]
+      },
+      {
+        "text": "And they journeyed in the wilderness, and were brought by the hand of the Lord across the great waters, into the land where Mosiah discovered them; and they had dwelt there from that time forth.",
         "refs": [
           "Omni 1:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These verses recount past events, not a new present-tense journey scene."
+      "These verses recount earlier events; “by the hand of the Lord” does not describe a visible hand."
     ],
     "prohibited_inventions": [
-      "Do not depict Zedekiah or the Babylonian captivity as physically present."
+      "Do not depict Zedekiah or the Babylonian captivity as physically present in the discovery setting.",
+      "Do not invent a visible divine figure, a crossing method, or dialogue."
     ],
     "importance": "normal"
   },
@@ -682,31 +724,35 @@
     "refs": [
       "Omni 1:20"
     ],
-    "summary": "A large engraved stone is brought to Mosiah, who interprets its engravings by the gift and power of God.",
+    "summary": "In Mosiah’s days, a large engraved stone is brought to him, and he interprets its engravings by the gift and power of God.",
     "characters": [
-      "Mosiah I (king)"
+      "Mosiah"
     ],
-    "locations": [
-      "Land of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "In Mosiah’s days, a large engraved stone was brought to him, and he interpreted the engravings by the gift and power of God.",
+        "text": "In Mosiah’s days, a large stone with engravings was brought to him.",
+        "refs": [
+          "Omni 1:20"
+        ]
+      },
+      {
+        "text": "Mosiah interpreted the engravings by the gift and power of God.",
         "refs": [
           "Omni 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown examining or interpreting the engraved stone."
+      "Mosiah may be shown examining the engraved stone."
     ],
     "unspecified_visual_details": [
-      "The engravings’ appearance, the stone’s exact size and material, and who brought it."
+      "The location, the stone’s exact size and material, the appearance of the engravings, and who brought it."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did interpret the engravings by the gift and power of God.",
+        "text": "And it came to pass in the days of Mosiah, there was a large stone brought unto him with engravings on it; and he did interpret the engravings by the gift and power of God.",
         "refs": [
           "Omni 1:20"
         ]
@@ -725,9 +771,15 @@
       "Omni 1:21",
       "Omni 1:22"
     ],
-    "summary": "They gave an account of Coriantumr and the slain of his people. The people of Zarahemla discovered him, and he dwelt with them for nine moons. It also spoke of his fathers, his first parents who came from the tower when the Lord confounded the people's language, the Lord's judgments, and bones scattered in the land northward.",
-    "characters": [],
-    "locations": [],
+    "summary": "They gave an account of Coriantumr and the slain of his people. The people of Zarahemla discovered Coriantumr, and he dwelt with them for nine moons. It also spoke briefly concerning his fathers. His first parents came out from the tower when the Lord confounded the people's language. The Lord's severity fell upon them, and their bones lay scattered in the land northward.",
+    "characters": [
+      "Coriantumr",
+      "people of Zarahemla"
+    ],
+    "locations": [
+      "the tower",
+      "the land northward"
+    ],
     "explicit_facts": [
       {
         "text": "They gave an account of Coriantumr and the slain of his people.",
@@ -742,13 +794,13 @@
         ]
       },
       {
-        "text": "It spoke briefly of his fathers. His first parents came from the tower when the Lord confounded the people's language.",
+        "text": "It spoke a few words concerning his fathers; his first parents came out from the tower when the Lord confounded the people's language.",
         "refs": [
           "Omni 1:22"
         ]
       },
       {
-        "text": "The severity of the Lord fell upon them according to his judgments, and their bones lay scattered in the land northward.",
+        "text": "The Lord's severity fell upon them according to his judgments, and their bones lay scattered in the land northward. The verse does not explicitly identify the referent of “them” and “their.”",
         "refs": [
           "Omni 1:22"
         ]
@@ -758,8 +810,8 @@
     "unspecified_visual_details": [
       "The appearance of Coriantumr and the people of Zarahemla",
       "The circumstances of Coriantumr's discovery",
-      "The appearance and location of the tower",
-      "The account's medium and any present-time setting"
+      "The appearance of the tower",
+      "The account's medium and the setting in which it was given"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -783,12 +835,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Both verses report past events; they do not establish a present-time setting or identify what “It” refers to."
+      "These verses report earlier events; they do not establish a present-time visual setting.",
+      "The listed characters and locations are mentioned in the report, not established as physically present before the narrator.",
+      "The referent of “It” and the identity of the group referred to as “them” and “their” are not specified here."
     ],
     "prohibited_inventions": [
-      "Do not depict the reported discovery, dwelling, tower event, or scattered bones as a present-time event.",
-      "Do not identify the account's medium as a stone or its words as engravings.",
-      "Do not add titles or ancestry labels for Coriantumr or the people of Zarahemla."
+      "Do not stage the reported events as occurring in the narrator's present.",
+      "Do not invent an account medium, a setting for its telling, or dialogue.",
+      "Do not invent appearances or further details about Coriantumr, his people, or the tower.",
+      "Do not assign the Lord's judgment or the scattered bones to a group more specifically than the verse does."
     ],
     "importance": "normal"
   },
@@ -907,48 +962,47 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "The Narrator's Intention for the Plates",
+    "title": "Amaleki’s Intention for the Plates",
     "refs": [
       "Omni 1:25"
     ],
-    "summary": "The narrator has begun to grow old and has no seed. Knowing King Benjamin to be just before the Lord, he says he will deliver the plates to him and exhorts all people to come unto God and believe in good gifts.",
+    "summary": "Amaleki says he has begun to grow old and has no seed. He says he will deliver the plates to King Benjamin and exhorts all people to come unto God and believe in good gifts.",
     "characters": [
-      "Unnamed first-person narrator"
+      "Amaleki"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The narrator has begun to grow old and has no seed.",
+        "text": "Amaleki has begun to grow old and has no seed.",
         "refs": [
           "Omni 1:25"
         ]
       },
       {
-        "text": "The narrator knows King Benjamin to be just before the Lord and says he will deliver the plates to him; the transfer is not narrated.",
+        "text": "Amaleki knows King Benjamin to be just before the Lord and says he will deliver the plates to him; the transfer is not narrated.",
         "refs": [
           "Omni 1:25"
         ]
       },
       {
-        "text": "The narrator exhorts all people to come unto God and believe in prophesying, revelations, the ministering of angels, speaking with tongues, interpreting languages, and all things good.",
+        "text": "Amaleki exhorts all people to come unto God and believe in prophesying, revelations, the ministering of angels, speaking with tongues, interpreting languages, and all things good.",
         "refs": [
           "Omni 1:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The aging narrator may be depicted with the plates, without showing their transfer."
+      "Amaleki may be depicted with the plates, without showing their transfer."
     ],
     "unspecified_visual_details": [
-      "The narrator's precise appearance, the plates' appearance, and the location are unspecified.",
-      "King Benjamin's appearance and whereabouts are unspecified."
+      "Amaleki’s precise appearance, the plates’ appearance, and the location are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I began to be old;",
+        "text": "And it came to pass that I began to be old;",
         "refs": [
           "Omni 1:25"
         ]
@@ -967,11 +1021,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The gifts and the statements about good and evil are teachings, not narrated visible events."
+      "The gifts and the statements about good and evil are teachings, not narrated visible events.",
+      "The supplied verse does not contain Amaleki’s name, so his identification belongs in the scene label rather than inside a quotation."
     ],
     "prohibited_inventions": [
       "Do not depict the transfer of the plates as having happened.",
-      "Do not depict King Benjamin, angels, or miraculous manifestations as present in this scene."
+      "Do not depict King Benjamin, angels, or miraculous manifestations as present in this scene.",
+      "Do not add Amaleki’s name to a source quotation."
     ],
     "importance": "normal"
   },
@@ -981,105 +1037,108 @@
     "refs": [
       "Omni 1:26"
     ],
-    "summary": "Amaleki exhorts his hearers to come unto Christ, partake of salvation and redemption, offer their whole souls, fast and pray, and endure to the end.",
+    "summary": "Amaleki exhorts his beloved brethren to come unto Christ, offer their whole souls, continue in fasting and praying, and endure to the end.",
     "characters": [
       "Amaleki"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Amaleki exhorts his hearers to come unto Christ, partake of salvation and redemption, offer their whole souls, continue fasting and praying, and endure to the end.",
+        "text": "Amaleki addresses his beloved brethren and exhorts them to come unto Christ, offer their whole souls, continue in fasting and praying, and endure to the end.",
         "refs": [
           "Omni 1:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amaleki may be shown speaking as narrator, with no depiction of Christ required."
+      "Amaleki may be shown delivering the exhortation; Christ need not be depicted."
     ],
     "unspecified_visual_details": [
-      "The audience and the setting of the exhortation."
+      "The setting and the appearance of Amaleki and his audience."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "come unto Christ, who is the Holy One of Israel",
-        "refs": [
-          "Omni 1:26"
-        ]
-      },
-      {
-        "text": "and endure to the end;",
+        "text": "And now, my beloved brethren, I would that ye should come unto Christ, who is the Holy One of Israel, and partake of his salvation, and the power of his redemption.",
         "refs": [
           "Omni 1:26"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is an exhortation, not a narrated appearance of Christ."
+      "The narration is Amaleki’s exhortation, not a narrated appearance of Christ."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ as visibly present."
+      "Do not depict Christ as visibly present or invent an audience, setting, or additional events."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_019",
-    "title": "A Group Sets Out for the Land of Nephi",
+    "title": "An Expedition into the Wilderness",
     "refs": [
       "Omni 1:27",
       "Omni 1:28"
     ],
-    "summary": "A large group desiring the land of their inheritance sets out through the wilderness under a strong, mighty, stiffnecked leader; a contention occurs, all but fifty are slain, and the fifty return to Zarahemla.",
+    "summary": "A large number who desired to possess the land of their inheritance went into the wilderness to return to the land of Nephi. Their leader caused contention among them. All but fifty were slain in the wilderness, and the fifty returned to the land of Zarahemla.",
     "characters": [
-      "The leader of the expedition to the land of Nephi",
-      "The expedition group to the land of Nephi"
+      "Amaleki (narrator)",
+      "The unnamed leader",
+      "The unnamed expedition group"
     ],
     "locations": [
-      "wilderness"
+      "wilderness",
+      "land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "A number went into the wilderness to return to the land of Nephi, desiring to possess the land of their inheritance.",
+        "text": "A number went into the wilderness to return to the land of Nephi; a large number desired to possess the land of their inheritance.",
         "refs": [
           "Omni 1:27"
         ]
       },
       {
-        "text": "Their strong and mighty leader caused contention; all but fifty were slain in the wilderness, and the fifty returned to Zarahemla.",
+        "text": "Their leader was described as strong, mighty, and stiffnecked, and he caused contention among them.",
+        "refs": [
+          "Omni 1:28"
+        ]
+      },
+      {
+        "text": "All but fifty were slain in the wilderness, and the fifty returned to the land of Zarahemla.",
         "refs": [
           "Omni 1:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group may be shown traveling; the reported deaths may be conveyed without gore, or kept off-panel."
+      "A chronicle-style sequence could distinguish the journey into the wilderness from the survivors’ return without depicting them as simultaneous."
     ],
     "unspecified_visual_details": [
-      "The leader’s name and appearance, the nature of the contention, and how the group was slain."
+      "The leader’s appearance and the group’s clothing are unspecified.",
+      "The nature of the contention and how the deaths occurred are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were all slain, save fifty, in the wilderness",
+        "text": "And now I would speak somewhat concerning a certain number who went up into the wilderness to return to the land of Nephi;",
         "refs": [
-          "Omni 1:28"
+          "Omni 1:27"
         ]
       },
       {
-        "text": "and they returned again to the land of Zarahemla.",
+        "text": "and they were all slain, save fifty, in the wilderness, and they returned again to the land of Zarahemla.",
         "refs": [
           "Omni 1:28"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The text reports the event; do not invent a specific battle or cause of death."
+      "Amaleki recounts these events; the expedition is not his present journey.",
+      "The land of Nephi is the intended destination, not a place the account says the group reached."
     ],
     "prohibited_inventions": [
-      "Do not show gore, wounds, or severed body parts."
+      "Do not invent a named leader, a specific battle, a cause of death, or dialogue.",
+      "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
@@ -1090,13 +1149,14 @@
       "Omni 1:29",
       "Omni 1:30"
     ],
-    "summary": "A group took many others and journeyed again into the wilderness. Amaleki says his brother went with them and that he has not since known concerning them. He says he is about to lie down in his grave, the plates are full, and he ends his speaking.",
+    "summary": "They took a considerable number of others and journeyed again into the wilderness. Amaleki says his brother went with them and that he has not since known concerning them. He says he is about to lie down in his grave, the plates are full, and he ends his speaking.",
     "characters": [
       "Amaleki",
-      "Amaleki's unnamed brother",
-      "Unnamed travelers"
+      "Amaleki's unnamed brother (mentioned, not present)",
+      "Unnamed travelers (mentioned, not present)"
     ],
     "locations": [
+      "Amaleki's unspecified location",
       "Wilderness (location of the reported journey)"
     ],
     "explicit_facts": [
@@ -1119,47 +1179,38 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The plates may be visible during Amaleki's closing statement."
+    ],
     "unspecified_visual_details": [
-      "The travelers' appearances and exact number.",
-      "The wilderness's appearance.",
-      "Amaleki's surroundings and the plates' appearance."
+      "Amaleki's appearance and surroundings.",
+      "The plates' appearance.",
+      "The travelers' appearances, exact number, and later fate.",
+      "The wilderness's appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and took their journey again into the wilderness.",
+        "text": "And it came to pass that they also took others to a considerable number, and took their journey again into the wilderness.",
         "refs": [
           "Omni 1:29"
         ]
       },
       {
-        "text": "And I, Amaleki, had a brother, who also went with them; and I have not since known concerning them.",
-        "refs": [
-          "Omni 1:30"
-        ]
-      },
-      {
-        "text": "And I am about to lie down in my grave; and these plates are full.",
-        "refs": [
-          "Omni 1:30"
-        ]
-      },
-      {
-        "text": "And I make an end of my speaking.",
+        "text": "And I, Amaleki, had a brother, who also went with them; and I have not since known concerning them. And I am about to lie down in my grave; and these plates are full. And I make an end of my speaking.",
         "refs": [
           "Omni 1:30"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The journey is reported retrospectively, not staged as a present-tense event.",
-      "The travelers' later fate is not given."
+      "Verse 29 reports another journey into the wilderness; it does not show the earlier travelers immediately resuming their journey.",
+      "The journey and Amaleki's brother's participation are reported retrospectively, not staged as present-tense action.",
+      "Amaleki's statement that he is about to lie down in his grave does not narrate his death."
     ],
     "prohibited_inventions": [
-      "Do not depict the reported departure as a present-tense scene.",
-      "Do not invent the brother's name or the travelers' fate.",
-      "Do not depict Amaleki's death as an event that has occurred."
+      "Do not depict the reported departure as a present-tense scene or identify these travelers as the fifty survivors.",
+      "Do not invent the brother's name, the travelers' later fate, or details of Amaleki's death."
     ],
     "importance": "normal"
   }

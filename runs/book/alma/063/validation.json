@@ -1,5 +1,5 @@
 {
-  "stamp": "ebbe825581016071326e4a1c94acd2b4909c9a08576ac97f00b24f04ca3e6036",
+  "stamp": "c69b58f4f2c2ec892ddb969493cc9a5c8ce54f088de026534a9d5b7e0962a899",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,8 +34,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The facts and chronology match Alma 63:10; the narration is an exact contiguous quotation.",
+        "Corianton aboard a ship with provisions is a reasonable inference, but the verse does not explicitly place him aboard or describe the ship or provisions. His appearance, Shiblon’s location and manner of death, and whether to depict either event are unspecified."
+      ]
     },
     "scene_010": {
       "status": "PASS",

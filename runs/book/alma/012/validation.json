@@ -1,5 +1,5 @@
 {
-  "stamp": "638a4eb2b27ca0b4e338c837f11f67b25c9589b01eee8b584b1846b0e3a609be",
+  "stamp": "6ea36e0ff2a275a8a4158721e2d412a9c3d0553811fa8b821b7059ce39a02402",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -22,24 +22,34 @@
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Alma expounds \"to a man,\" supported by verse 9, but does not identify him; keep the listener unnamed. The visual inference that Alma speaks to the listener is supported. The word \"many\" in the dialogue is not a claim that a crowd is present."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase \"refers to Amulek's words\" is supported, but Amulek is mentioned rather than shown. The passage addresses listeners collectively; their number and appearance are unspecified. Dialogue excerpts are verbatim and the judgment and rocks are not staged as present events."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and notes correctly treat the lake of fire and chains as teaching/comparison, not a visible event. The source addresses listeners collectively, but does not specify their number or appearance; show no invented torment scene or literal chains."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses support Alma’s reply to Antionah and its teachings. The exact dialogue excerpts are contiguous source text; narration is empty, so no word-limit concern.",
+        "Antionah is established by the preceding scene. His presence while Alma speaks is a reasonable inference from the exchange, not explicitly stated in verses 22–24.",
+        "The setting and clothing are correctly left unspecified."
+      ]
     },
     "scene_009": {
       "status": "PASS",

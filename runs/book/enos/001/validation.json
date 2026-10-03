@@ -1,5 +1,5 @@
 {
-  "stamp": "a5848012a2320f59e07b9027eb7b102ec27511139a2fd39427b2b1fe326966da",
+  "stamp": "aac82a28092230ca6dabcb19439f012b8d082af13ab59b6f7eb705b0e96a18ef",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -44,8 +44,9 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Enos (young, son of Jacob)” adds age and parentage not established by these verses.",
-        "The forest location carries forward from earlier scenes, but is not stated in verses 11–12; do not treat it as explicit fact."
+        "The timeline continues the preceding scene without conflict, but depicting the Lord as a present character or showing his words visually is unsupported: the prior verse places the Lord's voice in Enos's mind, while verse 12 only reports that the Lord said this. The scene's prohibition correctly cautions against a visible appearance.",
+        "The claim that Enos's faith 'begins' to be unshaken slightly overstates the verse, which says his faith 'began to be unshaken'; narration is an exact excerpt.",
+        "Enos is explicitly named in verse 11, but 'The Lord' as a character is supported only as the speaker of the reported words, not as a visible person."
       ]
     },
     "scene_008": {
@@ -77,12 +78,8 @@
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The characters use “Nephite settlers (2 Nephi)” and “Lamanites (2 Nephi era),” labels whose specific settler/era qualifications are not established by Enos 1:20; safer labels are the text's “people of Nephi” and “Lamanites.”",
-        "The location “Wilderness” is supported by the report that Lamanites wandered in the wilderness, but this is a summary of circumstances, not a particular present encounter.",
-        "“Many ate nothing save raw meat” is a reasonable rendering of “many of them did eat nothing save it was raw meat”; avoid presenting it as an event happening now."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",

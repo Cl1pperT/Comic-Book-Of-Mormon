@@ -80,12 +80,12 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Joseph's lineage and covenant",
+    "title": "Joseph’s lineage and covenant",
     "refs": [
       "2 Nephi 3:4",
       "2 Nephi 3:5"
     ],
-    "summary": "Lehi tells Joseph of his descent from Joseph who was carried captive into Egypt and recounts the promised branch and its future remembrance.",
+    "summary": "Lehi tells his son Joseph that he descends from Joseph who was carried captive into Egypt. He recounts the Lord’s covenants with that Joseph and the promise of a righteous branch from his lineage.",
     "characters": [
       "Lehi",
       "Joseph (son of Lehi)"
@@ -95,51 +95,59 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lehi says Joseph is the fruit of his loins and that Lehi is descended from Joseph who was carried captive into Egypt.",
+        "text": "Lehi says his son is the fruit of his loins and that he himself descends from Joseph who was carried captive into Egypt.",
         "refs": [
           "2 Nephi 3:4"
         ]
       },
       {
-        "text": "The Lord made covenants with Joseph; Lehi says Joseph saw their day and obtained a promise concerning a righteous branch from his lineage.",
+        "text": "The Lord made covenants with Joseph who was carried captive into Egypt.",
         "refs": [
-          "2 Nephi 3:4",
+          "2 Nephi 3:4"
+        ]
+      },
+      {
+        "text": "Lehi says that Joseph saw their day and received a promise that the Lord would raise up a righteous branch from his lineage.",
+        "refs": [
           "2 Nephi 3:5"
         ]
       },
       {
-        "text": "The branch would be remembered in the Lord's covenants and the Messiah would be made manifest to them in the latter days.",
+        "text": "The branch would be remembered in the Lord’s covenants, and the Messiah would be made manifest to them in the latter days.",
         "refs": [
           "2 Nephi 3:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi recounts these promises to Joseph as spoken teaching."
+      "Lehi speaks to his son Joseph."
     ],
     "unspecified_visual_details": [
-      "The setting and the appearance of the historical Joseph are unstated."
+      "The setting and the appearances of Lehi and his son are unstated."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And great were the covenants of the Lord which he made unto Joseph.",
+        "text": "For behold, thou art the fruit of my loins; and I am a descendant of Joseph who was carried captive into Egypt.",
         "refs": [
           "2 Nephi 3:4"
-        ]
+        ],
+        "speaker": "Lehi"
       },
       {
-        "text": "Joseph truly saw our day.",
+        "text": "Wherefore, Joseph truly saw our day.",
         "refs": [
           "2 Nephi 3:5"
-        ]
+        ],
+        "speaker": "Lehi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The branch, latter-day manifestation, and deliverance from darkness and captivity are prophetic teaching, not narrated present events."
+      "Joseph’s vision, the promised branch, and the latter-day manifestation of the Messiah are recounted as prophecy, not as events occurring during this conversation."
     ],
     "prohibited_inventions": [
-      "Do not depict Joseph in Egypt, the branch, or a visible Messiah."
+      "Do not depict Joseph in Egypt, the branch, or the Messiah as physically present.",
+      "Do not combine separate verse excerpts into a new quotation."
     ],
     "importance": "normal"
   },

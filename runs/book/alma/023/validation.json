@@ -1,5 +1,5 @@
 {
-  "stamp": "68d9b20d24ec4534d904bb9316e7b6bf484cdd2943b0a53e817f62df509fea77",
+  "stamp": "34f4a96bc227feda5afb958d9601cab09c69957b7e453df5521f4af33c8ac17c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,7 +26,9 @@
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The converted Amalekite’s identity and the specific people and places depicted are unspecified; avoid a staged confrontation or physical depiction of hardened hearts."
+        "“They hardened their own hearts” adds “own”; verse 14 says they hardened their hearts and the hearts of the Lamanites.",
+        "The narration excerpt from verse 15 is a contiguous quotation, but ends before the verse specifies that the cities were those in which people repented, came to know the truth, and were converted. This omission is not an ellipsis, but the excerpt alone is incomplete.",
+        "The visual contrast is a permissible inference only if it does not imply the groups shared a time or place; the previous scene explicitly warns that the converted communities are not one simultaneous gathering."
       ]
     },
     "scene_006": {

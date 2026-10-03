@@ -1,9 +1,12 @@
 {
-  "stamp": "6b624e5feba9b8553f69f3006d2724ee171c4f1a899afe6e5c7b683534a18a51",
+  "stamp": "5e32d2eb75e6d4054e47fd9cdc76ae75d8d2d65a6d22f16dba7e7ac9efaf0267",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label “Alma” is not the established label “Alma the Younger (high priest),” though the verse identifies the first-person speaker as Alma; the label does not create a conflicting character.",
+        "The narration quotes all of Alma 9:1 and fits the 65-word limit, but ends at “saying:” without supplying the people's words. Keep their speech unspecified in this scene."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -18,12 +21,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source identifies the speaker as Alma in Alma 9:7, though scene labels him unidentified; the source does not name the listeners in verses 12–13. Keep Lehi as mentioned in recalled speech, not physically present.",
-        "The summary's phrase “a saying about not keeping the commandments” is accurate, but the second dialogue excerpt omits the separate saying in Alma 9:13. Include it only as a separate exact quotation if depicting it.",
-        "The preceding scene presents Alma speaking to people; scene 005 continues that speech, not a new time or flashback."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",

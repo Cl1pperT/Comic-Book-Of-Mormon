@@ -199,9 +199,9 @@
       "Mosiah 22:7",
       "Mosiah 22:8"
     ],
-    "summary": "An unnamed speaker describes a back pass and proposes gathering flocks and herds, paying a last tribute of wine to the Lamanites, and departing with women and children into the wilderness.",
+    "summary": "A speaker describes a back pass and proposes gathering the people's flocks and herds, paying a last tribute of wine to the Lamanites, and departing through a secret pass with women, children, flocks, and herds into the wilderness and around the land of Shilom.",
     "characters": [
-      "Gideon"
+      "Unnamed speaker"
     ],
     "locations": [
       "Location of the speech unspecified"
@@ -214,7 +214,7 @@
         ]
       },
       {
-        "text": "The speaker proposes sending a proclamation for the people to gather their flocks and herds and drive them into the wilderness by night.",
+        "text": "The speaker proposes a proclamation for the people to gather their flocks and herds and drive them into the wilderness by night.",
         "refs": [
           "Mosiah 22:6"
         ]
@@ -233,34 +233,41 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The unnamed speaker may be shown speaking; the proposed actions need not be shown taking place."
+      "The speaker may be shown speaking; the proposed actions need not be shown taking place."
     ],
     "unspecified_visual_details": [
       "The speaker's identity and appearance are not supplied.",
-      "The speech's location and time and the addressee's identity are unspecified.",
+      "The speech's location, time, and addressee are unspecified.",
       "The wall, passes, and camp are not physically described."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold the back pass, through the back wall, on the back side of the city.",
+        "text": "The Lamanites, or the guards of the Lamanites, by night are drunken;",
         "refs": [
           "Mosiah 22:6"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
+      },
+      {
+        "text": "let us send a proclamation among all this people that they gather together their flocks and herds,",
+        "refs": [
+          "Mosiah 22:6"
+        ],
+        "speaker": "Unnamed speaker"
       },
       {
         "text": "pay the last tribute of wine to the Lamanites,",
         "refs": [
           "Mosiah 22:7"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       },
       {
-        "text": "Thus we will depart with our women and our children, our flocks, and our herds into the wilderness; and we will travel around the land of Shilom.",
+        "text": "we will pass through the secret pass on the left of their camp when they are drunken and asleep.",
         "refs": [
-          "Mosiah 22:8"
+          "Mosiah 22:7"
         ],
-        "speaker": "Gideon"
+        "speaker": "Unnamed speaker"
       }
     ],
     "narration": [],

@@ -6,9 +6,9 @@
       "2 Nephi 16:1",
       "2 Nephi 16:2"
     ],
-    "summary": "Isaiah sees the Lord seated upon a high throne in the temple, with the Lord’s train filling it and seraphim above.",
+    "summary": "In the year that king Uzziah died, Nephi sees the Lord sitting upon a throne, high and lifted up, with his train filling the temple. Seraphim stand above it, each with six wings.",
     "characters": [
-      "Isaiah",
+      "Nephi",
       "The Lord",
       "Seraphim"
     ],
@@ -17,38 +17,46 @@
     ],
     "explicit_facts": [
       {
-        "text": "Isaiah saw the Lord sitting upon a throne, high and lifted up, and the Lord’s train filled the temple.",
+        "text": "The narrator sees the Lord sitting upon a throne, high and lifted up, and his train fills the temple, in the year that king Uzziah died.",
         "refs": [
           "2 Nephi 16:1"
         ]
       },
       {
-        "text": "Seraphim stood above; each had six wings, covering face and feet with four and flying with two.",
+        "text": "Above it stand seraphim, each with six wings: two covering his face, two covering his feet, and two used to fly.",
         "refs": [
           "2 Nephi 16:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The throne is elevated inside the temple."
+      "The throne occupies an elevated position within the temple."
     ],
     "unspecified_visual_details": [
-      "The Lord’s physical appearance and clothing are not described.",
-      "The seraphim’s appearance beyond their six wings is not described.",
-      "The temple’s architecture and furnishings are not described."
+      "The Lord's facial features and other physical characteristics are unspecified.",
+      "The seraphim's number and appearance beyond the described wings, faces, and feet are unspecified.",
+      "Temple architecture, throne design, colors, and lighting are unspecified.",
+      "The narrator's position and appearance are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "In the year that king Uzziah died",
+        "text": "In the year that king Uzziah died, I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.",
         "refs": [
           "2 Nephi 16:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied task explicitly identifies the first-person narrator as Nephi; these two verses themselves name him only as “I.”",
+      "King Uzziah's death establishes the year, not a separate visible event.",
+      "The Lord's seated appearance and the seraphim are explicitly described as seen."
+    ],
     "prohibited_inventions": [
-      "Do not give the Lord an appearance beyond the details stated."
+      "Do not depict Uzziah's death or place him in the temple.",
+      "Do not invent dialogue or additional events.",
+      "Do not add undescribed divine physical features or supernatural effects.",
+      "Do not add features to the seraphim beyond those stated."
     ],
     "importance": "normal"
   },

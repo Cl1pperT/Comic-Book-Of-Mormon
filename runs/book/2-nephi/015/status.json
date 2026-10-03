@@ -4,17 +4,21 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 14,
+    "PASS": 13,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 0
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 3,
+  "rejected": {
+    "scene_001": [
+      "The supplied verses do not identify the first-person narrator as Nephi. The characters field and doctrinal note incorrectly claim that the task explicitly identifies him."
+    ]
+  },
+  "calls": 26,
   "tokens": {
-    "input_tokens": 28625,
-    "cached_input_tokens": 8448,
+    "input_tokens": 76093,
+    "cached_input_tokens": 24960,
     "cache_write_input_tokens": 0,
-    "output_tokens": 5990,
-    "reasoning_output_tokens": 212
+    "output_tokens": 8184,
+    "reasoning_output_tokens": 1004
   }
 }

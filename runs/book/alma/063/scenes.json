@@ -360,44 +360,56 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Corianton Carries Provisions",
+    "title": "Corianton’s Voyage and Shiblon’s Death",
     "refs": [
       "Alma 63:10"
     ],
-    "summary": "In the thirty-ninth year, Shiblon dies. Corianton has gone by ship to the land northward to carry provisions to the people there.",
+    "summary": "In the thirty-ninth year of the reign of the judges, Shiblon died. Corianton had gone by ship to the land northward to carry provisions to the people who had gone there.",
     "characters": [
       "Shiblon",
       "Corianton"
     ],
     "locations": [
-      "Unspecified location"
+      "Land northward",
+      "Ship",
+      "Shiblon’s location unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "In the thirty-ninth year, Shiblon died; Corianton had gone by ship to the land northward to carry provisions to the people there.",
+        "text": "Shiblon died in the thirty-ninth year of the reign of the judges.",
+        "refs": [
+          "Alma 63:10"
+        ]
+      },
+      {
+        "text": "Corianton had gone to the land northward in a ship to carry provisions to people who had gone there.",
         "refs": [
           "Alma 63:10"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Corianton may be shown aboard a ship with provisions. Shiblon need not be shown; his death is conveyed by narration."
+    ],
     "unspecified_visual_details": [
-      "Where Shiblon died and where Corianton boarded or was when carrying provisions."
+      "Shiblon’s place and manner of death.",
+      "The ship’s appearance, the provisions’ appearance, and Corianton’s appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Corianton had gone forth to the land northward",
+        "text": "Shiblon died also, and Corianton had gone forth to the land northward in a ship, to carry forth provisions unto the people who had gone forth into that land.",
         "refs": [
           "Alma 63:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are separate events and should not be depicted as happening simultaneously."
+      "Mormon narrates two distinct events; do not depict Shiblon’s death and Corianton’s voyage as simultaneous."
     ],
     "prohibited_inventions": [
-      "Do not place Shiblon's death and Corianton's voyage in a single simultaneous action."
+      "Do not show Shiblon aboard the ship or depict his death occurring during Corianton’s voyage.",
+      "Do not invent dialogue, a cause of death, or identities for the people in the land northward."
     ],
     "importance": "normal"
   },

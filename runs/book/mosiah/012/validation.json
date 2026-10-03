@@ -1,13 +1,17 @@
 {
-  "stamp": "1e548d51bf4eb806b6b0e2dad9b74bafbfde4e68d4157badef0d0368c49349e9",
+  "stamp": "fb13ca902a18ab4554171f2df46ae3aa61add3e2014941a561c720be70c7ce5d",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is unnamed in the supplied verses; the scene's unidentified-speaker label is appropriate. Do not resolve the identity using the preceding scene.",
+        "Visualizing a speaker delivering the warning is a reasonable inference, but the speaker's appearance, setting, and any audience are unspecified.",
+        "The quoted prophecy and furnace comparison are reported speech and figurative language, not events to depict as happening. The preceding scene does not alter this chronology."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -18,8 +22,11 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The supplied verses do not identify the narrator as Mormon; the summary and notes present that speaker identity as fact.",
+        "The spoken dialogue repeats Mosiah 12:7 after the preceding scene already quoted it, despite describing this scene as a continuation rather than a replay."
+      ]
     },
     "scene_006": {
       "status": "PASS",

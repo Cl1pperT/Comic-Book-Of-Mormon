@@ -1,5 +1,5 @@
 {
-  "stamp": "854ff5685dcf479f4b817ce3f199b40f0a1a8cc60ffa7998a07769791b04875c",
+  "stamp": "6e2ec561d34f04f23460782a73d7cb8c4146a5eb3ab0f13ba17e73a04ce243d1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,9 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse does not identify the fleeing man by name; the character label “The man who fled” is generic, but his identity remains unspecified.",
-        "A hiding place is not stated; “Unspecified hiding place” is appropriately unspecified. Depicting him writing while concealed is a reasonable visual inference, not an explicit description of a visible scene.",
-        "The preceding scene's summary says the king sends servants after Alma “to slay him,” which is supported, but any depiction of that pursuit or of Alma's fate should not be merged into this scene."
+        "The scene correctly limits itself to Mosiah 17:4 and does not merge Alma’s concealment with later events. The hiding place, identity of “them,” writing materials, and duration beyond “many days” remain unspecified; keep these visually ambiguous."
       ]
     },
     "scene_003": {
@@ -26,15 +24,17 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The man King Noah was about to release” is unnamed in these verses; the supplied text establishes that both verses refer to the same person, but the scene does not state that the priests accuse him of reviling the king until verse 12.",
+        "Verse 12 describes the priests lifting their voices and the king becoming angry; “speaking emphatically” and “reacting angrily” are reasonable visual interpretations, not explicit staging details."
+      ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The unnamed man is explicitly identified as Abinadi in the supplied preceding verses (Mosiah 17:9–12); labeling him only “Unnamed man” omits that source-supported identity. The preceding scene’s chronology is consistent.",
-        "The phrase “When flames begin to scorch him, he cries unto them” is supported by verse 14, but the scene must not depict the content of his cry, which is given only in verse 15 and is outside the scene’s refs.",
-        "“The binding, scourging, and flames may be shown without depicting wounds or gore” is a reasonable visual inference; avoid implying death, which is not narrated in these verses."
+        "The verses do not name the man or identify the people who take and bind him; depicting the continuity with the preceding scene as the same man is reasonable, but his identity is not stated in this scene’s verses.",
+        "“As flames begin to scorch him” is faithful to verse 14; show the flames and scourging without adding wounds, blood, or gore. The words of his cry are not given here."
       ]
     },
     "scene_008": {

@@ -5,18 +5,19 @@
     "refs": [
       "1 Nephi 5:1"
     ],
-    "summary": "The speaker and others came down into the wilderness to their father. He was filled with joy, and the speaker’s mother, Sariah, was exceedingly glad because she had mourned for them.",
+    "summary": "After Nephi and others came down into the wilderness to their father, he was filled with joy. Nephi’s mother, Sariah, was exceedingly glad; she had mourned because of them.",
     "characters": [
-      "The speaker (unnamed in the supplied verse)",
+      "Nephi",
       "Sariah",
-      "Their father"
+      "Nephi’s father",
+      "Others with Nephi"
     ],
     "locations": [
       "Wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker and others came down into the wilderness unto their father.",
+        "text": "Nephi and others came down into the wilderness to their father.",
         "refs": [
           "1 Nephi 5:1"
         ]
@@ -28,7 +29,7 @@
         ]
       },
       {
-        "text": "The speaker’s mother, Sariah, was exceedingly glad.",
+        "text": "Nephi’s mother, Sariah, was exceedingly glad.",
         "refs": [
           "1 Nephi 5:1"
         ]
@@ -41,33 +42,41 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker, others, their father, and Sariah may be shown together in the wilderness after the arrival.",
-      "Their father’s and Sariah’s expressions may convey joy and gladness."
+      "Nephi, the others, his father, and Sariah may be shown together after the arrival.",
+      "The father’s and Sariah’s expressions may convey joy and gladness."
     ],
     "unspecified_visual_details": [
-      "The identities and number of the others accompanying the speaker.",
+      "The identities and number of the others with Nephi.",
       "Exact positions, gestures, clothing, and appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he was filled with joy",
+        "text": "we had come down into the wilderness unto our father",
         "refs": [
           "1 Nephi 5:1"
         ]
       },
       {
-        "text": "my mother, Sariah, was exceedingly glad",
+        "text": "he was filled with joy, and also my mother, Sariah, was exceedingly glad",
+        "refs": [
+          "1 Nephi 5:1"
+        ]
+      },
+      {
+        "text": "for she truly had mourned because of us.",
         "refs": [
           "1 Nephi 5:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi, as specified for this chapter. Sariah’s mourning happened before this moment; do not depict it as simultaneous with her gladness."
+    ],
     "prohibited_inventions": [
-      "Do not depict the journey or events during the absence as part of this moment.",
-      "Do not invent names, traits, or biographies for the others who came down.",
-      "Do not identify the father beyond what the supplied verse says."
+      "Do not depict events during the absence as part of this moment.",
+      "Do not invent identities or biographies for the others who came down.",
+      "Do not identify the father by a name not supplied in the verse."
     ],
     "importance": "normal"
   },
@@ -441,41 +450,41 @@
       "1 Nephi 5:12",
       "1 Nephi 5:13"
     ],
-    "summary": "He beholds that the records contain the five books of Moses, a record of the Jews through the commencement of Zedekiah’s reign, and prophecies of holy prophets, including many spoken by Jeremiah.",
+    "summary": "He beholds that they contain the five books of Moses, a record of the Jews, and prophecies of holy prophets, including many spoken by Jeremiah.",
     "characters": [
-      "Lehi"
+      "Unidentified person"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "He beheld that the records contained the five books of Moses, which gave an account of the creation of the world and of Adam and Eve, identified as their first parents.",
+        "text": "He beheld that they contained the five books of Moses, which gave an account of the creation of the world and of Adam and Eve, their first parents.",
         "refs": [
           "1 Nephi 5:11"
         ]
       },
       {
-        "text": "The records contained a record of the Jews from the beginning through the commencement of the reign of Zedekiah, king of Judah.",
+        "text": "They contained a record of the Jews from the beginning to the commencement of the reign of Zedekiah, king of Judah.",
         "refs": [
           "1 Nephi 5:12"
         ]
       },
       {
-        "text": "The records contained prophecies of holy prophets from the beginning through the commencement of the reign of Zedekiah, and many prophecies spoken by Jeremiah.",
+        "text": "They contained prophecies of holy prophets through the commencement of Zedekiah’s reign, including many spoken by Jeremiah.",
         "refs": [
           "1 Nephi 5:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi beholds the records; their written contents need not be legible or displayed."
+      "The person who beholds the records may be shown examining them, but these verses do not identify him by name."
     ],
     "unspecified_visual_details": [
-      "The records’ physical appearance and the setting are not specified in these verses."
+      "The person’s appearance, the records’ physical form, and the setting are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And he beheld that they did contain the five books of Moses,",
+        "text": "the five books of Moses, which gave an account of the creation of the world,",
         "refs": [
           "1 Nephi 5:11"
         ]
@@ -494,11 +503,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report the contents of the records; they do not narrate events from within those records."
+      "Nephi narrates the contents of the records; these verses do not narrate the events described within them.",
+      "These supplied verses do not name the person referred to as “he.”"
     ],
     "prohibited_inventions": [
+      "Do not identify the person as Lehi using wording from an unsupplied verse.",
       "Do not depict Moses, Adam, Eve, Zedekiah, or Jeremiah as physically present.",
-      "Do not invent additional visible scenes or events from the records."
+      "Do not depict events from within the records as happening in this scene."
     ],
     "importance": "normal"
   },

@@ -406,66 +406,72 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "From the Synagogue to Ani-Anti",
+    "title": "Arrival at Ani-Anti",
     "refs": [
       "Alma 21:11"
     ],
-    "summary": "An unnamed person sees that his words will not be heard, leaves the synagogue, and comes to Ani-Anti. There he finds Muloki preaching, as well as Ammah and his brethren. The verse reports contention with many about the word without fully specifying who took part.",
+    "summary": "After seeing that his listeners would not hear his words, Aaron departed from their synagogue and came to Ani-Anti. He found Muloki preaching the word, and also Ammah and his brethren. The verse reports contention with many about the word without specifying everyone included in “they.”",
     "characters": [
-      "The unnamed person who departs",
+      "Aaron",
       "Muloki",
       "Ammah",
-      "His brethren, mentioned with Ammah",
-      "Unspecified people involved in the contention"
+      "Ammah's brethren",
+      "Unnamed listeners"
     ],
     "locations": [
-      "Their synagogue",
-      "Ani-Anti"
+      "Ani-Anti",
+      "Their synagogue (prior departure only)"
     ],
     "explicit_facts": [
       {
-        "text": "The unnamed person saw that others would not hear his words and departed from their synagogue.",
+        "text": "The arriving man had departed from their synagogue after seeing that they would not hear his words.",
         "refs": [
           "Alma 21:11"
         ]
       },
       {
-        "text": "He came to a village called Ani-Anti and found Muloki preaching the word, as well as Ammah and his brethren.",
+        "text": "He came to a village called Ani-Anti, where he found Muloki preaching the word, and also Ammah and his brethren.",
         "refs": [
           "Alma 21:11"
         ]
       },
       {
-        "text": "The verse says that they contended with many about the word; it does not fully specify the referent of “they.”",
+        "text": "The verse states that “they” contended with many about the word, without explicitly enumerating that group's members.",
         "refs": [
           "Alma 21:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The departure from the synagogue and arrival at Ani-Anti can be shown in sequence."
+      "Stage the arrival at Ani-Anti with Aaron encountering Muloki preaching and Ammah and his brethren present.",
+      "Listeners may be positioned near Muloki without assigning individual reactions."
     ],
     "unspecified_visual_details": [
-      "The appearance of the synagogue and village.",
-      "The appearance and number of people present."
+      "Village layout and architecture.",
+      "Clothing, ages, and physical appearances.",
+      "The number of listeners and brethren."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he departed out of their synagogue, and came over to a village which was called Ani-Anti,",
+        "text": "And they contended with many about the word.",
         "refs": [
           "Alma 21:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not name the person who departs or provide the words spoken while preaching or contending.",
-      "Do not assign an unambiguous identity to either use of “they.”"
+      "Aaron is the continuity label established by the preceding scene as identified in the correction; this verse itself uses “he.”",
+      "Keep the earlier synagogue departure distinct from the arrival at Ani-Anti.",
+      "Retain the contention as a reported event rather than staging a newly invented exchange.",
+      "No words from the preaching or contention are supplied."
     ],
     "prohibited_inventions": [
-      "Do not name the departing person.",
       "Do not invent preaching or contention dialogue.",
-      "Do not identify the participants in the contention beyond what the verse specifies."
+      "Do not identify every participant meant by “they.”",
+      "Do not depict physical fighting based on contention about the word.",
+      "Do not place the earlier synagogue departure and the village encounter in one simultaneous setting.",
+      "Do not give unnamed listeners or brethren names, biographies, or motives."
     ],
     "importance": "normal"
   },

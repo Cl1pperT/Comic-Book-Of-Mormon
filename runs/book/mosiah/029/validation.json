@@ -1,5 +1,5 @@
 {
-  "stamp": "9b7016aae300e29060c4cab5d393b1c4f12e942c691150c925373035f56cee53",
+  "stamp": "a9dcb15ea175d7d5a2ce7c4b6a8cc7b5c88c6bcc6ed40abeafdb74cab22d3f0f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,8 +10,10 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The people and the unnamed person who declined the kingdom are referenced, but these verses do not establish that they are physically present; do not depict them as present. The words are written, not described as a live address."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -72,12 +74,14 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The inference that Alma and other judges may be shown together is not explicit; the text does not specify their presence in one place or at the same time. Keep any depiction of the transition conservative."
+        "Alma’s presence among the people during his appointment is possible but not stated; depict it only as a visual inference, not an explicit fact."
       ]
     },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify either death’s location or circumstances, or describe either person’s appearance; avoid presenting such details as facts."
+      ]
     }
   }
 }

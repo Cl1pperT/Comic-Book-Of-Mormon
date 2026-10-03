@@ -4,17 +4,25 @@
   "verses": 22,
   "scenes": 11,
   "counts": {
-    "PASS": 3,
+    "PASS": 1,
     "PASS WITH WARNINGS": 8,
-    "REJECT": 0
+    "REJECT": 2
   },
-  "rejected": {},
-  "calls": 2,
+  "rejected": {
+    "scene_001": [
+      "The verses identify the first-person speaker only as “me” and “I”; they do not show Nephi present or identify him as the speaker. The character label and notes assert that unsupported identity."
+    ],
+    "scene_002": [
+      "The verses do not show Nephi present or identify him as the first-person speaker. The character label and notes assert that unsupported identity.",
+      "The title implies the child was named, but the verse supplies only an instruction to name him."
+    ]
+  },
+  "calls": 25,
   "tokens": {
-    "input_tokens": 19718,
-    "cached_input_tokens": 0,
+    "input_tokens": 113450,
+    "cached_input_tokens": 29824,
     "cache_write_input_tokens": 0,
-    "output_tokens": 4314,
-    "reasoning_output_tokens": 0
+    "output_tokens": 9157,
+    "reasoning_output_tokens": 1702
   }
 }

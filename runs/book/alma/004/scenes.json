@@ -450,9 +450,9 @@
       "Alma 4:17",
       "Alma 4:18"
     ],
-    "summary": "Alma selects wise elder Nephihah and gives him authority to enact and enforce laws. Nephihah is appointed chief judge and takes the judgment-seat; Alma retains the high priesthood.",
+    "summary": "Alma selects Nephihah, a wise man among the church elders, and gives him power to enact and enforce laws according to the voice of the people. Nephihah is appointed chief judge and sits in the judgment-seat. Alma retains the office of high priest.",
     "characters": [
-      "Alma (the Elder)",
+      "Alma",
       "Nephihah"
     ],
     "locations": [
@@ -460,57 +460,58 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma selected a wise man among the church elders and gave him power, according to the people's voice, to enact and enforce laws.",
+        "text": "Alma selected a wise man among the elders of the church and gave him power, according to the voice of the people, to enact and enforce laws.",
         "refs": [
           "Alma 4:16"
         ]
       },
       {
-        "text": "The man's name was Nephihah; he was appointed chief judge and sat in the judgment-seat to judge and govern the people.",
+        "text": "The man was Nephihah. He was appointed chief judge and sat in the judgment-seat to judge and govern the people.",
         "refs": [
           "Alma 4:17"
         ]
       },
       {
-        "text": "Alma did not give Nephihah the high priesthood; he retained that office and delivered the judgment-seat to Nephihah.",
+        "text": "Alma delivered the judgment-seat to Nephihah but retained the office of high priest.",
         "refs": [
           "Alma 4:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma transfers the judgment-seat to Nephihah, who sits upon it."
+      "Nephihah can be shown sitting in the judgment-seat."
     ],
     "unspecified_visual_details": [
-      "The design of the judgment-seat and the place of appointment."
+      "The judgment-seat’s design and the location’s appearance are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he sat in the judgment-seat to judge and to govern the people.",
+        "text": "Now this man’s name was Nephihah, and he was appointed chief judge; and he sat in the judgment-seat to judge and to govern the people.",
         "refs": [
           "Alma 4:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The text distinguishes Nephihah's civil office from Alma's retained high priesthood."
+      "Nephihah receives the civil office, while Alma retains the office of high priest."
     ],
     "prohibited_inventions": [
-      "Do not depict an unmentioned ceremony or crowd."
+      "Do not depict an unmentioned ceremony or crowd.",
+      "Do not give Nephihah the office of high priest."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Alma goes to preach",
+    "title": "Alma Delivers Up the Judgment-Seat",
     "refs": [
       "Alma 4:19",
       "Alma 4:20"
     ],
-    "summary": "Alma delivers the judgment-seat to Nephihah so he can preach among the people, relying on testimony of the word. At the beginning of the ninth year, he confines himself to the high priesthood and the word's testimony according to revelation and prophecy.",
+    "summary": "At the commencement of the ninth year of the judges, Alma delivers the judgment-seat to Nephihah and confines himself wholly to the high priesthood and testimony of the word. He intends to go among the people of Nephi to preach and call them to remember their duty.",
     "characters": [
-      "Alma (the Elder)",
+      "Alma",
       "Nephihah"
     ],
     "locations": [
@@ -518,39 +519,53 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma delivered the judgment-seat to Nephihah so he could go among the people and preach the word of God, reminding them of their duty and confronting pride, craftiness, and contention with pure testimony.",
+        "text": "Alma delivered the judgment-seat to Nephihah at the commencement of the ninth year of the reign of the judges.",
         "refs": [
-          "Alma 4:19",
           "Alma 4:20"
         ]
       },
       {
-        "text": "At the beginning of the ninth year, Alma confined himself wholly to the high priesthood and testimony of the word, according to revelation and prophecy.",
+        "text": "Alma intended to go among the people of Nephi to preach the word of God, stir them to remember their duty, and confront pride, craftiness, and contention through pure testimony.",
+        "refs": [
+          "Alma 4:19"
+        ]
+      },
+      {
+        "text": "Alma confined himself wholly to the high priesthood and testimony of the word, according to revelation and prophecy.",
         "refs": [
           "Alma 4:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma prepares to leave the judgment-seat and preach among the people."
+      "Alma and Nephihah may be shown together for the transfer of the judgment-seat."
     ],
     "unspecified_visual_details": [
-      "The specific place where Alma first preaches and the people he addresses."
+      "The setting and physical manner of the transfer are not described.",
+      "The appearances and clothing of Alma and Nephihah are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "that he might preach the word of God unto them,",
+        "text": "Alma delivered up the judgment-seat to Nephihah,",
+        "refs": [
+          "Alma 4:20"
+        ]
+      },
+      {
+        "text": "that he himself might go forth among his people, or among the people of Nephi, that he might preach the word of God unto them,",
         "refs": [
           "Alma 4:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The preaching among the people is stated as Alma's purpose; no sermon or separate audience scene is supplied here."
+      "Preaching is stated as Alma’s purpose, not narrated here as an event. Do not depict a sermon or an audience."
     ],
     "prohibited_inventions": [
-      "Do not invent words spoken by Alma or show an unspecified preaching audience."
+      "Do not attribute Alma’s intended preaching to Nephihah.",
+      "Do not invent speech, a sermon, or a physical handover ritual.",
+      "Do not depict revelation, prophecy, or figurative language as a visible event."
     ],
     "importance": "normal"
   }

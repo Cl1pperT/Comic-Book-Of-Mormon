@@ -1,5 +1,5 @@
 {
-  "stamp": "72255dd3314e595f468383903ffa369b2127ad0eedd4bae284987e04c4fbbbc6",
+  "stamp": "7751e2568fa575735824e641b74e3ebd835d98549064ddf2fa4a50d4bf762799",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,9 +12,9 @@
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says the Lamanites “attack” and “begin to slay” the Nephihah people; the verses support this, but the timing of the earlier flight from Manti is only described as having occurred before they joined the Lamanites, not precisely when.",
-        "The first narration excerpt “were attacked by the Lamanites.” is a contiguous exact excerpt from Alma 59:5; the second excerpt “they did begin to slay them with an exceedingly great slaughter.” is exact from Alma 59:7. Together they stay within the 65-word limit.",
-        "The scene correctly keeps Moroni and Ammoron out of the depicted attack and treats the flight from Manti as prior history."
+        "The title says “attacked,” consistent with the verses, but the source does not explicitly say Nephihah was captured or lost in this scene; keep the depiction to the attack and its beginning slaughter.",
+        "“This part of the land” is source wording, but the exact location and terrain are unspecified.",
+        "The refugees from Manti joining the Lamanites are reported as prior events, not actions during the attack; the notes correctly warn against reenacting them."
       ]
     },
     "scene_004": {

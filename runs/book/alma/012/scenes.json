@@ -198,123 +198,175 @@
       "Alma 12:10",
       "Alma 12:11"
     ],
-    "summary": "Alma explains that knowledge of God's mysteries is given according to heed and diligence. Those who harden their hearts receive less, while those who do not harden their hearts may come to know the mysteries in full.",
+    "summary": "Alma expounds to a man that knowledge of God's mysteries is granted according to heed and diligence. He contrasts the portions of the word received by those who harden their hearts and those who do not, then explains what he means by the chains of hell.",
     "characters": [
       "Alma (son of Alma)",
-      "Zeezrom",
-      "the surrounding multitude"
+      "Unnamed listener"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says many may know God's mysteries but are commanded to impart only according to the portion granted, based on heed and diligence.",
+        "text": "Alma begins to expound these things to a man.",
         "refs": [
           "Alma 12:9"
         ]
       },
       {
-        "text": "Alma contrasts the lesser portion given to the hard-hearted with the greater portion given to those who do not harden their hearts.",
+        "text": "Alma says many may know God's mysteries but are commanded to impart according to the portion of God's word granted to people, based on their heed and diligence.",
+        "refs": [
+          "Alma 12:9"
+        ]
+      },
+      {
+        "text": "Alma says a person who hardens his heart receives a lesser portion of the word, while one who does not receives a greater portion.",
         "refs": [
           "Alma 12:10"
         ]
       },
       {
-        "text": "Alma says the hard-hearted may lose knowledge of the mysteries and be taken captive; he identifies this as the chains of hell.",
+        "text": "Alma teaches that those who harden their hearts can come to know nothing of God's mysteries, be taken captive by the devil, and be led to destruction; he calls this the chains of hell.",
         "refs": [
           "Alma 12:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues speaking to Zeezrom while the multitude listens."
+      "Alma speaks to the unnamed man."
     ],
     "unspecified_visual_details": [
-      "Any visual form for knowledge, mysteries, captivity, or chains."
+      "The location and surroundings",
+      "The appearance and clothing of Alma and his listener"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "It is given unto many to know the mysteries of God;",
         "refs": [
           "Alma 12:9"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       },
       {
-        "text": "And they that will harden their hearts, to them is given the lesser portion of the word",
+        "text": "And therefore, he that will harden his heart, the same receiveth the lesser portion of the word;",
         "refs": [
-          "Alma 12:11"
+          "Alma 12:10"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "and he that will not harden his heart, to him is given the greater portion of the word,",
+        "refs": [
+          "Alma 12:10"
+        ],
+        "speaker": "Alma (son of Alma)"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And now Alma began to expound these things unto him, saying:",
+        "refs": [
+          "Alma 12:9"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Chains of hell and captivity are figurative teaching here, not a literal scene."
+      "Alma's account of captivity and the chains of hell is part of his teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict a supernatural captor or literal chains."
+      "Do not identify the unnamed listener or add a crowd.",
+      "Do not depict a devil, literal chains, or a separate captivity scene."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "Death and judgment",
+    "title": "Alma on Judgment",
     "refs": [
       "Alma 12:12",
       "Alma 12:13",
       "Alma 12:14",
       "Alma 12:15"
     ],
-    "summary": "Alma teaches that people will be raised from mortality to immortality and judged according to their works. He warns of condemnation and says all must stand before God and acknowledge his just judgments.",
+    "summary": "Alma refers to Amulek's words about death, immortality, and judgment. He warns of condemnation and says people must stand before God and acknowledge the justice of his judgments.",
     "characters": [
       "Alma (son of Alma)",
-      "Zeezrom",
-      "the surrounding multitude"
+      "Amulek (mentioned, not shown)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says people will be raised from mortality to immortality and judged according to their works.",
+        "text": "Alma says Amulek has spoken about death, being raised to immortality, and being judged according to works.",
         "refs": [
           "Alma 12:12"
         ]
       },
       {
-        "text": "He warns that hardened hearts will bring condemnation, and that words, works, and thoughts will condemn.",
+        "text": "Alma warns that those who harden their hearts against the word will be condemned.",
         "refs": [
-          "Alma 12:13",
+          "Alma 12:13"
+        ]
+      },
+      {
+        "text": "Alma says words, works, and thoughts will condemn them.",
+        "refs": [
           "Alma 12:14"
         ]
       },
       {
-        "text": "He says all must stand before God and acknowledge the justice of his judgments and his mercy toward the children of men.",
+        "text": "Alma says people must stand before God and acknowledge that his judgments are just and that he is merciful.",
         "refs": [
           "Alma 12:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to Zeezrom and the gathered people."
+      "Alma speaks while explaining these teachings."
     ],
     "unspecified_visual_details": [
-      "The appearance of God, a judgment setting, or any resurrected person."
+      "Alma's appearance and surroundings",
+      "The appearance or number of any listeners"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "being raised from this mortality to a state of immortality, and being brought before the bar of God, to be judged according to our works.",
+        "refs": [
+          "Alma 12:12"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "then will our state be awful, for then we shall be condemned.",
+        "refs": [
+          "Alma 12:13"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "For our words will condemn us, yea, all our works will condemn us;",
+        "refs": [
+          "Alma 12:14"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
       {
         "text": "we must come forth and stand before him in his glory,",
         "refs": [
           "Alma 12:15"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is teaching about future judgment, not a present judgment scene."
+      "Judgment and resurrection are described in Alma's teaching, not narrated as visible events in this scene.",
+      "The rocks and mountains in verse 14 are part of a hypothetical wish, not an event."
     ],
     "prohibited_inventions": [
-      "Do not show God or a resurrection as a current visible event."
+      "Do not depict a present judgment, resurrection, or rocks and mountains falling.",
+      "Do not invent an appearance for God or place Amulek physically in the scene."
     ],
     "importance": "normal"
   },
@@ -326,55 +378,56 @@
       "Alma 12:17",
       "Alma 12:18"
     ],
-    "summary": "Alma describes spiritual death for those who die in their sins, teaching that their torments will be like a lake of fire and brimstone and that they cannot be redeemed according to God's justice.",
+    "summary": "Alma teaches that those who die in their sins face a second, spiritual death, describes their torments through comparisons, and says they cannot be redeemed according to God’s justice.",
     "characters": [
-      "Alma (son of Alma)",
-      "Zeezrom",
-      "the surrounding multitude"
+      "Alma (son of Alma)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma describes a second, spiritual death for those who die in their sins.",
+        "text": "Alma speaks of a second death, which is spiritual death, for those who die in their sins.",
         "refs": [
           "Alma 12:16"
         ]
       },
       {
-        "text": "He compares their torments to a lake of fire and brimstone and says they will be chained to everlasting destruction.",
+        "text": "Alma compares their torments to a lake of fire and brimstone and says they will be chained down to everlasting destruction.",
         "refs": [
           "Alma 12:17"
         ]
       },
       {
-        "text": "He says they cannot be redeemed according to God's justice and cannot die, as there is no more corruption.",
+        "text": "Alma says they cannot be redeemed according to God’s justice and cannot die.",
         "refs": [
           "Alma 12:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues the teaching before the listeners."
+      "Alma is speaking to people he addresses as “you.”"
     ],
     "unspecified_visual_details": [
-      "Any literal lake, flame, chains, or persons experiencing torment."
+      "The appearance of Alma and his listeners.",
+      "The setting of the speech."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Then, I say unto you, they shall be as though there had been no redemption made;",
         "refs": [
           "Alma 12:18"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The lake of fire and chains are figures in Alma's teaching, not a narrated visible event."
+      "The lake of fire is a comparison in Alma’s teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal hellscape, flames, or Satan."
+      "Do not depict a literal lake of fire, literal chains, Satan, or people visibly experiencing torment.",
+      "Do not assign names or biographies to the listeners."
     ],
     "importance": "normal"
   },
@@ -456,67 +509,70 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "The Fall and mortality",
+    "title": "Alma Explains the Fall and Mortality",
     "refs": [
       "Alma 12:22",
       "Alma 12:23",
       "Alma 12:24"
     ],
-    "summary": "Alma explains that Adam fell by partaking of the forbidden fruit and that mankind became fallen. He teaches that death came upon mankind, while this life provides a time to repent and prepare to meet God.",
+    "summary": "Alma tells Antionah that Adam fell by partaking of the forbidden fruit. He teaches that death comes upon mankind and that this life is a time to repent and prepare to meet God.",
     "characters": [
       "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "Antionah"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says Adam fell by partaking of the forbidden fruit and all mankind became a lost and fallen people.",
+        "text": "Alma says Adam fell by partaking of the forbidden fruit and that all mankind became a lost and fallen people.",
         "refs": [
           "Alma 12:22"
         ]
       },
       {
-        "text": "Alma says that if Adam had partaken of the tree of life then, there would have been no death and God's word would have been void.",
+        "text": "Alma says that if Adam had partaken of the tree of life at that time, there would have been no death.",
         "refs": [
           "Alma 12:23"
         ]
       },
       {
-        "text": "Alma teaches that temporal death comes to mankind and that life is a probationary state and time to prepare to meet God.",
+        "text": "Alma says temporal death comes upon mankind, space was granted for repentance, and this life became a probationary state in which to prepare to meet God.",
         "refs": [
           "Alma 12:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma answers Antionah before the gathered audience."
+      "Alma addresses Antionah while speaking."
     ],
     "unspecified_visual_details": [
-      "Adam, the forbidden fruit, or the tree of life as visible figures or objects in this present moment."
+      "Antionah's appearance",
+      "The setting and clothing"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Adam did fall by the partaking of the forbidden fruit,",
+        "text": "This is the thing which I was about to explain, now we see that Adam did fall by the partaking of the forbidden fruit, according to the word of God;",
         "refs": [
           "Alma 12:22"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       },
       {
-        "text": "this life became a probationary state;",
+        "text": "therefore this life became a probationary state; a time to prepare to meet God;",
         "refs": [
           "Alma 12:24"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma recounts and explains past events; do not turn these into flashback scenes."
+      "Adam's fall and the tree of life are subjects of Alma's teaching, not events occurring during his reply."
     ],
     "prohibited_inventions": [
-      "Do not stage Adam's act or Eden as a current visual moment."
+      "Do not depict Adam, the forbidden fruit, or the tree of life as physically present during Alma's reply.",
+      "Do not depict death, resurrection, or meeting God as events occurring during Alma's reply."
     ],
     "importance": "normal"
   },

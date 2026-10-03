@@ -1,5 +1,5 @@
 {
-  "stamp": "d0b0c8d8e1eca65552aa1777883dca40641c79863180e629acb75e0973ce7d19",
+  "stamp": "b4e28d5791eadcac1c14d047f730358e0302992a5e8c5160639ee7c213c9ee77",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -57,12 +57,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Summary omits explicit physical facts (Nephi's great desire to know God's mysteries, believing all his father's words, and not rebelling like his brothers) and does not faithfully distinguish the reported Lord's visit from what is visually depicted.",
-        "Narration excerpts are not exact contiguous text: both omit punctuation/words or alter the verse's wording. The first replaces the source's “And it came to pass that I, Nephi” with “I, Nephi”; the second drops “and did soften my heart that I did believe all the words which had been spoken by my father; wherefore, I did not rebel against him like unto my brothers.”",
-        "Scene includes no Sam or other character; no issue with absent labels. Previous scene is chronologically consistent."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

@@ -1,25 +1,31 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Praise and comfort",
+    "title": "Words of praise for that day",
     "refs": [
       "2 Nephi 22:1",
       "2 Nephi 22:2"
     ],
-    "summary": "A speaker says the Lord’s anger has turned away and declares trust in God as salvation, strength, and song.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The text introduces words an unspecified addressee shall say in that day: praise to the Lord and declarations of trust in God as salvation, strength, and song.",
+    "characters": [
+      "Unspecified addressee"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the Lord's anger has turned away and that the Lord comforted them.",
+        "text": "The text states that the addressee shall speak in that day; these verses do not identify who says “thou shalt say.”",
         "refs": [
           "2 Nephi 22:1"
         ]
       },
       {
-        "text": "The speaker declares God is their salvation, says they will trust and not be afraid, and calls the Lord Jehovah their strength and song.",
+        "text": "The anticipated words praise the Lord and state that his anger has turned away and he has comforted the speaker.",
+        "refs": [
+          "2 Nephi 22:1"
+        ]
+      },
+      {
+        "text": "The anticipated words declare trust without fear, identify God as salvation, and call the Lord JEHOVAH the speaker's strength and song.",
         "refs": [
           "2 Nephi 22:2"
         ]
@@ -27,29 +33,44 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker’s identity, appearance, posture, and setting are not specified.",
-      "No visible divine figure is described."
+      "The addressee's identity and appearance are unspecified.",
+      "The physical setting is unspecified.",
+      "No visible appearance of God or the Lord is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "O Lord, I will praise thee",
+        "text": "O Lord, I will praise thee; though thou wast angry with me thine anger is turned away, and thou comfortedst me.",
         "refs": [
           "2 Nephi 22:1"
-        ]
+        ],
+        "speaker": "Unspecified addressee"
       },
       {
-        "text": "Behold, God is my salvation",
+        "text": "Behold, God is my salvation; I will trust, and not be afraid; for the Lord JEHOVAH is my strength and my song; he also has become my salvation.",
         "refs": [
           "2 Nephi 22:2"
+        ],
+        "speaker": "Unspecified addressee"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And in that day thou shalt say:",
+        "refs": [
+          "2 Nephi 22:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses give declarations of praise and trust, not a narrated visible event."
+      "The dialogue entries record anticipated words, not speech narrated as already delivered.",
+      "The supplied verses do not identify the speaker introducing the anticipated words; do not attribute that introduction to Nephi.",
+      "Strength and song are declarations of praise, not descriptions of visible supernatural events."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly or invent the speaker's identity."
+      "Do not identify the addressee as Nephi or another named person.",
+      "Do not stage the anticipated speech as a present-tense event.",
+      "Do not invent a visible divine appearance or a separate scene of anger being withdrawn or comfort being given.",
+      "Do not invent a setting, audience, or physical presence for Nephi."
     ],
     "importance": "normal"
   },

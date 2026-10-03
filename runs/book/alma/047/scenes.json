@@ -714,19 +714,17 @@
       "Alma 47:25",
       "Alma 47:26"
     ],
-    "summary": "As the king raises the first servant, the servant stabs him in the heart and he falls. The king's servants flee. Amalickiah's servants cry that the king's servants stabbed him and fled.",
+    "summary": "The first person raised from the ground stabs the king, who falls. The king's servants flee. Amalickiah's servants cry out, accusing the king's servants of stabbing him.",
     "characters": [
-      "Lamanite king",
-      "Amalickiah's servant who stabs the king",
-      "King's servants",
+      "The king",
+      "The first person raised from the ground",
+      "The king's servants",
       "Amalickiah's servants"
     ],
-    "locations": [
-      "City of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "When the king raised the first servant, that servant stabbed the king in the heart, and the king fell.",
+        "text": "The first person raised from the ground stabbed the king to the heart, and the king fell.",
         "refs": [
           "Alma 47:24"
         ]
@@ -738,7 +736,7 @@
         ]
       },
       {
-        "text": "Amalickiah's servants cried that the king's servants had stabbed the king and fled.",
+        "text": "Amalickiah's servants cried out and accused the king's servants of stabbing the king.",
         "refs": [
           "Alma 47:25",
           "Alma 47:26"
@@ -746,31 +744,35 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The stabbing may be shown at the instant of action without gore or visible injury detail."
+      "The stabbing can be shown at the moment it happens without visible injury detail."
     ],
     "unspecified_visual_details": [
-      "The precise positions of the fleeing servants and onlookers."
+      "The location and surroundings.",
+      "The characters' appearances and clothing."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, the servants of the king have stabbed him to the heart",
-        "refs": [
-          "Alma 47:26"
-        ],
-        "speaker": "Amalickiah's servants"
-      },
-      {
-        "text": "and he has fallen and they have fled",
+        "text": "Behold, the servants of the king have stabbed him to the heart, and he has fallen and they have fled; behold, come and see.",
         "refs": [
           "Alma 47:26"
         ],
         "speaker": "Amalickiah's servants"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And it came to pass that when he had raised the first from the ground, behold he stabbed the king to the heart; and he fell to the earth.",
+        "refs": [
+          "Alma 47:24"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Amalickiah's servants' accusation conflicts with the narrated stabbing; do not present their accusation as fact."
+    ],
     "prohibited_inventions": [
-      "Do not show blood, a wound, or gore."
+      "Do not show blood, wounds, or gore.",
+      "Do not identify an unstated location or add a motive for the accusation."
     ],
     "importance": "major"
   },

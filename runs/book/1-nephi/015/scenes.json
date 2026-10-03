@@ -6,7 +6,7 @@
       "1 Nephi 15:1",
       "1 Nephi 15:2"
     ],
-    "summary": "Nephi returns to his father's tent and sees his brethren disputing about things their father had spoken to them.",
+    "summary": "After being carried away in the spirit and seeing these things, Nephi returns to his father's tent and sees his brethren disputing about things their father had spoken to them.",
     "characters": [
       "Nephi",
       "Nephi's brethren"
@@ -16,7 +16,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "After being carried away in the spirit and seeing these things, Nephi returns to his father's tent.",
+        "text": "Nephi returns to his father's tent after being carried away in the spirit and seeing these things.",
         "refs": [
           "1 Nephi 15:1"
         ]
@@ -29,7 +29,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi's brethren are near enough to the tent for him to see them when he returns."
+      "Nephi's brethren are close enough for him to see them when he returns."
     ],
     "unspecified_visual_details": [
       "The tent's appearance.",
@@ -38,24 +38,25 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I returned to the tent of my father.",
+        "text": "And it came to pass that after I, Nephi, had been carried away in the spirit, and seen all these things, I returned to the tent of my father.",
         "refs": [
           "1 Nephi 15:1"
         ]
       },
       {
-        "text": "they were disputing one with another concerning the things my father had spoken unto them.",
+        "text": "I beheld my brethren, and they were disputing one with another concerning the things my father had spoken unto them.",
         "refs": [
           "1 Nephi 15:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The things Nephi saw before returning are not depicted as happening at the tent."
+      "Nephi's earlier experience is not depicted as happening at the tent."
     ],
     "prohibited_inventions": [
       "Do not assign names to the brethren or depict their father as present.",
-      "Do not invent the words of the dispute."
+      "Do not invent the words of the dispute.",
+      "Do not depict Nephi's earlier experience as a new event in this scene."
     ],
     "importance": "normal"
   },
@@ -67,26 +68,27 @@
       "1 Nephi 15:4",
       "1 Nephi 15:5"
     ],
-    "summary": "Words spoken to a group were hard to understand, and they did not look to the Lord as they ought. Nephi grieved over their hard hearts and what he had seen. Considering the destruction of his people and the fall he had beheld, he was overcome by his afflictions.",
+    "summary": "Nephi grieved over the hardness of the hearers' hearts and what he had seen. He was overcome by afflictions he considered great because of the destruction of his people, whose fall he had beheld.",
     "characters": [
       "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "An unidentified person spoke many great things to a group. The words were hard to understand, and the group did not look to the Lord as they ought.",
+        "text": "A man had spoken many great things to others. The things were hard to understand, and those addressed did not look unto the Lord as they ought.",
         "refs": [
           "1 Nephi 15:3"
         ]
       },
       {
-        "text": "Nephi was grieved because of their hard hearts and the things he had seen, which he knew must come to pass.",
+        "text": "Nephi grieved because of the hardness of those hearers' hearts and the things he had seen.",
         "refs": [
+          "1 Nephi 15:3",
           "1 Nephi 15:4"
         ]
       },
       {
-        "text": "Nephi was overcome by his afflictions as he considered the destruction of his people, whose fall he had beheld.",
+        "text": "Nephi was overcome by his afflictions. He considered them great because of the destruction of his people, whose fall he had beheld.",
         "refs": [
           "1 Nephi 15:5"
         ]
@@ -96,25 +98,33 @@
       "Nephi may appear sorrowful or overwhelmed."
     ],
     "unspecified_visual_details": [
-      "Nephi's posture and expression.",
+      "Nephi's appearance and posture.",
       "The setting.",
-      "The identities and appearances of the person and group mentioned in verse 3."
+      "The identities and appearances of the speaker and hearers mentioned in verse 3 are not stated in the supplied verses."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I was overcome because of my afflictions",
+        "text": "And now I, Nephi, was grieved because of the hardness of their hearts",
+        "refs": [
+          "1 Nephi 15:4"
+        ]
+      },
+      {
+        "text": "And it came to pass that I was overcome because of my afflictions",
         "refs": [
           "1 Nephi 15:5"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fall of Nephi's people is something he had beheld, not an event occurring in this scene."
+      "Nephi had already beheld his people's fall; these verses do not narrate that fall occurring now.",
+      "Verse 3 describes earlier speech but supplies none of its words as dialogue."
     ],
     "prohibited_inventions": [
       "Do not depict the destruction of Nephi's people as occurring now.",
-      "Do not identify the person or group in verse 3 or invent their dialogue.",
+      "Do not invent words for the earlier speaker.",
+      "Do not assign names to the speaker or hearers in verse 3 from material outside the supplied verses.",
       "Do not specify a location absent from these verses."
     ],
     "importance": "normal"
@@ -178,34 +188,34 @@
       "1 Nephi 15:8",
       "1 Nephi 15:9"
     ],
-    "summary": "The narrator asks a group whether they have inquired of the Lord. They say they have not and that the Lord makes no such thing known to them.",
+    "summary": "Nephi asks those he addresses whether they have inquired of the Lord. They reply that they have not, saying the Lord makes no such thing known to them.",
     "characters": [
       "Nephi",
-      "Unnamed group"
+      "Unidentified respondents"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The narrator asks the group whether they have inquired of the Lord.",
+        "text": "Nephi asks them whether they have inquired of the Lord.",
         "refs": [
           "1 Nephi 15:8"
         ]
       },
       {
-        "text": "The group says they have not and that the Lord makes no such thing known to them.",
+        "text": "They say they have not inquired and that the Lord makes no such thing known to them.",
         "refs": [
           "1 Nephi 15:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The narrator and the group are conversing."
+      "Nephi and the respondents are conversing."
     ],
     "unspecified_visual_details": [
       "The location.",
-      "The number and identities of the people addressed.",
+      "The respondents’ identities and number.",
       "Their appearance, expressions, and gestures.",
-      "Which member of the group speaks."
+      "Which respondent speaks the reply."
     ],
     "spoken_dialogue": [
       {
@@ -220,13 +230,15 @@
         "refs": [
           "1 Nephi 15:9"
         ],
-        "speaker": "Unnamed group"
+        "speaker": "Unidentified respondents"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "These verses do not identify the respondents as Nephi’s brethren."
+    ],
     "prohibited_inventions": [
-      "Do not specify a location or identify the people addressed."
+      "Do not identify the respondents or specify a location."
     ],
     "importance": "normal"
   },
@@ -841,57 +853,57 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Awful Gulf Explained",
+    "title": "Nephi Explains the Awful Gulf",
     "refs": [
       "1 Nephi 15:28",
       "1 Nephi 15:29"
     ],
-    "summary": "The speaker tells listeners that an awful gulf separates the wicked from the tree of life and the saints of God. He says it represents the awful hell the angel told him was prepared for the wicked.",
+    "summary": "Nephi tells his listeners that an awful gulf separates the wicked from the tree of life and the saints of God. He says it represents the awful hell the angel told him was prepared for the wicked.",
     "characters": [
-      "the speaker",
+      "Nephi",
       "unnamed listeners"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says an awful gulf separates the wicked from the tree of life and the saints of God.",
+        "text": "Nephi says an awful gulf separates the wicked from the tree of life and the saints of God.",
         "refs": [
           "1 Nephi 15:28"
         ]
       },
       {
-        "text": "The speaker says the gulf represents an awful hell that the angel told him was prepared for the wicked.",
+        "text": "Nephi says the gulf represents an awful hell that the angel told him was prepared for the wicked.",
         "refs": [
           "1 Nephi 15:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses more than one listener."
+      "Nephi addresses more than one listener."
     ],
     "unspecified_visual_details": [
-      "The location and the participants' appearances."
+      "The setting and the participants' appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "it was an awful gulf, which separated the wicked from the tree of life, and also from the saints of God.",
+        "text": "And I said unto them that it was an awful gulf, which separated the wicked from the tree of life, and also from the saints of God.",
         "refs": [
           "1 Nephi 15:28"
         ]
       },
       {
-        "text": "it was a representation of that awful hell, which the angel said unto me was prepared for the wicked.",
+        "text": "And I said unto them that it was a representation of that awful hell, which the angel said unto me was prepared for the wicked.",
         "refs": [
           "1 Nephi 15:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The gulf and hell are discussed as representations; the angel is mentioned, not described as appearing here."
+      "Nephi describes the gulf and explains what it represents; the angel is mentioned, not described as appearing here."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal gulf, hell, or angel as present.",
+      "Do not depict the gulf, hell, or angel as physically present in this exchange.",
       "Do not assign identities to the listeners or specify a location."
     ],
     "importance": "normal"
@@ -903,31 +915,37 @@
       "1 Nephi 15:30",
       "1 Nephi 15:31"
     ],
-    "summary": "The speaker tells the listeners that their father saw God's justice divide the wicked from the righteous and describes its brightness. The listeners ask what this means.",
+    "summary": "Nephi tells his listeners what their father saw concerning God's justice. They ask what it means.",
     "characters": [
       "Nephi",
-      "Unnamed listeners"
+      "Nephi's brethren"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says their father saw God's justice divide the wicked from the righteous and describes its brightness as like a flaming fire ascending to God without end.",
+        "text": "Nephi says their father saw that God's justice divided the wicked from the righteous.",
         "refs": [
           "1 Nephi 15:30"
         ]
       },
       {
-        "text": "The listeners ask whether this means bodily torment during probation, the soul's final state after bodily death, or temporal things.",
+        "text": "Nephi compares its brightness to that of a flaming fire ascending to God without end.",
+        "refs": [
+          "1 Nephi 15:30"
+        ]
+      },
+      {
+        "text": "Nephi's listeners ask whether it means bodily torment during probation, the soul's final state after bodily death, or temporal things.",
         "refs": [
           "1 Nephi 15:31"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker and listeners are together for this exchange."
+      "Nephi and those asking him the question are together for the exchange."
     ],
     "unspecified_visual_details": [
-      "Location, clothing, and physical appearances are not stated."
+      "The location, clothing, and physical appearances are not stated."
     ],
     "spoken_dialogue": [
       {
@@ -942,23 +960,23 @@
         "refs": [
           "1 Nephi 15:31"
         ],
-        "speaker": "Unnamed listeners"
+        "speaker": "Nephi's brethren"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The father's sight is reported in speech; the verses do not place him or the division before the listeners.",
-      "The flaming fire is a comparison for brightness, not a separately narrated event."
+      "The father's sight is reported in Nephi's speech, not narrated as a present event.",
+      "The flaming fire is a comparison for brightness, not a separately narrated fire."
     ],
     "prohibited_inventions": [
-      "Do not place the exchange in a tent or another specific location.",
-      "Do not identify the listeners by name or depict the father's reported sight as a present event."
+      "Do not depict the father, the division, or a flaming fire as present events.",
+      "Do not assign a specific location or individual identities to the questioners."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_016",
-    "title": "Judgment and the Kingdom",
+    "title": "Nephi Speaks to His Brethren",
     "refs": [
       "1 Nephi 15:32",
       "1 Nephi 15:33",
@@ -966,52 +984,67 @@
       "1 Nephi 15:35",
       "1 Nephi 15:36"
     ],
-    "summary": "The speaker tells his brethren that people will be judged by their works, that no unclean thing can enter the kingdom of God, and that the wicked are rejected from the righteous and the tree of life. He concludes speaking to them.",
+    "summary": "Nephi explains a representation of temporal and spiritual things to his brethren, teaches about judgment and the final state of souls, and concludes speaking to them.",
     "characters": [
-      "the first-person speaker",
+      "Nephi",
       "his brethren"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the representation concerns temporal and spiritual things and that people will be judged by works done during their days of probation.",
+        "text": "Nephi tells his brethren that the representation concerns temporal and spiritual things and that people will be judged by their works.",
         "refs": [
-          "1 Nephi 15:32"
+          "1 Nephi 15:32",
+          "1 Nephi 15:36"
         ]
       },
       {
-        "text": "He says those who die in wickedness will be brought before God to be judged and cannot dwell in God's kingdom if they are filthy.",
+        "text": "Nephi teaches that those who die in wickedness must stand before God to be judged and cannot dwell in God's kingdom if they are filthy.",
         "refs": [
           "1 Nephi 15:33"
         ]
       },
       {
-        "text": "He says no unclean thing can enter God's kingdom and that a place of filthiness must be prepared.",
+        "text": "Nephi says no unclean thing can enter the kingdom of God.",
         "refs": [
           "1 Nephi 15:34"
         ]
       },
       {
-        "text": "He says hell is prepared, the devil is its preparator, and souls will dwell in God's kingdom or be cast out.",
+        "text": "Nephi teaches that hell is prepared, the devil is its preparator, and souls will dwell in God's kingdom or be cast out.",
         "refs": [
           "1 Nephi 15:35"
         ]
       },
       {
-        "text": "He says the wicked are rejected from the righteous and the tree of life, then concludes speaking to his brethren.",
+        "text": "Nephi says the wicked are rejected from the righteous and the tree of life, then concludes speaking to his brethren.",
         "refs": [
           "1 Nephi 15:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses his brethren."
+      "Nephi addresses his brethren."
     ],
     "unspecified_visual_details": [
-      "The speakers' appearances, clothing, positions, and surroundings."
+      "Nephi's and his brethren's appearances, clothing, positions, and surroundings."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "But behold, I say unto you, the kingdom of God is not filthy, and there cannot any unclean thing enter into the kingdom of God;",
+        "refs": [
+          "1 Nephi 15:34"
+        ],
+        "speaker": "Nephi"
+      }
+    ],
     "narration": [
+      {
+        "text": "And it came to pass that I said unto them that it was a representation of things both temporal and spiritual;",
+        "refs": [
+          "1 Nephi 15:32"
+        ]
+      },
       {
         "text": "And thus I spake unto my brethren. Amen.",
         "refs": [
@@ -1023,7 +1056,7 @@
       "Judgment, hell, the kingdom of God, and the tree of life are discussed as teachings, not narrated as visible events occurring here."
     ],
     "prohibited_inventions": [
-      "Do not assign names to the brethren or specify a location.",
+      "Do not assign names to Nephi's brethren or specify a location.",
       "Do not depict God, the devil, judgment, hell, the kingdom of God, or the tree of life as visibly present in this scene."
     ],
     "importance": "normal"

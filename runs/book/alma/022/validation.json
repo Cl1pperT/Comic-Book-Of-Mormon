@@ -1,9 +1,11 @@
 {
-  "stamp": "21169724fdb424f82c0488744c7fcf2e02a0cec108f8e6dc0fb468a1aa351ce5",
+  "stamp": "a21a254b379ad8ce1df6cfd8e26228555d9b7e5e5d8d545cd8cfab3a39cded7f",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene is consistent with Alma 22:1–2. The narration quotes Alma 22:1 but omits its opening transition; this is an excerpt, not an altered event. The king's exact appearance and palace design are unspecified."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -61,8 +63,12 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied narration excerpts are exact contiguous quotations, but the second excerpt omits the source’s opening “And” and therefore changes capitalization at the start; retain exact source capitalization and punctuation.",
+        "The named location “head of the river Sidon” appears in the source, but is not expressly listed as a location in the scene’s explicit facts; account for it if depicting or describing that feature. The map is a reasonable visual inference, not an explicit event.",
+        "The prior scene depicts the king and preachers addressing a multitude; this scene’s notes correctly distinguish the geographic account and do not carry that gathering forward."
+      ]
     },
     "scene_015": {
       "status": "PASS",

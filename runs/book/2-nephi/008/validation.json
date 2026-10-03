@@ -1,5 +1,5 @@
 {
-  "stamp": "ca8afdb40b39d413921f60f5b5ae0056827cb2003751ef859067a80fc7fdda40",
+  "stamp": "fedd87009e5de3b75f59e748664800b0533e8dbd0c27ba9e915cdf7c82ba59c7",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -50,8 +50,11 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene treats “it” as unidentified, but the preceding verse identifies its referent as the figurative cup of trembling (2 Nephi 8:22–23).",
+        "The addressee is not wholly unidentified: the preceding scene addresses Jerusalem (2 Nephi 8:21–22)."
+      ]
     },
     "scene_014": {
       "status": "PASS",

@@ -6,34 +6,31 @@
       "2 Nephi 18:1",
       "2 Nephi 18:2"
     ],
-    "summary": "The Lord tells the speaker to write concerning Maher-shalal-hash-baz. The speaker takes Uriah and Zechariah as witnesses to record.",
+    "summary": "The word of the Lord instructs the narrator to take a great roll and write concerning Maher-shalal-hash-baz. The narrator reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
     "characters": [
-      "The speaker",
-      "Uriah the priest",
-      "Zechariah son of Jeberechiah"
+      "Nephi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord tells the speaker to take a great roll and write concerning Maher-shalal-hash-baz.",
+        "text": "The word of the Lord instructs the narrator to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:1"
         ]
       },
       {
-        "text": "The speaker takes Uriah the priest and Zechariah son of Jeberechiah as faithful witnesses to record.",
+        "text": "The narrator reports taking faithful witnesses to record: Uriah the priest and Zechariah the son of Jeberechiah.",
         "refs": [
           "2 Nephi 18:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The speaker writes on a large roll while the two witnesses are present."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The roll's material and appearance; the writing instrument; the witnesses' clothing and appearance; the precise setting."
+      "The narrator’s appearance, clothing, and surroundings are unspecified.",
+      "The roll’s dimensions and material and the pen’s appearance are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -46,16 +43,23 @@
     ],
     "narration": [
       {
-        "text": "And I took unto me faithful witnesses to record,",
+        "text": "And I took unto me faithful witnesses to record, Uriah the priest, and Zechariah the son of Jeberechiah.",
         "refs": [
           "2 Nephi 18:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Nephi is the narrator label supplied by the user; these verses themselves identify the narrator only through first-person pronouns.",
+      "Keep the taking of witnesses as a narrated report, not a newly staged present-tense event.",
+      "The Lord’s quoted instruction does not establish a visible appearance."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described.",
-      "Do not assign the speaker a name not given in this chapter."
+      "Do not depict the Lord visibly.",
+      "Do not depict the commanded writing as completed or underway.",
+      "Do not stage the witnesses as present during the Lord’s instruction; that simultaneity is not supplied.",
+      "Do not depict Maher-shalal-hash-baz or Jeberechiah as present.",
+      "Do not add the narrator’s name inside source quotations."
     ],
     "importance": "normal"
   },
@@ -66,46 +70,54 @@
       "2 Nephi 18:3",
       "2 Nephi 18:4"
     ],
-    "summary": "The speaker goes to the prophetess, who conceives and bears a son. The Lord directs the speaker to name him Maher-shalal-hash-baz and foretells what will happen before the child can say “My father, and my mother.”",
+    "summary": "The narrator reports going to the prophetess, who conceived and bore a son. The Lord instructs him to name the child Maher-shalal-hash-baz and foretells the taking of Damascus’s riches and Samaria’s spoil before the child can cry for his father and mother.",
     "characters": [
-      "The speaker",
-      "The prophetess",
-      "The newborn son"
+      "Nephi",
+      "The Lord (voice only)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker goes to the prophetess, who conceives and bears a son.",
+        "text": "The narrator reports going to the prophetess, who conceived and bore a son.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "The Lord tells the speaker to call the son Maher-shalal-hash-baz.",
+        "text": "The Lord tells the narrator to call the child Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "Before the child can cry “My father, and my mother,” Damascus's riches and Samaria's spoil will be taken before the king of Assyria.",
+        "text": "The Lord foretells that the riches of Damascus and the spoil of Samaria will be taken away before the king of Assyria before the child knows how to cry for his father and mother.",
         "refs": [
           "2 Nephi 18:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The prophetess and newborn may be shown together after the birth."
+      "The naming instruction can be presented with the narrator listening, without depicting the Lord."
     ],
     "unspecified_visual_details": [
-      "The prophetess's and child's appearance; the circumstances of the birth; the precise setting."
+      "The narrator’s appearance, clothing, and posture",
+      "The setting of the naming instruction",
+      "Whether the prophetess and child are present during the instruction"
     ],
     "spoken_dialogue": [
       {
         "text": "Call his name, Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:3"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "For behold, the child shall not have knowledge to cry, My father, and my mother, before the riches of Damascus and the spoil of Samaria shall be taken away before the king of Assyria.",
+        "refs": [
+          "2 Nephi 18:4"
         ],
         "speaker": "The Lord"
       }
@@ -119,11 +131,17 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The forecast in verse 4 is not a present-tense scene; do not depict the future conquest here."
+      "The supplied task identifies the first-person narrator as Nephi; these verses themselves do not name him. The character label follows that instruction.",
+      "Anchor the scene to the Lord’s naming instruction. Keep the earlier visit, conception, and birth as reported narration, not simultaneous visual events.",
+      "The taking of riches and spoil is a prediction, not an event occurring in this scene.",
+      "My father, and my mother is part of the Lord’s prediction, not dialogue spoken by the child."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described.",
-      "Do not invent details of the birth or name the prophetess."
+      "Do not visibly depict the Lord; no appearance is described.",
+      "Do not dramatize the reported visit, conception, or birth as new present-tense action.",
+      "Do not depict the predicted taking of riches and spoil as occurring here.",
+      "Do not invent the prophetess’s name, a parental relationship for Nephi, or additional dialogue.",
+      "Do not place the king of Assyria physically in the scene."
     ],
     "importance": "normal"
   },

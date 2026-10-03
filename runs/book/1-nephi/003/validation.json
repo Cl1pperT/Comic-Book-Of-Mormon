@@ -1,5 +1,5 @@
 {
-  "stamp": "b0ffa596b12828bc220b8e621cb98ccc0c1a1cca7efced02634ccdbf13139db2",
+  "stamp": "425cafe124a4bab1e7c0e44fb01fa3d5ed41924da6bb31f781f0addb576589bc",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -50,10 +50,8 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary states that Laman and Lemuel are angry with the narrator, but 1 Nephi 3:28 says Laman was angry with the narrator and their father; Lemuel is described as angry because he hearkened to Laman, without explicitly specifying whom his anger was directed toward."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

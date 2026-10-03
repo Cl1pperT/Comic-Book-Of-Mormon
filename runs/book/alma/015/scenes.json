@@ -6,7 +6,7 @@
       "Alma 15:1",
       "Alma 15:2"
     ],
-    "summary": "Alma and Amulek depart the city and come to the land of Sidom, where they find the people who had left Ammonihah. An account is related concerning wives, children, those relating it, and their deliverance.",
+    "summary": "Alma and Amulek depart the city and come to the land of Sidom. There they find people who had departed Ammonihah. An account is related concerning wives and children, those relating it, and their deliverance.",
     "characters": [
       "Alma",
       "Amulek",
@@ -17,13 +17,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek were commanded to depart the city, and they came to the land of Sidom.",
+        "text": "Alma and Amulek were commanded to depart the city; they departed and came to the land of Sidom.",
         "refs": [
           "Alma 15:1"
         ]
       },
       {
-        "text": "There they found people who had departed Ammonihah and had been cast out and stoned because they believed Alma's words.",
+        "text": "In Sidom they found the people who had departed Ammonihah, who had been cast out and stoned because they believed Alma's words.",
         "refs": [
           "Alma 15:1"
         ]
@@ -36,16 +36,16 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek encounter the people in Sidom."
+      "Alma and Amulek meet the people in Sidom."
     ],
     "unspecified_visual_details": [
-      "The travel route and the appearance of Sidom.",
+      "The appearance of Sidom and the travel route.",
       "The number and appearance of the people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and came out even into the land of Sidom;",
+        "text": "Alma and Amulek were commanded to depart out of that city; and they departed, and came out even into the land of Sidom;",
         "refs": [
           "Alma 15:1"
         ]
@@ -58,22 +58,22 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The wording does not explicitly identify the speakers or recipients of the account in verse 2."
+      "Verse 2 reports an account but does not give its spoken words."
     ],
     "prohibited_inventions": [
-      "Do not depict the earlier casting out or stoning as occurring now.",
+      "Do not depict the earlier casting out or stoning as occurring during this meeting.",
       "Do not invent what happened to the wives and children or supply dialogue for the account."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Zeezrom Hears They Are in Sidom",
+    "title": "Zeezrom Hears Alma and Amulek Are in Sidom",
     "refs": [
       "Alma 15:3",
       "Alma 15:4"
     ],
-    "summary": "Zeezrom lies sick with a burning fever at Sidom, distressed by his sins and supposing Alma and Amulek have been slain. When he hears they are in Sidom, he takes courage and sends a message asking them to come to him.",
+    "summary": "Zeezrom lies sick at Sidom with a burning fever caused by tribulations of his mind over his wickedness. He supposes Alma and Amulek have been slain because of his iniquity. When he hears they are in Sidom, he takes courage and sends a message asking them to come to him.",
     "characters": [
       "Zeezrom"
     ],
@@ -82,7 +82,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Zeezrom lay sick at Sidom with a burning fever caused by tribulations of his mind over his wickedness.",
+        "text": "Zeezrom lay sick at Sidom with a burning fever caused by great tribulations of his mind on account of his wickedness.",
         "refs": [
           "Alma 15:3"
         ]
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "text": "After hearing Alma and Amulek were in Sidom, Zeezrom took courage and sent a message asking them to come to him.",
+        "text": "When Zeezrom heard Alma and Amulek were in the land of Sidom, he took courage and sent a message desiring them to come to him.",
         "refs": [
           "Alma 15:4"
         ]
@@ -104,19 +104,31 @@
       "Zeezrom can be shown lying ill."
     ],
     "unspecified_visual_details": [
-      "Who brings the news or carries the message.",
-      "Zeezrom's surroundings."
+      "Zeezrom's surroundings.",
+      "How Zeezrom hears the news and sends the message."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And also Zeezrom lay sick at Sidom, with a burning fever,",
+        "text": "Zeezrom lay sick at Sidom, with a burning fever,",
         "refs": [
           "Alma 15:3"
         ]
       },
       {
-        "text": "Now, when he heard that Alma and Amulek were in the land of Sidom, his heart began to take courage;",
+        "text": "which was caused by the great tribulations of his mind on account of his wickedness,",
+        "refs": [
+          "Alma 15:3"
+        ]
+      },
+      {
+        "text": "he supposed that they had been slain because of his iniquity.",
+        "refs": [
+          "Alma 15:3"
+        ]
+      },
+      {
+        "text": "his heart began to take courage; and he sent a message immediately unto them, desiring them to come unto him.",
         "refs": [
           "Alma 15:4"
         ]
@@ -127,7 +139,7 @@
     ],
     "prohibited_inventions": [
       "Do not depict Alma and Amulek as slain or physically present with Zeezrom.",
-      "Do not invent the messenger's identity, speech, or a visible supernatural cause for the fever."
+      "Do not invent a messenger's identity or speech, or a visible supernatural cause for the fever."
     ],
     "importance": "normal"
   },
@@ -137,17 +149,18 @@
     "refs": [
       "Alma 15:5"
     ],
-    "summary": "They went immediately in response to a message and entered Zeezrom's house. They found him on his bed, very ill with a burning fever and distressed because of his iniquities. When he saw them, he stretched out his hand and asked them to heal him.",
+    "summary": "Alma and Amulek went immediately in response to the message and entered Zeezrom's house. They found him on his bed, very ill with a burning fever and distressed because of his iniquities. When he saw them, he stretched out his hand and asked them to heal him.",
     "characters": [
       "Zeezrom",
-      "unnamed visitors"
+      "Alma",
+      "Amulek"
     ],
     "locations": [
       "Zeezrom's house"
     ],
     "explicit_facts": [
       {
-        "text": "They went immediately, obeying a message sent to them, and entered Zeezrom's house.",
+        "text": "Alma and Amulek went immediately in response to the message and entered Zeezrom's house.",
         "refs": [
           "Alma 15:5"
         ]
@@ -159,21 +172,27 @@
         ]
       },
       {
-        "text": "When Zeezrom saw them, he stretched out his hand and entreated them to heal him.",
+        "text": "When Zeezrom saw them, he stretched out his hand and asked them to heal him.",
         "refs": [
           "Alma 15:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Zeezrom reaches toward the visitors from his bed."
+      "Zeezrom reaches toward Alma and Amulek from his bed."
     ],
     "unspecified_visual_details": [
-      "The visitors' identities and appearances.",
+      "The characters' appearances.",
       "The house's appearance and furnishings."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And it came to pass that they went immediately, obeying the message which he had sent unto them;",
+        "refs": [
+          "Alma 15:5"
+        ]
+      },
       {
         "text": "and they found him upon his bed, sick, being very low with a burning fever;",
         "refs": [
@@ -188,11 +207,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Zeezrom's mental distress is attributed to his iniquities; it is not itself a visible event."
+      "Alma and Amulek are identified as the visitors by the supplied preceding-scene context, not named in this verse. Zeezrom's mental distress is attributed to his iniquities; it is not itself a visible event."
     ],
     "prohibited_inventions": [
-      "Do not name the visitors or the sender of the message.",
-      "Do not invent words for Zeezrom's reported request or depict a healing."
+      "Do not invent words for Zeezrom's reported request or depict a healing.",
+      "Do not invent the characters' appearances or the house's furnishings."
     ],
     "importance": "normal"
   },
@@ -314,31 +333,35 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "Alma Prays for Zeezrom",
+    "title": "Alma Prays for a Man",
     "refs": [
       "Alma 15:10"
     ],
-    "summary": "Alma cries unto the Lord, asking for mercy and healing for Zeezrom according to his faith in Christ.",
+    "summary": "Alma cries unto the Lord, asking for mercy and healing for a man according to his faith in Christ.",
     "characters": [
       "Alma",
-      "Zeezrom"
+      "an unnamed man"
     ],
-    "locations": [
-      "Zeezrom's house"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma cried unto the Lord, asking for mercy and healing for Zeezrom according to his faith in Christ.",
+        "text": "Alma cried unto the Lord.",
+        "refs": [
+          "Alma 15:10"
+        ]
+      },
+      {
+        "text": "Alma asked the Lord to have mercy on a man and heal him according to his faith in Christ.",
         "refs": [
           "Alma 15:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma prays while Zeezrom is present."
+      "Alma is praying."
     ],
     "unspecified_visual_details": [
-      "Alma's posture and whether others are present."
+      "Alma's posture, the man's appearance, and the location."
     ],
     "spoken_dialogue": [
       {
@@ -349,10 +372,20 @@
         "speaker": "Alma"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And then Alma cried unto the Lord, saying:",
+        "refs": [
+          "Alma 15:10"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Present the narration as a caption identifying Alma's words as a prayer to the Lord, not speech addressed to the man."
+    ],
     "prohibited_inventions": [
-      "Do not show a visible divine figure or additional miraculous effects not stated in the verse."
+      "Do not identify the man by name or specify a location.",
+      "Do not depict a visible divine figure or a healing event; this verse describes Alma's prayer, not its outcome."
     ],
     "importance": "normal"
   },
@@ -619,7 +652,7 @@
     "refs": [
       "Alma 15:16"
     ],
-    "summary": "Amulek has forsaken his gold, silver, and precious things in Ammonihah for the word of God, and has been rejected by former friends, his father, and his kindred.",
+    "summary": "Amulek has forsaken his gold, silver, and precious things in Ammonihah for the word of God. His former friends, father, and kindred have rejected him.",
     "characters": [
       "Alma",
       "Amulek"
@@ -635,17 +668,16 @@
         ]
       },
       {
-        "text": "Amulek was rejected by those who had been his friends, as well as by his father and kindred.",
+        "text": "Amulek was rejected by his former friends, his father, and his kindred.",
         "refs": [
           "Alma 15:16"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Amulek’s possessions may be shown left behind, without depicting an unstated act of abandonment."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "When and how Amulek left his possessions; whether his former friends or family are present."
+      "When and how Amulek left his possessions.",
+      "Whether anyone mentioned is physically present at the time of this narration."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -657,10 +689,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse summarizes prior loss and rejection; it does not establish that these events happen now."
+      "Mormon reports Amulek’s loss and rejection; the verse does not place those events in a new present-tense scene."
     ],
     "prohibited_inventions": [
-      "Do not depict Amulek’s father, kindred, or former friends as present in this scene."
+      "Do not depict the loss or rejection as happening now.",
+      "Do not invent dialogue or identify Amulek’s former friends or kindred by name."
     ],
     "importance": "normal"
   },

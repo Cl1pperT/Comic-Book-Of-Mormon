@@ -1,5 +1,5 @@
 {
-  "stamp": "4f57c4f8886db48e85b244123b4b9c6880702ede30d35d079ae1f7b5876d8317",
+  "stamp": "0f6a294c10ec6c2474fb7ebf1c23dde6fca1eb4fa27338baa9dcff253e57c33e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -50,14 +50,17 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Mosiah 11:20–26 identifies Abinadi as the speaker of this continuing prophecy. The scene omits him and incorrectly says the speaker is unidentified.",
+        "The quotation from Mosiah 11:23 is Abinadi’s speech, not narration."
+      ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The quoted excerpt from Mosiah 11:24 is exact, but omits the condition and timing that the people cry to the Lord; preserve that context if the excerpt is intended to convey the full warning.",
-        "The speaker is identifiable from the supplied context as Abinadi (Mosiah 11:20); the scene labels him only as an unnamed speaker. Audience and location remain unspecified."
+        "The speaker remains Abinadi from Mosiah 11:20 through 11:26. Introducing an “Unnamed messenger” creates an unsupported change of speaker after the preceding scene.",
+        "The claim that these verses do not identify the messenger as Abinadi disregards the supplied surrounding verses and chronology."
       ]
     },
     "scene_015": {

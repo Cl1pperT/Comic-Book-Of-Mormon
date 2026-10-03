@@ -378,45 +378,76 @@
       "Alma 25:9",
       "Alma 25:10"
     ],
-    "summary": "The account says the seed of the priests who caused Abinadi's death are hunted at that day and recalls Abinadi's statement that what was done to him would be a type of things to come.",
-    "characters": [],
+    "summary": "Mormon reports that they are hunted by the Lamanites and that Abinadi's words concerning the seed of the priests were fulfilled. He recalls Abinadi's statement about things to come.",
+    "characters": [
+      "Mormon (narrator)",
+      "Abinadi (mentioned)",
+      "Lamanites (mentioned)",
+      "Seed of the priests (mentioned)",
+      "Priests (mentioned)"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The seed of the priests who caused Abinadi to suffer death by fire are hunted at that day by the Lamanites.",
+        "text": "Mormon reports that they are hunted at this day by the Lamanites.",
         "refs": [
           "Alma 25:9"
         ]
       },
       {
-        "text": "Abinadi said, “What ye shall do unto me shall be a type of things to come.”",
+        "text": "Abinadi's words concerning the seed of the priests were brought to pass.",
+        "refs": [
+          "Alma 25:9"
+        ]
+      },
+      {
+        "text": "The priests caused Abinadi to suffer death by fire.",
+        "refs": [
+          "Alma 25:9"
+        ]
+      },
+      {
+        "text": "Abinadi said unto them that what they would do unto him would be a type of things to come.",
         "refs": [
           "Alma 25:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The account may be presented as narration over a neutral setting."
+      "A text-only presentation can convey the report and recalled statement without staging either event."
     ],
     "unspecified_visual_details": [
-      "The narrator and the location from which the report is made."
+      "No physical setting or character appearances are supplied.",
+      "Typography and background design are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "What ye shall do unto me shall be a type of things to come.",
+        "text": "And behold they are hunted at this day by the Lamanites. Thus the words of Abinadi were brought to pass, which he said concerning the seed of the priests who caused that he should suffer death by fire.",
+        "refs": [
+          "Alma 25:9"
+        ]
+      },
+      {
+        "text": "For he said unto them: What ye shall do unto me shall be a type of things to come.",
         "refs": [
           "Alma 25:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Abinadi is quoted in recollection, not shown as physically present."
+      "Mormon narrates; Abinadi is the speaker of the statement recalled within the narration.",
+      "The words concern the seed of the priests; do not identify that seed as the audience addressed by 'unto them.'",
+      "The recalled statement and reported hunting belong to separate times; neither is staged here."
     ],
     "prohibited_inventions": [
-      "Do not stage Abinadi's earlier confrontation as a present event."
+      "Do not depict the reported hunting as a new present-tense event.",
+      "Do not stage Abinadi's earlier speech or death.",
+      "Do not depict mentioned figures as physically present.",
+      "Do not literalize the teaching about a type of things to come.",
+      "Do not invent pursuit details, dialogue, or audience identities."
     ],
     "importance": "normal"
   },

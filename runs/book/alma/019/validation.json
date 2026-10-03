@@ -1,5 +1,5 @@
 {
-  "stamp": "3e5b8c266a0dab7e1007fa94a67a30177a8a7a2b306210b48a756c91e9c3fed9",
+  "stamp": "453bc8b14db59cffc4c6ba48d7e58f50e67d97b109e2b57d67dc9765e8856d2d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -33,8 +33,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The two others who sank with Ammon are not unidentified: Alma 19:13 says the king and queen had sunk, and Alma 19:17 confirms that they, with Ammon, lay prostrate. The character list, visual details, notes, and prohibition against identifying them contradict the supplied verses and obscure continuity with scene_006."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -53,12 +55,8 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The queen’s rising and crying out are supported, but the source does not specify that the assembled multitude watches during these actions; the visual inference should not assert that.",
-        "The named servants and King Lamoni are not stated to be present in verse 29. They may belong to the immediate broader episode, but their presence in this specific scene is uncertain.",
-        "The dialogue is verbatim and the summary reflects the supplied events. Hell is figurative in the queen’s words, not a visible location."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
@@ -67,7 +65,7 @@
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source does not name the man explicitly; the unnamed character is identifiable as King Lamoni only from immediate narrative context. The character label should not imply a different identity."
+        "The visual inference that he addresses the people while some depart may compress events that the verses do not explicitly place simultaneously."
       ]
     },
     "scene_015": {

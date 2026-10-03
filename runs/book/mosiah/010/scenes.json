@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Establishing the Kingdom and Preparing Defenses",
+    "title": "Preparations to Guard the Land",
     "refs": [
       "Mosiah 10:1",
       "Mosiah 10:2"
     ],
-    "summary": "The people begin to establish the kingdom and possess the land in peace. The narrator has weapons made and sets guards around the land to protect the people and flocks.",
+    "summary": "The narrator recounts that the people again began to establish the kingdom and possess the land in peace. He caused weapons to be made and set guards around the land to protect his people and flocks.",
     "characters": [
       "Unnamed first-person narrator",
       "The narrator's people",
@@ -17,49 +17,51 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people begin to establish the kingdom and possess the land in peace.",
+        "text": "The people again began to establish the kingdom and possess the land in peace.",
         "refs": [
           "Mosiah 10:1"
         ]
       },
       {
-        "text": "The narrator has weapons of war made for the people in preparation for a possible Lamanite attack.",
+        "text": "The narrator caused weapons of war of every kind to be made for his people against a possible future Lamanite attack.",
         "refs": [
           "Mosiah 10:1"
         ]
       },
       {
-        "text": "The narrator sets guards around the land to protect the people and flocks.",
+        "text": "The narrator set guards around the land to protect his people and flocks from their enemies.",
         "refs": [
           "Mosiah 10:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People making weapons and guards stationed around the land may be shown."
+      "Weapons being made and guards stationed around the land could illustrate the narrator's account."
     ],
     "unspecified_visual_details": [
-      "The land's name and appearance, the weapons' designs, and the guards' number and appearance are unspecified."
+      "The land's appearance, the weapons' designs, and the guards' number and appearance are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "we again began to establish the kingdom",
+        "text": "And I caused that there should be weapons of war made of every kind",
         "refs": [
           "Mosiah 10:1"
         ]
       },
       {
-        "text": "I set guards round about the land",
+        "text": "And I set guards round about the land",
         "refs": [
           "Mosiah 10:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied verses do not name the first-person narrator. These are recounted events, not a new present-tense encounter."
+    ],
     "prohibited_inventions": [
-      "Do not name the narrator or the land.",
-      "Do not depict a Lamanite attack as occurring in this scene."
+      "Do not depict a Lamanite attack as occurring in this account.",
+      "Do not assign the narrator a name or depict him as physically present solely because he recounts these events."
     ],
     "importance": "normal"
   },
@@ -535,7 +537,7 @@
       "Mosiah 10:15",
       "Mosiah 10:16"
     ],
-    "summary": "After arriving in the promised land, his brethren were angry with him. They said he had taken the ruling of the people out of their hands, and they sought to kill him.",
+    "summary": "After arriving in the promised land, the man's brethren were angry with him. They said he had taken the ruling of the people out of their hands, and they sought to kill him.",
     "characters": [
       "His brethren",
       "The man referred to as “him”"
@@ -547,25 +549,37 @@
       {
         "text": "His brethren were angry with him after they arrived in the promised land.",
         "refs": [
+          "Mosiah 10:14",
           "Mosiah 10:15"
         ]
       },
       {
-        "text": "They said he had taken the ruling of the people out of their hands, and they sought to kill him.",
+        "text": "They said he had taken the ruling of the people out of their hands.",
+        "refs": [
+          "Mosiah 10:15"
+        ]
+      },
+      {
+        "text": "They sought to kill him.",
         "refs": [
           "Mosiah 10:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brethren and the man they were angry with may be shown after their arrival."
+      "The brethren and the man may be shown together after their arrival."
     ],
     "unspecified_visual_details": [
-      "Their appearances and the precise setting are not specified.",
-      "No physical attack is described."
+      "Their appearances and the precise setting are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And his brethren were wroth with him",
+        "refs": [
+          "Mosiah 10:14"
+        ]
+      },
       {
         "text": "And again, they were wroth with him when they had arrived in the promised land, because they said that he had taken the ruling of the people out of their hands; and they sought to kill him.",
         "refs": [
@@ -574,11 +588,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mosiah 10:14 refers to anger upon the waters at a separate time; Mosiah 10:16 refers to anger over his departure into the wilderness with the records at another time. Neither event is part of this scene.",
-      "The accusation is reported, not supplied as direct speech."
+      "Mosiah 10:14 also describes anger upon the waters, at a separate time. Mosiah 10:16 describes anger concerning his departure into the wilderness with the records, at another time.",
+      "The accusation is reported, not given as direct speech.",
+      "The requested identifying wording about Nephi is absent from the supplied verses and cannot be added."
     ],
     "prohibited_inventions": [
-      "Do not depict the events upon the waters or the departure into the wilderness as occurring in this scene.",
+      "Do not depict the events upon the waters or the departure into the wilderness in this scene.",
       "Do not invent dialogue, an attack, names, or an appearance of the Lord."
     ],
     "importance": "normal"
@@ -589,51 +604,45 @@
     "refs": [
       "Mosiah 10:17"
     ],
-    "summary": "Zeniff says the Lamanites taught their children to hate, murder, rob, plunder, and destroy the children of Nephi.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "They taught their children to hate, murder, rob, plunder, and seek to destroy others. The verse says they have an eternal hatred toward the children of Nephi.",
+    "characters": [
+      "Unnamed group and their children",
+      "Children of Nephi"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lamanites taught their children to hate, murder, rob, plunder, and seek to destroy the children of Nephi.",
+        "text": "They taught their children to hate, murder, rob, plunder, and do all they could to destroy those referred to as “them.”",
         "refs": [
           "Mosiah 10:17"
         ]
       },
       {
-        "text": "Zeniff describes an enduring hatred toward the children of Nephi.",
+        "text": "They have an eternal hatred toward the children of Nephi.",
         "refs": [
           "Mosiah 10:17"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The verse reports what was taught; it does not describe a particular lesson, teacher, or act of violence."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No individuals, teaching setting, or specific incident are identified."
+      "The verse does not identify individual teachers, children, or a teaching setting."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they have taught their children that they should hate them",
-        "refs": [
-          "Mosiah 10:17"
-        ]
-      },
-      {
-        "text": "they should rob and plunder them",
+        "text": "And thus they have taught their children that they should hate them, and that they should murder them, and that they should rob and plunder them, and do all they could to destroy them; therefore they have an eternal hatred towards the children of Nephi.",
         "refs": [
           "Mosiah 10:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse is a summary of inherited teaching, not a present-tense attack."
+      "This is a report of what was taught, not a narrated lesson or attack."
     ],
     "prohibited_inventions": [
-      "Do not invent a classroom, teacher, or violent act."
+      "Do not invent a specific teacher, lesson, or violent incident.",
+      "Do not assign a named speaker to this verse."
     ],
     "importance": "normal"
   },

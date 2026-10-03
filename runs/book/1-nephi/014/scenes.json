@@ -6,7 +6,7 @@
       "1 Nephi 14:1",
       "1 Nephi 14:2"
     ],
-    "summary": "The passage teaches what will happen if the Gentiles hearken to the Lamb of God and do not harden their hearts against him.",
+    "summary": "The verses state conditional promises for Gentiles who hearken to the Lamb of God and do not harden their hearts against him.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
@@ -17,26 +17,33 @@
         ]
       },
       {
-        "text": "If the Gentiles do not harden their hearts against the Lamb of God, they will be numbered among the seed of thy father and the house of Israel.",
+        "text": "If they do not harden their hearts against the Lamb of God, they will be numbered among the seed of thy father and the house of Israel.",
         "refs": [
+          "1 Nephi 14:1",
           "1 Nephi 14:2"
         ]
       },
       {
-        "text": "They will be a blessed people upon the promised land forever and no more brought down into captivity; the house of Israel will no more be confounded.",
+        "text": "They will be blessed upon the promised land forever and no longer brought into captivity; the house of Israel will no longer be confounded.",
         "refs": [
           "1 Nephi 14:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the conditional teachings as narration, not as events happening in the scene."
+      "Present the conditional promises as text or narration rather than visible events."
     ],
     "unspecified_visual_details": [
-      "Any setting or visual design accompanying the narration."
+      "Background and visual design for the narration."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And it shall come to pass,",
+        "refs": [
+          "1 Nephi 14:1"
+        ]
+      },
       {
         "text": "if the Gentiles shall hearken unto the Lamb of God",
         "refs": [
@@ -50,23 +57,29 @@
         ]
       },
       {
-        "text": "they shall be numbered among the house of Israel",
+        "text": "And harden not their hearts against the Lamb of God,",
         "refs": [
           "1 Nephi 14:2"
         ]
       },
       {
-        "text": "they shall be a blessed people upon the promised land forever",
+        "text": "they shall be numbered among the house of Israel;",
+        "refs": [
+          "1 Nephi 14:2"
+        ]
+      },
+      {
+        "text": "they shall be a blessed people upon the promised land forever;",
         "refs": [
           "1 Nephi 14:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are conditional teachings, not narrated visible events."
+      "These are conditional promises, not narrated visible events. The opening caption preserves the passage's prophetic framing without assigning its speech to an unsupported speaker."
     ],
     "prohibited_inventions": [
-      "Do not stage the promised manifestation, removal of stumbling blocks, or promised blessings as events occurring in the scene.",
+      "Do not depict the promised manifestation, removal of stumbling blocks, or blessings as events occurring now.",
       "Do not invent an appearance for the Lamb of God or depict a specific promised land."
     ],
     "importance": "normal"
@@ -218,56 +231,62 @@
     "refs": [
       "1 Nephi 14:7"
     ],
-    "summary": "The verse describes a future everlasting work among the children of men and its alternative outcomes.",
-    "characters": [],
+    "summary": "The Lamb of God foretells a future everlasting work among the children of men and describes its alternative outcomes.",
+    "characters": [
+      "Lamb of God"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lamb of God says that he will work a great and marvelous work among the children of men, and that it will be everlasting.",
+        "text": "The Lamb of God says he will work a great and marvelous work among the children of men, and that the work will be everlasting.",
         "refs": [
           "1 Nephi 14:7"
         ]
       },
       {
-        "text": "The alternatives described are peace and life eternal, or hardness of heart, blindness of mind, captivity, and destruction, temporally and spiritually.",
+        "text": "The alternatives described are conviction unto peace and eternal life, or captivity and temporal and spiritual destruction associated with hardness of heart and blindness of mind.",
         "refs": [
           "1 Nephi 14:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "This is teaching about a future work and its alternatives, not a narrated visible event."
+      "The verse presents a teaching about a future work, not a visible event occurring here."
     ],
     "unspecified_visual_details": [
-      "The work's visible form, setting, participants, and outcomes.",
-      "The Lamb of God's appearance."
+      "The work's visible form and setting.",
+      "The appearance of the Lamb of God and of the people mentioned."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "I will work a great and a marvelous work among the children of men;",
+        "refs": [
+          "1 Nephi 14:7"
+        ],
+        "speaker": "Lamb of God"
+      }
+    ],
     "narration": [
       {
-        "text": "For the time cometh, saith the Lamb of God",
+        "text": "For the time cometh, saith the Lamb of God,",
         "refs": [
           "1 Nephi 14:7"
         ]
       },
       {
-        "text": "that I will work a great and a marvelous work among the children of men",
-        "refs": [
-          "1 Nephi 14:7"
-        ]
-      },
-      {
-        "text": "either on the one hand or on the other",
+        "text": "a work which shall be everlasting",
         "refs": [
           "1 Nephi 14:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The work and its alternatives are teachings, not literal visible events in this verse."
+      "The spoken excerpt is attributed to the Lamb of God; it is not Nephi speaking in the first person.",
+      "The alternatives are teachings, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict the work, its outcomes, or the Lamb of God's appearance as visible events."
+      "Do not depict the future work or its outcomes as occurring in this scene.",
+      "Do not invent a visible appearance for the Lamb of God."
     ],
     "importance": "normal"
   },
@@ -405,32 +424,38 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "The whore upon many waters",
+    "title": "Nephi beholds the figure upon many waters",
     "refs": [
       "1 Nephi 14:11"
     ],
-    "summary": "Nephi looks and beholds the whore of all the earth seated upon many waters and having dominion over all the earth, among all nations, kindreds, tongues, and people.",
+    "summary": "Nephi looks and beholds the whore of all the earth seated upon many waters, with dominion over all the earth among all nations, kindreds, tongues, and people.",
     "characters": [
       "Nephi",
       "the whore of all the earth"
     ],
     "locations": [
-      "Unspecified location"
+      "Many waters"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi looks and beholds the whore of all the earth, who sits upon many waters and has dominion over all the earth, among all nations, kindreds, tongues, and people.",
+        "text": "Nephi looks and beholds the whore of all the earth.",
+        "refs": [
+          "1 Nephi 14:11"
+        ]
+      },
+      {
+        "text": "She sits upon many waters and has dominion over all the earth, among all nations, kindreds, tongues, and people.",
         "refs": [
           "1 Nephi 14:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The scene may depict the waters as part of Nephi's vision, with the figure seated upon them."
+      "Nephi may be shown observing the seated figure."
     ],
     "unspecified_visual_details": [
       "The figure's appearance, clothing, age, and identity.",
-      "The waters' appearance and how dominion is represented."
+      "The appearance of the waters and how dominion is represented."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -442,10 +467,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports Nephi's vision; it does not describe the figure's visual form beyond her being seated upon many waters."
+      "The first-person narrator is Nephi. The supplied verse does not include the words “I, Nephi,” so they cannot be inserted into its quotation."
     ],
     "prohibited_inventions": [
-      "Do not assign the figure a specific identity or appearance beyond what the verse describes."
+      "Do not add “Nephi” inside the quoted narration or assign the figure an identity or appearance not stated in the verse."
     ],
     "importance": "normal"
   },
@@ -654,7 +679,7 @@
       "1 Nephi 14:15",
       "1 Nephi 14:16"
     ],
-    "summary": "Nephi beholds wars and rumors of wars among all the nations and kindreds of the earth. The angel speaks to Nephi about the wrath of God upon the mother of harlots.",
+    "summary": "Nephi beholds wars and rumors of wars among the nations and kindreds of the earth. As wars and rumors of wars begin among the nations belonging to the mother of abominations, the angel speaks to him.",
     "characters": [
       "Nephi",
       "The angel"
@@ -664,41 +689,35 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi beholds that the wrath of God is poured out upon the great and abominable church, and that there are wars and rumors of wars among all the nations and kindreds of the earth.",
+        "text": "Nephi beholds that the wrath of God was poured out upon the great and abominable church, with wars and rumors of wars among the nations and kindreds of the earth.",
         "refs": [
           "1 Nephi 14:15"
         ]
       },
       {
-        "text": "Wars and rumors of wars begin among all the nations which belong to the mother of abominations.",
+        "text": "Wars and rumors of wars begin among the nations belonging to the mother of abominations.",
         "refs": [
           "1 Nephi 14:16"
         ]
       },
       {
-        "text": "The angel speaks to Nephi, saying that the wrath of God is upon the mother of harlots and that Nephi sees these things.",
+        "text": "The angel tells Nephi that the wrath of God is upon the mother of harlots and that Nephi sees these things.",
         "refs": [
           "1 Nephi 14:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The vision may depict unnamed peoples in different places, without specifying a particular battle."
+      "Nephi may be shown observing the events he describes.",
+      "The angel may be shown speaking to Nephi after the wars have been established in the scene."
     ],
     "unspecified_visual_details": [
-      "The participants, locations, causes, and forms of the wars.",
-      "The appearance of the angel and any visible form of divine wrath or the mother of harlots."
+      "The participants, locations, and forms of the wars.",
+      "The angel's appearance and any visible form of divine wrath."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, the wrath of God is upon the mother of harlots;",
-        "refs": [
-          "1 Nephi 14:16"
-        ],
-        "speaker": "The angel"
-      },
-      {
-        "text": "and behold, thou seest all these things—",
+        "text": "Behold, the wrath of God is upon the mother of harlots; and behold, thou seest all these things—",
         "refs": [
           "1 Nephi 14:16"
         ],
@@ -720,31 +739,31 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Keep the angel's speech distinct from Nephi's vision; the verses do not describe a visible form of divine wrath."
+      "Present Nephi's narration about the wrath and wars before the angel's words. Do not give divine wrath an invented visible form."
     ],
     "prohibited_inventions": [
-      "Do not depict a particular battle, named combatants, visible divine punishment, or an unmentioned appearance for the angel."
+      "Do not add a particular battle, named combatants, a visible divine punishment, or an appearance for the angel not supplied by the verses."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "The work of the Father",
+    "title": "The Father's work foretold",
     "refs": [
       "1 Nephi 14:17"
     ],
-    "summary": "The verse says that when God's wrath is poured out upon the mother of harlots, identified as the great and abominable church of all the earth, the Father's work shall commence, preparing the way for the fulfillment of his covenants with the house of Israel.",
+    "summary": "The verse foretells that when the day comes that God's wrath is poured out upon the mother of harlots, then the Father's work shall commence in preparing the way for fulfilling his covenants with his people of the house of Israel.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The verse says that when the day comes that God's wrath is poured out upon the mother of harlots, identified as the great and abominable church of all the earth, the Father's work shall commence.",
+        "text": "The mother of harlots is identified as the great and abominable church of all the earth, whose founder is the devil.",
         "refs": [
           "1 Nephi 14:17"
         ]
       },
       {
-        "text": "The Father's work shall commence in preparing the way for the fulfilling of covenants he made to his people of the house of Israel.",
+        "text": "When the day comes that God's wrath is poured out upon it, then the Father's work shall commence in preparing the way for fulfilling his covenants with his people of the house of Israel.",
         "refs": [
           "1 Nephi 14:17"
         ]
@@ -752,22 +771,39 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No location, visible people, appearance, or visual form of the future events is specified."
+      "No setting, physical appearances, or visible manner of fulfillment is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the work of the Father shall commence",
+        "text": "And when the day cometh that the wrath of God is poured out upon the mother of harlots,",
+        "refs": [
+          "1 Nephi 14:17"
+        ]
+      },
+      {
+        "text": "then, at that day, the work of the Father shall commence,",
+        "refs": [
+          "1 Nephi 14:17"
+        ]
+      },
+      {
+        "text": "in preparing the way for the fulfilling of his covenants, which he hath made to his people who are of the house of Israel.",
         "refs": [
           "1 Nephi 14:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse describes future events conditionally; do not depict them as happening now."
+      "Preserve the conditional future framing; this verse does not narrate these events occurring now.",
+      "The supplied text explicitly includes \"whose founder is the devil,\" contrary to the audit's claim.",
+      "Nephi is the identified first-person narrator; no separate speaker or visible participant is established in this supplied verse."
     ],
     "prohibited_inventions": [
-      "Do not show the wrath, the church, covenant fulfillment, or any speaker or listener as a present scene; do not invent a visual appearance for the Father or the church."
+      "Do not stage the foretold events as a present occurrence or a continuation of an earlier vision's action.",
+      "Do not invent visible appearances for God, the Father, or the devil.",
+      "Do not literalize the mother of harlots or the pouring out of wrath as visible supernatural events.",
+      "Do not invent dialogue, locations, or mechanisms of covenant fulfillment."
     ],
     "importance": "normal"
   },
@@ -854,7 +890,7 @@
       "1 Nephi 14:22",
       "1 Nephi 14:23"
     ],
-    "summary": "Nephi is told that a person will see and write the remainder of these things and many things which have been, and will write concerning the end of the world. The things to be written are in the book Nephi beheld proceeding out of the mouth of the Jew; when the book proceeded, its written contents were plain, pure, most precious, and easy to understand.",
+    "summary": "The angel tells Nephi that a person will see and write the remainder of these things, many things which have been, and concerning the end of the world. The angel says those writings are just and true and are in the book Nephi beheld proceeding out of the mouth of the Jew.",
     "characters": [
       "Nephi",
       "The angel"
@@ -864,13 +900,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "He shall see and write the remainder of these things, and many things which have been.",
+        "text": "He shall see and write the remainder of these things and many things which have been.",
         "refs": [
           "1 Nephi 14:21"
         ]
       },
       {
-        "text": "He shall also write concerning the end of the world.",
+        "text": "He shall write concerning the end of the world.",
         "refs": [
           "1 Nephi 14:22"
         ]
@@ -882,42 +918,45 @@
         ]
       },
       {
-        "text": "At the time the book proceeded out of the mouth of the Jew, the things written were plain and pure, most precious, and easy to the understanding of all men.",
+        "text": "When the book proceeded out of the mouth of the Jew, its written contents were plain, pure, most precious, and easy for all men to understand.",
         "refs": [
           "1 Nephi 14:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is present as the future record and its contents are described; the future writing is not happening in the scene."
+      "Nephi listens while the angel speaks; the future writing is not shown as happening now."
     ],
     "unspecified_visual_details": [
-      "The appearance of Nephi, the angel, and the setting.",
-      "How the book or its original contents might be visually represented."
+      "The appearance of Nephi and the angel.",
+      "The setting."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Behold, he shall see and write the remainder of these things;",
         "refs": [
           "1 Nephi 14:21"
-        ]
+        ],
+        "speaker": "The angel"
       },
       {
         "text": "And he shall also write concerning the end of the world.",
         "refs": [
           "1 Nephi 14:22"
-        ]
+        ],
+        "speaker": "The angel"
       },
       {
         "text": "Wherefore, the things which he shall write are just and true;",
         "refs": [
           "1 Nephi 14:23"
-        ]
+        ],
+        "speaker": "The angel"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses describe future writing and the book's contents; they do not narrate those future acts occurring now."
+      "The verses describe future writing and refer to a book Nephi previously beheld; they do not narrate either event occurring now."
     ],
     "prohibited_inventions": [
       "Do not depict the future writing or the book proceeding out of the mouth of the Jew as present events.",

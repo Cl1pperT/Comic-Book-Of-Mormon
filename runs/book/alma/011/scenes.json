@@ -771,9 +771,9 @@
       "Alma 11:44",
       "Alma 11:45"
     ],
-    "summary": "A speaker teaches that Christ’s death will free all from temporal death, that spirit and body will be reunited and restored, that all will be judged according to their works, and that the raised body will be immortal.",
+    "summary": "Amulek teaches that Christ’s death will free all from temporal death, that spirit and body will be reunited, that all will be judged according to their works, and that the raised body will be immortal.",
     "characters": [
-      "Unidentified speaker"
+      "Amulek"
     ],
     "locations": [
       "Unspecified location"
@@ -786,13 +786,13 @@
         ]
       },
       {
-        "text": "Spirit and body shall be reunited in perfect form, and people shall stand before God with a bright recollection of their guilt.",
+        "text": "Spirit and body shall be reunited in perfect form; people shall stand before God with a bright recollection of their guilt.",
         "refs": [
           "Alma 11:43"
         ]
       },
       {
-        "text": "Restoration shall come to all, who shall be brought before the bar of Christ the Son, God the Father, and the Holy Spirit to be judged according to their works.",
+        "text": "Restoration shall come to all, who shall be judged according to their works.",
         "refs": [
           "Alma 11:44"
         ]
@@ -805,34 +805,50 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The first-person address implies a speaker addressing others; no resurrection or judgment is described as occurring during the address."
+      "Amulek’s address implies listeners, but the verses do not identify or describe them."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance, the audience’s appearance, and the setting are not specified.",
+      "Amulek’s appearance, the listeners’ appearance, and the setting are not specified.",
       "No appearance of resurrected people or divine figures is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "the death of Christ shall loose the bands of this temporal death,",
+        "refs": [
+          "Alma 11:42"
+        ],
+        "speaker": "Amulek"
+      },
       {
         "text": "The spirit and the body shall be reunited again in its perfect form;",
         "refs": [
           "Alma 11:43"
-        ]
+        ],
+        "speaker": "Amulek"
+      },
+      {
+        "text": "Now, this restoration shall come to all, both old and young,",
+        "refs": [
+          "Alma 11:44"
+        ],
+        "speaker": "Amulek"
       },
       {
         "text": "I say unto you that this mortal body is raised to an immortal body,",
         "refs": [
           "Alma 11:45"
-        ]
+        ],
+        "speaker": "Amulek"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Resurrection and judgment are taught as future events, not narrated as visible events in this scene."
+      "Resurrection and judgment are teachings about what shall happen, not visible events occurring during this address."
     ],
     "prohibited_inventions": [
       "Do not portray resurrection or judgment as occurring during the address.",
       "Do not invent an appearance for Christ, God the Father, or the Holy Spirit.",
-      "Do not identify the speaker or invent an audience’s identities."
+      "Do not invent identities or biographies for the listeners."
     ],
     "importance": "normal"
   },

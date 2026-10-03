@@ -1,5 +1,5 @@
 {
-  "stamp": "4fd156596b61ed684cd15a5954c0ed0005145518fa68b4cff991804aad2f9e67",
+  "stamp": "dbf924f5a96527408ecb8f67a6fc6547d931a3b290f255f73133e0e32d248d0e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,8 +26,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Unspecified whether the speaker and addressee are physically together; the inference that the speaker addresses the addressee supports a conversational depiction but does not establish their surroundings or a particular setting."
+      ]
     },
     "scene_008": {
       "status": "PASS",

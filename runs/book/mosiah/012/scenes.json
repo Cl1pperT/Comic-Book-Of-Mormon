@@ -58,39 +58,39 @@
       "Mosiah 12:2",
       "Mosiah 12:3"
     ],
-    "summary": "An unnamed speaker reports the Lord's command to prophesy and warns of what will happen to this generation and king Noah.",
+    "summary": "A speaker warns this generation of future punishment, reports the Lord's command to prophesy, and foretells what will happen to king Noah.",
     "characters": [
-      "Unnamed speaker"
+      "Unidentified speaker"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker reports that the Lord told him to stretch forth his hand and prophesy; the verse does not say he performed the gesture.",
+        "text": "The speaker reports that the Lord told him to stretch forth his hand and prophesy.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The warning says this generation will be brought into bondage, struck, driven, and slain because of their iniquities, and that animals will devour their flesh.",
+        "text": "The prophecy says this generation will be brought into bondage, struck, driven, and slain because of their iniquities, and that animals will devour their flesh.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The warning compares the future value of king Noah's life to a garment in a hot furnace and says he will know the Lord.",
+        "text": "The prophecy compares the future value of king Noah's life to a garment in a hot furnace and says he will know the Lord.",
         "refs": [
           "Mosiah 12:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The unnamed speaker may be shown delivering the warning, without showing its predicted events."
+      "The speaker may be shown delivering the warning; the predicted events are not occurring in this scene."
     ],
     "unspecified_visual_details": [
       "The speaker's identity, appearance, clothing, and surroundings are unspecified.",
-      "The presence and identity of any audience are unspecified."
+      "The presence of an audience is unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -98,24 +98,31 @@
         "refs": [
           "Mosiah 12:2"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Unidentified speaker"
+      },
+      {
+        "text": "And the Lord said unto me: Stretch forth thy hand and prophesy saying: Thus saith the Lord,",
+        "refs": [
+          "Mosiah 12:2"
+        ],
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "And it shall come to pass that the life of king Noah shall be valued even as a garment in a hot furnace; for he shall know that I am the Lord.",
         "refs": [
           "Mosiah 12:3"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Unidentified speaker, quoting the Lord's prophecy"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's command is reported, not depicted as a visible encounter.",
-      "The warning predicts future events; the garment and furnace form a comparison.",
-      "The verses do not establish that the speaker stretched forth his hand."
+      "The Lord's command is reported, not shown as a visible encounter.",
+      "The speaker's report does not establish that he stretched forth his hand.",
+      "The garment and furnace are a comparison, not an event depicted here."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Abinadi from outside the supplied verses.",
+      "Do not identify the speaker as Abinadi; the supplied verses do not name him.",
       "Do not invent an audience or depict the Lord or king Noah as physically present.",
       "Do not depict the predicted violence, animal feeding, or furnace comparison as occurring in this scene."
     ],
@@ -243,18 +250,16 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Abinadi Prophesies Against the People",
+    "title": "Abinadi’s Prophecy Continues",
     "refs": [
       "Mosiah 12:7",
       "Mosiah 12:8"
     ],
-    "summary": "The prophecy foretells a great pestilence, destruction unless the people repent, and a record they will leave behind. Abinadi prophesied many things against this people.",
+    "summary": "Abinadi’s continuing prophecy foretells pestilence, destruction unless the people repent, and a record left behind for other nations. Mormon reports that Abinadi prophesied many things against this people.",
     "characters": [
-      "Abinadi (mentioned in narration)"
+      "Abinadi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The prophecy foretells a great pestilence because of the people's iniquities and abominations.",
@@ -263,47 +268,56 @@
         ]
       },
       {
-        "text": "The prophecy threatens utter destruction unless the people repent.",
+        "text": "The foretold utter destruction is conditional on the people not repenting.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "The people will leave a record behind them. The prophecy promises preservation for other nations that will possess the land, to disclose this people's abominations.",
+        "text": "The prophecy states that the people will leave a record behind and includes the promise “I will preserve them” for other nations that will possess the land.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "Abinadi prophesied many things against this people.",
+        "text": "The stated purpose is to disclose this people's abominations to other nations.",
+        "refs": [
+          "Mosiah 12:8"
+        ]
+      },
+      {
+        "text": "Mormon reports that Abinadi prophesied many things against this people.",
         "refs": [
           "Mosiah 12:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A text-led presentation can convey the prophecy without staging its predicted events or reenacting the summarized prophesying."
+      "A text-led continuation can present the prophecy without visualizing its predicted events."
     ],
     "unspecified_visual_details": [
-      "Typography and background design",
-      "Abinadi's appearance",
+      "Abinadi's appearance and clothing",
       "Location and surroundings",
-      "Audience presence and composition"
+      "Audience presence and composition",
+      "Typography and background design"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "And they shall be smitten with a great pestilence—and all this will I do because of their iniquities and abominations.",
         "refs": [
           "Mosiah 12:7"
-        ]
+        ],
+        "speaker": "Abinadi"
       },
       {
-        "text": "yet they shall leave a record behind them,",
+        "text": "yet they shall leave a record behind them, and I will preserve them for other nations which shall possess the land;",
         "refs": [
           "Mosiah 12:8"
-        ]
-      },
+        ],
+        "speaker": "Abinadi"
+      }
+    ],
+    "narration": [
       {
         "text": "And many things did Abinadi prophesy against this people.",
         "refs": [
@@ -312,16 +326,21 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The pestilence, conditional destruction, and leaving of a record are foretold, not narrated as occurring here.",
-      "The object of preservation is expressed as 'them'; do not resolve that wording into an explicit statement that the record will be preserved.",
-      "Abinadi's many prophecies are summarized; do not invent their additional contents or stage a separate present-tense event."
+      "This is a continuation of the same prophecy, not a second delivery or a new pestilence event; retain verse 7 as continuity rather than replaying an earlier scene.",
+      "Each spoken excerpt is separately quoted and contiguous within its supplied verse.",
+      "The pestilence, conditional destruction, and record are foretold, not narrated as happening here.",
+      "Retain the wording “I will preserve them” without resolving its referent through invented imagery.",
+      "The narration belongs to Mormon, who is not physically placed in the scene.",
+      "The other prophecies are summarized without their contents being supplied."
     ],
     "prohibited_inventions": [
-      "Do not depict the foretold events as happening now.",
+      "Do not depict the foretold pestilence or destruction as occurring now.",
       "Do not show a record being written, preserved, or discovered.",
-      "Do not depict a divine figure whose appearance is not described.",
-      "Do not invent an audience, its reactions, names, or biographies.",
-      "Do not invent additional speech or prophetic actions."
+      "Do not invent a visible divine appearance.",
+      "Do not invent an audience or its reactions.",
+      "Do not invent additional prophetic speech or actions.",
+      "Do not depict Mormon as physically present.",
+      "Do not depict future nations as present listeners."
     ],
     "importance": "normal"
   },

@@ -1,56 +1,53 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Lehi’s father in the valley of Lemuel",
+    "title": "Lehi in the valley of Lemuel",
     "refs": [
       "1 Nephi 9:1"
     ],
-    "summary": "Lehi’s father dwelt in a tent in the valley of Lemuel and saw, heard, and spoke many things, including things that could not be written on the plates.",
+    "summary": "Nephi recounts that his father, Lehi, saw, heard, and spoke these things and many more while dwelling in a tent in the valley of Lemuel.",
     "characters": [
-      "Lehi’s father"
+      "Lehi"
     ],
     "locations": [
       "valley of Lemuel"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi’s father dwelt in a tent in the valley of Lemuel.",
+        "text": "Lehi dwelt in a tent in the valley of Lemuel.",
         "refs": [
           "1 Nephi 9:1"
         ]
       },
       {
-        "text": "Lehi’s father saw, heard, and spoke many things.",
-        "refs": [
-          "1 Nephi 9:1"
-        ]
-      },
-      {
-        "text": "He also saw, heard, and spoke a great many more things that could not be written upon the plates.",
+        "text": "Lehi saw, heard, and spoke these things and a great many more that could not be written upon the plates.",
         "refs": [
           "1 Nephi 9:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A tent may be shown in the valley of Lemuel."
+      "Lehi may be shown at a tent in the valley of Lemuel."
     ],
     "unspecified_visual_details": [
-      "The appearance of Lehi’s father, the tent, and the valley is not specified.",
-      "The content of the things he saw, heard, and spoke is not specified."
+      "Lehi’s appearance and the tent’s appearance are unspecified.",
+      "The content of what Lehi saw, heard, and spoke is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And all these things did my father see, and hear, and speak",
+        "text": "And all these things did my father see, and hear, and speak, as he dwelt in a tent, in the valley of Lemuel",
         "refs": [
           "1 Nephi 9:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi; “my father” refers to Lehi."
+    ],
     "prohibited_inventions": [
-      "Do not depict specific visions, sounds, or conversations; their content is not supplied."
+      "Do not depict specific visions, sounds, or conversations whose content is not supplied.",
+      "Do not identify Lehi as the father of Lehi."
     ],
     "importance": "normal"
   },

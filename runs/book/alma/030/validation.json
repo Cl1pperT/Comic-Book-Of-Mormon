@@ -1,5 +1,5 @@
 {
-  "stamp": "64d9c6236a9c3cb778e941de687a8391bd1af45d3f0c233cfaa200f9e43faad4",
+  "stamp": "748a4d74a379a53454cdada9a909b62c6c17144ee80247c38f82b4db5d3c1a43",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -97,10 +97,8 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The devil's appearance is reported by Korihor as a past event, not occurring during this writing scene; do not stage it as a flashback or invent the angel's appearance."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
       "status": "PASS WITH WARNINGS",

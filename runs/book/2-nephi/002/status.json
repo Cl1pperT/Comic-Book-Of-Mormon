@@ -5,16 +5,20 @@
   "scenes": 14,
   "counts": {
     "PASS": 11,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 0
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 29,
+  "rejected": {
+    "scene_002": [
+      "The doctrinal_or_story_notes state that Nephi is identified as narrator, but the supplied verses do not establish that identification. The source-only rule does not permit presenting it as fact."
+    ]
+  },
+  "calls": 56,
   "tokens": {
-    "input_tokens": 222105,
-    "cached_input_tokens": 134400,
+    "input_tokens": 304298,
+    "cached_input_tokens": 142848,
     "cache_write_input_tokens": 0,
-    "output_tokens": 17816,
-    "reasoning_output_tokens": 564
+    "output_tokens": 21156,
+    "reasoning_output_tokens": 1978
   }
 }

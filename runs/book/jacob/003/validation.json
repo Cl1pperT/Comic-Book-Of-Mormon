@@ -1,5 +1,5 @@
 {
-  "stamp": "d024df735a54acc48432f0b9a3786da18e25e5bd2888e8825d68e494f10ede42",
+  "stamp": "8dd83cbcca93180ecd036d2a7b32b7c4657dc0e0059a7ee0f494a64d3cc9fd86",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -44,10 +44,8 @@
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The plates’ appearance and any writing action are unspecified. Wars, contentions, and reigns are reported as recorded material, not present scenes; Jacob’s age is also unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

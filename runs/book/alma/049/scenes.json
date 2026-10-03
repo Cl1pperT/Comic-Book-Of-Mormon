@@ -66,50 +66,50 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "A high ridge protects the city",
+    "title": "The defenses of Ammonihah",
     "refs": [
       "Alma 49:3",
       "Alma 49:4",
       "Alma 49:5"
     ],
-    "summary": "The Lamanites expect Ammonihah to be easy to take, but find a high ridge and a single entrance protecting the Nephites. Their chief captains are astonished.",
+    "summary": "The Lamanites expect partly rebuilt Ammonihah to be easy prey, but its earthen ridge prevents their stones and arrows from taking effect and restricts access to its entrance. Their chief captains are astonished by the Nephites’ preparations.",
     "characters": [
       "the Lamanite chief captains",
-      "the Nephite defenders"
+      "the Nephites"
     ],
     "locations": [
       "Ammonihah"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites suppose the partly rebuilt city will be easy prey because they had destroyed it before.",
+        "text": "Ammonihah had been partly rebuilt, and the Lamanites supposed it would be easy prey because they had destroyed it before.",
         "refs": [
           "Alma 49:3"
         ]
       },
       {
-        "text": "A high ridge prevents their stones and arrows from taking effect, and they can enter only at the entrance.",
+        "text": "The Nephites had dug a high ridge of earth around them; the Lamanites’ stones and arrows could not take effect, and they could approach only by the entrance.",
         "refs": [
           "Alma 49:4"
         ]
       },
       {
-        "text": "The Lamanite chief captains are astonished at the Nephites’ preparations.",
+        "text": "The Lamanite chief captains were exceedingly astonished by the Nephites’ preparations.",
         "refs": [
           "Alma 49:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The earthen ridge and entrance can be shown from the Lamanite side."
+      "The ridge and entrance can be shown from the Lamanite side as the chief captains observe them."
     ],
     "unspecified_visual_details": [
-      "The captains’ expressions and the fort’s exact design are unspecified."
+      "The captains’ appearances and the ridge’s exact shape are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the chief captains of the Lamanites were astonished exceedingly",
+        "text": "the chief captains of the Lamanites were astonished exceedingly, because of the wisdom of the Nephites in preparing their places of security.",
         "refs": [
           "Alma 49:5"
         ]
@@ -117,7 +117,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict an attack here; the verses describe their astonishment and the defenses."
+      "Do not depict the earlier destruction or the digging of the ridge as happening now.",
+      "Do not invent an attack, dialogue, or additional defenses."
     ],
     "importance": "normal"
   },
@@ -320,45 +321,62 @@
       "Alma 49:14",
       "Alma 49:15"
     ],
-    "summary": "The Lamanites find that Noah, formerly a weak place, has become stronger than Ammonihah. This is what Moroni anticipated.",
+    "summary": "The city of Noah, formerly weak, has become stronger than Ammonihah through Moroni’s efforts. An unnamed group marches toward Noah to battle, as Moroni had anticipated.",
     "characters": [
-      "the Lamanite army"
+      "unnamed group"
     ],
     "locations": [
-      "land of Noah"
+      "city of Noah"
     ],
     "explicit_facts": [
       {
-        "text": "Noah, formerly a weak place, has become stronger than Ammonihah.",
+        "text": "The city of Noah had been weak but became stronger than the city Ammonihah through Moroni’s efforts.",
         "refs": [
           "Alma 49:14"
         ]
       },
       {
-        "text": "Moroni expected the Lamanites to choose Noah because it had been the weakest part of the land.",
+        "text": "Moroni supposed the group would be frightened at Ammonihah and march to Noah for battle because Noah had been the weakest part of the land.",
+        "refs": [
+          "Alma 49:15"
+        ]
+      },
+      {
+        "text": "The group marched toward Noah to battle, according to Moroni’s desires.",
         "refs": [
           "Alma 49:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanites can be shown facing Noah’s strengthened defenses."
+      "The unnamed group may be shown approaching the strengthened city of Noah."
     ],
     "unspecified_visual_details": [
-      "The fortifications and the city’s appearance are not described."
+      "The appearance of the city and its defenses is not described.",
+      "The group’s identities and appearance are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the city of Noah, which had hitherto been a weak place, had now",
+        "text": "the city of Noah, which had hitherto been a weak place, had now, by the means of Moroni, become strong, yea, even to exceed the strength of the city Ammonihah.",
         "refs": [
           "Alma 49:14"
         ]
+      },
+      {
+        "text": "they would march thither to battle; and thus it was according to his desires.",
+        "refs": [
+          "Alma 49:15"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni’s supposition is retrospective explanation, not a separate present-time scene."
+    ],
     "prohibited_inventions": [
-      "Do not depict Moroni’s earlier planning as a present event."
+      "Do not identify the unnamed group from these verses alone.",
+      "Do not depict Moroni planning at the same time as the group’s approach.",
+      "Do not specify the design of Noah’s defenses as a sourced fact."
     ],
     "importance": "normal"
   },
@@ -421,43 +439,45 @@
       "Alma 49:19",
       "Alma 49:20"
     ],
-    "summary": "Noah’s high bank and deep ditch leave the entrance as the only way into the fort. Nephite defenders prepare to hold it with swords and slings.",
+    "summary": "The high bank and deep ditch leave the entrance as the only way into the fort. The Nephites are prepared to defend against attempts to enter elsewhere or through the entrance.",
     "characters": [
-      "the Nephite defenders"
+      "Nephite defenders",
+      "Lamanites"
     ],
     "locations": [
-      "land of Noah"
+      "the fort of security"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites can enter the fort only at its entrance because of the high bank and deep ditch.",
+        "text": "The high bank and deep ditch prevent the Lamanites from entering the fort except by its entrance.",
         "refs": [
           "Alma 49:18"
         ]
       },
       {
-        "text": "Nephites prepare to cast stones and arrows at those trying to climb in elsewhere.",
+        "text": "The Nephites are prepared to cast stones and arrows at anyone attempting to climb into the fort elsewhere.",
         "refs": [
           "Alma 49:19"
         ]
       },
       {
-        "text": "A body of the strongest men is prepared with swords and slings to defend the entrance.",
+        "text": "A body of their strongest men is prepared with swords and slings to defend the entrance.",
         "refs": [
           "Alma 49:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The bank, ditch, entrance, and armed defenders can be shown together."
+      "The entrance, bank, ditch, and prepared Nephite defenders can be shown together."
     ],
     "unspecified_visual_details": [
-      "The number and individual appearances of defenders are unspecified."
+      "The defenders’ number and individual appearances are unspecified.",
+      "The fort’s precise design beyond its bank, ditch, and entrance is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "a body of their strongest men, with their swords and their slings",
+        "text": "to smite down all who should attempt to come into their place of security by the place of entrance",
         "refs": [
           "Alma 49:20"
         ]
@@ -465,7 +485,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show an attack before the following verse."
+      "Do not show an attack or an attempted entry as already underway.",
+      "Do not identify the fort’s location by a name absent from these verses."
     ],
     "importance": "normal"
   },

@@ -7,7 +7,7 @@
       "Mosiah 17:2",
       "Mosiah 17:3"
     ],
-    "summary": "After Abinadi finishes speaking, the king commands the priests to take him and put him to death. Alma pleads for Abinadi to be allowed to depart in peace. The king causes Alma to be cast out and sends servants after him to slay him.",
+    "summary": "After Abinadi finishes speaking, the king commands the priests to take him and have him put to death. Alma pleads for Abinadi to be allowed to depart in peace. The king causes Alma to be cast out and sends servants after him to slay him.",
     "characters": [
       "Abinadi",
       "the king",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "text": "Alma is a young descendant of Nephi who believes Abinadi's words and pleads with the king not to be angry with Abinadi, but to let him depart in peace.",
+        "text": "Alma is a young descendant of Nephi who believes Abinadi's words and pleads with the king to let Abinadi depart in peace.",
         "refs": [
           "Mosiah 17:2"
         ]
@@ -42,10 +42,16 @@
       "Alma may be shown addressing the king while Abinadi and the priests are nearby."
     ],
     "unspecified_visual_details": [
-      "The people's appearances, clothing, and precise surroundings are unspecified."
+      "The characters' appearances, clothing, and precise surroundings are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "there was one among them whose name was Alma,",
+        "refs": [
+          "Mosiah 17:2"
+        ]
+      },
       {
         "text": "therefore he began to plead with the king",
         "refs": [
@@ -75,35 +81,41 @@
     "refs": [
       "Mosiah 17:4"
     ],
-    "summary": "He flees and hides so they do not find him. Concealed for many days, he writes all the words Abinadi had spoken.",
+    "summary": "Alma flees and hides so they do not find him. Concealed for many days, he writes all the words Abinadi had spoken.",
     "characters": [
-      "The man who fled"
+      "Alma"
     ],
     "locations": [
       "Unspecified hiding place"
     ],
     "explicit_facts": [
       {
-        "text": "He fled from before them and hid himself; they did not find him.",
+        "text": "Alma fled from before them and hid himself; they did not find him.",
         "refs": [
           "Mosiah 17:4"
         ]
       },
       {
-        "text": "Concealed for many days, he wrote all the words Abinadi had spoken.",
+        "text": "While concealed for many days, Alma wrote all the words Abinadi had spoken.",
         "refs": [
           "Mosiah 17:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "He may be shown writing while concealed."
+      "Alma may be shown writing while concealed."
     ],
     "unspecified_visual_details": [
-      "His identity, the identity of “them,” the hiding place, writing materials, and exact number of days are not specified in the supplied verse."
+      "The identity of “them,” the hiding place, writing materials, and exact number of days are not specified in the supplied verse."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "But he fled from before them and hid himself that they found him not.",
+        "refs": [
+          "Mosiah 17:4"
+        ]
+      },
       {
         "text": "And he being concealed for many days did write all the words which Abinadi had spoken.",
         "refs": [
@@ -113,19 +125,19 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not name the man based on context outside the supplied verse.",
-      "Do not show anyone finding him or depict Abinadi as present."
+      "Do not show anyone finding Alma or depict Abinadi as present.",
+      "Do not invent the words Alma wrote."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "Abinadi Imprisoned",
+    "title": "Abinadi Imprisoned and Brought Back",
     "refs": [
       "Mosiah 17:5",
       "Mosiah 17:6"
     ],
-    "summary": "The king has his guards surround and take Abinadi; they bind him and cast him into prison. After three days and counsel with his priests, the king has Abinadi brought before him again.",
+    "summary": "The king has his guards surround and take Abinadi. They bind him and cast him into prison. After three days and counsel with his priests, the king has Abinadi brought before him again.",
     "characters": [
       "Abinadi",
       "the king",
@@ -144,14 +156,14 @@
         ]
       },
       {
-        "text": "After three days, having counseled with his priests, the king has Abinadi brought before him again.",
+        "text": "After three days, the king has counseled with his priests and causes Abinadi to be brought before him again.",
         "refs": [
           "Mosiah 17:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi's arrest and imprisonment can be depicted as one moment; his return before the king occurs after a three-day interval."
+      "Abinadi's arrest and his later return before the king must be shown as separate moments."
     ],
     "unspecified_visual_details": [
       "The guards' appearance, the prison's appearance, and the place where Abinadi is brought before the king are unspecified."
@@ -159,24 +171,18 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and they bound him and cast him into prison.",
+        "text": "And it came to pass that the king caused that his guards should surround Abinadi and take him; and they bound him and cast him into prison.",
         "refs": [
           "Mosiah 17:5"
-        ]
-      },
-      {
-        "text": "And after three days, having counseled with his priests, he caused that he should again be brought before him.",
-        "refs": [
-          "Mosiah 17:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The return before the king follows a three-day interval; it is not simultaneous with the arrest."
+      "The king's counsel with his priests and Abinadi's return occur after the three-day interval, not during the arrest."
     ],
     "prohibited_inventions": [
       "Do not add dialogue, events during the three days, or details of the counsel with the priests.",
-      "Do not depict the arrest and the later return as one continuous moment."
+      "Do not depict the arrest and later return as one continuous moment."
     ],
     "importance": "normal"
   },
@@ -328,16 +334,16 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "The Priests Accuse Him",
+    "title": "The Priests Accuse the Man",
     "refs": [
       "Mosiah 17:11",
       "Mosiah 17:12"
     ],
-    "summary": "King Noah is about to release a man because he fears the man's word and the judgments of God. The priests accuse the man of reviling the king. Angered, the king delivers him up to be slain.",
+    "summary": "King Noah is about to release the man because he fears his word and the judgments of God. The priests accuse that same man of reviling the king. Angered, Noah delivers him up to be slain.",
     "characters": [
       "King Noah",
       "the priests",
-      "the unnamed man"
+      "the man King Noah was about to release"
     ],
     "locations": [
       "Unspecified location"
@@ -350,14 +356,16 @@
         ]
       },
       {
-        "text": "The priests raise their voices against the man and accuse him of reviling the king.",
+        "text": "The priests raise their voices against the man King Noah was about to release and accuse him of reviling the king.",
         "refs": [
+          "Mosiah 17:11",
           "Mosiah 17:12"
         ]
       },
       {
-        "text": "The king is stirred to anger and delivers the man up to be slain.",
+        "text": "The king becomes angry and delivers that man up to be slain.",
         "refs": [
+          "Mosiah 17:11",
           "Mosiah 17:12"
         ]
       }
@@ -381,12 +389,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Mosiah 17:9–10 were not supplied, so their events are not depicted or described."
+      "The supplied verses do not name the man; references to “him” in both verses identify the same person."
     ],
     "prohibited_inventions": [
-      "Do not depict an earlier exchange or any events from unsupplied verses.",
-      "Do not depict the man's death or show the judgments of God occurring.",
-      "Do not assign the unnamed man a name based on the previous draft."
+      "Do not name the man from unsupplied verses.",
+      "Do not depict an earlier exchange, the man's death, or the judgments of God occurring."
     ],
     "importance": "normal"
   },
@@ -397,14 +404,12 @@
       "Mosiah 17:13",
       "Mosiah 17:14"
     ],
-    "summary": "They take and bind a man and scourge his skin with faggots, even unto death. When flames begin to scorch him, he cries unto them.",
+    "summary": "They take and bind a man and scourge his skin with faggots, even unto death. As flames begin to scorch him, he cries unto them.",
     "characters": [
       "Unnamed man",
-      "Unnamed people who take and bind him"
+      "Unnamed people who bind and scourge him"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "They take and bind him and scourge his skin with faggots, even unto death.",
@@ -413,17 +418,17 @@
         ]
       },
       {
-        "text": "When flames begin to scorch him, he cries unto them.",
+        "text": "Flames begin to scorch him, and he cries unto them.",
         "refs": [
           "Mosiah 17:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The binding, scourging, and flames may be shown without depicting wounds or gore."
+      "The binding, scourging, and flames can be depicted without showing wounds or gore."
     ],
     "unspecified_visual_details": [
-      "The man's identity, the other people's identities, and the location are not specified."
+      "The location and the identities of the man and the people are not specified in the supplied verses."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -441,10 +446,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not give the words he cries out."
+      "The supplied verses do not provide the words of his cry."
     ],
     "prohibited_inventions": [
-      "Do not identify the man or the people who bind him.",
+      "Do not identify the man as Abinadi from these verses alone.",
       "Do not invent words for his cry.",
       "Do not show wounds, blood, or gore."
     ],

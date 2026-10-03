@@ -1,9 +1,12 @@
 {
-  "stamp": "8dae1f5f575978b46ff0b22d0644bf5f598ba7163a7fb03dc4ffcf0e305b7bc2",
+  "stamp": "464e0926452dc990e1d0a76e06fb03d92b4a4567d4a0669d23da8eea63005268",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration excerpts are verbatim, but omit intervening source text without an ellipsis. The first quotation is also a sentence fragment; use separate exact excerpts only if they remain contiguous in the supplied verse.",
+        "The identity of the writer and the writing location are unspecified, as noted; showing a person composing an epistle is a reasonable visual inference, not an explicit event detail."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

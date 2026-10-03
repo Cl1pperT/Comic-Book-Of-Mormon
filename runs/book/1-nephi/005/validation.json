@@ -1,5 +1,5 @@
 {
-  "stamp": "a9594ebb7dd9bcb89336676f0f149b1e90d8f27b2e612e10502ae7c5272c1f27",
+  "stamp": "d1eba7aac50656b849e0aa1afc35091df42f8c7f78c1f0c9dace7915929158fb",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses identify the person as Lehi (1 Nephi 5:10–11), though scene notes say not to name him using an unsupplied verse; identify him only from supplied context if needed. Narration is exact excerpts and within the word limit. The unspecified visual details and prohibitions are appropriate."
+      ]
     },
     "scene_009": {
       "status": "PASS",
