@@ -115,7 +115,7 @@ const el = (tag, props = {}, children = []) => {
   for (const child of [].concat(children)) node.append(child);
   return node;
 };
-const label = id => "Panel " + Number(id.split("_").pop());
+const label = id => id === "cover" ? "Cover art" : "Panel " + Number(id.split("_").pop());
 const chapterOf = id => book.find(c => c.id === id);
 const flagsHere = () => chapterOf(current)?.flags ?? {};
 const q = () => "?chapter=" + encodeURIComponent(current);
@@ -237,13 +237,13 @@ function renderSide() {
 
   const editor = document.getElementById("editor");
   if (!selected) {
-    editor.replaceChildren(el("p", {className: "hint", textContent: "Click a panel with an error to flag it and note why it's wrong."}));
+    editor.replaceChildren(el("p", {className: "hint", textContent: "Click a panel (or a chapter's cover) with an error to flag it and note why it's wrong."}));
   } else {
     const panel = panels[selected], saved = flags[selected]?.note ?? "";
-    const note = el("textarea", {id: "note", placeholder: "What's wrong with this panel?",
+    const note = el("textarea", {id: "note", placeholder: selected === "cover" ? "What's wrong with this cover?" : "What's wrong with this panel?",
                                  value: drafts[current + "|" + selected] ?? saved});
     const status = el("span", {className: "status", id: "status"});
-    const save = el("button", {className: "primary", type: "button", textContent: selected in flags ? "Update flag" : "Flag panel"});
+    const save = el("button", {className: "primary", type: "button", textContent: selected in flags ? "Update flag" : selected === "cover" ? "Flag cover" : "Flag panel"});
     const clear = el("button", {className: "secondary", type: "button", textContent: "Remove flag", disabled: !(selected in flags)});
     const dirty = () => { status.textContent = note.value.trim() !== saved ? "Unsaved" : ""; };
     note.addEventListener("input", dirty);
@@ -258,7 +258,7 @@ function renderSide() {
       return chip;
     });
     editor.replaceChildren(
-      el("div", {className: "meta"}, [label(selected) + " ", el("span", {textContent: `· ${panel.refs} · page ${panel.page}`})]),
+      el("div", {className: "meta"}, [label(selected) + " ", el("span", {textContent: `· ${panel.refs} · ${panel.page ? "page " + panel.page : "cover page"}`})]),
       el("div", {className: "chips"}, chips), note,
       el("div", {className: "actions"}, [save, clear, status]),
       el("div", {className: "keys", textContent: "Ctrl+Enter saves · Esc closes" + (book.length > 1 ? " · [ ] change chapter" : "")}));

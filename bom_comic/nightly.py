@@ -160,16 +160,20 @@ def render_chapter(book_name, chapter, deadline, provider_for):
 
 
 def run(until, write=True, render=True, new_only=False):
-    """new_only: draw only chapters never rendered, skipping flag redraws and re-renders of repaired chapters
+    """until: the local time to stop starting new panels, or None to run until stopped (or the book is drawn).
+    new_only: draw only chapters never rendered, skipping flag redraws and re-renders of repaired chapters
     (useful while repairs are still landing, so nothing is drawn twice)."""
     from .config import Config
     Config.load()
     for key, value in book.CODEX_DEFAULTS.items():
         os.environ.setdefault(key, value)
     now = datetime.datetime.now()
-    deadline = datetime.datetime.combine(now.date(), until)
-    if deadline <= now:
-        deadline += datetime.timedelta(days=1)
+    if until is None:
+        deadline = datetime.datetime.max
+    else:
+        deadline = datetime.datetime.combine(now.date(), until)
+        if deadline <= now:
+            deadline += datetime.timedelta(days=1)
     night = ROOT / "nightly"
     report = {"started": now.isoformat(), "deadline": deadline.isoformat(), "written": [], "repaired": [],
               "rendered": [], "blocked": [], "stopped": None}
@@ -313,13 +317,14 @@ def run(until, write=True, render=True, new_only=False):
 
 def main():
     parser = argparse.ArgumentParser(description="Nightly write-ahead and render job")
-    parser.add_argument("--until", default="07:45", help="Stop starting new panels at this local time (HH:MM)")
+    parser.add_argument("--until", default="07:45",
+                        help="Stop starting new panels at this local time (HH:MM), or 'never' to run until stopped")
     parser.add_argument("--no-write", action="store_true", help="Render only; don't call Codex")
     parser.add_argument("--no-render", action="store_true", help="Write/repair scenes only")
     parser.add_argument("--new-only", action="store_true",
                         help="Draw only never-rendered chapters: no flag redraws, no re-renders of repaired chapters")
     args = parser.parse_args()
-    until = datetime.datetime.strptime(args.until, "%H:%M").time()
+    until = None if args.until.lower() == "never" else datetime.datetime.strptime(args.until, "%H:%M").time()
     run(until, write=not args.no_write, render=not args.no_render, new_only=args.new_only)
 
 

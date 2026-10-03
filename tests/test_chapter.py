@@ -148,14 +148,45 @@ def test_cover_page_needs_an_approved_guide_and_cover(run, tmp_path):
     run.assemble()
     manifest = run.store.read("final/manifest.json")
     assert manifest["cover"]["intro"]["title"] == "Ann and Ben Talk" and run.store.path("pages/page_000.png").exists()
-    assert reader.draft(run.store)["pages"][0] == {"number": 0, "label": "Cover", "panels": []}
+    cover_page = reader.draft(run.store)["pages"][0]
+    assert cover_page["label"] == "Cover" and [p["id"] for p in cover_page["panels"]] == ["cover"]
     pages = max(p["page"] for p in manifest["panels"])
     assert compile_pdf(run.store.root, tmp_path / "book.pdf")[2] == pages + 1
+    # The cover art is flagged like a panel and redrawn from the guide with the reviewer's corrections.
+    from bom_comic import redraw
+    first = run.store.read("images/cover.json")
+    reader.flag(run.store, "cover", "Art error: Ann should hold a lamp")
+    [(store, panel_id, flag)] = redraw.pending(run.store.root.parent)
+    assert panel_id == "cover" and flag["image_hash"] == first["image_hash"]
+    entry = redraw.redraw(store, panel_id, flag, run.provider, None)
+    assert run.store.read("images/cover.json")["path"] != first["path"] and entry["how"].startswith("Cover redrawn")
+    assert "lamp" in run.provider.renders[-1] and reader.flags(run.store) == {}
+    assert redraw.redrawn(run.store) == {"cover": "Art error: Ann should hold a lamp"}
+    assert run.store.read("final/manifest.json")["cover"]["image"]["path"] == entry["new_image"]
     # A rewritten guide retires the cover approval until it is drawn and reviewed again.
     run.provider.intro = {**INTRO, "cover": {**INTRO["cover"], "moment": "Ann alone in the hall."}}
     guide.write(run)
     with pytest.raises(ValueError, match="stale"):
         run.cover_record()
+
+
+def test_title_page_is_composed_from_its_drawings_and_leads_the_pdf(run, tmp_path):
+    from PIL import Image
+    from bom_comic import title
+    from bom_comic.book import compile_pdf
+    images = run.store.root / "title" / "images"
+    images.mkdir(parents=True)
+    for key in ["hero"] + [c[0] for c in title.CHARACTERS]:
+        Image.new("RGB", (300, 300), "#556677").save(images / f"{key}.png")
+    page = title.compose(run.store.root)
+    assert Image.open(page).size == (1400, 2000)
+    # The panels fit two rows of five inside the margins.
+    assert title.COLUMNS * title.PANEL_W + (title.COLUMNS - 1) * title.GAP <= 1400 - 2 * 48
+    run.generate()
+    approve_images(run)
+    run.assemble()
+    pages = max(p["page"] for p in run.store.read("final/manifest.json")["panels"])
+    assert compile_pdf(run.store.root, tmp_path / "book.pdf")[2] == pages + 1
 
 
 def test_master_shots_continue_while_the_text_fits(run):
@@ -225,3 +256,18 @@ def test_guides_chain_their_recaps_through_a_book(tmp_path):
     assert reason == "done" and [d[1] for d in done] == [8, 9]
     assert texts[0] is None and texts[1]["title"] == "Chapter 8"
     assert write_intros(root, lambda store: Writer())[0] == []  # current guides are kept
+
+
+def test_a_new_guide_that_fails_is_retried_at_once(tmp_path):
+    from bom_comic.book import write_intros
+    source = tmp_path / "input.txt"
+    source.write_text("".join(f"3 Nephi 8:{v} {TEXT}.\n" for v in (1, 2, 3, 4)))
+    store = Store(tmp_path / "book" / "3-nephi" / "008")
+    Pipeline(store, Fake()).init(source, "3 Nephi 8:1", "3 Nephi 8:4")
+    store.write("scenes.json", [s.model_dump() for s in SCENES])
+    store.write("status.json", {"book": "3 Nephi", "chapter": 8, "counts": {"REJECT": 0}})
+    # Draft and its repair rejected; the escalated retry's audit passes the repaired draft.
+    provider = Fake(verdicts=("REJECT", "REJECT", "PASS"))
+    done, _ = write_intros(tmp_path / "book", lambda s: provider)
+    assert done == [("3 Nephi", 8, "PASS")] and store.read("intro.json")["escalated"]
+    assert [tag for tag, _ in provider.asked][-1] == "intro_retry_audit"

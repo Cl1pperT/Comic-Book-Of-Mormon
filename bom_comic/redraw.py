@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from .comic import _sort_clauses
 from .models import Corrections
 from .pipeline import Pipeline
-from .reader import FLAGS, chapters, flags
+from .reader import COVER, FLAGS, chapters, flags
 from .storage import Store
 
 HISTORY = "review/flag-history.json"
@@ -86,6 +86,8 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None, library=No
     # Panel approvals in these runs are automated; one that went stale (e.g. new character records copied into the
     # chapter) would otherwise block the redraw.
     pipeline.reapprove_panels("AUTOMATED composition approval, renewed for a redraw.")
+    if panel_id == COVER:
+        return _redraw_cover(pipeline, flag, text_provider)
     panel = next(p for p in pipeline.panels() if p.panel_id == panel_id)
     fixes = flag.get("corrections") or corrections(text_provider, panel, flag["note"])
     # Drawn on its own even if it continued a master shot; panels continuing it, if it is one, follow the redraw.
@@ -101,6 +103,21 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None, library=No
     entry = _settle(store, panel_id, flag, record, fixes, "Redrawn from the reviewer's note" +
                     (" at full size" if full_size else ""))
     store.event("redraw", panel_id=panel_id, note=flag["note"], image=record["path"])
+    pipeline.assemble()
+    return entry
+
+
+def _redraw_cover(pipeline, flag, text_provider):
+    """A flagged cover: drawn again from the chapter's guide with the reviewer's corrections, at full page size."""
+    intro = pipeline.intro()
+    if intro is None:
+        raise ValueError("The chapter has no usable guide to draw its cover from")
+    fixes = flag.get("corrections") or corrections(text_provider, pipeline.cover_panel(intro), flag["note"])
+    record = pipeline.cover(regenerate=True, corrections=fixes)
+    pipeline.review("cover", "cover", "approve", "AUTOMATED redraw after reviewer flag: " + flag["note"] +
+                    ". Review the new cover in the reader.")
+    entry = _settle(pipeline.store, COVER, flag, record, fixes, "Cover redrawn from the reviewer's note")
+    pipeline.store.event("redraw", panel_id=COVER, note=flag["note"], image=record["path"])
     pipeline.assemble()
     return entry
 

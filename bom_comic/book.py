@@ -428,6 +428,11 @@ def write_intros(root="runs/book", make_provider=None, only=None):
                     try:
                         with stronger(pipeline.provider) if retry else nullcontext():
                             record = guide.write(pipeline, previous, retry)
+                        if not retry and record["verdict"]["status"] == "REJECT":
+                            # Retried now: the nightly job writes a guide just before drawing its chapter and doesn't
+                            # come back to it.
+                            with stronger(pipeline.provider):
+                                record = guide.write(pipeline, previous, record)
                     except (ProviderError, ValueError) as exc:  # ValueError: a reply that didn't fit the schema
                         if "usage limit" in str(exc).lower():
                             return done, "usage limit"
@@ -458,6 +463,9 @@ def compile_pdf(root="runs/book", out=None):
     from .reader import chapters as assembled, title
     out = Path(out or Path(root) / "comic-progress.pdf")
     pages, names = [], []
+    title_page = Path(root) / "title" / "page.png"  # the book's title page (title.py), first when it exists
+    if title_page.exists():
+        pages.append(title_page)
     for chapter_id, store in assembled(Store(root)).items():
         manifest = store.read("final/manifest.json")
         count = max(panel["page"] for panel in manifest["panels"])

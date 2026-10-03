@@ -351,8 +351,9 @@ class Pipeline:
             raise ValueError("Cover is stale or modified; render it again")
         return record
 
-    def cover(self, regenerate=False):
-        """Render the chapter's cover art from its guide (reusing a current one unless regenerate)."""
+    def cover(self, regenerate=False, corrections=None):
+        """Render the chapter's cover art from its guide (reusing a current one unless regenerate). corrections: a
+        reviewer's {"add", "avoid"} for redrawing a flagged cover."""
         intro = self.intro()
         if intro is None:
             return None
@@ -363,7 +364,8 @@ class Pipeline:
                 pass
         panel = self.cover_panel(intro)
         view, continuity = self.shown([panel])[panel.panel_id]
-        prompt = build_prompt(view, continuity, COVER_ASPECT, vision=self.vision_of(panel, intro))
+        prompt = build_prompt(view, continuity, COVER_ASPECT, corrections=corrections,
+                              vision=self.vision_of(panel, intro))
         name = f"cover_{uuid4().hex[:12]}"
         self.store.write(f"prompts/{name}.json", {"cover": intro.cover.model_dump(), "prompt": prompt})
         path = self.store.path(f"images/{name}.png")

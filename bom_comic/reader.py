@@ -16,6 +16,7 @@ from .scripture import BOOKS
 from .storage import Store
 
 FLAGS = "review/flags.json"
+COVER = "cover"  # the chapter's cover art, flagged like a panel (it has its own page, page 0)
 PAGE = Path(__file__).parent / "reader.html"
 
 
@@ -62,14 +63,20 @@ def draft(store):
     for panel in sorted(panels, key=lambda p: (p.page, p.panel_number)):
         pages.setdefault(panel.page, []).append({"id": panel.panel_id, "scene_id": panel.scene_id,
                                                  "refs": _ref_range(panel.refs), "frame": layout[panel.panel_id]})
-    # The cover page (page 0: cover art and the opener card) comes first when the assembly has one.
-    cover = [{"number": 0, "label": "Cover", "panels": []}] if manifest.get("cover") else []
-    return {"run": store.root.name, "size": PAGE_SIZE, "images": manifest["images"],
+    # The cover page (page 0: cover art and the opener card) comes first when the assembly has one; the whole page
+    # is the cover art's flag target.
+    images, cover = dict(manifest["images"]), []
+    if manifest.get("cover"):
+        images[COVER] = manifest["cover"]["image"]
+        cover = [{"number": 0, "label": "Cover", "panels": [
+            {"id": COVER, "scene_id": COVER, "refs": _ref_range(manifest["cover"]["intro"]["cover"]["refs"]),
+             "frame": [0, 0, *PAGE_SIZE]}]}]
+    return {"run": store.root.name, "size": PAGE_SIZE, "images": images,
             "pages": cover + [{"number": n, "panels": group} for n, group in sorted(pages.items())]}
 
 
 def flag(store, panel_id, note):
-    """Flag a panel with a note, or clear its flag when the note is blank."""
+    """Flag a panel (or the cover art, COVER) with a note, or clear its flag when the note is blank."""
     images = draft(store)["images"]
     if panel_id not in images:
         raise ValueError(f"{panel_id} is not in the assembled draft")
@@ -94,9 +101,12 @@ def overview(store):
     for chapter_id, chapter in chapters(store).items():
         manifest = chapter.read("final/manifest.json")
         panels = [Panel.model_validate(p) for p in manifest["panels"]]
+        refs = {p.panel_id: _ref_range(p.refs) for p in panels}
+        if manifest.get("cover"):
+            refs[COVER] = _ref_range(manifest["cover"]["intro"]["cover"]["refs"])
         out.append({"id": chapter_id, "title": title(chapter, chapter_id),
                     "pages": len({p.page for p in panels}) + bool(manifest.get("cover")),
-                    "panels": {p.panel_id: _ref_range(p.refs) for p in panels}, "flags": flags(chapter),
+                    "panels": refs, "flags": flags(chapter),
                     "redrawn": redrawn(chapter)})
     return out
 
