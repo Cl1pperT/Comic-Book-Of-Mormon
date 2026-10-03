@@ -5,14 +5,26 @@
     "refs": [
       "3 Nephi 22:1"
     ],
-    "summary": "The Lord addresses the barren and desolate, promising that the desolate will have more children than the married wife.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The passage introduces what is written as something that shall come to pass. The Lord calls on the barren to sing and says the desolate have more children than the married wife.",
+    "characters": [
+      "The Lord"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord calls for the barren one to sing and cry aloud, and says the desolate will have more children than the married wife.",
+        "text": "The passage introduces something written that shall come to pass without identifying the speaker of the introduction.",
+        "refs": [
+          "3 Nephi 22:1"
+        ]
+      },
+      {
+        "text": "The Lord calls on the barren to sing and cry aloud.",
+        "refs": [
+          "3 Nephi 22:1"
+        ]
+      },
+      {
+        "text": "The Lord says the children of the desolate are more numerous than the children of the married wife.",
         "refs": [
           "3 Nephi 22:1"
         ]
@@ -20,22 +32,40 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The address does not establish that a woman is visibly present."
+      "No setting or visible appearance of the Lord is described.",
+      "The poetic address does not establish a visibly present woman."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Sing, O barren, thou that didst not bear; break forth into singing, and cry aloud, thou that didst not travail with child;",
+        "refs": [
+          "3 Nephi 22:1"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "for more are the children of the desolate than the children of the married wife,",
+        "refs": [
+          "3 Nephi 22:1"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
     "narration": [
       {
-        "text": "Sing, O barren, thou that didst not bear",
+        "text": "And then shall that which is written come to pass:",
         "refs": [
           "3 Nephi 22:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The barren and desolate language is poetic address, not a narrated birth."
+      "The barren and desolate language is a poetic address, not a narrated birth.",
+      "The supplied verse does not identify the speaker of the introductory clause; do not attribute it to Mormon."
     ],
     "prohibited_inventions": [
-      "Do not depict childbirth or invent a visible speaker."
+      "Do not depict childbirth, a visibly present addressee, or an invented appearance of the Lord.",
+      "Do not turn the poetic comparison into a literal gathering of women and children."
     ],
     "importance": "normal"
   },

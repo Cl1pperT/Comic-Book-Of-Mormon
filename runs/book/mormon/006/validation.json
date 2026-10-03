@@ -1,5 +1,5 @@
 {
-  "stamp": "72a5829616d5e3665b437ea940d49aa830686fa72286b033fb95623eb82f6992",
+  "stamp": "2c4b08261d89923c38c7d673f97fd324013b72508e9759a78b1fd409a050d79f",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -15,11 +15,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source places Mormon’s record-making and concealment after the people had gathered; keep this scene after scene_002 without suggesting the records were hidden before the gathering was complete.",
-        "Handling plates, concealing records in the hill, and Moroni receiving the few plates are grounded in the verse, but the concealment place and method and plate appearance are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",

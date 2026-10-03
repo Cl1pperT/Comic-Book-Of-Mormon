@@ -1,13 +1,16 @@
 {
-  "stamp": "f369d172570400c9446690d1f5ab01304a44eaa5f181d514c5ae65cf96d507e3",
+  "stamp": "d73381ac2516dcb69ff4984f2b228fa5d3583c4da9519e09c04213f549f5e377",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The references and dialogue are accurate, using exact contiguous excerpts. The preceding scene places the brother of Jared on Mount Shelem with sixteen stones, while this scene leaves location unstated; the scene does not explicitly say the prayer continues on the mount, so avoid treating that location as certain.",
+        "The summary and explicit facts accurately convey the prayer and anticipated crossing. The prayer also recalls the wilderness and asks that the people not cross in darkness; omitting these details is acceptable, but the summary should not imply the crossing occurs now."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -22,8 +25,12 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “giving eternal life” should remain a reported teaching, not a separately depicted event; its reference to believers is supported by Ether 3:14.",
+        "The man's identity and the location are unspecified in verses 13–14; the scene correctly avoids naming or locating him.",
+        "The previous scene places the exchange at Mount Shelem, but that location is not established by the supplied verses for this scene; do not carry it forward as fact."
+      ]
     },
     "scene_007": {
       "status": "PASS",

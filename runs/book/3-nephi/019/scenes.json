@@ -581,22 +581,28 @@
       "3 Nephi 19:16",
       "3 Nephi 19:17"
     ],
-    "summary": "He speaks to the multitude and commands them and his disciples to kneel upon the earth. Once all have knelt, he commands his disciples to pray.",
+    "summary": "He speaks to the multitude and commands them and his disciples to kneel upon the earth. After all have knelt, he commands his disciples to pray.",
     "characters": [
-      "the speaker, unnamed in the supplied verses",
+      "the man identified only as “he”",
       "the multitude",
       "his disciples"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "He spoke to the multitude and commanded them and his disciples to kneel upon the earth.",
+        "text": "He spoke to the multitude and commanded them to kneel again upon the earth.",
         "refs": [
           "3 Nephi 19:16"
         ]
       },
       {
-        "text": "All knelt upon the earth before he commanded his disciples to pray.",
+        "text": "He commanded his disciples to kneel upon the earth.",
+        "refs": [
+          "3 Nephi 19:16"
+        ]
+      },
+      {
+        "text": "After all had knelt, he commanded his disciples to pray.",
         "refs": [
           "3 Nephi 19:17"
         ]
@@ -607,23 +613,30 @@
     ],
     "unspecified_visual_details": [
       "The setting beyond the earth beneath them.",
-      "The speaker’s appearance and identity.",
+      "The man's appearance and identity.",
       "The disciples’ individual identities."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "when they had all knelt down upon the earth",
+        "text": "commanded them that they should kneel down again upon the earth, and also that his disciples should kneel down upon the earth.",
+        "refs": [
+          "3 Nephi 19:16"
+        ]
+      },
+      {
+        "text": "he commanded his disciples that they should pray.",
         "refs": [
           "3 Nephi 19:17"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The commands are reported, not quoted as direct speech."
+    ],
     "prohibited_inventions": [
-      "Do not place the scene at the water’s edge.",
-      "Do not assign names or identities not given in these verses.",
-      "Do not invent the speaker’s exact words or show a prayer taking place."
+      "Do not identify the man from these verses alone.",
+      "Do not invent his exact spoken words or depict a prayer taking place."
     ],
     "importance": "normal"
   },
@@ -842,45 +855,45 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "He prays again",
+    "title": "Jesus prays again",
     "refs": [
       "3 Nephi 19:27",
       "3 Nephi 19:28",
       "3 Nephi 19:29"
     ],
-    "summary": "He turns from them again, goes a little way off, bows to the earth, and prays to the Father. He thanks the Father for purifying those he has chosen and prays for them and for those who will believe on their words.",
+    "summary": "Jesus turns from them, goes a little way off, bows to the earth, and prays again to the Father. He thanks the Father for purifying those he has chosen because of their faith. He prays for them, for those who will believe on their words, and for those given to him out of the world, asking that they be purified in him and be one.",
     "characters": [
-      "The praying speaker, unnamed in the supplied verses",
-      "Those from whom he turns, unnamed"
+      "Jesus",
+      "Those from whom Jesus turns"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "He turns from them again, goes a little way off, bows to the earth, and prays to the Father.",
+        "text": "Jesus turns from them, goes a little way off, bows to the earth, and prays again to the Father.",
         "refs": [
           "3 Nephi 19:27"
         ]
       },
       {
-        "text": "He thanks the Father for purifying those he has chosen because of their faith and prays for them and for those who will believe on their words.",
+        "text": "Jesus thanks the Father for purifying those he has chosen because of their faith and prays for them and for those who will believe on their words.",
         "refs": [
           "3 Nephi 19:28"
         ]
       },
       {
-        "text": "He prays that those given to him may be purified in him and that they may be one.",
+        "text": "Jesus prays for those given to him out of the world, asking that they be purified in him and be one.",
         "refs": [
           "3 Nephi 19:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "He is a little way apart from those he turned from while bowing in prayer."
+      "Jesus is a little way apart from those he turned from while bowing in prayer."
     ],
     "unspecified_visual_details": [
       "The setting and its appearance",
-      "The precise distance between him and the others",
-      "The appearance of the praying speaker and the others"
+      "The precise distance between Jesus and the others",
+      "The appearance of Jesus and the others"
     ],
     "spoken_dialogue": [
       {
@@ -888,14 +901,14 @@
         "refs": [
           "3 Nephi 19:28"
         ],
-        "speaker": "The praying speaker"
+        "speaker": "Jesus"
       },
       {
-        "text": "that we may be one,",
+        "text": "Father, I pray not for the world, but for those whom thou hast given me out of the world,",
         "refs": [
           "3 Nephi 19:29"
         ],
-        "speaker": "The praying speaker"
+        "speaker": "Jesus"
       }
     ],
     "narration": [
@@ -907,8 +920,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Purification and oneness are petitions in the prayer, not separate visible events.",
-      "The supplied verses do not name the praying speaker."
+      "Purification and oneness are subjects of the prayer, not separate visible events."
     ],
     "prohibited_inventions": [
       "Do not depict the Father visibly or give him an invented appearance.",

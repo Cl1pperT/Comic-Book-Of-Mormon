@@ -1,5 +1,5 @@
 {
-  "stamp": "2a2c039997619c479c3454c2424e5f8fdce904f71acbd6511009c38eb93b73c7",
+  "stamp": "c9791b39a0577eaad494b2f462b0dd779c402048b2c22b8a6160424e91a2ff65",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,20 +10,26 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Coriantumr sees how many people were slain, begins to repent, and mourns, accurately summarizing the supplied events. However, the visual inference of grieving is reasonable but posture or visible emotion is not specified; keep depiction restrained."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Ether 15:7–8 identifies the arriving “he” as Coriantumr. The scene incorrectly calls his identity unresolved, omits him from the characters, and prohibits identifying him, breaking continuity with the preceding scene."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location “hill Ramah” is established for Coriantumr’s army, and Ogath for Shiz’s fleeing army, but the text does not establish the direction or route between them. Depict the moments successively without implying an unstated route."
+      ]
     },
     "scene_007": {
       "status": "PASS",

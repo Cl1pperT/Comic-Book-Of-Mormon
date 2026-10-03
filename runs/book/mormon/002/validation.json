@@ -1,9 +1,11 @@
 {
-  "stamp": "5643d1efc5dc3731ff0b0903e7caaed8ed53920f1a1d3f38121e67236b51191f",
+  "stamp": "cccefbd803661b4722c65294867cf7862b31aa9fd002c534bac2d9ca25704c9f",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location and manner of the appointment are unspecified; depict neither as a definite source fact."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -54,10 +56,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The location “Near the land of Jashon” is not explicitly stated for Mormon’s taking the plates and making a record; the verse says the city of Jashon was near the land where the records were deposited."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

@@ -7,41 +7,41 @@
       "Moroni 4:2",
       "Moroni 4:3"
     ],
-    "summary": "An elder or priest administers the sacrament; the church kneels and prays to the Father in the name of Christ, asking that the bread be blessed and sanctified.",
+    "summary": "Elders or priests administered the flesh and blood of Christ to the church according to his commandments. They knelt with the church and prayed to the Father in the name of Christ, asking him to bless and sanctify the bread.",
     "characters": [
-      "An elder or priest",
-      "the church"
+      "Elders or priests",
+      "The church"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "An elder or priest administers the flesh and blood of Christ to the church according to Christ’s commandments.",
+        "text": "An elder or priest ministered the flesh and blood of Christ to the church according to Christ’s commandments.",
         "refs": [
           "Moroni 4:1"
         ]
       },
       {
-        "text": "The church kneels with the elder or priest, who prays to the Father in the name of Christ.",
+        "text": "They knelt with the church and prayed to the Father in the name of Christ.",
         "refs": [
           "Moroni 4:2"
         ]
       },
       {
-        "text": "The prayer asks God to bless and sanctify the bread for those who partake.",
+        "text": "The prayer asks that the bread be blessed and sanctified for those who partake of it.",
         "refs": [
           "Moroni 4:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The elder or priest is visible administering bread to the assembled church.",
-      "Members of the church kneel during the prayer."
+      "The people kneeling with the minister or ministers form an assembled congregation.",
+      "Bread may be present during the prayer."
     ],
     "unspecified_visual_details": [
-      "The church's identity, size, and composition.",
-      "The architecture, furnishings, clothing, and appearance of the people."
+      "The number and appearance of the ministers and church members.",
+      "The location, clothing, furnishings, and appearance of the bread."
     ],
     "spoken_dialogue": [
       {
@@ -49,7 +49,7 @@
         "refs": [
           "Moroni 4:3"
         ],
-        "speaker": "An elder or priest"
+        "speaker": "They"
       }
     ],
     "narration": [
@@ -61,11 +61,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The prayer identifies the bread as a remembrance of the body of Christ and asks that those who partake always have his Spirit with them."
+      "The prayer connects partaking of the bread with remembering Christ’s body, taking his name, remembering him, keeping his commandments, and having his Spirit with them."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ or the Father as visibly present.",
-      "Do not add a particular church, congregation identity, or architectural setting."
+      "Do not depict the Father or Christ as visibly present.",
+      "Do not assign an invented identity, setting, or individual speaker to the praying group."
     ],
     "importance": "normal"
   }

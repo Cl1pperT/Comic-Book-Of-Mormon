@@ -479,7 +479,7 @@
     "refs": [
       "Helaman 3:21"
     ],
-    "summary": "Helaman had two sons, named the eldest Nephi and the youngest Lehi. They began to grow up unto the Lord.",
+    "summary": "Helaman had two sons. He named the eldest Nephi and the youngest Lehi, and they began to grow up unto the Lord.",
     "characters": [
       "Helaman (son of Helaman)",
       "Nephi (son of Helaman)",
@@ -490,7 +490,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Helaman had two sons and named them Nephi and Lehi, the eldest and youngest respectively.",
+        "text": "Helaman had two sons and named the eldest Nephi and the youngest Lehi.",
         "refs": [
           "Helaman 3:21"
         ]
@@ -506,12 +506,12 @@
       "Helaman with his two young sons."
     ],
     "unspecified_visual_details": [
-      "Their ages, appearance, and setting are unspecified."
+      "Their exact ages, appearance, and setting are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "He gave unto the eldest the name of Nephi",
+        "text": "And it came to pass that he had two sons. He gave unto the eldest the name of Nephi",
         "refs": [
           "Helaman 3:21"
         ]
@@ -530,45 +530,59 @@
       "Helaman 3:22",
       "Helaman 3:23"
     ],
-    "summary": "Wars and contentions began to decrease near the end of the forty-eighth year. In the forty-ninth year, continual peace was established, though secret combinations established by Gadianton the robber remained in settled parts of the land, unknown to the government and therefore not destroyed.",
-    "characters": [
-      "Gadianton"
-    ],
+    "summary": "Near the end of the forty-eighth year, wars and contentions among the Nephites began to cease to a small degree. In the forty-ninth year, peace was established except for Gadianton's secret combinations in the more settled parts of the land. Government leaders did not know of the combinations, so they were not destroyed.",
+    "characters": [],
     "locations": [
-      "Land of Nephi"
+      "the land",
+      "the more settled parts of the land"
     ],
     "explicit_facts": [
       {
-        "text": "Wars and contentions began to cease to a small degree near the end of the forty-eighth year.",
+        "text": "Wars and contentions among the Nephites began to cease to a small degree near the end of the forty-eighth year of the judges.",
         "refs": [
           "Helaman 3:22"
         ]
       },
       {
-        "text": "In the forty-ninth year, continual peace was established except for secret combinations established by Gadianton in settled parts of the land; government leaders did not know of them, so they were not destroyed.",
+        "text": "In the forty-ninth year, continual peace was established except for secret combinations Gadianton the robber had established in the more settled parts of the land.",
+        "refs": [
+          "Helaman 3:23"
+        ]
+      },
+      {
+        "text": "Those at the head of government did not know of the secret combinations, so they were not destroyed.",
         "refs": [
           "Helaman 3:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "A nonspecific view of the land may accompany the account of peace without depicting a particular event."
+    ],
     "unspecified_visual_details": [
-      "The members and activities of the secret combinations are not described in this passage."
+      "The appearance of Gadianton, the combinations, government leaders, and the land is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there was continual peace established in the land",
+        "text": "the wars and contentions began to cease,",
+        "refs": [
+          "Helaman 3:22"
+        ]
+      },
+      {
+        "text": "there was continual peace established in the land, all save it were the secret combinations which Gadianton the robber had established in the more settled parts of the land, which at that time were not known unto those who were at the head of government; therefore they were not destroyed out of the land.",
         "refs": [
           "Helaman 3:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The secret combinations are reported, not described as a visible event."
+      "The verses report conditions in two successive years; they do not describe a single visible event. Gadianton and the secret combinations are mentioned, not shown acting."
     ],
     "prohibited_inventions": [
-      "Do not depict a secret meeting, members, or any actions not specified."
+      "Do not depict Gadianton, a secret meeting, members or activities of the combinations, or government leaders discovering them.",
+      "Do not combine the two years into one event or identify this land as the Land of Nephi."
     ],
     "importance": "normal"
   },

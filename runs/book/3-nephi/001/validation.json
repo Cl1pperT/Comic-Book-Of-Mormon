@@ -1,5 +1,5 @@
 {
-  "stamp": "6ea3fc266dc9b9aa7349e30ed2b90e387c81731decc11e3d1765a54b83f5bf57",
+  "stamp": "9d68b0f6ce263db89e8fd55d311f77dda5c5125c94a033037c617f626e6b2938",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -16,8 +16,12 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Unspecified location is explicitly marked as unspecified; no setting is established by these verses.",
+        "The summary and explicit facts are supported. Nephi's sorrowful expression is a reasonable inference from his heart being exceedingly sorrowful.",
+        "The previous scene remains in the correct chronology; no sign or later events are depicted. Dialogue and narration use exact source wording. There is no scene-specific uncertainty requiring rejection."
+      ]
     },
     "scene_005": {
       "status": "PASS",

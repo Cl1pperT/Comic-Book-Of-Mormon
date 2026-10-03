@@ -307,40 +307,49 @@
     "refs": [
       "Helaman 1:11"
     ],
-    "summary": "Kishkumen goes to those who sent him, and they covenant to conceal that he murdered Pahoran.",
+    "summary": "Kishkumen goes to those who sent him. Together they enter a covenant, swearing by their everlasting Maker to tell no one that Kishkumen murdered Pahoran.",
     "characters": [
       "Kishkumen",
-      "Paanchi's supporters"
+      "Those who sent Kishkumen"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Kishkumen went to those who sent him, and they covenanted to tell no one he had murdered Pahoran.",
+        "text": "Kishkumen went to those who sent him.",
+        "refs": [
+          "Helaman 1:11"
+        ]
+      },
+      {
+        "text": "They all entered into a covenant, swearing by their everlasting Maker not to tell anyone that Kishkumen had murdered Pahoran.",
         "refs": [
           "Helaman 1:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group may be shown gathered for a private covenant."
+      "Kishkumen and those who sent him may be shown gathered together."
     ],
     "unspecified_visual_details": [
-      "The location and manner of the covenant."
+      "The location, the group's appearance, and the manner of the covenant are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they would tell no man that Kishkumen had murdered Pahoran",
+        "text": "And he went unto those that sent him, and they all entered into a covenant, yea, swearing by their everlasting Maker, that they would tell no man that Kishkumen had murdered Pahoran.",
         "refs": [
           "Helaman 1:11"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verse mentions their everlasting Maker as the one by whom they swear; it does not describe a visible appearance."
+    ],
     "prohibited_inventions": [
-      "Do not invent spoken words for the covenant."
+      "Do not invent spoken words for the covenant.",
+      "Do not depict Pahoran's murder as occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -350,7 +359,7 @@
     "refs": [
       "Helaman 1:12"
     ],
-    "summary": "Kishkumen and his band mingle among the people. Not all can be found; those found are condemned to death.",
+    "summary": "Kishkumen and his band mingle among the people of Nephi. They cannot all be found; those found are condemned to death.",
     "characters": [
       "Kishkumen",
       "Kishkumen's band",
@@ -389,7 +398,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "did mingle themselves among the people",
+        "text": "And Kishkumen and his band, who had covenanted with him, did mingle themselves among the people, in a manner that they all could not be found; but as many as were found were condemned unto death.",
         "refs": [
           "Helaman 1:12"
         ]
@@ -457,7 +466,7 @@
       "Helaman 1:14",
       "Helaman 1:15"
     ],
-    "summary": "In the forty and first year of the reign of the judges, the Lamanites gather and arm an innumerable army. They then come down to pitch battle against the Nephites, led by Coriantumr.",
+    "summary": "In the forty and first year of the reign of the judges, the Lamanites gather and arm an innumerable army. The army then comes down to pitch battle against the Nephites, led by Coriantumr.",
     "characters": [
       "Coriantumr",
       "Lamanite army"
@@ -473,20 +482,20 @@
         ]
       },
       {
-        "text": "They came down again to pitch battle against the Nephites.",
+        "text": "The army came down again to pitch battle against the Nephites.",
         "refs": [
           "Helaman 1:15"
         ]
       },
       {
-        "text": "Coriantumr led them. He was a descendant of Zarahemla, a dissenter from among the Nephites, and a large and mighty man.",
+        "text": "Coriantumr led the army. He was a descendant of Zarahemla, a dissenter from among the Nephites, and a large and mighty man.",
         "refs": [
           "Helaman 1:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Members of the army may be shown with the listed arms and armor.",
+      "Members of the army may be shown carrying the listed arms and wearing the listed armor.",
       "Coriantumr may be shown as large relative to nearby men."
     ],
     "unspecified_visual_details": [
@@ -497,69 +506,95 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lamanites had gathered together an innumerable army of men",
+        "text": "the Lamanites had gathered together an innumerable army of men,",
         "refs": [
           "Helaman 1:14"
+        ]
+      },
+      {
+        "text": "And they were led by a man whose name was Coriantumr;",
+        "refs": [
+          "Helaman 1:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Gathering and arming precede the army's coming down to pitch battle; do not compress them into one simultaneous action."
+      "The gathering and arming precede the army's coming down; do not depict them as simultaneous."
     ],
     "prohibited_inventions": [
-      "Do not show a battle occurring; these verses state only that the army came down to pitch battle.",
-      "Do not add named participants, dialogue, or a visible appearance for Zarahemla."
+      "Do not show a battle occurring.",
+      "Do not add named participants or dialogue.",
+      "Do not depict Zarahemla as physically present."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Coriantumr sent to Zarahemla",
+    "title": "Tubaloth appoints Coriantumr",
     "refs": [
       "Helaman 1:16",
       "Helaman 1:17"
     ],
-    "summary": "King Tubaloth expects Coriantumr's strength and wisdom to prevail. He stirs the Lamanites to anger, gathers his armies, appoints Coriantumr leader, and sends them toward Zarahemla.",
+    "summary": "Tubaloth supposes Coriantumr can stand against the Nephites through strength and wisdom. He stirs them to anger, gathers his armies, appoints Coriantumr their leader, and causes them to march toward Zarahemla to battle the Nephites.",
     "characters": [
-      "King Tubaloth (son of Ammoron)",
-      "Coriantumr (Nephite dissenter)",
-      "Lamanite warriors (Enos to Alma era)"
+      "Tubaloth",
+      "Coriantumr",
+      "Tubaloth's armies"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location",
+      "Land of Zarahemla (destination)"
     ],
     "explicit_facts": [
       {
-        "text": "Tubaloth, son of Ammoron, supposed Coriantumr could stand against the Nephites through strength and wisdom.",
+        "text": "Tubaloth is king of the Lamanites and son of Ammoron.",
         "refs": [
           "Helaman 1:16"
         ]
       },
       {
-        "text": "Tubaloth stirred the Lamanites to anger, gathered his armies, appointed Coriantumr leader, and sent them to Zarahemla to battle.",
+        "text": "Tubaloth supposes Coriantumr can stand against the Nephites with strength and wisdom.",
+        "refs": [
+          "Helaman 1:16"
+        ]
+      },
+      {
+        "text": "Tubaloth stirs them to anger, gathers his armies, appoints Coriantumr their leader, and causes them to march toward Zarahemla to battle the Nephites.",
         "refs": [
           "Helaman 1:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The appointment and departure may be indicated visually without invented dialogue."
+      "Tubaloth and Coriantumr may be shown together for the appointment.",
+      "The armies may be shown marching toward Zarahemla."
     ],
     "unspecified_visual_details": [
-      "The location and any ceremony of the appointment."
+      "The appointment's setting and manner.",
+      "Clothing, equipment, and landscape details."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did appoint Coriantumr to be their leader",
+        "text": "the king of the Lamanites, whose name was Tubaloth",
+        "refs": [
+          "Helaman 1:16"
+        ]
+      },
+      {
+        "text": "Therefore he did stir them up to anger, and he did gather together his armies, and he did appoint Coriantumr to be their leader, and did cause that they should march down to the land of Zarahemla to battle against the Nephites.",
         "refs": [
           "Helaman 1:17"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Tubaloth's expectation about Coriantumr is his supposition, not an established outcome."
+    ],
     "prohibited_inventions": [
-      "No invented speech by Tubaloth."
+      "No invented speech or appointment ceremony.",
+      "Do not identify Coriantumr as a Nephite dissenter from these verses alone.",
+      "Do not depict a battle in this scene."
     ],
     "importance": "normal"
   },
@@ -569,37 +604,44 @@
     "refs": [
       "Helaman 1:18"
     ],
-    "summary": "Because of governmental contention and difficulty, the Nephites have not kept enough guards in Zarahemla. They suppose the Lamanites would not attack the great city.",
+    "summary": "Because of contention and difficulty in the government, they had not kept sufficient guards in the land of Zarahemla. They supposed the Lamanites would not come into the heart of their lands to attack the city.",
     "characters": [
-      "Nephite guards"
+      "Guards"
     ],
     "locations": [
-      "Zarahemla"
+      "Land of Zarahemla",
+      "City of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "The Nephites had not kept sufficient guards in Zarahemla because of governmental contention and difficulty.",
+        "text": "Contention and difficulty in the government had led to insufficient guards in the land of Zarahemla.",
         "refs": [
           "Helaman 1:18"
         ]
       },
       {
-        "text": "They supposed the Lamanites would not attack Zarahemla in the heart of their lands.",
+        "text": "They supposed the Lamanites would not come into the heart of their lands to attack the city of Zarahemla.",
         "refs": [
           "Helaman 1:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A sparsely guarded city approach may convey the shortage."
+      "A sparsely guarded approach to Zarahemla can convey the shortage of guards."
     ],
     "unspecified_visual_details": [
-      "The actual number and arrangement of guards."
+      "The number, placement, and appearance of the guards."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they had not kept sufficient guards in the land of Zarahemla",
+        "text": "because of so much contention and so much difficulty in the government, that they had not kept sufficient guards in the land of Zarahemla;",
+        "refs": [
+          "Helaman 1:18"
+        ]
+      },
+      {
+        "text": "for they had supposed that the Lamanites durst not come into the heart of their lands to attack that great city Zarahemla.",
         "refs": [
           "Helaman 1:18"
         ]
@@ -607,7 +649,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Show the city's guard shortage, not an attack not yet narrated in this verse."
+      "Do not depict a Lamanite attack or Lamanites arriving in this scene.",
+      "Do not invent a government meeting or spoken discussion of the guards."
     ],
     "importance": "normal"
   },
@@ -669,7 +712,7 @@
     "refs": [
       "Helaman 1:21"
     ],
-    "summary": "Pacumeni flees before Coriantumr to the city wall. Coriantumr smites him against it, and Pacumeni dies.",
+    "summary": "Pacumeni flees before Coriantumr to the city wall. Coriantumr smites Pacumeni against the wall, and Pacumeni dies.",
     "characters": [
       "Pacumeni",
       "Coriantumr"
@@ -698,7 +741,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The action can be shown at a city wall without depicting a wound or blood."
+      "The action can be shown at a city wall without depicting wounds or blood."
     ],
     "unspecified_visual_details": [
       "The wall’s appearance and the manner of the blow are not specified."
@@ -706,7 +749,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Coriantumr did smite him against the wall, insomuch that he died.",
+        "text": "Pacumeni, who was the chief judge, did flee before Coriantumr, even to the walls of the city.",
+        "refs": [
+          "Helaman 1:21"
+        ]
+      },
+      {
+        "text": "And it came to pass that Coriantumr did smite him against the wall, insomuch that he died.",
         "refs": [
           "Helaman 1:21"
         ]
@@ -720,44 +769,58 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Coriantumr advances",
+    "title": "Coriantumr marches toward Bountiful",
     "refs": [
       "Helaman 1:22",
       "Helaman 1:23"
     ],
-    "summary": "Seeing Zarahemla in his possession and the Nephites fled, slain, captured, or imprisoned, Coriantumr takes courage and marches toward Bountiful, intending to cut through to the north.",
+    "summary": "Coriantumr sees that he possesses Zarahemla and that Nephites have fled, been slain, taken, or imprisoned. He takes courage and marches with a large army toward Bountiful, intending to reach the north parts of the land.",
     "characters": [
-      "Coriantumr (Nephite dissenter)",
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite captives"
+      "Coriantumr",
+      "Coriantumr's army"
     ],
     "locations": [
-      "Zarahemla"
+      "Zarahemla",
+      "toward Bountiful"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr saw he possessed Zarahemla and that Nephites had fled, been slain, captured, or imprisoned.",
+        "text": "Coriantumr saw that he possessed Zarahemla and that Nephites had fled, been slain, taken, and imprisoned.",
         "refs": [
           "Helaman 1:22"
         ]
       },
       {
-        "text": "He marched with a large army toward Bountiful, intending to cut through to the north parts of the land.",
+        "text": "Coriantumr took courage and was about to go forth against all the land.",
+        "refs": [
+          "Helaman 1:22"
+        ]
+      },
+      {
+        "text": "He did not tarry in Zarahemla but marched with a large army toward Bountiful, intending to cut his way through with the sword to obtain the north parts of the land.",
         "refs": [
           "Helaman 1:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The army's departure from the city may be shown."
+      "Coriantumr and his army can be shown departing Zarahemla."
     ],
     "unspecified_visual_details": [
-      "The route and Bountiful's appearance."
+      "The army's clothing and equipment",
+      "The route to Bountiful",
+      "Bountiful's appearance"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did march forth with a large army",
+        "text": "And now when Coriantumr saw that he was in possession of the city of Zarahemla,",
+        "refs": [
+          "Helaman 1:22"
+        ]
+      },
+      {
+        "text": "he did march forth with a large army, even towards the city of Bountiful;",
         "refs": [
           "Helaman 1:23"
         ]
@@ -765,58 +828,70 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict imagined interior scenes of imprisonment."
+      "Do not depict the earlier fleeing, deaths, captures, or imprisonment as events occurring during this march.",
+      "Do not invent dialogue or identify the army's people beyond what these verses state."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_015",
-    "title": "The army strikes through the center",
+    "title": "Coriantumr’s march through the center",
     "refs": [
       "Helaman 1:24",
       "Helaman 1:25"
     ],
-    "summary": "Coriantumr marches swiftly through the center, attacking before the Nephites can gather except in small groups. The march gives Moronihah great advantage despite the many Nephites slain.",
+    "summary": "Coriantumr marches through the center of the land, giving those he attacks time to assemble only in small bodies. His forces fall upon them and cut them down. The march gives Moronihah great advantage, although many Nephites are slain.",
     "characters": [
-      "Coriantumr (Nephite dissenter)",
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite defenders"
+      "Coriantumr",
+      "Coriantumr’s unnamed forces",
+      "Nephites"
     ],
     "locations": [
-      "Unspecified location"
+      "Center of the land"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr marched through the center; only small groups of Nephites could assemble, and the Lamanites cut them down.",
+        "text": "Coriantumr supposes that his opponents’ greatest strength is in the center of the land and marches forth, giving them time to assemble only in small bodies.",
         "refs": [
           "Helaman 1:24"
         ]
       },
       {
-        "text": "The march through the center gave Moronihah great advantage despite many Nephites being slain.",
+        "text": "His forces fall upon them and cut them down.",
+        "refs": [
+          "Helaman 1:24"
+        ]
+      },
+      {
+        "text": "Coriantumr’s march through the center gives Moronihah great advantage, despite the large number of Nephites slain.",
         "refs": [
           "Helaman 1:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Small groups of defenders may be shown facing the advancing army."
+      "Small groups may be shown facing Coriantumr’s advancing forces.",
+      "The attack may be shown without wounds, blood, or gore."
     ],
     "unspecified_visual_details": [
-      "Terrain, precise route, and Moronihah's location."
+      "The terrain, precise route, clothing, weapons, and Moronihah’s location are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did fall upon them and cut them down to the earth",
+        "text": "But behold, this march of Coriantumr through the center of the land gave Moronihah great advantage over them, notwithstanding the greatness of the number of the Nephites who were slain.",
         "refs": [
-          "Helaman 1:24"
+          "Helaman 1:25"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moronihah’s advantage is reported; the verses do not show him acting here."
+    ],
     "prohibited_inventions": [
-      "Do not show Moronihah in person; his presence at this location is not specified."
+      "Do not place Moronihah at the attack.",
+      "Do not invent a visible maneuver to explain his advantage.",
+      "Do not show gore or identify the unnamed forces beyond what these verses establish."
     ],
     "importance": "normal"
   },
@@ -828,7 +903,7 @@
       "Helaman 1:27",
       "Helaman 1:28"
     ],
-    "summary": "Moronihah had stationed strong armies around the borders, expecting attacks there. The Lamanites instead capture Zarahemla and move through the central lands, killing people and taking cities and strongholds. Moronihah sends Lehi with an army to head them before Bountiful.",
+    "summary": "Moronihah had stationed strong armies around the borders, expecting attacks there. The Lamanites instead took Zarahemla and marched through the central lands, killing people and taking cities and strongholds. When Moronihah discovered this, he sent Lehi with an army to head them off before they reached Bountiful.",
     "characters": [
       "Moronihah",
       "Lehi (Nephite commander)",
@@ -839,34 +914,35 @@
     ],
     "explicit_facts": [
       {
-        "text": "Moronihah expected attacks at border cities and had stationed strong armies around those borders.",
+        "text": "Moronihah expected attacks at border cities and stationed strong armies around the borders.",
         "refs": [
           "Helaman 1:26"
         ]
       },
       {
-        "text": "The Lamanites entered the center, took Zarahemla, marched through central lands, killed people, and took cities and strongholds.",
+        "text": "The Lamanites entered the center of the land, took Zarahemla, marched through central lands, killed people, and took cities and strongholds.",
         "refs": [
           "Helaman 1:27"
         ]
       },
       {
-        "text": "Moronihah immediately sent Lehi with an army to head them before Bountiful.",
+        "text": "Moronihah immediately sent Lehi with an army to head off the Lamanites before they reached Bountiful.",
         "refs": [
           "Helaman 1:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi and an army may be shown setting out on the dispatch."
+      "Lehi and an army may be shown setting out after Moronihah sends them."
     ],
     "unspecified_visual_details": [
-      "The locations of the border armies and Moronihah when he sends Lehi."
+      "Moronihah's location when he sends Lehi.",
+      "The appearance of Moronihah, Lehi, and the army."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he immediately sent forth Lehi with an army",
+        "text": "But when Moronihah had discovered this, he immediately sent forth Lehi with an army round about to head them before they should come to the land Bountiful.",
         "refs": [
           "Helaman 1:28"
         ]
@@ -874,51 +950,67 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the narrated slaughter as a separate present-tense event in the dispatch moment."
+      "Do not depict the earlier capture or slaughter as happening at the moment Lehi is sent.",
+      "Do not invent an order spoken by Moronihah or Lehi."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_017",
-    "title": "Lehi heads off the invaders",
+    "title": "Retreat toward Zarahemla",
     "refs": [
       "Helaman 1:29"
     ],
-    "summary": "Lehi heads off the Lamanites before they reach Bountiful and battles them. They begin retreating toward Zarahemla.",
+    "summary": "A man heads off a group before they reach the land Bountiful and gives them battle. They then begin retreating toward the land of Zarahemla.",
     "characters": [
-      "Lehi (Nephite commander)",
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite army"
+      "Unnamed man",
+      "Unnamed opposing group"
     ],
     "locations": [
-      "Unspecified location"
+      "Before reaching the land Bountiful",
+      "Retreat route toward the land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi headed the Lamanites before they reached Bountiful and fought them; they began retreating toward Zarahemla.",
+        "text": "The man heads the group off before they reach the land Bountiful and gives them battle.",
+        "refs": [
+          "Helaman 1:29"
+        ]
+      },
+      {
+        "text": "The group then begins retreating back toward the land of Zarahemla.",
         "refs": [
           "Helaman 1:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The opposing armies may be shown meeting in battle."
+      "The retreating group may be shown moving away from the encounter."
     ],
     "unspecified_visual_details": [
-      "Battlefield terrain and formations."
+      "The supplied verse does not name the man or identify the group's allegiance.",
+      "Numbers, appearance, clothing, weapons, terrain, and time of day are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "gave unto them battle",
+        "text": "they began to retreat back towards the land of Zarahemla.",
         "refs": [
           "Helaman 1:29"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Stage the retreat after the battle, not as a simultaneous action.",
+      "The requested identifications as Lehi and Lamanites depend on preceding context that was not supplied and therefore cannot be established here.",
+      "The narration is an exact contiguous excerpt; omitted surrounding text does not require an inserted ellipsis.",
+      "Mormon is the narrator, not a participant established as physically present."
+    ],
     "prohibited_inventions": [
-      "No gore."
+      "Do not assign names or allegiances from unsupplied context.",
+      "Do not invent dialogue, motives, casualties, or additional events.",
+      "Do not depict arrival at Bountiful or Zarahemla.",
+      "Do not show wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
@@ -930,7 +1022,7 @@
       "Helaman 1:31",
       "Helaman 1:32"
     ],
-    "summary": "Moronihah heads them in their retreat and gives battle. Many are slain, including Coriantumr. Surrounded by the Nephites and unable to retreat, the Lamanites yield to them.",
+    "summary": "Moronihah heads them in their retreat and gives them battle. Many are slain, including Coriantumr. The Nephites surround the Lamanites, who cannot retreat and yield themselves to the Nephites.",
     "characters": [
       "Moronihah",
       "Coriantumr",
@@ -954,7 +1046,7 @@
         ]
       },
       {
-        "text": "The Lamanites yield themselves to the Nephites.",
+        "text": "Coriantumr is slain, and the Lamanites yield themselves to the Nephites.",
         "refs": [
           "Helaman 1:32"
         ]
@@ -962,7 +1054,7 @@
     ],
     "reasonable_visual_inferences": [
       "Combat may be shown as Moronihah gives battle, without visible wounds or gore.",
-      "Nephites may be shown surrounding the Lamanites before the Lamanites yield."
+      "Nephites may be shown surrounding the Lamanites before they yield."
     ],
     "unspecified_visual_details": [
       "Exact terrain, troop positions, clothing, weapons, and the manner of Coriantumr’s death."
@@ -971,6 +1063,12 @@
     "narration": [
       {
         "text": "Moronihah did head them in their retreat, and did give unto them battle",
+        "refs": [
+          "Helaman 1:30"
+        ]
+      },
+      {
+        "text": "among the number who were slain Coriantumr was also found.",
         "refs": [
           "Helaman 1:30"
         ]

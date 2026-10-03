@@ -1,9 +1,11 @@
 {
-  "stamp": "71d70a72ffc9085e5739bdefc567382db4b78b50f63b6d52bee73fab44df1eea",
+  "stamp": "f57e9246eb9d52cf2a585b63473ea36798b891241ff40467e855803c7a8ff23e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator. This presents an unsupported speaker attribution as fact."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",

@@ -5,25 +5,38 @@
     "refs": [
       "Ether 2:1"
     ],
-    "summary": "Jared, his brother, their families, and their friends go down into the valley of Nimrod with gathered flocks.",
+    "summary": "Jared, his brother, their families, and their friends go down into the northward valley called Nimrod with flocks they had gathered.",
     "characters": [
       "Jared",
       "The brother of Jared",
-      "Jared and his brother's families and friends"
+      "Their families",
+      "The friends of Jared and his brother and their families"
     ],
     "locations": [
       "Valley of Nimrod"
     ],
     "explicit_facts": [
       {
-        "text": "Jared, his brother, their families, and their friends went down into the valley of Nimrod with flocks of every kind.",
+        "text": "Jared, his brother, their families, and their friends went down into a northward valley called Nimrod.",
+        "refs": [
+          "Ether 2:1"
+        ]
+      },
+      {
+        "text": "They brought flocks they had gathered, male and female, of every kind.",
+        "refs": [
+          "Ether 2:1"
+        ]
+      },
+      {
+        "text": "The valley was named after the mighty hunter.",
         "refs": [
           "Ether 2:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "People and flocks are traveling down into a valley."
+      "People and flocks travel down into a valley."
     ],
     "unspecified_visual_details": [
       "The travelers' appearances, clothing, number, and arrangement; the valley's terrain and vegetation; the flocks' species and colors."
@@ -31,7 +44,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "went down into the valley",
+        "text": "Jared and his brother, and their families, and also the friends of Jared and his brother and their families, went down into the valley",
         "refs": [
           "Ether 2:1"
         ]
@@ -39,7 +52,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the mighty hunter as present; he is only mentioned in the valley's name explanation."
+      "Do not depict the mighty hunter as present; he is mentioned only to explain the valley's name."
     ],
     "importance": "normal"
   },
@@ -788,7 +801,7 @@
       "Ether 2:24",
       "Ether 2:25"
     ],
-    "summary": "The Lord describes the barges being like a whale amid mountain waves, promises to bring them up from the sea's depths, and says he prepares them against waves, winds, and floods. He asks what should be prepared for light.",
+    "summary": "The Lord says waves will dash upon those he addresses, promises to bring them up from the sea's depths, says he prepares them against waves, winds, and floods, and asks what he should prepare so they may have light.",
     "characters": [
       "The Lord"
     ],
@@ -797,46 +810,48 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says they will be as a whale amid mountain waves, promises to bring them up from the depths, and says winds, rains, and floods are sent forth.",
+        "text": "The Lord says mountain waves will dash upon those he addresses and promises to bring them up from the depths of the sea.",
         "refs": [
           "Ether 2:24"
         ]
       },
       {
-        "text": "The Lord says he prepares them against waves, winds, and floods, and asks what he should prepare so they may have light in the depths.",
+        "text": "The Lord says he prepares them against waves, winds, and floods, and asks what he should prepare so they may have light.",
         "refs": [
           "Ether 2:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speech may be presented off-screen without depicting its metaphors as a literal event."
+      "The Lord's words may be presented without showing the sea or a voyage."
     ],
     "unspecified_visual_details": [
-      "The encounter's visual setting in these verses; no visible storm or voyage is narrated."
+      "The appearance of the Lord and those addressed.",
+      "The setting of the speech."
     ],
     "spoken_dialogue": [
       {
-        "text": "what will ye that I should prepare for you",
+        "text": "Nevertheless, I will bring you up again out of the depths of the sea;",
+        "refs": [
+          "Ether 2:24"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "Therefore what will ye that I should prepare for you that ye may have light when ye are swallowed up in the depths of the sea?",
         "refs": [
           "Ether 2:25"
         ],
         "speaker": "The Lord"
       }
     ],
-    "narration": [
-      {
-        "text": "I will bring you up again out of the depths of the sea",
-        "refs": [
-          "Ether 2:24"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The whale and depths imagery occurs within the Lord's teaching; do not depict a literal whale or actual capsizing."
+      "The whale comparison and the description of being swallowed up in the depths are part of the Lord's speech, not narrated events."
     ],
     "prohibited_inventions": [
-      "Do not show a storm, submersion, or rescue as a present event."
+      "Do not depict a literal whale, a present storm, submersion, or rescue.",
+      "Do not invent an appearance for the Lord or identify the addressees beyond what these verses supply."
     ],
     "importance": "normal"
   }

@@ -1,13 +1,13 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Prophets in Com’s days",
+    "title": "The prophets flee to Com",
     "refs": [
       "Ether 11:1",
       "Ether 11:2",
       "Ether 11:3"
     ],
-    "summary": "Many prophets prophesy destruction unless the people repent. Rejected and threatened, they flee to Com for protection and prophesy to him; Com is blessed for the rest of his days.",
+    "summary": "In Com’s days, many prophets foretold destruction unless the people repented. The people rejected them and sought to destroy them, so they fled to Com for protection. They prophesied to Com, and he was blessed for the remainder of his days.",
     "characters": [
       "the prophets",
       "Com",
@@ -18,7 +18,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Many prophets prophesied that the people would be destroyed unless they repented, turned to the Lord, and forsook murder and wickedness.",
+        "text": "Many prophets prophesied destruction unless the people repented, turned to the Lord, and forsook murder and wickedness.",
         "refs": [
           "Ether 11:1"
         ]
@@ -37,29 +37,39 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The prophets may be shown addressing Com after fleeing to him."
+      "The prophets may be shown approaching Com after fleeing to him."
     ],
     "unspecified_visual_details": [
-      "The setting, architecture, clothing, and appearance of the people and prophets are not specified."
+      "The location, clothing, and physical appearances are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there came also in the days of Com many prophets",
+        "text": "And there came also in the days of Com many prophets",
         "refs": [
           "Ether 11:1"
         ]
       },
       {
-        "text": "they fled unto Com for protection",
+        "text": "the prophets were rejected by the people, and they fled unto Com for protection",
         "refs": [
           "Ether 11:2"
         ]
+      },
+      {
+        "text": "And they prophesied unto Com many things",
+        "refs": [
+          "Ether 11:3"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni narrates these events; the prophets’ words are not supplied as direct speech.",
+      "Com’s blessing over the remainder of his days is reported, not a single visible event."
+    ],
     "prohibited_inventions": [
-      "Do not depict the prophesied destruction as occurring in this scene."
+      "Do not depict the prophesied destruction as occurring.",
+      "Do not invent the prophets’ spoken words or a visible manifestation of Com’s blessing."
     ],
     "importance": "normal"
   },
@@ -313,7 +323,7 @@
     "refs": [
       "Ether 11:10"
     ],
-    "summary": "Ahah, Seth’s son, obtains the kingdom and reigns all his days. His iniquity causes much bloodshed, and his days are few.",
+    "summary": "Ahah obtains the kingdom and reigns over the people all his days. His iniquity causes much bloodshed, and his days are few.",
     "characters": [
       "Ahah"
     ],
@@ -322,28 +332,28 @@
     ],
     "explicit_facts": [
       {
-        "text": "Ahah, Seth’s son, obtained the kingdom and reigned over the people all his days.",
+        "text": "Ahah, described as someone's son, obtained the kingdom and reigned over the people all his days.",
         "refs": [
           "Ether 11:10"
         ]
       },
       {
-        "text": "Ahah did much iniquity, causing much bloodshed, and his days were few.",
+        "text": "Ahah's iniquity caused much bloodshed, and his days were few.",
         "refs": [
           "Ether 11:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ahah may be shown as a ruler; bloodshed may be suggested without graphic injury."
+      "Ahah may be depicted as a ruler; the bloodshed may be suggested without depicting a specific incident."
     ],
     "unspecified_visual_details": [
-      "The circumstances of the bloodshed, Ahah’s appearance, and the place are unspecified."
+      "The identity of Ahah's parent, his appearance, the location, and the circumstances of the bloodshed are not specified in this verse."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did cause the shedding of much blood",
+        "text": "Ahah, his son, did obtain the kingdom; and he did reign over the people all his days. And he did do all manner of iniquity in his days, by which he did cause the shedding of much blood; and few were his days.",
         "refs": [
           "Ether 11:10"
         ]
@@ -351,7 +361,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent specific victims, battles, or a cause of Ahah’s short life."
+      "Do not name Ahah's parent from this verse alone.",
+      "Do not invent specific victims, battles, or a cause of Ahah's short life."
     ],
     "importance": "normal"
   },

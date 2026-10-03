@@ -143,23 +143,36 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Kib Taken Captive",
+    "title": "The King Taken Captive",
     "refs": [
       "Ether 7:5",
       "Ether 7:6"
     ],
-    "summary": "Corihor gathered an army, went to Moron, where the king dwelt, and took Kib captive. Moron was near the land called Desolation by the Nephites.",
+    "summary": "A man gathered an army, came to Moron, where the king dwelt, and took the king captive. Moron was near the land called Desolation by the Nephites.",
     "characters": [
-      "Corihor",
-      "Corihor’s army",
-      "Kib"
+      "The unnamed man who gathered the army",
+      "The army",
+      "The king"
     ],
     "locations": [
       "Moron"
     ],
     "explicit_facts": [
       {
-        "text": "Corihor gathered an army, came to Moron, and took the king captive.",
+        "text": "A man gathered an army, came to Moron, and took the king captive.",
+        "refs": [
+          "Ether 7:5"
+        ]
+      },
+      {
+        "text": "The king dwelt in Moron.",
+        "refs": [
+          "Ether 7:5",
+          "Ether 7:6"
+        ]
+      },
+      {
+        "text": "The king's captivity fulfilled the saying of the brother of Jared that they would be brought into captivity.",
         "refs": [
           "Ether 7:5"
         ]
@@ -169,34 +182,30 @@
         "refs": [
           "Ether 7:6"
         ]
-      },
-      {
-        "text": "Kib’s captivity brought to pass the saying of the brother of Jared that they would be brought into captivity.",
-        "refs": [
-          "Ether 7:5"
-        ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Kib can be shown being taken captive by Corihor’s army."
+      "The king can be shown being taken captive in Moron, with the army present."
     ],
     "unspecified_visual_details": [
-      "The appearance of the army, the manner of capture, and the visual boundary between Moron and Desolation."
+      "The appearances of the people and army, the manner of capture, and the appearance of Moron are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "took him captive",
+        "text": "where the king dwelt, and took him captive",
         "refs": [
           "Ether 7:5"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The brother of Jared is referenced in narration, not described as present."
+      "The brother of Jared's saying is reported; he is not described as present."
     ],
     "prohibited_inventions": [
-      "Do not depict the brother of Jared or a prophecy as a visible event."
+      "Do not name the man or the king from verses outside those supplied.",
+      "Do not depict the brother of Jared or his saying as a separate visible event.",
+      "Do not invent dialogue or a specific manner of capture."
     ],
     "importance": "normal"
   },
@@ -683,49 +692,65 @@
       "Ether 7:19",
       "Ether 7:20"
     ],
-    "summary": "Noah’s son built up his kingdom, but could no longer gain power over Shule. Shule’s people prospered, and the country was divided between Shule’s kingdom and Cohor’s.",
+    "summary": "Cohor, the son of Noah, built up his kingdom in Noah’s stead. His people gained no more power over King Shule. Shule’s people prospered, and the country was divided into two kingdoms.",
     "characters": [
-      "Noah’s son",
-      "Shule",
-      "Shule’s people",
-      "Cohor"
+      "Cohor, the son of Noah",
+      "Shule the king",
+      "The people under Shule’s reign"
     ],
     "locations": [
-      "Unspecified location"
+      "The country",
+      "The kingdom of Shule",
+      "The kingdom of Cohor"
     ],
     "explicit_facts": [
       {
-        "text": "Noah’s son built up his kingdom, but they did not again gain power over Shule.",
+        "text": "Noah’s son built up his kingdom in Noah’s stead.",
         "refs": [
           "Ether 7:19"
         ]
       },
       {
-        "text": "Shule’s people prospered and grew great; the country was divided into Shule’s kingdom and the kingdom of Cohor, Noah’s son.",
+        "text": "They gained no more power over King Shule.",
         "refs": [
-          "Ether 7:19",
+          "Ether 7:19"
+        ]
+      },
+      {
+        "text": "The people under Shule’s reign prospered exceedingly and grew great.",
+        "refs": [
+          "Ether 7:19"
+        ]
+      },
+      {
+        "text": "The country was divided into the kingdom of Shule and the kingdom of Cohor, the son of Noah.",
+        "refs": [
           "Ether 7:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The division can be suggested with a map or distinct territories."
+      "A map could distinguish the two kingdoms without specifying their borders."
     ],
     "unspecified_visual_details": [
-      "Noah’s son’s name, the borders, and the appearance of either kingdom."
+      "The kingdoms’ borders, settlements, and appearance.",
+      "The appearances of Cohor, Shule, and their people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there were two kingdoms",
+        "text": "And the country was divided; and there were two kingdoms, the kingdom of Shule, and the kingdom of Cohor, the son of Noah.",
         "refs": [
           "Ether 7:20"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Verse 20 identifies Cohor as the son of Noah; do not depict Noah or an earlier Cohor as the ruler of this kingdom."
+    ],
     "prohibited_inventions": [
-      "Do not identify Noah’s son in verse 19 beyond what verse 20 states about Cohor."
+      "Do not introduce a different unnamed son of Noah as the ruler.",
+      "Do not invent borders, a confrontation with Shule, or spoken dialogue."
     ],
     "importance": "normal"
   },

@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Writing in Hiding",
+    "title": "Moroni Writes More",
     "refs": [
       "Moroni 1:1",
       "Moroni 1:4"
     ],
-    "summary": "Moroni says he had thought he would write no more, but continues writing in hope his words may someday benefit the Lamanites.",
+    "summary": "After abridging the account of the people of Jared, Moroni writes more than he had expected to, hoping his words may be of worth to the Lamanites in a future day. He does not make himself known to them lest they destroy him.",
     "characters": [
       "Moroni"
     ],
@@ -21,22 +21,28 @@
         ]
       },
       {
-        "text": "Moroni continues writing a few more things, hoping they may be of worth to the Lamanites in some future day, according to the Lord's will.",
+        "text": "Moroni does not make himself known to the Lamanites lest they destroy him.",
+        "refs": [
+          "Moroni 1:1"
+        ]
+      },
+      {
+        "text": "Moroni writes a few more things, hoping they may be of worth to the Lamanites in some future day, according to the will of the Lord.",
         "refs": [
           "Moroni 1:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni is writing."
+      "Moroni may be shown writing."
     ],
     "unspecified_visual_details": [
-      "Moroni's appearance, age, clothing, writing materials, surroundings, and the exact location are not stated."
+      "Moroni's appearance, age, clothing, writing materials, surroundings, and exact location are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I make not myself known",
+        "text": "Now I, Moroni",
         "refs": [
           "Moroni 1:1"
         ]
@@ -49,11 +55,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moroni's narration describes his own circumstances; the verses do not specify when or where the writing takes place."
+      "The first-person narration is Moroni's. The account of the people of Jared has already been abridged; these verses do not narrate that work as a present event."
     ],
     "prohibited_inventions": [
       "Do not depict Lamanites present or discovering Moroni.",
-      "Do not invent a hiding place, pursuit, or writing materials."
+      "Do not invent a specific hiding place, pursuit, or writing materials.",
+      "Do not depict the earlier abridgment as happening at the same time as this writing."
     ],
     "importance": "normal"
   },

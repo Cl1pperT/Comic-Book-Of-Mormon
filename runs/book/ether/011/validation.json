@@ -1,9 +1,12 @@
 {
-  "stamp": "4c85bfa4c456dc46cf042c9b88744ff48d441f4e3132427a82900d60ce1c7863",
+  "stamp": "2eb0dad2bce26f72a75fa77c1d3b705e424415d344004da3b5098134dd7dbc79",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference that the prophets are approaching Com is plausible, but the verses do not specify how or when they arrive; depict no more than their flight to Com for protection.",
+        "The summary says Com was blessed, which the source explicitly reports; do not portray that blessing as a visible event."
+      ]
     },
     "scene_002": {
       "status": "PASS",

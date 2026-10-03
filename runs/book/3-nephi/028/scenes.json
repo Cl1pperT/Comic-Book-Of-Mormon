@@ -477,16 +477,17 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Their Ministry on the Land",
+    "title": "Mormon Recounts Their Ministry",
     "refs": [
       "3 Nephi 28:16",
       "3 Nephi 28:17",
       "3 Nephi 28:18"
     ],
-    "summary": "The three minister again on earth but do not share what they heard and saw because of a commandment given in heaven. The narrator does not know whether they were mortal or immortal after their transfiguration. According to the record, they minister to all the people, unite those who believe their preaching to the church, and baptize them. Those baptized receive the Holy Ghost.",
+    "summary": "Mormon recounts that they ministered again on earth without sharing what they had heard and seen, because of a commandment given in heaven. He does not know whether they were mortal or immortal after their transfiguration. According to the record, they ministered to all the people, united believers with the church, and baptized them. Those baptized received the Holy Ghost.",
     "characters": [
-      "The three",
-      "The people"
+      "The three disciples",
+      "The people",
+      "Mormon (narrator only)"
     ],
     "locations": [
       "The face of the earth",
@@ -494,29 +495,29 @@
     ],
     "explicit_facts": [
       {
-        "text": "They minister again on earth but do not minister of what they heard and saw because of a commandment given in heaven.",
+        "text": "They ministered again on earth but did not minister of what they had heard and seen because of a commandment given in heaven.",
         "refs": [
           "3 Nephi 28:16"
         ]
       },
       {
-        "text": "The narrator does not know whether they were mortal or immortal from the day of their transfiguration.",
+        "text": "Mormon does not know whether they were mortal or immortal from the day of their transfiguration.",
         "refs": [
           "3 Nephi 28:17"
         ]
       },
       {
-        "text": "According to the record, they minister to all the people, unite those who believe their preaching to the church, and baptize them; those baptized receive the Holy Ghost.",
+        "text": "According to the record, they ministered to all the people, united those who believed their preaching with the church, and baptized them; those baptized received the Holy Ghost.",
         "refs": [
           "3 Nephi 28:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A non-specific depiction of people listening or being baptized could illustrate the reported ministry without claiming a particular occasion is documented."
+      "An undated illustration of people listening or being baptized could accompany Mormon’s account without presenting it as a newly documented occasion."
     ],
     "unspecified_visual_details": [
-      "The precise setting, identities of the people, baptism method, and any visible appearance of the Holy Ghost are unspecified."
+      "The precise setting, the people’s identities, the baptism method, and any visible appearance of the Holy Ghost are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -527,7 +528,7 @@
         ]
       },
       {
-        "text": "whether they were mortal or immortal, from the day of their transfiguration, I know not;",
+        "text": "And now, whether they were mortal or immortal, from the day of their transfiguration, I know not;",
         "refs": [
           "3 Nephi 28:17"
         ]
@@ -546,10 +547,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Present the ministry as the narrator's account, not as a newly specified occasion.",
-      "The text leaves their mortal or immortal state unknown."
+      "The first-person “I” in the narration is Mormon, the abridger, not one of the three disciples.",
+      "Present the ministry as Mormon’s account rather than a newly specified occasion.",
+      "Their mortal or immortal state is unknown to Mormon."
     ],
     "prohibited_inventions": [
+      "Do not alter the quotation to insert Mormon’s name into it.",
       "Do not depict or disclose what they heard and saw in heaven.",
       "Do not identify the land as the land of Nephi or depict all twelve disciples as present.",
       "Do not invent a visible appearance for the Holy Ghost."
@@ -562,38 +565,38 @@
     "refs": [
       "3 Nephi 28:19"
     ],
-    "summary": "People outside the church cast the three into prison, but the prisons are rent in twain and cannot hold them.",
+    "summary": "People who did not belong to the church cast them into prison. The prisons were rent in twain and could not hold them.",
     "characters": [
-      "The twelve Nephite disciples",
+      "The three",
       "People who did not belong to the church"
     ],
     "locations": [
-      "A prison"
+      "Prison"
     ],
     "explicit_facts": [
       {
-        "text": "People who do not belong to the church cast the three into prison, but the prisons cannot hold them because they are rent in twain.",
+        "text": "People who did not belong to the church cast them into prison.",
+        "refs": [
+          "3 Nephi 28:19"
+        ]
+      },
+      {
+        "text": "The prisons could not hold them because they were rent in twain.",
         "refs": [
           "3 Nephi 28:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The prison is visibly broken open as the three escape or are freed."
+      "A prison is visibly split open."
     ],
     "unspecified_visual_details": [
-      "The prison's design and the precise manner the three leave it are unspecified."
+      "The prison's design and how they leave it are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the prisons could not hold them,",
-        "refs": [
-          "3 Nephi 28:19"
-        ]
-      },
-      {
-        "text": "for they were rent in twain.",
+        "text": "And the prisons could not hold them, for they were rent in twain.",
         "refs": [
           "3 Nephi 28:19"
         ]
@@ -601,7 +604,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not add injuries, captors' identities, or details of a rescue."
+      "Do not depict all twelve disciples as prisoners.",
+      "Do not add injuries, named captors, or a rescue."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "d3fdaaf8bbbdab27ad98e0dac392bb75562a38d4707c40546922466e7a98fb8d",
+  "stamp": "c9a544f6ddaa490148d1711fc56749ef17b39ecc1bdf4e7cf695f647d38ea45a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -52,13 +52,13 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse says Helaman had two sons and gave them names; it does not explicitly state that he named them himself."
+        "The narration is an exact, contiguous excerpt from Helaman 3:21 but stops before mentioning Lehi and the sons growing up; the summary and facts supply those details correctly. Visualizing Helaman with his sons is a reasonable inference, but the verse does not specify a setting or their ages."
       ]
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Gadianton” is mentioned as the establisher of secret combinations but is not described as present in a visible scene."
+        "The narration quotes exact source excerpts but omits the qualification “in a small degree” and the specific timing near the end of the forty-eighth year; the summary and explicit facts preserve those distinctions. The land's nonspecific visual treatment is uncertain because no setting is described."
       ]
     },
     "scene_013": {

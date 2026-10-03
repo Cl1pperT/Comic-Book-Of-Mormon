@@ -1,5 +1,5 @@
 {
-  "stamp": "28dc31cb7f776552e7ddebc65ac04d400904b21ad4f17eefc53987688f4e07d1",
+  "stamp": "4318647bcb46b4bb99dac4503bee2b946a80456764c6d7ebffe144494a49e389",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,8 +38,10 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The house and storm are explicitly framed as a likeness (3 Nephi 14:24–25), so they should not be presented as a real event. Visualizing the imagery alongside Jesus’s teaching is a reasonable but interpretive choice."
+      ]
     },
     "scene_011": {
       "status": "PASS",

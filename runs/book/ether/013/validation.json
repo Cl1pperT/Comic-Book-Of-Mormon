@@ -1,5 +1,5 @@
 {
-  "stamp": "da079c22b154d35c459171d9525bc32268542ab272f81cadcf4df34ce4a56a82",
+  "stamp": "c80f66ecd4b44de079d3e638c7a0a9bd1b4a3f934bde3236d5424093628c43c0",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -22,7 +22,8 @@
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The warning is reported to Ether, but its manner of delivery is unspecified; depict no visible divine figure."
+        "The narration fragments are exact excerpts, but their order differs from the source: verse 21's burial excerpt precedes the verse 21 destruction excerpt. Keep the chronology/order consistent with the supplied text.",
+        "The visual inference that Ether may be shown alone is reasonable, but the source does not state he is alone or describe a visible form of the word of the Lord."
       ]
     },
     "scene_006": {
@@ -30,15 +31,13 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Shared's forces are not mentioned in the verse; their depiction is an inference from his giving battle."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Shared's forces are not mentioned in the verse; their depiction is an inference from his being defeated."
+        "Coriantumr’s sons beating Shared is explicit, but depicting a specific confrontation as a single moment is a visual inference; its details and setting are unspecified."
       ]
     },
     "scene_009": {

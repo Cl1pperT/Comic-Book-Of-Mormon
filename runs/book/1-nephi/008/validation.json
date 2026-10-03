@@ -1,127 +1,87 @@
 {
-  "stamp": "851002fc69cceaede33e71da1cab64c946781ab65765db8009bc0585d081ef0a",
+  "stamp": "28d354c749cd96d4dc5c738289acc99f1724e795a50dbc736b9870543e2aea5d",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene presents Lehi speaking to his sons in the wilderness, consistent with verses 2–4; the imagined wilderness is correctly kept distinct. Visual details of the sons and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpts are verbatim and the summary sticks to the supplied events. Visual proximity is a reasonable inference from the man standing before the narrator and speaking to him; the narrator's and man's appearance and surroundings remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "The characters and notes identify Nephi as the person following the man, traveling, and praying. The supplied account identifies the dream speaker as Nephi’s father (1 Nephi 8:2–3), not Nephi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "The summary, characters, facts, and notes attribute the dreamer’s view of the field and tree to Nephi. The dream speaker is Nephi’s father (1 Nephi 8:2–3), so this attribution changes who experiences the events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "The summary, characters, facts, and notes make Nephi the person who eats the fruit and desires to share it. The dream speaker is Nephi’s father (1 Nephi 8:2–3), not Nephi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The notes retain Nephi as the observer despite the supplied account identifying the dream speaker as Nephi’s father (1 Nephi 8:2–3). Nephi is among the people the observer sees at the river’s head (1 Nephi 8:14); the proposed observer identity therefore contradicts the scene."
+        "The supplied verses identify the dream’s first-person narrator as Lehi (1 Nephi 8:2), not Nephi. Scene 007 labels the narrator as Nephi and treats the Nephi seen at the river’s head as someone observed; do not depict two Nephis. The source explicitly names Sariah, Sam, and Nephi there."
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and dialogue are supported by verses 15–16. The gesture’s direction is unspecified; the visual-inference wording appropriately presents it as an option."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Source verses are Lehi's account, but the scene assigns the first-person observer to Nephi in its summary, explicit facts, and narration; Nephi is not the observer in verses 17–28. Narration's first-person quotation therefore refers to Lehi.",
-        "Summary says Laman and Lemuel do not come to him or partake; the verse says they would not come unto him and partake, which does not explicitly establish whether they partook elsewhere."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The scene assigns the first-person observer to Nephi in the summary and facts, but the verses are Lehi's account; the first-person narration is Lehi's. Narration excerpts are exact contiguous quotations.",
-        "The summary states that the path reaches the tree and leads by the fountain to the field, accurately reflecting the verse's descriptions, though the verse does not explicitly give this as a chronological sequence."
+        "The note directing Nephi to voice the first-person narration assigns the observer's speech to the wrong person. The observer names Nephi among those he sees in 1 Nephi 8:14, and the preceding scene identifies the observer as Lehi."
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene assigns the first-person observer to Nephi in the summary and facts, but the verses are Lehi's account; the first-person narration is Lehi's. Narration excerpts are exact contiguous quotations.",
-        "The visual inference that some people are already moving toward the path while others begin on it is consistent with verses 21–22, which describe separate actions in sequence."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse describes a mist arising and people losing their way, wandering off, and being lost; it does not explicitly say the mist makes the path difficult to see. That is a reasonable visual inference, not a stated fact.",
-        "The scene does not identify the observer, appropriately avoiding the unsupported identification of Nephi or Lehi."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene assigns the first-person observer to Nephi in its summary and facts, but the verses are Lehi's account; the first-person narration is Lehi's.",
-        "The summary's sequence—reaching the tree, partaking, then casting their eyes about—is supported by verses 24–25. The visual inference that hands remain on the rod is consistent with 'clinging to the rod of iron.'"
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene assigns the first-person observer to Nephi in its summary and facts, but the verses are Lehi's account; the first-person narration is Lehi's.",
-        "The inference that occupants face toward the fruit-partakers is supported by their pointing toward them; the source does not specify the occupants' precise orientation."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source does not identify the first-person narrator in verse 28; the scene appropriately avoids naming one.",
-        "The visual inference that the fruit-tasters move away along paths while others scoff is consistent with the reported events, but verse 28 summarizes them and does not establish a single simultaneous present-tense scene. The summary preserves the reported sequence."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary accurately separates Nephi’s narration in verse 29 from the reported vision in verse 30. The multitudes’ identities and appearance are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“The multitudes” in verse 31 and the people in the outcomes of verse 32 are not explicitly identified as the same group; the scene correctly flags this uncertainty.",
-        "Keep the fountain and strange roads distinct; do not imply a shared location or depict the reported outcomes as a newly unfolding sequence."
+        "The observer is referred to only as “he” in these verses. The preceding scene identifies Lehi as the one recounting the vision, but the supplied wording here does not explicitly name the observer."
       ]
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source does not specify where the fruit-partakers are relative to the strange building; the visual inference of pointing toward them should not imply a specific distance or layout.",
-        "Verse 34 reports falling away; do not depict it as a new present-tense event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpts are verbatim and within the word limit, but do not include all explicit actions and facts in the summary (including Lehi’s fear, preaching, prophesying, and bidding them keep the commandments).",
-        "The source does not establish the location or physical arrangement during Lehi’s address; keep those unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

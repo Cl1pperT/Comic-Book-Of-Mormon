@@ -1,5 +1,5 @@
 {
-  "stamp": "e26723e8fd935b8a7016563f341dd3d69b14d8f2f42410d68420717b70e8074a",
+  "stamp": "97981642b9a1d1b3d56b898c3d8cba375806a9e83c756f3ba17aa72b5608c2ac",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,8 +22,8 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene's references and listed explicit facts omit Helaman 8:4–5, which identify those seeking to destroy Nephi as judges and report their earlier appeal to the people. The scene correctly avoids naming them as judges, but the relationship to the previous scene's anger and contention is not fully specified.",
-        "The previous scene says Nephi's physical presence is not established, but Helaman 8:10 explicitly has him begin speaking again to them; depiction of Nephi speaking here is therefore supported. The Red Sea account is correctly presented as recollection, not a concurrent event."
+        "The dialogue excerpt from Helaman 8:12 omits the verse’s opening phrase, “And now behold,”; the quoted words themselves otherwise match the source.",
+        "The visual inference that Nephi addresses people who refrained from laying hands on him is reasonable, though the text does not specify who is present beyond those seeking to destroy him and those who favor or fear him."
       ]
     },
     "scene_005": {
@@ -51,9 +51,8 @@
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is not identified in Helaman 8:27–28; the scene correctly leaves the speaker unidentified. The previous scene labels its speaker Nephi, but that identity is not stated in the supplied verses for this scene, so continuity of identity is uncertain.",
-        "The address is not said to occur at the judgment-seat; it is only mentioned as the place to go and search. The scene appropriately leaves the address location unspecified.",
-        "The quoted dialogue is verbatim and within the word limit; the murder is reported, not depicted as occurring."
+        "The stated source quotation from Helaman 8:27 omits the verse's opening “Yea,” and therefore is not a verbatim contiguous excerpt as required. The other dialogue excerpts match the source.",
+        "The visual inference that Nephi addresses others is supported by his direct address; the address location and visuals remain unspecified."
       ]
     }
   }

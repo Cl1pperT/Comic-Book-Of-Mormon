@@ -4,17 +4,21 @@
   "verses": 34,
   "scenes": 18,
   "counts": {
-    "PASS": 17,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 0
+    "PASS": 14,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 2,
+  "rejected": {
+    "scene_004": [
+      "Ether 15:7–8 identifies the arriving “he” as Coriantumr. The scene incorrectly calls his identity unresolved, omits him from the characters, and prohibits identifying him, breaking continuity with the preceding scene."
+    ]
+  },
+  "calls": 15,
   "tokens": {
-    "input_tokens": 33702,
-    "cached_input_tokens": 16640,
+    "input_tokens": 124722,
+    "cached_input_tokens": 64640,
     "cache_write_input_tokens": 0,
-    "output_tokens": 5997,
-    "reasoning_output_tokens": 0
+    "output_tokens": 13997,
+    "reasoning_output_tokens": 3154
   }
 }

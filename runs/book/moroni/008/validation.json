@@ -1,5 +1,5 @@
 {
-  "stamp": "f2220ffa0cd70c0e561a75f40f66a780f1528c47cd5aa7bbfb23e70fbfbc478b",
+  "stamp": "168ecfee9285f060d24f21f9f6ecfcd4408f9c7daabfb8f8b551b3cce51137ff",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,8 +10,10 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Moroni 8:1–7 identifies Mormon, not Moroni, as the writer and the person who inquired of the Lord and received the word. The summary, explicit facts, and visual inference incorrectly assign those actions to Moroni. The scene cannot proceed with that speaker error."
+      ]
     },
     "scene_004": {
       "status": "PASS",

@@ -437,7 +437,7 @@
     "refs": [
       "4 Nephi 1:19"
     ],
-    "summary": "Nephi, keeper of the record, died; his son Amos kept the record on the plates of Nephi in his stead.",
+    "summary": "Nephi, who kept the last record on the plates of Nephi, died. His son Amos kept the record on those plates in his stead.",
     "characters": [
       "Nephi, keeper of the last record",
       "Amos, son of Nephi"
@@ -447,32 +447,38 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi, who kept the last record on the plates of Nephi, died; his son Amos kept it in his stead on those plates.",
+        "text": "Nephi kept the last record on the plates of Nephi and died.",
+        "refs": [
+          "4 Nephi 1:19"
+        ]
+      },
+      {
+        "text": "Nephi's son Amos kept the record on the plates of Nephi in his stead.",
         "refs": [
           "4 Nephi 1:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Amos holding or attending to the plates can suggest his keeping the record."
+      "Amos attending to the plates could suggest his keeping the record; Nephi need not be shown."
     ],
     "unspecified_visual_details": [
-      "The circumstances and place of Nephi's death, the appearance of either man, and the plates' design."
+      "The place and circumstances of Nephi's death, the appearance of Nephi and Amos, and the plates' design."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his son Amos kept it in his stead",
+        "text": "Nephi, he that kept this last record, (and he kept it upon the plates of Nephi) died, and his son Amos kept it in his stead; and he kept it upon the plates of Nephi also.",
         "refs": [
           "4 Nephi 1:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The death and the record-keeping succession are stated; their precise timing within the verse is not elaborated."
+      "The verse states Nephi's death and Amos's succession without describing a transfer ceremony."
     ],
     "prohibited_inventions": [
-      "Do not show a deathbed, funeral, or conversation."
+      "Do not show a deathbed, funeral, conversation, or transfer ceremony."
     ],
     "importance": "normal"
   },
@@ -529,53 +535,65 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Amos succeeds Amos",
+    "title": "Amos dies; his son keeps the record",
     "refs": [
       "4 Nephi 1:21",
       "4 Nephi 1:22"
     ],
-    "summary": "Amos died in the year 194 from Christ's coming, and his son Amos kept the record in his stead. By the year 200, the second generation had passed away save a few.",
+    "summary": "Amos died 194 years after Christ's coming. His son Amos kept the record in his stead upon the plates of Nephi. When 200 years had passed, all but a few of the second generation had passed away.",
     "characters": [
-      "Amos, son of Nephi",
-      "Amos, son of Amos"
+      "Amos (father)",
+      "Amos (son)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "In the year 194 from Christ's coming, Amos died, and his son Amos kept the record in his stead on the plates of Nephi.",
+        "text": "Amos died 194 years after the coming of Christ.",
         "refs": [
           "4 Nephi 1:21"
         ]
       },
       {
-        "text": "By the year 200, the second generation had passed away save a few.",
+        "text": "His son Amos kept the record in his stead upon the plates of Nephi; it was also written in the book of Nephi.",
+        "refs": [
+          "4 Nephi 1:21"
+        ]
+      },
+      {
+        "text": "When 200 years had passed, all but a few of the second generation had passed away.",
         "refs": [
           "4 Nephi 1:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The record being kept by the younger Amos can be shown with the plates."
+      "The younger Amos may be shown keeping the record on plates."
     ],
     "unspecified_visual_details": [
-      "The circumstances of Amos's death, the younger Amos's appearance, and who the few survivors were."
+      "The location and either Amos's appearance.",
+      "The circumstances of the elder Amos's death and the identities of the few survivors."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his son Amos kept the record in his stead",
+        "text": "Amos died also,",
+        "refs": [
+          "4 Nephi 1:21"
+        ]
+      },
+      {
+        "text": "and his son Amos kept the record in his stead;",
         "refs": [
           "4 Nephi 1:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage gives distinct time markers; do not depict the second generation's passing as part of the record transfer."
+      "The 194-year and 200-year statements mark distinct times; do not depict the second generation's passing as part of the son's record keeping."
     ],
     "prohibited_inventions": [
-      "Do not show a death scene or identify the few who remained."
+      "Do not show an invented death scene or a transfer of the plates.",
+      "Do not identify the few survivors or give either Amos an unsupported parentage."
     ],
     "importance": "normal"
   },
@@ -1298,42 +1316,48 @@
     "refs": [
       "4 Nephi 1:47"
     ],
-    "summary": "After year 305, Amos died, and his brother Ammaron kept the record in his stead.",
+    "summary": "After three hundred and five years had passed, the people remained in wickedness. Amos died, and his brother Ammaron kept the record in his stead.",
     "characters": [
-      "Amos, son of Amos",
-      "Ammaron, brother of Amos"
+      "Amos",
+      "Ammaron"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After 305 years, Amos died, and his brother Ammaron kept the record in his stead.",
+        "text": "After three hundred and five years had passed, the people still remained in wickedness.",
+        "refs": [
+          "4 Nephi 1:47"
+        ]
+      },
+      {
+        "text": "Amos died; his brother Ammaron kept the record in his stead.",
         "refs": [
           "4 Nephi 1:47"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammaron with the record can illustrate his succession as keeper."
+      "Ammaron may be shown with the record he kept."
     ],
     "unspecified_visual_details": [
-      "The circumstances and place of Amos's death, the record's appearance, and the brothers' appearances."
+      "The record's appearance and Ammaron's appearance are unspecified.",
+      "The place and circumstances of Amos's death are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Ammaron, did keep the record in his stead",
+        "text": "Amos died; and his brother, Ammaron, did keep the record in his stead.",
         "refs": [
           "4 Nephi 1:47"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports the death and succession without describing a death scene."
+      "The verse reports Amos's death and Ammaron's succession without describing either event as a witnessed scene."
     ],
     "prohibited_inventions": [
-      "Do not show a deathbed, funeral, or conversation."
+      "Do not depict a deathbed, funeral, transfer ceremony, or conversation.",
+      "Do not place Amos beside Ammaron as though both are present after Amos's death."
     ],
     "importance": "normal"
   },

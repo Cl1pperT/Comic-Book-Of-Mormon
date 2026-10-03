@@ -186,13 +186,15 @@
       "Mormon 1:6",
       "Mormon 1:7"
     ],
-    "summary": "At eleven, Mormon is carried by his father into the land southward, to the land of Zarahemla, where the land is covered with buildings and the people are very numerous.",
+    "summary": "At eleven years old, Mormon is carried by his father into the land southward, to the land of Zarahemla. The land is covered with buildings, and its people are very numerous.",
     "characters": [
       "Mormon (young)",
-      "Mormon’s father"
+      "Mormon’s father",
+      "Unnamed people"
     ],
     "locations": [
-      "Zarahemla"
+      "The land southward",
+      "The land of Zarahemla"
     ],
     "explicit_facts": [
       {
@@ -202,36 +204,39 @@
         ]
       },
       {
-        "text": "The face of the land had become covered with buildings, and the people were almost as numerous as the sand of the sea.",
+        "text": "The land had become covered with buildings, and its people were very numerous.",
         "refs": [
           "Mormon 1:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon’s father carries him as they enter a built-up, populous land."
+      "Mormon’s father carries him through a built-up, populous land."
     ],
     "unspecified_visual_details": [
-      "Their appearance, the buildings’ design, and the specific route or point of arrival."
+      "Mormon’s and his father’s appearances, the buildings’ design, and their specific route."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "was carried by my father into the land southward",
+        "text": "And it came to pass that I, being eleven years old, was carried by my father into the land southward, even to the land of Zarahemla.",
         "refs": [
           "Mormon 1:6"
         ]
       },
       {
-        "text": "covered with buildings",
+        "text": "The whole face of the land had become covered with buildings, and the people were as numerous almost, as it were the sand of the sea.",
         "refs": [
           "Mormon 1:7"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Mormon. The comparison to sand describes the number of people; it is not a literal scene."
+    ],
     "prohibited_inventions": [
-      "Do not add a named city or identify the father beyond the verse."
+      "Do not name or further identify Mormon’s father.",
+      "Do not invent a specific route, point of arrival, or dialogue."
     ],
     "importance": "normal"
   },

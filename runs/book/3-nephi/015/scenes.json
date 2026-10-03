@@ -341,29 +341,28 @@
       "3 Nephi 15:16",
       "3 Nephi 15:17"
     ],
-    "summary": "Jesus tells the twelve that he had not been commanded to tell their brethren at Jerusalem about them or the other tribes led away. He was commanded to say that he has other sheep, who will hear his voice and be brought into one fold with one shepherd.",
+    "summary": "Jesus says the Father had not commanded him to tell his listeners’ brethren at Jerusalem about the other tribes led away. The Father had commanded him to tell them of other sheep whom he must bring, who will hear his voice, and of one fold and one shepherd.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "the twelve Nephite disciples"
+      "Jesus Christ"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jesus says the Father had not commanded him to tell their brethren at Jerusalem about the twelve.",
+        "text": "Jesus says the Father had not commanded him to tell it to his listeners’ brethren at Jerusalem.",
         "refs": [
           "3 Nephi 15:14"
         ]
       },
       {
-        "text": "Jesus says the Father had not commanded him to tell them about the other tribes of Israel led away out of the land.",
+        "text": "Jesus says the Father had not commanded him to tell them about other tribes of the house of Israel whom the Father had led away out of the land.",
         "refs": [
           "3 Nephi 15:15"
         ]
       },
       {
-        "text": "Jesus says the Father commanded him to tell them that he has other sheep not of this fold, whom he must bring; they will hear his voice, and there will be one fold and one shepherd.",
+        "text": "Jesus says the Father commanded him to tell them about other sheep not of this fold, whom he must bring; they will hear his voice, and there will be one fold and one shepherd.",
         "refs": [
           "3 Nephi 15:16",
           "3 Nephi 15:17"
@@ -371,33 +370,36 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Jesus speaks to the twelve in their presence."
+      "Jesus addresses listeners who are not identified in these verses."
     ],
     "unspecified_visual_details": [
-      "The other sheep and the brethren at Jerusalem are spoken of, not shown as present."
+      "The listeners’ appearance and the setting are unspecified.",
+      "The brethren at Jerusalem and the other tribes are mentioned, not described as present."
     ],
     "spoken_dialogue": [
       {
-        "text": "That other sheep I have which are not of this fold;",
+        "text": "And not at any time hath the Father given me commandment that I should tell it unto your brethren at Jerusalem.",
+        "refs": [
+          "3 Nephi 15:14"
+        ],
+        "speaker": "Jesus Christ"
+      },
+      {
+        "text": "That other sheep I have which are not of this fold; them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
         "refs": [
           "3 Nephi 15:17"
         ],
-        "speaker": "Jesus Christ (at Bountiful)"
+        "speaker": "Jesus Christ"
       }
     ],
-    "narration": [
-      {
-        "text": "they shall hear my voice; and there shall be one fold, and one shepherd.",
-        "refs": [
-          "3 Nephi 15:17"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The sheep and fold language is a teaching; do not literalize it as a flock or enclosure."
+      "The sheep and fold language is a teaching, not a narrated appearance of literal sheep or a fold."
     ],
     "prohibited_inventions": [
-      "Do not show the other tribes, Jerusalem brethren, or literal sheep as present."
+      "Do not depict literal sheep or an enclosure.",
+      "Do not show the brethren at Jerusalem or the other tribes as present.",
+      "Do not identify or depict the listeners as the twelve based on these verses alone."
     ],
     "importance": "normal"
   },

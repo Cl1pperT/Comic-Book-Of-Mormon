@@ -1,5 +1,5 @@
 {
-  "stamp": "be19767a61b8df4c4d5f84d03ae2baec7d46411c9584f859e535e71e7c58dd8a",
+  "stamp": "4f2feb5473ffdbffc4154dcbc07cb352c5d9f6e1552fbec33bc8d77c2c8a713e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -48,10 +48,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The dialogue excerpts omit the Lord’s statements in Ether 12:27–28; include them if the scene is intended to represent the full speech."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
@@ -64,12 +62,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene is largely supported. The narrator is explicitly identified as Moroni in Ether 12:38, within the supplied source, though not in the scene's cited refs; the scene does not name him.",
-        "The Lord is explicitly the speaker in Ether 12:37, but the verses do not specify whether the response is audible, so the visual inference that it may be heard is uncertain.",
-        "Narration and dialogue quote exact source wording and total 59 words, within the 65-word limit. The previous scene's reflection is not turned into a new present-tense event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

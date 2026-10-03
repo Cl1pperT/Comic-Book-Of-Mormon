@@ -188,9 +188,9 @@
       "3 Nephi 18:8",
       "3 Nephi 18:9"
     ],
-    "summary": "He commands his disciples to drink the wine and give it to the multitude. The disciples do so; they and the multitude drink and are filled.",
+    "summary": "Jesus commands his disciples to drink wine from the cup and give it to the multitude. The disciples drink and are filled; they give it to the multitude, who also drink and are filled.",
     "characters": [
-      "the unnamed speaker",
+      "Jesus",
       "his disciples",
       "the multitude"
     ],
@@ -199,7 +199,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "He commands his disciples to take wine from the cup, drink it, and give it to the multitude to drink.",
+        "text": "Jesus commands his disciples to take wine from the cup, drink it, and give it to the multitude to drink.",
         "refs": [
           "3 Nephi 18:8"
         ]
@@ -221,16 +221,35 @@
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "he commanded his disciples that they should take of the wine of the cup and drink of it,",
+        "refs": [
+          "3 Nephi 18:8"
+        ]
+      },
+      {
+        "text": "and that they should also give unto the multitude that they might drink of it.",
+        "refs": [
+          "3 Nephi 18:8"
+        ]
+      },
+      {
+        "text": "and did drink of it and were filled;",
+        "refs": [
+          "3 Nephi 18:9"
+        ]
+      },
+      {
         "text": "and they gave unto the multitude, and they did drink, and they were filled.",
         "refs": [
           "3 Nephi 18:9"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The command is reported, not quoted as direct speech."
+    ],
     "prohibited_inventions": [
-      "Do not identify the unnamed speaker from these verses alone.",
-      "Do not invent the words of his command.",
+      "Do not invent the words of Jesus's command.",
       "Do not depict the wine as blood."
     ],
     "importance": "normal"

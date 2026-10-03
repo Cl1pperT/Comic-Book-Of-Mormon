@@ -1,5 +1,5 @@
 {
-  "stamp": "4c46014b37f700e77bb2f56bc8aac3f0141d2a3e7d02534cd090b89a445d5b5a",
+  "stamp": "a3d3c54643551d30113a4a1b845698387a0cd2c6dee909d994151408860a9d8f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,16 +20,20 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference of Jacob among the group as they recognize him as leader is consistent with the gathering and appointment, but the text does not specify how recognition looked or unfolded."
+      ]
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Nephi addressing people is a reasonable visual inference from his going among them to testify; the verses do not specify a speech posture or a particular setting. His prior angelic visit and the voice of the Lord must not be depicted as present events."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

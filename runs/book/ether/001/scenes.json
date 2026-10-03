@@ -90,7 +90,7 @@
       "Ether 1:10",
       "Ether 1:11"
     ],
-    "summary": "Moroni identifies Ether as the record writer and lists Ether’s ancestry through Coriantor, Moron, Ethem, Ahah, Seth, and Shiblon.",
+    "summary": "Moroni gives the account, identifies Ether as the record writer and a descendant of Coriantor, and recounts the lineage from Coriantor through Shiblon.",
     "characters": [
       "Moroni"
     ],
@@ -99,18 +99,44 @@
     ],
     "explicit_facts": [
       {
+        "text": "Moroni is the first-person narrator giving the account.",
+        "refs": [
+          "Ether 1:6"
+        ]
+      },
+      {
         "text": "Ether wrote the record and was a descendant of Coriantor.",
         "refs": [
           "Ether 1:6"
         ]
       },
       {
-        "text": "Coriantor was Moron’s son; Moron was Ethem’s son; Ethem was Ahah’s son; Ahah was Seth’s son; and Seth was Shiblon’s son.",
+        "text": "Coriantor was the son of Moron.",
         "refs": [
-          "Ether 1:7",
-          "Ether 1:8",
-          "Ether 1:9",
-          "Ether 1:10",
+          "Ether 1:7"
+        ]
+      },
+      {
+        "text": "Moron was the son of Ethem.",
+        "refs": [
+          "Ether 1:8"
+        ]
+      },
+      {
+        "text": "Ethem was the son of Ahah.",
+        "refs": [
+          "Ether 1:9"
+        ]
+      },
+      {
+        "text": "Ahah was the son of Seth.",
+        "refs": [
+          "Ether 1:10"
+        ]
+      },
+      {
+        "text": "Seth was the son of Shiblon.",
+        "refs": [
           "Ether 1:11"
         ]
       }
@@ -119,10 +145,16 @@
       "A simple lineage or record-page visual may accompany Moroni’s narration."
     ],
     "unspecified_visual_details": [
-      "No ancestral figures’ appearances or locations are described."
+      "The location and appearances of the named ancestors are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And on this wise do I give the account.",
+        "refs": [
+          "Ether 1:6"
+        ]
+      },
       {
         "text": "He that wrote this record was Ether, and he was a descendant of Coriantor.",
         "refs": [
@@ -131,10 +163,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report family descent, not depicted present action."
+      "The “I” in the opening narration is Moroni, not Ether.",
+      "The ancestry is reported, not presented as an event occurring alongside Moroni."
     ],
     "prohibited_inventions": [
-      "Do not portray the named ancestors together as a gathering or imply they are present with Moroni."
+      "Do not quote the suggested wording “And now I, Moroni, proceed to give an account”; it is not in the supplied verses.",
+      "Do not portray the ancestors together or imply they are physically present with Moroni."
     ],
     "importance": "normal"
   },
@@ -664,8 +698,9 @@
       "Ether 1:42",
       "Ether 1:43"
     ],
-    "summary": "The Lord directs the brother of Jared to lead the gathered people northward into a choice land, promises to go before them, and promises to bless Jared, his seed, his brother’s seed, and those who go with them with a great nation.",
+    "summary": "The Lord tells the brother of Jared to lead the others into a northward valley after completing an earlier task. He promises to meet him, go before him into a choice land, bless him and his seed, and raise up a great nation from his seed, his brother’s seed, and those who go with him. He says this is because they have cried unto him for a long time.",
     "characters": [
+      "The Lord",
       "The brother of Jared"
     ],
     "locations": [
@@ -673,13 +708,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says that after gathering, the brother of Jared is to lead them into the northward valley, where the Lord will meet him and go before them into a choice land.",
+        "text": "After the brother of Jared has done the task referred to as “this,” he is to go at the head of the others into the northward valley.",
         "refs": [
           "Ether 1:42"
         ]
       },
       {
-        "text": "The Lord promises to bless Jared, his seed, his brother’s seed, and those who go with them, and to raise up a great nation.",
+        "text": "The Lord promises to meet him there and go before him into a land described as choice above all the lands of the earth.",
+        "refs": [
+          "Ether 1:42"
+        ]
+      },
+      {
+        "text": "The Lord promises to bless him and his seed and to raise up a great nation from his seed, his brother’s seed, and those who go with him.",
         "refs": [
           "Ether 1:43"
         ]
@@ -692,34 +733,41 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The brother of Jared may be shown receiving the promise; the future journey and nation need not be depicted as already underway."
+      "The brother of Jared may be shown receiving the promise; the journey and nation remain future events."
     ],
     "unspecified_visual_details": [
-      "The valley, choice land, Lord’s visible form, people’s appearance, and future nation’s appearance are not supplied."
+      "The present setting, the Lord’s visible appearance, the people’s appearance, and the appearance of the valley, land, and future nation are not supplied."
     ],
     "spoken_dialogue": [
       {
-        "text": "And there will I bless thee and thy seed",
+        "text": "thou shalt go at the head of them down into the valley which is northward.",
+        "refs": [
+          "Ether 1:42"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "And there will I bless thee and thy seed, and raise up unto me of thy seed, and of the seed of thy brother, and they who shall go with thee, a great nation.",
+        "refs": [
+          "Ether 1:43"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "And thus I will do unto thee because this long time ye have cried unto me.",
         "refs": [
           "Ether 1:43"
         ],
         "speaker": "The Lord"
       }
     ],
-    "narration": [
-      {
-        "text": "this long time ye have cried unto me.",
-        "refs": [
-          "Ether 1:43"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s directions and promises concern future events; the verses do not depict their fulfillment."
+      "The directions and promises concern future events; these verses do not narrate their fulfillment."
     ],
     "prohibited_inventions": [
-      "Do not show the departure, arrival, or nation as events occurring now.",
-      "Do not give the Lord an unstated visible appearance."
+      "Do not show the journey, arrival, blessing, or rise of the nation as occurring now.",
+      "Do not give the Lord an unstated visible appearance or specify what “this” refers to."
     ],
     "importance": "normal"
   }

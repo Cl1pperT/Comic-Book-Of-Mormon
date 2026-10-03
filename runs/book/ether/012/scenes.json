@@ -593,35 +593,35 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "The Lord Speaks to the Narrator",
+    "title": "The Lord Speaks to Moroni",
     "refs": [
       "Ether 12:26",
       "Ether 12:27",
       "Ether 12:28"
     ],
-    "summary": "After the first-person narrator speaks, the Lord speaks to the narrator about mockery, grace, weakness, humility, faith, hope, and charity.",
+    "summary": "After Moroni has spoken, the Lord speaks to him.",
     "characters": [
-      "The Lord",
-      "Unnamed first-person narrator"
+      "Moroni",
+      "The Lord"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After the narrator has spoken, the Lord speaks to the narrator.",
+        "text": "After Moroni speaks, the Lord speaks to him.",
         "refs": [
           "Ether 12:26"
         ]
       },
       {
-        "text": "The Lord says fools mock but shall mourn, and that the meek will take no advantage of the narrator’s weakness.",
+        "text": "The Lord says that fools mock but shall mourn, and that the meek will not take advantage of Moroni’s weakness.",
         "refs": [
           "Ether 12:26"
         ]
       },
       {
-        "text": "The Lord says he gives people weakness so they may be humble, and promises to make weak things strong for those who humble themselves before him and have faith in him.",
+        "text": "The Lord says he gives people weakness so they may be humble, and that he will make weak things strong for those who humble themselves before him and have faith in him.",
         "refs": [
           "Ether 12:27"
         ]
@@ -634,24 +634,38 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The exchange can be depicted without showing the Lord’s form, which the verses do not describe."
+      "Moroni can be shown listening while the Lord speaks, without depicting the Lord’s form."
     ],
     "unspecified_visual_details": [
-      "The setting and the narrator’s appearance.",
+      "The setting and Moroni’s appearance.",
       "Any visible appearance of the Lord."
     ],
     "spoken_dialogue": [
       {
-        "text": "Fools mock, but they shall mourn; and my grace is sufficient for the meek, that they shall take no advantage of your weakness;",
+        "text": "Fools mock, but they shall mourn;",
         "refs": [
           "Ether 12:26"
         ],
         "speaker": "The Lord"
       },
       {
-        "text": "for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them.",
+        "text": "and my grace is sufficient for the meek, that they shall take no advantage of your weakness;",
+        "refs": [
+          "Ether 12:26"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "And if men come unto me I will show unto them their weakness.",
         "refs": [
           "Ether 12:27"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "faith, hope and charity bringeth unto me—the fountain of all righteousness.",
+        "refs": [
+          "Ether 12:28"
         ],
         "speaker": "The Lord"
       }
@@ -665,12 +679,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fountain in Ether 12:28 is figurative language, not a narrated physical object or location."
+      "Present the narration before the Lord’s dialogue. Verse 27 continues the Lord’s first-person speech; it does not explicitly introduce a new speaker.",
+      "The fountain in verse 28 is figurative language, not a narrated physical object."
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed narrator beyond what these verses establish.",
-      "Do not invent a visible appearance for the Lord or depict a literal fountain.",
-      "Do not stage the promised strengthening or the Gentiles’ response as events occurring in this exchange."
+      "Do not invent a visible form for the Lord or depict a literal fountain.",
+      "Do not stage the promised strengthening or a response from the Gentiles as events occurring in this exchange."
     ],
     "importance": "normal"
   },
@@ -815,14 +829,14 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Prayer for the Gentiles",
+    "title": "Moroni Prays for the Gentiles",
     "refs": [
       "Ether 12:36",
       "Ether 12:37"
     ],
-    "summary": "The narrator prays that the Lord will give the Gentiles grace so they might have charity. The Lord responds, saying the narrator has been faithful and speaking of clean garments, strength, and a prepared place.",
+    "summary": "Moroni prays that the Lord will give the Gentiles grace so they might have charity. The Lord responds to Moroni.",
     "characters": [
-      "Unnamed first-person narrator",
+      "Moroni (son of Mormon)",
       "The Lord (speaking; appearance unspecified)"
     ],
     "locations": [
@@ -830,35 +844,48 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator prayed that the Lord would give the Gentiles grace so they might have charity.",
+        "text": "Moroni prayed that the Lord would give the Gentiles grace so they might have charity.",
         "refs": [
           "Ether 12:36"
         ]
       },
       {
-        "text": "The Lord answered the narrator and said the narrator had been faithful.",
+        "text": "The Lord spoke to Moroni and said he had been faithful.",
         "refs": [
           "Ether 12:37"
         ]
       },
       {
-        "text": "The Lord said the narrator's garments would be made clean and that, because the narrator had seen their weakness, they would be made strong and sit in a place he had prepared.",
+        "text": "The Lord said Moroni's garments would be made clean and that he would be made strong because he had seen his weakness.",
+        "refs": [
+          "Ether 12:37"
+        ]
+      },
+      {
+        "text": "The Lord spoke of Moroni sitting in a place he had prepared in the mansions of his Father.",
         "refs": [
           "Ether 12:37"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The narrator may be depicted praying; the verse does not specify a posture.",
+      "Moroni may be depicted praying, though his posture is not specified.",
       "The Lord's response may be heard without depicting an appearance."
     ],
     "unspecified_visual_details": [
-      "The setting and the narrator's appearance and posture.",
+      "The setting, Moroni's appearance, and his posture.",
       "Any visible appearance of the Lord."
     ],
     "spoken_dialogue": [
       {
-        "text": "If they have not charity it mattereth not unto thee, thou hast been faithful; wherefore, thy garments shall be made clean. And because thou hast seen thy weakness thou shalt be made strong, even unto the sitting down in the place which I have prepared in the mansions of my Father.",
+        "text": "If they have not charity it mattereth not unto thee, thou hast been faithful; wherefore, thy garments shall be made clean.",
+        "refs": [
+          "Ether 12:37"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "And because thou hast seen thy weakness thou shalt be made strong",
         "refs": [
           "Ether 12:37"
         ],
@@ -867,7 +894,7 @@
     ],
     "narration": [
       {
-        "text": "I prayed unto the Lord",
+        "text": "And it came to pass that I prayed unto the Lord that he would give unto the Gentiles grace, that they might have charity.",
         "refs": [
           "Ether 12:36"
         ]
@@ -877,8 +904,7 @@
       "The clean garments, promised strength, and prepared place are spoken of here; these verses do not narrate their visible fulfillment."
     ],
     "prohibited_inventions": [
-      "Do not identify the first-person narrator by name from these verses alone.",
-      "Do not depict the Lord's appearance, the cleansing of garments, or the narrator sitting in the prepared place.",
+      "Do not depict the Lord's appearance, the cleansing of garments, or Moroni sitting in the prepared place.",
       "Do not depict the Gentiles as present at the prayer."
     ],
     "importance": "normal"

@@ -7,7 +7,7 @@
       "Ether 15:2",
       "Ether 15:3"
     ],
-    "summary": "After recovering from his wounds, Coriantumr remembers Ether’s words, sees the vast number of his people slain, and mourns as he recognizes the prophets’ words fulfilled.",
+    "summary": "After recovering from his wounds, Coriantumr remembers Ether’s words. He sees how many of his people have been slain, begins to repent, remembers the prophets’ words, and mourns.",
     "characters": [
       "Coriantumr"
     ],
@@ -16,34 +16,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr recovered from his wounds and remembered Ether’s words.",
+        "text": "Coriantumr had recovered from his wounds and began to remember Ether’s words.",
         "refs": [
           "Ether 15:1"
         ]
       },
       {
-        "text": "Coriantumr saw that nearly two million of his people had been slain, including mighty men, their wives, and their children.",
+        "text": "Coriantumr saw that nearly two million of his people had been slain by the sword; the account also names mighty men, their wives, and their children among the slain.",
         "refs": [
           "Ether 15:2"
         ]
       },
       {
-        "text": "Coriantumr began to repent and mourned as he recognized that the prophets’ words had been fulfilled thus far.",
+        "text": "Coriantumr began to sorrow in his heart.",
+        "refs": [
+          "Ether 15:2"
+        ]
+      },
+      {
+        "text": "Coriantumr began to repent, remembered the prophets’ words, saw that they had been fulfilled thus far, and mourned without comfort.",
         "refs": [
           "Ether 15:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Coriantumr may be shown alone, grieving amid signs of the aftermath of battle."
+      "Coriantumr may be shown grieving."
     ],
     "unspecified_visual_details": [
-      "Coriantumr’s precise appearance, posture, and surroundings are not specified."
+      "Coriantumr’s appearance, posture, and surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he began to remember the words which Ether had spoken unto him.",
+        "text": "Coriantumr had recovered of his wounds, he began to remember the words which Ether had spoken unto him.",
         "refs": [
           "Ether 15:1"
         ]
@@ -56,67 +62,85 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The account reports the deaths; do not depict the deaths as a new event in this moment."
+      "The narration is Moroni’s account; Ether’s and the prophets’ words are remembered but not quoted here.",
+      "The deaths are reported as having already occurred, not as action occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show Ether, prophets, or visions as physically present.",
-      "Do not depict an invented conversation or specific manner of repentance."
+      "Do not depict Ether or the prophets as physically present.",
+      "Do not invent dialogue, a vision, or a specific manner of repentance.",
+      "Do not stage the reported deaths as a new event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Coriantumr’s Offer",
+    "title": "Coriantumr’s Offer and Shiz’s Reply",
     "refs": [
       "Ether 15:4",
       "Ether 15:5"
     ],
-    "summary": "Coriantumr writes to Shiz, offering to give up the kingdom if Shiz will spare the people. Shiz replies that he will spare them if Coriantumr gives himself up so Shiz can kill him.",
+    "summary": "Coriantumr writes to Shiz, offering to give up the kingdom if Shiz spares the people. After receiving the epistle, Shiz writes to Coriantumr, offering to spare the people if Coriantumr gives himself up to be slain by Shiz’s sword.",
     "characters": [
       "Coriantumr",
       "Shiz"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified locations"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr wrote Shiz an epistle asking him to spare the people and offering to give up the kingdom for their lives.",
+        "text": "Coriantumr wrote an epistle to Shiz, asking him to spare the people and offering to give up the kingdom for their lives.",
         "refs": [
-          "Ether 15:4"
+          "Ether 15:4",
+          "Ether 15:5"
         ]
       },
       {
-        "text": "Shiz replied that he would spare the people if Coriantumr gave himself up, so Shiz could slay him with his own sword.",
+        "text": "After receiving the epistle, Shiz wrote to Coriantumr that he would spare the people if Coriantumr gave himself up to be slain with Shiz’s own sword.",
         "refs": [
           "Ether 15:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The correspondence may be represented with Coriantumr writing and Shiz reading and replying, without showing a face-to-face meeting."
+      "Separate, sequential views may show Coriantumr writing his epistle and, later, Shiz receiving it and writing his reply."
     ],
     "unspecified_visual_details": [
-      "The writing materials, messengers, and locations are not specified."
+      "The locations and writing materials are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he wrote an epistle unto Shiz, desiring him that he would spare the people",
+        "text": "he wrote an epistle unto Shiz",
         "refs": [
           "Ether 15:4"
         ]
       },
       {
-        "text": "if he would give himself up, that he might slay him with his own sword",
+        "text": "he would give up the kingdom for the sake of the lives of the people.",
+        "refs": [
+          "Ether 15:4"
+        ]
+      },
+      {
+        "text": "when Shiz had received his epistle he wrote an epistle unto Coriantumr",
+        "refs": [
+          "Ether 15:5"
+        ]
+      },
+      {
+        "text": "that if he would give himself up, that he might slay him with his own sword, that he would spare the lives of the people.",
         "refs": [
           "Ether 15:5"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first epistle’s writer is identified as Coriantumr by the reply addressed to him; the second epistle’s writer is explicitly Shiz."
+    ],
     "prohibited_inventions": [
-      "Do not depict the letters as spoken dialogue or invent their wording beyond the narrated terms."
+      "Do not portray the epistles as spoken dialogue, add wording to them, or show Coriantumr and Shiz meeting face to face.",
+      "Do not depict the proposed killing as an event that occurs."
     ],
     "importance": "normal"
   },
@@ -127,7 +151,7 @@
       "Ether 15:6",
       "Ether 15:7"
     ],
-    "summary": "The people do not repent; both sides are stirred to anger and battle. As Coriantumr sees he is about to fall, he flees before Shiz’s people.",
+    "summary": "The people do not repent. The people of Coriantumr and the people of Shiz are stirred to anger against each other. The people of Shiz give battle to the people of Coriantumr. Coriantumr sees that he is about to fall and flees again before the people of Shiz.",
     "characters": [
       "Coriantumr",
       "the people of Coriantumr",
@@ -138,13 +162,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people did not repent of their iniquity, and both sides were stirred to anger; Shiz’s people gave battle to Coriantumr’s people.",
+        "text": "The people did not repent of their iniquity; the people of Coriantumr and the people of Shiz were stirred to anger against each other; the people of Shiz gave battle to the people of Coriantumr.",
         "refs": [
           "Ether 15:6"
         ]
       },
       {
-        "text": "Seeing he was about to fall, Coriantumr fled before Shiz’s people.",
+        "text": "When Coriantumr saw that he was about to fall, he fled again before the people of Shiz.",
         "refs": [
           "Ether 15:7"
         ]
@@ -154,7 +178,7 @@
       "The battle may be shown without gore, followed by Coriantumr fleeing."
     ],
     "unspecified_visual_details": [
-      "The battlefield’s appearance and the number or individual identities of the combatants are not specified."
+      "The battlefield’s appearance, the number of combatants, and individual fighters’ identities are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -165,17 +189,17 @@
         ]
       },
       {
-        "text": "he fled again before the people of Shiz.",
+        "text": "And when Coriantumr saw that he was about to fall he fled again before the people of Shiz.",
         "refs": [
           "Ether 15:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The account does not identify the specific fighters or describe individual injuries in this battle."
+      "The account does not describe individual injuries in this battle."
     ],
     "prohibited_inventions": [
-      "Do not add named warriors, motives, or graphic injuries."
+      "Do not add named warriors, motives, dialogue, or graphic injuries."
     ],
     "importance": "normal"
   },
@@ -185,81 +209,112 @@
     "refs": [
       "Ether 15:8"
     ],
-    "summary": "Coriantumr’s people reach the waters of Ripliancum and pitch their tents. Shiz pitches his tents nearby, and they prepare to battle the next day.",
+    "summary": "At the waters of Ripliancum, those arriving pitch their tents, and Shiz pitches his tents near them.",
     "characters": [
-      "Coriantumr",
       "Shiz",
-      "the people of Coriantumr",
-      "the people of Shiz"
+      "unnamed people pitching tents"
     ],
     "locations": [
       "waters of Ripliancum"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr’s people and Shiz’s people pitched their tents near the waters of Ripliancum; they came to battle the next day.",
+        "text": "The verse says \"he came\" to the waters of Ripliancum without identifying the referent within the supplied text.",
+        "refs": [
+          "Ether 15:8"
+        ]
+      },
+      {
+        "text": "Those arriving at the waters pitched their tents.",
+        "refs": [
+          "Ether 15:8"
+        ]
+      },
+      {
+        "text": "Shiz pitched his tents near them; his arrival time relative to their tent pitching is unspecified.",
+        "refs": [
+          "Ether 15:8"
+        ]
+      },
+      {
+        "text": "Ripliancum is interpreted as large, or to exceed all.",
+        "refs": [
+          "Ether 15:8"
+        ]
+      },
+      {
+        "text": "They came to battle on the following day.",
         "refs": [
           "Ether 15:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Tents may be shown on opposing sides near a large body of water."
+      "Nearby tents beside the waters can represent the encampments without establishing an order of arrival."
     ],
     "unspecified_visual_details": [
-      "The exact landscape, tent designs, and distance between the camps are unspecified."
+      "The identity of the referent of \"he\" and the identities of the unnamed people are unspecified.",
+      "The appearance of Shiz, the number and design of tents, and the landscape and appearance of the waters are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they pitched their tents",
+        "text": "when they came to these waters they pitched their tents;",
         "refs": [
           "Ether 15:8"
         ]
       },
       {
-        "text": "Shiz also pitched his tents near unto them",
+        "text": "and Shiz also pitched his tents near unto them;",
         "refs": [
           "Ether 15:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse explains the name Ripliancum as meaning large, or to exceed all."
+      "Moroni (son of Mormon) is the narrator, not an established physical participant in this scene.",
+      "The following-day battle is excluded from this encampment scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the next day’s battle in this scene."
+      "Do not introduce an additional man to represent the unresolved pronoun \"he\" or assign it an identity.",
+      "Do not establish when Shiz arrived relative to the others pitching tents.",
+      "Do not identify the unnamed people as Shiz's people.",
+      "Do not depict the following-day battle during the encampment scene.",
+      "Do not invent dialogue or a visible divine appearance."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "The Battle at Ripliancum",
+    "title": "An Exceedingly Sore Battle",
     "refs": [
       "Ether 15:9"
     ],
-    "summary": "The armies fight an exceedingly severe battle. Coriantumr is wounded again and faints from loss of blood.",
+    "summary": "They fight an exceedingly sore battle. Coriantumr is wounded again and faints from loss of blood.",
     "characters": [
       "Coriantumr",
-      "the armies of Coriantumr",
-      "the armies of Shiz"
+      "unnamed combatants"
     ],
-    "locations": [
-      "waters of Ripliancum"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The armies fought an exceedingly sore battle; Coriantumr was wounded again and fainted with loss of blood.",
+        "text": "They fought an exceedingly sore battle.",
+        "refs": [
+          "Ether 15:9"
+        ]
+      },
+      {
+        "text": "Coriantumr was wounded again and fainted from loss of blood.",
         "refs": [
           "Ether 15:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Coriantumr may be shown collapsing during the fighting; depict no gore."
+      "Coriantumr may be shown collapsing during the battle."
     ],
     "unspecified_visual_details": [
-      "The combatants’ formations, weapons, and exact appearance are not specified."
+      "The location, combatants’ appearances, weapons, and formations are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -270,7 +325,7 @@
         ]
       },
       {
-        "text": "he fainted with the loss of blood.",
+        "text": "Coriantumr was wounded again, and he fainted with the loss of blood.",
         "refs": [
           "Ether 15:9"
         ]
@@ -278,7 +333,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show blood or graphic wounds."
+      "Do not show blood, graphic wounds, or a location not given in the supplied verse."
     ],
     "importance": "normal"
   },
@@ -289,10 +344,10 @@
       "Ether 15:10",
       "Ether 15:11"
     ],
-    "summary": "Coriantumr’s army drives Shiz’s army southward to Ogath. Coriantumr’s army camps by the hill Ramah.",
+    "summary": "Coriantumr’s armies beat Shiz’s armies, who flee southward and pitch their tents at Ogath. Coriantumr’s army pitches its tents by the hill Ramah.",
     "characters": [
-      "the army of Coriantumr",
-      "the army of Shiz"
+      "the armies of Coriantumr",
+      "the armies of Shiz"
     ],
     "locations": [
       "Ogath",
@@ -300,28 +355,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr’s army beat Shiz’s army and drove them southward to camp at Ogath.",
+        "text": "Coriantumr’s armies press upon and beat Shiz’s armies, causing them to flee southward and pitch their tents at Ogath.",
         "refs": [
           "Ether 15:10"
         ]
       },
       {
-        "text": "Coriantumr’s army camped by the hill Ramah.",
+        "text": "Coriantumr’s army pitches its tents by the hill Ramah.",
+        "refs": [
+          "Ether 15:11"
+        ]
+      },
+      {
+        "text": "Ramah is the same hill where Moroni’s father Mormon hid sacred records unto the Lord.",
         "refs": [
           "Ether 15:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The action can show Shiz’s army retreating south, followed by the opposing camp at the hill."
+      "The retreat toward Ogath and the camp by Ramah can be shown as successive moments, not simultaneous action."
     ],
     "unspecified_visual_details": [
-      "The landscape and appearance of Ogath and Ramah are not specified."
+      "The terrain, tents, and armies’ appearances are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did flee southward, and did pitch their tents in a place which was called Ogath.",
+        "text": "the armies of Coriantumr did press upon the armies of Shiz that they beat them, that they caused them to flee before them;",
+        "refs": [
+          "Ether 15:10"
+        ]
+      },
+      {
+        "text": "and they did flee southward, and did pitch their tents in a place which was called Ogath.",
         "refs": [
           "Ether 15:10"
         ]
@@ -334,10 +401,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Ramah is identified in narration as the same hill where Mormon hid sacred records; Mormon is not thereby shown present."
+      "Moroni identifies Ramah as the hill where his father Mormon hid sacred records; that earlier event is not part of the present action."
     ],
     "prohibited_inventions": [
-      "Do not show Mormon or the hiding of records in this scene."
+      "Do not show Mormon or the hiding of the records as part of this scene.",
+      "Do not invent combat details, injuries, or dialogue."
     ],
     "importance": "normal"
   },

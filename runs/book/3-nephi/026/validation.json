@@ -1,5 +1,5 @@
 {
-  "stamp": "6ffc71f31780839dc43b7fc2e3809d0d73f2060176720525f8e5a038bd20ea05",
+  "stamp": "8efc985c07e938538aa0b7c1a031d9b36816de85cf1c00319162712c5a2ba957",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,10 +10,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt is exact and appropriate, but “I” refers to an unnamed narrator; the narration need not be voiced or depicted as a character."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",

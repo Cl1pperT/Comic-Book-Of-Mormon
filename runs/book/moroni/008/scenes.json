@@ -120,66 +120,103 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Mormon inquires of the Lord",
+    "title": "The received words of Christ",
     "refs": [
       "Moroni 8:7",
       "Moroni 8:8"
     ],
-    "summary": "Mormon says he inquired of the Lord and received words through the power of the Holy Ghost, teaching that little children are whole and that Christ came to call sinners to repentance.",
+    "summary": "Moroni reports that after learning of the matter, he inquired of the Lord and received the word of the Lord by the power of the Holy Ghost. The teaching identifies Christ as Redeemer, Lord, and God; explains his call of sinners to repentance using the physician comparison; declares little children whole and incapable of sin; and states that Adam’s curse has no power over them in Christ and that circumcision is done away in him.",
     "characters": [
-      "Mormon"
+      "Moroni",
+      "Christ (source of the quoted teaching; no visible appearance described)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After learning of the matter, Mormon inquired of the Lord.",
+        "text": "Moroni reports having inquired of the Lord immediately after learning of the matter.",
         "refs": [
           "Moroni 8:7"
         ]
       },
       {
-        "text": "The word of the Lord came to Mormon by the power of the Holy Ghost.",
+        "text": "The word of the Lord came to him by the power of the Holy Ghost.",
         "refs": [
           "Moroni 8:7"
         ]
       },
       {
-        "text": "The words teach that little children are whole and incapable of committing sin, and that the curse of Adam has no power over them in Christ.",
+        "text": "The teaching introduces the words of Christ, identified as Redeemer, Lord, and God.",
+        "refs": [
+          "Moroni 8:8"
+        ]
+      },
+      {
+        "text": "Christ states that he came into the world to call sinners, not the righteous, to repentance.",
+        "refs": [
+          "Moroni 8:8"
+        ]
+      },
+      {
+        "text": "The teaching compares the whole, who need no physician, with the sick, who do.",
+        "refs": [
+          "Moroni 8:8"
+        ]
+      },
+      {
+        "text": "Little children are whole and incapable of committing sin.",
+        "refs": [
+          "Moroni 8:8"
+        ]
+      },
+      {
+        "text": "The curse of Adam is taken from little children in Christ and has no power over them.",
+        "refs": [
+          "Moroni 8:8"
+        ]
+      },
+      {
+        "text": "The law of circumcision is done away in Christ.",
         "refs": [
           "Moroni 8:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lord’s words may be lettered as off-screen speech while Mormon is shown in the setting of his inquiry."
+      "A text-focused presentation can distinguish Moroni’s retrospective report from Christ’s quoted teaching without staging either as a newly occurring event."
     ],
     "unspecified_visual_details": [
-      "The manner or visible form of the Holy Ghost’s manifestation is not described."
+      "The location, surroundings, clothing, and physical posture are unspecified.",
+      "The sensory manner of receiving the word is unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Listen to the words of Christ, your Redeemer, your Lord and your God.",
+        "text": "Behold, I came into the world not to call the righteous but sinners to repentance;",
         "refs": [
           "Moroni 8:8"
         ],
-        "speaker": "The word of the Lord"
+        "speaker": "Christ"
       }
     ],
     "narration": [
       {
-        "text": "I inquired of the Lord concerning the matter.",
+        "text": "And the word of the Lord came to me by the power of the Holy Ghost, saying:",
         "refs": [
           "Moroni 8:7"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage reports a revealed teaching; it does not describe a visible appearance of Christ."
+      "Retain the inquiry and reception as retrospective reporting rather than a present-tense reenactment.",
+      "The introductory instruction to listen is not assigned a separate speaker; the selected first-person teaching is attributed to Christ.",
+      "The physician comparison is teaching, not a narrated medical event.",
+      "The dialogue is a selected excerpt, not the full extent of the supplied teaching."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ or a visible Holy Ghost appearance."
+      "Do not invent a visible appearance of Christ or the Holy Ghost, or an audible delivery mechanism.",
+      "Do not stage Christ’s coming into the world, Adam, children, a physician, or circumcision as events occurring in this scene.",
+      "Do not invent the details of the matter learned, an inquiry prayer, or additional dialogue."
     ],
     "importance": "normal"
   },

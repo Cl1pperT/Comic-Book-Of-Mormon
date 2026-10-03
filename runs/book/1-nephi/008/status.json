@@ -4,30 +4,21 @@
   "verses": 38,
   "scenes": 19,
   "counts": {
-    "PASS": 1,
-    "PASS WITH WARNINGS": 14,
-    "REJECT": 4
+    "PASS": 16,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
   },
   "rejected": {
-    "scene_004": [
-      "The characters and notes identify Nephi as the person following the man, traveling, and praying. The supplied account identifies the dream speaker as Nephi’s father (1 Nephi 8:2–3), not Nephi."
-    ],
-    "scene_005": [
-      "The summary, characters, facts, and notes attribute the dreamer’s view of the field and tree to Nephi. The dream speaker is Nephi’s father (1 Nephi 8:2–3), so this attribution changes who experiences the events."
-    ],
-    "scene_006": [
-      "The summary, characters, facts, and notes make Nephi the person who eats the fruit and desires to share it. The dream speaker is Nephi’s father (1 Nephi 8:2–3), not Nephi."
-    ],
-    "scene_007": [
-      "The notes retain Nephi as the observer despite the supplied account identifying the dream speaker as Nephi’s father (1 Nephi 8:2–3). Nephi is among the people the observer sees at the river’s head (1 Nephi 8:14); the proposed observer identity therefore contradicts the scene."
+    "scene_010": [
+      "The note directing Nephi to voice the first-person narration assigns the observer's speech to the wrong person. The observer names Nephi among those he sees in 1 Nephi 8:14, and the preceding scene identifies the observer as Lehi."
     ]
   },
-  "calls": 105,
+  "calls": 125,
   "tokens": {
-    "input_tokens": 450256,
-    "cached_input_tokens": 214656,
+    "input_tokens": 587096,
+    "cached_input_tokens": 304128,
     "cache_write_input_tokens": 0,
-    "output_tokens": 40073,
-    "reasoning_output_tokens": 13847
+    "output_tokens": 52666,
+    "reasoning_output_tokens": 18680
   }
 }

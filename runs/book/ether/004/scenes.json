@@ -342,65 +342,74 @@
       "Ether 4:11",
       "Ether 4:12"
     ],
-    "summary": "The first-person speaker promises manifestations of his Spirit to those who believe, says his Spirit persuades people to do good, and declares, “I am the Father, I am the light, and the life, and the truth of the world.”",
+    "summary": "Jesus Christ promises manifestations of his Spirit to those who believe his words and teaches that what persuades people to do good is of him.",
     "characters": [
-      "The first-person speaker, who says, “I am the Father”"
+      "Jesus Christ"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker promises to visit those who believe with manifestations of his Spirit; they will know and bear record.",
+        "text": "Jesus Christ promises to visit those who believe his words with manifestations of his Spirit; they will know and bear record.",
         "refs": [
           "Ether 4:11"
         ]
       },
       {
-        "text": "The speaker says his Spirit persuades people to do good.",
+        "text": "His Spirit persuades people to do good.",
         "refs": [
           "Ether 4:11"
         ]
       },
       {
-        "text": "The speaker says that whatever persuades people to do good is of him.",
+        "text": "Whatever persuades people to do good is of him.",
         "refs": [
           "Ether 4:12"
         ]
       },
       {
-        "text": "The speaker calls himself the Father, the light, the life, and the truth of the world.",
+        "text": "He says that he is the Father, the light, the life, and the truth of the world.",
         "refs": [
           "Ether 4:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The teaching can be presented as text without depicting a physical encounter."
+      "The teachings can be presented as text labeled “Jesus Christ” without depicting a physical encounter."
     ],
     "unspecified_visual_details": [
-      "The speaker’s physical appearance and location are not described.",
+      "No physical appearance or location is described for Jesus Christ.",
       "No visible form of the Spirit is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "For because of my Spirit he shall know that these things are true; for it persuadeth men to do good.",
+        "text": "But he that believeth these things which I have spoken, him will I visit with the manifestations of my Spirit, and he shall know and bear record.",
         "refs": [
           "Ether 4:11"
-        ]
+        ],
+        "speaker": "Jesus Christ"
+      },
+      {
+        "text": "And whatsoever thing persuadeth men to do good is of me;",
+        "refs": [
+          "Ether 4:12"
+        ],
+        "speaker": "Jesus Christ"
       },
       {
         "text": "For behold, I am the Father, I am the light, and the life, and the truth of the world.",
         "refs": [
           "Ether 4:12"
-        ]
+        ],
+        "speaker": "Jesus Christ"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses give teachings and promises; they do not narrate a visible manifestation. The supplied verses do not identify the first-person speaker by name."
+      "These verses give teachings and a promise; they do not narrate a visible manifestation."
     ],
     "prohibited_inventions": [
-      "Do not depict a manifestation of the Spirit as an event occurring in this scene.",
-      "Do not invent an appearance or name for the speaker.",
+      "Do not depict a manifestation of the Spirit as occurring in this scene.",
+      "Do not invent a physical appearance for Jesus Christ or the Spirit.",
       "Do not depict light, life, or truth as a literal supernatural event."
     ],
     "importance": "normal"

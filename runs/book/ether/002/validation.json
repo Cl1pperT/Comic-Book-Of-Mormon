@@ -1,9 +1,12 @@
 {
-  "stamp": "581413d6b88c2cb64921dcb15db7023e981b08d00b6f6452959b53e6b6bb741a",
+  "stamp": "bc3af00726769301b6d781c6865cc1d3af8b1470dcb6553779a0f4f46b7ab0ba",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The family and friend groups are textually present but their individual identities, numbers, and appearances are unspecified; show them only as anonymous travelers.",
+        "Narration is a contiguous exact excerpt from Ether 2:1. The source also mentions the Lord's later appearance in Ether 2:4, but this scene cites only verse 1 and does not depict that separate event."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -66,8 +69,11 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The specific addressees are not identified in these verses; keep them unspecified. The whale comparison, waves, depths, winds, and floods are spoken of hypothetically or as future conditions, not events occurring in the scene.",
+        "The Lord's appearance and the setting of the speech are unspecified; the visual-inference note appropriately avoids depicting them."
+      ]
     }
   }
 }

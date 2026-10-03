@@ -56,7 +56,7 @@
       "Ether 8:2",
       "Ether 8:3"
     ],
-    "summary": "After gaining half the kingdom, Jared gave battle to his father and carried him into captivity.",
+    "summary": "Jared rebelled against his father, dwelt in the land of Heth, and gained half the kingdom. He then gave battle to his father and carried him into captivity.",
     "characters": [
       "Jared",
       "Jared’s father"
@@ -83,24 +83,30 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The scene may show Jared carrying his father away into captivity, without specifying how he is restrained."
+      "Jared and his father may be shown during the capture, without specifying how his father is restrained."
     ],
     "unspecified_visual_details": [
       "Jared’s father is not named in the supplied verses.",
       "The location and appearance of the place of captivity are not stated.",
-      "The nature of the father’s service in captivity is not stated."
+      "The nature of his father’s service in captivity is not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did carry away his father into captivity,",
+        "text": "And Jared rebelled against his father,",
+        "refs": [
+          "Ether 8:2"
+        ]
+      },
+      {
+        "text": "and he did carry away his father into captivity,",
         "refs": [
           "Ether 8:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Jared’s rebellion, move to Heth, and gain of half the kingdom precede the battle; do not depict these separate times as simultaneous with the captivity."
+      "Jared’s move to Heth and gain of half the kingdom precede the battle and captivity; do not depict them as simultaneous."
     ],
     "prohibited_inventions": [
       "Do not name Jared’s father or invent followers, dialogue, restraints, battle tactics, or a specific task of service."
@@ -113,7 +119,7 @@
     "refs": [
       "Ether 8:4"
     ],
-    "summary": "During Omer’s reign, he spends half of his days in captivity and begets sons and daughters, including Esrom and Coriantumr.",
+    "summary": "During Omer’s reign, he is in captivity for half of his days and begets sons and daughters, including Esrom and Coriantumr.",
     "characters": [
       "Omer",
       "Esrom",
@@ -138,23 +144,24 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The time and place of Omer’s children’s births are unspecified.",
-      "The verse does not state that Esrom or Coriantumr were present during Omer’s captivity."
+      "The place and circumstances of Omer’s captivity are unspecified.",
+      "The times and places of his children’s births are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he was in captivity the half of his days",
+        "text": "in the days of the reigns of Omer he was in captivity the half of his days.",
         "refs": [
           "Ether 8:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a narrated summary of a period, not a specified individual event."
+      "The verse summarizes a period rather than narrating a single moment."
     ],
     "prohibited_inventions": [
-      "Do not show Omer’s children present in a captivity scene as though the verse says they were there."
+      "Do not depict Esrom or Coriantumr as present during Omer’s captivity; the verse does not say they were there.",
+      "Do not invent a particular captivity event or birth scene."
     ],
     "importance": "normal"
   },
@@ -449,17 +456,30 @@
       "Ether 8:11",
       "Ether 8:12"
     ],
-    "summary": "Akish asks Jared to give him his daughter as a wife. Jared agrees only if Akish brings him the head of Omer, the king.",
+    "summary": "Jared sends for Akish. Jared’s daughter dances before Akish, who desires to marry her and asks Jared for her. Jared makes his consent conditional on Akish bringing him the head of his father, the king.",
     "characters": [
       "Akish",
-      "Jared"
+      "Jared",
+      "Jared’s daughter"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Akish asked Jared to give him Jared’s daughter as a wife.",
+        "text": "Omer was a friend to Akish.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      },
+      {
+        "text": "Jared sent for Akish, and Jared’s daughter danced before Akish.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      },
+      {
+        "text": "Akish desired Jared’s daughter as a wife and asked Jared for her.",
         "refs": [
           "Ether 8:11"
         ]
@@ -472,11 +492,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Akish and Jared may be shown facing one another in conversation."
+      "Akish watches Jared’s daughter dance.",
+      "Akish and Jared face one another while speaking."
     ],
     "unspecified_visual_details": [
-      "The place and circumstances of this conversation are unspecified.",
-      "Jared’s daughter is not stated to be present."
+      "The location, clothing, and appearance of the people are unspecified.",
+      "The supplied verses do not explicitly name Jared’s father."
     ],
     "spoken_dialogue": [
       {
@@ -494,10 +515,28 @@
         "speaker": "Jared"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "And now Omer was a friend to Akish;",
+        "refs": [
+          "Ether 8:11"
+        ]
+      },
+      {
+        "text": "the daughter of Jared danced before him that she pleased him, insomuch that he desired her to wife.",
+        "refs": [
+          "Ether 8:11"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Moroni narrates; he is not described as physically present.",
+      "Ether 8:11 names Omer as Akish’s friend. In Ether 8:12, Jared calls the king his father, but the supplied verses do not explicitly identify him by name."
+    ],
     "prohibited_inventions": [
-      "Do not depict Omer’s death or Akish carrying out Jared’s demand."
+      "Do not depict Omer as present during the dance or conversation.",
+      "Do not depict the king’s death or Akish carrying out Jared’s condition.",
+      "Do not identify Jared’s father as Omer on the authority of these verses alone."
     ],
     "importance": "normal"
   },

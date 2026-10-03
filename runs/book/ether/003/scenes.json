@@ -56,56 +56,84 @@
       "Ether 3:4",
       "Ether 3:5"
     ],
-    "summary": "At the mount, the brother of Jared prays to the Lord about the journey across the deep and asks that the stones be touched so they will shine in darkness.",
+    "summary": "The brother of Jared prays to the Lord, points to things he has molten from rock, and asks the Lord to touch the stones so they may shine in the prepared vessels during a future sea crossing.",
     "characters": [
       "The brother of Jared"
     ],
-    "locations": [
-      "Mount Shelem"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "He asks the Lord to touch the stones and prepare them to shine in darkness in the vessels for light while crossing the sea.",
+        "text": "The brother of Jared addresses the Lord and asks him not to be angry because of his weakness.",
         "refs": [
-          "Ether 3:3",
-          "Ether 3:4"
+          "Ether 3:2"
         ]
       },
       {
-        "text": "He says the people have been in the wilderness for many years and asks the Lord to turn away anger and not let them cross the raging deep in darkness.",
+        "text": "He says he has molten things out of rock.",
         "refs": [
           "Ether 3:3"
         ]
       },
       {
-        "text": "He acknowledges the Lord's power and asks that the Lord not be angry with him for his weakness.",
+        "text": "He asks the Lord to touch the stones so they may shine in darkness and give light in the prepared vessels during the sea crossing.",
         "refs": [
-          "Ether 3:2",
-          "Ether 3:4",
+          "Ether 3:4"
+        ]
+      },
+      {
+        "text": "He says the Lord is able to do this.",
+        "refs": [
           "Ether 3:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brother of Jared can be shown praying while holding or presenting the stones."
+      "The brother of Jared may be shown praying with the stones nearby."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance; the appearance of the vessels, sea, wilderness, and darkness."
+      "The brother of Jared's appearance is not specified.",
+      "The stones' number, size, and appearance are not specified.",
+      "The prayer's location is not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "O Lord, thou hast said that we must be encompassed about by the floods.",
+        "refs": [
+          "Ether 3:2"
+        ],
+        "speaker": "The brother of Jared"
+      },
+      {
+        "text": "but behold these things which I have molten out of the rock.",
+        "refs": [
+          "Ether 3:3"
+        ],
+        "speaker": "The brother of Jared"
+      },
+      {
+        "text": "therefore touch these stones, O Lord, with thy finger, and prepare them that they may shine forth in darkness;",
+        "refs": [
+          "Ether 3:4"
+        ],
+        "speaker": "The brother of Jared"
+      },
       {
         "text": "Behold, O Lord, thou canst do this.",
         "refs": [
           "Ether 3:5"
-        ]
+        ],
+        "speaker": "The brother of Jared"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The prayer is an address to the Lord; the Lord is not described as visibly present in these verses."
+      "The Lord is addressed but is not described as visibly appearing in these verses.",
+      "The wilderness years are recalled in the prayer; the sea crossing is anticipated, not narrated as a present event."
     ],
     "prohibited_inventions": [
-      "Do not depict the sea crossing or the vessels as present events."
+      "Do not depict the Lord or his finger appearing or touching the stones.",
+      "Do not show the stones shining or the vessels crossing the sea as present events.",
+      "Do not assign a specific location or invent additional people."
     ],
     "importance": "normal"
   },
@@ -310,55 +338,76 @@
       "Ether 3:13",
       "Ether 3:14"
     ],
-    "summary": "The Lord shows himself to the brother of Jared, declares that he is Jesus Christ, and speaks of redeeming his people and giving life to those who believe.",
+    "summary": "The Lord shows himself to the man he addresses. He says they are redeemed from the fall and brought back into his presence, identifies himself as Jesus Christ, and speaks of redeeming his people and giving eternal life to those who believe on his name.",
     "characters": [
-      "The brother of Jared",
-      "Jesus Christ"
+      "Jesus Christ",
+      "The man to whom the Lord appears"
     ],
-    "locations": [
-      "Mount Shelem"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord shows himself to the brother of Jared and says the people are redeemed from the fall and brought back into his presence.",
+        "text": "The Lord shows himself to the man he addresses.",
         "refs": [
           "Ether 3:13"
         ]
       },
       {
-        "text": "He identifies himself as Jesus Christ and says he was prepared from the foundation of the world to redeem his people.",
+        "text": "The Lord says they are redeemed from the fall and brought back into his presence.",
+        "refs": [
+          "Ether 3:13"
+        ]
+      },
+      {
+        "text": "The Lord identifies himself as Jesus Christ and says he was prepared to redeem his people.",
         "refs": [
           "Ether 3:14"
         ]
       },
       {
-        "text": "He says that in him all mankind shall have life eternally, and believers shall become his sons and daughters.",
+        "text": "He says those who believe on his name shall have eternal life and become his sons and daughters.",
         "refs": [
           "Ether 3:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show Jesus Christ as appearing to the brother of Jared; no additional appearance details are specified here."
+      "The Lord and the man he addresses may be shown together during the appearance."
     ],
     "unspecified_visual_details": [
-      "Jesus Christ's clothing, features, posture, and the appearance of the surrounding space."
+      "Their physical appearance and clothing.",
+      "The location and its surroundings."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I am Jesus Christ.",
+        "text": "Because thou knowest these things ye are redeemed from the fall; therefore ye are brought back into my presence; therefore I show myself unto you.",
+        "refs": [
+          "Ether 3:13"
+        ],
+        "speaker": "Jesus Christ"
+      },
+      {
+        "text": "Behold, I am he who was prepared from the foundation of the world to redeem my people. Behold, I am Jesus Christ.",
         "refs": [
           "Ether 3:14"
         ],
         "speaker": "Jesus Christ"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "the Lord showed himself unto him, and said:",
+        "refs": [
+          "Ether 3:13"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Moroni later says Jesus showed himself in the spirit, in the manner and likeness of the same body as when he showed himself to the Nephites (Ether 3:17)."
+      "The Lord's statements about the fall, redemption, and eternal life are spoken teachings, not separate visible events."
     ],
     "prohibited_inventions": [
-      "Do not add details of Jesus Christ's appearance beyond what the account states."
+      "Do not specify the man's identity or the location from these verses alone.",
+      "Do not invent details of the Lord's appearance.",
+      "Do not depict the fall, redemption, or eternal life as additional events in this scene."
     ],
     "importance": "major"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "1e5e039d674e8156192146e3ad995fbb9528db559818c9f2e78b0b148708eedf",
+  "stamp": "a9f8dca6181b3216a9c978b19061201368106eedf50575785eeb46015e42fd8e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,11 +12,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is unidentified in verses 5–7; do not assume it is the same speaker identified in the preceding scene as Jesus Christ.",
-        "The invitation and warning are conditional/future statements, not events to depict as happening now."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -39,8 +36,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit-facts wording says Zenos and Zenock testified particularly concerning the remnant; the verse says their testimony concerned “these things” because they testified particularly concerning “us, who are the remnant of their seed.”",
+        "The narrator identity as Mormon is not established by these supplied verses; it may be supported elsewhere, but is unspecified here."
+      ]
     },
     "scene_010": {
       "status": "PASS",

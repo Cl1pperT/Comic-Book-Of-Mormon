@@ -1,11 +1,12 @@
 {
-  "stamp": "fa34b990fe5a3534fbb43b8a2f2646cc40fd824508611b328b394c05b18985c2",
+  "stamp": "ab2403935c8376c1332bd97ed3c03f00f772108b292871fa064aaffe9a58aaa4",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses do not specify which individual speaks the prayer; identifying the speaker as one elder or priest is a reasonable but uncertain choice.",
-        "The text describes administering the flesh and blood of Christ, then praying about the bread; depicting the bread being administered during the prayer could conflate those actions."
+        "The scene is broadly supported. The source says “the elder or priest did minister it” (singular); the summary’s “Elders or priests administered” and the explicit fact’s “An elder or priest” should not suggest multiple ministers. “The church” is present, but a physically assembled congregation is only a reasonable inference.",
+        "The prayer requests that the bread be blessed and sanctified; it does not explicitly say this is happening during the depicted moment, so bread being present is a reasonable visual inference, not a certain fact.",
+        "The narration and dialogue are exact contiguous excerpts, and together remain within the 65-word limit."
       ]
     }
   }

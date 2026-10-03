@@ -847,42 +847,56 @@
     "refs": [
       "Helaman 16:21"
     ],
-    "summary": "The people claim others will use the evil one's cunning and mysterious arts to keep them dependent as servants, ignorant, and reliant on teachers.",
+    "summary": "The speakers claim that others will use the evil one's arts to work a mystery they cannot understand, keeping them dependent and ignorant if they yield.",
     "characters": [
-      "Nephites",
-      "Lamanites (2 Nephi era)"
+      "People disputing the prophecies"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "They claim others will work a mystery through the evil one's arts and keep them servants and ignorant if they yield.",
+        "text": "The speakers claim that others will work a mystery through the evil one's arts that they cannot understand.",
+        "refs": [
+          "Helaman 16:21"
+        ]
+      },
+      {
+        "text": "They say they depend on those others to teach them the word and fear being kept in ignorance if they yield.",
         "refs": [
           "Helaman 16:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people may be shown speaking among themselves."
+      "The speakers may be shown speaking together."
     ],
     "unspecified_visual_details": [
-      "The specific people accused and the setting."
+      "The speakers' appearances, the people they accuse, and the setting."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "we depend upon them to teach us the word",
+        "text": "And they will, by the cunning and the mysterious arts of the evil one, work some great mystery which we cannot understand,",
         "refs": [
           "Helaman 16:21"
-        ]
+        ],
+        "speaker": "People disputing the prophecies"
+      },
+      {
+        "text": "for we depend upon them to teach us the word;",
+        "refs": [
+          "Helaman 16:21"
+        ],
+        "speaker": "People disputing the prophecies"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is the people's accusation, not an affirmed account of actual arts."
+      "The accusation is the speakers' claim, not a narrated occurrence of evil arts."
     ],
     "prohibited_inventions": [
-      "Do not depict evil arts, a mystery, or a demonic figure as an event."
+      "Do not depict the alleged mystery, evil arts, or the evil one as visible events or figures.",
+      "Do not assign identities to the accused people."
     ],
     "importance": "normal"
   },

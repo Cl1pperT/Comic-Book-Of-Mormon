@@ -118,58 +118,76 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "A night attack and seizure of the throne",
+    "title": "The night attack and the later taking of the throne",
     "refs": [
       "Ether 14:5",
       "Ether 14:6"
     ],
-    "summary": "After Coriantumr lays siege to the wilderness, the brother of Shared attacks part of Coriantumr's drunken army by night. He comes to Moron and takes Coriantumr's throne.",
+    "summary": "Coriantumr laid siege to the wilderness. The brother of Shared marched out of the wilderness by night and slew part of Coriantumr’s army while they were drunk. He came to the land of Moron and placed himself upon Coriantumr’s throne.",
     "characters": [
-      "Coriantumr",
       "the brother of Shared",
-      "Coriantumr's army"
+      "part of Coriantumr’s army"
     ],
     "locations": [
-      "wilderness of Akish"
+      "the wilderness",
+      "the land of Moron"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr laid siege to the wilderness; the brother of Shared marched out by night and slew part of Coriantumr's army while they were drunk.",
+        "text": "Coriantumr laid siege to the wilderness.",
         "refs": [
           "Ether 14:5"
         ]
       },
       {
-        "text": "The brother of Shared came to the land of Moron and placed himself upon Coriantumr's throne.",
+        "text": "The brother of Shared marched out of the wilderness by night and slew part of Coriantumr’s army while they were drunk.",
+        "refs": [
+          "Ether 14:5"
+        ]
+      },
+      {
+        "text": "The brother of Shared came to the land of Moron and placed himself upon Coriantumr’s throne.",
         "refs": [
           "Ether 14:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The night attack takes place in the wilderness under cover of darkness."
+      "The march and attack take place in darkness because they occur by night."
     ],
     "unspecified_visual_details": [
-      "The appearance of the throne and the exact route from the wilderness to Moron."
+      "The appearance of the wilderness, army, land of Moron, and throne.",
+      "The time between the night attack and the arrival in Moron."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the brother of Shared did march forth out of the wilderness by night",
+        "text": "Coriantumr did lay siege to the wilderness;",
         "refs": [
           "Ether 14:5"
         ]
       },
       {
-        "text": "placed himself upon the throne of Coriantumr",
+        "text": "the brother of Shared did march forth out of the wilderness by night, and slew a part of the army of Coriantumr, as they were drunken.",
+        "refs": [
+          "Ether 14:5"
+        ]
+      },
+      {
+        "text": "And he came forth to the land of Moron, and placed himself upon the throne of Coriantumr.",
         "refs": [
           "Ether 14:6"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The night attack and the taking of the throne are successive events, not one simultaneous moment."
+    ],
     "prohibited_inventions": [
-      "Do not combine the night attack and the throne-taking into one simultaneous moment."
+      "Do not depict Coriantumr as present during the attack or at the throne; these verses do not establish his presence at either event.",
+      "Do not show the attack and the taking of the throne as simultaneous.",
+      "Do not invent an interval, dialogue, or additional actions between the events.",
+      "Do not depict gore."
     ],
     "importance": "normal"
   },
@@ -444,53 +462,66 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "The armies converge at Agosh",
+    "title": "Battle on the plains of Agosh",
     "refs": [
       "Ether 14:15",
       "Ether 14:16"
     ],
-    "summary": "Lib pursues Coriantumr to the plains of Agosh, where Coriantumr has taken all the people with him. Coriantumr battles Lib and kills him; Lib's brother then attacks, and Coriantumr flees before his army.",
+    "summary": "Lib pursues Coriantumr, who has taken all the people with him, to the plains of Agosh. There Coriantumr battles Lib and smites him until he dies. Lib’s brother comes against Coriantumr, the battle becomes exceedingly sore, and Coriantumr flees before the brother’s army.",
     "characters": [
       "Coriantumr",
       "Lib",
       "the brother of Lib",
-      "Coriantumr's army",
-      "Lib's army",
-      "the people fleeing with Coriantumr"
+      "the people with Coriantumr",
+      "the army of the brother of Lib"
     ],
     "locations": [
       "plains of Agosh"
     ],
     "explicit_facts": [
       {
-        "text": "Lib pursued Coriantumr to the plains of Agosh; Coriantumr had taken all the people with him as he fled.",
+        "text": "Lib pursued Coriantumr to the plains of Agosh, and Coriantumr took all the people with him as he fled.",
         "refs": [
           "Ether 14:15"
         ]
       },
       {
-        "text": "Coriantumr battled Lib and smote him until he died; then Lib's brother attacked in his place, and Coriantumr fled before that army.",
+        "text": "Coriantumr gave battle to Lib and smote him until Lib died.",
+        "refs": [
+          "Ether 14:16"
+        ]
+      },
+      {
+        "text": "Lib’s brother came against Coriantumr; the battle became exceedingly sore, and Coriantumr fled before the brother’s army.",
         "refs": [
           "Ether 14:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people travel with Coriantumr as he flees."
+      "The people move with Coriantumr during his flight.",
+      "The pursuit, battle with Lib, and renewed flight occur in sequence, not simultaneously."
     ],
     "unspecified_visual_details": [
-      "The brother of Lib's name and appearance, and how the people are organized."
+      "The appearances and clothing of the people and combatants.",
+      "Weapons, troop formations, and the precise terrain of the plains."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he smote upon him until he died",
+        "text": "Lib did pursue him until he came to the plains of Agosh.",
+        "refs": [
+          "Ether 14:15"
+        ]
+      },
+      {
+        "text": "And when he had come to the plains of Agosh he gave battle unto Lib, and he smote upon him until he died;",
         "refs": [
           "Ether 14:16"
         ]
       },
       {
-        "text": "Coriantumr fled again before the army",
+        "text": "Coriantumr fled again before the army of the brother of Lib.",
         "refs": [
           "Ether 14:16"
         ]
@@ -498,9 +529,11 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the brother of Lib's name or show graphic injury."
+      "Do not invent a name or biography for Lib’s brother or the unnamed people.",
+      "Do not show wounds, blood, or severed body parts.",
+      "Do not depict Moroni as physically present at the battle."
     ],
-    "importance": "normal"
+    "importance": "major"
   },
   {
     "scene_id": "scene_010",
@@ -775,46 +808,59 @@
   },
   {
     "scene_id": "scene_015",
-    "title": "Three days of battle by the seashore",
+    "title": "Pursuit to the seashore",
     "refs": [
       "Ether 14:26"
     ],
-    "summary": "Shiz pursues Coriantumr eastward to the seashore borders, where Coriantumr battles Shiz for three days.",
+    "summary": "Shiz pursues Coriantumr eastward to the borders by the seashore. Battle there lasts three days.",
     "characters": [
       "Shiz",
-      "Coriantumr",
-      "Shiz's army",
-      "Coriantumr's army"
+      "Coriantumr"
     ],
     "locations": [
-      "seashore"
+      "borders by the seashore"
     ],
     "explicit_facts": [
       {
-        "text": "Shiz pursued Coriantumr eastward to the seashore borders, where Coriantumr battled Shiz for three days.",
+        "text": "Shiz pursued Coriantumr eastward to the borders by the seashore.",
+        "refs": [
+          "Ether 14:26"
+        ]
+      },
+      {
+        "text": "The battle clause reads: “and there he gave battle unto Shiz for the space of three days.”",
         "refs": [
           "Ether 14:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The armies are engaged in battle by the seashore."
+      "The seashore may establish the pursuit's destination."
     ],
     "unspecified_visual_details": [
-      "The exact terrain and the sequence of combat across the three days."
+      "Terrain, weather, clothing, equipment, and physical appearances.",
+      "Specific battle actions and their distribution across the three days."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there he gave battle unto Shiz for the space of three days",
+        "text": "And it came to pass that Shiz did pursue Coriantumr eastward, even to the borders by the seashore, and there he gave battle unto Shiz for the space of three days.",
         "refs": [
           "Ether 14:26"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The narration is Moroni's, not dialogue spoken by either named participant.",
+      "Preserve the battle clause verbatim without replacing its pronoun or either occurrence of Shiz.",
+      "The character list identifies the pursuit participants; it does not independently establish Coriantumr's participation in combat."
+    ],
     "prohibited_inventions": [
-      "Do not compress the three days into a claim that all action occurred at one instant."
+      "Do not invent a self-combat event from the battle clause.",
+      "Do not explicitly assign the pronoun's battle action to Coriantumr or Shiz.",
+      "Do not compress three days into one instant or invent daily battle episodes.",
+      "Do not invent dialogue, additional combatants, injuries, or divine appearances.",
+      "Do not depict Moroni as physically present."
     ],
     "importance": "normal"
   },
@@ -879,51 +925,59 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "Three assaults at Comnor",
+    "title": "Three advances and Coriantumr's fall",
     "refs": [
       "Ether 14:29",
       "Ether 14:30"
     ],
-    "summary": "Shiz's armies come out and are driven back twice, then come a third time and fight fiercely. Shiz wounds Coriantumr deeply; Coriantumr faints from blood loss and is carried away as if dead.",
+    "summary": "They come forth and are driven back twice. On their third advance, the battle becomes exceedingly sore. Shiz strikes Coriantumr, who loses blood, faints, and is carried away as though dead.",
     "characters": [
       "Shiz",
       "Coriantumr",
-      "Shiz's army",
-      "Coriantumr's army"
+      "Unnamed combatants",
+      "Unnamed carriers"
     ],
-    "locations": [
-      "hill Comnor"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Shiz's armies came forth and were driven back twice; on the third advance, the battle became exceedingly sore.",
+        "text": "They came forth and were driven back twice; on their third advance, the battle became exceedingly sore.",
         "refs": [
           "Ether 14:29"
         ]
       },
       {
-        "text": "Shiz struck Coriantumr, giving him many deep wounds; Coriantumr lost blood, fainted, and was carried away as if dead.",
+        "text": "Shiz struck Coriantumr, giving him many deep wounds.",
+        "refs": [
+          "Ether 14:30"
+        ]
+      },
+      {
+        "text": "Coriantumr lost blood, fainted, and was carried away as though dead.",
         "refs": [
           "Ether 14:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Coriantumr is carried from the battle after fainting."
+      "Combatants clash during the third advance.",
+      "Coriantumr is carried away after fainting."
     ],
     "unspecified_visual_details": [
-      "Who carries Coriantumr and the exact manner of his injuries."
+      "The combatants' identities beyond Shiz and Coriantumr.",
+      "The battlefield's location and appearance.",
+      "Who carries Coriantumr and how.",
+      "Clothing and weapons."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the battle became exceedingly sore",
+        "text": "the battle became exceedingly sore.",
         "refs": [
           "Ether 14:29"
         ]
       },
       {
-        "text": "was carried away as though he were dead",
+        "text": "Coriantumr, having lost his blood, fainted, and was carried away as though he were dead.",
         "refs": [
           "Ether 14:30"
         ]
@@ -931,9 +985,11 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show blood, graphic wounds, or severed body parts."
+      "Do not identify the unnamed combatants or carriers.",
+      "Do not depict blood, wounds, or gore.",
+      "Do not add dialogue or a location."
     ],
-    "importance": "normal"
+    "importance": "major"
   },
   {
     "scene_id": "scene_018",

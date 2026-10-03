@@ -1,5 +1,5 @@
 {
-  "stamp": "87af461abfb57dfa45e97334760507270413eddfb5f9487aba7444249261c359",
+  "stamp": "2219c5742ce58a46d6f694abc47eb3733fff16a8984d23b464217815d713f750",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -46,16 +46,12 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Seantum is given as the name in the source; Seezoram is his brother and the murdered chief judge (Helaman 9:26–27), but Seantum is not in the supplied established-character labels. The instruction forbids rejecting a listed label for absence, but does not establish this unlisted character label; confirm whether “Seantum” is an allowed character label."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene places Seantum among the characters although the supplied verses describe his predicted future actions, not his present presence. The notes correctly prohibit staging that prediction as occurring now; keep him offscreen."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",

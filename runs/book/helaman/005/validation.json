@@ -1,9 +1,11 @@
 {
-  "stamp": "77343c5e0bff553482d56e7238529f5f7005e40200ae50b3da0824b1128ee753",
+  "stamp": "2b0f581e0eda5ec430f340c782cd5cdfd75fcfe69ef0dcea82e0cd321c8de5cb",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not describe the transfer’s staging or location; depicting Nephi and Cezoram together at the handoff is a reasonable but unspecified visual inference."
+      ]
     },
     "scene_002": {
       "status": "PASS",

@@ -534,7 +534,7 @@
       "Helaman 9:24",
       "Helaman 9:25"
     ],
-    "summary": "Nephi rebukes the people, warns of destruction unless they repent, and explains that they accuse him because he testified of the judge's murder. He offers another sign.",
+    "summary": "Nephi rebukes the people and warns them of destruction unless they repent. He responds to their accusation that he arranged Seezoram's murder, says they are angry with him and seek his life, and offers to show another sign.",
     "characters": [
       "Nephi",
       "the people"
@@ -544,37 +544,50 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi asks how long God will suffer the people in their sin and urges them to mourn over destruction awaiting them unless they repent.",
+        "text": "Nephi rebukes the people for their sin and warns of destruction unless they repent.",
         "refs": [
           "Helaman 9:21",
           "Helaman 9:22"
         ]
       },
       {
-        "text": "Nephi says they accuse him of arranging the chief judge's murder because he testified to their wickedness and abominations.",
+        "text": "Nephi says the people accuse him of arranging the murder of Seezoram, their chief judge; the accusation is not established as true.",
+        "refs": [
+          "Helaman 9:23"
+        ]
+      },
+      {
+        "text": "Nephi says he testified of their wickedness and abominations, and that they are angry with him and seek his life.",
         "refs": [
           "Helaman 9:23",
           "Helaman 9:24"
         ]
       },
       {
-        "text": "Nephi offers to show another sign.",
+        "text": "Nephi says he will show them another sign.",
         "refs": [
           "Helaman 9:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi speaks to the people before him."
+      "Nephi addresses a group of people."
     ],
     "unspecified_visual_details": [
-      "The crowd's response and Nephi's gestures."
+      "The location, the people's appearance, and Nephi's gestures."
     ],
     "spoken_dialogue": [
       {
         "text": "O ye ought to begin to howl and mourn, because of the great destruction which at this time doth await you, except ye shall repent.",
         "refs": [
           "Helaman 9:22"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "Behold ye say that I have agreed with a man that he should murder Seezoram, our chief judge.",
+        "refs": [
+          "Helaman 9:23"
         ],
         "speaker": "Nephi"
       },
@@ -586,19 +599,15 @@
         "speaker": "Nephi"
       }
     ],
-    "narration": [
-      {
-        "text": "this is because I have testified unto you",
-        "refs": [
-          "Helaman 9:23"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The promised destruction is a warning, not a depicted present event."
+      "The destruction is a warning, not an event occurring in this scene.",
+      "The murder and earlier sign are discussed, not shown happening in these verses."
     ],
     "prohibited_inventions": [
-      "Do not visualize the warning as a disaster occurring."
+      "Do not depict the warned destruction, Seezoram's murder, or the earlier sign as present events.",
+      "Do not show the promised new sign occurring yet.",
+      "Do not invent a response from the people."
     ],
     "importance": "normal"
   },
@@ -614,25 +623,26 @@
       "Helaman 9:31",
       "Helaman 9:32"
     ],
-    "summary": "Nephi instructs the people to question Seantum about conspiring with Nephi and murdering his brother. Nephi predicts Seantum's denials, fear, and the discovery of blood on his cloak.",
+    "summary": "Nephi instructs his listeners to go to Seantum’s house and question him about Seezoram’s murder. He predicts Seantum’s responses and tells them to examine his cloak and ask about the blood they will find.",
     "characters": [
       "Nephi",
-      "the people",
-      "Seantum"
+      "Seantum (mentioned)",
+      "Seezoram (mentioned)",
+      "Nephi’s listeners"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location; Seantum’s house is mentioned but not visited"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi tells the people to go to Seantum's house and ask whether he conspired with Nephi to murder his brother Seezoram.",
+        "text": "Nephi directs his listeners to go to the house of Seantum, Seezoram’s brother, and ask whether Seantum agreed with Nephi to murder Seezoram.",
         "refs": [
           "Helaman 9:26",
           "Helaman 9:27"
         ]
       },
       {
-        "text": "Nephi predicts Seantum will deny it, appear astonished, claim innocence, and show fear.",
+        "text": "Nephi predicts that Seantum will answer no, react with fear, deny the accusation, appear astonished, and declare his innocence.",
         "refs": [
           "Helaman 9:28",
           "Helaman 9:29",
@@ -640,7 +650,7 @@
         ]
       },
       {
-        "text": "Nephi says examination will reveal blood on the skirts of Seantum's cloak, and the people should ask whose blood it is.",
+        "text": "Nephi says his listeners will find blood on the skirts of Seantum’s cloak and should question him about it.",
         "refs": [
           "Helaman 9:31",
           "Helaman 9:32"
@@ -648,10 +658,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi addresses the people as he describes the future inquiry."
+      "Nephi addresses a group of listeners."
     ],
     "unspecified_visual_details": [
-      "The appearance of Seantum and his house; his specific clothing design."
+      "The appearance of Nephi and his listeners.",
+      "The location where Nephi speaks.",
+      "The appearance of Seantum’s house and cloak."
     ],
     "spoken_dialogue": [
       {
@@ -660,86 +672,103 @@
           "Helaman 9:26"
         ],
         "speaker": "Nephi"
-      }
-    ],
-    "narration": [
+      },
       {
-        "text": "ye shall examine him, and ye shall find blood upon the skirts of his cloak.",
+        "text": "But behold, ye shall examine him, and ye shall find blood upon the skirts of his cloak.",
         "refs": [
           "Helaman 9:31"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is Nephi's prediction and instruction; do not depict the predicted examination as happening yet."
+      "The questioning, Seantum’s reactions, and the examination are predictions and instructions, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show blood or wounds."
+      "Do not depict the visit to Seantum’s house or his predicted reactions as already happening.",
+      "Do not show blood, wounds, or a murder in this scene."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_012",
-    "title": "Nephi predicts Seantum's confession",
+    "title": "Nephi predicts a confession",
     "refs": [
       "Helaman 9:33",
       "Helaman 9:34",
       "Helaman 9:35",
       "Helaman 9:36"
     ],
-    "summary": "Nephi predicts Seantum will tremble, grow pale, be confronted with his fear, and confess the murder; Nephi says the people will then know his knowledge came by God's power.",
+    "summary": "Nephi predicts a man's trembling and paleness, the listeners' accusation, and the man's increased fear and confession of murder. He predicts that the man will attribute Nephi's knowledge to God's power and that the listeners will recognize Nephi as honest and sent from God.",
     "characters": [
       "Nephi",
-      "the people",
-      "Seantum"
+      "the listeners",
+      "the man (mentioned only)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi predicts Seantum will tremble and look pale, and that the people will accuse him based on his fear and paleness.",
+        "text": "Nephi predicts that the man will tremble and look pale, as if death had come upon him.",
         "refs": [
-          "Helaman 9:33",
+          "Helaman 9:33"
+        ]
+      },
+      {
+        "text": "Nephi predicts that the listeners will declare the man guilty because of his fear and paleness.",
+        "refs": [
           "Helaman 9:34"
         ]
       },
       {
-        "text": "Nephi predicts Seantum will become more afraid and confess the murder; he will say Nephi knew through God's power.",
+        "text": "Nephi predicts greater fear and a confession in which the man no longer denies committing the murder.",
         "refs": [
-          "Helaman 9:35",
+          "Helaman 9:35"
+        ]
+      },
+      {
+        "text": "Nephi predicts that the man will say Nephi knows nothing concerning the matter except what was given to him by God's power.",
+        "refs": [
+          "Helaman 9:36"
+        ]
+      },
+      {
+        "text": "Nephi says the listeners will then know he is honest and sent to them from God.",
+        "refs": [
           "Helaman 9:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi speaks to the people while describing a future event."
+      "Nephi addresses listeners while describing future events."
     ],
     "unspecified_visual_details": [
-      "The setting and appearance of Seantum in the predicted scene."
+      "The setting, staging, clothing, physical appearances, and number of listeners are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "And then shall greater fear come upon him; and then shall he confess unto you",
+        "text": "And then shall ye know that I am an honest man, and that I am sent unto you from God.",
         "refs": [
-          "Helaman 9:35"
+          "Helaman 9:36"
         ],
         "speaker": "Nephi"
       }
     ],
-    "narration": [
-      {
-        "text": "And then shall he say unto you, that I, Nephi, know nothing concerning the matter",
-        "refs": [
-          "Helaman 9:36"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The reactions and confession are predictions, not events to stage in this moment."
+      "Keep the scene with Nephi addressing listeners; all described fear, accusation, and confession remain predictions.",
+      "The predicted accusation is embedded in Nephi's address, not spoken by listeners in this scene.",
+      "The self-identification in verse 36 identifies Nephi as the speaker; do not assign his words to Mormon.",
+      "The comparison to death describes predicted paleness, not an actual death or visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not depict Seantum's predicted confession as already occurring."
+      "Do not stage the later visit, examination, accusation, or confession.",
+      "Do not depict the mentioned man as physically present or supply his name.",
+      "Do not invent listener dialogue or reactions.",
+      "Do not depict the murder.",
+      "Do not invent a visible appearance of God or a supernatural manifestation of Nephi's knowledge."
     ],
     "importance": "normal"
   },

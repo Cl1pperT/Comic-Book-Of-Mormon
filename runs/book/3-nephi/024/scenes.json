@@ -5,7 +5,7 @@
     "refs": [
       "3 Nephi 24:1"
     ],
-    "summary": "Jesus commands the people to write the words the Father gave Malachi, expounds them after they are written, and begins speaking them.",
+    "summary": "Jesus commanded his listeners to write the words the Father had given unto Malachi. After the words were written, Jesus expounded them. The words announce a messenger preparing the way and the Lord coming to his temple.",
     "characters": [
       "Jesus Christ (at Bountiful)",
       "the people"
@@ -15,46 +15,60 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jesus commanded the people to write the words the Father had given to Malachi.",
+        "text": "Jesus commanded his listeners to write the words the Father had given unto Malachi, which Jesus should tell them.",
         "refs": [
           "3 Nephi 24:1"
         ]
       },
       {
-        "text": "After the words were written, Jesus expounded them and began to tell them.",
+        "text": "After the words were written, Jesus expounded them.",
+        "refs": [
+          "3 Nephi 24:1"
+        ]
+      },
+      {
+        "text": "Jesus recited words attributed to the Father speaking unto Malachi, announcing a messenger preparing the way and the Lord coming to his temple.",
         "refs": [
           "3 Nephi 24:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people write as Jesus addresses them."
+      "The listeners may be shown attending to Jesus as he expounds the already-written words."
     ],
     "unspecified_visual_details": [
-      "The appearance and arrangement of the people, writing materials, and setting."
+      "The listeners' appearance and arrangement.",
+      "The setting and writing materials.",
+      "The identities of those who wrote the words."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I will send my messenger,",
+        "text": "Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me,",
         "refs": [
           "3 Nephi 24:1"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "Jesus Christ (at Bountiful), quoting the Father"
       }
     ],
     "narration": [
       {
-        "text": "he commanded them that they should write the words",
+        "text": "And it came to pass that after they were written he expounded them.",
         "refs": [
           "3 Nephi 24:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The prophecy is being spoken by Jesus, quoting words given by the Father to Malachi."
+      "Stage the scene after the words have been written; the preceding command and writing remain background events.",
+      "The messenger and the arrival at the temple are announced in the quoted teaching, not narrated as visible events occurring here.",
+      "Narration belongs to Mormon; the recited speech belongs to Jesus, quoting the Father."
     ],
     "prohibited_inventions": [
-      "Do not depict Malachi or the prophesied messenger as physically present."
+      "Do not depict the Father, Malachi, or the promised messenger as physically present.",
+      "Do not depict the promised temple arrival as occurring in this scene.",
+      "Do not show the earlier command, active writing, and subsequent exposition as simultaneous.",
+      "Do not invent the content of Jesus's exposition or additional dialogue.",
+      "Do not assign named writers or specify writing materials as textual facts."
     ],
     "importance": "normal"
   },

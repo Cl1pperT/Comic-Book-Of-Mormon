@@ -339,12 +339,12 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Mormon makes a record",
+    "title": "Mormon describes his record",
     "refs": [
       "3 Nephi 5:10",
       "3 Nephi 5:11"
     ],
-    "summary": "The narrator says he made his record from Nephi’s record, engraved on the plates of Nephi, and that he writes on plates he made himself.",
+    "summary": "Mormon’s narration identifies Nephi’s record as his source and states that the plates for his own record were made with his own hands.",
     "characters": [
       "Mormon (old)"
     ],
@@ -353,38 +353,48 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator made his record according to Nephi’s record, engraved on the plates of Nephi.",
+        "text": "The narrator's record follows the record of Nephi, which was engraved on the plates of Nephi.",
         "refs": [
           "3 Nephi 5:10"
         ]
       },
       {
-        "text": "The narrator says he makes the record on plates he made with his own hands.",
+        "text": "The narrator states that he makes the record on plates he made with his own hands.",
         "refs": [
           "3 Nephi 5:11"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mormon recording on plates."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Mormon’s appearance, the tools, and the setting."
+      "The setting, recording tools, and plates’ appearance are unspecified.",
+      "The narrator’s physical appearance and age are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I do make the record on plates which I have made with mine own hands.",
+        "text": "Therefore I have made my record of these things according to the record of Nephi, which was engraven on the plates which were called the plates of Nephi.",
+        "refs": [
+          "3 Nephi 5:10"
+        ]
+      },
+      {
+        "text": "And behold, I do make the record on plates which I have made with mine own hands.",
         "refs": [
           "3 Nephi 5:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon is present as the record-maker in his first-person account."
+      "Attribute narration to Mormon (old), using the established character label and supplied narrator identification; these verses do not independently name him or establish his age.",
+      "Present this as a narratorial statement about the record, not a newly staged record-making event."
     ],
     "prohibited_inventions": [
-      "Do not depict Nephi alongside Mormon; Nephi is mentioned as the source of a record."
+      "Do not depict Nephi as physically present.",
+      "Do not stage the reported creation of the plates or invent their manufacturing process.",
+      "Do not turn the narratorial account into a new present-tense recording scene.",
+      "Do not infer physical age or appearance from the established character label.",
+      "Do not add identifying words to the quotations."
     ],
     "importance": "normal"
   },

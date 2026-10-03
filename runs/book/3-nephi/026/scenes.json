@@ -124,26 +124,29 @@
       "3 Nephi 26:7",
       "3 Nephi 26:8"
     ],
-    "summary": "The narrator explains that the written account contains only a lesser part of Jesus's teachings, while Nephi's plates contain more, and that the record is intended to return to the people from the Gentiles.",
-    "characters": [],
+    "summary": "Mormon explains that this book cannot contain even a hundredth part of Jesus's teachings, that the plates of Nephi contain more of them, and that he wrote a lesser part intending it to be brought again to this people from the Gentiles.",
+    "characters": [
+      "Mormon (narrator)",
+      "Jesus (mentioned, not depicted)"
+    ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The book cannot contain even a hundredth part of what Jesus taught.",
+        "text": "This book cannot contain even a hundredth part of what Jesus taught the people.",
         "refs": [
           "3 Nephi 26:6"
         ]
       },
       {
-        "text": "The plates of Nephi contain the greater part of what Jesus taught.",
+        "text": "The plates of Nephi contain the more part of what Jesus taught the people.",
         "refs": [
           "3 Nephi 26:7"
         ]
       },
       {
-        "text": "The narrator wrote a lesser part for it to be brought again to this people from the Gentiles, according to Jesus's words.",
+        "text": "Mormon wrote a lesser part, intending it to be brought again to this people from the Gentiles, according to Jesus's words.",
         "refs": [
           "3 Nephi 26:8"
         ]
@@ -151,22 +154,26 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The narrator's identity and physical presence, the book, plates, and writing process are not specified in these verses."
+      "Mormon's appearance and location are not specified.",
+      "The verses do not describe a present-time view of the book or plates."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I have written them to the intent that they may be brought again unto this people,",
+        "text": "And these things have I written, which are a lesser part of the things which he taught the people;",
         "refs": [
           "3 Nephi 26:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
+      "Mormon is the first-person narrator of this caption; Jesus is the teacher he refers to, not the speaker.",
       "This is explanatory narration, not a described present-time writing scene."
     ],
     "prohibited_inventions": [
-      "Do not depict an unnamed writer or physical plates as present without textual support."
+      "Do not add a quotation from 3 Nephi 26:12; it is not among the supplied verses.",
+      "Do not depict Jesus teaching, Mormon writing, or the record's return as events occurring in this scene.",
+      "Do not assign the first-person narration to Jesus."
     ],
     "importance": "normal"
   },

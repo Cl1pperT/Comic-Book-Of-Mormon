@@ -412,32 +412,34 @@
       "Helaman 2:13",
       "Helaman 2:14"
     ],
-    "summary": "The account marks the end of the forty-second year, says more will be spoken about Gadianton, foretells his role in the near-destruction of the people of Nephi, and clarifies which book’s end it means.",
+    "summary": "The forty-second year of the judges ends. An editorial note promises more about Gadianton, describes his role in the near-destruction of the people of Nephi, and clarifies that the referenced ending belongs to the book of Nephi, not Helaman.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The forty-second year of the reign of the judges over the people of Nephi ended; more about Gadianton would be spoken later.",
+        "text": "More about Gadianton will be spoken hereafter, and the forty-second year of the reign of the judges over the people of Nephi ended.",
         "refs": [
           "Helaman 2:12"
         ]
       },
       {
-        "text": "The account says Gadianton would prove the overthrow, almost the entire destruction, of the people of Nephi.",
+        "text": "The editorial note states that Gadianton proved the overthrow, almost the entire destruction, of the people of Nephi.",
         "refs": [
           "Helaman 2:13"
         ]
       },
       {
-        "text": "The speaker means the end of the book of Nephi, not the end of the book of Helaman.",
+        "text": "The referenced ending is that of the book of Nephi, not the book of Helaman; the narrator took the written account from the book of Nephi.",
         "refs": [
           "Helaman 2:14"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "A narration-only presentation avoids staging events that these verses merely reference."
+    ],
     "unspecified_visual_details": [
-      "No visible setting or narrator is specified."
+      "No physical setting, visible narrator, writing activity, or appearance of a record is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -448,30 +450,28 @@
         ]
       },
       {
-        "text": "And thus ended the forty and second year of the reign of the judges over the people of Nephi.",
-        "refs": [
-          "Helaman 2:12"
-        ]
-      },
-      {
-        "text": "this Gadianton did prove the overthrow",
+        "text": "this Gadianton did prove the overthrow, yea, almost the entire destruction of the people of Nephi.",
         "refs": [
           "Helaman 2:13"
         ]
       },
       {
-        "text": "I do not mean the end of the book of Helaman, but I mean the end of the book of Nephi",
+        "text": "Behold I do not mean the end of the book of Helaman, but I mean the end of the book of Nephi,",
         "refs": [
           "Helaman 2:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The foretold overthrow is not a present event in these verses."
+      "These verses provide editorial commentary rather than a physically staged encounter.",
+      "The reference to destruction must remain narration, not an enacted event.",
+      "First-person narration does not establish the narrator’s physical presence."
     ],
     "prohibited_inventions": [
-      "Do not depict the foretold destruction as a present event.",
-      "Do not add a visible narrator or record-keeper."
+      "Do not depict the destruction as occurring in this scene.",
+      "Do not add a visible narrator, Gadianton, or record-keeper.",
+      "Do not invent a setting, writing action, or dialogue.",
+      "Do not combine the year’s ending and the referenced destruction into one simultaneous event."
     ],
     "importance": "normal"
   }

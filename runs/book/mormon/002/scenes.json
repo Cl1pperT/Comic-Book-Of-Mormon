@@ -5,11 +5,10 @@
     "refs": [
       "Mormon 2:1"
     ],
-    "summary": "War begins again between the Nephites and Lamanites. Though young, Mormon is large in stature, and the people appoint him leader of their armies.",
+    "summary": "War begins again between the Nephites and Lamanites. Mormon, though young and large in stature, is appointed leader of the Nephite armies by the people of Nephi.",
     "characters": [
       "Mormon (young)",
-      "Nephites",
-      "Lamanites"
+      "People of Nephi"
     ],
     "locations": [
       "Unspecified location"
@@ -22,32 +21,40 @@
         ]
       },
       {
-        "text": "Mormon was young and large in stature; the people of Nephi appointed him leader of their armies.",
+        "text": "Mormon was young and large in stature.",
+        "refs": [
+          "Mormon 2:1"
+        ]
+      },
+      {
+        "text": "The people of Nephi appointed Mormon leader of their armies.",
         "refs": [
           "Mormon 2:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon can be shown standing before Nephite people or soldiers as he is appointed."
+      "Mormon may be shown among the people of Nephi at the time of his appointment."
     ],
     "unspecified_visual_details": [
-      "Mormon's exact age, clothing, and appearance beyond being young and large in stature.",
-      "The manner and place of the appointment."
+      "Mormon's exact age and appearance beyond being young and large in stature.",
+      "The place and manner of the appointment."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the people of Nephi appointed me that I should be their leader",
+        "text": "the people of Nephi appointed me that I should be their leader, or the leader of their armies.",
         "refs": [
           "Mormon 2:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Attribute the first-person narration to Mormon outside the quoted text; do not insert his name into the quotation."
+    ],
     "prohibited_inventions": [
       "Do not add words spoken during the appointment.",
-      "Do not depict either army fighting in this moment."
+      "Do not depict fighting as part of the appointment."
     ],
     "importance": "normal"
   },
@@ -478,48 +485,55 @@
     "refs": [
       "Mormon 2:12"
     ],
-    "summary": "Mormon sees the people's mourning and sorrow before the Lord. He rejoices, supposing the Lord will be merciful and they will become righteous again.",
+    "summary": "Mormon sees the people's lamentation, mourning, and sorrow before the Lord. His heart begins to rejoice, and he supposes the Lord will be merciful to them and they will become righteous again.",
     "characters": [
-      "Mormon (young)",
-      "Nephites"
+      "Mormon",
+      "The people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Mormon saw the people's lamentation, mourning, and sorrow before the Lord.",
+        "text": "Mormon saw their lamentation, mourning, and sorrow before the Lord.",
         "refs": [
           "Mormon 2:12"
         ]
       },
       {
-        "text": "His heart began to rejoice, supposing the Lord would be merciful and the people would again become righteous.",
+        "text": "Mormon's heart began to rejoice.",
+        "refs": [
+          "Mormon 2:12"
+        ]
+      },
+      {
+        "text": "Mormon supposed the Lord would be merciful to them and they would again become a righteous people.",
         "refs": [
           "Mormon 2:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon can be shown observing mourners, with his expression suggesting hope."
+      "Mormon may be shown observing people who appear sorrowful."
     ],
     "unspecified_visual_details": [
-      "The specific place and the appearance or visible presence of the Lord."
+      "The location, the people's appearance, and the visible form of their mourning are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "my heart did begin to rejoice within me",
+        "text": "when I, Mormon, saw their lamentation and their mourning and their sorrow before the Lord, my heart did begin to rejoice within me,",
         "refs": [
           "Mormon 2:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon's supposition is not presented as a visible divine appearance."
+      "Mormon's expectation of mercy and renewed righteousness is a supposition, not an event shown to occur in this verse."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described."
+      "Do not depict the Lord visibly; no appearance is described.",
+      "Do not portray the people's becoming righteous again as an event in this scene."
     ],
     "importance": "normal"
   },
@@ -678,51 +692,60 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Mormon Takes the Plates",
+    "title": "Mormon Recounts Taking the Plates",
     "refs": [
       "Mormon 2:17"
     ],
-    "summary": "Near Jashon, where Ammaron had deposited the records, Mormon has taken the plates of Nephi according to Ammaron's word and makes a record.",
+    "summary": "The city of Jashon was near the land where Ammaron had deposited the records so they would not be destroyed. Mormon had followed Ammaron's word, taken the plates of Nephi, and made a record according to Ammaron's words.",
     "characters": [
-      "Mormon (young)"
+      "Mormon"
     ],
     "locations": [
-      "Near the land of Jashon"
+      "The city of Jashon (mentioned)",
+      "The land where Ammaron had deposited the records (mentioned; Jashon was near this land)"
     ],
     "explicit_facts": [
       {
-        "text": "The city of Jashon was near the land where Ammaron had deposited the records to keep them from destruction.",
+        "text": "The city of Jashon was near the land where Ammaron had deposited the records unto the Lord.",
         "refs": [
           "Mormon 2:17"
         ]
       },
       {
-        "text": "Mormon had followed Ammaron's word, taken the plates of Nephi, and made a record according to Ammaron's words.",
+        "text": "The records were deposited so they would not be destroyed.",
+        "refs": [
+          "Mormon 2:17"
+        ]
+      },
+      {
+        "text": "Mormon had gone according to Ammaron's word, taken the plates of Nephi, and made a record according to Ammaron's words.",
         "refs": [
           "Mormon 2:17"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mormon can be shown writing on plates near Jashon."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The exact place where Mormon writes, the records' appearance, and Ammaron's appearance."
+      "The appearance of Mormon and the records",
+      "Where Mormon made the record"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "taken the plates of Nephi, and did make a record",
+        "text": "And behold I had gone according to the word of Ammaron, and taken the plates of Nephi, and did make a record according to the words of Ammaron.",
         "refs": [
           "Mormon 2:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Ammaron is mentioned in narration, not described as present."
+      "The first-person narrator is Mormon. Ammaron is mentioned but is not described as present.",
+      "The verse recounts earlier actions; it does not place taking the plates and making the record at the same moment."
     ],
     "prohibited_inventions": [
-      "Do not show Ammaron physically present."
+      "Do not depict Ammaron as present.",
+      "Do not combine the taking of the plates and the making of the record into one simultaneous action.",
+      "Do not invent the records' hiding place or the appearance of any person or object."
     ],
     "importance": "normal"
   },

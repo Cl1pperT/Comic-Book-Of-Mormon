@@ -1,5 +1,5 @@
 {
-  "stamp": "4983d7ed2b3f39938a5f3b4a569f0c9719fc5dea5e437a6a41e367038aaa8258",
+  "stamp": "267593a69df05860394be823a325ad2483b42cba4a4fcfd82bc52c42eb5bd58d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -106,8 +106,10 @@
       "issues": []
     },
     "scene_026": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse reports Ammaron kept the record but does not describe a witnessed scene; showing him with it is a reasonable visual inference, not an explicitly described event."
+      ]
     },
     "scene_027": {
       "status": "PASS",

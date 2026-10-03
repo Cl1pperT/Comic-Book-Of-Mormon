@@ -1059,7 +1059,7 @@ def test_plates_are_engraved_metal_sheets_never_a_book(pipeline):
     for action in ("Ann takes the plates of brass.", "Ben keeps the records of his people.",
                    "Ann introduces her record.", "Ben makes plates of ore and engraves upon them."):
         positive, negative = prompt(action)
-        assert "The plates: a squared stack of stiff, flat sheets of warm gold-bronze metal" in positive, action
+        assert "The plates: a small squared stack of stiff, flat sheets of warm gold-bronze metal" in positive, action
         assert "modern book" in negative
     for action in ("John will bear record that he baptized the Lamb.", "Ann wears a breastplate.",
                    "Ben gives Ann a book to read.", "Ann beholds the book, a record of the Jews.",

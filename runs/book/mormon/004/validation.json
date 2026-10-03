@@ -1,5 +1,5 @@
 {
-  "stamp": "49e701140ce0695794b456f6d67b27d274c4246e1552129e6c52b42c025a51fc",
+  "stamp": "1d0fbb7b1f9eb51d6fcf64aa12b4ca3e9b8f22aa997f6fb0ab07cd9ad96b5daa",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -82,7 +82,7 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Mormon (old)” assigns an age not established by this verse; depict Mormon without specifying age."
+        "The narration is an exact quotation of Mormon 4:23 and is within the 65-word limit. The visual inference of Mormon retrieving records at the hill is supported; the specific appearance, quantity/form of the records, and hiding place remain unspecified as noted. Ammaron is correctly treated as absent, not a visible character."
       ]
     }
   }

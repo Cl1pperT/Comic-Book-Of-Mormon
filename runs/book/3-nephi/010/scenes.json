@@ -114,26 +114,27 @@
       "3 Nephi 10:6",
       "3 Nephi 10:7"
     ],
-    "summary": "An unidentified speaker addresses the house of Israel, saying that the speaker often would have gathered them but they would not, offering to gather those spared if they repent and return, and warning that otherwise their dwellings will become desolate until the covenant to their fathers is fulfilled.",
+    "summary": "Jesus Christ continues addressing the house of Israel. He says he often would have gathered them, but they would not; he offers to gather those he has spared if they repent and return, and warns that otherwise their dwellings will become desolate until the covenant to their fathers is fulfilled.",
     "characters": [
-      "Unidentified speaker"
+      "Jesus Christ",
+      "House of Israel"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says they often would have gathered the house of Israel, but the people would not.",
+        "text": "The speaker says he often would have gathered the people of the house of Israel, but they would not.",
         "refs": [
           "3 Nephi 10:5"
         ]
       },
       {
-        "text": "The speaker says they will gather those of the house of Israel whom they have spared if they repent and return with full purpose of heart.",
+        "text": "The speaker offers to gather those of the house of Israel whom he has spared if they repent and return to him with full purpose of heart.",
         "refs": [
           "3 Nephi 10:6"
         ]
       },
       {
-        "text": "The speaker warns that otherwise Israel's dwellings will become desolate until the covenant to their fathers is fulfilled.",
+        "text": "The speaker warns that otherwise their dwellings will become desolate until the covenant to their fathers is fulfilled.",
         "refs": [
           "3 Nephi 10:7"
         ]
@@ -141,39 +142,53 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance",
+      "The speaker's visible appearance",
       "The location and any visible audience"
     ],
     "spoken_dialogue": [
       {
-        "text": "yea, how oft would I have gathered you as a hen gathereth her chickens, and ye would not.",
+        "text": "And again, how oft would I have gathered you",
         "refs": [
           "3 Nephi 10:5"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Jesus Christ"
+      },
+      {
+        "text": "and ye would not.",
+        "refs": [
+          "3 Nephi 10:5"
+        ],
+        "speaker": "Jesus Christ"
+      },
+      {
+        "text": "O ye house of Israel whom I have spared, how oft will I gather you",
+        "refs": [
+          "3 Nephi 10:6"
+        ],
+        "speaker": "Jesus Christ"
       },
       {
         "text": "if ye will repent and return unto me with full purpose of heart.",
         "refs": [
           "3 Nephi 10:6"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Jesus Christ"
       },
       {
-        "text": "But if not, O house of Israel, the places of your dwellings shall become desolate until the time of the fulfilling of the covenant to your fathers.",
+        "text": "But if not, O house of Israel, the places of your dwellings shall become desolate",
         "refs": [
           "3 Nephi 10:7"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Jesus Christ"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The hen comparison is figurative; the desolation is a conditional future warning, not a narrated event."
+      "The hen comparison is figurative. Desolation is a conditional future warning, not an event narrated as occurring here."
     ],
     "prohibited_inventions": [
       "Do not depict a literal hen or desolation occurring now.",
-      "Do not assign the speaker an identity or visible appearance unsupported by these verses."
+      "Do not invent a visible appearance for Jesus Christ or a location for the speech."
     ],
     "importance": "normal"
   },
@@ -429,20 +444,26 @@
       "3 Nephi 10:16",
       "3 Nephi 10:17"
     ],
-    "summary": "The narrator names Zenos, Zenock, and Jacob as testifying about the people and a remnant of Joseph's seed, and refers to the brass plates brought from Jerusalem by Lehi.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Mormon recounts the testimonies of Zenos, Zenock, and Jacob concerning a remnant, identifies his people with the remnant of Joseph's seed, and asks whether these testimonies are written on the brass plates Lehi brought out of Jerusalem.",
+    "characters": [
+      "Mormon (narrator)"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Zenos testified and Zenock spoke concerning these things and the remnant of their seed.",
+        "text": "Zenos testified and Zenock spoke concerning these things, particularly concerning the remnant of their seed.",
         "refs": [
           "3 Nephi 10:16"
         ]
       },
       {
-        "text": "Jacob testified concerning a remnant of Joseph's seed; the narrator identifies the people as a remnant of Joseph's seed and asks whether these things are written on the brass plates Lehi brought from Jerusalem.",
+        "text": "Jacob testified concerning a remnant of Joseph's seed.",
+        "refs": [
+          "3 Nephi 10:17"
+        ]
+      },
+      {
+        "text": "Mormon asks whether his people are a remnant of Joseph's seed and whether the testimonies concerning them are written on the brass plates Lehi brought out of Jerusalem.",
         "refs": [
           "3 Nephi 10:17"
         ]
@@ -450,34 +471,51 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance of Zenos, Zenock, Jacob, Lehi, and the brass plates; their presence in the narrated moment."
+      "The narrator's appearance and surroundings.",
+      "The appearance of the named historical figures and the brass plates."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "Yea, the prophet Zenos did testify of these things, and also Zenock spake concerning these things, because they testified particularly concerning us, who are the remnant of their seed.",
+        "refs": [
+          "3 Nephi 10:16"
+        ]
+      },
+      {
         "text": "our father Jacob also testified concerning a remnant of the seed of Joseph.",
+        "refs": [
+          "3 Nephi 10:17"
+        ]
+      },
+      {
+        "text": "And behold, are not we a remnant of the seed of Joseph?",
         "refs": [
           "3 Nephi 10:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The named prophets and Lehi are mentioned in narration, not shown as present."
+      "Mormon is the first-person narrator; the named historical figures are mentioned, not shown as present.",
+      "The question about the brass plates remains a question in the source."
     ],
     "prohibited_inventions": [
-      "Do not depict the historical figures as physically present."
+      "Do not depict Zenos, Zenock, Jacob, or Lehi as physically present in the narrated moment.",
+      "Do not stage their past testimony or Lehi's journey as a present-tense event.",
+      "Do not invent spoken dialogue or a setting."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Narrative report of Christ’s manifestation",
+    "title": "Mormon’s closing report",
     "refs": [
       "3 Nephi 10:18",
       "3 Nephi 10:19"
     ],
-    "summary": "The narrator reports great favors and blessings for the spared people of Nephi and those who had been called Lamanites, referring to the ending of the thirty-fourth year. He reports that Christ manifested himself to them soon after his ascension, showing his body and ministering to them, and defers the account of that ministry.",
+    "summary": "Mormon announces that he will show how the spared people of Nephi and those formerly called Lamanites received great favors and blessings. He reports that Christ manifested himself to them soon after his ascension, showing his body and ministering to them. Mormon promises a later account of that ministry and ends his sayings for the time being.",
     "characters": [
+      "Mormon (narrator)",
       "Christ (reported only)",
       "the spared people of Nephi (reported only)",
       "those who had been called Lamanites and were spared (reported only)"
@@ -487,20 +525,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator refers to the ending of the thirty-fourth year and reports great favors and blessings for the spared people of Nephi and those who had been called Lamanites.",
+        "text": "In the temporal frame of the ending of the thirty and fourth year, Mormon announces that he will show that the spared people of Nephi and those who had been called Lamanites received great favors and blessings.",
         "refs": [
           "3 Nephi 10:18"
         ]
       },
       {
-        "text": "Christ manifested himself to them soon after his ascension into heaven, showing his body and ministering to them.",
+        "text": "Soon after Christ’s ascension into heaven, he manifested himself to them, showing his body and ministering to them.",
         "refs": [
           "3 Nephi 10:18",
           "3 Nephi 10:19"
         ]
       },
       {
-        "text": "The narrator promises an account of Christ’s ministry hereafter and ends his sayings for the time being.",
+        "text": "Mormon says an account of Christ’s ministry will be given hereafter and ends his sayings for the time being.",
         "refs": [
           "3 Nephi 10:19"
         ]
@@ -508,26 +546,32 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any nonrepresentational background or typography used to present this narrative report.",
-      "The location, people's number and arrangement, Christ’s physical features and clothing, and specific ministering actions are unspecified."
+      "Any nonrepresentational background or typography used to present Mormon’s report.",
+      "The location, number and arrangement of the people, Christ’s physical features and clothing, and specific ministering actions are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Showing his body unto them, and ministering unto them; and an account of his ministry shall be given hereafter. Therefore for this time I make an end of my sayings.",
+        "text": "Showing his body unto them, and ministering unto them; and an account of his ministry shall be given hereafter.",
+        "refs": [
+          "3 Nephi 10:19"
+        ]
+      },
+      {
+        "text": "Therefore for this time I make an end of my sayings.",
         "refs": [
           "3 Nephi 10:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a narrative report and transition to a deferred account, not an enacted manifestation scene.",
-      "The reported showing of Christ’s body does not authorize staging this summarized event as happening now.",
-      "The ascension is mentioned only as an earlier event."
+      "Mormon is the first-person narrator and the source of the narration quotations.",
+      "Christ’s manifestation and ministry remain reported events, not enacted scenes.",
+      "The ascension is mentioned as an earlier event; its occurrence is not staged here."
     ],
     "prohibited_inventions": [
       "Do not enact the reported manifestation or ministry, including as a flashback.",
-      "Do not depict the ascension or combine its timing with the manifestation.",
+      "Do not depict the ascension or combine separate times into one scene.",
       "Do not invent a visible narrator, setting, divine appearance, dialogue, teachings, healings, or reactions.",
       "Do not depict blessings poured upon heads as a literal visible substance."
     ],

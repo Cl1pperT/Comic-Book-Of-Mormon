@@ -1,5 +1,5 @@
 {
-  "stamp": "e9831368b56ef9419fc89b1ec0d99edbf0d3f28594b9f01a4fee8b41e43d2164",
+  "stamp": "ee45a2e9dababd30b8dc9cacada9a63186c45f4135b9c0ed69f897ef3485a5ac",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -48,7 +48,9 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is described as unnamed, but the preceding verse identifies Jesus as the one ministering to the disciples, and the following commands continue that sequence."
+        "The unnamed man is consistent with the preceding scene’s Jesus, but the scene’s verses alone do not identify him; conservatively keep him unnamed.",
+        "The description of the disciples praying is a reported event from verse 17, not a prayer scene; the prohibited-inventions note correctly rules out depicting the prayer as happening.",
+        "Narration consists of exact source excerpts, and no dialogue is invented."
       ]
     },
     "scene_012": {
@@ -68,7 +70,7 @@
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The praying speaker is described as unnamed, but the sequence identifies him as Jesus, who continues praying in these verses."
+        "Jesus and the unnamed people are established in the source, but their appearance and the setting are unspecified; portray them conservatively. The previous scene correctly precedes this one. The supplied narration and dialogue are exact quotations; the summary stays within the supplied events."
       ]
     },
     "scene_016": {

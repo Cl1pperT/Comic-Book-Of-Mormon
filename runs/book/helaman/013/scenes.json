@@ -212,60 +212,65 @@
       "Helaman 13:10",
       "Helaman 13:11"
     ],
-    "summary": "Samuel relays the Lord’s warning of withdrawn word and Spirit, future afflictions and destruction, and the promise of mercy for those who repent.",
+    "summary": "The Lord warns of consequences if the Nephites do not repent and promises to turn away his anger if they do.",
     "characters": [
-      "Samuel the Lamanite",
-      "People of Zarahemla"
+      "The Lord",
+      "People of the Nephites"
     ],
-    "locations": [
-      "City wall of Zarahemla"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says that because of the Nephites’ hard hearts, unless they repent he will take away his word and Spirit, cease to suffer them, and turn their brethren’s hearts against them.",
+        "text": "The Lord says that unless the Nephites repent, he will take away his word, withdraw his Spirit, suffer them no longer, and turn their brethren’s hearts against them.",
         "refs": [
           "Helaman 13:8"
         ]
       },
       {
-        "text": "The Lord says they will be smitten with sword, famine, and pestilence before four hundred years pass.",
+        "text": "The Lord says they will be smitten before four hundred years pass, with sword, famine, and pestilence.",
         "refs": [
           "Helaman 13:9"
         ]
       },
       {
-        "text": "The Lord warns of destruction witnessed by enemies of the fourth generation unless the people repent.",
+        "text": "The Lord warns that people of the fourth generation among their enemies will behold their destruction unless they repent.",
         "refs": [
           "Helaman 13:10"
         ]
       },
       {
-        "text": "The Lord says he will turn away his anger from those who repent and turn to him, and pronounces woe upon those who do not repent.",
+        "text": "The Lord says he will turn away his anger if they repent and return to him; he blesses those who repent and pronounces woe on those who do not.",
         "refs": [
           "Helaman 13:11"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Samuel continues speaking to the people from the wall."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any future afflictions, enemies, or generations are not present in this moment."
+      "No physical setting, visible speaker, or audience appearance is specified."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "blessed are they who will repent and turn unto me, but wo unto him that repenteth not.",
+        "refs": [
+          "Helaman 13:11"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
     "narration": [
       {
-        "text": "blessed are they who will repent and turn unto me",
+        "text": "yea, thus saith the Lord,",
         "refs": [
           "Helaman 13:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are warnings and conditional promises, not events occurring in the scene."
+      "The threatened consequences are conditional future warnings, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show future destruction, warfare, famine, pestilence, or a divine figure."
+      "Do not depict the Lord’s appearance or add a messenger or setting.",
+      "Do not show the warned-of warfare, famine, pestilence, or destruction as occurring now."
     ],
     "importance": "normal"
   },
@@ -513,44 +518,43 @@
       "Helaman 13:25",
       "Helaman 13:26"
     ],
-    "summary": "A speaker condemns the people's mistreatment of prophets, reports their claim that they would not have persecuted prophets in their fathers' days, and describes their hostile response to a prophet who testifies of their sins.",
+    "summary": "Samuel condemns the people's mistreatment of prophets, quotes their claim that they would not have persecuted prophets in their fathers' days, and describes how they would respond to a prophet who testified of their sins.",
     "characters": [
-      "Speaker whose identity is not supplied",
+      "Samuel the Lamanite",
       "The people addressed"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker condemns the people for casting out, mocking, stoning, slaying, and otherwise mistreating prophets, as people did in earlier times.",
+        "text": "Samuel condemns the people for casting out, mocking, stoning, slaying, and otherwise mistreating prophets.",
         "refs": [
           "Helaman 13:24"
         ]
       },
       {
-        "text": "The speaker reports the people's claim that they would not have slain, stoned, or cast out prophets in their fathers' days.",
+        "text": "Samuel quotes the people's claim that they would not have slain, stoned, or cast out prophets in their fathers' days.",
         "refs": [
           "Helaman 13:25"
         ]
       },
       {
-        "text": "The speaker declares the people worse than their predecessors and describes their anger, rejection, and attempts to destroy a prophet who testifies of their sins.",
+        "text": "Samuel says that if a prophet testified of their sins, the people would become angry, cast him out, and seek to destroy him.",
         "refs": [
           "Helaman 13:26"
         ]
       },
       {
-        "text": "The speaker says the people would call such a prophet false, a sinner, and of the devil because he testifies that their deeds are evil.",
+        "text": "Samuel says the people would call such a prophet false, a sinner, and of the devil.",
         "refs": [
           "Helaman 13:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The address may be staged with a speaker facing listeners, without depicting the reported persecution."
+      "Samuel may be shown addressing listeners; the events he describes need not be enacted."
     ],
     "unspecified_visual_details": [
-      "These verses do not identify the speaker or specify a location.",
-      "Appearance, clothing, gestures, listener count, and spatial arrangement are unspecified."
+      "The location, appearances, clothing, gestures, and number of listeners are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -558,22 +562,18 @@
         "refs": [
           "Helaman 13:25"
         ],
-        "speaker": "Speaker whose identity is not supplied"
+        "speaker": "Samuel the Lamanite"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The people's words are quoted by the speaker, not assigned to independently speaking listeners.",
-      "Reported persecution, ancestral conduct, and the conditional response to a prophet remain subjects of the address, not enacted scenes.",
-      "The audit's identification of Samuel and the wall of Zarahemla cannot be established from these supplied verses and is therefore not asserted.",
-      "The dialogue is one complete, contiguous supplied verse, totaling 41 words."
+      "Samuel quotes what the people say; the quoted claim is not an independently spoken line from a listener.",
+      "The prophet's arrival in verse 26 is conditional, not a narrated arrival."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Samuel or establish Zarahemla or its city wall from the audit alone.",
-      "Do not stage stoning, killing, expulsion, or ancestral events as occurring during this address.",
-      "Do not depict the conditional prophet's arrival as an actual event.",
+      "Do not stage past persecution or the conditional prophet's arrival as events occurring during this address.",
       "Do not depict the Lord or the devil as visibly present.",
-      "Do not invent listener dialogue or reactions."
+      "Do not invent listener dialogue, reactions, or a location."
     ],
     "importance": "normal"
   },
@@ -735,62 +735,63 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "A Future Lament",
+    "title": "A Foretold Lament",
     "refs": [
       "Helaman 13:33",
       "Helaman 13:34",
       "Helaman 13:35",
       "Helaman 13:36"
     ],
-    "summary": "The warning includes a singular lament about failing to repent and killing, stoning, and casting out prophets. The speaker then introduces what those addressed will say in a future day: they will regret not remembering the Lord and repenting, lament lost possessions, and describe the land as cursed.",
+    "summary": "An opening singular lament expresses regret over failing to repent and mistreating prophets. A warning then foretells the words of those addressed: they will regret not remembering the Lord and repenting, lament lost possessions, and describe the land as cursed.",
     "characters": [
-      "Speaker not named in the supplied verses"
+      "Unidentified warning speaker",
+      "People addressed in the warning"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The opening singular lament expresses regret over not repenting and over killing, stoning, and casting out prophets.",
+        "text": "The passage opens with a singular lament about not repenting and about killing, stoning, and casting out prophets.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The speaker explicitly introduces a future collective lament with 'Yea, in that day ye shall say:'.",
+        "text": "The warning speaker introduces words that those addressed will say in a future day.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The future lament expresses regret over not remembering the Lord when he gave them riches and declares that their riches are gone.",
+        "text": "The foretold lament regrets not remembering the Lord when he gave them riches and says their riches are gone.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The lament says a tool laid down is gone the next day and swords are taken when sought for battle; no battle is narrated.",
+        "text": "The foretold lament says a laid-down tool is gone the next day and swords are taken when sought for battle.",
         "refs": [
           "Helaman 13:34"
         ]
       },
       {
-        "text": "The lament attributes the loss of hidden treasures to the curse of the land.",
+        "text": "The foretold lament says hidden treasures have slipped away because of the curse of the land.",
         "refs": [
           "Helaman 13:35"
         ]
       },
       {
-        "text": "The lament regrets not repenting when the word of the Lord came, describes the land as cursed and all things as slippery, and says they cannot hold them.",
+        "text": "The foretold lament regrets not repenting when the word of the Lord came and says the land is cursed and all things have become slippery.",
         "refs": [
           "Helaman 13:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A restrained depiction of the speaker delivering the warning can keep the future lament within the present address rather than enact it."
+      "The warning can be presented as an address, with the people's lament clearly marked as foretold words rather than an event occurring in the scene."
     ],
     "unspecified_visual_details": [
-      "The speaker's name, appearance, clothing, posture, and surroundings are not established by these supplied verses.",
-      "The appearance and arrangement of those addressed are unspecified."
+      "The warning speaker's identity, appearance, clothing, posture, and surroundings are not established by the supplied verses.",
+      "The appearance and arrangement of the people addressed are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -798,36 +799,34 @@
         "refs": [
           "Helaman 13:33"
         ],
-        "speaker": "Speaker delivering the warning"
+        "speaker": "Unidentified warning speaker"
       },
       {
         "text": "O that we had remembered the Lord our God in the day that he gave us our riches,",
         "refs": [
           "Helaman 13:33"
         ],
-        "speaker": "Same speaker, voicing the foretold collective lament"
+        "speaker": "People addressed in the warning (foretold words)"
       },
       {
         "text": "O that we had repented in the day that the word of the Lord came unto us;",
         "refs": [
           "Helaman 13:36"
         ],
-        "speaker": "Same speaker, voicing the foretold collective lament"
+        "speaker": "People addressed in the warning (foretold words)"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Distinguish the opening singular lament from the explicitly introduced collective future lament; do not treat the opening words as an established autobiographical confession by the speaker.",
-      "The dialogue excerpts are selections, not the complete lament.",
-      "The future lament remains quoted within the warning, not a separate present conversation.",
-      "The audit identifies Samuel the Lamanite through surrounding context, but that context is not supplied as authoritative verse text here.",
-      "The curse and slippery possessions do not establish a visible supernatural manifestation."
+      "The opening singular lament is distinct from the explicitly introduced collective future lament; it is not established as the warning speaker's autobiographical confession.",
+      "The supplied verses do not name the warning speaker. The collective lament is attributed to the people addressed, as foretold by that speaker.",
+      "The curse and slippery possessions do not establish a visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not stage the future losses, the treatment of prophets, or a battle as present action.",
-      "Do not depict objects magically disappearing or a visible curse.",
-      "Do not invent a divine appearance, separate future speakers, or additional dialogue.",
-      "Do not establish the speaker's identity from material outside the supplied verses."
+      "Do not identify the warning speaker using material outside the supplied verses.",
+      "Do not stage the foretold losses, the treatment of prophets, or a battle as present action.",
+      "Do not depict objects magically disappearing, a visible curse, or a divine appearance.",
+      "Do not invent additional dialogue or individual identities for the people."
     ],
     "importance": "normal"
   },

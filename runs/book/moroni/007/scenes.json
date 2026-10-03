@@ -1,11 +1,11 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Mormon Teaches in the Synagogue",
+    "title": "Moroni Introduces Mormon’s Teaching",
     "refs": [
       "Moroni 7:1"
     ],
-    "summary": "Mormon speaks to the people in the synagogue they built as a place of worship.",
+    "summary": "Moroni writes some of his father Mormon’s words concerning faith, hope, and charity. Mormon taught the people in the synagogue they had built for worship.",
     "characters": [
       "Mormon",
       "the people"
@@ -15,39 +15,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "Mormon taught the people in a synagogue they had built for worship.",
+        "text": "Moroni writes a few of the words of his father Mormon concerning faith, hope, and charity.",
         "refs": [
           "Moroni 7:1"
         ]
       },
       {
-        "text": "Moroni writes words of his father Mormon concerning faith, hope, and charity.",
+        "text": "Mormon taught the people in the synagogue they had built as a place of worship.",
         "refs": [
           "Moroni 7:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon is visible addressing people gathered in the synagogue."
+      "Mormon addresses people gathered in the synagogue."
     ],
     "unspecified_visual_details": [
-      "The synagogue's architecture and furnishings.",
-      "The people's appearance and number."
+      "The synagogue’s architecture and furnishings.",
+      "The people’s appearance and number."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "concerning faith, hope, and charity",
+        "text": "And now I, Moroni, write a few of the words of my father Mormon, which he spake concerning faith, hope, and charity;",
         "refs": [
           "Moroni 7:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse frames the following teaching as Mormon's words, recorded by Moroni."
+      "Moroni narrates this introduction; the verse reports Mormon’s teaching but does not quote his speech."
     ],
     "prohibited_inventions": [
-      "Do not depict Moroni as present in the synagogue; his writing is a framing statement."
+      "Do not depict Moroni as present when Mormon teaches.",
+      "Do not invent words for Mormon’s address."
     ],
     "importance": "normal"
   },

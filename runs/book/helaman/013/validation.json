@@ -1,5 +1,5 @@
 {
-  "stamp": "e7e731a36d3595385d2c11cdc725c6143c8c7612f5f8a503b66e46d42cb745f6",
+  "stamp": "86d3b616e15ccfa0deb08556d390431fdb8be024c8aa018735cc09c470331316",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,8 +20,11 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source frames verses 8–11 as the Lord’s words spoken through Samuel; it does not establish the Lord as a physically present speaker. Keep the Lord unseen and avoid implying direct visual speech.",
+        "The previous scene places Samuel on Zarahemla’s wall addressing the people, and the source continues his prophecy without a location change. The submitted scene leaves location unspecified; continuity supports retaining the wall and audience, but this scene’s visual staging is not otherwise defined."
+      ]
     },
     "scene_006": {
       "status": "PASS",
@@ -42,7 +45,7 @@
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The doctrinal_or_story_notes field says the dialogue totals 41 words, but the quoted verse totals 37 words. It remains under the 65-word limit."
+        "Samuel's continued address to listeners is a reasonable visual inference, not an explicit description of their presence or appearance; avoid depicting the conditional prophet or any past persecution as present action."
       ]
     },
     "scene_011": {
@@ -58,8 +61,11 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's claim that the opening lament expresses regret over mistreating prophets is textually grounded, but its speaker is not identified; preserve the distinction between this singular lament and the future collective lament.",
+        "The warning speaker is unnamed in these verses. The supplied excerpt does not establish the scene's visual setting or the appearance of the audience. The dialogue excerpts are verbatim and the scene does not stage the foretold losses as present events."
+      ]
     },
     "scene_015": {
       "status": "PASS",

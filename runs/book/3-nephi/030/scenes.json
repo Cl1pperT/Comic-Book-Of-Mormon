@@ -1,53 +1,55 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Command to Write",
+    "title": "Mormon Addresses the Gentiles",
     "refs": [
       "3 Nephi 30:1"
     ],
-    "summary": "The narrator says Jesus Christ commanded him to write words concerning the Gentiles.",
+    "summary": "Mormon addresses the Gentiles and says Jesus Christ commanded him to speak concerning them and to write.",
     "characters": [
-      "Narrator"
+      "Mormon"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The narrator says Jesus Christ commanded him to write concerning the Gentiles.",
+        "text": "Mormon addresses the Gentiles.",
+        "refs": [
+          "3 Nephi 30:1"
+        ]
+      },
+      {
+        "text": "Mormon says Jesus Christ commanded him to speak concerning the Gentiles and to write.",
         "refs": [
           "3 Nephi 30:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The narrator may be shown writing or preparing to write."
+      "Mormon may be shown preparing to write."
     ],
     "unspecified_visual_details": [
-      "The narrator's identity, appearance, and setting are not specified.",
-      "No visible appearance of Jesus Christ is described."
+      "Mormon's appearance, surroundings, and writing materials are not specified.",
+      "No appearance of Jesus Christ is described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Hearken, O ye Gentiles",
-        "refs": [
-          "3 Nephi 30:1"
-        ]
-      },
-      {
-        "text": "he commandeth me that I should write",
+        "text": "Hearken, O ye Gentiles, and hear the words of Jesus Christ, the Son of the living God, which he hath commanded me that I should speak concerning you, for, behold he commandeth me that I should write, saying:",
         "refs": [
           "3 Nephi 30:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Jesus Christ is identified as the Son of the living God."
+      "Jesus Christ is identified as the Son of the living God.",
+      "The first-person narrator is Mormon."
     ],
     "prohibited_inventions": [
-      "Do not depict Jesus Christ visibly; the verse does not describe his appearance.",
-      "Do not invent the narrator's identity or specific writing materials."
+      "Do not depict Jesus Christ appearing in this scene.",
+      "Do not invent specific writing materials or a setting.",
+      "Do not add the words that follow “saying:”."
     ],
     "importance": "normal"
   },

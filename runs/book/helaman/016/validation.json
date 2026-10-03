@@ -1,5 +1,5 @@
 {
-  "stamp": "c773fbc26676cdb52ea2ab6123c39c397e254bf631fc0829834b4965e945a59c",
+  "stamp": "93d7bb8897dff3250330911b3877a8c5beb1ac3eeaf39ceeb92cc9e5f2eac587",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -74,8 +74,12 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse identifies the speakers only as people reasoning and contending; the label “People disputing the prophecies” is a reasonable description, not a source-given name.",
+        "The speakers’ claim continues beyond the quoted dialogue: the verse also says the alleged mystery would keep them servants and ignorant if they yielded. Summary captures the gist, but dialogue omits those exact words.",
+        "No new scene or chronology is introduced relative to the preceding discussion; the uncertainty is limited to the speakers’ identities and setting."
+      ]
     },
     "scene_019": {
       "status": "PASS",

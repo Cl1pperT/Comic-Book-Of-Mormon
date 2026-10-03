@@ -1,5 +1,5 @@
 {
-  "stamp": "521fbab2a95509ad8f1463c36fd8b11b73c8c335d35edfe31cdeb0fc20d8fd29",
+  "stamp": "3b8f1e771179183b5fb62b12b677b2d8e4c202b2db57f4691c44adacda766452",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -66,8 +66,10 @@
       ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The cited narration is exact, and the event order follows the preceding scene. The visual inference of a map is permissible, but the present-tense map graphic is a design choice, not described by the verses. The scene does not specify where or how the kingdom-building or prosperity is visually shown."
+      ]
     },
     "scene_016": {
       "status": "PASS",

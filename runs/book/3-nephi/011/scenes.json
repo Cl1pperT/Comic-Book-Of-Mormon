@@ -274,14 +274,12 @@
       "3 Nephi 11:10",
       "3 Nephi 11:11"
     ],
-    "summary": "The Man stretches out his hand and tells the people that he is Jesus Christ, testified of by the prophets, and speaks of his mission and suffering.",
+    "summary": "Jesus stretches forth his hand and speaks to the people. He identifies himself as Jesus Christ and speaks of being the light and life of the world, glorifying the Father, and suffering the Father's will.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "the people of Nephi"
+      "Jesus Christ",
+      "the people"
     ],
-    "locations": [
-      "the temple in the land Bountiful"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Jesus stretches forth his hand and speaks to the people.",
@@ -290,24 +288,25 @@
         ]
       },
       {
-        "text": "He identifies himself as Jesus Christ, whom the prophets testified would come into the world.",
+        "text": "Jesus identifies himself as Jesus Christ, whom the prophets testified would come into the world.",
         "refs": [
           "3 Nephi 11:10"
         ]
       },
       {
-        "text": "He calls himself the light and life of the world and says he drank the bitter cup given by the Father, glorified the Father, and suffered the Father's will.",
+        "text": "Jesus calls himself the light and the life of the world and says he has drunk the bitter cup given by the Father, glorified the Father, and suffered the Father's will.",
         "refs": [
           "3 Nephi 11:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jesus speaks while the multitude listens."
+      "The people are present as Jesus speaks to them."
     ],
     "unspecified_visual_details": [
-      "Jesus's gesture beyond stretching forth his hand",
-      "Any visual depiction of the bitter cup, suffering, or sins"
+      "Jesus's clothing and physical appearance",
+      "The people's appearances",
+      "The surrounding setting"
     ],
     "spoken_dialogue": [
       {
@@ -316,27 +315,29 @@
           "3 Nephi 11:10"
         ],
         "speaker": "Jesus Christ"
+      },
+      {
+        "text": "And behold, I am the light and the life of the world;",
+        "refs": [
+          "3 Nephi 11:11"
+        ],
+        "speaker": "Jesus Christ"
       }
     ],
     "narration": [
       {
-        "text": "he stretched forth his hand and spake unto the people",
+        "text": "he stretched forth his hand and spake unto the people, saying:",
         "refs": [
           "3 Nephi 11:9"
-        ]
-      },
-      {
-        "text": "I am the light and the life of the world",
-        "refs": [
-          "3 Nephi 11:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 11 is Jesus's teaching, not a narrated visible event."
+      "Verse 11 is Jesus Christ's speech, not Mormon's narration or a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict the bitter cup or suffering as a separate present-tense event."
+      "Do not depict the bitter cup, sins, or suffering as separate present-tense events.",
+      "Do not present Jesus Christ's speech as a narration caption."
     ],
     "importance": "normal"
   },
@@ -672,71 +673,70 @@
       "3 Nephi 11:25",
       "3 Nephi 11:26"
     ],
-    "summary": "Jesus instructs those given authority how to baptize: stand in the water, speak the prescribed words, immerse the person, and come forth from the water.",
+    "summary": "Jesus instructs those he addresses how to baptize, gives them the words to say, and directs them to immerse the person and come forth from the water. No baptism is narrated.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "Nephi (disciple, son of Nephi)",
-      "the people of Nephi"
+      "Jesus Christ",
+      "those addressed by Jesus"
     ],
-    "locations": [
-      "the temple in the land Bountiful"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Jesus teaches that repentant people who desire baptism in his name are to be baptized by going down and standing in the water.",
+        "text": "Jesus says that those who repent and desire baptism in his name are to be baptized by someone standing in the water.",
         "refs": [
           "3 Nephi 11:23"
         ]
       },
       {
-        "text": "Jesus gives the words to say when baptizing, including the authority given by Jesus Christ and baptism in the name of the Father, Son, and Holy Ghost.",
+        "text": "Jesus prescribes words for the baptizer to say, calling the person by name.",
         "refs": [
           "3 Nephi 11:24",
           "3 Nephi 11:25"
         ]
       },
       {
-        "text": "Jesus commands immersion in the water and coming forth again.",
+        "text": "Jesus directs that the person be immersed in the water and brought forth again.",
         "refs": [
           "3 Nephi 11:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jesus gives instructions to those he has authorized while the people listen."
+      "Jesus addresses listeners while giving instructions."
     ],
     "unspecified_visual_details": [
-      "The water's location and appearance",
-      "A person being baptized; the verses here give instructions rather than narrate an actual baptism"
+      "The listeners’ appearances",
+      "The location and appearance of the water"
     ],
     "spoken_dialogue": [
+      {
+        "text": "And now behold, these are the words which ye shall say, calling them by name, saying:",
+        "refs": [
+          "3 Nephi 11:24"
+        ],
+        "speaker": "Jesus Christ"
+      },
       {
         "text": "Having authority given me of Jesus Christ, I baptize you in the name of the Father, and of the Son, and of the Holy Ghost. Amen.",
         "refs": [
           "3 Nephi 11:25"
         ],
-        "speaker": "Jesus Christ (quoting the words the baptizer shall say)"
-      }
-    ],
-    "narration": [
-      {
-        "text": "ye shall go down and stand in the water",
-        "refs": [
-          "3 Nephi 11:23"
-        ]
+        "speaker": "Baptizer (prescribed words quoted by Jesus; not an enacted baptism)"
       },
       {
-        "text": "then shall ye immerse them in the water",
+        "text": "And then shall ye immerse them in the water, and come forth again out of the water.",
         "refs": [
           "3 Nephi 11:26"
-        ]
+        ],
+        "speaker": "Jesus Christ"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is instruction about a future baptismal practice, not an enacted baptism."
+      "These verses prescribe a baptismal practice; they do not narrate a baptism taking place."
     ],
     "prohibited_inventions": [
-      "Do not stage a baptism as occurring in the present scene."
+      "Do not depict an actual baptism in this scene.",
+      "Do not invent a water setting or identify an unnamed baptizer or baptismal candidate."
     ],
     "importance": "normal"
   },

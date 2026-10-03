@@ -1,9 +1,11 @@
 {
-  "stamp": "7957c09c22ed877cf8852714a8649074913305c01bfdb6c29c05dbc590b85168",
+  "stamp": "48ec0df6dbd1a6d4a3c54efee7fb5eaf6dc5af51ad267961b3d8685c60eedbb2",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and explicit facts are supported. The proposed visual inference about a change in control is plausible but not directly described; the manner and moment of the overthrow remain unspecified. Moroni is the narrator and is not described as physically present. No chronology conflict with the previous scene (none provided)."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -72,8 +74,11 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Heth and Heth’s father are not named in the supplied verses, but their identities are supported by Ether 9:25–27; their appearances and the killing’s setting are unspecified.",
+        "The visual inference of showing the sword action is supported, but the text does not specify when or where it occurs. Keep the action non-graphic and avoid implying additional circumstances."
+      ]
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",

@@ -6,16 +6,17 @@
       "2 Nephi 15:1",
       "2 Nephi 15:2"
     ],
-    "summary": "The narrator announces a song concerning his beloved’s vineyard on a fruitful hill. The song recounts fencing, stone removal, planting the choicest vine, and construction of a tower and wine-press. Expected grapes give way to wild grapes.",
+    "summary": "Nephi says he will sing a song concerning his well-beloved’s vineyard. The song recounts its preparation on a fruitful hill and its production of wild grapes instead of the expected grapes.",
     "characters": [
-      "Nephi (narrator; identified by the task, not explicitly named in these verses)"
+      "Nephi (narrator)",
+      "The well-beloved (unnamed owner described in the song, not physically present)"
     ],
     "locations": [
-      "The song’s vineyard on a very fruitful hill; the narrator’s location is unspecified"
+      "A vineyard on a very fruitful hill (the song’s described setting)"
     ],
     "explicit_facts": [
       {
-        "text": "The first-person narrator announces that he will sing a song concerning his beloved’s vineyard.",
+        "text": "The narrator says he will sing to his well-beloved a song concerning the beloved’s vineyard.",
         "refs": [
           "2 Nephi 15:1"
         ]
@@ -27,36 +28,30 @@
         ]
       },
       {
-        "text": "The song recounts that he fenced the vineyard, removed its stones, planted the choicest vine, built a tower in its midst, and made a wine-press.",
+        "text": "The song recounts that he fenced the vineyard, removed its stones, planted the choicest vine, built a tower in its midst, and made a wine-press there.",
         "refs": [
           "2 Nephi 15:2"
         ]
       },
       {
-        "text": "He expected grapes, but the vineyard brought forth wild grapes.",
+        "text": "The song reports that he expected grapes, but the vineyard produced wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A clearly illustrative, static image of the song’s vineyard may include the fence, vine, tower, wine-press, and wild grapes, without reenacting its preparation or implying a witnessed event."
+      "A static illustration clearly framed as imagery from the song could show the described vineyard, fence, vine, tower, and wine-press without reenacting their construction or depicting a witnessed event."
     ],
     "unspecified_visual_details": [
-      "The narrator’s physical appearance and setting.",
-      "The well-beloved’s identity and appearance.",
-      "The vineyard’s layout, architectural forms, colors, and the appearance of its wild grapes."
+      "The narrator’s appearance, location, and audience are not described.",
+      "The vineyard’s layout, colors, construction materials, and dimensions are unspecified.",
+      "The appearance distinguishing wild grapes from expected grapes is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And then will I sing to my well-beloved a song of my beloved, touching his vineyard.",
-        "refs": [
-          "2 Nephi 15:1"
-        ]
-      },
-      {
-        "text": "My well-beloved hath a vineyard in a very fruitful hill.",
+        "text": "And then will I sing to my well-beloved a song of my beloved, touching his vineyard. My well-beloved hath a vineyard in a very fruitful hill.",
         "refs": [
           "2 Nephi 15:1"
         ]
@@ -69,15 +64,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Attribute the narration to Nephi according to the task’s explicit identification; these two verses do not independently name the first-person narrator.",
-      "The vineyard belongs to the song’s content, not a separately narrated witnessed scene.",
-      "These verses do not explain what the vineyard or well-beloved represents."
+      "Nephi is the narrator according to the user’s explicit identification of the chapter’s first-person voice; these two verses do not independently name him.",
+      "The preparation and yield remain reported content within the song, not newly staged present events.",
+      "These verses do not explain what the vineyard represents."
     ],
     "prohibited_inventions": [
-      "Do not invent a physical appearance or divine identity for the well-beloved.",
-      "Do not stage the vineyard’s preparation and fruit production as simultaneous present action.",
-      "Do not invent a singing audience, narrator location, or visible divine appearance.",
-      "Do not claim that these verses explicitly name Nephi."
+      "Do not assign the well-beloved a named or divine identity or depict an invented appearance.",
+      "Do not reenact the reported preparation or fruit production as present events or compress their separate times.",
+      "Do not invent an audience, performance setting, or additional speech for Nephi.",
+      "Do not turn the song’s imagery into a literal supernatural event."
     ],
     "importance": "normal"
   },
@@ -259,39 +254,49 @@
       "2 Nephi 15:9",
       "2 Nephi 15:10"
     ],
-    "summary": "A woe is pronounced against those who join house to house for solitary possession; desolation of houses and cities and poor agricultural yield are declared.",
-    "characters": [],
+    "summary": "A woe is pronounced against those who join house to house until no place remains. Many houses are foretold to be desolate, great and fair cities to be without inhabitants, and vineyard and seed yields to be small.",
+    "characters": [
+      "Lord of Hosts"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "A woe is pronounced against those who join house to house until they are alone in the midst of the earth.",
+        "text": "A woe is pronounced against those who join house to house until there can be no place.",
         "refs": [
           "2 Nephi 15:8"
         ]
       },
       {
-        "text": "The Lord of Hosts says many houses shall be desolate and great, fair cities without inhabitants.",
+        "text": "The Lord of Hosts says many houses shall be desolate and great and fair cities without inhabitants.",
         "refs": [
           "2 Nephi 15:9"
         ]
       },
       {
-        "text": "Ten acres of vineyard shall yield one bath, and a homer of seed an ephah.",
+        "text": "Ten acres of vineyard shall yield one bath, and the seed of a homer shall yield an ephah.",
         "refs": [
           "2 Nephi 15:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A visual contrast between joined houses, empty dwellings, and scant vineyard yield."
+      "Joined houses could illustrate the warning without depicting the foretold desolation as an event that has already happened."
     ],
     "unspecified_visual_details": [
-      "Which houses or cities are meant, and their architecture.",
-      "Whether people are visible."
+      "The location and appearance of the houses are not specified.",
+      "No visible appearance is given for the Lord of Hosts."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "of a truth many houses shall be desolate, and great and fair cities without inhabitant.",
+        "refs": [
+          "2 Nephi 15:9"
+        ],
+        "speaker": "Lord of Hosts"
+      }
+    ],
     "narration": [
       {
         "text": "Wo unto them that join house to house,",
@@ -300,23 +305,19 @@
         ]
       },
       {
-        "text": "many houses shall be desolate,",
-        "refs": [
-          "2 Nephi 15:9"
-        ]
-      },
-      {
-        "text": "ten acres of vineyard shall yield one bath,",
+        "text": "Yea, ten acres of vineyard shall yield one bath, and the seed of a homer shall yield an ephah.",
         "refs": [
           "2 Nephi 15:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The desolation is spoken of as a future consequence."
+      "The desolation and yields are foretold, not narrated as events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a named city or identify particular owners."
+      "Do not depict the foretold desolation or poor harvest as already occurring.",
+      "Do not depict the Lord of Hosts with an invented appearance.",
+      "Do not name a city or identify particular owners."
     ],
     "importance": "normal"
   },

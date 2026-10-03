@@ -1,52 +1,74 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Omer’s kingdom is overthrown",
+    "title": "Moroni records the overthrow of Omer’s kingdom",
     "refs": [
       "Ether 9:1",
       "Ether 9:2"
     ],
-    "summary": "Akish and his friends overthrow Omer’s kingdom. The Lord is merciful to Omer and the children who did not seek his destruction.",
+    "summary": "Moroni proceeds with his record. Because of the secret combinations of Akish and his friends, they overthrew Omer’s kingdom. The Lord was merciful to Omer and to his sons and daughters who did not seek his destruction.",
     "characters": [
-      "Omer",
+      "Moroni",
       "Akish",
-      "Akish’s friends"
+      "Akish’s friends",
+      "Omer",
+      "Omer’s sons",
+      "Omer’s daughters",
+      "The Lord"
     ],
     "locations": [
       "Omer’s kingdom"
     ],
     "explicit_facts": [
       {
-        "text": "Akish and his friends overthrew Omer’s kingdom.",
+        "text": "Moroni proceeds with his record.",
         "refs": [
           "Ether 9:1"
         ]
       },
       {
-        "text": "The Lord was merciful to Omer and his sons and daughters who did not seek his destruction.",
+        "text": "Because of their secret combinations, Akish and his friends overthrew Omer’s kingdom.",
+        "refs": [
+          "Ether 9:1"
+        ]
+      },
+      {
+        "text": "The Lord was merciful to Omer and to his sons and daughters who did not seek his destruction.",
         "refs": [
           "Ether 9:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The overthrow may be shown through Akish’s group taking control of the kingdom."
+      "The overthrow may be represented as a change in control of Omer’s kingdom, without depicting an invented method or moment."
     ],
     "unspecified_visual_details": [
-      "The manner of the overthrow and the Lord’s visible appearance are not described."
+      "The manner and setting of the overthrow are not described.",
+      "No visible appearance of the Lord is described.",
+      "The appearance of Moroni, Akish, Omer, and their families is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did overthrow the kingdom of Omer.",
+        "text": "And now I, Moroni, proceed with my record. Therefore, behold, it came to pass that because of the secret combinations of Akish and his friends, behold, they did overthrow the kingdom of Omer.",
         "refs": [
           "Ether 9:1"
         ]
+      },
+      {
+        "text": "Nevertheless, the Lord was merciful unto Omer, and also to his sons and to his daughters who did not seek his destruction.",
+        "refs": [
+          "Ether 9:2"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni narrates these events; the verses do not place him physically at the overthrow."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described."
+      "Do not invent how the overthrow occurred or depict it as a newly narrated present-tense event.",
+      "Do not depict the Lord visibly or invent a visible act of mercy.",
+      "Do not invent speech, motives, names, or biographies for Akish’s friends or Omer’s children."
     ],
     "importance": "normal"
   },
@@ -219,15 +241,15 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Akish’s son dies in prison",
+    "title": "Akish imprisons his son",
     "refs": [
       "Ether 9:7",
       "Ether 9:8"
     ],
-    "summary": "Akish, jealous of his son, imprisons him and gives him little or no food until he dies. The dead son’s brother Nimrah becomes angry with their father.",
+    "summary": "Akish becomes jealous of his son, imprisons him, and keeps him on little or no food until he dies. After his brother’s death, Nimrah is angry with their father.",
     "characters": [
       "Akish",
-      "Akish’s imprisoned son",
+      "Akish’s son",
       "Nimrah"
     ],
     "locations": [
@@ -235,20 +257,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "Akish imprisoned his son and kept him on little or no food until he died.",
+        "text": "Akish became jealous of his son, imprisoned him, and kept him on little or no food until he died.",
         "refs": [
           "Ether 9:7"
         ]
       },
       {
-        "text": "Nimrah was angry with his father because of what he had done to Nimrah’s brother.",
+        "text": "Nimrah was the dead son’s brother and was angry with their father because of what he had done.",
         "refs": [
           "Ether 9:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The imprisonment may be shown with Akish’s son inside a prison."
+      "Akish’s son may be shown inside a prison during his imprisonment."
     ],
     "unspecified_visual_details": [
       "The prison’s appearance and the son’s physical condition are unspecified."
@@ -256,17 +278,24 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he shut him up in prison",
+        "text": "Akish began to be jealous of his son, therefore he shut him up in prison, and kept him upon little or no food until he had suffered death.",
         "refs": [
           "Ether 9:7"
+        ]
+      },
+      {
+        "text": "And now the brother of him that suffered death, (and his name was Nimrah) was angry with his father because of that which his father had done unto his brother.",
+        "refs": [
+          "Ether 9:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nimrah’s anger is reported after his brother’s death; do not imply he is present in the prison moment."
+      "Nimrah’s anger is reported after his brother’s death; do not place Nimrah in the prison moment."
     ],
     "prohibited_inventions": [
-      "Do not show the death or starvation in graphic detail."
+      "Do not show Nimrah witnessing the imprisonment.",
+      "Do not depict the death graphically or invent dialogue."
     ],
     "importance": "normal"
   },
@@ -781,10 +810,10 @@
       "Ether 9:26",
       "Ether 9:27"
     ],
-    "summary": "As the people spread across the land and wickedness grows, Heth embraces old secret plans to destroy his father. He dethrones and kills his father with his own sword, then reigns in his stead.",
+    "summary": "The people spread across the land, and great wickedness begins again. Heth embraces old secret plans to destroy his father. He kills his father with his own sword, dethrones him, and reigns in his stead.",
     "characters": [
       "Heth",
-      "Com",
+      "Heth's father",
       "People of the land"
     ],
     "locations": [
@@ -792,7 +821,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The people spread over the land, wickedness increased, and Heth embraced secret plans to destroy his father.",
+        "text": "The people had spread again over all the face of the land, and exceedingly great wickedness began again.",
+        "refs": [
+          "Ether 9:26"
+        ]
+      },
+      {
+        "text": "Heth began to embrace old secret plans to destroy his father.",
         "refs": [
           "Ether 9:26"
         ]
@@ -805,15 +840,28 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The killing may be depicted as non-graphic action with the sword."
+      "Heth's use of the sword may be shown as non-graphic action."
     ],
     "unspecified_visual_details": [
-      "The precise setting and circumstances of the killing are not described."
+      "The precise setting and circumstances of the killing are not described.",
+      "The appearances of Heth and his father are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did reign in his stead.",
+        "text": "And the people had spread again over all the face of the land,",
+        "refs": [
+          "Ether 9:26"
+        ]
+      },
+      {
+        "text": "Heth began to embrace the secret plans again of old, to destroy his father.",
+        "refs": [
+          "Ether 9:26"
+        ]
+      },
+      {
+        "text": "And it came to pass that he did dethrone his father, for he slew him with his own sword; and he did reign in his stead.",
         "refs": [
           "Ether 9:27"
         ]
@@ -821,6 +869,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
+      "Do not invent a specific location, accomplices, or circumstances for the killing.",
       "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"

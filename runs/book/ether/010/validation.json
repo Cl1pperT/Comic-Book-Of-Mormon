@@ -1,13 +1,17 @@
 {
-  "stamp": "5f91da8258ee7eda59d5220a23aeec6e1b72633f49186c7832bf363dc4f6412a",
+  "stamp": "7dae5d0479e450c8e771b45315f5518e61cfc686778a37c84277d68a7e374417",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration accurately quotes Ether 10:3. The verse says Shez was “smitten by the hand of a robber,” but does not specify that a visible strike occurred; depicting the robber actively striking Shez is a visual inference, not an explicit event detail.",
+        "“A robber” is supported by the verse, but the attacker’s appearance and the setting are unspecified.",
+        "The preceding scene covers Ether 10:1–2 and does not alter the chronology of this scene."
+      ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
@@ -68,8 +72,12 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary, facts, and narration are supported; the narrative quotes are exact, contiguous excerpts and together remain under 65 words. The generations are described sequentially, not as contemporaries.",
+        "The scene spans separate times: Lib's begetting, Hearthom's reign and captivity, and later descendants' captivity. Visual staging should not combine them into one moment.",
+        "“Hearthom may be shown alone in captivity” is a reasonable but unconfirmed visual inference; the text does not specify his captors or setting. No conflict with the preceding scene's chronology is apparent. "
+      ]
     },
     "scene_018": {
       "status": "PASS",

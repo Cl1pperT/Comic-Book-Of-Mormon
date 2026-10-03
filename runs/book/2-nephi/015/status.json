@@ -4,21 +4,22 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 13,
-    "PASS WITH WARNINGS": 2,
+    "PASS": 8,
+    "PASS WITH WARNINGS": 7,
     "REJECT": 1
   },
   "rejected": {
     "scene_001": [
-      "The supplied verses do not identify the first-person narrator as Nephi. The characters field and doctrinal note incorrectly claim that the task explicitly identifies him."
+      "The supplied verses do not identify the first-person speaker as Nephi or show Nephi present. The summary, character list, and story note therefore attribute the song to an unsupported speaker.",
+      "The story note incorrectly claims that the user explicitly identified the first-person voice as Nephi."
     ]
   },
-  "calls": 26,
+  "calls": 31,
   "tokens": {
-    "input_tokens": 76093,
-    "cached_input_tokens": 24960,
+    "input_tokens": 110040,
+    "cached_input_tokens": 43008,
     "cache_write_input_tokens": 0,
-    "output_tokens": 8184,
-    "reasoning_output_tokens": 1004
+    "output_tokens": 13672,
+    "reasoning_output_tokens": 3786
   }
 }

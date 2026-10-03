@@ -203,11 +203,14 @@ OBJECTS = [
     # "breastplate" don't. "Book" is left alone: Lehi's book (1 Nephi 1) and the Bible (1 Nephi 13) are books.
     (re.compile(r"\bplates\b|\bengravings?\b|(?<!bear )(?<!bore )(?<!bears )\brecords? (?:of|engraved|engraven|kept)\b|"
                 r"\b(?:the|his|her|their|our|my|these|those|this|its|sacred|father[’']?s)\s+records?\b(?! that)", re.I),
-     "The plates: a squared stack of stiff, flat sheets of warm gold-bronze metal, each the size of a large book "
-     "page, held together along one edge by three large metal rings, each sheet engraved with rows of small "
-     "characters; any writing on them is done with a pointed metal stylus",
+     # Sized against the people holding them: some drawings made them table-sized slabs.
+     "The plates: a small squared stack of stiff, flat sheets of warm gold-bronze metal, each sheet about the size "
+     "of a man's two hands side by side, the whole stack a few inches thick and small enough to carry under one "
+     "arm, held together along one edge by three metal rings, each sheet engraved with rows of small characters; "
+     "any writing on them is done with a pointed metal stylus",
      ["modern book", "open book", "two-page spread", "curved or bending pages", "hardcover book", "leather-bound book",
-      "printed book", "paper pages", "codex", "spiral binding", "quill", "ink pen", "ink"],
+      "printed book", "paper pages", "codex", "spiral binding", "quill", "ink pen", "ink", "giant plates",
+      "oversized metal slabs", "plates as large as a table", "huge tablets"],
      # A panel showing a real book (the Bible is "a record of the Jews", 1 Nephi 13:23), testifying ("bears record"),
      # or a figure of speech ("graven upon his palms") is not about the plates.
      re.compile(r"\bbook\b|\bbears? record\b|\bbore record\b|\bgraven upon\b|\bfigurative\b", re.I)),

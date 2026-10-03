@@ -1,5 +1,5 @@
 {
-  "stamp": "22f964e73114b6a3852b2d8c2d3b242fe2d4cd22071d10eaa9854de2d80e2892",
+  "stamp": "933fedc9391c75cd228d417fbad49f94bbb3711c6b6e941a019c5588ca4bb063",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,8 +38,12 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene’s order matches the preceding scene: after the flight to Akish, Lib pursues Coriantumr to Agosh; the later battle and flight are sequential. The summary’s phrase “has taken all the people with him” is supported, but the verses do not specify where or how those people are positioned during the battle.",
+        "The brother of Lib is present in the scene but unnamed in these verses; do not identify him as Shiz based on verse 17, which is outside the scene’s refs.",
+        "The narration’s second excerpt includes a semicolon at its end, which matches the supplied verse, but its opening “And when he had come” has an ambiguous antecedent. Keep the visual chronology conservative; the verse says Coriantumr gave battle and smote Lib until he died."
+      ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
@@ -72,8 +76,11 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The sequence of the two advances being driven back, the third advance and fierce battle, and Coriantumr being carried away is consistent with the verses and does not merge events from the preceding scene. The unnamed combatants and carriers are appropriately left unidentified; no dialogue, location, or visible gore is added.",
+        "Warning: the scene does not specify who carried Coriantumr or how, so avoid implying a particular carrier or method. The wording “driven back” summarizes “driven again” but is not an exact source quotation; narration itself uses exact contiguous excerpts."
+      ]
     },
     "scene_018": {
       "status": "PASS",

@@ -1,5 +1,5 @@
 {
-  "stamp": "5a3f32a85d115534017d0a662751b11229f3319ba53ea43dcccd89500d8aedbd",
+  "stamp": "e9fff747568bf10ea265e226f65b05dd5cce2bd1f42d5c13ed034abd90bf883e",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -8,8 +8,11 @@
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Coriantor through Shiblon” in the summary might imply a complete lineage endpoint; verse 12 continues the ancestry with Shiblon’s father, Com. The explicit facts and narration accurately stop at Shiblon.",
+        "A lineage or record-page visual is a permissible visual inference, but the source does not specify how the narration is visually represented. The ancestors should not be shown as present characters."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -52,10 +55,8 @@
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene 012: The quoted excerpt from Ether 1:43 is truncated before the sentence ends, omitting its punctuation; under the instruction to preserve exact excerpts without alteration, it is not a complete exact quotation."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

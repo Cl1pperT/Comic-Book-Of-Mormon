@@ -134,39 +134,53 @@
     "refs": [
       "Mormon 6:6"
     ],
-    "summary": "As the gathered people face their last struggle, old Mormon makes a record from the plates of Nephi, hides the entrusted records in Cumorah, and gives a few plates to Moroni.",
+    "summary": "After the people gather in the land of Cumorah, Mormon makes a record from the plates of Nephi, hides the records entrusted to him in the hill Cumorah, and gives a few plates to his son Moroni.",
     "characters": [
       "Mormon",
       "Moroni"
     ],
     "locations": [
-      "land of Cumorah"
+      "land of Cumorah",
+      "hill Cumorah"
     ],
     "explicit_facts": [
       {
-        "text": "Mormon had grown old, knew this was his people’s last struggle, and had been commanded not to let the sacred records fall into Lamanite hands.",
+        "text": "The people had gathered in the land of Cumorah, and Mormon had begun to grow old.",
         "refs": [
           "Mormon 6:6"
         ]
       },
       {
-        "text": "Mormon made a record from the plates of Nephi, hid the entrusted records in Cumorah except for a few plates, and gave those few plates to his son Moroni.",
+        "text": "Mormon knew this would be his people’s last struggle and had been commanded not to let the sacred records fall into Lamanite hands.",
+        "refs": [
+          "Mormon 6:6"
+        ]
+      },
+      {
+        "text": "Mormon made a record from the plates of Nephi, hid the entrusted records in the hill Cumorah, and gave the few plates he kept out to his son Moroni.",
         "refs": [
           "Mormon 6:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon can be shown handling plates and concealing records in the hill; Moroni can be shown receiving the few plates."
+      "Mormon may be shown handling the records and concealing them in the hill.",
+      "Moroni may be shown receiving the few plates."
     ],
     "unspecified_visual_details": [
-      "The precise place and method of concealment within the hill.",
-      "The appearance and material of the plates."
+      "The precise hiding place and method of concealment.",
+      "The plates’ appearance and material."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I made this record out of the plates of Nephi",
+        "text": "I, Mormon, began to be old;",
+        "refs": [
+          "Mormon 6:6"
+        ]
+      },
+      {
+        "text": "I made this record out of the plates of Nephi,",
         "refs": [
           "Mormon 6:6"
         ]
@@ -184,9 +198,11 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The command from the Lord is reported, not depicted as a visible encounter."
+    ],
     "prohibited_inventions": [
-      "Do not show the Lamanites discovering the records.",
+      "Do not show the Lamanites discovering or destroying the records.",
       "Do not depict the Lord as visibly present; no appearance is described."
     ],
     "importance": "normal"

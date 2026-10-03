@@ -1,5 +1,5 @@
 {
-  "stamp": "7015a9616a953885317162c593288b5000de3f566b4a3ef986bf67b4c44982ab",
+  "stamp": "d5dbadc1ab8597e279750a1fae82cf36898997b775a11dacc7ffcdca87fa4d16",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,18 +22,19 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“those addressed by Jesus” and “listeners” are generic group descriptions, not established labels; their specific identities are unspecified. The unspecified setting and appearance are appropriately conservative.",
+        "The summary’s reference to “the church being built upon his gospel” is a teaching, not a visible event; the notes correctly caution against depicting the warning or the Father’s works as events occurring here."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The note that the speaker cannot be identified overlooks the preceding scene: this is a continuation of Jesus’s address. The unnamed-speaker label is conservative, but the claimed uncertainty is misleading."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",

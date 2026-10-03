@@ -64,66 +64,79 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "The plates shown to witnesses",
+    "title": "Moroni’s words concerning the plates and three witnesses",
     "refs": [
       "Ether 5:2",
       "Ether 5:3",
       "Ether 5:4"
     ],
-    "summary": "Moroni says the plates may be shown to those who assist in bringing forth the work, and that three will see them by God’s power and know the truth. Their testimony, along with the work, will stand against the world at the last day.",
+    "summary": "Moroni says the addressee may show the plates to those who assist in bringing forth the work. He says three will be shown the plates by the power of God, and their testimony will establish these things.",
     "characters": [
       "Moroni"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The reader may be privileged to show the plates to those who assist in bringing forth the work.",
+        "text": "Moroni says the addressee may be privileged to show the plates to those who assist in bringing forth the work.",
         "refs": [
           "Ether 5:2"
         ]
       },
       {
-        "text": "Three people will be shown the plates by the power of God and know with certainty that the things are true.",
+        "text": "Moroni says the plates will be shown to three by the power of God, and they will know these things are true.",
         "refs": [
           "Ether 5:3"
         ]
       },
       {
-        "text": "The testimony of three will establish these things; the Father, Son, and Holy Ghost bear record of the work and its word, which will stand as a testimony against the world at the last day.",
+        "text": "Moroni says the testimony of three will establish these things.",
+        "refs": [
+          "Ether 5:4"
+        ]
+      },
+      {
+        "text": "Moroni says the Father, the Son, and the Holy Ghost bear record, and that this will stand as a testimony against the world at the last day.",
         "refs": [
           "Ether 5:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may be shown delivering this message; the three witnesses are described as future recipients, not as present in this moment."
+      "Moroni can be represented as the narrator, but the verses do not place the three witnesses before him."
     ],
     "unspecified_visual_details": [
-      "The identities and appearances of the three witnesses, how the plates will be shown, and any visible appearance of God or the Godhead."
+      "Moroni’s surroundings and appearance",
+      "The identities and appearances of the three witnesses",
+      "How the plates will be shown"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And unto three shall they be shown by the power of God",
+        "text": "And behold, ye may be privileged that ye may show the plates unto those who shall assist to bring forth this work;",
+        "refs": [
+          "Ether 5:2"
+        ]
+      },
+      {
+        "text": "And unto three shall they be shown by the power of God; wherefore they shall know of a surety that these things are true.",
         "refs": [
           "Ether 5:3"
         ]
       },
       {
-        "text": "And in the mouth of three witnesses shall these things be established",
+        "text": "And in the mouth of three witnesses shall these things be established;",
         "refs": [
           "Ether 5:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses foretell witness testimony; they do not narrate the showing of the plates as happening now."
+      "The showing of the plates is foretold, not narrated as occurring in this scene.",
+      "The Father, Son, and Holy Ghost are said to bear record; no visible appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not depict the three witnesses or a supernatural appearance as present events.",
-      "Do not portray the Father, Son, or Holy Ghost visibly; no appearance is described."
+      "Do not depict the future showing of the plates as a present event.",
+      "Do not invent identities for the three witnesses or a visible appearance of divine figures."
     ],
     "importance": "normal"
   },

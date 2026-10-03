@@ -1,9 +1,11 @@
 {
-  "stamp": "e07c3d0a252c62bff6e1097f75158c537cd3b718d7b74cc17687e61d9e60bfb5",
+  "stamp": "e0e76941d89d23f09dd8f36f5016c7d8fd279c023c05b283104be60b88787220",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mormon addressing people gathered in the synagogue is supported by the verse, but showing him physically there is a visual inference; Moroni is not present in that reported teaching. No preceding scene is supplied for chronology comparison."
+      ]
     },
     "scene_002": {
       "status": "PASS",

@@ -906,33 +906,33 @@
       "Mormon 8:38",
       "Mormon 8:39"
     ],
-    "summary": "An unnamed speaker rebukes the addressees for pride and polluted churches, says they value possessions and adornment over people in need, and questions their neglect of the hungry, needy, naked, sick, and afflicted.",
+    "summary": "Moroni rebukes his addressees for pride, valuing wealth and adornment above people in need, and failing to notice those in need.",
     "characters": [
-      "Unnamed speaker",
+      "Moroni (son of Mormon)",
       "Addressees"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker accuses the addressees of pride, envy, strife, malice, persecution, and wearing very fine apparel, and says their churches have become polluted.",
+        "text": "Moroni says that nearly all of his addressees lift themselves up in pride, and that their churches have become polluted because of that pride.",
         "refs": [
           "Mormon 8:36"
         ]
       },
       {
-        "text": "The speaker says the addressees love money, substance, fine apparel, and church adornment more than the poor, needy, sick, and afflicted.",
+        "text": "Moroni says the addressees love money, possessions, fine apparel, and church adornment more than the poor, needy, sick, and afflicted.",
         "refs": [
           "Mormon 8:37"
         ]
       },
       {
-        "text": "The speaker questions teachers about polluting the holy church of God, being ashamed to take upon them the name of Christ, and valuing the praise of the world.",
+        "text": "Moroni questions teachers about polluting the holy church of God, being ashamed to take upon them the name of Christ, and seeking the praise of the world.",
         "refs": [
           "Mormon 8:38"
         ]
       },
       {
-        "text": "The speaker asks why the addressees adorn themselves while allowing the hungry, needy, naked, sick, and afflicted to pass unnoticed.",
+        "text": "Moroni asks why the addressees adorn themselves while the hungry, needy, naked, sick, and afflicted pass by unnoticed.",
         "refs": [
           "Mormon 8:39"
         ]
@@ -940,11 +940,17 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's appearance and location.",
-      "The appearance of the addressees, their apparel, and their churches."
+      "Moroni’s appearance and surroundings.",
+      "The addressees’ appearance and surroundings."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And I know that ye do walk in the pride of your hearts;",
+        "refs": [
+          "Mormon 8:36"
+        ]
+      },
       {
         "text": "Why do ye adorn yourselves with that which hath no life, and yet suffer the hungry, and the needy, and the naked, and the sick and the afflicted to pass by you, and notice them not?",
         "refs": [
@@ -953,12 +959,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "These verses present rebuke and questions, not a narrated encounter to stage as occurring before the viewer."
+      "The first-person narrator is Moroni, son of Mormon, as specified for this chapter.",
+      "These verses are Moroni’s rebuke and questions; they do not narrate an encounter occurring before the viewer."
     ],
     "prohibited_inventions": [
-      "Do not identify the unnamed speaker or addressees.",
       "Do not depict an invented encounter between the addressees and people in need.",
-      "Do not depict an unstated divine appearance or literalize figurative language."
+      "Do not give unnamed addressees invented identities or biographies.",
+      "Do not depict an unstated divine appearance or literalize figurative language.",
+      "Do not quote or stage events from verses outside the supplied passage."
     ],
     "importance": "normal"
   },

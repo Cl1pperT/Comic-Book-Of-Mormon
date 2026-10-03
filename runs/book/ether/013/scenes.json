@@ -256,65 +256,82 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The warning to Coriantumr",
+    "title": "The word of the Lord comes to Ether",
     "refs": [
       "Ether 13:20",
       "Ether 13:21"
     ],
-    "summary": "The word of the Lord comes to Ether with a warning for Coriantumr: repentance by him and his household would spare the people and preserve his kingdom; otherwise destruction would follow, with Coriantumr alone surviving to see another people inherit the land and bury him.",
+    "summary": "In the second year, the word of the Lord comes to Ether, directing him to prophesy to Coriantumr. The message promises that repentance by Coriantumr and his household will spare the people and restore his kingdom; otherwise, it foretells destruction, Coriantumr’s survival, another people receiving the land, and his burial by them.",
     "characters": [
       "Ether"
     ],
-    "locations": [
-      "Cavity of a rock"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The word of the Lord came to Ether in the second year, telling him to prophesy to Coriantumr.",
+        "text": "In the second year, the word of the Lord came to Ether and directed him to prophesy to Coriantumr.",
         "refs": [
           "Ether 13:20"
         ]
       },
       {
-        "text": "The warning promises Coriantumr his kingdom and the people’s safety if he and his household repent; otherwise all but Coriantumr would be destroyed, and he would live to see another people inherit the land and bury him.",
+        "text": "The message says that if Coriantumr and his household repent, the Lord will give him his kingdom and spare the people.",
         "refs": [
-          "Ether 13:20",
+          "Ether 13:20"
+        ]
+      },
+      {
+        "text": "Otherwise, the message foretells destruction for Coriantumr’s household and every soul except Coriantumr.",
+        "refs": [
+          "Ether 13:21"
+        ]
+      },
+      {
+        "text": "The message foretells that Coriantumr will live to see prophecies fulfilled concerning another people receiving the land as their inheritance, and that they will bury him.",
+        "refs": [
           "Ether 13:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ether may be shown receiving the word while in the rock cavity."
+      "Ether may be shown alone as the recipient of the message, without showing how it reaches him."
     ],
     "unspecified_visual_details": [
-      "The manner in which the word came and any visible divine appearance are unspecified."
+      "Ether’s location and surroundings are not stated.",
+      "The manner in which the word comes to Ether is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the word of the Lord came to Ether",
+        "text": "And in the second year the word of the Lord came to Ether,",
         "refs": [
           "Ether 13:20"
         ]
       },
       {
-        "text": "if he would repent",
+        "text": "if he would repent, and all his household, the Lord would give unto him his kingdom and spare the people—",
         "refs": [
           "Ether 13:20"
         ]
       },
       {
-        "text": "every soul should be destroyed save it were Coriantumr",
+        "text": "another people receiving the land for their inheritance; and Coriantumr should receive a burial by them;",
+        "refs": [
+          "Ether 13:21"
+        ]
+      },
+      {
+        "text": "every soul should be destroyed save it were Coriantumr.",
         "refs": [
           "Ether 13:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The warning is a prophecy, not a depiction of its threatened future events."
+      "The destruction, inheritance, and burial are foretold events, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord appearing visibly; no appearance is described."
+      "Do not depict the Lord appearing visibly or invent a manner of communication.",
+      "Do not show Ether delivering the prophecy to Coriantumr or depict its future fulfillment."
     ],
     "importance": "normal"
   },
@@ -370,46 +387,53 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Shared captures Coriantumr",
+    "title": "Shared brings Coriantumr into captivity",
     "refs": [
       "Ether 13:23"
     ],
-    "summary": "Shared gives battle to Coriantumr, defeats him, and brings him into captivity in the third year.",
+    "summary": "Shared gives battle to Coriantumr and defeats him. In the third year, Shared brings Coriantumr into captivity.",
     "characters": [
-      "Coriantumr",
       "Shared",
-      "Coriantumr’s forces",
-      "Shared’s forces"
+      "Coriantumr"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Shared fought Coriantumr, beat him, and brought him into captivity in the third year.",
+        "text": "Shared gave battle to Coriantumr and beat him.",
+        "refs": [
+          "Ether 13:23"
+        ]
+      },
+      {
+        "text": "In the third year, Shared brought Coriantumr into captivity.",
         "refs": [
           "Ether 13:23"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Shared’s forces may be shown taking Coriantumr captive after the battle."
+      "Shared and Coriantumr may be shown in battle.",
+      "Coriantumr may be shown captive in a separate, later moment."
     ],
     "unspecified_visual_details": [
-      "The battlefield, capture method, and appearance of the forces are unspecified."
+      "The location, their appearances, and the method of captivity are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he did bring him into captivity",
+        "text": "And it came to pass that there arose up Shared, and he also gave battle unto Coriantumr; and he did beat him, insomuch that in the third year he did bring him into captivity.",
         "refs": [
           "Ether 13:23"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Do not merge the battle and the third-year captivity into a single moment."
+    ],
     "prohibited_inventions": [
-      "Do not add dialogue or details of Coriantumr’s captivity."
+      "Do not add dialogue, named forces, or details of Coriantumr’s captivity."
     ],
     "importance": "normal"
   },
@@ -419,34 +443,32 @@
     "refs": [
       "Ether 13:24"
     ],
-    "summary": "In the fourth year, Coriantumr’s sons defeat Shared and regain the kingdom for their father.",
+    "summary": "In the fourth year, Coriantumr’s sons beat Shared and obtain the kingdom again for their father.",
     "characters": [
       "Coriantumr’s sons",
-      "Shared",
-      "Coriantumr’s forces",
-      "Shared’s forces"
+      "Shared"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr’s sons beat Shared and obtained the kingdom again for their father in the fourth year.",
+        "text": "In the fourth year, Coriantumr’s sons beat Shared and obtained the kingdom again for their father.",
         "refs": [
           "Ether 13:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The sons and Shared’s forces may be shown in the battle in which the sons prevail."
+      "The sons and Shared may be depicted in the confrontation in which the sons prevail."
     ],
     "unspecified_visual_details": [
-      "The battlefield, the sons’ identities, and the manner of regaining the kingdom are unspecified."
+      "The setting, the sons’ appearances, and how the kingdom was regained are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "did beat Shared, and did obtain the kingdom again",
+        "text": "the sons of Coriantumr, in the fourth year, did beat Shared, and did obtain the kingdom again unto their father.",
         "refs": [
           "Ether 13:24"
         ]
@@ -454,7 +476,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not portray Coriantumr as present; the verse does not say he is."
+      "Do not depict Coriantumr as present; the verse does not say he is.",
+      "Do not invent armies, dialogue, or details of the confrontation."
     ],
     "importance": "normal"
   },
@@ -521,7 +544,7 @@
       "Ether 13:27",
       "Ether 13:28"
     ],
-    "summary": "Coriantumr goes against Shared with his armies. They meet in anger in the valley of Gilgal, where the battle becomes exceedingly sore. Shared fights against Coriantumr for three days. Coriantumr beats Shared and pursues him to the plains of Heshlon.",
+    "summary": "Coriantumr goes against Shared with his armies. They meet in anger and battle in the valley of Gilgal. Shared fights against Coriantumr for three days. Coriantumr defeats Shared and pursues him until Shared reaches the plains of Heshlon.",
     "characters": [
       "Coriantumr",
       "Shared",
@@ -533,20 +556,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr was exceedingly angry with Shared and went against him with his armies. They met in great anger in the valley of Gilgal, and the battle became exceedingly sore.",
+        "text": "Coriantumr was exceedingly angry with Shared and went against him with his armies. They met in great anger in the valley of Gilgal, where the battle became exceedingly sore.",
         "refs": [
           "Ether 13:27"
         ]
       },
       {
-        "text": "Shared fought against Coriantumr for three days. Coriantumr beat Shared and pursued him until he came to the plains of Heshlon.",
+        "text": "Shared fought against Coriantumr for three days. Coriantumr beat and pursued Shared until Shared came to the plains of Heshlon.",
         "refs": [
           "Ether 13:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The pursuit can be shown as movement toward the plains of Heshlon, distinct from the fighting in the valley."
+      "The pursuit toward the plains of Heshlon can be shown separately from the fighting in the valley."
     ],
     "unspecified_visual_details": [
       "The armies' appearance, terrain details, and combat methods are unspecified."
@@ -560,6 +583,12 @@
         ]
       },
       {
+        "text": "Shared fought against him for the space of three days.",
+        "refs": [
+          "Ether 13:28"
+        ]
+      },
+      {
         "text": "Coriantumr beat him, and did pursue him until he came to the plains of Heshlon.",
         "refs": [
           "Ether 13:28"
@@ -567,7 +596,8 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fighting spans three days; do not depict it as a single instant."
+      "The fighting spans three days; do not depict it as a single instant.",
+      "Shared, not Coriantumr, reaches the plains of Heshlon in the pursuit account."
     ],
     "prohibited_inventions": [
       "Do not add dialogue, casualties, battle tactics, or details of Shared's forces not stated in the verses."
@@ -634,34 +664,32 @@
     "refs": [
       "Ether 13:30"
     ],
-    "summary": "Coriantumr fights Shared again in the valley of Gilgal, beats him, and kills him.",
+    "summary": "Coriantumr battles Shared again in the valley of Gilgal, defeats him, and kills him.",
     "characters": [
       "Coriantumr",
-      "Shared",
-      "Coriantumr’s forces",
-      "Shared’s forces"
+      "Shared"
     ],
     "locations": [
       "Valley of Gilgal"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr fought Shared in the valley of Gilgal, beat him, and slew him.",
+        "text": "Coriantumr gave Shared battle again in the valley of Gilgal, beat him, and slew him.",
         "refs": [
           "Ether 13:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The combat may be shown at the moment Coriantumr defeats Shared, without graphic injury."
+      "Coriantumr and Shared may be shown fighting as Coriantumr defeats him."
     ],
     "unspecified_visual_details": [
-      "The method of Shared’s death and the surrounding battlefield details are unspecified."
+      "Their appearance, weapons, and the method of Shared’s death are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he beat Shared and slew him",
+        "text": "Coriantumr gave Shared battle again in the valley of Gilgal, in which he beat Shared and slew him.",
         "refs": [
           "Ether 13:30"
         ]
@@ -669,7 +697,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show gore, wounds, or severed body parts."
+      "Do not show gore, wounds, or severed body parts.",
+      "Do not invent other combatants or dialogue."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "0445838477b308c1f753d998beee6b80abe6cd1e08d03f46b774306f4df34b1b",
+  "stamp": "46aeccc50c6f5851c1c121df2f8e31f9fa75dfb0b5ff900d308a3cdb0f72e80d",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -22,11 +22,8 @@
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene compresses events: Mormon’s arrival at Zarahemla at age eleven (verse 6) and the land’s described condition (verse 7) are reported consecutively, not necessarily simultaneous. Depict them as separate or use a non-specific representation.",
-        "The character label “Mormon’s father” is supported by the verse, but is not the established label “Mormon (young)” or a named character."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

@@ -1,15 +1,18 @@
 {
-  "stamp": "1fc4787f708f9ea5d44c450aec5c087dfc304bd99ecdc33fe580a4ce405daef1",
+  "stamp": "5d4b652c46f977590924e1ab40fed3b480f246dc9071827844d30722d1437b11",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not identify the first-person narrator as Nephi. The characters field and doctrinal note incorrectly claim that the task explicitly identifies him."
+        "The supplied verses do not identify the first-person speaker as Nephi or show Nephi present. The summary, character list, and story note therefore attribute the song to an unsupported speaker.",
+        "The story note incorrectly claims that the user explicitly identified the first-person voice as Nephi."
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“A fruitful hill” is the vineyard’s setting, but the verses do not establish it as the speaker’s present location or the setting of the appeal."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -20,26 +23,30 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene accurately presents the warning and foretold outcomes as speech and narration, not as events already occurring. “Lord of Hosts” is identified in the source as the speaker in verse 9, but verse 8's woe has no explicitly stated speaker; keep its attribution as narration rather than assigning it to the Lord of Hosts. The location and any visible appearance remain unspecified."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses describe feasts and strong-drink consumption, but do not explicitly establish that the same people are involved in both."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary describes the vineyard's desolation as future, but its phrasing may read as already occurring; the verse presents these as intended future actions."
-      ]
-    },
-    "scene_009": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The text attributes the quoted challenge to “they” but does not specify whether those speakers are visibly present."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -58,17 +65,21 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The text does not specify that the nations move toward the ensign; that direction is a visual inference, not an explicit fact."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses mention wheels but do not identify a wheeled conveyance or establish that it accompanies the group."
+      ]
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene's summary says the force roars like the sea, which is figurative; its visual representation should not imply a literal sea transformation."
+        "The pronouns “they” and “them” are not explicitly identified in this verse; identifying “they” as the summoned nations is contextual."
       ]
     }
   }

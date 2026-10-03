@@ -242,7 +242,7 @@
       "Helaman 8:11",
       "Helaman 8:12"
     ],
-    "summary": "Those seeking to destroy Nephi do not lay hands on him because of fear. Having gained favor with some, Nephi speaks again. He recounts the Red Sea account and asks why they dispute that God has given him power to know of coming judgments unless they repent.",
+    "summary": "Those seeking to destroy Nephi do not lay hands on him because they fear. Nephi gains favor with some and speaks again, recounting the Red Sea account and questioning their dispute over his power to know of coming judgments.",
     "characters": [
       "Nephi",
       "those seeking to destroy Nephi"
@@ -258,19 +258,19 @@
         ]
       },
       {
-        "text": "Nephi gains favor with some of the people and begins speaking again; the remainder fear.",
+        "text": "Nephi gains favor with some of the people, begins speaking again, and the remainder fear.",
         "refs": [
           "Helaman 8:10"
         ]
       },
       {
-        "text": "In his speech, Nephi recounts that God gave Moses power over the Red Sea waters, that the Israelites crossed on dry ground, and that the waters swallowed the Egyptian armies.",
+        "text": "Nephi says God gave Moses power to part the Red Sea waters, the Israelites crossed on dry ground, and the waters swallowed the Egyptian armies.",
         "refs": [
           "Helaman 8:11"
         ]
       },
       {
-        "text": "Nephi asks why they dispute that God has given him power to know of judgments to come unless they repent.",
+        "text": "Nephi questions why the people dispute that God has given him power to know of judgments to come unless they repent.",
         "refs": [
           "Helaman 8:12"
         ]
@@ -284,7 +284,14 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "And now behold, if God gave unto this man such power, then why should ye dispute among yourselves, and say that he hath given unto me no power whereby I may know concerning the judgments that shall come upon you except ye repent?",
+        "text": "Behold, my brethren, have ye not read that God gave power unto one man, even Moses, to smite upon the waters of the Red Sea,",
+        "refs": [
+          "Helaman 8:11"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "if God gave unto this man such power, then why should ye dispute among yourselves, and say that he hath given unto me no power whereby I may know concerning the judgments that shall come upon you except ye repent?",
         "refs": [
           "Helaman 8:12"
         ],
@@ -293,7 +300,7 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Moses, the Israelites, and the Egyptians are mentioned in Nephi's speech; they are not described as present with him."
+      "The Red Sea account is recounted in Nephi's speech; Moses, the Israelites, and the Egyptian armies are not described as present with him."
     ],
     "prohibited_inventions": [
       "Do not stage the Red Sea account as an event occurring while Nephi speaks.",
@@ -303,24 +310,24 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The testimony of Moses and the brazen serpent",
+    "title": "Nephi speaks of Moses and the brazen serpent",
     "refs": [
       "Helaman 8:13",
       "Helaman 8:14",
       "Helaman 8:15"
     ],
-    "summary": "The speaker says his addressees deny his words and the words of their fathers and Moses. He recalls Moses lifting the brazen serpent in the wilderness and teaches that those who look upon the Son of God with faith and a contrite spirit might live eternally.",
+    "summary": "Nephi tells his addressees they deny his words and earlier testimony. He refers to Moses lifting the brazen serpent in the wilderness and compares looking upon it with looking upon the Son of God.",
     "characters": [
       "Nephi (son of Helaman)",
       "Unidentified addressees",
       "Moses (mentioned, not present)"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location of Nephi's address"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says his addressees deny his words and the words spoken by their fathers and Moses.",
+        "text": "Nephi says his addressees deny his words and the words spoken by their fathers and Moses.",
         "refs": [
           "Helaman 8:13"
         ]
@@ -332,28 +339,35 @@
         ]
       },
       {
-        "text": "The speaker says Moses bore record that the Son of God should come and recalls Moses lifting the brazen serpent in the wilderness.",
+        "text": "Nephi says Moses bore record that the Son of God should come and lifted the brazen serpent in the wilderness.",
         "refs": [
           "Helaman 8:14"
         ]
       },
       {
-        "text": "The speaker teaches that those who look upon the Son of God with faith and a contrite spirit might live eternally.",
+        "text": "Nephi says those who look upon the Son of God with faith and a contrite spirit might live eternally.",
         "refs": [
           "Helaman 8:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses others while recounting Moses' act; Moses is not shown as present."
+      "Nephi addresses others; Moses is not present during the address."
     ],
     "unspecified_visual_details": [
-      "The speaker's and addressees' appearances and location are unspecified.",
-      "The brazen serpent's appearance is unspecified."
+      "The appearances of Nephi and his addressees are unspecified.",
+      "The setting of the address is unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "as many as should look upon the Son of God with faith, having a contrite spirit, might live,",
+        "text": "Yea, did he not bear record that the Son of God should come?",
+        "refs": [
+          "Helaman 8:14"
+        ],
+        "speaker": "Nephi (son of Helaman)"
+      },
+      {
+        "text": "And as many as should look upon that serpent should live, even so as many as should look upon the Son of God with faith, having a contrite spirit, might live, even unto that life which is eternal.",
         "refs": [
           "Helaman 8:15"
         ],
@@ -362,12 +376,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Moses' lifting of the serpent is recalled, not a present event. The comparison with the Son of God is a teaching, not a narrated visible appearance."
+      "Moses' lifting of the serpent is recounted, not an event occurring during Nephi's address.",
+      "The comparison with the Son of God is a teaching, not a narrated visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict Moses lifting the serpent as occurring alongside the speaker's address.",
+      "Do not depict Moses lifting the serpent alongside Nephi's address.",
       "Do not show the Son of God appearing in this scene.",
-      "Do not assign the speaker or addressees names not supplied by these verses."
+      "Do not invent identities for the addressees."
     ],
     "importance": "normal"
   },
@@ -620,14 +635,14 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "The judge’s murder is reported",
+    "title": "Nephi reports the judge’s murder",
     "refs": [
       "Helaman 8:27",
       "Helaman 8:28"
     ],
-    "summary": "A speaker tells the addressees to go to the judgment-seat and search. The speaker says their judge has been murdered by his brother, who seeks to sit in the judgment-seat, and says both belong to a secret band.",
+    "summary": "Nephi tells his addressees to search at the judgment-seat. He says their judge has been murdered by his brother, who seeks the judgment-seat, and that both belong to their secret band.",
     "characters": [
-      "Unidentified speaker",
+      "Nephi",
       "Unidentified addressees"
     ],
     "locations": [
@@ -635,74 +650,72 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker tells the addressees to go to the judgment-seat and search.",
+        "text": "Nephi tells his addressees to go to the judgment-seat and search.",
         "refs": [
           "Helaman 8:27"
         ]
       },
       {
-        "text": "The speaker says their judge has been murdered and lies in his blood.",
+        "text": "Nephi says their judge has been murdered and lies in his blood.",
         "refs": [
           "Helaman 8:27"
         ]
       },
       {
-        "text": "The speaker says the judge’s brother murdered him and seeks to sit in the judgment-seat.",
+        "text": "Nephi says the judge’s brother murdered him and seeks to sit in the judgment-seat.",
         "refs": [
           "Helaman 8:27"
         ]
       },
       {
-        "text": "The speaker says both belong to the addressees’ secret band and names Gadianton and the evil one in connection with its authorship.",
+        "text": "Nephi says both belong to the addressees’ secret band and names Gadianton and the evil one in connection with its authorship.",
         "refs": [
           "Helaman 8:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker addresses others; the murder is reported rather than shown happening."
+      "Nephi addresses others; the murder is reported rather than shown happening."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance are not given in the supplied verses.",
-      "The addressees’ appearance and the setting of the address are not described.",
-      "The appearance of the judgment-seat is not described."
+      "Nephi’s and the addressees’ appearances are not described.",
+      "The setting of the address and the appearance of the judgment-seat are not described."
     ],
     "spoken_dialogue": [
       {
-        "text": "go ye in unto the judgment-seat, and search;",
+        "text": "Yea, behold it is now even at your doors; yea, go ye in unto the judgment-seat, and search;",
         "refs": [
           "Helaman 8:27"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       },
       {
-        "text": "your judge is murdered, and he lieth in his blood;",
+        "text": "and behold, your judge is murdered, and he lieth in his blood;",
         "refs": [
           "Helaman 8:27"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       },
       {
         "text": "and he hath been murdered by his brother, who seeketh to sit in the judgment-seat.",
         "refs": [
           "Helaman 8:27"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       },
       {
-        "text": "And behold, they both belong to your secret band, whose author is Gadianton and the evil one who seeketh to destroy the souls of men.",
+        "text": "And behold, they both belong to your secret band,",
         "refs": [
           "Helaman 8:28"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Nephi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The judge’s death and his brother’s involvement are stated in the address, not narrated as occurring during it."
+      "The judge’s death and his brother’s involvement are stated in Nephi’s address, not narrated as occurring during it."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker from these verses alone.",
       "Do not show the murder occurring or place the judge, his brother, or Gadianton at the address.",
       "Do not depict the evil one as visibly present."
     ],
