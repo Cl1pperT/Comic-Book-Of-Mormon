@@ -192,34 +192,50 @@ def test_title_page_is_composed_from_its_drawings_and_leads_the_pdf(run, tmp_pat
 def test_master_shots_continue_while_the_text_fits(run):
     panels = run.panels()
     layout = frames(panels)
-    # Same people, same place, led by speech: panels 2 and 3 continue panel 1; panel 4 shows someone else.
-    assert shot_groups(panels, layout) == {"panel_002": ("panel_001", 1), "panel_003": ("panel_001", 2)}
-    # Past two thirds of a page of lettering, the next panel gets a new shot.
+    # Same people, same place, led by speech: panel 2 continues panel 1. A drawing is used at most twice, so panel 3
+    # gets its own; panel 4 shows someone else.
+    assert shot_groups(panels, layout) == {"panel_002": ("panel_001", 1)}
     import bom_comic.comic as comic
-    original = comic.MASTER_TEXT_SHARE
+    original = comic.MASTER_TEXT_SHARE, comic.MASTER_MAX_USES
     try:
+        comic.MASTER_MAX_USES = 3
+        assert shot_groups(panels, layout) == {"panel_002": ("panel_001", 1), "panel_003": ("panel_001", 2)}
+        # Past two thirds of a page of lettering, the next panel gets a new shot.
         comic.MASTER_TEXT_SHARE = 0.001
         assert shot_groups(panels, layout) == {}
     finally:
-        comic.MASTER_TEXT_SHARE = original
+        comic.MASTER_TEXT_SHARE, comic.MASTER_MAX_USES = original
 
 
 def test_master_shot_is_drawn_once_and_followers_follow_its_redraws(run):
     changed = run.generate()
-    assert len(run.provider.renders) == 2 and changed == ["panel_001", "panel_002", "panel_003", "panel_004"]
+    assert len(run.provider.renders) == 3 and changed == ["panel_001", "panel_002", "panel_003", "panel_004"]
     assert run.provider.sizes[0] is None  # a master is drawn at full size, since its followers crop it
     assert run.provider.sizes[1] is not None  # an ordinary panel at its frame's size
     follower = run.image_record(run.panels()[1])
     assert follower["master"] == "panel_001" and follower["path"] == run.image_record(run.panels()[0])["path"]
+    assert "master" not in run.image_record(run.panels()[2])  # a third use gets its own drawing
     approve_images(run)
     run.assemble()
     assert run.store.read("final/captions.json")["panel_002"]["master_crop"]["master"] == "panel_001"
-    # Redrawing the master relinks its followers; redrawing a follower on its own breaks it away.
+    # Redrawing the master relinks its follower; redrawing a follower on its own breaks it away.
     changed = run.generate("panel_001", reuse=False)
-    assert changed == ["panel_001", "panel_002", "panel_003"]
-    assert run.image_record(run.panels()[2])["path"] == run.image_record(run.panels()[0])["path"]
+    assert changed == ["panel_001", "panel_002"]
+    assert run.image_record(run.panels()[1])["path"] == run.image_record(run.panels()[0])["path"]
     run.generate("panel_002", reuse=False)
-    assert "master" not in run.image_record(run.panels()[1]) and len(run.provider.renders) == 4
+    assert "master" not in run.image_record(run.panels()[1]) and len(run.provider.renders) == 5
+
+
+def test_a_drawing_linked_more_than_twice_is_drawn_again(run):
+    run.generate()
+    panels, aspects = run.panels(), run.aspects()
+    # A link made before the limit: panel 3 as the master's third use.
+    run._link(panels[2], panels[0], 2, aspects)
+    with pytest.raises(ValueError, match="stale"):
+        run.image_record(panels[2], aspects)
+    renders = len(run.provider.renders)
+    assert run.generate() == ["panel_003"] and len(run.provider.renders) == renders + 1
+    assert "master" not in run.image_record(panels[2], aspects)
 
 
 def test_crops_move_between_faces():

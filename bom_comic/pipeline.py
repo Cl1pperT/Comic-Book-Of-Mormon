@@ -5,7 +5,7 @@ from uuid import uuid4
 from .models import Scene, SceneBatch, Panel, Verse
 from .storage import digest
 from .analysis import RULES, analyze, speaker_note, unquote, validate_batch, validate_scene
-from .comic import (DEFAULT_CONTINUITY, PAGE_SIZE, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
+from .comic import (DEFAULT_CONTINUITY, MASTER_MAX_USES, PAGE_SIZE, PAGE_UNITS, plan, build_prompt, build_portrait_prompt,
     portrait_eligible, portrait_aspect, is_group, assemble, frames, frame_aspect, shot_groups)
 from .scripture import load, select
 
@@ -552,6 +552,8 @@ class Pipeline:
             current = record["art_stamp"] == stamp and _similar(record["aspect"], aspect)
         else:
             current = record["panel_stamp"] == self.panel_stamp(panel, aspects)
+        if current and record.get("master") and record.get("crop_index", 1) + 1 > MASTER_MAX_USES:
+            current = False  # linked when a drawing could be reused more often; it gets its own now
         if current and record.get("master"):
             # A panel continuing a master shot is current only while the master still shows the same drawing.
             master = self.store.path(f"images/{record['master']}.json")

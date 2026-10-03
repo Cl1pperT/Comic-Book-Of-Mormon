@@ -950,6 +950,10 @@ def _corner(box, frame):
 # the same place, talking. Its panels together may carry lettering over at most this share of a page's live area;
 # past that the next panel gets a new drawing, so a long speech still turns into pictures, not a page of text.
 MASTER_TEXT_SHARE = 2 / 3
+# And a drawing appears at most this many times (the master and one continuing crop): a third panel of the same
+# conversation gets a drawing of its own, so a page doesn't repeat one picture (the owner's rule after Jacob 3, where
+# one drawing filled six panels).
+MASTER_MAX_USES = 2
 
 
 def _live_area():
@@ -966,8 +970,8 @@ def shot_groups(panels, layout=None):
     """{panel_id: (master panel_id, index)} for each panel that continues a master shot (index 1, 2, ... in order).
 
     A panel continues the shot before it when it shows exactly the same people in the same place, is led by speech
-    rather than new action, isn't a full-page moment, and the shot's lettering so far plus its own stays within
-    MASTER_TEXT_SHARE of a page. A pure function of the approved panels and their layout, so nothing is stored and
+    rather than new action, isn't a full-page moment, the shot's lettering so far plus its own stays within
+    MASTER_TEXT_SHARE of a page, and the drawing has been used fewer than MASTER_MAX_USES times. A pure function of the approved panels and their layout, so nothing is stored and
     approvals don't change."""
     layout = layout or frames(panels)
     draw, fonts = _measure()
@@ -978,7 +982,7 @@ def shot_groups(panels, layout=None):
         area = sum((b[2] - b[0]) * (b[3] - b[1]) for b, _, _ in boxes)
         here = (frozenset(panel.characters_visible), tuple(panel.location))
         if master is not None and here == key and panel.characters_visible and _speech_led(panel) \
-                and panel.shot != "splash" and used + area <= budget:
+                and panel.shot != "splash" and used + area <= budget and index + 1 < MASTER_MAX_USES:
             index += 1
             used += area
             groups[panel.panel_id] = (master.panel_id, index)

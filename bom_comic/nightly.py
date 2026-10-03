@@ -18,6 +18,7 @@ import urllib.request
 from pathlib import Path
 from . import book
 from .errors import ProviderError
+from .comic import MASTER_MAX_USES
 from .pipeline import Pipeline
 from .storage import Store, digest
 
@@ -93,6 +94,10 @@ def state(book_name, chapter, new_only=False):
         if assembled["scene_stamp"] == Pipeline(Store(run), None).stamp():
             # A guide written (or rewritten) since the last assembly gives the chapter its cover page: assemble
             # again (only the cover is drawn; every panel is still current).
+            # A drawing reused more often than the master-shot rule now allows: those panels are drawn again.
+            if any(record.get("master") and record.get("crop_index", 1) + 1 > MASTER_MAX_USES
+                   for record in assembled["images"].values()):
+                return "ready"
             guide = run / "intro.json"
             if guide.exists() and Pipeline(Store(run), None).intro() is not None and \
                     (assembled.get("cover") or {}).get("intro_stamp") != digest(Store(run).read("intro.json")):
