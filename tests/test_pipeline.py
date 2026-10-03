@@ -1050,6 +1050,23 @@ def test_the_liahona_looks_the_same_wherever_it_is_named(pipeline):
         assert "Liahona" not in prompt(action)[0]
 
 
+def test_plates_are_engraved_metal_sheets_never_a_book(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    prompt = lambda action: diffusion_prompts(build_prompt(panel.model_copy(update={"action": action}),
+                                                           DEFAULT_CONTINUITY, "4:3"))
+    for action in ("Ann takes the plates of brass.", "Ben keeps the records of his people.",
+                   "Ann introduces her record.", "Ben makes plates of ore and engraves upon them."):
+        positive, negative = prompt(action)
+        assert "The plates: a squared stack of stiff, flat sheets of warm gold-bronze metal" in positive, action
+        assert "modern book" in negative
+    for action in ("John will bear record that he baptized the Lamb.", "Ann wears a breastplate.",
+                   "Ben gives Ann a book to read.", "Ann beholds the book, a record of the Jews.",
+                   "Ben hears and bears record that the record is true."):
+        assert "The plates:" not in prompt(action)[0], action
+
+
 def test_the_church_of_the_devil_is_never_drawn_as_a_person(pipeline):
     from bom_comic.comic import diffusion_prompts
     ready(pipeline)

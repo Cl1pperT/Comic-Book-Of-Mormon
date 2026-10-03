@@ -184,7 +184,8 @@ HEAVENLY = [
                       "standing in the air a little above the ground"}, None),
 ]
 # Objects drawn the same way wherever a panel's action names them, applied when the prompt is built like HEAVENLY.
-# Entries: (pattern over the action and inferences, description for the image model, things it must not look like).
+# Entries: (pattern over the action and inferences, description for the image model, things it must not look like,
+# and optionally a pattern that keeps the entry out of a panel even when the first one matches).
 CHURCH = re.compile(r"\bgreat and abominable church\b|\babominable church\b|\bwhore of all the earth\b|"
                     r"\bmother of (?:abominations|harlots)\b|\bchurch of the devil\b|\bgreat church\b", re.I)
 OBJECTS = [
@@ -196,6 +197,20 @@ OBJECTS = [
      "engraved writing along the spindles",
      ["giant ball", "boulder-sized ball", "modern magnetic compass", "compass rose", "compass needle dial",
       "clock face", "glass globe", "crystal ball"]),
+    # The plates the records are kept on (brass plates, Nephi's plates of ore, Mormon's and the Jaredite plates):
+    # engraved metal sheets, never a printed book. One look for all of them, in a gold-bronze between brass and gold.
+    # "Record" counts only as a thing kept, not "bear record" (testify); "plates" only plural, so "plate armor" and
+    # "breastplate" don't. "Book" is left alone: Lehi's book (1 Nephi 1) and the Bible (1 Nephi 13) are books.
+    (re.compile(r"\bplates\b|\bengravings?\b|(?<!bear )(?<!bore )(?<!bears )\brecords? (?:of|engraved|engraven|kept)\b|"
+                r"\b(?:the|his|her|their|our|my|these|those|this|its|sacred|father[’']?s)\s+records?\b(?! that)", re.I),
+     "The plates: a squared stack of stiff, flat sheets of warm gold-bronze metal, each the size of a large book "
+     "page, held together along one edge by three large metal rings, each sheet engraved with rows of small "
+     "characters; any writing on them is done with a pointed metal stylus",
+     ["modern book", "open book", "two-page spread", "curved or bending pages", "hardcover book", "leather-bound book",
+      "printed book", "paper pages", "codex", "spiral binding", "quill", "ink pen", "ink"],
+     # A panel showing a real book (the Bible is "a record of the Jews", 1 Nephi 13:23), testifying ("bears record"),
+     # or a figure of speech ("graven upon his palms") is not about the plates.
+     re.compile(r"\bbook\b|\bbears? record\b|\bbore record\b|\bgraven upon\b|\bfigurative\b", re.I)),
     # The church of the devil (1 Nephi 13:4-9, 14:9-17; 2 Nephi 28:18): scripture's "whore of all the earth" and
     # "mother of abominations" name a church, so it is never drawn as a woman or one figure. Its look comes from the
     # verses' gold, silver, silks, scarlets and fine-twined linen and its sitting "upon many waters"; no building, so
@@ -529,8 +544,9 @@ def diffusion_prompts(prompt):
     negative += DIFFUSION_NEGATIVE
     # Named objects look the same in every panel that shows them.
     throng = False
-    for pattern, look, unlike in OBJECTS:
-        if pattern.search(" ".join([action, *inferences])):
+    for pattern, look, unlike, *unless in OBJECTS:
+        text = " ".join([action, *inferences])
+        if pattern.search(text) and not (unless and unless[0].search(text)):
             positive.append(look)
             negative += unlike
             throng = throng or pattern is CHURCH
