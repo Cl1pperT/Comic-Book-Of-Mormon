@@ -5,54 +5,80 @@
     "refs": [
       "1 Nephi 2:1"
     ],
-    "summary": "The Lord speaks to Lehi in a dream, blessing him and warning that people seek his life.",
+    "summary": "The Lord speaks to Lehi in a dream, blesses him for his faithfulness and for declaring what he was commanded, and says that people seek to take his life.",
     "characters": [
       "Lehi",
-      "the Lord"
+      "the Lord",
+      "Nephi (narrator only)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord spoke to Lehi in a dream and blessed him because of what he had done, his faithfulness, and his declaration to the people of what the Lord commanded; the Lord said they sought to take Lehi's life.",
+        "text": "The Lord spoke to Lehi in a dream.",
+        "refs": [
+          "1 Nephi 2:1"
+        ]
+      },
+      {
+        "text": "The Lord blessed Lehi for what he had done, for being faithful, and for declaring to the people what he had been commanded.",
+        "refs": [
+          "1 Nephi 2:1"
+        ]
+      },
+      {
+        "text": "The Lord said that people sought to take Lehi's life.",
         "refs": [
           "1 Nephi 2:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is asleep during the dream in which the Lord speaks to him."
+      "Lehi is asleep while dreaming."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance, the visual form of the dream, and Lehi's surroundings are not specified."
+      "Lehi's surroundings and the dream's visual form are unspecified.",
+      "The Lord's appearance is unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "For behold, it came to pass that the Lord spake unto my father, yea, even in a dream, and said unto him: Blessed art thou Lehi, because of the things which thou hast done; and because thou hast been faithful and declared unto this people the things which I commanded thee, behold, they seek to take away thy life.",
+        "text": "Blessed art thou Lehi, because of the things which thou hast done; and because thou hast been faithful and declared unto this people the things which I commanded thee, behold, they seek to take away thy life.",
         "refs": [
           "1 Nephi 2:1"
         ],
         "speaker": "the Lord"
       }
     ],
-    "narration": [],
-    "doctrinal_or_story_notes": [],
+    "narration": [
+      {
+        "text": "For behold, it came to pass that the Lord spake unto my father, yea, even in a dream, and said unto him:",
+        "refs": [
+          "1 Nephi 2:1"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "Nephi narrates the opening; only the words following the colon are the Lord's speech.",
+      "Lehi's earlier declaration and the threat to his life are reported, not events occurring in the dream."
+    ],
     "prohibited_inventions": [
-      "Do not depict the people who seek Lehi's life; they are reported, not present in the dream account."
+      "Do not depict the people seeking Lehi's life as present in the dream.",
+      "Do not invent a visible appearance for the Lord or stage Lehi's earlier declaration as part of this scene."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "The Lord’s Command in a Dream",
+    "title": "The Command in a Dream",
     "refs": [
       "1 Nephi 2:2",
       "1 Nephi 2:3"
     ],
-    "summary": "The Lord commands Lehi in a dream to take his family and depart into the wilderness.",
+    "summary": "The Lord commands Nephi’s father in a dream to take his family into the wilderness. Nephi reports that his father obeyed.",
     "characters": [
-      "Lehi",
+      "Nephi (narrator)",
+      "Nephi’s father",
       "the Lord"
     ],
     "locations": [
@@ -60,39 +86,47 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord commanded Lehi in a dream to take his family and depart into the wilderness.",
+        "text": "The Lord commanded Nephi’s father in a dream to take his family and depart into the wilderness.",
         "refs": [
           "1 Nephi 2:2"
         ]
       },
       {
-        "text": "Lehi was obedient to the Lord's word and did as commanded.",
+        "text": "Nephi’s father obeyed the Lord’s command.",
         "refs": [
           "1 Nephi 2:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is asleep as the command comes in a dream."
+      "Nephi’s father is asleep while dreaming."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance and the dream's surroundings are not described.",
-      "The manner in which Lehi later obeyed is not described."
+      "The dream’s surroundings are not described.",
+      "The Lord’s appearance is not described.",
+      "How Nephi’s father carried out the command is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord commanded my father, even in a dream",
+        "text": "the Lord commanded my father, even in a dream, that he should take his family and depart into the wilderness.",
         "refs": [
           "1 Nephi 2:2"
+        ]
+      },
+      {
+        "text": "he was obedient unto the word of the Lord, wherefore he did as the Lord commanded him.",
+        "refs": [
+          "1 Nephi 2:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Lehi's obedience is reported in verse 3; it is not staged as a separate present-tense event here."
+      "Nephi is the narrator, as specified by the user. His father’s obedience is reported, not staged as a simultaneous event. Do not add an “I, Nephi” caption: those words are not in the supplied verses."
     ],
     "prohibited_inventions": [
-      "Do not depict the family's departure or Lehi's later actions; no details of those actions are supplied."
+      "Do not depict the Lord’s appearance or invent spoken words for the command.",
+      "Do not stage a departure or add details of how the command was carried out."
     ],
     "importance": "normal"
   },
@@ -653,11 +687,11 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "Nephi Seeks the Lord",
+    "title": "Nephi Cries Unto the Lord",
     "refs": [
       "1 Nephi 2:16"
     ],
-    "summary": "Nephi, though young and large in stature, cries to the Lord seeking knowledge; the Lord visits him and softens his heart, and he believes his father's words.",
+    "summary": "Nephi, exceedingly young and large in stature, desires to know the mysteries of God and cries unto the Lord. The Lord visits him and softens his heart. Nephi believes his father's words and does not rebel against him like his brothers.",
     "characters": [
       "Nephi",
       "the Lord"
@@ -673,38 +707,46 @@
         ]
       },
       {
-        "text": "Nephi cried to the Lord, who visited him and softened his heart; Nephi believed his father's words and did not rebel like his brothers.",
+        "text": "Nephi cried unto the Lord; the Lord visited him and softened his heart.",
+        "refs": [
+          "1 Nephi 2:16"
+        ]
+      },
+      {
+        "text": "Nephi believed his father's words and did not rebel against him like his brothers.",
         "refs": [
           "1 Nephi 2:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is shown praying or crying out to the Lord."
+      "Nephi may be shown crying out to the Lord."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance, the manner of the visit, and Nephi's surroundings are unspecified."
+      "Nephi's surroundings and the manner of the Lord's visit are unspecified.",
+      "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I did cry unto the Lord",
+        "text": "I, Nephi, being exceedingly young, nevertheless being large in stature, and also having great desires to know of the mysteries of God, wherefore, I did cry unto the Lord;",
         "refs": [
           "1 Nephi 2:16"
         ]
       },
       {
-        "text": "he did visit me, and did soften my heart",
+        "text": "and behold he did visit me, and did soften my heart",
         "refs": [
           "1 Nephi 2:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord's visit is explicit, but no visible appearance is described."
+      "The Lord's visit is stated, but the verse does not describe a visible form."
     ],
     "prohibited_inventions": [
-      "Do not invent a visible form for the Lord."
+      "Do not invent a visible form for the Lord or depict the visit in a specific manner.",
+      "Do not invent words spoken by Nephi or the Lord."
     ],
     "importance": "normal"
   },
@@ -883,45 +925,43 @@
       "1 Nephi 2:23",
       "1 Nephi 2:24"
     ],
-    "summary": "The Lord gives conditional warnings about the brethren's future rebellion and promises Nephi rule and teaching if he keeps the commandments.",
+    "summary": "The Lord gives Nephi conditional warnings about his brethren’s rebellion and promises that Nephi will become a ruler and teacher over them if he keeps the commandments.",
     "characters": [
       "the Lord",
       "Nephi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says that if Nephi's brethren rebel against him, they will be cut off from the Lord's presence.",
+        "text": "If Nephi’s brethren rebel against him, they will be cut off from the Lord’s presence.",
         "refs": [
           "1 Nephi 2:21"
         ]
       },
       {
-        "text": "The Lord says that if Nephi keeps his commandments, Nephi will be made a ruler and teacher over his brethren.",
+        "text": "If Nephi keeps the Lord’s commandments, he will be made a ruler and teacher over his brethren.",
         "refs": [
           "1 Nephi 2:22"
         ]
       },
       {
-        "text": "The Lord says that if the brethren rebel against him, he will curse them and they will have no power over Nephi's seed unless they also rebel against him.",
+        "text": "If the brethren rebel against the Lord, he will curse them; they will have no power over Nephi’s seed unless his seed also rebel against the Lord.",
         "refs": [
           "1 Nephi 2:23"
         ]
       },
       {
-        "text": "The Lord says that if they rebel against him, they will be a scourge to Nephi's seed, stirring them up in the ways of remembrance.",
+        "text": "If they rebel against the Lord, they will be a scourge to Nephi’s seed, stirring them up in the ways of remembrance.",
         "refs": [
           "1 Nephi 2:24"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lord's words may be represented as off-screen speech; the verses do not establish a location or describe a visible appearance."
+      "The Lord’s words can be conveyed without showing him; these verses do not describe his appearance."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance, setting, and any future descendants or events are unspecified."
+      "The setting and the Lord’s appearance are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -932,7 +972,7 @@
         "speaker": "the Lord"
       },
       {
-        "text": "And if it so be that they rebel against me, they shall be a scourge unto thy seed,",
+        "text": "And if it so be that they rebel against me, they shall be a scourge unto thy seed, to stir them up in the ways of remembrance.",
         "refs": [
           "1 Nephi 2:24"
         ],
@@ -941,11 +981,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The statements are conditional and concern future outcomes; do not depict those outcomes as present events."
+      "These are conditional statements about future outcomes, not events occurring in the scene."
     ],
     "prohibited_inventions": [
       "Do not depict a curse, descendants, or future conflict as a current visible event.",
-      "Do not invent the Lord's appearance, location, or additional speech."
+      "Do not invent the Lord’s appearance, a location, or additional speech."
     ],
     "importance": "normal"
   }

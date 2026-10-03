@@ -246,6 +246,44 @@ def test_crops_move_between_faces():
         assert 0 <= box[0] < box[2] <= 1000 and 0 <= box[1] < box[3] <= 600
 
 
+def test_continuity_check_repairs_the_scenes_a_reader_would_misread(tmp_path):
+    from bom_comic.book import check_continuity
+    from bom_comic.models import ChapterVerdicts, ContinuityIssue, ContinuityReport, SceneVerdict
+    source = tmp_path / "input.txt"
+    source.write_text("".join(f"3 Nephi 8:{v} {TEXT} {v}.\n" for v in (1, 2, 3, 4)))
+    store = Store(tmp_path / "book" / "3-nephi" / "008")
+    p = Pipeline(store, Fake())
+    p.init(source, "3 Nephi 8:1", "3 Nephi 8:4")
+    p.analyze(chunk_size=0)
+    p.validate()
+    store.write("status.json", {"book": "3 Nephi", "chapter": 8, "verses": "3 Nephi 8:4", "counts": {"REJECT": 0}})
+
+    class Checker(Fake):
+        def structured(self, prompt, schema, tag, kind="text"):
+            self.asked.append((tag, prompt))
+            if schema is ContinuityReport:
+                return ContinuityReport(issues=[
+                    ContinuityIssue(scene_id="scene_002", problem="Nobody says who 'I' is.", fix="Quote 'I, Ann'."),
+                    ContinuityIssue(scene_id="scene_999", problem="Not a scene.", fix="-")])
+            if tag.startswith("regenerate_scene_002"):
+                return SceneBatch(scenes=[SCENES[1]])
+            if schema is ChapterVerdicts:
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id="scene_002", status="PASS")])
+            return super().structured(prompt, schema, tag, kind)
+    checker = Checker()
+    results, reason = check_continuity(tmp_path / "book", lambda s: checker)
+    assert reason == "done" and [r["counts"]["REJECT"] for r in results] == [0]
+    # The page as a reader sees it went to the check; the rewrite was told the problem and the fix.
+    check = next(prompt for tag, prompt in checker.asked if tag == "continuity")
+    assert "Caption: " in check and "Ann: “" in check
+    rewrite = next(prompt for tag, prompt in checker.asked if tag.startswith("regenerate_scene_002"))
+    assert "Story continuity: Nobody says who 'I' is. Fix: Quote 'I, Ann'." in rewrite
+    assert store.read("continuity.json")["issues"].keys() == {"scene_002"}
+    # A chapter is read again only after its scenes change.
+    checker.asked.clear()
+    assert check_continuity(tmp_path / "book", lambda s: checker) == ([], "done") and checker.asked == []
+
+
 def test_guides_chain_their_recaps_through_a_book(tmp_path):
     from bom_comic.book import write_intros
     source = tmp_path / "input.txt"

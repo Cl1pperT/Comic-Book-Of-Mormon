@@ -75,21 +75,21 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Prophets Warn Jerusalem",
+    "title": "Prophets Warn the People",
     "refs": [
       "1 Nephi 1:4"
     ],
-    "summary": "In the first year of Zedekiah’s reign, many prophets preach repentance and warn that Jerusalem will be destroyed.",
+    "summary": "In the first year of Zedekiah’s reign, many prophets prophesy to the people that they must repent or Jerusalem must be destroyed.",
     "characters": [
       "many prophets",
-      "the people of Jerusalem"
+      "the people"
     ],
     "locations": [
       "Jerusalem"
     ],
     "explicit_facts": [
       {
-        "text": "At the commencement of Zedekiah’s first year as king of Judah, many prophets tell the people to repent or Jerusalem will be destroyed.",
+        "text": "The events occur in the first year of Zedekiah’s reign as king of Judah.",
         "refs": [
           "1 Nephi 1:4"
         ]
@@ -99,32 +99,35 @@
         "refs": [
           "1 Nephi 1:4"
         ]
+      },
+      {
+        "text": "Many prophets prophesy to the people that they must repent or Jerusalem must be destroyed.",
+        "refs": [
+          "1 Nephi 1:4"
+        ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Prophets addressing people in Jerusalem."
+      "Prophets addressing a group of people."
     ],
     "unspecified_visual_details": [
-      "The prophets’ identities, appearances, number, and exact location within Jerusalem."
+      "The prophets’ identities, appearances, exact number, and precise location."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they must repent",
-        "refs": [
-          "1 Nephi 1:4"
-        ]
-      },
-      {
-        "text": "the great city Jerusalem must be destroyed",
+        "text": "there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.",
         "refs": [
           "1 Nephi 1:4"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Nephi is the first-person narrator. The prophets’ message is reported, not quoted as direct speech."
+    ],
     "prohibited_inventions": [
-      "Do not depict Zedekiah as present; the verse only dates the events by his reign."
+      "Do not depict Zedekiah or Lehi as present merely because they are mentioned.",
+      "Do not invent words spoken by the prophets or show Jerusalem’s destruction as an event in this scene."
     ],
     "importance": "normal"
   },
@@ -445,12 +448,12 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Lehi Reads the Book",
+    "title": "Lehi Reads",
     "refs": [
       "1 Nephi 1:12",
       "1 Nephi 1:13"
     ],
-    "summary": "As Lehi reads, he is filled with the Spirit. The book warns Jerusalem of destruction, many deaths, and captivity in Babylon.",
+    "summary": "As Lehi reads, he is filled with the Spirit of the Lord. He reads a warning to Jerusalem. Nephi reports that his father also read of Jerusalem’s destruction, deaths by the sword, and captivity in Babylon.",
     "characters": [
       "Lehi"
     ],
@@ -465,17 +468,24 @@
         ]
       },
       {
-        "text": "Lehi reads a woe to Jerusalem and that the city and its inhabitants will be destroyed, many perishing by the sword and many carried captive into Babylon.",
+        "text": "Lehi reads aloud a woe addressed to Jerusalem.",
+        "refs": [
+          "1 Nephi 1:13"
+        ]
+      },
+      {
+        "text": "Nephi reports that his father read of Jerusalem’s destruction, people perishing by the sword, and others being carried captive into Babylon.",
         "refs": [
           "1 Nephi 1:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi reads the book given in the vision."
+      "Lehi appears engaged in reading."
     ],
     "unspecified_visual_details": [
-      "The book’s visible text and any depiction of the prophesied destruction, deaths, or captivity."
+      "The reading material’s form and appearance.",
+      "Lehi’s surroundings and physical appearance."
     ],
     "spoken_dialogue": [
       {
@@ -483,22 +493,24 @@
         "refs": [
           "1 Nephi 1:13"
         ],
-        "speaker": "Lehi"
+        "speaker": "Lehi (reading aloud)"
       }
     ],
     "narration": [
       {
-        "text": "he was filled with the Spirit of the Lord",
+        "text": "as he read, he was filled with the Spirit of the Lord.",
         "refs": [
           "1 Nephi 1:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The destruction, deaths, and captivity are read as prophecy, not events happening in this moment."
+      "The quoted warning is something Lehi reads, not an independently attributed statement of his own.",
+      "Destruction, deaths, and captivity are reported as things he read about, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the future destruction, sword deaths, or Babylonian captivity as present events."
+      "Do not depict the destruction, deaths, or captivity as present events.",
+      "Do not invent a visible appearance for the Spirit of the Lord or details of the reading material."
     ],
     "importance": "normal"
   },

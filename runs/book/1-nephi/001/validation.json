@@ -1,5 +1,5 @@
 {
-  "stamp": "7381dddcb47f552863c6806ac8c8cc5fa0a1116485e29c338d89eaddd74a086e",
+  "stamp": "f4b0ceab22167ebf4f3b85424dfea7b4a243ed62c37a72e94e4f5d309dde3c03",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,8 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says Nephi “introduces” his record; that is a reasonable description, but not an explicit event beyond his statements about it."
+        "The summary and quotation accurately reflect 1 Nephi 1:4. The visual inference of prophets addressing a group is reasonable, but the verse does not specify that they were gathered together or where they addressed the people; the unspecified-details field appropriately notes the precise location.",
+        "No chronology conflict with the preceding scene: the prior verses introduce Nephi's record, and this verse begins its historical account."
       ]
     },
     "scene_003": {
@@ -40,10 +41,8 @@
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Lehi is explicitly reading, but the separate spoken dialogue reproduces the words read; the verse does not clarify whether to stage them as audible speech."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",

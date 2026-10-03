@@ -70,6 +70,8 @@ def main():
     book.add_argument("--max-chapters", type=int, help="Stop after writing this many chapters")
     book.add_argument("--repair", action="store_true", help="First re-repair written chapters that still have rejected scenes")
     book.add_argument("--speakers", action="store_true", help="First name speakers labelled like 'Unidentified speaker'")
+    book.add_argument("--continuity", action="store_true",
+                      help="Only read each chapter for story continuity and repair the scenes that confuse")
     book.add_argument("--intros", action="store_true",
                       help="Only write each chapter's reader's guide (cover moment, opener card, dream/vision ranges)")
     compiler = commands.add_parser("compile", help="Stitch every assembled chapter under --run into one PDF, in book order")
@@ -172,7 +174,11 @@ def main():
             print(pipeline.assemble())
         elif args.command == "book":
             Config.load()
-            from .book import fix_speakers, repair_blocked, write_book, write_intros
+            from .book import check_continuity, fix_speakers, repair_blocked, write_book, write_intros
+            if args.continuity:
+                fixed, reason = check_continuity(args.root)
+                print(f"Repaired continuity in {len(fixed)} chapters; stopped: {reason}")
+                return
             if args.intros:
                 guides, reason = write_intros(args.root)
                 print(f"Wrote {len(guides)} chapter guides; stopped: {reason}")

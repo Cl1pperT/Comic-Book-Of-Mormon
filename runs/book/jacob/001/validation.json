@@ -1,9 +1,11 @@
 {
-  "stamp": "9ec16e71a1330eff4f0a1ea61d763cb8665b6f7b1b816f4c567c090bdf3afc28",
+  "stamp": "3a4fb96ea32e1de4c76d18cd56374520aad578edd60cc280ccbc2f6adce5b63c",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied narration excerpts are exact, contiguous quotations and within the word limit. The summary and explicit facts are supported. The unspecified location is appropriately cautious. Warning: the scene represents Nephi and Jacob together, which is a reasonable visual inference, but the verses do not specify where or how the commandment was given; avoid implying a particular setting or physical handover of plates."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -38,7 +40,7 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The unspecified location, appearance, and method of searching remain open creative choices; any depiction should avoid implying a specific mining technique or individual motive."
+        "The listed group names do not establish that all groups were present together; avoid depicting them as gathered in one scene. The proposed visual inference correctly allows no group depiction."
       ]
     },
     "scene_009": {

@@ -43,6 +43,15 @@ class Verdict(Model):
     status: Literal["PASS", "PASS WITH WARNINGS", "REJECT"]
     issues: List[str] = []
 
+class ContinuityIssue(Model):
+    scene_id: str
+    problem: str
+    fix: str
+
+class ContinuityReport(Model):
+    """Scenes a first-time reader of the chapter would find confusing or misleading, with a fix for each."""
+    issues: List[ContinuityIssue] = []
+
 class Corrections(Model):
     """A reviewer's note on a drawn panel, as instructions an image model can follow."""
     add: List[str] = []

@@ -1,16 +1,16 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The commandment concerning the plates",
+    "title": "Nephi’s commandment to Jacob",
     "refs": [
       "Jacob 1:1",
       "Jacob 1:2",
       "Jacob 1:3"
     ],
-    "summary": "Nephi commands Jacob to write selected precious things on the small plates, preserve them, and pass them to his descendants; the people's history is to be recorded on other plates.",
+    "summary": "Fifty-five years after Lehi left Jerusalem, Nephi gives Jacob a commandment concerning the small plates. He instructs Jacob to write a few things Jacob considers most precious, touch only lightly on the people’s history, preserve the plates, and pass them down to his descendants. Nephi says the history should be engraved on his other plates.",
     "characters": [
       "Nephi",
-      "Jacob (son of Lehi)"
+      "Jacob"
     ],
     "locations": [
       "Unspecified location"
@@ -23,36 +23,46 @@
         ]
       },
       {
-        "text": "Nephi commanded Jacob to write a few things he considered most precious on the plates and to touch only lightly on the people's history.",
+        "text": "Nephi commanded Jacob to write a few things Jacob considered most precious and to touch only lightly on the history of the people of Nephi.",
         "refs": [
           "Jacob 1:2"
         ]
       },
       {
-        "text": "Nephi said the people's history would be engraved on his other plates, and commanded Jacob to preserve the small plates and pass them down through generations.",
+        "text": "Nephi said the people’s history should be engraved on his other plates and commanded Jacob to preserve the small plates and hand them down to his descendants.",
         "refs": [
           "Jacob 1:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob writing on small plates, with Nephi giving him the instruction."
+      "Nephi and Jacob may be shown together as Nephi gives the commandment."
     ],
     "unspecified_visual_details": [
-      "The appearance and material of the plates, writing tools, clothing, and surroundings."
+      "The setting, clothing, writing tools, and appearance and material of the plates are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "fifty and five years had passed away",
+        "text": "fifty and five years had passed away from the time that Lehi left Jerusalem;",
+        "refs": [
+          "Jacob 1:1"
+        ]
+      },
+      {
+        "text": "Nephi gave me, Jacob, a commandment concerning the small plates, upon which these things are engraven.",
         "refs": [
           "Jacob 1:1"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Nephi’s words are reported by Jacob, not supplied as direct dialogue."
+    ],
     "prohibited_inventions": [
-      "Do not show Lehi or portray the departure from Jerusalem as occurring in this scene."
+      "Do not depict Lehi’s departure from Jerusalem as occurring in this scene.",
+      "Do not depict Jacob writing, receiving a physical handover of the plates, or passing them to descendants as events that have already occurred.",
+      "Do not invent direct dialogue for Nephi."
     ],
     "importance": "normal"
   },
@@ -319,7 +329,7 @@
       "Jacob 1:13",
       "Jacob 1:14"
     ],
-    "summary": "Jacob lists the names by which the people had been called, then says he will use Lamanites for those seeking to destroy Nephi's people and Nephites for those friendly to Nephi.",
+    "summary": "The people who were not Lamanites were Nephites, though several names were used for the people. Jacob states which people he will call Lamanites and Nephites hereafter.",
     "characters": [
       "Jacob (son of Lehi)"
     ],
@@ -328,38 +338,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "Those who were not Lamanites were Nephites, though they were also called Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites.",
+        "text": "The people who were not Lamanites were Nephites; the people were called Nephites, Jacobites, Josephites, Zoramites, Lamanites, Lemuelites, and Ishmaelites.",
         "refs": [
           "Jacob 1:13"
         ]
       },
       {
-        "text": "Jacob says he will call those who seek to destroy Nephi's people Lamanites, and those friendly to Nephi Nephites or the people of Nephi.",
+        "text": "Jacob says he will call those who seek to destroy the people of Nephi Lamanites, and those friendly to Nephi Nephites or the people of Nephi, according to the reigns of the kings.",
         "refs": [
           "Jacob 1:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob may be shown writing the explanation as narration."
+      "Jacob can be presented as the narrator without depicting the named groups."
     ],
     "unspecified_visual_details": [
-      "The identities and appearance of individuals belonging to the named groups."
+      "Jacob's appearance and surroundings.",
+      "The appearances of people bearing the listed names."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I shall call them Lamanites",
+        "text": "But I, Jacob, shall not hereafter distinguish them by these names, but I shall call them Lamanites that seek to destroy the people of Nephi, and those who are friendly to Nephi I shall call Nephites, or the people of Nephi, according to the reigns of the kings.",
         "refs": [
           "Jacob 1:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are Jacob's naming conventions in his record."
+      "These are Jacob's stated naming conventions."
     ],
     "prohibited_inventions": [
-      "Do not depict a conflict or imply that all people bearing one listed name shared a single allegiance beyond Jacob's stated distinction."
+      "Do not depict a conflict or assign individual identities, appearances, or allegiances beyond Jacob's stated distinctions.",
+      "Do not present Nephi as the first-person narrator."
     ],
     "importance": "normal"
   },
@@ -404,7 +416,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "began to search much gold and silver",
+        "text": "the people of Nephi, under the reign of the second king, began to grow hard in their hearts, and indulge themselves somewhat in wicked practices,",
+        "refs": [
+          "Jacob 1:15"
+        ]
+      },
+      {
+        "text": "Yea, and they also began to search much gold and silver, and began to be lifted up somewhat in pride.",
         "refs": [
           "Jacob 1:16"
         ]

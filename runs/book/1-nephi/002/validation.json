@@ -1,13 +1,16 @@
 {
-  "stamp": "04383ceead03835f02f0974838873fcd83aefc52589a09488faa7fde8e6c976e",
+  "stamp": "d0b0c8d8e1eca65552aa1777883dca40641c79863180e629acb75e0973ce7d19",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 002 narration quotes verses 2–3 correctly and reports rather than stages the command and obedience. However, because the Lord’s appearance is unspecified and no dialogue is supplied for the command, depict no visible form or speech for the Lord; the dream setting is also unspecified.",
+        "Scene 002’s father is Lehi by context, but the scene uses the generic label “Nephi’s father.”"
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -54,8 +57,12 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Summary omits explicit physical facts (Nephi's great desire to know God's mysteries, believing all his father's words, and not rebelling like his brothers) and does not faithfully distinguish the reported Lord's visit from what is visually depicted.",
+        "Narration excerpts are not exact contiguous text: both omit punctuation/words or alter the verse's wording. The first replaces the source's “And it came to pass that I, Nephi” with “I, Nephi”; the second drops “and did soften my heart that I did believe all the words which had been spoken by my father; wherefore, I did not rebel against him like unto my brothers.”",
+        "Scene includes no Sam or other character; no issue with absent labels. Previous scene is chronologically consistent."
+      ]
     },
     "scene_015": {
       "status": "PASS",
@@ -70,8 +77,10 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene otherwise accurately presents conditional future statements as such. Visual representation of the Lord's speech or Nephi's presence is an interpretive choice; the verses do not describe the setting or the Lord's appearance."
+      ]
     }
   }
 }
