@@ -147,37 +147,37 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "The People Reject Shiloah",
+    "title": "The Lord Speaks Again",
     "refs": [
       "2 Nephi 18:5",
       "2 Nephi 18:6"
     ],
-    "summary": "The Lord speaks again, describing the people's refusal of Shiloah's gentle waters and their rejoicing in Rezin and Remaliah's son.",
+    "summary": "The Lord speaks again to the narrator, saying that this people refuse the softly flowing waters of Shiloah and rejoice in Rezin and Remaliah’s son.",
     "characters": [
-      "The speaker"
+      "Nephi",
+      "The Lord"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord speaks again to the speaker.",
+        "text": "The Lord speaks again unto the first-person narrator.",
         "refs": [
           "2 Nephi 18:5"
         ]
       },
       {
-        "text": "The people refuse the waters of Shiloah that go softly and rejoice in Rezin and Remaliah's son.",
+        "text": "The Lord says that this people refuse the waters of Shiloah that go softly and rejoice in Rezin and Remaliah’s son.",
         "refs": [
+          "2 Nephi 18:5",
           "2 Nephi 18:6"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The Lord's words may be presented as off-screen speech over a neutral setting."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's appearance and setting; any visible representation of Shiloah or the named leaders."
+      "The setting and the narrator’s physical appearance are unspecified.",
+      "No visible appearance of the Lord is described.",
+      "The people, Shiloah, Rezin, and Remaliah’s son are not established as visible during the speech."
     ],
     "spoken_dialogue": [
       {
@@ -188,13 +188,24 @@
         "speaker": "The Lord"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "The Lord spake also unto me again, saying:",
+        "refs": [
+          "2 Nephi 18:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The waters are part of the Lord's teaching, not a narrated visible event."
+      "The narrator is labeled Nephi according to the task’s explicit identification; these verses themselves say only “me.”",
+      "The people’s refusal and rejoicing are the content of the Lord’s speech, not separately staged events.",
+      "Narration and dialogue together remain below 65 words."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; no appearance is described.",
-      "Do not stage the people's rejoicing as a separate event."
+      "Do not invent a visible appearance of the Lord.",
+      "Do not stage the people’s refusal or rejoicing as a contemporaneous event.",
+      "Do not place Rezin or Remaliah’s son physically in the exchange.",
+      "Do not turn the waters imagery into a supernatural spectacle or invent its interpretation."
     ],
     "importance": "normal"
   },
@@ -603,55 +614,60 @@
       "2 Nephi 18:21",
       "2 Nephi 18:22"
     ],
-    "summary": "The Lord describes people passing through hardship and hunger, cursing their king and God, and looking upward and toward the earth, where they see trouble, darkness, and anguish.",
+    "summary": "The verses foretell people passing through hardship and hunger, fretting, cursing their king and God, looking upward and toward the earth, beholding trouble and darkness, and being driven to darkness.",
     "characters": [
-      "The people"
+      "Unidentified people (foretold)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The people pass through hardship and hunger, fret, curse their king and their God, and look upward.",
+        "text": "They shall pass through hardship and hunger, fret, curse their king and their God, and look upward.",
         "refs": [
           "2 Nephi 18:21"
         ]
       },
       {
-        "text": "They look toward the earth and behold trouble, darkness, dimness of anguish, and are driven to darkness.",
+        "text": "They shall look toward the earth, behold trouble, darkness, and dimness of anguish, and be driven to darkness.",
         "refs": [
           "2 Nephi 18:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group of people may be shown hungry and distressed, looking upward and then toward the earth."
+      "A prophetic illustration could show unidentified people looking upward and toward the earth, without presenting the prediction as a current event."
     ],
     "unspecified_visual_details": [
-      "The people's identities, number, appearance, location, and the identity or appearance of the king."
+      "The people's number, identities, appearance, and location.",
+      "The king's identity and appearance."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "and curse their king and their God,",
-        "refs": [
-          "2 Nephi 18:21"
-        ],
-        "speaker": "The Lord"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
         "text": "And they shall pass through it hardly bestead and hungry;",
         "refs": [
           "2 Nephi 18:21"
         ]
+      },
+      {
+        "text": "and curse their king and their God, and look upward.",
+        "refs": [
+          "2 Nephi 18:21"
+        ]
+      },
+      {
+        "text": "And they shall look unto the earth and behold trouble, and darkness, dimness of anguish, and shall be driven to darkness.",
+        "refs": [
+          "2 Nephi 18:22"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The darkness and anguish are part of the described condition; no cause or additional event is supplied."
+      "These are foretold conditions, not a narrated present-tense event. The curse is reported, not quoted speech."
     ],
     "prohibited_inventions": [
-      "Do not invent the king's identity, a battle, or a specific catastrophe."
+      "Do not give the people, king, or setting invented identities or details.",
+      "Do not depict the king or God as appearing.",
+      "Do not invent spoken words for the curse or portray the prediction as a separate current event."
     ],
     "importance": "normal"
   }

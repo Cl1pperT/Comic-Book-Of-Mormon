@@ -5,33 +5,39 @@
     "refs": [
       "Mosiah 12:1"
     ],
-    "summary": "After two years, Abinadi comes among the people in disguise and prophesies.",
+    "summary": "After two years, Abinadi comes among the people in disguise. They do not recognize him, and he begins to prophesy.",
     "characters": [
       "Abinadi",
-      "Noah's people"
+      "Unnamed people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After two years, Abinadi came among the people in disguise, and they did not recognize him.",
+        "text": "After two years, Abinadi came among the people in disguise.",
         "refs": [
           "Mosiah 12:1"
         ]
       },
       {
-        "text": "Abinadi prophesied that the Lord had commanded him to speak against the people's hardened hearts and unrepented evil deeds.",
+        "text": "The people did not recognize Abinadi.",
+        "refs": [
+          "Mosiah 12:1"
+        ]
+      },
+      {
+        "text": "Abinadi began to prophesy among them.",
         "refs": [
           "Mosiah 12:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi is visibly disguised among the people."
+      "Abinadi can be shown among people who do not recognize him."
     ],
     "unspecified_visual_details": [
-      "Abinadi's disguise and the people's specific appearance are not described."
+      "The disguise, the people's appearance, and the setting are not described."
     ],
     "spoken_dialogue": [
       {
@@ -44,10 +50,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's words are reported by Abinadi; do not depict the Lord as present."
+      "Abinadi reports the Lord's words; the verse does not describe the Lord appearing."
     ],
     "prohibited_inventions": [
-      "Do not reveal the disguise's details or depict the Lord speaking visibly."
+      "Do not specify the disguise or depict the Lord as visibly present.",
+      "Do not assign the unnamed people an affiliation not established by the supplied verse."
     ],
     "importance": "normal"
   },
@@ -135,37 +142,35 @@
       "Mosiah 12:4",
       "Mosiah 12:5"
     ],
-    "summary": "Abinadi prophesies famine, pestilence, burdens, and the people being driven.",
+    "summary": "Abinadi foretells sore afflictions, famine, pestilence, howling, burdens lashed upon the people's backs, and their being driven.",
     "characters": [
-      "Abinadi",
-      "Noah's people"
+      "Abinadi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord's prophecy says the people will suffer afflictions, famine, pestilence, and howl all day.",
+        "text": "The prophecy foretells sore afflictions, famine, pestilence, and the people howling all day long.",
         "refs": [
           "Mosiah 12:4"
         ]
       },
       {
-        "text": "The prophecy says burdens will be lashed upon their backs and they will be driven like a dumb ass.",
+        "text": "The prophecy foretells burdens lashed upon the people's backs and their being driven before like a dumb ass.",
         "refs": [
           "Mosiah 12:5"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Abinadi speaks before the people."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No specific visual manifestation of the foretold afflictions is described."
+      "Abinadi's appearance, clothing, gestures, and surroundings are not described in these verses.",
+      "The composition and physical presence of an audience are not specified in these verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "And it shall come to pass that I will smite this my people with sore afflictions, yea, with famine and with pestilence; and I will cause that they shall howl all the day long.",
+        "text": "And it shall come to pass that I will smite this my people with sore afflictions, yea, with famine and with pestilence;",
         "refs": [
           "Mosiah 12:4"
         ],
@@ -181,10 +186,15 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These are future prophetic warnings."
+      "Abinadi is identified as the person prophesying by the supplied contextual correction; the prophetic first-person wording is not Mormon speaking.",
+      "These verses foretell future events rather than narrating their occurrence.",
+      "The comparison to a dumb ass is figurative."
     ],
     "prohibited_inventions": [
-      "Do not depict the future afflictions as happening now."
+      "Do not depict the foretold afflictions, howling, burdens, or driving as presently occurring.",
+      "Do not invent a visible divine appearance.",
+      "Do not depict a literal ass from the comparison.",
+      "Do not invent audience members, reactions, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -195,33 +205,34 @@
       "Mosiah 12:6",
       "Mosiah 12:7"
     ],
-    "summary": "Abinadi prophesies hail, east wind, insects consuming grain, and great pestilence.",
+    "summary": "Abinadi foretells hail, east wind, insects devouring grain, and a great pestilence.",
     "characters": [
       "Abinadi",
-      "Noah's people"
+      "unnamed people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The prophecy says hail and east wind will smite the people, and insects will pester the land and devour grain.",
+        "text": "The prophecy foretells hail and east wind striking the people, and insects devouring their grain.",
         "refs": [
           "Mosiah 12:6"
         ]
       },
       {
-        "text": "The prophecy says a great pestilence will strike because of the people's iniquities and abominations.",
+        "text": "The prophecy foretells a great pestilence because of their iniquities and abominations.",
         "refs": [
           "Mosiah 12:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi speaks to the people."
+      "Abinadi may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "No present weather, insects, or illness is described."
+      "The setting and the people's appearance are not described.",
+      "No present hail, wind, insects, or illness is described."
     ],
     "spoken_dialogue": [
       {
@@ -232,7 +243,7 @@
         "speaker": "Abinadi"
       },
       {
-        "text": "And they shall be smitten with a great pestilence—",
+        "text": "And they shall be smitten with a great pestilence—and all this will I do because of their iniquities and abominations.",
         "refs": [
           "Mosiah 12:7"
         ],
@@ -241,10 +252,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophecy is recounted by Abinadi; the Lord is not described as visibly present."
+      "These calamities are foretold, not described as occurring in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not stage the predicted calamities as current events."
+      "Do not depict the predicted calamities as current events.",
+      "Do not assign the unnamed people an affiliation or invent listeners.",
+      "Do not depict a divine figure."
     ],
     "importance": "normal"
   },
@@ -255,32 +268,32 @@
       "Mosiah 12:7",
       "Mosiah 12:8"
     ],
-    "summary": "Abinadi’s continuing prophecy foretells pestilence, destruction unless the people repent, and a record left behind for other nations. Mormon reports that Abinadi prophesied many things against this people.",
+    "summary": "Abinadi prophesies pestilence and destruction unless the people repent. The prophecy describes a record left behind and preservation for other nations, to disclose this people’s abominations. Mormon reports that Abinadi prophesied many things against this people.",
     "characters": [
       "Abinadi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The prophecy foretells a great pestilence because of the people's iniquities and abominations.",
+        "text": "The prophecy foretells a great pestilence because of the people’s iniquities and abominations.",
         "refs": [
           "Mosiah 12:7"
         ]
       },
       {
-        "text": "The foretold utter destruction is conditional on the people not repenting.",
+        "text": "The prophecy threatens utter destruction unless the people repent.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "The prophecy states that the people will leave a record behind and includes the promise “I will preserve them” for other nations that will possess the land.",
+        "text": "The prophecy says the people will leave a record behind and states, without resolving the pronoun’s referent, that “them” will be preserved for other nations which will possess the land.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "The stated purpose is to disclose this people's abominations to other nations.",
+        "text": "The stated purpose is to disclose this people’s abominations to other nations.",
         "refs": [
           "Mosiah 12:8"
         ]
@@ -293,11 +306,11 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A text-led continuation can present the prophecy without visualizing its predicted events."
+      "A text-led presentation can convey the prophecy without depicting predicted events or inventing a physical setting."
     ],
     "unspecified_visual_details": [
-      "Abinadi's appearance and clothing",
-      "Location and surroundings",
+      "Abinadi’s appearance and clothing",
+      "Physical setting",
       "Audience presence and composition",
       "Typography and background design"
     ],
@@ -310,7 +323,7 @@
         "speaker": "Abinadi"
       },
       {
-        "text": "yet they shall leave a record behind them, and I will preserve them for other nations which shall possess the land;",
+        "text": "And it shall come to pass that except they repent I will utterly destroy them from off the face of the earth;",
         "refs": [
           "Mosiah 12:8"
         ],
@@ -326,52 +339,57 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a continuation of the same prophecy, not a second delivery or a new pestilence event; retain verse 7 as continuity rather than replaying an earlier scene.",
-      "Each spoken excerpt is separately quoted and contiguous within its supplied verse.",
-      "The pestilence, conditional destruction, and record are foretold, not narrated as happening here.",
-      "Retain the wording “I will preserve them” without resolving its referent through invented imagery.",
-      "The narration belongs to Mormon, who is not physically placed in the scene.",
-      "The other prophecies are summarized without their contents being supplied."
+      "The predicted events are not narrated as occurring here; do not stage them as present events.",
+      "Abinadi delivers the prophetic speech; Mormon supplies the concluding narration and is not physically placed in the scene.",
+      "Keep the preservation promise’s pronoun unresolved visually.",
+      "The supplied narration does not contain the words “And it came to pass that”; do not add them.",
+      "The contents of Abinadi’s other prophecies are not supplied."
     ],
     "prohibited_inventions": [
-      "Do not depict the foretold pestilence or destruction as occurring now.",
-      "Do not show a record being written, preserved, or discovered.",
-      "Do not invent a visible divine appearance.",
-      "Do not invent an audience or its reactions.",
+      "Do not depict pestilence or destruction occurring.",
+      "Do not depict a record being written, preserved, or discovered.",
+      "Do not invent a divine appearance.",
+      "Do not invent an audience or reactions.",
       "Do not invent additional prophetic speech or actions.",
-      "Do not depict Mormon as physically present.",
-      "Do not depict future nations as present listeners."
+      "Do not depict Mormon or future nations as physically present.",
+      "Do not turn the report of additional prophecies into a separate enacted event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_006",
-    "title": "Abinadi Seized",
+    "title": "Bound Before the King",
     "refs": [
       "Mosiah 12:9"
     ],
-    "summary": "Angry people bind Abinadi and carry him before King Noah, accusing him of prophesying destruction.",
+    "summary": "An angry group takes a man and carries him bound before the king. They accuse him of prophesying evil concerning the king’s people and saying that God will destroy them.",
     "characters": [
-      "Abinadi",
-      "Noah's people",
-      "King Noah"
+      "the bound man",
+      "the unnamed group",
+      "the king"
     ],
     "locations": [
-      "Unspecified location"
+      "before the king"
     ],
     "explicit_facts": [
       {
-        "text": "The people were angry with Abinadi, took him bound before the king, and accused him of prophesying that God would destroy the people.",
+        "text": "The group was angry with the man and carried him bound before the king.",
+        "refs": [
+          "Mosiah 12:9"
+        ]
+      },
+      {
+        "text": "The group accused the man of prophesying evil concerning the king’s people and saying that God would destroy them.",
         "refs": [
           "Mosiah 12:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi is bound while being brought before the king."
+      "The man is visibly restrained when brought before the king."
     ],
     "unspecified_visual_details": [
-      "The precise route and architecture are not stated."
+      "The method of restraint and the setting’s appearance are not stated."
     ],
     "spoken_dialogue": [
       {
@@ -379,13 +397,16 @@
         "refs": [
           "Mosiah 12:9"
         ],
-        "speaker": "Noah's people"
+        "speaker": "the unnamed group"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The accusation is the group’s speech, not an independently narrated prophecy."
+    ],
     "prohibited_inventions": [
-      "Do not add a specific method of restraint, assault, or additional accusation."
+      "Do not assign names or affiliations to the group, the man, or the king from this verse alone.",
+      "Do not add an assault, a specific method of restraint, or further accusations."
     ],
     "importance": "normal"
   },
@@ -494,39 +515,38 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "The Accusers Claim Innocence",
+    "title": "Speakers Claim Innocence",
     "refs": [
       "Mosiah 12:13",
       "Mosiah 12:14"
     ],
-    "summary": "The accusers ask what wrong they or their people have done, claim they are guiltless, and call Abinadi a liar.",
+    "summary": "Unnamed speakers question the king about wrongdoing and condemnation. They claim that they and the king are guiltless and accuse a man of lying and prophesying in vain.",
     "characters": [
-      "Abinadi",
-      "Noah's people",
-      "King Noah"
+      "Unnamed speakers",
+      "King"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The accusers ask what evil the king or his people have done to be condemned by God or judged by Abinadi.",
+        "text": "The speakers ask the king what evil he has done or what sins his people have committed, and why they should be condemned by God or judged by a man.",
         "refs": [
           "Mosiah 12:13"
         ]
       },
       {
-        "text": "They claim to be guiltless, say Noah has not sinned, and accuse Abinadi of lying and prophesying in vain.",
+        "text": "The speakers claim that they are guiltless and the king has not sinned; they accuse the man of lying and prophesying in vain.",
         "refs": [
           "Mosiah 12:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The accusers speak to the king in Abinadi's presence."
+      "The speakers address the king."
     ],
     "unspecified_visual_details": [
-      "No specific gestures or reactions are described."
+      "The setting, clothing, gestures, and appearance of those mentioned are not described."
     ],
     "spoken_dialogue": [
       {
@@ -534,20 +554,24 @@
         "refs": [
           "Mosiah 12:13"
         ],
-        "speaker": "Noah's people"
+        "speaker": "Unnamed speakers"
       },
       {
         "text": "And now, O king, behold, we are guiltless, and thou, O king, hast not sinned; therefore, this man has lied concerning you, and he has prophesied in vain.",
         "refs": [
           "Mosiah 12:14"
         ],
-        "speaker": "Noah's people"
+        "speaker": "Unnamed speakers"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The speakers’ assertions are claims, not established facts."
+    ],
     "prohibited_inventions": [
-      "Do not portray the accusers' claims as verified fact."
+      "Do not identify the unnamed speakers or the man they accuse.",
+      "Do not depict the man they accuse as physically present on the basis of these verses alone.",
+      "Do not portray the speakers’ claims as verified facts."
     ],
     "importance": "normal"
   },

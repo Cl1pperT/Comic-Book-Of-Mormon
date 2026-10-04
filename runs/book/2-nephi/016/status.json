@@ -4,21 +4,25 @@
   "verses": 13,
   "scenes": 8,
   "counts": {
-    "PASS": 5,
-    "PASS WITH WARNINGS": 2,
-    "REJECT": 1
+    "PASS": 3,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 2
   },
   "rejected": {
     "scene_001": [
-      "The verses identify the person who sees the Lord only as “I”; they do not identify that person as Nephi. The summary, characters, and doctrinal_or_story_notes incorrectly present that identification as fact."
+      "The supplied verses do not identify the first-person narrator as Nephi. The summary and character list assign him the vision, and the story note incorrectly claims that the task establishes this identity."
+    ],
+    "scene_007": [
+      "2 Nephi 16:11 does not identify the first-person speaker as Nephi. The summary, character list, visual inference, and dialogue attribution present that identification as fact.",
+      "The preceding scene leaves the addressee unidentified; naming him Nephi here changes that identification without support from the supplied verses."
     ]
   },
-  "calls": 61,
+  "calls": 75,
   "tokens": {
-    "input_tokens": 340855,
-    "cached_input_tokens": 76032,
+    "input_tokens": 432456,
+    "cached_input_tokens": 129792,
     "cache_write_input_tokens": 0,
-    "output_tokens": 29399,
-    "reasoning_output_tokens": 8303
+    "output_tokens": 39070,
+    "reasoning_output_tokens": 11500
   }
 }

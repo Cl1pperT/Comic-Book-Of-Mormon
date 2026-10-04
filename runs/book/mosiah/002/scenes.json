@@ -939,9 +939,9 @@
       "Mosiah 2:32",
       "Mosiah 2:33"
     ],
-    "summary": "The speaker urges his people to continue their obedience, recalls their past prosperity and protection, and promises continued prosperity and protection conditional on keeping commandments delivered by his son. He warns against contention and obeying the evil spirit, and teaches the consequence of remaining and dying in sin.",
+    "summary": "The speaker urges his people to continue keeping commandments, promises prosperity and protection if they keep the commandments delivered by his son, and warns against contention and obeying the evil spirit. He teaches the consequence of remaining and dying in sin.",
     "characters": [
-      "Speaker (son of Mosiah)",
+      "King Benjamin",
       "His people"
     ],
     "locations": [],
@@ -953,36 +953,35 @@
         ]
       },
       {
-        "text": "He recalls that they kept his commandments and his father's commandments, prospered, and were protected from falling into their enemies' hands.",
+        "text": "He says they kept his commandments and his father's commandments, prospered, and were kept from falling into their enemies' hands.",
         "refs": [
           "Mosiah 2:31"
         ]
       },
       {
-        "text": "He promises prosperity and protection from enemies conditional on keeping his son's commandments, or God's commandments delivered through his son.",
+        "text": "He says they will prosper and their enemies will have no power over them if they keep the commandments delivered by his son.",
         "refs": [
           "Mosiah 2:31"
         ]
       },
       {
-        "text": "He warns against contentions and obeying the evil spirit spoken of by his father Mosiah.",
+        "text": "He warns against contention and obeying the evil spirit spoken of by his father Mosiah.",
         "refs": [
           "Mosiah 2:32"
         ]
       },
       {
-        "text": "He teaches that someone who obeys that spirit, remains and dies in sin, and knowingly transgresses God's law receives everlasting punishment.",
+        "text": "He teaches that one who obeys that spirit, remains and dies in sin, and knowingly transgresses God's law receives everlasting punishment.",
         "refs": [
           "Mosiah 2:33"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addressing his people can be shown as a single continuous address."
+      "The address can be shown with the speaker facing people who are listening."
     ],
     "unspecified_visual_details": [
-      "The speaker's personal name is not stated in these verses.",
-      "Location, clothing, physical appearances, gestures, and audience arrangement are unspecified."
+      "The location, clothing, physical appearances, gestures, and arrangement of the listeners are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -990,24 +989,28 @@
         "refs": [
           "Mosiah 2:32"
         ],
-        "speaker": "Speaker (son of Mosiah)"
+        "speaker": "King Benjamin"
+      },
+      {
+        "text": "For behold, there is a wo pronounced upon him who listeth to obey that spirit;",
+        "refs": [
+          "Mosiah 2:33"
+        ],
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Past obedience, prosperity, and protection are recalled rather than enacted in this scene.",
+      "Past prosperity and protection are recalled, not enacted.",
       "Contention is warned against, not reported as occurring.",
-      "The evil spirit, damnation, and everlasting punishment are subjects of teaching, not visible events.",
-      "The summary covers teachings across all three verses; the spoken excerpt quotes only verse 32.",
-      "No preceding scene or information from verse 30 is established by these supplied verses."
+      "The evil spirit and everlasting punishment are subjects of teaching, not visible events."
     ],
     "prohibited_inventions": [
-      "Do not invent contention occurring among the listeners.",
-      "Do not stage recalled prosperity or protection as present events.",
+      "Do not show contention occurring among the listeners.",
+      "Do not stage past prosperity or protection as present events.",
       "Do not depict an evil spirit appearing or punishment visibly occurring.",
       "Do not literalize drinking damnation or receiving wages.",
-      "Do not place the speaker's father, son, or enemies physically in the scene.",
-      "Do not add dialogue or identify the speaker by a personal name absent from these verses."
+      "Do not place the speaker's father, son, or enemies physically in the scene."
     ],
     "importance": "normal"
   },

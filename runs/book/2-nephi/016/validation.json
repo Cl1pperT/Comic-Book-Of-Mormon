@@ -1,10 +1,10 @@
 {
-  "stamp": "97639fc73bad0ba840ed97f511c6cbbb02fc6b8655342b3088c66d49a3c9fe2e",
+  "stamp": "306ce71c865f18ba895dfc6059c00592b01333eb3303fe2588943773f7b966fc",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The verses identify the person who sees the Lord only as “I”; they do not identify that person as Nephi. The summary, characters, and doctrinal_or_story_notes incorrectly present that identification as fact."
+        "The supplied verses do not identify the first-person narrator as Nephi. The summary and character list assign him the vision, and the story note incorrectly claims that the task establishes this identity."
       ]
     },
     "scene_002": {
@@ -12,15 +12,15 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene’s placement after scene_002 is consistent with the source chronology, but its speech and “Then said I” are from verse 5, after the events of verses 1–4; do not imply that the reported sight of the King occurs during this speech.",
-        "“Nephi” is identified as the first-person narrator only by the supplied context, not by verse 5 itself."
-      ]
-    },
-    "scene_004": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The coal is explicitly said to have been taken from the altar with tongs, but depicting that earlier act as part of this scene would combine separate times; the scene description should show only the seraph arriving with the coal and then laying it on the mouth.",
+        "Nephi is named as present, but the verses identify only a first-person narrator; his identity as Nephi is not established by these supplied verses."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -29,16 +29,21 @@
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The unidentified speaker and addressee are appropriately left unnamed. “The speaker is addressing someone” is a reasonable inference from the direct command, but their visible presence or appearance is unspecified."
+        "The verses do not identify the speaker or addressee; their identities remain unspecified."
       ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "2 Nephi 16:11 does not identify the first-person speaker as Nephi. The summary, character list, visual inference, and dialogue attribution present that identification as fact.",
+        "The preceding scene leaves the addressee unidentified; naming him Nephi here changes that identification without support from the supplied verses."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not identify who speaks or narrates the prophecy. The narration correctly leaves the speaker unstated; do not imply a specific speaker."
+      ]
     }
   }
 }

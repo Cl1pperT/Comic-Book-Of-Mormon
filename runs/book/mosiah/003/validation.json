@@ -1,11 +1,9 @@
 {
-  "stamp": "03f571ecc82fe857dcc727fa2b44b2fbc2de2ba8666c5a128232908a166cbc66",
+  "stamp": "1dd08b941d136803f1fe216a36383ccffe696bbc7a8ebfb2dccc1b79e1b1620f",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The audience is supported by the address to “my brethren,” but its presence or visibility is not explicitly described."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -16,10 +14,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "Mosiah 3:2–3 identifies the angel as the speaker, and the prophecy in 3:5–6 continues that speech. The claims that the speaker is unidentified and must not be identified contradict the supplied source and the preceding scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -30,13 +26,15 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker is labeled unidentified, but the surrounding chapter frames Mosiah 3:11–12 within King Benjamin’s address (Mosiah 3:1); consider identifying King Benjamin as speaker."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration quotes only Mosiah 3:14 accurately. However, the summary adds that the people did not understand the law’s dependence on the atonement; verse 15 says they “understood not that the law of Moses availeth nothing except it were through the atonement of his blood.” This is a reasonable paraphrase of the source, though the wording “dependence” is interpretive."
+        "“holy prophets” and “the Lord God's people” describe groups, not specifically identified characters; avoid presenting them as named individuals or visibly present in one scene. The verses do not specify a shared location or single present-time enactment."
       ]
     },
     "scene_009": {
@@ -44,23 +42,16 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and explicit facts omit the verse’s final stated childlike qualities: willingness to submit to all things the Lord sees fit to inflict, as a child submits to a father. The supplied quotations are exact excerpts, but narration omits that portion of the verse.",
-        "The unspecified typography/background design is appropriate for the teaching-only content; no visible event or character is invented."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied verses do not identify the speaker as an angel. The character label, dialogue speaker, summary, and speaker note present that identity as fact without source support."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied verses do not identify the speaker as an angel. The character label, dialogue speaker, explicit facts, and speaker note present that identity as fact without source support."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

@@ -2,64 +2,86 @@
   "stamp": "944d84e4d5767c8acdfc0bd62904b1e250b2944de11ccdf2fe0eeeec28dde662",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_002": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_003": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_004": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_005": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_006": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The doctrinal_or_story_notes identify Nephi as the narrator, but the supplied verses do not identify a narrator. This presents an unsupported speaker as fact."
+        "The source promises a return and rule over oppressors; a visual of returning people is a reasonable inference, but should remain symbolic and not imply a specific historical event or identity."
       ]
     },
-    "scene_009": {
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The promised rest is future; the proposed image of people at rest is a symbolic visual inference, not a narrated present event."
+      ]
+    },
+    "scene_003": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The broken royal emblems are symbolic visual interpretation; avoid depicting a specific king, event, or proverb performance."
+      ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The earth’s rest and singing are poetic language; keep any broad visual symbolic and do not invent visible singers or a present persecution scene."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The trees’ rejoicing and speech are personification; the landscape is a reasonable inference, but should not imply literal talking trees."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The underworld gathering is prophetic imagery; avoid asserting literal afterlife geography or mechanics, and do not assign identities or appearances to the kings or fallen king."
+      ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The grave imagery is poetic; a grave, instrument, and worms are supported, but a specific visible corpse or literal staging is not established."
+      ]
+    },
+    "scene_008": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Observers looking at an unnamed fallen figure are a reasonable visual inference from those who see him; the pit’s appearance and all figures’ identities remain unspecified."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The contrast in burial status is supported, but the proposed symbolic visual should not concretely depict unidentified slain people or a specific manner of exclusion."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "An abandoned, waterlogged Babylon is a symbolic inference from the prophecy, not an event narrated as occurring now; the threatened slaughter must not be depicted."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A lifted burden is a reasonable symbolic inference, but the prophecy does not establish a present scene, visible divine figure, or specific battle."
+      ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says both the cockatrice and fiery flying serpent come from the serpent’s root; verse 29 says the cockatrice comes from the root and its fruit will be a fiery flying serpent, so this wording blurs the stated relationship."
+        "A distant smoke is supported as prophetic imagery, but its source and the creatures’ appearance are unspecified; do not make the serpent imagery a literal event."
       ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "A symbolic view of Zion is an inference only; the text does not specify its appearance or establish a present exchange among visible messengers."
+      ]
     }
   }
 }

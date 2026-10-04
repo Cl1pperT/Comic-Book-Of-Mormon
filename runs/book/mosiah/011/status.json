@@ -4,26 +4,17 @@
   "verses": 29,
   "scenes": 17,
   "counts": {
-    "PASS": 15,
+    "PASS": 17,
     "PASS WITH WARNINGS": 0,
-    "REJECT": 2
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_013": [
-      "Mosiah 11:20–26 identifies Abinadi as the speaker of this continuing prophecy. The scene omits him and incorrectly says the speaker is unidentified.",
-      "The quotation from Mosiah 11:23 is Abinadi’s speech, not narration."
-    ],
-    "scene_014": [
-      "The speaker remains Abinadi from Mosiah 11:20 through 11:26. Introducing an “Unnamed messenger” creates an unsupported change of speaker after the preceding scene.",
-      "The claim that these verses do not identify the messenger as Abinadi disregards the supplied surrounding verses and chronology."
-    ]
-  },
+  "rejected": {},
   "calls": 24,
   "tokens": {
-    "input_tokens": 168884,
+    "input_tokens": 168968,
     "cached_input_tokens": 84864,
     "cache_write_input_tokens": 0,
-    "output_tokens": 21725,
-    "reasoning_output_tokens": 7461
+    "output_tokens": 21480,
+    "reasoning_output_tokens": 7254
   }
 }

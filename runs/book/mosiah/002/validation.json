@@ -1,15 +1,13 @@
 {
-  "stamp": "7ff57a476749697824778b5545def90725d90962ba956e22ce0babb4af9a59c0",
+  "stamp": "0d4b5809635a7402d25c692b7e5aceca9568c3293a43f61ee7f8fbde26190588",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration excerpt from Mosiah 2:2 ends with a semicolon, but the supplied verse continues; it is a contiguous exact excerpt, so this is acceptable, though the truncation should remain clear."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -18,7 +16,7 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary compresses the tower's erection, Benjamin's speaking, and the sending of written words into one scene, although the text reports the latter as subsequent actions; keep them distinct in any depiction. The notes correctly flag the written-word sending as reported, not a separate delivery scene."
+        "The tower's erection and the beginning of Benjamin's address are narrated as events within this scene. This follows the supplied chronology; the scene may show Benjamin speaking from the tower, but should not depict the writing's delivery as a separate episode."
       ]
     },
     "scene_005": {
@@ -26,10 +24,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Speakers are unnamed in these verses; the identified king may be shown addressing listeners, but his visual identity is unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -40,10 +36,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“A man called king” is awkwardly phrased; source establishes the speaker is the king whom listeners call their king, not that they newly call him king in this moment."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -54,20 +48,16 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is the same king in the continuous address; the generic label is conservative. The age inference is explicitly supported by the king’s statement that he is old."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "The note claiming that no preceding scene or information from Mosiah 2:30 is established contradicts the supplied preceding scene and source text. The address in verses 31–33 continues the speaker’s address in verse 30."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

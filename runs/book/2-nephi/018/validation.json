@@ -1,69 +1,71 @@
 {
-  "stamp": "d7f4e504c9a25ae90f184cee7be8938bf69e9c33dce0bb10355e871c2df54b66",
+  "stamp": "fe39775aeca93add02d3a51e6a956e0923014dbbac578e451e1316890d63b2c0",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses identify the first-person speaker only as “me” and “I”; they do not show Nephi present or identify him as the speaker. The character label and notes assert that unsupported identity."
+        "Narration/dialogue wording is exact, but character and scene staging should remain conservative: the verses do not establish Nephi's identity or a visible setting; the Lord must not be depicted."
       ]
     },
     "scene_002": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses do not show Nephi present or identify him as the first-person speaker. The character label and notes assert that unsupported identity.",
-        "The title implies the child was named, but the verse supplies only an instruction to name him."
+        "The speaker label Nephi is not identified in these verses. The prophetess and child are present only in the narrated report; the verses do not establish that they are present during the naming instruction."
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The forecast that Damascus's riches and Samaria's spoil will be taken is summarized accurately, but its phrasing as what will happen “before the child can say” is a paraphrase rather than the verse's exact wording. No future conquest should be depicted as a present scene."
+        "The scene identifies the first-person narrator as Nephi, but the supplied verses say only “me” and do not identify that speaker as Nephi. The note claiming the task explicitly identifies him is unsupported. The preceding scene repeats this identification but does not establish it."
       ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The Lord is explicitly said to speak again in verse 5, but verse 6 does not explicitly identify the speaker of these words; attributing the quoted verse 6 text directly to the Lord is a reasonable contextual inference, not an explicit attribution."
+        "These verses are prophecy using river imagery, not a present-tense event. The spoken dialogue excerpt is exact, but the forecast should not be staged as an actual flood or visible Assyrian army."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 8 says the king will pass through Judah and overflow it, but the summary calls the land “the land” and specifies “the king” as the one reaching to the neck; preserve the verse’s metaphorical wording and do not stage it as a literal flood or present event."
+        "The address and predicted breaking are not a present-tense gathering or battle. No addressed people or setting are identified for visual depiction. Dialogue excerpts are exact."
       ]
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speech in verses 9–10 is not explicitly attributed to the Lord; labeling the dialogue speaker as the Lord is unsupported. “Broken in pieces” and the counsel’s failure are prophetic statements, not present-tense events."
+        "The text identifies a first-person addressee but does not name or physically describe him; do not stage an identifiable speaker or visible Lord. The quoted fragments are exact."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verses 11–13 identify the Lord as speaking and instructing the speaker, but the quoted lines omit intervening wording; the excerpts themselves are exact and contiguous. Do not render “with a strong hand” as a visible hand."
+        "The sanctuary, stumbling stone, rock, snare, and falling are figurative teaching and prophecy, not a literal present-tense scene. No people are identified for depiction."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 14 does not explicitly identify the speaker of the quoted words. The stone, rock, and snare language is figurative; verse 15’s predicted stumbling and capture should not be staged as a present event."
+        "The first-person speaker is unnamed in these verses. The Lord's hiding his face is figurative, not a visible appearance; keep the binding and sealing as commands rather than completed actions."
       ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 16 gives the command without explicitly naming its speaker; attributing it to the Lord is a contextual inference. Verse 17 says the Lord hides his face, but this is not a description of a visible appearance."
+        "The verse identifies the speaker and children together but does not name them or describe their appearance or a present action. Mount Zion is mentioned as where the Lord dwells, not established as the speaker's scene location."
       ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 19 reports what people will say; it does not establish a present scene with advisers, spirits, or wizards. The two quoted excerpts are exact."
+      ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 19 reports what people will say, then gives a question, but does not explicitly identify the question’s speaker; assigning it to the Lord is unsupported. Verse 20 gives the law-and-testimony statement without explicit speaker attribution. Do not stage the reported advice or spirits as a present encounter."
+        "The summary and explicit facts accurately describe the foretold conditions. “Hardship” is a reasonable gloss on “hardly bestead,” but not an exact quotation.",
+        "The visual inference appropriately frames the actions as prophetic illustration rather than present events; darkness and anguish may be figurative, so avoid asserting a literal darkness scene. The king is mentioned but not described as present."
       ]
     }
   }

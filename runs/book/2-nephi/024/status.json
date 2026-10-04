@@ -4,21 +4,17 @@
   "verses": 32,
   "scenes": 14,
   "counts": {
-    "PASS": 12,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 1,
+    "PASS WITH WARNINGS": 13,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_008": [
-      "The doctrinal_or_story_notes identify Nephi as the narrator, but the supplied verses do not identify a narrator. This presents an unsupported speaker as fact."
-    ]
-  },
+  "rejected": {},
   "calls": 23,
   "tokens": {
-    "input_tokens": 70093,
-    "cached_input_tokens": 20352,
+    "input_tokens": 70351,
+    "cached_input_tokens": 16512,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7970,
-    "reasoning_output_tokens": 1658
+    "output_tokens": 7856,
+    "reasoning_output_tokens": 1191
   }
 }
