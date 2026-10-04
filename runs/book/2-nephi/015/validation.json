@@ -1,17 +1,16 @@
 {
-  "stamp": "5d4b652c46f977590924e1ab40fed3b480f246dc9071827844d30722d1437b11",
+  "stamp": "e75837831ebf9761819da4f0b3d9b9fc43b84f90a668686f7adf70448069147e",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not identify the first-person speaker as Nephi or show Nephi present. The summary, character list, and story note therefore attribute the song to an unsupported speaker.",
-        "The story note incorrectly claims that the user explicitly identified the first-person voice as Nephi."
+        "The supplied verses do not name Nephi or establish him as the speaker of the song; the character and dialogue attribution invent a speaker."
       ]
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "“A fruitful hill” is the vineyard’s setting, but the verses do not establish it as the speaker’s present location or the setting of the appeal."
+        "The supplied verses do not identify Nephi as the speaker. The first-person address about “my vineyard” cannot be attributed to him from this source."
       ]
     },
     "scene_003": {

@@ -6,22 +6,24 @@
       "2 Nephi 18:1",
       "2 Nephi 18:2"
     ],
-    "summary": "The word of the Lord instructs the narrator to take a great roll and write concerning Maher-shalal-hash-baz. The narrator reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
+    "summary": "The word of the Lord tells Nephi to take a great roll and write concerning Maher-shalal-hash-baz. Nephi reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "Uriah the priest",
+      "Zechariah the son of Jeberechiah"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The word of the Lord instructs the narrator to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
+        "text": "The word of the Lord tells Nephi to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:1"
         ]
       },
       {
-        "text": "The narrator reports taking faithful witnesses to record: Uriah the priest and Zechariah the son of Jeberechiah.",
+        "text": "Nephi reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
         "refs": [
           "2 Nephi 18:2"
         ]
@@ -29,8 +31,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The narrator’s appearance, clothing, and surroundings are unspecified.",
-      "The roll’s dimensions and material and the pen’s appearance are unspecified."
+      "The location and the characters’ appearances are unspecified.",
+      "The roll’s material and dimensions, the pen’s appearance, and how the word of the Lord was conveyed are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -43,6 +45,12 @@
     ],
     "narration": [
       {
+        "text": "Moreover, the word of the Lord said unto me:",
+        "refs": [
+          "2 Nephi 18:1"
+        ]
+      },
+      {
         "text": "And I took unto me faithful witnesses to record, Uriah the priest, and Zechariah the son of Jeberechiah.",
         "refs": [
           "2 Nephi 18:2"
@@ -50,16 +58,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the narrator label supplied by the user; these verses themselves identify the narrator only through first-person pronouns.",
-      "Keep the taking of witnesses as a narrated report, not a newly staged present-tense event.",
-      "The Lord’s quoted instruction does not establish a visible appearance."
+      "Nephi is the first-person narrator, as specified by the user.",
+      "Present the first narration quotation before the report about the witnesses, so the reader knows that “I” is the person addressed by the word of the Lord.",
+      "Keep the taking of witnesses as a narrated report rather than staging it during the instruction."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord visibly.",
-      "Do not depict the commanded writing as completed or underway.",
-      "Do not stage the witnesses as present during the Lord’s instruction; that simultaneity is not supplied.",
-      "Do not depict Maher-shalal-hash-baz or Jeberechiah as present.",
-      "Do not add the narrator’s name inside source quotations."
+      "Do not depict the commanded writing as underway or completed.",
+      "Do not place the witnesses at the time of the instruction.",
+      "Do not depict Maher-shalal-hash-baz or Jeberechiah as present."
     ],
     "importance": "normal"
   },
@@ -70,7 +77,7 @@
       "2 Nephi 18:3",
       "2 Nephi 18:4"
     ],
-    "summary": "The narrator reports going to the prophetess, who conceived and bore a son. The Lord instructs him to name the child Maher-shalal-hash-baz and foretells the taking of Damascus’s riches and Samaria’s spoil before the child can cry for his father and mother.",
+    "summary": "Nephi reports going to the prophetess, who conceived and bore a son. The Lord then tells him to name the child Maher-shalal-hash-baz and predicts that Damascus’s riches and Samaria’s spoil will be taken before the child knows how to cry for his father and mother.",
     "characters": [
       "Nephi",
       "The Lord (voice only)"
@@ -80,29 +87,29 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator reports going to the prophetess, who conceived and bore a son.",
+        "text": "Nephi reports going to the prophetess, who conceived and bore a son.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "The Lord tells the narrator to call the child Maher-shalal-hash-baz.",
+        "text": "The Lord tells Nephi to name the child Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "The Lord foretells that the riches of Damascus and the spoil of Samaria will be taken away before the king of Assyria before the child knows how to cry for his father and mother.",
+        "text": "The Lord predicts that the riches of Damascus and the spoil of Samaria will be taken before the king of Assyria before the child knows how to cry for his father and mother.",
         "refs": [
           "2 Nephi 18:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The naming instruction can be presented with the narrator listening, without depicting the Lord."
+      "Nephi may be shown listening during the Lord’s instruction, without depicting the Lord."
     ],
     "unspecified_visual_details": [
-      "The narrator’s appearance, clothing, and posture",
+      "Nephi’s appearance and clothing",
       "The setting of the naming instruction",
       "Whether the prophetess and child are present during the instruction"
     ],
@@ -128,19 +135,24 @@
         "refs": [
           "2 Nephi 18:3"
         ]
+      },
+      {
+        "text": "Then said the Lord to me:",
+        "refs": [
+          "2 Nephi 18:3"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied task identifies the first-person narrator as Nephi; these verses themselves do not name him. The character label follows that instruction.",
-      "Anchor the scene to the Lord’s naming instruction. Keep the earlier visit, conception, and birth as reported narration, not simultaneous visual events.",
+      "Present the reported visit, conception, and birth in narration before the Lord’s naming instruction.",
       "The taking of riches and spoil is a prediction, not an event occurring in this scene.",
-      "My father, and my mother is part of the Lord’s prediction, not dialogue spoken by the child."
+      "My father, and my mother is part of the Lord’s prediction, not speech by the child."
     ],
     "prohibited_inventions": [
       "Do not visibly depict the Lord; no appearance is described.",
-      "Do not dramatize the reported visit, conception, or birth as new present-tense action.",
-      "Do not depict the predicted taking of riches and spoil as occurring here.",
-      "Do not invent the prophetess’s name, a parental relationship for Nephi, or additional dialogue.",
+      "Do not dramatize the reported visit, conception, or birth as present-tense action.",
+      "Do not depict the predicted taking of riches and spoil.",
+      "Do not invent additional dialogue, the prophetess’s name, or a parental relationship for Nephi.",
       "Do not place the king of Assyria physically in the scene."
     ],
     "importance": "normal"
@@ -152,7 +164,7 @@
       "2 Nephi 18:5",
       "2 Nephi 18:6"
     ],
-    "summary": "The Lord speaks again to the narrator, saying that this people refuse the softly flowing waters of Shiloah and rejoice in Rezin and Remaliah’s son.",
+    "summary": "The Lord speaks again to Nephi, saying that this people refuse the softly flowing waters of Shiloah and rejoice in Rezin and Remaliah’s son.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -160,7 +172,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord speaks again unto the first-person narrator.",
+        "text": "The Lord speaks again to the first-person narrator.",
         "refs": [
           "2 Nephi 18:5"
         ]
@@ -175,7 +187,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The setting and the narrator’s physical appearance are unspecified.",
+      "The setting and Nephi’s physical appearance are unspecified.",
       "No visible appearance of the Lord is described.",
       "The people, Shiloah, Rezin, and Remaliah’s son are not established as visible during the speech."
     ],
@@ -197,15 +209,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The narrator is labeled Nephi according to the task’s explicit identification; these verses themselves say only “me.”",
-      "The people’s refusal and rejoicing are the content of the Lord’s speech, not separately staged events.",
-      "Narration and dialogue together remain below 65 words."
+      "The people’s refusal and rejoicing are reported in the Lord’s speech, not staged as present events."
     ],
     "prohibited_inventions": [
       "Do not invent a visible appearance of the Lord.",
       "Do not stage the people’s refusal or rejoicing as a contemporaneous event.",
       "Do not place Rezin or Remaliah’s son physically in the exchange.",
-      "Do not turn the waters imagery into a supernatural spectacle or invent its interpretation."
+      "Do not turn the waters into a supernatural spectacle or invent their interpretation."
     ],
     "importance": "normal"
   },

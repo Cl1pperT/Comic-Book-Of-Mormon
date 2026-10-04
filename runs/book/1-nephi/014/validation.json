@@ -1,5 +1,5 @@
 {
-  "stamp": "b696c2f617fc099ac3bab0a5d80f3650ff8318d8cb7ab0c6d5411eaca51cd153",
+  "stamp": "5550381d18eb6940d4fa3340527b7c7b4cf83ba175b420ec2b38188f54d1b23c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -42,8 +42,11 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The angel’s speech is an exact excerpt but ends with an em dash that the verse uses to continue into verse 17. Retain it only as a contiguous excerpt; the visual depiction may show the angel speaking after the wars begin.",
+        "The visual inference that the angel speaks after Nephi has beheld the wars follows the verse order, but the wars are reported as beginning rather than shown as a particular present-tense battle. Avoid depicting a specific battle or treating rumors as visible events."
+      ]
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",

@@ -1,5 +1,5 @@
 {
-  "stamp": "1dd08b941d136803f1fe216a36383ccffe696bbc7a8ebfb2dccc1b79e1b1620f",
+  "stamp": "2d95e274c26f919483b9ca860e1717f96db82469df4d141a2c3b5a8f9a770bab",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -28,7 +28,8 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is labeled unidentified, but the surrounding chapter frames Mosiah 3:11–12 within King Benjamin’s address (Mosiah 3:1); consider identifying King Benjamin as speaker."
+        "scene_007: The summary and explicit facts accurately reflect Mosiah 3:11–12, and the dialogue quotes are verbatim. The visual inference that King Benjamin may be shown speaking is reasonable from the teachings in context but not explicitly stated in these verses; any scene should keep this as an inference and not add a location or audience.",
+        "previous scene_006: It alters chronology by presenting the foretold events as narration in a way that may suggest a single scene; the notes correctly prohibit staging them together. Also, its summary says “He will rise from the dead on the third day,” while the source says “rise the third day from the dead.”"
       ]
     },
     "scene_008": {
@@ -50,16 +51,21 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Mosiah 3:22 addresses the person who will teach the people as “thou”; the first-person speaker of verses 22–23 is therefore not that addressee. The scene incorrectly assigns both quotations to King Benjamin and summarizes him as speaking them. The preceding scene repeats this attribution, but it does not make it supported by the supplied verses."
+      ]
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Visual depiction should remain limited to King Benjamin speaking; the verses do not specify his appearance or surroundings, and the references to a cup, lake of fire, and smoke are comparisons, not present visible events.",
+        "The preceding scene describes future judgment and consequences; do not stage those events as occurring now."
+      ]
     }
   }
 }

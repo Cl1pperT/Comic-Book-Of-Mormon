@@ -5,20 +5,16 @@
   "scenes": 21,
   "counts": {
     "PASS": 17,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 1
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_005": [
-      "Mosiah 12:8 does not identify the narrator as Mormon. The explicit_facts and doctrinal_or_story_notes invent that speaker attribution."
-    ]
-  },
-  "calls": 53,
+  "rejected": {},
+  "calls": 58,
   "tokens": {
-    "input_tokens": 382229,
-    "cached_input_tokens": 191360,
+    "input_tokens": 399798,
+    "cached_input_tokens": 209792,
     "cache_write_input_tokens": 0,
-    "output_tokens": 49948,
-    "reasoning_output_tokens": 20189
+    "output_tokens": 53197,
+    "reasoning_output_tokens": 21889
   }
 }

@@ -44,11 +44,11 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "The Angel Appears to Benjamin",
+    "title": "The Angel Stands Before Benjamin",
     "refs": [
       "Mosiah 3:2"
     ],
-    "summary": "Benjamin says an angel from God made these things known to him; in the account, the angel stood before him after he awoke.",
+    "summary": "Benjamin says an angel from God made things known to him. He recounts that the angel told him to awake; he awoke and saw the angel standing before him.",
     "characters": [
       "King Benjamin",
       "an angel from God"
@@ -58,38 +58,61 @@
     ],
     "explicit_facts": [
       {
-        "text": "Benjamin says the things he will tell the people were made known to him by an angel from God.",
+        "text": "An angel from God made known to Benjamin the things he says he will tell.",
         "refs": [
           "Mosiah 3:2"
         ]
       },
       {
-        "text": "Benjamin says he awoke and saw the angel standing before him.",
+        "text": "The angel told Benjamin to awake.",
+        "refs": [
+          "Mosiah 3:2"
+        ]
+      },
+      {
+        "text": "Benjamin awoke and saw the angel standing before him.",
         "refs": [
           "Mosiah 3:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The angel is standing before Benjamin in the remembered encounter."
+      "The angel can be shown standing before Benjamin after he awakes."
     ],
     "unspecified_visual_details": [
-      "The angel’s appearance, clothing, and the precise setting of the encounter."
+      "The angel’s appearance and clothing.",
+      "The precise setting of the encounter."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And he said unto me: Awake; and I awoke,",
+        "text": "And the things which I shall tell you are made known unto me by an angel from God.",
         "refs": [
           "Mosiah 3:2"
-        ]
+        ],
+        "speaker": "King Benjamin"
+      },
+      {
+        "text": "Awake;",
+        "refs": [
+          "Mosiah 3:2"
+        ],
+        "speaker": "an angel from God"
+      },
+      {
+        "text": "and I awoke, and behold he stood before me.",
+        "refs": [
+          "Mosiah 3:2"
+        ],
+        "speaker": "King Benjamin"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The angel’s appearance is not described."
+      "Benjamin recounts the encounter; the verse does not describe the angel’s appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific angelic form or add details to the remembered encounter."
+      "Do not invent the angel’s appearance or the setting.",
+      "Do not add actions or dialogue beyond the verse."
     ],
     "importance": "normal"
   },
@@ -379,9 +402,9 @@
       "Mosiah 3:11",
       "Mosiah 3:12"
     ],
-    "summary": "The speaker teaches whose sins are atoned for by his blood and warns that one who knowingly rebels against God can receive salvation only through repentance and faith on the Lord Jesus Christ.",
+    "summary": "King Benjamin teaches that his blood atones for those described in the verse and warns that one who knowingly rebels against God receives salvation only through repentance and faith on the Lord Jesus Christ.",
     "characters": [
-      "Unidentified speaker"
+      "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
@@ -398,9 +421,11 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "King Benjamin may be shown speaking."
+    ],
     "unspecified_visual_details": [
-      "The speaker's appearance and location."
+      "King Benjamin's appearance, the setting, and any audience."
     ],
     "spoken_dialogue": [
       {
@@ -408,31 +433,23 @@
         "refs": [
           "Mosiah 3:11"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
-        "text": "But wo, wo unto him who knoweth that he rebelleth against God!",
+        "text": "But wo, wo unto him who knoweth that he rebelleth against God! For salvation cometh to none such except it be through repentance and faith on the Lord Jesus Christ.",
         "refs": [
           "Mosiah 3:12"
         ],
-        "speaker": "Unidentified speaker"
-      },
-      {
-        "text": "For salvation cometh to none such except it be through repentance and faith on the Lord Jesus Christ.",
-        "refs": [
-          "Mosiah 3:12"
-        ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verses give teachings, not a visible account of atonement or salvation.",
-      "These verses do not identify the speaker or place of speaking."
+      "These verses present teachings, not visible accounts of atonement or salvation."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as an angel or depict King Benjamin from these verses alone.",
-      "Do not depict blood, judgment, or an afterlife as events occurring in this scene."
+      "Do not depict the atonement, judgment, or an afterlife as an event occurring in this scene.",
+      "Do not invent an audience, location, or additional speakers."
     ],
     "importance": "normal"
   },
@@ -508,40 +525,42 @@
       "Mosiah 3:17",
       "Mosiah 3:18"
     ],
-    "summary": "An unidentified speaker declares that little children are blessed, salvation comes only through Christ, and people must humble themselves and become as little children.",
+    "summary": "King Benjamin teaches that little children are blessed, salvation comes only through Christ, and people must humble themselves and believe in Christ’s atoning blood.",
     "characters": [
-      "Unidentified speaker"
+      "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says little children are blessed and the blood of Christ atones for their sins.",
+        "text": "King Benjamin says little children are blessed and Christ’s blood atones for their sins.",
         "refs": [
           "Mosiah 3:16"
         ]
       },
       {
-        "text": "The speaker says salvation comes only in and through the name of Christ, the Lord Omnipotent.",
+        "text": "He says salvation comes only through the name of Christ, the Lord Omnipotent.",
         "refs": [
           "Mosiah 3:17"
         ]
       },
       {
-        "text": "The speaker says Christ's judgment is just and an infant who dies in infancy does not perish.",
+        "text": "He says Christ’s judgment is just and an infant who dies in infancy does not perish.",
         "refs": [
           "Mosiah 3:18"
         ]
       },
       {
-        "text": "The speaker says people must humble themselves, become as little children, and believe in salvation through the atoning blood of Christ.",
+        "text": "He says people must humble themselves, become as little children, and believe in salvation through Christ’s atoning blood.",
         "refs": [
           "Mosiah 3:18"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "King Benjamin may be shown speaking."
+    ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance, the location, and any visible audience are unspecified in these verses."
+      "King Benjamin’s appearance, the setting, and any audience are unspecified in these verses."
     ],
     "spoken_dialogue": [
       {
@@ -549,37 +568,37 @@
         "refs": [
           "Mosiah 3:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "only in and through the name of Christ, the Lord Omnipotent.",
         "refs": [
           "Mosiah 3:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "and the infant perisheth not that dieth in his infancy;",
         "refs": [
           "Mosiah 3:18"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "except they humble themselves and become as little children,",
         "refs": [
           "Mosiah 3:18"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses present teachings, not narrated visible events.",
+      "These verses give teachings, not narrated visible events.",
       "The possibility of little children sinning is conditional, not a narrated event."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as an angel or Mormon.",
+      "Do not label the speech as Mormon’s or the angel’s.",
       "Do not depict Christ or Adam as physically present.",
       "Do not depict an infant dying or people drinking damnation as events.",
       "Do not invent a setting, audience, or literal enactment of these teachings."
@@ -657,28 +676,30 @@
       "Mosiah 3:20",
       "Mosiah 3:21"
     ],
-    "summary": "An unidentified speaker foretells that knowledge of the Savior will spread and speaks of blamelessness before God when that time comes.",
+    "summary": "King Benjamin foretells that knowledge of the Savior will spread throughout every nation, kindred, tongue, and people. He speaks of who will be found blameless before God when that time comes.",
     "characters": [
-      "Unidentified speaker"
+      "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the knowledge of the Savior shall spread throughout every nation, kindred, tongue, and people.",
+        "text": "King Benjamin says that the knowledge of the Savior shall spread throughout every nation, kindred, tongue, and people.",
         "refs": [
           "Mosiah 3:20"
         ]
       },
       {
-        "text": "The speaker says that when that time comes, none shall be found blameless before God except little children, only through repentance and faith on the name of the Lord God Omnipotent.",
+        "text": "King Benjamin says that when that time comes, none shall be found blameless before God except little children, only through repentance and faith on the name of the Lord God Omnipotent.",
         "refs": [
           "Mosiah 3:21"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "King Benjamin is addressing listeners, as indicated by “I say unto you.”"
+    ],
     "unspecified_visual_details": [
-      "The verses do not specify a setting, the speaker's appearance, or a visible audience."
+      "The verses do not specify the setting, King Benjamin's appearance, or his listeners' appearance."
     ],
     "spoken_dialogue": [
       {
@@ -686,27 +707,25 @@
         "refs": [
           "Mosiah 3:20"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "And behold, when that time cometh, none shall be found blameless before God, except it be little children, only through repentance and faith on the name of the Lord God Omnipotent.",
         "refs": [
           "Mosiah 3:21"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not identify the speaker; the first-person speech is not Mormon's narration.",
       "The spread of knowledge and the time described in verse 21 are foretold, not present events.",
       "Do not resolve the relationship between the exception for little children and the final clause beyond the verse's wording."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as an angel or invent the speaker's appearance.",
-      "Do not stage the foretold events as occurring now.",
+      "Do not depict the foretold events as occurring now.",
       "Do not depict God, the Savior, little children, or the nations as physically present.",
-      "Do not add dialogue or doctrinal explanations."
+      "Do not invent a setting, appearances, additional dialogue, or doctrinal explanations."
     ],
     "importance": "normal"
   },
@@ -717,35 +736,36 @@
       "Mosiah 3:22",
       "Mosiah 3:23"
     ],
-    "summary": "An unidentified speaker addresses an unidentified person about what will be true when that person has taught their people the things the Lord commanded. The speaker says he has spoken the words the Lord God commanded him.",
+    "summary": "King Benjamin continues the address, relating the people's accountability after receiving the commanded teachings, and states that he has spoken the words the Lord God commanded him.",
     "characters": [
-      "Unidentified speaker",
-      "Unidentified addressee"
+      "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker addresses someone who is to teach their people the things the Lord their God commanded them.",
+        "text": "The address refers to the time when the addressee will have taught the people what the Lord their God commanded.",
         "refs": [
           "Mosiah 3:22"
         ]
       },
       {
-        "text": "The speaker says that, even then, the people are found no more blameless in God's sight, only according to the words the speaker has spoken.",
+        "text": "The people are then found no more blameless in God's sight, only according to the words spoken to the addressee.",
         "refs": [
           "Mosiah 3:22"
         ]
       },
       {
-        "text": "The speaker says he has spoken the words the Lord God commanded him.",
+        "text": "King Benjamin states that he has spoken the words the Lord God commanded him.",
         "refs": [
           "Mosiah 3:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "King Benjamin may be shown continuing the established address."
+    ],
     "unspecified_visual_details": [
-      "The identities and appearances of the speaker and addressee.",
+      "King Benjamin's appearance, posture, and gestures.",
       "The location and physical staging."
     ],
     "spoken_dialogue": [
@@ -754,26 +774,27 @@
         "refs": [
           "Mosiah 3:22"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "And now I have spoken the words which the Lord God hath commanded me.",
         "refs": [
           "Mosiah 3:23"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The teaching of the people is referred to as future, not narrated as occurring here.",
-      "These verses do not identify the speaker or addressee or describe a visible appearance."
+      "King Benjamin's speaker label preserves the established continuity specified in the audit correction; these two verses do not independently name him.",
+      "The first-person speech is not assigned to Mormon.",
+      "The referenced teaching and accountability are contents of the address, not separate events to stage."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as an angel or the addressee as Benjamin.",
-      "Do not stage the referenced teaching as a present event.",
-      "Do not invent a visible appearance for the Lord God, an arrival, departure, audience reaction, or additional dialogue.",
-      "Do not assign this speech to Mormon."
+      "Do not replace King Benjamin with an unidentified speaker or assign this speech to Mormon.",
+      "Do not stage a separate encounter with the addressee referenced in the speech.",
+      "Do not depict the referenced teaching as a new present-tense event.",
+      "Do not invent a visible appearance for the Lord God, additional dialogue, or audience reactions."
     ],
     "importance": "normal"
   },
@@ -846,34 +867,34 @@
       "Mosiah 3:26",
       "Mosiah 3:27"
     ],
-    "summary": "An unidentified speaker speaks of an unidentified “they” in terms of God's wrath, justice, mercy, and torment. The speaker compares their torment to a lake of fire and brimstone, says the Lord commanded the speaker, and ends with Amen.",
+    "summary": "King Benjamin speaks of God's wrath, justice, mercy, and torment. He compares torment to a lake of fire and brimstone, says the Lord commanded him, and ends with Amen.",
     "characters": [
-      "Unidentified speaker"
+      "King Benjamin"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker says “they” have drunk from the cup of God's wrath; the supplied verses do not identify whom “they” refers to.",
+        "text": "King Benjamin says that “they” have drunk from the cup of God's wrath; these verses do not identify “they.”",
         "refs": [
           "Mosiah 3:26"
         ]
       },
       {
-        "text": "The speaker compares justice's inability to deny this to Adam's fall after partaking of the forbidden fruit, and says mercy can claim “them” no more forever.",
+        "text": "He compares justice's inability to deny them to Adam's fall after partaking of the forbidden fruit, and says mercy can claim them no more forever.",
         "refs": [
           "Mosiah 3:26"
         ]
       },
       {
-        "text": "The speaker compares their torment to a lake of fire and brimstone with unquenchable flames and smoke ascending forever.",
+        "text": "He compares their torment to a lake of fire and brimstone with unquenchable flames and smoke ascending forever.",
         "refs": [
           "Mosiah 3:27"
         ]
       },
       {
-        "text": "The speaker says the Lord commanded the speaker and ends with Amen.",
+        "text": "He says the Lord commanded him and ends with Amen.",
         "refs": [
           "Mosiah 3:27"
         ]
@@ -881,9 +902,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
-      "The speaker's surroundings.",
-      "The referent of “they” and “them”."
+      "King Benjamin's appearance and surroundings.",
+      "The identity and appearance of those called “they” and “them.”"
     ],
     "spoken_dialogue": [
       {
@@ -891,38 +911,38 @@
         "refs": [
           "Mosiah 3:26"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "therefore, mercy could have claim on them no more forever.",
         "refs": [
           "Mosiah 3:26"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "And their torment is as a lake of fire and brimstone, whose flames are unquenchable, and whose smoke ascendeth up forever and ever.",
         "refs": [
           "Mosiah 3:27"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       },
       {
         "text": "Thus hath the Lord commanded me. Amen.",
         "refs": [
           "Mosiah 3:27"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
       "The lake of fire and brimstone is a comparison for torment, not a narrated visible place.",
       "Adam's fall is mentioned as a comparison, not narrated as occurring here.",
-      "The command from the Lord is reported by the speaker, not shown occurring here."
+      "The Lord's command is reported, not shown occurring here."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker or “they” an identity.",
+      "Do not identify “they” or “them.”",
       "Do not depict a literal cup of wrath or lake of fire, flames, smoke, or people undergoing torment.",
       "Do not depict Adam's fall or the Lord's command as occurring in this scene."
     ],

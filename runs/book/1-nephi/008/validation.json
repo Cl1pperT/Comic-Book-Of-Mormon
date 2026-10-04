@@ -1,5 +1,5 @@
 {
-  "stamp": "3b5f692a22a4d5f0b1776f241e3b8ec012f1db00f5cb400beaeb77c4d0fd72e1",
+  "stamp": "2383222628f2e4e13ef3f0a68f260689f480c617b41e74c1d15447d54f1022c3",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Summary assigns speech to Lehi and says he is addressing his sons, but verse 2 only identifies the speaker as “my father” and the audience as “us”; the summary could be precise to those terms."
+        "The quoted dialogue excerpts are accurate but omit Lehi's reported words of rejoicing and fear; the narration excerpts convey those facts instead."
       ]
     },
     "scene_003": {
@@ -16,12 +16,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "The narrator of 1 Nephi 8 is Lehi, not Nephi; the supplied verses say Lehi speaks of his dream, and the first-person narrator continues through verses 7–8. Labeling him Nephi and saying Nephi follows someone invents the speaker/actor.",
-        "The source says the man bade the narrator to follow him; it does not say the person remained unidentified in the scene as a distinct present character after that. The character listing risks implying continued presence, which the scene itself leaves unspecified.",
-        "The summary says he “begins to pray … for mercy,” while the verse reports a prayer seeking mercy, not direct spoken dialogue; this is acceptable as summary but the narrative presentation should preserve the reported-event framing."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -30,76 +26,86 @@
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The request's established-character convention supports labeling the first-person narrator as Nephi, but the supplied verses do not name the narrator in this passage; the character attribution is therefore an editorial inference."
+        "The account is retrospective; the visual must not present the reported partaking as a new present-time event. The family is not shown in this moment."
       ]
     },
     "scene_007": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says the narrator sees Sariah, Sam, and Nephi standing at the river’s head, but the supplied verse does not establish the first-person narrator as Nephi. The character label and story note assert this identification using information outside the supplied verses.",
-        "The explicit fact that the narrator is Nephi likewise lacks support in the supplied source. The source itself names Nephi among those observed, but does not identify the narrator."
+        "Scene's description treats the account as the observer's (Lehi's) view, while the previous scene depicts Nephi's first-person account; avoid implying an uninterrupted viewpoint or chronology.",
+        "“The river’s head” and “a little way off” are supported; broader framing of a continuous landscape is a visual choice, not specified."
       ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The suggestion that Lehi gestures toward himself or the tree is an uncertain visual inference; the text only says he beckoned."
+      ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lehi is not named within verses 17–18; the first-person observer can be carried forward from the preceding Lehi dream account, but the scene should mark that continuity as contextual rather than explicit within these verses."
+        "scene_009: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on the chapter context and previous scene. The specified field note acknowledges this uncertainty."
       ]
     },
     "scene_010": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene misidentifies the first-person observer as Nephi. The supplied verses continue Lehi’s account; it is Lehi who stands by the tree. Nephi is not shown in these verses.",
-        "The summary and explicit facts wrongly place Nephi at the tree and make him behold the rod and path."
+        "scene_010: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on chapter context. The specified field note acknowledges this uncertainty."
       ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Lehi is not named in verses 21–22; identifying the observer as Lehi relies on continuity from the preceding first-person dream account, not explicit naming in these verses."
+        "scene_011: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on chapter context. The specified note acknowledges this uncertainty."
       ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene omits that the mist was exceedingly great, a detail explicitly stated in the verse."
+      ]
     },
     "scene_013": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Identifies the first-person observer as Nephi in the summary and character list, but verses 24–25 do not name the observer."
+        "The scene does not identify the observer; the surrounding account establishes Lehi as the observer of the vision."
       ]
     },
     "scene_014": {
-      "status": "REJECT",
-      "issues": [
-        "Identifies the first-person observer as Nephi in the summary and character list, but verses 26–27 do not name the observer."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Lehi is not named in verse 28. The events are accurately summarized, but identifying the narrator/observer as Lehi would rely on continuity beyond the verse; the scene correctly avoids that attribution."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The location 'large and spacious field' is not stated in the cited verses for this event."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify whether those drowned or lost from view belong to the multitudes feeling their way toward the building; the scene correctly flags this as unspecified. The fountain and strange roads are described in verse 32, but the verses do not establish where they lie relative to the building or one another."
+      ]
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The strange building” is supported, but its visual appearance and interior are unspecified and should remain undesigned as fact.",
+        "Lehi’s words identify the scorners as a multitude; the exact people shown pointing and their positions are not specified.",
+        "“These are the words of my father:” is exact source text, but is Nephi’s narration, not Lehi’s spoken dialogue. Keep it as a caption.",
+        "The prior scene reports separate outcomes—drowning and becoming lost—so do not visually combine them with this scene’s building episode or imply the same people are involved."
+      ]
     },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Nephi is not identified as present when Lehi exhorts Laman and Lemuel; the text says Lehi spoke 'unto us' but does not specify who was present."
+      ]
     }
   }
 }

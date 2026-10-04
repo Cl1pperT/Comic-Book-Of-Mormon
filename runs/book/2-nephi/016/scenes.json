@@ -6,7 +6,7 @@
       "2 Nephi 16:1",
       "2 Nephi 16:2"
     ],
-    "summary": "In the year that king Uzziah died, Nephi sees the Lord sitting upon a throne, high and lifted up, his train filling the temple. Seraphim stand above it, each with six wings: two covering his face, two covering his feet, and two used to fly.",
+    "summary": "In the year king Uzziah died, Nephi sees the Lord sitting upon a high throne, with his train filling the temple. Seraphim stand above it; each has six wings, covering his face and feet with two wings each and flying with two.",
     "characters": [
       "Nephi",
       "The Lord",
@@ -17,38 +17,32 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator sees the Lord sitting upon a throne, high and lifted up, in the year that king Uzziah died; the Lord's train fills the temple.",
+        "text": "In the year king Uzziah died, the first-person narrator saw the Lord sitting upon a throne, high and lifted up, and the Lord's train filled the temple.",
         "refs": [
           "2 Nephi 16:1"
         ]
       },
       {
-        "text": "The seraphim's position is described as \"Above it\" without repeating the referent.",
-        "refs": [
-          "2 Nephi 16:2"
-        ]
-      },
-      {
-        "text": "Each seraph has six wings: two cover his face, two cover his feet, and two are used to fly.",
+        "text": "Seraphim stood above it. Each had six wings: two covered his face, two covered his feet, and two were used to fly.",
         "refs": [
           "2 Nephi 16:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The throne appears elevated within the temple.",
-      "Positioning the seraphim above the throne reasonably interprets the phrase \"Above it\"."
+      "The throne appears elevated."
     ],
     "unspecified_visual_details": [
+      "The referent of “it” in “Above it stood the seraphim” is not explicit.",
       "The Lord's facial features and other physical characteristics are unspecified.",
-      "The number of seraphim and their appearance beyond the described wings, faces, and feet are unspecified.",
-      "Temple architecture, throne design, colors, and lighting are unspecified.",
+      "The number of seraphim is unspecified.",
+      "The temple's architecture, the throne's design, colors, and lighting are unspecified.",
       "Nephi's appearance and viewing position are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.",
+        "text": "In the year that king Uzziah died, I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.",
         "refs": [
           "2 Nephi 16:1"
         ]
@@ -61,16 +55,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The task explicitly identifies the first-person narrator as Nephi; the verses do not independently name him.",
-      "King Uzziah's death establishes the year, not a separate event to depict.",
-      "The Lord's visible depiction is authorized by the narrated sight, limited to the appearance actually described.",
-      "Combined narration and dialogue total 48 words."
+      "The user identifies the first-person narrator as Nephi.",
+      "King Uzziah's death establishes the year; it is not a separate scene here."
     ],
     "prohibited_inventions": [
       "Do not depict king Uzziah's death or place him in the temple.",
-      "Do not invent dialogue, additional events, or additional divine appearances.",
-      "Do not assign undescribed features to the Lord or seraphim as source-established facts.",
-      "Do not assert a specific physical position for Nephi."
+      "Do not invent dialogue or additional events.",
+      "Do not present undescribed features of the Lord or seraphim as source-established facts.",
+      "Do not assign Nephi a specific viewing position or treat the referent of “it” as certain."
     ],
     "importance": "normal"
   },
@@ -359,7 +351,7 @@
       "2 Nephi 16:9",
       "2 Nephi 16:10"
     ],
-    "summary": "An unidentified speaker tells an unidentified addressee to deliver a message to this people about hearing without understanding and seeing without perceiving. The speaker then gives an instruction concerning their hearts, ears, and eyes.",
+    "summary": "A speaker tells an addressee to deliver a message to this people about their lack of understanding and perception, then gives an instruction concerning their hearts, ears, and eyes.",
     "characters": [
       "Unidentified speaker",
       "Unidentified addressee"
@@ -367,13 +359,13 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Someone speaks and instructs an addressee to tell this people a message.",
+        "text": "A speaker instructs an addressee to tell this people a message.",
         "refs": [
           "2 Nephi 16:9"
         ]
       },
       {
-        "text": "The message says the people heard without understanding and saw without perceiving.",
+        "text": "The message says the people did not understand or perceive.",
         "refs": [
           "2 Nephi 16:9"
         ]
@@ -386,10 +378,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses someone, but the addressee is not identified."
+      "The speaker addresses someone, but these verses do not identify either person."
     ],
     "unspecified_visual_details": [
-      "The verses give no location or physical descriptions.",
+      "No location or physical appearance is specified.",
       "The verses do not say that this people are physically present."
     ],
     "spoken_dialogue": [
@@ -417,13 +409,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the chapter's narrator, but these verses do not identify the speaker or addressee.",
-      "The language about hearts, ears, and eyes is spoken instruction, not a narrated physical change."
+      "Nephi is the chapter's narrator, but the supplied verses do not identify the speaker or addressee.",
+      "The language concerning hearts, ears, and eyes is spoken instruction, not a narrated physical change."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as the Lord or the addressee as Nephi.",
-      "Do not invent physical appearances or a location.",
-      "Do not depict physical changes to hearts, ears, or eyes, or show conversion or healing occurring.",
+      "Do not identify the speaker as the Lord or the addressee as Nephi from these verses alone.",
+      "Do not invent appearances or a location.",
+      "Do not depict physical changes, conversion, or healing as occurring.",
       "Do not depict this people as present in the exchange."
     ],
     "importance": "normal"
@@ -435,7 +427,7 @@
       "2 Nephi 16:11",
       "2 Nephi 16:12"
     ],
-    "summary": "Nephi asks how long. The Lord answers by describing uninhabited cities and houses, an utterly desolate land, men removed far away, and a great forsaking.",
+    "summary": "Nephi asks the Lord how long. The Lord answers with a description of deserted cities and houses, a desolate land, men removed far away, and a great forsaking.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -443,13 +435,13 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The first-person speaker asks the Lord how long.",
+        "text": "Nephi asks the Lord how long.",
         "refs": [
           "2 Nephi 16:11"
         ]
       },
       {
-        "text": "The answer describes cities without inhabitants, houses without people, and an utterly desolate land.",
+        "text": "The Lord answers that cities will be without inhabitants, houses without people, and the land desolate.",
         "refs": [
           "2 Nephi 16:11"
         ]
@@ -493,8 +485,8 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied task explicitly identifies the chapter's first-person narrator as Nephi; the verses themselves do not name him.",
-      "Desolation, removal, and forsaking are described in the answer, not narrated as occurring during this exchange."
+      "The supplied task identifies the first-person narrator as Nephi.",
+      "Desolation, removal, and forsaking are described in the answer, not narrated as occurring during the exchange."
     ],
     "prohibited_inventions": [
       "Do not depict the described desolation, removal, or forsaking as present action.",

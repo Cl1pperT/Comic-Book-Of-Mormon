@@ -1,13 +1,15 @@
 {
-  "stamp": "4a5b0ba4bc01f23f902d25844a7878bf98ad8b16d89437946968ca17784ca3c8",
+  "stamp": "1180a14cff28bc6f4a0ca19346c3892d0777e7efd78e2609fffb638176a93cc1",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration, explicit facts, and description that the body has not yet been placed in the sepulchre are supported. Keep the body and sepulchre as a distinct earlier event from the queen's later conversation with Ammon; the summary correctly separates these events."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -30,12 +32,19 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “the woman” is supported by her described role and actions, but the verse does not name her. The scene appropriately warns against naming her.",
+        "“The people” are present as recipients of her announcement, but their appearance and individual identities are unspecified."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“The multitude” is supported, but its size and arrangement are unspecified.",
+        "Verse 20 gives verbatim speech by “others”; the scene assigns it accordingly. The verse 19 murmuring is reported indirectly, not quoted as dialogue.",
+        "The earlier flock-scattering and deaths at Sebus are backstory only and should not be depicted as present events."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -46,8 +55,12 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's explicit facts are accurate, but «perhaps to raise her from the ground» is the source narrator's uncertainty, not an established motive; preserve it only as quoted narration, not as a visual fact. The ground position is a reasonable inference from this verse.",
+        "The narration and dialogue are exact contiguous excerpts; combined word count is within 65 words. Hell is referenced only in dialogue, not depicted.",
+        "The previous scene's contention and the queen's rising are consecutive events in the source; the scene does not incorrectly combine separate times. The woman's identity and setting remain unspecified."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -62,8 +75,12 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“A baptism may represent the stated baptisms” is a reasonable but underspecified visual inference; the verses do not give the setting or method.",
+        "Narration is an exact contiguous excerpt from Alma 19:36, within the 65-word limit. Its doctrinal language is narration, not scene dialogue.",
+        "The preceding scene reports angel encounters; this scene does not depict them, preserving chronology."
+      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "f93f23ae29c6e5f6d93ebb713df88e3c22f0ba11830775716c8ee1c496d23b33",
+  "stamp": "3a8a1e34177f77459116cd2cc7681bfe1e03b39f965cea8843f85b65dd05a28d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is labeled unidentified even though the preceding scene explicitly identifies Abinadi as the one prophesying; the scene does not invent a different identity, but this leaves continuity unclear."
+        "The second dialogue excerpt combines Abinadi's introduction with the Lord's reported command, so its single speaker label (Abinadi) is ambiguous; the Lord is not shown as physically present."
       ]
     },
     "scene_003": {
@@ -23,18 +23,18 @@
       ]
     },
     "scene_005": {
-      "status": "REJECT",
-      "issues": [
-        "Mosiah 12:8 does not identify the narrator as Mormon. The explicit_facts and doctrinal_or_story_notes invent that speaker attribution."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "King Noah is identified as the addressee by linking the reported “thy life” prophecy in verses 10–12 to verse 3; that identification is contextual rather than explicit in this scene’s cited verses."
+      ]
     },
     "scene_008": {
       "status": "PASS",

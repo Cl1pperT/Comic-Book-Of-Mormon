@@ -1,11 +1,9 @@
 {
-  "stamp": "306ce71c865f18ba895dfc6059c00592b01333eb3303fe2588943773f7b966fc",
+  "stamp": "0333006ccadcef7b6821e35c76bca240b6e39b279123cd3a75e6dd24d820726a",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied verses do not identify the first-person narrator as Nephi. The summary and character list assign him the vision, and the story note incorrectly claims that the task establishes this identity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -27,17 +25,12 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses do not identify the speaker or addressee; their identities remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "2 Nephi 16:11 does not identify the first-person speaker as Nephi. The summary, character list, visual inference, and dialogue attribution present that identification as fact.",
-        "The preceding scene leaves the addressee unidentified; naming him Nephi here changes that identification without support from the supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

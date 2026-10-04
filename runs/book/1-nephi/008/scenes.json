@@ -197,23 +197,23 @@
       "1 Nephi 8:7",
       "1 Nephi 8:8"
     ],
-    "summary": "Nephi follows someone and finds himself in a dark and dreary waste. After traveling many hours in darkness, he begins to pray to the Lord for mercy.",
+    "summary": "Nephi reported following someone and finding himself in a dark and dreary waste. After many hours of travel in darkness, he began to pray to the Lord for mercy.",
     "characters": [
       "Nephi",
-      "unidentified person Nephi follows"
+      "unidentified person followed"
     ],
     "locations": [
       "dark and dreary waste"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi follows someone and finds himself in a dark and dreary waste.",
+        "text": "Nephi followed someone and found himself in a dark and dreary waste.",
         "refs": [
           "1 Nephi 8:7"
         ]
       },
       {
-        "text": "After traveling many hours in darkness, Nephi begins to pray to the Lord for mercy.",
+        "text": "After traveling many hours in darkness, Nephi began to pray to the Lord for mercy according to the multitude of the Lord's tender mercies.",
         "refs": [
           "1 Nephi 8:8"
         ]
@@ -223,13 +223,13 @@
       "Darkness limits visibility."
     ],
     "unspecified_visual_details": [
-      "Terrain, clothing, physical appearances, prayer posture, and time of day.",
-      "Whether the person Nephi follows remains visible after the many hours of travel."
+      "The terrain, clothing, physical appearance, and prayer posture are not specified.",
+      "The person followed is not identified, and their whereabouts during the prayer are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that as I followed him I beheld myself that I was in a dark and dreary waste.",
+        "text": "as I followed him I beheld myself that I was in a dark and dreary waste.",
         "refs": [
           "1 Nephi 8:7"
         ]
@@ -242,15 +242,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the narrator label specified in the request.",
-      "The many hours of travel precede the prayer.",
-      "The prayer is reported, not quoted as direct speech."
+      "Use Nephi as the first-person narrator as specified in the request.",
+      "Keep the account retrospective; the many hours of travel precede the prayer.",
+      "The verse reports the prayer's purpose but does not provide its spoken words."
     ],
     "prohibited_inventions": [
-      "Do not identify the person Nephi follows.",
-      "Do not invent words for Nephi's prayer.",
-      "Do not depict the Lord appearing or responding.",
-      "Do not add events or identities from outside the supplied verses."
+      "Do not replace Nephi with Lehi or add a dream framework from outside the supplied verses.",
+      "Do not identify the person followed or place that person beside Nephi during the prayer.",
+      "Do not invent spoken words for the prayer or depict the Lord appearing or responding."
     ],
     "importance": "normal"
   },
@@ -318,6 +317,7 @@
       "Do not depict the earlier prayer as occurring during the viewing of the field and tree.",
       "Do not depict the Lord or invent a supernatural glow.",
       "Do not show anyone eating the fruit or experiencing happiness from eating it.",
+      "Do not change “I” to “my father” within the quoted narration.",
       "Do not import events from unsupplied verses."
     ],
     "importance": "normal"
@@ -329,39 +329,39 @@
       "1 Nephi 8:11",
       "1 Nephi 8:12"
     ],
-    "summary": "The first-person narrator goes forth and partakes of the fruit. He finds it sweeter and whiter than anything he has tasted or seen before. It fills him with exceedingly great joy, and he desires that his family partake also.",
+    "summary": "Nephi recounted going forth and partaking of fruit that he found sweeter and whiter than any he had previously tasted or seen. Partaking filled him with exceedingly great joy, and he desired that his family partake of it also.",
     "characters": [
       "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The first-person narrator goes forth and partakes of the fruit.",
+        "text": "Nephi went forth and partook of the fruit.",
         "refs": [
           "1 Nephi 8:11"
         ]
       },
       {
-        "text": "The fruit is sweeter than anything he has tasted before and whiter than anything he has seen before.",
+        "text": "He found the fruit sweeter than anything he had previously tasted and whiter than anything he had previously seen.",
         "refs": [
           "1 Nephi 8:11"
         ]
       },
       {
-        "text": "Partaking of the fruit fills his soul with exceedingly great joy.",
+        "text": "Partaking filled his soul with exceedingly great joy.",
         "refs": [
           "1 Nephi 8:12"
         ]
       },
       {
-        "text": "He desires that his family partake of the fruit also, knowing it is desirable above all other fruit.",
+        "text": "He desired that his family partake of the fruit also.",
         "refs": [
           "1 Nephi 8:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The narrator may show joy while partaking of the fruit."
+      "Nephi could appear joyful while partaking of the fruit."
     ],
     "unspecified_visual_details": [
       "The fruit's species, shape, and size.",
@@ -372,6 +372,12 @@
     "narration": [
       {
         "text": "I did go forth and partake of the fruit thereof;",
+        "refs": [
+          "1 Nephi 8:11"
+        ]
+      },
+      {
+        "text": "it was most sweet, above all that I ever before tasted.",
         "refs": [
           "1 Nephi 8:11"
         ]
@@ -396,8 +402,9 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is identified as the first-person narrator by the user instruction, not by the supplied verse text.",
-      "The desire for his family to partake is internal; these verses do not place his family in the scene."
+      "The account is retrospective; do not present the reported actions as a new present-time event.",
+      "His desire for his family to partake does not place them in the depicted moment.",
+      "The user identifies the first-person narrator as Nephi; the verses do not name him."
     ],
     "prohibited_inventions": [
       "Do not depict family members arriving or partaking.",
@@ -415,11 +422,12 @@
       "1 Nephi 8:13",
       "1 Nephi 8:14"
     ],
-    "summary": "The narrator looks around for his family and sees a river running near the tree whose fruit he is partaking. At the river’s head, a little way off, he sees Sariah, Sam, and Nephi standing as if they do not know where to go.",
+    "summary": "The first-person observer looks around for his family and sees a river running near the tree. Looking toward its head, he sees Sariah, Sam, and Nephi standing there as if they do not know where to go.",
     "characters": [
-      "Nephi",
+      "Lehi",
       "Sariah",
-      "Sam"
+      "Sam",
+      "Nephi"
     ],
     "locations": [
       "The tree near the river",
@@ -427,67 +435,63 @@
     ],
     "explicit_facts": [
       {
-        "text": "The narrator looks around, hoping to find his family.",
+        "text": "The observer looks around, hoping to find his family.",
         "refs": [
           "1 Nephi 8:13"
         ]
       },
       {
-        "text": "A river runs near the tree whose fruit the narrator is partaking.",
+        "text": "He sees a river running near the tree whose fruit he is partaking.",
         "refs": [
           "1 Nephi 8:13"
         ]
       },
       {
-        "text": "The river’s head is a little way off.",
+        "text": "He sees the river’s head a little way off.",
         "refs": [
           "1 Nephi 8:14"
         ]
       },
       {
-        "text": "The narrator sees Sariah, Sam, and Nephi at the river’s head; they stand as if they do not know where to go.",
+        "text": "He sees Sariah, Sam, and Nephi at the river’s head, standing as if they do not know where to go.",
         "refs": [
           "1 Nephi 8:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group’s stance may convey apparent uncertainty without establishing their thoughts."
+      "A view from the observer’s position can show the river and its head a little way off.",
+      "The three figures’ stance may convey apparent uncertainty without establishing their thoughts."
     ],
     "unspecified_visual_details": [
-      "The river’s size and appearance",
+      "The river’s width, depth, and appearance",
       "The tree’s and fruit’s appearance",
-      "Clothing, ages, and physical features",
+      "Clothing and physical features",
       "Surrounding terrain and lighting"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I beheld a river of water;",
+        "text": "I beheld a river of water; and it ran along, and it was near the tree of which I was partaking the fruit.",
         "refs": [
           "1 Nephi 8:13"
         ]
       },
       {
-        "text": "and at the head thereof I beheld your mother Sariah, and Sam, and Nephi;",
-        "refs": [
-          "1 Nephi 8:14"
-        ]
-      },
-      {
-        "text": "and they stood as if they knew not whither they should go.",
+        "text": "and at the head thereof I beheld your mother Sariah, and Sam, and Nephi; and they stood as if they knew not whither they should go.",
         "refs": [
           "1 Nephi 8:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied identification names the first-person narrator Nephi, while verse 14 also names Nephi among those observed. Preserve both statements without inventing an explanation or depicting two Nephis.",
-      "“As if” describes apparent uncertainty, not confirmed thoughts."
+      "The observer sees Nephi; do not depict Nephi as both observer and person seen.",
+      "“As if” describes apparent uncertainty, not confirmed thoughts.",
+      "Do not frame this account as a seamless continuation of Nephi’s viewing in the preceding scene."
     ],
     "prohibited_inventions": [
-      "Do not rename the narrator or invent a second Nephi.",
-      "Do not add dialogue, gestures, destinations, or motives.",
+      "Do not depict two Nephis.",
+      "Do not add dialogue, destinations, gestures, or motives.",
       "Do not add a divine appearance or a storytelling setting."
     ],
     "importance": "normal"
@@ -559,34 +563,34 @@
       "1 Nephi 8:17",
       "1 Nephi 8:18"
     ],
-    "summary": "Lehi desires Laman and Lemuel to come and partake of the fruit. He looks toward the head of the river and sees them, but they do not come to him or partake of the fruit.",
+    "summary": "Nephi wants Laman and Lemuel to partake of the fruit. He looks toward the head of the river and sees them, but they do not come to him or partake of the fruit.",
     "characters": [
-      "Lehi",
+      "Nephi",
       "Laman",
       "Lemuel"
     ],
     "locations": [
-      "head of the river (direction of Lehi's gaze)"
+      "toward the head of the river"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi desires Laman and Lemuel to come and partake of the fruit and looks toward the head of the river, hoping to see them.",
+        "text": "Nephi desires that Laman and Lemuel come and partake of the fruit, and looks toward the head of the river hoping to see them.",
         "refs": [
           "1 Nephi 8:17"
         ]
       },
       {
-        "text": "Lehi sees Laman and Lemuel, but they do not come to him and partake of the fruit.",
+        "text": "Nephi sees Laman and Lemuel, but they do not come to him and partake of the fruit.",
         "refs": [
           "1 Nephi 8:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Laman and Lemuel may be shown apart from Lehi."
+      "Laman and Lemuel may be shown apart from Nephi."
     ],
     "unspecified_visual_details": [
-      "Their expressions, posture, precise positions, and distance from Lehi."
+      "Their expressions, posture, precise positions, and distance from Nephi."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -604,11 +608,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The audit identifies Lehi as the first-person dreamer and observer; the supplied verses alone do not name him."
+      "The prompt identifies the first-person narrator as Nephi; the supplied verses do not name him."
     ],
     "prohibited_inventions": [
       "Do not add a spoken refusal or a motive for Laman and Lemuel.",
-      "Do not depict Nephi as the observer."
+      "Do not replace the narrator with Lehi or add wording about “my father” to the quotations."
     ],
     "importance": "normal"
   },
@@ -619,7 +623,7 @@
       "1 Nephi 8:19",
       "1 Nephi 8:20"
     ],
-    "summary": "Nephi beholds an iron rod extending along the riverbank to the tree where he stands. He also beholds a strait and narrow path beside the rod, leading to the tree and by the head of the fountain to a large and spacious field.",
+    "summary": "Nephi beholds an iron rod extending along the riverbank to the tree where he stands. He also beholds a strait and narrow path running beside the rod to the tree and leading by the head of the fountain to a large and spacious field.",
     "characters": [
       "Nephi"
     ],
@@ -631,26 +635,25 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi beholds a rod of iron extending along the bank of the river to the tree where he stands.",
+        "text": "Nephi beholds a rod of iron extending along the bank of the river to the tree by which he stands.",
         "refs": [
           "1 Nephi 8:19"
         ]
       },
       {
-        "text": "Nephi beholds a strait and narrow path that runs by the rod to the tree.",
+        "text": "Nephi beholds a strait and narrow path that runs by the rod of iron to the tree.",
         "refs": [
           "1 Nephi 8:20"
         ]
       },
       {
-        "text": "The path also leads by the head of the fountain to a large and spacious field, compared to a world.",
+        "text": "The path also leads by the head of the fountain to a large and spacious field, described as if it had been a world.",
         "refs": [
           "1 Nephi 8:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi can be shown standing by the tree.",
       "The rod and path can be shown alongside one another."
     ],
     "unspecified_visual_details": [
@@ -681,12 +684,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Use Nephi as the first-person narrator and observer, as specified for this scene.",
-      "The comparison to a world is not a literal planet. These verses give no interpretation of the rod, path, tree, or field."
+      "The supplied first-person narrator is identified as Nephi; the supplied verses do not say “my father beheld.”",
+      "The field's comparison to a world does not describe a literal planet.",
+      "These verses provide no symbolic interpretation of the rod, path, tree, or field."
     ],
     "prohibited_inventions": [
-      "Do not introduce Lehi or other people from outside the supplied verses.",
-      "Do not add dialogue, actions, or symbolic explanations.",
+      "Do not identify Lehi as the observer or add him as a visible character.",
+      "Do not add dialogue, movement along the path, or symbolic explanations.",
       "Do not depict the field as a literal planet or add divine appearances."
     ],
     "importance": "normal"
@@ -698,9 +702,9 @@
       "1 Nephi 8:21",
       "1 Nephi 8:22"
     ],
-    "summary": "Lehi sees numberless concourses of people. Many press forward to reach the path leading to the tree by which he stands. People come forth and begin on the path.",
+    "summary": "Nephi sees numberless concourses of people. Many press forward to reach the path leading to the tree by which he stands. People come forth and begin on the path.",
     "characters": [
-      "Lehi",
+      "Nephi",
       "numberless concourses of people"
     ],
     "locations": [
@@ -709,7 +713,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lehi sees numberless concourses of people, many pressing forward to obtain the path leading to the tree by which he stands.",
+        "text": "Nephi sees numberless concourses of people, many pressing forward to obtain the path leading to the tree by which he stands.",
         "refs": [
           "1 Nephi 8:21"
         ]
@@ -745,9 +749,10 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied verses identify no individual among the people."
+      "The first-person narrator is Nephi, as specified for this chapter."
     ],
     "prohibited_inventions": [
+      "Do not identify the narrator as Lehi.",
       "Do not add names or biographies for the people.",
       "Do not add events beyond their approach to and commencement in the path."
     ],
@@ -817,9 +822,8 @@
       "1 Nephi 8:24",
       "1 Nephi 8:25"
     ],
-    "summary": "Nephi beholds others catch hold of the end of the iron rod, press through the mist of darkness while clinging to it, reach the tree, and partake of its fruit. Afterward, they cast their eyes about as if ashamed.",
+    "summary": "Others catch hold of the end of the rod of iron, press forward through the mist of darkness while clinging to it, and partake of the fruit of the tree. Afterward, they cast their eyes about as if ashamed.",
     "characters": [
-      "Nephi",
       "Others who catch hold of the rod of iron"
     ],
     "locations": [
@@ -829,74 +833,61 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi beholds others pressing forward.",
+        "text": "Others press forward and catch hold of the end of the rod of iron.",
         "refs": [
           "1 Nephi 8:24"
         ]
       },
       {
-        "text": "The others catch hold of the end of the iron rod and press through the mist of darkness while clinging to it.",
+        "text": "They press forward through the mist of darkness, clinging to the rod, until they come forth and partake of the fruit of the tree.",
         "refs": [
           "1 Nephi 8:24"
         ]
       },
       {
-        "text": "They reach the tree and partake of its fruit.",
-        "refs": [
-          "1 Nephi 8:24"
-        ]
-      },
-      {
-        "text": "After partaking, they cast their eyes about as if ashamed.",
+        "text": "After partaking of the fruit, they cast their eyes about as if ashamed.",
         "refs": [
           "1 Nephi 8:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The others hold the rod as they move through the mist."
+      "Their hands maintain contact with the rod as they advance."
     ],
     "unspecified_visual_details": [
-      "The others’ identities, clothing, and exact expressions.",
-      "The appearance of the tree, fruit, rod, and mist beyond what the verses state."
+      "The group's size, identities, clothing, and physical appearances.",
+      "The shape and dimensions of the rod and tree, the appearance of the fruit, and the density of the mist.",
+      "The observer's appearance and physical position."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I beheld others pressing forward",
+        "text": "they did press forward through the mist of darkness, clinging to the rod of iron,",
         "refs": [
           "1 Nephi 8:24"
         ]
       },
       {
-        "text": "caught hold of the end of the rod of iron",
+        "text": "even until they did come forth and partake of the fruit of the tree.",
         "refs": [
           "1 Nephi 8:24"
         ]
       },
       {
-        "text": "they did press forward through the mist of darkness, clinging to the rod of iron",
-        "refs": [
-          "1 Nephi 8:24"
-        ]
-      },
-      {
-        "text": "partake of the fruit of the tree.",
-        "refs": [
-          "1 Nephi 8:24"
-        ]
-      },
-      {
-        "text": "they did cast their eyes about as if they were ashamed.",
+        "text": "And after they had partaken of the fruit of the tree they did cast their eyes about as if they were ashamed.",
         "refs": [
           "1 Nephi 8:25"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Preserve the sequence: progress through the mist, participation in the fruit, then apparent shame.",
+      "The wording describes apparent shame, not a confirmed internal emotion."
+    ],
     "prohibited_inventions": [
-      "Do not invent a cause for their apparent shame.",
-      "Do not depict their apparent shame as a stated certainty."
+      "Do not invent a cause for their apparent shame or an object of their glances.",
+      "Do not add dialogue, named group members, or explanations of the rod, mist, tree, or fruit.",
+      "Do not invent a visible appearance or position for the observer."
     ],
     "importance": "normal"
   },
@@ -907,7 +898,7 @@
       "1 Nephi 8:26",
       "1 Nephi 8:27"
     ],
-    "summary": "Nephi sees a great and spacious building across the river of water, standing as it were in the air. People inside, dressed exceedingly finely, mock and point toward those partaking of the fruit.",
+    "summary": "Nephi looks around and sees a great and spacious building on the other side of the river of water, standing as it were in the air, high above the earth. People inside mock and point toward those partaking of the fruit.",
     "characters": [
       "Nephi",
       "people in the building",
@@ -919,42 +910,42 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi sees a great and spacious building on the other side of the river of water; it stands as it were in the air, high above the earth.",
+        "text": "Nephi looks around and sees a great and spacious building on the other side of the river of water.",
         "refs": [
           "1 Nephi 8:26"
         ]
       },
       {
-        "text": "The building is filled with old and young people, male and female, dressed exceedingly finely.",
+        "text": "The building stands as it were in the air, high above the earth.",
+        "refs": [
+          "1 Nephi 8:26"
+        ]
+      },
+      {
+        "text": "The building is filled with old and young people, male and female, whose manner of dress is exceedingly fine.",
         "refs": [
           "1 Nephi 8:27"
         ]
       },
       {
-        "text": "The people in the building mock and point toward those who had come at and were partaking of the fruit.",
+        "text": "The people in the building mock and point their fingers toward those who have come to and are partaking of the fruit.",
         "refs": [
           "1 Nephi 8:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The occupants face toward the people partaking of the fruit."
+      "The pointing people face toward those partaking of the fruit."
     ],
     "unspecified_visual_details": [
       "The building’s architecture and means of support.",
-      "Specific clothing styles and colors.",
-      "Individual appearances."
+      "Specific clothing styles, colors, and individual appearances.",
+      "Nephi’s exact position."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And I also cast my eyes round about, and beheld, on the other side of the river of water, a great and spacious building;",
-        "refs": [
-          "1 Nephi 8:26"
-        ]
-      },
-      {
-        "text": "and it stood as it were in the air, high above the earth.",
+        "text": "And I also cast my eyes round about, and beheld, on the other side of the river of water, a great and spacious building; and it stood as it were in the air, high above the earth.",
         "refs": [
           "1 Nephi 8:26"
         ]
@@ -967,12 +958,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Preserve the qualification “as it were in the air”; the verses do not explain how the building is supported."
+      "Under the supplied identification, Nephi is the first-person narrator.",
+      "Preserve the qualification “as it were in the air”; no means of support is stated.",
+      "Mocking is described without spoken words."
     ],
     "prohibited_inventions": [
       "Do not add spoken insults or dialogue.",
-      "Do not invent a means of supporting the building.",
-      "Do not depict a separate event involving the people partaking of the fruit."
+      "Do not invent a mechanism supporting the building.",
+      "Do not depict a separate arrival event for those already partaking of the fruit.",
+      "Do not assign names or biographies to the unnamed groups.",
+      "Do not add symbolic interpretations absent from the supplied verses."
     ],
     "importance": "normal"
   },
@@ -1094,10 +1089,11 @@
       "1 Nephi 8:31",
       "1 Nephi 8:32"
     ],
-    "summary": "An observer saw other multitudes feeling their way towards the great and spacious building. Many drowned in the fountain, and many wandered in strange roads until they were lost from his view.",
+    "summary": "Lehi saw other multitudes feeling their way towards the great and spacious building. Many drowned in the fountain, and many wandered in strange roads and were lost from his view.",
     "characters": [
-      "unnamed observer",
-      "unnamed multitudes"
+      "Lehi",
+      "unnamed multitudes",
+      "unnamed people"
     ],
     "locations": [
       "great and spacious building",
@@ -1106,7 +1102,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "He saw other multitudes feeling their way towards the great and spacious building.",
+        "text": "Lehi saw other multitudes feeling their way towards the great and spacious building.",
         "refs": [
           "1 Nephi 8:31"
         ]
@@ -1118,7 +1114,7 @@
         ]
       },
       {
-        "text": "Many were lost from his view while wandering in strange roads.",
+        "text": "Many were lost from Lehi's view while wandering in strange roads.",
         "refs": [
           "1 Nephi 8:32"
         ]
@@ -1126,12 +1122,11 @@
     ],
     "reasonable_visual_inferences": [
       "The multitudes may be shown feeling their way toward the building.",
-      "The fountain and strange roads may be shown as separate parts of the reported vision."
+      "The fountain and strange roads may be shown as separate parts of Lehi's reported vision."
     ],
     "unspecified_visual_details": [
-      "The observer's identity and appearance are not established by the supplied verses.",
-      "The appearance of the building, fountain, roads, and people is unspecified.",
-      "Whether the people in the reported outcomes belonged to the multitudes approaching the building is unspecified."
+      "The appearances of Lehi, the people, building, fountain, and roads are unspecified.",
+      "Whether those who drowned or wandered were among the multitudes approaching the building is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -1149,11 +1144,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not identify the observer; do not attribute this sight to Nephi.",
-      "These are reported outcomes, not a newly narrated present-tense sequence."
+      "Lehi is the observer; Nephi is the first-person narrator, not a figure shown in this reported vision.",
+      "The verses report these outcomes rather than narrating a new present-tense sequence."
     ],
     "prohibited_inventions": [
-      "Do not identify the observer using a verse outside the supplied source.",
+      "Do not depict Nephi as present in Lehi's vision.",
       "Do not imply that all those approaching the building drowned or became lost.",
       "Do not add dialogue, graphic injuries, or events beyond the supplied verses."
     ],
@@ -1161,14 +1156,14 @@
   },
   {
     "scene_id": "scene_018",
-    "title": "The father's account of scorn",
+    "title": "Scorn from the strange building",
     "refs": [
       "1 Nephi 8:33",
       "1 Nephi 8:34"
     ],
-    "summary": "A great multitude entered a strange building and then pointed the finger of scorn at Nephi's father and those partaking of the fruit. They did not heed the multitude. The father's words state that those who heeded them had fallen away.",
+    "summary": "A great multitude entered the strange building. After entering, they pointed the finger of scorn at Lehi and those partaking of the fruit, who did not heed them. Lehi said that those who heeded them had fallen away.",
     "characters": [
-      "Nephi's father",
+      "Lehi",
       "the multitude",
       "those partaking of the fruit"
     ],
@@ -1177,34 +1172,34 @@
     ],
     "explicit_facts": [
       {
-        "text": "A great multitude entered a strange building.",
+        "text": "A great multitude entered the strange building.",
         "refs": [
           "1 Nephi 8:33"
         ]
       },
       {
-        "text": "After entering, the multitude pointed the finger of scorn at Nephi's father and those partaking of the fruit.",
+        "text": "After entering, they pointed the finger of scorn at Lehi and those partaking of the fruit.",
         "refs": [
           "1 Nephi 8:33",
           "1 Nephi 8:34"
         ]
       },
       {
-        "text": "Nephi's father and those partaking of the fruit did not heed the multitude.",
+        "text": "Lehi and those partaking of the fruit did not heed them.",
         "refs": [
           "1 Nephi 8:33",
           "1 Nephi 8:34"
         ]
       },
       {
-        "text": "The father's words state that as many as heeded them had fallen away.",
+        "text": "Lehi said that those who heeded them had fallen away.",
         "refs": [
           "1 Nephi 8:34"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Members of the multitude can be shown pointing toward the father and the fruit-partakers."
+      "Members of the multitude can be shown pointing toward Lehi and those partaking of the fruit."
     ],
     "unspecified_visual_details": [
       "The building's appearance and interior.",
@@ -1212,18 +1207,25 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "And great was the multitude that did enter into that strange building. And after they did enter into that building they did point the finger of scorn at me and those that were partaking of the fruit also; but we heeded them not.",
+        "text": "And great was the multitude that did enter into that strange building.",
         "refs": [
           "1 Nephi 8:33"
         ],
-        "speaker": "Nephi's father"
+        "speaker": "Lehi"
+      },
+      {
+        "text": "And after they did enter into that building they did point the finger of scorn at me and those that were partaking of the fruit also; but we heeded them not.",
+        "refs": [
+          "1 Nephi 8:33"
+        ],
+        "speaker": "Lehi"
       },
       {
         "text": "For as many as heeded them, had fallen away.",
         "refs": [
           "1 Nephi 8:34"
         ],
-        "speaker": "Nephi's father"
+        "speaker": "Lehi"
       }
     ],
     "narration": [
@@ -1235,13 +1237,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The narration identifies the first-person account as the father's words, not Nephi's experience.",
-      "Verse 34 reports an outcome rather than describing another visible event."
+      "Place Nephi's narration as a caption introducing Lehi's words before the spoken excerpts.",
+      "The falling away is reported, not staged as a separate present-tense event."
     ],
     "prohibited_inventions": [
       "Do not add spoken insults for the multitude.",
-      "Do not stage the reported falling away as a new present-tense event.",
-      "Do not add locations or appearances not supplied by these verses."
+      "Do not depict the reported falling away as a new event.",
+      "Do not invent appearances for the building or people."
     ],
     "importance": "normal"
   },

@@ -9,12 +9,13 @@
     "summary": "After two days and two nights, people are about to take a man's body to a sepulchre made for burying their dead. The queen, having heard of Ammon's fame, sends for him.",
     "characters": [
       "an unidentified man",
-      "The queen of Lamoni",
-      "unnamed people"
+      "unnamed people",
+      "the queen",
+      "Ammon (mentioned)"
     ],
     "locations": [
-      "unspecified location",
-      "a sepulchre made for burying the dead"
+      "an unspecified location",
+      "a sepulchre"
     ],
     "explicit_facts": [
       {
@@ -24,7 +25,7 @@
         ]
       },
       {
-        "text": "The queen had heard of Ammon's fame and sent, desiring that he come to her.",
+        "text": "The queen had heard of Ammon's fame and sent for him to come to her.",
         "refs": [
           "Alma 19:2"
         ]
@@ -41,23 +42,24 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "after two days and two nights they were about to take his body",
+        "text": "And it came to pass that after two days and two nights they were about to take his body and lay it in a sepulchre, which they had made for the purpose of burying their dead.",
         "refs": [
           "Alma 19:1"
         ]
       },
       {
-        "text": "she sent and desired that he should come in unto her.",
+        "text": "Now the queen having heard of the fame of Ammon, therefore she sent and desired that he should come in unto her.",
         "refs": [
           "Alma 19:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Keep the queen's sending for Ammon distinct from the preparations to move the body."
+      "Keep the queen's sending for Ammon distinct from the preparations to move the body.",
+      "The supplied verses do not identify the man whose body is about to be moved."
     ],
     "prohibited_inventions": [
-      "Do not identify the man or the unnamed people.",
+      "Do not identify the man as King Lamoni; that name does not appear in the supplied verses.",
       "Do not show the body being placed in the sepulchre.",
       "Do not depict Ammon arriving or invent the queen's message."
     ],
@@ -125,18 +127,25 @@
           "Alma 19:5"
         ],
         "speaker": "The queen of Lamoni"
+      },
+      {
+        "text": "to me he doth not stink.",
+        "refs": [
+          "Alma 19:5"
+        ],
+        "speaker": "The queen of Lamoni"
       }
     ],
     "narration": [
       {
-        "text": "And it came to pass that Ammon did as he was commanded, and went in unto the queen, and desired to know what she would that he should do.",
+        "text": "Ammon did as he was commanded, and went in unto the queen, and desired to know what she would that he should do.",
         "refs": [
           "Alma 19:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Ammon's question is narrated, not supplied as direct speech. The servants' report and the differing opinions about the queen's husband are conveyed by the queen, not shown as separate events."
+      "Present the narration caption before the queen's dialogue. Ammon's question is narrated, not supplied as direct speech. The servants' report and the differing opinions about the queen's husband are conveyed by the queen, not shown as separate events."
     ],
     "prohibited_inventions": [
       "Do not give Ammon a verbatim spoken question.",
@@ -301,11 +310,11 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "She watches over her husband’s bed",
+    "title": "A woman watches over her husband’s bed",
     "refs": [
       "Alma 19:11"
     ],
-    "summary": "She watched over her husband’s bed until the time on the following day that Ammon had appointed for him to rise.",
+    "summary": "A woman watched over her husband’s bed until the following day, at the time Ammon had appointed for him to rise.",
     "characters": [
       "the woman",
       "her husband"
@@ -315,7 +324,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "She watched over her husband’s bed until the time on the following day that Ammon had appointed for him to rise.",
+        "text": "She watched over her husband’s bed until the following day, at the time Ammon had appointed for him to rise.",
         "refs": [
           "Alma 19:11"
         ]
@@ -325,7 +334,8 @@
       "She remains near her husband’s bed while watching over it."
     ],
     "unspecified_visual_details": [
-      "The room’s appearance and how the passage of time is shown."
+      "The room’s appearance and how the passage of time is shown.",
+      "The woman’s name or title is not supplied in this verse."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -338,6 +348,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
+      "Do not identify the woman as queen based on this verse alone.",
       "Do not depict her husband rising during this scene.",
       "Do not depict Ammon as physically present."
     ],
@@ -420,13 +431,13 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Ammon and the servants fall",
+    "title": "Ammon and the servants fall; Abish remains unfallen",
     "refs": [
       "Alma 19:14",
       "Alma 19:15",
       "Alma 19:16"
     ],
-    "summary": "Ammon kneels in prayer and thanksgiving, is overcome with joy, and sinks to the earth with two others. Seeing them fallen, the king’s servants cry unto God and call on his name until all have fallen except Abish.",
+    "summary": "Ammon kneels in prayer and thanksgiving, is overcome with joy, and sinks to the earth with two others. The king’s servants see them fallen, cry unto God, and call on his name until all have fallen except Abish, a Lamanitish woman.",
     "characters": [
       "Ammon",
       "Two others among the three who sank to the earth, unidentified in the supplied verses",
@@ -462,7 +473,7 @@
         ]
       },
       {
-        "text": "The servants called on the name of the Lord until all had fallen to the earth except Abish, a Lamanitish woman.",
+        "text": "They called on the name of the Lord until all had fallen to the earth except Abish, a Lamanitish woman.",
         "refs": [
           "Alma 19:16"
         ]
@@ -476,7 +487,7 @@
     ],
     "reasonable_visual_inferences": [
       "Ammon and two others are on the ground when the servants see them.",
-      "Abish remains unfallen."
+      "Abish is the woman who remains unfallen when the others fall."
     ],
     "unspecified_visual_details": [
       "The identities of the other two among the three who sank to the earth in verse 14.",
@@ -505,7 +516,7 @@
         ]
       },
       {
-        "text": "even until they had all fallen to the earth, save it were one of the Lamanitish women, whose name was Abish,",
+        "text": "they did call on the name of the Lord, in their might, even until they had all fallen to the earth, save it were one of the Lamanitish women, whose name was Abish,",
         "refs": [
           "Alma 19:16"
         ]
@@ -515,7 +526,7 @@
       "Mormon is the narrator; the verses supply no direct words for Ammon’s or the servants’ prayers.",
       "Abish’s conversion, the vision, and the servants’ earlier testimony are background, not events occurring in this scene.",
       "The supplied verses do not identify the other two among the three who sank to the earth in verse 14 or establish the queen’s presence.",
-      "Preserve the sequence: Ammon falls, the servants see those fallen, and then the servants call upon God until they fall except Abish."
+      "Preserve the sequence: Ammon falls, the servants see those fallen, and then the servants call upon God until they fall, with Abish explicitly identified as the exception."
     ],
     "prohibited_inventions": [
       "Do not identify the other two or add the queen based on verses outside the supplied text.",
@@ -531,7 +542,7 @@
     "refs": [
       "Alma 19:17"
     ],
-    "summary": "After seeing the servants of Lamoni, the queen, the king, and Ammon prostrate, the woman runs from house to house, making what happened known to the people.",
+    "summary": "After seeing Lamoni’s servants, the queen, the king, and Ammon prostrate, the woman runs from house to house, making what happened known to the people.",
     "characters": [
       "the woman",
       "the people"
@@ -541,30 +552,37 @@
     ],
     "explicit_facts": [
       {
-        "text": "Before running, she saw the servants of Lamoni, the queen, the king, and Ammon prostrate upon the earth.",
+        "text": "The woman had been converted to the Lord but had never made it known.",
         "refs": [
           "Alma 19:17"
         ]
       },
       {
-        "text": "She knew that it was the power of God and supposed that telling the people what had happened would cause them to believe in its power.",
+        "text": "She saw Lamoni’s servants, the queen, the king, and Ammon prostrate upon the earth.",
         "refs": [
           "Alma 19:17"
         ]
       },
       {
-        "text": "She ran from house to house, making what had happened known to the people.",
+        "text": "She knew it was the power of God and supposed that making the event known would cause people to believe in that power.",
+        "refs": [
+          "Alma 19:17"
+        ]
+      },
+      {
+        "text": "She ran from house to house, making what happened known to the people. The verse does not specify how she communicated it.",
         "refs": [
           "Alma 19:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "She moves between houses while telling people what happened."
+      "The woman moves between houses."
     ],
     "unspecified_visual_details": [
+      "The appearance of the woman and the people.",
       "The appearance and arrangement of the houses.",
-      "The appearance of the woman and the people."
+      "How she makes the event known."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -576,11 +594,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Her sight of the prostrate group precedes the house-to-house action; do not depict it as happening simultaneously."
+      "Her sight of the prostrate group precedes her house-to-house action. This verse does not name the woman."
     ],
     "prohibited_inventions": [
-      "Do not give the woman a name based on this verse alone.",
-      "Do not invent the words she says to the people.",
+      "Do not name the woman from this verse alone.",
+      "Do not invent words or a specific means of communication.",
       "Do not place the prostrate group at the houses she visits."
     ],
     "importance": "normal"
@@ -594,12 +612,12 @@
       "Alma 19:20",
       "Alma 19:21"
     ],
-    "summary": "A multitude assembles at the king’s house and sees the king, queen, and servants lying prostrate, as well as Ammon. Some people murmur about the cause. Others rebuke them, and men who had scattered the king’s flocks also rebuke them.",
+    "summary": "A multitude assembles at the king’s house. They see the king, queen, and servants lying prostrate, and they also see Ammon. Some people murmur about the cause; others rebuke them. The men who scattered the king’s flocks also rebuke them.",
     "characters": [
       "the multitude",
       "the king",
       "the queen",
-      "the king’s servants",
+      "the servants",
       "Ammon",
       "the men who scattered the king’s flocks"
     ],
@@ -608,19 +626,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "A multitude came to the king’s house and saw the king, queen, and servants lying prostrate as though dead.",
+        "text": "A multitude assembled at the king’s house.",
         "refs": [
           "Alma 19:18"
         ]
       },
       {
-        "text": "The people also saw Ammon, who was a Nephite.",
+        "text": "The multitude saw the king, queen, and servants lying prostrate as though dead. They also saw Ammon, a Nephite.",
         "refs": [
           "Alma 19:18"
         ]
       },
       {
-        "text": "Some people attributed the evil they perceived to the king’s allowing the Nephite to remain in the land.",
+        "text": "Some people said an evil had come upon them or the king’s house because the king had allowed the Nephite to remain in the land.",
         "refs": [
           "Alma 19:19"
         ]
@@ -632,7 +650,7 @@
         ]
       },
       {
-        "text": "Men who had scattered the king’s flocks also rebuked them. They were angry with Ammon because he had slain some of their brethren while defending the flocks.",
+        "text": "The men who had scattered the king’s flocks also rebuked them. They were angry with Ammon because he had slain some of their brethren while defending the flocks.",
         "refs": [
           "Alma 19:21"
         ]
@@ -657,20 +675,34 @@
     ],
     "narration": [
       {
-        "text": "some saying that it was a great evil that had come upon them, or upon the king and his house, because he had suffered that the Nephite should remain in the land.",
+        "text": "And there came a multitude,",
+        "refs": [
+          "Alma 19:18"
+        ]
+      },
+      {
+        "text": "And now the people began to murmur among themselves;",
         "refs": [
           "Alma 19:19"
+        ]
+      },
+      {
+        "text": "And they were also rebuked by those men who had stood at the waters of Sebus",
+        "refs": [
+          "Alma 19:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 19 reports what some people were saying indirectly, rather than giving their verbatim speech; its quoted words provide the context for the rebuttal.",
-      "The events at the waters of Sebus occurred earlier and are not shown here.",
-      "The verse does not say Ammon is prostrate."
+      "Verse 19 reports what some people said indirectly; it does not supply verbatim dialogue.",
+      "The quoted rebuke in verse 20 belongs to others among the people, not to the men introduced in verse 21.",
+      "The events at the waters of Sebus happened earlier and are not shown here.",
+      "Verse 18 does not say Ammon is prostrate."
     ],
     "prohibited_inventions": [
       "Do not depict the earlier events at the waters of Sebus.",
-      "Do not invent individual identities or positions for the men who scattered the flocks.",
+      "Do not depict Ammon as prostrate.",
+      "Do not assign the verse 20 quotation to the men introduced in verse 21 or invent their words.",
       "Do not assign names or biographies to unnamed people."
     ],
     "importance": "normal"
@@ -822,7 +854,7 @@
     "refs": [
       "Alma 19:29"
     ],
-    "summary": "A woman takes the queen by the hand. At her touch, the queen rises, stands, and cries out to Jesus and God.",
+    "summary": "A woman takes the queen by the hand. At her touch, the queen rises, stands, and cries out.",
     "characters": [
       "The queen",
       "The woman who took the queen's hand"
@@ -830,7 +862,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "A woman took the queen by the hand, hoping to raise her from the ground.",
+        "text": "A woman took the queen by the hand, perhaps to raise her from the ground.",
         "refs": [
           "Alma 19:29"
         ]
@@ -849,8 +881,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The queen is on the ground before the woman touches her hand.",
-      "The woman and the queen are close enough to hold hands."
+      "The queen is on the ground before the woman touches her hand."
     ],
     "unspecified_visual_details": [
       "The setting and the women's appearances."
@@ -873,7 +904,7 @@
     ],
     "narration": [
       {
-        "text": "she went and took the queen by the hand, that perhaps she might raise her from the ground;",
+        "text": "took the queen by the hand, that perhaps she might raise her from the ground;",
         "refs": [
           "Alma 19:29"
         ]
@@ -889,9 +920,9 @@
       "The queen speaks of being saved from hell; the verse does not depict hell as a visible place."
     ],
     "prohibited_inventions": [
-      "Do not identify the woman by name from this verse alone.",
+      "Do not name the woman from this verse alone, including in captions.",
       "Do not depict hell as a visible location or event.",
-      "Do not add onlookers or a setting not specified in the supplied verse."
+      "Do not add onlookers or an unspecified setting."
     ],
     "importance": "normal"
   },
@@ -901,38 +932,38 @@
     "refs": [
       "Alma 19:30"
     ],
-    "summary": "She clasps her hands, filled with joy, and speaks many words that are not understood. She then takes King Lamoni by the hand, and he rises and stands.",
+    "summary": "The queen clasps her hands in joy and speaks words that are not understood. She takes King Lamoni by the hand, and he rises and stands.",
     "characters": [
-      "the woman referred to as she",
+      "the queen",
       "King Lamoni"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "She clasped her hands, was filled with joy, and spoke many words that were not understood.",
+        "text": "The queen clasped her hands, filled with joy, and spoke many words that were not understood.",
         "refs": [
           "Alma 19:30"
         ]
       },
       {
-        "text": "She took the king, Lamoni, by the hand, and he arose and stood upon his feet.",
+        "text": "She took King Lamoni by the hand, and he arose and stood on his feet.",
         "refs": [
           "Alma 19:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Their hands touch as she helps him rise."
+      "The queen and Lamoni's hands touch."
     ],
     "unspecified_visual_details": [
-      "The woman's identity in this verse",
-      "The words she spoke",
-      "The location and the characters' appearances"
+      "The words the queen spoke",
+      "The location",
+      "The characters' appearances"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "she clasped her hands, being filled with joy",
+        "text": "and behold he arose and stood upon his feet.",
         "refs": [
           "Alma 19:30"
         ]
@@ -940,8 +971,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent or display the words that were not understood.",
-      "Do not add people or a location not identified in this verse."
+      "Do not invent the queen's words or depict them as understood.",
+      "Do not add people, a location, or an explanation for Lamoni's rising."
     ],
     "importance": "normal"
   },
@@ -1074,7 +1105,7 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "A church is established",
+    "title": "Believers are baptized",
     "refs": [
       "Alma 19:35",
       "Alma 19:36"
@@ -1100,15 +1131,14 @@
         ]
       },
       {
-        "text": "The narration says the Lord's arm is extended to all people who repent and believe on his name.",
+        "text": "Mormon teaches that the Lord's arm is extended to all people who repent and believe on his name.",
         "refs": [
           "Alma 19:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A baptism may represent the stated baptisms without identifying who performed them.",
-      "A gathering of believers may represent the establishment of a church without implying a church building."
+      "A baptism may represent the stated baptisms without identifying who performed them."
     ],
     "unspecified_visual_details": [
       "The baptismal setting and method, and the appearance of the believers.",
@@ -1117,14 +1147,15 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his arm is extended to all people who will repent and believe on his name.",
+        "text": "And thus the work of the Lord did commence among the Lamanites; thus the Lord did begin to pour out his Spirit upon them; and we see that his arm is extended to all people who will repent and believe on his name.",
         "refs": [
           "Alma 19:36"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord’s extended arm is figurative teaching, not a literal visible arm.",
+      "The narration is Mormon's, not a character's speech within the scene.",
+      "The Lord's extended arm is figurative teaching, not a literal visible arm.",
       "The verse does not describe a visible manifestation of the Spirit."
     ],
     "prohibited_inventions": [
