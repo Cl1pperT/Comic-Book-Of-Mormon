@@ -1,10 +1,10 @@
 {
-  "stamp": "14fd53d0b018f7d4215452ee5d4593470f1d4cc092a608bbb07fe9a75c315842",
+  "stamp": "d2aa7ef6b2d354b88a81f2eb8fe4df2fd4122af476fc04f8e7d03d8a803a525d",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not identify the first-person singer as Nephi. The summary, character list, dialogue speaker, and notes present that attribution as fact."
+        "The supplied verses do not identify Nephi as the first-person singer. Attributing the quoted speech to him invents a speaker, and the note incorrectly claims the user identified him."
       ]
     },
     "scene_002": {
@@ -32,10 +32,8 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The characters list includes the Lord of Hosts and God that is holy, although the verses only mention them in prophetic statements and do not establish them as physically present. Do not depict them as visible figures."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
