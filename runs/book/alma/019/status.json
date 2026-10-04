@@ -4,21 +4,17 @@
   "verses": 36,
   "scenes": 16,
   "counts": {
-    "PASS": 11,
-    "PASS WITH WARNINGS": 4,
-    "REJECT": 1
+    "PASS": 16,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_007": [
-      "The two others who sank with Ammon are not unidentified: Alma 19:13 says the king and queen had sunk, and Alma 19:17 confirms that they, with Ammon, lay prostrate. The character list, visual details, notes, and prohibition against identifying them contradict the supplied verses and obscure continuity with scene_006."
-    ]
-  },
-  "calls": 43,
+  "rejected": {},
+  "calls": 44,
   "tokens": {
-    "input_tokens": 333744,
-    "cached_input_tokens": 181376,
+    "input_tokens": 340785,
+    "cached_input_tokens": 182144,
     "cache_write_input_tokens": 0,
-    "output_tokens": 33659,
-    "reasoning_output_tokens": 12558
+    "output_tokens": 34530,
+    "reasoning_output_tokens": 13695
   }
 }

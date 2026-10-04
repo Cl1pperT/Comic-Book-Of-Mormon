@@ -2,20 +2,16 @@
   "stamp": "8505edd47bd66795a77fc052c73197e1842c5377d26c958f75947509b95b2b26",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "The doctrinal_or_story_notes identify Mormon as the narrator, but the supplied verses do not identify the narrator. This invents a speaker identity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Teancum is credited with causing the work but is not explicitly stated to be physically present; the scene appropriately identifies his presence as unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -26,21 +22,16 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The facts and narration accurately quote Alma 53:6 as retrospective events, not a single simultaneous scene. The previous scene is Alma 53:5 and does not alter that chronology. Warning: characters and locations are left empty, so the scene specifies no visual depiction; Mulek is identified as a city, but its depiction and the stronghold's location and appearance are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse identifies Nephites as the forces the Lamanites gained ground over, but does not establish that Nephites are physically present in the depicted moment; avoid showing them as present.",
-        "The verse locates the Lamanite armies on the west sea, south, but does not identify which city they possess; keep the city unnamed if depicted."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
@@ -63,10 +54,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied narration's use of “stripling soldiers” and its summary are supported by verse 22, but depiction should not add a battle or unmentioned details of the march."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

@@ -42,10 +42,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "REJECT",
-      "issues": [
-        "The note identifies the narrator as Mormon, but the supplied verses do not identify the narrator. This presents an unsupported speaker attribution as fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -64,21 +62,16 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The claim that the man called “he” is unidentified overlooks the supplied context: Alma is the antecedent in Alma 2:33–34. The scene does not depict or name him, so this does not alter the depicted flight.",
-        "Alma 2:36 gives the fleeing group's direction as toward the wilderness west and north; only the precise direction at the moment flight begins remains unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "No characters or location are assigned to the aftermath, which is conservative; the verse does not specify where the bones were found or heaped. Do not add a setting or depict the deaths and devouring as happening in the present scene."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

@@ -6,67 +6,74 @@
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_002: The preceding scene's narration is not a verbatim contiguous quotation: it omits the verse's opening words and changes capitalization. The current scene itself follows the source chronology and its narration is exact.",
-        "scene_002: The armies' identity is unspecified by Alma 25:2; the scene appropriately flags this uncertainty."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_003: Summary and explicit facts accurately reflect Alma 25:3–4, but the narration quotes only verse 3 and omits the verse 4 fact about the seed of Amulon and his brethren; narration need not include every fact, though that event should not be visually merged with the many battles.",
-        "scene_003: The source does not specify where the battles occurred or that they took place in one continuous encounter; the scene appropriately flags this uncertainty."
+        "The verse summarizes many battles over time; the permitted single-battle visual inference should not imply these battles happened simultaneously."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not specify when or where the remainder usurped authority or when and where the deaths by fire occurred; keep the visual limited to their flight as noted."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source reports that believers were put to death but does not specify a location or execution moment; the narration correctly avoids staging one."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse gives a sequence of contention, hunting, slaying, and flight without precise timing or placement; avoid presenting all as simultaneous."
+      ]
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied verses do not identify the narrator as Mormon. The summary, character list, and story notes assign him that speaking role without support from the source."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reported pursuit has no specified time or location; avoid staging it as a precisely located or timed event. The sheep comparison is figurative, as noted."
+      ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary, facts, and narration are supported by Alma 25:13. The narration is a verbatim excerpt.",
-        "The reasonable visual inference places the joining in one named land, but the verse does not specify which land; the unspecified-details field appropriately notes this. Depict only the joining, not the earlier return or any invented encounter."
+        "The return, dwelling, and joining occur in sequence. The scene correctly selects the joining, but the source does not specify which of the two named lands is shown."
       ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not specify where or how the weapons were buried; avoid implying a particular place or ceremony."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The passage describes belief and practice but does not name participants or specify visible outward performances; keep any visual setting neutral and avoid inventing a ritual."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source does not specify the missionaries' location or how they expressed joy; avoid adding a setting or specific gestures as facts."
+      ]
     }
   }
 }

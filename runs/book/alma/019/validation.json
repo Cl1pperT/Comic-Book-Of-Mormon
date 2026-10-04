@@ -1,28 +1,21 @@
 {
-  "stamp": "453bc8b14db59cffc4c6ba48d7e58f50e67d97b109e2b57d67dc9765e8856d2d",
+  "stamp": "4a5b0ba4bc01f23f902d25844a7878bf98ad8b16d89437946968ca17784ca3c8",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary and explicit facts accurately reflect the supplied verses. Dialogue and narration are verbatim excerpts. The scene does not establish the husband's presence, and the preceding scene remains chronologically distinct.",
-        "The location 'An unspecified place where Ammon meets the queen' is an unspecified creative detail, not an explicit fact; the source only says Ammon went in unto the queen."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary and facts accurately represent verses 8–10. The quotation for Ammon in verse 10 is a verbatim excerpt, but it ends with a semicolon; his sentence continues in the supplied verse. This is a permissible short excerpt, though any further speech must be quoted as another exact excerpt.",
-        "The preceding scene’s summary and narration describe only verses 6–7, and do not alter the chronology of this scene.",
-        "The facing-each-other visual inference is plausible but not specified; clothing, expressions, setting, and the man’s visibility are correctly marked unspecified. The servants are mentioned, not stated to be present."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -33,10 +26,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "The two others who sank with Ammon are not unidentified: Alma 19:13 says the king and queen had sunk, and Alma 19:17 confirms that they, with Ammon, lay prostrate. The character list, visual details, notes, and prohibition against identifying them contradict the supplied verses and obscure continuity with scene_006."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
@@ -63,20 +54,16 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The visual inference that he addresses the people while some depart may compress events that the verses do not explicitly place simultaneously."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",
       "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary leaves out the explicitly stated beginning of the Lord's work and the Lord's Spirit being poured out; consider retaining these events in any complete summary. The church is established, but no church building is specified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }
