@@ -6,48 +6,52 @@
       "2 Nephi 15:1",
       "2 Nephi 15:2"
     ],
-    "summary": "The narrator announces a song concerning his beloved’s vineyard. Within the song, a vineyard on a fruitful hill is fenced, cleared of stones, planted, and supplied with a tower and wine-press; it produces wild grapes despite the expectation of grapes.",
+    "summary": "Nephi announces a song about his beloved’s vineyard. The song describes a vineyard on a fruitful hill. Its owner fences it, removes stones, plants a choice vine, builds a tower and makes a wine-press. He expects grapes, but it produces wild grapes.",
     "characters": [
-      "Nephi (first-person narrator)"
+      "Nephi"
     ],
-    "locations": [],
+    "locations": [
+      "A very fruitful hill described in the song"
+    ],
     "explicit_facts": [
       {
-        "text": "The narrator announces that he will sing to his well-beloved a song concerning his beloved’s vineyard.",
+        "text": "Nephi says he will sing a song concerning his beloved’s vineyard.",
         "refs": [
           "2 Nephi 15:1"
         ]
       },
       {
-        "text": "The song describes the well-beloved as having a vineyard on a very fruitful hill.",
+        "text": "The well-beloved has a vineyard on a very fruitful hill.",
         "refs": [
           "2 Nephi 15:1"
         ]
       },
       {
-        "text": "Within the song, the vineyard’s owner fenced it, removed stones, planted the choicest vine, built a tower in its midst, and made a wine-press there.",
+        "text": "The owner fences the vineyard, removes its stones, plants it with the choicest vine, builds a tower in its midst, and makes a wine-press there.",
         "refs": [
           "2 Nephi 15:2"
         ]
       },
       {
-        "text": "Within the song, the owner expected grapes, but the vineyard produced wild grapes.",
+        "text": "The owner expects grapes, but the vineyard produces wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The vineyard may be illustrated as imagery from the song, with its preparation and yield kept distinct in time."
+    ],
     "unspecified_visual_details": [
-      "The narrator’s appearance, physical setting, and audience are unspecified.",
-      "The song does not establish the vineyard as the narrator’s physical location.",
-      "No appearance is supplied for the well-beloved."
+      "Nephi’s appearance, physical setting, and audience are unspecified.",
+      "The well-beloved’s identity and appearance are unspecified.",
+      "The fence, tower, wine-press, and vines have no specified design."
     ],
     "spoken_dialogue": [
       {
-        "text": "And he fenced it, and gathered out the stones thereof, and planted it with the choicest vine, and built a tower in the midst of it, and also made a wine-press therein; and he looked that it should bring forth grapes, and it brought forth wild grapes.",
+        "text": "And then will I sing to my well-beloved a song of my beloved, touching his vineyard.",
         "refs": [
-          "2 Nephi 15:2"
+          "2 Nephi 15:1"
         ],
         "speaker": "Nephi"
       }
@@ -58,20 +62,36 @@
         "refs": [
           "2 Nephi 15:1"
         ]
+      },
+      {
+        "text": "And he fenced it, and gathered out the stones thereof, and planted it with the choicest vine,",
+        "refs": [
+          "2 Nephi 15:2"
+        ]
+      },
+      {
+        "text": "and built a tower in the midst of it, and also made a wine-press therein;",
+        "refs": [
+          "2 Nephi 15:2"
+        ]
+      },
+      {
+        "text": "and it brought forth wild grapes.",
+        "refs": [
+          "2 Nephi 15:2"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the narrator label supplied by the user; these verses do not independently name the narrator.",
-      "The vineyard and its preparation belong to the song’s imagery, not an established physical scene.",
-      "These verses do not identify the well-beloved or explain what the vineyard represents.",
-      "The quoted material remains part of the song, not dialogue from its owner."
+      "The user identifies the first-person narrator as Nephi; the supplied verses do not name him.",
+      "The verses do not explain what the vineyard represents or identify the well-beloved.",
+      "The vineyard’s preparation and yield are described in the song, not as events at Nephi’s physical location."
     ],
     "prohibited_inventions": [
-      "Do not establish a literal vineyard setting or stage its reported preparation and yield as present events.",
+      "Do not place Nephi physically in the vineyard or show its preparation and yield as simultaneous events.",
       "Do not depict the well-beloved as physically present or assign him a named or divine identity.",
       "Do not invent an audience, performance setting, melody, or additional dialogue.",
-      "Do not turn the song’s imagery into a literal supernatural event.",
-      "Do not compress the vineyard’s preparation and later yield into simultaneous action."
+      "Do not portray the song’s imagery as a literal supernatural event."
     ],
     "importance": "normal"
   },
@@ -82,20 +102,20 @@
       "2 Nephi 15:3",
       "2 Nephi 15:4"
     ],
-    "summary": "The address calls on the inhabitants of Jerusalem and men of Judah to judge an appeal expressed through vineyard imagery, questioning what more could have been done and contrasting expected grapes with wild grapes.",
+    "summary": "An address asks the inhabitants of Jerusalem and men of Judah to judge between the speaker and the speaker's vineyard. The speaker asks what more could have been done for it and says it brought forth wild grapes instead of grapes.",
     "characters": [
-      "Nephi"
+      "Unknown speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The address asks the inhabitants of Jerusalem and men of Judah to judge between the first-person speaker and the vineyard of the speech's imagery.",
+        "text": "The speaker asks the inhabitants of Jerusalem and men of Judah to judge between the speaker and the speaker's vineyard.",
         "refs": [
           "2 Nephi 15:3"
         ]
       },
       {
-        "text": "The speech asks what more could have been done for the vineyard and describes expected grapes contrasted with wild grapes.",
+        "text": "The speaker asks what more could have been done for the vineyard and says it brought forth wild grapes rather than the expected grapes.",
         "refs": [
           "2 Nephi 15:4"
         ]
@@ -103,8 +123,8 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker's appearance, posture, and physical setting.",
-      "Whether the people addressed are physically present."
+      "The speaker's identity and appearance.",
+      "The physical setting and whether the people addressed are present."
     ],
     "spoken_dialogue": [
       {
@@ -112,82 +132,108 @@
         "refs": [
           "2 Nephi 15:3"
         ],
-        "speaker": "Nephi"
+        "speaker": "Unknown speaker"
       },
       {
         "text": "What could have been done more to my vineyard that I have not done in it? Wherefore, when I looked that it should bring forth grapes it brought forth wild grapes.",
         "refs": [
           "2 Nephi 15:4"
         ],
-        "speaker": "Nephi"
+        "speaker": "Unknown speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker label follows the supplied identification of the first-person narrator as Nephi; these verses do not independently name him.",
-      "The vineyard imagery does not establish a physical setting or a visible event."
+      "Although Nephi is identified as the chapter's first-person narrator, these verses do not identify the speaker of the vineyard address.",
+      "The vineyard language does not establish a visible event or physical setting."
     ],
     "prohibited_inventions": [
-      "Do not stage the vineyard imagery as a literal event or illustrative vineyard scene.",
+      "Do not identify the speaker as Nephi or another named figure.",
+      "Do not stage the vineyard imagery as a literal event.",
       "Do not depict the addressees as physically present without textual support.",
-      "Do not invent vineyard cultivation, harvesting, or other actions.",
-      "Do not add divine appearances, audience responses, or dialogue."
+      "Do not invent actions, responses, or additional dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "The Vineyard Laid Waste",
+    "title": "What Will Be Done to the Vineyard",
     "refs": [
       "2 Nephi 15:5",
       "2 Nephi 15:6"
     ],
-    "summary": "The speaker declares that the vineyard's hedge and wall will be removed, and that it will be left waste, unworked, and without rain.",
-    "characters": [],
-    "locations": [
-      "A fruitful hill"
+    "summary": "An unidentified vineyard speaker announces the removal of the vineyard’s hedge and the breaking down of its wall, leaving it to be eaten up and trodden down. The speaker announces that the vineyard will be laid waste, neither pruned nor dug, overgrown with briers and thorns, and denied rain by a command to the clouds.",
+    "characters": [
+      "Unidentified vineyard speaker"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the hedge will be removed, the vineyard eaten up, and its wall broken down and trodden down.",
+        "text": "The speaker announces that the vineyard’s hedge will be removed and it will be eaten up.",
         "refs": [
           "2 Nephi 15:5"
         ]
       },
       {
-        "text": "The speaker says the vineyard will be laid waste, unpruned and undug, with briers and thorns; he will command the clouds not to rain upon it.",
+        "text": "The speaker announces that the vineyard’s wall will be broken down and it will be trodden down.",
+        "refs": [
+          "2 Nephi 15:5"
+        ]
+      },
+      {
+        "text": "The speaker announces that the vineyard will be laid waste, neither pruned nor dug, and overgrown with briers and thorns.",
+        "refs": [
+          "2 Nephi 15:6"
+        ]
+      },
+      {
+        "text": "The speaker announces a command to the clouds that they rain no rain upon the vineyard.",
         "refs": [
           "2 Nephi 15:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The vineyard may appear neglected, with broken boundaries and briers."
+      "Static vineyard, hedge, and wall imagery could illustrate the teaching without depicting the announced actions as occurring."
     ],
     "unspecified_visual_details": [
-      "Whether the threatened destruction is shown as happening now or only described.",
-      "Clouds, weather, and the vineyard's exact condition."
+      "The speaker’s identity, appearance, and physical setting.",
+      "The vineyard’s location, layout, and appearance.",
+      "The materials and appearance of the hedge and wall."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "I will take away the hedge thereof, and it shall be eaten up;",
+        "text": "I will take away the hedge thereof, and it shall be eaten up; and I will break down the wall thereof, and it shall be trodden down;",
         "refs": [
           "2 Nephi 15:5"
-        ]
+        ],
+        "speaker": "Unidentified vineyard speaker"
       },
       {
-        "text": "I will lay it waste; it shall not be pruned nor digged;",
+        "text": "but there shall come up briers and thorns;",
         "refs": [
           "2 Nephi 15:6"
-        ]
+        ],
+        "speaker": "Unidentified vineyard speaker"
+      },
+      {
+        "text": "I will also command the clouds that they rain no rain upon it.",
+        "refs": [
+          "2 Nephi 15:6"
+        ],
+        "speaker": "Unidentified vineyard speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The vineyard is a figure, not a separately narrated literal event."
+      "Nephi’s role as chapter narrator does not identify him as the vineyard speaker in these verses.",
+      "The vineyard imagery is a teaching expressed through future announcements, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not present the threatened future actions as events that have already occurred."
+      "Do not identify the vineyard speaker as Nephi or another named figure.",
+      "Do not depict the announced destruction, overgrowth, or withholding of rain as events currently occurring.",
+      "Do not invent a visible divine appearance, audience, physical setting, or additional dialogue.",
+      "Do not assign an interpretation or identity to the vineyard beyond the supplied text."
     ],
     "importance": "normal"
   },
@@ -197,7 +243,7 @@
     "refs": [
       "2 Nephi 15:7"
     ],
-    "summary": "The vineyard is identified as the house of Israel, and Judah as the pleasant plant; the Lord looked for judgment and righteousness but found oppression and a cry.",
+    "summary": "The vineyard of the Lord of Hosts is identified as the house of Israel and the men of Judah as his pleasant plant. He looked for judgment and righteousness, but there was oppression and a cry.",
     "characters": [],
     "locations": [
       "Unspecified location"
@@ -210,7 +256,7 @@
         ]
       },
       {
-        "text": "He looked for judgment and found oppression, and for righteousness but found a cry.",
+        "text": "He looked for judgment and righteousness, but there was oppression and a cry.",
         "refs": [
           "2 Nephi 15:7"
         ]
@@ -223,19 +269,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the vineyard of the Lord of Hosts is the house of Israel,",
-        "refs": [
-          "2 Nephi 15:7"
-        ]
-      },
-      {
-        "text": "he looked for judgment, and behold, oppression;",
-        "refs": [
-          "2 Nephi 15:7"
-        ]
-      },
-      {
-        "text": "for righteousness, but behold, a cry.",
+        "text": "For the vineyard of the Lord of Hosts is the house of Israel, and the men of Judah his pleasant plant; and he looked for judgment, and behold, oppression; for righteousness, but behold, a cry.",
         "refs": [
           "2 Nephi 15:7"
         ]
@@ -257,22 +291,18 @@
       "2 Nephi 15:9",
       "2 Nephi 15:10"
     ],
-    "summary": "A woe is pronounced against those who join house to house until no place remains. Many houses are foretold to be desolate, great and fair cities to be without inhabitants, and vineyard and seed yields to be small.",
-    "characters": [
-      "Lord of Hosts"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "A woe is declared against those who join house to house until no place remains. The Lord of Hosts foretells desolate houses and cities without inhabitants. Vineyard and seed yields are foretold to be small.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A woe is pronounced against those who join house to house until there can be no place.",
+        "text": "A woe is declared against those who join house to house until there can be no place.",
         "refs": [
           "2 Nephi 15:8"
         ]
       },
       {
-        "text": "The Lord of Hosts says many houses shall be desolate and great and fair cities without inhabitants.",
+        "text": "The Lord of Hosts says many houses shall be desolate and great and fair cities shall be without inhabitants.",
         "refs": [
           "2 Nephi 15:9"
         ]
@@ -285,10 +315,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Joined houses could illustrate the warning without depicting the foretold desolation as an event that has already happened."
+      "Closely spaced houses could illustrate the warning without showing the foretold desolation as an event already occurring."
     ],
     "unspecified_visual_details": [
-      "The location and appearance of the houses are not specified.",
+      "The houses and their location are not described.",
       "No visible appearance is given for the Lord of Hosts."
     ],
     "spoken_dialogue": [
@@ -302,7 +332,7 @@
     ],
     "narration": [
       {
-        "text": "Wo unto them that join house to house,",
+        "text": "Wo unto them that join house to house, till there can be no place, that they may be placed alone in the midst of the earth!",
         "refs": [
           "2 Nephi 15:8"
         ]
@@ -315,11 +345,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The desolation and yields are foretold, not narrated as events occurring in this scene."
+      "The desolation and yields are foretold, not narrated as events occurring in the scene.",
+      "The Lord of Hosts is identified as a speaker, but no visible presence is established."
     ],
     "prohibited_inventions": [
       "Do not depict the foretold desolation or poor harvest as already occurring.",
-      "Do not depict the Lord of Hosts with an invented appearance.",
+      "Do not give the Lord of Hosts an invented appearance.",
       "Do not name a city or identify particular owners."
     ],
     "importance": "normal"
@@ -331,52 +362,60 @@
       "2 Nephi 15:11",
       "2 Nephi 15:12"
     ],
-    "summary": "A woe is pronounced against those who pursue strong drink from morning until night; their feasts include music and wine, while they disregard the Lord's work.",
-    "characters": [],
-    "locations": [
-      "A feast"
+    "summary": "A woe is pronounced against those who follow strong drink from morning until night. Their feasts include instruments and wine, but they do not regard the Lord's work.",
+    "characters": [
+      "Unnamed people addressed by the warning"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Some rise early to follow strong drink and continue until night, with wine inflaming them.",
+        "text": "The warning addresses people who rise early to follow strong drink, continue until night, and are inflamed by wine.",
         "refs": [
           "2 Nephi 15:11"
         ]
       },
       {
-        "text": "Their feasts include harp, viol, tabret, pipe, and wine; they do not regard the work of the Lord or consider his hands' operation.",
+        "text": "Their feasts include a harp, viol, tabret, pipe, and wine.",
+        "refs": [
+          "2 Nephi 15:12"
+        ]
+      },
+      {
+        "text": "They do not regard the work of the Lord or consider the operation of his hands.",
         "refs": [
           "2 Nephi 15:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A feast with musical instruments and wine."
+      "Unnamed people at a feast with the listed instruments and wine."
     ],
     "unspecified_visual_details": [
-      "The attendees' identities, number, dress, and appearance.",
-      "The feast's setting and the music being played."
+      "The people's number, identities, clothing, and appearance.",
+      "The feast's physical setting and whether anyone plays the instruments."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Wo unto them that rise up early in the morning,",
+        "text": "Wo unto them that rise up early in the morning, that they may follow strong drink, that continue until night, and wine inflame them!",
         "refs": [
           "2 Nephi 15:11"
         ]
       },
       {
-        "text": "the harp, and the viol, the tabret, and pipe, and wine are in their feasts;",
+        "text": "And the harp, and the viol, the tabret, and pipe, and wine are in their feasts; but they regard not the work of the Lord, neither consider the operation of his hands.",
         "refs": [
           "2 Nephi 15:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The warning condemns excess and disregard for the Lord."
+      "The woe is a warning, not a separately narrated event.",
+      "Do not depict the Lord or his hands as visibly present on the basis of this verse."
     ],
     "prohibited_inventions": [
-      "Do not assign names or biographies to feast attendees."
+      "Do not assign names or biographies to the people at the feasts.",
+      "Do not invent a physical setting, divine appearance, or spoken dialogue."
     ],
     "importance": "normal"
   },
@@ -387,58 +426,59 @@
       "2 Nephi 15:13",
       "2 Nephi 15:14"
     ],
-    "summary": "The people go into captivity for lack of knowledge; their honored men famish, the multitude thirsts, and the people's glory and multitude descend into hell.",
+    "summary": "The people have gone into captivity because they have no knowledge; their honorable men are famished, and their multitude is dried up with thirst.",
     "characters": [],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people are gone into captivity because they have no knowledge; their honorable men are famished and their multitude dried up with thirst.",
+        "text": "The people have gone into captivity because they have no knowledge.",
         "refs": [
           "2 Nephi 15:13"
         ]
       },
       {
-        "text": "Hell enlarges herself and opens her mouth without measure; the people's glory, multitude, pomp, and rejoicing one descend into it.",
+        "text": "Their honorable men are famished, and their multitude is dried up with thirst.",
+        "refs": [
+          "2 Nephi 15:13"
+        ]
+      },
+      {
+        "text": "The verse describes hell as enlarging and opening its mouth, and says the people's glory, multitude, pomp, and one who rejoices shall descend into it.",
         "refs": [
           "2 Nephi 15:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Captivity and thirst may be conveyed without specifying a particular captor or location."
+      "The reported captivity, hunger, and thirst can be suggested without showing them unfolding as a new event."
     ],
     "unspecified_visual_details": [
-      "The captors, location, and appearance of captives.",
-      "Whether the verse's figure of hell is to be given a visible form."
+      "The location, captors, and people's appearances are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "my people are gone into captivity,",
+        "text": "Therefore, my people are gone into captivity, because they have no knowledge; and their honorable men are famished, and their multitude dried up with thirst.",
         "refs": [
           "2 Nephi 15:13"
         ]
       },
       {
-        "text": "their honorable men are famished,",
+        "text": "Therefore, hell hath enlarged herself, and opened her mouth without measure; and their glory, and their multitude, and their pomp, and he that rejoiceth, shall descend into it.",
         "refs": [
-          "2 Nephi 15:13"
-        ]
-      },
-      {
-        "text": "and their multitude dried up with thirst.",
-        "refs": [
-          "2 Nephi 15:13"
+          "2 Nephi 15:14"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The enlarged mouth of hell is figurative language; it is not a narrated visible being."
+      "Hell's enlarged mouth is figurative language, not a narrated visible creature or event.",
+      "The descent into hell is expressed as something that shall happen, not as an event already shown."
     ],
     "prohibited_inventions": [
-      "Do not depict hell as a literal creature or infer a supernatural visible event."
+      "Do not stage the reported captivity as a newly occurring scene or invent captors.",
+      "Do not depict hell as a literal creature or show the future descent as a visible event."
     ],
     "importance": "normal"
   },
@@ -450,64 +490,75 @@
       "2 Nephi 15:16",
       "2 Nephi 15:17"
     ],
-    "summary": "The mean man is brought down, the mighty and lofty humbled; the Lord is exalted in judgment, and lambs feed as strangers eat the waste places of the fat ones.",
-    "characters": [],
+    "summary": "The passage foretells the humbling of the mean man, the mighty man, and the lofty; the exaltation of the Lord of Hosts and the sanctification of God; and lambs feeding while strangers eat the waste places of the fat ones.",
+    "characters": [
+      "the mean man",
+      "the mighty man",
+      "the lofty",
+      "the Lord of Hosts",
+      "God that is holy",
+      "strangers"
+    ],
     "locations": [
-      "Waste places"
+      "waste places of the fat ones"
     ],
     "explicit_facts": [
       {
-        "text": "The mean man is brought down, the mighty man humbled, and the eyes of the lofty humbled.",
+        "text": "The mean man shall be brought down, the mighty man shall be humbled, and the eyes of the lofty shall be humbled.",
         "refs": [
           "2 Nephi 15:15"
         ]
       },
       {
-        "text": "The Lord of Hosts is exalted in judgment, and God that is holy is sanctified in righteousness.",
+        "text": "The Lord of Hosts shall be exalted in judgment, and God that is holy shall be sanctified in righteousness.",
         "refs": [
           "2 Nephi 15:16"
         ]
       },
       {
-        "text": "Lambs feed after their manner, and strangers eat the waste places of the fat ones.",
+        "text": "Lambs shall feed after their manner, and strangers shall eat the waste places of the fat ones.",
         "refs": [
           "2 Nephi 15:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lambs feeding in a waste place."
+      "Lambs feeding could illustrate the future image in verse 17 without placing the statements in verses 15–16 in the same physical moment."
     ],
     "unspecified_visual_details": [
-      "The identity and appearance of the Lord and God; the strangers' identities and appearance.",
-      "Whether the statements are represented literally or symbolically."
+      "The appearance of any person or divine figure.",
+      "The precise appearance and location of the waste places."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the mighty man shall be humbled,",
+        "text": "And the mean man shall be brought down, and the mighty man shall be humbled, and the eyes of the lofty shall be humbled.",
         "refs": [
           "2 Nephi 15:15"
         ]
       },
       {
-        "text": "the Lord of Hosts shall be exalted in judgment,",
+        "text": "But the Lord of Hosts shall be exalted in judgment,",
         "refs": [
           "2 Nephi 15:16"
         ]
       },
       {
-        "text": "the lambs feed after their manner,",
+        "text": "Then shall the lambs feed after their manner, and the waste places of the fat ones shall strangers eat.",
         "refs": [
           "2 Nephi 15:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "A single visual moment may focus on the lambs feeding; the other statements are teachings."
+      "These are prophetic statements, not a narrated sequence of simultaneous visible events.",
+      "The verses do not describe a visible appearance of the Lord of Hosts or God.",
+      "These verses do not identify their narrator as Nephi."
     ],
     "prohibited_inventions": [
-      "Do not depict a visible divine figure; no appearance is described."
+      "Do not depict a visible divine figure or invent a divine appearance.",
+      "Do not stage the humbling, judgment, and feeding as one simultaneous event.",
+      "Do not invent identities, dialogue, or a specific setting for the strangers."
     ],
     "importance": "normal"
   },
@@ -518,20 +569,20 @@
       "2 Nephi 15:18",
       "2 Nephi 15:19"
     ],
-    "summary": "A woe is pronounced against those who draw iniquity with vanity's cords and challenge the Holy One of Israel to bring his work near.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "A woe is pronounced against those described as drawing iniquity with cords of vanity and sin with a cart rope. They call for the Holy One of Israel's work and counsel to come so they may see and know.",
+    "characters": [
+      "Those who draw iniquity with cords of vanity"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A woe is pronounced against those who draw iniquity with cords of vanity and sin as with a cart rope.",
+        "text": "A woe is pronounced against those described as drawing iniquity with cords of vanity and sin as with a cart rope.",
         "refs": [
           "2 Nephi 15:18"
         ]
       },
       {
-        "text": "They say, “Let him make speed, hasten his work, that we may see it;” and call for the counsel of the Holy One of Israel to come near.",
+        "text": "Those people call for the work and counsel of the Holy One of Israel to come so they may see and know.",
         "refs": [
           "2 Nephi 15:19"
         ]
@@ -539,55 +590,53 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Whether any speakers are visibly present.",
-      "The identity and appearance of the people being warned."
+      "The setting, number of people, and their appearances are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Let him make speed, hasten his work, that we may see it;",
+        "text": "Let him make speed, hasten his work, that we may see it; and let the counsel of the Holy One of Israel draw nigh and come, that we may know it.",
         "refs": [
           "2 Nephi 15:19"
         ],
-        "speaker": "Those addressed by the warning"
+        "speaker": "Those who draw iniquity with cords of vanity"
       }
     ],
     "narration": [
       {
-        "text": "Wo unto them that draw iniquity with cords of vanity,",
+        "text": "Wo unto them that draw iniquity with cords of vanity, and sin as it were with a cart rope;",
         "refs": [
           "2 Nephi 15:18"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The cords and cart rope are figures of speech, not literal action."
+      "The cords and cart rope are figures of speech, not narrated physical action."
     ],
     "prohibited_inventions": [
-      "Do not depict people literally hauling sin with ropes."
+      "Do not depict people literally hauling sin with ropes.",
+      "Do not depict the Holy One of Israel appearing or performing an action."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Reversing Good and Evil",
+    "title": "Woes Against Moral Reversal and Self-Regard",
     "refs": [
       "2 Nephi 15:20",
       "2 Nephi 15:21"
     ],
-    "summary": "Woes are pronounced against those who reverse good and evil, light and darkness, sweet and bitter, and those wise in their own eyes.",
+    "summary": "Woes are pronounced against those who reverse moral judgments and sensory comparisons, and against those wise and prudent in their own sight.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A woe is pronounced against those who call evil good and good evil, darkness light and light darkness, bitter sweet and sweet bitter.",
+        "text": "A woe is pronounced against those who call evil good and good evil, put darkness for light and light for darkness, and put bitter for sweet and sweet for bitter.",
         "refs": [
           "2 Nephi 15:20"
         ]
       },
       {
-        "text": "A woe is pronounced against the wise in their own eyes and prudent in their own sight.",
+        "text": "A woe is pronounced against those wise in their own eyes and prudent in their own sight.",
         "refs": [
           "2 Nephi 15:21"
         ]
@@ -595,43 +644,43 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any visible people, location, or concrete symbolic imagery."
+      "Any visible people or setting.",
+      "Any symbolic imagery used to represent the teachings."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Wo unto them that call evil good, and good evil,",
+        "text": "Wo unto them that call evil good, and good evil, that put darkness for light, and light for darkness, that put bitter for sweet, and sweet for bitter!",
         "refs": [
           "2 Nephi 15:20"
         ]
       },
       {
-        "text": "Wo unto the wise in their own eyes",
+        "text": "Wo unto the wise in their own eyes and prudent in their own sight!",
         "refs": [
           "2 Nephi 15:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are moral teachings, not literal transformations of light, dark, sweet, or bitter."
+      "The comparisons are teachings, not narrated literal transformations."
     ],
     "prohibited_inventions": [
-      "Do not literalize the figures as supernatural events."
+      "Do not depict literal transformations of light, darkness, sweetness, or bitterness.",
+      "Do not invent speakers, people, or events."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_011",
-    "title": "Bribery and Drunkenness",
+    "title": "Woe Against Drink and Injustice",
     "refs": [
       "2 Nephi 15:22",
       "2 Nephi 15:23"
     ],
-    "summary": "Woes are pronounced against mighty drinkers and those who justify the wicked for reward and take righteousness away from the righteous.",
+    "summary": "A woe is pronounced against mighty drinkers and those who justify the wicked for reward and take righteousness away from the righteous.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "A woe is pronounced against the mighty to drink wine and men of strength to mingle strong drink.",
@@ -640,7 +689,7 @@
         ]
       },
       {
-        "text": "They justify the wicked for reward and take away the righteousness of the righteous.",
+        "text": "The accused justify the wicked for reward and take away the righteousness of the righteous.",
         "refs": [
           "2 Nephi 15:23"
         ]
@@ -648,29 +697,29 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Whether the drinkers, wicked, or righteous are visibly present.",
-      "Any setting or identifiable transaction."
+      "Whether any of the people described are shown.",
+      "The setting and appearance of any people shown."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Wo unto the mighty to drink wine,",
+        "text": "Wo unto the mighty to drink wine, and men of strength to mingle strong drink;",
         "refs": [
           "2 Nephi 15:22"
         ]
       },
       {
-        "text": "Who justify the wicked for reward,",
+        "text": "Who justify the wicked for reward, and take away the righteousness of the righteous from him!",
         "refs": [
           "2 Nephi 15:23"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The accusation is not tied to a named person or specific judgment."
+      "These verses pronounce a woe; they do not narrate a specific drinking occasion or transaction."
     ],
     "prohibited_inventions": [
-      "Do not invent a court, bribe exchange, or named participants."
+      "Do not invent a court, a visible reward exchange, or named participants."
     ],
     "importance": "normal"
   },
@@ -680,20 +729,24 @@
     "refs": [
       "2 Nephi 15:24"
     ],
-    "summary": "A simile of fire consuming stubble and chaff accompanies the declaration that the people's root will rot and blossoms rise as dust because they rejected the Lord's law and word.",
+    "summary": "A warning compares destruction to fire consuming stubble and chaff and says their root shall be rottenness and their blossoms shall rise as dust because they rejected the Lord's law and word.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "As fire devours stubble and flame consumes chaff, their root shall be rottenness and blossoms shall go up as dust.",
+        "text": "Fire consuming stubble and flame consuming chaff are comparisons in the warning.",
         "refs": [
           "2 Nephi 15:24"
         ]
       },
       {
-        "text": "This is because they cast away the law of the Lord of Hosts and despised the word of the Holy One of Israel.",
+        "text": "Their root shall be rottenness, and their blossoms shall go up as dust.",
+        "refs": [
+          "2 Nephi 15:24"
+        ]
+      },
+      {
+        "text": "They have cast away the law of the Lord of Hosts and despised the word of the Holy One of Israel.",
         "refs": [
           "2 Nephi 15:24"
         ]
@@ -701,46 +754,41 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Whether the simile is intended as a literal visible fire scene.",
-      "The identity of “their” beyond the context of the warning."
+      "The identity and appearance of those described as “they.”",
+      "The setting of the warning."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "their root shall be rottenness,",
-        "refs": [
-          "2 Nephi 15:24"
-        ]
-      },
-      {
-        "text": "because they have cast away the law of the Lord of Hosts,",
+        "text": "Therefore, as the fire devoureth the stubble, and the flame consumeth the chaff, their root shall be rottenness, and their blossoms shall go up as dust; because they have cast away the law of the Lord of Hosts, and despised the word of the Holy One of Israel.",
         "refs": [
           "2 Nephi 15:24"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fire comparison is a figure of speech, not a narrated event."
+      "The fire comparison is a figure of speech, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal fire destroying people or crops."
+      "Do not depict a literal fire destroying people or crops.",
+      "Do not invent a visible appearance for the Lord of Hosts or the Holy One of Israel."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "The Hills Tremble",
+    "title": "Judgment Described",
     "refs": [
       "2 Nephi 15:25"
     ],
-    "summary": "The Lord's anger is kindled; he stretches forth his hand, smites the people, the hills tremble, and carcasses lie torn in the streets; his anger is not turned away.",
+    "summary": "The Lord is angry with his people and has smitten them. The hills tremble, and carcasses are torn in the streets. His anger remains.",
     "characters": [],
     "locations": [
-      "Streets"
+      "Streets (mentioned)"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord's anger is kindled against his people; he stretches forth his hand against them and smites them.",
+        "text": "The Lord's anger is kindled against his people; he has stretched forth his hand against them and smitten them.",
         "refs": [
           "2 Nephi 15:25"
         ]
@@ -752,99 +800,130 @@
         ]
       },
       {
-        "text": "His anger is not turned away, but his hand is stretched out still.",
+        "text": "His anger is not turned away, and his hand remains stretched out.",
         "refs": [
           "2 Nephi 15:25"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A street and trembling hills may be shown in the narrated aftermath."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The people's identities and the cause or means of the smiting.",
-      "The Lord's visible appearance; the verse does not describe it."
+      "The people's identities and the means of the smiting.",
+      "The Lord's appearance, which the verse does not describe.",
+      "The appearance of the hills and streets."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the hills did tremble,",
+        "text": "Therefore, is the anger of the Lord kindled against his people, and he hath stretched forth his hand against them, and hath smitten them;",
         "refs": [
           "2 Nephi 15:25"
         ]
       },
       {
-        "text": "For all this his anger is not turned away,",
+        "text": "and the hills did tremble, and their carcasses were torn in the midst of the streets.",
+        "refs": [
+          "2 Nephi 15:25"
+        ]
+      },
+      {
+        "text": "For all this his anger is not turned away, but his hand is stretched out still.",
         "refs": [
           "2 Nephi 15:25"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The source explicitly narrates trembling hills and describes carcasses; avoid graphic depiction."
+      "The verse reports these events; do not restage them as a new present-tense event."
     ],
     "prohibited_inventions": [
       "Do not show gore, blood, or severed body parts.",
-      "Do not invent a bodily appearance for the Lord."
+      "Do not invent a visible appearance for the Lord or depict a literal divine hand.",
+      "Do not invent the identities of the people or the means of the smiting."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "The Ensign and the Approaching Nations",
+    "title": "The Future Ensign",
     "refs": [
       "2 Nephi 15:26",
       "2 Nephi 15:27"
     ],
-    "summary": "The Lord will raise an ensign to distant nations and call them; they will come swiftly, without weariness or stumbling, keeping watch and their gear secured.",
+    "summary": "A future lifting of an ensign and summons to distant nations is described. They will come swiftly, without weariness, stumbling, or sleep; their girdles and shoe-latchets will remain intact.",
     "characters": [
-      "The nations summoned from afar"
+      "Unidentified figure referred to as “he”",
+      "Nations from far"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord will lift up an ensign to nations from far and call to them from the end of the earth.",
+        "text": "A figure referred to as “he” will lift up an ensign to distant nations and hiss to them from the end of the earth.",
         "refs": [
           "2 Nephi 15:26"
         ]
       },
       {
-        "text": "They will come swiftly, none weary or stumbling; none will slumber or sleep, and their girdles and shoe-latchets remain secure.",
+        "text": "The nations will come swiftly; none will be weary or stumble.",
         "refs": [
-          "2 Nephi 15:26",
+          "2 Nephi 15:26"
+        ]
+      },
+      {
+        "text": "None will slumber or sleep; their girdles will not be loosed, and their shoe-latchets will not be broken.",
+        "refs": [
           "2 Nephi 15:27"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The approaching group may be shown moving swiftly toward an ensign."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance, identity, origin, and number of the nations summoned.",
-      "The ensign's design and location."
+      "The identity and appearance of the figure referred to as “he”.",
+      "The identities, number, and appearance of the nations.",
+      "The ensign’s design and location."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he will lift up an ensign to the nations from far,",
+        "text": "And he will lift up an ensign to the nations from far,",
         "refs": [
           "2 Nephi 15:26"
         ]
       },
       {
-        "text": "they shall come with speed swiftly;",
+        "text": "and will hiss unto them from the end of the earth;",
         "refs": [
           "2 Nephi 15:26"
+        ]
+      },
+      {
+        "text": "and behold, they shall come with speed swiftly;",
+        "refs": [
+          "2 Nephi 15:26"
+        ]
+      },
+      {
+        "text": "None shall slumber nor sleep;",
+        "refs": [
+          "2 Nephi 15:27"
+        ]
+      },
+      {
+        "text": "neither shall the girdle of their loins be loosed, nor the latchet of their shoes be broken;",
+        "refs": [
+          "2 Nephi 15:27"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage describes a future summons and approach."
+      "The passage describes future events, not an approach already underway."
     ],
     "prohibited_inventions": [
-      "Do not identify the summoned nations or invent their flags, leaders, or biographies."
+      "Do not identify the figure referred to as “he” or the summoned nations.",
+      "Do not depict the predicted approach as a present event.",
+      "Do not invent an ensign design, leaders, or dialogue."
     ],
     "importance": "normal"
   },
@@ -855,7 +934,7 @@
       "2 Nephi 15:28",
       "2 Nephi 15:29"
     ],
-    "summary": "The verses describe sharp arrows, bent bows, horses’ hoofs, wheels, and roaring. They say the unidentified group shall seize prey and carry it away, with none to deliver it.",
+    "summary": "The verses describe sharp arrows, bent bows, horses’ hoofs, wheels, and roaring. They foretell that an unidentified group shall lay hold of prey and carry it away, with none to deliver.",
     "characters": [
       "Unidentified group described as “they”"
     ],
@@ -864,7 +943,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The group’s arrows shall be sharp and all their bows bent; their horses’ hoofs are compared to flint, their wheels to a whirlwind, and their roaring to a lion’s.",
+        "text": "Their arrows shall be sharp and all their bows bent; their horses’ hoofs are compared to flint, their wheels to a whirlwind, and their roaring to a lion’s.",
         "refs": [
           "2 Nephi 15:28"
         ]
@@ -877,7 +956,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Bows, arrows, horses, and wheels could accompany the described group."
+      "An illustration of the described group could include bows, arrows, horses, and wheels without presenting the foretold actions as already occurring."
     ],
     "unspecified_visual_details": [
       "The group’s identity and appearance.",
@@ -887,13 +966,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Whose arrows shall be sharp, and all their bows bent,",
+        "text": "Whose arrows shall be sharp, and all their bows bent, and their horses’ hoofs shall be counted like flint, and their wheels like a whirlwind, their roaring like a lion.",
         "refs": [
           "2 Nephi 15:28"
         ]
       },
       {
-        "text": "and lay hold of the prey, and shall carry away safe, and none shall deliver.",
+        "text": "They shall roar like young lions; yea, they shall roar, and lay hold of the prey, and shall carry away safe, and none shall deliver.",
         "refs": [
           "2 Nephi 15:29"
         ]
@@ -901,69 +980,65 @@
     ],
     "doctrinal_or_story_notes": [
       "The comparisons to flint, a whirlwind, and lions are figures of speech, not literal transformations.",
-      "The verses describe what shall happen; they do not narrate it as a present event."
+      "The verses describe what shall happen, not a present event."
     ],
     "prohibited_inventions": [
       "Do not identify or name the group or the prey.",
       "Do not depict literal lions or transformations.",
-      "Do not invent a specific location, vehicle type, or rescue attempt."
+      "Do not invent a specific location, vehicle type, or rescue attempt.",
+      "Do not stage the foretold seizure as a present-tense event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_016",
-    "title": "Darkness over the Land",
+    "title": "A Foretold Day of Darkness",
     "refs": [
       "2 Nephi 15:30"
     ],
-    "summary": "In that day, the summoned force roars against them like the sea; looking toward the land, there is darkness and sorrow, and the light is darkened in the heavens.",
-    "characters": [
-      "The nations summoned from afar"
-    ],
+    "summary": "The verse foretells that in that day they shall roar against them like the sea. If they look toward the land, there will be darkness and sorrow, and the light will be darkened in its heavens.",
+    "characters": [],
     "locations": [
-      "Unspecified location"
+      "An unspecified land and its heavens, as described in the prophecy"
     ],
     "explicit_facts": [
       {
-        "text": "In that day they roar against them like the roaring of the sea.",
+        "text": "The verse foretells that in that day, unidentified parties shall roar against others like the roaring of the sea.",
         "refs": [
           "2 Nephi 15:30"
         ]
       },
       {
-        "text": "Looking toward the land, there is darkness and sorrow, and the light is darkened in the heavens.",
+        "text": "If they look toward the land, there is darkness and sorrow, and the light is darkened in its heavens.",
         "refs": [
           "2 Nephi 15:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A darkened sky over land may represent the stated darkness."
+      "A darkened sky over an unspecified land could illustrate the foretold darkness without presenting it as a current event."
     ],
     "unspecified_visual_details": [
-      "The exact land, participants, and cause of the darkening.",
-      "Whether “roar” is heard or shown through the sea metaphor."
+      "The identities and appearances of those referred to as “they” and “them.”",
+      "The identity and appearance of the land."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "in that day they shall roar against them like the roaring of the sea;",
-        "refs": [
-          "2 Nephi 15:30"
-        ]
-      },
-      {
-        "text": "the light is darkened in the heavens thereof.",
+        "text": "And in that day they shall roar against them like the roaring of the sea; and if they look unto the land, behold, darkness and sorrow, and the light is darkened in the heavens thereof.",
         "refs": [
           "2 Nephi 15:30"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The sea comparison is figurative."
+      "This is a statement about “that day,” not a narrated present event.",
+      "The comparison to the roaring sea is a simile."
     ],
     "prohibited_inventions": [
-      "Do not depict a supernatural transformation or identify the land."
+      "Do not identify or depict specific participants or a specific land.",
+      "Do not portray a literal sea as the source of the roaring.",
+      "Do not present the foretold events as happening in the narrator’s present."
     ],
     "importance": "normal"
   }

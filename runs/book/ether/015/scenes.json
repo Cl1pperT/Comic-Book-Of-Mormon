@@ -209,7 +209,7 @@
     "refs": [
       "Ether 15:8"
     ],
-    "summary": "At the waters of Ripliancum, those arriving pitch their tents, and Shiz pitches his tents near them.",
+    "summary": "At the waters of Ripliancum, the arriving people pitch their tents, and Shiz pitches his tents nearby. They come to battle the following day.",
     "characters": [
       "Shiz",
       "unnamed people pitching tents"
@@ -219,19 +219,19 @@
     ],
     "explicit_facts": [
       {
-        "text": "The verse says \"he came\" to the waters of Ripliancum without identifying the referent within the supplied text.",
+        "text": "The verse says “he came” to the waters of Ripliancum but does not identify him.",
         "refs": [
           "Ether 15:8"
         ]
       },
       {
-        "text": "Those arriving at the waters pitched their tents.",
+        "text": "When they came to the waters, they pitched their tents.",
         "refs": [
           "Ether 15:8"
         ]
       },
       {
-        "text": "Shiz pitched his tents near them; his arrival time relative to their tent pitching is unspecified.",
+        "text": "Shiz pitched his tents near them.",
         "refs": [
           "Ether 15:8"
         ]
@@ -253,8 +253,8 @@
       "Nearby tents beside the waters can represent the encampments without establishing an order of arrival."
     ],
     "unspecified_visual_details": [
-      "The identity of the referent of \"he\" and the identities of the unnamed people are unspecified.",
-      "The appearance of Shiz, the number and design of tents, and the landscape and appearance of the waters are unspecified."
+      "The identity of “he” and the identities of the unnamed people are not established by the supplied verse.",
+      "Shiz’s appearance, the number and design of tents, and the appearance of the waters are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -272,15 +272,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moroni (son of Mormon) is the narrator, not an established physical participant in this scene.",
-      "The following-day battle is excluded from this encampment scene."
+      "Moroni (son of Mormon) is the narrator, not an established physical participant in the encampment.",
+      "The battle occurs on the following day and is not part of this encampment scene.",
+      "The audit mentions Ether 15:7, but that verse was not supplied and cannot establish the identity of “he” here."
     ],
     "prohibited_inventions": [
-      "Do not introduce an additional man to represent the unresolved pronoun \"he\" or assign it an identity.",
+      "Do not identify “he” as Coriantumr on the authority of the supplied verse.",
+      "Do not add a separate visible man to represent the unresolved pronoun “he.”",
       "Do not establish when Shiz arrived relative to the others pitching tents.",
-      "Do not identify the unnamed people as Shiz's people.",
-      "Do not depict the following-day battle during the encampment scene.",
-      "Do not invent dialogue or a visible divine appearance."
+      "Do not depict the following-day battle during the encampment.",
+      "Do not invent dialogue or a divine appearance."
     ],
     "importance": "normal"
   },
@@ -1047,16 +1048,17 @@
       "Ether 15:33",
       "Ether 15:34"
     ],
-    "summary": "The Lord tells Ether to go forth. Ether beholds that the Lord’s words are fulfilled, finishes his record, and hides it where the people of Limhi find it. Ether’s final written words express that his fate matters not if he is saved in God’s kingdom.",
+    "summary": "The Lord tells Ether to go forth. Ether goes forth, beholds that the Lord’s words have been fulfilled, finishes his record, and hides it in a manner that the people of Limhi find it. Ether’s last written words express that his fate matters not if he is saved in God’s kingdom.",
     "characters": [
-      "Ether"
+      "Ether",
+      "The Lord"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord spoke to Ether and told him to go forth; Ether went forth and beheld the fulfillment of the Lord’s words.",
+        "text": "The Lord spoke to Ether and told him to go forth; Ether went forth and beheld that the Lord’s words had been fulfilled.",
         "refs": [
           "Ether 15:33"
         ]
@@ -1068,7 +1070,7 @@
         ]
       },
       {
-        "text": "Ether’s last written words say that whether translated or suffering the Lord’s will in the flesh matters not if he is saved in God’s kingdom.",
+        "text": "Ether’s last written words say that whether he is translated or suffers the Lord’s will in the flesh matters not if he is saved in God’s kingdom.",
         "refs": [
           "Ether 15:34"
         ]
@@ -1104,7 +1106,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord’s speech is explicitly narrated; no visible appearance is described.",
+      "The Lord speaks, but no visible appearance is described.",
       "Ether’s final words are written, not necessarily spoken aloud."
     ],
     "prohibited_inventions": [

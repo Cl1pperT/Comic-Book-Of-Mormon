@@ -123,39 +123,36 @@
       "Mosiah 3:3",
       "Mosiah 3:4"
     ],
-    "summary": "The angel tells Benjamin to awake and hear, declaring glad tidings of great joy and saying the Lord has heard Benjamin’s prayers and sent the angel so Benjamin and his people may rejoice.",
+    "summary": "The angel tells King Benjamin to awake and hear glad tidings of great joy. The angel says the Lord has heard Benjamin’s prayers, judged his righteousness, and sent the angel so Benjamin may rejoice and declare the message to his people.",
     "characters": [
       "King Benjamin",
-      "an angel from God"
+      "angel"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The angel tells Benjamin to awake and hear the words the angel will tell him.",
+        "text": "The angel tells King Benjamin to awake and hear his words.",
         "refs": [
           "Mosiah 3:3"
         ]
       },
       {
-        "text": "The angel says he came to declare glad tidings of great joy.",
+        "text": "The angel says he has come to declare glad tidings of great joy.",
         "refs": [
           "Mosiah 3:3"
         ]
       },
       {
-        "text": "The angel says the Lord heard Benjamin’s prayers, judged his righteousness, and sent the angel so Benjamin and his people may rejoice.",
+        "text": "The angel says the Lord has heard Benjamin’s prayers, judged his righteousness, and sent him so Benjamin may rejoice and declare the message to his people, that they may also be filled with joy.",
         "refs": [
           "Mosiah 3:4"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The angel speaks to Benjamin in the remembered encounter."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The angel’s appearance and the surroundings."
+      "The surroundings and King Benjamin’s appearance are unspecified.",
+      "The angel’s visible appearance is not described and must not be invented."
     ],
     "spoken_dialogue": [
       {
@@ -163,20 +160,33 @@
         "refs": [
           "Mosiah 3:3"
         ],
-        "speaker": "an angel from God"
+        "speaker": "angel"
       },
       {
         "text": "I am come to declare unto you the glad tidings of great joy.",
         "refs": [
           "Mosiah 3:3"
         ],
-        "speaker": "an angel from God"
+        "speaker": "angel"
+      },
+      {
+        "text": "For the Lord hath heard thy prayers, and hath judged of thy righteousness,",
+        "refs": [
+          "Mosiah 3:4"
+        ],
+        "speaker": "angel"
       }
     ],
     "narration": [],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The Lord’s hearing of prayers and judgment of righteousness are reported by the angel, not separately staged events.",
+      "Benjamin’s declaration to his people is a purpose of the message, not an event occurring here."
+    ],
     "prohibited_inventions": [
-      "Do not portray the future events the angel will describe as occurring in this scene."
+      "Do not invent a visible appearance for the angel.",
+      "Do not depict the Lord or Benjamin’s people as physically present.",
+      "Do not depict Mormon as the person addressed.",
+      "Do not stage earlier prayers or a subsequent declaration to the people."
     ],
     "importance": "normal"
   },
@@ -333,32 +343,32 @@
       "Mosiah 3:9",
       "Mosiah 3:10"
     ],
-    "summary": "He will come unto his own so that salvation might come to the children of men through faith on his name. They will consider him a man, say he has a devil, scourge him, and crucify him. He will rise from the dead on the third day and stand to judge the world, so that a righteous judgment might come upon the children of men.",
+    "summary": "The passage foretells that he will come to his own, be considered a man and said to have a devil, be scourged and crucified, rise on the third day, and stand to judge the world. It links salvation to faith on his name and says all these things are done so that righteous judgment might come upon the children of men.",
     "characters": [
       "The unnamed figure referred to as “he”"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "He will come unto his own so that salvation might come to the children of men through faith on his name.",
+        "text": "He is foretold to come to his own; salvation might come to the children of men through faith on his name.",
         "refs": [
           "Mosiah 3:9"
         ]
       },
       {
-        "text": "They will consider him a man, say he has a devil, scourge him, and crucify him.",
+        "text": "People will consider him a man, say he has a devil, scourge him, and crucify him.",
         "refs": [
           "Mosiah 3:9"
         ]
       },
       {
-        "text": "He will rise from the dead on the third day and stand to judge the world.",
+        "text": "He will rise from the dead on the third day and stands to judge the world.",
         "refs": [
           "Mosiah 3:10"
         ]
       },
       {
-        "text": "These things are done so that a righteous judgment might come upon the children of men.",
+        "text": "All these things are done so that righteous judgment might come upon the children of men.",
         "refs": [
           "Mosiah 3:10"
         ]
@@ -366,32 +376,56 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The figure’s appearance and identity are not stated in these verses.",
-      "No location or visual details of the foretold events are specified."
+      "The figure’s appearance is not described.",
+      "No setting for the foretold events is specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and shall scourge him, and shall crucify him.",
+        "text": "he cometh unto his own,",
         "refs": [
           "Mosiah 3:9"
         ]
       },
       {
-        "text": "And he shall rise the third day from the dead; and behold, he standeth to judge the world; and behold, all these things are done that a righteous judgment might come upon the children of men.",
+        "text": "even through faith on his name;",
+        "refs": [
+          "Mosiah 3:9"
+        ]
+      },
+      {
+        "text": "they shall consider him a man, and say that he hath a devil, and shall scourge him, and shall crucify him.",
+        "refs": [
+          "Mosiah 3:9"
+        ]
+      },
+      {
+        "text": "And he shall rise the third day from the dead;",
+        "refs": [
+          "Mosiah 3:10"
+        ]
+      },
+      {
+        "text": "he standeth to judge the world;",
+        "refs": [
+          "Mosiah 3:10"
+        ]
+      },
+      {
+        "text": "all these things are done that a righteous judgment might come upon the children of men.",
         "refs": [
           "Mosiah 3:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage links salvation to faith on his name and these events to righteous judgment.",
-      "The events are foretold, not established as occurring together in a present scene."
+      "Keep the foretold actions in narration rather than staging them as events occurring now.",
+      "Verse 10 attributes the purpose of righteous judgment to “all these things,” not solely to his standing to judge."
     ],
     "prohibited_inventions": [
-      "Do not identify the figure or assign a speaker from these verses alone.",
-      "Do not stage the foretold events as one simultaneous present-tense scene.",
-      "Do not invent appearances, locations, wounds, or additional actions."
+      "Do not assign the figure an identity or appearance from these verses alone.",
+      "Do not turn the reported accusation into direct dialogue.",
+      "Do not invent a location or stage the foretold actions as simultaneous present events."
     ],
     "importance": "normal"
   },
@@ -402,7 +436,7 @@
       "Mosiah 3:11",
       "Mosiah 3:12"
     ],
-    "summary": "King Benjamin teaches that his blood atones for those described in the verse and warns that one who knowingly rebels against God receives salvation only through repentance and faith on the Lord Jesus Christ.",
+    "summary": "King Benjamin teaches that his blood atones for those described in the verse and warns that salvation for one who knowingly rebels against God comes only through repentance and faith on the Lord Jesus Christ.",
     "characters": [
       "King Benjamin"
     ],
@@ -429,14 +463,14 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "his blood atoneth for the sins of those who have fallen by the transgression of Adam,",
+        "text": "For behold, and also his blood atoneth for the sins of those who have fallen by the transgression of Adam, who have died not knowing the will of God concerning them, or who have ignorantly sinned.",
         "refs": [
           "Mosiah 3:11"
         ],
         "speaker": "King Benjamin"
       },
       {
-        "text": "But wo, wo unto him who knoweth that he rebelleth against God! For salvation cometh to none such except it be through repentance and faith on the Lord Jesus Christ.",
+        "text": "For salvation cometh to none such except it be through repentance and faith on the Lord Jesus Christ.",
         "refs": [
           "Mosiah 3:12"
         ],
@@ -445,7 +479,7 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses present teachings, not visible accounts of atonement or salvation."
+      "These verses teach about atonement and salvation; they do not narrate those as visible events."
     ],
     "prohibited_inventions": [
       "Do not depict the atonement, judgment, or an afterlife as an event occurring in this scene.",
@@ -525,42 +559,40 @@
       "Mosiah 3:17",
       "Mosiah 3:18"
     ],
-    "summary": "King Benjamin teaches that little children are blessed, salvation comes only through Christ, and people must humble themselves and believe in Christ’s atoning blood.",
+    "summary": "only in and through the name of Christ, the Lord Omnipotent.",
     "characters": [
-      "King Benjamin"
+      "Unidentified speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "King Benjamin says little children are blessed and Christ’s blood atones for their sins.",
+        "text": "The possibility of little children sinning is conditional; the speaker declares them blessed and says Christ's blood atones for their sins.",
         "refs": [
           "Mosiah 3:16"
         ]
       },
       {
-        "text": "He says salvation comes only through the name of Christ, the Lord Omnipotent.",
+        "text": "Salvation comes only in and through the name of Christ, the Lord Omnipotent.",
         "refs": [
           "Mosiah 3:17"
         ]
       },
       {
-        "text": "He says Christ’s judgment is just and an infant who dies in infancy does not perish.",
+        "text": "The teaching affirms just judgment and says an infant who dies in infancy does not perish.",
         "refs": [
           "Mosiah 3:18"
         ]
       },
       {
-        "text": "He says people must humble themselves, become as little children, and believe in salvation through Christ’s atoning blood.",
+        "text": "Men must humble themselves, become as little children, and believe in salvation through Christ's atoning blood rather than drink damnation to their souls.",
         "refs": [
           "Mosiah 3:18"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "King Benjamin may be shown speaking."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "King Benjamin’s appearance, the setting, and any audience are unspecified in these verses."
+      "The supplied verses do not name the teaching's speaker or establish the speaker's appearance, audience, setting, clothing, or gestures."
     ],
     "spoken_dialogue": [
       {
@@ -568,40 +600,36 @@
         "refs": [
           "Mosiah 3:16"
         ],
-        "speaker": "King Benjamin"
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "only in and through the name of Christ, the Lord Omnipotent.",
         "refs": [
           "Mosiah 3:17"
         ],
-        "speaker": "King Benjamin"
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "and the infant perisheth not that dieth in his infancy;",
         "refs": [
           "Mosiah 3:18"
         ],
-        "speaker": "King Benjamin"
-      },
-      {
-        "text": "except they humble themselves and become as little children,",
-        "refs": [
-          "Mosiah 3:18"
-        ],
-        "speaker": "King Benjamin"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses give teachings, not narrated visible events.",
-      "The possibility of little children sinning is conditional, not a narrated event."
+      "These verses contain teachings, not narrated visible events; the summary is an exact source excerpt.",
+      "The supplied verses alone do not establish a named speaker. The teaching's first-person language does not establish Mormon as its speaker.",
+      "Little children sinning is hypothetical, not an event.",
+      "Preserve the sequence after verses 13–15 without introducing another time or dramatized event."
     ],
     "prohibited_inventions": [
-      "Do not label the speech as Mormon’s or the angel’s.",
-      "Do not depict Christ or Adam as physically present.",
-      "Do not depict an infant dying or people drinking damnation as events.",
-      "Do not invent a setting, audience, or literal enactment of these teachings."
+      "Do not invent a named speaker, audience, location, or delivery event.",
+      "Do not depict Christ or Adam as physically present; neither appears visibly in these verses.",
+      "Do not enact an infant's death, children's sins, or an atonement event.",
+      "Do not literalize falling by nature, drinking damnation, or becoming as little children.",
+      "Do not add dialogue or alter source quotations."
     ],
     "importance": "normal"
   },
@@ -689,7 +717,7 @@
         ]
       },
       {
-        "text": "King Benjamin says that when that time comes, none shall be found blameless before God except little children, only through repentance and faith on the name of the Lord God Omnipotent.",
+        "text": "King Benjamin says that when that time comes, “none shall be found blameless before God, except it be little children, only through repentance and faith on the name of the Lord God Omnipotent.”",
         "refs": [
           "Mosiah 3:21"
         ]

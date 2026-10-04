@@ -1,17 +1,14 @@
 {
-  "stamp": "781ac4cc0efc5f667020a767635eeac03d4a5a0f5437277e8974b025f457b9cf",
+  "stamp": "f0ea0d1f2c4c839f8df435653e4e68e8701376d7106246c87a762968cbf2a924",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the contention caused three divisions, but the verses only state that the contenders caused three divisions; they do not explicitly link the divisions as an effect of their contention. The underlying event is accurately represented.",
-        "The character label “Nephites” is a reasonable collective label for the people of the Nephites, though it is not the exact source wording. Location and visual details are appropriately left unspecified. Pahoran's death is correctly treated as reported prior information."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“People of Zarahemla (Mulekites)” over-specifies the people’s identity; these verses refer to the people of the Nephites and do not identify them as Mulekites."
+        "The character label “Pahoran” is ambiguous because the verses name both the deceased father and his son; the appointed chief judge is the son. Consider using the established label “Pahoran (son of Pahoran).”"
       ]
     },
     "scene_003": {
@@ -43,8 +40,10 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit fact that Tubaloth supposes Coriantumr can prevail through strength and wisdom is supported by Helaman 1:16, but the narration excerpts omit it; the summary does include the supposition."
+      ]
     },
     "scene_011": {
       "status": "PASS",
@@ -59,34 +58,26 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene depicts a march leaving Zarahemla, a reasonable visual inference; the referenced verses do not specify how the departure looks."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Showing small groups facing advancing forces is a reasonable inference, but the verses do not specify how those confrontations look. The narration accurately reports Moronihah's advantage and Nephite deaths without placing him in the scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Showing Lehi and an army setting out is a reasonable inference; the verse specifies that Moronihah sent them, not their visible departure or where Moronihah is."
+        "The character label Lehi (Nephite commander) relies on the established label and the verse's statement that Moronihah sent Lehi with an army; the verses do not explicitly call him a commander."
       ]
     },
     "scene_017": {
-      "status": "REJECT",
-      "issues": [
-        "Helaman 1:28 is supplied and identifies Lehi and the Lamanites; verse 29 continues their encounter. The claims that these identities require unsupplied context, and the prohibition on identifying them, contradict the supplied source and preceding scene."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse describes an exceedingly bloody battle, while the scene prohibits gore; combat without visible gore is a permissible conservative depiction. Coriantumr's death is narrated in both verses 30 and 32, but the scene correctly prohibits depicting a second death."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_019": {
       "status": "PASS",

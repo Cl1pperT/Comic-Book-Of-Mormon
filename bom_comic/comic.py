@@ -206,7 +206,7 @@ OBJECTS = [
      # Sized against the people holding them: some drawings made them table-sized slabs.
      "The plates: a small squared stack of stiff, flat sheets of warm gold-bronze metal, each sheet about the size "
      "of a man's two hands side by side, the whole stack a few inches thick and small enough to carry under one "
-     "arm, held together along one edge by three metal rings, each sheet engraved with rows of small characters; "
+     "arm, each sheet engraved with rows of small characters; "
      "any writing on them is done with a pointed metal stylus",
      ["modern book", "open book", "two-page spread", "curved or bending pages", "hardcover book", "leather-bound book",
       "printed book", "paper pages", "codex", "spiral binding", "quill", "ink pen", "ink", "giant plates",

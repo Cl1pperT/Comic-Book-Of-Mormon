@@ -1,5 +1,5 @@
 {
-  "stamp": "2d95e274c26f919483b9ca860e1717f96db82469df4d141a2c3b5a8f9a770bab",
+  "stamp": "89f286152d33c68ef508b54242224e2cd815b03dea2ade8b03c120b9867dd96b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,20 +22,24 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary’s phrase “be considered a man” is a mild paraphrase of the source’s prediction that “they shall consider him a man”; the narration itself uses exact source excerpts. The accused people and the figure’s appearance and setting are unspecified, appropriately left undescribed.",
+        "The previous scene preserves the foretold chronology and does not introduce a conflicting event."
+      ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_007: The summary and explicit facts accurately reflect Mosiah 3:11–12, and the dialogue quotes are verbatim. The visual inference that King Benjamin may be shown speaking is reasonable from the teachings in context but not explicitly stated in these verses; any scene should keep this as an inference and not add a location or audience.",
-        "previous scene_006: It alters chronology by presenting the foretold events as narration in a way that may suggest a single scene; the notes correctly prohibit staging them together. Also, its summary says “He will rise from the dead on the third day,” while the source says “rise the third day from the dead.”"
+        "King Benjamin as the speaking source is supported by the preceding chapter context, but the supplied verses alone do not name the speaker; depict him speaking only if relying on that contextual identification.",
+        "The claim that repentance and faith are the route for one who knowingly rebels is supported, though the verse specifically says salvation comes to “none such” except through repentance and faith on the Lord Jesus Christ."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“holy prophets” and “the Lord God's people” describe groups, not specifically identified characters; avoid presenting them as named individuals or visibly present in one scene. The verses do not specify a shared location or single present-time enactment."
+        "The label “the Lord God's people” is imprecise: Mosiah 3:14 says “his people,” but does not specify that the people are visibly present in this scene. Avoid depicting them as present unless treated as an inference.",
+        "The narration quotes only part of Mosiah 3:14; this is allowable as a short exact excerpt, but it does not narrate all events summarized for verses 13–15."
       ]
     },
     "scene_009": {
@@ -47,25 +51,23 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Knowledge of the Savior” and the judgment condition are foretold, not events occurring in the scene; the notes correctly prohibit staging them as present events.",
+        "King Benjamin addressing listeners is a reasonable inference from “I say unto you,” but the verses do not specify an audience or setting. The appearance and presence of listeners remain unspecified."
+      ]
     },
     "scene_012": {
-      "status": "REJECT",
-      "issues": [
-        "Mosiah 3:22 addresses the person who will teach the people as “thou”; the first-person speaker of verses 22–23 is therefore not that addressee. The scene incorrectly assigns both quotations to King Benjamin and summarizes him as speaking them. The preceding scene repeats this attribution, but it does not make it supported by the supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Visual depiction should remain limited to King Benjamin speaking; the verses do not specify his appearance or surroundings, and the references to a cup, lake of fire, and smoke are comparisons, not present visible events.",
-        "The preceding scene describes future judgment and consequences; do not stage those events as occurring now."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

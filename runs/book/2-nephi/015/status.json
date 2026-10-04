@@ -4,24 +4,21 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 8,
-    "PASS WITH WARNINGS": 6,
-    "REJECT": 2
+    "PASS": 13,
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
   },
   "rejected": {
-    "scene_001": [
-      "The supplied verses do not name Nephi or establish him as the speaker of the song; the character and dialogue attribution invent a speaker."
-    ],
-    "scene_002": [
-      "The supplied verses do not identify Nephi as the speaker. The first-person address about “my vineyard” cannot be attributed to him from this source."
+    "scene_003": [
+      "The doctrinal_or_story_notes assert that Nephi is the chapter narrator, but the supplied verses do not establish that role. This presents an unsupported identification as fact."
     ]
   },
-  "calls": 36,
+  "calls": 59,
   "tokens": {
-    "input_tokens": 129525,
-    "cached_input_tokens": 39936,
+    "input_tokens": 293015,
+    "cached_input_tokens": 108288,
     "cache_write_input_tokens": 0,
-    "output_tokens": 16316,
-    "reasoning_output_tokens": 4735
+    "output_tokens": 35394,
+    "reasoning_output_tokens": 14245
   }
 }

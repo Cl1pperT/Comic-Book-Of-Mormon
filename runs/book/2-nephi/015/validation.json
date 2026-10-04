@@ -1,17 +1,17 @@
 {
-  "stamp": "e75837831ebf9761819da4f0b3d9b9fc43b84f90a668686f7adf70448069147e",
+  "stamp": "4d3bc96bd1b3cf70a8b12f09ccc8ab2926868ee4755927644e71d10301f46fdd",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not name Nephi or establish him as the speaker of the song; the character and dialogue attribution invent a speaker."
+        "The source does not identify the first-person speaker as Nephi; the scene asserts this in its characters, summary, and dialogue attribution.",
+        "The summary says the owner expects grapes, but source verse 2 says he “looked that it should bring forth grapes”; the corresponding narration omits that source detail.",
+        "The summary says the owner “makes” a wine-press, which changes the source’s “made” into present-tense action and risks portraying narrated song imagery as a current event."
       ]
     },
     "scene_002": {
-      "status": "REJECT",
-      "issues": [
-        "The supplied verses do not identify Nephi as the speaker. The first-person address about “my vineyard” cannot be attributed to him from this source."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -22,30 +22,26 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene accurately presents the warning and foretold outcomes as speech and narration, not as events already occurring. “Lord of Hosts” is identified in the source as the speaker in verse 9, but verse 8's woe has no explicitly stated speaker; keep its attribution as narration rather than assigning it to the Lord of Hosts. The location and any visible appearance remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses describe feasts and strong-drink consumption, but do not explicitly establish that the same people are involved in both."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The text attributes the quoted challenge to “they” but does not specify whether those speakers are visibly present."
+        "The characters list includes the Lord of Hosts and God that is holy, although the verses only mention them in prophetic statements and do not establish them as physically present. Do not depict them as visible figures."
       ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -64,22 +60,16 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The text does not specify that the nations move toward the ensign; that direction is a visual inference, not an explicit fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses mention wheels but do not identify a wheeled conveyance or establish that it accompanies the group."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The pronouns “they” and “them” are not explicitly identified in this verse; identifying “they” as the summoned nations is contextual."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

@@ -5,20 +5,16 @@
   "scenes": 14,
   "counts": {
     "PASS": 10,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 1
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_012": [
-      "Mosiah 3:22 addresses the person who will teach the people as “thou”; the first-person speaker of verses 22–23 is therefore not that addressee. The scene incorrectly assigns both quotations to King Benjamin and summarizes him as speaking them. The preceding scene repeats this attribution, but it does not make it supported by the supplied verses."
-    ]
-  },
-  "calls": 65,
+  "rejected": {},
+  "calls": 79,
   "tokens": {
-    "input_tokens": 467100,
-    "cached_input_tokens": 226432,
+    "input_tokens": 564720,
+    "cached_input_tokens": 253696,
     "cache_write_input_tokens": 0,
-    "output_tokens": 52926,
-    "reasoning_output_tokens": 23063
+    "output_tokens": 64179,
+    "reasoning_output_tokens": 29413
   }
 }

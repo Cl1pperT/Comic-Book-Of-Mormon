@@ -5,7 +5,7 @@
     "refs": [
       "3 Nephi 24:1"
     ],
-    "summary": "Jesus commanded his listeners to write the words the Father had given unto Malachi. After the words were written, Jesus expounded them. The words announce a messenger preparing the way and the Lord coming to his temple.",
+    "summary": "He commanded them to write the words the Father had given to Malachi. After the words were written, he expounded them and told them words announcing a messenger who would prepare the way and the Lord, called the messenger of the covenant, who would come to his temple.",
     "characters": [
       "Jesus Christ (at Bountiful)",
       "the people"
@@ -15,35 +15,42 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jesus commanded his listeners to write the words the Father had given unto Malachi, which Jesus should tell them.",
+        "text": "He commanded them to write the words the Father had given to Malachi, which he would tell them.",
         "refs": [
           "3 Nephi 24:1"
         ]
       },
       {
-        "text": "After the words were written, Jesus expounded them.",
+        "text": "After the words were written, he expounded them.",
         "refs": [
           "3 Nephi 24:1"
         ]
       },
       {
-        "text": "Jesus recited words attributed to the Father speaking unto Malachi, announcing a messenger preparing the way and the Lord coming to his temple.",
+        "text": "The words he told them announce a messenger preparing the way and the Lord, called the messenger of the covenant, coming to his temple.",
         "refs": [
           "3 Nephi 24:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The listeners may be shown attending to Jesus as he expounds the already-written words."
+      "The listeners may be shown attending to him as he expounds the already-written words."
     ],
     "unspecified_visual_details": [
-      "The listeners' appearance and arrangement.",
+      "The listeners’ appearance and arrangement.",
       "The setting and writing materials.",
       "The identities of those who wrote the words."
     ],
     "spoken_dialogue": [
       {
-        "text": "Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me,",
+        "text": "Thus said the Father unto Malachi—Behold, I will send my messenger,",
+        "refs": [
+          "3 Nephi 24:1"
+        ],
+        "speaker": "Jesus Christ (at Bountiful), quoting the Father"
+      },
+      {
+        "text": "and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
         "refs": [
           "3 Nephi 24:1"
         ],
@@ -59,66 +66,82 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Stage the scene after the words have been written; the preceding command and writing remain background events.",
-      "The messenger and the arrival at the temple are announced in the quoted teaching, not narrated as visible events occurring here.",
-      "Narration belongs to Mormon; the recited speech belongs to Jesus, quoting the Father."
+      "The command and writing precede the exposition; do not show them as simultaneous.",
+      "The messenger and the promised arrival at the temple are part of the words being told, not visible events occurring in this scene.",
+      "Narration belongs to Mormon; the recited words are spoken by Jesus Christ and attributed to the Father."
     ],
     "prohibited_inventions": [
       "Do not depict the Father, Malachi, or the promised messenger as physically present.",
       "Do not depict the promised temple arrival as occurring in this scene.",
-      "Do not show the earlier command, active writing, and subsequent exposition as simultaneous.",
-      "Do not invent the content of Jesus's exposition or additional dialogue.",
-      "Do not assign named writers or specify writing materials as textual facts."
+      "Do not invent the content of the exposition or additional dialogue.",
+      "Do not assign named writers or present particular writing materials as textual facts."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "The Messenger and the Coming Lord",
+    "title": "The Words Given to Malachi",
     "refs": [
       "3 Nephi 24:1"
     ],
-    "summary": "The quoted prophecy tells of a messenger preparing the way and the Lord suddenly coming to his temple.",
-    "characters": [],
+    "summary": "Jesus Christ commands them to write the words the Father gave Malachi. After the words are written, he expounds them and tells them of a messenger who will prepare the way and the Lord who will come to his temple.",
+    "characters": [
+      "Jesus Christ (at Bountiful)",
+      "Those commanded to write"
+    ],
     "locations": [
-      "Unspecified location"
+      "Unspecified setting"
     ],
     "explicit_facts": [
       {
-        "text": "The prophecy says a messenger will prepare the way before the Lord, who will suddenly come to his temple.",
+        "text": "Jesus Christ commands them to write the words the Father gave Malachi.",
+        "refs": [
+          "3 Nephi 24:1"
+        ]
+      },
+      {
+        "text": "After the words are written, he expounds them.",
+        "refs": [
+          "3 Nephi 24:1"
+        ]
+      },
+      {
+        "text": "The words he tells them say a messenger will prepare the way and the Lord will come to his temple.",
         "refs": [
           "3 Nephi 24:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use symbolic or written imagery rather than showing the messenger or Lord as present characters."
+      "The commanded group may be shown writing before Jesus Christ expounds the words."
     ],
     "unspecified_visual_details": [
-      "The messenger’s identity and appearance; the temple’s appearance; the manner of the Lord’s coming."
+      "The setting, writing materials, and appearances of those present are not described."
     ],
     "spoken_dialogue": [
       {
-        "text": "he shall prepare the way before me,",
+        "text": "Behold, I will send my messenger, and he shall prepare the way before me, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
         "refs": [
           "3 Nephi 24:1"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "Jesus Christ (at Bountiful), quoting the Father's words to Malachi"
       }
     ],
     "narration": [
       {
-        "text": "the Lord whom ye seek shall suddenly come to his temple",
+        "text": "after they were written he expounded them.",
         "refs": [
           "3 Nephi 24:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The prophecy reports a future event; do not portray it as happening in the present."
+      "The messenger's preparation and the Lord's coming are spoken prophecy, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not invent appearances or stage a visible arrival."
+      "Do not depict the prophesied messenger or the Lord arriving at the temple.",
+      "Do not invent the messenger's identity or appearance, or the temple's appearance.",
+      "Do not depict the group writing at the same time Jesus Christ expounds the words."
     ],
     "importance": "normal"
   },
@@ -292,11 +315,12 @@
       "3 Nephi 24:6",
       "3 Nephi 24:7"
     ],
-    "summary": "The Lord declares that he does not change and calls the people to return to him; they ask how they should return.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The Lord says he does not change, that the sons of Jacob are not consumed, and that they have departed from his ordinances. He calls them to return to him and reports their question about returning.",
+    "characters": [
+      "The Lord",
+      "Sons of Jacob, as addressed"
     ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The Lord says he does not change and that the sons of Jacob are not consumed.",
@@ -305,47 +329,55 @@
         ]
       },
       {
-        "text": "The Lord says the people have departed from his ordinances and calls them to return; they ask, “Wherein shall we return?”",
+        "text": "The Lord says those addressed have gone away from his ordinances and have not kept them.",
+        "refs": [
+          "3 Nephi 24:7"
+        ]
+      },
+      {
+        "text": "The Lord calls them to return to him and reports their question about returning.",
         "refs": [
           "3 Nephi 24:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the words as off-screen speech over an unspecified setting."
+      "The words can be presented without depicting a visible encounter."
     ],
     "unspecified_visual_details": [
-      "The identities and appearances of the people addressed."
+      "The setting and appearances of those addressed are not specified.",
+      "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [
+      {
+        "text": "For I am the Lord, I change not; therefore ye sons of Jacob are not consumed.",
+        "refs": [
+          "3 Nephi 24:6"
+        ],
+        "speaker": "The Lord"
+      },
       {
         "text": "Return unto me and I will return unto you,",
         "refs": [
           "3 Nephi 24:7"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "The Lord"
       },
       {
         "text": "Wherein shall we return?",
         "refs": [
           "3 Nephi 24:7"
         ],
-        "speaker": "The people addressed in the prophecy"
+        "speaker": "The people addressed by the Lord"
       }
     ],
-    "narration": [
-      {
-        "text": "I change not;",
-        "refs": [
-          "3 Nephi 24:6"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The people’s question is reported in the prophecy; no individual speaker is identified."
+      "The people's question is reported by the Lord; do not stage it as a separate present-tense encounter."
     ],
     "prohibited_inventions": [
-      "Do not add visible interlocutors or stage an unreported encounter."
+      "Do not depict an appearance of the Lord or invent a setting.",
+      "Do not invent individual questioners or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -356,51 +388,74 @@
       "3 Nephi 24:8",
       "3 Nephi 24:9"
     ],
-    "summary": "The prophecy accuses the people of robbing God in tithes and offerings and says the whole nation is cursed with a curse.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "God says the people have robbed him in tithes and offerings and that the whole nation is cursed because it has robbed him.",
+    "characters": [
+      "God",
+      "The people addressed"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord asks whether a man will rob God and says the people have robbed him in tithes and offerings.",
+        "text": "God says the people have robbed him in tithes and offerings.",
         "refs": [
           "3 Nephi 24:8"
         ]
       },
       {
-        "text": "The Lord says the whole nation is cursed with a curse because it has robbed him.",
+        "text": "The people ask how they have robbed him.",
+        "refs": [
+          "3 Nephi 24:8"
+        ]
+      },
+      {
+        "text": "God says the whole nation is cursed because it has robbed him.",
         "refs": [
           "3 Nephi 24:9"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Use symbolic imagery of tithes or offerings without depicting a specific act of theft."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The offerings, storehouse, and people’s appearances."
+      "The location and the people's appearances.",
+      "Whether any offerings are visible."
     ],
     "spoken_dialogue": [
+      {
+        "text": "Will a man rob God? Yet ye have robbed me.",
+        "refs": [
+          "3 Nephi 24:8"
+        ],
+        "speaker": "God"
+      },
+      {
+        "text": "Wherein have we robbed thee?",
+        "refs": [
+          "3 Nephi 24:8"
+        ],
+        "speaker": "The people addressed"
+      },
       {
         "text": "In tithes and offerings.",
         "refs": [
           "3 Nephi 24:8"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
-      }
-    ],
-    "narration": [
+        "speaker": "God"
+      },
       {
-        "text": "ye have robbed me.",
+        "text": "Ye are cursed with a curse, for ye have robbed me, even this whole nation.",
         "refs": [
-          "3 Nephi 24:8"
-        ]
+          "3 Nephi 24:9"
+        ],
+        "speaker": "God"
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The accusation and curse are spoken statements, not narrated visible events."
+    ],
     "prohibited_inventions": [
-      "Do not invent a scene of theft or a visible curse."
+      "Do not depict an act of theft or a visible curse.",
+      "Do not invent a setting or a physical appearance for God."
     ],
     "importance": "normal"
   },
@@ -410,53 +465,46 @@
     "refs": [
       "3 Nephi 24:10"
     ],
-    "summary": "The prophecy commands the people to bring all tithes into the storehouse and promises a blessing from heaven.",
+    "summary": "The Lord of Hosts commands the people to bring all tithes into the storehouse and promises a blessing if they prove him.",
     "characters": [],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord commands the people to bring all tithes into the storehouse so there may be meat in his house.",
+        "text": "The Lord of Hosts commands that all tithes be brought into the storehouse so there may be meat in his house.",
         "refs": [
           "3 Nephi 24:10"
         ]
       },
       {
-        "text": "The Lord invites them to prove him and promises to open the windows of heaven and pour out a blessing beyond room to receive it.",
+        "text": "The Lord of Hosts invites the people to prove him and promises to open the windows of heaven and pour out a blessing beyond room to receive it.",
         "refs": [
           "3 Nephi 24:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The storehouse and blessing may be suggested symbolically; the promised action is not narrated as occurring now."
+      "The storehouse may be suggested symbolically; the verse does not narrate anyone bringing tithes there."
     ],
     "unspecified_visual_details": [
-      "The storehouse’s appearance and the nature of the blessing."
+      "The storehouse’s appearance and the nature of the promised blessing."
     ],
     "spoken_dialogue": [
       {
-        "text": "Bring ye all the tithes into the storehouse,",
+        "text": "Bring ye all the tithes into the storehouse, that there may be meat in my house; and prove me now herewith, saith the Lord of Hosts, if I will not open you the windows of heaven, and pour you out a blessing that there shall not be room enough to receive it.",
         "refs": [
           "3 Nephi 24:10"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "Lord of Hosts"
       }
     ],
-    "narration": [
-      {
-        "text": "pour you out a blessing",
-        "refs": [
-          "3 Nephi 24:10"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The promised blessing is future and should not be staged as a present event."
+      "The blessing is promised, not narrated as occurring."
     ],
     "prohibited_inventions": [
-      "Do not depict heaven opening or invent a specific blessing."
+      "Do not depict heaven opening, invent a specific blessing, or portray the command as an event already carried out."
     ],
     "importance": "normal"
   },
@@ -467,53 +515,56 @@
       "3 Nephi 24:11",
       "3 Nephi 24:12"
     ],
-    "summary": "The Lord promises to rebuke the devourer so crops and vines are not destroyed, and says all nations will call the people blessed.",
-    "characters": [],
+    "summary": "The Lord of Hosts promises to rebuke the devourer so it will not destroy the fruits of the ground, and declares that all nations will call the people blessed.",
+    "characters": [
+      "Lord of Hosts (speaker; appearance unspecified)"
+    ],
     "locations": [
-      "Unspecified location"
+      "Unspecified setting; fields are mentioned in the promise"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord promises to rebuke the devourer so it will not destroy the fruits of the ground or cause the vine to cast its fruit before its time.",
+        "text": "The Lord of Hosts says he will rebuke the devourer, which will not destroy the fruits of the ground; the vine will not cast its fruit before its time.",
         "refs": [
           "3 Nephi 24:11"
         ]
       },
       {
-        "text": "All nations will call the people blessed, and their land will be delightsome.",
+        "text": "The Lord of Hosts says all nations will call the people blessed and they will be a delightsome land.",
         "refs": [
           "3 Nephi 24:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A symbolic view of fruitful land may illustrate the promise."
+      "Fruitful ground and a vine could illustrate the promise without portraying it as an event already occurring."
     ],
     "unspecified_visual_details": [
-      "The land’s appearance, the devourer’s identity, and the nations’ identities."
+      "The setting and the appearance of the Lord of Hosts, the land, the devourer, and the nations are not described."
     ],
     "spoken_dialogue": [
       {
-        "text": "neither shall your vine cast her fruit before the time",
+        "text": "And I will rebuke the devourer for your sakes, and he shall not destroy the fruits of your ground; neither shall your vine cast her fruit before the time in the fields, saith the Lord of Hosts.",
         "refs": [
           "3 Nephi 24:11"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
-      }
-    ],
-    "narration": [
+        "speaker": "Lord of Hosts"
+      },
       {
-        "text": "ye shall be a delightsome land,",
+        "text": "And all nations shall call you blessed, for ye shall be a delightsome land, saith the Lord of Hosts.",
         "refs": [
           "3 Nephi 24:12"
-        ]
+        ],
+        "speaker": "Lord of Hosts"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "These are promises, not events described as occurring in the present."
+      "The verses state promises, not their fulfillment."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal devourer or an enacted miracle."
+      "Do not depict the devourer as a visible creature or show the promised events as having occurred.",
+      "Do not invent an appearance for the Lord of Hosts or identify the nations."
     ],
     "importance": "normal"
   },
@@ -525,59 +576,81 @@
       "3 Nephi 24:14",
       "3 Nephi 24:15"
     ],
-    "summary": "The Lord says the people have spoken stoutly against him. Their reported words question the profit of serving God and call the proud happy.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The Lord says the people's words have been stout against him. They ask what they have spoken against him. He reports their claims that serving God is vain, that keeping his ordinances brings no profit, and that the proud are happy, the wicked are set up, and those who tempt God are delivered.",
+    "characters": [
+      "The Lord",
+      "The people whose words are reported"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says the people’s words have been stout against him, and they ask what they have said against him.",
+        "text": "The Lord says the people's words have been stout against him; they ask what they have spoken against him.",
         "refs": [
           "3 Nephi 24:13"
         ]
       },
       {
-        "text": "They have said it is vain to serve God and questioned the profit of keeping ordinances and walking mournfully before the Lord.",
+        "text": "The Lord reports that they have called serving God vain and questioned the profit of keeping his ordinances and walking mournfully before him.",
         "refs": [
           "3 Nephi 24:14"
         ]
       },
       {
-        "text": "They call the proud happy and say that those who work wickedness are set up and those who tempt God are delivered.",
+        "text": "They say the proud are happy, those who work wickedness are set up, and those who tempt God are delivered.",
         "refs": [
           "3 Nephi 24:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the accusation and reported words as off-screen speech."
+      "The exchange can be conveyed without showing the speakers or staging a new conversation."
     ],
     "unspecified_visual_details": [
-      "The identities and appearances of those whose words are reported."
+      "The speakers' appearances and physical setting are not specified."
     ],
     "spoken_dialogue": [
+      {
+        "text": "Your words have been stout against me,",
+        "refs": [
+          "3 Nephi 24:13"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "What have we spoken against thee?",
+        "refs": [
+          "3 Nephi 24:13"
+        ],
+        "speaker": "The people whose words are reported"
+      },
       {
         "text": "It is vain to serve God,",
         "refs": [
           "3 Nephi 24:14"
         ],
-        "speaker": "The people whose words are reported in the prophecy"
-      }
-    ],
-    "narration": [
+        "speaker": "The people whose words are reported"
+      },
       {
-        "text": "Your words have been stout against me,",
+        "text": "what doth it profit that we have kept his ordinances and that we have walked mournfully before the Lord of Hosts?",
         "refs": [
-          "3 Nephi 24:13"
-        ]
+          "3 Nephi 24:14"
+        ],
+        "speaker": "The people whose words are reported"
+      },
+      {
+        "text": "And now we call the proud happy;",
+        "refs": [
+          "3 Nephi 24:15"
+        ],
+        "speaker": "The people whose words are reported"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The words are reported speech, not a new present-tense conversation."
+      "The people's words are reported within the Lord's speech, not a newly staged conversation."
     ],
     "prohibited_inventions": [
-      "Do not invent individual speakers or depict specific acts of wickedness."
+      "Do not invent individual speakers, a physical appearance for the Lord, or visible acts of wickedness."
     ],
     "importance": "normal"
   },
@@ -588,14 +661,17 @@
       "3 Nephi 24:16",
       "3 Nephi 24:17"
     ],
-    "summary": "Those who feared the Lord spoke often to one another; the Lord heard, and a book of remembrance was written for them. The Lord says they will be his and he will spare them.",
-    "characters": [],
+    "summary": "Those who feared the Lord spoke often to one another, and the Lord heard them. A book of remembrance was written before him for those who feared him and thought upon his name. The Lord of Hosts says they will be his and that he will spare them.",
+    "characters": [
+      "Those who feared the Lord",
+      "The Lord of Hosts"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Those who feared the Lord spoke often to one another, and the Lord hearkened and heard.",
+        "text": "Those who feared the Lord spoke often to one another, and the Lord heard them.",
         "refs": [
           "3 Nephi 24:16"
         ]
@@ -607,40 +683,57 @@
         ]
       },
       {
-        "text": "The Lord says they will be his when he makes up his jewels and that he will spare them as a man spares his serving son.",
+        "text": "The Lord of Hosts says they will be his when he makes up his jewels and that he will spare them as a man spares his own son who serves him.",
         "refs": [
           "3 Nephi 24:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people speaking to one another and a book being written are described actions; avoid depicting the Lord, whose appearance is unspecified."
+      "People may be shown speaking to one another.",
+      "A book may be shown being written, without identifying an author."
     ],
     "unspecified_visual_details": [
-      "The people’s identities and appearance, and the book’s appearance."
+      "The people's identities and appearance",
+      "The writer's identity",
+      "The book's appearance and setting"
     ],
     "spoken_dialogue": [
       {
-        "text": "Then they that feared the Lord spake often one to another,",
+        "text": "And they shall be mine,",
         "refs": [
-          "3 Nephi 24:16"
+          "3 Nephi 24:17"
         ],
-        "speaker": "Narration within the prophecy"
+        "speaker": "The Lord of Hosts"
+      },
+      {
+        "text": "in that day when I make up my jewels; and I will spare them as a man spareth his own son that serveth him.",
+        "refs": [
+          "3 Nephi 24:17"
+        ],
+        "speaker": "The Lord of Hosts"
       }
     ],
     "narration": [
       {
-        "text": "a book of remembrance was written before him",
+        "text": "Then they that feared the Lord spake often one to another,",
+        "refs": [
+          "3 Nephi 24:16"
+        ]
+      },
+      {
+        "text": "and a book of remembrance was written before him",
         "refs": [
           "3 Nephi 24:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "“Make up my jewels” and the comparison to a man sparing his son are figurative language."
+      "The Lord's words concern a future day. His jewels and the comparison to a father sparing his son are figurative, not additional visible events."
     ],
     "prohibited_inventions": [
-      "Do not show a heavenly figure or literal jewels."
+      "Do not invent what the people said or identify the writer.",
+      "Do not depict literal jewels, a father-and-son event, or an appearance for the Lord."
     ],
     "importance": "normal"
   },
@@ -650,40 +743,40 @@
     "refs": [
       "3 Nephi 24:18"
     ],
-    "summary": "The prophecy says the people will return and discern between the righteous and the wicked, and between those who serve God and those who do not.",
+    "summary": "The verse foretells that those addressed will return and discern between the righteous and the wicked, and between those who serve God and those who do not.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The people will return and discern between the righteous and the wicked, and between those who serve God and those who do not.",
+        "text": "Those addressed will return and discern between the righteous and the wicked, and between one who serves God and one who does not.",
         "refs": [
           "3 Nephi 24:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use a symbolic contrast to convey discernment without assigning identities or depicting specific deeds."
+      "The future distinction could be conveyed through text or an abstract contrast, without depicting it as an event already occurring."
     ],
     "unspecified_visual_details": [
-      "The people, setting, and visual form of the contrast."
+      "The identity and appearance of those addressed.",
+      "The setting and visual form of the contrast."
     ],
     "spoken_dialogue": [
       {
-        "text": "Then shall ye return and discern",
+        "text": "Then shall ye return and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.",
         "refs": [
           "3 Nephi 24:18"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "Unknown speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophecy describes a future discernment."
+      "The verse describes future discernment, not a judgment scene occurring in the verse."
     ],
     "prohibited_inventions": [
-      "Do not depict an unreported judgment scene or identify individuals as righteous or wicked."
+      "Do not identify the speaker or the people addressed.",
+      "Do not depict an unreported judgment or identify particular people as righteous or wicked."
     ],
     "importance": "normal"
   }

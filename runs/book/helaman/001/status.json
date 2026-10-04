@@ -4,21 +4,17 @@
   "verses": 34,
   "scenes": 20,
   "counts": {
-    "PASS": 13,
-    "PASS WITH WARNINGS": 6,
-    "REJECT": 1
+    "PASS": 17,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_017": [
-      "Helaman 1:28 is supplied and identifies Lehi and the Lamanites; verse 29 continues their encounter. The claims that these identities require unsupplied context, and the prohibition on identifying them, contradict the supplied source and preceding scene."
-    ]
-  },
-  "calls": 34,
+  "rejected": {},
+  "calls": 44,
   "tokens": {
-    "input_tokens": 265063,
-    "cached_input_tokens": 143744,
+    "input_tokens": 336898,
+    "cached_input_tokens": 175232,
     "cache_write_input_tokens": 0,
-    "output_tokens": 29431,
-    "reasoning_output_tokens": 7489
+    "output_tokens": 34415,
+    "reasoning_output_tokens": 9681
   }
 }

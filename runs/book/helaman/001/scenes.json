@@ -89,46 +89,56 @@
       "Helaman 1:5",
       "Helaman 1:6"
     ],
-    "summary": "Pahoran is appointed chief judge and governor by the people's voice. Pacumeni accepts that he cannot obtain the judgment-seat and joins the people's decision.",
+    "summary": "Pahoran is appointed chief judge and governor over the people of Nephi by the voice of the people. Pacumeni sees that he cannot obtain the judgment-seat and unites with the voice of the people.",
     "characters": [
-      "Pahoran (son of Pahoran)",
+      "Pahoran",
       "Pacumeni",
-      "People of Zarahemla (Mulekites)"
+      "People of Nephi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Pahoran was appointed chief judge and governor by the voice of the people.",
+        "text": "Pahoran was appointed chief judge and governor over the people of Nephi by the voice of the people.",
         "refs": [
           "Helaman 1:5"
         ]
       },
       {
-        "text": "Pacumeni joined the people's voice after seeing he could not obtain the judgment-seat.",
+        "text": "Pacumeni saw that he could not obtain the judgment-seat and united with the voice of the people.",
         "refs": [
           "Helaman 1:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "An assembly may visually indicate the people's choice."
+      "A gathering could represent the people's voice."
     ],
     "unspecified_visual_details": [
-      "The setting and manner of appointment."
+      "The location and manner of appointment.",
+      "The appearance of Pahoran, Pacumeni, and the people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Pahoran was appointed by the voice of the people",
+        "text": "Pahoran was appointed by the voice of the people to be chief judge and a governor over the people of Nephi.",
         "refs": [
           "Helaman 1:5"
+        ]
+      },
+      {
+        "text": "Pacumeni, when he saw that he could not obtain the judgment-seat, he did unite with the voice of the people.",
+        "refs": [
+          "Helaman 1:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
-    "prohibited_inventions": [],
+    "prohibited_inventions": [
+      "Do not identify the people as Mulekites.",
+      "Do not invent speeches, voting procedures, or a specific venue."
+    ],
     "importance": "normal"
   },
   {
@@ -418,45 +428,61 @@
     "refs": [
       "Helaman 1:13"
     ],
-    "summary": "Pacumeni is appointed chief judge and governor in place of his brother Pahoran. The fortieth year ends.",
+    "summary": "Pacumeni was appointed chief judge and governor according to the voice of the people, to reign in the stead of his brother Pahoran. All this was done in the fortieth year of the reign of the judges, and it had an end.",
     "characters": [
       "Pacumeni",
-      "People of Zarahemla (Mulekites)"
+      "The people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Pacumeni was appointed chief judge and governor in place of his brother Pahoran, according to his right.",
+        "text": "Pacumeni was appointed chief judge and governor according to the voice of the people.",
         "refs": [
           "Helaman 1:13"
         ]
       },
       {
-        "text": "The fortieth year of the judges ended.",
+        "text": "Pacumeni was to reign in the stead of his brother Pahoran, according to his right.",
+        "refs": [
+          "Helaman 1:13"
+        ]
+      },
+      {
+        "text": "All this was done in the fortieth year of the reign of the judges, and it had an end.",
         "refs": [
           "Helaman 1:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The appointment may be shown with an assembly."
+      "Pacumeni may be shown as the focus of the appointment."
     ],
     "unspecified_visual_details": [
-      "The setting and manner of appointment."
+      "The location and manner of appointment.",
+      "The appearance of Pacumeni and the people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Pacumeni was appointed",
+        "text": "And now behold, Pacumeni was appointed, according to the voice of the people, to be a chief judge and a governor over the people, to reign in the stead of his brother Pahoran; and it was according to his right.",
+        "refs": [
+          "Helaman 1:13"
+        ]
+      },
+      {
+        "text": "And all this was done in the fortieth year of the reign of the judges; and it had an end.",
         "refs": [
           "Helaman 1:13"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
-    "prohibited_inventions": [],
+    "prohibited_inventions": [
+      "Do not assign the people an identity not given in the verse.",
+      "Do not depict Pahoran as present or invent a ceremony or speech."
+    ],
     "importance": "normal"
   },
   {
@@ -656,40 +682,54 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "The army takes Zarahemla",
+    "title": "Coriantumr takes the city",
     "refs": [
       "Helaman 1:19",
       "Helaman 1:20"
     ],
-    "summary": "Coriantumr's host reaches Zarahemla with great speed, before the Nephites can gather their armies. He cuts down the watch at the entrance, enters with his army, and takes the city after slaying those who oppose them.",
+    "summary": "Coriantumr leads his numerous host rapidly upon the city's inhabitants, leaving the Nephites no time to gather their armies. He cuts down the watch at the entrance. His army enters the city, slays those who oppose them, and takes possession of it.",
     "characters": [
-      "Coriantumr (Nephite dissenter)",
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite watchmen",
-      "Nephite defenders"
+      "Coriantumr",
+      "Coriantumr's host",
+      "The watch at the city entrance",
+      "The city's inhabitants"
     ],
     "locations": [
-      "Zarahemla"
+      "An unnamed city and its entrance"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr's host reached the city with great speed, leaving no time for the Nephites to gather their armies.",
+        "text": "Coriantumr marched at the head of a numerous host and came upon the city's inhabitants.",
         "refs": [
           "Helaman 1:19"
         ]
       },
       {
-        "text": "Coriantumr cut down the watch at the entrance, entered with his army, and took the city after slaying everyone who opposed them.",
+        "text": "The host marched so quickly that the Nephites had no time to gather their armies.",
+        "refs": [
+          "Helaman 1:19"
+        ]
+      },
+      {
+        "text": "Coriantumr cut down the watch at the city entrance.",
+        "refs": [
+          "Helaman 1:20"
+        ]
+      },
+      {
+        "text": "His whole army entered, slew everyone who opposed them, and took possession of the city.",
         "refs": [
           "Helaman 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The entrance and armed attackers may be shown; combat should be non-graphic."
+      "The city entrance and the advancing host may be shown.",
+      "The described combat may be shown without gore."
     ],
     "unspecified_visual_details": [
-      "The city's architecture and the exact appearance of its entrance."
+      "The city's name and architecture.",
+      "The combatants' clothing, weapons, and individual appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -702,7 +742,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "No gore."
+      "Do not name the city or assign an ancestry or allegiance to Coriantumr's host.",
+      "Do not show gore or invent dialogue."
     ],
     "importance": "normal"
   },
@@ -840,10 +881,12 @@
       "Helaman 1:24",
       "Helaman 1:25"
     ],
-    "summary": "Coriantumr marches through the center of the land, giving those he attacks time to assemble only in small bodies. His forces fall upon them and cut them down. The march gives Moronihah great advantage, although many Nephites are slain.",
+    "summary": "Coriantumr marches through the center of the land. Those he encounters have time to assemble only in small bodies before they are attacked and cut down. His march gives Moronihah great advantage, despite the many Nephites slain.",
     "characters": [
       "Coriantumr",
       "Coriantumr’s unnamed forces",
+      "Unnamed opposing groups",
+      "Moronihah",
       "Nephites"
     ],
     "locations": [
@@ -851,26 +894,27 @@
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr supposes that his opponents’ greatest strength is in the center of the land and marches forth, giving them time to assemble only in small bodies.",
+        "text": "Coriantumr supposes that his opponents’ greatest strength is in the center of the land and marches forth.",
+        "refs": [
+          "Helaman 1:24",
+          "Helaman 1:25"
+        ]
+      },
+      {
+        "text": "Those he encounters have time to assemble only in small bodies before attackers fall upon them and cut them down.",
         "refs": [
           "Helaman 1:24"
         ]
       },
       {
-        "text": "His forces fall upon them and cut them down.",
-        "refs": [
-          "Helaman 1:24"
-        ]
-      },
-      {
-        "text": "Coriantumr’s march through the center gives Moronihah great advantage, despite the large number of Nephites slain.",
+        "text": "Coriantumr’s march gives Moronihah great advantage, notwithstanding the large number of Nephites slain.",
         "refs": [
           "Helaman 1:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Small groups may be shown facing Coriantumr’s advancing forces.",
+      "Small groups may be shown facing advancing forces.",
       "The attack may be shown without wounds, blood, or gore."
     ],
     "unspecified_visual_details": [
@@ -879,6 +923,12 @@
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "therefore he did march forth, giving them no time to assemble themselves together save it were in small bodies; and in this manner they did fall upon them and cut them down to the earth.",
+        "refs": [
+          "Helaman 1:24"
+        ]
+      },
+      {
         "text": "But behold, this march of Coriantumr through the center of the land gave Moronihah great advantage over them, notwithstanding the greatness of the number of the Nephites who were slain.",
         "refs": [
           "Helaman 1:25"
@@ -886,12 +936,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moronihah’s advantage is reported; the verses do not show him acting here."
+      "Mormon narrates Moronihah’s advantage; these verses do not depict Moronihah acting or establish his location.",
+      "Verse 25 reports Nephite deaths but does not identify every person in the attacked small groups."
     ],
     "prohibited_inventions": [
-      "Do not place Moronihah at the attack.",
-      "Do not invent a visible maneuver to explain his advantage.",
-      "Do not show gore or identify the unnamed forces beyond what these verses establish."
+      "Do not place Moronihah at the attack or invent a visible maneuver to explain his advantage.",
+      "Do not identify every attacked group as Nephites or give unnamed groups invented names or histories.",
+      "Do not show wounds, blood, or gore."
     ],
     "importance": "normal"
   },

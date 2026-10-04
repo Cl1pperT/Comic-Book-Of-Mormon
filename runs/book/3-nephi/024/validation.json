@@ -1,43 +1,53 @@
 {
-  "stamp": "f57e9246eb9d52cf2a585b63473ea36798b891241ff40467e855803c7a8ff23e",
+  "stamp": "2e2712e74cb5f0bf35e6127a4417cababe248eb211edde88254f880a418f4489",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator. This presents an unsupported speaker attribution as fact."
+        "The passage specifies no location or writing materials; keep these visually unspecified.",
+        "The people are commanded to write, then the words are expounded after they have been written; do not depict writing and exposition as simultaneous."
       ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene separates two actions in verse 1 into one continuous scene; preserve their order (writing first, then expounding and speaking)."
+        "The summary says Jesus “tells them” the prophetic words, but the verse specifies that he expounded the written words; the quotation is the words he told them, not an explicitly stated separate telling after the exposition.",
+        "“Those commanded to write” is a functional character label, not a source-given name or group description; the verse only says “them.”"
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_004": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_005": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The reported question is not explicitly attributed to the people in the verse; avoid assigning it to visible or individual speakers."
+        "The refiner/fire and soap imagery is figurative; any visual treatment should remain symbolic rather than stage a literal scene, as the notes specify.",
+        "The Lord and sons of Levi are mentioned in prophetic teaching, not described as present characters; their appearances are unspecified."
       ]
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The offering and its participants are future prophetic content, not a narrated present event; the optional symbolic depiction should not imply a specific rite or historical occurrence.",
+        "The form and setting of the offering are unspecified."
+      ]
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The listed wrongdoing and judgment are in a prophetic warning, not a narrated present-tense event; visual symbolism should not become a specific incident or identify individuals."
+      ]
+    },
+    "scene_006": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label “God” is less precise than the source’s “Lord” and “Lord of Hosts”; the words themselves are correctly attributed in the dialogue."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -50,12 +60,14 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The people speaking often to one another and the book being written are narrated in past tense; avoid staging them as a present-time scene."
+        "The phrase “Then they that feared the Lord spake often one to another” is a supplied quotation but is represented as narration despite being speech content; it does not invent words spoken."
       ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue attribution “Unknown speaker” is not established by the verse; avoid assigning a speaker because the verse provides no speaker identification."
+      ]
     }
   }
 }

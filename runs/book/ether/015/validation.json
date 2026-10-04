@@ -1,5 +1,5 @@
 {
-  "stamp": "c9791b39a0577eaad494b2f462b0dd779c402048b2c22b8a6160424e91a2ff65",
+  "stamp": "e6a9f99acfd531a9747820ee4732af56f2e272200ff92730787a30652bb68173",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,15 +10,14 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says Coriantumr sees how many people were slain, begins to repent, and mourns, accurately summarizing the supplied events. However, the visual inference of grieving is reasonable but posture or visible emotion is not specified; keep depiction restrained."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Ether 15:7–8 identifies the arriving “he” as Coriantumr. The scene incorrectly calls his identity unresolved, omits him from the characters, and prohibits identifying him, breaking continuity with the preceding scene."
+        "The verse identifies only an unresolved “he” as coming to Ripliancum; the scene correctly leaves his identity unspecified, but depicting the encampment requires showing the people referred to by “they.” Their identities and appearance remain unspecified.",
+        "The preceding scene’s summary says Coriantumr flees “again,” which is supported by Ether 15:7; this scene does not incorrectly combine that flight with the later encampment or following-day battle."
       ]
     },
     "scene_005": {
@@ -26,10 +25,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The location “hill Ramah” is established for Coriantumr’s army, and Ogath for Shiz’s fleeing army, but the text does not establish the direction or route between them. Depict the moments successively without implying an unstated route."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -48,10 +45,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary says the people were «weary»; the verse says they were weary, but «at night» and returning to camps is supported. No distinct issue. The word «loudly» is an inference from the great cries and howling."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -78,8 +73,11 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Ether 15:33 says the Lord spoke, but does not describe a visible appearance; retain the stated unspecified appearance and location. Ether's final words are written, not necessarily spoken aloud.",
+        "The summary combines sequential events, but no specific timing or place for finishing and hiding the record is supplied; preserve that uncertainty."
+      ]
     }
   }
 }
