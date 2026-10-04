@@ -49,8 +49,24 @@ def narrator(book, chapter):
     return "Mormon, the abridger, who rarely speaks as \"I\"; speech belongs to the people the verses name"
 
 
+# Where the "I" changes inside a chapter: the book's narrator retells someone else's words in the first person.
+NARRATOR_NOTES = {
+    ("1 Nephi", 8): "Nephi narrates verses 1 to 4 and 29 to 38, but verses 5 to 28 are Lehi's own telling of his dream "
+                    "(verse 2: \"he spake unto us, saying: Behold, I have dreamed a dream\"), so the \"I\" there who "
+                    "sees the man in white, the tree, the rod, the river and the building is Lehi, never Nephi; "
+                    "Nephi appears only when Lehi sees him at the head of the river (verses 14 to 16).",
+}
+
+
+def narrator_note(book, chapter):
+    """Who \"I\" is where it isn't the book's narrator throughout, else \"\"."""
+    return NARRATOR_NOTES.get((book, chapter), "")
+
+
 def speaker_note(book, chapter):
-    return (f"\nIn this chapter the first-person narrator (\"I\") is {narrator(book, chapter)}. Name every speaker "
+    note = narrator_note(book, chapter)
+    return (f"\nIn this chapter the first-person narrator (\"I\") is {narrator(book, chapter)}"
+            + (f", except: {note}" if note else "") + ". Name every speaker "
             "the verses or this narrator make clear, using the known character labels; use a generic speaker "
             "label only when the speaker is truly unknown.")
 
@@ -195,7 +211,9 @@ def validate_batch(provider, scenes, verses, previous=None, known_characters=())
         source = verses[max(0, min(index) - 3):min(len(verses), max(index) + 4)]
         prompt = (RULES + AUDIT + "Audit each scene below separately, in order; each scene's preceding scene is the one"
                   " before it (the first one's is \"previous\"). Return exactly one verdict per scene_id.\n"
-                  + _known_note(known_characters))
+                  + _known_note(known_characters)
+                  + (f"First-person narration in this chapter: {narrator_note(verses[0].book, verses[0].chapter)}\n"
+                     if narrator_note(verses[0].book, verses[0].chapter) else ""))
         batch = provider.structured(prompt + json.dumps({
             "scenes": [s.model_dump() for s in audited], "previous": previous.model_dump() if previous else None,
             "source": [v.model_dump() for v in source]}), ChapterVerdicts,

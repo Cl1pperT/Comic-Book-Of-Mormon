@@ -6,46 +6,44 @@
       "2 Nephi 15:1",
       "2 Nephi 15:2"
     ],
-    "summary": "Nephi announces a song about his beloved’s vineyard. The song describes a vineyard on a fruitful hill. Its owner fences it, removes stones, plants a choice vine, builds a tower and makes a wine-press. He expects grapes, but it produces wild grapes.",
+    "summary": "Nephi announces a song concerning his beloved’s vineyard on a fruitful hill. The song describes how the beloved fenced it, removed stones, planted the choicest vine, built a tower, and made a wine-press. He looked for it to bring forth grapes, but it brought forth wild grapes.",
     "characters": [
       "Nephi"
     ],
     "locations": [
-      "A very fruitful hill described in the song"
+      "Nephi’s unspecified setting"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says he will sing a song concerning his beloved’s vineyard.",
+        "text": "The first-person narrator announces that he will sing to his well-beloved concerning his beloved’s vineyard.",
         "refs": [
           "2 Nephi 15:1"
         ]
       },
       {
-        "text": "The well-beloved has a vineyard on a very fruitful hill.",
+        "text": "The song describes the well-beloved as having a vineyard on a very fruitful hill.",
         "refs": [
           "2 Nephi 15:1"
         ]
       },
       {
-        "text": "The owner fences the vineyard, removes its stones, plants it with the choicest vine, builds a tower in its midst, and makes a wine-press there.",
+        "text": "The song reports that he fenced the vineyard, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and made a wine-press there.",
         "refs": [
           "2 Nephi 15:2"
         ]
       },
       {
-        "text": "The owner expects grapes, but the vineyard produces wild grapes.",
+        "text": "He looked for the vineyard to bring forth grapes, but it brought forth wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The vineyard may be illustrated as imagery from the song, with its preparation and yield kept distinct in time."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Nephi’s appearance, physical setting, and audience are unspecified.",
+      "Nephi’s appearance, posture, surroundings, and any audience are unspecified.",
       "The well-beloved’s identity and appearance are unspecified.",
-      "The fence, tower, wine-press, and vines have no specified design."
+      "The vineyard’s dimensions and the designs of its fence, tower, and wine-press are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -64,33 +62,22 @@
         ]
       },
       {
-        "text": "And he fenced it, and gathered out the stones thereof, and planted it with the choicest vine,",
-        "refs": [
-          "2 Nephi 15:2"
-        ]
-      },
-      {
-        "text": "and built a tower in the midst of it, and also made a wine-press therein;",
-        "refs": [
-          "2 Nephi 15:2"
-        ]
-      },
-      {
-        "text": "and it brought forth wild grapes.",
+        "text": "and he looked that it should bring forth grapes, and it brought forth wild grapes.",
         "refs": [
           "2 Nephi 15:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The user identifies the first-person narrator as Nephi; the supplied verses do not name him.",
-      "The verses do not explain what the vineyard represents or identify the well-beloved.",
-      "The vineyard’s preparation and yield are described in the song, not as events at Nephi’s physical location."
+      "Nephi’s speaker label follows the user’s explicit identification of the first-person narrator; these verses do not independently name him.",
+      "The vineyard’s preparation and yield are reported within the song, not narrated as current physical action around Nephi.",
+      "The supplied verses do not explain what the vineyard represents or identify the well-beloved."
     ],
     "prohibited_inventions": [
-      "Do not place Nephi physically in the vineyard or show its preparation and yield as simultaneous events.",
-      "Do not depict the well-beloved as physically present or assign him a named or divine identity.",
-      "Do not invent an audience, performance setting, melody, or additional dialogue.",
+      "Do not reenact the reported vineyard preparation or harvest as present-tense events.",
+      "Do not place Nephi physically in the vineyard or combine preparation and yield into one moment.",
+      "Do not give the well-beloved a named or divine identity or invent a visible divine appearance.",
+      "Do not invent an audience, melody, performance setting, or additional dialogue.",
       "Do not portray the song’s imagery as a literal supernatural event."
     ],
     "importance": "normal"

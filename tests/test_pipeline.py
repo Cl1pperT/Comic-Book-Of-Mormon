@@ -1405,3 +1405,10 @@ def test_malformed_scene_refs_are_rejected_not_crashed():
     verses = [Verse(book="1 Nephi", chapter=2, verse=v, text=f"v{v}") for v in (3, 4)]
     scene = make_scene(refs=["1 Nephi 2:3-4"], explicit_facts=[Claim(text="x", refs=["1 Nephi 2:3-4"])])
     assert any("malformed" in i for i in deterministic_issues(scene, verses))
+
+
+def test_lehis_dream_is_told_by_lehi_not_nephi():
+    from bom_comic.analysis import narrator_note, speaker_note
+    # Verses 5-28 of 1 Nephi 8 are Lehi's own "I"; the note reaches the writer and the auditor, and only there.
+    assert "Lehi" in speaker_note("1 Nephi", 8) and "never Nephi" in narrator_note("1 Nephi", 8)
+    assert narrator_note("1 Nephi", 9) == "" and "except" not in speaker_note("1 Nephi", 9)

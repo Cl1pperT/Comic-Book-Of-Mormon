@@ -4,21 +4,21 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 13,
-    "PASS WITH WARNINGS": 2,
+    "PASS": 14,
+    "PASS WITH WARNINGS": 1,
     "REJECT": 1
   },
   "rejected": {
-    "scene_003": [
-      "The doctrinal_or_story_notes assert that Nephi is the chapter narrator, but the supplied verses do not establish that role. This presents an unsupported identification as fact."
+    "scene_001": [
+      "The supplied verses do not identify the first-person singer as Nephi. The summary, character list, dialogue speaker, and notes present that attribution as fact."
     ]
   },
-  "calls": 59,
+  "calls": 61,
   "tokens": {
-    "input_tokens": 293015,
-    "cached_input_tokens": 108288,
+    "input_tokens": 322010,
+    "cached_input_tokens": 128000,
     "cache_write_input_tokens": 0,
-    "output_tokens": 35394,
-    "reasoning_output_tokens": 14245
+    "output_tokens": 38108,
+    "reasoning_output_tokens": 15562
   }
 }

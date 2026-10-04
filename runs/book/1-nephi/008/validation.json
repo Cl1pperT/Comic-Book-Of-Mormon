@@ -1,5 +1,5 @@
 {
-  "stamp": "2383222628f2e4e13ef3f0a68f260689f480c617b41e74c1d15447d54f1022c3",
+  "stamp": "d0516c5ee159a822f5dde5da64feef556b9a69ea676c45ab6d517fb9d5a7ab1f",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -24,10 +24,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The account is retrospective; the visual must not present the reported partaking as a new present-time event. The family is not shown in this moment."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
@@ -45,19 +43,17 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_009: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on the chapter context and previous scene. The specified field note acknowledges this uncertainty."
+        "Scene is consistent with verses 17–18. Specific uncertainty: the verses give no precise positions or distance for Laman and Lemuel, as the scene notes."
       ]
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_010: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on chapter context. The specified field note acknowledges this uncertainty."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_011: The verses do not explicitly name the first-person narrator as Nephi; identifying him that way relies on chapter context. The specified note acknowledges this uncertainty."
+        "Scene is consistent with verses 21–22. Specific uncertainty: the text does not specify the people's identities, clothing, or exact positions, as noted."
       ]
     },
     "scene_012": {

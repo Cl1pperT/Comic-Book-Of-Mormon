@@ -1,12 +1,10 @@
 {
-  "stamp": "4d3bc96bd1b3cf70a8b12f09ccc8ab2926868ee4755927644e71d10301f46fdd",
+  "stamp": "14fd53d0b018f7d4215452ee5d4593470f1d4cc092a608bbb07fe9a75c315842",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The source does not identify the first-person speaker as Nephi; the scene asserts this in its characters, summary, and dialogue attribution.",
-        "The summary says the owner expects grapes, but source verse 2 says he “looked that it should bring forth grapes”; the corresponding narration omits that source detail.",
-        "The summary says the owner “makes” a wine-press, which changes the source’s “made” into present-tense action and risks portraying narrated song imagery as a current event."
+        "The supplied verses do not identify the first-person singer as Nephi. The summary, character list, dialogue speaker, and notes present that attribution as fact."
       ]
     },
     "scene_002": {
