@@ -1,34 +1,39 @@
 {
-  "stamp": "e9fff747568bf10ea265e226f65b05dd5cce2bd1f42d5c13ed034abd90bf883e",
+  "stamp": "c1e3b008fe7ac49c8dcaf5acc56a5996de7fd08639276fbb0d4c1be81b6a05e3",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene 001: The summary says the plates were found by Limhi’s people, but Ether 1:2 specifies only that the twenty-four plates were found by them; it does not say they found the record itself. The claimed present-day-narrator visual is a reasonable inference, not an explicit setting."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Coriantor through Shiblon” in the summary might imply a complete lineage endpoint; verse 12 continues the ancestry with Shiblon’s father, Com. The explicit facts and narration accurately stop at Shiblon.",
-        "A lineage or record-page visual is a permissible visual inference, but the source does not specify how the narration is visually represented. The ancestors should not be shown as present characters."
+        "The specified Nephite lands location is not stated in the cited verses; the source only says the account is taken from plates found by Limhi’s people and concerns inhabitants of the north country."
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The specified Nephite lands location is not stated in the cited verses."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The specified Nephite lands location is not stated in the cited verses."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The specified Nephite lands location is not stated in the cited verses."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The specified Nephite lands location is not stated in the cited verses."
+      ]
     },
     "scene_007": {
       "status": "PASS",

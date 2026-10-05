@@ -111,9 +111,37 @@ def state(book_name, chapter, new_only=False):
     return "blocked" if status["counts"]["REJECT"] else "ready"
 
 
+def sync_records(store, library=LIBRARY):
+    """Give a chapter that has never been drawn the library's current character records (the library is where
+    looks are edited); returns the names updated. A drawn chapter keeps its own, so its drawings stay current."""
+    if store.path("final/manifest.json").exists():
+        return []
+    library_records = json.loads((Path(library) / "characters.json").read_text(encoding="utf-8"))
+    path = store.path("continuity/characters.json")
+    records = json.loads(path.read_text(encoding="utf-8"))
+    changed = [name for name in records if name in library_records and records[name] != library_records[name]]
+    if changed:
+        records.update({name: library_records[name] for name in changed})
+        path.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+    return changed
+
+
+def pilots_first(todo):
+    """Book order, except that each book's first chapter, if never drawn, comes before everything else: a sample of
+    every book early, so problems particular to a book (its people, armor, places) show up before its other
+    chapters are drawn (the owner's choice after 1 Nephi absorbed most of the rule changes)."""
+    drawn = {item for item in todo if (book.folder(ROOT, *item) / "final/manifest.json").exists()}
+    pilots = [(name, chapter) for name, chapter in todo if chapter == 1 and (name, chapter) not in drawn]
+    # Then chapters already drawn that need drawing again (changed scenes, new rules, flags waiting on them), so a
+    # fix reaches the pages soon instead of after every new chapter before it; then new chapters in book order.
+    return pilots + [item for item in todo if item in drawn] + \
+        [item for item in todo if item not in drawn and item not in pilots]
+
+
 def render_chapter(book_name, chapter, deadline, provider_for):
     """Approve (automated), plan, and render one chapter; returns True when it is fully rendered and assembled."""
     store = Store(book.folder(ROOT, book_name, chapter))
+    sync_records(store)  # looks edited in the library since the chapter was written
     pipeline = Pipeline(store, provider_for(store), library=LIBRARY)
     report = pipeline.validation()
     reviews = pipeline.approvals()
@@ -278,7 +306,7 @@ def run(until, write=True, render=True, new_only=False):
                     break
                 if not new_only and not redraw_flags():
                     break
-                todo = [(n, c) for n, c, _ in chapters if state(n, c, new_only) == "ready"]
+                todo = pilots_first([(n, c) for n, c, _ in chapters if state(n, c, new_only) == "ready"])
                 if not todo:
                     report["stopped"] = "nothing ready to render"
                     break

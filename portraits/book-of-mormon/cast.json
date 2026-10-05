@@ -1126,7 +1126,13 @@
         "name": "Moriancumer seashore"
       },
       {
-        "match": "nimrod|babel|\\btower\\b",
+        "match": "babel|\btower\b|confound",
+        "from": "Ether 1",
+        "to": "Ether 2",
+        "name": "The great tower"
+      },
+      {
+        "match": "nimrod",
         "from": "Ether 1",
         "to": "Ether 2",
         "name": "Valley of Nimrod"

@@ -286,7 +286,10 @@
       }
     ],
     "visual_design_choices": [
-      "An ancient Mesopotamian valley with herds and flocks, tents, a great stepped tower far off on the horizon"
+      "An ancient Mesopotamian valley with herds and flocks and goat-hair tents, and far off on the horizon the great tower: a colossal unfinished ziggurat of sun-baked ochre mud brick, seven broad stepped tiers each smaller than the one below, a long straight stairway ramp climbing the center of the front face, dark bitumen mortar lines between the bricks, its flat unfinished top wrapped in rough wooden scaffolding"
+    ],
+    "architecture": [
+      "Ancient Mesopotamian mud-brick architecture only: ziggurat tiers, flat roofs, no arches or domes"
     ]
   },
   "Moriancumer seashore": {
@@ -342,6 +345,27 @@
     ],
     "locked_traits": [
       "Never European or Asian architecture"
+    ]
+  },
+  "The great tower": {
+    "scriptural_facts": [
+      {
+        "text": "Jared and his brother came forth from the great tower when the Lord confounded the language of the people.",
+        "refs": [
+          "Ether 1:33"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "A flat, dry ancient Mesopotamian plain at the foot of the great tower: a colossal unfinished ziggurat of sun-baked ochre mud brick, seven broad stepped tiers each smaller than the one below, a long straight stairway ramp climbing the center of the front face, dark bitumen mortar lines between the bricks, its flat unfinished top wrapped in rough wooden scaffolding",
+      "Mud-brick kilns, brick stacks and workers' tents at its base, the river plain beyond"
+    ],
+    "architecture": [
+      "Ancient Mesopotamian mud-brick architecture only: ziggurat tiers, flat roofs, no arches or domes"
+    ],
+    "locked_traits": [
+      "The tower is always this same seven-tiered ochre ziggurat with the central stairway and the scaffolded unfinished top",
+      "Never a round, spiral, or Gothic tower; never Mesoamerican"
     ]
   }
 }

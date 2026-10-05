@@ -566,3 +566,32 @@ def test_kontext_prompt_says_other_figures_are_different_people():
     from bom_comic.comic import visible_people
     prompt = "Visualize.\n\nVISIBLE PEOPLE\n[\"Lehi\", \"One\", \"twelve others\"]\n\nLOCATION\n[]"
     assert visible_people(prompt) == ["Lehi", "One", "twelve others"]
+
+
+def test_each_books_first_chapter_is_drawn_before_the_rest(tmp_path, monkeypatch):
+    from bom_comic import nightly
+    monkeypatch.setattr(nightly, "ROOT", tmp_path)
+    (tmp_path / "alma" / "001" / "final").mkdir(parents=True)
+    (tmp_path / "alma" / "001" / "final" / "manifest.json").write_text("{}")  # Alma 1 drawn before: a re-render
+    todo = [("Jacob", 3), ("Mosiah", 1), ("Mosiah", 2), ("Alma", 1), ("Alma", 2), ("Ether", 1)]
+    # First chapters never drawn, then drawn chapters to draw again, then new chapters in book order.
+    assert nightly.pilots_first(todo) == [("Mosiah", 1), ("Ether", 1), ("Alma", 1), ("Jacob", 3), ("Mosiah", 2),
+                                          ("Alma", 2)]
+
+
+def test_undrawn_chapters_take_the_librarys_current_looks(tmp_path):
+    import json
+    from bom_comic import nightly
+    from bom_comic.storage import Store
+    library = tmp_path / "library"
+    library.mkdir()
+    (library / "characters.json").write_text(json.dumps({"Ann": {"visual_design_choices": ["red cloak"]}}))
+    for name, drawn in (("new", False), ("drawn", True)):
+        store = Store(tmp_path / name)
+        store.write("continuity/characters.json", {"Ann": {"visual_design_choices": ["red cloak, carrying a book"]}})
+        if drawn:
+            store.write("final/manifest.json", {})
+        assert nightly.sync_records(store, library) == ([] if drawn else ["Ann"])
+    # A drawn chapter keeps the record its drawings were made from.
+    assert "book" in Store(tmp_path / "drawn").read("continuity/characters.json")["Ann"]["visual_design_choices"][0]
+    assert Store(tmp_path / "new").read("continuity/characters.json")["Ann"]["visual_design_choices"] == ["red cloak"]

@@ -598,8 +598,11 @@ def diffusion_prompts(prompt):
         if _STYLE_META.search(clause):
             continue  # "Each character's clothing ... follow their own time and place as described in their record"
         (architecture if _ARCHITECTURE_CLAUSE.match(clause) else other_style).append(clause)
-    positive += other_style + (architecture if built else [])
-    negative += style_negative
+    # A setting with its own architecture (Jerusalem, the great tower in Mesopotamia) overrides the house rule that
+    # buildings are Mesoamerican; asserting both drew a different tower in every panel.
+    own = any(record.get("architecture") for record in location_records.values())
+    positive += other_style + (architecture if built and not own else [])
+    negative += [item for item in style_negative if not (own and "European or Asian" in item)]
     if not built:
         negative.append("buildings, temples, pyramids, palaces, or other man-made structures")
     # Records' own "never" rules: always a setting's; a person's only when they're alone in the frame, since one
