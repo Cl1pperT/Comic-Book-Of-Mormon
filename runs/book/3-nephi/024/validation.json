@@ -1,5 +1,5 @@
 {
-  "stamp": "2e2712e74cb5f0bf35e6127a4417cababe248eb211edde88254f880a418f4489",
+  "stamp": "78f97a295d44e11613004747437df999ba890046c919754f2f69d3e2ceb0b496",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -11,8 +11,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says Jesus “tells them” the prophetic words, but the verse specifies that he expounded the written words; the quotation is the words he told them, not an explicitly stated separate telling after the exposition.",
-        "“Those commanded to write” is a functional character label, not a source-given name or group description; the verse only says “them.”"
+        "The scene’s summary and explicit facts are supported. The visual inference that the group may be shown writing before the exposition fits the stated order, but the text does not specify the writers’ identities or what the exposition looks like. The narration uses exact source excerpts. The preceding scene’s chronology is consistent."
       ]
     },
     "scene_003": {
@@ -58,15 +57,14 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The phrase “Then they that feared the Lord spake often one to another” is a supplied quotation but is represented as narration despite being speech content; it does not invent words spoken."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The dialogue attribution “Unknown speaker” is not established by the verse; avoid assigning a speaker because the verse provides no speaker identification."
+        "The Lord of Hosts is named as the speaker of verse 17, but the passage does not describe his visible appearance; depict no appearance or use text-only quotation.",
+        "The promise and jewel imagery concern a future day and must not be staged as present events."
       ]
     }
   }

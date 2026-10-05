@@ -49,6 +49,24 @@ class Lock:
         self.path.unlink(missing_ok=True)
 
 
+def _started(pid):
+    """A Windows process's start time (Unix seconds), or None if it can't be read."""
+    import ctypes
+    from ctypes import wintypes
+    kernel = ctypes.windll.kernel32
+    handle = kernel.OpenProcess(0x1000, False, pid)  # PROCESS_QUERY_LIMITED_INFORMATION
+    if not handle:
+        return None
+    try:
+        times = [wintypes.FILETIME() for _ in range(4)]
+        if not kernel.GetProcessTimes(handle, *[ctypes.byref(t) for t in times]):
+            return None
+        created = (times[0].dwHighDateTime << 32) | times[0].dwLowDateTime
+        return created / 1e7 - 11644473600  # FILETIME counts 100 ns steps from 1601
+    finally:
+        kernel.CloseHandle(handle)
+
+
 def held(path):
     path = Path(path)
     if not path.exists():
@@ -61,8 +79,11 @@ def held(path):
         out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH", "/FO", "CSV"], capture_output=True,
                              text=True).stdout
         # Windows reuses process IDs: a lock left by a killed run can name an unrelated process, so only a live
-        # Python process counts as holding it.
-        return any(line.lower().startswith('"python') and f'"{pid}"' in line for line in out.splitlines())
+        # Python process that was already running when the lock was written counts as holding it.
+        if not any(line.lower().startswith('"python') and f'"{pid}"' in line for line in out.splitlines()):
+            return False
+        started = _started(pid)
+        return started is None or started <= path.stat().st_mtime + 2
     try:
         os.kill(pid, 0)
         return True

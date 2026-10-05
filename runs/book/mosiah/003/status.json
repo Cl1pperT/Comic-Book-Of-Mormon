@@ -4,17 +4,17 @@
   "verses": 27,
   "scenes": 14,
   "counts": {
-    "PASS": 10,
-    "PASS WITH WARNINGS": 4,
+    "PASS": 8,
+    "PASS WITH WARNINGS": 6,
     "REJECT": 0
   },
   "rejected": {},
-  "calls": 79,
+  "calls": 91,
   "tokens": {
-    "input_tokens": 564720,
-    "cached_input_tokens": 253696,
+    "input_tokens": 646380,
+    "cached_input_tokens": 283392,
     "cache_write_input_tokens": 0,
-    "output_tokens": 64179,
-    "reasoning_output_tokens": 29413
+    "output_tokens": 67643,
+    "reasoning_output_tokens": 30839
   }
 }

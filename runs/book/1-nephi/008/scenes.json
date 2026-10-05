@@ -39,13 +39,13 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Lehi recounts his vision",
+    "title": "Lehi recounts his dream",
     "refs": [
       "1 Nephi 8:2",
       "1 Nephi 8:3",
       "1 Nephi 8:4"
     ],
-    "summary": "While tarrying in the wilderness, Lehi tells his sons he has seen a vision. He says he rejoices concerning Nephi and Sam and fears for Laman and Lemuel.",
+    "summary": "While Lehi tarries in the wilderness, he tells those with him that he has dreamed a dream or seen a vision. He expresses hope for Nephi and Sam, fear for Laman and Lemuel, and describes a dark and dreary wilderness he saw in his dream.",
     "characters": [
       "Lehi",
       "Nephi",
@@ -58,65 +58,62 @@
     ],
     "explicit_facts": [
       {
-        "text": "Lehi tarried in the wilderness and spoke to his sons, saying he had dreamed a dream or seen a vision.",
+        "text": "While Lehi tarried in the wilderness, he spoke to those with him and said he had dreamed a dream or seen a vision.",
         "refs": [
           "1 Nephi 8:2"
         ]
       },
       {
-        "text": "Lehi said he had reason to rejoice in the Lord because of Nephi and Sam, and supposed they and many of their seed would be saved.",
+        "text": "Lehi said he had reason to rejoice in the Lord because of Nephi and Sam and supposed that they and many of their seed would be saved.",
         "refs": [
           "1 Nephi 8:3"
         ]
       },
       {
-        "text": "Lehi said he feared exceedingly for Laman and Lemuel and had seen a dark and dreary wilderness in his dream.",
+        "text": "Lehi told Laman and Lemuel he feared exceedingly because of them and said he had seen a dark and dreary wilderness in his dream.",
         "refs": [
           "1 Nephi 8:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi speaks to his sons; his vision may be represented as an imagined image rather than as a present event."
+      "Lehi may be shown speaking to listeners in the wilderness; Nephi is among those hearing him."
     ],
     "unspecified_visual_details": [
-      "The sons' reactions and attire; the wilderness's specific appearance."
+      "The listeners' reactions and attire.",
+      "The appearance of the wilderness where Lehi speaks."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I have dreamed a dream;",
+        "text": "Behold, I have dreamed a dream; or, in other words, I have seen a vision.",
         "refs": [
           "1 Nephi 8:2"
         ],
         "speaker": "Lehi"
       },
       {
-        "text": "or, in other words, I have seen a vision.",
-        "refs": [
-          "1 Nephi 8:2"
-        ],
-        "speaker": "Lehi"
-      }
-    ],
-    "narration": [
-      {
-        "text": "because of the thing which I have seen, I have reason to rejoice in the Lord because of Nephi and also of Sam;",
+        "text": "I have reason to rejoice in the Lord because of Nephi and also of Sam;",
         "refs": [
           "1 Nephi 8:3"
-        ]
+        ],
+        "speaker": "Lehi"
       },
       {
         "text": "But behold, Laman and Lemuel, I fear exceedingly because of you;",
         "refs": [
           "1 Nephi 8:4"
-        ]
+        ],
+        "speaker": "Lehi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Lehi reports his dream or vision to his sons."
+      "The first-person statements in Lehi's speech are Lehi's, not Nephi's.",
+      "The dark and dreary wilderness is something Lehi reports seeing in his dream."
     ],
     "prohibited_inventions": [
-      "Do not portray the vision wilderness as a present event or place the sons inside it."
+      "Do not portray the dream wilderness as the present location or place the listeners inside it.",
+      "Do not give Sam a reaction or establish that he is physically present solely because Lehi mentions him."
     ],
     "importance": "normal"
   },

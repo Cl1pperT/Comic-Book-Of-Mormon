@@ -1,5 +1,5 @@
 {
-  "stamp": "e6a9f99acfd531a9747820ee4732af56f2e272200ff92730787a30652bb68173",
+  "stamp": "b1058e8ca89613484da30d1971395af3a26a6f172d65333b5c16f034d087a5a1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -49,8 +49,12 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary includes the claim that they went again to battle, which is in Ether 15:19 and is a later event than writing the epistle; keep these as separate moments.",
+        "The narration's first excerpt is an exact quotation, but its second excerpt is not verbatim: the source says “wherefore they went again to battle.” The supplied narration omits the initial capitalization only in the first excerpt? Replace it with the exact source text, including capitalization.",
+        "Previous scene's summary is supported by Ether 15:17; its day of battle and nighttime mourning are separate moments."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -75,8 +79,8 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Ether 15:33 says the Lord spoke, but does not describe a visible appearance; retain the stated unspecified appearance and location. Ether's final words are written, not necessarily spoken aloud.",
-        "The summary combines sequential events, but no specific timing or place for finishing and hiding the record is supplied; preserve that uncertainty."
+        "The scenes generally follow the source, and scene_018 does not continue the previous scene’s battle as a present event. However, the quoted narration omits the source’s intervening phrase “(and the hundredth part I have not written)” between “finished his record” and “and he hid them,” so it is not a contiguous exact excerpt. The dialogue and Ether’s final written words are exact quotations.",
+        "The unspecified location and absence of a visible Lord are appropriately cautious; Ether completing and hiding the record is supported. The people of Limhi’s later discovery is mentioned only in summary, not staged."
       ]
     }
   }

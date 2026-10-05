@@ -1,5 +1,5 @@
 {
-  "stamp": "f0ea0d1f2c4c839f8df435653e4e68e8701376d7106246c87a762968cbf2a924",
+  "stamp": "c68b8a86be0baa0b08614083ebf843caa7607f5b38fb20fcbbeb88de7302b526",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,8 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The character label “Pahoran” is ambiguous because the verses name both the deceased father and his son; the appointed chief judge is the son. Consider using the established label “Pahoran (son of Pahoran).”"
+        "The title and characters identify the appointed Pahoran in scene_002 as “Pahoran”; the supplied verses do not explicitly identify him as Pahoran's son. The notes correctly caution against asserting that relationship.",
+        "The narration calls Pacumeni's action “his subsequent response,” but verse 6 does not establish how much time passed after the appointment."
       ]
     },
     "scene_003": {

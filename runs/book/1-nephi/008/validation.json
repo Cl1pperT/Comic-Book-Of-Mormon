@@ -1,5 +1,5 @@
 {
-  "stamp": "d0516c5ee159a822f5dde5da64feef556b9a69ea676c45ab6d517fb9d5a7ab1f",
+  "stamp": "216fdd67be04eaa4d423c7819b9e09d77ac7e9e84c819a102ae18cecc99b650a",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,9 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The quoted dialogue excerpts are accurate but omit Lehi's reported words of rejoicing and fear; the narration excerpts convey those facts instead."
+        "Nephi, Sam, Laman, and Lemuel are named as listeners or addressees, but the verses do not establish which are physically present; depicting them as listeners is only a visual inference. The visual inference appropriately says Nephi is among those hearing him, but Sam's presence should remain unspecified.",
+        "The summary says Lehi \"describes\" the wilderness; the verse reports that he saw it in his dream, so it should not suggest the dream wilderness is the present setting.",
+        "The quoted dialogue excerpts are exact, but total dialogue exceeds the 65-word narration-and-dialogue limit if counted together."
       ]
     },
     "scene_003": {

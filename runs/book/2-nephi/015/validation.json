@@ -1,10 +1,11 @@
 {
-  "stamp": "7e25a9e79330a5ab2e26e67e6b6a0cdadbcc463c0deff67a12d2be45bfb020a4",
+  "stamp": "61b6e48d3ae815cfe45cc2a729ee2ef6cac0033f307a3c7a362f066adb810369",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The explicit facts, quotation excerpts, and summary are supported by verses 1–2, and the listed restraint notes appropriately prevent treating the vineyard imagery as a newly unfolding scene. However, the verses do not identify the first-person speaker as Nephi; the doctrinal/story note that the speaker label follows the user's identification is unsupported by the supplied source. The well-beloved's identity is also unspecified, as the scene notes."
+        "Speaker identified as Nephi by the supplied task context, not by these verses; retain only as a label, not as a verse-established fact.",
+        "Verse 2's preparation and yield are reported events; depict only as quoted narration, not as unfolding vineyard action."
       ]
     },
     "scene_002": {
@@ -20,20 +21,28 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 9 identifies the Lord of Hosts as saying the quoted prediction, but the supplied quote omits the attribution phrase; this can be retained as narration only if dialogue attribution is not implied by the excerpt."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Unnamed people at a feast” is a visual inference; the verses describe what is in their feasts but do not explicitly say the people or instruments are visibly present in one scene."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 14 describes hell figuratively and says the people shall descend into it; do not show this as a literal present event. The scene notes correctly flag this."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Lambs feeding and strangers eating the waste places are future statements; do not combine them with the humbling and exaltation as simultaneous events."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -48,24 +57,34 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Root, blossoms, and fire language are figurative or prophetic; do not stage as literal present action, as the scene notes specify."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source explicitly reports trembling hills and torn carcasses, but depict without gore or newly staged action, as the scene notes specify."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The future summons and approach are prophetic; do not show them occurring in the present scene."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The seizure of prey is foretold, not present action; the similes must not be depicted as literal transformations."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The darkened land and roaring are foretold; do not stage as a current event or assign identities to the participants."
+      ]
     }
   }
 }

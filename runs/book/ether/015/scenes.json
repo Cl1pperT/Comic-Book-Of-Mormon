@@ -79,7 +79,7 @@
       "Ether 15:4",
       "Ether 15:5"
     ],
-    "summary": "Coriantumr writes to Shiz, offering to give up the kingdom if Shiz spares the people. After receiving the epistle, Shiz writes to Coriantumr, offering to spare the people if Coriantumr gives himself up to be slain by Shiz’s sword.",
+    "summary": "Coriantumr writes to Shiz, offering to give up the kingdom if Shiz spares the people. After receiving the epistle, Shiz writes to Coriantumr that he will spare the people if Coriantumr gives himself up to be slain with Shiz’s sword.",
     "characters": [
       "Coriantumr",
       "Shiz"
@@ -89,41 +89,41 @@
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr wrote an epistle to Shiz, asking him to spare the people and offering to give up the kingdom for their lives.",
+        "text": "Coriantumr writes an epistle to Shiz, asking him to spare the people and offering to give up the kingdom for their lives.",
         "refs": [
           "Ether 15:4",
           "Ether 15:5"
         ]
       },
       {
-        "text": "After receiving the epistle, Shiz wrote to Coriantumr that he would spare the people if Coriantumr gave himself up to be slain with Shiz’s own sword.",
+        "text": "After receiving that epistle, Shiz writes an epistle to Coriantumr, offering to spare the people if Coriantumr gives himself up to be slain with Shiz’s own sword.",
         "refs": [
           "Ether 15:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Separate, sequential views may show Coriantumr writing his epistle and, later, Shiz receiving it and writing his reply."
+      "Separate, sequential views can identify Coriantumr as the first writer and Shiz as the recipient and later writer."
     ],
     "unspecified_visual_details": [
-      "The locations and writing materials are not specified."
+      "The locations, writing materials, and appearances are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he wrote an epistle unto Shiz",
+        "text": "he wrote an epistle unto Shiz, desiring him that he would spare the people,",
         "refs": [
           "Ether 15:4"
         ]
       },
       {
-        "text": "he would give up the kingdom for the sake of the lives of the people.",
+        "text": "he would give up the kingdom",
         "refs": [
           "Ether 15:4"
         ]
       },
       {
-        "text": "when Shiz had received his epistle he wrote an epistle unto Coriantumr",
+        "text": "when Shiz had received his epistle he wrote an epistle unto Coriantumr,",
         "refs": [
           "Ether 15:5"
         ]
@@ -136,11 +136,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The first epistle’s writer is identified as Coriantumr by the reply addressed to him; the second epistle’s writer is explicitly Shiz."
+      "The first writer is identifiable as Coriantumr from Shiz’s reply addressed to him. The demand in the second epistle is Shiz’s, not Coriantumr’s."
     ],
     "prohibited_inventions": [
-      "Do not portray the epistles as spoken dialogue, add wording to them, or show Coriantumr and Shiz meeting face to face.",
-      "Do not depict the proposed killing as an event that occurs."
+      "Do not portray the epistles as spoken dialogue or add words to them.",
+      "Do not show Coriantumr and Shiz meeting or depict the proposed killing as an event that occurs."
     ],
     "importance": "normal"
   },
@@ -417,55 +417,65 @@
       "Ether 15:12",
       "Ether 15:13"
     ],
-    "summary": "The surviving people gather to their chosen armies. Ether beholds the gathering and sees the people of each side joining its army.",
+    "summary": "The people who had not been slain gather, except Ether. Ether beholds the people for Coriantumr gathered to Coriantumr’s army and the people for Shiz gathered to Shiz’s army.",
     "characters": [
       "Ether",
-      "the people of Coriantumr",
-      "the people of Shiz"
+      "the people for Coriantumr",
+      "the people for Shiz",
+      "the army of Coriantumr",
+      "the army of Shiz"
     ],
     "locations": [
-      "Unspecified location"
+      "the land; precise gathering places unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "All people in the land who had not been slain gathered, except Ether.",
+        "text": "All the people in the land who had not been slain gathered, except Ether.",
         "refs": [
           "Ether 15:12"
         ]
       },
       {
-        "text": "Ether beheld the people for Coriantumr gathered to his army and the people for Shiz gathered to his army.",
+        "text": "Ether beheld the doings of the people.",
+        "refs": [
+          "Ether 15:13"
+        ]
+      },
+      {
+        "text": "The people for Coriantumr gathered to Coriantumr’s army, and the people for Shiz gathered to Shiz’s army.",
         "refs": [
           "Ether 15:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The gathering may be shown as two distinct groups assembling with their respective armies."
+      "The two gatherings may be shown as distinct groups."
     ],
     "unspecified_visual_details": [
-      "Ether’s vantage point and the precise gathering place are not specified."
+      "Ether’s vantage point and the precise gathering places are not specified.",
+      "The people’s clothing, appearances, and numbers are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Ether did behold all the doings of the people",
+        "text": "all the people upon all the face of the land, who had not been slain, save it was Ether.",
         "refs": [
-          "Ether 15:13"
+          "Ether 15:12"
         ]
       },
       {
-        "text": "the people who were for Shiz were gathered together to the army of Shiz.",
+        "text": "the people who were for Coriantumr were gathered together to the army of Coriantumr; and the people who were for Shiz were gathered together to the army of Shiz.",
         "refs": [
           "Ether 15:13"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Ether beholds the events; the passage does not state that he joins either army."
+      "Ether observes the gathering but is excepted from it."
     ],
     "prohibited_inventions": [
-      "Do not invent a particular hiding place or make Ether part of the gathered armies."
+      "Do not place Ether in either army.",
+      "Do not invent a specific gathering place, dialogue, or the physical presence of Coriantumr or Shiz."
     ],
     "importance": "normal"
   },
@@ -670,39 +680,46 @@
       "Ether 15:18",
       "Ether 15:19"
     ],
-    "summary": "Coriantumr writes again, asking Shiz not to return to battle and offering him the kingdom to spare the people. The people go again to battle.",
+    "summary": "Coriantumr writes again to Shiz, asking him not to return to battle but to take the kingdom and spare the people. They go again to battle.",
     "characters": [
       "Coriantumr",
-      "the people of Coriantumr",
-      "the people of Shiz"
+      "Shiz",
+      "the people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Coriantumr wrote Shiz asking him not to come again to battle, but to take the kingdom and spare the people.",
+        "text": "Coriantumr wrote another epistle to Shiz, asking him not to return to battle but to take the kingdom and spare the people.",
         "refs": [
           "Ether 15:18"
         ]
       },
       {
-        "text": "The people went again to battle after the Spirit of the Lord had ceased striving with them and Satan had full power over their hearts.",
+        "text": "The Spirit of the Lord had ceased striving with them, and Satan had full power over the hearts of the people.",
+        "refs": [
+          "Ether 15:19"
+        ]
+      },
+      {
+        "text": "They went again to battle.",
         "refs": [
           "Ether 15:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Coriantumr may be shown writing the letter; the return to battle is a separate moment."
+      "Coriantumr may be shown writing the epistle.",
+      "The return to battle is a later moment, not part of the writing."
     ],
     "unspecified_visual_details": [
-      "The letter’s physical form, its delivery, and the place of writing are unspecified."
+      "The epistle’s appearance, its delivery, and the locations are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "desiring that he would not come again to battle",
+        "text": "Coriantumr wrote again an epistle unto Shiz, desiring that he would not come again to battle, but that he would take the kingdom, and spare the lives of the people.",
         "refs": [
           "Ether 15:18"
         ]
@@ -715,11 +732,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The descriptions of the Spirit, Satan, hearts, and blindness are doctrinal narration, not a depicted visible supernatural event."
+      "The descriptions of the Spirit, Satan, hearts, and blindness are narration, not visible appearances."
     ],
     "prohibited_inventions": [
       "Do not show Satan or the Spirit as visible figures.",
-      "Do not portray the letter as spoken dialogue."
+      "Do not portray the epistle as spoken dialogue.",
+      "Do not depict Shiz receiving the epistle or specify how it was delivered."
     ],
     "importance": "normal"
   },
@@ -1048,7 +1066,7 @@
       "Ether 15:33",
       "Ether 15:34"
     ],
-    "summary": "The Lord tells Ether to go forth. Ether goes forth, beholds that the Lord’s words have been fulfilled, finishes his record, and hides it in a manner that the people of Limhi find it. Ether’s last written words express that his fate matters not if he is saved in God’s kingdom.",
+    "summary": "The Lord tells Ether to go forth. Ether goes forth, beholds that the Lord’s words have been fulfilled, finishes his record, and hides it. The people of Limhi later find what he hid. Ether’s last written words concern his willingness to accept the Lord’s will if he is saved in the kingdom of God.",
     "characters": [
       "Ether",
       "The Lord"
@@ -1070,6 +1088,12 @@
         ]
       },
       {
+        "text": "Moroni says he has not written the hundredth part.",
+        "refs": [
+          "Ether 15:33"
+        ]
+      },
+      {
         "text": "Ether’s last written words say that whether he is translated or suffers the Lord’s will in the flesh matters not if he is saved in God’s kingdom.",
         "refs": [
           "Ether 15:34"
@@ -1080,7 +1104,7 @@
       "Ether may be shown completing and hiding his record after going forth."
     ],
     "unspecified_visual_details": [
-      "The Lord’s appearance, the place Ether observes from, and the hiding place are not specified."
+      "The Lord’s appearance, Ether’s surroundings, and the hiding place are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -1093,25 +1117,27 @@
     ],
     "narration": [
       {
-        "text": "he finished his record",
+        "text": "Now the last words which are written by Ether are these:",
         "refs": [
-          "Ether 15:33"
+          "Ether 15:34"
         ]
       },
       {
-        "text": "it mattereth not, if it so be that I am saved in the kingdom of God.",
+        "text": "Whether the Lord will that I be translated, or that I suffer the will of the Lord in the flesh, it mattereth not, if it so be that I am saved in the kingdom of God. Amen.",
         "refs": [
           "Ether 15:34"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
+      "The first-person narrator is Moroni, son of Mormon; the first-person words in Ether’s final written statement are Ether’s.",
       "The Lord speaks, but no visible appearance is described.",
       "Ether’s final words are written, not necessarily spoken aloud."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord’s appearance.",
-      "Do not show the people of Limhi at the earlier hiding event."
+      "Do not show the people of Limhi at the earlier hiding event.",
+      "Do not portray Ether’s possible translation as an event that occurs."
     ],
     "importance": "normal"
   }

@@ -84,7 +84,7 @@
     "refs": [
       "3 Nephi 24:1"
     ],
-    "summary": "Jesus Christ commands them to write the words the Father gave Malachi. After the words are written, he expounds them and tells them of a messenger who will prepare the way and the Lord who will come to his temple.",
+    "summary": "Jesus Christ commands them to write the words the Father gave Malachi. After they are written, he expounds them and tells them the words.",
     "characters": [
       "Jesus Christ (at Bountiful)",
       "Those commanded to write"
@@ -94,7 +94,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jesus Christ commands them to write the words the Father gave Malachi.",
+        "text": "He commands them to write the words the Father gave Malachi.",
         "refs": [
           "3 Nephi 24:1"
         ]
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "text": "The words he tells them say a messenger will prepare the way and the Lord will come to his temple.",
+        "text": "He tells them words concerning a messenger who will prepare the way and the Lord who will come to his temple.",
         "refs": [
           "3 Nephi 24:1"
         ]
@@ -118,18 +118,16 @@
     "unspecified_visual_details": [
       "The setting, writing materials, and appearances of those present are not described."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "Behold, I will send my messenger, and he shall prepare the way before me, and the Lord whom ye seek shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in; behold, he shall come, saith the Lord of Hosts.",
-        "refs": [
-          "3 Nephi 24:1"
-        ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father's words to Malachi"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "after they were written he expounded them.",
+        "text": "And it came to pass that he commanded them that they should write the words which the Father had given unto Malachi, which he should tell unto them.",
+        "refs": [
+          "3 Nephi 24:1"
+        ]
+      },
+      {
+        "text": "And it came to pass that after they were written he expounded them.",
         "refs": [
           "3 Nephi 24:1"
         ]
@@ -139,9 +137,10 @@
       "The messenger's preparation and the Lord's coming are spoken prophecy, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the prophesied messenger or the Lord arriving at the temple.",
+      "Do not depict the prophesied messenger or an arrival at the temple.",
       "Do not invent the messenger's identity or appearance, or the temple's appearance.",
-      "Do not depict the group writing at the same time Jesus Christ expounds the words."
+      "Do not show the writing and expounding happening at the same time.",
+      "Do not depict the Father or Malachi as physically present."
     ],
     "importance": "normal"
   },
@@ -661,7 +660,7 @@
       "3 Nephi 24:16",
       "3 Nephi 24:17"
     ],
-    "summary": "Those who feared the Lord spoke often to one another, and the Lord heard them. A book of remembrance was written before him for those who feared him and thought upon his name. The Lord of Hosts says they will be his and that he will spare them.",
+    "summary": "Those who feared the Lord spoke often to one another. The Lord heard them, and a book of remembrance was written before him for those who feared him and thought upon his name. The Lord of Hosts says they will be his and he will spare them in a future day.",
     "characters": [
       "Those who feared the Lord",
       "The Lord of Hosts"
@@ -691,7 +690,7 @@
     ],
     "reasonable_visual_inferences": [
       "People may be shown speaking to one another.",
-      "A book may be shown being written, without identifying an author."
+      "A book may be shown being written, without identifying its writer."
     ],
     "unspecified_visual_details": [
       "The people's identities and appearance",
@@ -722,6 +721,12 @@
         ]
       },
       {
+        "text": "and the Lord hearkened and heard;",
+        "refs": [
+          "3 Nephi 24:16"
+        ]
+      },
+      {
         "text": "and a book of remembrance was written before him",
         "refs": [
           "3 Nephi 24:16"
@@ -729,7 +734,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord's words concern a future day. His jewels and the comparison to a father sparing his son are figurative, not additional visible events."
+      "Present the verse 16 narration before the Lord's promise in verse 17. The promise concerns a future day; the jewels and father-son comparison are not additional visible events."
     ],
     "prohibited_inventions": [
       "Do not invent what the people said or identify the writer.",
@@ -743,8 +748,10 @@
     "refs": [
       "3 Nephi 24:18"
     ],
-    "summary": "The verse foretells that those addressed will return and discern between the righteous and the wicked, and between those who serve God and those who do not.",
-    "characters": [],
+    "summary": "Those addressed are told that they will return and discern between the righteous and the wicked, and between those who serve God and those who do not.",
+    "characters": [
+      "Jesus Christ"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -755,7 +762,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The future distinction could be conveyed through text or an abstract contrast, without depicting it as an event already occurring."
+      "The future distinction could be conveyed through text or abstract contrast without depicting it as an event already occurring."
     ],
     "unspecified_visual_details": [
       "The identity and appearance of those addressed.",
@@ -767,15 +774,14 @@
         "refs": [
           "3 Nephi 24:18"
         ],
-        "speaker": "Unknown speaker"
+        "speaker": "Jesus Christ (at Bountiful), quoting the Father's words to Malachi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse describes future discernment, not a judgment scene occurring in the verse."
+      "The verse describes future discernment, not a judgment occurring in the verse."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or the people addressed.",
       "Do not depict an unreported judgment or identify particular people as righteous or wicked."
     ],
     "importance": "normal"

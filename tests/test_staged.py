@@ -1,4 +1,6 @@
-﻿from bom_comic.analysis import deterministic_issues
+﻿import os
+import pytest
+from bom_comic.analysis import deterministic_issues
 from bom_comic.models import Verse
 from bom_comic.staged import analyze_staged, segment_schema, lettering_schema
 
@@ -595,3 +597,22 @@ def test_undrawn_chapters_take_the_librarys_current_looks(tmp_path):
     # A drawn chapter keeps the record its drawings were made from.
     assert "book" in Store(tmp_path / "drawn").read("continuity/characters.json")["Ann"]["visual_design_choices"][0]
     assert Store(tmp_path / "new").read("continuity/characters.json")["Ann"]["visual_design_choices"] == ["red cloak"]
+
+
+@pytest.mark.skipif(os.name != "nt", reason="Windows process start times")
+def test_a_lock_naming_a_process_started_after_it_is_stale(tmp_path):
+    import subprocess
+    import sys
+    import time
+    from bom_comic.book import held
+    child = subprocess.Popen([sys.executable, "-c", "import time; time.sleep(30)"])
+    try:
+        time.sleep(1)
+        lock = tmp_path / "nightly.lock"
+        lock.write_text(str(child.pid))
+        assert held(lock)  # written while the process runs: it holds the lock
+        old = time.time() - 3600
+        os.utime(lock, (old, old))
+        assert not held(lock)  # written before the process existed: a reused ID, so stale
+    finally:
+        child.kill()

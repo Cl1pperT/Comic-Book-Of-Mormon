@@ -8,7 +8,7 @@
       "Helaman 1:3",
       "Helaman 1:4"
     ],
-    "summary": "After Pahoran's death, his sons Pahoran, Paanchi, and Pacumeni contend for the judgment-seat, causing three divisions among the Nephites.",
+    "summary": "At the commencement of the fortieth year of the judges, contention arises over the judgment-seat after Pahoran's death. His sons Pahoran, Paanchi, and Pacumeni contend for it and cause three divisions among the people.",
     "characters": [
       "Pahoran (son of Pahoran)",
       "Paanchi",
@@ -20,13 +20,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "Serious difficulty began among the Nephites at the commencement of the fortieth year of the judges.",
+        "text": "Serious difficulty began among the Nephites at the commencement of the fortieth year of the reign of the judges.",
         "refs": [
           "Helaman 1:1"
         ]
       },
       {
-        "text": "Pahoran had died, and contention arose among his sons over who should have the judgment-seat.",
+        "text": "Pahoran had died, and contention arose over which of his sons should have the judgment-seat.",
         "refs": [
           "Helaman 1:2"
         ]
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "text": "Pahoran had other sons, but these three contenders caused three divisions among the people.",
+        "text": "Pahoran had other sons, but the three contenders caused three divisions among the people.",
         "refs": [
           "Helaman 1:4"
         ]
@@ -54,42 +54,36 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Pahoran had died, and gone the way of all the earth; therefore there began to be a serious contention concerning who should have the judgment-seat among the brethren, who were the sons of Pahoran.",
+        "text": "For behold, Pahoran had died, and gone the way of all the earth; therefore there began to be a serious contention concerning who should have the judgment-seat among the brethren, who were the sons of Pahoran.",
         "refs": [
           "Helaman 1:2"
         ]
       },
       {
-        "text": "Pahoran, Paanchi, and Pacumeni.",
+        "text": "Now these are their names who did contend for the judgment-seat, who did also cause the people to contend: Pahoran, Paanchi, and Pacumeni.",
         "refs": [
           "Helaman 1:3"
-        ]
-      },
-      {
-        "text": "therefore, they did cause three divisions among the people.",
-        "refs": [
-          "Helaman 1:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Pahoran's death is reported as a prior event, not shown happening in this scene."
+      "The deceased Pahoran and his son named Pahoran are different people. The father's death is reported as a prior event, not shown happening in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict the deceased Pahoran as present or show his death.",
       "Do not identify the location as Zarahemla or the people as Mulekites.",
-      "Do not invent speeches or distinct identities for unnamed people."
+      "Do not invent speeches or identities for unnamed people."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "Pahoran appointed",
+    "title": "Pahoran appointed by the voice of the people",
     "refs": [
       "Helaman 1:5",
       "Helaman 1:6"
     ],
-    "summary": "Pahoran is appointed chief judge and governor over the people of Nephi by the voice of the people. Pacumeni sees that he cannot obtain the judgment-seat and unites with the voice of the people.",
+    "summary": "Pahoran is appointed chief judge and governor over the people of Nephi by the voice of the people. After Pacumeni sees that he cannot obtain the judgment-seat, he unites with the voice of the people.",
     "characters": [
       "Pahoran",
       "Pacumeni",
@@ -113,30 +107,32 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A gathering could represent the people's voice."
+      "An unnamed group could visually represent the voice of the people."
     ],
     "unspecified_visual_details": [
       "The location and manner of appointment.",
-      "The appearance of Pahoran, Pacumeni, and the people."
+      "The appearances of Pahoran, Pacumeni, and the people."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Pahoran was appointed by the voice of the people to be chief judge and a governor over the people of Nephi.",
+        "text": "Nevertheless, it came to pass that Pahoran was appointed by the voice of the people to be chief judge and a governor over the people of Nephi.",
         "refs": [
           "Helaman 1:5"
         ]
       },
       {
-        "text": "Pacumeni, when he saw that he could not obtain the judgment-seat, he did unite with the voice of the people.",
+        "text": "And it came to pass that Pacumeni, when he saw that he could not obtain the judgment-seat, he did unite with the voice of the people.",
         "refs": [
           "Helaman 1:6"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Keep Pahoran's appointment and Pacumeni's subsequent response distinct. These verses do not identify Pahoran by a family relationship."
+    ],
     "prohibited_inventions": [
-      "Do not identify the people as Mulekites.",
+      "Do not depict a deceased Pahoran as the person appointed.",
       "Do not invent speeches, voting procedures, or a specific venue."
     ],
     "importance": "normal"
@@ -687,12 +683,13 @@
       "Helaman 1:19",
       "Helaman 1:20"
     ],
-    "summary": "Coriantumr leads his numerous host rapidly upon the city's inhabitants, leaving the Nephites no time to gather their armies. He cuts down the watch at the entrance. His army enters the city, slays those who oppose them, and takes possession of it.",
+    "summary": "Coriantumr leads his numerous host upon the city's inhabitants so quickly that the Nephites cannot gather their armies. He cuts down the watch at the entrance. His army enters, slays those who oppose them, and takes possession of the city.",
     "characters": [
       "Coriantumr",
       "Coriantumr's host",
       "The watch at the city entrance",
-      "The city's inhabitants"
+      "The city's inhabitants",
+      "Nephites"
     ],
     "locations": [
       "An unnamed city and its entrance"
@@ -705,7 +702,7 @@
         ]
       },
       {
-        "text": "The host marched so quickly that the Nephites had no time to gather their armies.",
+        "text": "The march was so fast that the Nephites had no time to gather their armies.",
         "refs": [
           "Helaman 1:19"
         ]
@@ -717,19 +714,19 @@
         ]
       },
       {
-        "text": "His whole army entered, slew everyone who opposed them, and took possession of the city.",
+        "text": "His whole army entered the city, slew everyone who opposed them, and took possession of the whole city.",
         "refs": [
           "Helaman 1:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The city entrance and the advancing host may be shown.",
-      "The described combat may be shown without gore."
+      "The advancing host and city entrance may be shown.",
+      "The described combat may be shown as it happens, without gore."
     ],
     "unspecified_visual_details": [
       "The city's name and architecture.",
-      "The combatants' clothing, weapons, and individual appearances."
+      "The clothing, weapons, and individual appearances of those present."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -738,12 +735,18 @@
         "refs": [
           "Helaman 1:19"
         ]
+      },
+      {
+        "text": "Therefore Coriantumr did cut down the watch by the entrance of the city, and did march forth with his whole army into the city, and they did slay every one who did oppose them, insomuch that they did take possession of the whole city.",
+        "refs": [
+          "Helaman 1:20"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not name the city or assign an ancestry or allegiance to Coriantumr's host.",
-      "Do not show gore or invent dialogue."
+      "Do not name the city or assign an unstated allegiance to Coriantumr's host.",
+      "Do not invent dialogue or show gore."
     ],
     "importance": "normal"
   },
@@ -1012,50 +1015,48 @@
     "refs": [
       "Helaman 1:29"
     ],
-    "summary": "A man heads off a group before they reach the land Bountiful and gives them battle. They then begin retreating toward the land of Zarahemla.",
+    "summary": "A man heads off a group before they reach the land Bountiful and gives them battle. The group he battles begins to retreat toward the land of Zarahemla.",
     "characters": [
       "Unnamed man",
-      "Unnamed opposing group"
+      "Unnamed group he battles"
     ],
     "locations": [
       "Before reaching the land Bountiful",
-      "Retreat route toward the land of Zarahemla"
+      "Toward the land of Zarahemla"
     ],
     "explicit_facts": [
       {
-        "text": "The man heads the group off before they reach the land Bountiful and gives them battle.",
+        "text": "The man heads off the group before they reach the land Bountiful and gives them battle.",
         "refs": [
           "Helaman 1:29"
         ]
       },
       {
-        "text": "The group then begins retreating back toward the land of Zarahemla.",
+        "text": "The group he battles begins to retreat back toward the land of Zarahemla.",
         "refs": [
           "Helaman 1:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The retreating group may be shown moving away from the encounter."
+      "If the retreat is shown, the group moving away is the same group the man battled."
     ],
     "unspecified_visual_details": [
-      "The supplied verse does not name the man or identify the group's allegiance.",
+      "The verse does not name the man or identify the group's allegiance.",
       "Numbers, appearance, clothing, weapons, terrain, and time of day are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they began to retreat back towards the land of Zarahemla.",
+        "text": "And thus he did; and he did head them before they came to the land Bountiful, and gave unto them battle, insomuch that they began to retreat back towards the land of Zarahemla.",
         "refs": [
           "Helaman 1:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Stage the retreat after the battle, not as a simultaneous action.",
-      "The requested identifications as Lehi and Lamanites depend on preceding context that was not supplied and therefore cannot be established here.",
-      "The narration is an exact contiguous excerpt; omitted surrounding text does not require an inserted ellipsis.",
-      "Mormon is the narrator, not a participant established as physically present."
+      "Show the retreat as following the battle, with the battled group clearly the one retreating.",
+      "Mormon narrates but is not established as physically present."
     ],
     "prohibited_inventions": [
       "Do not assign names or allegiances from unsupplied context.",

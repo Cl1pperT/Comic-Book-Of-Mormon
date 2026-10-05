@@ -1,5 +1,5 @@
 {
-  "stamp": "89f286152d33c68ef508b54242224e2cd815b03dea2ade8b03c120b9867dd96b",
+  "stamp": "f3998bd3312e45808f60072d8acc5d824eeaa102bad8cec5d814b78493120aec",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -43,8 +43,10 @@
       ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied text presents doctrine as King Benjamin's speech, not as a narrated visible event; keep any depiction limited to the speaker and avoid staging the teachings. The speaker attribution is supported by the user's supplied notes, but the cited verses themselves do not identify him."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -66,8 +68,12 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses present this as King Benjamin reporting the Lord’s words; they do not establish the Lord as a present, visibly depicted character. The wording correctly identifies the Lord as the quoted speaker, but the scene should not show him appearing.",
+        "The comparison to a lake of fire and brimstone is correctly treated as figurative, not as a visible setting. The unidentified “they” and “them” should remain unidentified.",
+        "The preceding scene describes future judgment and consequences, not events occurring in the present. This scene likewise avoids staging those events as present action. The dialogue is verbatim and within the 65-word limit."
+      ]
     }
   }
 }
