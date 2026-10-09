@@ -111,6 +111,22 @@ def state(book_name, chapter, new_only=False):
     return "blocked" if status["counts"]["REJECT"] else "ready"
 
 
+STOP_FLAG = ROOT / "nightly" / "stop.flag"
+CONTROL_LOCK = ROOT / "control.lock"
+_STARTED = time.time()
+
+
+def past(deadline):
+    """Whether to stop starting new work: the deadline has passed, or ComicBOM Control asked for a stop since this
+    process started (a flag left from an earlier stop doesn't count). The panel in progress always finishes."""
+    if datetime.datetime.now() >= deadline:
+        return True
+    try:
+        return STOP_FLAG.stat().st_mtime > _STARTED
+    except OSError:
+        return False
+
+
 def sync_records(store, library=LIBRARY):
     """Give a chapter that has never been drawn the library's current character records (the library is where
     looks are edited); returns the names updated. A drawn chapter keeps its own, so its drawings stay current."""
@@ -153,6 +169,13 @@ def render_chapter(book_name, chapter, deadline, provider_for):
             pipeline.review("scene", scene.scene_id, "approve", SCENE_NOTE.format(warned))
     if not store.path("panels.json").exists() or store.read("panels.json")["scene_stamp"] != pipeline.stamp():
         pipeline.plan()
+    if store.path("portraits/index.json").exists() and not (store.path("final/manifest.json")).exists():
+        # A look edited in the library after this chapter adopted its portraits leaves them stale: adopt them again.
+        try:
+            for name in pipeline.portrait_names():
+                pipeline.portrait(name)
+        except ValueError:
+            store.path("portraits/index.json").unlink()
     if not store.path("portraits/index.json").exists():
         # Adopted now so a later reference-portrait re-render of a flagged panel doesn't restale every draft.
         pipeline.adopt_portraits(LIBRARY)
@@ -165,7 +188,7 @@ def render_chapter(book_name, chapter, deadline, provider_for):
             continue  # already drawn
         except (ValueError, FileNotFoundError):
             pass
-        if datetime.datetime.now() >= deadline:
+        if past(deadline):
             return False
         started = time.monotonic()
         pipeline.generate(panel.panel_id, references=False)
@@ -181,7 +204,7 @@ def render_chapter(book_name, chapter, deadline, provider_for):
         try:
             pipeline.cover_record()
         except (ValueError, FileNotFoundError):
-            if datetime.datetime.now() >= deadline:
+            if past(deadline):
                 return False
             started = time.monotonic()
             pipeline.cover()
@@ -214,6 +237,9 @@ def run(until, write=True, render=True, new_only=False):
     # One nightly run at a time: a run started by hand keeps the midnight run from doubling up.
     if book.held(night / "nightly.lock"):
         raise SystemExit(f"Another nightly run holds {night / 'nightly.lock'}; exiting.")
+    # A session of ComicBOM Control (which starts its own runs with COMICBOM_CONTROL=1) keeps the scheduled run out.
+    if os.getenv("COMICBOM_CONTROL") != "1" and book.held(ROOT / "control.lock"):
+        raise SystemExit("ComicBOM Control has a session running (runs/book/control.lock); exiting.")
     with book.Lock(night / "nightly.lock"):
         keep_awake(True)
         try:
@@ -274,7 +300,7 @@ def run(until, write=True, render=True, new_only=False):
                 for store, panel_id, flag in redraw.pending(ROOT):
                     if (store.root, panel_id) in failed_redraws:
                         continue  # one attempt per run; it waits in the report for a person
-                    if datetime.datetime.now() >= deadline:
+                    if past(deadline):
                         return False
                     if comfy is None and not comfy_up():
                         comfy = start_comfy(night / "comfyui.log")
@@ -300,7 +326,7 @@ def run(until, write=True, render=True, new_only=False):
                     log(f"Redrew {store.root.relative_to(ROOT.resolve()).as_posix()} {panel_id} for flag: {entry['note']}")
                 return True
 
-            while datetime.datetime.now() < deadline:
+            while not past(deadline):
                 top_up()
                 if not render:
                     break
@@ -334,7 +360,8 @@ def run(until, write=True, render=True, new_only=False):
                 if finished:
                     report["rendered"].append(f"{name} {chapter}")
                     log(f"Finished {name} {chapter}")
-            report["stopped"] = report["stopped"] or "morning deadline"
+            report["stopped"] = report["stopped"] or ("morning deadline" if datetime.datetime.now() >= deadline
+                                                      else "stopped from ComicBOM Control")
         finally:
             keep_awake(False)
             if comfy is not None:

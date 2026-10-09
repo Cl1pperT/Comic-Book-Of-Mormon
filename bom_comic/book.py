@@ -76,8 +76,9 @@ def held(path):
         return False
     if os.name == "nt":
         import subprocess
+        # No console window: from a windowed program (ComicBOM Control) each call would otherwise flash one.
         out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH", "/FO", "CSV"], capture_output=True,
-                             text=True).stdout
+                             text=True, creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0)).stdout
         # Windows reuses process IDs: a lock left by a killed run can name an unrelated process, so only a live
         # Python process that was already running when the lock was written counts as holding it.
         if not any(line.lower().startswith('"python') and f'"{pid}"' in line for line in out.splitlines()):

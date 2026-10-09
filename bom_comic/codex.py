@@ -107,7 +107,8 @@ class Codex:
             (folder / "instructions.md").write_text(INSTRUCTIONS, encoding="utf-8")
             try:
                 done = subprocess.run(self.args(folder, schema_path, output_path, model, effort), input=prompt,
-                                      capture_output=True, text=True, encoding="utf-8", timeout=self.timeout)
+                                      capture_output=True, text=True, encoding="utf-8", timeout=self.timeout,
+                                      creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
             except subprocess.TimeoutExpired:
                 raise ProviderError(f"Codex did not finish {tag} within {self.timeout:.0f}s") from None
             reply = output_path.read_text(encoding="utf-8") if output_path.exists() else ""
