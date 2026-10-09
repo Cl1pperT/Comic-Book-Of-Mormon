@@ -52,6 +52,14 @@ class ContinuityReport(Model):
     """Scenes a first-time reader of the chapter would find confusing or misleading, with a fix for each."""
     issues: List[ContinuityIssue] = []
 
+class StagingItem(Model):
+    panel_id: str
+    depiction: str
+
+class StagingBatch(Model):
+    """How to show each hard (violent or crowded) panel: see staging.py."""
+    items: List[StagingItem] = []
+
 class Corrections(Model):
     """A reviewer's note on a drawn panel, as instructions an image model can follow."""
     add: List[str] = []

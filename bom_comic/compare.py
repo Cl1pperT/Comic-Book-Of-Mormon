@@ -60,12 +60,13 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
     store = Store(out)
     make = provider_factory or (lambda: ComfyUI(store))
     timings = {}
-    anchor = comic.STYLE_ANCHOR  # a variant may set its own ("" for none); restored after each
+    anchor, battle = comic.STYLE_ANCHOR, comic.BATTLE_STAGING  # a variant may set its own; restored after each
     for name, overrides in variants:
         provider = make()
-        comic.STYLE_ANCHOR = overrides.get("anchor", anchor)  # a prompt setting, not a provider one
+        comic.STYLE_ANCHOR = overrides.get("anchor", anchor)  # prompt settings, not provider ones
+        comic.BATTLE_STAGING = bool(overrides.get("battle", battle))
         for key, value in overrides.items():
-            if key != "anchor":
+            if key not in ("anchor", "battle", "full"):
                 setattr(provider, key, value)
         renders = {}
         for pid in panel_ids:
@@ -74,12 +75,13 @@ def compare(run, panel_ids, variants, out=None, library="portraits/book-of-mormo
             path.parent.mkdir(parents=True, exist_ok=True)
             started = time.monotonic()
             # Sized to the panel's frame, as the pipeline renders it (COMFYUI_RENDER_SCALE and the MP limits apply).
+            # "full": the 1 MP maximum instead of the frame's size.
             provider.generate_image(prompt, output_path=path, aspect_ratio=aspects[pid], seed=seed_for(run, pid),
-                                    size=tuple(layout[pid][2:]))
+                                    size=None if overrides.get("full") else tuple(layout[pid][2:]))
             renders[pid] = round(time.monotonic() - started, 1)
             print(f"{name} {pid}: {renders[pid]}s", flush=True)
         warm = list(renders.values())[1:] or list(renders.values())
-        comic.STYLE_ANCHOR = anchor
+        comic.STYLE_ANCHOR, comic.BATTLE_STAGING = anchor, battle
         timings[name] = {"settings": {**{k: getattr(provider, k, None) for k in SETTINGS},
                                       "anchor": overrides.get("anchor", anchor)}, "seconds": renders,
                          "median_seconds": statistics.median(warm)}

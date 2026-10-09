@@ -144,6 +144,13 @@ def portrait_aspect(record):
 
 CORRECTIONS_HEADING = "REVIEWER CORRECTIONS"
 VISION_HEADING = "DREAM OR VISION"
+STAGING_HEADING = "STAGING"
+# Violent and battle panels (staging.py): the staged moment replaces the verse's action in the image prompt, crowds
+# shrink to massed shapes in the distance, and the anatomy failures they produce go to the negative prompt. Adopted
+# after the comparison in runs/compare/battle (the 1 MP / 30-step version wasn't worth its extra time).
+BATTLE_STAGING = True
+ANATOMY_NEGATIVE = ["two heads", "extra heads", "disembodied heads", "severed heads", "fused bodies", "merged bodies",
+                    "extra limbs", "tangled limbs", "headless figures"]
 
 # Fixed art conventions for heavenly figures, matched on the scene's free-form labels. They are design choices, not
 # scripture, and they win over records or scene prohibitions that would contradict them (e.g. "no invented wings").
@@ -267,9 +274,15 @@ def _conventional(name, record):
     return out
 
 
-def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, vision=None):
+def _violent():
+    from .staging import VIOLENT
+    return VIOLENT
+
+
+def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, vision=None, staging=None):
     """corrections: {"add": [...], "avoid": [...]} from a reviewer's flag on an earlier drawing of this panel.
-    vision: {"kind": "dream" or "vision", "seer": ...} when the panel shows what someone sees in one (chapter.py)."""
+    vision: {"kind": "dream" or "vision", "seer": ...} when the panel shows what someone sees in one (chapter.py).
+    staging: how to show a violent or battle moment (staging.py)."""
     w, h = (int(n) for n in aspect.split(":"))
     # The church of the devil is drawn from its OBJECTS entry, never as one of the people in the frame.
     panel = panel.model_copy(update={"characters_visible": [n for n in panel.characters_visible
@@ -280,9 +293,9 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, visi
     # near the front of the prompt.
     mortals = [name for name in panel.characters_visible if not heavenly(name)]
     if mortals and any((heavenly(name) or [None])[0] == "angel" for name in panel.characters_visible):
-        staging = {"add": ["Only the angel glows; " + ", ".join(mortals) + " are ordinary earthly people in plain "
+        glow = {"add": ["Only the angel glows; " + ", ".join(mortals) + " are ordinary earthly people in plain "
                            "daylight colors"], "avoid": ["glowing people", "winged people"]}
-        corrections = {key: staging[key] + list((corrections or {}).get(key, [])) for key in ("add", "avoid")}
+        corrections = {key: glow[key] + list((corrections or {}).get(key, [])) for key in ("add", "avoid")}
     references = []
     if corrections and (corrections.get("add") or corrections.get("avoid")):
         references.append(CORRECTIONS_HEADING + "\n" + json.dumps(
@@ -313,6 +326,7 @@ def build_prompt(panel, continuity, aspect, portraits=(), corrections=None, visi
              for name in panel.characters_visible}),
         *references,
         *([VISION_HEADING + "\n" + json.dumps(vision)] if vision else []),
+        *([STAGING_HEADING + "\n" + staging] if staging else []),
         "APPROVED ACTION\n" + panel.action,
         "VISIBLE PEOPLE\n" + json.dumps(panel.characters_visible),
         "LOCATION\n" + json.dumps(panel.location),
@@ -534,7 +548,8 @@ def diffusion_prompts(prompt):
     inferences = json.loads(sections["REASONABLE VISUAL INFERENCES"])
     creative = json.loads(sections["UNSPECIFIED CREATIVE DETAILS"])
     # Flux weights early tokens most, so the panel's own content leads and global style follows.
-    positive, negative = ["Scene: " + _moment(action, inferences)], []
+    staging = sections.get(STAGING_HEADING, "").strip()
+    positive, negative = ["Scene: " + (staging or _moment(action, inferences))], []
     # A reviewer's corrections to an earlier drawing come right after the scene, where they carry the most weight.
     corrections = json.loads(sections.get(CORRECTIONS_HEADING, "{}"))
     positive += [item.strip(" .") for item in corrections.get("add", []) if item.strip(" .")]
@@ -545,6 +560,8 @@ def diffusion_prompts(prompt):
         positive.append(f"Seen in {vision['seer']}'s {vision['kind']}: a luminous, dreamlike scene bathed in soft "
                         "golden light, its edges dissolving into glowing haze")
     negative += DIFFUSION_NEGATIVE
+    if staging or (BATTLE_STAGING and _violent().search(" ".join([action, *inferences]))):
+        negative += ANATOMY_NEGATIVE
     # Named objects look the same in every panel that shows them.
     throng = False
     for pattern, look, unlike, *unless in OBJECTS:
@@ -554,6 +571,8 @@ def diffusion_prompts(prompt):
             negative += unlike
             throng = throng or pattern is CHURCH
     names = list(people)
+    # A staged panel: a crowd is a massed shape in the distance, and only the first three people get a full look.
+    up_close = 0
     if people:
         entries, known = [], True
         for name in dict.fromkeys(people):
@@ -565,6 +584,12 @@ def diffusion_prompts(prompt):
             look = _look(record, 45 if match else 30) if record else ""
             if look.lower().startswith(shown.lower()):
                 look = look[len(shown):].strip(" ,:")  # "Jesus Christ, a man clothed in a white robe"
+            if staging and is_group(record):
+                look = " ".join(look.split()[:8]).rstrip(",") + ", massed in the distance" if look else \
+                    "massed in the distance"
+            elif staging:
+                up_close += 1
+                look = look if up_close <= 3 else ""
             entries.append(f"{shown} ({look})" if look else shown)
             known = known and bool(record) and not match and not is_group(record)
         count = len(entries)
@@ -636,7 +661,7 @@ _SECTIONS = {"GLOBAL STYLE", "LOCATION CONSISTENCY (design choices are not scrip
              "CHARACTER CONSISTENCY (design choices are not scripture)", "APPROVED ACTION", "VISIBLE PEOPLE",
              "LOCATION", "EXPLICIT SCRIPTURAL FACTS", "REASONABLE VISUAL INFERENCES", "UNSPECIFIED CREATIVE DETAILS",
              "PANEL SHAPE", "MOOD / COMPOSITION / CAMERA", "NEGATIVE CONSTRAINTS", PORTRAITS_HEADING,
-             CORRECTIONS_HEADING, VISION_HEADING}
+             CORRECTIONS_HEADING, VISION_HEADING, STAGING_HEADING}
 
 
 # Page geometry in pixels at 150 dpi. Panels fill the live area edge to edge with thin gutters.

@@ -1412,3 +1412,25 @@ def test_lehis_dream_is_told_by_lehi_not_nephi():
     # Verses 5-28 of 1 Nephi 8 are Lehi's own "I"; the note reaches the writer and the auditor, and only there.
     assert "Lehi" in speaker_note("1 Nephi", 8) and "never Nephi" in narrator_note("1 Nephi", 8)
     assert narrator_note("1 Nephi", 9) == "" and "except" not in speaker_note("1 Nephi", 9)
+
+
+def test_a_staged_battle_panel_shows_the_staging_not_the_violence(pipeline, monkeypatch):
+    from bom_comic.comic import build_prompt, diffusion_prompts
+    ready(pipeline)
+    continuity = {**pipeline.continuity(), "characters": {
+        "Ann": {"visual_design_choices": ["A tall woman in a red cloak."]},
+        "Lamanite warriors": {"group": True, "visual_design_choices": ["Shaven-headed warriors with bows, slings, "
+                                                                      "cimeters, ochre marks and hide girdles."]}}}
+    panel = pipeline.panels()[0].model_copy(update={"action": "Ann smites the warriors and slays many.",
+                                                     "characters_visible": ["Ann", "Lamanite warriors"]})
+    staging = "Ann stands on a ridge with her sword raised against a red sky; the warriors below flee."
+    positive, negative = diffusion_prompts(build_prompt(panel, continuity, "4:3", staging=staging))
+    # The staged moment replaces the violent action; the crowd shrinks to a massed shape; anatomy failures are banned.
+    assert "Scene: " + staging in positive and "slays" not in positive
+    assert "massed in the distance" in positive and "two heads" in negative and "severed heads" in negative
+    # Not yet staged (Codex unavailable): the verse's action, still with the anatomy negatives; none when switched off.
+    unstaged = diffusion_prompts(build_prompt(panel, continuity, "4:3"))
+    assert "slays" in unstaged[0] and "two heads" in unstaged[1]
+    import bom_comic.comic as comic
+    monkeypatch.setattr(comic, "BATTLE_STAGING", False)
+    assert "two heads" not in diffusion_prompts(build_prompt(panel, continuity, "4:3"))[1]

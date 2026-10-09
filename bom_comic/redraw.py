@@ -89,6 +89,9 @@ def redraw(store, panel_id, flag, image_provider, text_provider=None, library=No
     if panel_id == COVER:
         return _redraw_cover(pipeline, flag, text_provider)
     panel = next(p for p in pipeline.panels() if p.panel_id == panel_id)
+    from . import comic, staging
+    if comic.BATTLE_STAGING and text_provider is not None and staging.needs_staging(panel):
+        staging.write(pipeline, [panel_id], text_provider)  # a violent panel is redrawn from its staging
     fixes = flag.get("corrections") or corrections(text_provider, panel, flag["note"])
     # Drawn on its own even if it continued a master shot; panels continuing it, if it is one, follow the redraw.
     full_size = bool(STYLE_NOTE.search(flag["note"]))

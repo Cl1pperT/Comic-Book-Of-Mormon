@@ -154,6 +154,21 @@ def pilots_first(todo):
         [item for item in todo if item not in drawn and item not in pilots]
 
 
+def stage(pipeline, panel_ids=None):
+    """Write staging for the chapter's violent panels (staging.py) with Codex; a failure only leaves them unstaged."""
+    from . import comic, staging
+    if not comic.BATTLE_STAGING:
+        return {}
+    try:
+        written = staging.write(pipeline, panel_ids, book._codex()(pipeline.store))
+    except (ProviderError, ValueError) as exc:
+        log(f"  staging skipped ({str(exc)[:120]})")
+        return {}
+    if written:
+        log(f"  staged {len(written)} violent panels")
+    return written
+
+
 def render_chapter(book_name, chapter, deadline, provider_for):
     """Approve (automated), plan, and render one chapter; returns True when it is fully rendered and assembled."""
     store = Store(book.folder(ROOT, book_name, chapter))
@@ -182,6 +197,7 @@ def render_chapter(book_name, chapter, deadline, provider_for):
     aspects = pipeline.aspects()
     panels = pipeline.panels()
     pipeline.reapprove_panels("AUTOMATED nightly composition approval.")
+    stage(pipeline)  # before drawing: violent panels are drawn from their staging
     for panel in panels:
         try:
             pipeline.image_record(panel, aspects)

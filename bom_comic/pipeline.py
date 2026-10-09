@@ -299,8 +299,13 @@ class Pipeline:
         or vision (from the chapter's guide)."""
         shown = shown or self.shown(self.panels())
         view, continuity = shown[panel.panel_id]
+        from . import comic
+        staging = None
+        if comic.BATTLE_STAGING:
+            from .staging import depiction
+            staging = depiction(self.store, panel)
         return build_prompt(view, continuity, aspect, list(portraits), corrections,
-                            self.vision_of(panel, intro if intro is not None else self.intro()))
+                            self.vision_of(panel, intro if intro is not None else self.intro()), staging)
 
     # The chapter's guide: opener card, cover, dreams and visions (chapter.py) -----------------------------------
 
