@@ -7,8 +7,8 @@
     ],
     "summary": "A speaker addresses his son, says he has more to say to him than he said to his brother, and asks whether the son has observed his brother’s steadiness, faithfulness, diligence in keeping God’s commandments, and good example.",
     "characters": [
-      "Unnamed speaker",
-      "Son"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
@@ -37,21 +37,21 @@
         "refs": [
           "Alma 39:1"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "have ye not observed the steadiness of thy brother, his faithfulness, and his diligence in keeping the commandments of God?",
         "refs": [
           "Alma 39:1"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "Behold, has he not set a good example for thee?",
         "refs": [
           "Alma 39:1"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -68,30 +68,32 @@
     "refs": [
       "Alma 39:2"
     ],
-    "summary": "An unnamed speaker says the addressee heeded his words less than the addressee's brother did among the Zoramites and boasted in strength and wisdom.",
+    "summary": "Alma tells Corianton that he heeded Alma's words less than his brother did among the Zoramites and that he boasted in his strength and wisdom.",
     "characters": [
-      "Unnamed speaker",
-      "Unnamed addressee"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says the addressee did not heed his words as much as the addressee's brother did among the Zoramites.",
+        "text": "Alma says Corianton did not heed his words as much as Corianton's brother did among the Zoramites.",
         "refs": [
           "Alma 39:2"
         ]
       },
       {
-        "text": "The speaker says the addressee boasted in strength and wisdom.",
+        "text": "Alma says Corianton boasted in his strength and wisdom.",
         "refs": [
           "Alma 39:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma and Corianton may be shown together during the address."
+    ],
     "unspecified_visual_details": [
       "The location of the address.",
-      "The appearance of the speaker and addressee."
+      "Alma's and Corianton's appearances."
     ],
     "spoken_dialogue": [
       {
@@ -99,13 +101,13 @@
         "refs": [
           "Alma 39:2"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not name the speaker, addressee, or brother.",
+      "Do not name or depict the brother as present.",
       "Do not stage the reported past conduct as a present event."
     ],
     "importance": "normal"
@@ -119,8 +121,8 @@
     ],
     "summary": "A speaker addresses someone as “my son,” saying he forsook the ministry and went to the land of Siron after Isabel. The speaker says Isabel stole away the hearts of many, but that this did not excuse neglecting the entrusted ministry.",
     "characters": [
-      "Unnamed speaker",
-      "Person addressed as “my son”",
+      "Alma",
+      "Corianton",
       "Isabel (mentioned, not present)"
     ],
     "locations": [
@@ -153,21 +155,21 @@
         "refs": [
           "Alma 39:3"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "Yea, she did steal away the hearts of many; but this was no excuse for thee, my son.",
         "refs": [
           "Alma 39:4"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "Thou shouldst have tended to the ministry wherewith thou wast entrusted.",
         "refs": [
           "Alma 39:4"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -190,8 +192,8 @@
     ],
     "summary": "A speaker addresses his son, calls unspecified things an abomination, and teaches about denying the Holy Ghost and the difficulty of obtaining forgiveness for murder against the light and knowledge of God.",
     "characters": [
-      "Unnamed speaker",
-      "The speaker's son"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
@@ -229,21 +231,21 @@
         "refs": [
           "Alma 39:5"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "if ye deny the Holy Ghost when it once has had place in you, and ye know that ye deny it, behold, this is a sin which is unpardonable;",
         "refs": [
           "Alma 39:6"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "it is not easy for him to obtain a forgiveness.",
         "refs": [
           "Alma 39:6"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -266,8 +268,8 @@
     ],
     "summary": "A speaker addresses someone as “my son,” says he would not dwell on the listener’s crimes except for the listener’s good, and warns that the crimes cannot be hidden from God and will stand as testimony against the listener at the last day unless the listener repents.",
     "characters": [
-      "Unnamed speaker",
-      "Person addressed as “my son” (physical presence unspecified)"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
@@ -303,14 +305,14 @@
         "refs": [
           "Alma 39:7"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       },
       {
         "text": "But behold, ye cannot hide your crimes from God; and except ye repent they will stand as a testimony against you at the last day.",
         "refs": [
           "Alma 39:8"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -329,36 +331,38 @@
     "refs": [
       "Alma 39:9"
     ],
-    "summary": "An unnamed speaker urges his son to repent, forsake his sins, and resist the lusts of his eyes. He warns that otherwise his son cannot inherit the kingdom of God.",
+    "summary": "Alma urges his son Corianton to repent, forsake his sins, and resist the lusts of his eyes. He warns that otherwise Corianton cannot inherit the kingdom of God.",
     "characters": [
-      "Unnamed speaker",
-      "Unnamed son"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker addresses someone as “my son.”",
+        "text": "Alma addresses Corianton as his son.",
         "refs": [
           "Alma 39:9"
         ]
       },
       {
-        "text": "The speaker urges his son to repent, forsake his sins, and go no more after the lusts of his eyes.",
+        "text": "Alma urges Corianton to repent, forsake his sins, and go no more after the lusts of his eyes.",
         "refs": [
           "Alma 39:9"
         ]
       },
       {
-        "text": "The speaker says his son cannot inherit the kingdom of God unless he does this.",
+        "text": "Alma says Corianton cannot inherit the kingdom of God unless he follows this counsel.",
         "refs": [
           "Alma 39:9"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma speaks to Corianton, who is present."
+    ],
     "unspecified_visual_details": [
-      "The speaker’s and son’s appearances.",
-      "Their surroundings and whether they are physically together."
+      "Alma’s and Corianton’s appearances.",
+      "Their surroundings."
     ],
     "spoken_dialogue": [
       {
@@ -366,16 +370,16 @@
         "refs": [
           "Alma 39:9"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The instruction to “cross yourself” is not a narrated physical action."
+      "The instruction to “cross yourself” is counsel, not a narrated physical action."
     ],
     "prohibited_inventions": [
-      "Do not assign a personal name to the speaker or son.",
-      "Do not depict a literal supernatural struggle or temptation."
+      "Do not depict a literal physical struggle or a visible temptation.",
+      "Do not depict the kingdom of God as a visible event in this scene."
     ],
     "importance": "normal"
   },
@@ -387,8 +391,8 @@
     ],
     "summary": "A speaker commands a young addressee to counsel with his elder brothers in his undertakings and heed their counsel.",
     "characters": [
-      "Unidentified speaker",
-      "Young addressee",
+      "Alma",
+      "Corianton",
       "Elder brothers (mentioned)"
     ],
     "locations": [
@@ -420,7 +424,7 @@
         "refs": [
           "Alma 39:10"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -441,8 +445,8 @@
     ],
     "summary": "A speaker warns the person he addresses as his son not to be led away. He says the Zoramites would not believe his words when they saw that person's conduct.",
     "characters": [
-      "Unnamed speaker",
-      "Person addressed as “my son”"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
@@ -473,7 +477,7 @@
         "refs": [
           "Alma 39:11"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -495,8 +499,8 @@
     ],
     "summary": "A speaker reports that the Spirit of the Lord tells him to command his children to do good, then commands someone he addresses as “my son” to refrain from iniquities.",
     "characters": [
-      "Unnamed speaker",
-      "Person addressed as “my son”"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
@@ -528,7 +532,7 @@
         "refs": [
           "Alma 39:12"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -547,29 +551,31 @@
     "refs": [
       "Alma 39:13"
     ],
-    "summary": "An unidentified speaker urges an addressee to turn to the Lord, lead no more people to do wickedly, return to them, and acknowledge past wrongs.",
+    "summary": "Alma urges Corianton to turn to the Lord, lead no more people to wickedness, return to them, and acknowledge his faults and wrongs.",
     "characters": [
-      "Unidentified speaker",
-      "Unidentified addressee"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker urges the addressee to turn to the Lord with all their mind, might, and strength.",
+        "text": "Alma urges Corianton to turn to the Lord with all his mind, might, and strength.",
         "refs": [
           "Alma 39:13"
         ]
       },
       {
-        "text": "The speaker urges the addressee to lead no more people to do wickedly, return to them, and acknowledge their faults and wrongs.",
+        "text": "Alma urges Corianton to lead no more people to wickedness, return to them, and acknowledge his faults and wrongs.",
         "refs": [
           "Alma 39:13"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma addresses Corianton, who is present."
+    ],
     "unspecified_visual_details": [
-      "The speaker’s and addressee’s appearances.",
+      "Alma’s and Corianton’s appearances.",
       "Their surroundings."
     ],
     "spoken_dialogue": [
@@ -578,15 +584,14 @@
         "refs": [
           "Alma 39:13"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse urges a return and acknowledgment; it does not narrate either action taking place."
+      "The verse urges these actions; it does not narrate their completion."
     ],
     "prohibited_inventions": [
-      "Do not name the speaker or addressee.",
       "Do not depict the urged actions as completed events.",
       "Do not depict the people referred to as physically present."
     ],
@@ -599,7 +604,10 @@
       "Alma 39:14"
     ],
     "summary": "A warning counsels against seeking riches or the vain things of this world because they cannot be carried with you.",
-    "characters": [],
+    "characters": [
+      "Alma",
+      "Corianton"
+    ],
     "locations": [],
     "explicit_facts": [
       {
@@ -626,7 +634,7 @@
         "refs": [
           "Alma 39:14"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -647,8 +655,8 @@
     ],
     "summary": "A speaker addresses someone as “my son” and teaches that Christ will come to take away the sins of the world and declare glad tidings of salvation to his people.",
     "characters": [
-      "Unidentified speaker",
-      "Person addressed as “my son”"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
@@ -677,7 +685,7 @@
         "refs": [
           "Alma 39:15"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -696,31 +704,33 @@
     "refs": [
       "Alma 39:16"
     ],
-    "summary": "An unidentified speaker addresses his son, saying he was called to declare glad tidings to this people so that salvation might come to them and they might prepare their children to hear the word at the time of his coming.",
+    "summary": "Alma tells Corianton that he was called to declare glad tidings to this people, so that salvation might come to them and they might prepare their children to hear the word at the time of his coming.",
     "characters": [
-      "Unidentified speaker",
-      "Speaker's son (addressed; presence unspecified)"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker addresses his son and says he was called to declare glad tidings to this people.",
+        "text": "Alma addresses Corianton as his son and says he was called to declare glad tidings to this people.",
         "refs": [
           "Alma 39:16"
         ]
       },
       {
-        "text": "The speaker says salvation might come to the people and they may prepare their children to hear the word at the time of his coming.",
+        "text": "Alma says salvation might come to the people and they may prepare their children to hear the word at the time of his coming.",
         "refs": [
           "Alma 39:16"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Alma and Corianton can be shown together during the address."
+    ],
     "unspecified_visual_details": [
-      "The speaker's and son's appearances, physical proximity, and surroundings."
+      "Alma's and Corianton's appearances and surroundings."
     ],
     "spoken_dialogue": [
       {
@@ -728,16 +738,16 @@
         "refs": [
           "Alma 39:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verse does not name the speaker, his son, or the person referred to by “his coming.”"
+      "The people's preparation and the time of his coming are described in Alma's speech, not narrated as visible events."
     ],
     "prohibited_inventions": [
-      "Do not assign names or titles to the speaker or his son.",
-      "Do not depict the people, children, or the person whose coming is mentioned as present."
+      "Do not depict the people, their children, or the person whose coming is mentioned as present.",
+      "Do not invent a location or an appearance for any character."
     ],
     "importance": "normal"
   },
@@ -750,8 +760,8 @@
     ],
     "summary": "A speaker says he will ease an addressee’s mind, notes the addressee’s wonder about things being known beforehand, and asks about the worth of souls and making the plan of redemption known.",
     "characters": [
-      "Unidentified speaker",
-      "Unidentified addressee"
+      "Alma",
+      "Corianton"
     ],
     "locations": [
       "Unspecified location"
@@ -789,21 +799,21 @@
         "refs": [
           "Alma 39:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       },
       {
         "text": "Behold, I say unto you, is not a soul at this time as precious unto God as a soul will be at the time of his coming?",
         "refs": [
           "Alma 39:17"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       },
       {
         "text": "Is it not as necessary that the plan of redemption should be made known unto this people as well as unto their children?",
         "refs": [
           "Alma 39:18"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -825,7 +835,8 @@
     ],
     "summary": "A speaker asks whether the Lord could send his angel to declare glad tidings at this time, to their children, or after the time of his coming.",
     "characters": [
-      "Unidentified speaker"
+      "Alma",
+      "Corianton"
     ],
     "locations": [],
     "explicit_facts": [
@@ -847,7 +858,7 @@
         "refs": [
           "Alma 39:19"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],

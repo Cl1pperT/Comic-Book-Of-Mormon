@@ -56,6 +56,18 @@ NARRATOR_NOTES = {
                     "sees the man in white, the tree, the rod, the river and the building is Lehi, never Nephi; "
                     "Nephi appears only when Lehi sees him at the head of the river (verses 14 to 16).",
 }
+# Alma's charges to his sons (Alma 36-42): the "I" is Alma speaking to one son, who is present. Corianton is never
+# named in his chapters; he is the son who went among the Zoramites with Shiblon (Alma 31:7), told to heed "thy
+# brother" (Alma 39:1-2), and is neither Helaman nor Shiblon.
+for _chapter, _son in ((36, "Helaman"), (37, "Helaman"), (38, "Shiblon"), (39, "Corianton"), (40, "Corianton"),
+                       (41, "Corianton"), (42, "Corianton")):
+    NARRATOR_NOTES[("Alma", _chapter)] = (
+        f"Alma (the high priest, Alma the Younger) speaks in the first person to his son {_son}, who is present; "
+        f"\"my son\" is {_son}. Label the speaker Alma and the son {_son}."
+        + (" Corianton is the son who went among the Zoramites with Shiblon (Alma 31:7) and is told to heed his "
+           "brother; he is neither Helaman nor Shiblon." if _son == "Corianton" else "")
+        + (" Verses 6 to 24 retell Alma's own conversion as a youth: there the young Alma is the rebel, not the high "
+           "priest, and Helaman is not present." if _chapter == 36 else ""))
 
 
 def narrator_note(book, chapter):

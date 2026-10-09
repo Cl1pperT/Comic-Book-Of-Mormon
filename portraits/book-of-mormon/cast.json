@@ -71,9 +71,9 @@
     "Anti-Nephi-Lehi (king)": "serene clean-shaven Lamanite king in his forties, long black hair, white robe with soft blue borders, unarmed",
     "Korihor": "sneering orator in his forties, pointed beard, sleek hair, ochre robe with a patterned border",
     "Zoram (Zoramite leader)": "haughty man in his fifties, grey ringlets, sharp beard, costly purple robe, gold bracelets, tall gold circlet",
-    "Shiblon": "steady man in his late twenties, short beard, plain white robe, grey mantle",
-    "Corianton": "handsome restless young man, light beard, long loose hair, bright teal tunic, gold armband",
-    "Helaman (son of Alma)": "resolute commander in his forties, greying beard, hair tied back, white robe over quilted cotton armor",
+    "Shiblon": "gentle young man about twenty-two, light short beard, short dark wavy hair, undyed tunic, soft grey mantle",
+    "Corianton": "handsome youth about eighteen, smooth beardless face, long loose black hair, bright teal tunic, gold armband",
+    "Helaman (son of Alma)": "resolute commander in his early thirties, short dark beard, hair tied back, white robe with deep red sash over quilted cotton armor",
     "Captain Moroni": "powerful young commander about twenty-five, short dark beard, quilted armor, leather breastplate, round arm-shield, deep red cloak",
     "Zerahemnah": "fierce Lamanite war-chief, shaven head, red forehead mark, heavy scars, bare torso, skin girdle, curved cimeter",
     "Lehi (Nephite commander)": "commander in his forties, close grey-shot beard, cropped hair, quilted armor, dark blue cloak",
@@ -134,7 +134,9 @@
     "Coriantum's young wife": "young Jaredite woman about twenty, long black hair braided with gold, ochre, black and deep red garments",
     "Jerusalem townspeople": "Judean men and women of varied ages in wool tunics and mantles of undyed cream, brown, madder red and indigo, head coverings",
     "Nephite people": "Nephite men, women and children of varied ages in plain cotton tunics and mantles of undyed cream, indigo and earth tones",
-    "Lamanite people": "Lamanite men, women and children of varied ages, long black hair, simple cotton wraps and loincloths, hide mantles, shell ornaments"
+    "Lamanite people": "Lamanite men, women and children of varied ages, long black hair, simple cotton wraps and loincloths, hide mantles, shell ornaments",
+    "Helaman (son of Alma, young)": "earnest young man about twenty-five, short neat dark beard, hair tied back, plain white robe, deep red sash",
+    "Shiblon (older)": "gentle man in his forties, short greying beard, short wavy hair, undyed tunic, grey mantle"
   },
   "records": {
     "Jerusalem townspeople": {
@@ -518,9 +520,18 @@
     },
     {
       "labels": [
-        "Helaman"
+        "Helaman",
+        "Helaman (son of Alma)"
       ],
       "from": "Alma 31",
+      "to": "Alma 52",
+      "name": "Helaman (son of Alma, young)"
+    },
+    {
+      "labels": [
+        "Helaman"
+      ],
+      "from": "Alma 53",
       "to": "Alma 63",
       "name": "Helaman (son of Alma)"
     },
@@ -1014,6 +1025,14 @@
       "from": "Ether 6",
       "to": "Ether 15",
       "name": "Jaredites (in the promised land)"
+    },
+    {
+      "labels": [
+        "Shiblon"
+      ],
+      "from": "Alma 53",
+      "to": "Alma 63",
+      "name": "Shiblon (older)"
     }
   ],
   "patterns": [

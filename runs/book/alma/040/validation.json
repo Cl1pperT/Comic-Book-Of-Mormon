@@ -1,41 +1,59 @@
 {
-  "stamp": "6deb9ae1bfe12572dd44ff6af7fbcc5e47a8d6a0312f4a29b0a7c64fa36cb24a",
+  "stamp": "72c209ab468e076274def2c977ab297384c661a410a2d11e2df50bb2dbec516e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 001: Scene presents an address to Corianton, consistent with the chapter context supplied by the user, though the verses themselves call him only “my son.” Dialogue quotations are exact excerpts."
+      ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 002: Narration excerpts are exact, but they omit context indicating these are teachings rather than a present event; the notes and prohibitions correctly guard against visualizing resurrection."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 003: Narration excerpts are exact. The claim that Alma asks what becomes of souls is supported; avoid implying that the question is an event beyond his teaching."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 004: Narration excerpts are exact. The angel is only reported as a source of revelation, and the notes correctly prohibit depicting its appearance in this teaching moment."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 005: Narration excerpts are exact. Outer darkness and the wicked’s state are teachings, not a narrated present-tense event; the scene notes and prohibitions recognize this."
+      ]
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 006: Narration excerpt is exact. Adam and Christ are referenced in doctrinal explanation, not shown as present; the notes and prohibitions correctly say not to stage them."
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 007: Narration excerpts are exact. The summary preserves Alma’s uncertainty about timing, but avoid turning the future judgment or reunion into a present scene."
+      ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 008: Narration excerpt is exact. Restoration is a future teaching, not a present transformation; the notes and prohibitions correctly preserve that distinction."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 009: Narration excerpts are exact. Shining and being cast out are teachings, not present visible events; the notes and prohibitions appropriately avoid literalizing them."
+      ]
     }
   }
 }

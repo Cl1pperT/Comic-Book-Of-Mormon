@@ -1,50 +1,52 @@
 {
-  "stamp": "c4eba00b86ad151517c8bc011eea89fa1a9ab26a5b395c7cf943d058c2c850c8",
+  "stamp": "a5ba640a385f24586e574bcae2ef53c081c35d2e7e1273c3b2c3a7b786939814",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied text supports Alma addressing “my son,” and the chapter context identifies him as Corianton; the name Corianton is not stated in these verses. The unspecified location and visual details are appropriately treated as unknown."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted narration uses exact excerpts. Restoring the soul and body and judgment are teachings, not present events; the scene correctly flags this. The unspecified location and appearance remain open."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted narration uses exact excerpts. Contrasting outcomes are teachings rather than a present visual tableau; the scene correctly prohibits depicting them as such. The unspecified location and appearance remain open."
       ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted narration uses exact excerpts. “Endless night” is figurative teaching rather than a literal depicted event; the scene correctly notes this. The unspecified location and appearance remain open."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted dialogue is a verbatim excerpt. The prepared way is teaching, not a described physical road; the scene correctly prohibits literalizing it. The unspecified location and the son's response remain open."
       ]
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted narration uses exact excerpts. The gall of bitterness and bonds of iniquity are figures of speech, not stated physical appearances; the scene correctly identifies them as such. The unspecified location and appearance remain open."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "The quoted narration uses exact excerpts. Restoration's paired qualities are explanatory teaching, not separate visual events; the scene correctly flags this. The unspecified location and appearance remain open."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The label “Alma the Younger (high priest)” is an established character label, but this passage identifies Alma only as the speaker addressing “my son”; the scene reasonably infers that he speaks to his son, whose presence and appearance are not otherwise described."
+        "Both quoted excerpts are verbatim. The return of deeds is teaching, not a literal physical action; the scene correctly notes this. The unspecified location and appearance remain open."
       ]
     }
   }

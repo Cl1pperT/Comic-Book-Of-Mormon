@@ -9,8 +9,8 @@
     ],
     "summary": "Alma counsels his son Helaman to keep God’s commandments, remember the captivity of their fathers, and trust God through trials.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Helaman (son of Alma)"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -48,21 +48,21 @@
         "refs": [
           "Alma 36:1"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       },
       {
         "text": "I would that ye should do as I have done, in remembering the captivity of our fathers;",
         "refs": [
           "Alma 36:2"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       },
       {
         "text": "whosoever shall put their trust in God shall be supported in their trials,",
         "refs": [
           "Alma 36:3"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -84,8 +84,8 @@
     ],
     "summary": "Alma tells Helaman that his spiritual knowledge came from God through the holy angel, not from his own worthiness.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Helaman (son of Alma)"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -116,14 +116,14 @@
         "refs": [
           "Alma 36:4"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       },
       {
         "text": "God has, by the mouth of his holy angel, made these things known unto me,",
         "refs": [
           "Alma 36:5"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -143,7 +143,7 @@
     ],
     "summary": "Alma recounts going about with the sons of Mosiah, seeking to destroy the church of God, and reports that God sent his holy angel “to stop us by the way.”",
     "characters": [
-      "Alma"
+      "Alma the Younger (rebel)"
     ],
     "locations": [],
     "explicit_facts": [
@@ -196,7 +196,7 @@
     ],
     "summary": "The angel speaks with a voice like thunder, the earth trembles beneath the group, and they all fall to the earth in fear.",
     "characters": [
-      "Alma the Younger (high priest)",
+      "Alma the Younger (rebel)",
       "Ammon (son of Mosiah)",
       "Aaron (son of Mosiah)",
       "Omner (son of Mosiah)",
@@ -251,7 +251,7 @@
     ],
     "summary": "A voice tells Alma to arise. Alma rises, stands, and beholds the angel.",
     "characters": [
-      "Alma the Younger",
+      "Alma the Younger (rebel)",
       "The angel"
     ],
     "locations": [
@@ -313,7 +313,7 @@
     ],
     "summary": "The angel warns Alma to stop seeking to destroy the church of God.",
     "characters": [
-      "Alma the Younger (high priest)",
+      "Alma the Younger (rebel)",
       "The angel who appeared to Alma"
     ],
     "locations": [
@@ -360,7 +360,7 @@
     ],
     "summary": "Alma reports that the angel’s warning filled him with fear and amazement lest he be destroyed, and he fell to the earth and heard no more. He could not open his mouth or use his limbs for three days and three nights. His brethren heard further words from the angel that Alma did not hear.",
     "characters": [
-      "Alma (first-person narrator)",
+      "Alma the Younger (rebel)",
       "The angel (reported speaker)",
       "Alma’s brethren (reported participants)"
     ],
@@ -437,7 +437,7 @@
     ],
     "summary": "Alma recalls torment over his sins, his rebellion against God, his failure to keep God's commandments, and his having led many of God's children toward destruction. The thought of coming into God's presence fills him with horror.",
     "characters": [
-      "Alma the Younger"
+      "Alma the Younger (rebel)"
     ],
     "locations": [
       "Unspecified location"
@@ -513,7 +513,7 @@
     ],
     "summary": "Alma wishes he could be banished and cease to exist rather than stand before God to be judged. He is racked for three days and three nights.",
     "characters": [
-      "Alma the Younger"
+      "Alma the Younger (rebel)"
     ],
     "locations": [
       "Unspecified location"
@@ -570,7 +570,7 @@
     ],
     "summary": "While tormented by the memory of his sins, Alma remembers hearing his father prophesy to the people concerning Jesus Christ’s coming and atonement for the sins of the world.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger (rebel)"
     ],
     "locations": [
       "Unspecified location"
@@ -628,7 +628,7 @@
     ],
     "summary": "Alma's mind catches hold upon a thought, and he cries within his heart to Jesus, the Son of God, for mercy.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma the Younger (rebel)"
     ],
     "locations": [
       "Unspecified location"
@@ -673,16 +673,16 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Alma describes joy after pain",
+    "title": "Alma recalls joy after pain",
     "refs": [
       "Alma 36:19",
       "Alma 36:20",
       "Alma 36:21"
     ],
-    "summary": "Alma recounts that he could no longer remember his pains or be harrowed by the memory of his sins. He says he beheld marvelous light and felt joy exceeding his pain. Addressing his son, he compares his bitter pain with his sweet joy.",
+    "summary": "Alma tells Helaman that he could no longer remember his pains or be harrowed by the memory of his sins. He recalls beholding marvelous light and feeling joy exceeding his pain, then compares his bitter pain with his sweet joy.",
     "characters": [
-      "Alma the Younger",
-      "Alma's son"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -701,57 +701,51 @@
         ]
       },
       {
-        "text": "Alma addresses his son and compares his bitter pain with his sweet joy.",
+        "text": "Alma addresses his son Helaman and compares his bitter pain with his sweet joy.",
         "refs": [
           "Alma 36:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown addressing his son while recounting his past experience."
+      "Alma may be shown speaking to Helaman while recalling his earlier experience."
     ],
     "unspecified_visual_details": [
-      "The location and the appearances of Alma and his son.",
+      "The location and the appearances of Alma and Helaman.",
       "The light's color, shape, and source."
     ],
     "spoken_dialogue": [
       {
-        "text": "I could remember my pains no more;",
+        "text": "And now, behold, when I thought this, I could remember my pains no more;",
         "refs": [
           "Alma 36:19"
         ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       },
       {
         "text": "And oh, what joy, and what marvelous light I did behold;",
         "refs": [
           "Alma 36:20"
         ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       },
       {
-        "text": "there could be nothing so exquisite and so bitter as were my pains.",
+        "text": "Yea, and again I say unto you, my son, that on the other hand, there can be nothing so exquisite and sweet as was my joy.",
         "refs": [
           "Alma 36:21"
         ],
-        "speaker": "Alma the Younger"
-      },
-      {
-        "text": "there can be nothing so exquisite and sweet as was my joy.",
-        "refs": [
-          "Alma 36:21"
-        ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma recounts a past experience; the verses do not identify the light's source or describe a visible divine figure."
+      "Alma speaks to Helaman about his past experience; Helaman is not present in that recollected experience.",
+      "The verses do not identify the light's source or describe a visible divine figure."
     ],
     "prohibited_inventions": [
-      "Do not depict Jesus, God, or an angel as the source of the light.",
-      "Do not name Alma's son or add a response from him.",
-      "Do not present Alma's recollection as a new event occurring while he addresses his son."
+      "Do not depict a divine figure or angel as the source of the light.",
+      "Do not add a response from Helaman.",
+      "Do not portray the recalled experience as occurring while Alma speaks to Helaman."
     ],
     "importance": "normal"
   },
@@ -763,7 +757,7 @@
     ],
     "summary": "Alma says he thought he saw God seated on his throne, surrounded by numberless angels singing and praising God, and that his soul longed to be there.",
     "characters": [
-      "Alma the Younger (high priest)",
+      "Alma the Younger (rebel)",
       "God",
       "angels"
     ],
@@ -796,7 +790,7 @@
         "refs": [
           "Alma 36:22"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -816,7 +810,7 @@
     ],
     "summary": "Alma’s limbs regain their strength; he stands and manifests to the people that he has been born of God.",
     "characters": [
-      "Alma the Younger (high priest)",
+      "Alma the Younger (rebel)",
       "Unspecified people"
     ],
     "locations": [
@@ -867,10 +861,10 @@
       "Alma 36:25",
       "Alma 36:26"
     ],
-    "summary": "Alma tells his son that he has labored without ceasing to bring souls to repentance. He says the Lord gives him great joy in the fruit of his labors and that many have been born of God.",
+    "summary": "Alma tells Helaman that he has labored without ceasing to bring souls to repentance. He says the Lord gives him joy in the fruit of his labors and that many have been born of God.",
     "characters": [
-      "Alma the Younger",
-      "Alma's son"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -883,7 +877,7 @@
         ]
       },
       {
-        "text": "Alma addresses his son and says the Lord gives him great joy in the fruit of his labors.",
+        "text": "Alma addresses his son Helaman and says the Lord gives him great joy in the fruit of his labors.",
         "refs": [
           "Alma 36:25"
         ]
@@ -896,43 +890,43 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown addressing his son; the verses do not establish a particular setting."
+      "Alma may be shown speaking to Helaman."
     ],
     "unspecified_visual_details": [
-      "Alma's and his son's appearances",
-      "The location and circumstances of this address",
+      "Alma’s and Helaman’s appearances",
+      "The location of their conversation",
       "The identities and appearances of the many people Alma mentions"
     ],
     "spoken_dialogue": [
       {
-        "text": "Yea, and from that time even until now, I have labored without ceasing, that I might bring souls unto repentance;",
+        "text": "I have labored without ceasing, that I might bring souls unto repentance;",
         "refs": [
           "Alma 36:24"
         ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       },
       {
         "text": "Yea, and now behold, O my son, the Lord doth give me exceedingly great joy in the fruit of my labors;",
         "refs": [
           "Alma 36:25"
         ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       },
       {
-        "text": "many have been born of God,",
+        "text": "many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen;",
         "refs": [
           "Alma 36:26"
         ],
-        "speaker": "Alma the Younger"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma recounts ongoing labor and its fruit; these verses do not narrate a particular conversion as it occurs."
+      "Alma recounts the results of his past and continuing labor; these verses do not narrate a particular conversion as it occurs."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific conversion or teaching occasion as an event narrated here.",
-      "Do not invent identities for the people Alma mentions or visibly depict divine figures not described as appearing."
+      "Do not depict a specific conversion as an event occurring during this conversation.",
+      "Do not invent identities for the people Alma mentions or depict divine figures whose appearance is not described."
     ],
     "importance": "normal"
   },
@@ -944,7 +938,8 @@
     ],
     "summary": "Alma says God has supported him through trials and afflictions, delivered him from prison, bonds, and death, and will deliver him still.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -982,7 +977,7 @@
         "refs": [
           "Alma 36:27"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
@@ -996,69 +991,90 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "Alma remembers deliverance and urges remembrance",
+    "title": "Alma urges Helaman to remember deliverance",
     "refs": [
       "Alma 36:28",
       "Alma 36:29"
     ],
-    "summary": "Alma says God will raise him up at the last day. He recalls God bringing their fathers out of Egypt and the land of Jerusalem, leading them to the promised land, and delivering them from captivity. He urges his listeners to remember their captivity.",
+    "summary": "Alma tells Helaman that he knows he will be raised at the last day to dwell in glory and will praise his deliverer forever. He recalls their fathers’ departure from Egypt, the Egyptians being swallowed up in the Red Sea, their journey into the promised land, and their departure from Jerusalem. He speaks of repeated deliverance from bondage and captivity by everlasting power, even down to the present day, and urges Helaman to remember their captivity.",
     "characters": [
-      "Alma the Younger (high priest)"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says God will raise him up at the last day to dwell with Him in glory.",
+        "text": "Alma says he knows he will be raised at the last day to dwell with his deliverer in glory, and that he will praise him forever.",
         "refs": [
           "Alma 36:28"
         ]
       },
       {
-        "text": "Alma says God brought their fathers out of Egypt, swallowed up the Egyptians in the Red Sea, led their fathers into the promised land, and delivered them from bondage and captivity.",
+        "text": "Alma says their fathers were brought out of Egypt, the Egyptians were swallowed up in the Red Sea, and their fathers were led into the promised land and delivered from bondage and captivity from time to time.",
         "refs": [
           "Alma 36:28"
         ]
       },
       {
-        "text": "Alma says God brought their fathers out of the land of Jerusalem and continued to deliver them from bondage and captivity. He urges his listeners to remember their captivity.",
+        "text": "Alma says their fathers were brought out of the land of Jerusalem and, by everlasting power, delivered from bondage and captivity from time to time down to the present day.",
+        "refs": [
+          "Alma 36:29"
+        ]
+      },
+      {
+        "text": "Alma says he has remembered their captivity and urges Helaman to remember it too.",
         "refs": [
           "Alma 36:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is speaking to listeners; the past deliverances are being recalled, not occurring in the present scene."
+      "Alma speaks to Helaman; the events he recalls are not occurring in the present scene."
     ],
     "unspecified_visual_details": [
-      "The listeners’ identities and appearance",
-      "The present setting",
-      "The appearance of the remembered places and events"
+      "The setting",
+      "Alma’s and Helaman’s appearances"
     ],
     "spoken_dialogue": [
       {
-        "text": "he has brought our fathers out of Egypt, and he has swallowed up the Egyptians in the Red Sea; and he led them by his power into the promised land; yea, and he has delivered them out of bondage and captivity from time to time.",
+        "text": "yea, and I will praise him forever,",
         "refs": [
           "Alma 36:28"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
+      },
+      {
+        "text": "Yea, and he has also brought our fathers out of the land of Jerusalem;",
+        "refs": [
+          "Alma 36:29"
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "delivered them out of bondage and captivity, from time to time even down to the present day;",
+        "refs": [
+          "Alma 36:29"
+        ],
+        "speaker": "Alma"
       },
       {
         "text": "yea, and ye also ought to retain in remembrance, as I have done, their captivity.",
         "refs": [
           "Alma 36:29"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The deliverances are recalled as past events; being raised up at the last day is Alma’s expectation, not a present visible event."
+      "The dialogue entries are selected excerpts, not Alma’s complete speech.",
+      "The past deliverances and the last day are described in Alma’s speech, not shown as present events."
     ],
     "prohibited_inventions": [
-      "Do not depict the Exodus, the Red Sea event, the departure from Jerusalem, or the last day as happening in the present scene.",
-      "Do not assign an identity to the listeners from these verses alone or depict God’s appearance."
+      "Do not stage the past deliverances or the last day as occurring during Alma’s speech.",
+      "Do not invent an appearance for the divine figure or additional listeners."
     ],
     "importance": "normal"
   },
@@ -1070,8 +1086,8 @@
     ],
     "summary": "Alma tells Helaman that keeping God’s commandments brings prosperity in the land, while not keeping them means being cut off from God’s presence.",
     "characters": [
-      "Alma the Younger (high priest)",
-      "Helaman (son of Alma)"
+      "Alma",
+      "Helaman"
     ],
     "locations": [
       "Unspecified location"
@@ -1102,14 +1118,14 @@
         "refs": [
           "Alma 36:30"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       },
       {
         "text": "ye shall be cut off from his presence.",
         "refs": [
           "Alma 36:30"
         ],
-        "speaker": "Alma the Younger (high priest)"
+        "speaker": "Alma"
       }
     ],
     "narration": [],

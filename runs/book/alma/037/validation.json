@@ -1,17 +1,13 @@
 {
-  "stamp": "d6aefbe616c42cd34357612d68a6c4efd598d147badfed7b33b0f03cff60659b",
+  "stamp": "6240b9f1c2e7a4d6bbab46d4413dbb40307c908b44839f786c8794f620755339",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene omits the explicit ending of Alma 37:4: the plates are preserved so every nation, kindred, tongue, and people may know the mysteries contained on them. Consider including it in the summary or narration.",
-        "The proposed bright surface is supported by Alma 37:5, but the verse states retained brightness conditionally (if the plates are kept); avoid implying a present glow or depicting a preservation event.",
-        "The previous scene presents Alma’s command to keep the records; this scene’s prophecy and conditional brightness remain reported statements, not subsequent events shown occurring."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -38,8 +34,10 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Alma tells Helaman to “preserve the interpreters,” but verse 21 phrases this as an instruction within Alma’s address; the scene’s quoted dialogue is exact and the facts are otherwise supported."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -54,10 +52,8 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma says the director “is” or “was” a compass, while the entry renders this as “interpreted as a compass”; this is a minor phrasing uncertainty, not an invented fact. The quoted dialogue is an exact contiguous excerpt."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",

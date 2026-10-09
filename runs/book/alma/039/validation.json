@@ -1,5 +1,5 @@
 {
-  "stamp": "dbf924f5a96527408ecb8f67a6fc6547d931a3b290f255f73133e0e32d248d0e",
+  "stamp": "88b3e4b834885e7344aa2fa578bfcc02b65bd3969ca4762495217621796822bb",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,10 +26,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Unspecified whether the speaker and addressee are physically together; the inference that the speaker addresses the addressee supports a conversational depiction but does not establish their surroundings or a particular setting."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",
@@ -44,10 +42,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse contains an unidentified speaker’s counsel, but the characters field is empty; consider listing the unidentified speaker without assigning an identity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",

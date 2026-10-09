@@ -1732,11 +1732,12 @@
       }
     ],
     "visual_design_choices": [
-      "A steady son of Alma in his late twenties.",
-      "Brown skin, a short beard, dark hair, calm eyes.",
-      "Plain white cotton robe and grey mantle like his father's. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
+      "Shiblon as a young man of about twenty-two, Alma's middle son: gentle, patient and calm.",
+      "Brown skin, a light short beard just filling in, short dark wavy hair, kind quiet eyes; slimmer than Helaman.",
+      "A plain undyed cotton tunic with a soft grey mantle, sandals. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
     ],
     "locked_traits": [
+      "Same young face, short wavy hair, and grey mantle in every panel.",
       "No signatures, watermarks, or artist marks in the image."
     ]
   },
@@ -1751,11 +1752,12 @@
       }
     ],
     "visual_design_choices": [
-      "A handsome, restless son of Alma in his early twenties.",
-      "Brown skin, a light beard, long hair loose.",
-      "A fine dyed cotton tunic in bright teal, a gold armband. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
+      "Corianton as a youth of about eighteen, Alma's youngest son: handsome, restless and unsure, still a boy in the face beside his father.",
+      "Brown skin, a smooth youthful face with no beard, long loose black hair, expressive eyes.",
+      "A fine dyed cotton tunic in bright teal with a gold armband, sandals. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
     ],
     "locked_traits": [
+      "Same youthful beardless face, long loose hair, and teal tunic in every panel; the youngest of the brothers.",
       "No signatures, watermarks, or artist marks in the image."
     ]
   },
@@ -1775,12 +1777,12 @@
       }
     ],
     "visual_design_choices": [
-      "A seasoned Nephite high priest and commander in his forties, fatherly and resolute.",
-      "Brown skin, a greying beard, dark hair tied back, warm protective eyes.",
-      "A white cotton robe over quilted cotton armor. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
+      "Helaman in his early thirties as a commander of the stripling warriors: fatherly and resolute beyond his years.",
+      "Brown skin, a short dark beard, dark hair tied back, warm protective eyes.",
+      "A white cotton robe with a deep red sash over quilted cotton armor. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
     ],
     "locked_traits": [
-      "Same face and white-over-armor look whenever he leads the stripling warriors.",
+      "The same face and deep red sash as young Helaman, a few years older; no grey.",
       "No signatures, watermarks, or artist marks in the image."
     ]
   },
@@ -3021,6 +3023,45 @@
     ],
     "locked_traits": [
       "Same face and gold-braided hair in every panel.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "Helaman (son of Alma, young)": {
+    "scriptural_facts": [
+      {
+        "text": "Alma gave Helaman charge of the records and the sacred things.",
+        "refs": [
+          "Alma 37:1",
+          "Alma 37:2"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "Helaman as a young man of about twenty-five, Alma's eldest son: earnest, steady and thoughtful.",
+      "Brown skin, a short neat dark beard, dark hair tied back at the nape, his father's calm eyes.",
+      "A plain white cotton robe with a deep red sash, sandals. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
+    ],
+    "locked_traits": [
+      "Same young face, tied-back hair, and deep red sash in every panel; clearly younger than his father.",
+      "No signatures, watermarks, or artist marks in the image."
+    ]
+  },
+  "Shiblon (older)": {
+    "scriptural_facts": [
+      {
+        "text": "Shiblon took possession of the sacred things after Helaman.",
+        "refs": [
+          "Alma 63:1"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "Shiblon in his forties, keeper of the records: the same gentle, patient man, older.",
+      "Brown skin, a short beard touched with grey, short wavy hair, kind quiet eyes.",
+      "A plain undyed cotton tunic with a grey mantle. Mesoamerican-inspired New World dress; nothing European or Asian; armor, if any, is quilted cotton, hide, or wood."
+    ],
+    "locked_traits": [
+      "Clearly the same man as young Shiblon, older.",
       "No signatures, watermarks, or artist marks in the image."
     ]
   }

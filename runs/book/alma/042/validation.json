@@ -1,85 +1,83 @@
 {
-  "stamp": "b11ba52b69523d1abab8a45c212fd01f47b6400bd7b3bf8c58a0ea0f6a9f2d4d",
+  "stamp": "399599ec8449cf3c5344d76124270f837ef90a602bf88f4e1168df47c458ff4d",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The first spoken excerpt omits the verse’s opening “And now,” so it is not an exact contiguous quotation as written; quote the full phrase “And now, my son, I perceive there is somewhat more which doth worry your mind” or use an exact shorter excerpt.",
-        "The second spoken excerpt is not verbatim: source says “Now behold, my son,” not “my son,” and the excerpt also changes punctuation. The presented Eden details are correctly framed as Alma recounting a past event, not as simultaneous action."
+        "The verses identify the son as Corianton only through the supplied chapter context; the first-person-narration instruction explicitly establishes Corianton as present. The conversation’s location is unspecified."
       ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The son is unnamed in the supplied verses; retaining him as an unnamed character is appropriate, but his presence in a visual depiction is inferred from Alma addressing him.",
-        "Alma's son and the conversation setting have no described appearance or location; visual design must remain unspecified.",
-        "The scene title's “guarded tree of life” is a reasonable shorthand for the cherubim and sword placed to keep the tree, not a separate source detail."
+        "Corianton is established as the son by the supplied chapter context and first-person-narration instruction. The scene appropriately treats Eden as recounted rather than simultaneous; visual appearances and the conversation’s location remain unspecified."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The passage is Alma's teaching, not a narrated visible scene. The suggested symbolic treatment of the probationary period has no specific visual basis; avoid suggesting a literal event or invented characters."
+        "Corianton is established by the supplied chapter context and first-person-narration instruction. The abstract visual treatment is optional; a specific depiction of the probationary period is unspecified."
       ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "These verses teach about the Fall and its consequences rather than narrating a new event; the symbolic depiction of separation is an optional creative choice, not a source-specified visual."
+        "The fall and separation are taught retrospectively, not narrated as a present action. Any visual representation of death, separation, or the plan of happiness is unspecified."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source describes conditional consequences and a preparatory state, not visible events; any abstract depiction of these concepts is unspecified creative design."
+        "The consequences described in verse 11 are conditional, not a present scene. The visual form of spiritual death or preparation is unspecified."
       ]
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Justice and redemption are doctrinal concepts in the passage, not visible events. The optional abstract image is creative design, not a source-based visual inference."
+        "The passage teaches doctrine rather than narrating an event. Symbolic justice imagery is optional and unspecified."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "These verses teach about atonement and punishment but do not narrate an atonement event. Any symbolic imagery is unspecified creative design and should not imply a literal scene."
+        "The passage teaches doctrine; it does not narrate an atonement event. Any symbolic representation of atonement, mercy, or the plan of happiness is unspecified."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration excerpts are exact and within the word limit, but omit some supplied clauses; the summary and explicit facts accurately cover the relevant content.",
-        "Scene 007 to 008 follows the supplied verse sequence; no chronology alteration detected."
+        "The murder example is explicitly hypothetical and is not staged. Any accompanying visual design is unspecified."
       ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration excerpts are exact and within the word limit, but omit the teaching that people are restored to God's presence for judgment according to works, law, and justice; this is covered in the summary and explicit facts.",
-        "The source states that God ceaseth not to be God, a clause omitted from the summary and narration.",
-        "Scene 008 to 009 follows the supplied verse sequence; no chronology alteration detected."
+        "Resurrection and judgment are teachings, not present events in this scene. The visual setting and any depiction of these concepts are unspecified."
       ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The narration quotes a question from verse 25 without its immediate answer, which may misleadingly suggest it is an assertion; the source's answer is 'Nay; not one whit.' Include that contiguous answer or choose a less ambiguous excerpt."
+        "Mercy and justice are figurative, not characters; the scene correctly avoids literalizing them. Any visual contrast is unspecified."
       ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The source uses 'waters of life' as an invitation in doctrinal teaching. The scene appropriately cautions against literalizing it; visual treatment remains unspecified."
+        "“Waters of life” is treated as figurative, and last-day restoration is not staged. The appearance of these teachings is unspecified."
       ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied chapter context and first-person-narration instruction establish Corianton as the son. The setting and appearances remain unspecified."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The command to go does not establish that Corianton departs; the scene appropriately presents no journey or subsequent preaching. Setting and appearances are unspecified."
+      ]
     }
   }
 }
