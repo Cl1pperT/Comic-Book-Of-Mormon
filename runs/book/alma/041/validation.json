@@ -1,5 +1,5 @@
 {
-  "stamp": "a5ba640a385f24586e574bcae2ef53c081c35d2e7e1273c3b2c3a7b786939814",
+  "stamp": "9e936feb75a16a9e5efdbda03575c129a623c5c7c787b7d20d3d6b27ca965e9d",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -20,10 +20,8 @@
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The quoted narration uses exact excerpts. “Endless night” is figurative teaching rather than a literal depicted event; the scene correctly notes this. The unspecified location and appearance remain open."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

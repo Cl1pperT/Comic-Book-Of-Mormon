@@ -1434,3 +1434,10 @@ def test_a_staged_battle_panel_shows_the_staging_not_the_violence(pipeline, monk
     import bom_comic.comic as comic
     monkeypatch.setattr(comic, "BATTLE_STAGING", False)
     assert "two heads" not in diffusion_prompts(build_prompt(panel, continuity, "4:3"))[1]
+
+
+def test_staging_never_puts_words_in_the_picture():
+    from bom_comic.staging import clean
+    assert clean("Ann raises a hand. A speech scroll reads, “These things are wrong.” Ben listens.") == \
+        "Ann raises a hand. Ben listens."
+    assert clean("A servant cries, “They stabbed the king!”") == ""  # nothing drawable left: the panel goes unstaged

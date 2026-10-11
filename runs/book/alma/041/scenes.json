@@ -174,7 +174,7 @@
       "Alma 41:6",
       "Alma 41:7"
     ],
-    "summary": "Alma teaches that one who repents and desires righteousness to the end is rewarded with righteousness, and describes the redeemed as delivered from endless night.",
+    "summary": "Alma teaches Corianton that a person who repents and desires righteousness to the end of his days will be rewarded unto righteousness. He describes the redeemed as delivered from endless night of darkness and says they are their own judges in choosing good or evil.",
     "characters": [
       "Alma",
       "Corianton"
@@ -184,44 +184,54 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma teaches that one who repents and desires righteousness until the end of life is rewarded unto righteousness.",
+        "text": "A person who repents of his sins and desires righteousness until the end of his days will be rewarded unto righteousness.",
         "refs": [
           "Alma 41:6"
         ]
       },
       {
-        "text": "Alma describes the redeemed of the Lord as delivered from endless night and says they are their own judges, whether to do good or evil.",
+        "text": "Alma calls such people redeemed of the Lord and delivered from endless night of darkness.",
+        "refs": [
+          "Alma 41:7"
+        ]
+      },
+      {
+        "text": "They are their own judges, whether to do good or evil.",
         "refs": [
           "Alma 41:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues his teaching to his son."
+      "Alma addresses Corianton while teaching him."
     ],
     "unspecified_visual_details": [
-      "The redeemed are described in doctrine, not shown as a separate visible group."
+      "The setting and the characters’ appearances are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "If he hath repented of his sins",
+        "text": "If he hath repented of his sins, and desired righteousness until the end of his days, even so he shall be rewarded unto righteousness.",
         "refs": [
           "Alma 41:6"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "they are their own judges",
+        "text": "for behold, they are their own judges, whether to do good or do evil.",
         "refs": [
           "Alma 41:7"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "\"Endless night of darkness\" is figurative teaching; do not render it as a literal place or event."
+      "The conditional speech concerns a person who repents; it does not identify a particular repentant person.",
+      "“Endless night of darkness” is part of Alma’s teaching, not a narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not show people emerging from a literal night or depict the redeemed in a supernatural scene."
+      "Do not depict a separate group of redeemed people or a literal deliverance from darkness.",
+      "Do not identify the hypothetical repentant person as Corianton or anyone else."
     ],
     "importance": "normal"
   },

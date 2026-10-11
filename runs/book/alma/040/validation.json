@@ -1,5 +1,5 @@
 {
-  "stamp": "72c209ab468e076274def2c977ab297384c661a410a2d11e2df50bb2dbec516e",
+  "stamp": "f327162045a1a9ac47bad735a67490a131c0548169111d0716ba0dabce4237c5",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -14,10 +14,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene 003: Narration excerpts are exact. The claim that Alma asks what becomes of souls is supported; avoid implying that the question is an event beyond his teaching."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",

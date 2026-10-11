@@ -194,52 +194,62 @@
     "refs": [
       "Alma 36:7"
     ],
-    "summary": "The angel speaks with a voice like thunder, the earth trembles beneath the group, and they all fall to the earth in fear.",
+    "summary": "Alma recounted that a speaker addressed his group with a voice likened to thunder. The whole earth trembled beneath their feet, and they all fell to the earth because fear of the Lord came upon them.",
     "characters": [
-      "Alma the Younger (rebel)",
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "The angel who appeared to Alma"
+      "Young Alma",
+      "Others with young Alma"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified location of the remembered event"
     ],
     "explicit_facts": [
       {
-        "text": "The angel speaks as it were with the voice of thunder.",
+        "text": "Alma reported that a speaker addressed the group with a voice likened to thunder.",
         "refs": [
           "Alma 36:7"
         ]
       },
       {
-        "text": "The whole earth trembles beneath their feet and they all fall to the earth because fear of the Lord comes upon them.",
+        "text": "The whole earth trembled beneath their feet.",
         "refs": [
           "Alma 36:7"
         ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "The ground may be shown visibly shaking as the group falls."
-    ],
-    "unspecified_visual_details": [
-      "The angel’s form and the surrounding landscape."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
+      },
       {
-        "text": "the whole earth did tremble beneath our feet;",
+        "text": "They all fell to the earth because fear of the Lord came upon them.",
         "refs": [
           "Alma 36:7"
         ]
       }
     ],
+    "reasonable_visual_inferences": [],
+    "unspecified_visual_details": [
+      "The surrounding landscape",
+      "The group's size, clothing, and physical appearances",
+      "The reported speaker's identity and appearance"
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "And behold, he spake unto us, as it were the voice of thunder, and the whole earth did tremble beneath our feet; and we all fell to the earth, for the fear of the Lord came upon us.",
+        "refs": [
+          "Alma 36:7"
+        ],
+        "speaker": "Alma"
+      }
+    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The thunder comparison describes the sound of the angel’s voice."
+      "This is Alma's retrospective account to Helaman, not a new present-tense event.",
+      "Young Alma is the Alma in the remembered event; neither Helaman nor a separate older Alma is present there.",
+      "The reported speaker's words are not supplied.",
+      "The thunder comparison describes the voice; it does not establish a storm or a visible supernatural appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict lightning, damage, or other effects not stated."
+      "Do not turn the reported event into a new present-tense scene or combine the remembering and remembered times.",
+      "Do not depict Helaman or a separate older Alma within the remembered event.",
+      "Do not assign the reported speaker an identity, gender label, appearance, or invented dialogue.",
+      "Do not invent a visible divine or heavenly figure.",
+      "Do not add lightning, destruction, injuries, or named members of the group."
     ],
     "importance": "normal"
   },

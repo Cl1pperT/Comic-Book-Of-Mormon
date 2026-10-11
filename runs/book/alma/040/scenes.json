@@ -141,7 +141,7 @@
       "Alma 40:8",
       "Alma 40:9"
     ],
-    "summary": "Alma asks what becomes of souls between death and resurrection and says he has diligently inquired of the Lord about this interval.",
+    "summary": "Alma asks what becomes of souls between death and resurrection. He says people do not all die at once, that time is measured unto men, and that he has diligently inquired of the Lord about the interval.",
     "characters": [
       "Alma",
       "Corianton"
@@ -157,44 +157,47 @@
         ]
       },
       {
-        "text": "Alma says all do not die at once and that time is measured unto men.",
+        "text": "Alma says people do not all die at once and that time is measured unto men.",
         "refs": [
           "Alma 40:8"
         ]
       },
       {
-        "text": "Alma says there is a space between death and resurrection, and that he diligently inquired of the Lord about the souls' state during it.",
+        "text": "Alma says there is a space between death and resurrection and that he has diligently inquired of the Lord about it.",
         "refs": [
           "Alma 40:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown addressing his son while explaining his inquiry."
+      "Alma may be shown addressing Corianton."
     ],
     "unspecified_visual_details": [
-      "No location, visible souls, or means of measuring time is described."
+      "The location, clothing, and appearances of Alma and Corianton are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "what becometh of the souls of men",
+        "text": "And now I would inquire what becometh of the souls of men from this time of death to the time appointed for the resurrection?",
         "refs": [
           "Alma 40:7"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "this is the thing of which I do know.",
+        "text": "And now, concerning this space of time, what becometh of the souls of men is the thing which I have inquired diligently of the Lord to know; and this is the thing of which I do know.",
         "refs": [
           "Alma 40:9"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma's question and explanation are teaching, not a narrated event involving visible souls."
+      "Alma's statements concern his inquiry and teaching; the verses do not narrate a visible scene of souls between death and resurrection."
     ],
     "prohibited_inventions": [
-      "Do not depict a clock, timeline, or souls in a particular place."
+      "Do not depict visible souls, an encounter with the Lord, or a literal scene illustrating the interval.",
+      "Do not invent a setting or dialogue for Corianton."
     ],
     "importance": "normal"
   },

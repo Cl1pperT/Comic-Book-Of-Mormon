@@ -1,5 +1,5 @@
 {
-  "stamp": "bcfee15c4e07e1a1b7f61c08e52d830b5b96a9c41bef94ad41625ec1708d43c3",
+  "stamp": "d5807cc1a5f36c4c5d38754faf9ca88842daed43c09238ed4e0d46d06271269f",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -22,9 +22,9 @@
       ]
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "The verse does not name the brethren individually or specify the setting. The established labels for sons of Mosiah are plausible, but identifying each as present is an inference from the group's first-person 'we.'"
+        "Alma 36:6 identifies the speaker as God's holy angel, and Alma 36:8 confirms that Alma beheld the angel. The scene incorrectly lists the speaker's identity as unspecified and prohibits identifying him."
       ]
     },
     "scene_005": {

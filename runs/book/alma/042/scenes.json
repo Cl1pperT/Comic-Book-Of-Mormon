@@ -158,7 +158,7 @@
       "Alma 42:4",
       "Alma 42:5"
     ],
-    "summary": "Alma explains that preventing access to the tree of life allowed a time for mankind to repent and serve God.",
+    "summary": "Alma explains to Corianton that the Lord God placed cherubim and the flaming sword to prevent the man from eating from the tree of life. A time was granted for repentance and service to God.",
     "characters": [
       "Alma",
       "Corianton"
@@ -168,50 +168,53 @@
     ],
     "explicit_facts": [
       {
-        "text": "The man had become as God, knowing good and evil, and was prevented from taking and eating from the tree of life.",
+        "text": "The man had become as God, knowing good and evil; the Lord God placed cherubim and the flaming sword so he would not eat from the tree of life.",
         "refs": [
           "Alma 42:3"
         ]
       },
       {
-        "text": "A time was granted to mankind to repent and serve God.",
+        "text": "A time was granted to man to repent and serve God.",
         "refs": [
           "Alma 42:4"
         ]
       },
       {
-        "text": "Alma says that if Adam had immediately eaten from the tree of life, he would have lived forever without space for repentance, frustrating the plan of salvation.",
+        "text": "Adam eating from the tree of life immediately is presented as a hypothetical, not an event that occurred.",
         "refs": [
           "Alma 42:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use a symbolic treatment of time granted for repentance rather than inventing a specific event."
+      "Alma speaks while Corianton listens."
     ],
     "unspecified_visual_details": [
-      "Any visible people, location, or visual representation of the probationary period."
+      "The appearance of Alma and Corianton and the setting of their conversation."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "there was a time granted unto man to repent",
+        "text": "And thus we see, that there was a time granted unto man to repent,",
         "refs": [
           "Alma 42:4"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "a probationary time, a time to repent and serve God.",
+        "text": "yea, a probationary time, a time to repent and serve God.",
         "refs": [
           "Alma 42:4"
-        ]
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The hypothetical immediate eating in verse 5 is not narrated as an event."
+      "Verse 5 describes a hypothetical outcome, not a separate event to depict."
     ],
     "prohibited_inventions": [
-      "Do not depict Adam eating the fruit or portray the hypothetical outcome as something that happened."
+      "Do not depict Adam eating from the tree of life or the hypothetical outcome as an event.",
+      "Do not invent an appearance for the Lord God, cherubim, or flaming sword."
     ],
     "importance": "normal"
   },
@@ -631,60 +634,70 @@
       "Alma 42:25",
       "Alma 42:26"
     ],
-    "summary": "Alma states that justice and mercy each claim what is theirs, only the truly penitent are saved, and God’s purposes bring salvation and redemption as well as destruction and misery.",
+    "summary": "Alma teaches Corianton that justice and mercy have their claims and that only the truly penitent are saved. He says mercy cannot rob justice. God brings about his eternal purposes; salvation, redemption, destruction, and misery come about for men.",
     "characters": [
       "Alma",
       "Corianton"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Justice exercises its demands and mercy claims what is its own; only the truly penitent are saved.",
+        "text": "Justice exercises its demands, mercy claims what is its own, and only the truly penitent are saved.",
         "refs": [
           "Alma 42:24"
         ]
       },
       {
-        "text": "Mercy cannot rob justice; otherwise God would cease to be God.",
+        "text": "Alma says mercy cannot rob justice; if it could, God would cease to be God.",
         "refs": [
           "Alma 42:25"
         ]
       },
       {
-        "text": "God brings about his eternal purposes, including salvation and redemption, and destruction and misery.",
+        "text": "God brings about his great and eternal purposes. Salvation and redemption, as well as destruction and misery, come about for men.",
         "refs": [
           "Alma 42:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A symbolic contrast may accompany Alma’s teaching, without depicting abstractions as literal beings."
+      "Alma speaks to Corianton."
     ],
     "unspecified_visual_details": [
-      "Visual representations of mercy, justice, salvation, or destruction."
+      "The setting, clothing, ages, and physical appearances are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "none but the truly penitent are saved.",
+        "text": "and thus, none but the truly penitent are saved.",
         "refs": [
           "Alma 42:24"
-        ]
+        ],
+        "speaker": "Alma"
       },
       {
-        "text": "mercy can rob justice?",
+        "text": "What, do ye suppose that mercy can rob justice? I say unto you, Nay; not one whit. If so, God would cease to be God.",
         "refs": [
           "Alma 42:25"
-        ]
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "And thus cometh about the salvation and the redemption of men, and also their destruction and misery.",
+        "refs": [
+          "Alma 42:26"
+        ],
+        "speaker": "Alma"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Mercy and justice are figures of speech and should not be portrayed as visible people."
+      "Justice and mercy are figures of speech, not visible characters.",
+      "Alma is the speaker addressing his son Corianton."
     ],
     "prohibited_inventions": [
-      "Do not literalize mercy or justice as characters."
+      "Do not depict justice or mercy as literal beings.",
+      "Do not invent a visible divine appearance or separate events illustrating salvation, redemption, destruction, or misery.",
+      "Do not attribute the spoken teaching to Mormon."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "399599ec8449cf3c5344d76124270f837ef90a602bf88f4e1168df47c458ff4d",
+  "stamp": "e6c043d6c92781374fcf4f77afc5f2b49109ea55e2f096f56a769ffd1c22bed6",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -14,10 +14,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Corianton is established by the supplied chapter context and first-person-narration instruction. The abstract visual treatment is optional; a specific depiction of the probationary period is unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
@@ -58,7 +56,8 @@
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Mercy and justice are figurative, not characters; the scene correctly avoids literalizing them. Any visual contrast is unspecified."
+        "Character presence and the visual inference that Alma speaks to Corianton are supported by the chapter framing, but these verses alone do not explicitly describe their presence or a physical scene.",
+        "The dialogue excerpts are verbatim and within the supplied verses. The summary paraphrases the source accurately; no separate events are staged."
       ]
     },
     "scene_011": {
