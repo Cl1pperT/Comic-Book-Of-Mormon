@@ -1081,6 +1081,12 @@
   "places": {
     "keywords": [
       {
+        "match": "synagogue",
+        "from": "Moroni 7",
+        "to": "Moroni 7",
+        "name": "Land Bountiful (days of Christ's ministry)"
+      },
+      {
         "match": ".",
         "from": "1 Nephi 8",
         "to": "1 Nephi 8",
@@ -1429,8 +1435,23 @@
       },
       {
         "from": "Moroni 1",
-        "to": "Moroni 10",
+        "to": "Moroni 1",
         "name": "Nephite lands (Mormon era)"
+      },
+      {
+        "from": "Moroni 2",
+        "to": "Moroni 8",
+        "name": "Land Bountiful (days of Christ's ministry)"
+      },
+      {
+        "from": "Moroni 9",
+        "to": "Moroni 9",
+        "name": "Nephite lands (Mormon era)"
+      },
+      {
+        "from": "Moroni 10",
+        "to": "Moroni 10",
+        "name": "Land Bountiful (days of Christ's ministry)"
       }
     ],
     "about_regions": "A region named __none__ gives no setting: dream and vision chapters, whose places are not the family's camp."

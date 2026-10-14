@@ -1067,6 +1067,20 @@ def test_plates_are_engraved_metal_sheets_never_a_book(pipeline):
         assert "The plates:" not in prompt(action)[0], action
 
 
+def test_no_drawing_shows_a_cross_except_the_crucifixion_seen_in_vision(pipeline):
+    from bom_comic.comic import diffusion_prompts, VISION_HEADING
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    prompt = lambda action, vision=False: diffusion_prompts(
+        build_prompt(panel.model_copy(update={"action": action}), DEFAULT_CONTINUITY, "4:3") +
+        (f"\n\n{VISION_HEADING}\n" + json.dumps({"seer": "Ann", "kind": "vision"}) if vision else ""))
+    for action, vision in (("Ann preaches before the temple.", False),
+                           ("Ben says he will be lifted up upon the cross.", False),
+                           ("Ann sees the people of the land in her vision.", True)):
+        assert "crucifix" in prompt(action, vision)[1], action
+    assert "crucifix" not in prompt("Ann sees the Lamb lifted up upon the cross.", True)[1]
+
+
 def test_the_church_of_the_devil_is_never_drawn_as_a_person(pipeline):
     from bom_comic.comic import diffusion_prompts
     ready(pipeline)

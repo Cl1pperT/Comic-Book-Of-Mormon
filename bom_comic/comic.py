@@ -448,6 +448,12 @@ DIFFUSION_NEGATIVE = ["winged people", "angel wings", "feathered wings",
                       "photograph", "photorealistic", "3d render", "modern clothing", "modern objects", "eyeglasses",
                       "backpacks", "zippers", "wristwatches", "baseball caps", "gore", "blood", "superhero costume",
                       "cartoon caricature"]
+# The cross: the Nephites and Lamanites had never seen one, and most of the book happens before the Crucifixion, so no
+# drawing shows one; Flux otherwise tops temples and holy places with crosses. The one exception is the Crucifixion
+# itself seen in vision (1 Nephi 11:33), where the cross is the event, not a symbol.
+CROSS_NEGATIVE = ["cross", "crucifix", "Christian cross", "cross symbol", "cross on top of a building",
+                  "cross-shaped ornament", "cross pendant", "church steeple", "church spire"]
+CRUCIFIXION = re.compile(r"\blifted up upon the cross\b|\bcrucif\w*", re.I)
 _ABSTRACT = re.compile(
     r"\b(?:verses?|scriptur\w*|texts?|textual|invent\w*|events?|narrat\w*|impl(?:y|ied|ying|ies)|identif\w*|assign\w*|"
     r"appearance|describ\w*|stat(?:e|ed|es)|specif\w*|present|presence|speech|speak\w*|words?|spoken|story|"
@@ -560,6 +566,8 @@ def diffusion_prompts(prompt):
         positive.append(f"Seen in {vision['seer']}'s {vision['kind']}: a luminous, dreamlike scene bathed in soft "
                         "golden light, its edges dissolving into glowing haze")
     negative += DIFFUSION_NEGATIVE
+    if not (vision and CRUCIFIXION.search(" ".join([action, *inferences]))):
+        negative += CROSS_NEGATIVE
     if staging or (BATTLE_STAGING and _violent().search(" ".join([action, *inferences]))):
         negative += ANATOMY_NEGATIVE
     # Named objects look the same in every panel that shows them.
