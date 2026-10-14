@@ -255,38 +255,40 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Alma beholds the angel",
+    "title": "Young Alma beholds the angel",
     "refs": [
       "Alma 36:8"
     ],
-    "summary": "A voice tells Alma to arise. Alma rises, stands, and beholds the angel.",
+    "summary": "A voice tells young Alma to arise. He rises, stands, and beholds the angel.",
     "characters": [
-      "Alma the Younger (rebel)",
-      "The angel"
+      "Young Alma",
+      "The angel",
+      "The voice"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "A voice tells Alma to arise.",
+        "text": "The voice tells young Alma to arise.",
         "refs": [
           "Alma 36:8"
         ]
       },
       {
-        "text": "Alma rises, stands, and beholds the angel.",
+        "text": "Young Alma arises, stands, and beholds the angel.",
         "refs": [
           "Alma 36:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma is upright when he beholds the angel."
+      "Young Alma is standing when he beholds the angel."
     ],
     "unspecified_visual_details": [
       "The angel’s appearance, clothing, and position.",
-      "The surrounding setting."
+      "The surrounding setting.",
+      "The source of the voice."
     ],
     "spoken_dialogue": [
       {
@@ -294,7 +296,7 @@
         "refs": [
           "Alma 36:8"
         ],
-        "speaker": "The angel"
+        "speaker": "The voice"
       }
     ],
     "narration": [
@@ -306,12 +308,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The “I” in the narration refers to Alma, not the angel.",
-      "The verse does not explicitly state that the voice belongs to the angel."
+      "Alma recounts an event from his youth; “I” refers to young Alma.",
+      "The verse does not identify the voice as the angel’s."
     ],
     "prohibited_inventions": [
-      "Do not assign the angel an appearance, clothing, or position.",
-      "Do not depict a separate visible speaker for the voice."
+      "Do not identify the voice as the angel’s.",
+      "Do not depict a separate visible speaker for the voice.",
+      "Do not invent the angel’s appearance or the setting."
     ],
     "importance": "normal"
   },
@@ -368,11 +371,11 @@
       "Alma 36:10",
       "Alma 36:11"
     ],
-    "summary": "Alma reports that the angel’s warning filled him with fear and amazement lest he be destroyed, and he fell to the earth and heard no more. He could not open his mouth or use his limbs for three days and three nights. His brethren heard further words from the angel that Alma did not hear.",
+    "summary": "In his retrospective account, young Alma hears the angel’s warning, fears he may be destroyed, and falls to the earth. He hears no more, though his brethren hear the angel speak further. For three days and three nights, Alma cannot open his mouth or use his limbs.",
     "characters": [
       "Alma the Younger (rebel)",
-      "The angel (reported speaker)",
-      "Alma’s brethren (reported participants)"
+      "The angel",
+      "Alma’s brethren"
     ],
     "locations": [
       "Unspecified location"
@@ -385,25 +388,24 @@
         ]
       },
       {
-        "text": "Hearing the angel’s warning caused Alma great fear and amazement lest he be destroyed; he fell and heard no more.",
+        "text": "The angel’s warning struck Alma with fear and amazement lest he be destroyed; he fell to the earth and heard no more.",
         "refs": [
           "Alma 36:11"
         ]
       },
       {
-        "text": "The angel spoke further things that Alma’s brethren heard but Alma did not.",
+        "text": "Alma’s brethren heard further things spoken by the angel, but Alma did not.",
         "refs": [
           "Alma 36:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma’s brethren were within hearing distance of the angel during the reported event."
+      "Alma’s brethren were within hearing distance of the angel."
     ],
     "unspecified_visual_details": [
       "The location, clothing, and physical appearances of Alma and his brethren are unspecified.",
-      "The angel’s appearance is not described and must not be supplied visually.",
-      "The setting and audience of Alma’s retrospective account are unspecified."
+      "The angel’s appearance is not described."
     ],
     "spoken_dialogue": [
       {
@@ -411,7 +413,7 @@
         "refs": [
           "Alma 36:11"
         ],
-        "speaker": "The angel (quoted in Alma’s account)"
+        "speaker": "The angel"
       }
     ],
     "narration": [
@@ -423,16 +425,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Alma, not Mormon, is the first-person speaker of this account.",
-      "Keep these events retrospective; do not stage the reported experience as a new present-tense scene.",
-      "The verses describe the same fall, not two separate falls.",
-      "The three days and three nights are a reported duration, not a single compressed moment."
+      "Alma recounts this experience from his youth; Helaman is not present in the recalled event.",
+      "The two verses describe the same fall, not separate falls.",
+      "The three days and three nights are a duration, not a single moment."
     ],
     "prohibited_inventions": [
-      "Do not visibly depict the angel; no appearance is described.",
-      "Do not invent the angel’s further words.",
+      "Do not invent the angel’s appearance or further words.",
       "Do not invent names, biographies, or reactions for Alma’s brethren.",
-      "Do not invent an audience or setting for the account.",
       "Do not add unconsciousness, wounds, recovery, or events during the three-day duration."
     ],
     "importance": "normal"

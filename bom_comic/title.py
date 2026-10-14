@@ -28,13 +28,18 @@ HERO = ("hero", "3-nephi/011", "Jesus Christ", "Temple in the land Bountiful",
         "multitude gathered on the plaza below looking up in awe")
 # Ten figures across the book, in its order: two rows of five.
 CHARACTERS = [
-    ("lehi", "1-nephi/001", "Lehi", "", "Lehi, an aged prophet, reads from a radiant open book in his vision", "LEHI"),
-    ("nephi", "1-nephi/005", "Nephi", "", "Nephi holds the brass plates against his chest, resolute", "NEPHI"),
+    ("lehi", "1-nephi/001", "Lehi", "", "Lehi, an aged prophet, reads from a radiant unrolled ancient scroll in his "
+     "vision", "LEHI"),
+    ("nephi", "1-nephi/005", "Nephi", "",
+     "Nephi, resolute, holds up in both hands a small loose stack of thin engraved brass sheets, their edges and rows "
+     "of engraved characters plainly visible", "NEPHI"),
     ("jared", "ether/003", "The brother of Jared", "", "The brother of Jared holds up small clear stones on a mountaintop",
      "BROTHER OF JARED"),
     ("benjamin", "mosiah/002", "King Benjamin", "", "King Benjamin speaks to his people from a tall wooden tower",
      "KING BENJAMIN"),
-    ("abinadi", "mosiah/013", "Abinadi", "", "Abinadi stands bound and unafraid before a king's court", "ABINADI"),
+    ("abinadi", "mosiah/013", "Abinadi", "",
+     "Abinadi stands bound and unafraid before King Noah's stepped stone palace of ancient Mesoamerican design",
+     "ABINADI"),
     ("alma", "alma/005", "Alma", "", "Alma preaches to the people with one hand raised", "ALMA"),
     ("ammon", "alma/017", "Ammon", "", "Ammon swings a sling at the waters of Sebus, defending the king's flocks",
      "AMMON"),
@@ -46,8 +51,12 @@ CHARACTERS = [
      "MORONI"),
 ]
 # Things a drawing must not show (its negative prompt): Christ's robe is plain white (3 Nephi 11:8); Ammon's weapon at
-# Sebus is a sling (Alma 17:36).
-AVOID = {"hero": ["a red sash", "a colored mantle or stole"], "ammon": ["bow and arrows", "a bow"]}
+# Sebus is a sling (Alma 17:36); Lehi's book (1 Nephi 1:11) is drawn as an ancient scroll and Nephi's are the plates,
+# never a modern bound book; Abinadi's city is Mesoamerican, never a European church.
+MODERN_BOOK = ["modern book", "hardcover book", "leather-bound book", "printed book", "bound book with a spine"]
+AVOID = {"hero": ["a red sash", "a colored mantle or stole"], "ammon": ["bow and arrows", "a bow"],
+         "lehi": MODERN_BOOK, "nephi": MODERN_BOOK + ["book cover", "a single solid gold slab"],
+         "abinadi": ["cathedral", "church steeple", "bell tower", "Christian cross", "European architecture"]}
 COLUMNS, PANEL_H, GAP, NAME_H = 5, 280, 14, 34
 PANEL_W = (PAGE_SIZE[0] - 2 * MARGIN - (COLUMNS - 1) * GAP) // COLUMNS
 PANEL_ASPECT = "8:9"  # about PANEL_W x PANEL_H

@@ -4,21 +4,17 @@
   "verses": 30,
   "scenes": 18,
   "counts": {
-    "PASS": 8,
-    "PASS WITH WARNINGS": 9,
-    "REJECT": 1
+    "PASS": 14,
+    "PASS WITH WARNINGS": 4,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_004": [
-      "Alma 36:6 identifies the speaker as God's holy angel, and Alma 36:8 confirms that Alma beheld the angel. The scene incorrectly lists the speaker's identity as unspecified and prohibits identifying him."
-    ]
-  },
-  "calls": 77,
+  "rejected": {},
+  "calls": 84,
   "tokens": {
-    "input_tokens": 357867,
-    "cached_input_tokens": 160512,
+    "input_tokens": 395944,
+    "cached_input_tokens": 136448,
     "cache_write_input_tokens": 0,
-    "output_tokens": 33785,
-    "reasoning_output_tokens": 14003
+    "output_tokens": 36921,
+    "reasoning_output_tokens": 15257
   }
 }

@@ -1,37 +1,29 @@
 {
-  "stamp": "d5807cc1a5f36c4c5d38754faf9ca88842daed43c09238ed4e0d46d06271269f",
+  "stamp": "4ae913e5014ade2d26f0ad0ef59143b866a558d9a86ff8a3cc4558bac4396b36",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses establish Alma addressing Helaman, but do not explicitly state that Helaman is physically present; face-to-face dialogue is a reasonable inference, not a stated fact.",
-        "The setting is unspecified; retain it as unspecified rather than implying a particular location or time."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Alma continues his address to Helaman, but the verses do not specify whether Helaman is physically present or establish a concrete counsel setting.",
-        "The claim that Alma’s spiritual knowledge came through the angel is supported; keep the angel as a reported reference, not a present visual appearance."
+        "Scene's explicit-facts paraphrase says God delivered the fathers, but Alma names the God of Abraham, Isaac, and Jacob as the only one who could deliver them; retain that exact qualification if restating the fact."
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The event is correctly framed as retrospective, but the supplied verse does not specify a setting or Alma's audience; visual design should not establish either as fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "Alma 36:6 identifies the speaker as God's holy angel, and Alma 36:8 confirms that Alma beheld the angel. The scene incorrectly lists the speaker's identity as unspecified and prohibits identifying him."
+        "The source attributes the thunder-like voice to “he” but does not explicitly identify the speaker as an angel; the scene appropriately preserves that uncertainty."
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verse identifies the voice and the angel separately but does not explicitly say the angel is the speaker; the scene correctly notes this uncertainty."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
@@ -40,12 +32,14 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The brethren's presence is supported by their hearing the angel, but the verse does not specify their exact positions or that they were within ordinary hearing distance. The three-day duration should not be compressed into a single moment."
+        "The unspecified location and the brethren's proximity are necessarily visual choices; the verses do not specify where the event occurs or how close they are, only that they hear the angel."
       ]
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The paraphrase “toward destruction” compresses the source's qualified wording “murdered many of his children, or rather led them away unto destruction”; avoid implying literal murder as an established event."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -64,10 +58,8 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The heavenly vision is explicitly described as what Alma thought he saw, so it may be represented as that remembered vision. God’s and the angels’ appearances and the throne’s design remain unspecified; Lehi is only a comparison, not present."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",
@@ -78,22 +70,16 @@
       "issues": []
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma and Helaman are established as speaker and son, but the verse itself does not specify that Helaman is present for this particular statement; do not treat a setting or visible conversation as stated fact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The stated facts and selected dialogue excerpts are supported, and the scene correctly treats past deliverances and the last day as reported speech rather than present action. The summary says Alma recalls the fathers’ journey into the promised land, but does not mention that he says they were led there “by his power”; consider retaining that detail for fidelity. The unspecified setting and appearances remain open creative choices."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Alma’s counsel is directed to his son, but the verse does not establish Helaman’s physical presence or a particular conversation setting. The quoted fragments should remain counsel, not depictions of prosperity or separation."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }
