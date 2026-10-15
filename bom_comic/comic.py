@@ -869,6 +869,15 @@ def _draw_box(draw, rows, box, fonts, fill):
 MIRROR, BOTTOM_NARRATION, RESHAPE, MAX_TALL = 1, 2, 3, 0.5
 
 
+def speaker_label(name):
+    """A speaker's name as lettered on the page. Scene labels carry qualifiers that tell the cast apart for the
+    drawings ("Jesus Christ (at Bountiful)", "Ammon (son of Mosiah)") or note how a line is spoken ("Abinadi,
+    reciting the commandment"); the reader needs only the name."""
+    name = re.sub(r"\s*\([^)]*\)", "", name)
+    name = re.split(r",\s*(?:quoting|reciting|reading|in the|off-screen)\b", name, maxsplit=1)[0]
+    return name.strip(" ,") or name
+
+
 def _caption_options(draw, panel, frame, fonts):
     """Every corner and width each caption box may take, as (box, rows, fill, penalty), default first. Narration
     may sit in any corner, speech in either bottom corner; the words never change."""
@@ -878,7 +887,7 @@ def _caption_options(draw, panel, frame, fonts):
     ref = _ref_range(panel.refs)
     narration = [(None, c.text) for c in panel.narration]
     # A label that names no one ("UNIDENTIFIED SPEAKER") adds nothing on the page, so the quote stands alone.
-    speech = [(None if vague_speaker(s.speaker) else s.speaker, f"“{s.text}”") for s in panel.dialogue]
+    speech = [(None if vague_speaker(s.speaker) else speaker_label(s.speaker), f"“{s.text}”") for s in panel.dialogue]
 
     def variants(blocks, ref, fill, corners):
         default = _box(draw, blocks, ref, fonts, inner_w, inner_h * 0.3)[0]

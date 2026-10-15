@@ -509,6 +509,91 @@ def check_continuity(root="runs/book", make_provider=None, only=None):
     return results, "done"
 
 
+REVIEW_QUEUE = "review-queue.json"
+
+
+def _previous_guide(root, key):
+    """The guide (title, opener) of the chapter before key in the same book, for a guide's recap."""
+    from . import chapter as guide
+    before = None
+    for status_path in _book_order(root):
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        if (status["book"], status["chapter"]) == key:
+            break
+        before = (status_path.parent, status["book"])
+    if not before or before[1] != key[0]:
+        return None
+    intro = guide.read(Store(before[0]))
+    return {"title": intro.title, "opener": intro.opener} if intro else None
+
+
+def apply_review(root="runs/book", make_provider=None):
+    """Apply a reader's review of the pages, queued in review-queue.json at the book's root: a list of
+    {"book", "chapter", "scene_id", "problem", "fix"} for scenes and {"book", "chapter", "guide"} for chapter guides.
+    Each named scene is rewritten told the problem and the fix, then goes through the normal audit, repair and
+    escalation (as the continuity check does); each guide is revised from the notes and audited. Entries leave the
+    queue once applied, so a stop at a usage limit picks up where it left off. Returns ([status], reason)."""
+    from . import chapter as guide
+    path = Path(root) / REVIEW_QUEUE
+    if not path.exists():
+        return [], "done"
+    make_provider = make_provider or _codex()
+    queue = json.loads(path.read_text(encoding="utf-8"))
+    results = []
+    try:
+        with writing_lock(root):
+            order = [tuple(json.loads(p.read_text(encoding="utf-8"))[k] for k in ("book", "chapter"))
+                     for p in _book_order(root)]
+            for key in [k for k in order if any((e["book"], e["chapter"]) == k for e in queue)]:
+                entries = [e for e in queue if (e["book"], e["chapter"]) == key]
+                store = Store(folder(root, *key))
+                status = store.read("status.json")
+                pipeline = Pipeline(store, None)
+                pipeline.provider = make_provider(store)
+                pipeline.provider.reuse_responses = True
+                notes = {}
+                for entry in entries:
+                    if entry.get("scene_id"):
+                        notes.setdefault(entry["scene_id"], []).append(
+                            f"Reader review: {entry['problem']} Fix: {entry['fix']}")
+                guide_notes = [entry["guide"] for entry in entries if entry.get("guide")]
+                applied = []
+                try:
+                    ids = {s.scene_id for s in pipeline.scenes()}
+                    notes = {sid: n for sid, n in notes.items() if sid in ids}
+                    if notes:
+                        _upgrade(pipeline)  # drawn chapters keep drawings whose content doesn't change
+                        validation = store.read("validation.json")
+                        for sid, issues in notes.items():
+                            validation["results"][sid] = {"status": "REJECT", "issues": issues}
+                        store.write("validation.json", validation)
+                        fixed = _escalate(pipeline, _repair(pipeline, validation["results"]))
+                        status = _finish(store, pipeline, key[0], key[1], status["verses"], fixed)
+                    applied = [e for e in entries if e.get("scene_id")]
+                    if guide_notes and not status["counts"]["REJECT"]:
+                        # After the scenes, so the revised guide is current for them.
+                        guide.revise(pipeline, _previous_guide(root, key), guide_notes)
+                        applied = entries
+                except (ProviderError, ValueError) as exc:
+                    if "usage limit" in str(exc).lower():
+                        return results, "usage limit"
+                    print(f"{key[0]} {key[1]} review failed: {exc}", flush=True)
+                    continue
+                queue = [e for e in queue if not any(e is a for a in applied)]
+                if queue:
+                    path.write_text(json.dumps(queue, indent=1, ensure_ascii=False), encoding="utf-8")
+                else:
+                    path.unlink()
+                results.append(status)
+                print(f"Review {key[0]} {key[1]}: {len(notes)} scenes rewritten, guide "
+                      f"{'revised' if guide_notes and applied == entries else 'unchanged'}"
+                      + (f" | {status['counts']['REJECT']} still rejected" if status["counts"]["REJECT"] else ""),
+                      flush=True)
+    except Busy as exc:
+        return results, f"another writer is running ({exc})"
+    return results, "done"
+
+
 def write_intros(root="runs/book", make_provider=None, only=None):
     """Write each written chapter's reader's guide (see chapter.py) in book order, skipping chapters whose guide is
     current. Each guide's recap draws on the previous chapter's guide. only: a set of (book, chapter) to limit to.

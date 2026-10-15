@@ -101,6 +101,24 @@ def write(pipeline, previous=None, retry=None):
     return record
 
 
+def revise(pipeline, previous, issues):
+    """Rewrite the chapter's guide to fix problems a reader found (a guide can pass its audit and still leave a new
+    reader lost), then audit the rewrite; saves and returns the intro.json record. Without a guide yet, writes one."""
+    if not pipeline.store.path(INTRO).exists():
+        return write(pipeline, previous)
+    provider, verses = pipeline.provider, pipeline.verses()
+    ask = request(pipeline, previous)
+    draft = ChapterIntro.model_validate(pipeline.store.read(INTRO)["intro"])
+    fix = PROMPT + "\nA reader's review found these problems in the previous draft; fix them:\n- " + \
+        "\n- ".join(issues) + "\nPrevious draft: " + draft.model_dump_json() + "\n"
+    intro = provider.structured(fix + json.dumps(ask), ChapterIntro, "intro_review", "repair")
+    verdict = _audit(provider, intro, ask, verses, "intro_review_audit")
+    record = {"intro": intro.model_dump(), "verdict": verdict.model_dump(), "stamp": stamp(pipeline)}
+    pipeline.store.write(INTRO, record)
+    pipeline.store.event("intro", status=verdict.status, issues=verdict.issues, review=issues)
+    return record
+
+
 def _audit(provider, intro, ask, verses, tag):
     issues = deterministic_issues(intro, verses)
     if issues:

@@ -284,6 +284,43 @@ def test_continuity_check_repairs_the_scenes_a_reader_would_misread(tmp_path):
     assert check_continuity(tmp_path / "book", lambda s: checker) == ([], "done") and checker.asked == []
 
 
+def test_a_reader_review_rewrites_the_named_scenes_and_guide(tmp_path):
+    from bom_comic.book import REVIEW_QUEUE, apply_review
+    from bom_comic.models import ChapterVerdicts, SceneVerdict
+    source = tmp_path / "input.txt"
+    source.write_text("".join(f"3 Nephi 8:{v} {TEXT} {v}.\n" for v in (1, 2, 3, 4)))
+    store = Store(tmp_path / "book" / "3-nephi" / "008")
+    p = Pipeline(store, Fake())
+    p.init(source, "3 Nephi 8:1", "3 Nephi 8:4")
+    p.analyze(chunk_size=0)
+    p.validate()
+    store.write("status.json", {"book": "3 Nephi", "chapter": 8, "verses": "3 Nephi 8:4", "counts": {"REJECT": 0}})
+    guide.write(p)
+    queue = [{"book": "3 Nephi", "chapter": 8, "scene_id": "scene_002", "problem": "Wrong speaker.", "fix": "Name Ann."},
+             {"book": "3 Nephi", "chapter": 8, "guide": "Say where they are."},
+             {"book": "Alma", "chapter": 99, "scene_id": "scene_001", "problem": "-", "fix": "-"}]
+    (tmp_path / "book" / REVIEW_QUEUE).write_text(json.dumps(queue))
+
+    class Reviewer(Fake):
+        def structured(self, prompt, schema, tag, kind="text"):
+            self.asked.append((tag, prompt))
+            if tag.startswith("regenerate_scene_002"):
+                return SceneBatch(scenes=[SCENES[1]])
+            if schema is ChapterVerdicts:
+                return ChapterVerdicts(verdicts=[SceneVerdict(scene_id="scene_002", status="PASS")])
+            return super().structured(prompt, schema, tag, kind)
+    reviewer = Reviewer()
+    results, reason = apply_review(tmp_path / "book", lambda s: reviewer)
+    assert reason == "done" and [r["counts"]["REJECT"] for r in results] == [0]
+    rewrite = next(prompt for tag, prompt in reviewer.asked if tag.startswith("regenerate_scene_002"))
+    assert "Reader review: Wrong speaker. Fix: Name Ann." in rewrite
+    revision = next(prompt for tag, prompt in reviewer.asked if tag == "intro_review")
+    assert "Say where they are." in revision and "Previous draft" in revision
+    assert guide.read(store) is not None and guide.current(p)
+    # Applied entries leave the queue; an entry for a chapter that isn't written stays for later.
+    assert json.loads((tmp_path / "book" / REVIEW_QUEUE).read_text()) == [queue[2]]
+
+
 def test_guides_chain_their_recaps_through_a_book(tmp_path):
     from bom_comic.book import write_intros
     source = tmp_path / "input.txt"

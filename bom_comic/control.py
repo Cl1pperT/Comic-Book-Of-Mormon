@@ -9,7 +9,8 @@ jobs stop, and a lock left by a crash is ignored once its process is gone.
 
     Image rendering: bom_comic.nightly --until never --no-write. Stop asks it to finish the panel in progress and
         exit (it removes ComfyUI as it goes); a second Stop kills it.
-    Story: repairs rejected scenes, re-reads chapters for story continuity, and writes chapter guides, over and over
+    Story: applies any queued reader's review (runs/book/review-queue.json), repairs rejected scenes, re-reads
+        chapters for story continuity, and writes chapter guides, over and over
         until nothing is left, waiting an hour when Codex's usage limit is hit. Stop ends it at once (each chapter's
         files are written whole, so a stop between writes loses only the call in progress).
 
@@ -208,7 +209,8 @@ def story_job(root=ROOT):
         print(f"{datetime.datetime.now():%H:%M:%S} {message}", flush=True)
     while True:
         busy = False
-        for name, step in (("repair", book.repair_blocked), ("continuity", book.check_continuity),
+        for name, step in (("review", book.apply_review), ("repair", book.repair_blocked),
+                           ("continuity", book.check_continuity),
                            ("guides", book.write_intros)):
             say(f"Story: {name}")
             done, reason = step(str(root))
@@ -243,7 +245,7 @@ def window():
     frames, labels, buttons, logs = {}, {}, {}, {}
     titles = {"image": "Image rendering (ComfyUI)", "story": "Story (Codex)"}
     notes = {"image": "Draws flagged panels first, then new chapters in order, until you stop it.",
-             "story": "Repairs scenes, checks story continuity, and writes chapter guides."}
+             "story": "Applies queued review fixes, repairs scenes, checks story continuity, and writes chapter guides."}
     for job in ("image", "story"):
         box = ttk.LabelFrame(app, text=titles[job], padding=10)
         box.pack(fill="x", padx=12, pady=(12, 0))

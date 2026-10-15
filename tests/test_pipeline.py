@@ -1455,3 +1455,13 @@ def test_staging_never_puts_words_in_the_picture():
     assert clean("Ann raises a hand. A speech scroll reads, “These things are wrong.” Ben listens.") == \
         "Ann raises a hand. Ben listens."
     assert clean("A servant cries, “They stabbed the king!”") == ""  # nothing drawable left: the panel goes unstaged
+
+
+def test_speaker_labels_print_only_the_name():
+    from bom_comic.comic import speaker_label
+    assert speaker_label("Jesus Christ (at Bountiful)") == "Jesus Christ"
+    assert speaker_label("Alma (the Younger) (high priest)") == "Alma"
+    assert speaker_label("Jesus Christ (at Bountiful), quoting the Father’s words to Malachi") == "Jesus Christ"
+    assert speaker_label("Abinadi, reciting the commandment") == "Abinadi"
+    assert speaker_label("Baptizer (prescribed words quoted by Jesus; not an enacted baptism)") == "Baptizer"
+    assert speaker_label("King Benjamin") == "King Benjamin"
