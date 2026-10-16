@@ -6,29 +6,20 @@
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The people are considering departure, not shown physically leaving in this verse; the visual inference is appropriately qualified, but the phrase “considering flight” is not stated verbatim."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "The note identifies Mormon as the narrator, but the supplied verses do not name the narrator."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "The notes identify Mormon as the narrator, but the supplied verses do not name the narrator.",
-        "The addressee is not unspecified: verses 3–5 establish that Gideon is speaking to the king. The prohibition against identifying the addressee conflicts with that context."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Whether Gideon is visibly present is unspecified; the scene appropriately identifies this uncertainty."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
@@ -39,10 +30,8 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source names Ammon and his brethren as leaders, but the scene labels them only as “Ammon” and “Ammon’s brethren”; consider using the established character label “Ammon (explorer, Mosiah 7)” to avoid ambiguity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",

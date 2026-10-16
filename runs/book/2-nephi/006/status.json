@@ -4,23 +4,17 @@
   "verses": 18,
   "scenes": 14,
   "counts": {
-    "PASS": 12,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 11,
+    "PASS WITH WARNINGS": 3,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_006": [
-      "2 Nephi 6:8 identifies the continuing speaker as Jacob, not Nephi. The summary, character, explicit facts, dialogue speaker labels, and visual inference misattribute his report.",
-      "The preceding scene depicts Jacob speaking; switching to Nephi in this continuation alters that continuity.",
-      "The notes falsely claim that the supplied verse identifies Nephi and that no preceding scene was supplied."
-    ]
-  },
-  "calls": 45,
+  "rejected": {},
+  "calls": 46,
   "tokens": {
-    "input_tokens": 177704,
-    "cached_input_tokens": 69888,
+    "input_tokens": 184113,
+    "cached_input_tokens": 66432,
     "cache_write_input_tokens": 0,
-    "output_tokens": 10812,
-    "reasoning_output_tokens": 2132
+    "output_tokens": 11147,
+    "reasoning_output_tokens": 1898
   }
 }

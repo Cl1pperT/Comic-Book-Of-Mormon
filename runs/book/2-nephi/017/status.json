@@ -4,22 +4,17 @@
   "verses": 25,
   "scenes": 14,
   "counts": {
-    "PASS": 10,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 1
+    "PASS": 4,
+    "PASS WITH WARNINGS": 10,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_004": [
-      "The scene treats the speaker, addressee, and “him” as unidentified, but the preceding verse identifies the Lord speaking to Isaiah and directs Isaiah to meet Ahaz. The dialogue speaker and notes contradict that context.",
-      "The prohibition on identifying those figures from outside verse 4 incorrectly excludes the supplied preceding verse and breaks scene continuity."
-    ]
-  },
-  "calls": 65,
+  "rejected": {},
+  "calls": 69,
   "tokens": {
-    "input_tokens": 290279,
-    "cached_input_tokens": 145664,
+    "input_tokens": 319838,
+    "cached_input_tokens": 151040,
     "cache_write_input_tokens": 0,
-    "output_tokens": 25143,
-    "reasoning_output_tokens": 9404
+    "output_tokens": 27223,
+    "reasoning_output_tokens": 10510
   }
 }

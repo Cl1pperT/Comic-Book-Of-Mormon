@@ -4,21 +4,21 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 9,
-    "PASS WITH WARNINGS": 6,
+    "PASS": 13,
+    "PASS WITH WARNINGS": 2,
     "REJECT": 1
   },
   "rejected": {
     "scene_003": [
-      "The note identifying Nephi as the chapter’s first-person narrator is unsupported by the supplied verses. The preceding scene also identifies Nephi as the speaker without support; the current scene correctly leaves the speaker unidentified."
+      "The doctrinal note says the supplied verses do not identify the vineyard’s symbolic referent, but 2 Nephi 15:7 explicitly identifies the vineyard as the house of Israel and the men of Judah as its pleasant plant."
     ]
   },
-  "calls": 109,
+  "calls": 115,
   "tokens": {
-    "input_tokens": 485705,
-    "cached_input_tokens": 201216,
+    "input_tokens": 526415,
+    "cached_input_tokens": 210816,
     "cache_write_input_tokens": 0,
-    "output_tokens": 58694,
-    "reasoning_output_tokens": 23864
+    "output_tokens": 63858,
+    "reasoning_output_tokens": 26216
   }
 }

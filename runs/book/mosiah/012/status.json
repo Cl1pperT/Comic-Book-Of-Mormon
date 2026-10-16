@@ -4,22 +4,17 @@
   "verses": 37,
   "scenes": 21,
   "counts": {
-    "PASS": 14,
-    "PASS WITH WARNINGS": 6,
-    "REJECT": 1
+    "PASS": 9,
+    "PASS WITH WARNINGS": 12,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_020": [
-      "The claim that the narration is Mormon’s is not established by the supplied verses; it assigns an unsupported speaker.",
-      "The listeners’ identities are not wholly unspecified: the preceding scene identifies them as priests, and Mosiah 12:33 continues with “them.”"
-    ]
-  },
-  "calls": 156,
+  "rejected": {},
+  "calls": 171,
   "tokens": {
-    "input_tokens": 692963,
-    "cached_input_tokens": 316416,
+    "input_tokens": 811830,
+    "cached_input_tokens": 349056,
     "cache_write_input_tokens": 0,
-    "output_tokens": 62834,
-    "reasoning_output_tokens": 24314
+    "output_tokens": 74918,
+    "reasoning_output_tokens": 28814
   }
 }

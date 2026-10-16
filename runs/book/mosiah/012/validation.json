@@ -1,32 +1,34 @@
 {
-  "stamp": "d5cee76511b84373234e4df6d7dc0f71c8bf0eda717e38e2cd51cc23848e42a4",
+  "stamp": "0cbdefeb0857a0040fdcec9fc095cddf4380d2f3ffe24b7602298ebd5b01ce25",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue compresses the source: its opening quotation joins material after the narrative interruption “and began to prophesy among them, saying:” with an em dash not present at that join. The wording itself is otherwise verbatim. Narration and dialogue together are within the 65-word limit.",
+        "The summary and explicit facts describe the people as not recognizing Abinadi, but omit the verse’s separate action that he began to prophesy; narration supplies that action. The disguise and setting are correctly left unspecified."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The second dialogue excerpt combines Abinadi's introduction with the Lord's reported command, so its single speaker label (Abinadi) is ambiguous; the Lord is not shown as physically present."
+        "The scene's visual delivery of the warning is a reasonable inference, but the verses do not specify the setting or whether anyone is listening."
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The pestilence is foretold in 12:7, but 12:6–7 do not name Abinadi; that identification relies on preceding context rather than this scene's refs.",
-        "The dialogue includes the verse's em dash correctly, but avoid treating the predicted calamities as present events."
+        "The summary says Abinadi foretells afflictions for “this my people,” but verse 5 refers only to “they”; the excerpt does not specify that verse 5’s referent is the same group. The uncertainty is acknowledged in the unspecified details.",
+        "The “they” referent is also not specified in the excerpt; preserve that ambiguity rather than asserting a group identity. The spoken text is verbatim and total narration and dialogue are within the word limit."
       ]
+    },
+    "scene_004": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says Abinadi “continues” his prophecy, but the supplied verses do not establish continuity from a prior scene; previous scene 004 presents the earlier prophecy, so the chronology is consistent, though “continues” is not explicit.",
-        "The explicit fact that he foretells pestilence repeats scene 004’s Mosiah 12:7, contrary to the instruction not to repeat that phrase; remove or reframe it as context rather than scene content."
+        "The closing narration is supported, but the supplied verse does not identify Mormon as its speaker; avoid assigning it to Mormon as an explicit fact."
       ]
     },
     "scene_006": {
@@ -36,8 +38,7 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene’s chronology follows the preceding scene: the people continue addressing the king after bringing the bound man before him. The people are unnamed in these verses, so their presence is supported but their visual appearance is unspecified.",
-        "The stated garment, stalk, and thistle are comparisons in reported speech, not present events; the notes correctly prohibit depicting them literally. The reported prophet and the Lord are not established as present. No location or appearance is specified."
+        "The dialogue excerpts are verbatim and correctly framed as the people's report, but the dry-stalk comparison in Mosiah 12:11 is included in the summary and explicit facts while omitted from the listed dialogue; ensure it is not treated as a current event."
       ]
     },
     "scene_008": {
@@ -45,35 +46,43 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The unnamed speakers are identified in the dialogue field as “The people who delivered Abinadi”; the verses do not name or otherwise identify them. Keep them as unnamed speakers/a group.",
+        "The context supports identifying the man delivered as Abinadi and the person addressed as King Noah, but neither identity is stated in verses 15–16 themselves."
+      ]
     },
     "scene_010": {
       "status": "PASS",
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The characterization of the speakers as a “group” is reasonable from “they” and “them,” but their identities and exact number are unspecified. The scene correctly leaves them unidentified.",
+        "The preceding scene’s prison and council order are consistent with Mosiah 12:17; this scene does not depict the man arriving or questioning beginning."
+      ]
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“One of the priests” is a reasonable inference from “one of them” in verse 20 and the preceding scene, but the verse itself does not explicitly identify the group as priests."
+      ]
     },
     "scene_014": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Explicit dialogue and facts match Mosiah 12:21–22. The summary accurately presents the quoted words as words, not present events. Warning: the text does not specify whether the quoting priest is the same individual as in the previous scene; keep the speaker unidentified beyond “one of them.”"
+        "The speaker label “One of the priests” carries forward the reasonable contextual identification from verse 20, but verses 21–22 alone do not restate who is speaking."
       ]
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Explicit dialogue and facts match Mosiah 12:23–24; the question mark at the end of the supplied verse is preserved. The summary appropriately describes the words as a quotation, not events occurring in the scene. Warning: the source says “one of them” and does not identify this as the same priest from the preceding verse; use an unspecified priest rather than implying a particular individual."
+        "The speaker label “Priest” is inferred from the previous scene's quoted passage and speaker; verses 23–24 alone do not explicitly identify the speaker."
       ]
     },
     "scene_016": {
@@ -89,14 +98,18 @@
       "issues": []
     },
     "scene_019": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Priests” is not established by these verses; the scene notes correctly acknowledge that the people addressed are not explicitly identified as priests.",
+        "The answer is narration, not direct dialogue; the scene correctly presents it as narration."
+      ]
     },
     "scene_020": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The claim that the narration is Mormon’s is not established by the supplied verses; it assigns an unsupported speaker.",
-        "The listeners’ identities are not wholly unspecified: the preceding scene identifies them as priests, and Mosiah 12:33 continues with “them.”"
+        "The summaries and explicit facts are supported. The quoted lines are exact excerpts from the cited verses; the Sinai and Egypt references are quoted, not staged as current events.",
+        "The label “unnamed listeners” and depiction of Abinadi addressing them are reasonable inferences from his speaking “unto them”; their identities and visual details remain unspecified.",
+        "Chronology continues from the previous scene without combining events."
       ]
     },
     "scene_021": {

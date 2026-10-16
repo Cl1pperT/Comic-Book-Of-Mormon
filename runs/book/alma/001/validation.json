@@ -1,30 +1,33 @@
 {
-  "stamp": "29b3672c8f2feac8994b95a851723786d8bf0ecf9bf2a0ccf1501f13281dd4cf",
+  "stamp": "988f62edadfb923eb6b61da34e5a4b33d9ac84fa6a3d4e7d91b8c5d5dfb9db6f",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“King Mosiah” is an accurate paraphrase of “king Mosiah,” though the source does not style him as “king” in a standalone character label; he is mentioned background, not present. The summary preserves this distinction."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene combines repeated teaching with later belief and financial support; the visual inference appropriately cautions that the giving need not occur during one speech, but depiction should preserve the sequence rather than imply a single occasion."
+      ]
     },
     "scene_004": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "The note “Mormon supplies the narration” identifies a narrator not established by the supplied verses."
+        "Pride is described figuratively as being “lifted up”; the scene correctly prohibits literal levitation. The three developments are a summary, not established as simultaneous."
       ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration is verbatim and within the word limit. The scene’s summary and facts accurately distinguish the encounter from Gideon’s earlier deliverance.",
-        "The visual inference of the men facing one another is reasonable, but the source does not specify their positions or depict the content of the dispute; keep the staging conservative.",
-        "The unnamed man in scene_005 is the same man introduced in scene_004, consistent with the supplied chronology. The scene does not improperly include the later violence described in Alma 1:9."
+        "The quoted narration is verbatim, but the first excerpt begins mid-sentence; it remains a contiguous exact excerpt.",
+        "The unspecified location is acceptable, but the scene does not establish where the encounter occurs."
       ]
     },
     "scene_006": {
@@ -36,16 +39,22 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken excerpt is verbatim and contiguous, but the fields use “Nehor” although Alma 1:14 does not name him; the preceding scene’s supplied verses (Alma 1:10–11) also do not name him. The source chapter identifies him in Alma 1:15. Preserve the name only as an established identity, not as text explicitly naming him in this scene."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference of Nehor and the people carrying him on the hilltop is consistent with the verse. “There” locates his acknowledgment and death on the hill; the wording “between the heavens and the earth” should remain nonliteral as the notes require."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary’s statement that they “avoided known lies” is a reasonable paraphrase of the qualification that they dared not lie if it would be known. No specific crime or scene is invented."
+      ]
     },
     "scene_011": {
       "status": "PASS",
@@ -56,24 +65,34 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Their names were blotted out” is source wording but could be mistaken for a visible action; the unspecified-detail and prohibited-invention notes correctly guard against depicting a literal or miraculous erasure."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Place of labor” is listed as a location, but the source does not specify where the teaching or labor occurred. Keep it generic and avoid presenting it as a particular location."
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The notes correctly caution against staging peace and persecution as discrete events. The summary’s “They establish the affairs of the church” is an accurate present-tense rendering of the reported development, but should remain summary rather than a newly invented moment."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene appropriately treats abundance and generosity as reported conditions, not a single distribution event. The broad visual inference should not imply that all listed goods and recipients appear in one specific encounter."
+      ]
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source says the law was enforced against transgressors as far as possible; the narration excerpt “the law was put in force upon all those who did transgress it” omits that qualification. It is an exact excerpt, but the summary correctly retains the qualification."
+      ]
     }
   }
 }

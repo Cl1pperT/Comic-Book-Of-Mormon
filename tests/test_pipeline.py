@@ -1457,6 +1457,21 @@ def test_staging_never_puts_words_in_the_picture():
     assert clean("A servant cries, “They stabbed the king!”") == ""  # nothing drawable left: the panel goes unstaged
 
 
+def test_drawings_avoid_what_the_book_never_shows(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    prompt = lambda action: diffusion_prompts(build_prompt(panel.model_copy(update={"action": action}),
+                                                           DEFAULT_CONTINUITY, "4:3"))
+    negative = prompt("Ann leads the army into battle.")[1]
+    for item in ("person riding a horse", "mounted cavalry", "camel", "coins", "quill pen", "wagon",
+                 "medieval European castle", "Dome of the Rock"):
+        assert item in negative, item
+    # Horses themselves are scriptural; wheels are allowed where the verses name chariots.
+    assert not {"horse", "horses"} & {item.strip() for item in negative.split(",")}
+    assert "wagon" not in prompt("Ann makes ready the horses and the chariots for the king.")[1]
+
+
 def test_speaker_labels_print_only_the_name():
     from bom_comic.comic import speaker_label
     assert speaker_label("Jesus Christ (at Bountiful)") == "Jesus Christ"
@@ -1493,3 +1508,15 @@ def test_speech_from_an_earlier_verse_is_lettered_first(pipeline):
     top, low_left, low_right = (10, 10, 300, 100), (10, 600, 300, 790), (400, 600, 790, 790)
     assert _fits([top, low_right], frame) and _fits([low_left, low_right], frame)
     assert not _fits([low_right, top], frame) and not _fits([low_right, low_left], frame)
+
+
+def test_the_jaredite_barges_are_closed_like_a_dish(pipeline):
+    from bom_comic.comic import diffusion_prompts
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    prompt = lambda action: diffusion_prompts(build_prompt(panel.model_copy(update={"action": action}),
+                                                           DEFAULT_CONTINUITY, "4:3"))
+    positive, negative = prompt("A furious wind drives the vessels toward the land.")
+    assert "The Jaredite barges: small sealed wooden capsules" in positive and "oars" in negative
+    assert "Ann" not in positive and "Ann" in prompt("Ann boards the barges by the door.")[0]
+    assert "Jaredite barges" not in prompt("Ann carries fish in a vessel.")[0]

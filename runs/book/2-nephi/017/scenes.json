@@ -239,38 +239,32 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The plot against Judah",
+    "title": "The counsel against Judah",
     "refs": [
       "2 Nephi 17:5",
       "2 Nephi 17:6"
     ],
-    "summary": "Isaiah recounts the evil counsel of Syria, Ephraim, and the son of Remaliah to attack Judah and install the son of Tabeal as king.",
-    "characters": [
-      "Isaiah",
-      "Ahaz"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "Syria, Ephraim, and the son of Remaliah have taken evil counsel against an unnamed addressee. Their stated plan is to go against Judah, make a breach, and set the son of Tabeal as king there.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Syria, Ephraim, and the son of Remaliah have taken counsel against Ahaz.",
+        "text": "Syria, Ephraim, and the son of Remaliah have taken evil counsel against an addressee identified only as “thee.”",
         "refs": [
           "2 Nephi 17:5"
         ]
       },
       {
-        "text": "Their plan is to go against Judah, breach it, and set the son of Tabeal as king there.",
+        "text": "The reported plan is to go against Judah, make a breach, and set the son of Tabeal as king there.",
         "refs": [
           "2 Nephi 17:6"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Isaiah continues speaking to Ahaz."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The participants in the reported counsel and where it took place."
+      "The location and appearance of the speaker and addressee.",
+      "The location and appearance of those involved in the reported counsel."
     ],
     "spoken_dialogue": [
       {
@@ -278,15 +272,23 @@
         "refs": [
           "2 Nephi 17:6"
         ],
-        "speaker": "Reported conspirators"
+        "speaker": "Syria, Ephraim, and the son of Remaliah (reported speech)"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Because Syria, Ephraim, and the son of Remaliah, have taken evil counsel against thee, saying:",
+        "refs": [
+          "2 Nephi 17:5"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The plan is reported speech, not a present-tense meeting of the conspirators."
+      "The counsel is reported; these verses do not depict a meeting or identify the speaker or addressee of the report."
     ],
     "prohibited_inventions": [
-      "Do not show the conspirators physically meeting or carrying out the plot."
+      "Do not depict the reported counsel as a present-tense meeting or show the plan being carried out.",
+      "Do not identify the speaker or addressee of the report."
     ],
     "importance": "normal"
   },
@@ -639,27 +641,28 @@
     "refs": [
       "2 Nephi 17:20"
     ],
-    "summary": "A prophecy says that in the same day the Lord shall shave the head and hair of the feet with a hired razor, and it shall consume the beard; the verse connects the razor with those beyond the river and the king of Assyria.",
-    "characters": [
-      "The Lord",
-      "King of Assyria"
-    ],
-    "locations": [
-      "Beyond the river (mentioned, not established as the scene's setting)"
-    ],
+    "summary": "A prophecy says the Lord shall shave the head and hair of the feet with a hired razor, and that it shall consume the beard. It mentions those beyond the river and the king of Assyria.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The verse says the Lord shall shave with a hired razor, mentions those beyond the river and the king of Assyria, and says the razor shall consume the beard.",
+        "text": "The verse says the Lord shall shave with a hired razor and that it shall consume the beard.",
+        "refs": [
+          "2 Nephi 17:20"
+        ]
+      },
+      {
+        "text": "The verse mentions those beyond the river and the king of Assyria.",
         "refs": [
           "2 Nephi 17:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The shaving imagery may be treated as figurative rather than depicted as a literal event."
+      "The shaving language can be presented as prophetic imagery rather than a literal event."
     ],
     "unspecified_visual_details": [
-      "Who, if anyone, is represented by the head, hair of the feet, and beard.",
+      "Who or what the head, hair of the feet, and beard represent.",
       "The appearance of the Lord, the king of Assyria, and the place beyond the river."
     ],
     "spoken_dialogue": [],
@@ -675,7 +678,7 @@
       "This is prophetic shaving imagery, not a narrated literal shaving scene."
     ],
     "prohibited_inventions": [
-      "Do not show a literal shaving, identify a person being shaved, or invent an appearance for the Lord or the king of Assyria."
+      "Do not depict a literal shaving, identify a person being shaved, or show the Lord or the king of Assyria physically present."
     ],
     "importance": "normal"
   },

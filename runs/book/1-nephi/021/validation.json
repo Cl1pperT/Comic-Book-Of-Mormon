@@ -1,20 +1,22 @@
 {
-  "stamp": "929b8ef0e9b262e3055140b489295b66bdae9eef503dee9168f3251533d81245",
+  "stamp": "3d4a827fbbbaa25520f3d746418877c3ee4289d536b460cd993493692822d7ca",
   "results": {
     "scene_001": {
-      "status": "REJECT",
+      "status": "PASS WITH WARNINGS",
       "issues": [
-        "1 Nephi 21:1 does not identify Nephi as the speaker of the address. The summary, character list, dialogue speaker labels, and story note attribute the first-person claims to him without support from the supplied verses."
+        "The verse identifies the first-person voice but not the speaker's identity; the visual choice to show no assembled audience is an optional staging inference."
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "Verses 1–3 do not identify the first-person speaker as Nephi. The summary, characters, and doctrinal note assign him that role despite the preceding scene leaving the speaker unidentified."
+      ]
     },
     "scene_003": {
       "status": "REJECT",
       "issues": [
-        "1 Nephi 21:4 does not identify the first-person speaker as Nephi. The summary, character label, dialogue attribution, and note present that unsupported identity as fact; the preceding scene does not establish it."
+        "Verse 4 does not identify the speaker as Nephi. The summary, characters, explicit facts, dialogue attribution, and doctrinal note assign him that role despite the preceding address leaving the first-person speaker unidentified."
       ]
     },
     "scene_004": {
@@ -32,62 +34,55 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The listed character Nephi is not established as physically present by these verses; avoid depicting him as a present character. The springs, mountains, and highways are future promise imagery, not events happening now."
+        "The narration in both excerpts from 1 Nephi 21:10–11 modernizes the supplied wording: it changes “nor” to “or” and omits “neither” and “even.” Use exact source quotations. The promise and illustrative imagery are otherwise conservatively framed."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nephi is not established as physically present. The references to people arriving and feet being established are foretold, not present events; retain the figurative treatment of the calls to nature to sing."
+        "The supplied verses are prophetic poetry; they do not specify a present scene, visible participants, or the passage’s speaker. Keep the calls to rejoice and the foretold arrivals as narration rather than depicting them as present action."
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Zion and the Lord are speakers in the quoted text, but their physical presence or appearance is not described. The woman and child are a rhetorical comparison, not a narrated event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is unidentified in the verse; do not assign a physical identity or appearance. The engraving and walls are statements, not a narrated visible event."
+        "The speaker is unidentified in the supplied verse; retaining that uncertainty is appropriate, but avoid implying a particular speaker or a physically depicted engraving."
       ]
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord is the quoted speaker, but no visible appearance is described. The children’s haste and the gathering are future promises, not present actions."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The children’s quoted words are explicitly future speech, not a present conversation. The desolate places and inhabitants are described in prophecy, not as a specified present setting."
+        "The locations are named in prophecy, not established as the present physical setting. The future children are foretold speakers, not shown as physically present."
       ]
     },
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Zion is the addressed speaker in the prophecy, but no physical appearance or setting is specified. The question is inward, not a narrated encounter with children."
+        "Zion is named in the preceding verse, but the supplied text does not explicitly identify the person addressed in verse 21 as Zion; preserve that as an inference, not a fact."
       ]
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord God is the quoted speaker, but no visible appearance is described. The carrying, bowing, and other predicted actions must not be presented as happening now."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nephi is not established as physically present. The Lord is the quoted speaker, but no visible appearance is described; deliverance and contention are promised, not present events."
+        "The source does not identify who asks the question in verse 24, so its speaker remains unspecified. The Lord is the speaker of the promise in verse 25.",
+        "The text does not specify a setting or physical appearances; keep the scene nonliteral and do not depict the promised actions as occurring."
       ]
     },
     "scene_016": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The Lord is the quoted speaker, but no visible appearance is specified. The judgment language is a future declaration, not a physical event to depict."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

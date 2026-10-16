@@ -195,7 +195,21 @@ HEAVENLY = [
 # and optionally a pattern that keeps the entry out of a panel even when the first one matches).
 CHURCH = re.compile(r"\bgreat and abominable church\b|\babominable church\b|\bwhore of all the earth\b|"
                     r"\bmother of (?:abominations|harlots)\b|\bchurch of the devil\b|\bgreat church\b", re.I)
+# The Jaredite barges (Ether 2:16-25, 6:4-10): small, light, "tight like unto a dish", peaked ends, a hole above and
+# below, no windows, driven by the wind. Sealed at sea, no one shows outside; a panel at the shore, the door, or inside
+# shows its people.
+BARGES = re.compile(r"\bbarges?\b|\b(?:the|their|these|eight|tight)\s+vessels\b", re.I)
+_BARGE_PEOPLE = re.compile(r"(?<!sealed )\binside\b|\binterior\b|\bwithin\b|\bboard\w*|\bdoor\b|\bshore\b|"
+                           r"\bbuil[dt]\w*|\bmade\b|\bmake\b|\bplaces?\b", re.I)
 OBJECTS = [
+    (BARGES,
+     "The Jaredite barges: small sealed wooden capsules, each the length of a tree, a domed plank roof joined to a "
+     "rounded plank hull so the whole is one closed almond-shaped wooden shell with pointed ends, no opening but a "
+     "small shut side door and a small round plugged hatch on top; no people visible outside, everyone sealed "
+     "inside; eight identical closed capsules riding light on the waves like ducks on the water",
+     ["sail", "mast", "rigging", "oars", "rudder", "rowboat", "open boat", "canoe", "sailing ship",
+      "Viking longship", "galleon", "open deck", "open hull", "people sitting in a boat", "windows"],
+     re.compile(r"\bfish\b", re.I)),
     # The Liahona (1 Nephi 16:10, 16:29; Alma 37:38): "a round ball of curious workmanship... of fine brass", two
     # spindles within, writing on them. "The compass" in 1 Nephi 18 must not bring a modern magnetic compass along.
     (re.compile(r"\bLiahona\b|\bthe compass\b|\bball\b|\bspindles?\b|\bdirector\b", re.I),
@@ -454,6 +468,21 @@ DIFFUSION_NEGATIVE = ["winged people", "angel wings", "feathered wings",
 CROSS_NEGATIVE = ["cross", "crucifix", "Christian cross", "cross symbol", "cross on top of a building",
                   "cross-shaped ornament", "cross pendant", "church steeple", "church spire"]
 CRUCIFIXION = re.compile(r"\blifted up upon the cross\b|\bcrucif\w*", re.I)
+# Later-era buildings Flux puts in any city: the records' "never European architecture" and "never domes" are too
+# abstract to reach the negative prompt, so the things it actually draws are named. The Dome of the Rock (691 AD) kept
+# appearing over 600 BC Jerusalem.
+ARCHITECTURE_NEGATIVE = ["medieval European castle", "castle turrets with conical roofs", "Gothic cathedral",
+                         "church building", "Italian bell tower", "Dome of the Rock", "golden dome", "mosque",
+                         "minaret", "onion dome", "Renaissance palace"]
+# Things the book never shows, which Flux adds to battles, journeys and records: no one rides a horse (horses are
+# only animals or pull chariots: Alma 18:9-12, 3 Nephi 3:22), there are no camels, carts or wagons, wealth is in
+# weights of gold and silver rather than coins (Alma 11), and records are engraved on plates. Wheels and carts are
+# allowed where the verses name chariots. Animals the book never names are left out too (it names horses, asses,
+# cattle, sheep, goats, swine, elephants, dogs, lions, wolves, bears, serpents, bees, fish and fowls).
+UNSCRIPTURAL_NEGATIVE = ["person riding a horse", "horseback rider", "mounted cavalry", "saddle", "camel", "llama",
+                         "alpaca", "jaguar", "deer", "monkey", "parrot", "macaw", "coins", "quill pen"]
+WHEELED_NEGATIVE = ["wagon", "cart", "spoked wheels"]
+CHARIOTS = re.compile(r"\bchariots?\b", re.I)
 _ABSTRACT = re.compile(
     r"\b(?:verses?|scriptur\w*|texts?|textual|invent\w*|events?|narrat\w*|impl(?:y|ied|ying|ies)|identif\w*|assign\w*|"
     r"appearance|describ\w*|stat(?:e|ed|es)|specif\w*|present|presence|speech|speak\w*|words?|spoken|story|"
@@ -568,6 +597,9 @@ def diffusion_prompts(prompt):
     negative += DIFFUSION_NEGATIVE
     if not (vision and CRUCIFIXION.search(" ".join([action, *inferences]))):
         negative += CROSS_NEGATIVE
+    negative += ARCHITECTURE_NEGATIVE + UNSCRIPTURAL_NEGATIVE
+    if not CHARIOTS.search(" ".join([action, *inferences, *creative])):
+        negative += WHEELED_NEGATIVE
     if staging or (BATTLE_STAGING and _violent().search(" ".join([action, *inferences]))):
         negative += ANATOMY_NEGATIVE
     # Named objects look the same in every panel that shows them.
@@ -579,6 +611,10 @@ def diffusion_prompts(prompt):
             negative += unlike
             throng = throng or pattern is CHURCH
     names = list(people)
+    seen = " ".join([action, *inferences])
+    if people and BARGES.search(seen) and not _BARGE_PEOPLE.search(" ".join([seen, *corrections.get("add", [])])):
+        people, names = [], []  # sealed inside the barges, out of sight
+        negative += ["people", "crowd", "human figures"]
     # A staged panel: a crowd is a massed shape in the distance, and only the first three people get a full look.
     up_close = 0
     if people:

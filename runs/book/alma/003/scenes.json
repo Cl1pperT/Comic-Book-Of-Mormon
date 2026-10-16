@@ -472,42 +472,47 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Amlicite rebellion and condemnation",
+    "title": "The Amlicites’ forehead marks",
     "refs": [
       "Alma 3:18",
       "Alma 3:19"
     ],
-    "summary": "The Amlicites did not know they were fulfilling God’s words when they marked themselves; the narrator says they had rebelled against God and brought the curse and condemnation upon themselves.",
+    "summary": "The Amlicites began marking their foreheads without knowing they were fulfilling the words of God. They had come out in open rebellion against God, and brought the curse upon themselves.",
     "characters": [
       "Amlicites"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Amlicites marked their foreheads without knowing they were fulfilling God’s words and had openly rebelled against God.",
+        "text": "The Amlicites began to mark their foreheads, unaware that they were fulfilling the words of God.",
         "refs": [
           "Alma 3:18"
         ]
       },
       {
-        "text": "The narrator says they brought the curse upon themselves and that a cursed person brings his own condemnation upon himself.",
+        "text": "The Amlicites had come out in open rebellion against God.",
+        "refs": [
+          "Alma 3:18"
+        ]
+      },
+      {
+        "text": "Mormon says the Amlicites brought the curse upon themselves.",
         "refs": [
           "Alma 3:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "This may be conveyed with the Amlicites’ already-described red forehead marks; the condemnation is an explanatory teaching."
+      "The Amlicites may be shown with forehead marks, without staging a particular marking occasion."
     ],
     "unspecified_visual_details": [
-      "Any specific act beyond marking, and any visible form of curse or condemnation."
+      "The marks’ color, shape, and method of application.",
+      "The Amlicites’ surroundings and clothing."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they had come out in open rebellion against God",
+        "text": "they began to mark themselves in their foreheads",
         "refs": [
           "Alma 3:18"
         ]
@@ -520,10 +525,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Do not literalize the curse or condemnation as a visible supernatural effect."
+      "Mormon’s statement that every cursed person brings condemnation upon himself is a teaching, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "No invented supernatural manifestation."
+      "Do not invent a particular person or occasion for the marking.",
+      "Do not depict the curse or condemnation as a visible supernatural effect.",
+      "Do not specify that the marks are red."
     ],
     "importance": "normal"
   },

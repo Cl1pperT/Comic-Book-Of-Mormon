@@ -120,14 +120,14 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Nehor's teaching draws support",
+    "title": "The man's teaching draws support",
     "refs": [
       "Alma 1:4",
       "Alma 1:5"
     ],
-    "summary": "Nehor testifies to the people about salvation and teaches these things repeatedly. Many believe his words and begin to support him and give him money.",
+    "summary": "A man testifies to the people about salvation and teaches these things repeatedly. Many believe his words and begin to support him and give him money.",
     "characters": [
-      "Nehor",
+      "the man",
       "the people"
     ],
     "locations": [
@@ -135,21 +135,21 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nehor testified that all mankind should be saved at the last day, need not fear or tremble, and should have eternal life.",
+        "text": "The man testified to the people that all mankind should be saved at the last day, need not fear or tremble, and should have eternal life.",
         "refs": [
           "Alma 1:4"
         ]
       },
       {
-        "text": "Nehor taught these things so much that many believed his words and began to support him and give him money.",
+        "text": "He taught these things so much that many believed his words and began to support him and give him money.",
         "refs": [
           "Alma 1:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor may be shown addressing listeners.",
-      "The giving of money may be shown after his repeated teaching, rather than as part of a single speech."
+      "The man may be shown addressing listeners.",
+      "The giving of money may be shown after repeated teaching, rather than during a single speech."
     ],
     "unspecified_visual_details": [
       "The location, clothing, number of listeners, and form of the money are not specified."
@@ -170,11 +170,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The salvation claim is Nehor's teaching, not an unqualified statement by the narrator."
+      "The salvation claim is the man's teaching, not an unqualified statement by the narrator.",
+      "The supplied verses do not name the man."
     ],
     "prohibited_inventions": [
+      "Do not name the man.",
       "Do not depict the teaching as a visible divine event.",
-      "Do not invent direct speech for Nehor."
+      "Do not invent direct speech for the man."
     ],
     "importance": "normal"
   },
@@ -184,38 +186,38 @@
     "refs": [
       "Alma 1:6"
     ],
-    "summary": "A man begins to be lifted up in pride, to wear very costly apparel, and to establish a church after the manner of his preaching.",
+    "summary": "Mormon reports that an unnamed man began to be lifted up in pride, began to wear very costly apparel, and began to establish a church after the manner of his preaching.",
     "characters": [
-      "The man referred to as “he”"
+      "Unnamed man"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "He began to be lifted up in the pride of his heart.",
+        "text": "The man began to be lifted up in the pride of his heart.",
         "refs": [
           "Alma 1:6"
         ]
       },
       {
-        "text": "He began to wear very costly apparel.",
+        "text": "The man began to wear very costly apparel.",
         "refs": [
           "Alma 1:6"
         ]
       },
       {
-        "text": "He began to establish a church after the manner of his preaching.",
+        "text": "The man began to establish a church after the manner of his preaching.",
         "refs": [
           "Alma 1:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Costly apparel may be suggested visually without specifying its materials or design."
+      "The apparel may be depicted as costly-looking without specifying its design."
     ],
     "unspecified_visual_details": [
-      "The man's appearance, the apparel's design, the location, and the process of establishing the church are unspecified."
+      "The man's appearance, the apparel's design, the location, and how he began to establish the church are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -227,14 +229,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon supplies the narration; the verse contains no direct speech.",
-      "The supplied verse does not name the man or identify the church as a building.",
-      "Preserve these developments as narrated summary rather than inventing a discrete church-founding event or making all developments simultaneous."
+      "Mormon narrates these developments as a summary; the verse gives no direct speech or timing that would make them simultaneous."
     ],
     "prohibited_inventions": [
-      "Do not assign the man a name or invent followers, dialogue, ceremonies, or preaching content.",
-      "Do not depict a church building as an established fact.",
-      "Do not depict being lifted up in pride as literal levitation."
+      "Do not stage a discrete church-founding event or depict all three developments as simultaneous.",
+      "Do not invent the man's name, followers, dialogue, ceremonies, preaching content, or a church building.",
+      "Do not depict pride as literal levitation."
     ],
     "importance": "normal"
   },
@@ -245,7 +245,7 @@
       "Alma 1:7",
       "Alma 1:8"
     ],
-    "summary": "An unnamed man, going to preach to those who believed his word, meets Gideon, a teacher in the church of God. The man contends sharply with Gideon, who withstands him and admonishes him with the words of God.",
+    "summary": "An unnamed man going to preach to those who believed his word meets Gideon, a teacher in the church of God. The man contends sharply with Gideon to lead away the people of the church. Gideon withstands him and admonishes him with the words of God.",
     "characters": [
       "Gideon",
       "Unnamed man"
@@ -261,7 +261,13 @@
         ]
       },
       {
-        "text": "He contended sharply with the teacher to lead away the people of the church; the teacher withstood him, admonishing him with the words of God.",
+        "text": "He contended sharply with the teacher so that he might lead away the people of the church.",
+        "refs": [
+          "Alma 1:7"
+        ]
+      },
+      {
+        "text": "The teacher withstood him and admonished him with the words of God.",
         "refs": [
           "Alma 1:7"
         ]
@@ -282,15 +288,15 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Now the name of the man was Gideon;",
-        "refs": [
-          "Alma 1:8"
-        ]
-      },
-      {
         "text": "but the man withstood him, admonishing him with the words of God.",
         "refs": [
           "Alma 1:7"
+        ]
+      },
+      {
+        "text": "Now the name of the man was Gideon;",
+        "refs": [
+          "Alma 1:8"
         ]
       }
     ],

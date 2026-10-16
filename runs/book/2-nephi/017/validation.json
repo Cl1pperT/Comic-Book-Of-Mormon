@@ -1,14 +1,16 @@
 {
-  "stamp": "c2e7c4080b6323a2955986e720a020571d781bdf6c82712ee34d96656c3edfa4",
+  "stamp": "fe70f006d89c6ea76344c252c2fb30eaaa8e8a471dca1971455037bd47a5234b",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The visual inference that Rezin and Pekah approach Jerusalem is plausible from “went up toward Jerusalem,” but the verse does not specify their exact position or how the campaign looked."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“The house of David” may refer collectively to the royal household; the passage does not specify who received the report or the precise referent of “his.” Depict the reaction without assigning identities or a location."
+        "“Those receiving the report may appear shaken” is a reasonable visual inference from the stated reaction, but the verse does not specify their appearance or setting."
       ]
     },
     "scene_003": {
@@ -16,56 +18,67 @@
       "issues": []
     },
     "scene_004": {
-      "status": "REJECT",
-      "issues": [
-        "The scene treats the speaker, addressee, and “him” as unidentified, but the preceding verse identifies the Lord speaking to Isaiah and directs Isaiah to meet Ahaz. The dialogue speaker and notes contradict that context.",
-        "The prohibition on identifying those figures from outside verse 4 incorrectly excludes the supplied preceding verse and breaks scene continuity."
-      ]
-    },
-    "scene_005": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_005": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reported speech names the intended addressee only as “thee”; no identity or appearance is specified. The scene appropriately leaves characters and locations unassigned.",
+        "The speaker label “Syria, Ephraim, and the son of Remaliah (reported speech)” is a reasonable attribution from verse 5, but the source does not identify an individual speaker. The scene appropriately notes that this is reported counsel, not a depicted meeting.",
+        "The preceding scene is an instruction for a message; this scene continues with the stated reason and reported counsel without changing chronology or depicting the message being delivered."
+      ]
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“A speaker addresses the house of David” is supported, but does not identify who the speaker or listeners are; the visual design correctly leaves them unidentified.",
-        "The sign and the child’s conception, birth, and eating are foretold, not shown as present events; the scene notes this constraint."
+        "The inference that Ahaz hears the Lord’s words and answers is supported by the adjoining verses, but does not establish a visible appearance or specific setting for either figure."
       ]
+    },
+    "scene_008": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing the unnamed speaker addressing listeners is a visual inference; the text does not establish a visible setting, audience arrangement, or the speaker’s appearance."
+      ]
+    },
+    "scene_009": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The text does not establish whether the fly and bee are literal insects or figurative; scene notes appropriately flag this uncertainty and prohibit a literal supernatural spectacle."
+        "The narration states the prophecy, but the visual inference to show terrain should remain illustrative rather than assert that the predicted events occur in the present."
       ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene treats the shaving language as prophetic imagery rather than a literal event, consistent with its notes; the verse itself does not explicitly resolve whether the imagery is figurative.",
+        "Narration is an exact quotation from the supplied verse and is within the 65-word limit."
+      ]
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Placing the man with the animals is a reasonable illustration of the prophecy, but the verse describes a future condition, not an event occurring in the present."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotes only verse 24, while the summary and explicit facts also describe the future vine-to-brier change from verse 23; this is consistent with the refs but should not be staged as a present event."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Showing oxen and lesser cattle on the hills is supported, but the verse describes a future condition rather than a present-tense event."
+      ]
     }
   }
 }

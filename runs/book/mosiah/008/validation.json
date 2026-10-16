@@ -2,10 +2,8 @@
   "stamp": "c218e14e41c56a15d2d46b058743ddd40ede8e7ad4e00ef0de0187fdc9fd68ab",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene’s timeline is consistent with Mosiah 8:1–3; no preceding scene was supplied. Limhi’s and Ammon’s specific words are not given, so avoid invented dialogue. “Ammon stands before the multitude” is supported, but the text does not explicitly say the people are gathered while he speaks; depicting them gathered is a reasonable visual inference. The unspecified location, clothing, and appearances should remain undescribed or be treated as creative design, not facts."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS",
@@ -20,21 +18,16 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The preceding scene introduces the unnamed king and person addressed, while this scene identifies them as Limhi and Ammon. The supplied verses establish this continuity, but the spoken excerpts skip Limhi’s immediately prior exchange in verse 6.",
-        "The scene is a conversation; the artifacts' arrival is correctly presented only as reported, not as a current event. The conversation's setting and the artifacts' exact appearance remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",
       "issues": []
     },
     "scene_007": {
-      "status": "REJECT",
-      "issues": [
-        "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator. This assigns an unsupported speaker."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS",

@@ -4,25 +4,17 @@
   "verses": 16,
   "scenes": 11,
   "counts": {
-    "PASS": 6,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 2
+    "PASS": 11,
+    "PASS WITH WARNINGS": 0,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_003": [
-      "The note identifies Mormon as the narrator, but the supplied verses do not name the narrator."
-    ],
-    "scene_004": [
-      "The notes identify Mormon as the narrator, but the supplied verses do not name the narrator.",
-      "The addressee is not unspecified: verses 3–5 establish that Gideon is speaking to the king. The prohibition against identifying the addressee conflicts with that context."
-    ]
-  },
+  "rejected": {},
   "calls": 49,
   "tokens": {
-    "input_tokens": 267530,
+    "input_tokens": 282354,
     "cached_input_tokens": 123904,
     "cache_write_input_tokens": 0,
-    "output_tokens": 25294,
-    "reasoning_output_tokens": 9538
+    "output_tokens": 24607,
+    "reasoning_output_tokens": 9034
   }
 }

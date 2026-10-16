@@ -4,21 +4,21 @@
   "verses": 22,
   "scenes": 11,
   "counts": {
-    "PASS": 2,
-    "PASS WITH WARNINGS": 8,
+    "PASS": 6,
+    "PASS WITH WARNINGS": 4,
     "REJECT": 1
   },
   "rejected": {
     "scene_001": [
-      "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, and story notes all assert that identity without support."
+      "The verses do not identify the first-person narrator as Nephi. The summary, characters, explicit facts, visual inference, and story notes all assert that identification without support (2 Nephi 18:1–2)."
     ]
   },
-  "calls": 69,
+  "calls": 87,
   "tokens": {
-    "input_tokens": 333169,
-    "cached_input_tokens": 146176,
+    "input_tokens": 449210,
+    "cached_input_tokens": 179200,
     "cache_write_input_tokens": 0,
-    "output_tokens": 29789,
-    "reasoning_output_tokens": 9928
+    "output_tokens": 45489,
+    "reasoning_output_tokens": 17806
   }
 }

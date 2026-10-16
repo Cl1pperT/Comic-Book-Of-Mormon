@@ -1,68 +1,61 @@
 {
-  "stamp": "9f2e49de217f4837b683a8f8d0e4bb6aed211c9f9d909f61e3f71d0bd7019b44",
+  "stamp": "2fd001c0090168295faf0f1bc1861d249ba1b1c714328946196fe81899c9a0aa",
   "results": {
     "scene_001": {
       "status": "REJECT",
       "issues": [
-        "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, and story notes all assert that identity without support."
+        "The verses do not identify the first-person narrator as Nephi. The summary, characters, explicit facts, visual inference, and story notes all assert that identification without support (2 Nephi 18:1–2)."
       ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_002: “The Lord tells Nephi” is a reasonable inference from “Then said the Lord to me,” but the narrator is not named in the verses. The predicted taking before the king of Assyria is reported as future, not a present event."
+        "Prophecy is summarized correctly, but the second speech quote uses the source text verbatim.",
+        "The prophetess is omitted from the characters despite being explicitly present in the reported prior event; narration correctly covers her. Visual staging is ambiguous, so avoid placing her or child in the instruction scene."
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_003: The narrator is not named in these verses; identifying the first-person speaker as Nephi relies on the supplied label. The setting and whether the Lord is heard or otherwise communicates are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summaries, facts, and notes appropriately treat the river and wings as prophetic imagery rather than present events. The quoted dialogue is verbatim.",
-        "The identity of the prophetic speaker in verses 7–8 is not stated in those verses; labeling the speaker “Unidentified prophetic speaker” is a cautious attribution, but remains uncertain.",
-        "The previous scene’s references list 18:5–6, while its narration and dialogue are exact quotations from those verses; its reported events are not staged here."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is not named in verses 11–13; the text identifies only a first-person recipient of the instruction. “The Lord's instruction may be conveyed as off-screen speech” is a conservative visual option, not a specified mode of delivery."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The spoken excerpts are exact short quotations, but the verse's subject is “he,” not explicitly identified within these verses as the Lord; that identification is a contextual inference. The summary's “many will stumble, fall, and be taken” condenses the source's list, including being broken and snared."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Verse 16 does not identify its speaker; the narration quotes it without attribution, which is conservative. Nephi and the house of Jacob in the characters list are mentioned, not necessarily physically present."
+        "Verse 16 has no identified speaker, but its imperative is presented as narration rather than dialogue. It remains unclear whether narration here is meant to quote an unidentified speaker; keep speaker attribution unspecified."
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Showing Nephi and the children together is a reasonable visual inference, not a described gathering; the verse gives no appearance or setting."
-      ]
-    },
-    "scene_010": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_010": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotes only selected contiguous excerpts; the semicolon-ended excerpt from verse 20 is exact. No speaker is assigned, consistent with the source.",
+        "Visual treatment remains abstract; setting, identities, and displayed-text design are unspecified."
+      ]
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses foretell these conditions, and the scene consistently labels them as foretold. “Hardship” is a broad paraphrase of “hardly bestead”; no particular identity, setting, or present-time event is asserted."
+        "The narration quotes the supplied verses verbatim, but presents foretold conditions in present tense; ensure the visual does not stage them as occurring now.",
+        "The people, king, and setting are unspecified; keep them visually indeterminate."
       ]
     }
   }

@@ -1036,14 +1036,14 @@
     "refs": [
       "Alma 8:31"
     ],
-    "summary": "Mormon reports that they received power such that they could not be confined in dungeons or slain by any man. They did not exercise their power until they were bound and cast into prison. This was done so the Lord might show forth his power in them.",
+    "summary": "Mormon reports that unnamed recipients were given power so they could not be confined in dungeons or slain by any man. They did not exercise their power until they were bound in bands and cast into prison.",
     "characters": [
-      "Unidentified people referred to as “they”"
+      "Mormon"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "They had power given to them such that they could not be confined in dungeons or slain by any man.",
+        "text": "Unnamed recipients had power given to them such that they could not be confined in dungeons or slain by any man.",
         "refs": [
           "Alma 8:31"
         ]
@@ -1055,7 +1055,7 @@
         ]
       },
       {
-        "text": "This was done so the Lord might show forth his power in them.",
+        "text": "The narrator states that “this was done” so the Lord might show forth his power in them, without unambiguously identifying the referent of “this.”",
         "refs": [
           "Alma 8:31"
         ]
@@ -1063,23 +1063,12 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The verse does not identify or describe the people referred to as “they.”",
-      "The appearance of the bands and prison is unspecified."
+      "The recipients' identities and appearances are not supplied.",
+      "The appearance of the bands and prison is unspecified.",
+      "No visible appearance of the Lord or visible form of the power is described."
     ],
     "spoken_dialogue": [],
     "narration": [
-      {
-        "text": "And they had power given unto them, insomuch that they could not be confined in dungeons;",
-        "refs": [
-          "Alma 8:31"
-        ]
-      },
-      {
-        "text": "nevertheless they did not exercise their power until they were bound in bands and cast into prison.",
-        "refs": [
-          "Alma 8:31"
-        ]
-      },
       {
         "text": "Now, this was done that the Lord might show forth his power in them.",
         "refs": [
@@ -1088,16 +1077,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon is the narrator; no direct speech is supplied.",
-      "Treat the binding and imprisonment as reported events, not actions occurring in a new present-time scene.",
-      "Preserve the reported sequence: they received power but refrained from exercising it until they were bound and cast into prison. Do not use this report to reorder other scenes or combine separate times.",
-      "The verse describes no visible appearance of the Lord or visible manifestation of power."
+      "Mormon is the narrator, not a physically present participant.",
+      "Treat this scene as a narration-only report, without reenacting the reported events.",
+      "The supplied verse does not establish names for the recipients of power.",
+      "Do not resolve the ambiguous referent of “this” as specifically the binding or imprisonment."
     ],
     "prohibited_inventions": [
-      "Do not assign identities to the people referred to as “they.”",
-      "Do not stage the reported binding or imprisonment as a new present-time event.",
-      "Do not invent an escape, an attempted killing, or a visible manifestation of power.",
-      "Do not depict the Lord visibly."
+      "Do not stage the reported binding, imprisonment, or exercise of power as present-time action.",
+      "Do not identify the unnamed recipients as Alma or Amulek using material outside the supplied verse.",
+      "Do not invent an escape, attempted killing, prison destruction, or visible manifestation of power.",
+      "Do not depict the Lord or invent a visible setting for Mormon."
     ],
     "importance": "normal"
   }

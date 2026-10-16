@@ -1,22 +1,20 @@
 {
-  "stamp": "21c2cf006fde17038973be736f2394fa09f750bd2429c23bee4ae6dac4844b8c",
+  "stamp": "20aa8fca6d660c838945e0e4ce453c8055ac970bda61fa7eb818f7338ad92a3e",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Narration omits the reported preparation and expectation in verse 2; the summary correctly notes those events are recounted, not shown. The unspecified narration setting could still imply an unsupported setting if visualized."
+        "“Nephi” as speaker/narrator is plausible from the surrounding chapter, but the supplied verses do not explicitly name him; scene 1 should preserve this attribution as an inference, not an explicit fact. The vineyard’s reported preparation and yield are properly treated as recounted rather than present action."
       ]
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses do not identify the speaker as Nephi; labeling the speaker Nephi is uncertain. The source gives the speech but does not establish that the addressed inhabitants are physically present."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "REJECT",
       "issues": [
-        "The note identifying Nephi as the chapter’s first-person narrator is unsupported by the supplied verses. The preceding scene also identifies Nephi as the speaker without support; the current scene correctly leaves the speaker unidentified."
+        "The doctrinal note says the supplied verses do not identify the vineyard’s symbolic referent, but 2 Nephi 15:7 explicitly identifies the vineyard as the house of Israel and the men of Judah as its pleasant plant."
       ]
     },
     "scene_004": {
@@ -24,16 +22,12 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The claim that the Lord of Hosts says the houses will be desolate is an interpretation of “In mine ears, said the Lord of Hosts”; the verse does not explicitly identify him as the speaker."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The inference that unnamed people are shown at a feast is plausible but not certain: the warning describes their feasts, without establishing a particular visible occasion."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -52,10 +46,8 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the addressed people “take away the righteousness”; the verse states that they take it away from the righteous, which should be preserved if paraphrasing."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_012": {
       "status": "PASS",
@@ -64,7 +56,7 @@
     "scene_013": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene reports physical smiting and torn carcasses. Any depiction must remain non-graphic and must not stage the reported event as happening anew."
+        "The source explicitly reports the Lord's hand stretched against the people and later still stretched out; the note treating this only as figurative language is an interpretation. Depict no visible hand unless the scene adheres strictly to what the text describes."
       ]
     },
     "scene_014": {

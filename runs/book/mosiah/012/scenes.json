@@ -5,7 +5,7 @@
     "refs": [
       "Mosiah 12:1"
     ],
-    "summary": "After two years, Abinadi comes among the people in disguise. They do not recognize him, and he begins to prophesy.",
+    "summary": "After two years, Abinadi comes among the people in disguise. They do not recognize him, and he begins to prophesy among them.",
     "characters": [
       "Abinadi",
       "Unnamed people"
@@ -48,7 +48,14 @@
         "speaker": "Abinadi"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and began to prophesy among them, saying:",
+        "refs": [
+          "Mosiah 12:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "Abinadi reports the Lord's words; the verse does not describe the Lord appearing."
     ],
@@ -65,7 +72,7 @@
       "Mosiah 12:2",
       "Mosiah 12:3"
     ],
-    "summary": "Abinadi warns this generation, reports the Lord's command to prophesy, and foretells punishment for the generation and a future reckoning for king Noah.",
+    "summary": "Abinadi pronounces woe on this generation, reports what the Lord said to him, and foretells the generation's punishment. He says king Noah's life will be valued like a garment in a hot furnace and that Noah will know the Lord.",
     "characters": [
       "Abinadi",
       "The Lord (reported speech)",
@@ -76,30 +83,30 @@
     ],
     "explicit_facts": [
       {
-        "text": "Abinadi reports that the Lord told him to stretch forth his hand and prophesy.",
+        "text": "Abinadi pronounces woe on this generation and reports that the Lord told him to stretch forth his hand and prophesy.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The prophecy says this generation will be brought into bondage, smitten on the cheek, driven, and slain because of their iniquities; animals will devour their flesh.",
+        "text": "The prophecy says this generation will be brought into bondage, smitten on the cheek, driven by men, and slain because of their iniquities; animals will devour their flesh.",
         "refs": [
           "Mosiah 12:2"
         ]
       },
       {
-        "text": "The prophecy compares the future value of king Noah's life to a garment in a hot furnace and says he will know the Lord.",
+        "text": "King Noah's life will be valued like a garment in a hot furnace, and he will know the Lord.",
         "refs": [
           "Mosiah 12:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi may be shown delivering the warning; the predicted events are not occurring in this scene."
+      "Abinadi may be shown delivering the warning; the foretold events are not occurring in this scene."
     ],
     "unspecified_visual_details": [
       "Abinadi's appearance, clothing, and surroundings are unspecified.",
-      "The presence of an audience is unspecified."
+      "Whether anyone is visibly listening is unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -110,11 +117,11 @@
         "speaker": "Abinadi"
       },
       {
-        "text": "And the Lord said unto me: Stretch forth thy hand and prophesy saying: Thus saith the Lord,",
+        "text": "Stretch forth thy hand and prophesy saying:",
         "refs": [
           "Mosiah 12:2"
         ],
-        "speaker": "Abinadi"
+        "speaker": "The Lord (reported speech)"
       },
       {
         "text": "And it shall come to pass that the life of king Noah shall be valued even as a garment in a hot furnace; for he shall know that I am the Lord.",
@@ -126,13 +133,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's command is reported, not shown as a visible encounter.",
-      "The report does not establish that Abinadi stretched forth his hand.",
-      "The garment and furnace are a comparison, not a depicted event."
+      "The Lord's words are reported; no visible appearance is described.",
+      "The text does not state that Abinadi stretches forth his hand here.",
+      "The garment and furnace form a comparison, not a depicted event."
     ],
     "prohibited_inventions": [
       "Do not invent an audience or depict the Lord or king Noah as physically present.",
-      "Do not depict the predicted violence, animal feeding, or furnace comparison as occurring in this scene."
+      "Do not depict the foretold violence, animals devouring flesh, or furnace comparison as occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -143,35 +150,36 @@
       "Mosiah 12:4",
       "Mosiah 12:5"
     ],
-    "summary": "Abinadi foretells sore afflictions, famine, pestilence, howling, burdens lashed upon the people's backs, and their being driven.",
+    "summary": "Abinadi foretells sore afflictions, famine, pestilence, and all-day howling for “this my people.” He also foretells burdens lashed upon backs and being driven.",
     "characters": [
       "Abinadi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The prophecy foretells sore afflictions, famine, pestilence, and the people howling all day long.",
+        "text": "The prophecy foretells sore afflictions, famine, pestilence, and all-day howling for “this my people.”",
         "refs": [
           "Mosiah 12:4"
         ]
       },
       {
-        "text": "The prophecy foretells burdens lashed upon the people's backs and their being driven before like a dumb ass.",
+        "text": "The prophecy foretells that “they” will have burdens lashed upon their backs and be driven.",
         "refs": [
           "Mosiah 12:5"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Abinadi may be shown speaking, without depicting the foretold events as occurring."
+    ],
     "unspecified_visual_details": [
-      "Abinadi's appearance, clothing, gestures, and surroundings are not described in these verses.",
-      "The composition and physical presence of an audience are not specified in these verses."
+      "Abinadi’s appearance, clothing, gestures, and surroundings are not described.",
+      "The presence and appearance of any audience are not specified.",
+      "The referent of “they” in verse 5 is not specified within the supplied excerpt."
     ],
     "spoken_dialogue": [
       {
-        "text": "And it shall come to pass that I will smite this my people with sore afflictions, yea, with famine and with pestilence;",
+        "text": "And it shall come to pass that I will smite this my people with sore afflictions, yea, with famine and with pestilence; and I will cause that they shall howl all the day long.",
         "refs": [
           "Mosiah 12:4"
         ],
@@ -187,14 +195,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Abinadi is identified as the person prophesying by the supplied contextual correction; the prophetic first-person wording is not Mormon speaking.",
-      "These verses foretell future events rather than narrating their occurrence.",
+      "These verses foretell future events; they do not narrate their occurrence.",
       "The comparison to a dumb ass is figurative."
     ],
     "prohibited_inventions": [
       "Do not depict the foretold afflictions, howling, burdens, or driving as presently occurring.",
-      "Do not invent a visible divine appearance.",
-      "Do not depict a literal ass from the comparison.",
+      "Do not invent a visible divine appearance or a literal ass.",
       "Do not invent audience members, reactions, or additional dialogue."
     ],
     "importance": "normal"
@@ -269,7 +275,7 @@
       "Mosiah 12:7",
       "Mosiah 12:8"
     ],
-    "summary": "Abinadi continues his prophecy, warning of a great pestilence and destruction unless the people repent. He says they will leave a record behind and speaks of preservation for other nations. Mormon reports that Abinadi prophesied many things against this people.",
+    "summary": "Abinadi prophesies a great pestilence, destruction unless the people repent, and a record left behind for other nations. Mormon reports that Abinadi prophesied many things against the people.",
     "characters": [
       "Abinadi"
     ],
@@ -282,25 +288,25 @@
         ]
       },
       {
-        "text": "He warns that they will be utterly destroyed unless they repent.",
+        "text": "Abinadi warns that the people will be utterly destroyed unless they repent.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "He says they will leave a record behind and that “them” will be preserved for other nations that will possess the land; the referent of “them” is unclear in these verses.",
+        "text": "Abinadi says the people will leave a record behind and be preserved for other nations that will possess the land.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "He states that this will disclose the people’s abominations to other nations.",
+        "text": "Abinadi says this will disclose the people’s abominations to other nations.",
         "refs": [
           "Mosiah 12:8"
         ]
       },
       {
-        "text": "Mormon reports that Abinadi prophesied many things against this people.",
+        "text": "Mormon reports that Abinadi prophesied many things against the people.",
         "refs": [
           "Mosiah 12:8"
         ]
@@ -342,7 +348,6 @@
     "doctrinal_or_story_notes": [
       "The predicted events are not narrated as occurring here.",
       "The concluding report is Mormon’s narration.",
-      "Keep the preservation promise’s pronoun unresolved visually.",
       "The contents of Abinadi’s other prophecies are not supplied."
     ],
     "prohibited_inventions": [
@@ -361,9 +366,9 @@
     "refs": [
       "Mosiah 12:9"
     ],
-    "summary": "Angry people take a man and carry him bound before the king. They accuse him of prophesying evil concerning the king’s people and saying that God will destroy them.",
+    "summary": "Angry people carry Abinadi bound before the king and accuse him of prophesying evil concerning the king’s people.",
     "characters": [
-      "the bound man",
+      "Abinadi",
       "the people who took him",
       "the king"
     ],
@@ -378,14 +383,14 @@
         ]
       },
       {
-        "text": "The people accused the man of prophesying evil concerning the king’s people and saying that God would destroy them.",
+        "text": "The people accused him of prophesying evil concerning the king’s people and saying that God would destroy them.",
         "refs": [
           "Mosiah 12:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The man is visibly restrained when brought before the king."
+      "Abinadi is visibly restrained when brought before the king."
     ],
     "unspecified_visual_details": [
       "The method of restraint and the setting’s appearance are not stated."
@@ -401,10 +406,10 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The claim about the man’s prophecy is an accusation spoken by the people, not an independently narrated prophecy."
+      "The statement about God destroying the people is part of the group’s accusation, not a separately narrated event."
     ],
     "prohibited_inventions": [
-      "Do not assign names or affiliations to the people, the man, or the king from this verse alone.",
+      "Do not name the people or the king from this verse alone.",
       "Do not add an assault, a specific method of restraint, or further accusations."
     ],
     "importance": "normal"
@@ -417,7 +422,7 @@
       "Mosiah 12:11",
       "Mosiah 12:12"
     ],
-    "summary": "The people addressing King Noah report a prophecy concerning his life, its comparisons to a garment, a dry stalk, and thistle blossoms, and a warning that these things will come unless he repents.",
+    "summary": "The people report a prophecy concerning King Noah’s life, including comparisons to a garment in a furnace, a dry stalk, and thistle blossoms. They say the foretold things will come upon him unless he repents.",
     "characters": [
       "The people",
       "King Noah"
@@ -425,7 +430,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speakers report that another person prophesies evil concerning the addressee's life and compares that life to a garment in a furnace of fire.",
+        "text": "The speakers report a prophecy of evil concerning the addressee’s life and a comparison to a garment in a furnace of fire.",
         "refs": [
           "Mosiah 12:10"
         ]
@@ -437,41 +442,34 @@
         ]
       },
       {
-        "text": "They report a comparison to thistle blossoms driven by wind.",
+        "text": "They report a comparison to ripe thistle blossoms driven by wind.",
         "refs": [
           "Mosiah 12:12"
         ]
       },
       {
-        "text": "They say the other person pretends the Lord has spoken and warns that these things will come upon the addressee unless he repents, because of his iniquities.",
+        "text": "They say the person they are reporting on pretends the Lord has spoken and says these things will come upon the addressee unless he repents, because of his iniquities.",
         "refs": [
           "Mosiah 12:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people address King Noah."
+      "The people address King Noah while reporting what another person has said."
     ],
     "unspecified_visual_details": [
-      "The supplied verses do not specify appearances or a location."
+      "The verses do not specify a location, clothing, or appearances."
     ],
     "spoken_dialogue": [
       {
-        "text": "And he also prophesieth evil concerning thy life,",
+        "text": "thy life shall be as a garment in a furnace of fire.",
         "refs": [
           "Mosiah 12:10"
         ],
         "speaker": "The people"
       },
       {
-        "text": "thou shalt be as a stalk, even as a dry stalk of the field,",
-        "refs": [
-          "Mosiah 12:11"
-        ],
-        "speaker": "The people"
-      },
-      {
-        "text": "thou shalt be as the blossoms of a thistle,",
+        "text": "thou shalt be as the blossoms of a thistle, which, when it is fully ripe, if the wind bloweth, it is driven forth upon the face of the land.",
         "refs": [
           "Mosiah 12:12"
         ],
@@ -573,11 +571,11 @@
       "Mosiah 12:15",
       "Mosiah 12:16"
     ],
-    "summary": "Unnamed speakers declare that they are strong and will not be taken captive. They tell the person addressed that he has prospered and will prosper, then deliver a man into his hands.",
+    "summary": "The people declare that they are strong and will not be taken captive. They tell King Noah that he has prospered and will prosper, then deliver Abinadi to him.",
     "characters": [
-      "Unnamed speakers",
-      "The man",
-      "The person addressed"
+      "The people who delivered Abinadi",
+      "Abinadi",
+      "King Noah"
     ],
     "locations": [],
     "explicit_facts": [
@@ -594,14 +592,14 @@
         ]
       },
       {
-        "text": "The speakers deliver a man into the hands of the person addressed and say he may do with the man as seems good to him.",
+        "text": "The speakers deliver a man into the hands of the person addressed and say he may do with him as seems good to him.",
         "refs": [
           "Mosiah 12:16"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The man and the person addressed are present for the delivery."
+      "Abinadi and King Noah are present for the delivery."
     ],
     "unspecified_visual_details": [
       "The location, clothing, appearances, and manner of delivery are not specified."
@@ -612,23 +610,23 @@
         "refs": [
           "Mosiah 12:15"
         ],
-        "speaker": "Unnamed speakers"
+        "speaker": "The people who delivered Abinadi"
       },
       {
         "text": "Behold, here is the man, we deliver him into thy hands; thou mayest do with him as seemeth thee good.",
         "refs": [
           "Mosiah 12:16"
         ],
-        "speaker": "Unnamed speakers"
+        "speaker": "The people who delivered Abinadi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not name the man, the speakers, or the person addressed."
+      "The supplied verses call Abinadi “the man” and address King Noah as “thou”; their identities are supplied by the audit context, not stated in these two verses."
     ],
     "prohibited_inventions": [
-      "Do not assign names or titles to the people in this scene from context outside the supplied verses.",
-      "Do not depict the man as bound or invent a response or decision by the person addressed."
+      "Do not depict Abinadi as bound or invent a response or decision by King Noah.",
+      "Do not give the unnamed people individual names or biographies."
     ],
     "importance": "normal"
   },
@@ -684,32 +682,38 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "The Priests Call for Abinadi",
+    "title": "A Request to Question Him",
     "refs": [
       "Mosiah 12:18"
     ],
-    "summary": "The priests ask that Abinadi be brought to them for questioning, and the king orders him brought before them.",
+    "summary": "A group asks the king to bring a man to them for questioning. The king commands that he be brought before them.",
     "characters": [
-      "Abinadi",
-      "King Noah",
-      "King Noah's priests"
+      "The king",
+      "Unidentified speakers",
+      "The man they request"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The priests ask the king to bring Abinadi so they can question him; the king commands that he be brought before them.",
+        "text": "They ask the king to bring a man to them so they may question him.",
+        "refs": [
+          "Mosiah 12:18"
+        ]
+      },
+      {
+        "text": "The king commands that the man be brought before them.",
         "refs": [
           "Mosiah 12:18"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The priests are gathered before the king when they make their request."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The prison's location relative to the council setting is not stated."
+      "The speakers’ identities and location are not stated.",
+      "The requested man’s identity and appearance are not stated.",
+      "The king’s appearance and the setting are not described."
     ],
     "spoken_dialogue": [
       {
@@ -717,7 +721,7 @@
         "refs": [
           "Mosiah 12:18"
         ],
-        "speaker": "King Noah's priests"
+        "speaker": "Unidentified speakers"
       }
     ],
     "narration": [
@@ -736,7 +740,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the questioning beginning in this scene."
+      "Do not identify the speakers, the king, or the requested man from this verse alone.",
+      "Do not show the man arriving or the questioning beginning."
     ],
     "importance": "normal"
   },
@@ -1187,7 +1192,7 @@
       "Mosiah 12:31",
       "Mosiah 12:32"
     ],
-    "summary": "Abinadi warns the priests that they will be smitten for their iniquities, questions them about the law of Moses and salvation, and receives their answer that salvation comes by the law of Moses.",
+    "summary": "Abinadi says his hearers will be smitten for their iniquities, questions them about the law of Moses and salvation, and receives their answer that salvation comes by the law of Moses.",
     "characters": [
       "Abinadi",
       "Priests"
@@ -1197,7 +1202,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Abinadi says the priests will be smitten for their iniquities and that they have said they teach the law of Moses.",
+        "text": "Abinadi says those he addresses will be smitten for their iniquities and says they have claimed to teach the law of Moses.",
         "refs": [
           "Mosiah 12:31"
         ]
@@ -1209,17 +1214,17 @@
         ]
       },
       {
-        "text": "The priests answer that salvation does come by the law of Moses.",
+        "text": "Those questioned answer that salvation does come by the law of Moses.",
         "refs": [
           "Mosiah 12:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi and the priests are close enough to converse."
+      "Abinadi and those answering him can hear one another."
     ],
     "unspecified_visual_details": [
-      "The setting, clothing, appearances, and number of priests are unspecified."
+      "The setting, clothing, appearances, and number of people answering are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -1239,13 +1244,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The priests’ answer is reported rather than quoted as direct speech.",
-      "Their answer states their position, not an independently established doctrinal conclusion."
+      "The priests’ answer is reported, not quoted as direct speech.",
+      "The answer expresses their position, not an independently established doctrinal conclusion.",
+      "These verses do not explicitly identify the people addressed as priests."
     ],
     "prohibited_inventions": [
       "Do not depict the predicted smiting as occurring.",
       "Do not invent direct dialogue for the priests.",
-      "Do not depict Moses as physically present or stage the priests’ earlier teaching as a separate event."
+      "Do not depict Moses as physically present or stage the earlier claim to teach his law as a separate event."
     ],
     "importance": "normal"
   },
@@ -1258,7 +1264,7 @@
       "Mosiah 12:35",
       "Mosiah 12:36"
     ],
-    "summary": "Abinadi tells his listeners that keeping God's commandments brings salvation. He cites commandments delivered by the Lord to Moses at Sinai, including prohibitions against other gods and graven images or likenesses.",
+    "summary": "Abinadi tells his listeners that keeping God's commandments brings salvation. He cites commandments delivered by the Lord to Moses at Sinai.",
     "characters": [
       "Abinadi",
       "unnamed listeners"
@@ -1268,7 +1274,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Abinadi says that those who keep God's commandments will be saved.",
+        "text": "Abinadi says those who keep God's commandments will be saved.",
         "refs": [
           "Mosiah 12:33"
         ]
@@ -1280,29 +1286,29 @@
         ]
       },
       {
-        "text": "The quoted words identify the Lord as the God who brought the people out of Egypt and bondage.",
+        "text": "The words Abinadi cites identify the Lord as the God who brought the people out of Egypt and bondage.",
         "refs": [
           "Mosiah 12:34"
         ]
       },
       {
-        "text": "The quoted commandment forbids having any other God before the Lord.",
+        "text": "The cited commandment forbids having any other God before the Lord.",
         "refs": [
           "Mosiah 12:35"
         ]
       },
       {
-        "text": "The quoted commandment forbids making any graven image or likeness of anything in heaven above or things in the earth beneath.",
+        "text": "The cited commandment forbids making graven images or likenesses of things in heaven or on earth.",
         "refs": [
           "Mosiah 12:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi can be shown addressing his listeners."
+      "Abinadi can be shown addressing listeners."
     ],
     "unspecified_visual_details": [
-      "The setting, listeners' identities, clothing, appearances, gestures, and spatial arrangement are unspecified."
+      "The setting, listeners' identities, appearances, clothing, gestures, and spatial arrangement are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -1313,32 +1319,31 @@
         "speaker": "Abinadi"
       },
       {
+        "text": "I am the Lord thy God,",
+        "refs": [
+          "Mosiah 12:34"
+        ],
+        "speaker": "Abinadi"
+      },
+      {
         "text": "Thou shalt have no other God before me.",
         "refs": [
           "Mosiah 12:35"
         ],
-        "speaker": "Abinadi, quoting the Lord"
+        "speaker": "Abinadi"
       },
       {
         "text": "Thou shalt not make unto thee any graven image, or any likeness of any thing in heaven above, or things which are in the earth beneath.",
         "refs": [
           "Mosiah 12:36"
         ],
-        "speaker": "Abinadi, quoting the Lord"
+        "speaker": "Abinadi"
       }
     ],
-    "narration": [
-      {
-        "text": "But now Abinadi said unto them:",
-        "refs": [
-          "Mosiah 12:33"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord's words are quoted by Abinadi; no divine appearance or separate divine voice is described in this scene.",
-      "Moses, Sinai, Egypt, and deliverance from bondage are referenced within Abinadi's speech, not presented as current events.",
-      "The narration is Mormon's; the addressed speech belongs to Abinadi."
+      "Abinadi quotes the Lord's words; no divine appearance or separate divine voice is described.",
+      "Moses, Sinai, Egypt, and deliverance from bondage are referenced, not staged as current events."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord or Moses as physically present.",

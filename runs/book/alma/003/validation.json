@@ -1,25 +1,33 @@
 {
-  "stamp": "43b0810141eb3a190e0e7824f3d4f1843a5c141e94763cec0d7eec00cd37a423",
+  "stamp": "687bd566108eb70001ad74a8e5f16ff5d191cf85b4e08e3574c1afb7fe7989a8",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The characters field lists wives and children as present, but the verse only says the survivors returned to them; their physical presence in the scene is not explicit."
+      ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The character label “Nephite women and children” may imply they are present, but their deaths are reported aftermath; do not depict them as living participants."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 5 says the Lamanites were “naked, save it were skin which was girded about their loins”; armor and weapons are also described. The explicit-facts summary should preserve this qualification."
+      ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Verse 6 explicitly describes the Lamanites’ skins as dark; the summary of distinguishing appearance omits this stated detail, though its prohibition on assigning skin color to present-day groups is appropriate."
+      ]
     },
     "scene_006": {
       "status": "PASS",
@@ -30,22 +38,24 @@
       "issues": []
     },
     "scene_008": {
-      "status": "REJECT",
-      "issues": [
-        "The verses do not identify the narrator as Mormon. The character field and story note attribute the narration to him using material outside the supplied verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
       "status": "PASS",
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the Amlicites marked themselves, but verse 18 does not specify when that occurred; the preceding scene already presents the marking at verse 13. Keep this scene as narration about their rebellion and the consequence, not a new marking action."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Mormon (narrator, identified by the supplied context)” is unsupported: no supplied verse identifies Mormon as narrator."
+      ]
     },
     "scene_012": {
       "status": "PASS",

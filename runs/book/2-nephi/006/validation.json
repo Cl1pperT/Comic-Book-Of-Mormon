@@ -1,5 +1,5 @@
 {
-  "stamp": "54ef5a8b7c60a0488a16dc006803b3b093da518262942b850e2e9142940dc823",
+  "stamp": "5a8815f5812313cb7f28f3867c5687746b2f3fbb19586b6a66dcea4897eef3fb",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,26 +10,22 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Lettering to represent Isaiah’s words is an optional visual treatment, not specified by the verses. Avoid presenting it as a physical event."
-      ]
-    },
-    "scene_004": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_004": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prophecy in 2 Nephi 6:6–7 is quoted as the Lord’s words, but the supplied dialogue attributes it to Jacob; clarify that Jacob is reading or quoting rather than speaking as the Lord."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "REJECT",
-      "issues": [
-        "2 Nephi 6:8 identifies the continuing speaker as Jacob, not Nephi. The summary, character, explicit facts, dialogue speaker labels, and visual inference misattribute his report.",
-        "The preceding scene depicts Jacob speaking; switching to Nephi in this continuation alters that continuity.",
-        "The notes falsely claim that the supplied verse identifies Nephi and that no preceding scene was supplied."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",
@@ -56,12 +52,16 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prophecy is introduced as the Lord’s speech, but the quoted excerpts are attributed to Jacob. Keep clear that Jacob is reading or quoting the Lord’s words."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The excerpt is part of the Lord’s quoted prophecy, but the dialogue attributes it to Jacob; clarify that Jacob is reading or quoting rather than speaking as the Lord."
+      ]
     }
   }
 }

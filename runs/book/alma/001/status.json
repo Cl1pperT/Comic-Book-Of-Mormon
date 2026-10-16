@@ -4,21 +4,17 @@
   "verses": 33,
   "scenes": 17,
   "counts": {
-    "PASS": 15,
-    "PASS WITH WARNINGS": 1,
-    "REJECT": 1
+    "PASS": 5,
+    "PASS WITH WARNINGS": 12,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_004": [
-      "The note “Mormon supplies the narration” identifies a narrator not established by the supplied verses."
-    ]
-  },
-  "calls": 56,
+  "rejected": {},
+  "calls": 61,
   "tokens": {
-    "input_tokens": 310657,
-    "cached_input_tokens": 154880,
+    "input_tokens": 358403,
+    "cached_input_tokens": 173824,
     "cache_write_input_tokens": 0,
-    "output_tokens": 20568,
-    "reasoning_output_tokens": 7105
+    "output_tokens": 23567,
+    "reasoning_output_tokens": 7713
   }
 }
