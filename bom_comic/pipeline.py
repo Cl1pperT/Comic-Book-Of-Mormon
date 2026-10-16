@@ -723,7 +723,7 @@ class Pipeline:
         intro = self.intro()
         cover = self.approved_cover(intro)
         visions = self.visions(panels, intro)
-        path = assemble(self.store, panels, images, cover, visions)
+        path = assemble(self.store, panels, images, cover, visions, {v.ref: v.text for v in self.verses()})
         self.store.write("final/manifest.json", {"scene_stamp": self.stamp(), "panels": [p.model_dump() for p in panels],
                                                  "images": images, "cover": cover, "visions": visions})
         self.store.event("assemble", path=str(path))

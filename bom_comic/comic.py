@@ -878,7 +878,7 @@ def speaker_label(name):
     return name.strip(" ,") or name
 
 
-def _caption_options(draw, panel, frame, fonts):
+def _caption_options(draw, panel, frame, fonts, verses=None):
     """Every corner and width each caption box may take, as (box, rows, fill, penalty), default first. Narration
     may sit in any corner, speech in either bottom corner; the words never change."""
     x, y, w, h = frame
@@ -902,7 +902,7 @@ def _caption_options(draw, panel, frame, fonts):
                 out.append(((bx, by, bx + bw, by + bh), rows, fill, penalty + (0 if bw == default else RESHAPE)))
         return sorted(out, key=lambda option: option[3])
 
-    if narration and speech and speech_first(panel):
+    if narration and speech and speech_first(panel, verses):
         # The speech comes earlier in the verses than every caption (Laban threatens, then Laman flees): it takes the
         # top corner so it is read first, and the caption, with the verse reference, goes along the bottom. When the
         # top would cover a face, both may share the bottom edge, speech on the left (_fits keeps that order).
@@ -927,15 +927,32 @@ def _verse_key(ref):
     return (*position((name, int(chapter))), int(verse or 0))
 
 
-def speech_first(panel):
-    """Whether every spoken line comes from an earlier verse than every caption, so the speech must be read first.
-    Speech from the same verse as a caption ("he said unto me:") or interleaved with captions keeps captions first."""
+def _spot(line, verses):
+    """Where a lettered line falls in the verses: (verse key, offset of its words within the verse). With the verse
+    texts (verses: {ref: text}) two lines of one verse are ordered too ("Arise." comes before "And I arose");
+    without them, or when the words aren't found, the offset is None."""
+    plain = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    ref = min(line.refs, key=_verse_key)
+    offset = plain((verses or {}).get(ref, "")).find(plain(line.text)) if verses else -1
+    return _verse_key(ref), (offset if offset >= 0 else None)
+
+
+def speech_first(panel, verses=None):
+    """Whether every spoken line comes before every caption in the verses, so the speech must be read first.
+    Lines are ordered by verse, then, within one verse, by where their words fall in it (when the verse texts are
+    given). Interleaved speech and captions, or a same-verse pair that can't be placed, keep captions first."""
     try:
-        spoken = [_verse_key(r) for s in panel.dialogue for r in s.refs]
-        told = [_verse_key(r) for c in panel.narration for r in c.refs]
+        spoken = [_spot(s, verses) for s in panel.dialogue if s.refs]
+        told = [_spot(c, verses) for c in panel.narration if c.refs]
     except (ValueError, IndexError):
         return False
-    return bool(spoken and told) and max(spoken) < min(told)
+    if not spoken or not told:
+        return False
+    order = lambda spot: (spot[0], -1 if spot[1] is None else spot[1])
+    last, first = max(spoken, key=order), min(told, key=order)
+    if last[0] != first[0]:
+        return last[0] < first[0]
+    return last[1] is not None and first[1] is not None and last[1] < first[1]
 
 
 def _fits(boxes, frame):
@@ -955,10 +972,10 @@ def _fits(boxes, frame):
     return True
 
 
-def _lettering(draw, panel, frame, fonts):
+def _lettering(draw, panel, frame, fonts, verses=None):
     """Default caption boxes for a frame, or None if they'd bury the art. Narration sits top-left,
     speech bottom-right, so reading runs corner to corner."""
-    boxes = [options[0][:3] for options in _caption_options(draw, panel, frame, fonts)]
+    boxes = [options[0][:3] for options in _caption_options(draw, panel, frame, fonts, verses)]
     return boxes if _fits([b for b, _, _ in boxes], frame) else None
 
 
@@ -1174,9 +1191,10 @@ def draw_cover(art_path, intro, where):
     return page
 
 
-def assemble(store, panels, images, cover=None, visions=None):
+def assemble(store, panels, images, cover=None, visions=None, verses=None):
     """cover: {"image": cover record, "intro": guide, "where": (book, chapter)} for a cover page (page 0).
-    visions: {panel_id: label} for panels that show a dream or vision."""
+    visions: {panel_id: label} for panels that show a dream or vision. verses: {ref: text}, so speech and captions
+    from one verse are lettered in the verse's own order."""
     from PIL import Image, ImageDraw, ImageOps
     fonts = _fonts()
     width, height = PAGE_SIZE
@@ -1201,12 +1219,12 @@ def assemble(store, panels, images, cover=None, visions=None):
                 art = ImageOps.fit(im, (w, h), Image.LANCZOS)
             page.paste(art, (x, y))
             draw.rectangle([x, y, x + w - 1, y + h - 1], outline=INK, width=BORDER)
-            if _lettering(draw, panel, frame, fonts) is None:
+            if _lettering(draw, panel, frame, fonts, verses) is None:
                 raise ValueError(f"Too much lettering for {panel.panel_id}'s frame; raise its weight in panels.json")
             # Words are fixed at plan time; only each box's corner and width are chosen here, once the art shows
             # where faces are.
             faces = detect_faces(art)
-            boxes, covered = place_captions(_caption_options(draw, panel, frame, fonts), frame, faces)
+            boxes, covered = place_captions(_caption_options(draw, panel, frame, fonts, verses), frame, faces)
             tab = None
             if panel.panel_id in (visions or {}):
                 label = visions[panel.panel_id]

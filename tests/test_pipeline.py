@@ -1479,6 +1479,12 @@ def test_speech_from_an_earlier_verse_is_lettered_first(pipeline):
     # Same verse ("he said unto me:") or caption first keeps captions first.
     assert not speech_first(first.model_copy(update={"narration": [told.model_copy(update={"refs": ["1 Nephi 3:13"]})]}))
     assert not speech_first(first.model_copy(update={"dialogue": [said.model_copy(update={"refs": ["1 Nephi 3:15"]})]}))
+    # Within one verse, the verse's own word order decides ("Arise." before "And I arose").
+    one = first.model_copy(update={"dialogue": [said.model_copy(update={"text": "Arise.", "refs": ["Alma 36:8"]})],
+                                   "narration": [told.model_copy(update={"text": "And I arose.", "refs": ["Alma 36:8"]})]})
+    assert speech_first(one, {"Alma 36:8": "And he said unto me: Arise. And I arose."})
+    assert not speech_first(one, {"Alma 36:8": "And I arose. And he said: Arise."})
+    assert not speech_first(one) and not speech_first(one, {"Alma 36:8": "other words entirely"})
     draw, fonts = _measure()
     frame = (0, 0, 800, 800)
     speech, caption = [options[0][0] for options in _caption_options(draw, first, frame, fonts)]
