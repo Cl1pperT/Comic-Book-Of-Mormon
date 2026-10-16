@@ -1,61 +1,62 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Brother of Jared Descends",
+    "title": "The Lord’s Command to the Brother of Jared",
     "refs": [
       "Ether 4:1"
     ],
-    "summary": "The Lord commands the brother of Jared to descend from the mount and write what he saw. The things are forbidden to come to the children of men until Christ is lifted up upon the cross; King Mosiah keeps them until Christ shows himself to his people.",
+    "summary": "The Lord commands the brother of Jared to leave the mount and write what he has seen. The things are forbidden to reach the children of men until after Christ is lifted up upon the cross. King Mosiah keeps them from coming to the world until after Christ shows himself to his people.",
     "characters": [
       "The Lord",
       "The brother of Jared"
     ],
     "locations": [
-      "Unspecified location"
+      "The mount"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord commanded the brother of Jared to go down out of the mount from the Lord’s presence and write what he had seen.",
+        "text": "The Lord commanded the brother of Jared to go down out of the mount from his presence and write the things he had seen.",
         "refs": [
           "Ether 4:1"
         ]
       },
       {
-        "text": "The things were forbidden to come unto the children of men until Christ should be lifted up upon the cross.",
+        "text": "The things were forbidden to come unto the children of men until after Christ should be lifted up upon the cross.",
         "refs": [
           "Ether 4:1"
         ]
       },
       {
-        "text": "King Mosiah kept them from coming unto the world until after Christ showed himself to his people.",
+        "text": "King Mosiah kept the things from coming unto the world until after Christ should show himself unto his people.",
         "refs": [
           "Ether 4:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The brother of Jared can be shown descending a mount while carrying out the command to write."
+      "The brother of Jared is on the mount when he receives the command."
     ],
     "unspecified_visual_details": [
       "The mount’s appearance and the writing materials are not described.",
       "The Lord’s visible appearance is not described."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "And the Lord commanded the brother of Jared to go down out of the mount",
+        "text": "And the Lord commanded the brother of Jared to go down out of the mount from the presence of the Lord, and write the things which he had seen;",
         "refs": [
           "Ether 4:1"
-        ],
-        "speaker": "Narration"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The later restrictions and King Mosiah’s keeping of the things are reported events, not additional present-time scenes."
+      "The restrictions and King Mosiah’s keeping of the things are reported across separate times, not additional actions occurring with the command."
     ],
     "prohibited_inventions": [
-      "Do not depict Christ’s crucifixion or appearance as occurring in this scene.",
-      "Do not invent the Lord’s appearance."
+      "Do not portray the command as verbatim speech by the Lord.",
+      "Do not depict the brother of Jared descending or writing as completed actions in this scene.",
+      "Do not depict King Mosiah, the crucifixion, or Christ’s appearance as occurring in this scene.",
+      "Do not invent a visible appearance for the Lord."
     ],
     "importance": "normal"
   },

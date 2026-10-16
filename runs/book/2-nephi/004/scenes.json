@@ -390,7 +390,7 @@
     "refs": [
       "2 Nephi 4:12"
     ],
-    "summary": "Lehi speaks to his household, grows old, dies, and is buried.",
+    "summary": "After speaking to all his household, Lehi grows old, dies, and is buried.",
     "characters": [
       "Lehi",
       "Lehi’s household"
@@ -404,32 +404,32 @@
         ]
       },
       {
-        "text": "Lehi grew old, died, and was buried.",
+        "text": "After speaking to his household, Lehi grew old, died, and was buried.",
         "refs": [
           "2 Nephi 4:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "These events occur in sequence, not simultaneously."
+      "The reported events occur in sequence, not simultaneously."
     ],
     "unspecified_visual_details": [
-      "The locations and timing of each event; Lehi’s words; and the manner of burial, including who carried it out or attended."
+      "The locations and timing of the events, Lehi’s spoken words, and the manner of burial."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And it came to pass that he died, and was buried.",
+        "text": "And it came to pass after my father, Lehi, had spoken unto all his household, according to the feelings of his heart and the Spirit of the Lord which was in him, he waxed old. And it came to pass that he died, and was buried.",
         "refs": [
           "2 Nephi 4:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports events in sequence without specifying where they occur."
+      "Nephi is the first-person narrator. The verse reports Lehi’s speech but does not give his words."
     ],
     "prohibited_inventions": [
-      "Do not invent Lehi’s spoken words, burial details, or attendees."
+      "Do not invent Lehi’s words, a visible appearance of the Spirit of the Lord, burial details, or attendees."
     ],
     "importance": "major"
   },
@@ -1019,63 +1019,67 @@
       "2 Nephi 4:28",
       "2 Nephi 4:29"
     ],
-    "summary": "The speaker addresses their soul and heart, urging them not to droop in sin or give place to the enemy of their soul. The speaker also urges against anger because of enemies and slackening strength because of afflictions.",
+    "summary": "Nephi exhorts himself to turn from sin, rejoice, give no place to the enemy of his soul, and not let enemies or afflictions weaken him.",
     "characters": [
-      "Speaker (not named in the supplied verses)"
+      "Nephi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker calls to their soul to awake, no longer droop in sin, rejoice in heart, and give place no more for the enemy of their soul.",
+        "text": "Nephi addresses his soul and heart, urging himself to awake, no longer droop in sin, rejoice, and give no more place to the enemy of his soul.",
         "refs": [
           "2 Nephi 4:28"
         ]
       },
       {
-        "text": "The speaker says not to anger again because of enemies or slacken strength because of afflictions.",
+        "text": "Nephi urges himself not to anger again because of his enemies or slacken his strength because of his afflictions.",
         "refs": [
           "2 Nephi 4:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The words may be presented as the speaker’s self-exhortation; the soul, heart, and enemy of the soul need not be depicted as separate visible beings."
+      "Nephi can be shown alone while addressing himself; his soul and heart need not appear as separate beings."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity, appearance, posture, expression, setting, and whether the words are spoken aloud or silently."
+      "Nephi’s appearance, posture, expression, and setting are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Awake, my soul! No longer droop in sin.",
         "refs": [
           "2 Nephi 4:28"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
         "text": "Rejoice, O my heart, and give place no more for the enemy of my soul.",
         "refs": [
           "2 Nephi 4:28"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
         "text": "Do not anger again because of mine enemies.",
         "refs": [
           "2 Nephi 4:29"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
         "text": "Do not slacken my strength because of mine afflictions.",
         "refs": [
           "2 Nephi 4:29"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The address to the soul and heart is poetic self-exhortation, not a description of separate visible beings."
+      "The address to the soul and heart is self-exhortation, not an account of separate visible beings."
     ],
     "prohibited_inventions": [
-      "Do not depict the soul, heart, enemies, afflictions, or enemy of the soul as visible entities or events; the verses do not describe their appearance."
+      "Do not depict the soul, heart, enemy of the soul, enemies, or afflictions as visible entities or events; their appearance is not described."
     ],
     "importance": "normal"
   },

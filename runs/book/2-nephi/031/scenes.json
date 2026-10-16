@@ -198,66 +198,97 @@
       "2 Nephi 31:11",
       "2 Nephi 31:12"
     ],
-    "summary": "Nephi recounts the Son’s invitation to follow him, the Father’s command to repent and be baptized, and the Son’s teaching about receiving the Holy Ghost and following his example.",
+    "summary": "Nephi recounts the Son’s invitation to follow him, the Father’s command to repent and be baptized, and the Son’s words about the Father giving the Holy Ghost to those baptized in his name.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "Son",
+      "Father"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi reports that the Son said to follow him.",
+        "text": "Nephi reports that the Son told the children of men to follow him.",
         "refs": [
           "2 Nephi 31:10"
         ]
       },
       {
-        "text": "Nephi reports that the Father said to repent and be baptized in the name of his Beloved Son.",
+        "text": "Nephi asks whether they can follow Jesus without being willing to keep the Father’s commandments.",
+        "refs": [
+          "2 Nephi 31:10"
+        ]
+      },
+      {
+        "text": "The Father commands repentance and baptism in the name of his Beloved Son.",
         "refs": [
           "2 Nephi 31:11"
         ]
       },
       {
-        "text": "Nephi reports that the Son said the baptized would receive the Holy Ghost from the Father and should follow him and do what they had seen him do.",
+        "text": "The voice of the Son comes to Nephi and says the Father will give the Holy Ghost to one baptized in the Son’s name; the Son also says to follow him and do what they have seen him do.",
         "refs": [
           "2 Nephi 31:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi's reported speech can be lettered over a neutral, supported setting; the Father and Son are not described as visibly appearing."
+      "Nephi’s account can be presented without showing the Father or Son visibly appearing."
     ],
     "unspecified_visual_details": [
-      "The speakers' appearance and the setting are not specified."
+      "Nephi’s surroundings and appearance are not specified.",
+      "No visible appearance of the Father or Son is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Follow thou me.",
         "refs": [
           "2 Nephi 31:10"
-        ]
+        ],
+        "speaker": "Son"
       },
       {
         "text": "Repent ye, repent ye, and be baptized in the name of my Beloved Son.",
         "refs": [
           "2 Nephi 31:11"
+        ],
+        "speaker": "Father"
+      },
+      {
+        "text": "He that is baptized in my name, to him will the Father give the Holy Ghost, like unto me;",
+        "refs": [
+          "2 Nephi 31:12"
+        ],
+        "speaker": "Son"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And he said unto the children of men:",
+        "refs": [
+          "2 Nephi 31:10"
         ]
       },
       {
-        "text": "follow me, and do the things which ye have seen me do.",
+        "text": "And the Father said:",
+        "refs": [
+          "2 Nephi 31:11"
+        ]
+      },
+      {
+        "text": "And also, the voice of the Son came unto me, saying:",
         "refs": [
           "2 Nephi 31:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are voices reported by Nephi, not a description of visible appearances."
+      "The verses report speech and the Son’s voice; they do not describe a visible appearance of either divine speaker."
     ],
     "prohibited_inventions": [
-      "Do not depict the Father or Son visibly present.",
-      "Do not invent the location or the hearers."
+      "Do not depict the Father or Son visibly appearing.",
+      "Do not invent a location, hearers, or a baptism occurring in this scene."
     ],
     "importance": "normal"
   },
@@ -326,59 +357,84 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "The Son warns against denial",
+    "title": "Nephi hears the Son and the Father",
     "refs": [
       "2 Nephi 31:14",
       "2 Nephi 31:15"
     ],
-    "summary": "Nephi reports the Son warning that denying him after repentance and baptism would have been better left unknown, and the Father affirming the Son’s words and promise to those who endure.",
+    "summary": "The Son’s voice comes to Nephi with a conditional warning. Nephi then hears the Father’s voice affirm the Son’s words.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "Son",
+      "Father"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi reports the Son’s warning about denying him after repentance, baptism, and receiving the Holy Ghost.",
+        "text": "The voice of the Son came to Nephi.",
         "refs": [
           "2 Nephi 31:14"
         ]
       },
       {
-        "text": "Nephi reports the Father saying the Beloved’s words are true and faithful, and that whoever endures to the end shall be saved.",
+        "text": "The Son speaks of repentance, witnessing willingness to keep his commandments by baptism of water, receiving the baptism of fire and of the Holy Ghost, and speaking with a new tongue.",
+        "refs": [
+          "2 Nephi 31:14"
+        ]
+      },
+      {
+        "text": "The Son warns that denying him after these things would have been worse than not knowing him.",
+        "refs": [
+          "2 Nephi 31:14"
+        ]
+      },
+      {
+        "text": "Nephi heard the Father’s voice affirm the Son’s words and say that one who endures to the end shall be saved.",
         "refs": [
           "2 Nephi 31:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi reports the voices off-screen; no heavenly appearance is described."
+      "Nephi may be shown listening while the voices are heard."
     ],
     "unspecified_visual_details": [
-      "The speakers' appearance and the setting are unspecified."
+      "Nephi’s surroundings and the speakers’ appearances are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "it would have been better for you that ye had not known me.",
+        "text": "After ye have repented of your sins, and witnessed unto the Father that ye are willing to keep my commandments,",
         "refs": [
           "2 Nephi 31:14"
-        ]
+        ],
+        "speaker": "Son"
       },
       {
-        "text": "He that endureth to the end, the same shall be saved.",
+        "text": "and after this should deny me, it would have been better for you that ye had not known me.",
+        "refs": [
+          "2 Nephi 31:14"
+        ],
+        "speaker": "Son"
+      },
+      {
+        "text": "Yea, the words of my Beloved are true and faithful. He that endureth to the end, the same shall be saved.",
         "refs": [
           "2 Nephi 31:15"
-        ]
+        ],
+        "speaker": "Father"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Both statements are reported by Nephi as voices, without a described visual appearance."
+      "The two Son quotations are separate excerpts from one speech; the intervening conditions remain in the explicit facts.",
+      "The warning is conditional, not a narrated act of denial.",
+      "Neither speaker is described as visibly appearing."
     ],
     "prohibited_inventions": [
       "Do not depict the Father or Son visibly appearing.",
-      "Do not show a person denying the Son; no such event is narrated."
+      "Do not enact the conditions in the Son’s warning or show anyone denying him."
     ],
     "importance": "normal"
   },

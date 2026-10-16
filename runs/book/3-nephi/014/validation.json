@@ -1,5 +1,5 @@
 {
-  "stamp": "4318647bcb46b4bb99dac4503bee2b946a80456764c6d7ebffe144494a49e389",
+  "stamp": "d7edb62c503f36c6a94a58c8f55746445457ff55c88de4d97247c575b71eecee",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -44,8 +44,10 @@
       ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “Jesus Christ (at Bountiful)” is established and the source has him speaking, but this excerpt does not specify where he is speaking; avoid presenting Bountiful as an explicit location. The house and storm are imagery within the spoken comparison, not a separately narrated event."
+      ]
     }
   }
 }

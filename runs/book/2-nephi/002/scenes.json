@@ -526,59 +526,73 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Lehi’s Account of the Fall and the Words to Eve",
+    "title": "Lehi’s Account of the Devil and Eve",
     "refs": [
       "2 Nephi 2:17",
       "2 Nephi 2:18"
     ],
-    "summary": "Lehi supposes, based on what he has read, that an angel of God fell from heaven and became a devil. Lehi says the devil sought the misery of all mankind and spoke to Eve, urging her to partake of the forbidden fruit.",
+    "summary": "Lehi supposes, based on what he has read, that an angel fell from heaven and became a devil after seeking evil before God. He reports that the devil sought mankind’s misery and told Eve to partake of the forbidden fruit.",
     "characters": [
-      "Lehi"
+      "Lehi",
+      "Eve (mentioned)",
+      "the devil (mentioned)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Lehi says he supposes, according to what he has read, that an angel of God had fallen from heaven and become a devil.",
+        "text": "Lehi explicitly identifies himself and frames the angel’s fall as a supposition based on his reading.",
         "refs": [
           "2 Nephi 2:17"
         ]
       },
       {
-        "text": "Lehi says the devil sought the misery of all mankind and spoke to Eve, urging her to partake of the forbidden fruit and saying she would not die but would be as God, knowing good and evil.",
+        "text": "Lehi’s account describes the angel becoming a devil after seeking evil before God.",
+        "refs": [
+          "2 Nephi 2:17"
+        ]
+      },
+      {
+        "text": "The devil, having fallen and become miserable forever, sought the misery of all mankind.",
+        "refs": [
+          "2 Nephi 2:18"
+        ]
+      },
+      {
+        "text": "Lehi identifies the old serpent as the devil and father of all lies, and reports his invitation for Eve to eat the forbidden fruit, with claims that she would not die and would be as God, knowing good and evil.",
         "refs": [
           "2 Nephi 2:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi is the source of the account; the reported fall and words to Eve are not necessarily events occurring in the scene."
+      "Lehi may be shown delivering this account without visual reenactments of the reported events."
     ],
     "unspecified_visual_details": [
-      "Lehi’s appearance, posture, and setting; the appearances and setting of the angel, devil, serpent, and Eve."
+      "Lehi’s appearance, clothing, gestures, audience, and physical setting are not specified.",
+      "No visible appearance of the devil or Eve is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And I, Lehi, according to the things which I have read, must needs suppose that an angel of God, according to that which is written, had fallen from heaven;",
+        "text": "And I, Lehi, according to the things which I have read, must needs suppose that an angel of God, according to that which is written, had fallen from heaven; wherefore, he became a devil, having sought that which was evil before God.",
         "refs": [
           "2 Nephi 2:17"
-        ]
-      },
-      {
-        "text": "Partake of the forbidden fruit, and ye shall not die, but ye shall be as God, knowing good and evil.",
-        "refs": [
-          "2 Nephi 2:18"
-        ]
+        ],
+        "speaker": "Lehi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Lehi frames the account of the angel’s fall as his supposition based on what he has read."
+      "The explicit self-identification makes Lehi the speaker of this account.",
+      "Keep the fall qualified as Lehi’s supposition based on reading.",
+      "The devil’s words to Eve are reported speech, not an endorsed promise or a present encounter."
     ],
     "prohibited_inventions": [
-      "Do not stage the reported fall or words to Eve as witnessed present events.",
-      "Do not invent physical appearances or settings for figures not described in these verses."
+      "Do not stage the angel’s fall or the conversation with Eve as present events.",
+      "Do not depict Eve or the devil as physically present with Lehi.",
+      "Do not invent a heavenly appearance, a visible serpent, an audience, additional dialogue, or Eve’s response.",
+      "Do not show Eve eating the fruit; these verses do not report that action."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "bcf230ca6d3c8ff1501be8a52c35b23f9cd51a7f8e2a6877cb3d178eddb6a83d",
+  "stamp": "6b05057b70e77887df7eaab5feae8e4254953e114351da325f6928b8ac7313b1",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -13,11 +13,8 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“God breaketh the bands of death” and the Son “standing betwixt them and justice” are presented as teachings, not narrated visible action; keep them nonliteral rather than depicting a visible heavenly scene.",
-        "The Son's ascension is stated, but no visible appearance or setting is described; do not invent one."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -38,9 +35,8 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary and explicit facts are supported by the supplied verses. However, narration quotes only parts of verses 22 and 23 and omits intervening wording; use separate short exact excerpts if quoting. The verse 24 narration is verbatim.",
-        "No visible setting or appearance is specified, and the notes correctly caution against staging resurrection as a present-tense event.",
-        "The preceding scene treats Abinadi’s speech as occurring earlier; this scene introduces no conflicting chronology."
+        "Summary and explicit facts are supported. Narration consists of exact, contiguous quotations and is within the word limit. The previous scene's chronology does not conflict.",
+        "Warning: The verses do not identify a speaker, so the source quotations are appropriately presented as narration rather than attributed dialogue."
       ]
     },
     "scene_009": {

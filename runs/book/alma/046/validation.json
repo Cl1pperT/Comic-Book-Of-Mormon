@@ -1,5 +1,5 @@
 {
-  "stamp": "8fe11f1b0f648561d336602fa81ea1554ed1b5271d592b3917f50a6f5d1a9fef",
+  "stamp": "909a0fd1cab6abebacc36db39546658add59a393b5fc1f5237bb5c5c8aa42aba",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -20,10 +20,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The setting, pole, and armor design are unspecified; these require conservative creative choices."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
@@ -38,22 +36,16 @@
       ]
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The setting, number, and identities of the people are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Jacob and Joseph are recalled in reported speech, not described as present; the scene correctly prohibits depicting them."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The people’s reactions are unspecified; avoid assigning them particular reactions."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",

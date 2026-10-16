@@ -1,5 +1,5 @@
 {
-  "stamp": "0f6a294c10ec6c2474fb7ebf1c23dde6fca1eb4fa27338baa9dcff253e57c33e",
+  "stamp": "da5ad2c739b664f4f83774135e3532da8218275bf3accfb6e0c58480b6f50648",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -34,8 +34,10 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The land is left unnamed in the scene, consistent with the supplied verses; wine-making and drinking are reported across the verses, not as one specified occasion. The quoted narration is verbatim, and the figurative phrase about placing the heart upon riches is not depicted as a physical action."
+      ]
     },
     "scene_010": {
       "status": "PASS",
@@ -50,8 +52,10 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The two spoken excerpts are verbatim, but their order is reversed from the source: Mosiah 11:22 precedes 11:23. The content is a conditional future warning, not present action. The preceding scene’s chronology is consistent: Abinadi is already prophesying among the people."
+      ]
     },
     "scene_014": {
       "status": "PASS",

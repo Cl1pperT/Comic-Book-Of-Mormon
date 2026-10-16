@@ -240,15 +240,15 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Words to the People",
+    "title": "Anti-Nephi-Lehi Addresses the People",
     "refs": [
       "Alma 24:7",
       "Alma 24:8",
       "Alma 24:9"
     ],
-    "summary": "An unidentified speaker addresses the people. He thanks God for sending the Nephites to preach and for softening their hearts, and says correspondence with the Nephites convinced them of their sins and past murders.",
+    "summary": "Anti-Nephi-Lehi (king) addresses the people concerning the matter and gives thanks to God.",
     "characters": [
-      "Unidentified speaker",
+      "Anti-Nephi-Lehi (king)",
       "The people"
     ],
     "locations": [
@@ -256,30 +256,30 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker addresses the people and thanks God for sending the Nephites to preach and to convince them concerning the traditions of their fathers.",
+        "text": "The speaker addresses the people, thanking God for sending the Nephites to preach and convince them of the traditions of their wicked fathers.",
         "refs": [
           "Alma 24:7"
         ]
       },
       {
-        "text": "He thanks God for a portion of his Spirit to soften their hearts and says they opened correspondence with the Nephites.",
+        "text": "The speaker thanks God for giving them a portion of his Spirit to soften their hearts and says they opened correspondence with the Nephites.",
         "refs": [
           "Alma 24:8"
         ]
       },
       {
-        "text": "He says the correspondence convinced them of their sins and the many murders they had committed.",
+        "text": "The speaker says that by opening this correspondence they have been convinced of their sins and the many murders they have committed.",
         "refs": [
           "Alma 24:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown addressing listeners."
+      "The speaker may be shown addressing people gathered to listen."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance.",
-      "The gathering’s location, size, and arrangement."
+      "The speaker’s appearance and clothing.",
+      "The location, number of listeners, and their arrangement."
     ],
     "spoken_dialogue": [
       {
@@ -287,32 +287,34 @@
         "refs": [
           "Alma 24:7"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Anti-Nephi-Lehi (king)"
       },
       {
         "text": "And behold, I thank my great God that he has given us a portion of his Spirit to soften our hearts,",
         "refs": [
           "Alma 24:8"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Anti-Nephi-Lehi (king)"
       },
       {
         "text": "And behold, I also thank my God, that by opening this correspondence we have been convinced of our sins, and of the many murders which we have committed.",
         "refs": [
           "Alma 24:9"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Anti-Nephi-Lehi (king)"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied verses identify the speaker only as “he.”",
-      "The Nephites’ preaching, the correspondence, and the past murders are discussed in the address, not narrated as occurring during it."
+      "The established speaker label is supplied by the task; these excerpts themselves refer to him as “he.”",
+      "The preaching, correspondence, and murders are reported within the address, not events occurring during it.",
+      "Softened hearts describe spiritual change, not a visible physical transformation."
     ],
     "prohibited_inventions": [
-      "Do not assign the speaker a name or title.",
-      "Do not depict the Spirit as a visible figure.",
-      "Do not place Nephites at the gathering or stage the past murders."
+      "Do not depict God or the Spirit visibly appearing.",
+      "Do not stage the reported preaching, correspondence, or murders as present action.",
+      "Do not assume the Nephites or the fathers are physically present.",
+      "Do not invent audience responses or additional dialogue."
     ],
     "importance": "normal"
   },

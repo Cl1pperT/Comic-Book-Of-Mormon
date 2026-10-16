@@ -1,9 +1,11 @@
 {
-  "stamp": "9c6766b2958947fb15503f1453a0821c7875a807c7d3e01f60f9351f5c6cf7a8",
+  "stamp": "c83fc889ff23d793a8d7734b4528c8a4b8c8f23f84a3f125fa9813d33791e08e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Alma is established as present through receiving tidings and feeling sorrow, but the exact moment and manner of receiving them are unspecified; avoid implying a particular messenger or setting."
+      ]
     },
     "scene_002": {
       "status": "PASS",

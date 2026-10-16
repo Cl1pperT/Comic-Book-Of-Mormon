@@ -187,7 +187,7 @@
       "Mosiah 28:6",
       "Mosiah 28:7"
     ],
-    "summary": "King Mosiah inquires of the Lord whether to let his sons preach among the Lamanites. The Lord tells him to let them go and promises that many will believe, have eternal life, and that his sons will be delivered from the Lamanites.",
+    "summary": "King Mosiah inquires of the Lord whether to let his sons preach among the Lamanites. The Lord tells Mosiah to let them go, says many will believe and have eternal life, and promises to deliver his sons from the Lamanites.",
     "characters": [
       "King Mosiah",
       "the Lord"
@@ -210,7 +210,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown inquiring; the Lord's answer need not be accompanied by a visible form."
+      "Mosiah may be shown inquiring without depicting a visible form of the Lord."
     ],
     "unspecified_visual_details": [
       "The place of inquiry and how the Lord communicates."
@@ -233,8 +233,8 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Present the narration of Mosiah's inquiry before the Lord's reply.",
-      "The Lord's promises are spoken, not shown as fulfilled."
+      "Display the narration caption before the Lord’s reply.",
+      "The Lord’s promises are spoken, not shown as fulfilled."
     ],
     "prohibited_inventions": [
       "Do not depict a visible form of the Lord; none is described.",
@@ -345,12 +345,12 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Mosiah gathers the records",
+    "title": "Mosiah takes the records",
     "refs": [
       "Mosiah 28:11",
       "Mosiah 28:12"
     ],
-    "summary": "Mosiah takes the brass-plate records, the plates of Nephi, and the things he had preserved. He does so because his people greatly desire to learn about a people who had been destroyed.",
+    "summary": "After translating and having the records on the gold plates written down, Mosiah takes the brass-plate records, the plates of Nephi, and the things he has preserved. His people greatly desire to learn about a people who had been destroyed.",
     "characters": [
       "Mosiah II (king)"
     ],
@@ -365,7 +365,7 @@
         ]
       },
       {
-        "text": "Before this, Mosiah had translated and caused to be written the records on gold plates found by Limhi's people and delivered to him by Limhi.",
+        "text": "Before taking them, Mosiah had translated and caused to be written the records on gold plates found by Limhi's people and delivered to him by Limhi.",
         "refs": [
           "Mosiah 28:11"
         ]
@@ -378,31 +378,32 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah may be shown handling plates and records as he takes them."
+      "Mosiah may be shown handling the records as he takes them."
     ],
     "unspecified_visual_details": [
-      "The setting, arrangement, and appearance of the records and plates are unspecified."
+      "The location and the appearance and arrangement of the records are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he took the records which were engraven on the plates of brass",
+        "text": "Therefore he took the records which were engraven on the plates of brass, and also the plates of Nephi,",
         "refs": [
           "Mosiah 28:11"
         ]
       },
       {
-        "text": "And this he did because of the great anxiety of his people; for they were desirous beyond measure to know concerning those people who had been destroyed.",
+        "text": "after having translated and caused to be written the records which were on the plates of gold which had been found by the people of Limhi,",
         "refs": [
-          "Mosiah 28:12"
+          "Mosiah 28:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The translation and Limhi's delivery are prior events, not actions occurring in this scene."
+      "The translation and Limhi's delivery happened before Mosiah took the records; they are not actions occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict Limhi delivering the plates or Mosiah translating them as part of this scene.",
+      "Do not depict Mosiah translating the brass-plate records.",
+      "Do not depict Limhi's earlier delivery or Mosiah's earlier translation as concurrent with taking the records.",
       "Do not depict the destroyed people or invent details of their destruction."
     ],
     "importance": "normal"
@@ -598,54 +599,61 @@
     "refs": [
       "Mosiah 28:20"
     ],
-    "summary": "After completing these matters, Mosiah confers the brass plates, the other preserved things, all the records, and the interpreters upon Alma, son of Alma. He commands Alma to preserve them and keep a record of the people for future generations.",
+    "summary": "After doing these things, King Mosiah confers the brass plates, the things he had kept, all the records, and the interpreters upon Alma, son of Alma. He commands Alma to preserve them, keep a record of the people, and hand the records down through generations.",
     "characters": [
       "Mosiah II (king)",
-      "Alma the Younger (high priest)"
+      "Alma the Younger"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Mosiah conferred the brass plates, preserved things, all the records, and interpreters upon Alma, son of Alma.",
+        "text": "King Mosiah took the plates of brass and the things he had kept and conferred them upon Alma, son of Alma.",
         "refs": [
           "Mosiah 28:20"
         ]
       },
       {
-        "text": "Mosiah commanded Alma to preserve them and keep a record of the people, handing records down through generations as they had been handed down since Lehi left Jerusalem.",
+        "text": "Mosiah conferred all the records and the interpreters upon Alma.",
+        "refs": [
+          "Mosiah 28:20"
+        ]
+      },
+      {
+        "text": "Mosiah commanded Alma to keep and preserve them, keep a record of the people, and hand them down from one generation to another.",
         "refs": [
           "Mosiah 28:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah and Alma are present as the records and interpreters are entrusted to Alma."
+      "Mosiah and Alma are together for the transfer of the records and interpreters."
     ],
     "unspecified_visual_details": [
-      "The precise setting, words of the command, and physical appearance or arrangement of the items."
+      "The location, the appearance and arrangement of the items, and the manner of their transfer."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "conferred them upon him",
+        "text": "And now, as I said unto you, that after king Mosiah had done these things, he took the plates of brass, and all the things which he had kept, and conferred them upon Alma, who was the son of Alma;",
         "refs": [
           "Mosiah 28:20"
         ]
       },
       {
-        "text": "commanded him that he should keep and preserve them",
+        "text": "and commanded him that he should keep and preserve them",
         "refs": [
           "Mosiah 28:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Lehi is referenced as the start of the record-keeping lineage but is not present."
+      "Mormon narrates this event. Lehi's departure from Jerusalem is mentioned as a point of reference for the records' transmission, not as an event occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show Lehi or invent a spoken command."
+      "Do not show Lehi or depict his departure from Jerusalem.",
+      "Do not invent spoken words for Mosiah's reported command."
     ],
     "importance": "normal"
   }

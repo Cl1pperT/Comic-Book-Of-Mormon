@@ -341,7 +341,7 @@
       "Omni 1:11",
       "Omni 1:12"
     ],
-    "summary": "Abinadom ends his account. Amaleki identifies himself as Abinadom’s son and begins to speak about Mosiah, who was made king over the land of Zarahemla and was warned to flee the land of Nephi.",
+    "summary": "After Abinadom ends his record, Amaleki identifies himself as Abinadom’s son and begins an account of Mosiah, who was made king over the land of Zarahemla and warned to flee the land of Nephi.",
     "characters": [
       "Amaleki"
     ],
@@ -350,61 +350,65 @@
     ],
     "explicit_facts": [
       {
-        "text": "The record of the people is engraved on plates held by kings according to the generations.",
+        "text": "Abinadom ends his record.",
         "refs": [
           "Omni 1:11"
         ]
       },
       {
-        "text": "Abinadom says he knows of no revelation or prophecy beyond what has been written, and ends his account.",
-        "refs": [
-          "Omni 1:11"
-        ]
-      },
-      {
-        "text": "Amaleki identifies himself as Abinadom’s son.",
+        "text": "Amaleki is Abinadom’s son.",
         "refs": [
           "Omni 1:12"
         ]
       },
       {
-        "text": "Mosiah was made king over the land of Zarahemla and was warned by the Lord to flee the land of Nephi; those who would heed the Lord were to depart with him into the wilderness.",
+        "text": "Mosiah was made king over the land of Zarahemla and warned by the Lord to flee the land of Nephi.",
+        "refs": [
+          "Omni 1:12"
+        ]
+      },
+      {
+        "text": "Those who would hearken to the Lord’s voice were to depart with Mosiah into the wilderness.",
         "refs": [
           "Omni 1:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show Amaleki in the picture as his account begins, with his quoted introduction as the caption."
+      "Depict Amaleki as the focus while his account begins."
     ],
     "unspecified_visual_details": [
-      "Amaleki’s appearance and surroundings.",
-      "The manner in which Mosiah received the warning."
+      "Amaleki’s appearance and surroundings."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And I make an end.",
+        "text": "Behold, I am Amaleki, the son of Abinadom.",
         "refs": [
-          "Omni 1:11"
+          "Omni 1:12"
         ]
       },
       {
-        "text": "Behold, I am Amaleki, the son of Abinadom.",
+        "text": "Behold, I will speak unto you somewhat concerning Mosiah, who was made king over the land of Zarahemla;",
+        "refs": [
+          "Omni 1:12"
+        ]
+      },
+      {
+        "text": "he being warned of the Lord that he should flee out of the land of Nephi,",
         "refs": [
           "Omni 1:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The first narration excerpt is Abinadom’s conclusion; the second is Amaleki’s introduction. They are successive record keepers, not speakers in a shared moment.",
-      "Mosiah’s warning is reported here, not shown happening."
+      "Omni 1:11 concludes Abinadom’s account; its closing words belong in his preceding scene, not Amaleki’s narration.",
+      "Mosiah’s warning is reported by Amaleki, not shown happening."
     ],
     "prohibited_inventions": [
-      "Do not omit Amaleki from the picture accompanying his introduction.",
-      "Do not show Abinadom and Amaleki concluding and beginning their accounts simultaneously.",
-      "Do not depict Mosiah’s departure or invent how the Lord warned him.",
-      "Do not depict the Lord’s appearance."
+      "Do not depict Abinadom and Amaleki speaking together.",
+      "Do not depict Mosiah receiving the warning or departing.",
+      "Do not invent an appearance for the Lord."
     ],
     "importance": "normal"
   },
@@ -1008,7 +1012,7 @@
         ]
       },
       {
-        "text": "I shall deliver up these plates unto him,",
+        "text": "knowing king Benjamin to be a just man before the Lord, wherefore, I shall deliver up these plates unto him,",
         "refs": [
           "Omni 1:25"
         ]
@@ -1080,7 +1084,7 @@
       "Omni 1:27",
       "Omni 1:28"
     ],
-    "summary": "A large number who desired to possess the land of their inheritance went into the wilderness to return to the land of Nephi. Their leader caused contention among them. All but fifty were slain in the wilderness, and the fifty returned to the land of Zarahemla.",
+    "summary": "A large number went into the wilderness intending to return to the land of Nephi and possess the land of their inheritance. Their leader caused contention among them. All but fifty were slain in the wilderness; the fifty survivors returned to the land of Zarahemla.",
     "characters": [
       "Amaleki (narrator)",
       "The unnamed leader",
@@ -1088,13 +1092,14 @@
     ],
     "locations": [
       "wilderness",
-      "land of Zarahemla"
+      "land of Zarahemla (survivors’ return destination)"
     ],
     "explicit_facts": [
       {
-        "text": "A number went into the wilderness to return to the land of Nephi; a large number desired to possess the land of their inheritance.",
+        "text": "A large number desired to possess the land of their inheritance and went into the wilderness to return to the land of Nephi.",
         "refs": [
-          "Omni 1:27"
+          "Omni 1:27",
+          "Omni 1:28"
         ]
       },
       {
@@ -1104,18 +1109,18 @@
         ]
       },
       {
-        "text": "All but fifty were slain in the wilderness, and the fifty returned to the land of Zarahemla.",
+        "text": "All but fifty were slain in the wilderness; the fifty survivors returned to the land of Zarahemla.",
         "refs": [
           "Omni 1:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A chronicle-style sequence could distinguish the journey into the wilderness from the survivors’ return without depicting them as simultaneous."
+      "The group and its leader may be shown in the wilderness during the contention; the later return should not appear simultaneous with it."
     ],
     "unspecified_visual_details": [
       "The leader’s appearance and the group’s clothing are unspecified.",
-      "The nature of the contention and how the deaths occurred are unspecified."
+      "The form of the contention and the circumstances of the deaths are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -1126,19 +1131,21 @@
         ]
       },
       {
-        "text": "and they were all slain, save fifty, in the wilderness, and they returned again to the land of Zarahemla.",
+        "text": "And their leader being a strong and mighty man, and a stiffnecked man, wherefore he caused a contention among them; and they were all slain, save fifty, in the wilderness, and they returned again to the land of Zarahemla.",
         "refs": [
           "Omni 1:28"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Amaleki recounts these events; the expedition is not his present journey.",
-      "The land of Nephi is the intended destination, not a place the account says the group reached."
+      "Amaleki recounts the expedition; it is not his present journey.",
+      "The land of Nephi is the intended destination, not a place the account says the group reached.",
+      "The fifty survivors, not those slain, returned to Zarahemla."
     ],
     "prohibited_inventions": [
-      "Do not invent a named leader, a specific battle, a cause of death, or dialogue.",
-      "Do not depict wounds, blood, or severed body parts."
+      "Do not invent a name for the leader, dialogue, a specific battle, or a cause of death.",
+      "Do not depict wounds, blood, or severed body parts.",
+      "Do not show the contention and the survivors’ later return as simultaneous events."
     ],
     "importance": "normal"
   },

@@ -1,50 +1,50 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Lehi speaks to Joseph",
+    "title": "Nephi addresses Joseph",
     "refs": [
       "2 Nephi 3:1",
       "2 Nephi 3:2",
       "2 Nephi 3:3"
     ],
-    "summary": "Lehi addresses Joseph, recalls his birth in the wilderness, asks that the Lord consecrate the land to Joseph and his seed if they keep the commandments, and blesses Joseph, saying his seed will not be utterly destroyed.",
+    "summary": "Nephi addresses Joseph, recalls Joseph's birth in the wilderness and bringing him out of it, and speaks of an inheritance in the land, the Lord's blessing, and Joseph's seed.",
     "characters": [
-      "Lehi",
+      "Nephi",
       "Joseph"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi addresses Joseph, his last-born.",
+        "text": "Nephi addresses Joseph as his last-born.",
         "refs": [
           "2 Nephi 3:1"
         ]
       },
       {
-        "text": "Joseph was born in the wilderness of Lehi's afflictions, and his mother bore him in the days of Lehi's greatest sorrow.",
+        "text": "Joseph's mother bore him in the wilderness during Nephi's days of greatest sorrow.",
         "refs": [
           "2 Nephi 3:1"
         ]
       },
       {
-        "text": "Lehi asks that the Lord consecrate the land for Joseph and his seed as an inheritance, conditional on keeping the commandments of the Holy One of Israel.",
+        "text": "Nephi speaks of the land as an inheritance for Joseph and his seed with his brethren, conditional on keeping the commandments of the Holy One of Israel.",
         "refs": [
           "2 Nephi 3:2"
         ]
       },
       {
-        "text": "Lehi blesses Joseph and says his seed shall not utterly be destroyed.",
+        "text": "Nephi says he brought Joseph out of the wilderness of his afflictions and says Joseph's seed shall not utterly be destroyed.",
         "refs": [
           "2 Nephi 3:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehi addresses Joseph directly in a personal conversation."
+      "Joseph can be shown listening while Nephi addresses him."
     ],
     "unspecified_visual_details": [
-      "The present conversation's location and circumstances are not stated.",
-      "Joseph's age, appearance, and posture are not stated."
+      "The location of the address is not stated.",
+      "Nephi's and Joseph's appearances are not stated."
     ],
     "spoken_dialogue": [
       {
@@ -52,29 +52,39 @@
         "refs": [
           "2 Nephi 3:1"
         ],
-        "speaker": "Lehi"
-      }
-    ],
-    "narration": [
-      {
-        "text": "Thou wast born in the wilderness of mine afflictions;",
-        "refs": [
-          "2 Nephi 3:1"
-        ]
+        "speaker": "Nephi"
       },
       {
-        "text": "may the Lord bless thee forever,",
+        "text": "And may the Lord consecrate also unto thee this land,",
+        "refs": [
+          "2 Nephi 3:2"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "if it so be that ye shall keep the commandments of the Holy One of Israel.",
+        "refs": [
+          "2 Nephi 3:2"
+        ],
+        "speaker": "Nephi"
+      },
+      {
+        "text": "may the Lord bless thee forever, for thy seed shall not utterly be destroyed.",
         "refs": [
           "2 Nephi 3:3"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Joseph's birth and Lehi's earlier afflictions are recalled, not depicted as present events."
+      "Joseph's birth and the journey out of the wilderness are recalled, not occurring during this address.",
+      "The Lord's blessing and the future of Joseph's seed are spoken of, not shown as visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict the birth as happening in the present scene.",
-      "Do not depict a divine appearance; the text does not describe one."
+      "Do not depict Joseph's birth or the wilderness journey as happening during this address.",
+      "Do not depict a divine appearance; none is described.",
+      "Do not add a speaker or dialogue not supplied in the verses."
     ],
     "importance": "normal"
   },
@@ -153,66 +163,66 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Promise of a choice seer",
+    "title": "Joseph’s testimony recounted",
     "refs": [
       "2 Nephi 3:6",
       "2 Nephi 3:7",
       "2 Nephi 3:8"
     ],
-    "summary": "Lehi recounts Joseph's prophecy that the Lord would raise a choice seer from his descendants and give him a commanded work for his brethren.",
+    "summary": "Lehi recounts Joseph’s testimony that the Lord would raise up a choice seer from Joseph’s descendants, commanding him to do work that would bring his brethren knowledge of the covenants.",
     "characters": [
-      "Lehi",
-      "Joseph (son of Lehi)"
+      "Lehi (recounting Joseph’s testimony)",
+      "Joseph (reported speaker)",
+      "the Lord (quoted within Joseph’s reported testimony)",
+      "choice seer (foretold, not present)"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "Joseph testified that the Lord would raise up a choice seer from the fruit of his loins.",
+        "text": "The recounted testimony says the Lord would raise up a choice seer from Joseph’s descendants.",
         "refs": [
           "2 Nephi 3:6"
         ]
       },
       {
-        "text": "The seer would be esteemed among Joseph's descendants, receive a commandment, and do work of great worth by bringing his brethren to knowledge of the covenants.",
+        "text": "Joseph’s reported quotation of the Lord says the seer would be highly esteemed among Joseph’s descendants and commanded to perform work of great worth, bringing his brethren knowledge of the covenants made with their fathers.",
         "refs": [
           "2 Nephi 3:7"
         ]
       },
       {
-        "text": "The seer would do no other work than what the Lord commanded and would do the Lord's work.",
+        "text": "The Lord’s reported words restrict the seer to the commanded work and promise to make him great in the Lord’s eyes.",
         "refs": [
           "2 Nephi 3:8"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Lehi recounts Joseph's prophecy while addressing Joseph."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identity and appearance of the seer are not stated here."
+      "The setting, physical appearances, clothing, gestures, and staging are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "A seer shall the Lord my God raise up,",
+        "text": "For Joseph truly testified, saying: A seer shall the Lord my God raise up, who shall be a choice seer unto the fruit of my loins.",
         "refs": [
           "2 Nephi 3:6"
-        ]
-      },
-      {
-        "text": "he shall do my work.",
-        "refs": [
-          "2 Nephi 3:8"
-        ]
+        ],
+        "speaker": "Lehi (recounting Joseph’s testimony)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The seer and his future work are described prophetically, not shown as present events."
+      "Preserve the reporting layers: Lehi recounts Joseph’s testimony, which includes Joseph’s quotation of the Lord.",
+      "The seer’s work is foretold, not narrated as occurring.",
+      "References to descendants, brethren, and fathers do not establish their physical presence."
     ],
     "prohibited_inventions": [
-      "Do not show the seer performing future work."
+      "Do not stage Joseph’s earlier testimony or the Lord’s reported speech as a new present-tense encounter.",
+      "Do not depict a visible divine appearance.",
+      "Do not show the foretold seer performing his work or supply his name.",
+      "Do not invent listeners, actions, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -283,65 +293,77 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "Two writings grow together",
+    "title": "Writings Shall Grow Together",
     "refs": [
       "2 Nephi 3:12",
       "2 Nephi 3:13"
     ],
-    "summary": "Lehi recounts the prophecy that writings from Joseph's descendants and Judah will grow together, establish peace, and aid restoration; the seer will be made strong from weakness.",
+    "summary": "The prophecy declares that descendants of the addressee and of Judah shall write, their writings shall grow together, and an unnamed man shall be made strong when the Lord’s work commences among his people.",
     "characters": [
-      "Lehi",
-      "Joseph (son of Lehi)"
+      "Joseph (prophecy attribution; not established as physically present)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Joseph's descendants and Judah's descendants would write, and their writings would grow together.",
+        "text": "Descendants of the addressee and descendants of Judah shall write, and their writings shall grow together.",
         "refs": [
           "2 Nephi 3:12"
         ]
       },
       {
-        "text": "The writings would confound false doctrines, lay down contentions, establish peace, and bring knowledge of the fathers and covenants in the latter days.",
+        "text": "These writings shall confound false doctrines, lay down contentions, establish peace among the addressee’s descendants, and bring them to knowledge of their fathers and the Lord’s covenants in the latter days.",
         "refs": [
           "2 Nephi 3:12"
         ]
       },
       {
-        "text": "The seer would be made strong out of weakness when the Lord's work commenced among his people, unto restoration of Israel.",
+        "text": "An unnamed male shall be made strong out of weakness when the Lord’s work commences among all his people, unto the restoration of the house of Israel.",
         "refs": [
+          "2 Nephi 3:13"
+        ]
+      },
+      {
+        "text": "Both declarations attribute their words to the Lord.",
+        "refs": [
+          "2 Nephi 3:12",
           "2 Nephi 3:13"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Lehi delivers this prophecy as spoken teaching."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The writers, documents, and future restoration are not shown or visually described."
+      "No physical setting, appearance, clothing, writing materials, or staging is specified.",
+      "The verses do not describe a visible appearance of Joseph, the Lord, the future writers, or the unnamed male."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "shall grow together,",
+        "text": "Wherefore, the fruit of thy loins shall write;",
         "refs": [
           "2 Nephi 3:12"
-        ]
+        ],
+        "speaker": "Joseph"
       },
       {
-        "text": "out of weakness he shall be made strong,",
+        "text": "And out of weakness he shall be made strong, in that day when my work shall commence among all my people, unto the restoring thee, O house of Israel, saith the Lord.",
         "refs": [
           "2 Nephi 3:13"
-        ]
+        ],
+        "speaker": "Joseph"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The writings growing together and the strength from weakness are prophetic language; do not literalize them as a visible supernatural event."
+      "Joseph is the prophecy’s speaker label supplied by the audit context; these two verses themselves attribute the declarations to the Lord.",
+      "The Lord is referenced as the authority for the words, not depicted as physically present or speaking directly in a newly staged encounter.",
+      "These are future prophetic declarations, not events occurring in the scene.",
+      "The writings growing together must not be rendered as a literal supernatural occurrence."
     ],
     "prohibited_inventions": [
-      "Do not invent written documents, a future seer, or a gathering scene."
+      "Do not stage the future writing, strengthening, peace, or restoration as present events.",
+      "Do not invent a visible appearance or physical presence for Joseph or the Lord.",
+      "Do not identify the addressee or unnamed male beyond what these verses supply.",
+      "Do not invent particular books, writing materials, descendants, locations, or encounters.",
+      "Do not add dialogue or dramatize separate future times as one event."
     ],
     "importance": "normal"
   },

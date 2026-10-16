@@ -1,5 +1,5 @@
 {
-  "stamp": "13930f7e18fc6b759cc98c1f3597ba340c38f7278b00f2810ff853033f66ee9b",
+  "stamp": "18cea7f178d969ced988094ed954d17e6a4537160f1e7c7b831fdaec897901c4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -24,8 +24,10 @@
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene uses only supplied events and exact contiguous quotations, and its chronology follows the previous scene. Uncertainty: “Unspecified location” is safe but does not identify a location; the disciples’ preceding action remains unspecified, as the scene notes. The summary’s “warns against doing more or less than commanded” is a faithful summary of the teaching, not a new event."
+      ]
     },
     "scene_006": {
       "status": "PASS",
@@ -60,8 +62,11 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The ascent occurs while the multitude is overshadowed, so Jesus’ precise visibility to the disciples during the ascent is not specified; avoid implying that they saw the ascent through the cloud. The verse explicitly says they saw and bore record that he ascended.",
+        "“Unspecified location” is appropriately cautious; the cloud’s appearance and the precise manner of ascent are not described."
+      ]
     }
   }
 }

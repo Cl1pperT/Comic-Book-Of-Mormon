@@ -182,56 +182,68 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Eat, drink, and be merry",
+    "title": "Many Shall Say",
     "refs": [
       "2 Nephi 28:7",
       "2 Nephi 28:8"
     ],
-    "summary": "Nephi describes people who will urge others to enjoy themselves and dismiss sin as inconsequential or easily forgiven.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi forecasts sayings that encourage eating, drinking, and merriment in anticipation of death. He also forecasts claims excusing wrongdoing and promising light punishment followed by salvation.",
+    "characters": [
+      "Nephi"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Many will say to eat, drink, and be merry because they will die tomorrow and believe all will be well.",
+        "text": "Many are forecast to say that they should eat, drink, and be merry because tomorrow they die and it shall be well with them.",
         "refs": [
           "2 Nephi 28:7"
         ]
       },
       {
-        "text": "Others will excuse small sins and harmful acts, claiming God will punish them lightly and ultimately save them.",
+        "text": "Many are also forecast to claim that God will justify committing a little sin, including lying, taking advantage of another because of his words, and digging a pit for a neighbor.",
+        "refs": [
+          "2 Nephi 28:8"
+        ]
+      },
+      {
+        "text": "These predicted speakers claim that, if guilty, they will receive a few stripes from God and ultimately be saved in God's kingdom.",
         "refs": [
           "2 Nephi 28:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The sayings may be presented as off-screen speech over a neutral setting."
+      "A text-based presentation can preserve the sayings as forecasts without staging their fulfillment."
     ],
     "unspecified_visual_details": [
-      "The speakers, listeners, place, and specific people harmed are not identified."
+      "No physical setting, appearance, clothing, gestures, or audience is specified.",
+      "The predicted speakers and their neighbors are not individually identified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Eat, drink, and be merry, for tomorrow we die",
+        "text": "Yea, and there shall be many which shall say: Eat, drink, and be merry, for tomorrow we die; and it shall be well with us.",
         "refs": [
           "2 Nephi 28:7"
         ]
       },
       {
-        "text": "there is no harm in this",
+        "text": "And there shall also be many which shall say: Eat, drink, and be merry; nevertheless, fear God—he will justify in committing a little sin;",
         "refs": [
           "2 Nephi 28:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The chapter reports teachings; it does not narrate a feast or a particular act of wrongdoing."
+      "Nephi is the narrator, as established by the supplied chapter context; narration excerpts retain his forecasting language.",
+      "The predicted sayings are reported claims, not Nephi's counsel or established promises from God.",
+      "No fulfillment of these predictions is narrated in these verses."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific feast, lie, theft, pit, or victim as a narrated event."
+      "Do not stage the predicted speakers as a present gathering or assign their sayings to present-tense dialogue.",
+      "Do not depict eating, drinking, lying, exploitation, pit digging, punishment, death, or salvation as occurring events.",
+      "Do not invent an appearance of God.",
+      "Do not invent names, biographies, listeners, or a physical setting for Nephi."
     ],
     "importance": "normal"
   },
@@ -560,51 +572,77 @@
       "2 Nephi 28:21",
       "2 Nephi 28:22"
     ],
-    "summary": "Nephi warns that some will be lulled into false security while others will be flattered into denying hell and the devil.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi says the devil will lull some into carnal security so they say all is well in Zion. He will flatter others, tell them there is no hell, and deny that he is a devil.",
+    "characters": [
+      "Nephi",
+      "the devil",
+      "others"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Some will be pacified into carnal security and say that all is well in Zion; the devil will cheat their souls and lead them away.",
+        "text": "The devil will pacify some into carnal security, and they will say all is well in Zion.",
         "refs": [
           "2 Nephi 28:21"
         ]
       },
       {
-        "text": "Others will be flattered and told there is no hell or devil, until the devil grasps them with chains from which there is no deliverance.",
+        "text": "The devil will cheat their souls and lead them away.",
+        "refs": [
+          "2 Nephi 28:21"
+        ]
+      },
+      {
+        "text": "The devil will flatter others, tell them there is no hell, deny that he is a devil, and grasp them with chains from which there is no deliverance.",
         "refs": [
           "2 Nephi 28:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The teachings can be shown as off-screen speech over a neutral setting."
+      "Nephi's warning can be presented without depicting the foretold events as happening now."
     ],
     "unspecified_visual_details": [
-      "The speakers, listeners, Zion's appearance, and any literal embodiment of the devil or chains are unspecified."
+      "No setting or physical appearances are specified.",
+      "The people in the two groups are unnamed."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "All is well in Zion; yea, Zion prospereth, all is well",
+        "refs": [
+          "2 Nephi 28:21"
+        ],
+        "speaker": "Others"
+      },
+      {
+        "text": "I am no devil, for there is none",
+        "refs": [
+          "2 Nephi 28:22"
+        ],
+        "speaker": "The devil"
+      }
+    ],
     "narration": [
       {
-        "text": "All is well in Zion",
+        "text": "And others will he pacify, and lull them away into carnal security, that they will say:",
         "refs": [
           "2 Nephi 28:21"
         ]
       },
       {
-        "text": "there is no hell",
+        "text": "And behold, others he flattereth away, and telleth them there is no hell; and he saith unto them:",
         "refs": [
           "2 Nephi 28:22"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The chains and being led down are figurative teachings, not a narrated visible supernatural event."
+      "The claims that all is well, that there is no hell, and that there is no devil are attributed to the deceived people or the devil, not endorsed by Nephi.",
+      "The verses describe future deception; they do not narrate a present encounter."
     ],
     "prohibited_inventions": [
-      "Do not depict the devil visibly or show literal chains."
+      "Do not depict the devil's appearance or literal chains.",
+      "Do not invent identities, a setting, or additional dialogue for either group."
     ],
     "importance": "normal"
   },
@@ -665,51 +703,78 @@
       "2 Nephi 28:26",
       "2 Nephi 28:27"
     ],
-    "summary": "Nephi pronounces woe on those at ease in Zion, those who claim all is well, those who follow men's precepts and deny God's power, and those who say they need no more.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi warns those at ease in Zion, those who cry that all is well, those who heed men's precepts and deny God's power and the gift of the Holy Ghost, and those who say they need no more.",
+    "characters": [
+      "Nephi"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Woe is pronounced upon those at ease in Zion and those who cry that all is well.",
-        "refs": [
-          "2 Nephi 28:24",
-          "2 Nephi 28:25"
-        ]
-      },
-      {
-        "text": "Woe is pronounced upon those who heed men's precepts, deny God's power and the gift of the Holy Ghost, or say they have received and need no more.",
-        "refs": [
-          "2 Nephi 28:26",
-          "2 Nephi 28:27"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "These warnings may be presented as narration over a neutral setting."
-    ],
-    "unspecified_visual_details": [
-      "The people addressed and any particular setting or gathering are unspecified."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "wo be unto him that is at ease in Zion!",
+        "text": "Nephi pronounces woe on one who is at ease in Zion.",
         "refs": [
           "2 Nephi 28:24"
         ]
       },
       {
-        "text": "We have received, and we need no more!",
+        "text": "Nephi pronounces woe on one who cries that all is well.",
+        "refs": [
+          "2 Nephi 28:25"
+        ]
+      },
+      {
+        "text": "Nephi pronounces woe on one who heeds the precepts of men and denies the power of God and the gift of the Holy Ghost.",
+        "refs": [
+          "2 Nephi 28:26"
+        ]
+      },
+      {
+        "text": "Nephi pronounces woe on one who says they have received and need no more.",
         "refs": [
           "2 Nephi 28:27"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "reasonable_visual_inferences": [
+      "Nephi's warnings can be presented as narration without depicting the people he describes."
+    ],
+    "unspecified_visual_details": [
+      "Nephi's appearance and physical surroundings are unspecified.",
+      "No particular gathering or visible location in Zion is described."
+    ],
+    "spoken_dialogue": [],
+    "narration": [
+      {
+        "text": "Therefore, wo be unto him that is at ease in Zion!",
+        "refs": [
+          "2 Nephi 28:24"
+        ]
+      },
+      {
+        "text": "Wo be unto him that crieth: All is well!",
+        "refs": [
+          "2 Nephi 28:25"
+        ]
+      },
+      {
+        "text": "Yea, wo be unto him that hearkeneth unto the precepts of men, and denieth the power of God, and the gift of the Holy Ghost!",
+        "refs": [
+          "2 Nephi 28:26"
+        ]
+      },
+      {
+        "text": "Yea, wo be unto him that saith: We have received, and we need no more!",
+        "refs": [
+          "2 Nephi 28:27"
+        ]
+      }
+    ],
+    "doctrinal_or_story_notes": [
+      "These verses are warnings, not accounts of visible events. The quoted claims are framed as things people say, not as dialogue occurring in a depicted gathering."
+    ],
     "prohibited_inventions": [
-      "Do not present Zion as a specific visible location or identify its inhabitants."
+      "Do not depict Zion as the scene's established location or invent identifiable inhabitants.",
+      "Do not depict God or the Holy Ghost; no appearance is described.",
+      "Do not stage the reported claims as a new conversation."
     ],
     "importance": "normal"
   },
@@ -720,51 +785,59 @@
       "2 Nephi 28:28",
       "2 Nephi 28:29"
     ],
-    "summary": "Nephi contrasts the person built upon rock, who receives truth with gladness, with the person built on sand, who trembles lest he fall; he warns against claiming enough of God's word.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Nephi warns those who tremble and are angry because of God's truth, contrasts receiving it gladly with fearing a fall, and warns against saying that no more of God's word is needed.",
+    "characters": [
+      "Nephi"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The person built upon rock receives truth with gladness, while the one built on a sandy foundation trembles lest he fall.",
+        "text": "Nephi pronounces woe upon those who tremble and are angry because of the truth of God.",
         "refs": [
           "2 Nephi 28:28"
         ]
       },
       {
-        "text": "Woe is pronounced upon one who says they have received God's word and need no more because they have enough.",
+        "text": "The person built upon the rock receives it with gladness; the person built upon a sandy foundation trembles lest he fall.",
+        "refs": [
+          "2 Nephi 28:28"
+        ]
+      },
+      {
+        "text": "Nephi pronounces woe upon one who says they have received God's word and need no more of it.",
         "refs": [
           "2 Nephi 28:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Rock and sand are explicitly used as figures of speech; a literal construction scene is not stated."
+      "The rock and sandy foundation are figures in Nephi's teaching, not a narrated construction event."
     ],
     "unspecified_visual_details": [
-      "No buildings, people, or location are specified."
+      "Nephi's appearance and surroundings are not specified.",
+      "The person who says they need no more of God's word is not identified or visually described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he that is built upon the rock receiveth it with gladness",
+        "text": "For behold, he that is built upon the rock receiveth it with gladness; and he that is built upon a sandy foundation trembleth lest he shall fall.",
         "refs": [
           "2 Nephi 28:28"
         ]
       },
       {
-        "text": "we have enough!",
+        "text": "Wo be unto him that shall say: We have received the word of God, and we need no more of the word of God, for we have enough!",
         "refs": [
           "2 Nephi 28:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The foundation imagery is a teaching, not a narrated event."
+      "Verse 29 presents a hypothetical person's words within Nephi's warning; it does not narrate someone speaking in a particular scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a building or person literally standing on rock or sand as an event."
+      "Do not depict a literal building or a person standing on rock or sand as a narrated event.",
+      "Do not invent an identity or appearance for the person described in verse 29."
     ],
     "importance": "normal"
   },

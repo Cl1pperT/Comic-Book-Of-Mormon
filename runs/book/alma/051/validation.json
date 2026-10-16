@@ -1,5 +1,5 @@
 {
-  "stamp": "949d59b3e08a0458fccbf910ec3353ae48f81bc967292b832e2161cd5463b692",
+  "stamp": "1a8c0cc12442e6306a3914077c6d2dc30a0cdf630c1ef341e8713995d0d36a71",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,11 +22,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“The request is granted” leaves the granting actor unspecified, as the scene notes. The source also does not explicitly say that the governor personally granted it.",
-        "“Moroni sees the Lamanites coming into the borders” is supplied, but their depiction and the location of Moroni’s petition activity are not specified; keep any visual staging conservative. The narration quotes are exact excerpts. The preceding scene does not alter the chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",

@@ -742,91 +742,83 @@
       "Helaman 13:35",
       "Helaman 13:36"
     ],
-    "summary": "An opening singular lament expresses regret over failing to repent and mistreating prophets. A warning then foretells the words of those addressed: they will regret not remembering the Lord and repenting, lament lost possessions, and describe the land as cursed.",
+    "summary": "An unidentified singular lament expresses regret over not repenting and killing, stoning, and casting out prophets. A collective lament is foretold: those addressed will regret failing to remember the Lord and repent, and describe lost riches, missing tools and swords, hidden treasures slipping away, and a cursed land.",
     "characters": [
-      "Unidentified warning speaker",
-      "People addressed in the warning"
+      "Unnamed people addressed as “ye” (foretold words only)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The passage opens with a singular lament about not repenting and about killing, stoning, and casting out prophets.",
+        "text": "The opening singular lament expresses regret over not repenting and killing, stoning, and casting out prophets; its speaker is not identified in the supplied verses.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The warning speaker introduces words that those addressed will say in a future day.",
+        "text": "The text introduces a collective lament as words those addressed will say in a future day.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The foretold lament regrets not remembering the Lord when he gave them riches and says their riches are gone.",
+        "text": "The foretold collective lament regrets not remembering the Lord when he gave them riches and states that their riches are gone.",
         "refs": [
           "Helaman 13:33"
         ]
       },
       {
-        "text": "The foretold lament says a laid-down tool is gone the next day and swords are taken when sought for battle.",
+        "text": "The lament describes a tool being gone the day after it is laid down and swords being taken when sought for battle.",
         "refs": [
           "Helaman 13:34"
         ]
       },
       {
-        "text": "The foretold lament says hidden treasures have slipped away because of the curse of the land.",
+        "text": "The lament says hidden treasures have slipped away because of the curse of the land.",
         "refs": [
           "Helaman 13:35"
         ]
       },
       {
-        "text": "The foretold lament regrets not repenting when the word of the Lord came and says the land is cursed and all things have become slippery.",
+        "text": "The lament regrets not repenting when the word of the Lord came and describes the land as cursed and all things as slippery and impossible to retain.",
         "refs": [
           "Helaman 13:36"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The warning can be presented as an address, with the people's lament clearly marked as foretold words rather than an event occurring in the scene."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The warning speaker's identity, appearance, clothing, posture, and surroundings are not established by the supplied verses.",
-      "The appearance and arrangement of the people addressed are unspecified."
+      "No physical setting, appearance, clothing, posture, or arrangement of speakers is established.",
+      "The identities and number of those addressed are unspecified."
     ],
     "spoken_dialogue": [
-      {
-        "text": "Yea, in that day ye shall say:",
-        "refs": [
-          "Helaman 13:33"
-        ],
-        "speaker": "Unidentified warning speaker"
-      },
       {
         "text": "O that we had remembered the Lord our God in the day that he gave us our riches,",
         "refs": [
           "Helaman 13:33"
         ],
-        "speaker": "People addressed in the warning (foretold words)"
+        "speaker": "Unnamed people addressed as “ye” (foretold words)"
       },
       {
         "text": "O that we had repented in the day that the word of the Lord came unto us;",
         "refs": [
           "Helaman 13:36"
         ],
-        "speaker": "People addressed in the warning (foretold words)"
+        "speaker": "Unnamed people addressed as “ye” (foretold words)"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The opening singular lament is distinct from the explicitly introduced collective future lament; it is not established as the warning speaker's autobiographical confession.",
-      "The supplied verses do not name the warning speaker. The collective lament is attributed to the people addressed, as foretold by that speaker.",
+      "Keep the unidentified singular lament distinct from the collective foretold lament; do not assign the singular confession to the collective group.",
+      "Present this passage as foretold words, not as a newly enacted future scene.",
+      "The supplied verses do not establish Samuel's physical presence or identify the speaker introducing the collective lament.",
       "The curse and slippery possessions do not establish a visible supernatural event."
     ],
     "prohibited_inventions": [
-      "Do not identify the warning speaker using material outside the supplied verses.",
-      "Do not stage the foretold losses, the treatment of prophets, or a battle as present action.",
-      "Do not depict objects magically disappearing, a visible curse, or a divine appearance.",
-      "Do not invent additional dialogue or individual identities for the people."
+      "Do not identify the opening singular speaker.",
+      "Do not label the unnamed group as people addressed by Samuel.",
+      "Do not assign the introductory words to Samuel.",
+      "Do not stage attacks on prophets, disappearing possessions, treasure loss, or battle as present action.",
+      "Do not invent a visible curse, divine appearance, additional dialogue, or biographies."
     ],
     "importance": "normal"
   },

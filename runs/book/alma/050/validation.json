@@ -1,5 +1,5 @@
 {
-  "stamp": "ea4f1f661a719a2549098e03569740a1940a63e49e0ec059a94620cc2794e953",
+  "stamp": "3333a667e8141d2e115d598f2fc00a4262623e87655da2c31e1b7fce53c1459e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -56,8 +56,12 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene follows the preceding interception without moving the battle earlier; the source does not specify whether the battle occurs at the narrow pass, so keep its location unspecified.",
+        "The summary says the twenty-fourth year ends, but the narration omits that event. If the year-end is narrated, quote its exact wording from Alma 50:35.",
+        "The phrase “army sent by Moroni, led by Teancum” is supported; Moroni is not placed at the battle."
+      ]
     },
     "scene_015": {
       "status": "PASS",

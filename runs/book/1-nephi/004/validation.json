@@ -1,5 +1,5 @@
 {
-  "stamp": "2ef1b4744d026902118152d792285fb8ce8c0e487777fd4233aa464d4bcca122",
+  "stamp": "aff22e85e8b770c2170f1a9909cd052b19542b4b0018bc1bc5cb9171c37e964e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,22 +26,28 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“The servant carries the treasury keys” is more specific than the text, which says the servant had the keys; depict the keys conservatively."
+        "Scene 007's summary says Nephi obeys the Spirit, takes Laban by the hair, and smites off his head, but this combines actions from different moments: verse 18 narrates the blow; verse 19 explicitly places putting on the garments and armor afterward. Preserve that chronology in any depiction.",
+        "The narration contains exact source excerpts, but they are not in contiguous verse order: it omits the intervening blow in verse 18. Keep the actions and narration temporally distinct."
       ]
     },
-    "scene_009": {
+    "scene_008": {
       "status": "PASS",
       "issues": []
     },
+    "scene_009": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene 009's summary accurately reports the encounter, but the narration excerpts omit connective wording; keep the servant's speech and Nephi's replies as reported events, not invented direct dialogue. The notes and prohibitions correctly flag this."
+      ]
+    },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration uses exact excerpts from the supplied verses. The man’s identity and appearance, and the exact words spoken by him and Nephi, are unspecified; the scene appropriately leaves them unidentified and unquoted.",
+        "The brothers’ beliefs about Laban are reported as suppositions, not depicted as events."
+      ]
     },
     "scene_011": {
       "status": "PASS",

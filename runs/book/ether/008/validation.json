@@ -1,5 +1,5 @@
 {
-  "stamp": "ee59276582678dd154908a4a9aec9a68ee363beb536be3abcf88571aa8f851a1",
+  "stamp": "f4e95d0063299415e4de2f263fb8bcdbdc6943014081f5c64f04309fb911bf2e",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -38,12 +38,8 @@
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Unspecified location is appropriately conservative; the verses do not identify where the exchange occurs.",
-        "Akish watching the dance and the two men facing one another are reasonable staging inferences, not explicit facts.",
-        "Narration and dialogue are exact excerpts from the supplied verses. The previous scene preserves the same events and chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",

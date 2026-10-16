@@ -1,5 +1,5 @@
 {
-  "stamp": "6ea36e0ff2a275a8a4158721e2d412a9c3d0553811fa8b821b7059ce39a02402",
+  "stamp": "a48eb3585af578800e16446c413e5ccface4d1f20d6464b89fa2360ce0a3f1eb",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -24,7 +24,7 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary says Alma expounds \"to a man,\" supported by verse 9, but does not identify him; keep the listener unnamed. The visual inference that Alma speaks to the listener is supported. The word \"many\" in the dialogue is not a claim that a crowd is present."
+        "Previous scene places Zeezrom and the surrounding multitude as characters, but the supplied verses for this scene only identify Alma and an unnamed listener. Do not assume Zeezrom or the multitude remain visibly present; their presence is unspecified."
       ]
     },
     "scene_005": {
@@ -52,16 +52,22 @@
       ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The teaching and excerpts are supported. However, the preceding scene's dialogue ends at verse 24, and this scene does not specify whether Alma's speech continues without interruption; depicting an uninterrupted transition is uncertain."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary accurately reports the verses, and the dialogue excerpts are exact. Alma is the present speaker in the surrounding account, but these verses recount earlier dealings without identifying a particular encounter; depicting Alma speaking while recounting them is a reasonable but not explicitly stated visual inference."
+      ]
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The teaching and dialogue excerpts are supported. As in the preceding scene, Alma speaking is consistent with the surrounding account, though the verses do not explicitly stage a present speaking scene; the transition from the previous scene's account is not specified."
+      ]
     },
     "scene_012": {
       "status": "PASS",

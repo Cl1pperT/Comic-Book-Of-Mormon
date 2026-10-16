@@ -1,5 +1,5 @@
 {
-  "stamp": "3e20a3ea188d8514b8ae77c06875cf18bb9b617b3e14be33db6cfeec1c6139cf",
+  "stamp": "787ec89b92cca45b0451e217b95dab52cd40be5e22363291359658b977d5f138",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -32,7 +32,8 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The disciples' ministry is reported as something Moroni and his father have seen, but the verse gives no time or place. Depicting it as a present-time event would assume chronology; keep its timing unspecified."
+        "Moroni and his father are explicit in the verse, but the antecedent of “them” is not given in the supplied text; the verse does not establish that the individuals are unidentified ministers as distinct characters. Treat the identities and number as uncertain.",
+        "The narration is an exact quotation. Preserve its recollection as reported past events, not a present-tense depiction. The preceding scene recounts separate circumstances and does not alter this chronology."
       ]
     },
     "scene_009": {

@@ -1,5 +1,5 @@
 {
-  "stamp": "4abfa2a3e65f183e34effe4698ba0e54ddb81595b8fc23ffa7f438e708b1bf11",
+  "stamp": "85fc3c518d64e79f353d641d823b5a1902dc4d9f9be8a7ead085807eb90cb4f1",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -18,16 +18,12 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Showing the city and inhabitants sinking is a reasonable visual inference; keep the drowning non-graphic."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source states that earth was carried up and a mountain came to occupy the city's place, but does not specify the exact appearance or mechanics; avoid implying more."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",

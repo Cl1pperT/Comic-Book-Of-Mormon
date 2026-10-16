@@ -795,48 +795,64 @@
       "Alma 51:33",
       "Alma 51:34"
     ],
-    "summary": "At night, Teancum and his servant steal into Amalickiah’s camp. Teancum enters the king’s tent and puts a javelin to Amalickiah’s heart, killing him without waking the servants.",
+    "summary": "At night, Teancum and his servant enter Amalickiah’s camp, where sleep has overcome those fatigued by the day’s labors and heat. Teancum secretly enters the king’s tent and kills him immediately with a javelin without waking his servants.",
     "characters": [
       "Teancum",
       "Teancum’s servant",
       "Amalickiah",
-      "Amalickiah’s sleeping servants"
+      "The king’s servants"
     ],
     "locations": [
-      "Amalickiah’s tent"
+      "Amalickiah’s camp",
+      "The king’s tent"
     ],
     "explicit_facts": [
       {
-        "text": "At night, Teancum and his servant went secretly into Amalickiah’s camp while fatigue had overcome the sleepers.",
+        "text": "Teancum and his servant secretly entered Amalickiah’s camp at night.",
         "refs": [
           "Alma 51:33"
         ]
       },
       {
-        "text": "Teancum secretly entered the king’s tent and put a javelin to his heart, causing his immediate death without waking the servants.",
+        "text": "Sleep had overpowered those in the camp because of fatigue caused by the day’s labors and heat.",
+        "refs": [
+          "Alma 51:33"
+        ]
+      },
+      {
+        "text": "Teancum secretly entered the king’s tent, put a javelin to his heart, and caused his immediate death without waking his servants.",
         "refs": [
           "Alma 51:34"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The action may be shown in subdued nighttime lighting without gore."
+      "Subdued nighttime lighting can convey the stated time.",
+      "Restrained movement can convey the explicitly secret entry."
     ],
     "unspecified_visual_details": [
-      "Tent design, clothing, and precise arrangement of the sleeping servants."
+      "Tent construction and layout.",
+      "Clothing, physical appearances, and javelin design.",
+      "The servant’s position after entering the camp and the king’s servants’ exact locations."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Teancum stole privily into the tent of the king",
+        "text": "And it came to pass that Teancum stole privily into the tent of the king, and put a javelin to his heart; and he did cause the death of the king immediately that he did not awake his servants.",
         "refs": [
           "Alma 51:34"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Narration belongs to Mormon; no spoken dialogue is supplied.",
+      "The preceding day’s labors and heat explain the fatigue; do not stage them as a separate event."
+    ],
     "prohibited_inventions": [
-      "Do not depict blood, a visible wound, or severed body parts."
+      "Do not show blood, wounds, or severed body parts; depict the stated javelin action without gore.",
+      "Do not add dialogue, a struggle, an alarm, or an awakening of the king’s servants.",
+      "Do not depict Teancum’s servant entering the tent or assisting in the killing.",
+      "Do not invent motives or additional participants."
     ],
     "importance": "major"
   },

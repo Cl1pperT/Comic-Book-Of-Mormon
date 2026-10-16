@@ -1,9 +1,12 @@
 {
-  "stamp": "93d7bb8897dff3250330911b3877a8c5beb1ac3eeaf39ceeb92cc9e5f2eac587",
+  "stamp": "a523af426880556be452b2188709a08e3b003358c6a37bfcaacf00d67c4e7ed8",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The wording in the explicit fact “Many heard Samuel the Lamanite speak on the city walls” slightly overstates the source: it says many heard Samuel speak “upon the walls of the city,” without specifying that all listeners were on the walls.",
+        "The visual inference that believers are together with Nephi during their confession is reasonable, but the verse does not specify their exact arrangement or whether they are together as a group."
+      ]
     },
     "scene_002": {
       "status": "PASS",

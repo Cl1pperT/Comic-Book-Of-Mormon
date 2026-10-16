@@ -1,5 +1,5 @@
 {
-  "stamp": "216fdd67be04eaa4d423c7819b9e09d77ac7e9e84c819a102ae18cecc99b650a",
+  "stamp": "f9bdfbc8623ca2e688e855feea7dfa4d272c6cb0663469e3d886b5523a3a6e08",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,10 @@
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The actual words spoken by the man are unspecified; the dialogue field quotes Lehi's narration of the speech, not the man's words. The scene correctly notes that no words are quoted."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -30,11 +32,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene's description treats the account as the observer's (Lehi's) view, while the previous scene depicts Nephi's first-person account; avoid implying an uninterrupted viewpoint or chronology.",
-        "“The river’s head” and “a little way off” are supported; broader framing of a continuous landscape is a visual choice, not specified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
@@ -43,10 +42,8 @@
       ]
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene is consistent with verses 17–18. Specific uncertainty: the verses give no precise positions or distance for Laman and Lemuel, as the scene notes."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -55,33 +52,32 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene is consistent with verses 21–22. Specific uncertainty: the text does not specify the people's identities, clothing, or exact positions, as noted."
+        "Verses 21–22 describe people pressing toward the path and then beginning on it; avoid depicting these sequential actions as simultaneous."
       ]
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene omits that the mist was exceedingly great, a detail explicitly stated in the verse."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene does not identify the observer; the surrounding account establishes Lehi as the observer of the vision."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scoffers are described as causing shame, but the verse does not explicitly identify them as the same group of people inside the building from the preceding scene; avoid implying that identity as fact."
+      ]
     },
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The location 'large and spacious field' is not stated in the cited verses for this event."
+        "The visual inference is acceptable, but the exact visual depiction of the rod and tree cannot be determined from these verses; keep their appearance unspecified.",
+        "Lehi is the one who sees the multitudes in the vision; Nephi should appear only as narrator, not within the reported vision."
       ]
     },
     "scene_017": {
@@ -93,16 +89,15 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“The strange building” is supported, but its visual appearance and interior are unspecified and should remain undesigned as fact.",
-        "Lehi’s words identify the scorners as a multitude; the exact people shown pointing and their positions are not specified.",
-        "“These are the words of my father:” is exact source text, but is Nephi’s narration, not Lehi’s spoken dialogue. Keep it as a caption.",
-        "The prior scene reports separate outcomes—drowning and becoming lost—so do not visually combine them with this scene’s building episode or imply the same people are involved."
+        "scene_018: The quoted lines from verse 33 and the excerpt from verse 34 are verbatim. The narration excerpt is also verbatim, but its source labels it as Nephi’s narration, so ensure it is not voiced or presented as Lehi’s speech. The multitude’s entry and pointing are explicitly reported within Lehi’s account; do not stage them as a new present-tense event."
       ]
     },
     "scene_019": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nephi is not identified as present when Lehi exhorts Laman and Lemuel; the text says Lehi spoke 'unto us' but does not specify who was present."
+        "Scene is a summary of reported events after Lehi finished recounting his dream; do not stage the dream or vision as happening now.",
+        "The summary includes the fear that Laman and Lemuel might be cast off, but this specific detail is omitted from narration; no contradiction, though narration is not a complete rendering of the summary.",
+        "The narration uses exact excerpts from the supplied verses. No exact dialogue is supplied, appropriately."
       ]
     }
   }

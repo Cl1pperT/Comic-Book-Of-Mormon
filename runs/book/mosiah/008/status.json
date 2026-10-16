@@ -5,16 +5,20 @@
   "scenes": 8,
   "counts": {
     "PASS": 5,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 0
+    "PASS WITH WARNINGS": 2,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 21,
+  "rejected": {
+    "scene_007": [
+      "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator. This assigns an unsupported speaker."
+    ]
+  },
+  "calls": 40,
   "tokens": {
-    "input_tokens": 152706,
-    "cached_input_tokens": 82176,
+    "input_tokens": 218726,
+    "cached_input_tokens": 95232,
     "cache_write_input_tokens": 0,
-    "output_tokens": 18270,
-    "reasoning_output_tokens": 7554
+    "output_tokens": 21970,
+    "reasoning_output_tokens": 8940
   }
 }

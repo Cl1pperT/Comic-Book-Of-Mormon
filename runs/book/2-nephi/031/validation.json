@@ -1,5 +1,5 @@
 {
-  "stamp": "dfd52e6c8dda12ec9d8df887673d90b8562493e7eab6b9313d3b70d9ac40793f",
+  "stamp": "a63e5825d1f0878e6c25e8ce1b2b053c4bfa7a3734b4e61b5b40200c11144fc8",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -18,7 +18,9 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The suggested “neutral” setting is unspecified by the verses; keep the setting unshown or abstract rather than establishing a location."
+        "Narration excerpts are exact, but the verse’s introductory phrases (“And he said unto the children of men:” and “And the Father said:”) are Nephi’s narration, not speech by those speakers; keep them clearly as narration.",
+        "The spoken dialogue quotes omit the following clause in verse 12 (“wherefore, follow me, and do the things which ye have seen me do”), so the Son’s cited words are incomplete. Include it as a separate exact excerpt if the dialogue is intended to cover the full reported statement.",
+        "No visible appearance is described for the Son or Father, consistent with the stated caution; any depiction of Nephi speaking is an inference, not explicit in these verses."
       ]
     },
     "scene_005": {
@@ -26,8 +28,10 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Son’s and Father’s words are explicitly heard, but their appearances and the setting are unspecified; depict only Nephi listening, if shown. The word “comes” describes the voice, not a visible arrival."
+      ]
     },
     "scene_007": {
       "status": "PASS",

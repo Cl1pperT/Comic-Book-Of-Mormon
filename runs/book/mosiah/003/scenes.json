@@ -758,41 +758,40 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "The Words Conclude",
+    "title": "The Angel's Concluding Words",
     "refs": [
       "Mosiah 3:22",
       "Mosiah 3:23"
     ],
-    "summary": "King Benjamin continues the address, relating the people's accountability after receiving the commanded teachings, and states that he has spoken the words the Lord God commanded him.",
+    "summary": "The angel says that when the addressee has taught his people what the Lord commanded, they are no more blameless in God's sight, only according to the angel's words. The angel says he has spoken the words the Lord God commanded him.",
     "characters": [
+      "Angel",
       "King Benjamin"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The address refers to the time when the addressee will have taught the people what the Lord their God commanded.",
+        "text": "The angel speaks of a time when the addressee will have taught his people what the Lord his God commanded.",
         "refs": [
           "Mosiah 3:22"
         ]
       },
       {
-        "text": "The people are then found no more blameless in God's sight, only according to the words spoken to the addressee.",
+        "text": "The angel says the people are then found no more blameless in God's sight, only according to the words he has spoken to the addressee.",
         "refs": [
           "Mosiah 3:22"
         ]
       },
       {
-        "text": "King Benjamin states that he has spoken the words the Lord God commanded him.",
+        "text": "The angel says he has spoken the words the Lord God commanded him.",
         "refs": [
           "Mosiah 3:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "King Benjamin may be shown continuing the established address."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "King Benjamin's appearance, posture, and gestures.",
+      "The appearance of the angel and the addressee.",
       "The location and physical staging."
     ],
     "spoken_dialogue": [
@@ -801,27 +800,25 @@
         "refs": [
           "Mosiah 3:22"
         ],
-        "speaker": "King Benjamin"
+        "speaker": "Angel"
       },
       {
         "text": "And now I have spoken the words which the Lord God hath commanded me.",
         "refs": [
           "Mosiah 3:23"
         ],
-        "speaker": "King Benjamin"
+        "speaker": "Angel"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "King Benjamin's speaker label preserves the established continuity specified in the audit correction; these two verses do not independently name him.",
-      "The first-person speech is not assigned to Mormon.",
-      "The referenced teaching and accountability are contents of the address, not separate events to stage."
+      "The angel is speaking to King Benjamin; these words are not Benjamin's speech to his people or Mormon's narration.",
+      "The addressee's teaching is described as future, not as an event occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not replace King Benjamin with an unidentified speaker or assign this speech to Mormon.",
-      "Do not stage a separate encounter with the addressee referenced in the speech.",
-      "Do not depict the referenced teaching as a new present-tense event.",
-      "Do not invent a visible appearance for the Lord God, additional dialogue, or audience reactions."
+      "Do not assign either line to King Benjamin or Mormon.",
+      "Do not stage the future teaching or the people's accountability as separate visible events.",
+      "Do not invent an appearance for the angel or the Lord God, additional dialogue, or audience reactions."
     ],
     "importance": "normal"
   },
@@ -894,35 +891,32 @@
       "Mosiah 3:26",
       "Mosiah 3:27"
     ],
-    "summary": "The Lord speaks of wrath, justice, mercy, and torment. King Benjamin says the Lord commanded him and ends with Amen.",
+    "summary": "The angel speaks of God's wrath, justice, mercy, and torment, then says the Lord commanded him and ends with Amen.",
     "characters": [
-      "The Lord",
-      "King Benjamin"
+      "Angel"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says that “they” have drunk from the cup of God's wrath; these verses do not identify “they.”",
+        "text": "The angel says that “they” have drunk from the cup of God's wrath; these verses do not identify them.",
         "refs": [
           "Mosiah 3:26"
         ]
       },
       {
-        "text": "The Lord compares justice's inability to deny them to Adam's fall after partaking of the forbidden fruit, and says mercy can claim them no more forever.",
+        "text": "The angel compares justice's inability to deny them to Adam's fall after partaking of the forbidden fruit, and says mercy can claim them no more forever.",
         "refs": [
           "Mosiah 3:26"
         ]
       },
       {
-        "text": "The Lord compares their torment to a lake of fire and brimstone.",
+        "text": "The angel compares their torment to a lake of fire and brimstone.",
         "refs": [
           "Mosiah 3:27"
         ]
       },
       {
-        "text": "King Benjamin says the Lord commanded him and ends with Amen.",
+        "text": "The angel says the Lord commanded him and ends with Amen.",
         "refs": [
           "Mosiah 3:27"
         ]
@@ -930,7 +924,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "King Benjamin's appearance and surroundings.",
+      "The angel's appearance and surroundings.",
       "The identity and appearance of those called “they” and “them.”"
     ],
     "spoken_dialogue": [
@@ -939,28 +933,28 @@
         "refs": [
           "Mosiah 3:26"
         ],
-        "speaker": "The Lord"
+        "speaker": "Angel"
       },
       {
         "text": "therefore, mercy could have claim on them no more forever.",
         "refs": [
           "Mosiah 3:26"
         ],
-        "speaker": "The Lord"
+        "speaker": "Angel"
       },
       {
         "text": "And their torment is as a lake of fire and brimstone, whose flames are unquenchable, and whose smoke ascendeth up forever and ever.",
         "refs": [
           "Mosiah 3:27"
         ],
-        "speaker": "The Lord"
+        "speaker": "Angel"
       },
       {
         "text": "Thus hath the Lord commanded me. Amen.",
         "refs": [
           "Mosiah 3:27"
         ],
-        "speaker": "King Benjamin"
+        "speaker": "Angel"
       }
     ],
     "narration": [],
@@ -973,7 +967,7 @@
       "Do not identify “they” or “them.”",
       "Do not depict a literal cup of wrath or lake of fire, flames, smoke, or people undergoing torment.",
       "Do not depict Adam's fall or the Lord's command as occurring in this scene.",
-      "Do not invent a visible appearance for the Lord."
+      "Do not invent a visible appearance for the angel or the Lord."
     ],
     "importance": "normal"
   }

@@ -1,5 +1,5 @@
 {
-  "stamp": "0b30c00f0fdf54aca1e5e20c2f0381fa8b182314b98fe8f3b8e8047b679cc8c2",
+  "stamp": "4e061b9590f6a354c0c6c7ac0efdd2e277e51c9b8ca17b1ea8c1c4829a15548b",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -50,7 +50,8 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "scene_009: The warning about destroying liberty is correctly treated as speech rather than a present event. The speaker is the angel who delivered Alma’s first message, but no appearance or setting is established."
+        "Alma 8:14 places this continuing encounter on his journey toward Aaron, so the setting is not wholly unspecified.",
+        "The ban on visibly depicting the angel is overly restrictive: Alma 8:14 explicitly says the angel appeared, though it gives no physical description."
       ]
     },
     "scene_010": {
@@ -98,9 +99,11 @@
       ]
     },
     "scene_018": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "scene_018: Alma 8:31 uses “they” without identifying the subjects within that verse. The scene correctly treats the account as report, not a present-time imprisonment or visible miracle; do not use preceding-scene context to stage the reported events."
+        "Scene order reverses the supplied chronology: scene_017 includes Alma 8:32, which follows this scene’s Alma 8:31.",
+        "The supplied verses identify “they” through the preceding reference to Alma and Amulek; treating them as unidentified is inaccurate.",
+        "The supplied verses do not identify Mormon as the narrator."
       ]
     }
   }

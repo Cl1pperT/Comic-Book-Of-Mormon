@@ -1,15 +1,16 @@
 {
-  "stamp": "6656e8b100e571d542e585761b493031c8417940e17f3341e4243dc4f3894ec4",
+  "stamp": "fe6f682a9b5450ef2d66cfa21a5e3ae5d7b17631b6f543d40ab37f6550318c63",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses do not specify where or when Nephi speaks, or how many brethren are present; those details must remain unspecified. The brethren’s appearance is likewise not established. The future restoration and gathering are correctly treated as future, not as present events."
-      ]
-    },
-    "scene_002": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_002": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Beloved brethren” is a description of the audience, not an explicitly established character label; depict them only as listeners, without implying names or individual identities.",
+        "The address is explicit, but the listeners' appearance and reactions and the setting are unspecified."
+      ]
     },
     "scene_003": {
       "status": "PASS",

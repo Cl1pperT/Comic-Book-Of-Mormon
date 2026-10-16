@@ -53,51 +53,64 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Ammoron Takes the Throne",
+    "title": "Ammoron Appointed King",
     "refs": [
       "Alma 52:3",
       "Alma 52:4"
     ],
-    "summary": "Ammoron is appointed king and commands his people to hold the cities they have taken.",
+    "summary": "Ammoron, Amalickiah’s brother, is appointed king in his stead. He commands his people to maintain the cities they have taken.",
     "characters": [
       "Ammoron",
-      "Lamanite warriors (Amalickiah’s army)"
+      "Ammoron’s people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Amalickiah’s brother Ammoron was appointed king in his stead.",
+        "text": "Ammoron is Amalickiah’s brother and is appointed king in his stead.",
         "refs": [
           "Alma 52:3"
         ]
       },
       {
-        "text": "Ammoron commanded his people to maintain the cities they had taken, at the cost of much bloodshed.",
+        "text": "Ammoron commands his people to maintain the cities they have taken.",
+        "refs": [
+          "Alma 52:4"
+        ]
+      },
+      {
+        "text": "They had lost much blood in taking those cities.",
         "refs": [
           "Alma 52:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammoron can be shown addressing his people as their newly appointed king."
+      "Ammoron may be shown giving a command to members of his people."
     ],
     "unspecified_visual_details": [
-      "The place of appointment, ceremony, clothing, and manner of address are unspecified."
+      "The location, manner of appointment, clothing, and manner of giving the command are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his name was Ammoron",
+        "text": "the brother of Amalickiah was appointed king over the people; and his name was Ammoron",
         "refs": [
           "Alma 52:3"
+        ]
+      },
+      {
+        "text": "he did command that his people should maintain those cities",
+        "refs": [
+          "Alma 52:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict a coronation or invent Ammoron’s exact words."
+      "Do not depict an invented coronation or supply Ammoron’s exact words.",
+      "Do not depict the earlier taking of the cities as occurring during his appointment."
     ],
     "importance": "normal"
   },

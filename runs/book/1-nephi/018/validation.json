@@ -1,5 +1,5 @@
 {
-  "stamp": "8c5bfde7e9b79fe556979fd32790e246f996af021bffc8a91dd6cfe0472ed0b3",
+  "stamp": "ef2be186b4f75a800d1a79ae98b10d54eac7ccd80af35dabcf81bb1cb498aecb",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,8 +18,11 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The party’s identity is left broad by the verse’s collective “we”; the label “Others included in ‘we’” is a cautious but unspecified grouping.",
+        "The narration quotes are exact excerpts; the summary correctly treats Jacob and Joseph’s parentage as retrospective, not as a boarding event."
+      ]
     },
     "scene_006": {
       "status": "PASS",
@@ -42,16 +45,22 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is otherwise consistent with 1 Nephi 18:15 and preserves the chronology after the preceding scene. The label “Nephi’s brethren” is supported; the verse does not specify exactly which brethren are present or show their realization visually, so avoid implying more than the text states."
+      ]
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The stated facts and quoted narration are supported. Specific visual uncertainty: the text says the parents were brought down upon sick-beds, but does not specify that they were lying weakly; the sick-bed setting is a reasonable inference, not a described pose.",
+        "The watery-grave language is figurative peril, not an event to depict; the notes correctly caution against showing them cast into water or dying.",
+        "The preceding scene is Nephi praising God (verse 16); this scene covers the parents' distress in verses 17–18, with no altered chronology. The summary limits itself to supplied events."
+      ]
     },
     "scene_014": {
       "status": "PASS WITH WARNINGS",

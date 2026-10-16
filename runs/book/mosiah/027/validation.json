@@ -1,5 +1,5 @@
 {
-  "stamp": "e9062fb750db3091d092a70bdb4bd807fabb0bd6177497144e99dc46ba6d0813",
+  "stamp": "292e873f16063a91b283e8019a09c1949fd55bf2e7a6377773531e0171f2e7f6",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,12 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Alma “causes dissension,” while verse 9 says he caused dissension among the people; this is supported, though the scene is a narrated summary rather than a specific dramatized moment.",
+        "The narration uses exact excerpts from the supplied verses. The visual inference of showing Alma and the sons of Mosiah together is consistent with verse 10, but the verses do not specify a particular moment or setting.",
+        "The preceding scene summarizes developments over time; this scene shifts to the account of Alma and the sons of Mosiah without presenting the prior developments as simultaneous, so no chronology alteration is apparent."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -49,8 +53,12 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary paraphrases the reported teaching that mankind must be born again; the supplied rules require summaries to contain events only, so this teaching should not be presented as an event.",
+        "Dialogue for Mosiah 27:24 omits the source’s opening words “For, said he,” and Mosiah 27:25 omits “yea, born of God,” so the excerpts are not verbatim contiguous quotations. The dialogue also totals more than 65 words.",
+        "The scene may continue Alma’s speech after the previous scene, but the text does not specify the precise moment represented. Avoid implying a new time or scene break."
+      ]
     },
     "scene_013": {
       "status": "PASS",

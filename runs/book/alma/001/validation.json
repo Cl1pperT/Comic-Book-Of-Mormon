@@ -1,5 +1,5 @@
 {
-  "stamp": "a8bc32fb66b68d06be6651ca02048f119fbc46e4cb4fbb4eafd7a72165e629a7",
+  "stamp": "29b3672c8f2feac8994b95a851723786d8bf0ecf9bf2a0ccf1501f13281dd4cf",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The note “Mormon supplies the narration” identifies a narrator not established by the supplied verses."
+      ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

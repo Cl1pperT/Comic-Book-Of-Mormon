@@ -1,15 +1,18 @@
 {
-  "stamp": "d73381ac2516dcb69ff4984f2b228fa5d3583c4da9519e09c04213f549f5e377",
+  "stamp": "8ff9d45833def2ccdf989787536f727cec3deb6bddcb577aea902dfeb414f9a2",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “cries again unto the Lord” is supported, but should not be treated as supplying prayer words; the verse ends before they are given."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The references and dialogue are accurate, using exact contiguous excerpts. The preceding scene places the brother of Jared on Mount Shelem with sixteen stones, while this scene leaves location unstated; the scene does not explicitly say the prayer continues on the mount, so avoid treating that location as certain.",
-        "The summary and explicit facts accurately convey the prayer and anticipated crossing. The prayer also recalls the wilderness and asks that the people not cross in darkness; omitting these details is acceptable, but the summary should not imply the crossing occurs now."
+        "The scene omits parts of the prayer’s content, including the request for pity and to turn away anger from the people; the selected dialogue excerpts themselves are exact.",
+        "The vessels and sea crossing are anticipated in the prayer, not shown as present events. The warning and prohibition notes correctly distinguish this from a present crossing.",
+        "The prayer’s precise location is unspecified in Ether 3:2–5; the previous scene places the brother of Jared on Mount Shelem, but avoid treating that continuity as certain beyond the supplied sequence."
       ]
     },
     "scene_003": {
@@ -25,37 +28,26 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary's phrase “giving eternal life” should remain a reported teaching, not a separately depicted event; its reference to believers is supported by Ether 3:14.",
-        "The man's identity and the location are unspecified in verses 13–14; the scene correctly avoids naming or locating him.",
-        "The previous scene places the exchange at Mount Shelem, but that location is not established by the supplied verses for this scene; do not carry it forward as fact."
-      ]
-    },
-    "scene_007": {
       "status": "PASS",
       "issues": []
     },
-    "scene_008": {
+    "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Mount Shelem is not named in these retrospective verses; carrying the location over from the preceding encounter is a reasonable continuity inference, not an explicit fact here. The scene correctly notes that no new visual moment is specified."
+        "The explicit fact says “all men” were created in his image, but the summary generalizes this to “people.” Keep the claim within the source’s wording."
       ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Mount Shelem is not named in these retrospective verses; carrying the location over from the preceding encounter is a reasonable continuity inference, not an explicit fact here. The scene correctly frames this as a recap, not a separate event."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary says the Lord will write and seal the things, but Ether 3:22 says the brother of Jared will write and seal them. Correct the actor.",
-        "The summary's statement that the stones will magnify the writing 'in his due time' is inaccurate: Ether 3:24 says 'in my own due time.'",
-        "The dialogue excerpts are not verbatim contiguous quotations: they alter source wording and omit surrounding words. For example, Ether 3:22 says 'ye shall write them and shall seal them up'; Ether 3:23 begins 'And behold, these two stones will I give unto thee'.",
-        "The speaker label 'The Lord' is supported by Ether 3:21–24, but depicting the Lord visibly is prohibited by the scene's unspecified visual details and the source does not describe his appearance here."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",

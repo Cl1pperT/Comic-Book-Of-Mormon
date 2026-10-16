@@ -1,5 +1,5 @@
 {
-  "stamp": "3ac43745fffc5d2e0601309538aa19950f180437225513f56d55c3cab8808e05",
+  "stamp": "3f7095664675bec68427cba45898ef563901c4be67e597dc79641a1f446f0621",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's summary, quoted narration, and dialogue accurately reflect Mosiah 28:6–7, and it does not alter the prior scene's chronology. The visual inference is conservative; the location and manner of communication are unspecified. The note that the promises are not shown fulfilled correctly avoids depicting events from later verses."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -26,8 +28,11 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary’s claim that Mosiah took the records “after translating” is ambiguous: verse 11 places the translation and writing before taking the records, but does not specify exactly when the taking occurred. The note correctly cautions against depicting the earlier translation as concurrent.",
+        "The visual inference that Mosiah may be shown handling the records is reasonable, though the source does not specify a physical manner of taking them. The quoted narration is exact and within the word limit. The scene does not alter the preceding scene’s chronology."
+      ]
     },
     "scene_008": {
       "status": "PASS",

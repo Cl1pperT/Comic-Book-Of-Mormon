@@ -1,5 +1,5 @@
 {
-  "stamp": "df628cf268da87d398d5b809a460134fe2203fab31c76f6cb42a689b9bf15f36",
+  "stamp": "90927243b6828141763dfcd5b2b349f73a319982d0ac3691305c9687ae4d0ba4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,8 +26,10 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The claim that the tree's visual details are unspecified is too broad: the preceding scene's source, 1 Nephi 11:8, specifies its exceptional beauty and whiteness."
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -58,8 +60,10 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary, facts, and narration align with 1 Nephi 11:25. The rod, fountain, and tree may be shown as things Nephi beholds, but the verse does not specify their visual appearance or arrangement; keep those depictions conservative. The prior scene's chronology is consistent. The narration is an exact source quotation and within the word limit."
+      ]
     },
     "scene_015": {
       "status": "PASS",
@@ -86,8 +90,11 @@
       "issues": []
     },
     "scene_021": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Scene says the angel spoke about “the gathering,” but the quoted words identify the house of Israel as gathered to fight; the summary should preserve that wording.",
+        "The visual inference placing the gathered multitude inside the building is reasonable, but the text does not explicitly say the fighting multitude and the building's occupants are identical."
+      ]
     },
     "scene_022": {
       "status": "PASS",

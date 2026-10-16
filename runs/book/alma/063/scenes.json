@@ -139,40 +139,66 @@
     "refs": [
       "Alma 63:5"
     ],
-    "summary": "Hagoth builds a very large ship on the borders of Bountiful by Desolation and launches it into the west sea near the narrow neck leading northward.",
+    "summary": "Hagoth built an exceedingly large ship on the borders of Bountiful by Desolation, then launched it into the west sea by the narrow neck leading into the land northward.",
     "characters": [
       "Hagoth"
     ],
     "locations": [
-      "Borders of Bountiful by Desolation",
-      "West sea"
+      "Borders of the land Bountiful by the land Desolation",
+      "West sea",
+      "Narrow neck leading into the land northward"
     ],
     "explicit_facts": [
       {
-        "text": "Hagoth built an exceedingly large ship on the borders of Bountiful by Desolation and launched it into the west sea by the narrow neck leading to the land northward.",
+        "text": "Hagoth was an exceedingly curious man.",
+        "refs": [
+          "Alma 63:5"
+        ]
+      },
+      {
+        "text": "Hagoth built an exceedingly large ship on the borders of Bountiful by Desolation.",
+        "refs": [
+          "Alma 63:5"
+        ]
+      },
+      {
+        "text": "He launched the ship into the west sea by the narrow neck leading into the land northward.",
         "refs": [
           "Alma 63:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The ship is at the shoreline as it is launched."
+      "The launch location adjoined the water."
     ],
     "unspecified_visual_details": [
-      "The ship's design, materials, and appearance; the surrounding terrain."
+      "Hagoth's appearance and clothing.",
+      "The ship's precise dimensions, design, and materials.",
+      "The terrain's appearance and the launch mechanism."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "built him an exceedingly large ship",
+        "text": "Hagoth, he being an exceedingly curious man, therefore he went forth and built him an exceedingly large ship",
+        "refs": [
+          "Alma 63:5"
+        ]
+      },
+      {
+        "text": "and launched it forth into the west sea, by the narrow neck which led into the land northward.",
         "refs": [
           "Alma 63:5"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Mormon narrates this account; no speech is attributed to Hagoth.",
+      "Preserve this as a narrated report, with construction preceding launch, rather than inventing a present-tense reenactment or making the actions simultaneous."
+    ],
     "prohibited_inventions": [
-      "Do not invent shipbuilding methods, additional workers, or dialogue."
+      "Do not invent workers, passengers, dialogue, shipbuilding methods, or launch procedures.",
+      "Do not add a voyage, destination, or motive.",
+      "Do not depict Mormon as physically present."
     ],
     "importance": "normal"
   },
@@ -263,56 +289,70 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Ships Disappear from the Record",
+    "title": "Another Ship Sails Forth",
     "refs": [
       "Alma 63:8"
     ],
-    "summary": "The people on the northward voyage are never heard of again; the narrator supposes they drowned. Another ship sails, but its destination is unknown.",
+    "summary": "They were never heard of again. Mormon supposes they drowned in the sea. One other ship sailed forth, but where it went is unknown.",
     "characters": [],
     "locations": [
-      "West sea"
+      "Sea"
     ],
     "explicit_facts": [
       {
-        "text": "The people on the voyage were never heard of more; the narrator supposes they drowned in the depths of the sea.",
+        "text": "They were never heard of again.",
         "refs": [
           "Alma 63:8"
         ]
       },
       {
-        "text": "Another ship sailed forth, and its destination was unknown.",
+        "text": "Mormon supposes they drowned in the depths of the sea; this is not a confirmed event.",
+        "refs": [
+          "Alma 63:8"
+        ]
+      },
+      {
+        "text": "One other ship sailed forth, and Mormon does not know where it went.",
         "refs": [
           "Alma 63:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A ship sailing away on the sea may be shown, without depicting the passengers' fate."
+      "The other ship may be shown sailing away on the sea."
     ],
     "unspecified_visual_details": [
-      "Whether the other ship had passengers and where it went."
+      "The other ship’s appearance, passengers, and destination are unspecified.",
+      "The identities of those never heard of again are not given in this verse."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were never heard of more.",
+        "text": "And it came to pass that they were never heard of more.",
         "refs": [
           "Alma 63:8"
         ]
       },
       {
-        "text": "whither she did go we know not.",
+        "text": "And we suppose that they were drowned in the depths of the sea.",
+        "refs": [
+          "Alma 63:8"
+        ]
+      },
+      {
+        "text": "And it came to pass that one other ship also did sail forth; and whither she did go we know not.",
         "refs": [
           "Alma 63:8"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The drowning is presented as a supposition, not a witnessed event."
+      "The drowning is Mormon’s supposition, not a witnessed event. Only the other ship’s destination is stated to be unknown."
     ],
     "prohibited_inventions": [
       "Do not depict a shipwreck or drowning as a confirmed event.",
-      "Do not show where the other ship went."
+      "Do not show where the other ship went.",
+      "Do not identify the people referred to as “they” from this verse alone."
     ],
     "importance": "normal"
   },
@@ -415,29 +455,35 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "Record of the Sacred Things Conferred Upon Helaman",
+    "title": "The Sacred Things Conferred Upon Helaman",
     "refs": [
       "Alma 63:11",
       "Alma 63:13"
     ],
-    "summary": "The sacred things had been conferred upon Helaman, son of Helaman, before Shiblon's death.",
+    "summary": "The sacred things were conferred upon Helaman, son of Helaman, before Shiblon's death.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "It became expedient for Shiblon to confer the sacred things before his death upon Helaman, son of Helaman, who was named after his father.",
+        "text": "Shiblon was to confer the sacred things upon the son of Helaman, who was also called Helaman, before Shiblon's death.",
         "refs": [
           "Alma 63:11"
         ]
       },
       {
-        "text": "The sacred things were to be kept sacred and handed down from one generation to another.",
+        "text": "Helaman was called after the name of his father.",
+        "refs": [
+          "Alma 63:11"
+        ]
+      },
+      {
+        "text": "The things were to be kept sacred and handed down from one generation to another.",
         "refs": [
           "Alma 63:13"
         ]
       },
       {
-        "text": "In this year, the sacred things had been conferred upon Helaman before Shiblon's death.",
+        "text": "In this year, the things had been conferred upon Helaman before Shiblon's death.",
         "refs": [
           "Alma 63:13"
         ]
@@ -445,7 +491,7 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The source does not specify the appearance or contents of the sacred things, the location, or the manner of conferral.",
+      "The appearance and contents of the sacred things, the location, and the manner of conferral are not specified.",
       "Typography and a neutral background for a text-only presentation are creative design choices."
     ],
     "spoken_dialogue": [],
@@ -458,16 +504,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Use a text-only presentation of the reported event, not a staged transfer or flashback.",
-      "Shiblon and Helaman are mentioned in the account, not established as visibly present in a narrated scene.",
-      "Helaman's father is identified only through the stated relationship and naming."
+      "Present the conferral as a reported event, not a newly staged scene.",
+      "Shiblon and Helaman are mentioned but are not established as visibly present."
     ],
     "prohibited_inventions": [
-      "Do not stage Shiblon and Helaman together or depict a physical handover.",
-      "Do not depict Shiblon's death.",
-      "Do not invent the sacred objects' appearance or contents.",
-      "Do not depict subsequent generations receiving the sacred things.",
-      "Do not invent dialogue, a ceremony, or a setting."
+      "Do not stage a physical handover or depict Shiblon's death.",
+      "Do not invent the sacred things' appearance or contents, dialogue, a ceremony, or a setting.",
+      "Do not depict subsequent generations receiving the sacred things."
     ],
     "importance": "normal"
   },

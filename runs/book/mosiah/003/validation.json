@@ -1,5 +1,5 @@
 {
-  "stamp": "f3998bd3312e45808f60072d8acc5d824eeaa102bad8cec5d814b78493120aec",
+  "stamp": "b338796df2796b05d460eba2b03711c838622ec365ed57153cba3f253640edc4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -68,12 +68,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied verses present this as King Benjamin reporting the Lord’s words; they do not establish the Lord as a present, visibly depicted character. The wording correctly identifies the Lord as the quoted speaker, but the scene should not show him appearing.",
-        "The comparison to a lake of fire and brimstone is correctly treated as figurative, not as a visible setting. The unidentified “they” and “them” should remain unidentified.",
-        "The preceding scene describes future judgment and consequences, not events occurring in the present. This scene likewise avoids staging those events as present action. The dialogue is verbatim and within the 65-word limit."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

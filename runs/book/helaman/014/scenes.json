@@ -6,7 +6,7 @@
       "Helaman 14:1",
       "Helaman 14:2"
     ],
-    "summary": "Samuel prophesies to the people and announces a sign five years hence: the Son of God will come to redeem believers.",
+    "summary": "Samuel prophesies further things and tells the people that the Son of God will come in five years to redeem those who believe on his name.",
     "characters": [
       "Samuel the Lamanite"
     ],
@@ -15,41 +15,48 @@
     ],
     "explicit_facts": [
       {
-        "text": "Samuel prophesies further things and gives a sign concerning the Son of God coming in five years.",
+        "text": "Samuel the Lamanite prophesies many more things that cannot be written.",
         "refs": [
-          "Helaman 14:1",
+          "Helaman 14:1"
+        ]
+      },
+      {
+        "text": "Samuel gives the people a sign: in five years the Son of God will come to redeem those who believe on his name.",
+        "refs": [
           "Helaman 14:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Samuel is speaking to an audience."
+      "Samuel speaks to an audience."
     ],
     "unspecified_visual_details": [
-      "The audience's appearance, size, and exact location."
+      "The audience's size and appearance.",
+      "The exact location."
     ],
     "spoken_dialogue": [
       {
-        "text": "Behold, I give unto you a sign;",
-        "refs": [
-          "Helaman 14:2"
-        ],
-        "speaker": "Samuel the Lamanite"
-      },
-      {
-        "text": "for five years more cometh,",
+        "text": "Behold, I give unto you a sign; for five years more cometh, and behold, then cometh the Son of God to redeem all those who shall believe on his name.",
         "refs": [
           "Helaman 14:2"
         ],
         "speaker": "Samuel the Lamanite"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And now it came to pass that Samuel, the Lamanite, did prophesy a great many more things which cannot be written.",
+        "refs": [
+          "Helaman 14:1"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The prophecy concerns the future, not an event occurring in this scene."
+      "The Son of God's coming is foretold, not depicted as happening in this scene."
     ],
     "prohibited_inventions": [
-      "Depicting the Son of God visibly in this scene."
+      "Depicting the Son of God visibly in this scene.",
+      "Inventing the contents of Samuel's unwritten prophecies."
     ],
     "importance": "normal"
   },

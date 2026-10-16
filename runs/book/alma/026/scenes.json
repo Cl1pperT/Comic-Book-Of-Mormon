@@ -1085,10 +1085,10 @@
       "Alma 26:32",
       "Alma 26:33"
     ],
-    "summary": "A speaker says that a group would rather sacrifice their lives than kill an enemy and had buried their weapons because of love for their brethren. The speaker says there had been no such great love in all the land, even among the Nephites.",
+    "summary": "Ammon says that a group would rather sacrifice their lives than kill an enemy, that they have buried their weapons because of love for their brethren, and that such love has not been found in all the land, even among the Nephites.",
     "characters": [
-      "Unnamed group",
-      "Unidentified speaker"
+      "Ammon",
+      "Unnamed group"
     ],
     "locations": [
       "Unspecified location"
@@ -1101,50 +1101,49 @@
         ]
       },
       {
-        "text": "The group had buried their weapons of war deep in the earth because of love toward their brethren.",
+        "text": "The group has buried its weapons of war deep in the earth because of love toward its brethren.",
         "refs": [
           "Alma 26:32"
         ]
       },
       {
-        "text": "The speaker says there had been no such great love in all the land, even among the Nephites.",
+        "text": "Ammon says there has been no such great love in all the land, even among the Nephites.",
         "refs": [
           "Alma 26:33"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Ammon is addressing listeners, as indicated by “I say unto you.”"
+    ],
     "unspecified_visual_details": [
-      "The group is identified in the supplied verses only as “they”; its members' appearances are unspecified.",
-      "The burial's time, place, and manner are unspecified.",
-      "The speaker's appearance and location are unspecified."
+      "Ammon’s appearance and the address’s location are unspecified.",
+      "The group’s appearance and the time, place, and manner of the burial are unspecified."
     ],
     "spoken_dialogue": [
+      {
+        "text": "they had rather sacrifice their lives than even to take the life of their enemy; and they have buried their weapons of war deep in the earth, because of their love towards their brethren.",
+        "refs": [
+          "Alma 26:32"
+        ],
+        "speaker": "Ammon"
+      },
       {
         "text": "And now behold I say unto you, has there been so great love in all the land? Behold, I say unto you, Nay, there has not, even among the Nephites.",
         "refs": [
           "Alma 26:33"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Ammon"
       }
     ],
-    "narration": [
-      {
-        "text": "they have buried their weapons of war deep in the earth, because of their love towards their brethren.",
-        "refs": [
-          "Alma 26:32"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The burial is reported as already completed, not as happening during the address.",
-      "The supplied verses do not identify “they” more specifically; calling them “these our brethren” would add words not found in the supplied text."
+      "The burial is reported as already completed, not as happening during Ammon’s address."
     ],
     "prohibited_inventions": [
-      "Do not identify the group as Lamanite converts on the basis of these verses alone.",
+      "Do not identify the group more specifically from these verses alone.",
       "Do not depict the reported burial as happening during the address.",
-      "Do not invent an enemy encounter, combat, or named members of the group.",
-      "Do not assign the speech to a named speaker not identified by the supplied verses."
+      "Do not invent an enemy encounter, combat, or named members of the group."
     ],
     "importance": "normal"
   },

@@ -347,46 +347,61 @@
     "refs": [
       "3 Nephi 11:12"
     ],
-    "summary": "After Jesus speaks, the multitude falls to the earth, remembering the prophecy that Christ would show himself after his ascension.",
+    "summary": "After Jesus speaks, the whole multitude falls to the earth. They remember a prophecy that Christ would show himself to them after his ascension into heaven.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "the people of Nephi"
+      "Jesus Christ",
+      "the whole multitude"
     ],
-    "locations": [
-      "the temple in the land Bountiful"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After Jesus spoke, the multitude fell to the earth and remembered the prophecy that Christ would show himself after his ascension into heaven.",
+        "text": "Jesus had spoken before the multitude fell to the earth.",
+        "refs": [
+          "3 Nephi 11:12"
+        ]
+      },
+      {
+        "text": "The whole multitude fell to the earth.",
+        "refs": [
+          "3 Nephi 11:12"
+        ]
+      },
+      {
+        "text": "The multitude remembered that it had been prophesied among them that Christ would show himself to them after his ascension into heaven.",
         "refs": [
           "3 Nephi 11:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people are shown fallen before Jesus."
+      "The multitude can be shown on the ground."
     ],
     "unspecified_visual_details": [
-      "The multitude's expressions and exact arrangement"
+      "The multitude's arrangement and expressions",
+      "Jesus's appearance and the setting"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the whole multitude fell to the earth",
+        "text": "the whole multitude fell to the earth;",
         "refs": [
           "3 Nephi 11:12"
         ]
       },
       {
-        "text": "it had been prophesied among them",
+        "text": "they remembered that it had been prophesied among them that Christ should show himself unto them after his ascension into heaven.",
         "refs": [
           "3 Nephi 11:12"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The prophecy is remembered, not shown as a separate event."
+    ],
     "prohibited_inventions": [
-      "Do not depict the earlier prophecy as a separate flashback."
+      "Do not invent the words Jesus had spoken.",
+      "Do not depict the earlier prophecy or the ascension as happening in this scene.",
+      "Do not invent a location or Jesus's appearance."
     ],
     "importance": "normal"
   },
@@ -549,58 +564,65 @@
       "3 Nephi 11:19",
       "3 Nephi 11:20"
     ],
-    "summary": "Jesus calls Nephi, who comes forth, bows, kisses Jesus's feet, then rises and stands before him when commanded.",
+    "summary": "The Lord commands Nephi to come forth from the multitude. Nephi goes forth, bows before the Lord, and kisses his feet. At the Lord's command, Nephi rises and stands before him.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "Nephi (disciple, son of Nephi)",
-      "the people of Nephi"
+      "the Lord",
+      "Nephi",
+      "the multitude"
     ],
-    "locations": [
-      "the temple in the land Bountiful"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Jesus spoke to Nephi, who was among the multitude, and commanded him to come forth.",
+        "text": "Nephi was among the multitude, and the Lord commanded him to come forth.",
         "refs": [
           "3 Nephi 11:18"
         ]
       },
       {
-        "text": "Nephi arose, went forth, bowed before Jesus, and kissed his feet.",
+        "text": "Nephi arose, went forth, bowed before the Lord, and kissed his feet.",
         "refs": [
           "3 Nephi 11:19"
         ]
       },
       {
-        "text": "Jesus commanded Nephi to arise, and Nephi rose and stood before him.",
+        "text": "The Lord commanded Nephi to arise, and Nephi arose and stood before him.",
         "refs": [
           "3 Nephi 11:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi stands facing Jesus after rising."
+      "Nephi moves away from the multitude toward the Lord."
     ],
     "unspecified_visual_details": [
-      "Nephi's age, clothing, and physical features"
+      "The setting, clothing, ages, and physical features are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Nephi arose and went forth",
+        "text": "And it came to pass that he spake unto Nephi (for Nephi was among the multitude) and he commanded him that he should come forth.",
+        "refs": [
+          "3 Nephi 11:18"
+        ]
+      },
+      {
+        "text": "And Nephi arose and went forth, and bowed himself before the Lord and did kiss his feet.",
         "refs": [
           "3 Nephi 11:19"
         ]
       },
       {
-        "text": "he arose and stood before him",
+        "text": "And the Lord commanded him that he should arise. And he arose and stood before him.",
         "refs": [
           "3 Nephi 11:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
-    "prohibited_inventions": [],
+    "prohibited_inventions": [
+      "Do not invent the Lord's exact spoken words.",
+      "Do not specify a location or physical appearance not given in these verses."
+    ],
     "importance": "normal"
   },
   {

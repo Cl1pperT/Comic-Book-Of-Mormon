@@ -1,5 +1,5 @@
 {
-  "stamp": "fd0003a35d80a4c2f2112fc65eb7fdd7eaa5d8bd8695a3e8933b4099aa193cc6",
+  "stamp": "54ef5a8b7c60a0488a16dc006803b3b093da518262942b850e2e9142940dc823",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,8 +10,10 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Lettering to represent Isaiah’s words is an optional visual treatment, not specified by the verses. Avoid presenting it as a physical event."
+      ]
     },
     "scene_004": {
       "status": "PASS",
@@ -22,8 +24,12 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "2 Nephi 6:8 identifies the continuing speaker as Jacob, not Nephi. The summary, character, explicit facts, dialogue speaker labels, and visual inference misattribute his report.",
+        "The preceding scene depicts Jacob speaking; switching to Nephi in this continuation alters that continuity.",
+        "The notes falsely claim that the supplied verse identifies Nephi and that no preceding scene was supplied."
+      ]
     },
     "scene_007": {
       "status": "PASS",
@@ -38,10 +44,8 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "“Humbled” interprets the figurative phrase “lick up the dust of their feet”; the verse does not explicitly state that interpretation."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS",
@@ -56,10 +60,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The note calls the flesh-and-blood imagery figurative, but the verse does not explicitly identify it as figurative; conservatively avoid depicting it literally or as gore."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

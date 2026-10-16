@@ -12,33 +12,45 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The law of Mosiah provided that judges receive wages according to the time they labored.",
+        "text": "The law of Mosiah provided wages for judges according to the time they labored.",
         "refs": [
           "Alma 11:1"
         ]
       },
       {
-        "text": "Under the stated procedure, a judge sent officers to bring a person accused of not paying a debt before him and judged according to law and evidence.",
+        "text": "If a person did not pay a debt, the creditor could complain to a judge, who sent officers to bring the debtor before him and judged according to law and evidence.",
         "refs": [
           "Alma 11:2"
         ]
       },
       {
-        "text": "The stated daily wage was a senine of gold or a senum of silver, which were equal in value.",
+        "text": "The debtor could be compelled to pay, stripped, or cast out from among the people as a thief and a robber.",
+        "refs": [
+          "Alma 11:2"
+        ]
+      },
+      {
+        "text": "A judge’s daily wage was a senine of gold or a senum of silver, equal in value.",
         "refs": [
           "Alma 11:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The two wage amounts could be shown as labeled alternatives without depicting an actual payment."
+      "The two daily wage amounts could be shown as labeled alternatives without depicting an actual payment."
     ],
     "unspecified_visual_details": [
       "The appearance of judges, officers, and currency.",
-      "Any setting in which the law might be illustrated."
+      "Any setting used to illustrate the law."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Now it was in the law of Mosiah that every man who was a judge of the law, or those who were appointed to be judges, should receive wages according to the time which they labored to judge those who were brought before them to be judged.",
+        "refs": [
+          "Alma 11:1"
+        ]
+      },
       {
         "text": "a senine of gold for a day, or a senum of silver",
         "refs": [
@@ -549,7 +561,7 @@
       "Alma 11:36",
       "Alma 11:37"
     ],
-    "summary": "Zeezrom asks whether the one who shall come is the Son of God and whether he will save his people in their sins. Amulek answers. Zeezrom addresses the people, and Amulek disputes what Zeezrom says about his words.",
+    "summary": "Zeezrom questions Amulek about the Son of God and whether he will save his people in their sins. Amulek answers. Zeezrom addresses the people about Amulek's words; Amulek says Zeezrom has lied and continues his answer.",
     "characters": [
       "Zeezrom",
       "Amulek",
@@ -579,7 +591,7 @@
         ]
       },
       {
-        "text": "Zeezrom addresses the people and says Amulek spoke as though he had authority to command God.",
+        "text": "Zeezrom tells the people that Amulek speaks as though he has authority to command God.",
         "refs": [
           "Alma 11:35"
         ]
@@ -591,7 +603,7 @@
         ]
       },
       {
-        "text": "Amulek teaches that no unclean thing can inherit the kingdom of heaven and that people cannot be saved in their sins.",
+        "text": "Amulek says that no unclean thing can inherit the kingdom of heaven and that people cannot be saved in their sins.",
         "refs": [
           "Alma 11:37"
         ]
@@ -606,7 +618,7 @@
     ],
     "spoken_dialogue": [
       {
-        "text": "Who is he that shall come? Is it the Son of God?",
+        "text": "Is it the Son of God?",
         "refs": [
           "Alma 11:32"
         ],
@@ -627,14 +639,14 @@
         "speaker": "Zeezrom"
       },
       {
-        "text": "I say unto you he shall not, for it is impossible for him to deny his word.",
+        "text": "I say unto you he shall not,",
         "refs": [
           "Alma 11:34"
         ],
         "speaker": "Amulek"
       },
       {
-        "text": "See that ye remember these things;",
+        "text": "he saith that the Son of God shall come, but he shall not save his people—as though he had authority to command God.",
         "refs": [
           "Alma 11:35"
         ],
@@ -690,19 +702,19 @@
         ]
       },
       {
-        "text": "Amulek affirms that he is the Eternal Father of heaven and earth and all things in them, the beginning and the end, the first and the last.",
+        "text": "Amulek answers that he is the very Eternal Father of heaven and earth and all things in them, the beginning and the end, the first and the last.",
         "refs": [
           "Alma 11:39"
         ]
       },
       {
-        "text": "Amulek teaches that he shall come into the world to redeem his people, take upon him the transgressions of those who believe on his name, and that they shall have eternal life.",
+        "text": "Amulek teaches that he shall come into the world to redeem his people and take upon him the transgressions of those who believe on his name; they shall have eternal life, and salvation comes to none else.",
         "refs": [
           "Alma 11:40"
         ]
       },
       {
-        "text": "Amulek teaches that all shall rise from the dead, stand before God, and be judged according to their works.",
+        "text": "Amulek teaches that the wicked remain as though no redemption had been made, except for the loosing of the bands of death, and that all shall rise, stand before God, and be judged according to their works.",
         "refs": [
           "Alma 11:41"
         ]
@@ -712,7 +724,7 @@
       "Zeezrom and Amulek are engaged in an exchange."
     ],
     "unspecified_visual_details": [
-      "Their clothing and appearance are unspecified.",
+      "Their appearance and clothing are unspecified.",
       "The setting is unspecified."
     ],
     "spoken_dialogue": [
@@ -724,7 +736,7 @@
         "speaker": "Zeezrom"
       },
       {
-        "text": "Yea, he is the very Eternal Father of heaven and of earth,",
+        "text": "Yea, he is the very Eternal Father of heaven and of earth, and all things which in them are; he is the beginning and the end, the first and the last;",
         "refs": [
           "Alma 11:39"
         ],
@@ -738,14 +750,7 @@
         "speaker": "Amulek"
       },
       {
-        "text": "and these are they that shall have eternal life,",
-        "refs": [
-          "Alma 11:40"
-        ],
-        "speaker": "Amulek"
-      },
-      {
-        "text": "and be judged according to their works.",
+        "text": "for behold, the day cometh that all shall rise from the dead",
         "refs": [
           "Alma 11:41"
         ],
@@ -754,11 +759,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Redemption, resurrection, and judgment are taught here, not narrated as events occurring during the exchange."
+      "Amulek is answering Zeezrom's question about the Son of God. Redemption, resurrection, and judgment are teachings here, not events occurring during the exchange."
     ],
     "prohibited_inventions": [
       "Do not depict the future coming, resurrection, or judgment as occurring during this exchange.",
-      "Do not invent an appearance for the Son of God or God."
+      "Do not invent a visible appearance for the Son of God or God."
     ],
     "importance": "normal"
   },

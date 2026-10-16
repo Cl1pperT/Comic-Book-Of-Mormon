@@ -1,5 +1,5 @@
 {
-  "stamp": "748a4d74a379a53454cdada9a909b62c6c17144ee80247c38f82b4db5d3c1a43",
+  "stamp": "73201742074ec3af9d7d0571fedb0f6d21f0342a821b0c7803a074cd65a4e229",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -97,8 +97,12 @@
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary and explicit facts accurately describe Alma 30:52–53. The angel appearance and the devil’s instruction are reported events, not part of the present writing action; the notes correctly prohibit staging them in this scene.",
+        "Narration quotes are exact contiguous excerpts, within the word limit, and appropriately present written words and reported speech as narration rather than present spoken dialogue.",
+        "The previous scene’s chronology is consistent: Korihor is struck dumb before he writes. The source does not specify the writing surface or surroundings. No chief judge, Alma, or other character is asserted present in this scene."
+      ]
     },
     "scene_019": {
       "status": "PASS WITH WARNINGS",
@@ -115,7 +119,9 @@
     "scene_021": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The Zoramites are named as the people among whom Korihor goes, but the person or group that runs upon and tramples him is unspecified. Do not identify the attackers."
+        "Explicit facts, character, location, and narration align with Alma 30:59–60; commentary is correctly identified as narration rather than a separate event. The Zoramites' separation from the Nephites and leadership by Zoram are also supported by verse 59.",
+        "Visualize the trampling only as the text states, without specifying the perpetrators, precise setting, or adding injuries. The inference that it can be shown without gore is permissible; no such visual is required.",
+        "Previous scene reports Korihor begging and the proclamation's effects; this scene correctly follows with his later journey among the Zoramites without merging those events."
       ]
     }
   }

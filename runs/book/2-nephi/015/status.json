@@ -4,17 +4,21 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 6,
-    "PASS WITH WARNINGS": 10,
-    "REJECT": 0
+    "PASS": 9,
+    "PASS WITH WARNINGS": 6,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 83,
+  "rejected": {
+    "scene_003": [
+      "The note identifying Nephi as the chapter’s first-person narrator is unsupported by the supplied verses. The preceding scene also identifies Nephi as the speaker without support; the current scene correctly leaves the speaker unidentified."
+    ]
+  },
+  "calls": 109,
   "tokens": {
-    "input_tokens": 339587,
-    "cached_input_tokens": 109824,
+    "input_tokens": 485705,
+    "cached_input_tokens": 201216,
     "cache_write_input_tokens": 0,
-    "output_tokens": 41370,
-    "reasoning_output_tokens": 15817
+    "output_tokens": 58694,
+    "reasoning_output_tokens": 23864
   }
 }

@@ -1,71 +1,68 @@
 {
-  "stamp": "6ab0b8c1b735aec53473ae0e5f81c88312b4d8e40692702b8a2c71b7259366a5",
+  "stamp": "9f2e49de217f4837b683a8f8d0e4bb6aed211c9f9d909f61e3f71d0bd7019b44",
   "results": {
     "scene_001": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "Nephi is not named in these verses; identification as the narrator relies on the supplied instruction that Nephi is the first-person narrator. The exact quotations, reported witness-taking, and instruction not to stage it are otherwise source-faithful."
+        "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, and story notes all assert that identity without support."
       ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nephi is not named in these verses; identification as narrator/addressee relies on the supplied context. The Lord's prediction is quoted exactly, but its character label as “voice only” is an interpretation; the verses do not specify how the Lord's words are conveyed."
+        "scene_002: “The Lord tells Nephi” is a reasonable inference from “Then said the Lord to me,” but the narrator is not named in the verses. The predicted taking before the king of Assyria is reported as future, not a present event."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Nephi is not named in these verses; identification of the first-person narrator as Nephi relies on the supplied context. The speech and the caution not to stage the people's refusal or rejoicing are source-faithful."
+        "scene_003: The narrator is not named in these verses; identifying the first-person speaker as Nephi relies on the supplied label. The setting and whether the Lord is heard or otherwise communicates are unspecified."
       ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "These verses are prophecy using river imagery, not a present-tense event. The spoken dialogue excerpt is exact, but the forecast should not be staged as an actual flood or visible Assyrian army."
+        "The summaries, facts, and notes appropriately treat the river and wings as prophetic imagery rather than present events. The quoted dialogue is verbatim.",
+        "The identity of the prophetic speaker in verses 7–8 is not stated in those verses; labeling the speaker “Unidentified prophetic speaker” is a cautious attribution, but remains uncertain.",
+        "The previous scene’s references list 18:5–6, while its narration and dialogue are exact quotations from those verses; its reported events are not staged here."
       ]
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The address and predicted breaking are not a present-tense gathering or battle. No addressed people or setting are identified for visual depiction. Dialogue excerpts are exact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The text identifies a first-person addressee but does not name or physically describe him; do not stage an identifiable speaker or visible Lord. The quoted fragments are exact."
+        "The speaker is not named in verses 11–13; the text identifies only a first-person recipient of the instruction. “The Lord's instruction may be conveyed as off-screen speech” is a conservative visual option, not a specified mode of delivery."
       ]
     },
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The sanctuary, stumbling stone, rock, snare, and falling are figurative teaching and prophecy, not a literal present-tense scene. No people are identified for depiction."
+        "The spoken excerpts are exact short quotations, but the verse's subject is “he,” not explicitly identified within these verses as the Lord; that identification is a contextual inference. The summary's “many will stumble, fall, and be taken” condenses the source's list, including being broken and snared."
       ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The first-person speaker is unnamed in these verses. The Lord's hiding his face is figurative, not a visible appearance; keep the binding and sealing as commands rather than completed actions."
+        "Verse 16 does not identify its speaker; the narration quotes it without attribution, which is conservative. Nephi and the house of Jacob in the characters list are mentioned, not necessarily physically present."
       ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse identifies the speaker and children together but does not name them or describe their appearance or a present action. Mount Zion is mentioned as where the Lord dwells, not established as the speaker's scene location."
+        "Showing Nephi and the children together is a reasonable visual inference, not a described gathering; the verse gives no appearance or setting."
       ]
     },
     "scene_010": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Verse 19 reports what people will say; it does not establish a present scene with advisers, spirits, or wizards. The two quoted excerpts are exact."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary and explicit facts accurately describe the foretold conditions. “Hardship” is a reasonable gloss on “hardly bestead,” but not an exact quotation.",
-        "The visual inference appropriately frames the actions as prophetic illustration rather than present events; darkness and anguish may be figurative, so avoid asserting a literal darkness scene. The king is mentioned but not described as present."
+        "The verses foretell these conditions, and the scene consistently labels them as foretold. “Hardship” is a broad paraphrase of “hardly bestead”; no particular identity, setting, or present-time event is asserted."
       ]
     }
   }

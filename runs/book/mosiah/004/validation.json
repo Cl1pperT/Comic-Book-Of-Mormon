@@ -1,5 +1,5 @@
 {
-  "stamp": "cf57eee06f4c40bcc7185968dd735305c7fdc8c71731d4c1047d237736d0a4ea",
+  "stamp": "ee194c69e5c1b6391ec441d03a61f9bc52381eca821712b6b0d27aca6e4564fa",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -55,8 +55,11 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The factual and quotation content is supported by Mosiah 4:24–25. The scene does not specify a setting or the appearance of the addressed poor; keep these visually unspecified. The first-person words are explicitly instructed as words to say in their hearts, not an additional spoken exchange.",
+        "The preceding scene is consistent in chronology: it covers Benjamin’s prior warning to the rich (Mosiah 4:22–23), while this scene moves to his next address to the poor (Mosiah 4:24–25)."
+      ]
     },
     "scene_014": {
       "status": "PASS",

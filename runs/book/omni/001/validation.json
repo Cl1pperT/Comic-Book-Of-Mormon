@@ -1,5 +1,5 @@
 {
-  "stamp": "cde1a788b6d89d7ce3759c4de46186263abfc0454f2846bfcee4cbc03053cce6",
+  "stamp": "cfe58b5fa6a054964533a66798d118d3b1f9144a97079117136a51994bc767d2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -29,10 +29,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_007 summary's 'Abinadom ends his account' and Amaleki's introduction are sequential in the record, not a shared present moment; the notes correctly flag this. Visual depiction of Amaleki with his introduction is a reasonable inference, but his appearance and setting are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

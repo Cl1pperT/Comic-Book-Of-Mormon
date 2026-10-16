@@ -902,6 +902,13 @@ def _caption_options(draw, panel, frame, fonts):
                 out.append(((bx, by, bx + bw, by + bh), rows, fill, penalty + (0 if bw == default else RESHAPE)))
         return sorted(out, key=lambda option: option[3])
 
+    if narration and speech and speech_first(panel):
+        # The speech comes earlier in the verses than every caption (Laban threatens, then Laman flees): it takes the
+        # top corner so it is read first, and the caption, with the verse reference, goes along the bottom. When the
+        # top would cover a face, both may share the bottom edge, speech on the left (_fits keeps that order).
+        return [variants(speech, None, BALLOON, [("top-left", 0), ("top-right", MIRROR),
+                                                 ("bottom-left", BOTTOM_NARRATION)]),
+                variants(narration, ref, CAPTION, [("bottom-right", 0), ("bottom-left", MIRROR)])]
     options = []
     if narration:
         options.append(variants(narration, None if speech else ref, CAPTION,
@@ -912,17 +919,38 @@ def _caption_options(draw, panel, frame, fonts):
     return options
 
 
+def _verse_key(ref):
+    """A reference's place in the book, for ordering lettering: (book index, chapter, verse)."""
+    from .cast import position
+    name, _, place = ref.rpartition(" ")
+    chapter, _, verse = place.partition(":")
+    return (*position((name, int(chapter))), int(verse or 0))
+
+
+def speech_first(panel):
+    """Whether every spoken line comes from an earlier verse than every caption, so the speech must be read first.
+    Speech from the same verse as a caption ("he said unto me:") or interleaved with captions keeps captions first."""
+    try:
+        spoken = [_verse_key(r) for s in panel.dialogue for r in s.refs]
+        told = [_verse_key(r) for c in panel.narration for r in c.refs]
+    except (ValueError, IndexError):
+        return False
+    return bool(spoken and told) and max(spoken) < min(told)
+
+
 def _fits(boxes, frame):
-    """Whether caption boxes leave the art readable: no overlap, bounded cover, and narration read before
-    speech when both share the bottom edge."""
+    """Whether caption boxes leave the art readable: no overlap, bounded cover, and the boxes read in their order
+    (_caption_options lists them in reading order): the second is never in a higher half than the first, nor to
+    its left when both share the bottom edge."""
     x, y, w, h = frame
     if sum((b[2] - b[0]) * (b[3] - b[1]) for b in boxes) > MAX_COVER * (w - 2 * BORDER) * (h - 2 * BORDER):
         return False
     if len(boxes) == 2:
-        (narration, speech) = boxes
-        if _overlap(narration, speech):
+        first, second = boxes
+        if _overlap(first, second):
             return False
-        if narration[1] - y >= h / 2 and narration[0] >= speech[0]:
+        band = lambda b: 0 if b[1] - y < h / 2 else 1
+        if band(second) < band(first) or (band(first) == band(second) == 1 and first[0] >= second[0]):
             return False
     return True
 

@@ -1,5 +1,5 @@
 {
-  "stamp": "04f510a1257180edec36bd325af600ecbd9277167abeec4289ef2b5c5179e005",
+  "stamp": "1a847ef2418e0b0933fc6918d6365522bb844804587d12942d08fb6da7a37bc7",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -52,8 +52,11 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Nephi \"goes forth to slay food,\" while the supplied verse says he went forth \"to slay food\"—this wording is consistent, but the verse does not explicitly say the bow breaks during the attempt; avoid implying a cause or precise moment.",
+        "The characters and anger are supported, but the number and individual identities of Nephi’s brethren are unspecified."
+      ]
     },
     "scene_014": {
       "status": "PASS",

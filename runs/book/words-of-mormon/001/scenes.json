@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Mormon and the Record",
+    "title": "Mormon and the Records",
     "refs": [
       "Words of Mormon 1:1",
       "Words of Mormon 1:2"
     ],
-    "summary": "Mormon describes handing the record to his son Moroni, having witnessed nearly all the destruction of the Nephites, and hopes Moroni will survive to write about them and Christ.",
+    "summary": "Mormon delivers the records to his son Moroni many hundred years after the coming of Christ. He has witnessed almost all the destruction of the Nephites and hopes Moroni will survive to write about them and Christ.",
     "characters": [
       "Mormon",
       "Moroni"
@@ -16,50 +16,61 @@
     ],
     "explicit_facts": [
       {
-        "text": "Mormon is about to deliver his record into the hands of his son Moroni.",
+        "text": "Mormon made the record and is about to deliver it into the hands of his son Moroni.",
         "refs": [
           "Words of Mormon 1:1"
         ]
       },
       {
-        "text": "Mormon has witnessed almost all the destruction of the Nephites.",
+        "text": "Mormon has witnessed almost all the destruction of his people, the Nephites.",
         "refs": [
           "Words of Mormon 1:1"
         ]
       },
       {
-        "text": "Mormon says it is many hundred years after Christ's coming as he delivers the records, and hopes Moroni will survive to write concerning the Nephites and Christ.",
+        "text": "Mormon says he delivers the records many hundred years after the coming of Christ.",
+        "refs": [
+          "Words of Mormon 1:2"
+        ]
+      },
+      {
+        "text": "Mormon hopes Moroni will survive and write concerning the Nephites and Christ.",
         "refs": [
           "Words of Mormon 1:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Mormon and Moroni may be shown together with a record being handed over."
+      "Mormon and Moroni may be shown close enough for the records to pass between them."
     ],
     "unspecified_visual_details": [
-      "Their ages and appearances, the record's material and form, and the specific location are unstated."
+      "Their appearances and ages are unstated.",
+      "The records' material and form are unstated.",
+      "The location is unstated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I, Mormon, being about to deliver up the record",
+        "text": "I, Mormon, being about to deliver up the record which I have been making into the hands of my son Moroni",
         "refs": [
           "Words of Mormon 1:1"
         ]
       },
       {
-        "text": "may God grant that he may survive them",
+        "text": "And it is many hundred years after the coming of Christ that I deliver these records into the hands of my son;",
         "refs": [
           "Words of Mormon 1:2"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon describes his own perspective and expresses a hope for Moroni; this does not narrate the Nephites' destruction as a present scene."
+      "Moroni's survival and future writing are Mormon's hopes, not events narrated as having happened.",
+      "The destruction Mormon witnessed is past context, not an event occurring during the delivery."
     ],
     "prohibited_inventions": [
-      "Do not depict the destruction of the Nephites here."
+      "Do not depict the Nephites' destruction as occurring during this scene.",
+      "Do not depict Christ as physically present.",
+      "Do not invent speech or an appearance for God or Christ."
     ],
     "importance": "normal"
   },

@@ -8,7 +8,7 @@
       "Mosiah 26:3",
       "Mosiah 26:4"
     ],
-    "summary": "Many of the rising generation could not understand King Benjamin’s words; they had been little children when he spoke to his people. They did not believe their fathers’ tradition or what had been said concerning the resurrection of the dead and the coming of Christ. Because of their unbelief, they could not understand the word of God. They would not be baptized, join the church, or call upon the Lord their God. They were a separate people as to their faith and remained so.",
+    "summary": "Many of the rising generation could not understand King Benjamin’s words because they had been little children when he spoke. They did not believe their fathers’ tradition, the resurrection of the dead, or the coming of Christ. Because of their unbelief, they could not understand the word of God. They would not be baptized, join the church, or call upon the Lord their God, and they remained separate as to their faith.",
     "characters": [
       "Many of the rising generation"
     ],
@@ -17,7 +17,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Many of the rising generation could not understand King Benjamin’s words. They had been little children when he spoke to his people, and they did not believe the tradition of their fathers.",
+        "text": "Many of the rising generation could not understand King Benjamin’s words because they had been little children when he spoke to his people; they did not believe the tradition of their fathers.",
         "refs": [
           "Mosiah 26:1"
         ]
@@ -35,29 +35,35 @@
         ]
       },
       {
-        "text": "They would not be baptized, join the church, or call upon the Lord their God. They were a separate people as to their faith and remained so ever after, in their carnal and sinful state.",
+        "text": "They would not be baptized, join the church, or call upon the Lord their God. They were a separate people as to their faith and remained so ever after.",
         "refs": [
           "Mosiah 26:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group of people can represent the rising generation without depicting a particular refusal as it happens."
+      "A group can represent the rising generation without depicting a particular refusal as it happens."
     ],
     "unspecified_visual_details": [
-      "Their exact number, ages, clothing, and surroundings are not specified."
+      "Their exact number, ages at this time, clothing, and surroundings are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And they were a separate people as to their faith, and remained so ever after, even in their carnal and sinful state;",
+        "text": "there were many of the rising generation that could not understand the words of king Benjamin, being little children at the time he spake unto his people;",
+        "refs": [
+          "Mosiah 26:1"
+        ]
+      },
+      {
+        "text": "And they were a separate people as to their faith, and remained so ever after,",
         "refs": [
           "Mosiah 26:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses report beliefs and refusals; they do not narrate a particular debate or baptism encounter."
+      "The verses report the rising generation’s beliefs and refusals; they do not narrate a particular debate or baptism encounter."
     ],
     "prohibited_inventions": [
       "Do not depict King Benjamin speaking as a current event.",
@@ -215,46 +221,51 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Alma Brings the Matter to Mosiah",
+    "title": "Alma Appeals to King Mosiah",
     "refs": [
       "Mosiah 26:10",
       "Mosiah 26:11",
       "Mosiah 26:12"
     ],
-    "summary": "Troubled because this situation was unprecedented in the church, Alma brought the accused before King Mosiah and asked him to judge them. Mosiah replied that he did not judge them and delivered them into Alma’s hands to be judged.",
+    "summary": "Alma, troubled because nothing like this had happened before in the church, caused the accused to be brought before the king. After they were brought, Alma asked the king to judge them, reporting their accusations, iniquities, and lack of repentance. King Mosiah declined and delivered them into Alma’s hands to be judged.",
     "characters": [
-      "Alma (the Younger) (high priest)",
-      "King Mosiah II (king)",
-      "Church members accused of sin"
+      "Alma",
+      "King Mosiah",
+      "Accused people"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Because no such thing had happened before in the church, Alma was troubled and caused the accused to be brought before the king.",
+        "text": "Nothing like this had happened before in the church. Alma was troubled in his spirit and caused them to be brought before the king.",
         "refs": [
           "Mosiah 26:10"
         ]
       },
       {
-        "text": "Alma told the king that the accused had been taken in iniquities, did not repent, and had been brought for judgment according to their crimes.",
+        "text": "Alma told the king that many brought before him were accused by their brethren, had been taken in divers iniquities, and did not repent.",
         "refs": [
           "Mosiah 26:11"
         ]
       },
       {
-        "text": "Mosiah said he did not judge them and delivered them into Alma’s hands to be judged.",
+        "text": "Alma asked that the king judge them according to their crimes.",
+        "refs": [
+          "Mosiah 26:11"
+        ]
+      },
+      {
+        "text": "King Mosiah declined to judge them and delivered them into Alma’s hands to be judged.",
         "refs": [
           "Mosiah 26:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and the accused may be shown before Mosiah during the exchange."
+      "Alma, King Mosiah, and the accused may be shown together during the exchange."
     ],
     "unspecified_visual_details": [
-      "The place, arrangement of those present, and any visible marks of Alma’s distress are not specified."
+      "The physical setting is unspecified.",
+      "Clothing, appearance, positioning, and outward expression of Alma’s distress are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -262,29 +273,35 @@
         "refs": [
           "Mosiah 26:11"
         ],
-        "speaker": "Alma (the Younger) (high priest)"
+        "speaker": "Alma"
       },
       {
-        "text": "And they do not repent of their iniquities; therefore we have brought them before thee, that thou mayest judge them according to their crimes.",
+        "text": "And they do not repent of their iniquities;",
         "refs": [
           "Mosiah 26:11"
         ],
-        "speaker": "Alma (the Younger) (high priest)"
+        "speaker": "Alma"
       },
       {
         "text": "Behold, I judge them not; therefore I deliver them into thy hands to be judged.",
         "refs": [
           "Mosiah 26:12"
         ],
-        "speaker": "King Mosiah II (king)"
+        "speaker": "King Mosiah"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Keep Alma’s appeal and Mosiah’s response in this exchange, not combined with Alma’s later inquiry to the Lord."
+      "Stage the exchange after the accused have been brought before the king; Alma’s earlier distress and arrangement of their bringing are preceding context, not simultaneous actions.",
+      "Alma speaks first; Mosiah’s response follows.",
+      "The accusations, iniquities, and lack of repentance are reported by Alma, not enacted during this exchange."
     ],
     "prohibited_inventions": [
-      "Do not invent a verdict by Mosiah; he returns the matter to Alma."
+      "Do not invent a palace, throne room, or other specific setting.",
+      "Do not dramatize the reported iniquities or accusations as new scenes.",
+      "Do not invent a verdict, punishment, or subsequent judgment by Alma.",
+      "Do not assume the accusing brethren are present.",
+      "Do not invent restraints, guards, or a physical transfer of custody."
     ],
     "importance": "normal"
   },

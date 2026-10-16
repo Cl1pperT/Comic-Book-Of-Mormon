@@ -1,5 +1,5 @@
 {
-  "stamp": "5550381d18eb6940d4fa3340527b7c7b4cf83ba175b420ec2b38188f54d1b23c",
+  "stamp": "aef52c1c8ccc5ec391ee9c8261cf1ba171f03a6cab90576bd55e74c69aa4a545",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -64,8 +64,10 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses support Nephi being addressed by the angel, but do not explicitly establish that the angel is physically present during these particular lines; depict the exchange conservatively."
+      ]
     },
     "scene_016": {
       "status": "PASS",

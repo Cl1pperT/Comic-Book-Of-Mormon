@@ -1,62 +1,81 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Flight into the wilderness",
+    "title": "Alma’s people flee into the wilderness",
     "refs": [
       "Mosiah 23:1",
       "Mosiah 23:2",
       "Mosiah 23:3"
     ],
-    "summary": "Warned by the Lord, Alma's people gather their flocks and grain and leave before Noah's armies. They flee eight days into the wilderness, and the armies cannot overtake them.",
+    "summary": "Warned by the Lord that King Noah’s armies would come, Alma makes this known to his people. They gather their flocks and grain and depart into the wilderness before the armies. The Lord strengthens them so the people of King Noah cannot overtake them to destroy them. They flee eight days’ journey into the wilderness.",
     "characters": [
       "Alma",
-      "Alma's people"
+      "Alma’s people"
     ],
     "locations": [
       "wilderness"
     ],
     "explicit_facts": [
       {
-        "text": "Alma warns his people that Noah's armies are coming; they gather flocks and grain and depart into the wilderness before the armies.",
+        "text": "The Lord warns Alma that King Noah’s armies will come upon them, and Alma makes this known to his people.",
         "refs": [
           "Mosiah 23:1"
         ]
       },
       {
-        "text": "The people of king Noah cannot overtake Alma's people to destroy them.",
+        "text": "The people gather their flocks, take grain, and depart into the wilderness before King Noah’s armies.",
+        "refs": [
+          "Mosiah 23:1"
+        ]
+      },
+      {
+        "text": "The Lord strengthens them, and the people of King Noah cannot overtake them to destroy them.",
         "refs": [
           "Mosiah 23:2"
         ]
       },
       {
-        "text": "They flee eight days' journey into the wilderness.",
+        "text": "They flee eight days’ journey into the wilderness.",
         "refs": [
           "Mosiah 23:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people travel with their flocks and gathered grain."
+      "Alma’s people travel with flocks and grain."
     ],
     "unspecified_visual_details": [
-      "The Lord's appearance, if any.",
-      "The people's clothing, ages, and exact number.",
-      "The landscape and weather."
+      "The travelers’ clothing, ages, and number.",
+      "The wilderness terrain and weather."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they fled eight days’ journey into the wilderness.",
+        "text": "Now Alma, having been warned of the Lord that the armies of king Noah would come upon them, and having made it known to his people,",
+        "refs": [
+          "Mosiah 23:1"
+        ]
+      },
+      {
+        "text": "they gathered together their flocks, and took of their grain, and departed into the wilderness before the armies of king Noah.",
+        "refs": [
+          "Mosiah 23:1"
+        ]
+      },
+      {
+        "text": "And they fled eight days’ journey into the wilderness.",
         "refs": [
           "Mosiah 23:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The passage attributes their escape to the Lord's strengthening; it does not describe a visible miracle."
+      "The passage attributes the escape to the Lord’s strengthening but describes no visible divine appearance or intervention."
     ],
     "prohibited_inventions": [
-      "Depicting the Lord visibly or showing a supernatural intervention not described in the verses."
+      "Inventing Alma’s words to his people.",
+      "Depicting a visible divine appearance or supernatural intervention.",
+      "Showing King Noah’s armies overtaking the fleeing people."
     ],
     "importance": "normal"
   },
@@ -105,7 +124,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "a land of pure water.",
+        "text": "And they came to a land, yea, even a very beautiful and pleasant land, a land of pure water.",
         "refs": [
           "Mosiah 23:4"
         ]
@@ -610,49 +629,56 @@
       "Mosiah 23:27",
       "Mosiah 23:28"
     ],
-    "summary": "Alma stands among the gathered people and urges them not to fear, but to remember the Lord, who will deliver them. They quiet their fears and pray that the Lamanites will spare them, their wives, and their children.",
+    "summary": "Alma stands among the people and exhorts them not to be frightened, but to remember the Lord their God and his promised deliverance. They hush their fears and cry to the Lord to soften the Lamanites' hearts so they will spare them, their wives, and their children.",
     "characters": [
       "Alma",
-      "Alma's people"
+      "the people"
     ],
-    "locations": [
-      "City of Helam"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma stands among the people and exhorts them not to fear, but to remember the Lord their God, who will deliver them.",
+        "text": "Alma goes forth, stands among the people, and exhorts them not to be frightened but to remember the Lord their God and that he would deliver them.",
         "refs": [
           "Mosiah 23:27"
         ]
       },
       {
-        "text": "The people hush their fears and cry to the Lord to soften the Lamanites' hearts and spare them, their wives, and children.",
+        "text": "The people hush their fears and cry to the Lord to soften the Lamanites' hearts so they will spare them, their wives, and their children.",
         "refs": [
           "Mosiah 23:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to the gathered people; they pray."
+      "Alma is among the people as he exhorts them.",
+      "The people pray after hushing their fears."
     ],
     "unspecified_visual_details": [
-      "The exact form of their prayer and their gestures."
+      "The location's appearance.",
+      "The people's clothing, arrangement, and prayer gestures."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "they should not be frightened, but that they should remember the Lord their God and he would deliver them.",
+        "text": "But Alma went forth and stood among them, and exhorted them that they should not be frightened, but that they should remember the Lord their God and he would deliver them.",
         "refs": [
           "Mosiah 23:27"
-        ],
-        "speaker": "Alma"
+        ]
+      },
+      {
+        "text": "Therefore they hushed their fears, and began to cry unto the Lord that he would soften the hearts of the Lamanites, that they would spare them, and their wives, and their children.",
+        "refs": [
+          "Mosiah 23:28"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The prayer is reported, not quoted verbatim."
+      "Alma's exhortation and the people's prayer are reported, not quoted as direct speech.",
+      "The Lamanites are mentioned as the subjects of the prayer; these verses do not place them visibly among the people."
     ],
     "prohibited_inventions": [
-      "Inventing additional spoken words for Alma or the people."
+      "Putting the reported exhortation or prayer into speech balloons.",
+      "Inventing spoken words, a named location, or a visible divine appearance."
     ],
     "importance": "normal"
   },
@@ -716,7 +742,7 @@
       "Mosiah 23:31",
       "Mosiah 23:32"
     ],
-    "summary": "The Lamanite armies, lost in the wilderness for many days after following king Limhi's people, find the priests of king Noah at Amulon. The land has begun to be possessed and tilled. Amulon leads the priests.",
+    "summary": "After being lost in the wilderness for many days, the Lamanite armies find the priests of king Noah at Amulon. Possession and tilling of the land have begun. Amulon is the priests' leader.",
     "characters": [
       "Lamanite armies",
       "Priests of king Noah",
@@ -728,7 +754,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanite armies followed king Limhi's people and were lost in the wilderness for many days.",
+        "text": "The Lamanite armies had followed king Limhi's people and had been lost in the wilderness for many days.",
         "refs": [
           "Mosiah 23:30"
         ]
@@ -740,7 +766,7 @@
         ]
       },
       {
-        "text": "The land of Amulon had begun to be possessed and tilled.",
+        "text": "Possession and tilling of the land of Amulon had begun.",
         "refs": [
           "Mosiah 23:31"
         ]
@@ -758,7 +784,7 @@
     ],
     "unspecified_visual_details": [
       "The appearance of the people and Amulon.",
-      "The appearance and layout of Amulon.",
+      "The layout of Amulon.",
       "The armies' route through the wilderness."
     ],
     "spoken_dialogue": [],
@@ -767,6 +793,12 @@
         "text": "And behold, they had found those priests of king Noah, in a place which they called Amulon;",
         "refs": [
           "Mosiah 23:31"
+        ]
+      },
+      {
+        "text": "Now the name of the leader of those priests was Amulon.",
+        "refs": [
+          "Mosiah 23:32"
         ]
       }
     ],
@@ -857,7 +889,7 @@
       "Mosiah 23:35",
       "Mosiah 23:36"
     ],
-    "summary": "Amulon and his brethren join the Lamanites. While traveling through the wilderness in search of the land of Nephi, they discover Helam, which is possessed by Alma and his brethren. The Lamanites promise Alma and his brethren their lives and liberty if they show them the way to the land of Nephi.",
+    "summary": "Amulon and his brethren join the Lamanites. Traveling through the wilderness in search of the land of Nephi, they discover Helam, which is possessed by Alma and his brethren. The Lamanites promise Alma and his brethren their lives and liberty if they show them the way to the land of Nephi.",
     "characters": [
       "Amulon",
       "Amulon's brethren",
@@ -877,7 +909,7 @@
         ]
       },
       {
-        "text": "While traveling in the wilderness in search of the land of Nephi, they discover the land of Helam.",
+        "text": "They travel through the wilderness in search of the land of Nephi and discover the land of Helam.",
         "refs": [
           "Mosiah 23:35"
         ]
@@ -897,7 +929,7 @@
     ],
     "reasonable_visual_inferences": [
       "Amulon and his brethren may be shown traveling with the Lamanites.",
-      "Alma and his brethren may be shown in Helam when the travelers discover it."
+      "Alma and his brethren may be shown in Helam when it is discovered."
     ],
     "unspecified_visual_details": [
       "The people's appearances and clothing.",
@@ -907,14 +939,20 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And Amulon and his brethren did join the Lamanites, and they were traveling in the wilderness in search of the land of Nephi when they discovered the land of Helam, which was possessed by Alma and his brethren.",
+        "text": "And Amulon and his brethren did join the Lamanites,",
         "refs": [
           "Mosiah 23:35"
+        ]
+      },
+      {
+        "text": "And it came to pass that the Lamanites promised unto Alma and his brethren, that if they would show them the way which led to the land of Nephi that they would grant unto them their lives and their liberty.",
+        "refs": [
+          "Mosiah 23:36"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The promise is reported, but its exact spoken words are not supplied."
+      "The promise is reported; its exact spoken words are not supplied."
     ],
     "prohibited_inventions": [
       "Do not invent dialogue for the Lamanites or Alma's group.",
@@ -925,16 +963,17 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "The Lamanites guard Helam",
+    "title": "Guards set around the land of Helam",
     "refs": [
       "Mosiah 23:37",
       "Mosiah 23:38"
     ],
-    "summary": "After Alma shows the Lamanites the way to the land of Nephi, they do not keep their promise and set guards around Helam over Alma and his brethren. The remainder go to Nephi; some return to Helam with the guards' wives and children.",
+    "summary": "After Alma showed the Lamanites the way to the land of Nephi, they broke their promise and set guards around Helam over Alma and his brethren. The remainder went to Nephi; a part returned with the wives and children of the guards left in Helam.",
     "characters": [
       "Alma",
       "Alma's brethren",
       "Lamanites",
+      "Guards",
       "Wives and children of the guards"
     ],
     "locations": [
@@ -943,41 +982,64 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma shows the Lamanites the way to the land of Nephi; they do not keep their promise and set guards around Helam over Alma and his brethren.",
+        "text": "Alma showed the Lamanites the way to the land of Nephi.",
         "refs": [
           "Mosiah 23:37"
         ]
       },
       {
-        "text": "The remainder go to Nephi; some return to Helam with the wives and children of the guards left there.",
+        "text": "The Lamanites did not keep their promise and set guards around Helam over Alma and his brethren.",
+        "refs": [
+          "Mosiah 23:37"
+        ]
+      },
+      {
+        "text": "The remainder went to the land of Nephi.",
+        "refs": [
+          "Mosiah 23:38"
+        ]
+      },
+      {
+        "text": "A part returned to Helam with the wives and children of the guards left there.",
         "refs": [
           "Mosiah 23:38"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Guards are positioned around Helam.",
-      "Some returning Lamanites are accompanied by the guards' wives and children."
+      "Guards may occupy separate positions around Helam."
     ],
     "unspecified_visual_details": [
-      "The groups' routes and the time between their movements.",
-      "The number and appearance of the guards and their families."
+      "The route to Nephi and the layout of Helam.",
+      "The people's numbers, appearances, clothing, and equipment.",
+      "The elapsed time before the return."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "but they set guards round about the land of Helam, over Alma and his brethren.",
+        "text": "the Lamanites would not keep their promise;",
         "refs": [
           "Mosiah 23:37"
+        ]
+      },
+      {
+        "text": "And the remainder of them went to the land of Nephi; and a part of them returned to the land of Helam, and also brought with them the wives and the children of the guards who had been left in the land.",
+        "refs": [
+          "Mosiah 23:38"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The guarding of Helam, the remainder's departure for Nephi, and the return of some with the guards' families are distinct events."
+      "Mormon is the narrator; no direct speech is supplied.",
+      "Keep the visual focus on the guards around Helam. Retain the journey and later return as narration rather than staging additional present-tense events.",
+      "The guards' wives and children belong to the later return, not the initial placement of guards.",
+      "The supplied text governs quotation punctuation."
     ],
     "prohibited_inventions": [
-      "Invented violence, identities, motives, or dialogue.",
-      "Showing the departure for Nephi and the later return as one simultaneous event."
+      "Invented dialogue, motives, violence, or individual identities.",
+      "Specific terms for the broken promise.",
+      "Simultaneous depiction of the initial guard placement, departure, and later return.",
+      "A dramatized journey or family reunion."
     ],
     "importance": "normal"
   },

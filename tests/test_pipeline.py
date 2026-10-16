@@ -1465,3 +1465,25 @@ def test_speaker_labels_print_only_the_name():
     assert speaker_label("Abinadi, reciting the commandment") == "Abinadi"
     assert speaker_label("Baptizer (prescribed words quoted by Jesus; not an enacted baptism)") == "Baptizer"
     assert speaker_label("King Benjamin") == "King Benjamin"
+
+
+def test_speech_from_an_earlier_verse_is_lettered_first(pipeline):
+    from bom_comic.comic import _caption_options, _fits, _measure, speech_first
+    from bom_comic.models import Claim, Speech
+    ready(pipeline)
+    panel = pipeline.panels()[0]
+    said = Speech(speaker="Ann", text="Go.", refs=["1 Nephi 3:13"])
+    told = Claim(text="And Ben fled.", refs=["1 Nephi 3:14"])
+    first = panel.model_copy(update={"dialogue": [said], "narration": [told], "refs": ["1 Nephi 3:13", "1 Nephi 3:14"]})
+    assert speech_first(first)
+    # Same verse ("he said unto me:") or caption first keeps captions first.
+    assert not speech_first(first.model_copy(update={"narration": [told.model_copy(update={"refs": ["1 Nephi 3:13"]})]}))
+    assert not speech_first(first.model_copy(update={"dialogue": [said.model_copy(update={"refs": ["1 Nephi 3:15"]})]}))
+    draw, fonts = _measure()
+    frame = (0, 0, 800, 800)
+    speech, caption = [options[0][0] for options in _caption_options(draw, first, frame, fonts)]
+    assert speech[1] < caption[1] and _fits([speech, caption], frame)
+    # Boxes must read in order: a second box above the first, or left of it on the bottom edge, doesn't fit.
+    top, low_left, low_right = (10, 10, 300, 100), (10, 600, 300, 790), (400, 600, 790, 790)
+    assert _fits([top, low_right], frame) and _fits([low_left, low_right], frame)
+    assert not _fits([low_right, top], frame) and not _fits([low_right, low_left], frame)

@@ -1,5 +1,5 @@
 {
-  "stamp": "1050e58ad0629d6688679d147912c8cfd02244486b324455d96e760a2d4adb8e",
+  "stamp": "768a32fb2d96b4dc5cd7205a8f71ec9b98ec0dc3b90c9a8302de774f805022c9",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -26,8 +26,11 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied passage is prophecy, not a narrated present event. The scene correctly warns against depicting the foretold wars, manifestation, or rejection as happening now; Nephi may be shown narrating only as a visual inference.",
+        "The Only Begotten’s appearance is unspecified and must not be invented. The phrase “even the Father of heaven and of earth” is source wording, not license to add a separate character or visual depiction."
+      ]
     },
     "scene_008": {
       "status": "PASS",

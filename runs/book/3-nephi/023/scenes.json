@@ -264,42 +264,42 @@
       "3 Nephi 23:12",
       "3 Nephi 23:13"
     ],
-    "summary": "Jesus asks why the disciples did not write that many saints arose, appeared, and ministered to many. Nephi remembers the omission. Jesus commands that it be written, and it is written as he commanded.",
+    "summary": "Jesus asks why the account of the saints had not been written. Nephi remembers that it had not been written. Jesus commands that it be written, and it is written.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
-      "Nephi (disciple, son of Nephi)",
-      "the disciples"
+      "Jesus",
+      "Nephi",
+      "unnamed people addressed by Jesus"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jesus asks why the disciples did not write that many saints arose, appeared to many, and ministered to them.",
+        "text": "Jesus asks why the account of many saints arising, appearing to many, and ministering to them had not been written.",
         "refs": [
           "3 Nephi 23:11"
         ]
       },
       {
-        "text": "Nephi remembers that the event had not been written.",
+        "text": "Nephi remembers that this had not been written.",
         "refs": [
           "3 Nephi 23:12"
         ]
       },
       {
-        "text": "Jesus commands that it be written, and it is written as he commanded.",
+        "text": "Jesus commands that it be written, and it is written according to his command.",
         "refs": [
           "3 Nephi 23:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is among those hearing Jesus's question and remembers the omission.",
-      "Writing follows Jesus's command."
+      "Jesus addresses others.",
+      "A written record may be shown after Jesus's command, without identifying its writer."
     ],
     "unspecified_visual_details": [
-      "The identity of the writer and the precise moment or manner of writing are not specified.",
-      "The appearance of the record and writing materials is not specified."
+      "The location is not specified.",
+      "The writer, writing materials, and precise manner of writing are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -307,7 +307,7 @@
         "refs": [
           "3 Nephi 23:11"
         ],
-        "speaker": "Jesus Christ (at Bountiful)"
+        "speaker": "Jesus"
       }
     ],
     "narration": [
@@ -325,11 +325,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The saints' rising and ministry remain reported past events; the present visual beat is the omission being remembered and corrected."
+      "Present Jesus's question first, then Nephi's remembrance, then Jesus's command and the writing.",
+      "The saints' actions are reported past events, not actions occurring in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict the saints' past actions as occurring in this scene.",
-      "Do not assign the writing to a named person not specified by the text."
+      "Do not assign the writing to a named person.",
+      "Do not invent spoken words for Jesus's reported command."
     ],
     "importance": "normal"
   },

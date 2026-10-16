@@ -615,45 +615,81 @@
     "refs": [
       "Ether 9:20"
     ],
-    "summary": "The Lord blesses the choice land and commands that its possessor serve the Lord, warning of destruction and wrath if the people ripen in iniquity.",
-    "characters": [],
+    "summary": "The Lord blessed the land, which was choice above all other lands. He commanded that whoever should possess it should possess it unto the Lord or be destroyed when ripened in iniquity, and declared that he would pour out the fulness of his wrath upon such.",
+    "characters": [
+      "Moroni",
+      "The Lord"
+    ],
     "locations": [
       "The choice land"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord blessed the choice land and commanded that whoever possessed it should possess it unto the Lord or be destroyed when ripened in iniquity.",
+        "text": "The Lord poured out his blessings upon the land, which was choice above all other lands.",
         "refs": [
           "Ether 9:20"
         ]
       },
       {
-        "text": "The Lord declares, “I will pour out the fulness of my wrath.”",
+        "text": "The Lord commanded that whoever should possess the land should possess it unto the Lord or be destroyed when ripened in iniquity.",
+        "refs": [
+          "Ether 9:20"
+        ]
+      },
+      {
+        "text": "The Lord declared that he would pour out the fulness of his wrath upon such.",
         "refs": [
           "Ether 9:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The land may be depicted as a landscape accompanying off-screen narration."
+      "A non-event landscape image may accompany the narration without staging the reported blessings, command, or warning."
     ],
     "unspecified_visual_details": [
-      "No divine appearance or particular landscape features are stated."
+      "The land's particular terrain and appearance are unspecified.",
+      "No physical appearance or location of the narrator is described.",
+      "No appearance of the Lord is described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "I will pour out the fulness of my wrath.",
+        "refs": [
+          "Ether 9:20"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [
+      {
+        "text": "And thus the Lord did pour out his blessings upon this land,",
+        "refs": [
+          "Ether 9:20"
+        ]
+      },
+      {
+        "text": "and he commanded that whoso should possess the land should possess it unto the Lord, or they should be destroyed when they were ripened in iniquity;",
+        "refs": [
+          "Ether 9:20"
+        ]
+      },
+      {
+        "text": "for upon such, saith the Lord:",
         "refs": [
           "Ether 9:20"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a reported command and warning, not a narrated visible divine event."
+      "Moroni is the narrator according to the supplied narrator identification, not an explicitly present figure in this verse. His narration is voiceover only.",
+      "The Lord is the attributed speaker of the quoted warning, not a visibly present character. The quotation belongs within the narrated report, not a newly staged encounter.",
+      "The verse reports blessings and a command; destruction is a conditional warning, not a narrated occurrence."
     ],
     "prohibited_inventions": [
-      "Do not depict divine wrath as a literal visible event."
+      "Do not depict Moroni as physically present in the land.",
+      "Do not invent a visible divine appearance or a new occasion on which the Lord speaks.",
+      "Do not literalize the pouring out of blessings or wrath as visible supernatural action.",
+      "Do not invent inhabitants, acts of iniquity, or an event of destruction."
     ],
     "importance": "normal"
   },

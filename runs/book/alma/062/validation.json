@@ -1,5 +1,5 @@
 {
-  "stamp": "39da2fd2b90796dc319a553709a48c0bf25c4f12653d62f149e7a8e1ff73d74a",
+  "stamp": "14ce69956e383f18724f6f401e9b1bc1d87f0d45876b50326f6bc3808c1e51a5",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -141,8 +141,11 @@
       "issues": []
     },
     "scene_030": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Moroni and Moronihah are together” is a reasonable visual inference from the transfer of command, but the verse does not explicitly say they meet face to face; depict no specific ceremony or physical exchange.",
+        "The house’s appearance and location are unspecified. The scene stays after the preceding scene’s events; do not combine the returns described in Alma 62:42 with Moroni’s retirement in verse 43."
+      ]
     },
     "scene_031": {
       "status": "PASS",

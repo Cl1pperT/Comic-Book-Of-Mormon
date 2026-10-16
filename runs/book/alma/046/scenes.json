@@ -252,51 +252,66 @@
       "Alma 46:12",
       "Alma 46:13"
     ],
-    "summary": "Moroni tore his coat, wrote a declaration on a piece of it, and fastened it to a pole. He put on armor, called the banner the title of liberty, bowed to the earth, and prayed for liberty for his brethren.",
+    "summary": "A man tears his coat, writes on a piece of it, and fastens it to a pole. He puts on armor, takes the pole, calls it the title of liberty, bows to the earth, and prays for liberty to rest upon his brethren.",
     "characters": [
-      "Moroni"
+      "Unnamed man"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni tore his coat, wrote on a piece of it, and fastened it to the end of a pole.",
+        "text": "He tears his coat, writes on a piece of it, and fastens it to the end of a pole.",
         "refs": [
           "Alma 46:12"
         ]
       },
       {
-        "text": "Moroni put on a head-plate, breastplate, shields, and armor about his loins; he called the pole with the cloth the title of liberty, bowed to the earth, and prayed.",
+        "text": "The writing names God, religion, freedom, peace, wives, and children.",
+        "refs": [
+          "Alma 46:12"
+        ]
+      },
+      {
+        "text": "He puts on a head-plate, breastplate, shields, and armor about his loins; he takes the pole and calls it the title of liberty.",
         "refs": [
           "Alma 46:13"
         ]
       },
       {
-        "text": "The writing on the cloth was “In memory of our God, our religion, and freedom, and our peace, our wives, and our children”.",
+        "text": "He bows to the earth and prays for the blessings of liberty to rest upon his brethren so long as a band of Christians remains to possess the land.",
         "refs": [
-          "Alma 46:12"
+          "Alma 46:13"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The cloth can be shown bearing the quoted inscription, attached to a pole."
+      "The written piece of coat can be shown attached to the pole."
     ],
     "unspecified_visual_details": [
-      "The setting, armor design, and appearance of the pole are not specified."
+      "His appearance, the setting, the armor's design, and the pole's appearance are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "In memory of our God, our religion, and freedom",
+        "text": "he rent his coat; and he took a piece thereof, and wrote upon it—In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
         "refs": [
           "Alma 46:12"
         ]
+      },
+      {
+        "text": "and he bowed himself to the earth, and he prayed mightily unto his God",
+        "refs": [
+          "Alma 46:13"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The writing is an inscription, not spoken dialogue. The content of his prayer is reported, not quoted as speech."
+    ],
     "prohibited_inventions": [
-      "Do not depict a divine figure appearing in response to the prayer."
+      "Do not depict a divine figure appearing in response to the prayer.",
+      "Do not supply spoken words for the prayer."
     ],
     "importance": "normal"
   },
@@ -425,7 +440,7 @@
       "Alma 46:21",
       "Alma 46:22"
     ],
-    "summary": "The people came running together in armor, tore their garments as a token of covenant, and cast them at Moroni's feet. They declared their covenant to God and its consequence if they transgressed.",
+    "summary": "After Moroni proclaimed his words, the people came running together with armor girded about their loins, rent their garments as a token of their covenant, cast the garments at Moroni's feet, and spoke their covenant to God.",
     "characters": [
       "Moroni",
       "the people"
@@ -435,28 +450,33 @@
     ],
     "explicit_facts": [
       {
-        "text": "After Moroni proclaimed his words, the people came running in armor and tore their garments as a token or covenant that they would not forsake God.",
+        "text": "After Moroni proclaimed his words, the people came running together with armor girded about their loins.",
         "refs": [
           "Alma 46:21"
         ]
       },
       {
-        "text": "The people cast their garments at Moroni's feet and spoke their covenant to God, declaring that they would be destroyed if they fell into transgression.",
+        "text": "The people rent their garments as a token or covenant that they would not forsake the Lord their God.",
         "refs": [
-          "Alma 46:21",
+          "Alma 46:21"
+        ]
+      },
+      {
+        "text": "The people cast their garments at Moroni's feet and declared that they would be destroyed if they fell into transgression.",
+        "refs": [
           "Alma 46:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The torn garments can be shown at Moroni's feet as the people make their covenant."
+      "Torn garments may be shown at Moroni's feet while the people speak."
     ],
     "unspecified_visual_details": [
-      "The setting, number, and individual identities of the people are not given."
+      "The setting, number of people, and their individual appearances are not specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "We covenant with our God, that we shall be destroyed,",
+        "text": "We covenant with our God, that we shall be destroyed, even as our brethren in the land northward, if we shall fall into transgression;",
         "refs": [
           "Alma 46:22"
         ],
@@ -472,56 +492,66 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The stated consequence is part of the people's covenant; it is not an event happening in this moment."
+      "The declared destruction is conditional on future transgression, not an event occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the people being destroyed or cast before enemies."
+      "Do not depict the people being destroyed or cast before enemies.",
+      "Do not depict the brethren in the land northward as present."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Moroni recalls Joseph's coat",
+    "title": "Moroni recalls Joseph’s coat",
     "refs": [
       "Alma 46:23",
       "Alma 46:24",
       "Alma 46:25",
       "Alma 46:26"
     ],
-    "summary": "Moroni told the people they were a remnant of Jacob and Joseph and recalled Joseph's torn coat. He recited Jacob's words about a preserved remnant and said the language was Jacob's.",
+    "summary": "Moroni addresses the people as descendants of Jacob and Joseph, recalls Joseph’s torn coat, and recounts Jacob’s words about a preserved remnant. Mormon identifies those words as Jacob’s.",
     "characters": [
       "Moroni",
-      "the people"
+      "the people addressed by Moroni",
+      "Jacob (quoted, not present)",
+      "Joseph (mentioned, not present)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni identified the people as a remnant of Jacob and Joseph and recalled that Joseph's coat had been torn by his brothers.",
+        "text": "Moroni says the people are a remnant of Jacob and Joseph and says Joseph’s brothers tore his coat into many pieces.",
         "refs": [
           "Alma 46:23"
         ]
       },
       {
-        "text": "Moroni recited Jacob's words that a remnant of Joseph's garment had been preserved and that a remnant of his seed would be preserved by God.",
+        "text": "Moroni says Jacob saw that part of the remnant of Joseph’s coat had been preserved and had not decayed.",
+        "refs": [
+          "Alma 46:24"
+        ]
+      },
+      {
+        "text": "In the words Moroni recounts, Jacob speaks of sorrow and joy concerning his son and part of his seed.",
         "refs": [
           "Alma 46:24",
           "Alma 46:25"
         ]
       },
       {
-        "text": "Moroni identified the quoted language as Jacob's.",
+        "text": "Mormon identifies the recounted language as Jacob’s.",
         "refs": [
           "Alma 46:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may address the gathered people while the torn cloth remains present."
+      "Moroni may face the people he addresses."
     ],
     "unspecified_visual_details": [
-      "Jacob and Joseph are historical figures recalled in Moroni's speech; their physical presence is not stated."
+      "The setting and the appearance of Moroni and his listeners are not specified.",
+      "Joseph’s coat is discussed, but its presence during Moroni’s address is not stated."
     ],
     "spoken_dialogue": [
       {
@@ -530,6 +560,20 @@
           "Alma 46:23"
         ],
         "speaker": "Moroni"
+      },
+      {
+        "text": "let us remember the words of Jacob, before his death, for behold, he saw that a part of the remnant of the coat of Joseph was preserved and had not decayed.",
+        "refs": [
+          "Alma 46:24"
+        ],
+        "speaker": "Moroni"
+      },
+      {
+        "text": "Even as this remnant of garment of my son hath been preserved,",
+        "refs": [
+          "Alma 46:24"
+        ],
+        "speaker": "Jacob (quoted by Moroni)"
       }
     ],
     "narration": [
@@ -541,10 +585,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moroni's account of Jacob and Joseph is reported speech, not a present-day scene with those figures."
+      "Jacob’s words are quoted within Moroni’s address, not spoken by Jacob in the present scene.",
+      "The preservation of the coat is recounted as a past event."
     ],
     "prohibited_inventions": [
-      "Do not depict Jacob or Joseph as present."
+      "Do not depict Jacob or Joseph as physically present during Moroni’s address.",
+      "Do not show Joseph’s coat present during the address or stage the events Moroni recounts as simultaneous action."
     ],
     "importance": "normal"
   },
@@ -554,31 +600,37 @@
     "refs": [
       "Alma 46:27"
     ],
-    "summary": "Moroni asked whether the remnant of Joseph who would perish might be those who had dissented, and warned that it could be the people themselves if they did not stand fast in faith in Christ.",
+    "summary": "Moroni questions whether those who dissented are the remnant of Joseph that will perish, and warns that the same could happen to his own people if they do not stand fast in the faith of Christ.",
     "characters": [
-      "Moroni",
-      "the people"
+      "Moroni"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni suggested the dissenters might be the remnant of Joseph that would perish, and warned that the people themselves could be so if they did not stand fast in faith in Christ.",
+        "text": "Moroni raises the possibility that those who dissented are the remnant of Joseph that will perish.",
+        "refs": [
+          "Alma 46:27"
+        ]
+      },
+      {
+        "text": "Moroni warns that the same could happen to his own people if they do not stand fast in the faith of Christ.",
         "refs": [
           "Alma 46:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may continue addressing the people gathered around him."
+      "Moroni may be shown speaking."
     ],
     "unspecified_visual_details": [
-      "The reactions of the people are not described."
+      "The location and listeners are not described.",
+      "No reactions are described."
     ],
     "spoken_dialogue": [
       {
-        "text": "if we do not stand fast in the faith of Christ.",
+        "text": "And now who knoweth but what the remnant of the seed of Joseph, which shall perish as his garment, are those who have dissented from us? Yea, and even it shall be ourselves if we do not stand fast in the faith of Christ.",
         "refs": [
           "Alma 46:27"
         ],
@@ -587,10 +639,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a warning and possibility, not a depicted destruction."
+      "The warning presents possibilities, not a narrated destruction. The garment comparison is figurative."
     ],
     "prohibited_inventions": [
-      "Do not show the dissenters or the people perishing."
+      "Do not depict anyone perishing.",
+      "Do not depict Joseph or a garment as physically present.",
+      "Do not invent a visible audience or their reactions."
     ],
     "importance": "normal"
   },

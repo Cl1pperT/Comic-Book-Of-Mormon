@@ -1,5 +1,5 @@
 {
-  "stamp": "78f97a295d44e11613004747437df999ba890046c919754f2f69d3e2ceb0b496",
+  "stamp": "3294b08980c67955ad1db8612a00873728f4135fe9a6ead0057366fa29d5d265",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -11,14 +11,15 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene’s summary and explicit facts are supported. The visual inference that the group may be shown writing before the exposition fits the stated order, but the text does not specify the writers’ identities or what the exposition looks like. The narration uses exact source excerpts. The preceding scene’s chronology is consistent."
+        "The group in scene_002 is unnamed in the verses; “Those commanded to write” is a descriptive label, not an established identity.",
+        "The dialogue is an exact contiguous excerpt, but its speaker is Jesus Christ quoting words attributed to the Father; labeling the speaker only “Jesus Christ” omits that attribution."
       ]
     },
     "scene_003": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The refiner/fire and soap imagery is figurative; any visual treatment should remain symbolic rather than stage a literal scene, as the notes specify.",
-        "The Lord and sons of Levi are mentioned in prophetic teaching, not described as present characters; their appearances are unspecified."
+        "The one described as coming and appearing is not identified by name in verses 2–3; keep the identity unspecified rather than presenting a named figure as established.",
+        "The supplied dialogue and narration are exact excerpts, but the dialogue is part of the prophecy Jesus Christ is reciting; the speaker label should identify that context."
       ]
     },
     "scene_004": {

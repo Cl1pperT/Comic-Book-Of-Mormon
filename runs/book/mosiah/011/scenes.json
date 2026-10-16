@@ -431,12 +431,12 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "Riotous Living and Wine",
+    "title": "Riches and Wine",
     "refs": [
       "Mosiah 11:14",
       "Mosiah 11:15"
     ],
-    "summary": "The man sets his heart upon riches and spends his time in riotous living with his wives and concubines; his priests spend their time with harlots. The account then reports his planting vineyards, building wine-presses, and making abundant wine. He and his people become wine-bibbers.",
+    "summary": "A man places his heart upon his riches and spends his time in riotous living with his wives and concubines. His priests spend their time with harlots. The same man plants vineyards, builds wine-presses, and makes wine in abundance. He and his people become wine-bibbers.",
     "characters": [
       "the man referred to as “he”",
       "his wives",
@@ -475,12 +475,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Non-dramatic vineyard and wine-press imagery could accompany the report of wine production without showing an invented occasion."
+      "Vineyards and wine-presses may illustrate the reported activities without placing them at a single invented occasion."
     ],
     "unspecified_visual_details": [
-      "The man's name and the land's name are not supplied.",
+      "The man's name and the land's name are not supplied in these verses.",
       "Appearances, clothing, group sizes, vineyard layouts, and wine-press designs are unspecified.",
-      "Specific activities constituting riotous living and the timing between reported activities are unspecified."
+      "Specific activities constituting riotous living and the timing between the reported activities are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -498,16 +498,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Use one narration-led account, not a shared dramatic occasion. Keep the report of riotous living distinct from the subsequent report of vineyards and wine, preserving textual order without inventing precise chronology.",
-      "These verses summarize activities over time; do not reenact them as newly specified present-tense events.",
-      "Placing his heart upon riches is figurative, not a visible physical action.",
-      "The character list identifies participants in the reports, not a gathering of everyone together."
+      "The same man is the subject of both verses, but the supplied verses do not name him; do not add “king Noah” to a source quotation.",
+      "Present these reports as activities over time, not one shared occasion.",
+      "Placing his heart upon riches is figurative, not a visible physical action."
     ],
     "prohibited_inventions": [
-      "Do not identify the man as Noah or assign a name or ownership to the land from outside these verses.",
-      "Do not combine riotous living, priestly activities, vineyard planting, wine-press construction, and drinking into one simultaneous event.",
-      "Do not invent dialogue, specific sexual acts, celebrations, or additional motives.",
-      "Do not supply dates, durations, or encounters between the listed groups."
+      "Do not name the man or the land from outside the supplied verses.",
+      "Do not combine the reported activities into one simultaneous event.",
+      "Do not invent dialogue, specific sexual acts, celebrations, motives, dates, or encounters between the groups."
     ],
     "importance": "normal"
   },
@@ -734,47 +732,57 @@
       "Mosiah 11:22",
       "Mosiah 11:23"
     ],
-    "summary": "The prophecy declares that the people shall know the Lord their God and warns that unless they repent and turn to him, they shall enter bondage, from which only the Lord can deliver them.",
+    "summary": "The warning says the people shall know the Lord their God and that, unless they repent and turn to him, they shall be brought into bondage, from which only the Lord can deliver them.",
     "characters": [
+      "Abinadi (speaker)",
       "the Lord (mentioned only)",
       "this people (mentioned only)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The prophecy declares that the people shall know the Lord their God, described as jealous and visiting the iniquities of his people.",
+        "text": "The warning says the people shall know the Lord their God, who calls himself a jealous God visiting the iniquities of his people.",
         "refs": [
           "Mosiah 11:22"
         ]
       },
       {
-        "text": "Unless the people repent and turn to the Lord their God, they shall be brought into bondage; none shall deliver them except the Lord Almighty God.",
+        "text": "Unless this people repent and turn to the Lord their God, they shall be brought into bondage, and none shall deliver them except the Lord Almighty God.",
         "refs": [
           "Mosiah 11:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
-    "unspecified_visual_details": [
-      "The supplied verses specify no location, visible speaker, audience appearance, or divine appearance."
+    "reasonable_visual_inferences": [
+      "Abinadi may be shown speaking, without establishing a location or audience appearance."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "unspecified_visual_details": [
+      "The verses specify no location, audience appearance, or visible appearance of the Lord."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "I am the Lord their God, and am a jealous God, visiting the iniquities of my people.",
+        "refs": [
+          "Mosiah 11:22"
+        ],
+        "speaker": "Abinadi"
+      },
       {
         "text": "And it shall come to pass that except this people repent and turn unto the Lord their God, they shall be brought into bondage; and none shall deliver them, except it be the Lord the Almighty God.",
         "refs": [
           "Mosiah 11:23"
-        ]
+        ],
+        "speaker": "Abinadi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Present this as a textual prophecy, not an enacted event.",
-      "Bondage is a conditional future warning, not an event occurring in these verses.",
-      "The supplied verses do not identify the delivering speaker; the narration quotation does not establish a visibly present Lord or human speaker."
+      "Abinadi voices the Lord’s first-person words; they do not establish a visible divine appearance.",
+      "Bondage and deliverance are part of a conditional future warning, not events occurring here."
     ],
     "prohibited_inventions": [
-      "Do not depict a divine appearance or invent a visible speaker.",
-      "Do not depict bondage, repentance, punishment, or deliverance as occurring here.",
+      "Do not depict the Lord appearing.",
+      "Do not depict bondage, punishment, repentance, or deliverance as occurring here.",
       "Do not invent a location, audience gathering, or additional dialogue."
     ],
     "importance": "normal"
@@ -786,57 +794,62 @@
       "Mosiah 11:24",
       "Mosiah 11:25"
     ],
-    "summary": "An unnamed messenger conveys the Lord’s warning about unanswered cries, enemies, and repentance as a condition for hearing prayers and delivering the people from affliction.",
+    "summary": "Abinadi conveys the Lord’s warning that he will be slow to hear the people’s cries and will suffer their enemies to smite them. He states the conditions for the Lord to hear their prayers and deliver them from affliction.",
     "characters": [
-      "Unnamed messenger"
+      "Abinadi"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord warns that he will be slow to hear their cries and will suffer them to be smitten by their enemies.",
+        "text": "The Lord says he will be slow to hear their cries and will suffer them to be smitten by their enemies.",
         "refs": [
           "Mosiah 11:24"
         ]
       },
       {
-        "text": "The Lord declares that unless they repent in sackcloth and ashes and cry mightily to him, he will not hear their prayers or deliver them from their afflictions.",
+        "text": "Unless they repent in sackcloth and ashes and cry mightily to the Lord, he will not hear their prayers or deliver them from their afflictions.",
         "refs": [
           "Mosiah 11:25"
         ]
       },
       {
-        "text": "The unnamed messenger attributes the warning to the Lord and says the Lord commanded him.",
+        "text": "Abinadi attributes the warning to the Lord and says the Lord commanded him.",
         "refs": [
           "Mosiah 11:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The unnamed messenger may be shown conveying the warning."
+      "Abinadi may be shown speaking the warning."
     ],
     "unspecified_visual_details": [
-      "The messenger’s identity and appearance are not specified in these verses.",
-      "The location, audience composition, clothing, and gestures are unspecified."
+      "Abinadi’s appearance, location, and gestures are unspecified.",
+      "The audience is unspecified."
     ],
     "spoken_dialogue": [
+      {
+        "text": "I will suffer them that they be smitten by their enemies.",
+        "refs": [
+          "Mosiah 11:24"
+        ],
+        "speaker": "Abinadi"
+      },
       {
         "text": "And except they repent in sackcloth and ashes, and cry mightily to the Lord their God, I will not hear their prayers, neither will I deliver them out of their afflictions; and thus saith the Lord, and thus hath he commanded me.",
         "refs": [
           "Mosiah 11:25"
         ],
-        "speaker": "Unnamed messenger, conveying the Lord’s words and identifying their source"
+        "speaker": "Abinadi"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The warning’s divine first-person statements belong to the Lord; the closing attribution belongs to the messenger conveying them.",
-      "These verses do not identify the messenger as Abinadi or Mormon.",
-      "The threatened suffering and conditional repentance and deliverance are not narrated as events occurring here."
+      "Abinadi conveys the Lord’s first-person warning; the closing attribution identifies its source.",
+      "The threatened suffering, repentance, prayers, and deliverance are not narrated as occurring here."
     ],
     "prohibited_inventions": [
-      "Do not identify the messenger as Abinadi using the previous draft as authority.",
-      "Do not depict attacks, repentance, prayer, or deliverance as occurring in this scene.",
-      "Do not depict a visible divine appearance or a separate encounter in which the Lord gives the command.",
+      "Do not depict an attack, repentance, prayer, or deliverance as occurring in this scene.",
+      "Do not depict the Lord appearing or a separate encounter in which he gives the command.",
       "Do not invent an audience, location, or additional dialogue."
     ],
     "importance": "normal"

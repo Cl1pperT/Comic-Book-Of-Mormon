@@ -708,56 +708,64 @@
     "refs": [
       "Alma 50:35"
     ],
-    "summary": "Teancum leads Moroni's army against Morianton's people. A battle begins; Teancum kills Morianton, defeats his army, takes the people prisoner, and returns to Moroni's camp.",
+    "summary": "The army sent by Moroni, led by Teancum, meets Morianton’s people. A battle begins. Teancum kills Morianton, defeats his army, takes them prisoner, and returns to Moroni’s camp. The twenty-fourth year of the judges ends.",
     "characters": [
       "Teancum",
-      "Nephite army",
       "Morianton",
-      "People of Morianton"
+      "army sent by Moroni",
+      "people of Morianton"
     ],
     "locations": [
-      "borders of Desolation"
+      "battle location not specified",
+      "camp of Moroni"
     ],
     "explicit_facts": [
       {
-        "text": "Moroni's army, led by Teancum, met Morianton's people and a battle began.",
+        "text": "Moroni sent an army led by Teancum, and it met Morianton’s people.",
         "refs": [
           "Alma 50:35"
         ]
       },
       {
-        "text": "Teancum killed Morianton, defeated his army, took them prisoners, and returned to Moroni's camp.",
+        "text": "Morianton’s people were stubborn, inspired by his wickedness and flattering words, and a battle began.",
         "refs": [
           "Alma 50:35"
         ]
       },
       {
-        "text": "The twenty-fourth year ended.",
+        "text": "Teancum killed Morianton, defeated his army, took them prisoner, and returned to Moroni’s camp.",
+        "refs": [
+          "Alma 50:35"
+        ]
+      },
+      {
+        "text": "The twenty-fourth year of the reign of the judges over the people of Nephi ended.",
         "refs": [
           "Alma 50:35"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Show the battle in progress, with Teancum's action against Morianton; keep the depiction non-graphic."
+      "Show the battle and Teancum’s action against Morianton without gore.",
+      "If the return is shown, depict it after the battle, not simultaneously."
     ],
     "unspecified_visual_details": [
-      "Weapons, formations, terrain details, and how prisoners are guarded."
+      "Battle terrain, weapons, formations, and prisoner arrangements are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "a battle commenced between them",
+        "text": "a battle commenced between them, in the which Teancum did slay Morianton and defeat his army, and took them prisoners, and returned to the camp of Moroni.",
         "refs": [
           "Alma 50:35"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The battle's outcome and the return are part of this narrated episode; avoid gore."
+      "Moroni sends the army; the verse does not place him at the battle."
     ],
     "prohibited_inventions": [
-      "Do not show blood, wounds, severed body parts, or unsourced dialogue."
+      "Do not add dialogue, a specific battle location, gore, or Moroni’s presence at the battle."
     ],
     "importance": "normal"
   },
@@ -870,47 +878,65 @@
       "Alma 50:39",
       "Alma 50:40"
     ],
-    "summary": "Nephihah's son is appointed chief judge and governor with an oath and sacred ordinance. He is named Pahoran and succeeds his father at the end of the twenty-fourth year.",
+    "summary": "Nephihah's son is appointed chief judge and governor in his father's place with an oath and sacred ordinance. His name is Pahoran. He fills his father's seat and begins his reign over the people of Nephi at the end of the twenty-fourth year.",
     "characters": [
-      "Pahoran (chief judge)"
+      "Pahoran"
     ],
-    "locations": [
-      "Nephite lands"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephihah's son was appointed chief judge and governor in his father's place, with an oath and sacred ordinance.",
+        "text": "Nephihah's son was appointed to fill the judgment-seat in his father's place and was appointed chief judge and governor over the people.",
         "refs": [
           "Alma 50:39"
         ]
       },
       {
-        "text": "His name was Pahoran, and he began his reign at the end of the twenty-fourth year.",
+        "text": "His appointment included an oath and sacred ordinance to judge righteously, keep the peace and freedom of the people, grant their sacred privileges to worship the Lord their God, support and maintain the cause of God, and bring the wicked to justice according to their crime.",
+        "refs": [
+          "Alma 50:39"
+        ]
+      },
+      {
+        "text": "Nephihah's son was named Pahoran. He filled his father's seat and began his reign over the people of Nephi at the end of the twenty-fourth year.",
         "refs": [
           "Alma 50:40"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Pahoran is present at an appointment or oath-taking; the text supports the oath and ordinance but gives no staging details."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance of the ordinance, witnesses, clothing, and location."
+      "Pahoran's appearance, the setting, and the appearance of the judgment-seat.",
+      "How the oath and sacred ordinance were conducted."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his name was Pahoran",
+        "text": "yea, he was appointed chief judge and governor over the people",
+        "refs": [
+          "Alma 50:39"
+        ]
+      },
+      {
+        "text": "Now behold, his name was Pahoran.",
+        "refs": [
+          "Alma 50:40"
+        ]
+      },
+      {
+        "text": "And Pahoran did fill the seat of his father, and did commence his reign in the end of the twenty and fourth year, over the people of Nephi.",
         "refs": [
           "Alma 50:40"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The duties listed in verse 39 are summarized commitments, not supplied direct dialogue."
+      "Mormon narrates the appointment and its duties; the verses supply no spoken oath.",
+      "Verse 40 dates the beginning of Pahoran's reign, not necessarily his appointment."
     ],
     "prohibited_inventions": [
-      "Do not invent oath wording, a crowd, or a specific ceremonial setting."
+      "Do not invent oath wording, speakers, witnesses, a crowd, or ceremonial actions.",
+      "Do not depict Nephihah or the Lord as physically present solely because they are mentioned.",
+      "Do not portray the appointment and the beginning of the reign as necessarily occurring at the same moment."
     ],
     "importance": "normal"
   }

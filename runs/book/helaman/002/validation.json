@@ -1,5 +1,5 @@
 {
-  "stamp": "8edfbd599b32c7b57f100bf240987e9b6426e0a28da561acdadd13ae240a5778",
+  "stamp": "3d2712bf5db8fe606fa799c5d09650e9f8e9f1c5f841d85ddb96017b4d5b92be",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -10,12 +10,16 @@
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is an exact excerpt from Helaman 2:4, but it does not narrate the scene's described events; this is a source-faithful quotation, though its use as narration could suggest an unspecified moment."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration fragments are exact excerpts, and the notes correctly identify the earlier night outing and disguise as reported prior actions. The scene’s unspecified meeting time and place leave the staging uncertain."
+      ]
     },
     "scene_005": {
       "status": "PASS",

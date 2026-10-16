@@ -264,7 +264,7 @@
       "3 Nephi 18:13",
       "3 Nephi 18:14"
     ],
-    "summary": "Jesus commends the disciples for keeping his commandments, teaches them to continue the ordinance in remembrance, and warns of the consequences of doing more or less than commanded.",
+    "summary": "After the disciples had done this, Jesus speaks to them. He blesses them, commands them to continue doing these things in remembrance of his blood, and warns against doing more or less than commanded.",
     "characters": [
       "Jesus Christ (at Bountiful)",
       "the disciples"
@@ -274,41 +274,42 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jesus blessed the disciples for what they had done and said it witnessed their willingness to obey his commandments.",
+        "text": "After the disciples had done this, Jesus spoke to them and called them blessed for what they had done.",
         "refs": [
           "3 Nephi 18:10"
         ]
       },
       {
-        "text": "Jesus taught that they should continue the ordinance for those who repent and are baptized, in remembrance of him.",
+        "text": "Jesus told the disciples to do this for those who repent and are baptized in his name, in remembrance of his blood.",
         "refs": [
           "3 Nephi 18:11"
         ]
       },
       {
-        "text": "Jesus commanded them to do these things and said the obedient are built upon his rock.",
+        "text": "Jesus commanded them to do these things and said those who always do them are built upon his rock.",
         "refs": [
           "3 Nephi 18:12"
         ]
       },
       {
-        "text": "Jesus warned that those doing more or less are built on a sandy foundation that will fall when rain, floods, and winds beat upon it.",
+        "text": "Jesus warned that those who do more or less are built upon a sandy foundation and shall fall when rain, floods, and winds beat upon them.",
         "refs": [
           "3 Nephi 18:13"
         ]
       },
       {
-        "text": "Jesus blessed those who keep his commandments.",
+        "text": "Jesus said they are blessed if they keep the commandments the Father commanded him to give them.",
         "refs": [
           "3 Nephi 18:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jesus speaks to the disciples who have just participated in the ordinance."
+      "Jesus addresses the disciples after they have done the action mentioned in verse 10."
     ],
     "unspecified_visual_details": [
-      "The disciples' expressions and the surrounding setting."
+      "The setting, clothing, and expressions are not specified in these verses.",
+      "These verses do not identify what the disciples had just done."
     ],
     "spoken_dialogue": [
       {
@@ -317,21 +318,29 @@
           "3 Nephi 18:12"
         ],
         "speaker": "Jesus Christ (at Bountiful)"
+      },
+      {
+        "text": "But whoso among you shall do more or less than these are not built upon my rock, but are built upon a sandy foundation;",
+        "refs": [
+          "3 Nephi 18:13"
+        ],
+        "speaker": "Jesus Christ (at Bountiful)"
       }
     ],
     "narration": [
       {
-        "text": "But whoso among you shall do more or less than these are not built upon my rock,",
+        "text": "And when the disciples had done this, Jesus said unto them:",
         "refs": [
-          "3 Nephi 18:13"
+          "3 Nephi 18:10"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The rock, sandy foundation, storm, and gates of hell are part of the teaching; do not depict them as a separate literal event."
+      "The rock, sandy foundation, storm, and gates of hell are figures in Jesus's teaching, not separately narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not create a storm, collapsing building, or visible gates of hell."
+      "Do not depict a literal storm, collapsing structure, or visible gates of hell.",
+      "Do not specify what the disciples had just done based on these verses alone."
     ],
     "importance": "normal"
   },
@@ -821,9 +830,9 @@
       "3 Nephi 18:38",
       "3 Nephi 18:39"
     ],
-    "summary": "After Jesus has touched them all, a cloud overshadows the multitude so they cannot see Jesus. While they are overshadowed, Jesus departs and ascends into heaven; the disciples see and bear record of his ascent.",
+    "summary": "After Jesus touched them all, a cloud overshadowed the multitude so they could not see him. While they were overshadowed, he departed and ascended into heaven. The disciples saw and bore record of his ascent.",
     "characters": [
-      "Jesus Christ (at Bountiful)",
+      "Jesus",
       "the disciples",
       "the multitude"
     ],
@@ -832,38 +841,58 @@
     ],
     "explicit_facts": [
       {
-        "text": "After Jesus touched them all, a cloud came and overshadowed the multitude so they could not see Jesus.",
+        "text": "Jesus touched them all before the cloud came.",
         "refs": [
           "3 Nephi 18:38"
         ]
       },
       {
-        "text": "While the multitude was overshadowed, Jesus departed and ascended into heaven; the disciples saw and bore record that he ascended.",
+        "text": "The cloud overshadowed the multitude, who could not see Jesus.",
+        "refs": [
+          "3 Nephi 18:38"
+        ]
+      },
+      {
+        "text": "While they were overshadowed, Jesus departed and ascended into heaven.",
+        "refs": [
+          "3 Nephi 18:39"
+        ]
+      },
+      {
+        "text": "The disciples saw and bore record that Jesus ascended again into heaven.",
         "refs": [
           "3 Nephi 18:39"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The cloud obscures Jesus from the multitude while the disciples witness the ascent."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The cloud's appearance, the precise manner of the ascent, and the appearance of heaven."
+      "The cloud's appearance",
+      "The precise manner of the ascent",
+      "The appearance of heaven and the surrounding location"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there came a cloud and overshadowed the multitude",
+        "text": "there came a cloud and overshadowed the multitude that they could not see Jesus.",
         "refs": [
           "3 Nephi 18:38"
+        ]
+      },
+      {
+        "text": "And the disciples saw and did bear record that he ascended again into heaven.",
+        "refs": [
+          "3 Nephi 18:39"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The ascent is explicitly narrated as a visible event witnessed by the disciples."
+      "The ascent is narrated as an event the disciples saw; their record is reported, not quoted speech."
     ],
     "prohibited_inventions": [
-      "Do not show the multitude seeing Jesus through the cloud."
+      "Do not show the multitude seeing Jesus through the cloud.",
+      "Do not invent spoken testimony for the disciples.",
+      "Do not invent an appearance for heaven."
     ],
     "importance": "major"
   }

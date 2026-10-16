@@ -456,48 +456,33 @@
       "Ether 8:11",
       "Ether 8:12"
     ],
-    "summary": "Jared sends for Akish. Jared’s daughter dances before Akish, who desires to marry her and asks Jared for her. Jared makes his consent conditional on Akish bringing him the head of his father, the king.",
+    "summary": "Akish asks Jared for his daughter as a wife. Jared says he will give her to Akish if Akish brings him the head of his father, the king.",
     "characters": [
       "Akish",
-      "Jared",
-      "Jared’s daughter"
+      "Jared"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Omer was a friend to Akish.",
+        "text": "Akish asks Jared to give him Jared's daughter as a wife.",
         "refs": [
           "Ether 8:11"
         ]
       },
       {
-        "text": "Jared sent for Akish, and Jared’s daughter danced before Akish.",
-        "refs": [
-          "Ether 8:11"
-        ]
-      },
-      {
-        "text": "Akish desired Jared’s daughter as a wife and asked Jared for her.",
-        "refs": [
-          "Ether 8:11"
-        ]
-      },
-      {
-        "text": "Jared said he would give her to Akish if Akish brought him the head of his father, the king.",
+        "text": "Jared says he will give her to Akish if Akish brings him the head of his father, the king.",
         "refs": [
           "Ether 8:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Akish watches Jared’s daughter dance.",
       "Akish and Jared face one another while speaking."
     ],
     "unspecified_visual_details": [
-      "The location, clothing, and appearance of the people are unspecified.",
-      "The supplied verses do not explicitly name Jared’s father."
+      "The location, clothing, and appearances of Akish and Jared are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -515,28 +500,15 @@
         "speaker": "Jared"
       }
     ],
-    "narration": [
-      {
-        "text": "And now Omer was a friend to Akish;",
-        "refs": [
-          "Ether 8:11"
-        ]
-      },
-      {
-        "text": "the daughter of Jared danced before him that she pleased him, insomuch that he desired her to wife.",
-        "refs": [
-          "Ether 8:11"
-        ]
-      }
-    ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Moroni narrates; he is not described as physically present.",
-      "Ether 8:11 names Omer as Akish’s friend. In Ether 8:12, Jared calls the king his father, but the supplied verses do not explicitly identify him by name."
+      "Moroni narrates but is not described as physically present.",
+      "The king is identified as Jared's father, but these verses do not name him."
     ],
     "prohibited_inventions": [
-      "Do not depict Omer as present during the dance or conversation.",
-      "Do not depict the king’s death or Akish carrying out Jared’s condition.",
-      "Do not identify Jared’s father as Omer on the authority of these verses alone."
+      "Do not repeat the dance in this scene.",
+      "Do not depict the king's death or Akish carrying out Jared's condition.",
+      "Do not identify Jared's father as Omer on the authority of these verses alone."
     ],
     "importance": "normal"
   },

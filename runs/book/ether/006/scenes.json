@@ -1,19 +1,20 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Light in the barges",
+    "title": "Stones Give Light in the Vessels",
     "refs": [
       "Ether 6:1",
       "Ether 6:2",
       "Ether 6:3"
     ],
-    "summary": "Moroni introduces the record. After the Lord prepares the stones, the brother of Jared places them in the vessels, where they give light.",
+    "summary": "Moroni proceeds to give the record of Jared and his brother. After the Lord prepares the stones, the brother of Jared comes down from the mount and puts them into the prepared vessels, one in each end. The stones give light to the vessels.",
     "characters": [
-      "Moroni",
+      "Moroni (narrator)",
       "The brother of Jared"
     ],
     "locations": [
-      "Unspecified location"
+      "The mount",
+      "The prepared vessels"
     ],
     "explicit_facts": [
       {
@@ -23,37 +24,47 @@
         ]
       },
       {
-        "text": "The Lord prepared stones carried up into the mount by the brother of Jared; he came down from the mount and put one stone in each end of the vessels, and they gave light.",
+        "text": "The Lord prepared the stones that the brother of Jared had carried up into the mount.",
         "refs": [
           "Ether 6:2"
         ]
       },
       {
-        "text": "The stones shone in darkness to give light to the people, so they would not cross the great waters in darkness.",
+        "text": "The brother of Jared came down from the mount and put the stones into the prepared vessels, one in each end; they gave light to the vessels.",
+        "refs": [
+          "Ether 6:2"
+        ]
+      },
+      {
+        "text": "The Lord caused the stones to shine in darkness to give light to men, women, and children, so they would not cross the great waters in darkness.",
         "refs": [
           "Ether 6:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The stones glow inside the vessels, illuminating their interior."
+      "The shining stones illuminate the vessels' interiors."
     ],
     "unspecified_visual_details": [
-      "The stones' color and shape; the vessels' precise design; the people illuminated by the stones are not individually described."
+      "The stones' color and shape",
+      "The vessels' precise design",
+      "The appearance of the men, women, and children"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they did give light unto the vessels.",
+        "text": "the brother of Jared came down out of the mount, and he did put forth the stones into the vessels which were prepared, one in each end thereof; and behold, they did give light unto the vessels.",
         "refs": [
           "Ether 6:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni narrates this event; he is not described as physically present at the vessels."
+    ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly; the verses do not describe an appearance.",
-      "Do not add dialogue."
+      "Do not depict the Lord visibly; no appearance is described.",
+      "Do not add dialogue or depict the crossing as occurring during the placement of the stones."
     ],
     "importance": "normal"
   },

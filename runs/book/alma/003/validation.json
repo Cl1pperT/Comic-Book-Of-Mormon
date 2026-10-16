@@ -1,5 +1,5 @@
 {
-  "stamp": "75299af1d44bc8ce73ff49a73b85fc57afa4eed41fb7cc7bbbdc7ef42f5481e2",
+  "stamp": "43b0810141eb3a190e0e7824f3d4f1843a5c141e94763cec0d7eec00cd37a423",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The verses do not identify the narrator as Mormon. The character field and story note attribute the narration to him using material outside the supplied verses."
+      ]
     },
     "scene_009": {
       "status": "PASS",

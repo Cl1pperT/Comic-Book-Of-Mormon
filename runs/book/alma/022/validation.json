@@ -1,5 +1,5 @@
 {
-  "stamp": "a21a254b379ad8ce1df6cfd8e26228555d9b7e5e5d8d545cd8cfab3a39cded7f",
+  "stamp": "60971204784020a48e927dbb611be5ee9f1c6132047775c1722416786824c654",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -38,8 +38,8 @@
     "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene 009: The verse places the queen and group in the king’s presence but does not name a palace or the land of Nephi; that location is unsupported. “As though they had been the cause of his fall” describes how they appeared to her, not a confirmed cause.",
-        "Scene 009: Narration is an exact excerpt, but the queen’s anger is narrated alongside the servants’ report and her seeing the king and Aaron’s group; avoid implying a different order."
+        "No material invented content. The reasonable visual inference that Aaron and his brethren are near enough to be seen is supported by the queen seeing them standing alongside the king.",
+        "The summary and narration describe the servants’ report and the queen’s response as reported events; they should not be staged as a single contemporaneous scene. The source does not specify where the king, queen, or servants are, or how the servants conveyed their report."
       ]
     },
     "scene_010": {
@@ -51,7 +51,9 @@
     "scene_011": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene follows Alma 22:22–23 in order, and its narration and dialogue are exact excerpts within the 65-word limit. The location and visible expressions are unspecified; the scene appropriately leaves them open. Conversion is narrated as an outcome, not shown as a separate event."
+        "The summary's phrase “sees the queen's determination” omits that Aaron also knows the people's hearts are hard and fears a multitude could assemble, causing contention and disturbance. The explicit-facts field includes these details.",
+        "The location label is an inference rather than a supplied place name; it is appropriately marked unspecified, but use a generic, non-identifying setting.",
+        "The prior scene ends with the queen commanding that people be called; this scene correctly does not depict their arrival, which occurs in the next supplied verses."
       ]
     },
     "scene_012": {

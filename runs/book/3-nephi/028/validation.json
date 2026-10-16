@@ -1,5 +1,5 @@
 {
-  "stamp": "f17697664ebfb6735963506c1c07b3793a66698706d1f8a8b1b5fc7e35a1c093",
+  "stamp": "8cc832a1158c13d32bb75ac0b6635e392e348bbb6f49eb48ac5458976a18d42e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says the experience seems to them like a transfiguration, which is accurate, but the visual inference of showing them rising is not directly specified; depict only the stated catching up without implying a particular bodily form or mechanism."
+      ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",

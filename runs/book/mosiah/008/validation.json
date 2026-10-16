@@ -1,5 +1,5 @@
 {
-  "stamp": "451b72b963872b3b6dcde51c5c24bf615ec3f380285f54946d7992400a518072",
+  "stamp": "c218e14e41c56a15d2d46b058743ddd40ede8e7ad4e00ef0de0187fdc9fd68ab",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -16,10 +16,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary attributes the account to “The king” without preserving the text’s explicit uncertainty about which king; its identity is unspecified in these verses."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",
@@ -33,8 +31,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator. This assigns an unsupported speaker."
+      ]
     },
     "scene_008": {
       "status": "PASS",

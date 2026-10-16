@@ -198,7 +198,7 @@
       "Alma 12:10",
       "Alma 12:11"
     ],
-    "summary": "Alma expounds to a man that knowledge of God's mysteries is granted according to heed and diligence. He contrasts the portions of the word received by those who harden their hearts and those who do not, then explains what he means by the chains of hell.",
+    "summary": "Alma begins to expound to a man. He teaches how heed, diligence, and hardness of heart relate to receiving the word and knowing God's mysteries, and explains the chains of hell.",
     "characters": [
       "Alma (son of Alma)",
       "Unnamed listener"
@@ -226,14 +226,14 @@
         ]
       },
       {
-        "text": "Alma teaches that those who harden their hearts can come to know nothing of God's mysteries, be taken captive by the devil, and be led to destruction; he calls this the chains of hell.",
+        "text": "Alma teaches that those who harden their hearts can come to know nothing of God's mysteries, be taken captive by the devil, and be led to destruction. He calls this the chains of hell.",
         "refs": [
           "Alma 12:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to the unnamed man."
+      "Alma addresses the man to whom he is expounding."
     ],
     "unspecified_visual_details": [
       "The location and surroundings",
@@ -271,7 +271,8 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Alma's account of captivity and the chains of hell is part of his teaching, not a narrated visible event."
+      "Place the narration identifying Alma before his first spoken line; all spoken lines belong to Alma.",
+      "Captivity and the chains of hell are teachings here, not narrated visible events."
     ],
     "prohibited_inventions": [
       "Do not identify the unnamed listener or add a crowd.",
@@ -584,115 +585,161 @@
       "Alma 12:26",
       "Alma 12:27"
     ],
-    "summary": "Alma teaches that the plan of redemption makes resurrection possible. He says that without a preparatory state, partaking of the tree of life would have frustrated the plan, and that death is appointed before judgment.",
+    "summary": "Alma teaches that the plan of redemption will bring about resurrection. He describes what would have happened if the first parents had partaken of the tree of life, then says people must die and come to judgment.",
     "characters": [
-      "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "Alma (son of Alma)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says the plan of redemption, laid from the foundation of the world, brings about resurrection.",
+        "text": "The plan of redemption was laid from the foundation of the world and will bring about the resurrection of the dead.",
         "refs": [
           "Alma 12:25"
         ]
       },
       {
-        "text": "He says that living forever without a preparatory state would have frustrated the plan of redemption.",
+        "text": "Alma presents the first parents' partaking of the tree of life as a hypothetical: they would have been forever miserable, without a preparatory state, and the plan of redemption would have been frustrated.",
         "refs": [
           "Alma 12:26"
         ]
       },
       {
-        "text": "Alma says it is appointed that people die and after death come to judgment.",
+        "text": "People are appointed to die and, after death, come to judgment.",
         "refs": [
           "Alma 12:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues teaching to Antionah and the assembled audience."
+      "Alma is speaking while giving this teaching."
     ],
     "unspecified_visual_details": [
-      "A visual representation of the plan, resurrection, or future judgment."
+      "Alma's appearance",
+      "The setting and any listeners"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "there was a plan of redemption laid,",
+        "text": "but there was a plan of redemption laid, which shall bring to pass the resurrection of the dead, of which has been spoken.",
         "refs": [
           "Alma 12:25"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "they would have been forever miserable, having no preparatory state;",
+        "refs": [
+          "Alma 12:26"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "but it was appointed unto men that they must die; and after death, they must come to judgment,",
+        "refs": [
+          "Alma 12:27"
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "These are teachings about the plan and future events, not a depicted resurrection or judgment."
+      "The first parents' partaking of the tree of life is hypothetical, not a narrated event.",
+      "Resurrection and judgment are teachings here, not visible events in this scene."
     ],
     "prohibited_inventions": [
-      "Do not add a divine figure or historical scene."
+      "Do not depict the first parents partaking of the tree of life.",
+      "Do not depict a resurrection, judgment, or divine figure.",
+      "Do not add named listeners or a specific setting."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Angels and the plan made known",
+    "title": "Alma recounts God's dealings with mankind",
     "refs": [
       "Alma 12:28",
       "Alma 12:29",
       "Alma 12:30"
     ],
-    "summary": "Alma says God saw that people should know what he had appointed, sent angels to converse with them, and made the plan of redemption known according to their faith, repentance, and holy works.",
+    "summary": "Alma recounts that God saw mankind should know what he had appointed, sent angels to converse with people and cause them to behold his glory, and later conversed with those who called on his name, making known the plan of redemption according to their faith, repentance, and holy works.",
     "characters": [
-      "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "Alma (son of Alma)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "God saw it was expedient that people know what he had appointed for them.",
+        "text": "God saw that mankind should know concerning what he had appointed for them.",
         "refs": [
           "Alma 12:28"
         ]
       },
       {
-        "text": "God sent angels to converse with people, causing them to behold his glory.",
+        "text": "God sent angels to converse with people, who were caused to behold his glory.",
         "refs": [
           "Alma 12:29"
         ]
       },
       {
-        "text": "People began to call on God's name; God conversed with them and made the plan known according to their faith, repentance, and holy works.",
+        "text": "People began to call on God's name; God conversed with them and made known the plan of redemption according to their faith, repentance, and holy works.",
         "refs": [
           "Alma 12:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to Antionah and the listeners."
+      "Alma may be shown speaking while recounting these events."
     ],
     "unspecified_visual_details": [
-      "The identity or appearance of the angels, the people addressed, and God's appearance."
+      "Alma's appearance and surroundings are not specified in these verses.",
+      "The appearances of God, the angels, and the people described are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "he sent angels to converse with them,",
+        "text": "he saw that it was expedient that man should know",
+        "refs": [
+          "Alma 12:28"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "Therefore he sent angels to converse with them, who caused men to behold of his glory.",
         "refs": [
           "Alma 12:29"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "And they began from that time forth to call on his name;",
+        "refs": [
+          "Alma 12:30"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "God conversed with men, and made known unto them the plan of redemption,",
+        "refs": [
+          "Alma 12:30"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "according to their faith and repentance and their holy works.",
+        "refs": [
+          "Alma 12:30"
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma summarizes events without specifying particular people or a particular encounter."
+      "Alma describes earlier dealings between God, angels, and mankind; these verses do not identify a particular encounter."
     ],
     "prohibited_inventions": [
-      "Do not invent named historical figures or stage a specific angelic visitation."
+      "Do not stage a specific angelic visitation as a present event.",
+      "Do not invent appearances for God or the angels, or identities for the people described."
     ],
     "importance": "normal"
   },
@@ -703,49 +750,77 @@
       "Alma 12:31",
       "Alma 12:32"
     ],
-    "summary": "Alma teaches that after people transgressed the first commandments and became able to know good from evil, God gave commandments and warned that evil brings a second death.",
+    "summary": "Alma teaches that people transgressed the first commandments concerning temporal things and could act according to their wills. God made known the plan of redemption and then gave commandments against evil.",
     "characters": [
-      "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "Alma (son of Alma)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma says people first transgressed commandments concerning temporal things and came to know good from evil, able to act according to their wills.",
+        "text": "People first transgressed commandments concerning temporal things, came to know good from evil, and were in a state to act according to their wills.",
         "refs": [
           "Alma 12:31"
         ]
       },
       {
-        "text": "God gave commandments after making the plan of redemption known, warning against evil and its second-death penalty.",
+        "text": "God made known the plan of redemption before giving commandments that they should not do evil.",
+        "refs": [
+          "Alma 12:32"
+        ]
+      },
+      {
+        "text": "The stated penalty is a second death, described as everlasting death concerning righteousness. The plan of redemption could have no power for those subject to it, and the works of justice could not be destroyed.",
         "refs": [
           "Alma 12:32"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma continues his explanation to the assembled listeners."
+      "Alma may be shown speaking as he teaches."
     ],
     "unspecified_visual_details": [
-      "The first transgression, any specific commandment scene, or a visible second death."
+      "The setting and Alma’s appearance.",
+      "Whether anyone is visibly listening."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "whether to do evil or to do good—",
+        "text": "first transgressed the first commandments as to things which were temporal,",
         "refs": [
           "Alma 12:31"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "after having made known unto them the plan of redemption, that they should not do evil,",
+        "refs": [
+          "Alma 12:32"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "the penalty thereof being a second death, which was an everlasting death as to things pertaining unto righteousness;",
+        "refs": [
+          "Alma 12:32"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
+      {
+        "text": "for on such the plan of redemption could have no power,",
+        "refs": [
+          "Alma 12:32"
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The account is explanatory narration, not a reenactment."
+      "The transgression, plan of redemption, second death, and justice are described in Alma’s teaching, not narrated as visible events in these verses."
     ],
     "prohibited_inventions": [
-      "Do not show Adam or another unspecified person transgressing."
+      "Do not reenact a specific transgression or depict a visible second death.",
+      "Do not depict God appearing or invent identified listeners."
     ],
     "importance": "normal"
   },
@@ -757,120 +832,131 @@
       "Alma 12:34",
       "Alma 12:35"
     ],
-    "summary": "Alma recounts God's call to repent and not harden the heart, promising mercy and remission of sins through his Only Begotten Son to the repentant, while warning the hard-hearted will not enter his rest.",
+    "summary": "God called on people in the name of his Son, promising mercy to those who repent and do not harden their hearts. Those who repent have claim on mercy through his Only Begotten Son, remission of sins, and entry into his rest. Those who harden their hearts and do iniquity will not enter his rest.",
     "characters": [
-      "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "God"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma says God called on people in the name of his Son, promising mercy through his Only Begotten Son to those who repent and do not harden their hearts.",
+        "text": "God called on people in the name of his Son, promising mercy through his Only Begotten Son if they repent and do not harden their hearts.",
         "refs": [
           "Alma 12:33"
         ]
       },
       {
-        "text": "Those who repent and do not harden their hearts may claim mercy and remission of sins and enter God's rest.",
+        "text": "Those who repent and do not harden their hearts have claim on mercy through the Only Begotten Son, unto remission of sins, and shall enter God's rest.",
         "refs": [
           "Alma 12:34"
         ]
       },
       {
-        "text": "Those who harden their hearts and do iniquity will not enter God's rest.",
+        "text": "God declares that those who harden their hearts and do iniquity shall not enter his rest.",
         "refs": [
           "Alma 12:35"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Alma teaches the gathered people."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "God's appearance, the Only Begotten Son's appearance, and any visual form of God's rest."
+      "No physical setting, audience appearance, clothing, or staging is specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "If ye will repent and harden not your hearts,",
+        "text": "If ye will repent and harden not your hearts, then will I have mercy upon you, through mine Only Begotten Son;",
         "refs": [
           "Alma 12:33"
-        ]
+        ],
+        "speaker": "God"
       },
       {
-        "text": "then will I have mercy upon you,",
+        "text": "and these shall enter into my rest.",
         "refs": [
-          "Alma 12:33"
-        ]
+          "Alma 12:34"
+        ],
+        "speaker": "God"
+      },
+      {
+        "text": "And whosoever will harden his heart and will do iniquity, behold, I swear in my wrath that he shall not enter into my rest.",
+        "refs": [
+          "Alma 12:35"
+        ],
+        "speaker": "God"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "God's words are reported by Alma; this is not a scene showing God speaking."
+      "God is identified only as the speaker of the reported words, not as visibly present. Dialogue excerpts remain reported speech rather than a newly staged divine address.",
+      "These verses do not establish Alma's presence or identify him as their present speaker.",
+      "The Only Begotten Son is mentioned, not described as appearing. God's rest and hardened hearts are teachings, not narrated visible phenomena."
     ],
     "prohibited_inventions": [
-      "Do not depict God or the Son as visibly present."
+      "Do not depict Alma recounting the call or establish his presence.",
+      "Do not stage the reported call as a new present-tense event.",
+      "Do not invent a visible appearance of God or his Son.",
+      "Do not depict hardened hearts literally or invent a physical location for God's rest.",
+      "Do not invent listeners, their responses, or scenes of repentance, remission, or exclusion."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "Alma calls the people to repent",
+    "title": "Alma calls his brethren to repent",
     "refs": [
       "Alma 12:36",
       "Alma 12:37"
     ],
-    "summary": "Alma warns his brethren against hardening their hearts and urges them to repent and enter the rest of God rather than provoke the Lord's wrath.",
+    "summary": "Alma warns his brethren against hardening their hearts and calls on them to repent and enter the rest of God.",
     "characters": [
       "Alma (son of Alma)",
-      "Antionah",
-      "the surrounding multitude"
+      "Alma's brethren"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Alma warns his brethren that hardening their hearts and iniquity will keep them from the Lord's rest and bring destruction.",
+        "text": "Alma says that those who harden their hearts will not enter the rest of the Lord.",
         "refs": [
           "Alma 12:36"
         ]
       },
       {
-        "text": "Alma urges them to repent, not harden their hearts, and enter the rest of God.",
+        "text": "Alma urges his brethren to repent, not harden their hearts, and enter the rest of God.",
         "refs": [
           "Alma 12:37"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma addresses Antionah and the assembled audience."
+      "Alma addresses a group he calls his brethren."
     ],
     "unspecified_visual_details": [
-      "Any literal wrath, destruction, or visible representation of God's rest."
+      "The setting and the listeners' appearances are not specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
+      {
+        "text": "And now, my brethren, behold I say unto you, that if ye will harden your hearts ye shall not enter into the rest of the Lord;",
+        "refs": [
+          "Alma 12:36"
+        ],
+        "speaker": "Alma (son of Alma)"
+      },
       {
         "text": "let us repent, and harden not our hearts,",
         "refs": [
           "Alma 12:37"
-        ]
-      },
-      {
-        "text": "but let us enter into the rest of God,",
-        "refs": [
-          "Alma 12:37"
-        ]
+        ],
+        "speaker": "Alma (son of Alma)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "Wrath, destruction, and God's rest are teachings in this passage, not staged visible events."
+      "The Lord's rest, wrath, and destruction are discussed as teachings and warnings, not narrated as visible events."
     ],
     "prohibited_inventions": [
-      "Do not depict divine wrath or destruction as a current event."
+      "Do not depict divine wrath, destruction, or the Lord's rest as a current visible event.",
+      "Do not identify individual listeners or invent a setting."
     ],
     "importance": "normal"
   }

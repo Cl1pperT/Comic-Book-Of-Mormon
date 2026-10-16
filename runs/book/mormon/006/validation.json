@@ -1,5 +1,5 @@
 {
-  "stamp": "2c4b08261d89923c38c7d673f97fd324013b72508e9759a78b1fd409a050d79f",
+  "stamp": "4fced516c8aa5a2c573c90a1f74bb358fb7cba87724e460a6aaac7db2cd44f8c",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -37,8 +37,12 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mormon’s anguish and lament are supported by the supplied verses, but his identity as the speaker is inferred from the first-person account rather than explicitly named in these verses.",
+        "The narrative phrase is an exact excerpt, though it omits the source’s initial “And”; the excerpt remains contiguous and otherwise unchanged.",
+        "The preceding scene is consistent with the chronology: it reports the fallen, followed by Mormon’s lament. The slain should not be staged as a new event or shown in an invented setting."
+      ]
     },
     "scene_009": {
       "status": "PASS WITH WARNINGS",

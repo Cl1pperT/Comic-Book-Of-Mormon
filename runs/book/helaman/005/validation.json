@@ -1,5 +1,5 @@
 {
-  "stamp": "2b0f581e0eda5ec430f340c782cd5cdfd75fcfe69ef0dcea82e0cd321c8de5cb",
+  "stamp": "81a6366807e6072692001709ddfa7430d0a550d655b8e8b2e16048fd839c369d",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -60,23 +60,16 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene 015: The claim that the cloud obscures the voice’s source from listeners is not stated; the voice is described only as coming “as if it were above the cloud.” Treat this as uncertain visual inference.",
-        "Scene 015: The summary says the walls tremble “again,” consistent with verse 31, but the previous scene ends at verse 28, so this scene’s sequence follows the supplied chronology."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_016": {
       "status": "PASS",
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Summary and explicit facts align with verses 35–37. The comparison to angels is figurative; the notes correctly prohibit depicting angels or the being as visible.",
-        "The man’s cry is described but its words are not supplied in these verses, so omitting dialogue is appropriate. The provided narration is an exact excerpt from verse 36.",
-        "The preceding scene summarizes verses 32–34 without contradicting the chronology of this scene. Character and location details beyond what is stated remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS",

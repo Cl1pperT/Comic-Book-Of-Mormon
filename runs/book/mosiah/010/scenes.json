@@ -6,9 +6,9 @@
       "Mosiah 10:1",
       "Mosiah 10:2"
     ],
-    "summary": "The narrator recounts that the people again began to establish the kingdom and possess the land in peace. He caused weapons to be made and set guards around the land to protect his people and flocks.",
+    "summary": "The people again began to establish the kingdom and possess the land in peace. The first-person narrator caused weapons to be made against a future Lamanite attack and set guards around the land to protect his people and flocks.",
     "characters": [
-      "Unnamed first-person narrator",
+      "First-person narrator (unnamed in the supplied verses; not depicted)",
       "The narrator's people",
       "Guards"
     ],
@@ -23,23 +23,23 @@
         ]
       },
       {
-        "text": "The narrator caused weapons of war of every kind to be made for his people against a possible future Lamanite attack.",
+        "text": "The narrator caused weapons of war of every kind to be made for his people against the time the Lamanites should return to war.",
         "refs": [
           "Mosiah 10:1"
         ]
       },
       {
-        "text": "The narrator set guards around the land to protect his people and flocks from their enemies.",
+        "text": "The narrator set guards around the land to prevent a surprise attack and protect his people and flocks.",
         "refs": [
           "Mosiah 10:2"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Weapons being made and guards stationed around the land could illustrate the narrator's account."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The land's appearance, the weapons' designs, and the guards' number and appearance are unspecified."
+      "The land's geography and appearance are unspecified.",
+      "Weapon designs, manufacturing methods, and guard equipment are unspecified.",
+      "The guards' number and appearance and the flocks' species are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -57,11 +57,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied verses do not name the first-person narrator. These are recounted events, not a new present-tense encounter."
+      "The supplied verses do not name the first-person narrator; no personal identity is assigned here.",
+      "These preparations are reported retrospectively; retain them as narration rather than staging a new present-tense event.",
+      "The anticipated Lamanite attack does not occur in these verses."
     ],
     "prohibited_inventions": [
-      "Do not depict a Lamanite attack as occurring in this account.",
-      "Do not assign the narrator a name or depict him as physically present solely because he recounts these events."
+      "Do not identify the narrator as Mormon on the authority of these verses.",
+      "Do not invent spoken commands or dialogue.",
+      "Do not depict an attack, combat, or casualties.",
+      "Do not stage the reported preparations as simultaneous actions.",
+      "Do not invent a visible appearance for the narrator."
     ],
     "importance": "normal"
   },
@@ -470,46 +475,48 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "The Lamanites’ Inherited Belief",
+    "title": "The Tradition of Their Fathers",
     "refs": [
       "Mosiah 10:12",
       "Mosiah 10:13"
     ],
-    "summary": "Zeniff recounts the Lamanites’ belief that their ancestors were wronged and driven from the land, connecting it to Nephi’s greater faithfulness and the Lord’s favor.",
+    "summary": "The passage describes a people who believe their fathers were driven from Jerusalem and wronged in the wilderness, at sea, and in the land of their first inheritance. It connects these beliefs to Nephi's faithfulness, the Lord's favor and answers to his prayers, and Nephi's leadership in the wilderness.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Zeniff describes the Lamanites as believing they were driven from Jerusalem for their fathers’ iniquities and wronged in the wilderness and while crossing the sea.",
+        "text": "The people are described as wild, ferocious, and blood-thirsty, and as believing in the tradition of their fathers.",
         "refs": [
           "Mosiah 10:12"
         ]
       },
       {
-        "text": "They also believe they were wronged in their first inheritance after crossing the sea, because Nephi was more faithful, favored by the Lord, and led their journey in the wilderness.",
+        "text": "Their tradition holds that they were driven from Jerusalem because of their fathers' iniquities and wronged in the wilderness and while crossing the sea.",
+        "refs": [
+          "Mosiah 10:12"
+        ]
+      },
+      {
+        "text": "Their tradition holds that they were also wronged in the land of their first inheritance after crossing the sea.",
+        "refs": [
+          "Mosiah 10:13"
+        ]
+      },
+      {
+        "text": "The passage connects these reported grievances to Nephi's greater faithfulness in keeping the Lord's commandments, the Lord's favor and answers to his prayers, and Nephi's leadership in the wilderness.",
         "refs": [
           "Mosiah 10:13"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The passage reports an inherited belief and historical claims; it does not narrate these past events as occurring in the present."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No present-day visible action or location is supplied for this account."
+      "No present setting, physical appearances, or staging for this retrospective explanation are specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were wronged in the wilderness by their brethren",
-        "refs": [
-          "Mosiah 10:12"
-        ]
-      },
-      {
-        "text": "they were also wronged while crossing the sea",
+        "text": "believing in the tradition of their fathers,",
         "refs": [
           "Mosiah 10:12"
         ]
@@ -519,13 +526,30 @@
         "refs": [
           "Mosiah 10:13"
         ]
+      },
+      {
+        "text": "for the Lord heard his prayers and answered them,",
+        "refs": [
+          "Mosiah 10:13"
+        ]
+      },
+      {
+        "text": "and he took the lead of their journey in the wilderness.",
+        "refs": [
+          "Mosiah 10:13"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are reported beliefs and historical narration, not a visual reenactment."
+      "The claims of being driven out and wronged are presented as inherited beliefs.",
+      "This is retrospective explanation, not a newly occurring journey or confrontation.",
+      "Nephi and the Lord are mentioned, not described as visibly present.",
+      "No direct character dialogue is supplied."
     ],
     "prohibited_inventions": [
-      "Do not stage the journey, sea crossing, or Nephi’s leadership as events happening now."
+      "Do not stage the reported departure, grievances, sea crossing, or wilderness leadership as present action.",
+      "Do not invent dialogue, a visible narrator, or an appearance of the Lord.",
+      "Do not depict specific answers to prayer or invent violent actions from the characterization of the people."
     ],
     "importance": "normal"
   },
@@ -604,7 +628,7 @@
     "refs": [
       "Mosiah 10:17"
     ],
-    "summary": "They taught their children to hate, murder, rob, plunder, and seek to destroy others. The verse says they have an eternal hatred toward the children of Nephi.",
+    "summary": "They taught their children to hate, murder, rob, plunder, and seek to destroy those referred to as “them.” The verse says they have an eternal hatred toward the children of Nephi.",
     "characters": [
       "Unnamed group and their children",
       "Children of Nephi"
@@ -631,7 +655,19 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And thus they have taught their children that they should hate them, and that they should murder them, and that they should rob and plunder them, and do all they could to destroy them; therefore they have an eternal hatred towards the children of Nephi.",
+        "text": "And thus they have taught their children that they should hate them,",
+        "refs": [
+          "Mosiah 10:17"
+        ]
+      },
+      {
+        "text": "and that they should murder them, and that they should rob and plunder them, and do all they could to destroy them;",
+        "refs": [
+          "Mosiah 10:17"
+        ]
+      },
+      {
+        "text": "therefore they have an eternal hatred towards the children of Nephi.",
         "refs": [
           "Mosiah 10:17"
         ]
@@ -642,7 +678,7 @@
     ],
     "prohibited_inventions": [
       "Do not invent a specific teacher, lesson, or violent incident.",
-      "Do not assign a named speaker to this verse."
+      "Do not portray the reported teaching or violence as an event occurring in this scene."
     ],
     "importance": "normal"
   },

@@ -1,5 +1,5 @@
 {
-  "stamp": "a42c5ed99a6279da33ee804b65eb747c59bddf0d6566560687ad5143a7c8690f",
+  "stamp": "aa4a51d824a463cea6635f84a38f793e40fbfb233aedcdf254958a6c6724265d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -25,12 +25,8 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene’s identity for “the speaker” is not stated within refs 13–15, although the preceding scene and verse 12 identify him as Nephi. The tower’s connection to Nephi is established in verse 10.",
-        "The statement that the people gathered because of his mourning is supported, but the scene summary’s “upon his tower” is better read as context from verse 14; verse 13 itself only says he addresses them.",
-        "The dialogue consists of exact excerpts, but its selections omit portions of the verses; this is permissible under the scene notes and the excerpts themselves are verbatim."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_007": {
       "status": "PASS",

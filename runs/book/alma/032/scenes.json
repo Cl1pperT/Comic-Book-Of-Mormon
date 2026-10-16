@@ -193,23 +193,21 @@
       "Alma 32:9",
       "Alma 32:10"
     ],
-    "summary": "Alma tells the poor people they are lowly in heart and blessed, acknowledges their question about being cast out, and asks whether God can be worshipped only in synagogues.",
+    "summary": "Alma addresses the people as lowly in heart, recalls their brother's question about being cast out of their synagogues, and asks whether they suppose they can worship God only in synagogues.",
     "characters": [
       "Alma",
-      "the poor people"
+      "the people addressed"
     ],
-    "locations": [
-      "hill Onidah"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma addresses the people as lowly in heart and blessed.",
+        "text": "Alma says the people are lowly in heart and, if so, blessed.",
         "refs": [
           "Alma 32:8"
         ]
       },
       {
-        "text": "Alma recalls the brother's question about being cast out of the synagogues and unable to worship God there.",
+        "text": "Alma recounts their brother's question about being cast out of their synagogues and unable to worship God.",
         "refs": [
           "Alma 32:9"
         ]
@@ -222,10 +220,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma speaks to the assembled people."
+      "Alma addresses a group of people."
     ],
     "unspecified_visual_details": [
-      "Gestures and expressions beyond the stated actions are not specified."
+      "The setting, clothing, gestures, and appearances are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -236,24 +234,28 @@
         "speaker": "Alma"
       },
       {
-        "text": "do ye suppose that ye cannot worship God save it be in your synagogues only?",
+        "text": "Behold thy brother hath said, What shall we do?—for we are cast out of our synagogues, that we cannot worship our God.",
+        "refs": [
+          "Alma 32:9"
+        ],
+        "speaker": "Alma"
+      },
+      {
+        "text": "Behold I say unto you, do ye suppose that ye cannot worship God save it be in your synagogues only?",
         "refs": [
           "Alma 32:10"
         ],
         "speaker": "Alma"
       }
     ],
-    "narration": [
-      {
-        "text": "thy brother hath said, What shall we do?",
-        "refs": [
-          "Alma 32:9"
-        ]
-      }
+    "narration": [],
+    "doctrinal_or_story_notes": [
+      "The brother's question is reported within Alma's speech, not spoken anew in this scene."
     ],
-    "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show God or a divine manifestation; the passage contains teaching, not a visible divine appearance."
+      "Do not depict the earlier expulsion as a present event.",
+      "Do not show God or a divine manifestation.",
+      "Do not assign the scene a location not stated in these verses."
     ],
     "importance": "normal"
   },
@@ -1010,69 +1012,68 @@
       "Alma 32:42",
       "Alma 32:43"
     ],
-    "summary": "A speaker addresses his brethren and teaches that faith, diligence, patience, and long-suffering in nourishing the word will bring fruit and rewards.",
+    "summary": "Alma addresses his brethren, teaching them to nourish the word with faith, diligence, and patience and to wait for its fruit.",
     "characters": [
-      "Unidentified speaker",
+      "Alma",
       "brethren addressed"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says that if they nourish the word, described as a growing tree, with faith, diligence, and patience, it shall take root.",
+        "text": "Alma says that if his listeners nourish the word as the tree begins to grow, with faith, diligence, and patience, it shall take root.",
         "refs": [
           "Alma 32:41"
         ]
       },
       {
-        "text": "The speaker says that continued diligence, faith, and patience will lead to precious fruit and that those who feast on it will be filled without hunger or thirst.",
+        "text": "He says that, because of their diligence, faith, and patience in nourishing the word, they shall eventually pluck and feast upon its fruit.",
         "refs": [
           "Alma 32:42"
         ]
       },
       {
-        "text": "Addressing his brethren, the speaker says they shall reap rewards for faith, diligence, patience, and long-suffering while waiting for the tree to bear fruit.",
+        "text": "He tells his brethren they shall reap rewards for their faith, diligence, patience, and long-suffering while waiting for the tree to bear fruit.",
         "refs": [
           "Alma 32:43"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A speaker could be shown addressing listeners without specifying their number or surroundings."
+      "Alma may be shown speaking to listeners."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity, the listeners’ number and appearances, and the location are not specified in these verses."
+      "The location, appearances, and number of listeners are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "it shall take root; and behold it shall be a tree springing up unto everlasting life.",
+        "text": "But if ye will nourish the word, yea, nourish the tree as it beginneth to grow,",
         "refs": [
           "Alma 32:41"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       },
       {
         "text": "behold, by and by ye shall pluck the fruit thereof, which is most precious,",
         "refs": [
           "Alma 32:42"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       },
       {
-        "text": "Then, my brethren, ye shall reap the rewards of your faith, and your diligence, and patience, and long-suffering, waiting for the tree to bring forth fruit unto you.",
+        "text": "Then, my brethren, ye shall reap the rewards of your faith, and your diligence, and patience, and long-suffering,",
         "refs": [
           "Alma 32:43"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Alma"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The tree, fruit, and feast are part of a conditional teaching, not events narrated as occurring before the listeners.",
-      "These verses do not name the speaker."
+      "The tree, fruit, and feast belong to Alma's conditional teaching; the verses do not narrate them occurring before his listeners."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal tree growing, fruit being plucked, or a feast taking place.",
-      "Do not assign the speaker an identity or invent a location or identities for the listeners."
+      "Do not depict a tree growing, fruit being plucked, or a feast taking place as a present event.",
+      "Do not invent a location or identities for the listeners."
     ],
     "importance": "normal"
   }

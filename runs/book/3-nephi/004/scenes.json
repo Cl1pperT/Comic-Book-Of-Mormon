@@ -783,86 +783,96 @@
   },
   {
     "scene_id": "scene_016",
-    "title": "Zemnarihah Is Executed",
+    "title": "Zemnarihah Is Hanged",
     "refs": [
       "3 Nephi 4:28"
     ],
-    "summary": "Zemnarihah was taken and hanged on a tree until he died. The tree was felled, and the people cried aloud.",
+    "summary": "Zemnarihah was taken and hanged upon a tree until he died. Afterward, the tree was felled and those present cried aloud.",
     "characters": [
       "Zemnarihah",
-      "Nephite settlers (2 Nephi)"
+      "Unnamed people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Zemnarihah was taken and hanged on a tree until he died.",
+        "text": "Zemnarihah was their leader.",
         "refs": [
           "3 Nephi 4:28"
         ]
       },
       {
-        "text": "After he died, the tree was felled, and the people cried aloud.",
+        "text": "Zemnarihah was taken and hanged upon the top of a tree until he died.",
+        "refs": [
+          "3 Nephi 4:28"
+        ]
+      },
+      {
+        "text": "After he died, they felled the tree and cried with a loud voice.",
         "refs": [
           "3 Nephi 4:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The aftermath can show the tree felled and people gathered; no body detail is required."
+      "Show the hanging and the later felling as successive actions, without graphic detail."
     ],
     "unspecified_visual_details": [
-      "The execution's precise staging and the identity of the people who felled the tree."
+      "The location and appearances of those present.",
+      "The identity of the people who hanged Zemnarihah and felled the tree."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "did fell the tree to the earth",
+        "text": "And their leader, Zemnarihah, was taken and hanged upon a tree, yea, even upon the top thereof until he was dead. And when they had hanged him until he was dead they did fell the tree to the earth, and did cry with a loud voice, saying:",
         "refs": [
           "3 Nephi 4:28"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The verse introduces a cry but does not supply its words."
+    ],
     "prohibited_inventions": [
-      "Do not depict graphic execution details."
+      "Do not invent words for the cry.",
+      "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_017",
-    "title": "The People Pray for Protection",
+    "title": "The People Cry for Protection",
     "refs": [
       "3 Nephi 4:29",
       "3 Nephi 4:30"
     ],
-    "summary": "The people cried prayers that the Lord preserve his people in righteousness and holiness, and that the God of Abraham, Isaac, and Jacob protect them as they call on God for protection.",
+    "summary": "The people cry for the Lord to preserve his people in righteousness and holiness of heart. They rejoice and cry again with one voice for God to protect this people in righteousness.",
     "characters": [
-      "Nephite settlers (2 Nephi)"
+      "The people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The people prayed that the Lord preserve his people in righteousness and holiness and that those seeking to slay them through power and secret combinations be felled as Zemnarihah was.",
+        "text": "The first cry asks the Lord to preserve his people in righteousness and holiness of heart.",
         "refs": [
           "3 Nephi 4:29"
         ]
       },
       {
-        "text": "They prayed that the God of Abraham, Isaac, and Jacob protect the people in righteousness as long as they call on God for protection.",
+        "text": "The people rejoice and cry again with one voice, asking God to protect this people in righteousness as long as they call on him for protection.",
         "refs": [
           "3 Nephi 4:30"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The people may be shown gathered as they cry out together."
+      "The people may be shown gathered as they cry with one voice."
     ],
     "unspecified_visual_details": [
-      "The place and arrangement of the gathered people."
+      "The location and arrangement of the people."
     ],
     "spoken_dialogue": [
       {
@@ -870,22 +880,30 @@
         "refs": [
           "3 Nephi 4:29"
         ],
-        "speaker": "Nephite settlers (2 Nephi)"
+        "speaker": "The people"
       },
       {
         "text": "May the God of Abraham, and the God of Isaac, and the God of Jacob, protect this people in righteousness,",
         "refs": [
           "3 Nephi 4:30"
         ],
-        "speaker": "Nephite settlers (2 Nephi)"
+        "speaker": "The people"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "And they did rejoice and cry again with one voice, saying:",
+        "refs": [
+          "3 Nephi 4:30"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The prayers are a communal cry, not a divine appearance."
+      "The people's words are a communal cry, not a narrated divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict God or the patriarchs as visibly present."
+      "Do not depict God or the patriarchs as visibly present.",
+      "Do not identify or depict “this man” from verse 29 based on these verses alone."
     ],
     "importance": "normal"
   },

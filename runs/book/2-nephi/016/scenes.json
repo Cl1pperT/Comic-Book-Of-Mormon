@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Lord on the Throne",
+    "title": "The Lord and the Seraphim",
     "refs": [
       "2 Nephi 16:1",
       "2 Nephi 16:2"
     ],
-    "summary": "In the year king Uzziah died, Nephi sees the Lord sitting upon a high throne, with his train filling the temple. Seraphim stand above it; each has six wings, covering his face and feet with two wings each and flying with two.",
+    "summary": "In the year king Uzziah died, Nephi saw the Lord seated upon a high throne, with the Lord’s train filling the temple. Above it stood seraphim, each with six wings: two covering the face, two covering the feet, and two used to fly.",
     "characters": [
       "Nephi",
       "The Lord",
@@ -17,13 +17,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "In the year king Uzziah died, the first-person narrator saw the Lord sitting upon a throne, high and lifted up, and the Lord's train filled the temple.",
+        "text": "In the year king Uzziah died, the first-person narrator saw the Lord sitting upon a high throne, and the Lord’s train filled the temple.",
         "refs": [
           "2 Nephi 16:1"
         ]
       },
       {
-        "text": "Seraphim stood above it. Each had six wings: two covered his face, two covered his feet, and two were used to fly.",
+        "text": "Seraphim stood above it. Each had six wings: two covered the face, two covered the feet, and two were used to fly.",
         "refs": [
           "2 Nephi 16:2"
         ]
@@ -34,10 +34,10 @@
     ],
     "unspecified_visual_details": [
       "The referent of “it” in “Above it stood the seraphim” is not explicit.",
-      "The Lord's facial features and other physical characteristics are unspecified.",
+      "The Lord’s facial features and other physical characteristics are unspecified.",
       "The number of seraphim is unspecified.",
-      "The temple's architecture, the throne's design, colors, and lighting are unspecified.",
-      "Nephi's appearance and viewing position are unspecified."
+      "The temple’s architecture, throne design, colors, and lighting are unspecified.",
+      "Nephi’s appearance and viewing position are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -55,14 +55,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The user identifies the first-person narrator as Nephi.",
-      "King Uzziah's death establishes the year; it is not a separate scene here."
+      "The supplied instruction identifies Nephi as the first-person narrator; the quoted verses do not name him.",
+      "King Uzziah’s death establishes the year and is not depicted as a separate event."
     ],
     "prohibited_inventions": [
-      "Do not depict king Uzziah's death or place him in the temple.",
+      "Do not depict king Uzziah’s death or place him in the temple.",
       "Do not invent dialogue or additional events.",
-      "Do not present undescribed features of the Lord or seraphim as source-established facts.",
-      "Do not assign Nephi a specific viewing position or treat the referent of “it” as certain."
+      "Do not assign undescribed features to the Lord or seraphim as source-established facts.",
+      "Do not specify Nephi’s viewing position or treat the referent of “it” as certain."
     ],
     "importance": "normal"
   },
@@ -148,7 +148,7 @@
     "refs": [
       "2 Nephi 16:5"
     ],
-    "summary": "Nephi laments that he is undone, says he dwells among a people of unclean lips, and says his eyes have seen the King, the Lord of Hosts.",
+    "summary": "Nephi laments that he is undone, says he dwells among a people of unclean lips, and says he has seen the King, the Lord of Hosts.",
     "characters": [
       "Nephi"
     ],
@@ -190,12 +190,12 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The supplied context identifies the first-person speaker as Nephi.",
-      "Nephi reports having seen the King; the verse does not describe that sight as occurring during his speech."
+      "The supplied instruction identifies the first-person narrator as Nephi; the verse does not name Isaiah.",
+      "Nephi reports having seen the King; the verse does not place that sight during his speech."
     ],
     "prohibited_inventions": [
       "Do not depict the mentioned people or the King as visibly present.",
-      "Do not stage Nephi's reported sight of the King as a new event.",
+      "Do not stage the reported sight of the King as a new event.",
       "Do not depict unclean lips as visible contamination.",
       "Do not invent a location, additional events, or dialogue."
     ],
@@ -287,7 +287,7 @@
     "refs": [
       "2 Nephi 16:8"
     ],
-    "summary": "Nephi hears the Lord ask whom to send and who will go for them. Nephi offers to go.",
+    "summary": "Nephi hears the Lord’s voice ask whom to send and who will go for them. Nephi offers to be sent.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -307,7 +307,7 @@
         ]
       },
       {
-        "text": "Nephi offers himself to be sent.",
+        "text": "Nephi offers to be sent.",
         "refs": [
           "2 Nephi 16:8"
         ]
@@ -316,7 +316,7 @@
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "The location is not specified.",
-      "The Lord's visible appearance is not described."
+      "The Lord’s visible appearance is not described."
     ],
     "spoken_dialogue": [
       {
@@ -336,11 +336,10 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse describes the Lord's voice, not a visible appearance."
+      "The verse describes the Lord’s voice, not a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not identify Nephi as Isaiah or place the exchange in a temple.",
-      "Do not invent a visible form for the Lord."
+      "Do not add a setting or a visible form for the Lord."
     ],
     "importance": "normal"
   },
@@ -351,7 +350,7 @@
       "2 Nephi 16:9",
       "2 Nephi 16:10"
     ],
-    "summary": "A speaker tells an addressee to deliver a message to this people about their lack of understanding and perception, then gives an instruction concerning their hearts, ears, and eyes.",
+    "summary": "An unidentified speaker tells an addressee to deliver a message to this people, then speaks about their hearts, ears, eyes, conversion, and healing.",
     "characters": [
       "Unidentified speaker",
       "Unidentified addressee"
@@ -359,30 +358,30 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "A speaker instructs an addressee to tell this people a message.",
+        "text": "A speaker tells an addressee to deliver a message to this people.",
         "refs": [
           "2 Nephi 16:9"
         ]
       },
       {
-        "text": "The message says the people did not understand or perceive.",
+        "text": "The speaker says the people did not understand or perceive.",
         "refs": [
           "2 Nephi 16:9"
         ]
       },
       {
-        "text": "The speaker gives an instruction concerning the people's hearts, ears, and eyes, and mentions conversion and healing.",
+        "text": "The speaker gives instructions concerning the people's hearts, ears, and eyes, and mentions conversion and healing.",
         "refs": [
           "2 Nephi 16:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses someone, but these verses do not identify either person."
+      "The speaker is addressing someone."
     ],
     "unspecified_visual_details": [
-      "No location or physical appearance is specified.",
-      "The verses do not say that this people are physically present."
+      "The verses specify no location or physical appearances.",
+      "The verses do not say that this people are present."
     ],
     "spoken_dialogue": [
       {
@@ -409,11 +408,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the chapter's narrator, but the supplied verses do not identify the speaker or addressee.",
-      "The language concerning hearts, ears, and eyes is spoken instruction, not a narrated physical change."
+      "Place the narration before the spoken dialogue.",
+      "Nephi is the chapter's narrator, but these verses do not identify the speaker or addressee. The requested label “The Lord” is unsupported by the supplied verses.",
+      "The language about hearts, ears, and eyes is spoken instruction, not a narrated physical change."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as the Lord or the addressee as Nephi from these verses alone.",
+      "Do not identify the speaker as the Lord or the addressee as Nephi.",
       "Do not invent appearances or a location.",
       "Do not depict physical changes, conversion, or healing as occurring.",
       "Do not depict this people as present in the exchange."
@@ -427,7 +427,7 @@
       "2 Nephi 16:11",
       "2 Nephi 16:12"
     ],
-    "summary": "Nephi asks the Lord how long. The Lord answers with a description of deserted cities and houses, a desolate land, men removed far away, and a great forsaking.",
+    "summary": "Nephi asks how long. A reply describes future desolation, the removal of men far away, and a great forsaking.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -435,29 +435,30 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi asks the Lord how long.",
+        "text": "Nephi addresses the Lord and asks how long.",
         "refs": [
           "2 Nephi 16:11"
         ]
       },
       {
-        "text": "The Lord answers that cities will be without inhabitants, houses without people, and the land desolate.",
+        "text": "A reply describes cities without inhabitants, houses without people, and a desolate land.",
         "refs": [
           "2 Nephi 16:11"
         ]
       },
       {
-        "text": "The answer describes the Lord removing men far away and a great forsaking in the land.",
+        "text": "The reply describes the Lord removing men far away and a great forsaking in the land.",
         "refs": [
           "2 Nephi 16:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown speaking and listening."
+      "Nephi may be shown speaking and listening.",
+      "The question's address to the Lord supports identifying him as the respondent, though the reply introduces him only as “he.”"
     ],
     "unspecified_visual_details": [
-      "The setting and Nephi's physical appearance are unspecified.",
+      "The setting and Nephi's appearance are unspecified.",
       "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [
@@ -483,13 +484,26 @@
         "speaker": "The Lord"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Then said I:",
+        "refs": [
+          "2 Nephi 16:11"
+        ]
+      },
+      {
+        "text": "And he said:",
+        "refs": [
+          "2 Nephi 16:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The supplied task identifies the first-person narrator as Nephi.",
-      "Desolation, removal, and forsaking are described in the answer, not narrated as occurring during the exchange."
+      "The supplied instruction identifies the first-person narrator as Nephi.",
+      "The desolation, removal, and forsaking are described in the reply, not narrated as occurring during the exchange."
     ],
     "prohibited_inventions": [
-      "Do not depict the described desolation, removal, or forsaking as present action.",
+      "Do not depict the predicted desolation, removal, or forsaking as present action.",
       "Do not invent a visible appearance for the Lord.",
       "Do not add dialogue, characters, motives, or a specific setting."
     ],
@@ -501,7 +515,7 @@
     "refs": [
       "2 Nephi 16:13"
     ],
-    "summary": "A tenth is foretold to return and be eaten. A comparison to trees describes their remaining substance, and the holy seed is called the substance thereof.",
+    "summary": "A tenth is foretold to return and be eaten. The verse compares this to a teil-tree and an oak, then calls the holy seed the substance thereof.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
@@ -512,7 +526,7 @@
         ]
       },
       {
-        "text": "The verse compares this to a teil-tree and an oak whose substance remains when they cast their leaves.",
+        "text": "The verse compares this to a teil-tree and an oak whose substance is in them when they cast their leaves.",
         "refs": [
           "2 Nephi 16:13"
         ]
@@ -531,7 +545,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "But yet there shall be a tenth, and they shall return, and shall be eaten, as a teil-tree, and as an oak whose substance is in them when they cast their leaves; so the holy seed shall be the substance thereof.",
+        "text": "But yet there shall be a tenth, and they shall return,",
+        "refs": [
+          "2 Nephi 16:13"
+        ]
+      },
+      {
+        "text": "and shall be eaten, as a teil-tree, and as an oak whose substance is in them when they cast their leaves; so the holy seed shall be the substance thereof.",
         "refs": [
           "2 Nephi 16:13"
         ]

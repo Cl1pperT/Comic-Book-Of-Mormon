@@ -384,11 +384,11 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Jared’s people leave the tower",
+    "title": "Jared’s people leave the great tower",
     "refs": [
       "Ether 1:33"
     ],
-    "summary": "Jared came forth from the great tower with his brother, their families, and others with their families when the Lord confounded the people’s language and scattered them.",
+    "summary": "Jared came forth from the great tower with his brother, their families, and others with their families at the time the Lord confounded the people’s language. The Lord swore that the people would be scattered, and they were scattered according to his word.",
     "characters": [
       "Jared",
       "The brother of Jared",
@@ -401,39 +401,53 @@
     ],
     "explicit_facts": [
       {
-        "text": "Jared came forth with his brother, their families, and others and their families from the great tower.",
+        "text": "Jared came forth from the great tower with his brother, their families, and some others and their families.",
         "refs": [
           "Ether 1:33"
         ]
       },
       {
-        "text": "At that time the Lord confounded the people’s language, swore they should be scattered, and the people were scattered according to the Lord’s word.",
+        "text": "At that time, the Lord confounded the language of the people and swore that they should be scattered upon all the face of the earth.",
+        "refs": [
+          "Ether 1:33"
+        ]
+      },
+      {
+        "text": "The people were scattered according to the word of the Lord.",
         "refs": [
           "Ether 1:33"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A group departure from the great tower can be shown, with people visibly dispersing."
+      "Jared and the group can be shown leaving the great tower."
     ],
     "unspecified_visual_details": [
-      "The tower’s design, the people’s clothing, and the precise appearance of the language-confounding are not stated."
+      "The tower’s design and the people’s clothing and appearances are not stated.",
+      "The passage does not specify a visible form for the confounding of language."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the people were scattered.",
+        "text": "Which Jared came forth with his brother and their families, with some others and their families, from the great tower, at the time the Lord confounded the language of the people,",
+        "refs": [
+          "Ether 1:33"
+        ]
+      },
+      {
+        "text": "and according to the word of the Lord the people were scattered.",
         "refs": [
           "Ether 1:33"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord’s action is reported; no visible form or appearance of the Lord is described."
+      "The Lord’s oath and the scattering are reported, not spoken as quoted dialogue. The Lord’s appearance is not described."
     ],
     "prohibited_inventions": [
-      "Do not invent a visible supernatural effect or depict the Lord’s appearance.",
-      "Do not add named or biographical details for the unnamed people."
+      "Do not depict the Lord’s appearance or invent a visible supernatural effect.",
+      "Do not portray the scattering as occurring simultaneously with the group’s departure.",
+      "Do not add names or biographies for the unnamed people."
     ],
     "importance": "normal"
   },
@@ -444,7 +458,7 @@
       "Ether 1:34",
       "Ether 1:35"
     ],
-    "summary": "Jared asks his brother to cry unto the Lord so they will not be confounded; his brother does so, and the Lord has compassion upon Jared, preserving their language.",
+    "summary": "Jared asks his brother to cry unto the Lord so they will not be confounded. His brother does so. The Lord has compassion upon Jared, does not confound Jared's language, and neither brother is confounded.",
     "characters": [
       "Jared",
       "The brother of Jared"
@@ -466,17 +480,25 @@
         ]
       },
       {
-        "text": "The brother of Jared cried unto the Lord; the Lord had compassion upon Jared and did not confound Jared’s language, and the brothers were not confounded.",
+        "text": "The brother of Jared cried unto the Lord.",
+        "refs": [
+          "Ether 1:35"
+        ]
+      },
+      {
+        "text": "The Lord had compassion upon Jared, did not confound Jared's language, and the brothers were not confounded.",
         "refs": [
           "Ether 1:35"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jared and his brother can be shown together during Jared’s request and the brother’s prayer."
+      "Jared and his brother may be shown together during Jared's request.",
+      "The brother of Jared may be shown praying afterward."
     ],
     "unspecified_visual_details": [
-      "Their appearance, precise setting, and any visible sign of the Lord’s compassion are not stated."
+      "The precise setting and their clothing are not stated.",
+      "No visible sign of the Lord's compassion is described."
     ],
     "spoken_dialogue": [
       {
@@ -489,16 +511,18 @@
     ],
     "narration": [
       {
-        "text": "the brother of Jared did cry unto the Lord",
+        "text": "And it came to pass that the brother of Jared did cry unto the Lord",
         "refs": [
           "Ether 1:35"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
+      "Present Jared's spoken request before the narration that his brother cried unto the Lord.",
       "The Lord is not described as visibly appearing."
     ],
     "prohibited_inventions": [
+      "Do not place the brother's prayer before Jared's request.",
       "Do not depict a visible divine figure or an unstated miracle effect."
     ],
     "importance": "normal"

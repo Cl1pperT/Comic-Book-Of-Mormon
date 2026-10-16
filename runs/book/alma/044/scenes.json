@@ -359,62 +359,70 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "A Warning from the Soldier",
+    "title": "The Soldier’s Warning",
     "refs": [
       "Alma 44:13",
       "Alma 44:14"
     ],
-    "summary": "The soldier picks up Zerahemnah's scalp by the hair, lays it on his sword point, and holds it out to the Lamanites while warning them to surrender their weapons and make peace.",
+    "summary": "A soldier picks up Zerahemnah’s scalp by the hair, places it on his sword point, holds it out, and warns those he addresses to surrender their weapons and depart with a covenant of peace.",
     "characters": [
-      "Nephite armies of Moroni",
-      "Lamanite warriors (Enos to Alma era)"
+      "Unnamed soldier",
+      "Those addressed by the soldier"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The soldier picked up the scalp from the ground by the hair and laid it on his sword point.",
+        "text": "The soldier who stood by had smitten off Zerahemnah’s scalp.",
         "refs": [
           "Alma 44:13"
         ]
       },
       {
-        "text": "The soldier held it out and warned the Lamanites to surrender their weapons and depart with a covenant of peace.",
+        "text": "The soldier picked up the scalp from the ground by the hair, placed it on his sword point, and held it out.",
         "refs": [
-          "Alma 44:13",
+          "Alma 44:13"
+        ]
+      },
+      {
+        "text": "The soldier spoke to those he addressed with a loud voice.",
+        "refs": [
+          "Alma 44:13"
+        ]
+      },
+      {
+        "text": "The soldier warned them to deliver up their weapons of war and depart with a covenant of peace.",
+        "refs": [
           "Alma 44:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The soldier addresses the assembled Lamanites while holding out the sword."
+      "The soldier faces those he addresses while speaking."
     ],
     "unspecified_visual_details": [
-      "The soldier's identity, facial features, and the Lamanites' individual reactions."
+      "The soldier’s appearance and clothing.",
+      "The number and appearance of those addressed.",
+      "The surroundings."
     ],
     "spoken_dialogue": [
       {
-        "text": "so shall ye fall to the earth",
+        "text": "Even as this scalp has fallen to the earth, which is the scalp of your chief, so shall ye fall to the earth except ye will deliver up your weapons of war and depart with a covenant of peace.",
         "refs": [
           "Alma 44:14"
         ],
-        "speaker": "Nephite soldier"
-      },
-      {
-        "text": "deliver up your weapons of war and depart with a covenant of peace.",
-        "refs": [
-          "Alma 44:14"
-        ],
-        "speaker": "Nephite soldier"
+        "speaker": "Unnamed soldier"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The scalp functions as a warning in the soldier's speech."
+      "The threatened fall is part of the soldier’s warning, not an event narrated in these verses."
     ],
     "prohibited_inventions": [
-      "Do not add graphic detail to the scalp."
+      "Do not depict the threatened fall as occurring.",
+      "Do not add wounds, blood, or other graphic detail.",
+      "Do not assign identities to those addressed beyond what these verses state."
     ],
     "importance": "normal"
   },

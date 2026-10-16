@@ -1,5 +1,5 @@
 {
-  "stamp": "309ac08e50f1cb28c11a447b003a3f82d032a69edf290d7173cc3c1e3b5b3c9d",
+  "stamp": "50a4b64d70a38d3f617687a052562466a914f4e0df19bf07b58d18c37f4db097",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -24,8 +24,10 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s facts and quoted dialogue are supported by Mosiah 2:11–12. Its preceding scene also fits the source chronology. The visual inference that Benjamin addresses listeners is supported by the context, though no specific setting or listener appearance is established in this scene."
+      ]
     },
     "scene_007": {
       "status": "PASS",

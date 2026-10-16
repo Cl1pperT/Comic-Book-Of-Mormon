@@ -557,12 +557,12 @@
       "Alma 47:18",
       "Alma 47:19"
     ],
-    "summary": "Amalickiah has one of his servants administer poison to Lehonti gradually, and Lehonti dies. The Lamanites appoint Amalickiah their leader and chief commander.",
+    "summary": "Amalickiah causes a servant to administer poison by degrees to Lehonti, who dies. After Lehonti's death, the Lamanites appoint Amalickiah their leader and chief commander.",
     "characters": [
       "Amalickiah",
       "Lehonti",
       "Amalickiah's servant",
-      "Lamanite warriors (Alma 47)"
+      "Lamanites"
     ],
     "locations": [
       "Unspecified location"
@@ -575,30 +575,40 @@
         ]
       },
       {
-        "text": "After Lehonti's death, the Lamanites appointed Amalickiah their leader and chief commander.",
+        "text": "After Lehonti died, the Lamanites appointed Amalickiah their leader and chief commander.",
         "refs": [
           "Alma 47:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lehonti may be shown weakened as the poison takes effect, without depicting a specific unmentioned method or symptom."
+      "The appointment may be shown as a separate moment following Lehonti's death."
     ],
     "unspecified_visual_details": [
-      "Where the poisoning and appointment occur, and the poison's appearance or effects."
+      "The location of either event.",
+      "The poison's form and method of administration.",
+      "The participants' appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "that he died",
+        "text": "Amalickiah caused that one of his servants should administer poison by degrees to Lehonti, that he died.",
         "refs": [
           "Alma 47:18"
+        ]
+      },
+      {
+        "text": "Now, when Lehonti was dead, the Lamanites appointed Amalickiah to be their leader and their chief commander.",
+        "refs": [
+          "Alma 47:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the poison being administered in a particular form or invent symptoms."
+      "Do not specify how the poison was administered or invent symptoms.",
+      "Do not depict the poisoning and appointment as simultaneous.",
+      "Do not invent dialogue."
     ],
     "importance": "normal"
   },

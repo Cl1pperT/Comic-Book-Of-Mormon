@@ -194,40 +194,46 @@
       "Mosiah 8:7",
       "Mosiah 8:8"
     ],
-    "summary": "The king tells someone that he sent forty-three of his people into the wilderness to find Zarahemla and seek deliverance from bondage. They were lost for many days, did not find Zarahemla, and returned after traveling among many waters and discovering a land covered with bones and ruins.",
+    "summary": "The king tells Ammon that he sent forty-three of his people to find Zarahemla and seek deliverance from bondage. He recounts their unsuccessful search and return after discovering a land among many waters covered with bones and ruined buildings.",
     "characters": [
       "The king",
-      "An unnamed person addressed by the king"
+      "Ammon"
     ],
     "locations": [
       "Unspecified location of the conversation"
     ],
     "explicit_facts": [
       {
-        "text": "The king says he sent forty-three of his people into the wilderness to find Zarahemla and appeal to their brethren for deliverance from bondage.",
+        "text": "Grieved by his people's afflictions, the king sent forty-three people into the wilderness to find Zarahemla and appeal to their brethren for deliverance from bondage.",
         "refs": [
           "Mosiah 8:7"
         ]
       },
       {
-        "text": "The group was lost for many days, did not find Zarahemla, and returned to their land after traveling among many waters.",
+        "text": "The travelers were lost for many days but remained diligent; they did not find Zarahemla and returned to their land.",
         "refs": [
           "Mosiah 8:8"
         ]
       },
       {
-        "text": "They discovered a land covered with human and animal bones and ruins of buildings; the king says it had been peopled by a very numerous people.",
+        "text": "They traveled in a land among many waters and discovered a land covered with human and animal bones and ruins of buildings of every kind.",
+        "refs": [
+          "Mosiah 8:8"
+        ]
+      },
+      {
+        "text": "The king describes the discovered land's former population as being as numerous as the hosts of Israel.",
         "refs": [
           "Mosiah 8:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king speaks to another person while recounting an earlier expedition."
+      "Ammon listens as the king recounts the earlier expedition."
     ],
     "unspecified_visual_details": [
-      "The speakers' appearances and the setting of their conversation are not described.",
-      "The expedition's route and the discovered land's precise appearance are not described."
+      "The conversation's physical setting is not described.",
+      "The characters' clothing, appearances, gestures, and positions are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -236,35 +242,34 @@
           "Mosiah 8:7"
         ],
         "speaker": "The king"
-      }
-    ],
-    "narration": [
-      {
-        "text": "And the king said unto him:",
-        "refs": [
-          "Mosiah 8:7"
-        ]
       },
       {
-        "text": "yet they were diligent,",
+        "text": "And they were lost in the wilderness for the space of many days,",
         "refs": [
           "Mosiah 8:8"
-        ]
+        ],
+        "speaker": "The king"
       },
       {
         "text": "and found not the land of Zarahemla but returned to this land,",
         "refs": [
           "Mosiah 8:8"
-        ]
+        ],
+        "speaker": "The king"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The journey and discovery are events the king recounts, not actions occurring during the conversation."
+      "Ammon is the addressee established by the preceding exchange, as clarified in the supplied audit correction.",
+      "Verse 8 continues the king's account; it is not speech by Mormon.",
+      "The expedition and its discoveries precede this conversation and remain reported events.",
+      "The hosts of Israel are a comparison, not people physically present."
     ],
     "prohibited_inventions": [
-      "Do not name the king or the person he addresses from these verses alone.",
-      "Do not stage the earlier expedition as a present-time event.",
-      "Do not invent the expedition members' identities or details of the ruined land."
+      "Do not stage the expedition, its return, or its discoveries as present-time action.",
+      "Do not invent dialogue or reactions for Ammon.",
+      "Do not invent expedition members' names, biographies, or the identity and fate of the ruined land's inhabitants.",
+      "Do not add a royal name, palace, throne, or other setting details as explicit source facts."
     ],
     "importance": "normal"
   },
@@ -451,50 +456,45 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "The king and Ammon discuss a seer",
+    "title": "Reported teachings about a seer",
     "refs": [
       "Mosiah 8:15",
       "Mosiah 8:16",
       "Mosiah 8:17",
       "Mosiah 8:18"
     ],
-    "summary": "The king says a seer is greater than a prophet. Ammon says a seer is also a revelator and prophet. The account continues with teachings about what a seer can know and what man may do through faith.",
-    "characters": [
-      "the king",
-      "Ammon"
-    ],
+    "summary": "The account reports the king’s statement that a seer is greater than a prophet and Ammon’s teachings about seers, revealed knowledge, and miracles through faith.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The king says a seer is greater than a prophet.",
+        "text": "The king was reported to have said that a seer is greater than a prophet.",
         "refs": [
           "Mosiah 8:15"
         ]
       },
       {
-        "text": "Ammon says a seer is a revelator and a prophet, and that a man may receive great power from God.",
+        "text": "Ammon was reported to have said that a seer is a revelator and a prophet also; a man cannot possess the power of God but may receive great power from God.",
         "refs": [
           "Mosiah 8:16"
         ]
       },
       {
-        "text": "A seer can know things past and future and make hidden or otherwise unknown things known.",
+        "text": "The teaching describes a seer’s ability to know past and future things and make hidden or otherwise unknowable things known.",
         "refs": [
           "Mosiah 8:17"
         ]
       },
       {
-        "text": "God has provided a means for man, through faith, to work mighty miracles and become a great benefit to his fellow beings.",
+        "text": "The teaching states that God has provided a means for man, through faith, to work mighty miracles and benefit his fellow beings.",
         "refs": [
           "Mosiah 8:18"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The king and Ammon may be shown conversing."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Their appearances, gestures, and surroundings are not described."
+      "No physical setting, appearances, gestures, or staging are specified for this reported teaching."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -511,12 +511,6 @@
         ]
       },
       {
-        "text": "things which are past, and also of things which are to come,",
-        "refs": [
-          "Mosiah 8:17"
-        ]
-      },
-      {
         "text": "Thus God has provided a means that man, through faith, might work mighty miracles; therefore he becometh a great benefit to his fellow beings.",
         "refs": [
           "Mosiah 8:18"
@@ -524,12 +518,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The king’s and Ammon’s words are reported indirectly; the verses provide no direct-speech quotation.",
-      "Knowledge and miracles are teachings here, not narrated visible events."
+      "Use a narration-only treatment, not a newly staged conversation. Mormon is the narrator; the reported statements belong to the king and Ammon.",
+      "The king and Ammon are mentioned participants, not established visible figures in this treatment.",
+      "Knowledge, revelation, and miracles are teachings here, not narrated visible occurrences."
     ],
     "prohibited_inventions": [
-      "Do not depict a vision, miracle, divine appearance, or revealed event as occurring in this scene.",
-      "Do not assign the king a name or specify a location from outside these verses."
+      "Do not convert reported statements into direct dialogue or a present-tense exchange.",
+      "Do not depict past or future events, hidden things becoming visible, or miracles as occurring.",
+      "Do not invent a divine appearance, a physical setting, or the king’s name.",
+      "Do not add physical characters merely because the teaching mentions them."
     ],
     "importance": "normal"
   },

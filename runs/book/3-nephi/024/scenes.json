@@ -84,7 +84,7 @@
     "refs": [
       "3 Nephi 24:1"
     ],
-    "summary": "Jesus Christ commands them to write the words the Father gave Malachi. After they are written, he expounds them and tells them the words.",
+    "summary": "Jesus Christ commands them to write the words the Father gave Malachi. After the words are written, he expounds them and tells them the words.",
     "characters": [
       "Jesus Christ (at Bountiful)",
       "Those commanded to write"
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "text": "He tells them words concerning a messenger who will prepare the way and the Lord who will come to his temple.",
+        "text": "He tells them the words, including a prophecy that a messenger will prepare the way before the Lord.",
         "refs": [
           "3 Nephi 24:1"
         ]
@@ -118,7 +118,15 @@
     "unspecified_visual_details": [
       "The setting, writing materials, and appearances of those present are not described."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Behold, I will send my messenger, and he shall prepare the way before me,",
+        "refs": [
+          "3 Nephi 24:1"
+        ],
+        "speaker": "Jesus Christ (at Bountiful)"
+      }
+    ],
     "narration": [
       {
         "text": "And it came to pass that he commanded them that they should write the words which the Father had given unto Malachi, which he should tell unto them.",
@@ -134,11 +142,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The messenger's preparation and the Lord's coming are spoken prophecy, not events occurring in this scene."
+      "Jesus Christ is reciting words attributed to the Father.",
+      "The messenger's preparation and the Lord's coming are prophecy, not events occurring in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict the prophesied messenger or an arrival at the temple.",
-      "Do not invent the messenger's identity or appearance, or the temple's appearance.",
+      "Do not invent the messenger's identity or appearance.",
       "Do not show the writing and expounding happening at the same time.",
       "Do not depict the Father or Malachi as physically present."
     ],
@@ -151,7 +160,7 @@
       "3 Nephi 24:2",
       "3 Nephi 24:3"
     ],
-    "summary": "The prophecy asks who can endure the day of the Lord’s coming, comparing him to refining fire and fuller’s soap, and says he will purify the sons of Levi.",
+    "summary": "The prophecy asks who may endure the day of his coming, compares him to refining fire and fuller’s soap, and says he will purify the sons of Levi.",
     "characters": [],
     "locations": [
       "Unspecified location"
@@ -164,41 +173,46 @@
         ]
       },
       {
-        "text": "He is compared to a refiner’s fire and fuller’s soap, and is said to purify the sons of Levi.",
+        "text": "He is compared to a refiner’s fire and fuller’s soap.",
         "refs": [
-          "3 Nephi 24:2",
+          "3 Nephi 24:2"
+        ]
+      },
+      {
+        "text": "He shall purify the sons of Levi so they may offer unto the Lord an offering in righteousness.",
+        "refs": [
           "3 Nephi 24:3"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Metaphorical imagery may suggest refining and cleansing without depicting a literal supernatural event."
+      "Metaphorical imagery may suggest refining and cleansing without depicting a literal event."
     ],
     "unspecified_visual_details": [
-      "The identities and appearances of the Lord and the sons of Levi."
+      "The appearances of the one described and the sons of Levi."
     ],
     "spoken_dialogue": [
       {
-        "text": "who may abide the day of his coming,",
+        "text": "But who may abide the day of his coming, and who shall stand when he appeareth?",
         "refs": [
           "3 Nephi 24:2"
         ],
-        "speaker": "Jesus Christ (at Bountiful), quoting the Father’s words to Malachi"
+        "speaker": "Jesus Christ"
       }
     ],
     "narration": [
       {
-        "text": "he shall sit as a refiner and purifier of silver;",
+        "text": "And he shall sit as a refiner and purifier of silver;",
         "refs": [
           "3 Nephi 24:3"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The fire and soap are figures of speech; do not portray them as literal acts."
+      "The fire and soap are comparisons, not narrated physical events."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal refining scene or invent the Lord’s appearance."
+      "Do not depict a literal refining scene or invent an appearance for the one described."
     ],
     "importance": "normal"
   },

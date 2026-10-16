@@ -195,73 +195,75 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "The losses and captured captains",
+    "title": "Consolation and the retained prisoners",
     "refs": [
       "Alma 56:11",
       "Alma 56:12"
     ],
-    "summary": "In his letter, Helaman consoles his people about those who died for their country and God. He reports that the Lamanites retained many prisoners, all chief captains, and supposes they are in the land of Nephi if they have not been slain.",
+    "summary": "Those who died in the cause of their country and God are described as happy. The Lamanites retained many prisoners, all chief captains. Their presence in the land of Nephi is only supposed, and their fate is uncertain.",
     "characters": [
-      "Helaman",
       "Lamanites",
-      "chief captains"
+      "chief captains",
+      "unnamed people who died"
     ],
     "locations": [
       "land of Nephi (supposed location of the prisoners)"
     ],
     "explicit_facts": [
       {
-        "text": "Helaman says those who died in the cause of their country and God are happy.",
+        "text": "The people referred to as having died are said to have died in the cause of their country and God and to be happy.",
         "refs": [
           "Alma 56:11"
         ]
       },
       {
-        "text": "The Lamanites retained many prisoners, all chief captains.",
+        "text": "The Lamanites retained many prisoners, all of whom are chief captains; the verse says they spared no others alive.",
         "refs": [
           "Alma 56:12"
         ]
       },
       {
-        "text": "Helaman supposes the prisoners are in the land of Nephi, if they have not been slain.",
+        "text": "The prisoners are supposed to be in the land of Nephi if they have not been slain.",
         "refs": [
           "Alma 56:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The reports can be conveyed without depicting the deaths, captures, or prisoners as present events."
+      "The deaths, captures, and prisoners need not be depicted as events occurring now.",
+      "The prisoners' supposed location should not be shown as certain."
     ],
     "unspecified_visual_details": [
-      "Helaman's appearance and location",
-      "The prisoners' appearance and actual location",
-      "The circumstances of the deaths and captures"
+      "The identities and appearances of those who died",
+      "The circumstances of the deaths and captures",
+      "The prisoners' actual location and fate"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Nevertheless, we may console ourselves in this point, that they have died in the cause of their country and of their God, yea, and they are happy.",
+        "text": "they have died in the cause of their country and of their God, yea, and they are happy.",
         "refs": [
           "Alma 56:11"
         ]
       },
       {
-        "text": "And the Lamanites had also retained many prisoners",
+        "text": "And the Lamanites had also retained many prisoners, all of whom are chief captains",
         "refs": [
           "Alma 56:12"
         ]
       },
       {
-        "text": "And we suppose that they are now at this time in the land of Nephi;",
+        "text": "And we suppose that they are now at this time in the land of Nephi; it is so if they are not slain.",
         "refs": [
           "Alma 56:12"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The narration remains Helaman's letter. The prisoners' location is a supposition, not a witnessed fact."
+      "These verses do not identify those who died or describe the earlier losses. The prisoners' location is a supposition, not a witnessed fact."
     ],
     "prohibited_inventions": [
+      "Do not add an account of Antipus's army or its losses from a verse not supplied.",
       "Do not depict the deaths or captures as witnessed events.",
       "Do not establish the prisoners' location or fate as certain."
     ],
@@ -1009,95 +1011,103 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "The young men answer",
+    "title": "The young men's courage recalled",
     "refs": [
       "Alma 56:45",
       "Alma 56:46",
       "Alma 56:47",
       "Alma 56:48"
     ],
-    "summary": "Helaman reports their great courage. The young men say God is with them and ask to go so they can prevent the Lamanites from overpowering Antipus’s army; they say they would not kill their brethren if left alone. Though inexperienced in battle, they did not fear death and recalled their mothers’ teaching and their own trust in it.",
+    "summary": "An account addressed to Moroni recalls the young men's exceptional courage, their urging to go forth lest Antipus's army be overpowered, and their confidence in their mothers' teaching.",
     "characters": [
-      "Helaman",
-      "the two thousand young men"
+      "the young men"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Helaman says he had never seen such courage among the Nephites.",
+        "text": "The first-person account addresses Moroni and reports never having seen such courage, even among the Nephites.",
         "refs": [
           "Alma 56:45"
         ]
       },
       {
-        "text": "The young men say God is with them, ask to go forth, and say they would not kill their brethren if left alone; they urge action lest Antipus’s army be overpowered.",
+        "text": "The young men were very young; the person recounting their words had called them sons, and they addressed him as Father.",
         "refs": [
           "Alma 56:46"
         ]
       },
       {
-        "text": "They had never fought, did not fear death, and valued their fathers’ liberty over their own lives; their mothers had taught them that God would deliver them if they did not doubt.",
+        "text": "The young men declared that God was with them and urged going forth lest Antipus's army be overpowered. They said they would not slay their brethren if left alone.",
+        "refs": [
+          "Alma 56:46"
+        ]
+      },
+      {
+        "text": "They had never fought, did not fear death, and valued their fathers' liberty above their own lives.",
         "refs": [
           "Alma 56:47"
         ]
       },
       {
-        "text": "The young men say they do not doubt their mothers knew it.",
+        "text": "Their mothers had taught them that God would deliver them if they did not doubt.",
+        "refs": [
+          "Alma 56:47"
+        ]
+      },
+      {
+        "text": "They rehearsed their mothers' words and affirmed that they did not doubt their mothers knew it.",
         "refs": [
           "Alma 56:48"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The young men can be shown answering Helaman with courage."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The mothers’ identities, appearance, and any earlier teaching scene."
+      "The setting, clothing, individual appearances, and manner of delivering the account are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Father, behold our God is with us, and he will not suffer that we should fall; then let us go forth;",
+        "text": "Father, behold our God is with us, and he will not suffer that we should fall;",
         "refs": [
           "Alma 56:46"
         ],
-        "speaker": "The two thousand young men"
+        "speaker": "the young men"
       },
       {
-        "text": "we would not slay our brethren if they would let us alone; therefore let us go, lest they should overpower the army of Antipus.",
+        "text": "therefore let us go, lest they should overpower the army of Antipus.",
         "refs": [
           "Alma 56:46"
         ],
-        "speaker": "The two thousand young men"
+        "speaker": "the young men"
       },
       {
         "text": "We do not doubt our mothers knew it.",
         "refs": [
           "Alma 56:48"
         ],
-        "speaker": "The two thousand young men"
+        "speaker": "the young men"
       }
     ],
     "narration": [
       {
-        "text": "never had I seen so great courage",
+        "text": "never had I seen so great courage, nay, not amongst all the Nephites.",
         "refs": [
           "Alma 56:45"
-        ]
-      },
-      {
-        "text": "they did not fear death",
-        "refs": [
-          "Alma 56:47"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The account reports the mothers’ past teaching; it does not stage it as a present scene."
+      "Keep this as a reported account rather than staging the recalled events as a new present-tense scene.",
+      "The supplied verses do not name the first-person correspondent; do not identify that person visually or assign the young men's speech to him.",
+      "The address Father and designation sons do not establish biological parentage.",
+      "The mothers' teaching and the young men's confidence are reported; no visible divine appearance or completed deliverance is narrated."
     ],
     "prohibited_inventions": [
-      "Do not show the mothers or invent their words beyond the supplied quotation."
+      "Do not introduce Mormon or Helaman as a visibly identified participant on the authority of these verses alone.",
+      "Do not stage the mothers' earlier teaching or a battle.",
+      "Do not depict God visibly or invent a miraculous deliverance.",
+      "Do not place Moroni, Antipus, the mothers, or the fathers physically in the scene merely because they are mentioned.",
+      "Do not invent individual speakers within the young men's group."
     ],
     "importance": "normal"
   },

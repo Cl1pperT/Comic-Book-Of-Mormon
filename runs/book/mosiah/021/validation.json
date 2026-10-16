@@ -1,5 +1,5 @@
 {
-  "stamp": "12e9544f7879e15a856dc33fa31009053128ea12cd94a6af09e34796614323fa",
+  "stamp": "126d4cc319564ef50591dfd49a4463c9cea3ec3a5bacf71c2152b084030e89e2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -96,8 +96,10 @@
       "issues": []
     },
     "scene_023": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse states their aim but gives no particular meeting, plan, or physical activity; depicting them considering deliverance is a reasonable but unspecified visual inference. The setting and any method of deliverance are not stated."
+      ]
     }
   }
 }

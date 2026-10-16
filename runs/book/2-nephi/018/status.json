@@ -4,17 +4,21 @@
   "verses": 22,
   "scenes": 11,
   "counts": {
-    "PASS": 0,
-    "PASS WITH WARNINGS": 11,
-    "REJECT": 0
+    "PASS": 2,
+    "PASS WITH WARNINGS": 8,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 35,
+  "rejected": {
+    "scene_001": [
+      "The supplied verses do not identify the first-person speaker as Nephi. The summary, characters, explicit facts, and story notes all assert that identity without support."
+    ]
+  },
+  "calls": 69,
   "tokens": {
-    "input_tokens": 170446,
-    "cached_input_tokens": 61696,
+    "input_tokens": 333169,
+    "cached_input_tokens": 146176,
     "cache_write_input_tokens": 0,
-    "output_tokens": 14320,
-    "reasoning_output_tokens": 3720
+    "output_tokens": 29789,
+    "reasoning_output_tokens": 9928
   }
 }

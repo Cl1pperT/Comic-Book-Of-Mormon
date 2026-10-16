@@ -656,7 +656,7 @@
       "1 Nephi 12:16",
       "1 Nephi 12:17"
     ],
-    "summary": "The angel identifies the fountain of filthy water as the river Nephi’s father saw, and explains the meanings of its depths and the mists of darkness.",
+    "summary": "The angel tells Nephi that the fountain of filthy water is the river his father saw, describes its depths as the depths of hell, and explains the mists of darkness as temptations of the devil.",
     "characters": [
       "Nephi",
       "the angel"
@@ -666,34 +666,40 @@
     ],
     "explicit_facts": [
       {
-        "text": "The angel identifies the fountain of filthy water with the river Nephi’s father saw and says its depths are the depths of hell.",
+        "text": "The angel speaks to Nephi and identifies the fountain of filthy water with the river Nephi's father saw.",
         "refs": [
           "1 Nephi 12:16"
         ]
       },
       {
-        "text": "The angel says the mists of darkness are the devil’s temptations, which blind eyes, harden hearts, and lead people onto broad roads where they perish and are lost.",
+        "text": "The angel says the river's depths are the depths of hell.",
+        "refs": [
+          "1 Nephi 12:16"
+        ]
+      },
+      {
+        "text": "The angel says the mists of darkness are temptations of the devil that blind eyes, harden hearts, and lead the children of men away into broad roads, where they perish and are lost.",
         "refs": [
           "1 Nephi 12:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The angel’s teaching may be presented as off-screen speech over a neutral vision setting."
+      "Nephi may be shown listening while the angel speaks."
     ],
     "unspecified_visual_details": [
-      "The angel’s appearance and whether the fountain, river, or mists are visible during the explanation are unspecified."
+      "The location, the angel's appearance, and whether the fountain, river, or mists are visible during the explanation are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "the depths thereof are the depths of hell.",
+        "text": "Behold the fountain of filthy water which thy father saw; yea, even the river of which he spake; and the depths thereof are the depths of hell.",
         "refs": [
           "1 Nephi 12:16"
         ],
         "speaker": "the angel"
       },
       {
-        "text": "the mists of darkness are the temptations of the devil,",
+        "text": "And the mists of darkness are the temptations of the devil,",
         "refs": [
           "1 Nephi 12:17"
         ],
@@ -702,10 +708,10 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The angel interprets symbolic imagery; do not turn temptations, hell, or the broad roads into newly narrated visible supernatural events."
+      "The angel interprets symbolic imagery; his explanation does not narrate a new visible event."
     ],
     "prohibited_inventions": [
-      "Do not add a visible devil, hell scene, or people physically blinded by literal mists."
+      "Do not add a visible devil, a hell scene, or people physically blinded by literal mists."
     ],
     "importance": "normal"
   },

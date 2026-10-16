@@ -1,5 +1,5 @@
 {
-  "stamp": "c69b58f4f2c2ec892ddb969493cc9a5c8ce54f088de026534a9d5b7e0962a899",
+  "stamp": "951c1d797bec16b85d5158dee8faedccf964ae0561425c913c7469ef73492022",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -14,8 +14,10 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration combines wording from Alma 63:5 but changes source punctuation and joins excerpts; use separate verbatim excerpts to preserve the source text exactly."
+      ]
     },
     "scene_005": {
       "status": "PASS",
@@ -34,11 +36,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The facts and chronology match Alma 63:10; the narration is an exact contiguous quotation.",
-        "Corianton aboard a ship with provisions is a reasonable inference, but the verse does not explicitly place him aboard or describe the ship or provisions. His appearance, Shiblon’s location and manner of death, and whether to depict either event are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",
@@ -49,12 +48,16 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The established label “Lamanite warriors (Enos to Alma era)” is not supported as a warrior designation in this verse, which identifies only Lamanites; use a neutral Lamanite group label."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene assigns the battle to “Nephite armies of Moroni,” but Alma 63:15 identifies Moronihah's people or army, not Moroni's army. The summary avoids this, but the character list mislabels the opposing force."
+      ]
     },
     "scene_014": {
       "status": "PASS",

@@ -1,46 +1,54 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Christ Appears to the People",
+    "title": "Nephi Foretells Christ's Appearance",
     "refs": [
       "2 Nephi 26:1"
     ],
-    "summary": "Nephi says that after Christ rises from the dead, he will show himself to the people, and his words will be their law.",
+    "summary": "Nephi says that after Christ rises from the dead, Christ will show himself to Nephi's children and beloved brethren, and they shall do the words he speaks to them.",
     "characters": [
       "Nephi",
-      "Jesus Christ (at Bountiful)"
+      "Christ (foretold, not present)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "After Christ rises from the dead, he will show himself to Nephi’s people and beloved brethren, and they are to do the words he speaks.",
+        "text": "Christ will show himself to Nephi's children and beloved brethren after rising from the dead.",
+        "refs": [
+          "2 Nephi 26:1"
+        ]
+      },
+      {
+        "text": "The words Christ speaks to them shall be the law they shall do.",
         "refs": [
           "2 Nephi 26:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Christ appearing to a gathered people, without specifying the manner or setting."
+      "Nephi may be shown addressing his children and beloved brethren; their physical presence is not established."
     ],
     "unspecified_visual_details": [
-      "The location, the people’s number and appearance, Christ’s appearance, and the precise circumstances of the appearance."
+      "The setting, the listeners' number and appearance, and the circumstances of Christ's future appearance are unspecified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "he shall show himself unto you, my children, and my beloved brethren",
+        "text": "And after Christ shall have risen from the dead he shall show himself unto you, my children, and my beloved brethren; and the words which he shall speak unto you shall be the law which ye shall do.",
         "refs": [
           "2 Nephi 26:1"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a future event described by Nephi, not a present-time event."
+      "Nephi describes a future event, not an appearance occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict a specific resurrection scene or add details about Christ’s appearance."
+      "Do not depict Christ's future appearance or resurrection as occurring in this scene.",
+      "Do not add Christ's appearance, setting, actions, or spoken words."
     ],
     "importance": "normal"
   },

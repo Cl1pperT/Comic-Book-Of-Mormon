@@ -1,5 +1,5 @@
 {
-  "stamp": "86d3b616e15ccfa0deb08556d390431fdb8be024c8aa018735cc09c470331316",
+  "stamp": "9760f69de65d72d81baa242e0248e928169ff5dc99153e7896df70b3b7704dc8",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -61,11 +61,8 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The summary's claim that the opening lament expresses regret over mistreating prophets is textually grounded, but its speaker is not identified; preserve the distinction between this singular lament and the future collective lament.",
-        "The warning speaker is unnamed in these verses. The supplied excerpt does not establish the scene's visual setting or the appearance of the audience. The dialogue excerpts are verbatim and the scene does not stage the foretold losses as present events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_015": {
       "status": "PASS",

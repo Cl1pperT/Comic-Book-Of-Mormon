@@ -219,39 +219,51 @@
   },
   {
     "scene_id": "scene_005",
-    "title": "The Family Boards",
+    "title": "Boarding the Ship",
     "refs": [
       "1 Nephi 18:6",
       "1 Nephi 18:7"
     ],
-    "summary": "On the morrow, after preparations, they go down into the ship with provisions, belongings, seeds, wives, and children. The account states that the narrator’s father had two sons in the wilderness: Jacob, the elder, and Joseph, the younger.",
+    "summary": "On the morrow, after preparing provisions, Nephi and the others go down into the ship with their loading, seeds, wives, and children. Nephi also states that his father had begotten two sons in the wilderness: Jacob, the elder, and Joseph, the younger.",
     "characters": [
-      "The narrator and the people included in “we”; the narrator’s father; wives; children"
+      "Nephi",
+      "Others included in “we”",
+      "Wives and children",
+      "Nephi’s father (mentioned)",
+      "Jacob (mentioned)",
+      "Joseph (mentioned)"
     ],
     "locations": [
-      "The ship; the location is otherwise unspecified"
+      "The ship",
+      "The wilderness (mentioned as the place where the two sons were begotten)"
     ],
     "explicit_facts": [
       {
-        "text": "On the morrow, after preparations, they go down into the ship with provisions, loading, seeds, and what they had brought, each according to age, with their wives and children.",
+        "text": "On the morrow, after preparations, Nephi and the others go down into the ship with their loading, seeds, other belongings, wives, and children.",
         "refs": [
           "1 Nephi 18:6"
         ]
       },
       {
-        "text": "The narrator’s father had begotten two sons in the wilderness; the elder was called Jacob and the younger Joseph.",
+        "text": "They had prepared fruits, meat from the wilderness, honey, and provisions according to the Lord’s command.",
+        "refs": [
+          "1 Nephi 18:6"
+        ]
+      },
+      {
+        "text": "Nephi’s father had begotten two sons in the wilderness; Jacob was the elder and Joseph the younger.",
         "refs": [
           "1 Nephi 18:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The boarding party brings provisions, seeds, and other belongings into the ship."
+      "The boarding party carries provisions, seeds, and belongings into the ship."
     ],
     "unspecified_visual_details": [
-      "The identities of all people included in “we,” their individual ages and appearances, and the particular provisions and belongings are unspecified.",
-      "The ship’s design and the location of the boarding are unspecified.",
-      "Jacob and Joseph’s appearances and whereabouts are unspecified."
+      "The identities and appearances of everyone in the boarding party are unspecified.",
+      "The ship’s design and the boarding location are unspecified.",
+      "Jacob and Joseph’s appearances and whereabouts during boarding are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -262,16 +274,19 @@
         ]
       },
       {
-        "text": "the elder was called Jacob and the younger Joseph.",
+        "text": "my father had begat two sons in the wilderness; the elder was called Jacob and the younger Joseph.",
         "refs": [
           "1 Nephi 18:7"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The statement about Jacob and Joseph is retrospective; it does not narrate their births or place them at the boarding."
+    ],
     "prohibited_inventions": [
-      "Do not assign names or relationships to people beyond those stated in the verses.",
-      "Do not depict Jacob or Joseph as present during the boarding; their naming occurs in a separate statement."
+      "Do not depict the births of Jacob and Joseph as occurring during boarding.",
+      "Do not establish Jacob’s or Joseph’s presence at the boarding.",
+      "Do not invent identities, appearances, dialogue, or additional relationships."
     ],
     "importance": "normal"
   },
@@ -451,7 +466,7 @@
       "1 Nephi 18:11",
       "1 Nephi 18:12"
     ],
-    "summary": "Laman and Lemuel take Nephi and bind him with cords, treating him harshly. After they bind him so he cannot move, the compass ceases to work.",
+    "summary": "Laman and Lemuel take Nephi, bind him with cords, and treat him harshly. After he is bound so he cannot move, the compass ceases to work.",
     "characters": [
       "Nephi",
       "Laman",
@@ -472,18 +487,23 @@
         ]
       },
       {
-        "text": "The Lord suffers this so that he might show forth his power, fulfilling his word concerning the wicked.",
+        "text": "The compass had been prepared of the Lord.",
+        "refs": [
+          "1 Nephi 18:12"
+        ]
+      },
+      {
+        "text": "The Lord suffers Nephi's treatment so that he might show forth his power and fulfill his word concerning the wicked.",
         "refs": [
           "1 Nephi 18:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is physically unable to move while bound.",
-      "The compass can be shown as ceasing to work, without specifying how that is visually indicated."
+      "Nephi cannot move while bound."
     ],
     "unspecified_visual_details": [
-      "The location, compass appearance, and precise manner of harsh treatment are not described."
+      "The location, the compass's appearance, and the precise manner of harsh treatment are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -492,13 +512,19 @@
         "refs": [
           "1 Nephi 18:11"
         ]
+      },
+      {
+        "text": "the compass, which had been prepared of the Lord, did cease to work.",
+        "refs": [
+          "1 Nephi 18:12"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
       "The Lord's purpose is stated in the verse; do not depict it as a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not invent dialogue, injuries, a shipboard setting, or a visible appearance or action of the Lord."
+      "Do not invent dialogue, injuries, a shipboard setting, a visible appearance or action of the Lord, or a specific visual sign of the compass ceasing to work."
     ],
     "importance": "normal"
   },
@@ -590,53 +616,54 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Nephi Is Released",
+    "title": "Nephi’s Brethren Begin to See",
     "refs": [
       "1 Nephi 18:15"
     ],
-    "summary": "After four days driven back upon the waters, Nephi’s brethren come to him and loosen the bands on his wrist. His wrist and ankles are swollen, and he is very sore.",
+    "summary": "After four days driven back upon the waters, Nephi’s brethren begin to see that the judgments of God are upon them and that they must repent or perish.",
     "characters": [
       "Nephi",
       "Nephi’s brethren"
     ],
     "locations": [
-      "Sea"
+      "At sea"
     ],
     "explicit_facts": [
       {
-        "text": "After they have been driven back upon the waters for four days, Nephi’s brethren begin to see that God’s judgments are upon them and that they must perish unless they repent of their iniquities.",
+        "text": "They have been driven back upon the waters for four days.",
         "refs": [
           "1 Nephi 18:15"
         ]
       },
       {
-        "text": "Nephi’s brethren come to him and loosen the bands on his wrist; his wrist and ankles are swollen, and he has great soreness.",
+        "text": "Nephi’s brethren begin to see that the judgments of God are upon them and that they must perish unless they repent of their iniquities.",
         "refs": [
           "1 Nephi 18:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi’s brethren are present with him as they loosen the bands on his wrist."
+      "The brethren are aboard a vessel on the water."
     ],
     "unspecified_visual_details": [
-      "The appearance and individual reactions of the brethren are not described.",
-      "The sea, vessel, weather, clothing, and precise arrangement of the people are not described."
+      "The vessel, weather, clothing, and brethren’s appearances are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "wherefore, they came unto me, and loosed the bands which were upon my wrist",
+        "text": "my brethren began to see that the judgments of God were upon them",
         "refs": [
           "1 Nephi 18:15"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The brethren’s realization is not a narrated visible appearance of God or his judgments."
+    ],
     "prohibited_inventions": [
-      "Do not depict repentance as spoken dialogue; no words are supplied.",
-      "Do not depict the sea threatening to swallow them as a separate visible event in this moment.",
-      "Do not add blood, wounds, or injuries beyond the swelling and soreness stated."
+      "Do not depict the loosing of Nephi’s bands in this scene.",
+      "Do not invent spoken repentance or dialogue.",
+      "Do not depict divine judgments as visible figures or effects."
     ],
     "importance": "normal"
   },
@@ -688,51 +715,49 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "Lehi and Sariah Stricken",
+    "title": "Nephi’s Parents on Their Sick-Beds",
     "refs": [
       "1 Nephi 18:17",
       "1 Nephi 18:18"
     ],
-    "summary": "Lehi has said many things to them and to Ishmael’s sons. They threaten anyone who speaks for Nephi. Nephi’s aged parents, grieved because of their children, are brought down upon sick-beds and near death in sorrow.",
+    "summary": "Nephi’s aged parents, grieved by their children, were brought down upon their sick-beds and came near death.",
     "characters": [
       "Lehi",
-      "Nephi’s parents",
-      "Ishmael’s sons",
-      "Nephi’s brethren"
+      "Nephi’s mother"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Lehi had said many things unto them and unto the sons of Ishmael.",
+        "text": "Lehi had previously said many things to others and to the sons of Ishmael.",
         "refs": [
           "1 Nephi 18:17"
         ]
       },
       {
-        "text": "They breathed out much threatenings against anyone that should speak for Nephi.",
+        "text": "Threats were made against anyone who should speak for Nephi; the verse does not clearly identify who made them.",
         "refs": [
           "1 Nephi 18:17"
         ]
       },
       {
-        "text": "Nephi’s parents were stricken in years and had suffered much grief because of their children; they were brought down upon sick-beds.",
+        "text": "Nephi’s parents were aged, had suffered grief because of their children, and were brought down upon sick-beds.",
         "refs": [
           "1 Nephi 18:17"
         ]
       },
       {
-        "text": "Because of grief, sorrow, and the iniquity of Nephi’s brethren, his parents were near death and near being cast with sorrow into a watery grave.",
+        "text": "Their grief and sorrow, and the iniquity of Nephi’s brethren, brought them near death.",
         "refs": [
           "1 Nephi 18:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi’s parents are on sick-beds."
+      "Lehi and Nephi’s mother can be shown lying weakly on sick-beds."
     ],
     "unspecified_visual_details": [
-      "The verses do not identify who made the threats.",
-      "The verses do not specify the location or appearance of the sick-beds."
+      "The location, arrangement, and appearance of the sick-beds are not specified.",
+      "The parents’ clothing and other physical features are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -741,14 +766,23 @@
         "refs": [
           "1 Nephi 18:17"
         ]
+      },
+      {
+        "text": "they were brought near even to be carried out of this time to meet their God;",
+        "refs": [
+          "1 Nephi 18:18"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The watery-grave language describes peril and sorrow; the verses do not say that the parents die or are cast into the sea."
+      "Lehi’s speech and the threats are reported background, not actions to stage at the sick-beds.",
+      "The watery-grave language describes their peril; the verses do not say the parents died or were cast into the water."
     ],
     "prohibited_inventions": [
-      "Do not depict the threats or Lehi’s earlier words as a present-tense event.",
-      "Do not depict the parents dying or being cast into the sea."
+      "Do not stage Lehi’s earlier speech or the threats as a present-tense event.",
+      "Do not depict the parents dying or being cast into the water.",
+      "Do not invent words spoken by Lehi or by those making threats.",
+      "Do not place Nephi, the sons of Ishmael, or Nephi’s brethren at the sick-beds without textual support."
     ],
     "importance": "normal"
   },

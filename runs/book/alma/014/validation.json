@@ -1,5 +1,5 @@
 {
-  "stamp": "d58317dc7d6ac5121d2e1932cf128b6636468b05e40caddfa099160345855dc5",
+  "stamp": "d32236a113eada2d6f3ed934ca83a024bdb2c5ef0886facdcde8338d82e7fe59",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -18,11 +18,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The supplied source explicitly says Alma and Amulek were carried to the place so they could witness the destruction, but does not say who carried them; the scene's attribution to the same unnamed actors is plausible from context, not explicit in the cited verses.",
-        "The stated visuals must preserve chronology: first the wives and children are brought together and believers and records are cast into the fire (Alma 14:8), then Alma and Amulek are carried to the place (Alma 14:9)."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -39,8 +36,8 @@
     "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene's chronology follows the preceding scene: Alma and Amulek are delivered to prison before the three-day interval and visitors' arrival. The preceding scene's “place of martyrdom” location for the chief judge's confrontation is not stated in the supplied verses; this uncertainty does not alter the current scene.",
-        "The visual inference of visitors questioning Alma and Amulek is supported, but the visitors' specific questions and individual appearances are unspecified. The narration is an exact excerpt from Alma 14:18. No dialogue is added."
+        "The scene’s summary, facts, quoted narration, and sequence are supported by Alma 14:17–18. The text specifies they were questioned, but does not explicitly say the visitors are shown questioning them at the moment depicted; that visual staging is a reasonable inference. Their silence and lack of invented dialogue are consistent with the verses.",
+        "The prison’s construction and individuals’ appearances are unspecified, as noted. Do not carry forward the previous scene’s location or bound state: this scene occurs in the prison after three days; Alma and Amulek are not said here to be bound."
       ]
     },
     "scene_009": {
@@ -71,10 +68,8 @@
       ]
     },
     "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The fallen walls behind Alma and Amulek are a reasonable visual inference, but their precise placement and the city's layout are unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

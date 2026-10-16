@@ -1,5 +1,5 @@
 {
-  "stamp": "d22f820287e4871c157ba823e616865554bacdeba942215eb56a5c7cc2b53762",
+  "stamp": "0c384bf949b84bd4cd38dac1fa75b1e479d211675b7efd96f3fcd60c8550f95e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -16,8 +16,11 @@
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene's text and chronology are supported. The specific label “Nephi” is supported by the record and remembrance; the writer of the commanded entry remains unspecified, as the scene notes.",
+        "“Unspecified location” is appropriately cautious; no setting or appearances are supplied. The generic visual inference that a record may be shown after the command is reasonable but not explicitly narrated."
+      ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

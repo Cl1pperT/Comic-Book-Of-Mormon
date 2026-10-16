@@ -113,7 +113,7 @@
       "Mosiah 22:4",
       "Mosiah 22:5"
     ],
-    "summary": "Gideon goes forth and stands before the king. The king grants him permission to speak.",
+    "summary": "Gideon stands before the king, recalls his previous willingness to listen, and asks him to listen again, offering to serve him and deliver the people out of bondage. The king grants him permission to speak.",
     "characters": [
       "Gideon",
       "The king"
@@ -129,13 +129,13 @@
         ]
       },
       {
-        "text": "Gideon recalls that the king has listened to his words during contention with the Lamanites.",
+        "text": "Gideon says the king has listened to his words many times during contention with the Lamanites.",
         "refs": [
           "Mosiah 22:3"
         ]
       },
       {
-        "text": "Gideon asks the king to listen and promises to serve him and deliver the people out of bondage.",
+        "text": "Gideon asks the king to listen and offers to serve him and deliver the people out of bondage.",
         "refs": [
           "Mosiah 22:4"
         ]
@@ -151,10 +151,17 @@
       "Gideon and the king are within speaking distance."
     ],
     "unspecified_visual_details": [
-      "The location, clothing, physical appearances, and surrounding furnishings are unspecified.",
+      "The location, clothing, physical appearances, and furnishings are unspecified.",
       "The king's posture and manner of granting permission are unspecified."
     ],
     "spoken_dialogue": [
+      {
+        "text": "Now O king, thou hast hitherto hearkened unto my words many times when we have been contending with our brethren, the Lamanites.",
+        "refs": [
+          "Mosiah 22:3"
+        ],
+        "speaker": "Gideon"
+      },
       {
         "text": "even so I desire that thou wouldst listen to my words at this time, and I will be thy servant and deliver this people out of bondage.",
         "refs": [
@@ -165,12 +172,6 @@
     ],
     "narration": [
       {
-        "text": "Now it came to pass that Gideon went forth and stood before the king, and said unto him:",
-        "refs": [
-          "Mosiah 22:3"
-        ]
-      },
-      {
         "text": "And the king granted unto him that he might speak.",
         "refs": [
           "Mosiah 22:5"
@@ -178,108 +179,95 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The dialogue is a selected exact excerpt, not the complete speech in verses 3–4.",
-      "Earlier contention is recalled, not enacted here. Deliverance is promised, not accomplished in these verses.",
-      "Verse 5 introduces further speech but supplies none of its words."
+      "Dialogue consists of exact selected excerpts from Gideon's speech.",
+      "Earlier contention is recalled, not enacted. Deliverance is offered, not accomplished.",
+      "Verse 5 introduces further speech but supplies none of its words.",
+      "The supplied verses do not name the king. Narration belongs to Mormon, not Gideon."
     ],
     "prohibited_inventions": [
-      "Do not name the king or invent his dialogue.",
+      "Do not supply a name or invented dialogue for the king.",
       "Do not add a deliverance plan or depict deliverance occurring.",
-      "Do not depict the earlier contention with the Lamanites as occurring in this scene.",
-      "Do not assume the Lamanites or the people mentioned are physically present.",
-      "Do not add the speech introduced but not supplied in verse 5."
+      "Do not enact the recalled contention with the Lamanites.",
+      "Do not assume that the Lamanites or the people mentioned are physically present.",
+      "Do not invent the further speech introduced in verse 5."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "A proposed departure by night",
+    "title": "Gideon proposes a departure by night",
     "refs": [
       "Mosiah 22:6",
       "Mosiah 22:7",
       "Mosiah 22:8"
     ],
-    "summary": "A speaker describes a back pass and proposes gathering the people's flocks and herds, paying a last tribute of wine to the Lamanites, and departing through a secret pass with women, children, flocks, and herds into the wilderness and around the land of Shilom.",
+    "summary": "Gideon proposes gathering livestock, paying a last tribute of wine to the Lamanites, and escaping by night through a secret pass when the guards are drunken and asleep. His proposed departure includes women, children, flocks, and herds, with travel into the wilderness and around Shilom.",
     "characters": [
-      "Unnamed speaker"
+      "Gideon"
     ],
     "locations": [
       "Location of the speech unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "The speaker describes a back pass through the back wall on the back side of the city and says the Lamanites, or their guards, are drunken by night.",
+        "text": "Gideon describes a back pass through the city's back wall and says the Lamanites, or their guards, are drunken by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker proposes a proclamation for the people to gather their flocks and herds and drive them into the wilderness by night.",
+        "text": "He proposes sending a proclamation for the people to gather their flocks and herds to drive into the wilderness by night.",
         "refs": [
           "Mosiah 22:6"
         ]
       },
       {
-        "text": "The speaker says they will pay the last tribute of wine to the Lamanites according to the addressee's command, then pass through a secret pass on the left of the Lamanite camp when they are drunken and asleep.",
+        "text": "He offers to pay the last tribute of wine according to the addressee's command and proposes passing through the secret pass on the left of the Lamanite camp when they are drunken and asleep.",
         "refs": [
           "Mosiah 22:7"
         ]
       },
       {
-        "text": "The proposed departure includes women, children, flocks, and herds; the group would travel into the wilderness and around the land of Shilom.",
+        "text": "His proposed departure includes women, children, flocks, and herds, and his proposed route goes into the wilderness and around the land of Shilom.",
         "refs": [
           "Mosiah 22:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown speaking; the proposed actions need not be shown taking place."
+      "Gideon may be depicted speaking without showing the proposed actions being performed."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance are not supplied.",
-      "The speech's location, time, and addressee are unspecified.",
-      "The wall, passes, and camp are not physically described."
+      "Gideon's appearance, clothing, and gestures are unspecified.",
+      "The speech's setting, time, and addressee are not identified in these supplied verses.",
+      "The physical design of the wall, passes, and camp is unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "The Lamanites, or the guards of the Lamanites, by night are drunken;",
+        "text": "Behold the back pass, through the back wall, on the back side of the city.",
         "refs": [
           "Mosiah 22:6"
         ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Gideon"
       },
       {
-        "text": "let us send a proclamation among all this people that they gather together their flocks and herds,",
+        "text": "Thus we will depart with our women and our children, our flocks, and our herds into the wilderness; and we will travel around the land of Shilom.",
         "refs": [
-          "Mosiah 22:6"
+          "Mosiah 22:8"
         ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "pay the last tribute of wine to the Lamanites,",
-        "refs": [
-          "Mosiah 22:7"
-        ],
-        "speaker": "Unnamed speaker"
-      },
-      {
-        "text": "we will pass through the secret pass on the left of their camp when they are drunken and asleep.",
-        "refs": [
-          "Mosiah 22:7"
-        ],
-        "speaker": "Unnamed speaker"
+        "speaker": "Gideon"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses present a proposal, not its execution.",
-      "The supplied verses do not identify the speaker or the addressee."
+      "These verses continue Gideon's proposal; they do not narrate its execution.",
+      "The first-person promise in verse 7 belongs to Gideon's speech, not Mormon's narration.",
+      "No framing quotation from an unsupplied verse is added."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or addressee using verses outside the supplied source.",
-      "Do not depict the proclamation, tribute delivery, drinking, sleep, livestock gathering, or departure as occurring during this speech.",
-      "Do not assume the women, children, livestock, or Lamanite guards are physically present at the speech.",
-      "Do not invent additional dialogue or a visible route demonstration."
+      "Do not show the proclamation, tribute delivery, drinking, sleep, livestock gathering, or departure as occurring during this speech.",
+      "Do not place women, children, livestock, or Lamanite guards physically at the speech merely because Gideon mentions them.",
+      "Do not invent an identified addressee, additional dialogue, a route demonstration, or a completed escape."
     ],
     "importance": "normal"
   },

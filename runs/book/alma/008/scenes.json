@@ -448,33 +448,33 @@
       "Alma 8:16",
       "Alma 8:17"
     ],
-    "summary": "A speaker blesses Alma, identifies himself as the one who delivered Alma's first message, and commands him to return to Ammonihah to preach. He warns that the people will be destroyed unless they repent and says they are studying how to destroy the liberty of Alma's people.",
+    "summary": "The messenger blesses Alma, identifies himself as the one who delivered his first message, and commands him to return to Ammonihah and preach repentance. He warns of destruction unless the people repent and reports their efforts to destroy the liberty of Alma's people.",
     "characters": [
       "Alma",
-      "Speaker who delivered Alma's first message"
+      "Angel of the Lord"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker blesses Alma, tells him to rejoice, and says Alma has faithfully kept God's commandments.",
+        "text": "The speaker blesses Alma, urges him to rejoice, and says he has faithfully kept God's commandments since receiving his first message.",
         "refs": [
           "Alma 8:15"
         ]
       },
       {
-        "text": "The speaker identifies himself as the one who delivered Alma's first message.",
+        "text": "The speaker identifies himself as the one who delivered that message.",
         "refs": [
           "Alma 8:15"
         ]
       },
       {
-        "text": "The speaker commands Alma to return to Ammonihah and preach, warning that the Lord God will destroy the people unless they repent.",
+        "text": "The speaker says he is sent to command Alma to return to Ammonihah and preach, warning that the Lord God will destroy the people unless they repent.",
         "refs": [
           "Alma 8:16"
         ]
       },
       {
-        "text": "The speaker says the people are studying how to destroy the liberty of Alma's people, contrary to God's statutes, judgments, and commandments.",
+        "text": "The speaker reports that the people are studying how to destroy the liberty of Alma's people, contrary to God's statutes, judgments, and commandments.",
         "refs": [
           "Alma 8:17"
         ]
@@ -484,49 +484,53 @@
       "Alma listens to the words addressed to him."
     ],
     "unspecified_visual_details": [
-      "The speaker's appearance and whether he is visible.",
-      "Alma's appearance and posture.",
-      "The setting of the exchange."
+      "Alma's appearance, clothing, and posture.",
+      "The setting of the exchange.",
+      "The speaker's appearance is not described in the supplied verses."
     ],
     "spoken_dialogue": [
       {
-        "text": "Blessed art thou, Alma; therefore, lift up thy head and rejoice,",
+        "text": "Blessed art thou, Alma;",
         "refs": [
           "Alma 8:15"
         ],
-        "speaker": "Speaker who delivered Alma's first message"
+        "speaker": "Angel of the Lord"
       },
       {
         "text": "Behold, I am he that delivered it unto you.",
         "refs": [
           "Alma 8:15"
         ],
-        "speaker": "Speaker who delivered Alma's first message"
+        "speaker": "Angel of the Lord"
       },
       {
         "text": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city;",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Speaker who delivered Alma's first message"
+        "speaker": "Angel of the Lord"
       },
       {
         "text": "Yea, say unto them, except they repent the Lord God will destroy them.",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Speaker who delivered Alma's first message"
+        "speaker": "Angel of the Lord"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The threat to liberty is reported in speech, not depicted as a separate event.",
-      "The supplied verses do not describe the speaker's appearance."
+      "The speaker label follows the identification supplied in the audit correction; verses 15–17 do not independently identify him as an angel or describe his appearance.",
+      "The first-person statements in this address belong to the messenger, not Mormon.",
+      "The threat to liberty is reported speech, not an event shown occurring.",
+      "The destruction warning is conditional, not a narrated fulfillment."
     ],
     "prohibited_inventions": [
-      "Do not depict the planned destruction of liberty as occurring.",
-      "Do not invent an appearance for the speaker.",
-      "Do not place the exchange at a specified location."
+      "Do not visibly depict the angel: the supplied verses describe no appearance.",
+      "Do not depict the earlier message as a flashback.",
+      "Do not show Alma returning or preaching in this scene.",
+      "Do not show the reported plotting or threatened destruction occurring.",
+      "Do not invent a location, Alma's reply, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -1032,26 +1036,26 @@
     "refs": [
       "Alma 8:31"
     ],
-    "summary": "The verse reports power given to those referred to as “they” and states that they did not exercise it until they were bound and cast into prison. It gives the purpose as the Lord showing forth his power in them; no imprisonment is staged as occurring in this scene.",
+    "summary": "Mormon reports that they received power such that they could not be confined in dungeons or slain by any man. They did not exercise their power until they were bound and cast into prison. This was done so the Lord might show forth his power in them.",
     "characters": [
-      "Those referred to as “they” (reported subjects, not physically depicted; identities unspecified in the supplied verse)"
+      "Unidentified people referred to as “they”"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "They had power given unto them such that they could not be confined in dungeons or slain by any man.",
+        "text": "They had power given to them such that they could not be confined in dungeons or slain by any man.",
         "refs": [
           "Alma 8:31"
         ]
       },
       {
-        "text": "The verse reports that they did not exercise their power until they were bound in bands and cast into prison.",
+        "text": "They did not exercise their power until they were bound in bands and cast into prison.",
         "refs": [
           "Alma 8:31"
         ]
       },
       {
-        "text": "The stated purpose was that the Lord might show forth his power in them.",
+        "text": "This was done so the Lord might show forth his power in them.",
         "refs": [
           "Alma 8:31"
         ]
@@ -1059,13 +1063,19 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The supplied verse does not identify those referred to as “they” or describe their appearances.",
-      "The appearance and location of the prison and the material of the bands are unspecified."
+      "The verse does not identify or describe the people referred to as “they.”",
+      "The appearance of the bands and prison is unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And they had power given unto them, insomuch that they could not be confined in dungeons; neither was it possible that any man could slay them;",
+        "text": "And they had power given unto them, insomuch that they could not be confined in dungeons;",
+        "refs": [
+          "Alma 8:31"
+        ]
+      },
+      {
+        "text": "nevertheless they did not exercise their power until they were bound in bands and cast into prison.",
         "refs": [
           "Alma 8:31"
         ]
@@ -1078,15 +1088,16 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Treat this as an expository report, not a present-time enactment of binding, imprisonment, or the exercise of power.",
-      "Verse 30 is not supplied. The requested identification as Alma and Amulek cannot be established using the authorized source alone.",
-      "The verse describes no visible divine appearance or specific visible manifestation of power."
+      "Mormon is the narrator; no direct speech is supplied.",
+      "Treat the binding and imprisonment as reported events, not actions occurring in a new present-time scene.",
+      "Preserve the reported sequence: they received power but refrained from exercising it until they were bound and cast into prison. Do not use this report to reorder other scenes or combine separate times.",
+      "The verse describes no visible appearance of the Lord or visible manifestation of power."
     ],
     "prohibited_inventions": [
-      "Do not identify the reported subjects using unsupplied context.",
-      "Do not stage the reported binding or imprisonment as occurring in this scene.",
-      "Do not invent an escape, attempted killing, broken bands, or visible manifestation of power.",
-      "Do not visibly depict the Lord."
+      "Do not assign identities to the people referred to as “they.”",
+      "Do not stage the reported binding or imprisonment as a new present-time event.",
+      "Do not invent an escape, an attempted killing, or a visible manifestation of power.",
+      "Do not depict the Lord visibly."
     ],
     "importance": "normal"
   }

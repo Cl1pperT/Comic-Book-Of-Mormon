@@ -4,17 +4,24 @@
   "verses": 26,
   "scenes": 16,
   "counts": {
-    "PASS": 11,
-    "PASS WITH WARNINGS": 5,
-    "REJECT": 0
+    "PASS": 4,
+    "PASS WITH WARNINGS": 10,
+    "REJECT": 2
   },
-  "rejected": {},
-  "calls": 27,
+  "rejected": {
+    "scene_001": [
+      "1 Nephi 21:1 does not identify Nephi as the speaker of the address. The summary, character list, dialogue speaker labels, and story note attribute the first-person claims to him without support from the supplied verses."
+    ],
+    "scene_003": [
+      "1 Nephi 21:4 does not identify the first-person speaker as Nephi. The summary, character label, dialogue attribution, and note present that unsupported identity as fact; the preceding scene does not establish it."
+    ]
+  },
+  "calls": 63,
   "tokens": {
-    "input_tokens": 75323,
-    "cached_input_tokens": 35712,
+    "input_tokens": 328714,
+    "cached_input_tokens": 138240,
     "cache_write_input_tokens": 0,
-    "output_tokens": 7053,
-    "reasoning_output_tokens": 936
+    "output_tokens": 33910,
+    "reasoning_output_tokens": 13111
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "9831e3252ff77bf8088b0a648911fd884f7a60e07c96425c0444aeabd035e520",
+  "stamp": "e0c07780a00731e6090ab71a7b7e38de297b83c0eb27a9b33b8a1aab50d4443e",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -45,8 +45,10 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Nephi takes” in the summary shifts the source’s retrospective account (“did take”) into present tense; keep the action in the past. The source also specifies that he knew of the hatred toward him, his children, and his people, while the scene’s explicit-facts list does not include that fact."
+      ]
     },
     "scene_012": {
       "status": "PASS",
@@ -87,7 +89,7 @@
     "scene_021": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The Lord God is explicitly identified as the speaker, but how the communication occurs is unspecified; avoid depicting a particular mode or visible appearance."
+        "The command and narration are source-faithful, and the scene correctly does not depict the subsequent making or engraving of plates. The communication's visual form and location are unspecified; keep them indeterminate and do not show a visible Lord God."
       ]
     },
     "scene_022": {
@@ -97,8 +99,10 @@
       ]
     },
     "scene_023": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene’s summary, facts, and narration are supported by the supplied verses, and its narration consists of exact quotations. The static engraved-plates visual is a reasonable inference, but the text does not specify whether Nephi or any plates are visibly present; keep their depiction conservative. The preceding scene’s account of making and engraving the plates is supported and does not alter chronology."
+      ]
     },
     "scene_024": {
       "status": "PASS",

@@ -431,16 +431,16 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Ammon and the servants fall; Abish remains unfallen",
+    "title": "Ammon falls; Abish remains unfallen",
     "refs": [
       "Alma 19:14",
       "Alma 19:15",
       "Alma 19:16"
     ],
-    "summary": "Ammon kneels in prayer and thanksgiving, is overcome with joy, and sinks to the earth with two others. The king’s servants see them fallen, cry unto God, and call on his name until all have fallen except Abish, a Lamanitish woman.",
+    "summary": "Ammon kneels in prayer and thanksgiving and is overpowered with joy; all three have sunk to the earth. The king’s servants see them fallen and begin to cry unto God. Calling on the Lord continues until all described in the account have fallen except Abish.",
     "characters": [
       "Ammon",
-      "Two others among the three who sank to the earth, unidentified in the supplied verses",
+      "Two others among the three, unidentified in the supplied verses",
       "The king’s servants",
       "Abish"
     ],
@@ -449,13 +449,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "Ammon saw the Spirit of the Lord poured out upon the Lamanites according to his prayers.",
+        "text": "Ammon saw the Spirit of the Lord poured out upon the Lamanites, his brethren, according to his prayers.",
         "refs": [
           "Alma 19:14"
         ]
       },
       {
-        "text": "Ammon knelt and began to pray and give thanks to God; overcome with joy, he was among three who sank to the earth.",
+        "text": "Ammon fell upon his knees in prayer and thanksgiving to God and was overpowered with joy; all three had sunk to the earth.",
         "refs": [
           "Alma 19:14"
         ]
@@ -467,13 +467,13 @@
         ]
       },
       {
-        "text": "These servants had previously testified before the king concerning the great power of Ammon.",
+        "text": "These servants had previously testified before the king concerning Ammon’s great power.",
         "refs": [
           "Alma 19:15"
         ]
       },
       {
-        "text": "They called on the name of the Lord until all had fallen to the earth except Abish, a Lamanitish woman.",
+        "text": "They called on the name of the Lord in their might until all had fallen to the earth except Abish, a Lamanitish woman.",
         "refs": [
           "Alma 19:16"
         ]
@@ -486,14 +486,15 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Ammon and two others are on the ground when the servants see them.",
-      "Abish is the woman who remains unfallen when the others fall."
+      "Ammon and the other two are on the ground when the servants observe them.",
+      "Abish remains unfallen as others fall."
     ],
     "unspecified_visual_details": [
-      "The identities of the other two among the three who sank to the earth in verse 14.",
-      "The exact number and appearance of the servants.",
-      "The setting.",
-      "The appearance or content of the vision mentioned in Abish’s backstory."
+      "The identities of the other two among the three.",
+      "The exact scope and number of the group described as all in verse 16.",
+      "Clothing, physical appearances, and spatial arrangement.",
+      "The setting and time of day.",
+      "The content and appearance of the vision mentioned in Abish’s background."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -504,7 +505,7 @@
         ]
       },
       {
-        "text": "he was also overpowered with joy; and thus they all three had sunk to the earth.",
+        "text": "and thus they all three had sunk to the earth.",
         "refs": [
           "Alma 19:14"
         ]
@@ -516,23 +517,31 @@
         ]
       },
       {
-        "text": "they did call on the name of the Lord, in their might, even until they had all fallen to the earth, save it were one of the Lamanitish women, whose name was Abish,",
+        "text": "even until they had all fallen to the earth,",
+        "refs": [
+          "Alma 19:16"
+        ]
+      },
+      {
+        "text": "save it were one of the Lamanitish women, whose name was Abish,",
         "refs": [
           "Alma 19:16"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Mormon is the narrator; the verses supply no direct words for Ammon’s or the servants’ prayers.",
-      "Abish’s conversion, the vision, and the servants’ earlier testimony are background, not events occurring in this scene.",
-      "The supplied verses do not identify the other two among the three who sank to the earth in verse 14 or establish the queen’s presence.",
-      "Preserve the sequence: Ammon falls, the servants see those fallen, and then the servants call upon God until they fall, with Abish explicitly identified as the exception."
+      "Mormon is the narrator; no direct wording of Ammon’s or the servants’ prayers is supplied.",
+      "Preserve the sequence: Ammon kneels and is overpowered with joy; the three are fallen; the servants see them fallen before beginning to cry unto God.",
+      "Retain the collective wording of verse 16 without assigning its all to a more precisely defined group.",
+      "The servants’ testimony, earlier mourning among the Nephites, and Abish’s conversion and the vision are background, not present action."
     ],
     "prohibited_inventions": [
-      "Do not identify the other two or add the queen based on verses outside the supplied text.",
-      "Do not depict the vision or invent its content.",
-      "Do not invent words for the prayers or portray the Spirit of the Lord as a visible figure.",
-      "Do not depict the earlier testimony or prior mourning as present events."
+      "Do not identify the other two using outside verses.",
+      "Do not invent prayer dialogue.",
+      "Do not depict the Spirit of the Lord as a visible figure or supernatural effect.",
+      "Do not stage the earlier testimony, mourning, conversion, or vision as present events or flashbacks.",
+      "Do not invent the vision’s content or resolve whose experience the phrase a remarkable vision of her father describes.",
+      "Do not add injuries, death, or invented causes for falling."
     ],
     "importance": "normal"
   },
@@ -715,7 +724,7 @@
       "Alma 19:23",
       "Alma 19:24"
     ],
-    "summary": "A man angry with Ammon because his brother had been slain with the sword of Ammon raises his sword to strike Ammon and falls dead. The multitude sees him fall, fears to touch him or any of those who had fallen, and marvels at what happened.",
+    "summary": "A man angry with Ammon because his brother had been slain with the sword of Ammon draws his sword, goes toward Ammon, lifts it to strike him, and falls dead. The multitude sees him fall, fears to touch him or any of those who had fallen, and marvels at what happened.",
     "characters": [
       "the man with the sword",
       "Ammon",
@@ -724,7 +733,13 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "A man whose brother had been slain with the sword of Ammon was exceedingly angry with Ammon, drew his sword, lifted it to strike Ammon, and fell dead.",
+        "text": "The man’s brother had been slain with the sword of Ammon, and the man was exceedingly angry with Ammon.",
+        "refs": [
+          "Alma 19:22"
+        ]
+      },
+      {
+        "text": "The man drew his sword, went forth intending to slay Ammon, and fell dead as he lifted the sword to strike him.",
         "refs": [
           "Alma 19:22"
         ]
@@ -743,7 +758,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The multitude can see the man fall."
+      "The multitude is close enough to witness the man fall."
     ],
     "unspecified_visual_details": [
       "The physical manner of the man’s fall beyond what the verse states.",
@@ -751,6 +766,12 @@
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "one of them, whose brother had been slain with the sword of Ammon, being exceedingly angry with Ammon, drew his sword",
+        "refs": [
+          "Alma 19:22"
+        ]
+      },
       {
         "text": "as he lifted the sword to smite him, behold, he fell dead.",
         "refs": [
@@ -765,7 +786,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Verse 23 reports an earlier statement to Mosiah, not an event occurring during the man’s fall."
+      "Verse 23 recounts an earlier statement by the Lord to Mosiah, not speech occurring during the man’s fall."
     ],
     "prohibited_inventions": [
       "Do not show the sword striking Ammon or add injury details.",
@@ -854,7 +875,7 @@
     "refs": [
       "Alma 19:29"
     ],
-    "summary": "A woman takes the queen by the hand. At her touch, the queen rises, stands, and cries out.",
+    "summary": "A woman takes the queen by the hand. At her touch, the queen rises, stands, and cries aloud to Jesus and God.",
     "characters": [
       "The queen",
       "The woman who took the queen's hand"
@@ -874,7 +895,7 @@
         ]
       },
       {
-        "text": "The queen cried out in a loud voice to Jesus and God.",
+        "text": "The queen cried out in a loud voice, addressing Jesus and God.",
         "refs": [
           "Alma 19:29"
         ]
@@ -904,7 +925,7 @@
     ],
     "narration": [
       {
-        "text": "took the queen by the hand, that perhaps she might raise her from the ground;",
+        "text": "she went and took the queen by the hand",
         "refs": [
           "Alma 19:29"
         ]
@@ -920,9 +941,9 @@
       "The queen speaks of being saved from hell; the verse does not depict hell as a visible place."
     ],
     "prohibited_inventions": [
-      "Do not name the woman from this verse alone, including in captions.",
+      "Do not name the woman Abish: the supplied verse does not identify her.",
       "Do not depict hell as a visible location or event.",
-      "Do not add onlookers or an unspecified setting."
+      "Do not add onlookers or specify a setting."
     ],
     "importance": "normal"
   },
@@ -932,38 +953,36 @@
     "refs": [
       "Alma 19:30"
     ],
-    "summary": "The queen clasps her hands in joy and speaks words that are not understood. She takes King Lamoni by the hand, and he rises and stands.",
+    "summary": "The woman clasps her hands in joy and speaks words that are not understood. She takes King Lamoni by the hand, and he rises and stands on his feet.",
     "characters": [
-      "the queen",
+      "the woman",
       "King Lamoni"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The queen clasped her hands, filled with joy, and spoke many words that were not understood.",
+        "text": "The woman clasped her hands, filled with joy, and spoke many words that were not understood.",
         "refs": [
           "Alma 19:30"
         ]
       },
       {
-        "text": "She took King Lamoni by the hand, and he arose and stood on his feet.",
+        "text": "She took King Lamoni by the hand; Lamoni arose and stood on his feet.",
         "refs": [
           "Alma 19:30"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The queen and Lamoni's hands touch."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The words the queen spoke",
+      "The woman's words",
       "The location",
       "The characters' appearances"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and behold he arose and stood upon his feet.",
+        "text": "she took the king, Lamoni, by the hand, and behold he arose and stood upon his feet.",
         "refs": [
           "Alma 19:30"
         ]
@@ -971,8 +990,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent the queen's words or depict them as understood.",
-      "Do not add people, a location, or an explanation for Lamoni's rising."
+      "Do not invent the woman's words or portray them as understood.",
+      "Do not show anyone lifting Lamoni or add an explanation for his rising."
     ],
     "importance": "normal"
   },

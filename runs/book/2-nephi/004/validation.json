@@ -1,5 +1,5 @@
 {
-  "stamp": "fba34d0849e7b7e549c92bc3cd760c22aaf45cc9a743f9cb45081e909a0253f9",
+  "stamp": "e91ec236347b44205a50228812fa6b48abf2e6f830ba0b73687a27fe3b3b6928",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,11 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The explicit fact that Lehi spoke to all his household is supported, but the verse does not establish that this was a separate speech after his preceding address to Sam; avoid implying a distinct occasion.",
+        "The narration is an exact quotation and within the word limit. The burial is reported, not shown as a present-tense scene; visual depiction should preserve the sequence and avoid inventing burial details or attendees."
+      ]
     },
     "scene_009": {
       "status": "PASS",
@@ -74,7 +77,7 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The speaker is labeled unnamed, but the surrounding first-person passage identifies the continuing speaker as Nephi."
+        "The suggestion to show Nephi alone is an optional visual inference; the verses do not specify whether anyone else is present."
       ]
     },
     "scene_019": {

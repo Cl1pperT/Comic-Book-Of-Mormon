@@ -298,7 +298,7 @@
       "1 Nephi 11:10",
       "1 Nephi 11:11"
     ],
-    "summary": "Nephi tells the Spirit that the tree is precious above all. The Spirit asks what Nephi desires, and Nephi asks to know the interpretation of the tree.",
+    "summary": "After seeing the tree, Nephi tells the Spirit that it is precious above all. The Spirit asks what Nephi desires, and Nephi asks to know the tree's interpretation.",
     "characters": [
       "Nephi",
       "The Spirit of the Lord"
@@ -306,7 +306,13 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi says the Spirit has shown him the tree, which is precious above all.",
+        "text": "Nephi has seen the tree and says the Spirit showed it to him.",
+        "refs": [
+          "1 Nephi 11:9"
+        ]
+      },
+      {
+        "text": "Nephi calls the tree precious above all.",
         "refs": [
           "1 Nephi 11:9"
         ]
@@ -318,30 +324,25 @@
         ]
       },
       {
-        "text": "Nephi says he desires to know the interpretation of the tree.",
+        "text": "Nephi asks to know the interpretation of the tree.",
         "refs": [
           "1 Nephi 11:11"
         ]
       },
       {
-        "text": "Nephi says he spoke to the Spirit as a man speaks, beheld him in the form of a man, and knew him to be the Spirit of the Lord.",
-        "refs": [
-          "1 Nephi 11:11"
-        ]
-      },
-      {
-        "text": "The Spirit speaks to Nephi as a man speaks with another.",
+        "text": "Nephi beholds the Spirit in the form of a man, knows him as the Spirit of the Lord, and describes their manner of speaking as that of one man with another.",
         "refs": [
           "1 Nephi 11:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Spirit may be depicted in human form, as Nephi says he beheld him in the form of a man."
+      "Nephi and the Spirit may be shown oriented toward one another while conversing."
     ],
     "unspecified_visual_details": [
-      "The Spirit's specific features, clothing, age, and appearance are unspecified.",
-      "The setting and the tree's visual details are unspecified."
+      "The Spirit's specific features, clothing, and age are unspecified.",
+      "Nephi's appearance and clothing are unspecified.",
+      "The location and the tree's visual details are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -359,7 +360,7 @@
         "speaker": "The Spirit of the Lord"
       },
       {
-        "text": "To know the interpretation thereof—for I spake unto him as a man speaketh;",
+        "text": "To know the interpretation thereof—",
         "refs": [
           "1 Nephi 11:11"
         ],
@@ -367,6 +368,12 @@
       }
     ],
     "narration": [
+      {
+        "text": "for I spake unto him as a man speaketh;",
+        "refs": [
+          "1 Nephi 11:11"
+        ]
+      },
       {
         "text": "for I beheld that he was in the form of a man;",
         "refs": [
@@ -378,38 +385,35 @@
         "refs": [
           "1 Nephi 11:11"
         ]
-      },
-      {
-        "text": "and he spake unto me as a man speaketh with another.",
-        "refs": [
-          "1 Nephi 11:11"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi identifies the man-form figure as the Spirit of the Lord."
+      "The man-form figure is identified by Nephi as the Spirit of the Lord; this visible form is explicitly described in the source.",
+      "The narration is Nephi's narrative aside, not spoken dialogue."
     ],
     "prohibited_inventions": [
-      "Do not assign the Spirit specific physical features, clothing, age, or other unstated appearance.",
-      "Do not specify an unstated location or add events."
+      "Do not put Nephi's narrative aside into spoken dialogue.",
+      "Do not assign the Spirit an unstated appearance or specify an unstated location.",
+      "Do not add events or depict the tree as newly appearing during this conversation.",
+      "Do not supply the tree's interpretation."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_007",
-    "title": "Nephi Does Not See Him",
+    "title": "Nephi Does Not See the Spirit",
     "refs": [
       "1 Nephi 11:12"
     ],
-    "summary": "An unidentified speaker tells Nephi to look. Nephi looks as if to look upon him but does not see him, for he had gone from before Nephi’s presence.",
+    "summary": "The Spirit tells Nephi to look. Nephi looks as if to look upon him but does not see him, for he has gone from Nephi’s presence.",
     "characters": [
       "Nephi",
-      "Unknown speaker"
+      "The Spirit"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "An unidentified speaker tells Nephi, “Look!”",
+        "text": "The Spirit tells Nephi, “Look!”",
         "refs": [
           "1 Nephi 11:12"
         ]
@@ -421,17 +425,17 @@
         ]
       },
       {
-        "text": "The speaker had gone from before Nephi’s presence.",
+        "text": "He had gone from before Nephi’s presence.",
         "refs": [
           "1 Nephi 11:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown looking toward where the speaker had been."
+      "Nephi may be shown looking toward where the Spirit had been."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity, appearance, and manner of departure are not specified.",
+      "The Spirit’s appearance and manner of departure are not specified.",
       "The setting is not specified."
     ],
     "spoken_dialogue": [
@@ -440,16 +444,10 @@
         "refs": [
           "1 Nephi 11:12"
         ],
-        "speaker": "Unknown speaker"
+        "speaker": "The Spirit"
       }
     ],
     "narration": [
-      {
-        "text": "And it came to pass that he said unto me:",
-        "refs": [
-          "1 Nephi 11:12"
-        ]
-      },
       {
         "text": "And I looked as if to look upon him, and I saw him not; for he had gone from before my presence.",
         "refs": [
@@ -459,7 +457,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not identify the speaker or depict a specific appearance or manner of departure."
+      "Do not invent the Spirit’s appearance or manner of departure."
     ],
     "importance": "normal"
   },
@@ -876,11 +874,11 @@
   },
   {
     "scene_id": "scene_014",
-    "title": "The Symbols of the Vision",
+    "title": "The Rod, Waters, and Tree",
     "refs": [
       "1 Nephi 11:25"
     ],
-    "summary": "Nephi beholds the rod of iron, the fountain of living waters, and the tree of life, and learns what they represent.",
+    "summary": "Nephi beholds that the rod of iron leads to the fountain of living waters or the tree of life. He beholds what the rod, waters, and tree represent.",
     "characters": [
       "Nephi"
     ],
@@ -889,20 +887,26 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi beholds that the rod of iron, which his father had seen, was the word of God and led to the fountain of living waters or to the tree of life.",
+        "text": "Nephi beholds that the rod of iron, which his father had seen, is the word of God and leads to the fountain of living waters or the tree of life.",
         "refs": [
           "1 Nephi 11:25"
         ]
       },
       {
-        "text": "The waters and the tree of life are each a representation of the love of God.",
+        "text": "The waters represent the love of God.",
+        "refs": [
+          "1 Nephi 11:25"
+        ]
+      },
+      {
+        "text": "Nephi beholds that the tree of life represents the love of God.",
         "refs": [
           "1 Nephi 11:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The rod of iron, fountain of living waters, and tree of life may be visually represented as things Nephi beholds."
+      "The rod of iron, fountain of living waters, and tree of life may be shown as things Nephi beholds."
     ],
     "unspecified_visual_details": [
       "The appearance and arrangement of the rod, fountain, and tree are not specified.",
@@ -911,30 +915,19 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters",
-        "refs": [
-          "1 Nephi 11:25"
-        ]
-      },
-      {
-        "text": "which waters are a representation of the love of God",
-        "refs": [
-          "1 Nephi 11:25"
-        ]
-      },
-      {
-        "text": "the tree of life was a representation of the love of God",
+        "text": "And it came to pass that I beheld that the rod of iron, which my father had seen, was the word of God, which led to the fountain of living waters, or to the tree of life; which waters are a representation of the love of God; and I also beheld that the tree of life was a representation of the love of God.",
         "refs": [
           "1 Nephi 11:25"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse explicitly identifies the rod as the word of God and the waters and tree as representations of God's love."
+      "The verse identifies the rod as the word of God and the waters and tree as representations of the love of God."
     ],
     "prohibited_inventions": [
       "Do not depict the symbolic meanings as literal forces or transformations.",
-      "Do not invent visual details for Nephi, the rod, fountain, tree, or setting."
+      "Do not depict Nephi's father as physically present merely because the verse mentions what he had seen.",
+      "Do not invent a specific appearance or setting."
     ],
     "importance": "normal"
   },
@@ -1044,9 +1037,10 @@
     "refs": [
       "1 Nephi 11:28"
     ],
-    "summary": "He goes forth ministering unto the people. Multitudes gather to hear him. They cast him out from among them.",
+    "summary": "Nephi beholds a man ministering to the people in power and great glory. Multitudes gather to hear him, then cast him out from among them.",
     "characters": [
-      "He",
+      "Nephi",
+      "Unnamed man",
       "Multitudes"
     ],
     "locations": [
@@ -1054,7 +1048,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "He goes forth ministering unto the people, in power and great glory.",
+        "text": "Nephi beholds a man go forth ministering to the people in power and great glory; the verse does not name him.",
         "refs": [
           "1 Nephi 11:28"
         ]
@@ -1073,10 +1067,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The ministering, gathering, and casting out are distinct moments, not simultaneous actions."
+      "The ministering, gathering, and casting out can be shown as successive moments."
     ],
     "unspecified_visual_details": [
-      "The location, particular acts of ministry, and identities of the people are unspecified."
+      "The man's identity, the location, particular acts of ministry, and the manner of his rejection are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -1085,13 +1079,26 @@
         "refs": [
           "1 Nephi 11:28"
         ]
+      },
+      {
+        "text": "and the multitudes were gathered together to hear him;",
+        "refs": [
+          "1 Nephi 11:28"
+        ]
+      },
+      {
+        "text": "and I beheld that they cast him out from among them.",
+        "refs": [
+          "1 Nephi 11:28"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports distinct actions; do not collapse them into a single event."
+      "Nephi is the first-person narrator. This supplied verse does not identify the man by name or title."
     ],
     "prohibited_inventions": [
-      "Do not invent particular teachings, healings, dialogue, or details of the rejection."
+      "Do not identify the man as the Lamb of God using wording absent from the supplied verse.",
+      "Do not invent teachings, healings, dialogue, or details of the rejection."
     ],
     "importance": "normal"
   },
@@ -1222,7 +1229,7 @@
     "refs": [
       "1 Nephi 11:31"
     ],
-    "summary": "The angel tells Nephi to look. Nephi sees the Lamb of God going among the children of men and multitudes afflicted with sickness, diseases, devils, and unclean spirits. The angel shows these things to Nephi. The afflicted are healed by the Lamb’s power, and the devils and unclean spirits are cast out.",
+    "summary": "The angel tells Nephi to look. Nephi sees the Lamb of God going among the children of men and multitudes afflicted with sickness, diseases, devils, and unclean spirits. The angel shows these things to Nephi. The people are healed by the power of the Lamb of God, and the devils and unclean spirits are cast out.",
     "characters": [
       "Nephi",
       "An angel",
@@ -1234,7 +1241,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The angel speaks to Nephi and says, “Look!”",
+        "text": "The angel tells Nephi to look.",
         "refs": [
           "1 Nephi 11:31"
         ]
@@ -1265,11 +1272,11 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamb may be depicted among the multitudes, without specifying the healing’s appearance or mechanism."
+      "The Lamb of God can be shown among the people Nephi sees."
     ],
     "unspecified_visual_details": [
-      "The appearances of the Lamb, angel, people, devils, and unclean spirits are not described.",
-      "The setting, time, and visual manner of the healing and casting out are not described."
+      "The appearances of the Lamb of God, the angel, the people, devils, and unclean spirits are not described.",
+      "The setting and the visible manner of healing and casting out are not described."
     ],
     "spoken_dialogue": [
       {
@@ -1288,13 +1295,13 @@
         ]
       },
       {
-        "text": "And they were healed by the power of the Lamb of God;",
+        "text": "And I beheld multitudes of people who were sick, and who were afflicted with all manner of diseases, and with devils and unclean spirits;",
         "refs": [
           "1 Nephi 11:31"
         ]
       },
       {
-        "text": "and the devils and the unclean spirits were cast out.",
+        "text": "And they were healed by the power of the Lamb of God; and the devils and the unclean spirits were cast out.",
         "refs": [
           "1 Nephi 11:31"
         ]
@@ -1302,7 +1309,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a visible form for devils or unclean spirits, or a mechanism for healing or casting them out."
+      "Do not invent visible forms for devils or unclean spirits, or a mechanism for healing or casting them out."
     ],
     "importance": "normal"
   },
@@ -1380,47 +1387,49 @@
       "1 Nephi 11:34",
       "1 Nephi 11:35"
     ],
-    "summary": "Nephi sees multitudes of the earth gathered to fight against the apostles of the Lamb. He sees them in a large and spacious building, and the angel speaks of the house of Israel gathered against the twelve apostles.",
+    "summary": "After someone was slain, Nephi saw multitudes gathered to fight against the apostles of the Lamb. He saw the multitude in a large and spacious building. The angel of the Lord spoke to him about the gathering.",
     "characters": [
       "Nephi",
       "Angel of the Lord",
-      "Multitudes of the earth"
+      "Multitudes of the earth",
+      "Twelve apostles of the Lamb"
     ],
     "locations": [
       "A large and spacious building"
     ],
     "explicit_facts": [
       {
-        "text": "After the Lamb was slain, Nephi saw multitudes of the earth gathered to fight against the apostles of the Lamb.",
+        "text": "After someone was slain, Nephi saw multitudes of the earth gathered to fight against the apostles of the Lamb.",
         "refs": [
           "1 Nephi 11:34"
         ]
       },
       {
-        "text": "The angel of the Lord explains that the twelve were called the apostles of the Lamb.",
+        "text": "The angel of the Lord called the twelve the apostles of the Lamb.",
         "refs": [
           "1 Nephi 11:34"
         ]
       },
       {
-        "text": "Nephi sees the multitude in a large and spacious building like the building his father saw.",
+        "text": "Nephi saw the multitude in a large and spacious building like the building his father saw.",
         "refs": [
           "1 Nephi 11:35"
         ]
       },
       {
-        "text": "The angel says the house of Israel has gathered together to fight against the twelve apostles of the Lamb.",
+        "text": "The angel of the Lord spoke to Nephi and said the house of Israel had gathered to fight against the twelve apostles of the Lamb.",
         "refs": [
           "1 Nephi 11:35"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The gathered multitude can be shown within a large, spacious building.",
-      "Nephi may be represented as the visionary observer."
+      "The gathered multitude can be shown inside the large and spacious building.",
+      "Nephi can be shown observing the vision while the angel speaks to him."
     ],
     "unspecified_visual_details": [
-      "The building's architectural style, the multitude's appearance, and whether the apostles are visible are unspecified."
+      "The building's architectural style and the multitude's appearance are unspecified.",
+      "The verses do not say whether the apostles are visible in the building."
     ],
     "spoken_dialogue": [
       {
@@ -1428,23 +1437,25 @@
         "refs": [
           "1 Nephi 11:35"
         ],
-        "speaker": "The angel of the Lord"
+        "speaker": "Angel of the Lord"
       }
     ],
     "narration": [
       {
-        "text": "And after he was slain I saw the multitudes of the earth",
+        "text": "And after he was slain I saw the multitudes of the earth, that they were gathered together to fight against the apostles of the Lamb; for thus were the twelve called by the angel of the Lord.",
         "refs": [
           "1 Nephi 11:34"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is a vision reported by Nephi; the text does not state that the apostles are present in the building."
+      "The slaying precedes this vision of the gathering; these verses do not narrate it happening in this scene.",
+      "The verses report a gathering to fight, not a fight taking place."
     ],
     "prohibited_inventions": [
-      "Do not show the Lamb being slain in this scene; it is described as having happened earlier.",
-      "Do not invent the apostles' appearance or depict specific combat."
+      "Do not depict the earlier slaying or invent the slain person's identity from these verses.",
+      "Do not depict combat or place the apostles in the building as a stated fact.",
+      "Do not invent appearances for the angel or apostles."
     ],
     "importance": "normal"
   },
@@ -1454,34 +1465,34 @@
     "refs": [
       "1 Nephi 11:36"
     ],
-    "summary": "Nephi sees the great and spacious building fall. The angel speaks of the destruction of those who fight against the twelve apostles of the Lamb.",
+    "summary": "Nephi sees the great and spacious building fall and bears record of it. The angel of the Lord speaks to him again.",
     "characters": [
       "Nephi",
-      "An angel"
+      "Angel of the Lord"
     ],
     "locations": [
-      "A great and spacious building"
+      "The great and spacious building"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi saw and bore record that the great and spacious building was the pride of the world, and it fell with an exceedingly great fall.",
+        "text": "Nephi saw and bore record that the great and spacious building was the pride of the world and that its fall was exceedingly great.",
         "refs": [
           "1 Nephi 11:36"
         ]
       },
       {
-        "text": "The angel of the Lord spoke to Nephi again and said that all nations, kindreds, tongues, and people who fight against the twelve apostles of the Lamb would be destroyed.",
+        "text": "The angel of the Lord spoke to Nephi again about the destruction of those who fight against the twelve apostles of the Lamb.",
         "refs": [
           "1 Nephi 11:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The building can be depicted falling, without adding a cause or specific surroundings."
+      "The building may be shown falling, without depicting a cause."
     ],
     "unspecified_visual_details": [
-      "The building's architecture, surroundings, and the physical cause of its fall are unspecified.",
-      "The appearance of Nephi and the angel is unspecified."
+      "The building's architecture, surroundings, and cause of its fall are unspecified.",
+      "Nephi's and the angel's appearances are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -1489,29 +1500,24 @@
         "refs": [
           "1 Nephi 11:36"
         ],
-        "speaker": "An angel"
+        "speaker": "Angel of the Lord"
       }
     ],
     "narration": [
       {
-        "text": "the great and spacious building was the pride of the world;",
-        "refs": [
-          "1 Nephi 11:36"
-        ]
-      },
-      {
-        "text": "and it fell, and the fall thereof was exceedingly great.",
+        "text": "And it came to pass that I saw and bear record, that the great and spacious building was the pride of the world; and it fell, and the fall thereof was exceedingly great.",
         "refs": [
           "1 Nephi 11:36"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The building is associated with the pride of the world; the angel's statement is not narrated as a separate visible destruction scene."
+      "The building is identified as the pride of the world. The angel's statement is not a separately narrated visible event."
     ],
     "prohibited_inventions": [
-      "Do not depict the destruction of nations as a separate visible event.",
-      "Do not add people, causes, or collapse details not supplied by the verse."
+      "Do not include the proposed setup quotation; it is not in the supplied verse.",
+      "Do not depict the destruction of nations as a separate event.",
+      "Do not add a cause for the building's fall or people not supplied by the verse."
     ],
     "importance": "normal"
   }

@@ -545,52 +545,68 @@
       "3 Nephi 3:18",
       "3 Nephi 3:19"
     ],
-    "summary": "Lachoneus appoints chief captains over the Nephite armies, with Gidgiddoni as their chief commander. Gidgiddoni is described as a great prophet and chief judge.",
+    "summary": "Lachoneus appoints chief captains over the Nephite armies. Gidgiddoni is appointed their chief commander. Gidgiddoni and the chief judge are described as prophets.",
     "characters": [
       "Lachoneus",
-      "Gidgiddoni"
+      "Gidgiddoni",
+      "chief judge"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Lachoneus appoints chief captains over the Nephite armies to command them when robbers come from the wilderness.",
+        "text": "Lachoneus appoints chief captains over the Nephite armies to command them when robbers come down from the wilderness.",
         "refs": [
           "3 Nephi 3:17"
         ]
       },
       {
-        "text": "Gidgiddoni is appointed the chiefest captain and great commander of the Nephite armies.",
+        "text": "Gidgiddoni is appointed the chiefest among the chief captains and great commander of the Nephite armies.",
         "refs": [
           "3 Nephi 3:18"
         ]
       },
       {
-        "text": "Gidgiddoni is described as a great prophet and as the chief judge.",
+        "text": "The Nephites customarily appoint chief captains who have the spirit of revelation and prophecy, except in times of wickedness.",
+        "refs": [
+          "3 Nephi 3:19"
+        ]
+      },
+      {
+        "text": "Gidgiddoni is a great prophet, as is the chief judge.",
         "refs": [
           "3 Nephi 3:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Lachoneus and Gidgiddoni may be shown at an appointment, with no ceremonial details implied."
+      "Lachoneus and Gidgiddoni may be shown during the appointment, without implying a particular ceremony."
     ],
     "unspecified_visual_details": [
-      "The appointment's exact place, ceremony, and Gidgiddoni's appearance are unspecified."
+      "The appointment's location, proceedings, clothing, and participants' appearances are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his name was Gidgiddoni",
+        "text": "the great commander of the armies of the Nephites was appointed, and his name was Gidgiddoni.",
         "refs": [
           "3 Nephi 3:18"
         ]
+      },
+      {
+        "text": "this Gidgiddoni was a great prophet among them, as also was the chief judge.",
+        "refs": [
+          "3 Nephi 3:19"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The chief judge is also described as a prophet; the verse does not identify Gidgiddoni as the chief judge."
+    ],
     "prohibited_inventions": [
-      "Do not invent a formal ceremony or additional titles."
+      "Do not depict the robbers' arrival as occurring during the appointment.",
+      "Do not invent a formal ceremony, speech, or appearance for the chief judge."
     ],
     "importance": "normal"
   },

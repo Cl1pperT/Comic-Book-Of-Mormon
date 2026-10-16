@@ -344,49 +344,56 @@
       "Mosiah 2:11",
       "Mosiah 2:12"
     ],
-    "summary": "A king says he was chosen by the people and consecrated by his father to rule. He says he has spent his days serving them without seeking riches.",
+    "summary": "King Benjamin says the people chose him, his father consecrated him, and he has served them without seeking riches from them.",
     "characters": [
-      "the king",
+      "King Benjamin",
       "the people he addresses"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says he was chosen by the people and consecrated by his father to be their ruler and king.",
+        "text": "King Benjamin says he was chosen by the people and consecrated by his father to be their ruler and king.",
         "refs": [
           "Mosiah 2:11"
         ]
       },
       {
-        "text": "He says he has spent his days in their service and has not sought riches from them.",
+        "text": "King Benjamin says he has spent his days serving the people and has not sought riches from them.",
         "refs": [
           "Mosiah 2:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The king addresses listeners."
+      "King Benjamin addresses listeners."
     ],
     "unspecified_visual_details": [
       "The setting and the listeners' appearance.",
-      "The particular work the king performed in the past."
+      "The particular work King Benjamin performed during his years of service."
     ],
     "spoken_dialogue": [
+      {
+        "text": "yet I have been chosen by this people, and consecrated by my father, and was suffered by the hand of the Lord that I should be a ruler and a king over this people;",
+        "refs": [
+          "Mosiah 2:11"
+        ],
+        "speaker": "King Benjamin"
+      },
       {
         "text": "and have not sought gold nor silver nor any manner of riches of you;",
         "refs": [
           "Mosiah 2:12"
         ],
-        "speaker": "the king"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The king's preservation by the Lord is his statement, not a described visible event."
+      "Preservation by the Lord is King Benjamin's statement, not a described visible event."
     ],
     "prohibited_inventions": [
-      "Do not name the king, specify a temple or tower, or depict particular past acts of service.",
-      "Do not depict the Lord or the king's father as physically present."
+      "Do not specify a temple or tower or depict particular past acts of service.",
+      "Do not depict the Lord or King Benjamin's father as physically present."
     ],
     "importance": "normal"
   },
@@ -850,15 +857,15 @@
       "Mosiah 2:29",
       "Mosiah 2:30"
     ],
-    "summary": "Mosiah's father addresses the assembled people. He says he can no longer be their teacher or king, that he trembles while speaking, and that the Lord God supports him and commanded him to declare Mosiah king and ruler over them.",
+    "summary": "King Benjamin addresses the assembled people. He says he can no longer be their teacher or king, that he trembles while speaking, and that the Lord God supports him and commanded him to declare his son Mosiah king and ruler over them.",
     "characters": [
-      "Mosiah's father",
+      "King Benjamin",
       "the assembled people"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Mosiah's father says he caused the people to assemble so he could make a declaration.",
+        "text": "King Benjamin says he caused the people to assemble so he could make a declaration.",
         "refs": [
           "Mosiah 2:29"
         ]
@@ -889,7 +896,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Mosiah's father visibly trembles while addressing the assembled people."
+      "King Benjamin visibly trembles while addressing the assembled people."
     ],
     "unspecified_visual_details": [
       "The setting and the people's appearances are not specified.",
@@ -901,30 +908,35 @@
         "refs": [
           "Mosiah 2:29"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "King Benjamin"
       },
       {
-        "text": "but the Lord God doth support me, and hath suffered me that I should speak unto you,",
+        "text": "my whole frame doth tremble exceedingly while attempting to speak unto you;",
         "refs": [
           "Mosiah 2:30"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "King Benjamin"
+      },
+      {
+        "text": "but the Lord God doth support me,",
+        "refs": [
+          "Mosiah 2:30"
+        ],
+        "speaker": "King Benjamin"
       },
       {
         "text": "and hath commanded me that I should declare unto you this day, that my son Mosiah is a king and a ruler over you.",
         "refs": [
           "Mosiah 2:30"
         ],
-        "speaker": "Mosiah's father"
+        "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord God's support and command are reported in speech; no visible appearance is described.",
-      "The speaker is identified as Mosiah's father, but these verses do not give his personal name."
+      "The Lord God's support and command are reported in speech; no visible appearance is described."
     ],
     "prohibited_inventions": [
-      "Do not give Mosiah's father a personal name from outside these verses.",
       "Do not depict Mosiah as physically present.",
       "Do not depict the Lord God as a visible figure.",
       "Do not specify a location."

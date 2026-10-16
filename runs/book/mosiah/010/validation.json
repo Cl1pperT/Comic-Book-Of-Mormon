@@ -1,15 +1,13 @@
 {
-  "stamp": "2ca6d645b828e39045764739819917ee05257b341a6d575355bf96e6dd22d4f9",
+  "stamp": "df8bed2727c4d29897361e3609b7517ae4d7173abf5d281f2b617c6bff3a327a",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Scene presents work across twenty-two years; ensure it is conveyed as a period, not one simultaneous moment."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_003": {
       "status": "PASS",
@@ -36,13 +34,15 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is retrospective, not a present action; the summary and notes correctly preserve that distinction. The narration consists of verbatim excerpts. However, the source only identifies the group as “they”; the label “the people” in the explicit facts is an interpretive identification, and the land of first inheritance is not given a specific location. Keep those details unspecified."
+      ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The man is not identified by name in the supplied verses; retain the generic identification and do not label him Nephi."
+        "Scene combines separate arrival-related timings from verses 14 and 15: the specified scene covers the promised-land arrival in verse 15, but its narration also includes the separate waters event from verse 14. Remove that excerpt or depict it as a distinct earlier time, not part of the arrival scene."
       ]
     },
     "scene_011": {

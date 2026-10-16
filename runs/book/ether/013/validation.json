@@ -1,5 +1,5 @@
 {
-  "stamp": "c80f66ecd4b44de079d3e638c7a0a9bd1b4a3f934bde3236d5424093628c43c0",
+  "stamp": "f335fd522a3b23be86ec74ca05608b5a03002977420bbc55f457ca959d9f56fc",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -20,11 +20,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration fragments are exact excerpts, but their order differs from the source: verse 21's burial excerpt precedes the verse 21 destruction excerpt. Keep the chronology/order consistent with the supplied text.",
-        "The visual inference that Ether may be shown alone is reasonable, but the source does not state he is alone or describe a visible form of the word of the Lord."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",

@@ -5,7 +5,7 @@
     "refs": [
       "Mosiah 27:1"
     ],
-    "summary": "Persecution by unbelievers becomes great; the church complains to its leaders and to Alma. Alma lays the case before King Mosiah, who consults his priests.",
+    "summary": "Persecution by unbelievers becomes great. The church complains to its leaders and to Alma. Alma lays the case before King Mosiah, who consults his priests.",
     "characters": [
       "members of the church",
       "unbelievers",
@@ -33,7 +33,7 @@
     ],
     "reasonable_visual_inferences": [
       "Church members may be shown bringing their complaint to Alma.",
-      "The consultation with the priests is a subsequent action, not part of the complaint to Alma."
+      "Alma's meeting with Mosiah and Mosiah's consultation with his priests occur after the complaint."
     ],
     "unspecified_visual_details": [
       "The settings, clothing, ages, and appearances are not specified."
@@ -41,7 +41,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And Alma laid the case before their king, Mosiah.",
+        "text": "the persecutions which were inflicted on the church by the unbelievers became so great that the church began to murmur, and complain to their leaders concerning the matter; and they did complain to Alma.",
+        "refs": [
+          "Mosiah 27:1"
+        ]
+      },
+      {
+        "text": "And Alma laid the case before their king, Mosiah. And Mosiah consulted with his priests.",
         "refs": [
           "Mosiah 27:1"
         ]
@@ -207,7 +213,7 @@
       "Mosiah 27:9",
       "Mosiah 27:10"
     ],
-    "summary": "Alma, son of Alma, and the sons of Mosiah are numbered among the unbelievers. Alma flatters people, leads many to follow his iniquities, and causes dissension. He goes about secretly with the sons of Mosiah seeking to destroy the church and lead people astray.",
+    "summary": "The sons of Mosiah and Alma, son of Alma, are numbered among the unbelievers. Alma speaks flattery, leads many people to follow his iniquities, and causes dissension. He goes about secretly with the sons of Mosiah seeking to destroy the church and lead people astray.",
     "characters": [
       "Alma, son of Alma",
       "the sons of Mosiah",
@@ -224,9 +230,14 @@
         ]
       },
       {
-        "text": "Alma speaks flattery, leads many people to follow his iniquities, hinders the church, and causes dissension.",
+        "text": "Alma speaks flattery and leads many people to follow his iniquities.",
         "refs": [
-          "Mosiah 27:8",
+          "Mosiah 27:8"
+        ]
+      },
+      {
+        "text": "Alma hinders the church and causes dissension among the people.",
+        "refs": [
           "Mosiah 27:9"
         ]
       },
@@ -246,6 +257,12 @@
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "the sons of Mosiah were numbered among the unbelievers; and also one of the sons of Alma was numbered among them, he being called Alma, after his father",
+        "refs": [
+          "Mosiah 27:8"
+        ]
+      },
+      {
         "text": "he did go about secretly with the sons of Mosiah seeking to destroy the church",
         "refs": [
           "Mosiah 27:10"
@@ -253,7 +270,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verses summarize their opposition; they do not supply a specific conversation or gathering."
+      "These verses summarize their opposition; they do not supply a specific conversation or gathering."
     ],
     "prohibited_inventions": [
       "Do not invent words spoken by Alma or the sons of Mosiah, specific targets of their efforts, or a particular setting."
@@ -750,13 +767,13 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Repentance and being born again",
+    "title": "Alma continues speaking",
     "refs": [
       "Mosiah 27:24",
       "Mosiah 27:25",
       "Mosiah 27:26"
     ],
-    "summary": "Alma says he has repented, been redeemed of the Lord, and been born of the Spirit. He reports the Lord’s teaching about being born again and inheriting the kingdom of God.",
+    "summary": "Continuing his speech, Alma says he has repented, been redeemed, and been born of the Spirit. He recounts what the Lord told him about being born again, then speaks of becoming new creatures.",
     "characters": [
       "Alma the Younger (rebel)"
     ],
@@ -771,25 +788,31 @@
         ]
       },
       {
-        "text": "Alma reports that the Lord told him all mankind must be born again, changed from their carnal and fallen state to righteousness, becoming God's sons and daughters.",
+        "text": "Alma reports that the Lord told him all mankind must be born again.",
         "refs": [
           "Mosiah 27:25"
         ]
       },
       {
-        "text": "The teaching states that they become new creatures and otherwise cannot inherit the kingdom of God.",
+        "text": "The reported teaching describes a change to righteousness and becoming God's sons and daughters.",
+        "refs": [
+          "Mosiah 27:25"
+        ]
+      },
+      {
+        "text": "Alma says they become new creatures and cannot inherit the kingdom of God unless they do this.",
         "refs": [
           "Mosiah 27:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma may be shown speaking."
+      "Alma may be shown continuing to speak."
     ],
     "unspecified_visual_details": [
-      "Alma’s appearance, clothing, posture, and surroundings are unspecified.",
+      "Alma's appearance, clothing, posture, and surroundings are unspecified.",
       "No audience is specified.",
-      "No visible appearance of the Lord or physical manifestation of spiritual rebirth is described."
+      "No appearance of the Lord or visible manifestation of spiritual rebirth is described."
     ],
     "spoken_dialogue": [
       {
@@ -800,21 +823,14 @@
         "speaker": "Alma the Younger (rebel)"
       },
       {
-        "text": "And the Lord said unto me:",
+        "text": "And the Lord said unto me: Marvel not that all mankind, yea, men and women, all nations, kindreds, tongues and people, must be born again;",
         "refs": [
           "Mosiah 27:25"
         ],
         "speaker": "Alma the Younger (rebel)"
       },
       {
-        "text": "must be born again; yea, born of God,",
-        "refs": [
-          "Mosiah 27:25"
-        ],
-        "speaker": "Alma the Younger (rebel)"
-      },
-      {
-        "text": "And thus they become new creatures; and unless they do this, they can in nowise inherit the kingdom of God.",
+        "text": "And thus they become new creatures;",
         "refs": [
           "Mosiah 27:26"
         ],
@@ -823,13 +839,15 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Alma reports the Lord’s words; the passage does not stage a separate encounter with the Lord.",
-      "Being born again and becoming new creatures are spiritual teachings, not narrated visible transformations."
+      "This is a continuation of Alma's speech, not a separate later event.",
+      "Alma reports the Lord's words; the Lord is not presented as speaking in the scene.",
+      "Being born again and becoming new creatures are teachings, not narrated visible transformations."
     ],
     "prohibited_inventions": [
-      "Do not invent an audience or stage a separate encounter with the Lord.",
-      "Do not depict the Lord appearing, a visible supernatural transformation, or the kingdom of God as a visible location.",
-      "Do not stage Alma’s reported repentance or redemption as separate events."
+      "Do not invent a time break or an audience.",
+      "Do not stage a separate encounter with the Lord or depict the Lord appearing.",
+      "Do not depict a visible supernatural transformation or the kingdom of God as a visible location.",
+      "Do not stage Alma's reported repentance or redemption as separate events."
     ],
     "importance": "normal"
   },

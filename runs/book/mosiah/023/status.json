@@ -4,17 +4,21 @@
   "verses": 39,
   "scenes": 17,
   "counts": {
-    "PASS": 15,
+    "PASS": 14,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 0
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 15,
+  "rejected": {
+    "scene_016": [
+      "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator."
+    ]
+  },
+  "calls": 52,
   "tokens": {
-    "input_tokens": 113075,
-    "cached_input_tokens": 63744,
+    "input_tokens": 261940,
+    "cached_input_tokens": 133120,
     "cache_write_input_tokens": 0,
-    "output_tokens": 12307,
-    "reasoning_output_tokens": 2941
+    "output_tokens": 21788,
+    "reasoning_output_tokens": 7299
   }
 }

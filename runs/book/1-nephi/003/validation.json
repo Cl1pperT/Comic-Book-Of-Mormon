@@ -1,5 +1,5 @@
 {
-  "stamp": "425cafe124a4bab1e7c0e44fb01fa3d5ed41924da6bb31f781f0addb576589bc",
+  "stamp": "fb79292204576df0b1daa1cbaa6c329ec65b7d08c54ec1e8b620bc1634dcc9fa",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -28,8 +28,11 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "No source text expressly identifies Laban's emotion as anger beyond stating he was angry; avoid embellishing the portrayal or staging the threat as physical action.",
+        "The following-verse context identifies Nephi as speaker/narrator, but the scene's narration uses verbatim excerpts and remains within the 65-word combined limit. The previous scene's events precede this scene without an apparent chronology conflict."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

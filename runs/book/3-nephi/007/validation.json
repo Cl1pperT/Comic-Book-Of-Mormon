@@ -1,5 +1,5 @@
 {
-  "stamp": "a3d3c54643551d30113a4a1b845698387a0cd2c6dee909d994151408860a9d8f",
+  "stamp": "cc2fe30889654d75f9eb7ea6c610bd497abd058328cc741aa6f91b98b620fb17",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,10 +30,8 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Nephi addressing people is a reasonable visual inference from his going among them to testify; the verses do not specify a speech posture or a particular setting. His prior angelic visit and the voice of the Lord must not be depicted as present events."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",

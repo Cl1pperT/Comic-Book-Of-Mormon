@@ -289,56 +289,77 @@
   },
   {
     "scene_id": "scene_006",
-    "title": "The armies face one another",
+    "title": "Moroni Takes Command",
     "refs": [
       "Alma 43:15",
       "Alma 43:16",
       "Alma 43:17"
     ],
-    "summary": "The Nephites prepare to meet the Lamanites at Jershon. Moroni takes command of their armies at age twenty-five.",
+    "summary": "The Lamanite armies gather in Antionum while the Nephite armies are prepared to meet them in Jershon. Moroni takes command of all the Nephite armies and the government of their wars. He was twenty-five when appointed chief captain.",
     "characters": [
+      "Captain Moroni",
       "Nephite armies",
-      "Lamanite warriors (Enos to Alma era)",
-      "Captain Moroni"
+      "Lamanite armies"
     ],
     "locations": [
+      "Land of Antionum",
       "Land of Jershon"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites gather in Antionum while the Nephite armies prepare to meet them in Jershon.",
+        "text": "The Lamanite armies gather in Antionum, and the Nephite armies are prepared to meet them in Jershon.",
         "refs": [
           "Alma 43:15"
         ]
       },
       {
-        "text": "Moroni is appointed chief captain and takes command of all the Nephite armies at age twenty-five.",
+        "text": "Moroni is the appointed chief captain and takes command of all the Nephite armies and the government of their wars.",
         "refs": [
           "Alma 43:16",
+          "Alma 43:17"
+        ]
+      },
+      {
+        "text": "Moroni was twenty-five years old when appointed chief captain.",
+        "refs": [
           "Alma 43:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni may be shown with the prepared Nephite army."
+      "Moroni may be shown among the prepared Nephite armies in Jershon."
     ],
     "unspecified_visual_details": [
-      "The precise moment and manner of Moroni's appointment."
+      "The armies’ appearance, equipment, and formations.",
+      "The manner and setting of Moroni’s appointment."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his name was Moroni",
+        "text": "the man who had been appointed to be the chief captain over the Nephites",
         "refs": [
           "Alma 43:16"
+        ]
+      },
+      {
+        "text": "and his name was Moroni;",
+        "refs": [
+          "Alma 43:16"
+        ]
+      },
+      {
+        "text": "And he was only twenty and five years old when he was appointed chief captain over the armies of the Nephites.",
+        "refs": [
+          "Alma 43:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Appointment is reported; this scene need not invent an appointment ceremony."
+      "Moroni’s age at appointment is reported; the verses do not depict an appointment ceremony. The armies are described in separate lands, not facing each other in one location."
     ],
     "prohibited_inventions": [
-      "Do not invent a coronation, speech, or additional military rank."
+      "Do not invent an appointment ceremony, speech, battle, or encounter between the armies.",
+      "Do not depict Antionum and Jershon as one location."
     ],
     "importance": "normal"
   },
@@ -670,51 +691,59 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "Lehi's force attacks from the rear",
+    "title": "Lehi's army reaches the Lamanite rear",
     "refs": [
       "Alma 43:34",
       "Alma 43:35",
       "Alma 43:36"
     ],
-    "summary": "The Lamanites pass north of hill Riplah and begin crossing the Sidon. Lehi leads the concealed force around their eastern rear; the Lamanites turn to fight him.",
+    "summary": "The Lamanites pass north of hill Riplah, enter the valley, and begin crossing the river Sidon. Lehi leads a concealed army around their eastern rear. Seeing the Nephites behind them, the Lamanites turn and begin to contend with Lehi's army.",
     "characters": [
-      "Lamanite warriors (Enos to Alma era)",
-      "Nephite armies",
-      "Lehi (Nephite commander)"
+      "Lamanites",
+      "Lehi",
+      "Nephites"
     ],
     "locations": [
-      "River Sidon near hill Riplah"
+      "Hill Riplah",
+      "Valley near hill Riplah",
+      "River Sidon"
     ],
     "explicit_facts": [
       {
-        "text": "The Lamanites come north of hill Riplah, where part of Moroni's army is concealed.",
+        "text": "The Lamanites come up north of the hill, where part of Moroni's army is concealed.",
         "refs": [
           "Alma 43:34"
         ]
       },
       {
-        "text": "As the Lamanites enter the valley and begin crossing the Sidon, Lehi leads the southern concealed force around their eastern rear.",
+        "text": "After passing hill Riplah, the Lamanites enter the valley and begin crossing the river Sidon.",
         "refs": [
           "Alma 43:35"
         ]
       },
       {
-        "text": "The Lamanites see the Nephites behind them, turn, and begin fighting Lehi's force.",
+        "text": "Lehi leads the army concealed south of the hill forth and encircles the Lamanites on the east in their rear.",
+        "refs": [
+          "Alma 43:35"
+        ]
+      },
+      {
+        "text": "The Lamanites see the Nephites behind them, turn, and begin to contend with Lehi's army.",
         "refs": [
           "Alma 43:36"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lamanites can be shown at the river as Lehi's force arrives at their rear."
+      "Some Lamanites may be shown at the river as Lehi's army reaches their rear."
     ],
     "unspecified_visual_details": [
-      "The exact river crossing and troop formations."
+      "The exact troop formations and appearance of the river crossing."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "began to contend with the army of Lehi",
+        "text": "the Lamanites, when they saw the Nephites coming upon them in their rear, turned them about and began to contend with the army of Lehi.",
         "refs": [
           "Alma 43:36"
         ]
@@ -722,7 +751,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict the concealed northern force attacking in this moment."
+      "Do not depict the concealed northern force attacking in this scene.",
+      "Do not add speech, named soldiers, or injuries."
     ],
     "importance": "normal"
   },
@@ -911,39 +941,46 @@
   },
   {
     "scene_id": "scene_017",
-    "title": "The Nephites stand for their families",
+    "title": "The Nephites' cause",
     "refs": [
       "Alma 43:45",
       "Alma 43:46",
       "Alma 43:47"
     ],
-    "summary": "The narration explains that the Nephites fight for homes, families, liberty, worship, and their church, citing the Lord's instruction to defend themselves and their families.",
+    "summary": "The Nephites contend with the Lamanites to defend their families, lands, rights, and religion. Mormon recounts the Lord's instructions concerning defense.",
     "characters": [
-      "Nephite armies"
+      "Nephites",
+      "Lamanites"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Nephites fight for homes, liberty, families, worship, and their church, not monarchy or power.",
+        "text": "The Nephites fight for their homes, liberties, families, rites of worship, and church, not for monarchy or power.",
         "refs": [
           "Alma 43:45"
         ]
       },
       {
-        "text": "The narrator reports the Lord's instruction that they need not let enemies slay them and should defend their families even unto bloodshed.",
+        "text": "The Nephites believe their actions fulfill a duty owed to God; Mormon recounts the Lord's instruction concerning offenses and defense against enemies.",
         "refs": [
-          "Alma 43:46",
+          "Alma 43:46"
+        ]
+      },
+      {
+        "text": "Mormon recounts the Lord's instruction to defend families, and says the Nephites contend with the Lamanites to defend themselves, their families, lands, country, rights, and religion.",
+        "refs": [
           "Alma 43:47"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use off-screen narration over the ongoing battle; no divine figure is described as visible."
+      "Nephites and Lamanites may be shown contending, without adding specific combat actions or injuries.",
+      "The Lord is not shown; his words are reported by Mormon."
     ],
     "unspecified_visual_details": [
-      "Any visible setting beyond the ongoing but unspecified fighting location."
+      "The location and participants' appearances are not specified in these verses."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -954,17 +991,18 @@
         ]
       },
       {
-        "text": "Ye shall defend your families even unto bloodshed.",
+        "text": "And again, the Lord has said that: Ye shall defend your families even unto bloodshed.",
         "refs": [
           "Alma 43:47"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The quoted instruction is reported by the narrator, not presented as a new divine appearance."
+      "The Lord's instruction is a reported quotation, not a newly depicted divine appearance or audible speech."
     ],
     "prohibited_inventions": [
-      "Do not show the Lord appearing or invent family members visibly present in battle."
+      "Do not show the Lord appearing or invent family members present at the fighting.",
+      "Do not depict bloodshed as a separate event merely because it appears in the reported instruction."
     ],
     "importance": "normal"
   },

@@ -163,7 +163,7 @@
     "refs": [
       "Alma 16:5"
     ],
-    "summary": "Zoram and his sons Lehi and Aha go to Alma and seek to know where the Lord would have them go into the wilderness to search for their brethren taken captive by the Lamanites.",
+    "summary": "Zoram and his sons Lehi and Aha go to Alma, seeking to know where the Lord would have them go into the wilderness to search for their brethren taken captive by the Lamanites.",
     "characters": [
       "Zoram",
       "Lehi",
@@ -208,13 +208,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "and his name was Zoram, and he had two sons, Lehi and Aha",
-        "refs": [
-          "Alma 16:5"
-        ]
-      },
-      {
-        "text": "Alma was high priest over the church",
+        "text": "he that had been appointed chief captain over the armies of the Nephites, (and his name was Zoram, and he had two sons, Lehi and Aha)",
         "refs": [
           "Alma 16:5"
         ]
@@ -495,7 +489,7 @@
     "refs": [
       "Alma 16:11"
     ],
-    "summary": "After many days, the dead bodies were heaped on the earth and covered with a shallow covering. Because of the scent, people did not possess the land of Ammonihah for many years. It was called Desolation of Nehors, and the lands remained desolate.",
+    "summary": "After many days, the dead bodies were heaped on the earth and covered shallowly. The scent kept people from possessing the land of Ammonihah for many years. It was called Desolation of Nehors, and the lands remained desolate.",
     "characters": [],
     "locations": [
       "Land of Ammonihah"
@@ -508,7 +502,7 @@
         ]
       },
       {
-        "text": "The scent kept people from possessing the land of Ammonihah for many years.",
+        "text": "Because of the scent, people did not go in to possess the land of Ammonihah for many years.",
         "refs": [
           "Alma 16:11"
         ]
@@ -521,13 +515,20 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "An unoccupied landscape can convey that the lands remained desolate."
+      "Focus on the shallowly covered dead identified in the narration, without showing a separate group of slain Lamanites.",
+      "An unoccupied landscape can suggest the land's desolation."
     ],
     "unspecified_visual_details": [
-      "The appearance of the shallow covering and the exact landscape are unspecified."
+      "The covering's material and the landscape's exact appearance are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "Nevertheless, after many days their dead bodies were heaped up upon the face of the earth, and they were covered with a shallow covering.",
+        "refs": [
+          "Alma 16:11"
+        ]
+      },
       {
         "text": "And it was called Desolation of Nehors; for they were of the profession of Nehor, who were slain; and their lands remained desolate.",
         "refs": [
@@ -536,12 +537,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is an aftermath after many days, not a simultaneous depiction of the deaths and the years of desolation."
+      "Depict the aftermath after many days; the years without possession are not a simultaneous event."
     ],
     "prohibited_inventions": [
-      "Do not depict the deaths as occurring in this scene.",
-      "Do not add identifying names or biographies for the slain.",
-      "Do not show gore."
+      "Do not depict the deaths occurring in this scene.",
+      "Do not add names or biographies for the slain.",
+      "Do not show gore or an identifiable separate group of slain Lamanites."
     ],
     "importance": "normal"
   },

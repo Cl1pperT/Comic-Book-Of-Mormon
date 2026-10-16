@@ -1,5 +1,5 @@
 {
-  "stamp": "a2c4358f3d9d034480688afa60673f90a301b331765b52217da8563f7e9bed80",
+  "stamp": "0eda23f38f7cffe57adc195130b91476161d39b387ca1b0cb8ee1180d71a608b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -36,8 +36,11 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Mormon is a supported narrator/person, but the verses do not specify his physical appearance or setting; keep both unspecified.",
+        "The quotations are exact excerpts from the supplied verses. The summary stays within the narrated facts; Alma's church-establishing is reported as past, not staged."
+      ]
     },
     "scene_010": {
       "status": "PASS",

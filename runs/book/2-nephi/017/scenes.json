@@ -180,27 +180,28 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "A Warning Not to Fear",
+    "title": "An Instruction Not to Fear",
     "refs": [
       "2 Nephi 17:4"
     ],
-    "summary": "An unidentified speaker directs someone to tell another person not to fear the fierce anger of Rezin with Syria and the son of Remaliah.",
-    "characters": [
-      "Rezin",
-      "son of Remaliah",
-      "Unidentified speaker",
-      "Unidentified addressee"
-    ],
+    "summary": "An instruction gives a message for “him”: take heed, be quiet, and do not fear the fierce anger of Rezin with Syria and of the son of Remaliah.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker directs someone to tell another person to take heed, be quiet, and not fear or be faint-hearted.",
+        "text": "The verse opens with the instruction “And say unto him:”.",
         "refs": [
           "2 Nephi 17:4"
         ]
       },
       {
-        "text": "The warning refers to the fierce anger of Rezin with Syria and of the son of Remaliah.",
+        "text": "The prescribed message tells its recipient to take heed, be quiet, and neither fear nor be faint-hearted.",
+        "refs": [
+          "2 Nephi 17:4"
+        ]
+      },
+      {
+        "text": "The message refers to the fierce anger of Rezin with Syria and of the son of Remaliah.",
         "refs": [
           "2 Nephi 17:4"
         ]
@@ -208,26 +209,31 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identities and appearances of the speaker and addressee are not supplied.",
-      "The location is not supplied."
+      "The supplied verse does not identify the speaker issuing the instruction, its immediate addressee, or the person designated as “him.”",
+      "No setting, physical appearances, clothing, or gestures are specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "And say unto him: Take heed, and be quiet; fear not, neither be faint-hearted for the two tails of these smoking firebrands, for the fierce anger of Rezin with Syria, and of the son of Remaliah.",
         "refs": [
           "2 Nephi 17:4"
-        ]
+        ],
+        "speaker": "Unidentified speaker issuing the instruction"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The smoking firebrands are figurative language, not literal objects.",
-      "The verse gives an instruction to speak; it does not narrate the instruction being delivered to its intended recipient."
+      "The quotation is an instruction containing a prescribed message, not a narrated delivery of that message.",
+      "The smoking firebrands are figurative language, not a narrated visible event.",
+      "Rezin and the son of Remaliah are mentioned, not established as physically present.",
+      "Nephi's identification as the first-person narrator does not identify the speaker of this instruction."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or addressee as Isaiah or Ahaz from this verse alone.",
+      "Do not depict the prescribed message being delivered.",
+      "Do not assign identities to the speaker or addressees using material outside the supplied verse.",
       "Do not depict Rezin or the son of Remaliah as present.",
-      "Do not depict literal smoking firebrands."
+      "Do not depict literal smoking firebrands or invent a divine appearance.",
+      "Do not invent a location, confrontation, or reaction."
     ],
     "importance": "normal"
   },
@@ -435,17 +441,15 @@
       "2 Nephi 17:14",
       "2 Nephi 17:15"
     ],
-    "summary": "An unidentified speaker addresses the house of David and asks whether it is a small thing to weary men and whether they will weary his God also. He says the Lord will give a sign: a virgin shall conceive and bear a son named Immanuel, who shall eat butter and honey to know to refuse evil and choose good.",
+    "summary": "An unnamed speaker addresses the house of David, asks whether they will weary his God as well as men, and foretells a sign from the Lord: a virgin will conceive and bear a son named Immanuel, who will eat butter and honey.",
     "characters": [
       "Unidentified speaker",
       "House of David"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "A speaker addresses the house of David and asks whether they will weary his God as well as men.",
+        "text": "An unnamed speaker addresses the house of David and asks whether they will weary his God as well as men.",
         "refs": [
           "2 Nephi 17:13"
         ]
@@ -464,16 +468,16 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be depicted addressing listeners, without identifying any individual listener."
+      "The speaker may be shown addressing listeners, without identifying any individual listener."
     ],
     "unspecified_visual_details": [
-      "The speaker's identity and appearance.",
-      "The listeners' appearances and number.",
-      "The virgin's and son's appearances, and the time and place of the foretold events."
+      "The speaker’s identity and appearance.",
+      "The number and appearance of the listeners.",
+      "The time and place of the foretold events."
     ],
     "spoken_dialogue": [
       {
-        "text": "O house of David; is it a small thing for you to weary men, but will ye weary my God also?",
+        "text": "Hear ye now, O house of David; is it a small thing for you to weary men, but will ye weary my God also?",
         "refs": [
           "2 Nephi 17:13"
         ],
@@ -487,7 +491,7 @@
         "speaker": "Unidentified speaker"
       },
       {
-        "text": "Butter and honey shall he eat, that he may know to refuse the evil and to choose the good.",
+        "text": "Butter and honey shall he eat,",
         "refs": [
           "2 Nephi 17:15"
         ],
@@ -496,13 +500,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker says the Lord will give the sign; the verse does not depict the Lord speaking.",
+      "The supplied verses do not name the speaker. His reference to “my God” does not establish that the Lord is speaking.",
       "The conception, birth, and eating are foretold, not narrated as present events."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker or any listener as Ahaz or Isaiah from these verses alone.",
-      "Do not stage the foretold events as occurring during this address.",
-      "Do not invent appearances, a birthplace, or additional dialogue."
+      "Do not identify the speaker as the Lord, Isaiah, or Ahaz from these verses alone.",
+      "Do not stage the foretold events as occurring during the address.",
+      "Do not invent appearances or additional dialogue."
     ],
     "importance": "normal"
   },

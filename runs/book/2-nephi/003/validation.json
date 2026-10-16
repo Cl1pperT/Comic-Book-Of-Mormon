@@ -1,5 +1,5 @@
 {
-  "stamp": "f00625e5ce67a7e09ef8d119a61c5aa7048bfd7d9f7a95f8536babb934910e54",
+  "stamp": "c00acec2368d0ed1e3e70ea87bada7f7f77c71e927360118f24c3af458bd88be",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -18,8 +18,10 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speaker label “Joseph” is ambiguous: verse 14 identifies the prophet Joseph as reciting this prophecy, while verses 12–13 attribute the words to the Lord. Do not confuse him with Joseph (son of Lehi) or depict him as physically present."
+      ]
     },
     "scene_006": {
       "status": "PASS",

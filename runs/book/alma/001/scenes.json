@@ -125,48 +125,56 @@
       "Alma 1:4",
       "Alma 1:5"
     ],
-    "summary": "Nehor teaches his claims about salvation, and many believe him, support him, and give him money.",
+    "summary": "Nehor testifies to the people about salvation and teaches these things repeatedly. Many believe his words and begin to support him and give him money.",
     "characters": [
       "Nehor",
-      "Nehor's followers"
+      "the people"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nehor taught that all mankind should be saved at the last day and have eternal life, and need not fear or tremble.",
+        "text": "Nehor testified that all mankind should be saved at the last day, need not fear or tremble, and should have eternal life.",
         "refs": [
           "Alma 1:4"
         ]
       },
       {
-        "text": "Many believed Nehor and began to support him and give him money.",
+        "text": "Nehor taught these things so much that many believed his words and began to support him and give him money.",
         "refs": [
           "Alma 1:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor may be shown preaching to listeners who offer him money."
+      "Nehor may be shown addressing listeners.",
+      "The giving of money may be shown after his repeated teaching, rather than as part of a single speech."
     ],
     "unspecified_visual_details": [
-      "The place, audience size, clothing, and manner of giving money."
+      "The location, clothing, number of listeners, and form of the money are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "all men should have eternal life.",
+        "text": "And he also testified unto the people that all mankind should be saved at the last day,",
         "refs": [
           "Alma 1:4"
+        ]
+      },
+      {
+        "text": "many did believe on his words, even so many that they began to support him and give him money.",
+        "refs": [
+          "Alma 1:5"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The salvation claim is Nehor's teaching as reported by the narrator, not an endorsed doctrine."
+      "The salvation claim is Nehor's teaching, not an unqualified statement by the narrator."
     ],
     "prohibited_inventions": [
-      "Do not represent the teaching as a visible miracle or divine event."
+      "Do not depict the teaching as a visible divine event.",
+      "Do not invent direct speech for Nehor."
     ],
     "importance": "normal"
   },
@@ -176,9 +184,9 @@
     "refs": [
       "Alma 1:6"
     ],
-    "summary": "A man grows proud, begins wearing costly apparel, and begins establishing a church after the manner of his preaching.",
+    "summary": "A man begins to be lifted up in pride, to wear very costly apparel, and to establish a church after the manner of his preaching.",
     "characters": [
-      "An unnamed man"
+      "The man referred to as “he”"
     ],
     "locations": [
       "Unspecified location"
@@ -204,25 +212,29 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "His costly apparel may be visible."
+      "Costly apparel may be suggested visually without specifying its materials or design."
     ],
     "unspecified_visual_details": [
-      "The apparel's design, the location, and how the church is established."
+      "The man's appearance, the apparel's design, the location, and the process of establishing the church are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And he began to be lifted up in the pride of his heart,",
+        "text": "And he began to be lifted up in the pride of his heart, and to wear very costly apparel, yea, and even began to establish a church after the manner of his preaching.",
         "refs": [
           "Alma 1:6"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not describe the church as a building or identify the man by name."
+      "Mormon supplies the narration; the verse contains no direct speech.",
+      "The supplied verse does not name the man or identify the church as a building.",
+      "Preserve these developments as narrated summary rather than inventing a discrete church-founding event or making all developments simultaneous."
     ],
     "prohibited_inventions": [
-      "Do not name the man, invent followers or a ceremony, or depict an unspecified church building as established fact."
+      "Do not assign the man a name or invent followers, dialogue, ceremonies, or preaching content.",
+      "Do not depict a church building as an established fact.",
+      "Do not depict being lifted up in pride as literal levitation."
     ],
     "importance": "normal"
   },
@@ -471,42 +483,70 @@
     "refs": [
       "Alma 1:15"
     ],
-    "summary": "Nehor is carried to the top of hill Manti, where he acknowledges between heaven and earth that his teaching was contrary to the word of God, and suffers an ignominious death.",
+    "summary": "Nehor is taken and carried to the top of hill Manti. There he acknowledges that what he taught the people was contrary to the word of God, and he suffers an ignominious death.",
     "characters": [
       "Nehor",
-      "People carrying Nehor"
+      "People who took and carried Nehor"
     ],
     "locations": [
       "Hill Manti"
     ],
     "explicit_facts": [
       {
-        "text": "Nehor was carried to the top of hill Manti and acknowledged that what he had taught was contrary to the word of God; there he suffered an ignominious death.",
+        "text": "They took Nehor and carried him to the top of hill Manti.",
+        "refs": [
+          "Alma 1:15"
+        ]
+      },
+      {
+        "text": "There Nehor acknowledged that what he had taught the people was contrary to the word of God.",
+        "refs": [
+          "Alma 1:15"
+        ]
+      },
+      {
+        "text": "There Nehor suffered an ignominious death.",
         "refs": [
           "Alma 1:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nehor and those carrying him may be shown on the hilltop."
+      "Nehor and the people carrying him may be shown on the hilltop."
     ],
     "unspecified_visual_details": [
-      "The manner of death and the appearance of those carrying him."
+      "The appearance of Nehor and the people carrying him.",
+      "The manner of Nehor's death."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "what he had taught to the people was contrary to the word of God;",
+        "text": "they took him; and his name was Nehor; and they carried him upon the top of the hill Manti,",
+        "refs": [
+          "Alma 1:15"
+        ]
+      },
+      {
+        "text": "there he was caused, or rather did acknowledge, between the heavens and the earth, that what he had taught to the people was contrary to the word of God;",
+        "refs": [
+          "Alma 1:15"
+        ]
+      },
+      {
+        "text": "and there he suffered an ignominious death.",
         "refs": [
           "Alma 1:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The text does not describe the manner of death."
+      "Nehor's acknowledgment is reported, not quoted as spoken dialogue.",
+      "The text does not describe how Nehor died."
     ],
     "prohibited_inventions": [
-      "Do not invent a specific execution method or depict gore."
+      "Do not invent Nehor's spoken words or a specific manner of death.",
+      "Do not depict wounds, blood, or severed body parts.",
+      "Do not interpret “between the heavens and the earth” as a visible supernatural event."
     ],
     "importance": "normal"
   },

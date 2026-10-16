@@ -1,5 +1,5 @@
 {
-  "stamp": "767049aae925051e6d57f8583ad4e7f8a03e30aa75eda964fa61d29d91ab30b7",
+  "stamp": "6f7851fe850c3d1a0255dc4bf2cface298ba6b16a98c782d9ad48fcd5e829f51",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,20 +38,29 @@
       ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The planted tree or branch is in the poorest spot, but the verses do not specify whether the visible tree here is the tree discussed in the preceding scene; the scene should not imply an unsupported identification."
+      ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary's phrase “poorer ground” for the branch in Jacob 5:23 is accurate, but avoid implying the separately described plantings are all visible together; their spatial arrangement is unspecified.",
+        "The servant proposes tending the tree longer, but these actions are proposals, not actions to depict as underway."
+      ]
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary says the Lord is “grieved at the prospect of losing the tree,” which is slightly stronger than the source’s statement that it grieves him that he should lose it; otherwise it accurately summarizes the supplied events.",
+        "Explicit fact about asking what they should do “to preserve good fruit” is supported by verse 33; the source frames this as the Lord’s question, not an action taken.",
+        "The servant’s presence nearby as the Lord addresses him is a reasonable visual inference, but exact positioning is unspecified."
+      ]
     },
     "scene_013": {
       "status": "PASS",
@@ -89,11 +98,8 @@
       "issues": []
     },
     "scene_021": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The unnamed laborers are supported by the servants laboring in Jacob 5:72–74, but their specific appearance and number are unspecified.",
-        "The natural fruit's return and wild branches being removed are explicitly described; visually showing laborers tending trees at that exact moment is an inference, not a narrated task."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_022": {
       "status": "PASS",

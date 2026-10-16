@@ -1,5 +1,5 @@
 {
-  "stamp": "f803bfc510360d9848432238b5922c5d1f0f97e85fe1c611b92e761af958980d",
+  "stamp": "6863c038ca0a825db18dd1d93c54bc3a65038632eeba5926183d09a4df652f47",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary and explicit fact for Alma delivering the judgment-seat and retaining the high priesthood are supported by Alma 4:18, though the narration quotes only verses 16–17. The absent details are consistent with the supplied text; the visual inference of Nephihah seated is directly supported by verse 17."
+      ]
     },
     "scene_009": {
       "status": "PASS",

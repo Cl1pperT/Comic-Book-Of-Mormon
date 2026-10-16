@@ -1,5 +1,5 @@
 {
-  "stamp": "b1058e8ca89613484da30d1971395af3a26a6f172d65333b5c16f034d087a5a1",
+  "stamp": "a7af7b0427247d014e3ec84498da66b87094bb87eb14a7312a04bc1414480549",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -16,8 +16,9 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse identifies only an unresolved “he” as coming to Ripliancum; the scene correctly leaves his identity unspecified, but depicting the encampment requires showing the people referred to by “they.” Their identities and appearance remain unspecified.",
-        "The preceding scene’s summary says Coriantumr flees “again,” which is supported by Ether 15:7; this scene does not incorrectly combine that flight with the later encampment or following-day battle."
+        "The unnamed identity of “he” and “they” is correctly left unresolved; the source context may suggest Coriantumr, but does not name him in verse 8.",
+        "“Two nearby areas beside the waters” is a reasonable inference from the verse, but the exact layout and distance are unspecified.",
+        "Ripliancum’s interpretation is included accurately but is not necessary to depict the scene."
       ]
     },
     "scene_005": {
@@ -79,8 +80,9 @@
     "scene_018": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scenes generally follow the source, and scene_018 does not continue the previous scene’s battle as a present event. However, the quoted narration omits the source’s intervening phrase “(and the hundredth part I have not written)” between “finished his record” and “and he hid them,” so it is not a contiguous exact excerpt. The dialogue and Ether’s final written words are exact quotations.",
-        "The unspecified location and absence of a visible Lord are appropriately cautious; Ether completing and hiding the record is supported. The people of Limhi’s later discovery is mentioned only in summary, not staged."
+        "The scene has no explicit visual scene description or depiction plan, so Ether's appearance, surroundings, and the Lord's presence remain unspecified. Do not infer a visible appearance of the Lord or show Ether's possible translation.",
+        "The quoted dialogue and narration are verbatim excerpts. Ether's last words are written in the source, not necessarily spoken aloud; the scene correctly notes this uncertainty.",
+        "The people of Limhi finding Ether's record is reported as a later event, not part of the hiding moment. The prior scene's chronology does not conflict with this scene. "
       ]
     }
   }

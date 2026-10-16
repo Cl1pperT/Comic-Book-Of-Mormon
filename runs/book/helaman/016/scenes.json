@@ -5,39 +5,47 @@
     "refs": [
       "Helaman 16:1"
     ],
-    "summary": "Those who believe Samuel seek Nephi, confess their sins, and desire baptism.",
+    "summary": "Many heard Samuel speak on the city walls. Those who believed his words sought and found Nephi, confessed their sins to him, and desired baptism unto the Lord.",
     "characters": [
+      "Samuel the Lamanite",
       "Nephi (son of Helaman)",
       "people who believed Samuel"
     ],
     "locations": [
-      "Unspecified location"
+      "city walls",
+      "unspecified location where Nephi was found"
     ],
     "explicit_facts": [
       {
-        "text": "Many hear Samuel speaking on the city wall; those who believe seek and find Nephi.",
+        "text": "Many heard Samuel the Lamanite speak on the city walls.",
         "refs": [
           "Helaman 16:1"
         ]
       },
       {
-        "text": "They confess their sins and desire baptism unto the Lord.",
+        "text": "Those who believed Samuel's words sought and found Nephi.",
+        "refs": [
+          "Helaman 16:1"
+        ]
+      },
+      {
+        "text": "They confessed their sins to Nephi and desired baptism unto the Lord.",
         "refs": [
           "Helaman 16:1"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Believers gather before Nephi to confess and request baptism."
+      "The believers are together with Nephi when they confess to him."
     ],
     "unspecified_visual_details": [
-      "Nephi's appearance and the exact location.",
+      "Nephi's appearance and the location where he was found.",
       "The number and appearance of the believers."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they confessed unto him their sins",
+        "text": "And as many as believed on his word went forth and sought for Nephi; and when they had come forth and found him they confessed unto him their sins and denied not, desiring that they might be baptized unto the Lord.",
         "refs": [
           "Helaman 16:1"
         ]
@@ -45,7 +53,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show baptism occurring; they only desire to be baptized."
+      "Do not show baptism occurring; the verse states only that they desired it.",
+      "Do not invent words for the believers' confession."
     ],
     "importance": "normal"
   },
@@ -471,43 +480,40 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "Conditions continue",
+    "title": "Conditions in the eighty-eighth year",
     "refs": [
       "Helaman 16:11"
     ],
-    "summary": "The record says the conditions also characterize the eighty-eighth year.",
+    "summary": "The stated conditions also prevailed in the eighty-eighth year of the reign of the judges.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The same conditions are present in the eighty-eighth year.",
+        "text": "These conditions also prevailed in the eighty-eighth year of the reign of the judges.",
         "refs": [
           "Helaman 16:11"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A record or year marker may convey the continued conditions."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Specific people, activities, and locations."
+      "What the conditions were",
+      "The people and locations involved"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "these were the conditions also",
+        "text": "And these were the conditions also, in the eighty and eighth year of the reign of the judges.",
         "refs": [
           "Helaman 16:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Chronological summary, not a distinct narrated action."
+      "This is a chronological summary, not a distinct narrated action."
     ],
     "prohibited_inventions": [
-      "Do not invent a specific event."
+      "Do not invent the conditions or depict a specific event."
     ],
     "importance": "normal"
   },

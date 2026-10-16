@@ -1,5 +1,5 @@
 {
-  "stamp": "4ae913e5014ade2d26f0ad0ef59143b866a558d9a86ff8a3cc4558bac4396b36",
+  "stamp": "eda73fd4a53081abf12c7f49eb4d8ceec2235fecc2f7aa9b1aa26a45af11ccbf",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -22,8 +22,12 @@
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verse says “the voice said” in verse 8 and verse 9 says “he said,” but does not explicitly identify the verse 8 voice as the angel. The scene notes this ambiguity; do not show a separate speaker or attribute the voice dialogue to a visibly depicted angel.",
+        "“The surrounding setting” and the angel’s appearance are unspecified; depict neither as though established by the text.",
+        "The previous scene accurately describes a retrospective account, but the present scene should likewise remain a remembered event from young Alma’s youth, not a new present-tense event with Helaman present."
+      ]
     },
     "scene_006": {
       "status": "PASS",

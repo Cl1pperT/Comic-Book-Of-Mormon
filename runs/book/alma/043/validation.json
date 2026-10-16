@@ -1,5 +1,5 @@
 {
-  "stamp": "cca910a9f039e37b8b8704316b38ddd17ffbfcee86db49445edd9a6dd0fa0224",
+  "stamp": "49534c6edfe90482a7e9295eec06b2d2c2d260ad79c0e9517b115965544b2277",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -66,8 +66,12 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotes supplied fragments verbatim; the first is not a complete sentence, but it is a contiguous exact excerpt and is not altered.",
+        "The Lord's reported instruction may be quoted in narration, but should not be staged as a present-tense event or audible speech. The scene correctly says the Lord is not shown.",
+        "Visualizing the Nephites and Lamanites contending is a reasonable inference from verse 47; specific combat actions, participants, and setting remain unspecified. Previous scene's combat is not carried into this scene as a simultaneous event."
+      ]
     },
     "scene_018": {
       "status": "PASS",

@@ -377,73 +377,96 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Words spoken to Nephi",
+    "title": "Promises to Nephi",
     "refs": [
       "Alma 3:14",
       "Alma 3:15",
       "Alma 3:16",
       "Alma 3:17"
     ],
-    "summary": "The narrator quotes promises concerning marks, separation, repentance, mercy, and the seed of Nephi.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The narration recalls God's earlier words to Nephi concerning marks, separation, repentance, mercy, and blessing.",
+    "characters": [
+      "Mormon (narrator, identified by the supplied context)",
+      "The Lord (quoted speaker)",
+      "Nephi (addressed in the recalled words)",
+      "Lamanites (mentioned)"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The narrator says these words were spoken to Nephi and quotes promises concerning the Lamanites, those who mingle with them, those who fight Nephi’s seed, and those who depart from it.",
-        "refs": [
-          "Alma 3:14",
-          "Alma 3:15",
-          "Alma 3:16",
-          "Alma 3:17"
-        ]
-      }
-    ],
-    "reasonable_visual_inferences": [
-      "Use off-screen narration; the quoted address does not describe a visible speaker or setting."
-    ],
-    "unspecified_visual_details": [
-      "Who is visibly speaking, where the words were spoken, and the historical moment."
-    ],
-    "spoken_dialogue": [],
-    "narration": [
-      {
-        "text": "Behold, the Lamanites have I cursed",
+        "text": "The narration declares God's word fulfilled and introduces words God previously said to Nephi.",
         "refs": [
           "Alma 3:14"
         ]
       },
       {
-        "text": "except they repent of their wickedness",
+        "text": "God says he has cursed the Lamanites and will mark them to separate them and their seed from Nephi and his seed, except they repent and turn to him for mercy.",
         "refs": [
           "Alma 3:14"
         ]
       },
       {
-        "text": "I will set a mark upon him that mingleth his seed with thy brethren",
+        "text": "God says he will mark anyone who mingles his seed with Nephi's brethren, that they may be cursed also.",
         "refs": [
           "Alma 3:15"
         ]
       },
       {
-        "text": "I will set a mark upon him that fighteth against thee and thy seed",
+        "text": "God says he will mark anyone who fights against Nephi and his seed.",
         "refs": [
           "Alma 3:16"
         ]
       },
       {
-        "text": "I will bless thee",
+        "text": "One who departs from Nephi will no longer be called his seed; the Lord promises to bless Nephi and those called his seed henceforth and forever.",
+        "refs": [
+          "Alma 3:17"
+        ]
+      }
+    ],
+    "reasonable_visual_inferences": [
+      "A text-only presentation can convey the recalled words without staging an encounter."
+    ],
+    "unspecified_visual_details": [
+      "Typography and background for a text-only presentation.",
+      "The physical appearance of the marks is not specified.",
+      "No setting or physical appearances are described."
+    ],
+    "spoken_dialogue": [
+      {
+        "text": "except they repent of their wickedness and turn to me that I may have mercy upon them.",
+        "refs": [
+          "Alma 3:14"
+        ],
+        "speaker": "The Lord"
+      }
+    ],
+    "narration": [
+      {
+        "text": "Thus the word of God is fulfilled, for these are the words which he said to Nephi:",
+        "refs": [
+          "Alma 3:14"
+        ]
+      },
+      {
+        "text": "and these were the promises of the Lord unto Nephi and to his seed.",
         "refs": [
           "Alma 3:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The chapter presents these as quotations of words spoken to Nephi; it does not narrate their delivery as a present visual event."
+      "The supplied context identifies Mormon as narrator; these verses do not independently name him.",
+      "The Lord is the speaker of the recalled words, not Mormon.",
+      "These are earlier promises, not a newly occurring encounter.",
+      "The repentance-and-mercy exception must remain part of the account."
     ],
     "prohibited_inventions": [
-      "Do not depict God or Nephi as physically present in an invented setting."
+      "Do not stage the earlier promises as a present-time encounter.",
+      "Do not invent a visible appearance for God or place Nephi physically in this presentation.",
+      "Do not assign a color or physical form to the marks.",
+      "Do not depict marking, combat, repentance, or blessing as occurring events.",
+      "Do not add dialogue or treat mentioned descendants as physically present."
     ],
     "importance": "normal"
   },

@@ -790,56 +790,58 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "Invitation to come",
+    "title": "The invitation to repent",
     "refs": [
       "Alma 5:33",
       "Alma 5:34",
       "Alma 5:35",
       "Alma 5:36"
     ],
-    "summary": "Alma reports an invitation to all men to repent, come, and bring forth works of righteousness. He warns that those who do not bring forth good fruit or works of righteousness have cause to wail and mourn.",
+    "summary": "An unnamed figure invites all men to repent and be received, to partake of life freely, and to bring forth works of righteousness. Those who do not bring forth good fruit or do works of righteousness have cause to wail and mourn.",
     "characters": [
-      "Alma",
-      "unnamed inviter",
-      "all men"
+      "Unnamed figure referred to as “he”",
+      "all men (recipients of the invitation)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "An invitation is sent to all men; the arms of mercy are described as extended toward them.",
+        "text": "An unnamed figure sends an invitation to all men; the arms of mercy are described as extended toward them.",
         "refs": [
           "Alma 5:33"
         ]
       },
       {
-        "text": "The invitation calls people to repent and promises to receive them.",
+        "text": "He promises to receive those who repent.",
         "refs": [
           "Alma 5:33"
         ]
       },
       {
-        "text": "The invitation calls people to come and partake of the fruit of the tree of life and of the bread and waters of life freely.",
+        "text": "He invites them to partake freely of the fruit of the tree of life and the bread and waters of life.",
         "refs": [
           "Alma 5:34"
         ]
       },
       {
-        "text": "Those who come and bring forth works of righteousness are promised they will not be hewn down and cast into the fire.",
+        "text": "The invitation calls for works of righteousness and promises that those who comply will not be hewn down and cast into the fire.",
         "refs": [
           "Alma 5:35"
         ]
       },
       {
-        "text": "Those who do not bring forth good fruit or do not do works of righteousness have cause to wail and mourn.",
+        "text": "The time is described as at hand when those who do not bring forth good fruit or do works of righteousness have cause to wail and mourn.",
         "refs": [
           "Alma 5:36"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The reported invitation may be presented as text rather than staged as a new encounter."
+    ],
     "unspecified_visual_details": [
-      "No setting or visible appearance of the inviter is described.",
-      "No tree, fruit, bread, water, fire, or divine arms are narrated as visibly present."
+      "The identity and appearance of the figure referred to as “he” are not supplied.",
+      "No physical setting or appearance of the recipients is described.",
+      "No tree, fruit, bread, waters, fire, or arms are described as visibly present."
     ],
     "spoken_dialogue": [
       {
@@ -847,32 +849,48 @@
         "refs": [
           "Alma 5:33"
         ],
-        "speaker": "unnamed inviter"
+        "speaker": "Unnamed figure referred to as “he”"
       },
       {
-        "text": "Come unto me and ye shall partake of the fruit of the tree of life; yea, ye shall eat and drink of the bread and the waters of life freely;",
+        "text": "Come unto me and ye shall partake of the fruit of the tree of life;",
         "refs": [
           "Alma 5:34"
         ],
-        "speaker": "unnamed inviter"
+        "speaker": "Unnamed figure referred to as “he”"
       },
       {
-        "text": "Yea, come unto me and bring forth works of righteousness, and ye shall not be hewn down and cast into the fire—",
+        "text": "Yea, come unto me and bring forth works of righteousness,",
         "refs": [
           "Alma 5:35"
         ],
-        "speaker": "unnamed inviter"
+        "speaker": "Unnamed figure referred to as “he”"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Behold, he sendeth an invitation unto all men, for the arms of mercy are extended towards them, and he saith:",
+        "refs": [
+          "Alma 5:33"
+        ]
+      },
+      {
+        "text": "the same have cause to wail and mourn.",
+        "refs": [
+          "Alma 5:36"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "Alma reports the invitation; these verses do not narrate the inviter appearing to deliver it.",
-      "The invitation’s imagery and warning are teachings, not narrated visible events."
+      "The supplied verses do not identify “he” as the Lord; preserve that uncertainty.",
+      "The dialogue excerpts are reported speech, not a newly occurring encounter.",
+      "Present the first narration excerpt before the quoted invitation.",
+      "The imagery and warning are teachings, not narrated visible events."
     ],
     "prohibited_inventions": [
-      "Do not identify or depict the unnamed inviter beyond what these verses state.",
-      "Do not invent a location or stage the reported invitation as a new encounter.",
-      "Do not literalize the invitation’s imagery."
+      "Do not identify the unnamed figure as the Lord or another named character.",
+      "Do not invent a visible divine appearance, location, or gathering.",
+      "Do not stage the reported invitation as a new encounter.",
+      "Do not depict the teaching’s imagery or anticipated consequences as literal events occurring in this scene."
     ],
     "importance": "normal"
   },

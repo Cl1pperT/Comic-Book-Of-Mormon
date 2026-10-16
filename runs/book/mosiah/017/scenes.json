@@ -7,7 +7,7 @@
       "Mosiah 17:2",
       "Mosiah 17:3"
     ],
-    "summary": "After Abinadi finishes speaking, the king commands the priests to take him and have him put to death. Alma pleads for Abinadi to be allowed to depart in peace. The king causes Alma to be cast out and sends servants after him to slay him.",
+    "summary": "After Abinadi finishes speaking, the king commands the priests to take him and cause him to be put to death. Alma pleads with the king to let Abinadi depart in peace. The king causes Alma to be cast out and sends servants after him to slay him.",
     "characters": [
       "Abinadi",
       "the king",
@@ -47,6 +47,12 @@
     "spoken_dialogue": [],
     "narration": [
       {
+        "text": "when Abinadi had finished these sayings, that the king commanded that the priests should take him and cause that he should be put to death.",
+        "refs": [
+          "Mosiah 17:1"
+        ]
+      },
+      {
         "text": "there was one among them whose name was Alma,",
         "refs": [
           "Mosiah 17:2"
@@ -59,7 +65,7 @@
         ]
       },
       {
-        "text": "But the king was more wroth,",
+        "text": "and caused that Alma should be cast out from among them, and sent his servants after him",
         "refs": [
           "Mosiah 17:3"
         ]
@@ -156,17 +162,17 @@
         ]
       },
       {
-        "text": "After three days, the king has counseled with his priests and causes Abinadi to be brought before him again.",
+        "text": "After three days and counsel with his priests, the king causes Abinadi to be brought before him again.",
         "refs": [
           "Mosiah 17:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Abinadi's arrest and his later return before the king must be shown as separate moments."
+      "Abinadi's arrest and his return before the king are separate moments."
     ],
     "unspecified_visual_details": [
-      "The guards' appearance, the prison's appearance, and the place where Abinadi is brought before the king are unspecified."
+      "The guards' appearance, the prison's appearance, and the place before the king are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -175,10 +181,16 @@
         "refs": [
           "Mosiah 17:5"
         ]
+      },
+      {
+        "text": "And after three days, having counseled with his priests, he caused that he should again be brought before him.",
+        "refs": [
+          "Mosiah 17:6"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The king's counsel with his priests and Abinadi's return occur after the three-day interval, not during the arrest."
+      "The three-day interval separates Abinadi's imprisonment from his return before the king."
     ],
     "prohibited_inventions": [
       "Do not add dialogue, events during the three days, or details of the counsel with the priests.",
@@ -339,7 +351,7 @@
       "Mosiah 17:11",
       "Mosiah 17:12"
     ],
-    "summary": "King Noah is about to release the man because he fears his word and the judgments of God. The priests accuse that same man of reviling the king. Angered, Noah delivers him up to be slain.",
+    "summary": "King Noah is about to release the man because he fears his word and the judgments of God. The priests accuse the man of reviling the king. Angered, Noah delivers him up to be slain.",
     "characters": [
       "King Noah",
       "the priests",
@@ -356,16 +368,14 @@
         ]
       },
       {
-        "text": "The priests raise their voices against the man King Noah was about to release and accuse him of reviling the king.",
+        "text": "The priests raise their voices against the man and accuse him of reviling the king.",
         "refs": [
-          "Mosiah 17:11",
           "Mosiah 17:12"
         ]
       },
       {
-        "text": "The king becomes angry and delivers that man up to be slain.",
+        "text": "The king becomes angry and delivers the man up to be slain.",
         "refs": [
-          "Mosiah 17:11",
           "Mosiah 17:12"
         ]
       }
@@ -387,7 +397,14 @@
         "speaker": "the priests"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "king Noah was about to release him, for he feared his word;",
+        "refs": [
+          "Mosiah 17:11"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "The supplied verses do not name the man; references to “him” in both verses identify the same person."
     ],

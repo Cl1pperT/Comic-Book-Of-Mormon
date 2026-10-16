@@ -813,7 +813,7 @@
       "1 Nephi 14:19",
       "1 Nephi 14:20"
     ],
-    "summary": "The angel tells Nephi to look. Nephi looks and sees a man dressed in a white robe. The angel identifies the man as one of the twelve apostles of the Lamb.",
+    "summary": "The angel tells Nephi to look. Nephi looks and beholds a man dressed in a white robe. The angel identifies him as one of the twelve apostles of the Lamb.",
     "characters": [
       "Nephi",
       "The angel",
@@ -824,7 +824,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "The angel speaks to Nephi and says, “Look!”",
+        "text": "The angel tells Nephi to look.",
         "refs": [
           "1 Nephi 14:18"
         ]
@@ -836,18 +836,18 @@
         ]
       },
       {
-        "text": "The angel says the man is one of the twelve apostles of the Lamb.",
+        "text": "The angel identifies the man as one of the twelve apostles of the Lamb.",
         "refs": [
           "1 Nephi 14:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi and the angel are present as Nephi beholds the man."
+      "Nephi can see the man when the angel identifies him."
     ],
     "unspecified_visual_details": [
-      "The man's identity beyond being one of the twelve apostles, and his facial features, age, and other clothing.",
-      "The appearance of the angel and the setting."
+      "The man's identity beyond the angel's description, his facial features, age, and other clothing.",
+      "The angel's appearance and the setting."
     ],
     "spoken_dialogue": [
       {
@@ -873,10 +873,12 @@
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Lettering order: the angel's “Look!” comes first, then Nephi's narration introducing the man, then the angel's identification."
+    ],
     "prohibited_inventions": [
-      "Do not depict the man performing any action not described.",
-      "Do not show specified appearance beyond the man's white robe."
+      "Do not depict the man performing an action not described.",
+      "Do not specify an appearance beyond the man's white robe or invent the angel's appearance."
     ],
     "importance": "normal"
   },
@@ -970,61 +972,77 @@
       "1 Nephi 14:25",
       "1 Nephi 14:26"
     ],
-    "summary": "The passage says that the apostle of the Lamb will write many things Nephi has seen and will see. Nephi is not to write what he sees hereafter. Others have written what was shown to them, and their writings are sealed to come forth in the Lord’s due time unto the house of Israel.",
+    "summary": "Nephi is told that the apostle of the Lamb will write many things Nephi has seen, that Nephi will see the remainder, and that Nephi must not write what he sees hereafter. Others have written what was shown to them, and their writings are sealed to come forth in the Lord’s due time unto the house of Israel.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "The angel"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The apostle of the Lamb shall write many things Nephi has seen, and the remainder he shall see.",
+        "text": "The apostle of the Lamb shall write many things Nephi has seen, and Nephi shall see the remainder.",
         "refs": [
           "1 Nephi 14:24"
         ]
       },
       {
-        "text": "Nephi shall not write the things he shall see hereafter; the Lord God ordained the apostle of the Lamb of God to write them.",
+        "text": "Nephi shall not write what he sees hereafter; the Lord God has ordained the apostle of the Lamb of God to write those things.",
         "refs": [
           "1 Nephi 14:25"
         ]
       },
       {
-        "text": "Others who have been shown all things have written them; those writings are sealed up to come forth in their purity, according to the truth in the Lamb, in the Lord’s due time, unto the house of Israel.",
+        "text": "Others have been shown all things and have written them; those writings are sealed to come forth in their purity in the Lord’s due time unto the house of Israel.",
         "refs": [
           "1 Nephi 14:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The passage addresses Nephi, but does not identify the speaker in these verses."
+      "Nephi is being addressed, but these verses give no physical description of the exchange."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance.",
-      "The setting.",
-      "The appearance or physical form of the apostle, other writers, and sealed writings."
+      "The setting and appearances of Nephi and the angel.",
+      "The physical form of the writings."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "And behold, the things which this apostle of the Lamb shall write are many things which thou hast seen;",
         "refs": [
           "1 Nephi 14:24"
-        ]
+        ],
+        "speaker": "The angel"
       },
       {
         "text": "But the things which thou shalt see hereafter thou shalt not write;",
         "refs": [
           "1 Nephi 14:25"
-        ]
+        ],
+        "speaker": "The angel"
+      },
+      {
+        "text": "And also others who have been, to them hath he shown all things, and they have written them;",
+        "refs": [
+          "1 Nephi 14:26"
+        ],
+        "speaker": "The angel"
+      },
+      {
+        "text": "and they are sealed up to come forth in their purity,",
+        "refs": [
+          "1 Nephi 14:26"
+        ],
+        "speaker": "The angel"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "These verses describe seeing, writing, and the due time for sealed writings; they do not narrate those acts occurring now."
+      "The writing and future coming forth are described in speech, not narrated as actions occurring in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict the apostle or other writers as physically present.",
-      "Do not depict sealed records or their contents as visible objects.",
-      "Do not assign the speaker an identity or appearance not given in these verses."
+      "Do not depict the writing or unsealing as occurring now.",
+      "Do not invent the contents or appearance of the sealed writings."
     ],
     "importance": "normal"
   },

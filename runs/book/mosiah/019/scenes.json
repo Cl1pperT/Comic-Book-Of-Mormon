@@ -120,45 +120,55 @@
       "Mosiah 19:5",
       "Mosiah 19:6"
     ],
-    "summary": "Gideon fights the king. As the king is about to be overpowered, he flees to a tower near the temple. Gideon pursues, and the king sees the Lamanite army within Shemlon’s borders.",
+    "summary": "Gideon fights the king. The king flees onto a tower near the temple. Gideon pursues him and is about to climb the tower to slay him when the king looks toward Shemlon and sees the Lamanite army within the borders of the land.",
     "characters": [
       "Gideon",
       "King Noah",
       "the Lamanite army"
     ],
     "locations": [
-      "a tower near the temple"
+      "a tower near the temple",
+      "the borders of the land toward Shemlon"
     ],
     "explicit_facts": [
       {
-        "text": "Gideon fought with the king; when the king saw he was about to be overpowered, he fled and got upon a tower near the temple.",
+        "text": "Gideon fights the king, who flees and gets upon a tower near the temple when he sees he is about to be overpowered.",
         "refs": [
-          "Mosiah 19:5"
+          "Mosiah 19:5",
+          "Mosiah 19:6"
         ]
       },
       {
-        "text": "Gideon pursued the king and was about to get upon the tower to slay him; the king looked toward Shemlon and saw the Lamanite army within the borders of the land.",
+        "text": "Gideon pursues the king and is about to get upon the tower to slay him.",
+        "refs": [
+          "Mosiah 19:6"
+        ]
+      },
+      {
+        "text": "The king looks toward the land of Shemlon and sees the Lamanite army within the borders of the land.",
         "refs": [
           "Mosiah 19:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The tower can be shown near a temple, with the Lamanite army visible in the distant direction of Shemlon."
+      "Gideon can be shown below the tower as he prepares to climb it.",
+      "The army can be shown in the direction the king looks."
     ],
     "unspecified_visual_details": [
-      "The tower and temple’s design and the army’s distance are not stated."
+      "The tower and temple’s designs are not stated.",
+      "The army’s exact distance and appearance are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he fled and ran and got upon the tower which was near the temple",
+        "text": "And it came to pass that he fought with the king; and when the king saw that he was about to overpower him, he fled and ran and got upon the tower which was near the temple.",
         "refs": [
           "Mosiah 19:5"
         ]
       },
       {
-        "text": "the army of the Lamanites were within the borders of the land",
+        "text": "the army of the Lamanites were within the borders of the land.",
         "refs": [
           "Mosiah 19:6"
         ]
@@ -166,25 +176,24 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not show the Lamanites already fighting in this moment."
+      "Do not show the Lamanite army fighting in this moment.",
+      "Do not show Gideon reaching or slaying the king."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_004",
-    "title": "The king begs for his life",
+    "title": "The king begs Gideon to spare him",
     "refs": [
       "Mosiah 19:7",
       "Mosiah 19:8"
     ],
-    "summary": "The king cries out to Gideon to spare him because the Lamanites are upon them. Gideon spares the king’s life.",
+    "summary": "The king cries out in anguish and asks Gideon to spare him, saying the Lamanites are upon them. The king is more concerned for his own life than for his people. Gideon spares his life.",
     "characters": [
       "King Noah",
       "Gideon"
     ],
-    "locations": [
-      "a tower near the temple"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The king cried out in anguish and asked Gideon to spare him, saying the Lamanites were upon them and would destroy them and his people.",
@@ -193,17 +202,18 @@
         ]
       },
       {
-        "text": "The king was more concerned about his own life than his people; Gideon spared his life.",
+        "text": "The king was more concerned about his own life than his people, and Gideon spared his life.",
         "refs": [
           "Mosiah 19:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Gideon can be shown holding back from striking the king."
+      "The king may appear anguished as he cries out.",
+      "Gideon may be close enough to hear the king's plea."
     ],
     "unspecified_visual_details": [
-      "The characters’ expressions and exact postures are not specified."
+      "The exact location, clothing, and postures are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -216,15 +226,18 @@
     ],
     "narration": [
       {
-        "text": "Gideon did spare his life",
+        "text": "Gideon did spare his life.",
         "refs": [
           "Mosiah 19:8"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Present the king's plea before the narration that Gideon spared him."
+    ],
     "prohibited_inventions": [
-      "Do not portray the king’s concern as selfless; the text says he was more concerned about his own life."
+      "Do not portray the king's concern as selfless.",
+      "Do not depict an attempted strike or specify a location not given in these verses."
     ],
     "importance": "normal"
   },
@@ -293,16 +306,14 @@
       "Mosiah 19:11",
       "Mosiah 19:12"
     ],
-    "summary": "The king orders all men to leave their wives and children and flee. Many refuse and choose to stay with their families; the rest leave and flee.",
+    "summary": "The king commands the men to leave their wives and children and flee before the Lamanites. Many refuse to leave; the rest leave their wives and children and flee.",
     "characters": [
       "King Noah",
       "the men",
       "their wives and children",
       "the Lamanites"
     ],
-    "locations": [
-      "wilderness"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "The king commanded all the men to leave their wives and children and flee before the Lamanites.",
@@ -311,36 +322,44 @@
         ]
       },
       {
-        "text": "Many would not leave their families and chose to stay and perish with them; the rest left their wives and children and fled.",
+        "text": "Many would not leave their families and would rather stay and perish with them.",
+        "refs": [
+          "Mosiah 19:12"
+        ]
+      },
+      {
+        "text": "The rest left their wives and children and fled.",
         "refs": [
           "Mosiah 19:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The men’s separation into those who stay and those who flee can be shown at the moment of decision."
+      "Some men can be shown remaining with their wives and children while others leave."
     ],
     "unspecified_visual_details": [
-      "The identities and number of the men in either group are not stated."
+      "The location and the number of men in either group are not stated."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "all the men should leave their wives and their children",
+        "text": "the king commanded them that all the men should leave their wives and their children, and flee before the Lamanites.",
         "refs": [
           "Mosiah 19:11"
         ]
       },
       {
-        "text": "many that would not leave them",
+        "text": "there were many that would not leave them, but had rather stay and perish with them. And the rest left their wives and their children and fled.",
         "refs": [
           "Mosiah 19:12"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The king's command is reported, not quoted as spoken dialogue."
+    ],
     "prohibited_inventions": [
-      "Do not invent dialogue or individual biographies for the men."
+      "Do not invent the king's words, individual biographies, or a specific location."
     ],
     "importance": "normal"
   },
@@ -575,14 +594,14 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "The king dies; the priests flee",
+    "title": "The king dies by fire; the priests flee",
     "refs": [
       "Mosiah 19:20",
       "Mosiah 19:21"
     ],
-    "summary": "The king commands them not to return. Angry with him, they cause his death by fire. They are about to put the priests to death, but the priests flee.",
+    "summary": "The king commands a group not to return. Angry with him, they cause his death by fire. They are about to put the priests to death, but the priests flee.",
     "characters": [
-      "the king",
+      "the king who dies by fire",
       "those commanded by the king",
       "the priests"
     ],
@@ -608,34 +627,43 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The king's death by fire can be shown without gore.",
+      "The king’s death by fire can be depicted without gore.",
       "The priests can be shown fleeing from those who were about to put them to death."
     ],
     "unspecified_visual_details": [
-      "The location, the manner of the death by fire, and the priests' route are not specified."
+      "The location, how the fire was started, and the priests’ route are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were angry with the king",
+        "text": "And the king commanded them that they should not return;",
         "refs": [
           "Mosiah 19:20"
         ]
       },
       {
-        "text": "they fled before them.",
+        "text": "and they were angry with the king, and caused that he should suffer, even unto death by fire.",
+        "refs": [
+          "Mosiah 19:20"
+        ]
+      },
+      {
+        "text": "And they were about to take the priests also and put them to death, and they fled before them.",
         "refs": [
           "Mosiah 19:21"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
-    "prohibited_inventions": [
-      "Do not give the king or the unnamed group names not supplied in these verses.",
-      "Do not portray the priests as killed.",
-      "Do not add wounds, blood, or other details of the death by fire."
+    "doctrinal_or_story_notes": [
+      "The king who gives the command is the king who dies by fire. These verses do not name him."
     ],
-    "importance": "normal"
+    "prohibited_inventions": [
+      "Do not name the king or the unnamed group from information outside these verses.",
+      "Do not portray the priests as killed.",
+      "Do not add wounds, blood, or other unspecified details of the death by fire.",
+      "Do not add a prophecy or its fulfilment."
+    ],
+    "importance": "major"
   },
   {
     "scene_id": "scene_012",

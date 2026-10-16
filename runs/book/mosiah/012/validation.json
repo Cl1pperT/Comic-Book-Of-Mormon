@@ -1,5 +1,5 @@
 {
-  "stamp": "3a8a1e34177f77459116cd2cc7681bfe1e03b39f965cea8843f85b65dd05a28d",
+  "stamp": "d5cee76511b84373234e4df6d7dc0f71c8bf0eda717e38e2cd51cc23848e42a4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -23,8 +23,11 @@
       ]
     },
     "scene_005": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Abinadi “continues” his prophecy, but the supplied verses do not establish continuity from a prior scene; previous scene 004 presents the earlier prophecy, so the chronology is consistent, though “continues” is not explicit.",
+        "The explicit fact that he foretells pestilence repeats scene 004’s Mosiah 12:7, contrary to the instruction not to repeat that phrase; remove or reframe it as context rather than scene content."
+      ]
     },
     "scene_006": {
       "status": "PASS",
@@ -33,7 +36,8 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "King Noah is identified as the addressee by linking the reported “thy life” prophecy in verses 10–12 to verse 3; that identification is contextual rather than explicit in this scene’s cited verses."
+        "The scene’s chronology follows the preceding scene: the people continue addressing the king after bringing the bound man before him. The people are unnamed in these verses, so their presence is supported but their visual appearance is unspecified.",
+        "The stated garment, stalk, and thistle are comparisons in reported speech, not present events; the notes correctly prohibit depicting them literally. The reported prophet and the Lord are not established as present. No location or appearance is specified."
       ]
     },
     "scene_008": {
@@ -61,12 +65,16 @@
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Explicit dialogue and facts match Mosiah 12:21–22. The summary accurately presents the quoted words as words, not present events. Warning: the text does not specify whether the quoting priest is the same individual as in the previous scene; keep the speaker unidentified beyond “one of them.”"
+      ]
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Explicit dialogue and facts match Mosiah 12:23–24; the question mark at the end of the supplied verse is preserved. The summary appropriately describes the words as a quotation, not events occurring in the scene. Warning: the source says “one of them” and does not identify this as the same priest from the preceding verse; use an unspecified priest rather than implying a particular individual."
+      ]
     },
     "scene_016": {
       "status": "PASS",
@@ -81,14 +89,15 @@
       "issues": []
     },
     "scene_019": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The speaker is labeled unidentified, although the preceding scenes identify Abinadi as the speaker in this ongoing exchange; this obscures continuity without asserting a conflicting identity."
-      ]
-    },
-    "scene_020": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_020": {
+      "status": "REJECT",
+      "issues": [
+        "The claim that the narration is Mormon’s is not established by the supplied verses; it assigns an unsupported speaker.",
+        "The listeners’ identities are not wholly unspecified: the preceding scene identifies them as priests, and Mosiah 12:33 continues with “them.”"
+      ]
     },
     "scene_021": {
       "status": "PASS",

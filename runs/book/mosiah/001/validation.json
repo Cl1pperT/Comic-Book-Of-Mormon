@@ -1,5 +1,5 @@
 {
-  "stamp": "8b9a1ea7a5099f4fe556a4a111b1c26f990645e3542ebb3b02f4ba9581df87de",
+  "stamp": "de8d615c7a0ff388cfefef3c271539d568995440d5c3ccb2ba1e4b40bbfbfbbc",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -36,8 +36,10 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verses do not specify the location or appearances, or say the listed objects were physically present or handed over; keep these details unspecified. The wilderness journey is retrospective, not part of the charge."
+      ]
     },
     "scene_010": {
       "status": "PASS",

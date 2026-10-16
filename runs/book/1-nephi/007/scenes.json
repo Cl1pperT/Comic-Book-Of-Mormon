@@ -6,7 +6,7 @@
       "1 Nephi 7:1",
       "1 Nephi 7:2"
     ],
-    "summary": "After Lehi finished prophesying concerning his seed, the Lord spoke to him again and commanded that Nephi and his brothers return to the land of Jerusalem and bring Ishmael and his family into the wilderness.",
+    "summary": "After Lehi finished prophesying concerning his seed, the Lord spoke to him again. The Lord said Lehi should not take his family into the wilderness alone and commanded Nephi and his brothers to return to Jerusalem and bring Ishmael and his family into the wilderness.",
     "characters": [
       "Lehi"
     ],
@@ -42,7 +42,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "the Lord spake unto him again",
+        "text": "after my father, Lehi, had made an end of prophesying concerning his seed, it came to pass that the Lord spake unto him again",
         "refs": [
           "1 Nephi 7:1"
         ]
@@ -823,7 +823,7 @@
     "refs": [
       "1 Nephi 7:22"
     ],
-    "summary": "Nephi, his brethren, and all the house of Ishmael came down to the tent of Nephi’s father. They gave thanks to the Lord their God and offered sacrifice and burnt offerings unto him.",
+    "summary": "Nephi, his brethren, and all the house of Ishmael came down to the tent of Nephi’s father. They gave thanks to the Lord their God and offered sacrifice and burnt offerings to him.",
     "characters": [
       "Nephi",
       "Nephi’s brethren",
@@ -840,29 +840,29 @@
         ]
       },
       {
-        "text": "They gave thanks unto the Lord their God and offered sacrifice and burnt offerings unto him.",
+        "text": "After they arrived, they gave thanks unto the Lord their God.",
+        "refs": [
+          "1 Nephi 7:22"
+        ]
+      },
+      {
+        "text": "They offered sacrifice and burnt offerings unto him.",
         "refs": [
           "1 Nephi 7:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The group is gathered at the tent after arriving."
+      "The group is at the tent after arriving."
     ],
     "unspecified_visual_details": [
-      "The appearances of the people and the tent are not described.",
+      "The appearances of the people and tent are not described.",
       "The form of the sacrifice and burnt offerings is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I and my brethren and all the house of Ishmael had come down unto the tent of my father, they did give thanks unto the Lord their God;",
-        "refs": [
-          "1 Nephi 7:22"
-        ]
-      },
-      {
-        "text": "and they did offer sacrifice and burnt offerings unto him.",
+        "text": "And after I and my brethren and all the house of Ishmael had come down unto the tent of my father, they did give thanks unto the Lord their God; and they did offer sacrifice and burnt offerings unto him.",
         "refs": [
           "1 Nephi 7:22"
         ]

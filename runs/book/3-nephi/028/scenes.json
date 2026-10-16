@@ -362,38 +362,46 @@
     "refs": [
       "3 Nephi 28:12"
     ],
-    "summary": "Jesus touches every disciple except the three who are to tarry, then departs.",
+    "summary": "After speaking, Jesus touches each of them with his finger except the three who are to tarry, then departs.",
     "characters": [
       "Jesus Christ (at Bountiful)",
-      "The twelve Nephite disciples"
+      "Those touched by Jesus",
+      "The three who were to tarry"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Jesus touches every disciple except the three who are to tarry, then departs.",
+        "text": "Jesus had spoken before touching them.",
+        "refs": [
+          "3 Nephi 28:12"
+        ]
+      },
+      {
+        "text": "Jesus touched every one of them with his finger except the three who were to tarry.",
+        "refs": [
+          "3 Nephi 28:12"
+        ]
+      },
+      {
+        "text": "Jesus then departed.",
         "refs": [
           "3 Nephi 28:12"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The disciples are present as Jesus touches them in turn."
+      "The people Jesus touches are present with him."
     ],
     "unspecified_visual_details": [
-      "The manner of Jesus's departure and the disciples' reactions are not specified."
+      "The manner and direction of Jesus's departure are not specified.",
+      "The people's reactions are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he touched every one of them with his finger",
-        "refs": [
-          "3 Nephi 28:12"
-        ]
-      },
-      {
-        "text": "and then he departed.",
+        "text": "he touched every one of them with his finger save it were the three who were to tarry, and then he departed.",
         "refs": [
           "3 Nephi 28:12"
         ]
@@ -401,6 +409,8 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
+      "Do not invent the words Jesus spoke before touching them.",
+      "Do not depict Jesus touching the three who were to tarry.",
       "Do not invent a particular means or direction of departure."
     ],
     "importance": "normal"
@@ -413,38 +423,40 @@
       "3 Nephi 28:14",
       "3 Nephi 28:15"
     ],
-    "summary": "The heavens open, and the three are caught up into heaven, where they see and hear unspeakable things that they are forbidden and unable to utter. They cannot tell whether they are in or out of the body; it seems to them like a transfiguration.",
+    "summary": "The heavens open, and the three disciples are caught up into heaven. They see and hear unspeakable things but are forbidden and unable to utter them. They cannot tell whether they are in or out of the body; the experience seems to them like a transfiguration.",
     "characters": [
-      "The twelve Nephite disciples"
+      "The three disciples"
     ],
     "locations": [
-      "the heavens"
+      "heaven"
     ],
     "explicit_facts": [
       {
-        "text": "The heavens open and the three are caught up into heaven, where they see and hear unspeakable things.",
+        "text": "The heavens open, and they are caught up into heaven, where they see and hear unspeakable things.",
         "refs": [
           "3 Nephi 28:13"
         ]
       },
       {
-        "text": "They are forbidden to utter what they see and hear and are not given power to do so.",
+        "text": "They are forbidden to utter what they saw and heard and are not given power to do so.",
         "refs": [
           "3 Nephi 28:14"
         ]
       },
       {
-        "text": "They cannot tell whether they are in or out of the body; it seems to them like a transfiguration that changes them from flesh to an immortal state so they can behold the things of God.",
+        "text": "They cannot tell whether they are in or out of the body. It seems to them that they are changed from a body of flesh into an immortal state, enabling them to behold the things of God.",
         "refs": [
           "3 Nephi 28:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The three are the disciples identified as those who are to tarry."
+      "The three disciples can be shown rising as they are caught up into heaven."
     ],
     "unspecified_visual_details": [
-      "The unspeakable things they see and hear are not described; their visual appearance during this experience is unspecified."
+      "The disciples' physical appearance is unspecified.",
+      "The things they see and hear are unspecified.",
+      "Whether they are in or out of the body is unknown."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -468,10 +480,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Do not invent imagery for the unspeakable things or treat the uncertain bodily state as a described visible transformation."
+      "Present the transfiguration as their perception, not as a confirmed visible bodily transformation."
     ],
     "prohibited_inventions": [
-      "Do not show specific heavenly beings, places, or events not described."
+      "Do not show twelve disciples; only the three are caught up.",
+      "Do not depict specific beings, sights, or events among the unspeakable things.",
+      "Do not assign a definite bodily state to the disciples."
     ],
     "importance": "normal"
   },

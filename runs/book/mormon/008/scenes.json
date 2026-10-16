@@ -343,45 +343,49 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "The Disciples Ministered to Moroni and Mormon",
+    "title": "Moroni Recalls Seeing Those Who Ministered",
     "refs": [
       "Mormon 8:11"
     ],
-    "summary": "Moroni says that he and his father saw the disciples, who ministered to them.",
+    "summary": "Moroni and his father saw those who ministered to them.",
     "characters": [
       "Moroni",
       "Mormon",
-      "The disciples of Jesus"
+      "Unidentified individuals"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Moroni and his father saw the disciples, and the disciples ministered to them.",
+        "text": "Moroni and his father saw those Moroni calls “them.”",
+        "refs": [
+          "Mormon 8:11"
+        ]
+      },
+      {
+        "text": "Those individuals ministered to Moroni and his father.",
         "refs": [
           "Mormon 8:11"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The disciples ministering to Moroni and Mormon."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "When and where this occurred, the disciples’ number and appearance, and what their ministry involved."
+      "The identity and number of those who ministered, their appearance, the time and place, and what their ministry involved."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "my father and I have seen them, and they have ministered unto us.",
+        "text": "But behold, my father and I have seen them, and they have ministered unto us.",
         "refs": [
           "Mormon 8:11"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied verse does not identify the antecedent of “them”; the encounter is recalled, not narrated as a present event."
+    ],
     "prohibited_inventions": [
-      "Do not invent what the disciples said or did as part of their ministry."
+      "Do not identify those who ministered from an unsupplied verse or invent what they said or did."
     ],
     "importance": "normal"
   },

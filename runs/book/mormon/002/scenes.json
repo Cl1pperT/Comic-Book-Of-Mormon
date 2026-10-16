@@ -367,25 +367,25 @@
     "refs": [
       "Mormon 2:9"
     ],
-    "summary": "Aaron, king of the Lamanites, comes with an army of forty-four thousand. Mormon withstands him with forty-two thousand, defeats him, and Aaron flees.",
+    "summary": "Aaron, king of the Lamanites, comes against Mormon and his people with forty-four thousand. Mormon withstands him with forty-two thousand, defeats him with his army, and Aaron flees. Three hundred and thirty years had passed.",
     "characters": [
-      "Mormon (young)",
-      "Aaron (Lamanite king)",
-      "Nephite army",
-      "Lamanite army"
+      "Mormon",
+      "Aaron",
+      "Mormon's army",
+      "Aaron's army"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Aaron was king of the Lamanites and came against Mormon with forty-four thousand.",
+        "text": "Aaron was king of the Lamanites and came against Mormon and his people with an army of forty-four thousand.",
         "refs": [
           "Mormon 2:9"
         ]
       },
       {
-        "text": "Mormon withstood him with forty-two thousand, defeated him, and Aaron fled.",
+        "text": "Mormon withstood Aaron with forty-two thousand, defeated him with his army, and Aaron fled.",
         "refs": [
           "Mormon 2:9"
         ]
@@ -398,23 +398,43 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Show the armies in conflict and Aaron fleeing after his defeat."
+      "The two armies can be shown in conflict, followed by Aaron fleeing."
     ],
     "unspecified_visual_details": [
-      "The exact battlefield, tactics, clothing, and appearance of Aaron."
+      "The battlefield, clothing, weapons, tactics, and appearances are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I beat him with my army that he fled before me",
+        "text": "And now, the Lamanites had a king, and his name was Aaron;",
+        "refs": [
+          "Mormon 2:9"
+        ]
+      },
+      {
+        "text": "and he came against us with an army of forty and four thousand.",
+        "refs": [
+          "Mormon 2:9"
+        ]
+      },
+      {
+        "text": "And behold, I withstood him with forty and two thousand.",
+        "refs": [
+          "Mormon 2:9"
+        ]
+      },
+      {
+        "text": "And it came to pass that I beat him with my army that he fled before me.",
         "refs": [
           "Mormon 2:9"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Mormon."
+    ],
     "prohibited_inventions": [
-      "Do not invent a personal duel or specific combat details."
+      "Do not invent a personal duel, specific combat details, injuries, or the armies' appearances."
     ],
     "importance": "normal"
   },

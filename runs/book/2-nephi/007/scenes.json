@@ -1,25 +1,30 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Lord’s question",
+    "title": "The Lord’s questions",
     "refs": [
       "2 Nephi 7:1"
     ],
-    "summary": "Nephi introduces the Lord’s words. The Lord asks whether he has put his addressees away or cast them off forever, and says they sold themselves for their iniquities.",
+    "summary": "The Lord asks whether he has put his addressees away, asks about their mother’s divorcement, and says they sold themselves for their iniquities.",
     "characters": [
-      "Nephi",
       "The Lord"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi introduces these words as the Lord’s speech.",
+        "text": "The words are introduced as the Lord’s speech.",
         "refs": [
           "2 Nephi 7:1"
         ]
       },
       {
         "text": "The Lord asks whether he has put his addressees away or cast them off forever.",
+        "refs": [
+          "2 Nephi 7:1"
+        ]
+      },
+      {
+        "text": "The Lord asks where the bill of their mother’s divorcement is and whether he has sold them to a creditor.",
         "refs": [
           "2 Nephi 7:1"
         ]
@@ -32,14 +37,21 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lord’s words can be presented without depicting his appearance."
+      "The Lord’s words can be presented as text or voice without depicting his appearance."
     ],
     "unspecified_visual_details": [
-      "No setting or appearance is specified for Nephi or the Lord."
+      "No setting, visible speaker, or appearance is specified."
     ],
     "spoken_dialogue": [
       {
         "text": "Have I put thee away, or have I cast thee off forever?",
+        "refs": [
+          "2 Nephi 7:1"
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "Where is the bill of your mother’s divorcement?",
         "refs": [
           "2 Nephi 7:1"
         ],
@@ -62,10 +74,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The divorce and sale language is part of the Lord’s address, not a narrated transaction."
+      "The divorce, creditor, and sale language belongs to the Lord’s address; the verse does not narrate a visible transaction."
     ],
     "prohibited_inventions": [
-      "Do not depict a literal divorce, sale, creditor transaction, or visible appearance of the Lord."
+      "Do not depict a literal divorce, sale, creditor transaction, or an unspecified appearance of the Lord.",
+      "Do not depict Nephi, Jacob, or Isaiah as physically present on the basis of this verse alone."
     ],
     "importance": "normal"
   },
@@ -75,78 +88,83 @@
     "refs": [
       "2 Nephi 7:2"
     ],
-    "summary": "The speaker says there was no one present when he came and no one answered when he called; he asks about the Lord’s power to redeem and deliver.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "The Lord says that no man was there when he came and no one answered when he called. He addresses the house of Israel about his power to redeem and deliver, and describes what happens at his rebuke.",
+    "characters": [
+      "The Lord"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says that when he came there was no man, and when he called none answered.",
+        "text": "The speaker says that when he came, there was no man, and when he called, no one answered.",
         "refs": [
           "2 Nephi 7:2"
         ]
       },
       {
-        "text": "The Lord asks whether his hand is shortened or he lacks power to deliver.",
+        "text": "The Lord addresses the house of Israel and asks whether he lacks power to redeem or deliver.",
+        "refs": [
+          "2 Nephi 7:2"
+        ]
+      },
+      {
+        "text": "The Lord says that at his rebuke he dries up the sea and makes rivers a wilderness; the fish die because the waters dry up.",
         "refs": [
           "2 Nephi 7:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The questions may be shown as off-screen speech over an unspecified setting."
+      "The Lord's words can be heard without depicting him visibly."
     ],
     "unspecified_visual_details": [
-      "The speaker’s identity and appearance, and the setting, are not described."
+      "The Lord's appearance and the physical setting are not described."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "when I came, there was no man; when I called, yea, there was none to answer.",
+        "text": "Wherefore, when I came, there was no man; when I called, yea, there was none to answer. O house of Israel, is my hand shortened at all that it cannot redeem, or have I no power to deliver?",
         "refs": [
           "2 Nephi 7:2"
-        ]
-      },
-      {
-        "text": "is my hand shortened at all that it cannot redeem",
-        "refs": [
-          "2 Nephi 7:2"
-        ]
+        ],
+        "speaker": "The Lord"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord’s rhetorical questions are not a narrated visible appearance."
+      "The rebuke and its effects are described in speech, not narrated as a visible event in this verse."
     ],
     "prohibited_inventions": [
-      "Do not depict an unmentioned visible divine figure or named listener."
+      "Do not depict an unmentioned visible appearance of the Lord or a physically present audience.",
+      "Do not stage the described drying of the sea and rivers as a separate event."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "A declaration to the house of Israel",
+    "title": "The Lord addresses the house of Israel",
     "refs": [
       "2 Nephi 7:2"
     ],
-    "summary": "The speaker recounts finding no one when he came and receiving no answer when he called. He addresses the house of Israel and declares his power to redeem and deliver, describing what happens to the sea, rivers, and fish at his rebuke.",
-    "characters": [],
+    "summary": "The Lord says that no man was present when he came and no one answered when he called. He addresses the house of Israel, asks about his power to redeem and deliver, and declares that at his rebuke he dries up the sea and rivers, leaving fish to die of thirst.",
+    "characters": [
+      "The Lord",
+      "House of Israel"
+    ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker says that no man was there when he came and that none answered when he called.",
+        "text": "The Lord says there was no man when he came and none answered when he called.",
         "refs": [
           "2 Nephi 7:2"
         ]
       },
       {
-        "text": "The speaker addresses the house of Israel and asks whether his hand cannot redeem or he lacks power to deliver.",
+        "text": "The Lord addresses the house of Israel and asks whether he can redeem and deliver.",
         "refs": [
           "2 Nephi 7:2"
         ]
       },
       {
-        "text": "The speaker declares that at his rebuke he dries up the sea and makes rivers a wilderness; he says the fish stink and die because the waters are dried up.",
+        "text": "The Lord declares that at his rebuke he dries up the sea and makes rivers a wilderness; he says the fish stink and die because the waters dry up.",
         "refs": [
           "2 Nephi 7:2"
         ]
@@ -154,30 +172,40 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The speaker’s appearance, location, and the time of the recounted coming and calling are not specified.",
+      "The Lord's appearance and location are not specified.",
       "No particular sea or river is identified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Wherefore, when I came, there was no man; when I called, yea, there was none to answer.",
         "refs": [
           "2 Nephi 7:2"
-        ]
+        ],
+        "speaker": "The Lord"
       },
       {
         "text": "O house of Israel, is my hand shortened at all that it cannot redeem, or have I no power to deliver?",
         "refs": [
           "2 Nephi 7:2"
-        ]
+        ],
+        "speaker": "The Lord"
+      },
+      {
+        "text": "Behold, at my rebuke I dry up the sea,",
+        "refs": [
+          "2 Nephi 7:2"
+        ],
+        "speaker": "The Lord"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The drying of the sea and rivers is presented as a declaration of power, not as a particular event narrated in this verse."
+      "The preceding scene identifies this continuous address as the Lord's speech.",
+      "The drying of the sea and rivers is a declaration, not an event narrated as happening in this verse."
     ],
     "prohibited_inventions": [
-      "Do not depict the sea or rivers drying, dead fish, or witnesses as a present-tense event.",
-      "Do not invent a visible appearance for the speaker or a specific setting."
+      "Do not depict the sea or rivers drying or fish dying as a present-tense event.",
+      "Do not invent a visible appearance or setting for the Lord."
     ],
     "importance": "normal"
   },
@@ -187,12 +215,12 @@
     "refs": [
       "2 Nephi 7:3"
     ],
-    "summary": "A first-person speaker describes clothing the heavens with blackness and making sackcloth their covering.",
+    "summary": "A first-person declaration describes clothing the heavens with blackness and making sackcloth their covering.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The verse uses blackness and sackcloth as coverings for the heavens.",
+        "text": "The verse describes blackness and sackcloth as coverings for the heavens.",
         "refs": [
           "2 Nephi 7:3"
         ]
@@ -212,11 +240,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The clothing and covering language is figurative, not a narrated visible event."
+      "The covering language is figurative, not a narrated visible event.",
+      "The requested words from verse 4 cannot be added because only verse 3 was supplied."
     ],
     "prohibited_inventions": [
       "Do not depict a sky darkening or literal sackcloth covering it.",
-      "Do not assign an identity or appearance to the speaker."
+      "Do not add words from unsupplied verses or invent a visible speaker."
     ],
     "importance": "normal"
   },

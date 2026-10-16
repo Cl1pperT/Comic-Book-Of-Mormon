@@ -376,20 +376,20 @@
       "Ether 12:17",
       "Ether 12:18"
     ],
-    "summary": "Moroni says the three disciples received a promise that they would not taste of death after they had faith, and that people first believed in the Son of God before miracles were wrought.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "Moroni reports that the three disciples obtained a promise that they would not taste of death after their faith. He teaches that miracles were wrought only after faith and that people first believed in the Son of God.",
+    "characters": [
+      "Moroni (son of Mormon)"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The three disciples obtained a promise that they should not taste of death, after their faith.",
+        "text": "The three disciples obtained a promise that they should not taste of death, but not until after their faith.",
         "refs": [
           "Ether 12:17"
         ]
       },
       {
-        "text": "Moroni says miracles were not wrought until after faith, and that people first believed in the Son of God.",
+        "text": "Miracles were not wrought until after faith; people first believed in the Son of God.",
         "refs": [
           "Ether 12:18"
         ]
@@ -397,22 +397,29 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The identities of the three disciples in this account and where they were when they received the promise."
+      "The disciples’ identities and location are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they should not taste of death",
+        "text": "And it was by faith that the three disciples obtained a promise that they should not taste of death; and they obtained not the promise until after their faith.",
         "refs": [
           "Ether 12:17"
+        ]
+      },
+      {
+        "text": "And neither at any time hath any wrought miracles until after their faith; wherefore they first believed in the Son of God.",
+        "refs": [
+          "Ether 12:18"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "This is Moroni’s report and teaching, not a new scene showing the disciples."
+      "Moroni reports the disciples’ promise and teaches about faith; neither verse narrates a visible event occurring in the present scene."
     ],
     "prohibited_inventions": [
-      "Do not depict the disciples or a visible promise as present."
+      "Do not depict the disciples receiving the promise or a miracle occurring in a new present-tense scene.",
+      "Do not invent the disciples’ identities, a location, or an appearance of the Son of God."
     ],
     "importance": "normal"
   },
@@ -422,37 +429,48 @@
     "refs": [
       "Ether 12:19"
     ],
-    "summary": "Moroni describes people whose strong faith allowed them to see with their eyes what they had beheld by faith, and who were glad.",
-    "characters": [],
+    "summary": "Moroni describes many people before Christ came whose exceedingly strong faith allowed them to see with their eyes things they had beheld with an eye of faith. They were glad.",
+    "characters": [
+      "Many unnamed people"
+    ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Many people before Christ came had exceedingly strong faith and saw with their eyes things they had beheld with an eye of faith; they were glad.",
+        "text": "Many people before Christ came had exceedingly strong faith.",
+        "refs": [
+          "Ether 12:19"
+        ]
+      },
+      {
+        "text": "They saw with their eyes things they had beheld with an eye of faith, and they were glad.",
         "refs": [
           "Ether 12:19"
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "The people's gladness could be conveyed through their expressions."
+    ],
     "unspecified_visual_details": [
-      "The people, what they saw, and the setting."
+      "The people's appearances, what they saw, and the setting are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they were glad",
+        "text": "And there were many whose faith was so exceedingly strong, even before Christ came, who could not be kept from within the veil, but truly saw with their eyes the things which they had beheld with an eye of faith, and they were glad.",
         "refs": [
           "Ether 12:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse does not identify the things seen or describe their appearance."
+      "“Within the veil” and “an eye of faith” should not be turned into invented visible objects or supernatural events."
     ],
     "prohibited_inventions": [
-      "Do not invent visions, people, or visible objects."
+      "Do not invent what the people saw or depict a literal veil.",
+      "Do not depict Christ as appearing in this scene."
     ],
     "importance": "normal"
   },

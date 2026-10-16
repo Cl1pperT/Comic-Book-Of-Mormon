@@ -1,5 +1,5 @@
 {
-  "stamp": "61e1f0ab047b37dbe730a0cab2d0cb4381e7e11c5281d04d557dd1252125438e",
+  "stamp": "d4335ee458511c2991f430fe5cf02137f6d6f315ec0843a6cf8bbd1b8c410357",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -44,20 +44,27 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene correctly treats the events as future warnings, not a present encounter. However, its narration is source quotation and its dialogue uses separate exact excerpts that omit the source’s intervening wording and punctuation; the dialogue fragments are exact contiguous excerpts. The people addressed as “others” are unnamed, and no appearance or setting is specified.",
+        "The preceding scene’s references concern different events; this scene does not alter their chronology."
+      ]
     },
     "scene_012": {
       "status": "PASS",
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Explicit facts call these warnings Nephi pronounces, but the supplied verses do not identify Nephi as speaker; the scene’s narration is faithful verbatim quotation, yet its attribution to Nephi is unsupported by these verses alone."
+      ]
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Explicit facts attribute the warnings to Nephi, but the supplied verses do not identify Nephi as speaker. The summary also says the rock-built person receives “it” gladly without clarifying that “it” refers to the truth; this is a reasonable contextual interpretation, not an explicit wording in verse 28."
+      ]
     },
     "scene_015": {
       "status": "PASS",

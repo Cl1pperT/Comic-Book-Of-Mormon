@@ -646,41 +646,62 @@
     ],
     "locations": [
       "Noah’s house",
-      "the prison",
-      "Shule’s kingdom"
+      "The prison",
+      "Shule’s throne in his own kingdom"
     ],
     "explicit_facts": [
       {
-        "text": "As Noah was about to put Shule to death, Shule’s sons crept into Noah’s house by night and slew him.",
+        "text": "Noah was about to put Shule to death.",
         "refs": [
           "Ether 7:18"
         ]
       },
       {
-        "text": "They broke down the prison door, brought out their father, and placed him upon his throne in his own kingdom.",
+        "text": "Shule’s sons crept into Noah’s house by night and slew Noah.",
+        "refs": [
+          "Ether 7:18"
+        ]
+      },
+      {
+        "text": "They broke down the prison door and brought out their father.",
+        "refs": [
+          "Ether 7:18"
+        ]
+      },
+      {
+        "text": "They placed Shule upon his throne in his own kingdom.",
         "refs": [
           "Ether 7:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The sons can be shown creeping into the house at night, slaying Noah without gore, breaking down the prison door, and bringing Shule out."
+      "Cautious movement and darkness can convey the sons’ nighttime entry."
     ],
     "unspecified_visual_details": [
-      "The locations of Noah’s house and the prison, their layouts, the sons’ appearances, and how Noah was slain."
+      "The sons’ number, ages, clothing, and appearances.",
+      "The architecture and geographical relationship of the house, prison, and throne setting.",
+      "The means of killing Noah and breaking down the door.",
+      "The elapsed time before Shule was placed upon his throne."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "broke down the door of the prison",
+        "text": "And it came to pass as he was about to put him to death, the sons of Shule crept into the house of Noah by night and slew him, and broke down the door of the prison and brought out their father, and placed him upon his throne in his own kingdom.",
         "refs": [
           "Ether 7:18"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Moroni is the narrator, not a participant in these events.",
+      "Preserve the narrated sequence; the rescue and placement upon the throne must not appear simultaneous.",
+      "The verse specifies night for the entry into Noah’s house, but not the time of the placement upon the throne."
+    ],
     "prohibited_inventions": [
-      "Do not identify the rescue location as Moron.",
+      "Do not locate the prison inside Noah’s house.",
+      "Do not invent an execution method, guards, resistance, dialogue, or a restoration ceremony.",
+      "Do not invent names or biographies for Shule’s sons.",
       "Do not depict wounds, blood, or severed body parts."
     ],
     "importance": "normal"

@@ -1,13 +1,15 @@
 {
-  "stamp": "dde620d9002341a82e18091ea622dbaf2c75666ca9dc439a9890d5078c9814ca",
+  "stamp": "b6c7db8709041729a267459a80351713dbb327a83cb1b1676b8d2bee1e8b1dd1",
   "results": {
     "scene_001": {
       "status": "PASS",
       "issues": []
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The angel’s appearance, the devil’s appearance, and the church’s visual form are unspecified; depict none in a particularized way. The stated vision and dialogue do not establish that the violence is shown happening."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -30,7 +32,8 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The explicit-facts entry that Nephi describes the Gentiles as white, exceedingly fair, and beautiful is accurate, but the visual depiction of these attributes may imply skin color or physical traits beyond what the source establishes; interpret conservatively."
+        "The requested non-graphic depiction of scattering and smiting is a reasonable visual inference; the verse does not specify how the smiting occurs or what it looks like. Keep the Spirit of the Lord and wrath of God without invented visible forms.",
+        "Nephi beholds these events in vision; the narration does not turn them into a separate present-tense occurrence. The previous scene is the preceding vision passage and introduces no contradictory chronology."
       ]
     },
     "scene_008": {
@@ -62,20 +65,26 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lamb is listed as a scene character and as a dialogue speaker, but the verses relay his words and do not describe him appearing; ensure he is not depicted as visibly present."
+      ]
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The Lamb is listed as a scene character and dialogue speaker, but these are prophetic words and the verses do not describe him appearing; ensure he is not depicted as visibly present."
+      ]
     },
     "scene_017": {
       "status": "PASS",
       "issues": []
     },
     "scene_018": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Gentiles are listed as scene characters, but the verses say the books come from them and do not establish their physical presence. Depict only if treated as a visual inference, not an explicit fact."
+      ]
     },
     "scene_019": {
       "status": "PASS",

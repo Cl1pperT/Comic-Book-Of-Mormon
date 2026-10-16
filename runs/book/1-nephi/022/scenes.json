@@ -611,28 +611,26 @@
       "1 Nephi 22:20",
       "1 Nephi 22:21"
     ],
-    "summary": "Nephi recalls Moses's words about a prophet whom the people must hear, then identifies that prophet as the Holy One of Israel, who will execute judgment in righteousness.",
+    "summary": "Nephi says the Lord will prepare a way for his people, cites Moses’s words about a prophet the people must hear, and identifies that prophet as the Holy One of Israel.",
     "characters": [
       "Nephi"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord will prepare a way for his people, fulfilling Moses's words that the Lord will raise a prophet like Moses whom the people must hear.",
+        "text": "The Lord will prepare a way for his people in fulfillment of Moses’s words.",
         "refs": [
           "1 Nephi 22:20"
         ]
       },
       {
-        "text": "Those who will not hear that prophet will be cut off from among the people.",
+        "text": "Moses said the Lord would raise up a prophet like him whom the people must hear; those who will not hear that prophet will be cut off from among the people.",
         "refs": [
           "1 Nephi 22:20"
         ]
       },
       {
-        "text": "Nephi identifies the prophet as the Holy One of Israel, who will execute judgment in righteousness.",
+        "text": "Nephi identifies that prophet as the Holy One of Israel and says he will execute judgment in righteousness.",
         "refs": [
           "1 Nephi 22:21"
         ]
@@ -640,28 +638,39 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The prophet's appearance and the scene of judgment."
+      "Nephi’s appearance and location",
+      "The appearance of Nephi’s audience"
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "A prophet shall the Lord your God raise up unto you, like unto me; him shall ye hear in all things whatsoever he shall say unto you.",
+        "refs": [
+          "1 Nephi 22:20"
+        ],
+        "speaker": "Moses"
+      }
+    ],
     "narration": [
       {
-        "text": "A prophet shall the Lord your God raise up unto you, like unto me;",
+        "text": "the words of Moses, which he spake, saying:",
         "refs": [
           "1 Nephi 22:20"
         ]
       },
       {
-        "text": "this prophet of whom Moses spake was the Holy One of Israel;",
+        "text": "And now I, Nephi, declare unto you, that this prophet of whom Moses spake was the Holy One of Israel;",
         "refs": [
           "1 Nephi 22:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Moses is mentioned in quoted teaching but is not present in the scene."
+      "Moses’s words are quoted by Nephi; Moses is not physically present in this scene.",
+      "The prophet’s future judgment is a teaching, not an event occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not depict Moses or the Holy One of Israel visibly; no appearance is described here."
+      "Do not visibly depict Moses or the Holy One of Israel; these verses describe neither appearing.",
+      "Do not stage the future judgment or people being cut off as a present event."
     ],
     "importance": "normal"
   },

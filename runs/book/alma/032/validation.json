@@ -1,5 +1,5 @@
 {
-  "stamp": "bcc27251e3d6a2475a6ab3ec04e9f74c65dcecde9f074785ae0ff5729304cda4",
+  "stamp": "f226590082d8821b8f169cebf2cd41b239dfd8751355a7fa290f3777039991be",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -16,10 +16,8 @@
       "issues": []
     },
     "scene_004": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Narration quotes a portion of Alma's spoken line as narration rather than identifying it as speech; content is exact, but the field classification is uncertain."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_005": {
       "status": "PASS",
@@ -81,8 +79,8 @@
     "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verses do not explicitly identify the speaker as addressing an audience in the present scene, though “my brethren” supports brethren as addressees (Alma 32:43). The proposed speaker/listener staging is a reasonable visual inference, not an explicit event.",
-        "The supplied preceding scene includes only an excerpt of Alma 32:38 and summarizes the tree imagery as teaching; it does not establish a present visible tree event. This scene correctly treats the imagery as conditional teaching."
+        "The scene treats the tree and fruit as conditional teaching imagery, not present events, consistent with the prior scene’s chronology. The location, listeners’ identities and number, and appearances remain unspecified; avoid depicting them as established facts.",
+        "The listed dialogue excerpts are verbatim, contiguous source excerpts and total under 65 words."
       ]
     }
   }

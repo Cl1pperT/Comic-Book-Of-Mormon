@@ -1,9 +1,11 @@
 {
-  "stamp": "3b8f1e771179183b5fb62b12b677b2d8e4c202b2db57f4691c44adacda766452",
+  "stamp": "e0e885f54d44fab7a2872c609294a4d42893d87e07ca1f4d76d7c24b96309a4f",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration is a non-contiguous excerpt from Ether 7:1, omitting “And I did” from the source wording; use exact contiguous text. The governance setting is a reasonable visual inference, not an explicit location or structure."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -18,18 +20,20 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Showing Shule as an infant is a reasonable inference from Kib begetting him, but the verse does not specify when or how Shule is visually present during Kib’s captivity."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“Mighty in strength” in the explicit fact is a paraphrase; Ether 7:8 says “mighty as to the strength of a man.”"
+      ]
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Narration “made swords out of steel” is exact wording but is not a contiguous excerpt as presented in Ether 7:9; the source says “made swords out of steel for those whom he had drawn away with him.”"
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -52,28 +56,22 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Moron is where Shule was carried captive (verse 17), but verse 18 does not explicitly locate Noah’s house or the prison there."
-      ]
-    },
-    "scene_014": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The rescue is anchored to Noah’s house and the prison, but their spatial relationship is unspecified; avoid implying the prison is inside the house or presenting the separate actions as a single simultaneous moment.",
-        "Noah is explicitly slain, but how he is slain is unspecified; show no particular method or visual detail beyond the non-gory action.",
-        "Narration is an exact excerpt from Ether 7:18. The separate narration excerpt is acceptable; do not add words or ellipses."
-      ]
-    },
-    "scene_015": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The cited narration is exact, and the event order follows the preceding scene. The visual inference of a map is permissible, but the present-tense map graphic is a design choice, not described by the verses. The scene does not specify where or how the kingdom-building or prosperity is visually shown."
-      ]
-    },
-    "scene_016": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_014": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_015": {
+      "status": "PASS",
+      "issues": []
+    },
+    "scene_016": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Nimrod “surrendered” the kingdom, but the source only says he “gave up” the kingdom; avoid adding implications beyond the text."
+      ]
     },
     "scene_017": {
       "status": "PASS",

@@ -95,62 +95,62 @@
   },
   {
     "scene_id": "scene_003",
-    "title": "Gadianton leads the band",
+    "title": "Gadianton becomes leader of the band",
     "refs": [
       "Helaman 2:3",
       "Helaman 2:4",
       "Helaman 2:5"
     ],
-    "summary": "Kishkumen and his band sought to destroy Helaman. Gadianton became the band’s leader and promised its members power and authority if they placed him in the judgment-seat.",
+    "summary": "Kishkumen lay in wait to destroy Helaman, supported by a band that had covenanted to conceal his wickedness. Gadianton became the band's leader and flattered its members and Kishkumen with a conditional offer of power and authority. Kishkumen sought to destroy Helaman.",
     "characters": [
       "Kishkumen",
       "Gadianton",
-      "Kishkumen’s band"
+      "Kishkumen's band"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Kishkumen, who had murdered Pahoran, lay in wait to destroy Helaman, supported by his band, which covenanted to conceal its wickedness.",
+        "text": "Kishkumen had murdered Pahoran before these events; he lay in wait to destroy Helaman and was supported by his band, which had covenanted that no one should know his wickedness.",
         "refs": [
           "Helaman 2:3"
         ]
       },
       {
-        "text": "Gadianton, skilled in words and in secret murder and robbery, became leader of Kishkumen’s band.",
+        "text": "Gadianton was expert in words and in the secret work of murder and robbery, and became leader of Kishkumen's band.",
         "refs": [
           "Helaman 2:4"
         ]
       },
       {
-        "text": "Gadianton promised power and authority to band members if they placed him in the judgment-seat; Kishkumen therefore sought to destroy Helaman.",
+        "text": "Gadianton flattered the band and Kishkumen, offering its members power and authority if they placed him in the judgment-seat. Kishkumen sought to destroy Helaman.",
         "refs": [
           "Helaman 2:5"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The band may be shown together with Gadianton and Kishkumen, without invented insignia or ritual."
+      "Gadianton, Kishkumen, and unnamed band members may be shown together; no specific meeting or ritual is described."
     ],
     "unspecified_visual_details": [
-      "The meeting place, clothing, and appearance of the band are unspecified."
+      "Their appearance, clothing, and surroundings are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they should be placed in power and authority among the people",
+        "text": "there was one Gadianton, who was exceedingly expert in many words, and also in his craft, to carry on the secret work of murder and of robbery;",
         "refs": [
-          "Helaman 2:5"
+          "Helaman 2:4"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Pahoran’s murder is prior context, not a present event."
+      "The offer in verse 5 is conditional; the verses do not say Gadianton obtained the judgment-seat. Pahoran's murder is prior context."
     ],
     "prohibited_inventions": [
-      "Do not depict Pahoran or his murder.",
-      "Do not add covenant wording or further plans."
+      "Do not depict Pahoran's murder as a current event.",
+      "Do not invent Gadianton's spoken words, the covenant's wording, a ritual, or an attack on Helaman."
     ],
     "importance": "normal"
   },
@@ -162,39 +162,55 @@
       "Helaman 2:7",
       "Helaman 2:8"
     ],
-    "summary": "As Kishkumen went toward the judgment-seat to murder Helaman, he met Helaman’s servant, who had learned the band’s plan through disguise. The servant gave a sign, learned Kishkumen’s purpose, and invited him to go to the judgment-seat.",
+    "summary": "Kishkumen went toward the judgment-seat to destroy Helaman. Helaman’s servant, who had previously learned the band’s plans through disguise, met Kishkumen and gave him a sign. Kishkumen revealed his desire to be conducted to the judgment-seat to murder Helaman. The servant invited him to go there.",
     "characters": [
       "Kishkumen",
       "Helaman’s servant"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified meeting place",
+      "Judgment-seat (destination)"
     ],
     "explicit_facts": [
       {
-        "text": "Kishkumen went toward the judgment-seat to destroy Helaman; a servant of Helaman had learned the band’s plan through disguise.",
+        "text": "Kishkumen went toward the judgment-seat to destroy Helaman.",
+        "refs": [
+          "Helaman 2:6",
+          "Helaman 2:7"
+        ]
+      },
+      {
+        "text": "One of Helaman’s servants had been out by night and had learned the band’s plans through disguise.",
         "refs": [
           "Helaman 2:6"
         ]
       },
       {
-        "text": "The servant met Kishkumen and gave him a sign; Kishkumen asked to be conducted to the judgment-seat so he could murder Helaman.",
+        "text": "The servant met Kishkumen and gave him a sign.",
         "refs": [
           "Helaman 2:7"
         ]
       },
       {
-        "text": "The servant learned the band’s aims and said, “Let us go forth unto the judgment-seat.”",
+        "text": "Kishkumen revealed that he wanted the servant to conduct him to the judgment-seat so he could murder Helaman.",
+        "refs": [
+          "Helaman 2:7"
+        ]
+      },
+      {
+        "text": "The servant learned that the band’s secret aims included murder, robbery, and gaining power, then invited Kishkumen to go to the judgment-seat.",
         "refs": [
           "Helaman 2:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The meeting may be shown, without specifying the sign or the servant’s disguise."
+      "Kishkumen and the servant can be shown meeting while Kishkumen is on his way toward the judgment-seat."
     ],
     "unspecified_visual_details": [
-      "The place of meeting, the sign, and the appearance of the disguise are unspecified."
+      "The meeting place and time are unspecified.",
+      "The form of the sign is unspecified.",
+      "The servant’s earlier disguise is not described."
     ],
     "spoken_dialogue": [
       {
@@ -207,6 +223,18 @@
     ],
     "narration": [
       {
+        "text": "as he went forth towards the judgment-seat to destroy Helaman",
+        "refs": [
+          "Helaman 2:6"
+        ]
+      },
+      {
+        "text": "one of the servants of Helaman, having been out by night, and having obtained, through disguise, a knowledge of those plans",
+        "refs": [
+          "Helaman 2:6"
+        ]
+      },
+      {
         "text": "he gave unto him a sign",
         "refs": [
           "Helaman 2:7"
@@ -214,12 +242,14 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The servant’s night outing and intelligence-gathering are reported prior actions."
+      "The servant’s night outing and acquisition of knowledge through disguise are prior actions reported by Mormon, not events occurring during this meeting.",
+      "Kishkumen’s desire is reported, not quoted as speech."
     ],
     "prohibited_inventions": [
-      "Do not stage the earlier night reconnaissance as a present event.",
-      "Do not show Helaman as present.",
-      "Do not add dialogue for Kishkumen."
+      "Do not stage the earlier night outing or disguise as part of this meeting.",
+      "Do not show Helaman physically present.",
+      "Do not specify the sign or invent a disguise.",
+      "Do not add dialogue for Kishkumen or claim the servant joined the band."
     ],
     "importance": "normal"
   },
@@ -315,7 +345,7 @@
     "refs": [
       "Helaman 2:10"
     ],
-    "summary": "Helaman sent to take the band of robbers and secret murderers so they could be executed according to law.",
+    "summary": "Helaman sent forth to take a band of robbers and secret murderers so they might be executed according to the law.",
     "characters": [
       "Helaman (son of Helaman)"
     ],
@@ -324,7 +354,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "Helaman sent to take the band of robbers and secret murderers for execution according to law.",
+        "text": "Helaman sent forth to take a band of robbers and secret murderers.",
+        "refs": [
+          "Helaman 2:10"
+        ]
+      },
+      {
+        "text": "The stated purpose was that they might be executed according to the law.",
         "refs": [
           "Helaman 2:10"
         ]
@@ -334,12 +370,12 @@
       "Helaman may be shown sending others to take the band."
     ],
     "unspecified_visual_details": [
-      "The messengers, location, and form of the order are unspecified."
+      "The people sent, location, and form of the order are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "that they might be executed according to the law.",
+        "text": "Helaman did send forth to take this band of robbers and secret murderers, that they might be executed according to the law.",
         "refs": [
           "Helaman 2:10"
         ]
@@ -347,7 +383,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not depict an execution; it is only the purpose of Helaman’s order."
+      "Do not depict the band's capture or execution; neither is narrated as having occurred."
     ],
     "importance": "normal"
   },

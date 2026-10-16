@@ -1,9 +1,12 @@
 {
-  "stamp": "4e3a9951a4c020193ce4c42a28726103467268c5abdfbec0b22800ebfc0a4e18",
+  "stamp": "3aded9abcaeb09d82f79075ff0b8451fb82466f04ed3835e87c9ebd2f0cba5ff",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The label “King Mosiah” is not the exact established label “Mosiah II (king),” but the verses identify the present king as Mosiah, so this is not an invented character.",
+        "Visual inference of Mosiah with people teasing him is supported by the verse, though the text does not specify a visual setting or how the teasing appears. Narration is verbatim and within the word limit; no departure or arrival is depicted."
+      ]
     },
     "scene_002": {
       "status": "PASS",
@@ -50,8 +53,11 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "No substantive scene errors. The preceding scene’s dialogue quotes only part of Mosiah 7:25, but the omitted continuation reports past contentions and bloodshed; the scene correctly avoids staging those events. scene_013 also correctly treats the prophet’s death and teachings as retrospective and does not depict Christ’s appearance.",
+        "Minor precision: Mosiah 7:26 says the prophet prophesied of many things to come, including Christ’s coming; the summary’s shorter phrasing is accurate but not exhaustive. The scriptural speaker is identifiable as Limhi from context, though the supplied verses do not name him in the quoted lines."
+      ]
     },
     "scene_014": {
       "status": "PASS",

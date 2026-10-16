@@ -63,7 +63,6 @@
       "The restoration and gathering are described as future events, not events occurring in this scene."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Jacob.",
       "Do not depict the future restoration or gathering as occurring in this scene.",
       "Do not depict the Lord, prophets, or Jews as physically present merely because Nephi mentions them."
     ],
@@ -71,59 +70,67 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "Rejoicing for future blessings",
+    "title": "Address to the brethren",
     "refs": [
       "2 Nephi 9:3",
       "2 Nephi 9:4"
     ],
-    "summary": "Jacob urges his brethren to rejoice in blessings promised to their children and speaks of death and seeing God in the body.",
+    "summary": "Nephi addresses his brethren, speaking so they may rejoice because of blessings the Lord God will bestow upon their children. He says their flesh must die, but that they will see God in their bodies.",
     "characters": [
-      "Jacob (old)"
+      "Nephi",
+      "Beloved brethren"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Jacob speaks so his brethren may rejoice and lift their heads because of blessings the Lord God will bestow upon their children.",
+        "text": "Nephi addresses his beloved brethren and speaks so they may rejoice and lift up their heads because of blessings the Lord God will bestow upon their children.",
         "refs": [
           "2 Nephi 9:3"
         ]
       },
       {
-        "text": "Jacob says their flesh must waste away and die, yet in their bodies they will see God.",
+        "text": "Nephi says many have searched to know things to come.",
+        "refs": [
+          "2 Nephi 9:4"
+        ]
+      },
+      {
+        "text": "Nephi says their flesh must waste away and die, yet in their bodies they will see God.",
         "refs": [
           "2 Nephi 9:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jacob is addressing listeners."
+      "Nephi is addressing a group of listeners."
     ],
     "unspecified_visual_details": [
-      "The listeners’ appearance and reactions.",
-      "The setting."
+      "The setting.",
+      "The appearance and reactions of the listeners."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "ye may rejoice, and lift up your heads forever",
+        "text": "Behold, my beloved brethren, I speak unto you these things that ye may rejoice, and lift up your heads forever, because of the blessings which the Lord God shall bestow upon your children.",
         "refs": [
           "2 Nephi 9:3"
-        ]
+        ],
+        "speaker": "Nephi"
       },
       {
-        "text": "in our bodies we shall see God",
+        "text": "wherefore I know that ye know that our flesh must waste away and die; nevertheless, in our bodies we shall see God.",
         "refs": [
           "2 Nephi 9:4"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The future vision of God is stated as teaching, not depicted as happening now."
+      "Seeing God in the body is stated as a future teaching, not narrated as an appearance in this scene."
     ],
     "prohibited_inventions": [
-      "Do not show God appearing in this scene."
+      "Do not depict God appearing.",
+      "Do not depict the future blessings or death as events occurring during this address."
     ],
     "importance": "normal"
   },
@@ -1316,7 +1323,7 @@
       "2 Nephi 9:45",
       "2 Nephi 9:46"
     ],
-    "summary": "A speaker urges beloved brethren to turn from sin, come to God, and prepare for judgment. The speaker describes what they might be constrained to exclaim.",
+    "summary": "A speaker urges beloved brethren to turn away from sin, come unto God, and prepare for the day of judgment.",
     "characters": [
       "Unidentified speaker",
       "Beloved brethren"
@@ -1326,49 +1333,51 @@
     ],
     "explicit_facts": [
       {
-        "text": "The speaker urges beloved brethren to turn away from their sins and come unto God.",
+        "text": "The speaker addresses beloved brethren and urges them to turn away from their sins and come unto God.",
         "refs": [
           "2 Nephi 9:45"
         ]
       },
       {
-        "text": "The speaker urges them to prepare for the day of judgment and describes what they might be constrained to exclaim.",
+        "text": "The speaker urges them to prepare for the day of judgment so they will not shrink with fear or remember their guilt.",
         "refs": [
           "2 Nephi 9:46"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker addresses the brethren."
+      "A speaker addresses a group."
     ],
     "unspecified_visual_details": [
-      "The speaker’s appearance",
+      "The speaker’s identity and appearance",
       "The brethren’s appearance",
       "The setting"
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "turn away from your sins;",
+        "text": "O, my beloved brethren, turn away from your sins; shake off the chains of him that would bind you fast; come unto that God who is the rock of your salvation.",
         "refs": [
           "2 Nephi 9:45"
-        ]
+        ],
+        "speaker": "Unidentified speaker"
       },
       {
         "text": "Prepare your souls for that glorious day when justice shall be administered unto the righteous, even the day of judgment,",
         "refs": [
           "2 Nephi 9:46"
-        ]
+        ],
+        "speaker": "Unidentified speaker"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
       "The chains and the description of God as a rock are figurative.",
-      "The confession is hypothetical, not spoken by a second person present in the scene."
+      "The confession in verse 46 is hypothetical, not speech by someone present in the scene."
     ],
     "prohibited_inventions": [
-      "Do not identify the speaker as Jacob from these verses alone.",
       "Do not depict literal chains, a visible judgment, or the devil.",
-      "Do not add a second speaker for the hypothetical confession."
+      "Do not add a speaker for the hypothetical confession.",
+      "Do not identify the speaker as Nephi or Jacob based on these verses alone."
     ],
     "importance": "normal"
   },

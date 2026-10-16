@@ -6,41 +6,44 @@
       "Alma 17:1",
       "Alma 17:2"
     ],
-    "summary": "While journeying southward from Gideon toward Manti, Alma meets the sons of Mosiah traveling toward Zarahemla and rejoices to see them.",
+    "summary": "While journeying southward from the land of Gideon toward the land of Manti, Alma meets the sons of Mosiah journeying toward the land of Zarahemla. He rejoices to see them.",
     "characters": [
       "Alma",
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)"
+      "Sons of Mosiah"
     ],
     "locations": [
-      "Unspecified location"
+      "Unspecified meeting place between the named lands"
     ],
     "explicit_facts": [
       {
-        "text": "Alma meets the sons of Mosiah while journeying southward from the land of Gideon toward the land of Manti; they are traveling toward Zarahemla.",
+        "text": "Alma is journeying southward from the land of Gideon toward the land of Manti when he meets the sons of Mosiah, who are journeying toward the land of Zarahemla.",
         "refs": [
           "Alma 17:1"
         ]
       },
       {
-        "text": "Alma rejoices to see them; they remain his brethren in the Lord and have grown strong in knowledge of the truth.",
+        "text": "Alma rejoices to see the sons of Mosiah.",
+        "refs": [
+          "Alma 17:2"
+        ]
+      },
+      {
+        "text": "The sons of Mosiah were with Alma when the angel first appeared to him; they remain his brethren in the Lord, have grown strong in knowledge of the truth, and have searched the scriptures diligently.",
         "refs": [
           "Alma 17:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Travelers encounter one another on a route between the named lands."
+      "The travelers encounter one another along their routes."
     ],
     "unspecified_visual_details": [
-      "The precise meeting place, terrain, clothing, and appearance of the travelers."
+      "The precise meeting place, terrain, clothing, and travelers’ appearances."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he met with the sons of Mosiah journeying towards the land of Zarahemla.",
+        "text": "as Alma was journeying from the land of Gideon southward, away to the land of Manti, behold, to his astonishment, he met with the sons of Mosiah",
         "refs": [
           "Alma 17:1"
         ]
@@ -53,49 +56,58 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The source recalls their earlier connection with the angel, but does not depict that earlier event here."
+      "The earlier appearance of the angel is recalled, not narrated as a present event.",
+      "The sons’ knowledge and scripture study are described, not depicted as a separate present event."
     ],
     "prohibited_inventions": [
-      "Do not show the angel or dramatize the earlier appearance."
+      "Do not show the angel or stage the earlier appearance.",
+      "Do not invent dialogue or identify individual sons from information outside these verses."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_002",
-    "title": "The sons’ preparation and teaching",
+    "title": "The Sons of Mosiah: Prayer and Teaching",
     "refs": [
       "Alma 17:3",
       "Alma 17:4"
     ],
-    "summary": "The sons of Mosiah have prayed and fasted, taught among the Lamanites for fourteen years, and brought many to knowledge of the truth.",
+    "summary": "The sons of Mosiah gave themselves to prayer and fasting. They taught the word of God among the Lamanites for fourteen years, bringing many to knowledge of the truth.",
     "characters": [
-      "Ammon (son of Mosiah)",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)"
+      "Sons of Mosiah",
+      "Lamanites",
+      "Unnamed people brought before the altar of God"
     ],
     "locations": [
-      "Unspecified location"
+      "Among the Lamanites; specific locations unspecified"
     ],
     "explicit_facts": [
       {
-        "text": "They gave themselves to prayer and fasting and taught with power and authority of God.",
+        "text": "They gave themselves to much prayer and fasting and taught with power and authority of God.",
         "refs": [
           "Alma 17:3"
         ]
       },
       {
-        "text": "They had taught the word of God among the Lamanites for fourteen years; many came to knowledge of the truth and called on God and confessed their sins before him.",
+        "text": "They taught the word of God among the Lamanites for fourteen years.",
+        "refs": [
+          "Alma 17:4"
+        ]
+      },
+      {
+        "text": "Many were brought to knowledge of the truth; many were brought before the altar of God to call on his name and confess their sins.",
         "refs": [
           "Alma 17:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A restrained symbolic or retrospective composition may suggest prayer, study, and teaching without depicting a specific unreported occasion."
+      "A retrospective composition can suggest sustained prayer, fasting, and teaching without presenting any one occasion as a separately narrated event."
     ],
     "unspecified_visual_details": [
-      "Where the prayer, fasting, or teaching occurred; the identities and number of individual converts; any altar's form."
+      "Specific settings and appearances",
+      "The identities and number of individuals brought before the altar",
+      "The altar’s form"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -113,10 +125,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are reported circumstances and past ministry, not a separately dated present event."
+      "The verses report a past, extended ministry rather than a single present-tense event.",
+      "The title identifies the group referred to as “they” in the quoted narration."
     ],
     "prohibited_inventions": [
-      "Do not stage a particular conversion, sermon, or prayer gathering as a distinct narrated event."
+      "Do not invent a particular sermon, prayer gathering, conversion, or spoken words.",
+      "Do not depict the spirit of prophecy or revelation as an unstated visible apparition."
     ],
     "importance": "normal"
   },
@@ -127,7 +141,7 @@
       "Alma 17:5",
       "Alma 17:6"
     ],
-    "summary": "They suffered hunger, thirst, fatigue, and afflictions of body and mind during their journeyings. Earlier, they took leave of their father, Mosiah, and refused the kingdom he wished to confer on them.",
+    "summary": "During their journeyings, Mosiah's children suffered hunger, thirst, fatigue, and afflictions of body and mind. They had earlier taken leave of their father in the first year of the judges and refused the kingdom he wished to confer on them.",
     "characters": [
       "Mosiah's children, unnamed in the supplied verses"
     ],
@@ -169,7 +183,7 @@
         ]
       },
       {
-        "text": "Having taken leave of their father, Mosiah",
+        "text": "Having taken leave of their father, Mosiah, in the first year of the judges;",
         "refs": [
           "Alma 17:6"
         ]

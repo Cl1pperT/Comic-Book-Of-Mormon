@@ -1,9 +1,12 @@
 {
-  "stamp": "6da5c475eada37232994b630d33729947aa6f87610cc01def97e5f0a852c760a",
+  "stamp": "670b7056a4ab94ff1121596d10fa4d6b97a03cee2c09907990ccb4518b56173e",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration is verbatim and within the word limit, but it omits the verse’s explicit description of Amlici as wise according to the wisdom of the world.",
+        "The visual inference of people near Amlici is plausible, but the text does not specify their proximity or a gathering at this point."
+      ]
     },
     "scene_002": {
       "status": "PASS",

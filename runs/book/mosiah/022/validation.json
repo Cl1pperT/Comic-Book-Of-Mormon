@@ -1,5 +1,5 @@
 {
-  "stamp": "ff11b780c38d1f99dece7e3577d73195792a6d240868163b94f01ee91943c033",
+  "stamp": "b49bb37ba0ba7b6f5f9be394ac250d52356149b8322050353c9d2cc7816ba18c",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -12,14 +12,17 @@
       ]
     },
     "scene_003": {
-      "status": "PASS WITH WARNINGS",
+      "status": "REJECT",
       "issues": [
-        "“The king” is unnamed in the supplied verses. The scene does not invent his identity; visual posture or demeanor is unspecified."
+        "The note identifies Mormon as the narrator, but the supplied verses do not name the narrator."
       ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "REJECT",
+      "issues": [
+        "The notes identify Mormon as the narrator, but the supplied verses do not name the narrator.",
+        "The addressee is not unspecified: verses 3–5 establish that Gideon is speaking to the king. The prohibition against identifying the addressee conflicts with that context."
+      ]
     },
     "scene_005": {
       "status": "PASS WITH WARNINGS",

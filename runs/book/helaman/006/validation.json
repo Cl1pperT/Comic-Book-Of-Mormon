@@ -1,5 +1,5 @@
 {
-  "stamp": "a5739e70c7254af31214957ee70e81fbf3925584761f9c82039d048cb7135177",
+  "stamp": "64815ee9232e24907762133b9ff3a01e29552a1b8f2e03cc95ac8be3bfc11752",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,8 +38,10 @@
       "issues": []
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Cezoram's son is included in the character list, but the verse only reports his murder in the same year and does not establish that he is present in this scene; keep his murder offscreen and do not imply his presence."
+      ]
     },
     "scene_011": {
       "status": "PASS",

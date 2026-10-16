@@ -1,19 +1,26 @@
 {
-  "stamp": "fab328c1a5f458b73d0563a1d88c7bf3d6e2399e067527d6d4c134b902c12548",
+  "stamp": "75a540cec9cb94361c3dd63d8bc9fa032a987dbc46e30db7eda4764a58cce7f9",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary and scene describe the meeting and Alma’s rejoicing, supported by verses 1–2. The other explicit facts are also supported, but the sons’ prior association with Alma and their knowledge and scripture study are background, not present action.",
+        "The precise meeting place is correctly unspecified; “along their routes” is a reasonable visual inference, not an explicit location."
+      ]
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The title uses “meets,” but scene 001 is an encounter in transit, not a separately specified meeting place or staged event; keep the visual treatment restrained."
+        "The verses report a fourteen-year ministry retrospectively; ensure the visual treatment does not imply a single specific teaching or conversion event.",
+        "The unnamed people brought before the altar are reported, not individually identified or established as present in one depicted moment."
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The leave-taking and refusal of the kingdom are recalled earlier events; do not depict them as occurring during the journey hardships.",
+        "The hardships are reported across their journeyings; no specific moment or location is established."
+      ]
     },
     "scene_004": {
       "status": "PASS",

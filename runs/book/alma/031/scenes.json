@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Alma hears of the Zoramites",
+    "title": "Alma receives sorrowful tidings",
     "refs": [
       "Alma 31:1",
       "Alma 31:2"
     ],
-    "summary": "After Korihor’s end, Alma receives news that the Zoramites are turning from the Lord and that their separation from the Nephites grieves him.",
+    "summary": "After the end of Korihor, Alma receives tidings that the Zoramites are perverting the ways of the Lord and that their leader, Zoram, is leading people to bow down to dumb idols. Alma is sorrowful over their iniquity and separation from the Nephites.",
     "characters": [
       "Alma"
     ],
@@ -15,37 +15,53 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma received tidings that the Zoramites were perverting the ways of the Lord and that Zoram was leading them to worship idols.",
+        "text": "After the end of Korihor, Alma received tidings that the Zoramites were perverting the ways of the Lord.",
         "refs": [
           "Alma 31:1"
         ]
       },
       {
-        "text": "Alma was sorrowful about the Zoramites’ iniquity and separation from the Nephites.",
+        "text": "Zoram was the Zoramites’ leader and was leading people to bow down to dumb idols.",
+        "refs": [
+          "Alma 31:1"
+        ]
+      },
+      {
+        "text": "Alma was exceedingly sorrowful because of the Zoramites’ separation from the Nephites.",
         "refs": [
           "Alma 31:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma can be shown receiving a report and looking sorrowful."
+      "Alma may be shown looking sorrowful as he receives the tidings."
     ],
     "unspecified_visual_details": [
-      "Who delivers the tidings and where Alma receives them are not stated."
+      "The location and the means by which the tidings reach Alma are not stated.",
+      "Alma’s appearance and surroundings are not described."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his heart was exceedingly sorrowful",
+        "text": "Alma having received tidings that the Zoramites were perverting the ways of the Lord,",
+        "refs": [
+          "Alma 31:1"
+        ]
+      },
+      {
+        "text": "his heart was exceedingly sorrowful because of the separation of the Zoramites from the Nephites.",
         "refs": [
           "Alma 31:2"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "Zoram’s actions are reported in the tidings, not narrated as occurring in Alma’s presence."
+    ],
     "prohibited_inventions": [
-      "Do not show Korihor’s death; it is only a time reference.",
-      "Do not depict Zoram or the Zoramites as present in Alma’s scene."
+      "Do not depict Korihor’s end; it is only a time reference here.",
+      "Do not stage Zoram or the Zoramites bowing to idols as an event occurring in this scene.",
+      "Do not invent a messenger or spoken report."
     ],
     "importance": "normal"
   },
@@ -152,7 +168,7 @@
       "Alma 31:6",
       "Alma 31:7"
     ],
-    "summary": "Alma took Ammon, Aaron, Omner, Amulek, Zeezrom, Shiblon, and Corianton with him. They went among the Zoramites to preach the word. Himni remained in the church in Zarahemla, and Alma did not take Helaman.",
+    "summary": "Alma took Ammon, Aaron, Omner, Amulek, Zeezrom, Shiblon, and Corianton with him among the Zoramites to preach the word. Himni remained in the church in Zarahemla, and Alma did not take Helaman.",
     "characters": [
       "Alma",
       "Ammon",
@@ -168,13 +184,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "He took Ammon, Aaron, and Omner with him and left Himni in the church in Zarahemla.",
+        "text": "Alma took Ammon, Aaron, and Omner with him and left Himni in the church in Zarahemla.",
         "refs": [
           "Alma 31:6"
         ]
       },
       {
-        "text": "He took Amulek and Zeezrom, who were at Melek, and two of his sons.",
+        "text": "Alma also took Amulek and Zeezrom, who were at Melek, and two of his sons.",
         "refs": [
           "Alma 31:6"
         ]
@@ -196,7 +212,6 @@
       "The traveling party may be shown together among the Zoramites."
     ],
     "unspecified_visual_details": [
-      "Alma is the contextual identification of “he”; his name does not appear in the supplied verse text.",
       "The travelers’ appearances, manner of travel, and exact surroundings are not specified."
     ],
     "spoken_dialogue": [],
@@ -208,13 +223,31 @@
         ]
       },
       {
-        "text": "but the names of those whom he took with him were Shiblon and Corianton;",
+        "text": "and Himni he did leave in the church in Zarahemla;",
+        "refs": [
+          "Alma 31:6"
+        ]
+      },
+      {
+        "text": "and also Amulek and Zeezrom, who were at Melek;",
+        "refs": [
+          "Alma 31:6"
+        ]
+      },
+      {
+        "text": "and he also took two of his sons.",
+        "refs": [
+          "Alma 31:6"
+        ]
+      },
+      {
+        "text": "Now the eldest of his sons he took not with him, and his name was Helaman;",
         "refs": [
           "Alma 31:7"
         ]
       },
       {
-        "text": "these are the names of those who went with him among the Zoramites, to preach unto them the word.",
+        "text": "but the names of those whom he took with him were Shiblon and Corianton;",
         "refs": [
           "Alma 31:7"
         ]

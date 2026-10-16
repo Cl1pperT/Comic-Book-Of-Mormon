@@ -1,5 +1,5 @@
 {
-  "stamp": "6fe2e56f0ee8a0d630abc9681f07d4d6488a124222a5bb69e98f1c03dfe60553",
+  "stamp": "72c9586bbdae342c841ef673e19fb668f7efcb68d70e41a06dd9856fb9e79d2f",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -50,12 +50,16 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The questioners are unnamed in these verses; the preceding context identifies the speakers as Nephi’s brothers, but does not identify each one in this exchange."
+      ]
     },
     "scene_013": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The speakers are unnamed in these verses; the preceding context suggests Nephi’s brothers, but does not identify each one in this exchange."
+      ]
     },
     "scene_014": {
       "status": "PASS",

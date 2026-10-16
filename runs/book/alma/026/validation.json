@@ -1,5 +1,5 @@
 {
-  "stamp": "dfc5f2b95b975f61a14c2fb45d1747d3149598debe4afc054d2747d50e91099b",
+  "stamp": "c6faf77a3dd68f88547ca83141308288183f86c5ccfa4ec96df12ff5ff4bace2",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -70,8 +70,10 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses do not name the group; keep it unnamed and avoid implying its identity or depicting its members as present. The burial is reported as completed, not shown occurring."
+      ]
     },
     "scene_016": {
       "status": "PASS",

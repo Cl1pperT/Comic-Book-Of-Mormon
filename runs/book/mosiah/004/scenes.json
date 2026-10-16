@@ -5,7 +5,7 @@
     "refs": [
       "Mosiah 4:1"
     ],
-    "summary": "After King Benjamin finishes speaking, he looks around and sees the multitude fallen to the earth in fear of the Lord.",
+    "summary": "After King Benjamin finishes speaking, he looks around and sees that the multitude has fallen to the earth because fear of the Lord has come upon them.",
     "characters": [
       "King Benjamin",
       "the multitude"
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "text": "He looks around at the multitude, who have fallen to the earth because fear of the Lord has come upon them.",
+        "text": "King Benjamin looks around at the multitude, who have fallen to the earth because fear of the Lord has come upon them.",
         "refs": [
           "Mosiah 4:1"
         ]
@@ -36,7 +36,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "they had fallen to the earth",
+        "text": "he cast his eyes round about on the multitude, and behold they had fallen to the earth, for the fear of the Lord had come upon them",
         "refs": [
           "Mosiah 4:1"
         ]
@@ -681,53 +681,69 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The poor and the would-be giver",
+    "title": "What the poor should say in their hearts",
     "refs": [
       "Mosiah 4:24",
       "Mosiah 4:25"
     ],
-    "summary": "Benjamin addresses people who have little but enough to get by, saying they remain guiltless if they would give were they able.",
+    "summary": "King Benjamin addresses the poor who have enough to remain from day to day. He teaches what those unable to give to a beggar should say in their hearts and explains the consequence if they do not.",
     "characters": [
-      "King Benjamin"
+      "King Benjamin",
+      "the poor (addressed)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Benjamin addresses the poor who have sufficient to remain from day to day, including those who deny a beggar because they lack means.",
+        "text": "Benjamin addresses the poor who have enough to remain from day to day, including those who deny a beggar because they have nothing to give.",
         "refs": [
           "Mosiah 4:24"
         ]
       },
       {
-        "text": "He says they remain guiltless if they sincerely would give if they had means; otherwise they are condemned for coveting what they have not received.",
+        "text": "He asks them to say in their hearts that they would give if they had the means.",
+        "refs": [
+          "Mosiah 4:24"
+        ]
+      },
+      {
+        "text": "He says those who say this in their hearts remain guiltless; otherwise they are condemned for coveting what they have not received.",
         "refs": [
           "Mosiah 4:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Benjamin speaks to the gathered listeners without staging a particular exchange."
+      "Benjamin may be shown addressing listeners; no particular exchange with a beggar is described."
     ],
     "unspecified_visual_details": [
-      "The material circumstances or appearance of any poor person."
+      "The appearance and material circumstances of the people addressed.",
+      "The setting of this portion of the address."
     ],
     "spoken_dialogue": [
       {
-        "text": "I give not because I have not, but if I had I would give.",
+        "text": "I would that ye say in your hearts that: I give not because I have not, but if I had I would give.",
         "refs": [
           "Mosiah 4:24"
+        ],
+        "speaker": "King Benjamin"
+      },
+      {
+        "text": "And now, if ye say this in your hearts ye remain guiltless, otherwise ye are condemned; and your condemnation is just for ye covet that which ye have not received.",
+        "refs": [
+          "Mosiah 4:25"
         ],
         "speaker": "King Benjamin"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The words are a hypothetical statement of the heart, not a reported spoken reply from a named person."
+      "The first quotation is Benjamin's instruction about what the poor should say in their hearts, not a statement that Benjamin himself refuses to give."
     ],
     "prohibited_inventions": [
-      "Do not portray the quoted hypothetical as speech by an invented visible individual."
+      "Do not depict a specific refusal to a beggar as an event occurring in this scene.",
+      "Do not assign the hypothetical words to an invented speaker."
     ],
     "importance": "normal"
   },

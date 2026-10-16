@@ -1,5 +1,5 @@
 {
-  "stamp": "1180a14cff28bc6f4a0ca19346c3892d0777e7efd78e2609fffb638176a93cc1",
+  "stamp": "f18be39b4b7b308ec1348c2db0a364292d8c7e95e5fac38fbb00748e9dad58bf",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -28,8 +28,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The two others among the three are not unidentified in the supplied verses: Alma 19:13 identifies the king and queen as having sunk down, and Alma 19:17 confirms they lay with Ammon. Revise the character list and unspecified-details field accordingly."
+      ]
     },
     "scene_008": {
       "status": "PASS WITH WARNINGS",
@@ -47,20 +49,19 @@
       ]
     },
     "scene_010": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The listed visual inference that the multitude is close enough to witness the fall is reasonable, though the verse establishes only that they beheld it.",
+        "The narration accurately quotes the supplied verses; verse 23 is retrospective explanation, not an event occurring during the fall, as the scene notes acknowledge."
+      ]
     },
     "scene_011": {
       "status": "PASS",
       "issues": []
     },
     "scene_012": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene's explicit facts are accurate, but «perhaps to raise her from the ground» is the source narrator's uncertainty, not an established motive; preserve it only as quoted narration, not as a visual fact. The ground position is a reasonable inference from this verse.",
-        "The narration and dialogue are exact contiguous excerpts; combined word count is within 65 words. Hell is referenced only in dialogue, not depicted.",
-        "The previous scene's contention and the queen's rising are consecutive events in the source; the scene does not incorrectly combine separate times. The woman's identity and setting remain unspecified."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_013": {
       "status": "PASS",

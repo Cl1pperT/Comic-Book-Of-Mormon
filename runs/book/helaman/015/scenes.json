@@ -582,11 +582,11 @@
   },
   {
     "scene_id": "scene_012",
-    "title": "The Lord's Promise to the Lamanites",
+    "title": "The Lord's Promise",
     "refs": [
       "Helaman 15:16"
     ],
-    "summary": "Samuel quotes the Lord's promise not to utterly destroy the Lamanites and to cause them to return to him in the day of his wisdom.",
+    "summary": "Samuel relays the Lord's declaration that he will not utterly destroy them and will cause them to return to him in the day of his wisdom.",
     "characters": [
       "Samuel the Lamanite"
     ],
@@ -595,21 +595,26 @@
     ],
     "explicit_facts": [
       {
-        "text": "The Lord says he will not utterly destroy the Lamanites but will cause them to return to him in the day of his wisdom.",
+        "text": "The Lord says he will not utterly destroy them.",
+        "refs": [
+          "Helaman 15:16"
+        ]
+      },
+      {
+        "text": "The Lord says he will cause them to return to him in the day of his wisdom.",
         "refs": [
           "Helaman 15:16"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Samuel delivers the quoted divine declaration to an audience."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
+      "The location and surroundings are not described.",
       "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "I will not utterly destroy them,",
+        "text": "Therefore, saith the Lord: I will not utterly destroy them, but I will cause that in the day of my wisdom they shall return again unto me, saith the Lord.",
         "refs": [
           "Helaman 15:16"
         ],
@@ -618,62 +623,69 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord is quoted in Samuel's speech; no direct visible appearance is described."
+      "Samuel quotes the Lord; the promised return is future, not an event shown here."
     ],
     "prohibited_inventions": [
-      "Do not show the Lord as a visible figure."
+      "Do not depict the Lord as a visible figure.",
+      "Do not depict the promised return as already occurring."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_013",
-    "title": "The Lord's Warning to the Nephites",
+    "title": "The Warning Concerning the Nephites",
     "refs": [
       "Helaman 15:17"
     ],
-    "summary": "Samuel quotes the Lord warning that if the Nephites do not repent and do his will, he will utterly destroy them despite the mighty works done among them.",
+    "summary": "Samuel quotes the Lord's warning that he will utterly destroy the Nephites if they do not repent and do his will, because of their unbelief despite the many mighty works he has done among them.",
     "characters": [
-      "Samuel the Lamanite"
+      "Samuel"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says that if the Nephites do not repent and observe his will, he will utterly destroy them because of their unbelief despite the mighty works done among them.",
+        "text": "The warning concerns the Nephites.",
+        "refs": [
+          "Helaman 15:17"
+        ]
+      },
+      {
+        "text": "The Lord says he will utterly destroy them if they do not repent and do his will.",
+        "refs": [
+          "Helaman 15:17"
+        ]
+      },
+      {
+        "text": "The Lord cites their unbelief notwithstanding the many mighty works he has done among them.",
         "refs": [
           "Helaman 15:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Samuel delivers the warning to an audience."
+      "Samuel may be shown delivering the quoted warning."
     ],
     "unspecified_visual_details": [
-      "The mighty works are not specified or visually described here; no appearance of the Lord is stated."
+      "No location or physical appearance is described.",
+      "The mighty works are not identified or visually described."
     ],
     "spoken_dialogue": [
       {
-        "text": "If they will not repent, and observe to do my will,",
+        "text": "And now behold, saith the Lord, concerning the people of the Nephites: If they will not repent, and observe to do my will, I will utterly destroy them, saith the Lord, because of their unbelief notwithstanding the many mighty works which I have done among them; and as surely as the Lord liveth shall these things be, saith the Lord.",
         "refs": [
           "Helaman 15:17"
         ],
-        "speaker": "Samuel the Lamanite"
-      },
-      {
-        "text": "I will utterly destroy them,",
-        "refs": [
-          "Helaman 15:17"
-        ],
-        "speaker": "Samuel the Lamanite"
+        "speaker": "Samuel"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The threatened destruction is conditional and not narrated as occurring."
+      "Samuel quotes the Lord; the Lord is not described as visibly present.",
+      "The destruction is a conditional warning, not an event narrated as occurring."
     ],
     "prohibited_inventions": [
-      "Do not depict destruction or a visible divine speaker."
+      "Do not depict the destruction or particular mighty works.",
+      "Do not invent a visible appearance of the Lord or place the Nephites at the delivery of the warning."
     ],
     "importance": "normal"
   }

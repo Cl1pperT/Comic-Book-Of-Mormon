@@ -450,7 +450,7 @@
       "Alma 4:17",
       "Alma 4:18"
     ],
-    "summary": "Alma selects Nephihah, a wise man among the church elders, and gives him power to enact and enforce laws according to the voice of the people. Nephihah is appointed chief judge and sits in the judgment-seat. Alma retains the office of high priest.",
+    "summary": "Alma selects Nephihah from among the church elders and gives him power according to the voice of the people. Nephihah is appointed chief judge and sits in the judgment-seat. Alma delivers the judgment-seat to Nephihah but retains the office of high priest.",
     "characters": [
       "Alma",
       "Nephihah"
@@ -460,7 +460,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma selected a wise man among the elders of the church and gave him power, according to the voice of the people, to enact and enforce laws.",
+        "text": "Alma selected a wise man from among the elders of the church and gave him power, according to the voice of the people, to enact and enforce laws.",
         "refs": [
           "Alma 4:16"
         ]
@@ -472,20 +472,26 @@
         ]
       },
       {
-        "text": "Alma delivered the judgment-seat to Nephihah but retained the office of high priest.",
+        "text": "Alma delivered the judgment-seat to Nephihah but did not grant him the office of high priest, retaining that office himself.",
         "refs": [
           "Alma 4:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephihah can be shown sitting in the judgment-seat."
+      "Nephihah can be shown seated in the judgment-seat."
     ],
     "unspecified_visual_details": [
       "The judgment-seat’s design and the location’s appearance are not specified."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And he selected a wise man who was among the elders of the church, and gave him power according to the voice of the people,",
+        "refs": [
+          "Alma 4:16"
+        ]
+      },
       {
         "text": "Now this man’s name was Nephihah, and he was appointed chief judge; and he sat in the judgment-seat to judge and to govern the people.",
         "refs": [
@@ -494,11 +500,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephihah receives the civil office, while Alma retains the office of high priest."
+      "Nephihah receives the civil office; Alma retains the office of high priest."
     ],
     "prohibited_inventions": [
       "Do not depict an unmentioned ceremony or crowd.",
-      "Do not give Nephihah the office of high priest."
+      "Do not give Nephihah the office of high priest.",
+      "Do not invent dialogue."
     ],
     "importance": "normal"
   },

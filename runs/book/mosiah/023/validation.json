@@ -1,5 +1,5 @@
 {
-  "stamp": "cc202e45658fe45f558983b50682bbc52ac1b3fa344b3e33125b14319cd172df",
+  "stamp": "0cae802223f710b7a872f4a84b0cd245a6a41dce17443e85cf73b6f1c6762e4b",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -60,13 +60,15 @@
       "issues": []
     },
     "scene_015": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_016": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary combines distinct movements into one scene; ensure the guards remain at Helam while the remainder go to Nephi, and show some returning later with the guards’ wives and children. The quoted narration is a direct excerpt from Mosiah 23:37."
+        "Summary says the Lamanites promise them “their lives and liberty,” which is accurate as reported, but does not supply direct dialogue; the narration appropriately quotes the source. “How the promise is conveyed” remains unspecified."
+      ]
+    },
+    "scene_016": {
+      "status": "REJECT",
+      "issues": [
+        "The note identifies Mormon as the narrator, but the supplied verses do not identify the narrator."
       ]
     },
     "scene_017": {

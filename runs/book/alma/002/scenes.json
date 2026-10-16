@@ -1,12 +1,12 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "Amlici seeks kingship",
+    "title": "Contention over Amlici",
     "refs": [
       "Alma 2:1",
       "Alma 2:2"
     ],
-    "summary": "At the commencement of the fifth year of their reign, contention begins among the people. Amlici draws many people after him, and they begin to seek to establish him as king.",
+    "summary": "At the commencement of the fifth year of their reign, contention begins among the people concerning Amlici. He draws many people after him, and they begin to endeavor to establish him as king.",
     "characters": [
       "Amlici",
       "Unnamed people drawn after Amlici"
@@ -16,7 +16,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Contention begins among the people at the commencement of the fifth year of their reign.",
+        "text": "Contention begins among the people at the commencement of the fifth year of their reign; the account identifies Amlici in explaining it.",
         "refs": [
           "Alma 2:1"
         ]
@@ -35,7 +35,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "A group of people near Amlici could visually suggest his growing support."
+      "A group of people near Amlici could suggest his growing support."
     ],
     "unspecified_visual_details": [
       "Amlici's appearance and clothing",
@@ -44,14 +44,14 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "there began to be a contention among the people",
+        "text": "there began to be a contention among the people; for a certain man, being called Amlici, he being a very cunning man",
         "refs": [
           "Alma 2:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "Amlici is described as cunning and wise according to the wisdom of the world. The reference to the man who slew Gideon concerns an earlier event, not an action in this scene."
+      "Amlici is described as wise according to the wisdom of the world. The reference to the man who slew Gideon concerns an earlier event, not an action in this scene."
     ],
     "prohibited_inventions": [
       "Do not depict Gideon's killing or the execution mentioned in Alma 2:1 as occurring in this scene.",
@@ -601,7 +601,7 @@
       "Alma 2:24",
       "Alma 2:25"
     ],
-    "summary": "On the morrow, the group returns to the Nephite camp in haste and fear. They report seeing a numerous Lamanite host joined by the Amlicites in Minon. They say their brethren are fleeing toward the city with their flocks and families, and warn that the city and their families are in danger if they do not hurry.",
+    "summary": "On the morrow, the group returns to the Nephite camp in haste and fear. They report seeing a numerous Lamanite host joined by the Amlicites in Minon. They report that their brethren are fleeing toward the city with their flocks and families, and warn of danger if they do not hurry.",
     "characters": [
       "Those who followed the camp of the Amlicites",
       "Nephites in the camp"
@@ -617,13 +617,13 @@
         ]
       },
       {
-        "text": "They say they followed the camp of the Amlicites and saw a numerous Lamanite host in Minon, which the Amlicites had joined.",
+        "text": "They report seeing a numerous Lamanite host in Minon and say the Amlicites have joined it.",
         "refs": [
           "Alma 2:24"
         ]
       },
       {
-        "text": "They say their brethren are fleeing toward the city with their flocks, wives, and children.",
+        "text": "They report that their brethren are fleeing toward the city with their flocks, wives, and children.",
         "refs": [
           "Alma 2:25"
         ]
@@ -658,7 +658,7 @@
         "speaker": "Those who followed the camp of the Amlicites"
       },
       {
-        "text": "except we make haste they obtain possession of our city,",
+        "text": "and except we make haste they obtain possession of our city,",
         "refs": [
           "Alma 2:25"
         ],
@@ -667,7 +667,7 @@
     ],
     "narration": [
       {
-        "text": "they returned into the camp of the Nephites in great haste,",
+        "text": "on the morrow they returned into the camp of the Nephites in great haste,",
         "refs": [
           "Alma 2:23"
         ]
@@ -675,7 +675,7 @@
     ],
     "doctrinal_or_story_notes": [
       "The events in Minon and the flight toward the city are reported at the camp, not shown as simultaneous action.",
-      "The supplied verses do not give the returning speakers’ personal names.",
+      "The supplied verses do not name the returning speakers; the proposed personal names cannot be used.",
       "Narration belongs to Mormon; the report belongs to the returning group.",
       "The warning describes a threatened outcome, not a completed capture or killing."
     ],
@@ -789,7 +789,7 @@
       "Alma 2:30",
       "Alma 2:31"
     ],
-    "summary": "Alma fights Amlici face to face with a sword. Alma cries to the Lord for mercy and asks to be an instrument to save and preserve the people. He then contends with Amlici again, is strengthened, and slays him with the sword.",
+    "summary": "Alma fights Amlici face to face with a sword. Alma cries to the Lord for mercy and asks that his life be spared so he can save and preserve the people. After speaking, Alma contends with Amlici again, is strengthened, and slays him with the sword.",
     "characters": [
       "Alma",
       "Amlici"
@@ -797,7 +797,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Alma fights Amlici face to face with a sword, and they contend mightily.",
+        "text": "Alma and Amlici fight face to face with a sword and contend mightily.",
         "refs": [
           "Alma 2:29"
         ]
@@ -809,14 +809,14 @@
         ]
       },
       {
-        "text": "After speaking, Alma contends with Amlici again, is strengthened, and slays Amlici with the sword.",
+        "text": "After speaking, Alma contends with Amlici again, is strengthened, and slays him with the sword.",
         "refs": [
           "Alma 2:31"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The combatants can be shown facing each other with swords during the fight."
+      "Alma and Amlici can be shown facing each other during their sword fight."
     ],
     "unspecified_visual_details": [
       "The combatants' clothing and appearance.",
@@ -831,7 +831,14 @@
         "speaker": "Alma"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "and he was strengthened, insomuch that he slew Amlici with the sword.",
+        "refs": [
+          "Alma 2:31"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
       "Alma's prayer occurs between the initial contention and his renewed contention with Amlici."
     ],

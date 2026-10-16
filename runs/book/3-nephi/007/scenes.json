@@ -368,7 +368,7 @@
       "3 Nephi 7:16",
       "3 Nephi 7:17"
     ],
-    "summary": "Grieved by the people's return to wickedness, Nephi goes among them in that same year and boldly testifies of repentance and remission of sins through faith on the Lord Jesus Christ. He ministers many things with power and great authority.",
+    "summary": "Grieved by the people's quick return to wickedness, Nephi goes among them in that same year and boldly testifies of repentance and remission of sins through faith on the Lord Jesus Christ. He ministers many things with power and great authority.",
     "characters": [
       "Nephi",
       "the people"
@@ -378,7 +378,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi had been visited by angels and the voice of the Lord, and had witnessed the people's quick return from righteousness to wickedness.",
+        "text": "Nephi had been visited by angels and the voice of the Lord and had witnessed the people's quick return from righteousness to wickedness.",
         "refs": [
           "3 Nephi 7:15"
         ]
@@ -400,29 +400,29 @@
       "Nephi may be shown addressing people as he testifies among them."
     ],
     "unspecified_visual_details": [
-      "The precise setting, audience size, clothing, and appearance of the people are unstated."
+      "The precise setting, audience size, clothing, and appearances are unstated."
     ],
     "spoken_dialogue": [],
     "narration": [
+      {
+        "text": "And it came to pass that Nephi—having been visited by angels and also the voice of the Lord,",
+        "refs": [
+          "3 Nephi 7:15"
+        ]
+      },
       {
         "text": "Therefore, being grieved for the hardness of their hearts and the blindness of their minds—went forth among them in that same year, and began to testify, boldly, repentance and remission of sins through faith on the Lord Jesus Christ.",
         "refs": [
           "3 Nephi 7:16"
         ]
-      },
-      {
-        "text": "And Nephi did minister with power and with great authority.",
-        "refs": [
-          "3 Nephi 7:17"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
       "The verses report the subject of Nephi's testimony, not his exact spoken words.",
-      "The visit by angels and the voice of the Lord occurred before this ministry; it is not a present event in this scene."
+      "The visit by angels and the voice of the Lord preceded this ministry; it is not a present event in this scene."
     ],
     "prohibited_inventions": [
-      "Do not invent words for Nephi's testimony or the many teachings left unwritten.",
+      "Do not invent words for Nephi's testimony or the teachings left unwritten.",
       "Do not depict angels or the Lord appearing during this scene."
     ],
     "importance": "normal"
@@ -480,12 +480,12 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "The people witness his power",
+    "title": "The people witness the raising",
     "refs": [
       "3 Nephi 7:19",
       "3 Nephi 7:20"
     ],
-    "summary": "A man raises his brother from the dead after the people have stoned him and he has died. The people see it and are angry with the man because of his power. He also performs many more miracles in their sight in the name of Jesus.",
+    "summary": "A man raises his brother from the dead after the people have stoned the brother and he has died. The people see it and are angry with the man because of his power.",
     "characters": [
       "the unnamed man",
       "his brother",
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "text": "He raised his brother from the dead after the people had stoned the brother and he had died.",
+        "text": "He raised his brother from the dead after the brother had been stoned and had died.",
         "refs": [
           "3 Nephi 7:19"
         ]
@@ -521,12 +521,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The man, his brother, and witnesses may be shown at the raising, without depicting how it occurs.",
+      "The man, his brother, and the people may be shown at the raising.",
       "The people's anger may be conveyed through their expressions."
     ],
     "unspecified_visual_details": [
       "The location, clothing, and appearances are not described.",
-      "The manner of the raising and the additional miracles are not described."
+      "The manner of the raising is not described."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -544,13 +544,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The stoning preceded the raising; do not combine them into one moment.",
-      "The verses do not state that the casting out occurred in the people's sight."
+      "The stoning and death preceded the raising; do not combine them into one moment.",
+      "The supplied verses do not name the man or his brother. They do not describe the additional miracles."
     ],
     "prohibited_inventions": [
-      "Do not name the man or his brother.",
-      "Do not depict wounds, blood, or supernatural visual effects.",
-      "Do not invent dialogue or specify the additional miracles."
+      "Do not name the man or his brother, including naming the man Nephi from outside the supplied verses.",
+      "Do not depict wounds, blood, or invented supernatural visual effects.",
+      "Do not invent dialogue or depict unspecified additional miracles."
     ],
     "importance": "normal"
   },

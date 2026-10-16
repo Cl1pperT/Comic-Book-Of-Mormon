@@ -533,48 +533,66 @@
     "refs": [
       "Moroni 7:26"
     ],
-    "summary": "Mormon teaches that after Christ came, people were saved by faith in his name and quotes Christ's promise about asking the Father in faith for what is good.",
-    "characters": [
-      "Mormon",
-      "the brethren"
-    ],
-    "locations": [
-      "synagogue"
-    ],
+    "summary": "The verse reports salvation through faith in Christ's name and becoming sons of God by faith. It quotes Christ's teaching about asking the Father in his name for what is good, with faith in receiving.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "After Christ came, people were saved by faith in his name and became sons of God.",
+        "text": "After Christ came, men were saved by faith in his name.",
         "refs": [
           "Moroni 7:26"
         ]
       },
       {
-        "text": "Christ spoke to the fathers, promising that what they ask the Father in his name, if good and asked in faith, would be done unto them.",
+        "text": "By faith, they become the sons of God.",
+        "refs": [
+          "Moroni 7:26"
+        ]
+      },
+      {
+        "text": "The verse reports that Christ spoke words to the fathers.",
+        "refs": [
+          "Moroni 7:26"
+        ]
+      },
+      {
+        "text": "Christ's quoted teaching promises fulfillment of requests to the Father in his name for what is good, made in faith believing they will receive.",
         "refs": [
           "Moroni 7:26"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mormon remains the visible speaker; Christ's words are quoted as reported speech."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The fathers addressed by Christ and the circumstances in which he spoke."
+      "No physical setting, visible appearance, or physically present audience is established."
     ],
-    "spoken_dialogue": [],
+    "spoken_dialogue": [
+      {
+        "text": "Whatsoever thing ye shall ask the Father in my name, which is good, in faith believing that ye shall receive, behold, it shall be done unto you.",
+        "refs": [
+          "Moroni 7:26"
+        ],
+        "speaker": "Christ"
+      }
+    ],
     "narration": [
       {
-        "text": "Whatsoever thing ye shall ask the Father in my name, which is good",
+        "text": "And after that he came men also were saved by faith in his name; and by faith, they become the sons of God.",
         "refs": [
           "Moroni 7:26"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports Christ's words; it does not depict Christ physically present in the synagogue."
+      "Christ's dialogue is a reported quotation, not an enacted conversation.",
+      "The characters list is empty because the verse establishes no physically present participants.",
+      "Becoming sons of God is a teaching, not a described visible transformation."
     ],
     "prohibited_inventions": [
-      "Do not stage Christ speaking to unnamed fathers as a new scene."
+      "Do not stage Christ's coming or his reported speech as a new present-tense event.",
+      "Do not invent a visible appearance of Christ or the Father.",
+      "Do not depict Moroni, the fathers, or men as physically present listeners.",
+      "Do not invent a setting, an answered request, or a visible transformation."
     ],
     "importance": "normal"
   },
@@ -795,60 +813,75 @@
       "Moroni 7:37",
       "Moroni 7:38"
     ],
-    "summary": "Mormon asks whether miracles, angelic appearances, and the power of the Holy Ghost have ceased, then answers that miracles and angelic ministry come by faith.",
+    "summary": "The discourse continues with questions about whether miracles and angels’ ministry have ceased. The answer affirms that miracles and angelic ministry occur by faith and that salvation requires faith in Christ’s name.",
     "characters": [
-      "Mormon",
-      "the brethren"
+      "Mormon (discourse speaker; not established as visibly present)"
     ],
-    "locations": [
-      "synagogue"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "Mormon asks whether God will show the truth with power and glory at the last day and whether the day of miracles has ceased.",
+        "text": "The speaker addresses his beloved brethren and asks whether the day of miracles has ceased.",
         "refs": [
           "Moroni 7:35"
         ]
       },
       {
-        "text": "He asks whether angels have ceased to appear and whether the Holy Ghost's power has been withheld while people remain to be saved.",
+        "text": "The speaker asks whether angels have ceased to appear and whether the power of the Holy Ghost has been withheld.",
         "refs": [
           "Moroni 7:36"
         ]
       },
       {
-        "text": "He answers no: miracles are wrought by faith, and angels appear and minister by faith; cessation would be because of unbelief.",
+        "text": "The speaker answers no, teaches that miracles and angelic ministry occur by faith, and attributes their cessation, conditionally, to unbelief.",
         "refs": [
           "Moroni 7:37"
         ]
       },
       {
-        "text": "Mormon says salvation requires faith in Christ's name, and without faith people would be as though there had been no redemption.",
+        "text": "According to the words of Christ cited in the discourse, salvation requires faith in his name.",
         "refs": [
           "Moroni 7:38"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Mormon speaks through a sequence of questions and answers."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "Any miracle, angelic appearance, or manifestation of the Holy Ghost."
+      "No physical setting, visible audience, speaker appearance, clothing, gestures, or staging is specified."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Behold I say unto you, Nay",
+        "text": "has the day of miracles ceased?",
+        "refs": [
+          "Moroni 7:35"
+        ],
+        "speaker": "Mormon"
+      },
+      {
+        "text": "Or have angels ceased to appear unto the children of men?",
+        "refs": [
+          "Moroni 7:36"
+        ],
+        "speaker": "Mormon"
+      },
+      {
+        "text": "Behold I say unto you, Nay; for it is by faith that miracles are wrought; and it is by faith that angels appear and minister unto men;",
         "refs": [
           "Moroni 7:37"
-        ]
+        ],
+        "speaker": "Mormon"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The questions and general claims do not narrate a specific miracle or appearance."
+      "Treat this as a continuation of Mormon’s discourse, not a newly staged physical event or a change to Moroni speaking. Moroni’s narrator identity does not establish his visible presence.",
+      "Questions and teachings about miracles, angels, the Holy Ghost, the last day, and redemption do not narrate visible occurrences here.",
+      "Christ’s words are cited within the discourse; Christ is not established as physically present."
     ],
     "prohibited_inventions": [
-      "Do not stage miracles, angels, or the Holy Ghost as visible events."
+      "Do not stage Moroni or Mormon visibly addressing a newly invented gathering.",
+      "Do not depict angels, miracles, divine appearances, or last-day events as occurring here.",
+      "Do not portray the conditional cessation of miracles or faith as an event that has occurred.",
+      "Do not invent a location, audience composition, additional speakers, or dialogue."
     ],
     "importance": "normal"
   },

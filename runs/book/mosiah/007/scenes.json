@@ -6,7 +6,7 @@
       "Mosiah 7:1",
       "Mosiah 7:2"
     ],
-    "summary": "After three years of continual peace, Mosiah wants to know about the people who went to Lehi-Nephi. His people have heard nothing from them since they left Zarahemla and weary him with their teasings. Mosiah grants permission for sixteen strong men to go and inquire about their brethren.",
+    "summary": "After three years of continual peace, Mosiah wants to know about the people who went to dwell in the land or city of Lehi-Nephi. His people have heard nothing from them since they left Zarahemla and weary him with their teasings. Mosiah grants that sixteen strong men may go to Lehi-Nephi to inquire about their brethren.",
     "characters": [
       "King Mosiah",
       "His people (unnamed)"
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "text": "He wanted to know about the people who went to dwell in the land or city of Lehi-Nephi.",
+        "text": "Mosiah wanted to know about the people who went to dwell in the land or city of Lehi-Nephi.",
         "refs": [
           "Mosiah 7:1"
         ]
@@ -32,7 +32,7 @@
         ]
       },
       {
-        "text": "Mosiah granted that sixteen of their strong men might go to Lehi-Nephi to inquire about their brethren.",
+        "text": "Mosiah granted that sixteen strong men might go to Lehi-Nephi to inquire about their brethren.",
         "refs": [
           "Mosiah 7:2"
         ]
@@ -47,7 +47,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "his people had heard nothing from them from the time they left the land of Zarahemla; therefore, they wearied him with their teasings.",
+        "text": "king Mosiah had had continual peace for the space of three years, he was desirous to know concerning the people who went up to dwell in the land of Lehi-Nephi, or in the city of Lehi-Nephi;",
         "refs": [
           "Mosiah 7:1"
         ]
@@ -64,7 +64,7 @@
     ],
     "prohibited_inventions": [
       "Do not depict the sixteen men setting out or arriving in Lehi-Nephi.",
-      "Do not identify Mosiah's people by an unsupplied group name or invent their words.",
+      "Do not invent words spoken by Mosiah or his people.",
       "Do not depict the people in Lehi-Nephi as present with Mosiah."
     ],
     "importance": "normal"
@@ -866,14 +866,15 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "The Slain Prophet Recounted",
+    "title": "Limhi Recounts the Slain Prophet",
     "refs": [
       "Mosiah 7:26",
       "Mosiah 7:27",
       "Mosiah 7:28"
     ],
-    "summary": "A prophet was slain after condemning wickedness and abominations and prophesying of Christ's coming. He taught that Christ was God and would take upon himself the image of man, flesh and blood. Those who killed him also did other things that brought God's wrath upon them; their bondage and afflictions are recounted.",
+    "summary": "Limhi recounts that a prophet was slain after telling the people of their wickedness and prophesying of Christ. He reports the prophet’s teachings about Christ and says the people put him to death because of them. He also recounts their other deeds, bondage, and afflictions.",
     "characters": [
+      "Limhi (speaker)",
       "Unnamed prophet (mentioned only)",
       "Christ (mentioned only)",
       "Unnamed people who killed the prophet (mentioned only)"
@@ -881,52 +882,63 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "A prophet of the Lord, described as a chosen man of God, was slain after telling people of their wickedness and abominations and prophesying of coming events, including Christ's coming.",
+        "text": "A prophet of the Lord, called a chosen man of God, was slain. He told the people of their wickedness and abominations and prophesied of Christ’s coming.",
         "refs": [
           "Mosiah 7:26"
         ]
       },
       {
-        "text": "The prophet taught that Christ was God, the Father of all things; that man was created after God's image; and that God would come among humankind, taking flesh and blood and going forth upon the earth.",
+        "text": "The prophet said that Christ was God, the Father of all things, and taught that God would take upon himself the image of man and flesh and blood.",
         "refs": [
           "Mosiah 7:27"
         ]
       },
       {
-        "text": "The people put the prophet to death because of this teaching and did many other things that brought God's wrath upon them. Their bondage and sore afflictions are stated.",
+        "text": "The people put the prophet to death because of what he said. Limhi also speaks of their other deeds, bondage, and sore afflictions.",
         "refs": [
           "Mosiah 7:28"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A non-dramatized presentation can preserve the retrospective account without depicting the reported events as present action."
+      "The retrospective account can be presented as Limhi’s labeled speech without depicting the reported events as present action."
     ],
     "unspecified_visual_details": [
-      "No narrator or speaker is identified in these verses.",
-      "No present setting, audience, clothing, or physical appearances are specified.",
-      "The prophet's name, method of execution, and circumstances of death are unspecified."
+      "The prophet’s name, appearance, and manner of death are not supplied.",
+      "No setting or physical appearance for Limhi is supplied in these verses."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "And a prophet of the Lord have they slain; yea, a chosen man of God, who told them of their wickedness and abominations, and prophesied of many things which are to come, yea, even the coming of Christ.",
+        "text": "And a prophet of the Lord have they slain;",
         "refs": [
           "Mosiah 7:26"
-        ]
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "And because he said unto them that Christ was the God, the Father of all things,",
+        "refs": [
+          "Mosiah 7:27"
+        ],
+        "speaker": "Limhi"
+      },
+      {
+        "text": "And now, because he said this, they did put him to death;",
+        "refs": [
+          "Mosiah 7:28"
+        ],
+        "speaker": "Limhi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The prophet's teachings and death are reported retrospectively, not narrated as present action.",
-      "Statements about Christ are reported teachings, not an account of a visible divine appearance.",
-      "The supplied verses do not establish an on-screen speaker."
+      "Limhi reports the prophet’s teachings and death retrospectively.",
+      "The statements about Christ do not describe a visible appearance in this scene."
     ],
     "prohibited_inventions": [
-      "Do not identify or visibly introduce a speaker or audience.",
-      "Do not name the prophet or the people who killed him.",
-      "Do not stage the prophet's teaching, death, or the people's other deeds as a new present-tense scene.",
-      "Do not depict Christ or God appearing, or literalize divine wrath as a visible supernatural event.",
-      "Do not invent a location, execution method, or specific manifestations of bondage and affliction."
+      "Do not stage the prophet’s teaching or death as present action.",
+      "Do not depict Christ or God appearing.",
+      "Do not invent the prophet’s name, an execution method, or specific manifestations of divine wrath, bondage, or affliction."
     ],
     "importance": "normal"
   },

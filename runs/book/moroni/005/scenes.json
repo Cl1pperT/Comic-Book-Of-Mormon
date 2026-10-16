@@ -6,45 +6,46 @@
       "Moroni 5:1",
       "Moroni 5:2"
     ],
-    "summary": "They take the cup and say a prayer asking God to bless and sanctify the wine for those who drink it in remembrance of Jesus Christ.",
+    "summary": "Moroni records the manner of administering the wine: an unnamed group took the cup and addressed God in prayer, asking that the wine be blessed and sanctified for those who drink in remembrance of his Son.",
     "characters": [
-      "The administering group"
+      "Unnamed group administering the wine",
+      "Moroni (narrator)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "They took the cup and said the prayer.",
+        "text": "An unnamed group took the cup and spoke.",
         "refs": [
-          "Moroni 5:1",
-          "Moroni 5:2"
+          "Moroni 5:1"
         ]
       },
       {
-        "text": "The prayer asks God to bless and sanctify the wine to the souls of all who drink it.",
-        "refs": [
-          "Moroni 5:2"
-        ]
-      },
-      {
-        "text": "The prayer says the wine is drunk in remembrance of the blood of God's Son, shed for them.",
+        "text": "The prayer addresses God, the Eternal Father, in the name of his Son, Jesus Christ.",
         "refs": [
           "Moroni 5:2"
         ]
       },
       {
-        "text": "The prayer asks that they always remember him and have his Spirit with them.",
+        "text": "The prayer asks that the wine be blessed and sanctified to the souls of those who drink it in remembrance of the blood of God's Son, shed for them.",
+        "refs": [
+          "Moroni 5:2"
+        ]
+      },
+      {
+        "text": "The prayer asks that those who drink witness that they always remember God's Son, that they may have his Spirit with them.",
         "refs": [
           "Moroni 5:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The administering group is visible holding a cup as the prayer is spoken."
+      "A cup may serve as a visual focus for the recorded manner of administration."
     ],
     "unspecified_visual_details": [
-      "The group's identities and number, their appearance, the cup's design, and the setting are unspecified."
+      "The group's number, identities, offices, clothing, and appearance are unspecified.",
+      "The setting and the cup's material, size, and design are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -52,22 +53,35 @@
         "refs": [
           "Moroni 5:2"
         ],
-        "speaker": "The administering group"
+        "speaker": "Unnamed group administering the wine"
+      },
+      {
+        "text": "that they do always remember him, that they may have his Spirit to be with them. Amen.",
+        "refs": [
+          "Moroni 5:2"
+        ],
+        "speaker": "Unnamed group administering the wine"
       }
     ],
     "narration": [
       {
-        "text": "The manner of administering the wine—",
+        "text": "Behold, they took the cup, and said:",
         "refs": [
           "Moroni 5:1"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The prayer is the prescribed manner of administering the wine."
+      "Preserve this as Moroni's report of the manner of administering wine, not a newly invented present-tense ceremony.",
+      "Moroni is the narrator, not an identified participant in the reported administration.",
+      "The dialogue excerpts are portions of the supplied prayer, not its complete text."
     ],
     "prohibited_inventions": [
-      "Do not depict Jesus Christ or a visible shedding of blood; these are referenced in the prayer, not narrated as visible events."
+      "Do not identify the unnamed group as elders or priests.",
+      "Do not invent individual speakers or assign the prayer to Moroni.",
+      "Do not depict God, Jesus Christ, or the Spirit as visibly present.",
+      "Do not depict the shedding of Christ's blood as an event in this scene.",
+      "Do not add drinking, distribution of wine, or a visible answer to the prayer; these actions are not narrated."
     ],
     "importance": "normal"
   }

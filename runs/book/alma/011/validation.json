@@ -1,5 +1,5 @@
 {
-  "stamp": "4146c25b2128febf9e776c7d698ab3c86d65fa476ba2fc00bc6bc689b4f6b6c4",
+  "stamp": "9467cab7d9db275ac8875337c03e2400424a730991a35be54bd16bcbd5c99af0",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -38,12 +38,18 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpt “I say unto you he shall not,” is an incomplete clause from Alma 11:34; the supplied verse continues “for it is impossible for him to deny his word.” The scene’s dialogue omits that continuation.",
+        "The summaries and facts omit the explicit reason Amulek gives for his answer—that it is impossible for the Son to deny his word (Alma 11:34)."
+      ]
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The dialogue excerpts are verbatim and the summary stays within the supplied events. The phrase “Amulek teaches” is supported by his speech, but the chapter gives no physical setting or appearance; keep the scene visually limited to the exchange between Zeezrom and Amulek.",
+        "The preceding scene’s summary says Amulek “continues his answer,” which is consistent with the next exchange, but the scenes should remain separate in sequence."
+      ]
     },
     "scene_010": {
       "status": "PASS WITH WARNINGS",

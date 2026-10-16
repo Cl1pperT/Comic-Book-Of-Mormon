@@ -1,5 +1,5 @@
 {
-  "stamp": "8094198314f3a7f7e6f202121011ecbbfbe148207cafbcce218067ee7a67b391",
+  "stamp": "3d572024fb1706e3a2a014c8298b85de91a6b7fcf1f47f22a477b92a6adc2df8",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -36,11 +36,8 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The scene is broadly faithful. Lehi is not named in these verses; the identification relies on continuity from the preceding scene.",
-        "“Addressees” is a generic label, but the surrounding verses identify them as his sons (2 Nephi 1:19–21)."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_010": {
       "status": "PASS",

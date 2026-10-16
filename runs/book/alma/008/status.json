@@ -5,16 +5,22 @@
   "scenes": 18,
   "counts": {
     "PASS": 3,
-    "PASS WITH WARNINGS": 15,
-    "REJECT": 0
+    "PASS WITH WARNINGS": 14,
+    "REJECT": 1
   },
-  "rejected": {},
-  "calls": 22,
+  "rejected": {
+    "scene_018": [
+      "Scene order reverses the supplied chronology: scene_017 includes Alma 8:32, which follows this scene’s Alma 8:31.",
+      "The supplied verses identify “they” through the preceding reference to Alma and Amulek; treating them as unidentified is inaccurate.",
+      "The supplied verses do not identify Mormon as the narrator."
+    ]
+  },
+  "calls": 62,
   "tokens": {
-    "input_tokens": 164089,
-    "cached_input_tokens": 83712,
+    "input_tokens": 283339,
+    "cached_input_tokens": 138112,
     "cache_write_input_tokens": 0,
-    "output_tokens": 21438,
-    "reasoning_output_tokens": 7413
+    "output_tokens": 27420,
+    "reasoning_output_tokens": 10007
   }
 }

@@ -1,5 +1,5 @@
 {
-  "stamp": "fd3b93eb57078213b0dcd56fa38892d2713b809618a9de70a2610e0552c88b42",
+  "stamp": "66171f839b85f32743623858645927763f5bd9267f2cf7fac037f60379978e19",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -8,8 +8,10 @@
       ]
     },
     "scene_002": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken quotation ends with a semicolon, but the supplied verse continues with additional speech; use the complete quotation or a contiguous exact excerpt that does not imply it is the whole statement."
+      ]
     },
     "scene_003": {
       "status": "PASS",
@@ -20,10 +22,8 @@
       "issues": []
     },
     "scene_005": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The verses report Lehi’s words through Nephi but do not specify the setting or establish where Nephi and Lehi are physically present; depicting them together is an uncertain visual choice."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_006": {
       "status": "PASS",

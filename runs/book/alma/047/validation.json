@@ -1,5 +1,5 @@
 {
-  "stamp": "7c9e6fd12641008a33e71b11b5826cb82b7cc777322013e4e0db9277a95ade25",
+  "stamp": "51148476ac1355b6d5fac353b03d6bfd1d7e62af12959fd8b886329a22476fe4",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -44,8 +44,10 @@
       "issues": []
     },
     "scene_011": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The facts and quoted narration are supported and within the word limit. The unspecified-location entry is accurate, but the scene leaves the poisoning method, appearances, and staging open; depict poisoning and appointment as separate moments, without inventing symptoms or dialogue."
+      ]
     },
     "scene_012": {
       "status": "PASS",

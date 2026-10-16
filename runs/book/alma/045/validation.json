@@ -1,5 +1,5 @@
 {
-  "stamp": "9debc93229fff715b13893db6551b832221944d7a275546b7647a35d90458fc2",
+  "stamp": "b4e82d480b5ebf136a703d934a659b4375f17b3c1638580453766be64f963c73",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,7 +30,7 @@
     "scene_007": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The supplied context identifies Helaman as the addressee (Alma 45:15), contrary to the unspecified-details and prohibited-inventions notes. The scene does not depict or name a different addressee."
+        "The claim that the addressee is unidentified is incorrect: Alma 45:15 identifies Helaman as the person Alma addressed. Depicting Helaman as the addressee would not be an invention."
       ]
     },
     "scene_008": {

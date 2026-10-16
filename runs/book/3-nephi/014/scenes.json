@@ -591,60 +591,61 @@
   },
   {
     "scene_id": "scene_011",
-    "title": "The House Founded on Sand",
+    "title": "The House Upon the Sand",
     "refs": [
       "3 Nephi 14:26",
       "3 Nephi 14:27"
     ],
-    "summary": "Jesus likens one who hears but does not do his sayings to a foolish man who builds a house upon sand; rain, floods, and winds beat upon it, and it falls greatly.",
+    "summary": "Jesus likens one who hears his sayings but does not do them to a foolish man who built a house upon sand. In the comparison, rain, floods, and winds beat upon the house, and it falls.",
     "characters": [
       "Jesus Christ (at Bountiful)",
-      "the multitude"
+      "a foolish man in the comparison"
     ],
     "locations": [
-      "Unspecified location"
+      "No actual location specified; the house upon sand is part of the comparison"
     ],
     "explicit_facts": [
       {
-        "text": "Jesus likens one who hears but does not do his sayings to a foolish man who built a house upon sand.",
+        "text": "Jesus likens one who hears his sayings but does not do them to a foolish man who built his house upon sand.",
         "refs": [
           "3 Nephi 14:26"
         ]
       },
       {
-        "text": "Rain, floods, and winds beat upon the house, and it falls, with a great fall.",
+        "text": "In the comparison, rain, floods, and winds beat upon the house, and it falls.",
         "refs": [
           "3 Nephi 14:27"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Jesus continues teaching the multitude; the house comparison may be represented as illustrative imagery."
+      "The house and storm may be shown as illustrative imagery for Jesus’s comparison, not as a separately occurring event."
     ],
     "unspecified_visual_details": [
-      "The foolish man’s appearance, the house’s design, and the landscape are not specified."
+      "The man’s appearance, the house’s design, and the surrounding landscape are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "every one that heareth these sayings of mine and doeth them not",
+        "text": "And every one that heareth these sayings of mine and doeth them not shall be likened unto a foolish man, who built his house upon the sand—",
         "refs": [
           "3 Nephi 14:26"
         ],
         "speaker": "Jesus Christ (at Bountiful)"
-      }
-    ],
-    "narration": [
+      },
       {
-        "text": "and the winds blew, and beat upon that house; and it fell,",
+        "text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell, and great was the fall of it.",
         "refs": [
           "3 Nephi 14:27"
-        ]
+        ],
+        "speaker": "Jesus Christ (at Bountiful)"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The house comparison is introduced as a likeness in Jesus’s teaching."
+      "The house’s fall is part of a spoken comparison, not a separately narrated event. Present the comparison before its outcome."
     ],
     "prohibited_inventions": [
+      "Do not depict the comparison as an actual event occurring before Jesus speaks.",
       "Do not invent occupants, injuries, or additional destruction."
     ],
     "importance": "normal"

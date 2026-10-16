@@ -177,12 +177,12 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "Nephi's answer and his father's gladness",
+    "title": "Nephi's answer and Lehi's gladness",
     "refs": [
       "1 Nephi 3:7",
       "1 Nephi 3:8"
     ],
-    "summary": "Nephi tells his father he will do what the Lord has commanded. After hearing him, his father is exceedingly glad and knows Nephi has been blessed of the Lord.",
+    "summary": "Nephi tells his father, Lehi, that he will do what the Lord has commanded. After hearing Nephi's words, Lehi is exceedingly glad.",
     "characters": [
       "Nephi",
       "Lehi"
@@ -190,7 +190,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi tells his father he will do what the Lord has commanded and says the Lord prepares a way to accomplish his commandments.",
+        "text": "Nephi tells his father he will do what the Lord has commanded and says the Lord prepares a way for people to accomplish his commandments.",
         "refs": [
           "1 Nephi 3:7"
         ]
@@ -219,7 +219,7 @@
     ],
     "narration": [
       {
-        "text": "he was exceedingly glad, for he knew that I had been blessed of the Lord.",
+        "text": "when my father had heard these words he was exceedingly glad",
         "refs": [
           "1 Nephi 3:8"
         ]
@@ -227,10 +227,10 @@
     ],
     "doctrinal_or_story_notes": [
       "Nephi's statement about the Lord preparing a way is his spoken belief, not a narrated visible event.",
-      "Verse 8 is Nephi's narration, not words spoken by his father."
+      "Verse 8 is Nephi's narration, not Lehi's dialogue."
     ],
     "prohibited_inventions": [
-      "Do not give Nephi's father dialogue.",
+      "Do not give Lehi dialogue.",
       "Do not depict a miraculous path or a visible divine appearance."
     ],
     "importance": "normal"
@@ -242,7 +242,7 @@
       "1 Nephi 3:9",
       "1 Nephi 3:10"
     ],
-    "summary": "Nephi and his brethren journey through the wilderness with their tents to the land of Jerusalem. After arriving, they consult one another.",
+    "summary": "Nephi and his brethren journey through the wilderness with their tents to the land of Jerusalem. After they have gone up to the land of Jerusalem, they consult one another.",
     "characters": [
       "Nephi",
       "Nephi's brethren"
@@ -253,20 +253,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "Nephi and his brethren journeyed through the wilderness with their tents to the land of Jerusalem.",
+        "text": "Nephi and his brethren journeyed through the wilderness with their tents to go up to the land of Jerusalem.",
         "refs": [
           "1 Nephi 3:9"
         ]
       },
       {
-        "text": "After they had gone up to the land of Jerusalem, Nephi and his brethren consulted one another.",
+        "text": "After going up to the land of Jerusalem, Nephi and his brethren consulted one another.",
         "refs": [
           "1 Nephi 3:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The journey and consultation can be shown as successive moments, not as simultaneous actions."
+      "The journey and consultation can be shown as successive moments, not simultaneous actions."
     ],
     "unspecified_visual_details": [
       "The route, the tents' appearance, and the precise place of consultation are unspecified."
@@ -274,7 +274,13 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I and my brethren did consult one with another.",
+        "text": "And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of Jerusalem.",
+        "refs": [
+          "1 Nephi 3:9"
+        ]
+      },
+      {
+        "text": "And it came to pass that when we had gone up to the land of Jerusalem, I and my brethren did consult one with another.",
         "refs": [
           "1 Nephi 3:10"
         ]
@@ -370,7 +376,7 @@
       "1 Nephi 3:13",
       "1 Nephi 3:14"
     ],
-    "summary": "Laban angrily thrusts Laman out, refuses to let him have the records, and threatens to kill him. Laman flees and tells the others what Laban did. They become exceedingly sorrowful, and Nephi's brethren are about to return to their father in the wilderness.",
+    "summary": "Laban angrily thrusts Laman out, refuses him the records, and threatens to kill him. Laman flees and tells the others what Laban did. They become exceedingly sorrowful, and Nephi's brethren are about to return to their father in the wilderness.",
     "characters": [
       "Laban",
       "Laman",
@@ -436,7 +442,7 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The first-person narrator is Nephi. Laman's report is described, but its words are not supplied."
+      "The first-person narrator is Nephi. Present Laban's verse 13 threat before the verse 14 narration of Laman's flight. Laman's report is described, but its words are not supplied."
     ],
     "prohibited_inventions": [
       "Do not depict Laban carrying out his threat.",

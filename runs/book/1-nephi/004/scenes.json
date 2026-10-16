@@ -196,24 +196,24 @@
         ]
       },
       {
-        "text": "As Nephi came near Laban’s house, he saw a man fallen to the earth because he was drunken with wine.",
+        "text": "Near Laban’s house, Nephi saw a man fallen to the earth because he was drunken with wine.",
         "refs": [
           "1 Nephi 4:7"
         ]
       },
       {
-        "text": "Nephi came to the man and found that it was Laban.",
+        "text": "Nephi came to the man and found that he was Laban.",
         "refs": [
           "1 Nephi 4:8"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi approaches the fallen man near Laban’s house."
+      "Nephi approaches Laban where he has fallen near the house."
     ],
     "unspecified_visual_details": [
-      "How the Spirit’s leading is visually represented",
-      "The precise surroundings and time"
+      "The precise surroundings and time",
+      "Nephi’s and Laban’s appearances"
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -221,6 +221,12 @@
         "text": "And I was led by the Spirit, not knowing beforehand the things which I should do.",
         "refs": [
           "1 Nephi 4:6"
+        ]
+      },
+      {
+        "text": "Nevertheless I went forth, and as I came near unto the house of Laban I beheld a man, and he had fallen to the earth before me, for he was drunken with wine.",
+        "refs": [
+          "1 Nephi 4:7"
         ]
       },
       {
@@ -475,12 +481,12 @@
   },
   {
     "scene_id": "scene_007",
-    "title": "Nephi obeys the Spirit",
+    "title": "Nephi takes Laban’s garments",
     "refs": [
       "1 Nephi 4:18",
       "1 Nephi 4:19"
     ],
-    "summary": "Nephi takes Laban by the hair and smites off his head with Laban’s sword. Afterward, Nephi takes Laban’s garments, puts them on, and girds on Laban’s armor.",
+    "summary": "Nephi obeys the voice of the Spirit, takes Laban by the hair, and smites off his head with Laban’s sword. Afterward, Nephi puts on all of Laban’s garments and girds on his armor.",
     "characters": [
       "Nephi",
       "Laban"
@@ -488,23 +494,24 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi obeys the voice of the Spirit, takes Laban by the hair of the head, and smites off his head with his own sword.",
+        "text": "Nephi obeys the voice of the Spirit, takes Laban by the hair of the head, and smites off his head with Laban’s own sword.",
         "refs": [
           "1 Nephi 4:18"
         ]
       },
       {
-        "text": "Afterward, Nephi takes Laban’s garments, puts them on, and girds on Laban’s armor about his loins.",
+        "text": "Afterward, Nephi puts on Laban’s garments, even every whit, and girds on Laban’s armor about his loins.",
         "refs": [
           "1 Nephi 4:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The explicitly described action can be depicted without gore; Nephi wears Laban’s garments and armor afterward."
+      "The combat action may be shown without gore.",
+      "Nephi is wearing Laban’s garments and armor after putting them on."
     ],
     "unspecified_visual_details": [
-      "The setting and the exact appearance of the garments, armor, and sword are unspecified."
+      "The setting and the exact appearance of the sword, garments, and armor are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -513,25 +520,32 @@
         "refs": [
           "1 Nephi 4:18"
         ]
+      },
+      {
+        "text": "I took the garments of Laban and put them upon mine own body; yea, even every whit; and I did gird on his armor about my loins.",
+        "refs": [
+          "1 Nephi 4:19"
+        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The killing and subsequent change of clothing are sequential events; do not combine them into one moment."
+      "Nephi puts on the garments and armor after the blow, not during it."
     ],
     "prohibited_inventions": [
-      "Do not depict gore, blood, or severed body parts.",
-      "Do not invent a visible appearance for the Spirit."
+      "Do not depict wounds, blood, or severed body parts.",
+      "Do not invent a visible appearance or spoken words for the Spirit.",
+      "Do not add later events or characters not present in these verses."
     ],
     "importance": "major"
   },
   {
     "scene_id": "scene_008",
-    "title": "Nephi approaches the treasury",
+    "title": "Nephi approaches Laban’s treasury",
     "refs": [
       "1 Nephi 4:20",
       "1 Nephi 4:21"
     ],
-    "summary": "Nephi goes toward Laban’s treasury, sees Laban’s servant with the treasury keys, and commands him in Laban’s voice to go with him into the treasury. Seeing the garments and sword, the servant supposes Nephi is Laban.",
+    "summary": "Nephi goes toward Laban’s treasury and sees Laban’s servant with the treasury keys. Nephi commands him in Laban’s voice to go with him into the treasury. The servant sees the garments and sword girded about Nephi’s loins and supposes Nephi is Laban.",
     "characters": [
       "Nephi",
       "Laban’s servant"
@@ -553,40 +567,56 @@
         ]
       },
       {
-        "text": "The servant supposes Nephi is Laban after seeing the garments and the sword girded about Nephi’s loins.",
+        "text": "The servant sees the garments and sword girded about Nephi’s loins and supposes Nephi is Laban.",
         "refs": [
           "1 Nephi 4:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi is wearing the garments seen by the servant.",
-      "The servant carries the treasury keys."
+      "Nephi and the servant are within sight of one another near the treasury.",
+      "The servant has the keys with him."
     ],
     "unspecified_visual_details": [
       "The treasury’s architecture and contents",
-      "Nephi’s and the servant’s appearance beyond the stated garments and sword",
+      "The characters’ appearances beyond the stated garments and sword",
       "The servant’s exact position"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "I saw the servant of Laban who had the keys of the treasury.",
+        "text": "And as I went forth towards the treasury of Laban, behold, I saw the servant of Laban who had the keys of the treasury.",
         "refs": [
           "1 Nephi 4:20"
         ]
+      },
+      {
+        "text": "And I commanded him in the voice of Laban, that he should go with me into the treasury.",
+        "refs": [
+          "1 Nephi 4:20"
+        ]
+      },
+      {
+        "text": "And he supposed me to be his master, Laban,",
+        "refs": [
+          "1 Nephi 4:21"
+        ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The first-person narrator is Nephi. The words of his command are not supplied."
+    ],
     "prohibited_inventions": [
-      "Do not invent the words of Nephi’s command; it is reported indirectly.",
-      "Do not depict Nephi as physically transformed into Laban."
+      "Do not invent the words of Nephi’s command.",
+      "Do not depict Nephi as physically transformed into Laban.",
+      "Do not show the servant entering the treasury; these verses do not say that he does.",
+      "Do not depict the preceding action mentioned in the audit; it is outside the supplied verses."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "The servant follows the narrator",
+    "title": "The servant follows Nephi",
     "refs": [
       "1 Nephi 4:22",
       "1 Nephi 4:23",
@@ -594,56 +624,56 @@
       "1 Nephi 4:25",
       "1 Nephi 4:26"
     ],
-    "summary": "Laban’s servant speaks to the narrator about the elders of the Jews. The narrator speaks as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids the servant follow him. The servant supposes the narrator is Laban and follows him.",
+    "summary": "Laban’s servant speaks to Nephi about the elders of the Jews. Nephi speaks as if he were Laban, says he should carry the engravings on the brass plates to his elder brethren outside the walls, and bids the servant follow him. The servant supposes Nephi is Laban and follows him.",
     "characters": [
-      "The first-person narrator",
+      "Nephi",
       "Laban’s servant"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The servant speaks to the narrator concerning the elders of the Jews and knows that Laban had been out among them by night.",
+        "text": "The servant speaks to Nephi concerning the elders of the Jews, knowing that Laban had been out among them by night.",
         "refs": [
           "1 Nephi 4:22"
         ]
       },
       {
-        "text": "The narrator speaks to him as if he were Laban.",
+        "text": "Nephi speaks to the servant as if he were Laban.",
         "refs": [
           "1 Nephi 4:23"
         ]
       },
       {
-        "text": "The narrator says he should carry the engravings on the brass plates to his elder brethren, who are outside the walls.",
+        "text": "Nephi says he should carry the engravings on the brass plates to his elder brethren, who are outside the walls.",
         "refs": [
           "1 Nephi 4:24"
         ]
       },
       {
-        "text": "The narrator bids him follow.",
+        "text": "Nephi bids the servant follow him.",
         "refs": [
           "1 Nephi 4:25"
         ]
       },
       {
-        "text": "The servant supposes the narrator means the brethren of the church and is truly Laban, whom the narrator had slain; he follows the narrator.",
+        "text": "The servant supposes Nephi means the brethren of the church and is Laban, whom Nephi had slain; the servant follows Nephi.",
         "refs": [
           "1 Nephi 4:26"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The narrator and servant converse before the servant follows him."
+      "Nephi and the servant converse before the servant follows him."
     ],
     "unspecified_visual_details": [
       "The encounter’s exact location",
-      "The speakers’ appearances and clothing",
+      "Nephi’s and the servant’s appearances and clothing",
       "The route they take"
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And he spake unto me concerning the elders of the Jews,",
+        "text": "concerning the elders of the Jews,",
         "refs": [
           "1 Nephi 4:22"
         ]
@@ -655,7 +685,7 @@
         ]
       },
       {
-        "text": "the engravings, which were upon the plates of brass,",
+        "text": "And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls.",
         "refs": [
           "1 Nephi 4:24"
         ]
@@ -679,9 +709,10 @@
       "The servant’s supposition is reported, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not invent dialogue for either speaker.",
-      "Do not depict Laban, the elders, or the elder brethren as present in this encounter.",
-      "Do not add a treasury entry or specify the encounter’s location or route."
+      "Do not invent dialogue for Nephi or the servant.",
+      "Do not depict Laban, the elders, or Nephi’s elder brethren as present in this encounter.",
+      "Do not depict Nephi obtaining the plates in this scene.",
+      "Do not specify the encounter’s location or route."
     ],
     "importance": "normal"
   },
@@ -693,51 +724,51 @@
       "1 Nephi 4:28",
       "1 Nephi 4:29"
     ],
-    "summary": "As the narrator goes toward his brothers outside the walls, an unidentified man speaks to him many times concerning the elders of the Jews. Laman, Lemuel, and Sam see the narrator, become frightened, and flee, supposing he is Laban. The narrator calls after them; they hear him and stop fleeing.",
+    "summary": "As Nephi goes toward his brothers outside the walls, an unidentified man repeatedly speaks to him concerning the elders of the Jews. Laman, Lemuel, and Sam see Nephi and flee, supposing he is Laban, that Laban has slain Nephi, and that Laban seeks to take their lives. Nephi calls after them; they hear him and stop fleeing.",
     "characters": [
-      "First-person narrator",
+      "Nephi",
       "Laman",
       "Lemuel",
       "Sam",
-      "Unidentified man who speaks to the narrator"
+      "Unidentified man"
     ],
     "locations": [
       "Outside the walls"
     ],
     "explicit_facts": [
       {
-        "text": "An unidentified man spoke to the narrator many times concerning the elders of the Jews as the narrator went toward his brothers, who were outside the walls.",
+        "text": "An unidentified man speaks to Nephi many times concerning the elders of the Jews as Nephi goes toward his brothers outside the walls.",
         "refs": [
           "1 Nephi 4:27"
         ]
       },
       {
-        "text": "When Laman saw the narrator, Laman was exceedingly frightened; Lemuel and Sam were also frightened.",
+        "text": "Laman is exceedingly frightened when he sees Nephi; Lemuel and Sam are also frightened.",
         "refs": [
           "1 Nephi 4:28"
         ]
       },
       {
-        "text": "They fled because they supposed the narrator was Laban and supposed Laban had slain him and sought to take their lives.",
+        "text": "The brothers flee because they suppose Nephi is Laban, that Laban has slain Nephi, and that Laban seeks to take their lives.",
         "refs": [
           "1 Nephi 4:28"
         ]
       },
       {
-        "text": "The narrator called after them; they heard him and ceased fleeing.",
+        "text": "Nephi calls after the brothers; they hear him and cease fleeing.",
         "refs": [
           "1 Nephi 4:29"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The fleeing brothers come to a stop after hearing the narrator call."
+      "The unidentified man is near enough to speak to Nephi as Nephi goes toward his brothers.",
+      "The brothers turn away as they flee, then stop after hearing Nephi."
     ],
     "unspecified_visual_details": [
-      "The appearance of each person",
-      "The identity of the man who speaks to the narrator",
-      "The precise appearance of the walls and surrounding area",
-      "The words of the narrator’s call"
+      "The appearance of the people and the walls.",
+      "The identity of the man speaking to Nephi.",
+      "The words spoken by the man and by Nephi."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -748,20 +779,38 @@
         ]
       },
       {
-        "text": "And it came to pass that I called after them, and they did hear me; wherefore they did cease to flee from my presence.",
+        "text": "when Laman saw me he was exceedingly frightened, and also Lemuel and Sam.",
+        "refs": [
+          "1 Nephi 4:28"
+        ]
+      },
+      {
+        "text": "for they supposed it was Laban,",
+        "refs": [
+          "1 Nephi 4:28"
+        ]
+      },
+      {
+        "text": "I called after them, and they did hear me;",
+        "refs": [
+          "1 Nephi 4:29"
+        ]
+      },
+      {
+        "text": "they did cease to flee from my presence.",
         "refs": [
           "1 Nephi 4:29"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The brothers’ belief about Laban is their supposition, not a narrated event.",
-      "The source reports the call but gives none of its words."
+      "The brothers’ beliefs about Laban are suppositions, not events shown to have happened.",
+      "The supplied verses do not quote the man’s speech or Nephi’s call."
     ],
     "prohibited_inventions": [
-      "Do not identify the man who speaks to the narrator.",
-      "Do not depict Laban as present or depict the brothers’ supposition as an event.",
-      "Do not invent words for the narrator’s call."
+      "Do not identify the man who speaks to Nephi.",
+      "Do not depict Laban as present or the brothers’ suppositions as events.",
+      "Do not invent words for the man or for Nephi’s call."
     ],
     "importance": "normal"
   },

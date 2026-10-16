@@ -1,5 +1,5 @@
 {
-  "stamp": "479cc40085ae334440bc0ea3996b65c55b703242500938ea7d70fab9b3d53a86",
+  "stamp": "e1d0cf66fc1aac2309735c0762f51ac69d48dcde8e1455ee3423669a7aa933c6",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_008": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The claim that Lehi’s audience is unspecified overlooks 2 Nephi 2:14, where he addresses “my sons.” Their appearance and whether they are shown remain unspecified."
+      ]
     },
     "scene_009": {
       "status": "PASS",

@@ -1,14 +1,15 @@
 [
   {
     "scene_id": "scene_001",
-    "title": "The Great Roll",
+    "title": "The Great Roll and the Witnesses",
     "refs": [
       "2 Nephi 18:1",
       "2 Nephi 18:2"
     ],
-    "summary": "The word of the Lord tells Nephi to take a great roll and write concerning Maher-shalal-hash-baz. Nephi reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
+    "summary": "Nephi reports the Lord’s instruction concerning a great roll and Maher-shalal-hash-baz. He then reports taking unto himself faithful witnesses, Uriah the priest and Zechariah the son of Jeberechiah.",
     "characters": [
       "Nephi",
+      "The Lord (reported speaker only)",
       "Uriah the priest",
       "Zechariah the son of Jeberechiah"
     ],
@@ -17,13 +18,13 @@
     ],
     "explicit_facts": [
       {
-        "text": "The word of the Lord tells Nephi to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
+        "text": "The word of the Lord instructs Nephi to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:1"
         ]
       },
       {
-        "text": "Nephi reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
+        "text": "Nephi reports taking unto himself faithful witnesses: Uriah the priest and Zechariah the son of Jeberechiah. The text includes the phrase “to record,” but does not describe any recording being performed.",
         "refs": [
           "2 Nephi 18:2"
         ]
@@ -32,7 +33,9 @@
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
       "The location and the characters’ appearances are unspecified.",
-      "The roll’s material and dimensions, the pen’s appearance, and how the word of the Lord was conveyed are unspecified."
+      "The roll’s material and dimensions and the pen’s appearance are unspecified.",
+      "How the word of the Lord was conveyed is unspecified.",
+      "The interval between the instruction and the taking of witnesses is unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -58,15 +61,19 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the first-person narrator, as specified by the user.",
-      "Present the first narration quotation before the report about the witnesses, so the reader knows that “I” is the person addressed by the word of the Lord.",
-      "Keep the taking of witnesses as a narrated report rather than staging it during the instruction."
+      "Nephi is the first-person narrator.",
+      "The dialogue is the Lord’s reported instruction, not a newly enacted speaking event or evidence of a visible divine appearance.",
+      "Keep both verses as a narrated report; do not stage the reported events as new present-tense action or merge their times.",
+      "The text does not specify what the witnesses record or narrate their performing that action."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly.",
+      "Do not depict the Lord visibly or invent a means of communication.",
       "Do not depict the commanded writing as underway or completed.",
-      "Do not place the witnesses at the time of the instruction.",
-      "Do not depict Maher-shalal-hash-baz or Jeberechiah as present."
+      "Do not stage the taking of witnesses or recording as present-tense action.",
+      "Do not place Uriah or Zechariah at the instruction.",
+      "Do not depict Maher-shalal-hash-baz or Jeberechiah as present.",
+      "Do not identify Maher-shalal-hash-baz as a child or Nephi’s son.",
+      "Do not assert that the witnesses record writing on the roll."
     ],
     "importance": "normal"
   },
@@ -221,51 +228,71 @@
   },
   {
     "scene_id": "scene_004",
-    "title": "The River Overflows",
+    "title": "Prophecy Concerning Assyria and Judah",
     "refs": [
       "2 Nephi 18:7",
       "2 Nephi 18:8"
     ],
-    "summary": "The Lord foretells that the king of Assyria and his glory will come like strong, abundant river waters, pass through Judah, and overflow the land.",
+    "summary": "The passage foretells the king of Assyria's advance through Judah using river, overflow, and wings imagery.",
     "characters": [],
-    "locations": [
-      "Judah"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says the king of Assyria and all his glory will come upon the people like strong, abundant river waters, crossing channels and banks.",
+        "text": "The prophecy says the Lord will bring up the waters of the river upon them and identifies this imagery with the king of Assyria and all his glory.",
         "refs": [
           "2 Nephi 18:7"
         ]
       },
       {
-        "text": "The Lord says the king will pass through Judah, overflow it, reach to the neck, and spread across the land addressed as Immanuel's.",
+        "text": "The prophecy says he will pass through Judah and uses overflow, neck, and wings imagery to describe the extent of his advance.",
+        "refs": [
+          "2 Nephi 18:8"
+        ]
+      },
+      {
+        "text": "The prophecy addresses Immanuel but does not describe him as present.",
         "refs": [
           "2 Nephi 18:8"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The river imagery may be used symbolically to convey the forecast, without presenting it as a literal supernatural flood."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The appearance of the king of Assyria and his forces; the land's specific visual features."
+      "No present setting or visible participants are specified.",
+      "The king's appearance and Judah's physical features are unspecified."
     ],
     "spoken_dialogue": [
       {
-        "text": "Now therefore, behold, the Lord bringeth up upon them the waters of the river, strong and many,",
+        "text": "the Lord bringeth up upon them the waters of the river, strong and many, even the king of Assyria and all his glory;",
         "refs": [
           "2 Nephi 18:7"
         ],
-        "speaker": "The Lord"
+        "speaker": "Unidentified prophetic speaker"
+      },
+      {
+        "text": "And he shall pass through Judah; he shall overflow and go over, he shall reach even to the neck;",
+        "refs": [
+          "2 Nephi 18:8"
+        ],
+        "speaker": "Unidentified prophetic speaker"
+      },
+      {
+        "text": "and the stretching out of his wings shall fill the breadth of thy land, O Immanuel.",
+        "refs": [
+          "2 Nephi 18:8"
+        ],
+        "speaker": "Unidentified prophetic speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "This is a prophecy using river and flood imagery; do not depict it as a literal miracle."
+      "These verses give a prophecy, not an account of an advance occurring in the present scene.",
+      "The river, overflow, neck, and wings are prophetic imagery; the verses do not establish a literal flood or visible wings."
     ],
     "prohibited_inventions": [
-      "Do not invent a visible army, king, or flood as a present event."
+      "Do not stage the foretold advance as a present event.",
+      "Do not depict the Lord or Immanuel as visibly present.",
+      "Do not invent a speaker, a physical setting, or appearances for the figures mentioned."
     ],
     "importance": "normal"
   },
@@ -276,53 +303,64 @@
       "2 Nephi 18:9",
       "2 Nephi 18:10"
     ],
-    "summary": "The Lord addresses peoples and distant countries, warning that they will be broken despite joining together, taking counsel, and speaking their plans.",
-    "characters": [],
-    "locations": [
-      "Unspecified location"
+    "summary": "An unidentified speaker addresses people and those of far countries, warning that they will be broken in pieces and that their counsel and word will not stand.",
+    "characters": [
+      "Unidentified speaker"
     ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord addresses peoples and those of far countries, saying they will be broken in pieces despite associating and girding themselves.",
+        "text": "The speaker addresses people and those of far countries, calling on them to associate, give ear, and gird themselves.",
         "refs": [
           "2 Nephi 18:9"
         ]
       },
       {
-        "text": "Their counsel will come to nothing and their word will not stand, for God is with us.",
+        "text": "The speaker repeatedly warns that they will be broken in pieces.",
+        "refs": [
+          "2 Nephi 18:9"
+        ]
+      },
+      {
+        "text": "The speaker says their counsel will come to naught and their word will not stand, for God is with us.",
         "refs": [
           "2 Nephi 18:10"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the words as off-screen speech over a neutral setting."
+      "The speech can be presented without depicting the people addressed or the predicted outcomes."
     ],
     "unspecified_visual_details": [
-      "The identities and appearance of the addressed peoples; the setting."
+      "The speaker's identity and appearance",
+      "The appearance of the people addressed",
+      "The setting"
     ],
     "spoken_dialogue": [
       {
-        "text": "Take counsel together, and it shall come to naught;",
+        "text": "Associate yourselves, O ye people, and ye shall be broken in pieces; and give ear all ye of far countries; gird yourselves, and ye shall be broken in pieces; gird yourselves, and ye shall be broken in pieces.",
         "refs": [
-          "2 Nephi 18:10"
+          "2 Nephi 18:9"
         ],
-        "speaker": "The Lord"
+        "speaker": "Unidentified speaker"
       },
       {
-        "text": "for God is with us.",
+        "text": "Take counsel together, and it shall come to naught; speak the word, and it shall not stand; for God is with us.",
         "refs": [
           "2 Nephi 18:10"
         ],
-        "speaker": "The Lord"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The predicted breaking is not shown as a separate present-tense event."
+      "The breaking and failure of counsel are warnings, not narrated events.",
+      "These verses do not identify the speaker or describe God appearing."
     ],
     "prohibited_inventions": [
-      "Do not create named groups, leaders, or a battle."
+      "Do not use words from verse 11, which was not supplied.",
+      "Do not identify the speaker as the Lord or Nephi.",
+      "Do not depict the predicted breaking as an event or give God an appearance."
     ],
     "importance": "normal"
   },
@@ -451,169 +489,191 @@
   },
   {
     "scene_id": "scene_008",
-    "title": "Testimony Sealed",
+    "title": "Bind Up the Testimony",
     "refs": [
       "2 Nephi 18:16",
       "2 Nephi 18:17"
     ],
-    "summary": "The Lord commands that the testimony be bound and the law sealed among his disciples. The speaker says he will wait upon the Lord and look for him.",
+    "summary": "An instruction calls for the testimony to be bound up and the law sealed among the speaker's disciples. Nephi says he will wait upon the Lord and look for him.",
     "characters": [
-      "The speaker"
+      "Nephi (first-person narrator)",
+      "The Lord (mentioned)",
+      "Disciples (mentioned)",
+      "House of Jacob (mentioned)"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord commands that the testimony be bound up and the law sealed among his disciples.",
+        "text": "The instruction says to bind up the testimony and seal the law among the speaker's disciples.",
         "refs": [
           "2 Nephi 18:16"
         ]
       },
       {
-        "text": "The speaker says he will wait upon the Lord, who hides his face from the house of Jacob, and look for him.",
+        "text": "Nephi says he will wait upon the Lord and look for him.",
+        "refs": [
+          "2 Nephi 18:17"
+        ]
+      },
+      {
+        "text": "Nephi describes the Lord as hiding his face from the house of Jacob.",
         "refs": [
           "2 Nephi 18:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The command and response can be conveyed as off-screen speech and narration over a neutral setting."
+      "The words can appear as text without depicting the instruction as a completed action."
     ],
     "unspecified_visual_details": [
-      "The testimony, law, and disciples' appearance; the speaker's appearance and setting."
+      "The speaker of the instruction in verse 16.",
+      "The setting and the appearances of those mentioned.",
+      "Any physical form for the testimony or law."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "Bind up the testimony,",
-        "refs": [
-          "2 Nephi 18:16"
-        ],
-        "speaker": "The Lord"
-      },
-      {
-        "text": "seal the law among my disciples.",
-        "refs": [
-          "2 Nephi 18:16"
-        ],
-        "speaker": "The Lord"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "And I will wait upon the Lord,",
+        "text": "Bind up the testimony, seal the law among my disciples.",
+        "refs": [
+          "2 Nephi 18:16"
+        ]
+      },
+      {
+        "text": "And I will wait upon the Lord, that hideth his face from the house of Jacob, and I will look for him.",
         "refs": [
           "2 Nephi 18:17"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord hiding his face is figurative language, not a description of a visible appearance."
+      "Verse 17's first-person speaker is Nephi under the supplied narrator identification. Verse 16 does not establish its speaker.",
+      "The Lord hiding his face is not a narrated visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord visibly or invent what the testimony or law looks like."
+      "Do not add wording from verse 18 or identify Isaiah as the speaker based on that unsupplied verse.",
+      "Do not assign verse 16 to a named speaker.",
+      "Do not depict the Lord or the mentioned groups as physically present.",
+      "Do not show the testimony being bound or the law being sealed as completed events."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_009",
-    "title": "Signs and Wonders",
+    "title": "Nephi and the Children",
     "refs": [
       "2 Nephi 18:18"
     ],
-    "summary": "The speaker identifies himself and the children the Lord has given him as signs and wonders in Israel from the Lord of Hosts, who dwells in Mount Zion.",
+    "summary": "Nephi identifies himself and the children the Lord has given him as signs and wonders in Israel from the Lord of Hosts, who dwells in Mount Zion.",
     "characters": [
-      "The speaker",
-      "The speaker's children"
+      "Nephi",
+      "The children given to Nephi by the Lord"
     ],
-    "locations": [
-      "Mount Zion"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker and the children the Lord gave him are for signs and wonders in Israel from the Lord of Hosts, who dwells in Mount Zion.",
+        "text": "The Lord has given Nephi children.",
+        "refs": [
+          "2 Nephi 18:18"
+        ]
+      },
+      {
+        "text": "Nephi and the children are for signs and wonders in Israel from the Lord of Hosts.",
+        "refs": [
+          "2 Nephi 18:18"
+        ]
+      },
+      {
+        "text": "The Lord of Hosts dwells in Mount Zion.",
         "refs": [
           "2 Nephi 18:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The speaker may be shown with the children, as the verse names them together."
+      "Nephi and the children may be shown together, but the verse does not describe a particular gathering."
     ],
     "unspecified_visual_details": [
-      "The number, ages, names, and appearance of the children; the speaker's appearance; the setting beyond Mount Zion's mention."
+      "The children's number, ages, names, and appearance.",
+      "Nephi's appearance and the physical setting."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
-        "text": "Behold, I and the children whom the Lord hath given me are for signs and for wonders in Israel",
+        "text": "Behold, I and the children whom the Lord hath given me are for signs and for wonders in Israel from the Lord of Hosts, which dwelleth in Mount Zion.",
         "refs": [
           "2 Nephi 18:18"
-        ]
+        ],
+        "speaker": "Nephi"
       }
     ],
+    "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse does not specify a particular sign or wonder to depict."
+      "The verse calls Nephi and the children signs and wonders; it does not describe a visible miracle.",
+      "Mount Zion is mentioned, not established as the immediate setting."
     ],
     "prohibited_inventions": [
-      "Do not invent miraculous displays or give the children names."
+      "Do not depict an invented miracle or a visible appearance of the Lord.",
+      "Do not invent names or biographies for the children.",
+      "Do not identify the speaker as Isaiah; the supplied chapter context identifies the first-person narrator as Nephi."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_010",
-    "title": "Seek God",
+    "title": "To the Law and the Testimony",
     "refs": [
       "2 Nephi 18:19",
       "2 Nephi 18:20"
     ],
-    "summary": "The Lord addresses advice to seek familiar spirits and wizards, asking whether a people should seek their God. He directs them to the law and testimony.",
+    "summary": "The passage anticipates advice to seek those with familiar spirits and wizards, asks whether a people should seek their God, and directs attention to the law and testimony.",
     "characters": [],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The verse reports that some will advise seeking those with familiar spirits and wizards who peep and mutter, then asks whether a people should seek their God for the living to hear from the dead.",
+        "text": "The passage anticipates that unspecified people will advise others to seek those with familiar spirits and wizards who peep and mutter.",
         "refs": [
           "2 Nephi 18:19"
         ]
       },
       {
-        "text": "The Lord says to turn to the law and testimony and says that speech not according to this word has no light in it.",
+        "text": "It asks whether a people should seek their God for the living to hear from the dead.",
+        "refs": [
+          "2 Nephi 18:19"
+        ]
+      },
+      {
+        "text": "It invokes the law and the testimony and says that those who do not speak according to this word have no light in them.",
         "refs": [
           "2 Nephi 18:20"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Use off-screen speech over a neutral setting; do not stage the reported advice as a separate event."
+      "Display the warning as text rather than staging the anticipated advice as an event."
     ],
     "unspecified_visual_details": [
-      "The people who give or hear the advice; the law and testimony's appearance; the setting."
+      "The setting, the identities and appearances of those addressed, and any visual design for the displayed text."
     ],
-    "spoken_dialogue": [
+    "spoken_dialogue": [],
+    "narration": [
       {
-        "text": "should not a people seek unto their God for the living to hear from the dead?",
+        "text": "And when they shall say unto you: Seek unto them that have familiar spirits, and unto wizards that peep and mutter—should not a people seek unto their God for the living to hear from the dead?",
         "refs": [
           "2 Nephi 18:19"
-        ],
-        "speaker": "The Lord"
+        ]
       },
       {
-        "text": "To the law and to the testimony;",
+        "text": "To the law and to the testimony; and if they speak not according to this word, it is because there is no light in them.",
         "refs": [
           "2 Nephi 18:20"
-        ],
-        "speaker": "The Lord"
+        ]
       }
     ],
-    "narration": [],
     "doctrinal_or_story_notes": [
-      "The question and references to spirits are part of instruction, not a depicted supernatural encounter."
+      "The advice is anticipated, not narrated as occurring. Hearing from the dead appears in a question, not as a narrated encounter. The verses do not identify a speaker for these statements."
     ],
     "prohibited_inventions": [
-      "Do not depict spirits, wizards, or communication with the dead."
+      "Do not attribute these statements to the Lord.",
+      "Do not depict spirits, wizards, communication with the dead, or the anticipated advice as an event taking place."
     ],
     "importance": "normal"
   },

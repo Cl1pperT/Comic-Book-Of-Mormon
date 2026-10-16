@@ -1,5 +1,5 @@
 {
-  "stamp": "64cb915c9b5d0c57aeb3496bf77ab127cbbe0e50b255932ecf48ef48b8a8bb7f",
+  "stamp": "1d602e4167809969d9a7e871fd10b6b455d4ccba647b437e23057e1a223ac50d",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -58,8 +58,11 @@
       "issues": []
     },
     "scene_012": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "Summary, facts, and narration match the cited verses. Narration consists of exact, contiguous quotations and is within the 65-word limit.",
+        "The visual inference that Lachoneus and Gidgiddoni appear together during the appointment is plausible but not explicitly stated; verse 18 reports the appointment without describing its participants or setting."
+      ]
     },
     "scene_013": {
       "status": "PASS",

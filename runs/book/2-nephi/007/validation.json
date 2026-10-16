@@ -1,21 +1,29 @@
 {
-  "stamp": "2976dc5bb5517d3fb51d46909648f8ac8f621524251bb68aa859ce1606853909",
+  "stamp": "f37e3aacb919b927d57f365b57eca07cee333b6a3dac2596d4b445d54dab978d",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quote is exact, but the supplied verse repeats “For thus saith the Lord” immediately before the question about the bill of divorcement; the dialogue omits that phrase. The three dialogue excerpts otherwise match the source verbatim.",
+        "The verse specifies both “the Lord” and “the Lord” as the introducer of the speech; no visible appearance is specified. The listed visual uncertainty is appropriately conservative."
+      ]
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "“House of Israel” is addressed in the verse, but its inclusion as a character could imply a physically present group; the text does not establish their presence.",
+        "The scene and its preceding scene both use 2 Nephi 7:2 and overlap in content; preserve the verse’s single speech rather than staging separate events."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The figurative interpretation of the heavens being clothed in blackness and sackcloth is reasonable, but the verse does not explicitly label this language figurative."
+      ]
     },
     "scene_005": {
       "status": "PASS",

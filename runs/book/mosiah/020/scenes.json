@@ -540,40 +540,46 @@
     "refs": [
       "Mosiah 20:14"
     ],
-    "summary": "Limhi tells others not to slay a man but to bring him to Limhi. They bring him, and Limhi asks why they have come to war against his people and why they would break their oath.",
+    "summary": "Limhi tells those he addresses not to slay the man but to bring him to Limhi. They bring him, and Limhi asks him why they have come to war against his people and why they should break their oath to his people.",
     "characters": [
       "Limhi",
       "The man brought to Limhi",
-      "Those addressed by Limhi"
+      "Unnamed people addressed by Limhi"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Limhi told others not to slay the man and to bring him so Limhi could see him.",
+        "text": "Limhi tells those he addresses not to slay the man, but to bring him so Limhi can see him.",
         "refs": [
           "Mosiah 20:14"
         ]
       },
       {
-        "text": "They brought the man to Limhi.",
+        "text": "They bring the man to Limhi, and Limhi speaks directly to him.",
         "refs": [
           "Mosiah 20:14"
         ]
       },
       {
-        "text": "Limhi questioned the man about coming to war against his people and breaking an oath.",
+        "text": "Limhi asks the man why they have come to war against his people.",
+        "refs": [
+          "Mosiah 20:14"
+        ]
+      },
+      {
+        "text": "Limhi says his people have not broken the oath he made and asks why the other party should break its oath to his people.",
         "refs": [
           "Mosiah 20:14"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The man is near enough for Limhi to address him after being brought."
+      "The man is close enough for Limhi to address him after being brought."
     ],
     "unspecified_visual_details": [
-      "The location, appearances, and postures are not stated."
+      "The setting, clothing, physical appearances, and manner of bringing the man are unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -593,16 +599,21 @@
     ],
     "narration": [
       {
-        "text": "And they brought him.",
+        "text": "And they brought him. And Limhi said unto him:",
         "refs": [
           "Mosiah 20:14"
         ]
       }
     ],
-    "doctrinal_or_story_notes": [],
+    "doctrinal_or_story_notes": [
+      "The supplied verse does not identify the man by name or title.",
+      "Limhi's statements about the oaths are attributed to Limhi."
+    ],
     "prohibited_inventions": [
-      "Do not identify the man or give him a response.",
-      "Do not depict a battle or an oath-making event."
+      "Do not assign the man a name, royal identity, response, or motive unsupported by the supplied verse.",
+      "Do not assign identities or biographies to the unnamed people addressed.",
+      "Do not depict battle, an attempted execution, or oath-making as occurring in this scene.",
+      "Do not invent the terms of either oath."
     ],
     "importance": "normal"
   },
@@ -802,7 +813,7 @@
       "Mosiah 20:21",
       "Mosiah 20:22"
     ],
-    "summary": "Gideon urges telling the king what has happened so the king may pacify his people. He warns that numerous hosts are coming against their small group, invokes Abinadi’s words, and urges fulfilling their oath and stopping the bloodshed.",
+    "summary": "Gideon urges that the king be told what has happened so he can pacify his people. He says numerous hosts are coming against his small group, asks whether Abinadi’s words have been fulfilled, and urges his group to honor its oath, accept bondage rather than lose their lives, and stop the bloodshed.",
     "characters": [
       "Gideon"
     ],
@@ -811,7 +822,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Gideon urges telling the king what has happened so the king may pacify his people; he says his own group is few in number.",
+        "text": "Gideon urges telling the king these things so the king can pacify his people; he says his group is few in number.",
         "refs": [
           "Mosiah 20:19"
         ]
@@ -823,41 +834,41 @@
         ]
       },
       {
-        "text": "Gideon asks whether Abinadi’s words have been fulfilled because his group did not heed the Lord’s words or turn from their iniquities.",
+        "text": "Gideon asks whether Abinadi’s words have been fulfilled and says his group did not heed the Lord’s words or turn from their iniquities.",
         "refs": [
           "Mosiah 20:21"
         ]
       },
       {
-        "text": "Gideon urges pacifying the king, fulfilling their oath to him, accepting bondage rather than losing their lives, and stopping the bloodshed.",
+        "text": "Gideon urges his group to pacify the king and fulfill their oath to him. He says bondage is better than losing their lives and urges an end to the bloodshed.",
         "refs": [
           "Mosiah 20:22"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Gideon may be addressing others, though the verses do not identify his listeners."
+      "Gideon is addressing at least one listener."
     ],
     "unspecified_visual_details": [
-      "The precise setting and the appearances of Gideon and his listeners are not stated."
+      "The setting and the appearances of Gideon and his listeners are not stated."
     ],
     "spoken_dialogue": [
       {
-        "text": "tell the king of these things, that he may tell his people that they may be pacified towards us;",
+        "text": "And now, behold, and tell the king of these things,",
         "refs": [
           "Mosiah 20:19"
         ],
         "speaker": "Gideon"
       },
       {
-        "text": "And behold, they come with their numerous hosts;",
+        "text": "they come with their numerous hosts;",
         "refs": [
           "Mosiah 20:20"
         ],
         "speaker": "Gideon"
       },
       {
-        "text": "for it is better that we should be in bondage than that we should lose our lives;",
+        "text": "And now let us pacify the king, and we fulfil the oath which we have made unto him; for it is better that we should be in bondage than that we should lose our lives;",
         "refs": [
           "Mosiah 20:22"
         ],
@@ -873,12 +884,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Abinadi is mentioned in speech, not placed in this scene.",
+      "Abinadi is mentioned in speech, not placed in the scene.",
       "The coming hosts are reported in speech, not directly narrated as visible."
     ],
     "prohibited_inventions": [
       "Do not depict Abinadi, the hosts, or a literal visualization of the prophecy in this speech moment.",
-      "Do not invent a setting, further action, or additional dialogue."
+      "Do not invent a setting, further action, or additional dialogue.",
+      "Do not portray the king as the one Gideon proposes should be in bondage."
     ],
     "importance": "normal"
   },

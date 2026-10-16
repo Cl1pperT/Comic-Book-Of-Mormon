@@ -1,17 +1,22 @@
 {
-  "stamp": "0333006ccadcef7b6821e35c76bca240b6e39b279123cd3a75e6dd24d820726a",
+  "stamp": "776848fc4b13123a98e42c616a8fda529cdfe36b85459e02729e5110bc0ffecb",
   "results": {
     "scene_001": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The source does not identify the first-person narrator as Nephi; labeling the character as Nephi relies on the scene’s supplied note, not these verses. The seraphim are described as standing above “it,” whose referent is unspecified. The scene correctly flags this uncertainty and does not resolve it visually. The stated elevated-throne inference is supported by “high and lifted up.”"
+      ]
     },
     "scene_002": {
       "status": "PASS",
       "issues": []
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse identifies the speaker only as “I”; identifying him as Nephi is not established by the supplied verses. The quotation itself is exact.",
+        "Whether the King was seen earlier or at the time of speech is unspecified; avoid depicting the reported sight as a present event."
+      ]
     },
     "scene_004": {
       "status": "PASS WITH WARNINGS",
@@ -25,18 +30,23 @@
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_007": {
-      "status": "PASS",
-      "issues": []
-    },
-    "scene_008": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The verse does not identify who speaks or narrates the prophecy. The narration correctly leaves the speaker unstated; do not imply a specific speaker."
+        "The verses leave the speaker and addressee unidentified; the scene appropriately avoids naming them. The preceding scene identifies Nephi and the Lord, but this passage does not explicitly establish that either is the speaker or addressee.",
+        "The summary is a paraphrase of the passage, not dialogue; the dialogue and narration use exact source excerpts."
       ]
+    },
+    "scene_007": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reply is introduced as “he said,” but the text does not explicitly identify the speaker as the Lord; “The Lord” as speaker and respondent is a reasonable inference from Nephi’s address, not an explicit fact.",
+        "The narration “Then said I:” and “And he said:” is an exact excerpt from verse 11, but the summary’s “Nephi asks” depends on identifying the first-person narrator as Nephi, which is not established in the supplied verses themselves.",
+        "The dialogue quotes are contiguous and exact; the reply reports future desolation and must not be staged as present action, as the scene’s prohibition correctly notes."
+      ]
+    },
+    "scene_008": {
+      "status": "PASS",
+      "issues": []
     }
   }
 }

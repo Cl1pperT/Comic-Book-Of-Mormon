@@ -585,56 +585,66 @@
   },
   {
     "scene_id": "scene_009",
-    "title": "The Queen Commands the Men Slain",
+    "title": "The Queen Commands the Servants",
     "refs": [
       "Alma 22:19"
     ],
-    "summary": "The servants tell the queen what happened to the king. She enters, sees him lying as if dead and Aaron with his brethren standing nearby, becomes angry, and orders her servants to take and slay them.",
+    "summary": "The king’s servants tell the queen what happened to him. She comes to the king, sees him lying as if dead and Aaron and his brethren standing nearby, becomes angry with them, and commands that they be taken and slain.",
     "characters": [
-      "The queen of Lamoni",
-      "Aaron (son of Mosiah)",
-      "Omner (son of Mosiah)",
-      "Himni (son of Mosiah)",
-      "the king over all the land (Lamoni's father)",
+      "the queen",
+      "the king",
+      "Aaron",
+      "Aaron’s brethren",
       "the king’s servants"
     ],
-    "locations": [
-      "the king’s palace in the land of Nephi"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The king’s servants report to the queen what happened to the king; she comes in and sees him lying as if dead and Aaron and his brethren standing as though they caused his fall.",
+        "text": "The king’s servants ran and told the queen what had happened to the king.",
         "refs": [
           "Alma 22:19"
         ]
       },
       {
-        "text": "The queen becomes angry and commands her servants to take and slay Aaron and his brethren.",
+        "text": "The queen came to the king and saw him lying as if dead, with Aaron and his brethren standing as though they had caused his fall.",
+        "refs": [
+          "Alma 22:19"
+        ]
+      },
+      {
+        "text": "The queen was angry with Aaron and his brethren and commanded that servants take and slay them.",
         "refs": [
           "Alma 22:19"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The queen faces the fallen king and the standing missionaries as she gives the command."
+      "Aaron and his brethren stand near enough to the king for the queen to see them when she enters."
     ],
     "unspecified_visual_details": [
-      "The queen’s appearance and the exact number or appearance of servants."
+      "The setting’s appearance, the characters’ appearances, and the number of servants and brethren."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "she was angry with them",
+        "text": "his servants ran and told the queen all that had happened unto the king.",
+        "refs": [
+          "Alma 22:19"
+        ]
+      },
+      {
+        "text": "when she saw him lay as if he were dead, and also Aaron and his brethren standing as though they had been the cause of his fall, she was angry with them, and commanded that her servants, or the servants of the king, should take them and slay them.",
         "refs": [
           "Alma 22:19"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The queen suspects Aaron and his brethren caused the king’s fall; the verse does not establish that they did."
+      "The verse describes how Aaron and his brethren appeared to the queen; it does not establish that they caused the king’s fall."
     ],
     "prohibited_inventions": [
-      "Do not depict an attack or killing; the order is issued but not carried out here."
+      "Do not depict the commanded killing as carried out.",
+      "Do not identify Aaron’s brethren by name or invent the queen’s spoken words."
     ],
     "importance": "normal"
   },
@@ -715,7 +725,7 @@
       "Alma 22:22",
       "Alma 22:23"
     ],
-    "summary": "Aaron sees the queen's determination and fears that a multitude might assemble, bringing contention and disturbance. He raises the king from the earth and tells him to stand. The king stands, receiving his strength. The queen and many servants marvel and begin to fear. The king ministers to them, and his whole household is converted unto the Lord.",
+    "summary": "Aaron sees the queen's determination and fears that a multitude might assemble and cause contention. He raises the king from the earth and tells him to stand. The king stands, receiving his strength. The queen and many servants marvel and begin to fear. The king ministers to them, and his whole household is converted unto the Lord.",
     "characters": [
       "Aaron",
       "the king",
@@ -771,12 +781,6 @@
     ],
     "narration": [
       {
-        "text": "therefore he put forth his hand and raised the king from the earth,",
-        "refs": [
-          "Alma 22:22"
-        ]
-      },
-      {
         "text": "And he stood upon his feet, receiving his strength.",
         "refs": [
           "Alma 22:22"
@@ -802,7 +806,8 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Keep the raising, the witnesses' reaction, and the king's ministry in their narrated order.",
+      "Show Aaron raising the king before lettering Aaron's command, then place the command before narration that the king stood.",
+      "Keep the witnesses' reaction and the king's ministry in their narrated order.",
       "Treat the household's conversion as a narrated outcome, not a separate enacted scene."
     ],
     "prohibited_inventions": [

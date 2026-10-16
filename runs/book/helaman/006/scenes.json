@@ -441,11 +441,11 @@
   },
   {
     "scene_id": "scene_010",
-    "title": "The chief judge is murdered",
+    "title": "Cezoram is murdered",
     "refs": [
       "Helaman 6:15"
     ],
-    "summary": "Cezoram is murdered while seated on the judgment-seat; in the same year, his appointed son is also murdered.",
+    "summary": "In the sixty-sixth year of the reign of the judges, Cezoram is murdered while seated on the judgment-seat. In the same year, his son, appointed by the people in his stead, is also murdered.",
     "characters": [
       "Cezoram",
       "Cezoram's son"
@@ -455,38 +455,46 @@
     ],
     "explicit_facts": [
       {
-        "text": "In the sixty-sixth year, Cezoram was murdered by an unknown hand while seated on the judgment-seat.",
+        "text": "Cezoram was murdered by an unknown hand while seated on the judgment-seat in the sixty-sixth year of the reign of the judges.",
         "refs": [
           "Helaman 6:15"
         ]
       },
       {
-        "text": "In the same year, his son, appointed by the people in his stead, was also murdered.",
+        "text": "In the same year, Cezoram's son, who had been appointed by the people in his stead, was also murdered.",
         "refs": [
           "Helaman 6:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Cezoram seated on a judgment-seat at the moment of the attack."
+      "Cezoram is seated on the judgment-seat when the attack occurs."
     ],
     "unspecified_visual_details": [
-      "The assailant, method, witnesses, and circumstances of the son's murder."
+      "The assailant and method of either murder.",
+      "The place and circumstances of the son's murder."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "as he sat upon the judgment-seat",
+        "text": "Cezoram was murdered by an unknown hand as he sat upon the judgment-seat.",
+        "refs": [
+          "Helaman 6:15"
+        ]
+      },
+      {
+        "text": "his son, who had been appointed by the people in his stead, was also murdered.",
         "refs": [
           "Helaman 6:15"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The two murders occur in the same year, but the verses do not say they occur at the same time or place."
+      "The son's murder is reported as occurring in the same year, not shown as part of Cezoram's murder."
     ],
     "prohibited_inventions": [
-      "Do not show the son being murdered in this moment; do not identify or show the unknown hand."
+      "Do not show the son's murder in this scene.",
+      "Do not identify the unknown assailant or invent a method of attack."
     ],
     "importance": "major"
   },
@@ -1179,9 +1187,9 @@
       "Helaman 6:40",
       "Helaman 6:41"
     ],
-    "summary": "An unidentified group obtains sole management of the government, tramples, smites, rends, and turns its backs upon the poor, the meek, and the humble followers of God. They are in an awful state and ripening for everlasting destruction. The sixty and eighth year of the reign of the judges over the people of Nephi ends.",
+    "summary": "An unidentified group obtains sole management of the government and mistreats the poor, the meek, and the humble followers of God. The sixty and eighth year of the reign of the judges over the people of Nephi ends.",
     "characters": [
-      "The unidentified group described as “they”",
+      "Unidentified group described as “they”",
       "The poor and the meek",
       "The humble followers of God"
     ],
@@ -1190,7 +1198,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "They obtained sole management of the government.",
+        "text": "The unidentified group obtained sole management of the government.",
         "refs": [
           "Helaman 6:39"
         ]
@@ -1202,7 +1210,7 @@
         ]
       },
       {
-        "text": "They were in an awful state and ripening for everlasting destruction.",
+        "text": "Mormon says they were in an awful state and ripening for everlasting destruction.",
         "refs": [
           "Helaman 6:40"
         ]
@@ -1215,19 +1223,15 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The mistreatment described in verse 39 may be shown as it happens, without showing injuries or gore."
+      "The physical mistreatment in verse 39 can be shown as it happens, without injuries or gore."
     ],
     "unspecified_visual_details": [
-      "The group's identity, the location, clothing, architecture, and the identities of individual victims."
+      "The group's identity",
+      "The location, clothing, and architecture",
+      "The identities of individuals among the mistreated people"
     ],
     "spoken_dialogue": [],
     "narration": [
-      {
-        "text": "they did obtain the sole management of the government,",
-        "refs": [
-          "Helaman 6:39"
-        ]
-      },
       {
         "text": "they did trample under their feet and smite and rend and turn their backs upon the poor and the meek, and the humble followers of God.",
         "refs": [
@@ -1241,20 +1245,20 @@
         ]
       },
       {
-        "text": "thus ended the sixty and eighth year",
+        "text": "thus ended the sixty and eighth year of the reign of the judges over the people of Nephi.",
         "refs": [
           "Helaman 6:41"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The ending-year notice is narration, not a separate visible event.",
-      "No preceding scene or verses 37–38 were supplied, so earlier scene chronology cannot be audited."
+      "Verse 40 is Mormon's assessment, not a visible destruction event.",
+      "The year-end notice is narration, not a separate visible event."
     ],
     "prohibited_inventions": [
-      "Do not identify the group as a named band or invent officials, proceedings, or individual victims.",
-      "Do not depict everlasting destruction as an event occurring in this scene.",
-      "Do not show wounds, blood, or gore."
+      "Do not identify the group as Gadianton's robbers; the supplied verses do not name them.",
+      "Do not invent a government takeover procedure, named officials, or individual victims.",
+      "Do not depict everlasting destruction, wounds, blood, or gore."
     ],
     "importance": "normal"
   }

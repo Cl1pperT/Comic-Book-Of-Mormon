@@ -1,5 +1,5 @@
 {
-  "stamp": "fd2c8247a6893e809f5b9947f8e8caa4cda28c4159855f1ed4ac830b1e389c48",
+  "stamp": "01e04de8d4d153cebf6036003a752b909300020007d43870de1121aa816730ca",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
@@ -23,9 +23,8 @@
     "scene_004": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene is careful to present the prisoners’ presence in the land of Nephi as Helaman’s supposition, not a certain fact. The narration uses exact, contiguous source quotations.",
-        "The character label “Lamanites” is supported by the source; “chief captains” are described as prisoners, not individually identified characters. The visual inferences appropriately avoid staging past deaths or captures as present events.",
-        "The preceding scene’s events are not carried into this scene as a present-tense occurrence. The scenes can be read as successive passages in Helaman’s letter, though the source does not specify a visual setting for the letter."
+        "The prisoners' presence in the land of Nephi is explicitly presented as a supposition, and their survival is uncertain; the summary and visual cautions preserve this uncertainty.",
+        "The verse does not specify when or where the deaths and prisoner-taking occurred; the scene correctly avoids presenting them as current witnessed events."
       ]
     },
     "scene_005": {
@@ -99,10 +98,8 @@
       "issues": []
     },
     "scene_017": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "scene_017: The mothers’ teaching and the young men’s lack of battle experience are reported past facts, not events to stage here; no mothers or invented teaching dialogue should appear."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_018": {
       "status": "PASS WITH WARNINGS",

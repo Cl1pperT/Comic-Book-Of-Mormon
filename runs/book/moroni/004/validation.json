@@ -1,12 +1,10 @@
 {
-  "stamp": "ab2403935c8376c1332bd97ed3c03f00f772108b292871fa064aaffe9a58aaa4",
+  "stamp": "77e7826bd16efa3f39e3fa4abd283fdca1fdd8959f3e49780a8e3f882be64a6f",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The scene is broadly supported. The source says “the elder or priest did minister it” (singular); the summary’s “Elders or priests administered” and the explicit fact’s “An elder or priest” should not suggest multiple ministers. “The church” is present, but a physically assembled congregation is only a reasonable inference.",
-        "The prayer requests that the bread be blessed and sanctified; it does not explicitly say this is happening during the depicted moment, so bread being present is a reasonable visual inference, not a certain fact.",
-        "The narration and dialogue are exact contiguous excerpts, and together remain within the 65-word limit."
+        "The text identifies the prayer as said after the ministers knelt, but does not explicitly specify that the speaker is the elders and priests collectively; the speaker label is an uncertain attribution."
       ]
     }
   }

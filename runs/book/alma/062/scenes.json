@@ -1137,7 +1137,7 @@
     "refs": [
       "Alma 62:36"
     ],
-    "summary": "In anger, Teancum goes into the Lamanite camp and lets himself down over the city walls. Carrying a cord, he moves from place to place, finds the king, and casts a javelin that pierces him near the heart. Before dying, the king awakens his servants; they pursue and kill Teancum.",
+    "summary": "In anger, Teancum enters the Lamanite camp and lets himself down over the city walls. He moves from place to place with a cord, finds the king, and casts a javelin that pierces him near the heart. Before dying, the king awakens his servants, who pursue and kill Teancum.",
     "characters": [
       "Teancum",
       "the king",
@@ -1174,21 +1174,27 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The pursuit can be depicted without showing wounds or blood."
+      "The pursuit and killing can be depicted without showing wounds or blood."
     ],
     "unspecified_visual_details": [
-      "The time of day, the city's layout, the servants' number, and everyone's appearance."
+      "The time of day, the city's layout, the number of servants, and everyone's appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Teancum in his anger did go forth into the camp of the Lamanites, and did let himself down over the walls of the city.",
+        "text": "And he went forth with a cord, from place to place, insomuch that he did find the king;",
         "refs": [
           "Alma 62:36"
         ]
       },
       {
-        "text": "And he went forth with a cord, from place to place, insomuch that he did find the king;",
+        "text": "and he did cast a javelin at him, which did pierce him near the heart.",
+        "refs": [
+          "Alma 62:36"
+        ]
+      },
+      {
+        "text": "the king did awaken his servants before he died",
         "refs": [
           "Alma 62:36"
         ]
@@ -1204,7 +1210,7 @@
       "The verse narrates physical violence; depict the action without gore."
     ],
     "prohibited_inventions": [
-      "Do not name the king, set the scene at night, invent dialogue, or show wounds, blood, or severed body parts."
+      "Do not name the king, specify a time of day, invent dialogue, or show wounds, blood, or severed body parts."
     ],
     "importance": "major"
   },
@@ -1457,11 +1463,11 @@
   },
   {
     "scene_id": "scene_030",
-    "title": "Moroni Hands Over Command",
+    "title": "Moroni Yields Command to Moronihah",
     "refs": [
       "Alma 62:43"
     ],
-    "summary": "Moroni gives command of his armies to his son Moronihah and retires to his own house to spend his remaining days in peace.",
+    "summary": "Moroni yields command of his armies to his son Moronihah and retires to his own house to spend the remainder of his days in peace.",
     "characters": [
       "Captain Moroni",
       "Moronihah"
@@ -1471,20 +1477,20 @@
     ],
     "explicit_facts": [
       {
-        "text": "Moroni yields command of his armies to his son Moronihah and retires to his own house.",
+        "text": "Moroni yields command of his armies to his son Moronihah.",
         "refs": [
           "Alma 62:43"
         ]
       },
       {
-        "text": "Moroni intends to spend the remainder of his days in peace.",
+        "text": "Moroni retires to his own house intending to spend the remainder of his days in peace.",
         "refs": [
           "Alma 62:43"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Moroni and Moronihah are together at the transfer of command."
+      "Moroni and Moronihah are together for the transfer of command."
     ],
     "unspecified_visual_details": [
       "The form of the transfer and the house's appearance."
@@ -1492,7 +1498,7 @@
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "he retired to his own house",
+        "text": "Moroni yielded up the command of his armies into the hands of his son, whose name was Moronihah; and he retired to his own house that he might spend the remainder of his days in peace.",
         "refs": [
           "Alma 62:43"
         ]
@@ -1500,7 +1506,7 @@
     ],
     "doctrinal_or_story_notes": [],
     "prohibited_inventions": [
-      "Do not invent a farewell speech."
+      "Do not invent a farewell speech or a ceremony."
     ],
     "importance": "normal"
   },
