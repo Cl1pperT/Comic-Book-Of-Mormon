@@ -6,7 +6,7 @@
       "2 Nephi 18:1",
       "2 Nephi 18:2"
     ],
-    "summary": "Nephi reports the Lord’s instruction to take a great roll and write in it concerning Maher-shalal-hash-baz. Nephi reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
+    "summary": "Nephi reports the Lord's instruction to take a great roll and write concerning Maher-shalal-hash-baz. Nephi then reports taking Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
     "characters": [
       "Nephi",
       "The Lord (reported speaker only)",
@@ -18,26 +18,26 @@
     ],
     "explicit_facts": [
       {
-        "text": "The word of the Lord tells the narrator, Nephi, to take a great roll and write in it with a man’s pen concerning Maher-shalal-hash-baz.",
+        "text": "The word of the Lord instructs Nephi to take a great roll and write in it with a man's pen concerning Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:1"
         ]
       },
       {
-        "text": "Nephi took Uriah the priest and Zechariah the son of Jeberechiah as faithful witnesses to record.",
+        "text": "Nephi took faithful witnesses to record: Uriah the priest and Zechariah the son of Jeberechiah.",
         "refs": [
           "2 Nephi 18:2"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A static retrospective illustration may represent Nephi and the two witnesses without depicting recording or placing them at the earlier instruction."
+      "Nephi may be shown with the two named witnesses in a depiction of the later reported event, without implying they were present for the instruction."
     ],
     "unspecified_visual_details": [
-      "The location and everyone’s appearance are unspecified.",
-      "The roll’s material and dimensions and the pen’s appearance are unspecified.",
+      "The location and the people's appearances are unspecified.",
+      "The roll's material and dimensions and the pen's appearance are unspecified.",
       "How the word of the Lord was conveyed is unspecified.",
-      "The interval between the instruction and Nephi’s taking of witnesses is unspecified."
+      "The time between the instruction and the taking of witnesses is unspecified."
     ],
     "spoken_dialogue": [
       {
@@ -50,6 +50,12 @@
     ],
     "narration": [
       {
+        "text": "Moreover, the word of the Lord said unto me:",
+        "refs": [
+          "2 Nephi 18:1"
+        ]
+      },
+      {
         "text": "And I took unto me faithful witnesses to record, Uriah the priest, and Zechariah the son of Jeberechiah.",
         "refs": [
           "2 Nephi 18:2"
@@ -57,17 +63,17 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the first-person narrator.",
-      "The Lord’s dialogue is reported speech, not evidence of a visible divine appearance.",
+      "The supplied context identifies Nephi as the first-person narrator.",
+      "The Lord's words are reported; no visible divine appearance is described.",
       "The instruction and the taking of witnesses are distinct reported events.",
-      "The text does not specify what the witnesses record or say that they perform any recording."
+      "The verses do not say that Nephi carried out the writing or that the witnesses recorded anything."
     ],
     "prohibited_inventions": [
       "Do not depict the Lord visibly or invent a means of communication.",
       "Do not show the commanded writing underway or completed.",
-      "Do not stage the reported events as new present-tense action or place the witnesses at the instruction.",
+      "Do not place the witnesses at the instruction or combine the two reported events into one action.",
       "Do not depict Maher-shalal-hash-baz or Jeberechiah as present.",
-      "Do not assert that the witnesses record writing on the roll."
+      "Do not show the witnesses writing on the roll."
     ],
     "importance": "normal"
   },
@@ -78,37 +84,39 @@
       "2 Nephi 18:3",
       "2 Nephi 18:4"
     ],
-    "summary": "Nephi reports going to the prophetess, who conceived and bore a son. The Lord tells Nephi to name the child Maher-shalal-hash-baz and prophesies what will happen before the child knows how to cry for his father and mother.",
+    "summary": "Nephi reports going to the prophetess, who conceived and bore a son. The Lord tells him to name the child Maher-shalal-hash-baz and foretells that riches and spoil will be taken before the child can cry for his father and mother.",
     "characters": [
       "Nephi",
-      "The Lord (voice only)"
+      "The Lord",
+      "The prophetess",
+      "The son"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi reports going to the prophetess, who conceived and bore a son.",
+        "text": "The first-person narrator reports going to the prophetess, who conceived and bore a son.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "The Lord tells Nephi to name the child Maher-shalal-hash-baz.",
+        "text": "The Lord tells the narrator to name the child Maher-shalal-hash-baz.",
         "refs": [
           "2 Nephi 18:3"
         ]
       },
       {
-        "text": "The Lord says that the riches of Damascus and the spoil of Samaria shall be taken away before the king of Assyria before the child knows how to cry for his father and mother.",
+        "text": "The Lord foretells that the riches of Damascus and the spoil of Samaria will be taken before the king of Assyria before the child knows how to cry for his father and mother.",
         "refs": [
           "2 Nephi 18:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown listening to the Lord's words, with no visible depiction of the Lord.",
-      "The earlier events may be conveyed through narration rather than staged as present action."
+      "Nephi can receive the Lord's words without a visible depiction of the Lord.",
+      "The reported visit, conception, and birth can be conveyed through narration rather than staged during the instruction."
     ],
     "unspecified_visual_details": [
       "Nephi's appearance and clothing",
@@ -146,14 +154,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The visit, conception, and birth are reported events preceding the Lord's instruction; do not combine them into one moment.",
-      "The taking of riches and spoil is a prophecy, not an event occurring in this scene.",
-      "My father, and my mother is part of the Lord's speech, not dialogue spoken by the child."
+      "The prompt identifies the first-person narrator as Nephi; the supplied verse text itself does not name him.",
+      "The visit, conception, and birth precede the Lord's instruction.",
+      "The taking of riches and spoil is foretold, not narrated as occurring here.",
+      "The child's cry is quoted within the Lord's speech, not spoken by the child in this scene."
     ],
     "prohibited_inventions": [
       "Do not give the Lord a visible appearance.",
-      "Do not stage the reported visit, conception, or birth as present-tense action.",
-      "Do not depict the predicted taking of riches and spoil.",
+      "Do not stage the reported visit, conception, or birth as simultaneous with the Lord's instruction.",
+      "Do not depict the foretold taking of riches and spoil as occurring here.",
       "Do not invent additional dialogue, the prophetess's name, or a parental relationship for Nephi.",
       "Do not place the king of Assyria physically in the scene."
     ],
@@ -166,7 +175,7 @@
       "2 Nephi 18:5",
       "2 Nephi 18:6"
     ],
-    "summary": "The Lord speaks again to Nephi, saying that this people refuse the waters of Shiloah that go softly and rejoice in Rezin and Remaliah’s son.",
+    "summary": "The Lord speaks again to the first-person narrator, Nephi, saying that this people refuse the waters of Shiloah that go softly and rejoice in Rezin and Remaliah’s son.",
     "characters": [
       "Nephi",
       "The Lord"
@@ -174,7 +183,7 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord speaks again to Nephi.",
+        "text": "The Lord speaks again to the first-person narrator, identified as Nephi in the supplied context.",
         "refs": [
           "2 Nephi 18:5"
         ]
@@ -182,13 +191,12 @@
       {
         "text": "The Lord says that this people refuse the waters of Shiloah that go softly and rejoice in Rezin and Remaliah’s son.",
         "refs": [
-          "2 Nephi 18:5",
           "2 Nephi 18:6"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown listening as the Lord speaks, without showing the Lord."
+      "Nephi may be shown listening."
     ],
     "unspecified_visual_details": [
       "Nephi’s appearance and the setting are unspecified.",
@@ -212,13 +220,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The people’s refusal and rejoicing are reported in the Lord’s speech, not narrated as events occurring during the exchange."
+      "The people’s refusal and rejoicing are reported in the Lord’s speech, not narrated as events occurring during this exchange."
     ],
     "prohibited_inventions": [
       "Do not invent a visible appearance of the Lord.",
       "Do not stage the people’s refusal or rejoicing during this exchange.",
       "Do not place Rezin or Remaliah’s son physically in the scene.",
-      "Do not depict the waters as a supernatural spectacle or invent their interpretation."
+      "Do not depict the waters as a supernatural spectacle."
     ],
     "importance": "normal"
   },
@@ -368,40 +376,37 @@
       "2 Nephi 18:12",
       "2 Nephi 18:13"
     ],
-    "summary": "The Lord speaks to Nephi with a strong hand and instructs him not to walk in the way of this people. The Lord tells him not to say “A confederacy” as the people do or fear their fear, and to sanctify the Lord of Hosts.",
+    "summary": "Nephi reports that the Lord spoke to him and instructed him not to walk in the way of this people. The instruction forbids saying “A confederacy” as this people would and fearing their fear; it directs them to sanctify the Lord of Hosts and let him be their fear and dread.",
     "characters": [
       "Nephi",
-      "The Lord"
+      "The Lord (reported speaker; not visibly depicted)"
     ],
     "locations": [
       "Unspecified location"
     ],
     "explicit_facts": [
       {
-        "text": "The Lord speaks to Nephi with a strong hand and instructs him not to walk in the way of this people.",
+        "text": "Nephi reports that the Lord spoke to him with a strong hand and instructed him not to walk in the way of this people.",
         "refs": [
           "2 Nephi 18:11"
         ]
       },
       {
-        "text": "The Lord says not to repeat the people's declaration of a confederacy or fear their fear.",
+        "text": "The Lord's instruction forbids saying “A confederacy” as this people shall and fearing their fear or being afraid.",
         "refs": [
           "2 Nephi 18:12"
         ]
       },
       {
-        "text": "The Lord says to sanctify the Lord of Hosts and let him be their fear and dread.",
+        "text": "The instruction says to sanctify the Lord of Hosts himself and let him be their fear and dread.",
         "refs": [
           "2 Nephi 18:13"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The Lord's words can be conveyed without showing a physical appearance."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The setting and Nephi's appearance.",
-      "Any visible form or action associated with “a strong hand.”"
+      "The location, time, clothing, and physical appearances are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -421,18 +426,22 @@
     ],
     "narration": [
       {
-        "text": "the Lord spake thus to me with a strong hand, and instructed me that I should not walk in the way of this people,",
+        "text": "For the Lord spake thus to me with a strong hand,",
         "refs": [
           "2 Nephi 18:11"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "“With a strong hand” does not specify a visible appearance of the Lord."
+      "The supplied narrator identification names the first-person narrator as Nephi; the verses use “me.”",
+      "Preserve the instruction as a report, not a newly staged encounter.",
+      "“With a strong hand” does not establish a visible hand or divine appearance."
     ],
     "prohibited_inventions": [
-      "Do not depict the Lord's physical form or invent a visible hand.",
-      "Do not invent a confederacy meeting or show the people speaking."
+      "Do not visibly depict the Lord or a supernatural hand.",
+      "Do not reenact the reported encounter as a present-tense scene.",
+      "Do not invent a confederacy meeting, crowd dialogue, or named members of this people.",
+      "Do not literalize walking in this people's way as a physical action."
     ],
     "importance": "normal"
   },
@@ -500,47 +509,47 @@
       "2 Nephi 18:16",
       "2 Nephi 18:17"
     ],
-    "summary": "An instruction calls for the testimony to be bound up and the law sealed among the speaker's disciples. Nephi says he will wait upon the Lord and look for him.",
-    "characters": [
-      "Nephi (first-person narrator)"
-    ],
+    "summary": "An instruction calls for the testimony to be bound and the law sealed among the speaker’s disciples. A first-person voice says he will wait upon the Lord and look for him.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "An instruction calls for the testimony to be bound up and the law sealed among the speaker's disciples.",
+        "text": "The speaker instructs that the testimony be bound up and the law sealed among his disciples.",
         "refs": [
           "2 Nephi 18:16"
         ]
       },
       {
-        "text": "Nephi says he will wait upon the Lord and look for him.",
+        "text": "A first-person voice says he will wait upon the Lord and look for him.",
         "refs": [
           "2 Nephi 18:17"
         ]
       },
       {
-        "text": "Nephi describes the Lord as hiding his face from the house of Jacob.",
+        "text": "That voice describes the Lord as hiding his face from the house of Jacob.",
         "refs": [
           "2 Nephi 18:17"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The verse text could appear on screen without depicting the instruction as a completed action."
+      "The words could be displayed as text without depicting the instructions as completed actions."
     ],
     "unspecified_visual_details": [
-      "The identity and appearance of the speaker in verse 16.",
+      "The identity and appearance of the voice speaking in these verses.",
       "The setting and the appearances of those mentioned.",
       "Any physical form for the testimony or law."
     ],
-    "spoken_dialogue": [],
-    "narration": [
+    "spoken_dialogue": [
       {
         "text": "Bind up the testimony, seal the law among my disciples.",
         "refs": [
           "2 Nephi 18:16"
-        ]
-      },
+        ],
+        "speaker": "Unknown speaker"
+      }
+    ],
+    "narration": [
       {
         "text": "And I will wait upon the Lord, that hideth his face from the house of Jacob, and I will look for him.",
         "refs": [
@@ -549,11 +558,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The supplied narrator identification names Nephi as the first-person narrator in verse 17; verse 16 does not identify its speaker.",
+      "The supplied verses do not explicitly identify the voice speaking in verse 17 as Nephi.",
       "The reference to the Lord hiding his face does not describe a visible appearance."
     ],
     "prohibited_inventions": [
-      "Do not assign verse 16 to a named speaker.",
+      "Do not assign either verse to a named speaker based solely on these verses.",
       "Do not depict the Lord, the disciples, or the house of Jacob as physically present.",
       "Do not show the testimony being bound or the law being sealed as completed events."
     ],
@@ -565,21 +574,21 @@
     "refs": [
       "2 Nephi 18:18"
     ],
-    "summary": "Nephi says that he and the children the Lord has given him are for signs and wonders in Israel from the Lord of Hosts, who dwells in Mount Zion.",
+    "summary": "The speaker says that he and the children given to him by the Lord are for signs and wonders in Israel from the Lord of Hosts, who dwells in Mount Zion.",
     "characters": [
       "Nephi",
-      "The children given to Nephi by the Lord"
+      "The children given to the speaker by the Lord"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi says the Lord has given him children.",
+        "text": "The first-person speaker speaks of children whom the Lord has given him.",
         "refs": [
           "2 Nephi 18:18"
         ]
       },
       {
-        "text": "Nephi says he and the children are for signs and wonders in Israel from the Lord of Hosts.",
+        "text": "The speaker says that he and those children are for signs and wonders in Israel from the Lord of Hosts.",
         "refs": [
           "2 Nephi 18:18"
         ]
@@ -592,10 +601,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi and the children could be shown together, though the verse does not describe a gathering."
+      "Nephi could be shown speaking; the verse does not establish that the children are present."
     ],
     "unspecified_visual_details": [
-      "The children's number, ages, names, and appearance.",
+      "The number, ages, and appearance of the children.",
       "Nephi's appearance and the immediate setting."
     ],
     "spoken_dialogue": [
@@ -609,12 +618,13 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Signs and wonders are stated, but no visible miracle is described.",
-      "Mount Zion is mentioned but is not established as the immediate setting."
+      "The verse calls the speaker and the children signs and wonders but describes no visible miracle.",
+      "Mount Zion is mentioned but is not established as the immediate setting.",
+      "The speaker label Nephi follows the supplied narrator identification; the verse itself does not name its speaker."
     ],
     "prohibited_inventions": [
-      "Do not depict an invented miracle or a visible appearance of the Lord.",
-      "Do not invent names or biographies for the children.",
+      "Do not depict an invented miracle or an appearance of the Lord.",
+      "Do not invent names, biographies, or further relationships for the children.",
       "Do not depict Mount Zion as the immediate setting without further support."
     ],
     "importance": "normal"

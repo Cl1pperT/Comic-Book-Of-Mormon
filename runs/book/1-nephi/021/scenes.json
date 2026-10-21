@@ -86,44 +86,35 @@
   },
   {
     "scene_id": "scene_002",
-    "title": "The Servant Addressed",
+    "title": "The Reported Address",
     "refs": [
       "1 Nephi 21:2",
       "1 Nephi 21:3"
     ],
-    "summary": "Nephi describes himself through figurative sword, shadow, shaft, and quiver imagery and reports being addressed as a servant and as Israel.",
+    "summary": "Nephi describes what has been done to him through sword, shadow, shaft, and quiver imagery, then reports being addressed as a servant, O Israel.",
     "characters": [
-      "Nephi",
-      "Unidentified speaker"
+      "Nephi (narrating voice only)",
+      "Unidentified speaker (reported speech only)"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The first-person narrator describes his mouth as like a sharp sword and himself as a polished shaft, hidden in the shadow of a hand and in a quiver.",
+        "text": "The narrator says his mouth has been made like a sharp sword and that he has been hidden in the shadow of a hand, made a polished shaft, and hidden in a quiver.",
         "refs": [
           "1 Nephi 21:2"
         ]
       },
       {
-        "text": "The narrator reports words addressing him as a servant and as Israel, in whom the speaker will be glorified.",
+        "text": "Someone addresses the narrator as a servant, O Israel, in whom the speaker will be glorified.",
         "refs": [
-          "1 Nephi 21:3"
-        ]
-      },
-      {
-        "text": "The supplied verses do not name the speaker of the reported address.",
-        "refs": [
-          "1 Nephi 21:2",
           "1 Nephi 21:3"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "The weapon and hiding imagery is figurative rather than a description of visible transformations."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No physical setting, appearance, clothing, or staging is specified.",
-      "The reported speaker's identity and appearance are unspecified."
+      "No setting, clothing, or physical appearance is specified.",
+      "Neither the narrator nor the reported speaker is established as physically present in a depicted scene."
     ],
     "spoken_dialogue": [
       {
@@ -149,45 +140,45 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Nephi is the narrator under the explicit chapter-level instruction; these two verses alone do not supply his name.",
-      "The address is reported speech, not an independently narrated present encounter.",
-      "The address “O Israel” does not establish another physically present character."
+      "Nephi is the narrator label supplied by the user; these verses do not establish his physical presence.",
+      "The sword, shadow, shaft, and quiver are figurative imagery, not a narrated physical transformation.",
+      "The address is reported rather than a new present-time encounter."
     ],
     "prohibited_inventions": [
-      "Do not literalize the sword, hand, shaft, or quiver imagery.",
-      "Do not invent an identity or visible appearance for the reported speaker.",
-      "Do not stage the reported address as a new present-time encounter.",
-      "Do not add another person named Israel."
+      "Do not depict a literal transformation into a sword or shaft.",
+      "Do not invent the reported speaker's identity, appearance, or physical presence.",
+      "Do not depict Israel as an additional physically present character.",
+      "Do not invent a setting or stage a new encounter."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_003",
-    "title": "Nephi Reflects on His Labor",
+    "title": "A Statement About Labor",
     "refs": [
       "1 Nephi 21:4"
     ],
-    "summary": "Nephi says he has labored in vain and spent his strength for naught, and that his judgment is with the Lord and his work with God.",
+    "summary": "A first-person speaker says he has labored in vain and spent his strength for naught, and that his judgment is with the Lord and his work with God.",
     "characters": [
-      "Nephi"
+      "Unidentified speaker"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "Nephi says he has labored in vain and spent his strength for naught and in vain.",
+        "text": "The speaker says he has labored in vain and spent his strength for naught.",
         "refs": [
           "1 Nephi 21:4"
         ]
       },
       {
-        "text": "Nephi says his judgment is with the Lord and his work with God.",
+        "text": "The speaker says his judgment is with the Lord and his work with God.",
         "refs": [
           "1 Nephi 21:4"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Nephi may be shown speaking."
+      "A person may be shown speaking."
     ],
     "unspecified_visual_details": [
       "The speaker's appearance, location, audience, and specific labor are not described."
@@ -198,12 +189,12 @@
         "refs": [
           "1 Nephi 21:4"
         ],
-        "speaker": "Nephi"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Nephi is the speaker under the request's explicit identification of the first-person narrator; the verse does not independently name him.",
+      "The chapter-level identification names Nephi as narrator but does not establish that he is the person physically speaking these quoted words.",
       "The labor is reported in speech, not narrated as an action occurring in this scene."
     ],
     "prohibited_inventions": [
@@ -220,78 +211,80 @@
       "1 Nephi 21:5",
       "1 Nephi 21:6"
     ],
-    "summary": "The passage describes a servant formed by the Lord to bring Jacob again to him, with God as the servant's strength though Israel is not gathered. The Lord declares the servant's calling to restore Israel and be a light to the Gentiles.",
+    "summary": "A servant says the Lord formed him to bring Jacob back, acknowledges that Israel is not gathered, and says God will be his strength. Another statement concerns raising Jacob’s tribes, restoring the preserved of Israel, and giving the servant as a light to the Gentiles.",
     "characters": [
-      "The Lord",
-      "Unnamed servant"
+      "The servant"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The passage describes the Lord forming the servant from the womb to bring Jacob again to him.",
+        "text": "The first-person speaker says the Lord formed him from the womb to be his servant and bring Jacob back to him.",
         "refs": [
           "1 Nephi 21:5"
         ]
       },
       {
-        "text": "Though Israel is not gathered, the servant shall be glorious in the Lord's eyes, and God shall be the servant's strength.",
+        "text": "The speaker says Israel is not gathered, he will be glorious in the Lord’s eyes, and God will be his strength.",
         "refs": [
           "1 Nephi 21:5"
         ]
       },
       {
-        "text": "The Lord speaks of raising up the tribes of Jacob and restoring the preserved of Israel.",
+        "text": "The statement in verse 6 speaks of raising the tribes of Jacob and restoring the preserved of Israel.",
         "refs": [
           "1 Nephi 21:6"
         ]
       },
       {
-        "text": "The Lord promises to give the servant as a light to the Gentiles and as his salvation unto the ends of the earth.",
+        "text": "The speaker in verse 6 says he will give the servant as a light to the Gentiles and as his salvation to the ends of the earth.",
         "refs": [
           "1 Nephi 21:6"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "A text-based presentation can convey the calling and promises without depicting their fulfillment."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No physical setting, appearance, clothing, or staging is specified.",
-      "The servant is not named in these verses."
+      "No physical setting, appearance, clothing, gestures, or staging is specified.",
+      "No visible appearance of the Lord is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "It is a light thing that thou shouldst be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel. I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the ends of the earth.",
+        "text": "that formed me from the womb that I should be his servant, to bring Jacob again to him",
+        "refs": [
+          "1 Nephi 21:5"
+        ],
+        "speaker": "The servant"
+      },
+      {
+        "text": "I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the ends of the earth.",
         "refs": [
           "1 Nephi 21:6"
         ],
-        "speaker": "The Lord"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "Nephi's identification as the chapter's narrator does not establish the identity of the servant in the quoted passage.",
-      "These verses describe a calling and promises, not their visible fulfillment.",
-      "The light to the Gentiles is figurative language, not a narrated visible transformation.",
-      "Listed characters are textual participants, not an assertion of physical presence together."
+      "Nephi is the chapter’s narrator, but these verses do not place him physically in the address.",
+      "Verse 6 introduces its speaker as “he” without unambiguously naming him.",
+      "The light and salvation language does not narrate a visible transformation or fulfilled event."
     ],
     "prohibited_inventions": [
-      "Do not identify the servant as Nephi or another named person.",
-      "Do not invent a visible appearance of the Lord or a face-to-face encounter.",
-      "Do not depict gathering, restoration, or worldwide salvation as occurring here.",
-      "Do not depict the servant literally becoming light.",
-      "Do not stage the formation from the womb as a new present-tense event.",
-      "Do not place Jacob, Israel, or the Gentiles physically in the scene merely because they are mentioned."
+      "Do not depict an appearance of the Lord.",
+      "Do not stage formation from the womb, gathering, restoration, or salvation as occurring here.",
+      "Do not depict the servant literally transforming into light.",
+      "Do not place Jacob, Israel, or the Gentiles physically in the scene merely because they are mentioned.",
+      "Do not invent an audience, location, or additional dialogue."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_005",
-    "title": "The Lord’s Promise to the Servant",
+    "title": "The Lord’s Declaration",
     "refs": [
       "1 Nephi 21:7"
     ],
-    "summary": "The Lord addresses one despised by man, abhorred by the nation, and a servant of rulers, foretelling that kings shall see and arise and princes shall worship because the Lord is faithful.",
+    "summary": "The verse attributes a declaration to the Lord concerning a despised addressee and foretells that kings shall see and arise and princes shall worship.",
     "characters": [
       "The Lord"
     ],
@@ -304,25 +297,24 @@
         ]
       },
       {
-        "text": "The addressee is despised by man, abhorred by the nation, and a servant of rulers.",
+        "text": "The addressee is described as despised by man, abhorred by the nation, and a servant of rulers.",
         "refs": [
           "1 Nephi 21:7"
         ]
       },
       {
-        "text": "Kings shall see and arise, and princes shall worship, because the Lord is faithful; these responses are foretold rather than narrated as occurring.",
+        "text": "Kings seeing and arising and princes worshipping are foretold, not narrated as occurring.",
         "refs": [
           "1 Nephi 21:7"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The declaration may be presented as text without staging its delivery."
+      "The declaration can be presented as text without depicting an encounter or the foretold responses."
     ],
     "unspecified_visual_details": [
-      "No location or physical setting is established.",
-      "The addressee’s identity and appearance are unspecified.",
-      "No visible appearance of the Lord or individual rulers is described."
+      "No location is specified.",
+      "No appearance of the Lord, the addressee, kings, or princes is described."
     ],
     "spoken_dialogue": [
       {
@@ -342,15 +334,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse attributes the declaration to the Lord but does not describe a visible appearance or a staged encounter.",
-      "The rulers’ responses are prophetic, not present action.",
-      "The narration preserves the supplied wording “to servant of rulers:” without adding an article."
+      "The verse attributes the declaration to the Lord but does not describe his visible appearance.",
+      "The responses of kings and princes are foretold, not present action."
     ],
     "prohibited_inventions": [
-      "Do not depict an appearance of the Lord or invent a present encounter.",
-      "Do not stage kings arising or princes worshipping as events occurring now.",
-      "Do not assign identities, biographies, or relationships to the unnamed addressee or rulers.",
-      "Do not invent a physical location or depict Nephi as physically present."
+      "Do not depict the Lord’s appearance or stage an encounter.",
+      "Do not depict the foretold responses as occurring now.",
+      "Do not invent identities, appearances, or a location."
     ],
     "importance": "normal"
   },
@@ -361,51 +351,46 @@
       "1 Nephi 21:8",
       "1 Nephi 21:9"
     ],
-    "summary": "The Lord declares that he has heard and helped the addressed “thee,” with “O isles of the sea” included in the address. He promises preservation and his servant for a covenant of the people, to establish the earth and cause inheritance of desolate heritages, so that the addressee may speak to prisoners and those in darkness. He declares that they shall feed in the ways and have pastures in high places.",
-    "characters": [
-      "The Lord (quoted speaker; no visible appearance described)"
-    ],
-    "locations": [
-      "No physical scene location specified"
-    ],
+    "summary": "The Lord addresses the isles of the sea, says he has heard and helped the addressee, and promises preservation and his servant for a covenant of the people. He says the addressee may tell prisoners to go forth and those in darkness to show themselves, and declares that they shall feed in the ways and have pastures in high places.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The passage introduces the words with “Thus saith the Lord:” and includes “O isles of the sea” in the address.",
+        "text": "The words are introduced as the Lord’s, and he directly addresses the isles of the sea.",
         "refs": [
           "1 Nephi 21:8"
         ]
       },
       {
-        "text": "The Lord declares that he has heard “thee” in an acceptable time and helped “thee” in a day of salvation.",
+        "text": "The Lord says he has heard and helped the addressee and promises to preserve the addressee.",
         "refs": [
           "1 Nephi 21:8"
         ]
       },
       {
-        "text": "The Lord promises to preserve “thee” and give “thee” his servant for a covenant of the people, to establish the earth and cause inheritance of the desolate heritages.",
+        "text": "The Lord promises his servant for a covenant of the people, to establish the earth and cause inheritance of desolate heritages.",
         "refs": [
           "1 Nephi 21:8"
         ]
       },
       {
-        "text": "The purpose clause concerns speaking to prisoners to go forth and to those sitting in darkness to show themselves.",
+        "text": "The Lord says the addressee may tell prisoners to go forth and those sitting in darkness to show themselves.",
         "refs": [
           "1 Nephi 21:9"
         ]
       },
       {
-        "text": "The Lord declares that they shall feed in the ways and that their pastures shall be in all high places.",
+        "text": "The Lord declares that they shall feed in the ways and have pastures in all high places.",
         "refs": [
           "1 Nephi 21:9"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "A nonliteral presentation of the quoted words can avoid staging the promises as events already happening."
+      "The declarations can be presented without depicting the promised actions as presently occurring."
     ],
     "unspecified_visual_details": [
-      "The setting, physical appearances, and visual presentation are unspecified.",
-      "No visible appearance of the Lord or his servant is described."
+      "No physical setting or appearance of the Lord, his servant, the addressee, or the prisoners is described."
     ],
     "spoken_dialogue": [
       {
@@ -421,21 +406,25 @@
           "1 Nephi 21:9"
         ],
         "speaker": "The Lord"
+      },
+      {
+        "text": "They shall feed in the ways, and their pastures shall be in all high places.",
+        "refs": [
+          "1 Nephi 21:9"
+        ],
+        "speaker": "The Lord"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The Lord is the explicitly identified quoted speaker; Nephi's narration does not make Nephi the speaker of the Lord's words.",
-      "Retain the source's singular “thee” without assigning a more specific identity to the addressee.",
-      "“That thou mayest say” expresses purpose, not merely permission.",
-      "These declarations do not narrate a present release, journey, feeding, or visible supernatural event."
+      "The Lord is identified as the speaker, not described as visibly present.",
+      "The commands to prisoners and those in darkness are part of what the addressee may say, not dialogue shown to have been spoken to them.",
+      "The passage does not narrate a present release or feeding."
     ],
     "prohibited_inventions": [
-      "Do not invent a homecoming or way-home framing.",
-      "Do not stage the promised events as occurring now.",
-      "Do not invent an appearance for the Lord or his servant.",
-      "Do not identify the servant or addressee beyond the supplied wording.",
-      "Do not invent prisoners' identities, dialogue, or biographies."
+      "Do not depict the Lord or his servant with an invented appearance.",
+      "Do not stage the promised actions as occurring now.",
+      "Do not invent identities, biographies, or dialogue for the prisoners or the addressee."
     ],
     "importance": "normal"
   },
@@ -451,26 +440,26 @@
     "locations": [],
     "explicit_facts": [
       {
-        "text": "They shall not hunger or thirst, and heat and sun shall not smite them.",
+        "text": "They shall not hunger or thirst, and neither heat nor sun shall smite them.",
         "refs": [
           "1 Nephi 21:10"
         ]
       },
       {
-        "text": "One who has mercy on them shall lead them and guide them by springs of water.",
+        "text": "He that hath mercy on them shall lead them and guide them by springs of water.",
         "refs": [
           "1 Nephi 21:10"
         ]
       },
       {
-        "text": "The first-person voice promises to make the mountains a way and exalt the highways.",
+        "text": "The first-person voice promises to make mountains a way and exalt highways.",
         "refs": [
           "1 Nephi 21:11"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Springs, mountains, and highways may appear as illustrative imagery, not as a journey or transformation happening now."
+      "Springs, mountains, and highways could be shown as static illustrations of the promises."
     ],
     "unspecified_visual_details": [
       "The identities and appearances of those being guided are unspecified.",
@@ -492,12 +481,11 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "These are promises, not a narrated journey or a visible transformation.",
-      "The verses do not establish Nephi as physically present or identify him as the speaker of the first-person promise."
+      "These are promises, not a narrated journey or visible transformation."
     ],
     "prohibited_inventions": [
-      "Do not depict a present journey, a newly formed road, or a visible divine figure.",
-      "Do not invent identities, appearances, or dialogue for the people mentioned."
+      "Do not depict a present journey, a road being formed, or a visible divine figure.",
+      "Do not invent identities, appearances, or dialogue for those mentioned."
     ],
     "importance": "normal"
   },
@@ -508,30 +496,36 @@
       "1 Nephi 21:12",
       "1 Nephi 21:13"
     ],
-    "summary": "The passage foretells people coming from afar, the north, the west, and the land of Sinim. It calls for rejoicing, foretells that the feet of those in the east shall be established and that they shall be smitten no more, and declares the Lord’s comfort and mercy.",
+    "summary": "The house of Israel is addressed concerning arrivals from far, the north, the west, and the land of Sinim. The passage calls the heavens and earth to rejoice and the mountains to break forth into singing. It declares that “the feet of those who are in the east shall be established” and that “they shall be smitten no more,” giving the Lord’s comfort and mercy as reasons for rejoicing.",
     "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The passage addresses the house of Israel and foretells people coming from far, from the north, from the west, and from the land of Sinim.",
+        "text": "The house of Israel is addressed concerning those who shall come from far, the north, the west, and the land of Sinim.",
         "refs": [
           "1 Nephi 21:12"
         ]
       },
       {
-        "text": "The passage calls on the heavens, earth, and mountains to rejoice or sing.",
+        "text": "The heavens are called to sing, the earth to be joyful, and the mountains to break forth into singing.",
         "refs": [
           "1 Nephi 21:13"
         ]
       },
       {
-        "text": "The feet of those in the east shall be established, and they shall be smitten no more.",
+        "text": "The passage states: “the feet of those who are in the east shall be established”.",
         "refs": [
           "1 Nephi 21:13"
         ]
       },
       {
-        "text": "The Lord has comforted his people and will have mercy upon his afflicted.",
+        "text": "The passage states “they shall be smitten no more” without unambiguously identifying the referent of “they.”",
+        "refs": [
+          "1 Nephi 21:13"
+        ]
+      },
+      {
+        "text": "The Lord’s having comforted his people and his promised mercy upon his afflicted are given as reasons within the exhortation, not narrated as separate visible events.",
         "refs": [
           "1 Nephi 21:13"
         ]
@@ -539,37 +533,26 @@
     ],
     "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "No present setting or visible participants are specified.",
-      "No appearance is given for the Lord or for the people mentioned."
+      "No physical speaking setting or visible participants are specified.",
+      "The appearances of the people mentioned are unspecified.",
+      "The geographical identification and landscape of the land of Sinim are unspecified."
     ],
     "spoken_dialogue": [],
     "narration": [
       {
-        "text": "these shall come from far;",
+        "text": "these shall come from far; and lo, these from the north and from the west; and these from the land of Sinim.",
         "refs": [
           "1 Nephi 21:12"
         ]
       },
       {
-        "text": "these from the north and from the west; and these from the land of Sinim.",
-        "refs": [
-          "1 Nephi 21:12"
-        ]
-      },
-      {
-        "text": "Sing, O heavens; and be joyful, O earth;",
+        "text": "and break forth into singing, O mountains;",
         "refs": [
           "1 Nephi 21:13"
         ]
       },
       {
         "text": "for the feet of those who are in the east shall be established;",
-        "refs": [
-          "1 Nephi 21:13"
-        ]
-      },
-      {
-        "text": "and break forth into singing, O mountains;",
         "refs": [
           "1 Nephi 21:13"
         ]
@@ -582,14 +565,17 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The arrivals and establishment are foretold, not narrated as present events.",
-      "The calls for heaven, earth, and mountains to sing are exhortations, not narrated visible events.",
-      "The supplied verses do not identify the speaker of this passage."
+      "Nephi is the identified first-person narrator; these excerpts do not independently identify a speaker for the embedded prophetic address.",
+      "Preserve the wording about feet and those in the east without resolving its grammatical relationship or assigning a separate event time.",
+      "The exhortations to heavens, earth, and mountains are figurative teachings, not narrated supernatural events.",
+      "The directional regions and the land of Sinim are mentioned places, not established present scene settings."
     ],
     "prohibited_inventions": [
-      "Do not show the foretold arrivals as already occurring.",
-      "Do not depict heaven, earth, or mountains literally singing.",
-      "Do not invent a visible appearance of the Lord or assign the passage’s speech to Nephi."
+      "Do not stage the announced arrivals or establishment as present events.",
+      "Do not invent a visible episode of the Lord comforting people or a visible divine appearance.",
+      "Do not depict the heavens, earth, or mountains literally singing.",
+      "Do not invent visible listeners, a speaking setting, or additional dialogue.",
+      "Do not assign a definite referent to “they” in “they shall be smitten no more.”"
     ],
     "importance": "normal"
   },
@@ -600,14 +586,12 @@
       "1 Nephi 21:14",
       "1 Nephi 21:15"
     ],
-    "summary": "Zion says the Lord has forsaken and forgotten her. The passage says he will show that he has not, then contrasts a woman who may forget her child with the Lord's promise not to forget the house of Israel.",
+    "summary": "Zion says the Lord has forsaken and forgotten her. The verse says he will show that he has not. A speaker asks whether a woman can forget her child and promises not to forget the house of Israel.",
     "characters": [
       "Zion",
-      "The Lord"
+      "Unidentified speaker"
     ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "locations": [],
     "explicit_facts": [
       {
         "text": "Zion says the Lord has forsaken and forgotten her.",
@@ -616,38 +600,45 @@
         ]
       },
       {
-        "text": "The passage says he will show that he has not.",
+        "text": "The verse says he will show that he has not.",
         "refs": [
           "1 Nephi 21:14"
         ]
       },
       {
-        "text": "The Lord says that even if women may forget their children, he will not forget the house of Israel.",
+        "text": "The speaker asks whether a woman can forget her child and says the house of Israel will not be forgotten.",
         "refs": [
           "1 Nephi 21:15"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The words can be presented without showing Zion, the Lord, a woman, or a child."
+      "The words can be presented as text without depicting the woman and child in the comparison."
     ],
     "unspecified_visual_details": [
       "No setting or physical appearance is specified."
     ],
     "spoken_dialogue": [
       {
-        "text": "The Lord hath forsaken me, and my Lord hath forgotten me—",
+        "text": "The Lord hath forsaken me,",
         "refs": [
           "1 Nephi 21:14"
         ],
         "speaker": "Zion"
       },
       {
-        "text": "For can a woman forget her sucking child, that she should not have compassion on the son of her womb? Yea, they may forget, yet will I not forget thee, O house of Israel.",
+        "text": "my Lord hath forgotten me",
+        "refs": [
+          "1 Nephi 21:14"
+        ],
+        "speaker": "Zion"
+      },
+      {
+        "text": "Yea, they may forget, yet will I not forget thee, O house of Israel.",
         "refs": [
           "1 Nephi 21:15"
         ],
-        "speaker": "The Lord"
+        "speaker": "Unidentified speaker"
       }
     ],
     "narration": [
@@ -665,11 +656,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The woman and child form a rhetorical comparison, not a narrated event."
+      "The woman and child are part of a rhetorical comparison, not a narrated event.",
+      "The supplied verses do not explicitly identify the speaker of verse 15."
     ],
     "prohibited_inventions": [
       "Do not depict the comparison as an event or invent an appearance for Zion or the Lord.",
-      "Do not assign the Lord's first-person promise to Zion."
+      "Do not depict the Lord as physically present or assign a known identity to the speaker of verse 15."
     ],
     "importance": "normal"
   },
@@ -679,10 +671,8 @@
     "refs": [
       "1 Nephi 21:16"
     ],
-    "summary": "A speaker says the addressee is graven upon the palms of his hands and that the addressee's walls are continually before him.",
-    "characters": [
-      "Unidentified speaker"
-    ],
+    "summary": "An unidentified speaker says the addressee is graven upon the palms of his hands and that the addressee's walls are continually before him.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
@@ -699,7 +689,7 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The statement can be presented as speech without depicting the speaker."
+      "The words can be presented without showing a speaker."
     ],
     "unspecified_visual_details": [
       "The speaker's identity and appearance are not stated.",
@@ -711,7 +701,7 @@
         "refs": [
           "1 Nephi 21:16"
         ],
-        "speaker": "Unidentified speaker"
+        "speaker": "Unknown speaker"
       }
     ],
     "narration": [],
@@ -719,7 +709,8 @@
       "The verse does not narrate a visible engraving event."
     ],
     "prohibited_inventions": [
-      "Do not depict literal engraving or assign the speaker an unsupported appearance or identity."
+      "Do not depict literal engraving or assign the speaker an unsupported identity or appearance.",
+      "Do not show the speaker as physically present."
     ],
     "importance": "normal"
   },
@@ -730,64 +721,66 @@
       "1 Nephi 21:17",
       "1 Nephi 21:18"
     ],
-    "summary": "The Lord says the addressee’s children will make haste against destroyers, those who made the addressee waste will leave, and others will gather and come to the addressee.",
-    "characters": [
-      "The Lord"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The addressee’s children are foretold to make haste against destroyers, while those who made the addressee waste shall go forth. Others are foretold to gather and come to the addressee. The Lord’s saying compares clothing and binding them on to an ornament and a bride.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The addressee’s children will make haste against destroyers, and those who made the addressee waste will go forth.",
+        "text": "The addressee’s children shall make haste against destroyers, and those who made the addressee waste shall go forth.",
         "refs": [
           "1 Nephi 21:17"
         ]
       },
       {
-        "text": "The Lord tells the addressee to look around; others gather and will come to the addressee.",
+        "text": "The addressee is told to look around; others gather and shall come to the addressee.",
         "refs": [
           "1 Nephi 21:18"
         ]
       },
       {
-        "text": "The Lord compares the addressee’s relationship to those who gather with clothing, an ornament, and a bride.",
+        "text": "The Lord is named in the saying that compares clothing and binding on those who gather to an ornament and a bride.",
         "refs": [
           "1 Nephi 21:18"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the prophecy as speech without showing its predicted actions taking place."
+      "Present the predicted actions as prophecy, not as events occurring in the scene."
     ],
     "unspecified_visual_details": [
-      "The addressee, children, destroyers, and those who gather are not visually described.",
-      "No location or visible appearance of the Lord is specified."
+      "No physical setting or appearance is specified for the addressee, children, destroyers, or those who gather.",
+      "No visible appearance of the Lord or Nephi is described."
     ],
     "spoken_dialogue": [
       {
-        "text": "Thy children shall make haste against thy destroyers; and they that made thee waste shall go forth of thee.",
-        "refs": [
-          "1 Nephi 21:17"
-        ],
-        "speaker": "The Lord"
-      },
-      {
-        "text": "Lift up thine eyes round about and behold; all these gather themselves together, and they shall come to thee.",
+        "text": "thou shalt surely clothe thee with them all, as with an ornament, and bind them on even as a bride.",
         "refs": [
           "1 Nephi 21:18"
         ],
         "speaker": "The Lord"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Thy children shall make haste against thy destroyers; and they that made thee waste shall go forth of thee.",
+        "refs": [
+          "1 Nephi 21:17"
+        ]
+      },
+      {
+        "text": "Lift up thine eyes round about and behold; all these gather themselves together, and they shall come to thee.",
+        "refs": [
+          "1 Nephi 21:18"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The clothing, ornament, and bride language is figurative.",
-      "The children’s actions and the gathering are foretold, not narrated as present events."
+      "The ornament and bride comparison is figurative.",
+      "The verses do not establish Nephi or the Lord as physically present."
     ],
     "prohibited_inventions": [
-      "Do not depict the predicted actions as happening now.",
-      "Do not depict combat, a wedding, or an invented appearance of the Lord."
+      "Do not depict the foretold actions as happening now.",
+      "Do not depict a wedding or invent a visible appearance for the Lord."
     ],
     "importance": "normal"
   },
@@ -867,101 +860,100 @@
   },
   {
     "scene_id": "scene_013",
-    "title": "Zion Wonders at Her Children",
+    "title": "An Inward Question",
     "refs": [
       "1 Nephi 21:21"
     ],
-    "summary": "The addressed figure wonders who begot and brought up those she calls hers, saying she has lost her children and was left alone.",
-    "characters": [
-      "Zion"
-    ],
-    "locations": [
-      "Unspecified location"
-    ],
+    "summary": "The addressed figure is told to ask inwardly who begot and brought up those called “these,” while recalling lost children, desolation, captivity, movement to and fro, and being left alone.",
+    "characters": [],
+    "locations": [],
     "explicit_facts": [
       {
-        "text": "The addressed figure is to speak in her heart.",
+        "text": "The addressed figure is told to speak in the heart.",
         "refs": [
           "1 Nephi 21:21"
         ]
       },
       {
-        "text": "She asks who begot and brought up those she calls hers, says she has lost her children, and describes herself as desolate, captive, moving to and fro, and left alone.",
+        "text": "The inward question asks who begot and brought up “these.”",
+        "refs": [
+          "1 Nephi 21:21"
+        ]
+      },
+      {
+        "text": "The addressed figure describes having lost children, being desolate and captive, moving to and fro, and being left alone.",
         "refs": [
           "1 Nephi 21:21"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "Present the question without showing a specific person or children."
+      "The inward question can be presented without a physically present speaker or children."
     ],
     "unspecified_visual_details": [
-      "The speaker's appearance and setting are not described.",
-      "The identities and appearances of those she calls hers are not described."
+      "No physical appearance or setting is described.",
+      "The identities and appearances of “these” are not described."
     ],
-    "spoken_dialogue": [
-      {
-        "text": "Who hath begotten me these, seeing I have lost my children, and am desolate, a captive, and removing to and fro? And who hath brought up these? Behold, I was left alone; these, where have they been?",
-        "refs": [
-          "1 Nephi 21:21"
-        ],
-        "speaker": "Zion"
-      }
-    ],
+    "spoken_dialogue": [],
     "narration": [
       {
-        "text": "Then shalt thou say in thine heart:",
+        "text": "Then shalt thou say in thine heart: Who hath begotten me these, seeing I have lost my children, and am desolate, a captive, and removing to and fro? And who hath brought up these? Behold, I was left alone; these, where have they been?",
         "refs": [
           "1 Nephi 21:21"
         ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse presents an inward question; it does not narrate a visible encounter."
+      "The verse presents an inward question, not an audible exchange or a visible encounter."
     ],
     "prohibited_inventions": [
-      "Do not invent a visible woman, children, or a reunion."
+      "Do not depict the figuratively addressed figure as a physically present person.",
+      "Do not invent visible children or a reunion."
     ],
     "importance": "normal"
   },
   {
     "scene_id": "scene_014",
-    "title": "The Lord's Promise to His People",
+    "title": "The Lord God's Promise",
     "refs": [
       "1 Nephi 21:22",
       "1 Nephi 21:23"
     ],
-    "summary": "The Lord God says he will raise his standard to the people, who will carry sons and daughters. He says kings and queens will nurture them and bow down, and that those who wait for him will not be ashamed.",
-    "characters": [
-      "The Lord God"
-    ],
+    "summary": "The Lord God promises to lift his hand to the Gentiles and set up his standard to the people. Sons will be brought in arms and daughters carried on shoulders. Kings and queens will be nursing fathers and mothers and bow to the addressee. The addressee will know that he is the Lord, and those who wait for him will not be ashamed.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord God says he will lift his hand to the Gentiles and set up his standard to the people, who will bring sons in their arms and carry daughters on their shoulders.",
+        "text": "The Lord God says he will lift his hand to the Gentiles and set up his standard to the people.",
         "refs": [
           "1 Nephi 21:22"
         ]
       },
       {
-        "text": "The Lord God says kings will be nursing fathers and queens nursing mothers; they will bow with their faces toward the earth and lick the dust of the addressee's feet.",
+        "text": "Sons will be brought in arms and daughters carried upon shoulders.",
+        "refs": [
+          "1 Nephi 21:22"
+        ]
+      },
+      {
+        "text": "Kings and queens will be nursing fathers and nursing mothers; they will bow with their faces toward the earth and lick the dust of the addressee's feet.",
         "refs": [
           "1 Nephi 21:23"
         ]
       },
       {
-        "text": "The Lord God says those who wait for him will not be ashamed.",
+        "text": "The Lord God says the addressee will know that he is the Lord, and those who wait for him will not be ashamed.",
         "refs": [
           "1 Nephi 21:23"
         ]
       }
     ],
-    "reasonable_visual_inferences": [
-      "Present the words as a prophecy rather than as events occurring now."
-    ],
+    "reasonable_visual_inferences": [],
     "unspecified_visual_details": [
-      "The addressee and the people are not identified or visually described.",
-      "No present location or visible appearance of the Lord God is specified."
+      "No present physical setting is given.",
+      "No visible appearance of the Lord God is described.",
+      "The addressee is not identified.",
+      "The appearances of the mentioned people are not described."
     ],
     "spoken_dialogue": [
       {
@@ -972,20 +964,29 @@
         "speaker": "The Lord God"
       },
       {
-        "text": "And kings shall be thy nursing fathers, and their queens thy nursing mothers; they shall bow down to thee with their face towards the earth,",
+        "text": "and thou shalt know that I am the Lord; for they shall not be ashamed that wait for me.",
         "refs": [
           "1 Nephi 21:23"
         ],
         "speaker": "The Lord God"
       }
     ],
-    "narration": [],
+    "narration": [
+      {
+        "text": "Thus saith the Lord God:",
+        "refs": [
+          "1 Nephi 21:22"
+        ]
+      }
+    ],
     "doctrinal_or_story_notes": [
-      "The predicted actions are not narrated as present events."
+      "These verses present a future promise, not its narrated fulfillment.",
+      "The Lord God is the attributed speaker; Nephi is not the speaker of the first-person promise."
     ],
     "prohibited_inventions": [
-      "Do not depict the prophecy as already fulfilled.",
-      "Do not invent an appearance for the Lord God or identities for the addressee, kings, queens, or children."
+      "Do not depict the promised actions as already occurring.",
+      "Do not invent a visible divine appearance or a present speaking setting.",
+      "Do not identify the addressee or give unnamed people invented identities or biographies."
     ],
     "importance": "normal"
   },
@@ -996,10 +997,8 @@
       "1 Nephi 21:24",
       "1 Nephi 21:25"
     ],
-    "summary": "A question asks whether prey can be taken from the mighty or lawful captives delivered. The Lord promises to take away captives, deliver prey, contend with one who contends with the person addressed, and save that person's children.",
-    "characters": [
-      "The Lord"
-    ],
+    "summary": "A question asks whether prey can be taken from the mighty or lawful captives delivered. The Lord declares that captives will be taken away, prey delivered, and the children of the person addressed saved.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
@@ -1009,27 +1008,27 @@
         ]
       },
       {
-        "text": "The Lord promises that captives of the mighty will be taken away and prey of the terrible delivered.",
+        "text": "The Lord declares that captives of the mighty will be taken away and prey of the terrible delivered.",
         "refs": [
           "1 Nephi 21:25"
         ]
       },
       {
-        "text": "The Lord promises to contend with one who contends with the person addressed and to save that person's children.",
+        "text": "The Lord says he will contend with the one who contends with the person addressed and save that person's children.",
         "refs": [
           "1 Nephi 21:25"
         ]
       }
     ],
     "reasonable_visual_inferences": [
-      "The promised deliverance and contention are not events shown as already occurring."
+      "The promised deliverance and contention are not shown as already occurring."
     ],
     "unspecified_visual_details": [
       "No setting or physical appearances are described."
     ],
     "spoken_dialogue": [
       {
-        "text": "even the captives of the mighty shall be taken away, and the prey of the terrible shall be delivered; for I will contend with him that contendeth with thee, and I will save thy children.",
+        "text": "But thus saith the Lord, even the captives of the mighty shall be taken away, and the prey of the terrible shall be delivered; for I will contend with him that contendeth with thee, and I will save thy children.",
         "refs": [
           "1 Nephi 21:25"
         ],
@@ -1042,16 +1041,10 @@
         "refs": [
           "1 Nephi 21:24"
         ]
-      },
-      {
-        "text": "But thus saith the Lord,",
-        "refs": [
-          "1 Nephi 21:25"
-        ]
       }
     ],
     "doctrinal_or_story_notes": [
-      "The Lord is identified as the speaker of the promise; these verses do not identify the speaker of the preceding question."
+      "The Lord is identified as the speaker of the promise. The preceding question has no identified speaker in these verses."
     ],
     "prohibited_inventions": [
       "Do not depict the promised rescue or contention as already occurring.",
@@ -1066,14 +1059,12 @@
     "refs": [
       "1 Nephi 21:26"
     ],
-    "summary": "The Lord declares that those who oppress the addressee will face judgment and that all flesh will know him as Savior, Redeemer, and the Mighty One of Jacob.",
-    "characters": [
-      "The Lord"
-    ],
+    "summary": "The Lord declares future judgment upon those who oppress the addressee and says all flesh shall know him as Savior and Redeemer, the Mighty One of Jacob.",
+    "characters": [],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The Lord says he will feed those who oppress the addressee with their own flesh and that they will be drunken with their own blood as with sweet wine.",
+        "text": "The Lord says he will feed those who oppress the addressee with their own flesh and that they shall be drunken with their own blood as with sweet wine.",
         "refs": [
           "1 Nephi 21:26"
         ]
@@ -1086,10 +1077,10 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The Lord's words can be presented without depicting the judgment imagery as a physical event."
+      "The declaration can be presented as text without depicting the Lord or the future judgment."
     ],
     "unspecified_visual_details": [
-      "The addressee, setting, and the Lord's appearance are not specified."
+      "The addressee's identity, the setting, and the Lord's visible appearance are not specified."
     ],
     "spoken_dialogue": [
       {
@@ -1102,11 +1093,11 @@
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The verse declares future judgment; it does not narrate that judgment happening in this scene."
+      "The verse declares future judgment; it does not narrate that judgment occurring."
     ],
     "prohibited_inventions": [
-      "Do not depict literal cannibalism, blood, or wounds.",
-      "Do not invent an appearance for the Lord or identify the addressee."
+      "Do not stage the future judgment as a present physical event or depict its imagery literally.",
+      "Do not depict the Lord's appearance or identify the addressee."
     ],
     "importance": "normal"
   }

@@ -4,24 +4,17 @@
   "verses": 26,
   "scenes": 16,
   "counts": {
-    "PASS": 7,
-    "PASS WITH WARNINGS": 7,
-    "REJECT": 2
+    "PASS": 15,
+    "PASS WITH WARNINGS": 1,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_002": [
-      "Verses 1–3 do not identify the first-person speaker as Nephi. The summary, characters, and doctrinal note assign him that role despite the preceding scene leaving the speaker unidentified."
-    ],
-    "scene_003": [
-      "Verse 4 does not identify the speaker as Nephi. The summary, characters, explicit facts, dialogue attribution, and doctrinal note assign him that role despite the preceding address leaving the first-person speaker unidentified."
-    ]
-  },
-  "calls": 79,
+  "rejected": {},
+  "calls": 138,
   "tokens": {
-    "input_tokens": 441897,
-    "cached_input_tokens": 191616,
+    "input_tokens": 844261,
+    "cached_input_tokens": 266880,
     "cache_write_input_tokens": 0,
-    "output_tokens": 44551,
-    "reasoning_output_tokens": 18054
+    "output_tokens": 98774,
+    "reasoning_output_tokens": 44719
   }
 }

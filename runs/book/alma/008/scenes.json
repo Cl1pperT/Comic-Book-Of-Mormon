@@ -448,15 +448,15 @@
       "Alma 8:16",
       "Alma 8:17"
     ],
-    "summary": "The messenger blesses Alma, identifies himself as the one who delivered his first message, and commands him to return to Ammonihah and preach repentance. He warns of destruction unless the people repent and reports their efforts to destroy the liberty of Alma's people.",
+    "summary": "A speaker blesses Alma, identifies himself as the one who delivered Alma's first message, and commands him to return to Ammonihah to preach. He warns that the people will be destroyed unless they repent and reports that they are studying how to destroy the liberty of Alma's people.",
     "characters": [
       "Alma",
-      "Angel of the Lord"
+      "Messenger"
     ],
     "locations": [],
     "explicit_facts": [
       {
-        "text": "The speaker blesses Alma, urges him to rejoice, and says he has faithfully kept God's commandments since receiving his first message.",
+        "text": "The speaker blesses Alma and says Alma has kept God's commandments since receiving his first message.",
         "refs": [
           "Alma 8:15"
         ]
@@ -468,7 +468,13 @@
         ]
       },
       {
-        "text": "The speaker says he is sent to command Alma to return to Ammonihah and preach, warning that the Lord God will destroy the people unless they repent.",
+        "text": "The speaker says he was sent to command Alma to return to Ammonihah and preach to its people.",
+        "refs": [
+          "Alma 8:16"
+        ]
+      },
+      {
+        "text": "The speaker says the Lord God will destroy the people unless they repent.",
         "refs": [
           "Alma 8:16"
         ]
@@ -481,12 +487,12 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma listens to the words addressed to him."
+      "Alma listens to the address directed to him."
     ],
     "unspecified_visual_details": [
-      "Alma's appearance, clothing, and posture.",
       "The setting of the exchange.",
-      "The speaker's appearance is not described in the supplied verses."
+      "Alma's appearance, clothing, and posture.",
+      "The speaker's appearance."
     ],
     "spoken_dialogue": [
       {
@@ -494,43 +500,48 @@
         "refs": [
           "Alma 8:15"
         ],
-        "speaker": "Angel of the Lord"
+        "speaker": "Messenger"
       },
       {
         "text": "Behold, I am he that delivered it unto you.",
         "refs": [
           "Alma 8:15"
         ],
-        "speaker": "Angel of the Lord"
+        "speaker": "Messenger"
       },
       {
-        "text": "And behold, I am sent to command thee that thou return to the city of Ammonihah, and preach again unto the people of the city;",
+        "text": "I am sent to command thee that thou return to the city of Ammonihah,",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Angel of the Lord"
+        "speaker": "Messenger"
       },
       {
         "text": "Yea, say unto them, except they repent the Lord God will destroy them.",
         "refs": [
           "Alma 8:16"
         ],
-        "speaker": "Angel of the Lord"
+        "speaker": "Messenger"
+      },
+      {
+        "text": "For behold, they do study at this time that they may destroy the liberty of thy people,",
+        "refs": [
+          "Alma 8:17"
+        ],
+        "speaker": "Messenger"
       }
     ],
     "narration": [],
     "doctrinal_or_story_notes": [
-      "The speaker label follows the identification supplied in the audit correction; verses 15–17 do not independently identify him as an angel or describe his appearance.",
-      "The first-person statements in this address belong to the messenger, not Mormon.",
-      "The threat to liberty is reported speech, not an event shown occurring.",
-      "The destruction warning is conditional, not a narrated fulfillment."
+      "“Messenger” is a functional label for the speaker who says he delivered Alma's first message; the supplied verses do not give his name or describe his appearance.",
+      "The threat to liberty is reported, not shown occurring; the warning of destruction is conditional."
     ],
     "prohibited_inventions": [
-      "Do not visibly depict the angel: the supplied verses describe no appearance.",
+      "Do not assign the speaker an identity or appearance not established by the supplied verses.",
       "Do not depict the earlier message as a flashback.",
       "Do not show Alma returning or preaching in this scene.",
       "Do not show the reported plotting or threatened destruction occurring.",
-      "Do not invent a location, Alma's reply, or additional dialogue."
+      "Do not invent a setting, Alma's reply, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -971,7 +982,7 @@
       "Alma 8:30",
       "Alma 8:32"
     ],
-    "summary": "Alma 8:30 records Alma and Amulek going among the people to declare God's words and being filled with the Holy Ghost. Alma 8:32 subsequently records them going forth and beginning to preach and prophesy according to the spirit and power the Lord had given them.",
+    "summary": "Alma and Amulek go forth and begin to preach and prophesy to the people.",
     "characters": [
       "Alma",
       "Amulek",
@@ -982,7 +993,7 @@
     ],
     "explicit_facts": [
       {
-        "text": "Alma and Amulek went among the people to declare the words of God and were filled with the Holy Ghost.",
+        "text": "Earlier, Alma and Amulek went among the people to declare the words of God and were filled with the Holy Ghost.",
         "refs": [
           "Alma 8:30"
         ]
@@ -995,21 +1006,14 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "Alma and Amulek may be shown addressing people for the preaching described in Alma 8:32."
+      "Alma and Amulek may be shown addressing people as they begin to preach and prophesy."
     ],
     "unspecified_visual_details": [
-      "The precise setting, clothing, appearances, and number of listeners are unspecified.",
-      "The elapsed time between the supplied verses is unspecified.",
+      "The precise setting, appearances, clothing, and number of listeners are unspecified.",
       "No visible manifestation of the Holy Ghost or the Lord is described."
     ],
     "spoken_dialogue": [],
     "narration": [
-      {
-        "text": "And Alma went forth, and also Amulek, among the people, to declare the words of God unto them; and they were filled with the Holy Ghost.",
-        "refs": [
-          "Alma 8:30"
-        ]
-      },
       {
         "text": "And it came to pass that they went forth and began to preach and to prophesy unto the people, according to the spirit and power which the Lord had given them.",
         "refs": [
@@ -1018,15 +1022,13 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "Use Alma 8:30 as prior narrative context only, without staging its events. Anchor the visual scene exclusively in the beginning of preaching and prophesying recorded in Alma 8:32.",
-      "Keep the two narration excerpts distinct and in supplied order; do not imply an uninterrupted action or specify an elapsed interval.",
-      "Neither verse supplies the words of the preaching or prophecies."
+      "Alma 8:30 supplies prior context; depict only the beginning of preaching and prophesying in Alma 8:32.",
+      "Neither verse supplies the words preached or prophesied."
     ],
     "prohibited_inventions": [
-      "Do not merge the departure and spiritual filling in Alma 8:30 into the visual action of Alma 8:32.",
-      "Do not invent intervening events, preaching dialogue, prophecy content, or listener reactions.",
-      "Do not depict a visible Holy Ghost, an appearance of the Lord, or supernatural visual effects.",
-      "Do not depict events from verses not supplied."
+      "Do not stage the earlier going among the people or spiritual filling from Alma 8:30 as part of this moment.",
+      "Do not invent preaching dialogue, prophecy content, listener reactions, or intervening events.",
+      "Do not depict a visible Holy Ghost, an appearance of the Lord, or supernatural visual effects."
     ],
     "importance": "normal"
   },

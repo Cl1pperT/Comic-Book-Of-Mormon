@@ -1,62 +1,60 @@
 {
-  "stamp": "2fd001c0090168295faf0f1bc1861d249ba1b1c714328946196fe81899c9a0aa",
+  "stamp": "201dbb031acaffd43bd87db92c6f5ba42b19bf898713eb5f5b4e065ce4de9b1d",
   "results": {
     "scene_001": {
-      "status": "REJECT",
-      "issues": [
-        "The verses do not identify the first-person narrator as Nephi. The summary, characters, explicit facts, visual inference, and story notes all assert that identification without support (2 Nephi 18:1–2)."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Prophecy is summarized correctly, but the second speech quote uses the source text verbatim.",
-        "The prophetess is omitted from the characters despite being explicitly present in the reported prior event; narration correctly covers her. Visual staging is ambiguous, so avoid placing her or child in the instruction scene."
+        "The narrator is identified as Nephi by the supplied context, but not by name in these verses; the description of the two witnesses as present in a later reported event is a reasonable visual inference, not an explicit staging detail."
       ]
     },
     "scene_003": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The supplied verses identify the first-person narrator but do not name him; the context identifies him as Nephi. The Lord's words about the people's refusal and rejoicing are reported speech, not events depicted in the scene."
+      ]
     },
     "scene_004": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The prophecy names the king of Assyria and “all his glory”; although not listed as a character, the scene’s empty characters list is conservative because it does not stage him. The phrase “the stretching out of his wings” is retained as text and not depicted."
+      ]
     },
     "scene_005": {
       "status": "PASS",
       "issues": []
     },
     "scene_006": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The verse does not name the first-person narrator; identifying him as Nephi relies on the established narrator attribution in the scene data, not these supplied verses. The Lord is explicitly reported as speaker, but should not be visually depicted; the scene's notes and prohibitions correctly preserve this.",
+        "The preceding scene's warning language is correctly treated as reported text rather than as events, so no chronology alteration is apparent."
+      ]
     },
     "scene_007": {
       "status": "PASS",
       "issues": []
     },
     "scene_008": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Verse 16 has no identified speaker, but its imperative is presented as narration rather than dialogue. It remains unclear whether narration here is meant to quote an unidentified speaker; keep speaker attribution unspecified."
-      ]
-    },
-    "scene_009": {
       "status": "PASS",
       "issues": []
     },
-    "scene_010": {
+    "scene_009": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The narration quotes only selected contiguous excerpts; the semicolon-ended excerpt from verse 20 is exact. No speaker is assigned, consistent with the source.",
-        "Visual treatment remains abstract; setting, identities, and displayed-text design are unspecified."
+        "Nephi is not named in the supplied verses; the verse 18 speaker's identity remains unspecified, so the character label and speaker attribution are unsupported as explicit facts. The notes acknowledge this, but the scene still assigns the identity."
       ]
     },
+    "scene_010": {
+      "status": "PASS",
+      "issues": []
+    },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The narration quotes the supplied verses verbatim, but presents foretold conditions in present tense; ensure the visual does not stage them as occurring now.",
-        "The people, king, and setting are unspecified; keep them visually indeterminate."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

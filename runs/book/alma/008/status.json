@@ -4,23 +4,17 @@
   "verses": 32,
   "scenes": 18,
   "counts": {
-    "PASS": 14,
-    "PASS WITH WARNINGS": 3,
-    "REJECT": 1
+    "PASS": 12,
+    "PASS WITH WARNINGS": 6,
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_018": [
-      "Alma 8:30 identifies Alma and Amulek as the antecedents of “they” in Alma 8:31. The scene incorrectly treats the recipients of power as unidentified.",
-      "The supplied verses do not identify Mormon as the narrator; listing him as a character and asserting his identity exceeds the source.",
-      "The preceding scene includes Alma 8:32, so placing this report from Alma 8:31 afterward reverses the supplied narrative order."
-    ]
-  },
-  "calls": 64,
+  "rejected": {},
+  "calls": 68,
   "tokens": {
-    "input_tokens": 296305,
-    "cached_input_tokens": 134656,
+    "input_tokens": 323866,
+    "cached_input_tokens": 152704,
     "cache_write_input_tokens": 0,
-    "output_tokens": 28399,
-    "reasoning_output_tokens": 10679
+    "output_tokens": 31423,
+    "reasoning_output_tokens": 11798
   }
 }

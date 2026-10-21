@@ -1,5 +1,5 @@
 {
-  "stamp": "2400e5144ad4001fdc06dfb607f57b7c05d062d3632963aad6d030ff46ee8c5d",
+  "stamp": "1eeb2a49781c53e9154065d3148845961fed1901782eda0397241069873ee116",
   "results": {
     "scene_001": {
       "status": "PASS",
@@ -8,7 +8,7 @@
     "scene_002": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "The summary turns the end of the ninth year into a concurrent event with Alma's return, though the verses do not specify that simultaneity."
+        "The narration omits the source’s explicit detail that Alma had taught in Gideon and established the order of the church before returning; this is a selective excerpt, not an invented event."
       ]
     },
     "scene_003": {
@@ -36,52 +36,54 @@
       "issues": []
     },
     "scene_009": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The scene is consistent with Alma 8:15–17, and its preceding scene preserves the chronology. However, the source frames the speaker as an angel of the Lord (Alma 8:14); the character label “Messenger” is less precise, though the notes correctly say the speaker's name and appearance are unspecified."
+      ]
     },
     "scene_010": {
       "status": "PASS",
       "issues": []
     },
     "scene_011": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "Amulek is named in the characters field though he is identified only as “a man” in the cited verse; his identification comes in the next scene."
-      ]
-    },
-    "scene_012": {
       "status": "PASS",
       "issues": []
+    },
+    "scene_012": {
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The spoken excerpt combines the vision’s quoted words after a colon with Amulek’s speech; source says the angel said “Thou shalt receive,” but the scene text correctly preserves this as Amulek recounting a vision rather than staging it."
+      ]
     },
     "scene_013": {
       "status": "PASS",
       "issues": []
     },
     "scene_014": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The summary says Alma recounts being “about to leave the land forever”; accurate as reported speech, not a present-time action, and the scene notes correctly preserve that distinction."
+      ]
     },
     "scene_015": {
       "status": "PASS",
       "issues": []
     },
     "scene_016": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The narration quotes the full verse as a single excerpt, but the text is verbatim; its embedded instruction and warning remain narration rather than present-time dialogue or action."
+      ]
     },
     "scene_017": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "Scene combines Alma 8:30 and 8:32, two separately reported moments with unspecified elapsed time; its notes correctly caution not to merge their actions, but the combined summary and narration risk presenting a unified scene."
+        "The references and source support the summary, quoted narration, and the distinction between prior context in verse 30 and the beginning of preaching in verse 32. Warning: the exact staging of the preaching is not specified; showing them addressing listeners is a reasonable visual inference, not an explicit detail."
       ]
     },
     "scene_018": {
-      "status": "REJECT",
-      "issues": [
-        "Alma 8:30 identifies Alma and Amulek as the antecedents of “they” in Alma 8:31. The scene incorrectly treats the recipients of power as unidentified.",
-        "The supplied verses do not identify Mormon as the narrator; listing him as a character and asserting his identity exceeds the source.",
-        "The preceding scene includes Alma 8:32, so placing this report from Alma 8:31 afterward reverses the supplied narrative order."
-      ]
+      "status": "PASS",
+      "issues": []
     }
   }
 }

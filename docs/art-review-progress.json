@@ -1,0 +1,2707 @@
+{
+ "resume_at": "4-nephi/001 (redo pass with images visible)",
+ "reviewed_with_images": "1-nephi/001 through 3-nephi/030, and alma/047 through words-of-mormon/001. Metal armor and European weapons are not flagged.",
+ "unverified_do_not_apply": "Findings for 1 Nephi 1 through Alma 46 were logged while image reads returned nothing; they must be redone",
+ "applied_flags": [
+  {
+   "chapter": "1-nephi/002",
+   "panel": "panel_001",
+   "note": "Anachronism: a modern gooseneck desk lamp is mounted on the wall behind Lehi's bed; remove it"
+  },
+  {
+   "chapter": "1-nephi/002",
+   "panel": "cover",
+   "note": "Art error: a stray signature/scribble appears in the bottom-right corner of the cover art; remove it"
+  },
+  {
+   "chapter": "1-nephi/003",
+   "panel": "cover",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/003",
+   "panel": "panel_013",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/003",
+   "panel": "panel_014",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/003",
+   "panel": "panel_015",
+   "note": "Anachronism: Lemuel (left) wears a modern short-sleeved green T-shirt; use a period wool tunic"
+  },
+  {
+   "chapter": "1-nephi/004",
+   "panel": "panel_007",
+   "note": "Art error: Laban lies relaxed with an arm behind his head as if alive, although he has been slain; show his body non-graphically (e.g., still, covered by his cloak)"
+  },
+  {
+   "chapter": "1-nephi/004",
+   "panel": "panel_013",
+   "note": "Character looks wrong: Zoram should be a clean-shaven young man in a plain grey-brown tunic; he is drawn bearded"
+  },
+  {
+   "chapter": "1-nephi/005",
+   "panel": "panel_004",
+   "note": "Character looks wrong: Sariah is drawn as a young woman and sits close to Nephi in a way that reads as romantic; she should be elderly (grey hair, lined face) and the pose should read as mother and son"
+  },
+  {
+   "chapter": "1-nephi/007",
+   "panel": "panel_005",
+   "note": "Anachronism: the man on the left wears a modern short-sleeved collarless T-shirt; use a period wool tunic"
+  },
+  {
+   "chapter": "1-nephi/007",
+   "panel": "panel_007",
+   "note": "Character looks wrong: Nephi is drawn shirtless in a white Greek-style toga with a blue sash instead of his usual tunic and blue mantle"
+  },
+  {
+   "chapter": "1-nephi/008",
+   "panel": "panel_019",
+   "note": "Anachronism: a Greek-style carved column with a capital stands in the doorway; use plain flat-roofed stone or mud-brick architecture"
+  },
+  {
+   "chapter": "1-nephi/011",
+   "panel": "panel_010",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/011",
+   "panel": "panel_011",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)\nArt error: Nephi holds the child; the virgin (Mary) should hold the child in her arms"
+  },
+  {
+   "chapter": "1-nephi/011",
+   "panel": "panel_012",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/011",
+   "panel": "panel_019",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/011",
+   "panel": "panel_006",
+   "note": "Character looks wrong: Nephi is drawn in a sleeveless top while the Spirit (in the form of a man) wears Nephi's blue mantle; clothing is swapped"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_001",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_008",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_011",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_013",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)\nCharacter looks wrong: the figure beside the angel is a short-haired woman instead of Nephi, with an extra bearded man in a green shirt; Nephi should be the only person with the angel"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_014",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_015",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_016",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/012",
+   "panel": "panel_009",
+   "note": "Anachronism: a cross-shaped staff/object stands at the right edge (the Nephites never saw a cross); remove it"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "cover",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_001",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_002",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_003",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_010",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)\nArt error: a ring halo floats above the angel's head and it has wings; remove both"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_011",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)\nAnachronism: Nephi holds a modern hardcover bound book with a red cover; show engraved metal plates or a scroll"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_012",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_015",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_019",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)\nArt error: a ring halo floats above the angel's head and it has wings; remove both"
+  },
+  {
+   "chapter": "1-nephi/013",
+   "panel": "panel_004",
+   "note": "Art error: a ring halo floats above the angel's head and it has wings; remove both"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_003",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_006",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_011",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_013",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_014",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_015",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "1-nephi/014",
+   "panel": "panel_016",
+   "note": "Anachronism: Nephi holds a modern paper booklet with loose pages; show engraved metal plates or a scroll"
+  },
+  {
+   "chapter": "1-nephi/016",
+   "panel": "panel_007",
+   "note": "Anachronism: the men in the foreground wear white and grey Middle Eastern turbans; use period headbands or bare heads"
+  },
+  {
+   "chapter": "1-nephi/016",
+   "panel": "panel_011",
+   "note": "Art error: the Liahona is drawn as a giant ornate golden urn about as tall as the people; it is a small round brass ball with two spindles that fits in a hand"
+  },
+  {
+   "chapter": "1-nephi/016",
+   "panel": "panel_026",
+   "note": "Art error: the red dress on the left has a deep plunging neckline; keep clothing modest"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_003",
+   "note": "Anachronism: a finished European-style masted sailing ship is already at sea, but Nephi has not built the ship yet; remove it"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_013",
+   "note": "Anachronism: a finished European-style masted sailing ship is already at sea, but Nephi has not built the ship yet; remove it"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_014",
+   "note": "Anachronism: a finished European-style masted sailing ship is already at sea, but Nephi has not built the ship yet; remove it"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_017",
+   "note": "Anachronism: a finished European-style masted sailing ship is already at sea, but Nephi has not built the ship yet; remove it"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_004",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; show light/voice only"
+  },
+  {
+   "chapter": "1-nephi/017",
+   "panel": "panel_016",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; show light/voice only"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "cover",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_001",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_002",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_003",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_004",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_006",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_007",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_008",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_009",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_010",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_015",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_016",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_017",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_018",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_019",
+   "note": "Anachronism: the ship is a European-style sailing vessel with masts, rigging and billowing sails (caravel/schooner); draw a simple ancient wooden ship of 600 BC"
+  },
+  {
+   "chapter": "1-nephi/018",
+   "panel": "panel_014",
+   "note": "Anachronism: Nephi's brother holds a small modern hardcover book; remove it"
+  },
+  {
+   "chapter": "1-nephi/019",
+   "panel": "cover",
+   "note": "Anachronism: Nephi holds an open bound paper-style codex book instead of a stack of thin engraved metal plates"
+  },
+  {
+   "chapter": "1-nephi/019",
+   "panel": "panel_005",
+   "note": "Character looks wrong: Nephi wears a red cloak and long white robe instead of his usual blue mantle and tunic"
+  },
+  {
+   "chapter": "1-nephi/019",
+   "panel": "panel_008",
+   "note": "Anachronism: Plains-style teepee tents with crossed pole tips and a modern split-rail wooden fence; use simple period tents and no fence"
+  },
+  {
+   "chapter": "1-nephi/021",
+   "panel": "cover",
+   "note": "Anachronism: the father and child wear a modern pink long-sleeved shirt and teal trousers; use period wool tunics"
+  },
+  {
+   "chapter": "1-nephi/021",
+   "panel": "panel_015",
+   "note": "Anachronism: red-tiled European farmhouses with gabled roofs in the valley; use thatched or flat-roofed buildings"
+  },
+  {
+   "chapter": "1-nephi/021",
+   "panel": "panel_016",
+   "note": "Anachronism: red-tiled European farmhouses with gabled roofs in the valley; use thatched or flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/001",
+   "panel": "panel_016",
+   "note": "Character looks wrong: Zoram should be a clean-shaven young man in his twenties in a plain grey-brown tunic; he is drawn as a young boy"
+  },
+  {
+   "chapter": "2-nephi/002",
+   "panel": "panel_009",
+   "note": "Art error: Eve's dress is backless with a high thigh slit; clothing should be modest"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_005",
+   "note": "Anachronism: the travelers carry modern framed hiking backpacks; use bundles, baskets and simple packs"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_012",
+   "note": "Anachronism: the temple is a multi-tiered East Asian pagoda with pitched roofs; use a Mesoamerican-inspired stepped stone temple modeled on Solomon's temple"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_013",
+   "note": "Anachronism: the temple is a multi-tiered East Asian pagoda with pitched roofs; use a Mesoamerican-inspired stepped stone temple modeled on Solomon's temple"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_008",
+   "note": "Anachronism: the village below has European-style orange/red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_009",
+   "note": "Anachronism: the village below has European-style orange/red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_019",
+   "note": "Anachronism: the village below has European-style orange/red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_023",
+   "note": "Anachronism: the village below has European-style orange/red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/005",
+   "panel": "panel_024",
+   "note": "Anachronism: the village below has European-style orange/red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/006",
+   "panel": "panel_011",
+   "note": "Anachronism: a European-style house with an orange tiled roof stands at the left; use a flat-roofed plastered stone building"
+  },
+  {
+   "chapter": "2-nephi/006",
+   "panel": "panel_013",
+   "note": "Anachronism: Jacob holds an open modern bound book with printed text; show a scroll or engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/006",
+   "panel": "panel_014",
+   "note": "Anachronism: Jacob holds an open modern bound book with printed text; show a scroll or engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/007",
+   "panel": "panel_005",
+   "note": "Anachronism: the village has a church-like building with a bell tower and red-orange tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/007",
+   "panel": "panel_009",
+   "note": "Anachronism: red-tiled European farmhouses with gabled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/007",
+   "panel": "panel_013",
+   "note": "Anachronism: red-tiled European farmhouses with gabled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/007",
+   "panel": "panel_003",
+   "note": "Anachronism: an alpine log cabin with a shingled gable roof; use a period flat-roofed or thatched building"
+  },
+  {
+   "chapter": "2-nephi/008",
+   "panel": "panel_006",
+   "note": "Anachronism: a golden dome (Dome of the Rock, 691 AD) sits in the Jerusalem skyline; remove the dome and use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/008",
+   "panel": "panel_004",
+   "note": "Anachronism: a small domed building stands inside the city walls; no domes, use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_001",
+   "note": "Anachronism: a European-style stone bell tower with a hipped roof stands at the right; use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_010",
+   "note": "Anachronism: a stone church with a steeple/bell tower and red tiled roofs in the village; remove the steeple and use period flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_016",
+   "note": "Anachronism: a stone church with a steeple/bell tower and red tiled roofs in the village; remove the steeple and use period flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_022",
+   "note": "Anachronism: a stone church with a steeple/bell tower and red tiled roofs in the village; remove the steeple and use period flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_007",
+   "note": "Anachronism: villages of European houses with red tiled gable roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_011",
+   "note": "Anachronism: villages of European houses with red tiled gable roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/009",
+   "panel": "panel_012",
+   "note": "Anachronism: villages of European houses with red tiled gable roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/010",
+   "panel": "panel_002",
+   "note": "Anachronism: a tiered East Asian pagoda-style building with thatched pitched roofs stands behind Jacob; use a Mesoamerican-inspired stepped stone platform with flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/010",
+   "panel": "panel_006",
+   "note": "Anachronism: a Greek-style carved column with a capital frames the left edge; use plain stone or timber construction"
+  },
+  {
+   "chapter": "2-nephi/010",
+   "panel": "panel_013",
+   "note": "Anachronism: a European stone bell tower stands at the shore and the village has red tiled roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/010",
+   "panel": "panel_011",
+   "note": "Anachronism: the village below has red tiled European roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/011",
+   "panel": "cover",
+   "note": "Anachronism: Nephi writes in a modern bound book with a printed spine and pages; show thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/012",
+   "panel": "panel_004",
+   "note": "Anachronism: a church with a pointed steeple and slate roof stands in the village; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/012",
+   "panel": "panel_005",
+   "note": "Anachronism: the city has an Orthodox-style church with onion domes; use Mesoamerican-inspired stepped stone buildings with no domes"
+  },
+  {
+   "chapter": "2-nephi/013",
+   "panel": "panel_006",
+   "note": "Anachronism: the Dome of the Rock (a golden dome, 691 AD) is in the skyline; remove the dome"
+  },
+  {
+   "chapter": "2-nephi/014",
+   "panel": "cover",
+   "note": "Anachronism: the valley is full of European farmhouses with red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/014",
+   "panel": "panel_005",
+   "note": "Anachronism: the valley is full of European farmhouses with red tiled roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/014",
+   "panel": "panel_001",
+   "note": "Art error: the women press against the man and rest a hand on his chest in a romantic way; keep the pose respectful"
+  },
+  {
+   "chapter": "2-nephi/014",
+   "panel": "panel_004",
+   "note": "Anachronism: a Greek columned temple with a pediment stands on the hill; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "2-nephi/015",
+   "panel": "cover",
+   "note": "Anachronism: a round European stone watchtower with a red tiled roof and red-roofed farmhouses; use period flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/015",
+   "panel": "panel_003",
+   "note": "Anachronism: red-tiled European farmhouses and barns with pitched roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/015",
+   "panel": "panel_005",
+   "note": "Anachronism: red-tiled European farmhouses and barns with pitched roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/015",
+   "panel": "panel_006",
+   "note": "Anachronism: red-tiled European farmhouses and barns with pitched roofs; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/016",
+   "panel": "cover",
+   "note": "Anachronism: Greek Corinthian columns with an arch frame the scene; use plain stone architecture of Solomon's temple"
+  },
+  {
+   "chapter": "2-nephi/016",
+   "panel": "panel_004",
+   "note": "Art error: Isaiah holds a golden sword; the verses describe a seraph with a live coal, not a sword"
+  },
+  {
+   "chapter": "2-nephi/016",
+   "panel": "panel_006",
+   "note": "Anachronism: a modern paneled wooden door with a round doorknob; use a period plank door"
+  },
+  {
+   "chapter": "2-nephi/019",
+   "panel": "panel_004",
+   "note": "Anachronism: a European-style stone building with a pitched orange roof stands in the village; use a period flat-roofed building"
+  },
+  {
+   "chapter": "2-nephi/020",
+   "panel": "cover",
+   "note": "Anachronism: the Dome of the Rock (golden dome, built 691 AD) crowns Jerusalem; remove the dome"
+  },
+  {
+   "chapter": "2-nephi/020",
+   "panel": "panel_013",
+   "note": "Anachronism: the village is a cluster of European houses with red tiled roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/022",
+   "panel": "panel_001",
+   "note": "Anachronism: a European stone church/chapel with an arched door and red tiled roofs; use a flat-roofed plastered stone building"
+  },
+  {
+   "chapter": "2-nephi/023",
+   "panel": "panel_012",
+   "note": "Anachronism: a church with a pointed steeple and red tiled European houses; remove the steeple and use flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/023",
+   "panel": "panel_014",
+   "note": "Anachronism: a minaret tower and a domed building stand in the city; no domes or minarets, use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/023",
+   "panel": "panel_015",
+   "note": "Anachronism: a minaret tower and a domed building stand in the city; no domes or minarets, use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/024",
+   "panel": "cover",
+   "note": "Anachronism: a medieval European castle with a pointed turret rises over a thatched village; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "2-nephi/024",
+   "panel": "panel_001",
+   "note": "Anachronism: a medieval European castle with a pointed turret rises over a thatched village; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "2-nephi/024",
+   "panel": "panel_008",
+   "note": "Anachronism: a medieval European castle with a pointed turret rises over a thatched village; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "2-nephi/024",
+   "panel": "panel_010",
+   "note": "Anachronism: a domed building stands in the city; no domes, use flat-roofed stone buildings"
+  },
+  {
+   "chapter": "2-nephi/024",
+   "panel": "panel_013",
+   "note": "Anachronism: a stone church with a bell tower stands on the hill above the village; use period flat-roofed buildings"
+  },
+  {
+   "chapter": "2-nephi/025",
+   "panel": "cover",
+   "note": "Anachronism: Nephi writes with a modern pen/pencil and on loose paper, and holds a bound book; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/025",
+   "panel": "panel_001",
+   "note": "Anachronism: Nephi writes with a modern pen/pencil and on loose paper, and holds a bound book; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/025",
+   "panel": "panel_003",
+   "note": "Anachronism: Nephi writes with a modern pen/pencil and on loose paper, and holds a bound book; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/025",
+   "panel": "panel_011",
+   "note": "Anachronism: Nephi writes with a modern pen/pencil and on loose paper, and holds a bound book; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/025",
+   "panel": "panel_009",
+   "note": "Anachronism: red-tiled European village roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/026",
+   "panel": "panel_016",
+   "note": "Anachronism: a stone church with a square bell tower and red tiled roofs stands in the valley; use a flat-roofed plastered stone building"
+  },
+  {
+   "chapter": "2-nephi/026",
+   "panel": "panel_019",
+   "note": "Anachronism: a stone church with a square bell tower and red tiled roofs stands in the valley; use a flat-roofed plastered stone building"
+  },
+  {
+   "chapter": "2-nephi/026",
+   "panel": "panel_001",
+   "note": "Anachronism: a wooden alpine cabin with a pitched roof; use a period flat-roofed or thatched building"
+  },
+  {
+   "chapter": "2-nephi/026",
+   "panel": "panel_018",
+   "note": "Not in the verses: a giant glowing white human figure towers behind Nephi; the verse (26:23-24) is Nephi's teaching, not a vision"
+  },
+  {
+   "chapter": "2-nephi/027",
+   "panel": "cover",
+   "note": "Anachronism: the man holds a modern black hardcover book with a gold emblem; show a stack of thin engraved gold-bronze plates or a sealed scroll"
+  },
+  {
+   "chapter": "2-nephi/027",
+   "panel": "panel_001",
+   "note": "Anachronism: a village with a white church tower and red tiled roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/027",
+   "panel": "panel_014",
+   "note": "Anachronism: a village with a white church tower and red tiled roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/027",
+   "panel": "panel_017",
+   "note": "Anachronism: a village with a white church tower and red tiled roofs; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/027",
+   "panel": "panel_002",
+   "note": "Anachronism: riders on horseback in the foreground; no one in the Book of Mormon rides horses, show people on foot"
+  },
+  {
+   "chapter": "2-nephi/028",
+   "panel": "panel_002",
+   "note": "Anachronism: a village with a stone church with a steeple and red tiled roof; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/028",
+   "panel": "panel_012",
+   "note": "Anachronism: a village with a stone church with a steeple and red tiled roof; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/028",
+   "panel": "panel_005",
+   "note": "Anachronism: a Greek columned temple with a pediment stands in the valley; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "2-nephi/028",
+   "panel": "panel_011",
+   "note": "Art error: a horned devil figure stands at the right edge; the devil is only quoted here, remove the horned figure"
+  },
+  {
+   "chapter": "2-nephi/029",
+   "panel": "cover",
+   "note": "Anachronism: a wooden cross stands on the hill at the right (the Nephites never saw a cross); also the men read a modern printed page and hold a pen. Remove the cross; show plates and a stylus"
+  },
+  {
+   "chapter": "2-nephi/029",
+   "panel": "panel_010",
+   "note": "Anachronism: a stone church with a bell tower and red tiled roofs in the village; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/030",
+   "panel": "panel_003",
+   "note": "Anachronism: red-tiled European farmhouses; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/030",
+   "panel": "panel_010",
+   "note": "Anachronism: red-tiled European farmhouses; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/030",
+   "panel": "panel_015",
+   "note": "Anachronism: red-tiled European farmhouses; use flat-roofed plastered stone or thatched buildings"
+  },
+  {
+   "chapter": "2-nephi/031",
+   "panel": "panel_003",
+   "note": "Anachronism: a small pagoda-style tiered red roof building on the hillside; use a flat-roofed plastered stone building"
+  },
+  {
+   "chapter": "2-nephi/031",
+   "panel": "panel_007",
+   "note": "Anachronism: European-style timber barns with pitched shingled roofs and a modern-looking blue roof panel; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/033",
+   "panel": "panel_001",
+   "note": "Anachronism: Nephi writes on loose paper sheets with a pen; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "2-nephi/033",
+   "panel": "panel_003",
+   "note": "Anachronism: a large European farmhouse with a pitched orange tiled roof and a stone watchtower; use flat-roofed plastered stone buildings"
+  },
+  {
+   "chapter": "2-nephi/033",
+   "panel": "panel_005",
+   "note": "Anachronism: a pagoda-style tiered temple roof in the village; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_001",
+   "note": "Anachronism: the records are drawn as a bound golden codex book with a spine, and a loose gold sheet is shown in later panels; show a stack of thin engraved metal plates"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_020",
+   "note": "Anachronism: the records are drawn as a bound golden codex book with a spine, and a loose gold sheet is shown in later panels; show a stack of thin engraved metal plates"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_004",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; Omni 1:6-7 describes only judgment and deliverance, so show light or no figure"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_006",
+   "note": "Anachronism: Lamanites are drawn bald with a red band/mark on the forehead that reads like a cross-shaped paint, and the figures are shirtless; use period Lamanite dress and avoid cross-like marks"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_016",
+   "note": "Anachronism: Lamanites are drawn bald with a red band/mark on the forehead that reads like a cross-shaped paint, and the figures are shirtless; use period Lamanite dress and avoid cross-like marks"
+  },
+  {
+   "chapter": "omni/001",
+   "panel": "panel_015",
+   "note": "Anachronism: a modern-looking tall wood-and-stone barn/farmhouse with a pitched roof sits at the bottom right village; use period flat-roofed or thatched buildings"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "cover",
+   "note": "Anachronism: Mormon holds a bound-style open plate book (codex) and a wedge-pointed pen; show a stack of thin engraved metal plates and a stylus"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "panel_003",
+   "note": "Anachronism: Mormon holds a bound-style open plate book (codex) and a wedge-pointed pen; show a stack of thin engraved metal plates and a stylus"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "panel_005",
+   "note": "Anachronism: Mormon holds a bound-style open plate book (codex) and a wedge-pointed pen; show a stack of thin engraved metal plates and a stylus"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "panel_006",
+   "note": "Anachronism: King Benjamin wears a European-style spiked gold crown; use his plain gold headband"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "panel_009",
+   "note": "Anachronism: Lamanites are drawn bald with red marks painted on the chest and forehead that read like crosses (the Lamanites never saw a cross); remove the marks"
+  },
+  {
+   "chapter": "words-of-mormon/001",
+   "panel": "panel_010",
+   "note": "Anachronism: Lamanites are drawn bald with red marks painted on the chest and forehead that read like crosses (the Lamanites never saw a cross); remove the marks"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "cover",
+   "note": "Graphic: the cover shows flames engulfing Abinadi's silhouette; tone it down to a non-graphic image (e.g., his face lit by firelight, no burning)"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "panel_001",
+   "note": "Anachronism: carved Greek/Egyptian-style gold columns with capitals and a European clock/bell tower with a pointed roof in the distance; use Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "panel_005",
+   "note": "Anachronism: carved Greek/Egyptian-style gold columns with capitals and a European clock/bell tower with a pointed roof in the distance; use Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "panel_002",
+   "note": "Anachronism: Alma writes with a modern pen in a bound paper notebook, and an Indian-style shikhara temple stands in the valley; show a stylus on plates or a scroll, and a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "panel_006",
+   "note": "Anachronism: a pagoda/Indian-style tiered temple tower in the background and Greek columns with capitals; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "mosiah/017",
+   "panel": "panel_009",
+   "note": "Anachronism: a pagoda/Indian-style tiered temple tower in the background and Greek columns with capitals; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "mosiah/019",
+   "panel": "panel_011",
+   "note": "Graphic: King Noah's body lies burning in a large bonfire (death by fire); show it non-graphically (e.g., a crowd turned away from a distant fire, no visible burning body)\nAnachronism: the figures in the foreground wear Middle Eastern turbans and baggy trousers; use period Nephite clothing"
+  },
+  {
+   "chapter": "mosiah/019",
+   "panel": "panel_001",
+   "note": "Anachronism: a modern-looking tall European clock/bell tower stands in the city in the background; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mosiah/020",
+   "panel": "panel_010",
+   "note": "Anachronism: a Greek-style column with carved capital at left; use plain stone or timber supports"
+  },
+  {
+   "chapter": "mosiah/020",
+   "panel": "panel_005",
+   "note": "Anachronism: a medieval European belltower with a stepped palace in the distance; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "cover",
+   "note": "Anachronism: a crenellated medieval European castle tower with a pointed-arch window and a Greek colonnade stand in the city; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_001",
+   "note": "Anachronism: Greek temples with columns and pediments and a classical portico on the stepped hill; use Mesoamerican-inspired stepped stone temples"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_002",
+   "note": "Anachronism: mules/horses carry loads in the Lamanite procession (no horses, only asses are named in the verse); show people carrying burdens and asses at most"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_003",
+   "note": "Anachronism: a Greek arcade/portico with arches beneath a stepped pyramid, and a hanging a European-style building; use Mesoamerican-inspired architecture"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_016",
+   "note": "Anachronism: a modern-looking European clock/bell tower rises beside a Spanish-style mission building by a lake; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_018",
+   "note": "Art error: the record is drawn as a single huge flat engraved gold sheet lying on the ground with a European-style ornate border; the 24 plates should be a stack of thin engraved plates bound with rings"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_019",
+   "note": "Anachronism: Limhi wears a modern open-necked European-style shirt on the left in panel 19 and holds a small bound booklet; show plates"
+  },
+  {
+   "chapter": "mosiah/021",
+   "panel": "panel_008",
+   "note": "Anachronism: the woman wears a modern-looking dress and a modern-looking blade lies on the path; use period clothing and no blade\nAnachronism: the woman wears a modern-looking dress and a European bell tower stands in the distance; use period elements"
+  },
+  {
+   "chapter": "mosiah/022",
+   "panel": "panel_004",
+   "note": "Anachronism: a European bell tower with a clock face stands in the city; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mosiah/022",
+   "panel": "panel_006",
+   "note": "Anachronism: Limhi hands a dark glass wine bottle with a cork to the Lamanite guards; wine in the Book of Mormon would be poured from clay jars"
+  },
+  {
+   "chapter": "mosiah/022",
+   "panel": "panel_008",
+   "note": "Anachronism: the travelers carry modern framed hiking-style backpacks; use bundles, baskets and simple packs"
+  },
+  {
+   "chapter": "mosiah/023",
+   "panel": "panel_002",
+   "note": "Anachronism: large white Plains-style teepee tents with crossed poles in front of a walled fortress; use simple period tents"
+  },
+  {
+   "chapter": "mosiah/023",
+   "panel": "cover",
+   "note": "Art error: the Lamanites have a red vertical mark painted on their foreheads that reads like a cross (the Lamanites never saw a cross, and the verses mention no marks); remove the marks"
+  },
+  {
+   "chapter": "mosiah/023",
+   "panel": "panel_012",
+   "note": "Art error: the Lamanites have a red vertical mark painted on their foreheads that reads like a cross (the Lamanites never saw a cross, and the verses mention no marks); remove the marks"
+  },
+  {
+   "chapter": "mosiah/023",
+   "panel": "panel_013",
+   "note": "Art error: the Lamanites have a red vertical mark painted on their foreheads that reads like a cross (the Lamanites never saw a cross, and the verses mention no marks); remove the marks"
+  },
+  {
+   "chapter": "mosiah/024",
+   "panel": "panel_011",
+   "note": "Anachronism: white Plains-style teepee tents with crossed pole tips; use simple period tents"
+  },
+  {
+   "chapter": "mosiah/024",
+   "panel": "panel_006",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mosiah 24:13-17 gives only his voice, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/025",
+   "panel": "panel_003",
+   "note": "Anachronism: the record is drawn as an open bound golden codex book with pages; show a stack of thin engraved metal plates (or a scroll)"
+  },
+  {
+   "chapter": "mosiah/025",
+   "panel": "panel_004",
+   "note": "Anachronism: the record is drawn as an open bound golden codex book with pages; show a stack of thin engraved metal plates (or a scroll)"
+  },
+  {
+   "chapter": "mosiah/025",
+   "panel": "panel_005",
+   "note": "Anachronism: the record is drawn as an open bound golden codex book with pages; show a stack of thin engraved metal plates (or a scroll)"
+  },
+  {
+   "chapter": "mosiah/025",
+   "panel": "panel_011",
+   "note": "Anachronism: the record is drawn as an open bound golden codex book with pages; show a stack of thin engraved metal plates (or a scroll)"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "cover",
+   "note": "Anachronism: Alma writes with a pen in a modern bound paper notebook with lined pages; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_010",
+   "note": "Anachronism: Alma holds loose sheets of modern white paper with printed lines; show metal plates or a scroll"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_012",
+   "note": "Anachronism: Alma holds loose sheets of modern white paper with printed lines; show metal plates or a scroll"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_006",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mosiah 26:14-32 is the voice of the Lord only, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_007",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mosiah 26:14-32 is the voice of the Lord only, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_008",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mosiah 26:14-32 is the voice of the Lord only, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/026",
+   "panel": "panel_009",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mosiah 26:14-32 is the voice of the Lord only, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/027",
+   "panel": "cover",
+   "note": "Art error: the angel has large feathered wings and lightning streaks; remove the wings (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "mosiah/027",
+   "panel": "panel_002",
+   "note": "Anachronism: King Mosiah reads from a sheet of modern white paper; show a scroll or metal plates"
+  },
+  {
+   "chapter": "mosiah/027",
+   "panel": "panel_005",
+   "note": "Art error: the angel is drawn as an elderly white-bearded figure standing on a cloud like God the Father; draw him as a radiant man in a white robe"
+  },
+  {
+   "chapter": "mosiah/028",
+   "panel": "cover",
+   "note": "Anachronism: the records are drawn as a stack of bound paper pages / a modern leather-bound book; show a stack of thin engraved metal plates or a scroll"
+  },
+  {
+   "chapter": "mosiah/028",
+   "panel": "panel_009",
+   "note": "Anachronism: the records are drawn as a stack of bound paper pages / a modern leather-bound book; show a stack of thin engraved metal plates or a scroll"
+  },
+  {
+   "chapter": "mosiah/028",
+   "panel": "panel_004",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; Mosiah 28:6-7 gives only the Lord's voice, so show light or no figure"
+  },
+  {
+   "chapter": "mosiah/029",
+   "panel": "panel_001",
+   "note": "Anachronism: several men wear European-style pointed gold crowns with spikes; use a plain gold headband"
+  },
+  {
+   "chapter": "mosiah/029",
+   "panel": "panel_003",
+   "note": "Anachronism: several men wear European-style pointed gold crowns with spikes; use a plain gold headband"
+  },
+  {
+   "chapter": "alma/058",
+   "panel": "panel_010",
+   "note": "Anachronism: a Romanesque stone archway with carved capitals and a European round arch; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "alma/058",
+   "panel": "panel_013",
+   "note": "Anachronism: tall medieval crenellated castle walls with a square battlemented tower and arched gate; use an earthen embankment with timber palisade or stepped stone"
+  },
+  {
+   "chapter": "alma/058",
+   "panel": "panel_015",
+   "note": "Anachronism: tall medieval crenellated castle walls with a square battlemented tower and arched gate; use an earthen embankment with timber palisade or stepped stone"
+  },
+  {
+   "chapter": "alma/058",
+   "panel": "panel_016",
+   "note": "Anachronism: the man reads from a modern bound book with printed text; show a scroll or plates"
+  },
+  {
+   "chapter": "alma/059",
+   "panel": "panel_002",
+   "note": "Anachronism: Moroni writes with a modern pen/pencil on paper; show a stylus on a scroll or plates"
+  },
+  {
+   "chapter": "alma/059",
+   "panel": "panel_006",
+   "note": "Anachronism: a European medieval palace/castle with towers in the distance; use Mesoamerican-inspired buildings"
+  },
+  {
+   "chapter": "alma/059",
+   "panel": "panel_003",
+   "note": "Anachronism: the Lamanites charge on horseback; no one rides horses in the Book of Mormon, show everyone on foot"
+  },
+  {
+   "chapter": "alma/060",
+   "panel": "panel_001",
+   "note": "Anachronism: both men write with modern pens on large sheets of paper; show a stylus on scrolls or plates. (They also have long modern-looking braids and wear embroidered robes unlike period dress)"
+  },
+  {
+   "chapter": "alma/060",
+   "panel": "panel_002",
+   "note": "Anachronism: both men write with modern pens on large sheets of paper; show a stylus on scrolls or plates. (They also have long modern-looking braids and wear embroidered robes unlike period dress)"
+  },
+  {
+   "chapter": "alma/060",
+   "panel": "panel_006",
+   "note": "Anachronism: Moroni writes with a modern pencil/pen on a printed modern-style map of the region; show a stylus on a scroll"
+  },
+  {
+   "chapter": "alma/060",
+   "panel": "panel_010",
+   "note": "Anachronism: Moroni writes with a modern pencil/pen on a printed modern-style map of the region; show a stylus on a scroll\nAnachronism: a modern-looking wooden window with paned casement frame and a modern map with a flag emblem on a table; use a period room and a simple scroll"
+  },
+  {
+   "chapter": "alma/060",
+   "panel": "panel_005",
+   "note": "Anachronism: a modern-looking wooden window with paned casement frame and a modern map with a flag emblem on a table; use a period room and a simple scroll"
+  },
+  {
+   "chapter": "alma/061",
+   "panel": "panel_006",
+   "note": "Anachronism: a European-style chair with a red cushioned back at left; use a simple stone or wooden judgment seat"
+  },
+  {
+   "chapter": "alma/061",
+   "panel": "cover",
+   "note": "Anachronism: horses stand among the crowd; no one rides or keeps horses in the Book of Mormon, remove them"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "cover",
+   "note": "Anachronism: medieval European castle with round conical-topped turrets in the distance; use Mesoamerican-inspired architecture"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "panel_006",
+   "note": "Anachronism: Pahoran wears a European-style pointed gold crown (he is the chief judge, not a king); remove the crown"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "panel_007",
+   "note": "Anachronism: a Romanesque stone arch with carved column capital frames the scene; use a flat-lintel Mesoamerican-style doorway"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "panel_016",
+   "note": "Anachronism: the city in the distance is a medieval European walled town with towers and spires; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "panel_018",
+   "note": "Anachronism: Gothic pointed towers and spires in the city; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "alma/062",
+   "panel": "panel_015",
+   "note": "Anachronism: a crenellated medieval square battlement tower; use an earthen embankment or stepped stone wall"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "cover",
+   "note": "Anachronism: Hagoth's ship is a European-style rigged sailing ship (masts, ratlines, billowing sails, caravel/galleon shape); draw a simple ancient wooden ship of the period"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "panel_004",
+   "note": "Anachronism: Hagoth's ship is a European-style rigged sailing ship (masts, ratlines, billowing sails, caravel/galleon shape); draw a simple ancient wooden ship of the period"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "panel_005",
+   "note": "Anachronism: Hagoth's ship is a European-style rigged sailing ship (masts, ratlines, billowing sails, caravel/galleon shape); draw a simple ancient wooden ship of the period"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "panel_006",
+   "note": "Anachronism: Hagoth's ship is a European-style rigged sailing ship (masts, ratlines, billowing sails, caravel/galleon shape); draw a simple ancient wooden ship of the period"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "panel_007",
+   "note": "Anachronism: Hagoth's ship is a European-style rigged sailing ship (masts, ratlines, billowing sails, caravel/galleon shape); draw a simple ancient wooden ship of the period"
+  },
+  {
+   "chapter": "alma/063",
+   "panel": "panel_013",
+   "note": "Anachronism: a modern-looking red-and-white ship or boat in the river among the army; remove it"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "cover",
+   "note": "Anachronism: Greek/Corinthian-style carved columns with capitals frame the cover; use plain Mesoamerican-style stonework\nCharacter looks wrong: Coriantumr (a Nephite dissenter leading a Lamanite army) is drawn as a bulky fur-clad giant with a club; the verses do not make him a giant, so draw him as a normal-sized man in period dress"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "panel_009",
+   "note": "Character looks wrong: Coriantumr (a Nephite dissenter leading a Lamanite army) is drawn as a bulky fur-clad giant with a club; the verses do not make him a giant, so draw him as a normal-sized man in period dress"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "panel_012",
+   "note": "Character looks wrong: Coriantumr (a Nephite dissenter leading a Lamanite army) is drawn as a bulky fur-clad giant with a club; the verses do not make him a giant, so draw him as a normal-sized man in period dress"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "panel_013",
+   "note": "Character looks wrong: Coriantumr (a Nephite dissenter leading a Lamanite army) is drawn as a bulky fur-clad giant with a club; the verses do not make him a giant, so draw him as a normal-sized man in period dress"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "panel_014",
+   "note": "Character looks wrong: Coriantumr (a Nephite dissenter leading a Lamanite army) is drawn as a bulky fur-clad giant with a club; the verses do not make him a giant, so draw him as a normal-sized man in period dress"
+  },
+  {
+   "chapter": "helaman/001",
+   "panel": "panel_019",
+   "note": "Anachronism: the Nephite capital has domed roofs; no domes, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/002",
+   "panel": "cover",
+   "note": "Character looks wrong: Helaman's servant appears as a hooded cloaked figure similar to the robbers (cover shows two different dark hooded figures); keep the servant in plain Nephite dress and only the Gadianton band hooded"
+  },
+  {
+   "chapter": "helaman/003",
+   "panel": "panel_005",
+   "note": "Anachronism: Plains-style teepee tents with crossed poles; use simple period tents (verse says tents and cement houses)"
+  },
+  {
+   "chapter": "helaman/003",
+   "panel": "panel_012",
+   "note": "Anachronism: European farmhouses with red tiled gable roofs and chimneys in the valley; use flat-roofed plastered or cement buildings"
+  },
+  {
+   "chapter": "helaman/004",
+   "panel": "panel_011",
+   "note": "Anachronism: the city shows a domed church-like building with a bell tower; use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/004",
+   "panel": "panel_009",
+   "note": "Anachronism: herds of horses are ridden or gathered with the army (no one rides horses in the Book of Mormon)"
+  },
+  {
+   "chapter": "helaman/005",
+   "panel": "panel_004",
+   "note": "Not in the verses: a glowing white Christ-like figure with outstretched arms hovers over the sky; Helaman 5:9-12 is Helaman's recorded counsel, with no vision, so remove it"
+  },
+  {
+   "chapter": "helaman/005",
+   "panel": "panel_023",
+   "note": "Not in the verses: a giant glowing white figure with outstretched arms (like a statue) stands in the sky; Helaman 5:48 describes angels coming down, so draw radiant men in white robes without wings, and no giant or cross-shaped figure"
+  },
+  {
+   "chapter": "helaman/005",
+   "panel": "panel_025",
+   "note": "Anachronism: a modern printed map with European-style lines lies on the ground and the man wears a short-sleeved modern-looking shirt; the verse says they lay down weapons, so show a pile of spears, bows and clubs"
+  },
+  {
+   "chapter": "helaman/006",
+   "panel": "panel_010",
+   "note": "Anachronism: Greek/Roman-style carved columns with capitals frame the judgment seat; use plain timber or Mesoamerican stone\nAnachronism: the judge sits bare-shouldered in a toga-like drape; and the room is Roman. Use a period Nephite tunic and plain stone seat"
+  },
+  {
+   "chapter": "helaman/006",
+   "panel": "panel_017",
+   "note": "Anachronism: a tall obelisk/European cathedral spire stands in the city skyline (Cain's tower?) with Gothic spires; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/006",
+   "panel": "panel_022",
+   "note": "Art error: a giant circular Celtic/mandala-like geometric pattern is drawn on the ground; the verse only says the Nephites built up and supported the Lamanites; remove the pattern"
+  },
+  {
+   "chapter": "helaman/006",
+   "panel": "panel_011",
+   "note": "Anachronism: a pile of modern round coins stamped like medieval gold coins; Nephite measures were ingots/pieces, but this looks like European coinage; show gold and silver ingots or jewelry"
+  },
+  {
+   "chapter": "helaman/007",
+   "panel": "cover",
+   "note": "Anachronism: Nephi's garden tower is a medieval European crenellated castle tower with a Gothic arched door; draw a simple stone or timber platform tower of the period\nAnachronism: Italian cypress trees and a slim European-style spire in the city; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/007",
+   "panel": "panel_004",
+   "note": "Anachronism: Nephi's garden tower is a medieval European crenellated castle tower with a Gothic arched door; draw a simple stone or timber platform tower of the period"
+  },
+  {
+   "chapter": "helaman/007",
+   "panel": "panel_006",
+   "note": "Anachronism: Nephi's garden tower is a medieval European crenellated castle tower with a Gothic arched door; draw a simple stone or timber platform tower of the period"
+  },
+  {
+   "chapter": "helaman/007",
+   "panel": "panel_005",
+   "note": "Anachronism: a Greek/Egyptian-style tall obelisk-like temple with a spire and cypress trees in the skyline; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "helaman/008",
+   "panel": "panel_010",
+   "note": "Anachronism: several men wear white Middle Eastern turbans and a dark purple-trousered outfit with curled-toe shoes; use period Nephite dress (tunics, mantles, headbands)"
+  },
+  {
+   "chapter": "helaman/008",
+   "panel": "panel_002",
+   "note": "Anachronism: a modern-looking white wooden podium/table with a flat top stands in the plaza (judgment seat); use a simple stone judgment seat"
+  },
+  {
+   "chapter": "helaman/009",
+   "panel": "cover",
+   "note": "Graphic: a large pool of bright red blood spreads across the ground on the cover; the verses say the judge lay in his blood, but show it far less graphically (a fallen figure with little or no visible blood)"
+  },
+  {
+   "chapter": "helaman/009",
+   "panel": "panel_002",
+   "note": "Anachronism: the judgment seat is an ornate carved European wooden pulpit/desk with a high-backed chair; use a simple stone judgment seat of the period"
+  },
+  {
+   "chapter": "helaman/009",
+   "panel": "panel_009",
+   "note": "Anachronism: a Greek/Roman-style columned portico with an arch and carved capitals tops the stone steps; use a Mesoamerican-inspired stepped stone platform"
+  },
+  {
+   "chapter": "helaman/009",
+   "panel": "panel_012",
+   "note": "Anachronism: a rectangular wooden coffin lies at the right edge; Nephite burial here is a bier or wrapped body, so remove the European-style coffin"
+  },
+  {
+   "chapter": "helaman/013",
+   "panel": "cover",
+   "note": "Anachronism: domed roofs appear on the Zarahemla skyline; no domes, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/013",
+   "panel": "panel_005",
+   "note": "Not in the verses: the Lord is drawn as a large glowing white human silhouette with outstretched arms; Helaman 13:8-11 gives only the Lord's words to Samuel, so show light or no figure"
+  },
+  {
+   "chapter": "helaman/013",
+   "panel": "panel_001",
+   "note": "Anachronism: Samuel wears a short-sleeved modern-looking V-neck white shirt; use a period Lamanite/Nephite tunic"
+  },
+  {
+   "chapter": "helaman/013",
+   "panel": "panel_002",
+   "note": "Anachronism: Samuel wears a short-sleeved modern-looking V-neck white shirt; use a period Lamanite/Nephite tunic"
+  },
+  {
+   "chapter": "helaman/013",
+   "panel": "panel_011",
+   "note": "Anachronism: a domed bell-tower-like building stands on the city skyline; no domes, use stepped stone buildings"
+  },
+  {
+   "chapter": "helaman/014",
+   "panel": "panel_001",
+   "note": "Anachronism: Samuel wears a short-sleeved modern-looking V-neck white shirt open at the chest; use a period tunic"
+  },
+  {
+   "chapter": "helaman/014",
+   "panel": "panel_002",
+   "note": "Anachronism: Samuel wears a short-sleeved modern-looking V-neck white shirt open at the chest; use a period tunic"
+  },
+  {
+   "chapter": "helaman/014",
+   "panel": "panel_011",
+   "note": "Anachronism: a domed Renaissance-style building crowns the city beside the river; no domes, use a stepped stone temple"
+  },
+  {
+   "chapter": "helaman/015",
+   "panel": "panel_001",
+   "note": "Anachronism: the temple has a tall curved Indian-style shikhara spire; use a Mesoamerican-inspired stepped stone temple with a flat top"
+  },
+  {
+   "chapter": "helaman/016",
+   "panel": "panel_014",
+   "note": "Art error: the angel has large feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "helaman/016",
+   "panel": "cover",
+   "note": "Anachronism: the temple/city structures on the horizon have spired Indian/European domes at the left; use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "3-nephi/001",
+   "panel": "panel_014",
+   "note": "Anachronism: the robbers wear red Roman-style tunics with pleated skirts and shaved heads with leaf collars; use period Lamanite or robber dress"
+  },
+  {
+   "chapter": "3-nephi/003",
+   "panel": "cover",
+   "note": "Anachronism: horses and riders on horseback fill the cover and marching columns, and covered wagons with wheels travel with the people; no one rides horses in the Book of Mormon and there are no wagons. Show people on foot"
+  },
+  {
+   "chapter": "3-nephi/003",
+   "panel": "panel_015",
+   "note": "Anachronism: horses and riders on horseback fill the cover and marching columns, and covered wagons with wheels travel with the people; no one rides horses in the Book of Mormon and there are no wagons. Show people on foot"
+  },
+  {
+   "chapter": "3-nephi/003",
+   "panel": "panel_001",
+   "note": "Anachronism: carved Romanesque columns with capitals frame Lachoneus; use plain stone or timber construction"
+  },
+  {
+   "chapter": "3-nephi/003",
+   "panel": "panel_016",
+   "note": "Anachronism: a pointed Gothic-style stone arch frames the scene; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "3-nephi/004",
+   "panel": "panel_001",
+   "note": "Anachronism: the robbers wear East Asian conical straw hats and baggy trousers; use period robber dress (headbands, loincloths)"
+  },
+  {
+   "chapter": "3-nephi/004",
+   "panel": "panel_007",
+   "note": "Anachronism: several people wear white Middle Eastern turbans; use period headbands or bare heads"
+  },
+  {
+   "chapter": "3-nephi/004",
+   "panel": "panel_017",
+   "note": "Anachronism: several people wear white Middle Eastern turbans; use period headbands or bare heads"
+  },
+  {
+   "chapter": "3-nephi/004",
+   "panel": "panel_018",
+   "note": "Anachronism: several people wear white Middle Eastern turbans; use period headbands or bare heads"
+  },
+  {
+   "chapter": "3-nephi/005",
+   "panel": "panel_012",
+   "note": "Anachronism: Mormon writes with a modern pen in an open bound book with paper pages; show a stack of thin engraved metal plates and a stylus"
+  },
+  {
+   "chapter": "3-nephi/006",
+   "panel": "panel_012",
+   "note": "Anachronism: a modern microphone stands on the judge's lectern and the courtroom has carved European-style chairs; use a simple stone judgment seat of the period"
+  },
+  {
+   "chapter": "3-nephi/008",
+   "panel": "cover",
+   "note": "Anachronism: the burning city is topped by a European church tower with a pointed spire; use Mesoamerican-inspired stepped stone temple architecture with no spire"
+  },
+  {
+   "chapter": "3-nephi/008",
+   "panel": "panel_003",
+   "note": "Anachronism: domed buildings burn in the city and Italian cypress trees line the river; no domes, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "3-nephi/008",
+   "panel": "panel_007",
+   "note": "Anachronism: the road is a paved modern-looking highway with a yellow center line and a wooden fence; use a plain dirt or stone-paved road"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "cover",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_002",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_003",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_004",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_005",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_006",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus\nAnachronism: domed buildings in the city skyline; no domes, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_007",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_008",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_009",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_010",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_011",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_012",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_013",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_014",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/009",
+   "panel": "panel_015",
+   "note": "Not in the verses: in 3 Nephi 9 Jesus is only a voice from heaven (the people hear but do not see him until chapter 11); show the voice (light or cloud) over the people instead of a visible Jesus"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "panel_003",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "panel_004",
+   "note": "Anachronism: the temple has Greek-style columns with capitals and a small dome on top; use a Mesoamerican-inspired stepped stone temple with a flat top"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "panel_006",
+   "note": "Anachronism: the temple behind has Greek-style fluted columns and a pediment; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "panel_007",
+   "note": "Anachronism: the temple behind has Greek-style fluted columns and a pediment; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/011",
+   "panel": "panel_008",
+   "note": "Anachronism: the temple behind has Greek-style fluted columns and a pediment; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/012",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/012",
+   "panel": "panel_009",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway; use a Mesoamerican-inspired stepped stone temple with a flat-lintel doorway"
+  },
+  {
+   "chapter": "3-nephi/012",
+   "panel": "panel_010",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway; use a Mesoamerican-inspired stepped stone temple with a flat-lintel doorway"
+  },
+  {
+   "chapter": "3-nephi/012",
+   "panel": "panel_013",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway; use a Mesoamerican-inspired stepped stone temple with a flat-lintel doorway"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_001",
+   "note": "Anachronism: Greek-style columns, arches and pediment on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_007",
+   "note": "Anachronism: Greek-style columns, arches and pediment on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_008",
+   "note": "Anachronism: Greek-style columns, arches and pediment on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_009",
+   "note": "Anachronism: Greek-style columns, arches and pediment on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_010",
+   "note": "Anachronism: Greek-style columns, arches and pediment on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_011",
+   "note": "Anachronism: the building is a medieval European stone church with a bell tower and arched doorway; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_003",
+   "note": "Anachronism: the temple has a Gothic-style pointed arched window; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/013",
+   "panel": "panel_004",
+   "note": "Anachronism: the temple has a Gothic-style pointed arched window; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/014",
+   "panel": "panel_005",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/014",
+   "panel": "panel_011",
+   "note": "Anachronism: the building is a Greek temple with Corinthian columns and a triangular pediment; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/014",
+   "panel": "panel_010",
+   "note": "Anachronism: the temple has Roman-style round arched doorways; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "3-nephi/015",
+   "panel": "panel_003",
+   "note": "Anachronism: Greek-style columns, pediment or dome on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework; a small cross sits on top of the dome"
+  },
+  {
+   "chapter": "3-nephi/015",
+   "panel": "panel_001",
+   "note": "Anachronism: Greek-style columns and a carved lintel on the temple front; use plain Mesoamerican-style stonework"
+  },
+  {
+   "chapter": "3-nephi/015",
+   "panel": "panel_006",
+   "note": "Anachronism: Greek-style columns and a carved lintel on the temple front; use plain Mesoamerican-style stonework"
+  },
+  {
+   "chapter": "3-nephi/016",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/016",
+   "panel": "panel_007",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/016",
+   "panel": "panel_003",
+   "note": "Anachronism: Greek-style columns, pediment or dome on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/016",
+   "panel": "panel_008",
+   "note": "Anachronism: Greek-style columns, pediment or dome on the temple; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple; the doorway is also a European round arch"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_001",
+   "note": "Anachronism: Greek-style columns on the temple front; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_004",
+   "note": "Anachronism: Greek-style columns on the temple front; use a Mesoamerican-inspired stepped stone temple with plain stonework\nAnachronism: the wine cup is a gold goblet like a European chalice; use a clay or plain metal cup"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_007",
+   "note": "Anachronism: Greek-style columns on the temple front; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_008",
+   "note": "Anachronism: Greek-style columns on the temple front; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_010",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway and spire; use a Mesoamerican-inspired stepped stone temple with a flat-lintel doorway"
+  },
+  {
+   "chapter": "3-nephi/018",
+   "panel": "panel_011",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway and spire; use a Mesoamerican-inspired stepped stone temple with a flat-lintel doorway"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "panel_005",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "panel_010",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple\nArt error: the figure descending has feathered wings; remove them (angels are radiant men in shining white robes)"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "cover",
+   "note": "Anachronism: the temple has a tall finial/spire on top; use a flat-topped Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "panel_003",
+   "note": "Anachronism: Greek-style columns and a crenellated medieval wall behind the temple; use plain Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "panel_008",
+   "note": "Anachronism: Greek-style columns and a crenellated medieval wall behind the temple; use plain Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "3-nephi/019",
+   "panel": "panel_009",
+   "note": "Not in the verses: a giant glowing ghostly human figure towers over the scene (with a second figure below); the verses describe the disciples encircled by fire with angels ministering, so show fire and angels without a giant figure"
+  },
+  {
+   "chapter": "3-nephi/020",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/020",
+   "panel": "panel_010",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/020",
+   "panel": "panel_004",
+   "note": "Anachronism: stone column stubs with capitals stand near the temple; use plain Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "3-nephi/020",
+   "panel": "panel_005",
+   "note": "Anachronism: stone column stubs with capitals stand near the temple; use plain Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "cover",
+   "note": "Anachronism: a church with a cross, bell tower and spire stands in place of the temple (the Nephites never saw a cross); use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_002",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_003",
+   "note": "Anachronism: the temple has a pointed Gothic-style arched doorway; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_007",
+   "note": "Anachronism: Roman-style arches with columns and capitals on the temple front; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_009",
+   "note": "Anachronism: Roman-style arches with columns and capitals on the temple front; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_011",
+   "note": "Anachronism: Roman-style arches with columns and capitals on the temple front; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/021",
+   "panel": "panel_012",
+   "note": "Anachronism: Roman-style arches with columns and capitals on the temple front; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/022",
+   "panel": "panel_007",
+   "note": "Anachronism: a domed Roman/Renaissance temple top with arch and columns; no domes, use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/022",
+   "panel": "panel_009",
+   "note": "Anachronism: Greek temples with columns and pediments; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/022",
+   "panel": "panel_010",
+   "note": "Anachronism: Greek temples with columns and pediments; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/022",
+   "panel": "panel_003",
+   "note": "Anachronism: a pointed Gothic arched doorway and a cross-topped spire on the temple; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/023",
+   "panel": "cover",
+   "note": "Anachronism: a European church with a tall pointed spire stands behind the two men; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/023",
+   "panel": "panel_001",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "panel_002",
+   "note": "Anachronism: Greek-style columned temple with a triangular pediment; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "panel_003",
+   "note": "Anachronism: Greek-style columned temple with a triangular pediment; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "panel_010",
+   "note": "Anachronism: Greek-style columned temple with a triangular pediment; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "panel_009",
+   "note": "Anachronism: the temple is a pointed Art Deco-style spire with ornate curved carving; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/024",
+   "panel": "panel_012",
+   "note": "Anachronism: a pointed European stone church with a tall spire stands in the distance; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/025",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple; the temple is also Greek-columned with a pediment"
+  },
+  {
+   "chapter": "3-nephi/025",
+   "panel": "panel_001",
+   "note": "Anachronism: a Greek-columned shrine with a conical roof; use a Mesoamerican-inspired stepped stone temple. The sky also burns as a huge fireball, a metaphor in the verse; show it more mildly"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "panel_006",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "panel_002",
+   "note": "Anachronism: Greek-style columned temple with a triangular pediment; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "panel_007",
+   "note": "Anachronism: Greek-style columned temple with a triangular pediment; use a Mesoamerican-inspired stepped stone temple with plain stonework"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "panel_010",
+   "note": "Anachronism: a pointed Gothic-style arched temple doorway; use a flat-lintel Mesoamerican-style stone doorway"
+  },
+  {
+   "chapter": "3-nephi/026",
+   "panel": "panel_008",
+   "note": "Anachronism: a European Renaissance palace with arched arcade at the end of the path; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/027",
+   "panel": "panel_002",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/027",
+   "panel": "panel_009",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/027",
+   "panel": "panel_015",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/027",
+   "panel": "panel_016",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/027",
+   "panel": "panel_006",
+   "note": "Anachronism: the temple has a Greek pediment, Romanesque arch and column capitals; use a Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "3-nephi/028",
+   "panel": "cover",
+   "note": "Anachronism: a cross stands on top of the temple (the Nephites never saw a cross); remove it and use a Mesoamerican-inspired stepped stone temple; the temple also has Greek columns"
+  },
+  {
+   "chapter": "3-nephi/028",
+   "panel": "panel_005",
+   "note": "Anachronism: a Roman-style stone arch with column capitals frames the scene; use a flat-lintel Mesoamerican-style opening"
+  },
+  {
+   "chapter": "3-nephi/028",
+   "panel": "panel_010",
+   "note": "Anachronism: a Roman-style stone arch with column capitals frames the scene; use a flat-lintel Mesoamerican-style opening\nAnachronism: an iron-barred prison gate in a stone arch; use a timber or stone prison"
+  },
+  {
+   "chapter": "3-nephi/030",
+   "panel": "cover",
+   "note": "Anachronism: Mormon writes with a pencil-like pen in an open bound paper book on a round table; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "3-nephi/030",
+   "panel": "panel_001",
+   "note": "Anachronism: Mormon writes with a pencil-like pen in an open bound paper book on a round table; show a stylus on thin engraved metal plates"
+  },
+  {
+   "chapter": "3-nephi/030",
+   "panel": "panel_002",
+   "note": "Anachronism: some of the crowd are bare-chested loincloth figures beside a robed Jesus in a red cloak, and the temples are Hindu-style with a shikhara spire; use period Nephite dress and Mesoamerican-inspired buildings"
+  },
+  {
+   "chapter": "mormon/001",
+   "panel": "panel_001",
+   "note": "Character looks wrong: redraw\nAnachronism: Mormon writes in a thick bound codex book with a leather spine and cords; show thin engraved gold-bronze metal plates and a stylus"
+  },
+  {
+   "chapter": "mormon/001",
+   "panel": "panel_002",
+   "note": "Art error: redraw"
+  },
+  {
+   "chapter": "mormon/001",
+   "panel": "cover",
+   "note": "Anachronism: a herd of horses and riders stands in the distance behind the two men; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/002",
+   "panel": "cover",
+   "note": "Anachronism: a crenellated medieval stone castle tower stands at the left edge of the cover; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/002",
+   "panel": "panel_009",
+   "note": "Anachronism: a modern black wooden trunk with metal hinges and a latch sits at the left; remove it"
+  },
+  {
+   "chapter": "mormon/003",
+   "panel": "cover",
+   "note": "Anachronism: a huge medieval European castle with crenellated towers and a cross-topped spire sits on the hill (the Nephites never saw a cross); use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/003",
+   "panel": "panel_002",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mormon 3:2 and 3:14-15 give only his words, so show light or no figure"
+  },
+  {
+   "chapter": "mormon/003",
+   "panel": "panel_010",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette with outstretched arms; Mormon 3:2 and 3:14-15 give only his words, so show light or no figure"
+  },
+  {
+   "chapter": "mormon/003",
+   "panel": "panel_012",
+   "note": "Anachronism: Mormon writes on loose paper sheets / a modern open notebook with a pen; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/003",
+   "panel": "panel_013",
+   "note": "Anachronism: Mormon writes on loose paper sheets / a modern open notebook with a pen; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/004",
+   "panel": "panel_008",
+   "note": "Anachronism: a medieval European stone watchtower and crenellated ruins; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/004",
+   "panel": "panel_009",
+   "note": "Anachronism: domed and spired European/Byzantine buildings in the city skyline; no domes or spires, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/004",
+   "panel": "panel_011",
+   "note": "Anachronism: domed and spired European/Byzantine buildings in the city skyline; no domes or spires, use flat-roofed stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/004",
+   "panel": "panel_002",
+   "note": "Anachronism: Romanesque stone arch with a carved capital frames the scene; use a flat-lintel Mesoamerican stone gateway"
+  },
+  {
+   "chapter": "mormon/005",
+   "panel": "cover",
+   "note": "Anachronism: a medieval European castle with crenellated towers and battlements at the left; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/006",
+   "panel": "panel_001",
+   "note": "Anachronism: a long column of cavalry on horses stretches across the valley, and Mormon writes beside a spiral-bound modern notebook; no one rides horses in the Book of Mormon, show people on foot, and use metal plates instead of a notebook"
+  },
+  {
+   "chapter": "mormon/006",
+   "panel": "panel_004",
+   "note": "Anachronism: the Lamanite army is drawn as a mounted force of horses and riders; show them on foot"
+  },
+  {
+   "chapter": "mormon/007",
+   "panel": "cover",
+   "note": "Anachronism: a mounted rider on a horse and a group of horsemen are in the background; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/007",
+   "panel": "panel_005",
+   "note": "Anachronism: a mounted rider on a horse and a group of horsemen are in the background; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/007",
+   "panel": "panel_002",
+   "note": "Anachronism: a medieval European castle sits on the hill at the right; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/007",
+   "panel": "panel_004",
+   "note": "Anachronism: a medieval European castle sits on the hill at the right; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "cover",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_001",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_003",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates\nAnachronism: Moroni writes in a modern bound notebook / on loose white paper; show thin engraved gold-bronze plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_004",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_007",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_009",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_010",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_011",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_012",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_014",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_017",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_019",
+   "note": "Anachronism: Moroni writes with a modern fountain pen with a metal nib and clip; show a stylus on thin metal plates\nAnachronism: Moroni writes in a modern bound notebook / on loose white paper; show thin engraved gold-bronze plates"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_016",
+   "note": "Anachronism: a Greek Doric-style column with capital and flat steps; use plain Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "mormon/008",
+   "panel": "panel_018",
+   "note": "Art error: the plates are drawn as large, flat, ornately decorated metal sheets; they should be a small stack of thin engraved gold-bronze plates bound with rings"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "cover",
+   "note": "Anachronism: Moroni writes with a modern fountain pen on a loose sheet of white paper laid over the plates; show a stylus engraving the metal plates"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_002",
+   "note": "Anachronism: horsemen and mounted riders ride across the plain below; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_005",
+   "note": "Anachronism: horsemen and mounted riders ride across the plain below; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_007",
+   "note": "Anachronism: horsemen and mounted riders ride across the plain below; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_014",
+   "note": "Anachronism: horsemen and mounted riders ride across the plain below; no one rides horses in the Book of Mormon"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_010",
+   "note": "Not in the verses: Jesus is drawn as a visible man in white robes standing before a crowd; in Mormon 9:22-25 Moroni only quotes Christ's earlier words, so show Moroni (or no figure) instead"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_011",
+   "note": "Not in the verses: Jesus is drawn as a visible man in white robes standing before a crowd; in Mormon 9:22-25 Moroni only quotes Christ's earlier words, so show Moroni (or no figure) instead"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_013",
+   "note": "Anachronism: a medieval European stone tower and castle ruin at the edge of the hill; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "mormon/009",
+   "panel": "panel_017",
+   "note": "Anachronism: a medieval European stone tower and castle ruin at the edge of the hill; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "ether/001",
+   "panel": "panel_012",
+   "note": "Not in the verses: the Lord is shown as a glowing white human silhouette; Ether 1:43 gives only his words, so show a light or no figure"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "cover",
+   "note": "Art error: the barges are drawn as open wooden rowboats with masts and white sails; scripture says they were sealed, tight like a dish, with no sails (and no one on top)"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_015",
+   "note": "Art error: the barges are drawn as open wooden rowboats with masts and white sails; scripture says they were sealed, tight like a dish, with no sails (and no one on top)\nNot in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_011",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_012",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_013",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_016",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_017",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; the Lord speaks from a cloud and his body is not described until Ether 3, so show cloud/light only"
+  },
+  {
+   "chapter": "ether/002",
+   "panel": "panel_010",
+   "note": "Anachronism: Plains-style teepee tents with crossed poles; use simple period tents"
+  },
+  {
+   "chapter": "ether/003",
+   "panel": "panel_002",
+   "note": "Art error: the speech bubble contains garbled, unreadable lettering; remove the bubble and any drawn writing (the prayer is in the caption)"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "cover",
+   "note": "Anachronism: Moroni writes with a modern metal pen/stylus with a cap and grip; show a simple stylus engraving metal plates"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_004",
+   "note": "Anachronism: Moroni writes with a modern metal pen/stylus with a cap and grip; show a simple stylus engraving metal plates"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_002",
+   "note": "Not in the verses: Jesus is drawn standing on a beach as a visible man in a white robe, but Ether 4 only quotes the Lord's words to Moroni; show a light or no figure"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_005",
+   "note": "Not in the verses: Jesus is drawn standing on a beach as a visible man in a white robe, but Ether 4 only quotes the Lord's words to Moroni; show a light or no figure"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_006",
+   "note": "Not in the verses: Jesus is drawn standing on a beach as a visible man in a white robe, but Ether 4 only quotes the Lord's words to Moroni; show a light or no figure"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_007",
+   "note": "Not in the verses: Jesus is drawn standing on a beach as a visible man in a white robe, but Ether 4 only quotes the Lord's words to Moroni; show a light or no figure"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_008",
+   "note": "Anachronism: tents are teepee-style cones with crossed pole tips; use simple period tents"
+  },
+  {
+   "chapter": "ether/004",
+   "panel": "panel_010",
+   "note": "Anachronism: tents are teepee-style cones with crossed pole tips; use simple period tents"
+  },
+  {
+   "chapter": "ether/006",
+   "panel": "panel_001",
+   "note": "Art error: the barges are drawn as open rowboats with people sitting or standing on top; scripture says they were sealed, tight like a dish, with no one on top (panel 6 is closer)"
+  },
+  {
+   "chapter": "ether/006",
+   "panel": "panel_002",
+   "note": "Art error: the barges are drawn as open rowboats with people sitting or standing on top; scripture says they were sealed, tight like a dish, with no one on top (panel 6 is closer)"
+  },
+  {
+   "chapter": "ether/006",
+   "panel": "panel_003",
+   "note": "Art error: the barges are drawn as open rowboats with people sitting or standing on top; scripture says they were sealed, tight like a dish, with no one on top (panel 6 is closer)"
+  },
+  {
+   "chapter": "ether/006",
+   "panel": "panel_004",
+   "note": "Art error: the barges are drawn as open rowboats with people sitting or standing on top; scripture says they were sealed, tight like a dish, with no one on top (panel 6 is closer)"
+  },
+  {
+   "chapter": "ether/006",
+   "panel": "panel_005",
+   "note": "Art error: the barges are drawn as open rowboats with people sitting or standing on top; scripture says they were sealed, tight like a dish, with no one on top (panel 6 is closer)"
+  },
+  {
+   "chapter": "ether/007",
+   "panel": "panel_001",
+   "note": "Anachronism: Greek/Corinthian-style carved column with capital; use plain stone or Mesoamerican-style carved stonework"
+  },
+  {
+   "chapter": "ether/007",
+   "panel": "panel_014",
+   "note": "Anachronism: Greek/Corinthian-style carved column with capital; use plain stone or Mesoamerican-style carved stonework"
+  },
+  {
+   "chapter": "ether/008",
+   "panel": "cover",
+   "note": "Anachronism: Corinthian-style carved column capitals and a Roman round arch; use Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "ether/008",
+   "panel": "panel_011",
+   "note": "Art error: a horned figure (a devil with horns) stands in front of the temple; the devil is not described with horns and nothing in these verses shows him, so remove the figure"
+  },
+  {
+   "chapter": "ether/008",
+   "panel": "panel_008",
+   "note": "Art error: the daughter of Jared wears an off-the-shoulder low-cut dress while dancing; keep the clothing modest"
+  },
+  {
+   "chapter": "ether/009",
+   "panel": "panel_004",
+   "note": "Anachronism: Egyptian/Greek-style papyrus-capital columns with a stone-paved court; use Mesoamerican-inspired stonework"
+  },
+  {
+   "chapter": "ether/009",
+   "panel": "panel_005",
+   "note": "Anachronism: modern-looking vertical iron-bar jail cell and barred gate; use a timber-and-stone prison"
+  },
+  {
+   "chapter": "ether/009",
+   "panel": "panel_002",
+   "note": "Anachronism: a Plains-style teepee tent; use a simple period tent"
+  },
+  {
+   "chapter": "ether/009",
+   "panel": "panel_001",
+   "note": "Anachronism: Moroni writes with a modern gold fountain pen and has a modern holstered object at his belt; show a stylus on metal plates and no modern objects\nAnachronism: Moroni writes with a modern gold fountain pen and carries a revolver-like object at his belt; show a stylus on metal plates and no modern objects"
+  },
+  {
+   "chapter": "ether/010",
+   "panel": "panel_003",
+   "note": "Anachronism: a medieval European castle with crenellated towers on a hill; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "ether/010",
+   "panel": "panel_005",
+   "note": "Anachronism: Gothic-style vaulted hall with arched glass-paned windows; use a flat-lintel stone chamber"
+  },
+  {
+   "chapter": "ether/010",
+   "panel": "cover",
+   "note": "Anachronism: a medieval-looking sword is the focus of the cover"
+  },
+  {
+   "chapter": "ether/012",
+   "panel": "panel_011",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; Ether 12:26-37 gives only his words, so show light or no figure"
+  },
+  {
+   "chapter": "ether/012",
+   "panel": "panel_014",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; Ether 12:26-37 gives only his words, so show light or no figure"
+  },
+  {
+   "chapter": "ether/012",
+   "panel": "panel_006",
+   "note": "Anachronism: a medieval European stone castle keep with square towers stands on the hill; use a Mesoamerican-inspired stepped stone building"
+  },
+  {
+   "chapter": "ether/013",
+   "panel": "panel_001",
+   "note": "Anachronism: Moroni writes with a modern gold pen on plates; show a stylus"
+  },
+  {
+   "chapter": "ether/013",
+   "panel": "cover",
+   "note": "Graphic: a warrior stands with a raised sword over a fallen body; show the battle without a person lying slain at his feet\nGraphic: a warrior stands over a fallen body; show the battle without a person lying slain at his feet"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "cover",
+   "note": "Art error: a stray handwritten signature appears at the bottom right corner of the cover art; remove it"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "panel_010",
+   "note": "Anachronism: a large domed palace with a golden dome and spires on the horizon; no domes, use a Mesoamerican-inspired stepped stone city"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "panel_001",
+   "note": "Anachronism: a large domed palace with a golden dome and spires on the horizon; no domes, use a Mesoamerican-inspired stepped stone city"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "panel_016",
+   "note": "Anachronism: a modern brass trumpet/bugle with a valved bell; use a ram's horn or a clay/shell trumpet"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "panel_009",
+   "note": "Graphic: a fallen man lies dead at the feet of a man leaning on a sword; keep slain bodies out of frame or covered\nGraphic: a fallen man lies dead at the feet of another man; keep slain bodies out of frame or covered"
+  },
+  {
+   "chapter": "ether/014",
+   "panel": "panel_006",
+   "note": "Art error: Lib is drawn as a bare-chested giant silhouette; keep him clothed and of normal size\nAnachronism: Lib is drawn as a bare-chested giant silhouette; keep him clothed"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "panel_004",
+   "note": "Anachronism: the camp tents are Plains-style teepees with crossed pole tips; use simple period tents"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "panel_017",
+   "note": "Anachronism: the camp tents are Plains-style teepees with crossed pole tips; use simple period tents\nGraphic: a slain, headless man lies at the feet of the victor (Ether 15:30-32); show the aftermath non-graphically (e.g., victor alone, body out of frame)"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "panel_010",
+   "note": "Anachronism: the camp tents are Plains-style teepees with crossed pole tips; use simple period tents"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "panel_018",
+   "note": "Not in the verses: the Lord is drawn as a glowing white human silhouette; Ether 15:34 only gives his words, so show light or no figure. Also Ether holds an open modern bound book instead of metal plates"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "panel_016",
+   "note": "Graphic: Shiz's body lies on the ground with a sword beside it; keep it non-graphic\nGraphic: Shiz's body lies on the ground; keep it non-graphic"
+  },
+  {
+   "chapter": "ether/015",
+   "panel": "cover",
+   "note": "Graphic: Coriantumr kneels over and holds the face of a wounded, bare-chested man; keep it non-graphic\nGraphic: Coriantumr kneels over a wounded, bare-chested man; keep it non-graphic"
+  },
+  {
+   "chapter": "moroni/001",
+   "panel": "panel_001",
+   "note": "Anachronism: Moroni writes in a thick open bound book with paper pages and a brown leather cover; show thin engraved metal plates and a stylus"
+  },
+  {
+   "chapter": "moroni/001",
+   "panel": "cover",
+   "note": "Anachronism: Moroni holds a flintlock-pistol-like wooden object at his belt; remove the modern firearm\nAnachronism: Moroni holds a flintlock-pistol-like wooden object at his belt and a skull ornament on the cover; remove the modern-looking objects"
+  },
+  {
+   "chapter": "moroni/002",
+   "panel": "panel_001",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/003",
+   "panel": "cover",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/003",
+   "panel": "panel_001",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/004",
+   "panel": "panel_001",
+   "note": "Anachronism: the congregation wears modern short-sleeved T-shirt-style tops and trousers, and orange trees (citrus is Old World) fill the orchard; use period tunics and robes and native trees\nAnachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/005",
+   "panel": "panel_001",
+   "note": "Anachronism: the man at left holds a modern clear glass tumbler; use a clay or metal cup"
+  },
+  {
+   "chapter": "moroni/006",
+   "panel": "cover",
+   "note": "Anachronism: a wooden table set with modern stemmed wine glasses and ceramic plates, under a Greek columned temple in the background; use clay cups and plates and a Mesoamerican-inspired temple"
+  },
+  {
+   "chapter": "moroni/006",
+   "panel": "panel_002",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple\nArt error: the scroll shows legible, scribbled English-style lettering and numbered lists; remove the readable writing"
+  },
+  {
+   "chapter": "moroni/006",
+   "panel": "panel_003",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/006",
+   "panel": "panel_004",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "cover",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_003",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building\nAnachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_004",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_006",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_009",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_011",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_013",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_014",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_016",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_018",
+   "note": "Anachronism: Romanesque round stone arch with carved column capitals frames the scene; use a plain flat-lintel Mesoamerican-style stone building"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_001",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple\nAnachronism: a loose sheet of modern white paper lies on the table and Moroni holds a pen; show a stylus and metal plates"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_007",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_008",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_012",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/007",
+   "panel": "panel_019",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "cover",
+   "note": "Anachronism: Mormon writes with a modern pen in a bound paper notebook; show a stylus on thin metal plates (and Moroni 8 is a letter from Mormon to Moroni)"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_001",
+   "note": "Anachronism: Mormon writes with a modern pen in a bound paper notebook; show a stylus on thin metal plates (and Moroni 8 is a letter from Mormon to Moroni)\nAnachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_002",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple\nAnachronism: Mormon holds a small modern paperback book while standing by the river; show a scroll or plates"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_003",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_005",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_007",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_008",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/008",
+   "panel": "panel_009",
+   "note": "Anachronism: the temple is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "cover",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_001",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_003",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_004",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)\nAnachronism: Lamanite cavalry on horses appears in the background; no one rides horses in the Book of Mormon, show people on foot"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_007",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_011",
+   "note": "Anachronism: Mormon writes with a modern pen on loose sheets of white paper and a modern open notebook; show a stylus on thin metal plates (this is a letter to Moroni, so a scroll is also acceptable)"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_006",
+   "note": "Anachronism: Lamanite cavalry on horses appears in the background; no one rides horses in the Book of Mormon, show people on foot"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_012",
+   "note": "Anachronism: Lamanite cavalry on horses appears in the background; no one rides horses in the Book of Mormon, show people on foot"
+  },
+  {
+   "chapter": "moroni/009",
+   "panel": "panel_005",
+   "note": "Anachronism: a medieval European crenellated stone fortress with a Gothic gate arch; use Mesoamerican-inspired stepped stone buildings"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "cover",
+   "note": "Anachronism: Moroni writes with a modern ballpoint pen with a clip and push-button; show a stylus engraving metal plates"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "panel_001",
+   "note": "Anachronism: Moroni writes with a modern ballpoint pen with a clip and push-button; show a stylus engraving metal plates\nAnachronism: Moroni writes with a pen on loose white paper next to a wooden roll; show a stylus on metal plates"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "panel_003",
+   "note": "Anachronism: the temple in the distance is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "panel_018",
+   "note": "Anachronism: the temple in the distance is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "panel_019",
+   "note": "Anachronism: the temple in the distance is a Greek columned building with a pediment; use a plain Mesoamerican-inspired stepped stone temple"
+  },
+  {
+   "chapter": "moroni/010",
+   "panel": "panel_014",
+   "note": "Anachronism: Moroni leans on a staff-like object; he is a lone fugitive (verses mention no weapon)"
+  }
+ ],
+ "notes": [
+  "Covers not flaggable (no cover entry): mosiah/002, 2-nephi/018, 2-nephi/020 (flag attempted), 3-nephi/022.",
+  "Remaining redo: 4-nephi/001 through alma/046.",
+  "Glowing-silhouette depictions of the Lord were flagged in some chapters and skipped in others; decide a consistent rule."
+ ]
+}

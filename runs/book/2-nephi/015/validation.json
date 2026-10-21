@@ -1,10 +1,12 @@
 {
-  "stamp": "20aa8fca6d660c838945e0e4ce453c8055ac970bda61fa7eb818f7338ad92a3e",
+  "stamp": "87740bf8cc5cd2457b6dc0f456cb55db1bf89b6dcbf06504bb6f8a067e068df9",
   "results": {
     "scene_001": {
       "status": "PASS WITH WARNINGS",
       "issues": [
-        "“Nephi” as speaker/narrator is plausible from the surrounding chapter, but the supplied verses do not explicitly name him; scene 1 should preserve this attribution as an inference, not an explicit fact. The vineyard’s reported preparation and yield are properly treated as recounted rather than present action."
+        "“Nephi says” and the identification of the first-person speaker as Nephi rely on the supplied prompt’s framing; the quoted verses themselves do not name the speaker.",
+        "The well-beloved is explicitly mentioned, but identifying him as a character present only by mention is a conservative treatment; do not depict him physically.",
+        "The vineyard work and wild-grape yield are recounted, not staged as present action."
       ]
     },
     "scene_002": {
@@ -12,10 +14,8 @@
       "issues": []
     },
     "scene_003": {
-      "status": "REJECT",
-      "issues": [
-        "The doctrinal note says the supplied verses do not identify the vineyard’s symbolic referent, but 2 Nephi 15:7 explicitly identifies the vineyard as the house of Israel and the men of Judah as its pleasant plant."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_004": {
       "status": "PASS",
@@ -30,8 +30,10 @@
       "issues": []
     },
     "scene_007": {
-      "status": "PASS",
-      "issues": []
+      "status": "PASS WITH WARNINGS",
+      "issues": [
+        "The reasonable visual inference of people at a feast can imply they are physically present in the scene, although the verses describe their feasts without establishing a specific present occasion or setting."
+      ]
     },
     "scene_008": {
       "status": "PASS",
@@ -54,10 +56,8 @@
       "issues": []
     },
     "scene_013": {
-      "status": "PASS WITH WARNINGS",
-      "issues": [
-        "The source explicitly reports the Lord's hand stretched against the people and later still stretched out; the note treating this only as figurative language is an interpretation. Depict no visible hand unless the scene adheres strictly to what the text describes."
-      ]
+      "status": "PASS",
+      "issues": []
     },
     "scene_014": {
       "status": "PASS",

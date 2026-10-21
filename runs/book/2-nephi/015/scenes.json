@@ -6,16 +6,18 @@
       "2 Nephi 15:1",
       "2 Nephi 15:2"
     ],
-    "summary": "Nephi says he will sing about his well-beloved’s vineyard on a fruitful hill. The song recounts the vineyard’s preparation and its yield of wild grapes rather than the expected grapes.",
+    "summary": "Nephi says he will sing about his well-beloved’s vineyard on a fruitful hill. He recounts its preparation and its production of wild grapes rather than the grapes expected.",
     "characters": [
-      "Nephi"
+      "Nephi",
+      "the well-beloved (mentioned only)"
     ],
     "locations": [
-      "Unspecified setting of Nephi’s narration"
+      "Nephi’s unspecified setting",
+      "a vineyard on a fruitful hill (described, not staged)"
     ],
     "explicit_facts": [
       {
-        "text": "Nephi says he will sing to his well-beloved a song about the vineyard.",
+        "text": "Nephi says he will sing to his well-beloved a song touching the vineyard.",
         "refs": [
           "2 Nephi 15:1"
         ]
@@ -27,7 +29,7 @@
         ]
       },
       {
-        "text": "He fenced the vineyard, removed its stones, planted the choicest vine, built a tower within it, and made a wine-press there.",
+        "text": "He fenced the vineyard, removed stones, planted the choicest vine, built a tower, and made a wine-press.",
         "refs": [
           "2 Nephi 15:2"
         ]
@@ -39,9 +41,11 @@
         ]
       }
     ],
-    "reasonable_visual_inferences": [],
+    "reasonable_visual_inferences": [
+      "Nephi may be shown delivering the words, without a specified audience or setting."
+    ],
     "unspecified_visual_details": [
-      "Nephi’s appearance, surroundings, and any audience are unspecified.",
+      "Nephi’s appearance and surroundings are unspecified.",
       "The well-beloved’s identity and appearance are unspecified.",
       "The vineyard’s dimensions and the designs of its fence, tower, and wine-press are unspecified."
     ],
@@ -69,16 +73,15 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The task identifies the first-person narrator as Nephi.",
-      "The vineyard’s preparation and yield are recounted, not presented as actions occurring alongside Nephi’s song.",
+      "The prompt identifies the first-person narrator as Nephi.",
+      "The vineyard’s preparation and yield are recounted rather than staged as actions occurring during Nephi’s speech.",
       "The supplied verses do not explain what the vineyard represents."
     ],
     "prohibited_inventions": [
-      "Do not stage the vineyard’s reported preparation or yield as a new present-tense scene.",
-      "Do not place Nephi physically in the vineyard or depict the well-beloved as physically present with him.",
+      "Do not stage the recounted vineyard work or yield as a new present-tense event.",
+      "Do not place Nephi in the vineyard or show the well-beloved physically present.",
       "Do not assign the well-beloved a named or divine identity.",
-      "Do not invent an audience, melody, setting, or additional dialogue.",
-      "Do not depict the vineyard imagery as a literal supernatural event."
+      "Do not invent an audience, melody, setting, or additional dialogue."
     ],
     "importance": "normal"
   },
@@ -797,14 +800,14 @@
     "refs": [
       "2 Nephi 15:25"
     ],
-    "summary": "The Lord's anger is kindled against his people, and he has smitten them. The hills tremble, and carcasses are torn in the streets. His anger remains.",
+    "summary": "The Lord is angry with his people and has smitten them. The hills tremble, and their carcasses are torn in the streets. His anger remains, and his hand is stretched out still.",
     "characters": [
       "The Lord",
       "His people"
     ],
     "locations": [
-      "Streets",
-      "Hills"
+      "Hills",
+      "Streets"
     ],
     "explicit_facts": [
       {
@@ -827,13 +830,13 @@
       }
     ],
     "reasonable_visual_inferences": [
-      "The hills and streets may be shown without depicting the injuries described in the narration."
+      "The hills and streets can be shown as a retrospective illustration of the reported events, without showing bodies or injuries."
     ],
     "unspecified_visual_details": [
+      "The appearance of the hills and streets.",
       "The people's identities and appearance.",
       "The means of the smiting.",
-      "The appearance of the hills and streets.",
-      "The Lord's appearance, which the verse does not describe."
+      "The Lord's appearance."
     ],
     "spoken_dialogue": [],
     "narration": [
@@ -857,12 +860,12 @@
       }
     ],
     "doctrinal_or_story_notes": [
-      "The verse reports these events; do not restage them as a new present-tense event.",
-      "Treat the stretched-out hand as language of judgment, not a basis for inventing a visible divine hand."
+      "The verse reports events; any visual treatment is retrospective, not a new present-tense event.",
+      "The stretched-out hand does not establish a visible appearance for the Lord."
     ],
     "prohibited_inventions": [
-      "Do not show wounds, blood, severed body parts, or other graphic details of the torn carcasses; convey that fact through the quoted narration.",
-      "Do not invent a visible appearance for the Lord.",
+      "Do not depict carcasses, wounds, blood, severed body parts, or other graphic injury; convey the torn carcasses only through the quoted narration.",
+      "Do not depict a visible divine hand or invent the Lord's appearance.",
       "Do not invent the people's identities or the means of the smiting."
     ],
     "importance": "normal"

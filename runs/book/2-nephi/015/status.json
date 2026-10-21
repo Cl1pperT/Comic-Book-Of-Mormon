@@ -4,21 +4,17 @@
   "verses": 30,
   "scenes": 16,
   "counts": {
-    "PASS": 13,
+    "PASS": 14,
     "PASS WITH WARNINGS": 2,
-    "REJECT": 1
+    "REJECT": 0
   },
-  "rejected": {
-    "scene_003": [
-      "The doctrinal note says the supplied verses do not identify the vineyard’s symbolic referent, but 2 Nephi 15:7 explicitly identifies the vineyard as the house of Israel and the men of Judah as its pleasant plant."
-    ]
-  },
-  "calls": 115,
+  "rejected": {},
+  "calls": 118,
   "tokens": {
-    "input_tokens": 526415,
-    "cached_input_tokens": 210816,
+    "input_tokens": 545861,
+    "cached_input_tokens": 215040,
     "cache_write_input_tokens": 0,
-    "output_tokens": 63858,
-    "reasoning_output_tokens": 26216
+    "output_tokens": 66428,
+    "reasoning_output_tokens": 27220
   }
 }
