@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Activity log · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Activity log</h1>
+<p class="sub">The most recent 200 editor and admin actions.</p>
+<div class="scroll"><table>
+  <tr><th>When</th><th>Who</th><th>Action</th><th>What</th><th>Detail</th></tr>
+  {% for r in rows %}
+  <tr><td>{{ r.at|when }}</td><td>{{ r.actor.display_name if r.actor else 'system' }}</td><td>{{ r.action }}</td>
+      <td>{{ r.entity }} {{ r.entity_id }}</td><td>{{ r.detail }}</td></tr>
+  {% else %}<tr><td colspan="5" class="hint">Nothing yet.</td></tr>
+  {% endfor %}
+</table></div>
+{% endblock %}

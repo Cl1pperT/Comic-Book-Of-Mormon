@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block main_class %}narrow{% endblock %}
+{% block content %}
+<div class="card">
+  <h1>Thank you</h1>
+  <p>This book is better because these people took the time to read every page carefully.</p>
+  {% if names %}
+  <ul>{% for name in names %}<li>{{ name }}</li>{% endfor %}</ul>
+  {% else %}<p class="hint">The first names will appear here once reviews come in.</p>{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Chapters · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Chapters</h1>
+<p class="sub">Only <strong>open</strong> chapters are handed to reviewers. New chapters arrive closed, so you decide when the book goes live.</p>
+
+<div class="row" style="margin-bottom:14px">
+  <form method="post" action="/admin/chapters/status" class="inline" onsubmit="return confirm('Open every chapter for review?')">
+    <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="status" value="open"><input type="hidden" name="scope" value="all">
+    <button class="btn primary" type="submit">Open all for review</button></form>
+  <form method="post" action="/admin/chapters/status" class="inline" onsubmit="return confirm('Close every chapter? Reviewers keep what they hold but nothing new is assigned.')">
+    <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="status" value="closed"><input type="hidden" name="scope" value="all">
+    <button class="btn" type="submit">Close all</button></form>
+</div>
+
+<form method="post" action="/admin/chapters/status">
+  <input type="hidden" name="csrf" value="{{ csrf }}">
+  <div class="scroll"><table>
+    <tr><th></th><th>Chapter</th><th>Status</th><th>Live version</th><th>Reviews</th><th>In progress</th><th>Open issues</th><th>Waiting</th></tr>
+    {% for r in rows %}
+    <tr>
+      <td><input type="checkbox" name="slugs" value="{{ r.chapter.slug }}" aria-label="Select {{ r.chapter.title }}"></td>
+      <td><a href="/admin/chapter?slug={{ r.chapter.slug }}">{{ r.chapter.title }}</a></td>
+      <td><span class="pill {{ 'ok' if r.chapter.status == 'open' }}">{{ r.chapter.status }}</span></td>
+      <td>{{ 'v' ~ r.version.number if r.version else '—' }}{% if r.version and r.version.review_scope == 'changed_pages' %} <span class="hint">(changed pages)</span>{% endif %}</td>
+      <td>{{ r.reviews }}</td><td>{{ r.holds }}</td><td>{{ r.open_issues }}</td>
+      <td>{% if r.pending %}<a class="pill warn" href="/admin/chapter?slug={{ r.chapter.slug }}">new version</a>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table></div>
+  <div class="row" style="margin-top:12px">
+    <span class="hint">With the ticked chapters:</span>
+    <button class="btn" type="submit" name="status" value="open">Open</button>
+    <button class="btn" type="submit" name="status" value="closed">Close</button>
+    <button class="btn" type="submit" name="status" value="retired">Retire</button>
+  </div>
+</form>
+{% endblock %}

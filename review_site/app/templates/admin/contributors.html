@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Reviewers · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Reviewer contributions</h1>
+<p class="sub">Based on submitted reviews. “Accepted” counts issues you accepted, fixed or verified.</p>
+<div class="scroll"><table>
+  <tr><th>Reviewer</th><th>Role</th><th>Chapters</th><th>Pages</th><th>Time</th><th>Issues</th><th>Accepted</th><th>Rejected</th><th>Acceptance</th></tr>
+  {% for r in rows %}
+  <tr>
+    <td><a href="/admin/issues?reviewer={{ r.user.id }}">{{ r.user.display_name }}</a>{% if not r.user.is_active %} <span class="pill">inactive</span>{% endif %}</td>
+    <td>{{ r.user.role }}</td><td>{{ r.reviews }}</td><td>{{ r.pages }}</td><td>{{ r.minutes }} min</td><td>{{ r.issues }}</td>
+    <td>{{ r.accepted }}</td><td>{{ r.rejected }}</td>
+    <td>{% set judged = r.accepted + r.rejected %}{{ ((100 * r.accepted / judged)|round|int ~ '%') if judged else '—' }}</td>
+  </tr>
+  {% endfor %}
+</table></div>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Users · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Users &amp; invites</h1>
+
+{% if reset_link %}
+<div class="flash ok"><strong>Password reset link for {{ reset_link[0] }}</strong> (valid for 48 hours, works once). Send it to them privately:
+  <p class="mono" style="word-break:break-all; margin:6px 0 0">{{ base }}{{ reset_link[1] }}</p></div>
+{% endif %}
+
+<div class="card">
+  <h2 style="margin-top:0">Invite someone</h2>
+  <form method="post" action="/admin/users/invite" class="filters" style="margin:0">
+    <input type="hidden" name="csrf" value="{{ csrf }}">
+    <div><label for="role">Role</label><select id="role" name="role">
+      <option value="reviewer">Reviewer</option><option value="editor">Editor</option><option value="admin">Admin</option></select></div>
+    <div><label for="max_uses">How many people can use it</label><input id="max_uses" type="number" name="max_uses" value="1" min="1" max="100"></div>
+    <div><label for="note">Note (just for you)</label><input id="note" type="text" name="note" maxlength="200" placeholder="e.g. Mom"></div>
+    <div><button class="btn primary" type="submit">Create invite</button></div>
+  </form>
+  <p class="hint">Invites last 14 days. Send the person their link; they choose their own password.</p>
+</div>
+
+<h2>Invites</h2>
+<div class="scroll"><table>
+  <tr><th>Link</th><th>Role</th><th>Used</th><th>Expires</th><th>Note</th><th></th></tr>
+  {% for i in invites %}
+  <tr><td class="mono" style="word-break:break-all">{{ base }}/join?code={{ i.code }}</td><td>{{ i.role }}</td><td>{{ i.uses }} / {{ i.max_uses }}</td>
+      <td>{{ i.expires_at|when if i.expires_at else 'never' }}</td><td>{{ i.note }}</td>
+      <td>{% if i.revoked %}<span class="pill">revoked</span>{% elif i.uses >= i.max_uses %}<span class="pill">used</span>{% else %}
+        <form method="post" action="/admin/users/invite/{{ i.id }}/revoke" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}"><button class="btn small">Revoke</button></form>{% endif %}</td></tr>
+  {% else %}<tr><td colspan="6" class="hint">No invites yet.</td></tr>
+  {% endfor %}
+</table></div>
+
+<h2>People</h2>
+<div class="scroll"><table>
+  <tr><th>Name</th><th>Email</th><th>Role</th><th>Joined</th><th>Last login</th><th></th></tr>
+  {% for u in users %}
+  <tr>
+    <td>{{ u.display_name }}{% if not u.is_active %} <span class="pill">inactive</span>{% endif %}</td><td>{{ u.email }}</td>
+    <td>
+      <form method="post" action="/admin/users/{{ u.id }}" class="row" style="flex-wrap:nowrap">
+        <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="action" value="role">
+        <select name="role" style="width:auto" {{ 'disabled' if u.id == user.id }}>
+          {% for r in c.ROLES %}<option value="{{ r }}" {{ 'selected' if u.role == r }}>{{ r }}</option>{% endfor %}</select>
+        {% if u.id != user.id %}<button class="btn small" type="submit">Set</button>{% endif %}
+      </form>
+    </td>
+    <td>{{ u.created_at|when }}</td><td>{{ u.last_login_at|when if u.last_login_at else '' }}</td>
+    <td class="row" style="flex-wrap:nowrap">
+      <form method="post" action="/admin/users/{{ u.id }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
+        <button class="btn small" name="action" value="reset">Reset link</button></form>
+      {% if u.id != user.id %}
+      <form method="post" action="/admin/users/{{ u.id }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
+        {% if u.is_active %}<button class="btn small danger" name="action" value="deactivate" onclick="return confirm('Deactivate {{ u.display_name }}? They will be logged out and their held chapter released.')">Deactivate</button>
+        {% else %}<button class="btn small" name="action" value="activate">Reactivate</button>{% endif %}</form>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+</table></div>
+{% endblock %}

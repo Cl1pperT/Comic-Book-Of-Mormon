@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Issues · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<div class="row" style="justify-content:space-between">
+  <h1 style="margin:0">Reported issues</h1>
+  <a class="btn" href="/admin/issues.csv?{{ query }}">Download CSV</a>
+</div>
+<p class="sub">{{ total }} issue{{ '' if total == 1 else 's' }} from submitted reviews. Half-finished reviews stay private until they are submitted.</p>
+
+<form method="get" class="filters">
+  <div><label for="f-status">Status</label>
+    <select id="f-status" name="status"><option value="">Any</option>
+      {% for key, label in c.ISSUE_STATUSES %}<option value="{{ key }}" {{ 'selected' if filters.status == key }}>{{ label }}</option>{% endfor %}</select></div>
+  <div><label for="f-cat">Category</label>
+    <select id="f-cat" name="category"><option value="">Any</option>
+      {% for key, label, _ in c.CATEGORIES %}<option value="{{ key }}" {{ 'selected' if filters.category == key }}>{{ label }}</option>{% endfor %}</select></div>
+  <div><label for="f-sev">Severity</label>
+    <select id="f-sev" name="severity"><option value="">Any</option>
+      {% for key, label, _ in c.SEVERITIES %}<option value="{{ key }}" {{ 'selected' if filters.severity == key }}>{{ label }}</option>{% endfor %}</select></div>
+  <div><label for="f-ch">Chapter</label>
+    <select id="f-ch" name="chapter"><option value="">Any</option>
+      {% for ch in chapters %}<option value="{{ ch.slug }}" {{ 'selected' if filters.chapter == ch.slug }}>{{ ch.title }}</option>{% endfor %}</select></div>
+  <div><label for="f-rev">Reviewer</label>
+    <select id="f-rev" name="reviewer"><option value="">Any</option>
+      {% for r in reviewers %}<option value="{{ r.id }}" {{ 'selected' if filters.reviewer == r.id|string }}>{{ r.display_name }}</option>{% endfor %}</select></div>
+  <div><label for="f-q">Search text</label><input id="f-q" type="search" name="q" value="{{ filters.q }}"></div>
+  <div><label class="check"><input type="checkbox" name="current_only" value="1" {{ 'checked' if filters.current_only }}> Current versions only</label></div>
+  <div><button class="btn primary" type="submit">Filter</button></div>
+</form>
+
+<form method="post" action="/admin/issues/bulk">
+  <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="return" value="{{ request.url.path }}?{{ query }}">
+  <div class="scroll"><table>
+    <tr><th></th><th>#</th><th>Chapter</th><th>Where</th><th>Type</th><th>Severity</th><th>What was reported</th><th>Reviewer</th><th>Status</th></tr>
+    {% for i in issues %}
+    <tr>
+      <td><input type="checkbox" name="ids" value="{{ i.id }}" aria-label="Select issue {{ i.id }}"></td>
+      <td><a href="/admin/issues/{{ i.id }}">{{ i.id }}</a></td>
+      <td>{{ i.review.version.chapter.title }}{% if i.review.version.state != 'current' %} <span class="pill" title="An earlier version">v{{ i.review.version.number }}</span>{% endif %}</td>
+      <td>{{ 'Cover' if i.page.number == 0 else 'Page ' ~ i.page.number }}{% if i.panel %} · {{ i.panel.key|replace('panel_', 'panel ') }}{% endif %}</td>
+      <td>{{ c.CATEGORY_LABELS[i.category] }}</td>
+      <td><span class="pill {{ i.severity }}">{{ c.SEVERITY_LABELS[i.severity] }}</span></td>
+      <td><a href="/admin/issues/{{ i.id }}" style="color:inherit;text-decoration:none">{{ i.description[:140] }}{{ '…' if i.description|length > 140 }}</a></td>
+      <td>{{ i.review.user.display_name }}</td>
+      <td><span class="pill {{ i.status }}">{{ c.ISSUE_STATUS_LABELS[i.status] }}</span></td>
+    </tr>
+    {% else %}
+    <tr><td colspan="9" class="hint">No issues match.</td></tr>
+    {% endfor %}
+  </table></div>
+  {% if issues %}
+  <div class="row" style="margin-top:12px">
+    <span class="hint">With the ticked issues:</span>
+    <select name="status" style="width:auto"><option value="">Choose a status…</option>
+      {% for key, label in c.ISSUE_STATUSES if key != 'duplicate' %}<option value="{{ key }}">Mark {{ label|lower }}</option>{% endfor %}</select>
+    <button class="btn" type="submit">Apply</button>
+  </div>
+  {% endif %}
+</form>
+
+{% if pages > 1 %}
+<div class="pager">
+  {% if page > 1 %}<a class="btn small" href="?{{ query }}&page={{ page - 1 }}">‹ Previous</a>{% endif %}
+  <span class="hint">Page {{ page }} of {{ pages }}</span>
+  {% if page < pages %}<a class="btn small" href="?{{ query }}&page={{ page + 1 }}">Next ›</a>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

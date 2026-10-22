@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Hello, {{ user.display_name }}</h1>
+<p class="sub">Each chapter takes about 10–15 minutes. Thank you for helping make this book accurate.</p>
+
+{% if active %}
+<div class="card">
+  <h2 style="margin-top:0">Your chapter: {{ active.version.chapter.title }}</h2>
+  <p>{{ progress.done }} of {{ progress.total }} pages checked.
+     <span class="hint">It is held for you until {{ active.expires_at|when }}, and the hold renews whenever you save.</span></p>
+  <div class="bar" style="margin-bottom:14px"><span style="width:{{ (100 * progress.done / progress.total) if progress.total else 0 }}%"></span></div>
+  <div class="row">
+    <a class="btn primary" href="/review/{{ active.id }}">{{ "Continue reviewing" if progress.done else "Start reviewing" }}</a>
+    <form method="post" action="/review/{{ active.id }}/skip" class="inline"
+          onsubmit="return confirm('Hand this chapter back? Anything you have marked on it will be discarded.')">
+      <input type="hidden" name="csrf" value="{{ csrf }}">
+      <button class="btn" type="submit" {% if skips_left <= 0 %}disabled title="No skips left today"{% endif %}>Skip this chapter</button>
+    </form>
+    <span class="hint">{{ skips_left }} skip{{ '' if skips_left == 1 else 's' }} left today</span>
+  </div>
+</div>
+{% else %}
+<div class="card">
+  <h2 style="margin-top:0">Ready for a chapter?</h2>
+  <p>We will pick one that needs eyes the most. You can review it at your own pace and come back later.</p>
+  <form method="post" action="/claim"><input type="hidden" name="csrf" value="{{ csrf }}">
+    <button class="btn primary" type="submit">Get a chapter to review</button></form>
+</div>
+{% endif %}
+
+<div class="grid2" style="margin-top:16px">
+  <div class="card">
+    <h3 style="margin-top:0">Book progress</h3>
+    <div class="big">{{ book.percent_once }}%</div>
+    <p class="hint" style="margin:2px 0 10px">{{ book.reviewed_once }} of {{ book.open_chapters }} chapters have been reviewed at least once.</p>
+    <div class="bar"><span style="width:{{ book.percent_once }}%"></span></div>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">Your contribution</h3>
+    <div class="big">{{ mine.reviews }}</div>
+    <p class="hint" style="margin:2px 0 0">chapters reviewed · {{ mine.pages }} pages · {{ mine.issues }} issues reported</p>
+  </div>
+</div>
+{% endblock %}

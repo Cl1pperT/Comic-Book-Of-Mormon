@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Issue {{ issue.id }} · {{ settings.site_name }}{% endblock %}
+{% block content %}
+{% set version = issue.review.version %}
+<p><a href="/admin/issues">‹ All issues</a></p>
+<h1>Issue {{ issue.id }} <span class="pill {{ issue.status }}">{{ c.ISSUE_STATUS_LABELS[issue.status] }}</span></h1>
+<p class="sub">{{ version.chapter.title }} (version {{ version.number }}{{ '' if version.state == 'current' else ', now superseded' }}) ·
+  {{ 'Cover' if issue.page.number == 0 else 'Page ' ~ issue.page.number }}{% if issue.panel %} · {{ issue.panel.key }} · {{ issue.panel.refs_label }}{% endif %}</p>
+
+<div class="split">
+  <div>
+    <div class="pagepin">
+      <img src="/media/pages/{{ issue.page.image_hash }}.webp" alt="Page {{ issue.page.number }}" width="{{ issue.page.width }}" height="{{ issue.page.height }}">
+      {% if issue.panel %}<div class="rect" style="left:{{ issue.panel.x * 100 }}%;top:{{ issue.panel.y * 100 }}%;width:{{ issue.panel.w * 100 }}%;height:{{ issue.panel.h * 100 }}%"></div>{% endif %}
+      {% if issue.x is not none %}<div class="pin" style="left:{{ issue.x * 100 }}%;top:{{ issue.y * 100 }}%">!</div>{% endif %}
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <p style="margin-top:0"><span class="pill {{ issue.severity }}">{{ c.SEVERITY_LABELS[issue.severity] }}</span>
+        <strong>{{ c.CATEGORY_LABELS[issue.category] }}</strong></p>
+      <p>{{ issue.description|paragraphs }}</p>
+      {% if issue.suggestion %}<h3>Suggested correction</h3><p>{{ issue.suggestion|paragraphs }}</p>{% endif %}
+      {% if issue.verse_ref %}<h3>Verse</h3><p>{{ issue.verse_ref }}</p>{% endif %}
+      {% if issue.panel %}
+        {% set shown = issue.panel.refs %}
+        {% if shown %}<h3>Scripture for this panel</h3>
+        {% for ref in shown %}{% if verses.get(ref) %}<div class="quote"><b>{{ ref }}</b> {{ verses[ref] }}</div>{% endif %}{% endfor %}{% endif %}
+      {% endif %}
+      <p class="hint">Reported by {{ issue.review.user.display_name }} on {{ issue.created_at|when }}.
+        {% if issue.exported_at %}Sent to your PC {{ issue.exported_at|when }}.{% endif %}</p>
+    </div>
+
+    <form method="post" class="card">
+      <input type="hidden" name="csrf" value="{{ csrf }}">
+      <h3 style="margin-top:0">Decide</h3>
+      <label for="status">Status</label>
+      <select id="status" name="status">
+        {% for key, label in c.ISSUE_STATUSES %}<option value="{{ key }}" {{ 'selected' if issue.status == key }}>{{ label }}</option>{% endfor %}
+      </select>
+      <label for="duplicate_of">If a duplicate: the issue number it duplicates</label>
+      <input id="duplicate_of" type="number" name="duplicate_of" value="{{ issue.duplicate_of_id or '' }}" min="1">
+      <label for="note">Note (optional)</label>
+      <textarea id="note" name="note">{{ issue.resolution_note }}</textarea>
+      <p><button class="btn primary" type="submit">Save</button></p>
+      <p class="hint">Accepted issues are sent to your PC the next time you run the pull tool. Mark an issue <em>Fixed</em> once the art has been redrawn, and <em>Verified</em> after someone has checked the new version.</p>
+    </form>
+
+    {% if similar %}
+    <h3>Other reports on this page</h3>
+    <div class="scroll"><table>
+      <tr><th>#</th><th>Type</th><th>Report</th><th>Status</th></tr>
+      {% for s in similar %}
+      <tr><td><a href="/admin/issues/{{ s.id }}">{{ s.id }}</a></td><td>{{ c.CATEGORY_LABELS[s.category] }}</td>
+          <td>{{ s.description[:100] }}</td><td><span class="pill {{ s.status }}">{{ c.ISSUE_STATUS_LABELS[s.status] }}</span></td></tr>
+      {% endfor %}
+    </table></div>
+    {% endif %}
+
+    {% if issue.events %}
+    <h3>History</h3>
+    <ul class="hint">{% for e in issue.events %}<li>{{ e.at|when }} · {{ e.actor.display_name if e.actor else 'system' }}: {{ e.from_status }} → {{ e.to_status }}{{ ' · ' ~ e.note if e.note }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

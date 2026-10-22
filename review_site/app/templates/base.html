@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ settings.site_name }}{% endblock %}</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="/">{{ settings.site_name }}</a>
+  {% if user %}
+  <nav>
+    <a href="/">Home</a>
+    <a href="/me">My reviews</a>
+    <a href="/thanks">Thank you</a>
+    {% if c.ROLE_RANK[user.role] >= 1 %}
+    <a href="/admin">Admin</a>
+    {% endif %}
+    <form method="post" action="/logout" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
+      <button class="btn small" type="submit">Log out</button></form>
+  </nav>
+  {% endif %}
+</div></header>
+{% if user and c.ROLE_RANK[user.role] >= 1 and request.url.path.startswith('/admin') %}
+<header class="top"><div class="bar"><nav style="margin-right:auto">
+  <a href="/admin" {% if request.url.path == '/admin' %}class="on"{% endif %}>Coverage</a>
+  <a href="/admin/issues" {% if request.url.path.startswith('/admin/issues') %}class="on"{% endif %}>Issues</a>
+  <a href="/admin/chapters" {% if request.url.path.startswith('/admin/chapter') %}class="on"{% endif %}>Chapters</a>
+  <a href="/admin/reviews" {% if request.url.path.startswith('/admin/reviews') %}class="on"{% endif %}>Review history</a>
+  <a href="/admin/contributors" {% if request.url.path.startswith('/admin/contributors') %}class="on"{% endif %}>Reviewers</a>
+  {% if user.role == 'admin' %}
+  <a href="/admin/users" {% if request.url.path.startswith('/admin/users') %}class="on"{% endif %}>Users &amp; invites</a>
+  <a href="/admin/audit" {% if request.url.path.startswith('/admin/audit') %}class="on"{% endif %}>Activity log</a>
+  {% endif %}
+</nav></div></header>
+{% endif %}
+<main class="wrap {% block main_class %}{% endblock %}">
+  {% if flash %}<div class="flash {{ flash[0] }}" role="status">{{ flash[1] }}</div>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+</body>
+</html>

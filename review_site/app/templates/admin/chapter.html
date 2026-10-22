@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}{{ chapter.title }} · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<p><a href="/admin/chapters">‹ All chapters</a></p>
+<h1>{{ chapter.title }} <span class="pill {{ 'ok' if chapter.status == 'open' }}">{{ chapter.status }}</span></h1>
+<p class="sub">Folder: <code>{{ chapter.slug }}</code></p>
+
+<form method="post" action="/admin/chapters/status" class="row">
+  <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="slugs" value="{{ chapter.slug }}">
+  <input type="hidden" name="return" value="/admin/chapter?slug={{ chapter.slug }}">
+  <button class="btn" type="submit" name="status" value="open">Open for review</button>
+  <button class="btn" type="submit" name="status" value="closed">Close</button>
+</form>
+
+{% if chapter.pending %}
+{% set p = chapter.pending %}
+<div class="card" style="margin-top:18px; border-color: var(--warn)">
+  <h2 style="margin-top:0">A new version is waiting (v{{ p.number }})</h2>
+  {% if changed %}
+  <p>{{ changed|length }} of {{ p.pages|length }} pages have different artwork:
+     <strong>{% for n in changed %}{{ 'cover' if n == 0 else n }}{{ ', ' if not loop.last }}{% endfor %}</strong>.</p>
+  {% else %}<p>No page images changed, but the verse text did.</p>{% endif %}
+  <p class="hint">Making it live starts a fresh count of reviews for this chapter. Earlier reviews and their issues are kept as history.</p>
+  <form method="post" action="/admin/chapter/version">
+    <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="slug" value="{{ chapter.slug }}">
+    <label class="check"><input type="radio" name="scope" value="full" checked> <span><strong>Full re-review</strong>: reviewers check every page.</span></label>
+    <label class="check"><input type="radio" name="scope" value="changed_pages" {{ 'disabled' if not changed }}> <span><strong>Changed pages only</strong>: reviewers see every page but only need to check the {{ changed|length }} that changed.</span></label>
+    <label for="note">Note (optional)</label><input id="note" type="text" name="note" maxlength="300" placeholder="e.g. Redrew the angel on page 3">
+    <div class="row" style="margin-top:12px">
+      <button class="btn primary" type="submit" name="action" value="live">Make it live</button>
+      <button class="btn danger" type="submit" name="action" value="discard" onclick="return confirm('Discard the waiting version?')">Discard it</button>
+    </div>
+  </form>
+</div>
+{% endif %}
+
+<h2>Versions</h2>
+<div class="scroll"><table>
+  <tr><th>Version</th><th>State</th><th>Pages</th><th>Review scope</th><th>Completed reviews</th><th>Created</th><th>Note</th></tr>
+  {% for v in chapter.versions|reverse %}
+  <tr><td>v{{ v.number }}</td><td><span class="pill {{ 'ok' if v.state == 'current' }}">{{ v.state }}</span></td><td>{{ v.pages|length }}</td>
+      <td>{{ 'Changed pages only' if v.review_scope == 'changed_pages' else 'Full' }}</td><td>{{ counts.get(v.id, 0) }}</td>
+      <td>{{ v.created_at|when }}</td><td>{{ v.note }}</td></tr>
+  {% endfor %}
+</table></div>
+
+<h2>Reviews of this chapter</h2>
+<div class="scroll"><table>
+  <tr><th>Reviewer</th><th>Version</th><th>State</th><th>Started</th><th>Submitted</th><th>Issues</th><th>Counts?</th></tr>
+  {% for r in reviews %}
+  <tr><td>{{ r.user.display_name }}</td><td>v{{ r.version.number }}</td><td>{{ r.state }}</td><td>{{ r.claimed_at|when }}</td>
+      <td>{{ r.submitted_at|when if r.submitted_at else '' }}</td><td>{{ r.issues|length if r.state == 'submitted' else '' }}</td>
+      <td>{{ 'excluded' if r.excluded else ('yes' if r.state == 'submitted' and r.version.state == 'current' else '') }}</td></tr>
+  {% else %}<tr><td colspan="7" class="hint">No reviews yet.</td></tr>
+  {% endfor %}
+</table></div>
+{% endblock %}

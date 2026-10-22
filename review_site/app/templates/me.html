@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>My reviews</h1>
+<div class="grid2">
+  <div class="card"><div class="big">{{ mine.reviews }}</div><div class="hint">chapters reviewed</div></div>
+  <div class="card"><div class="big">{{ mine.pages }}</div><div class="hint">pages checked</div></div>
+  <div class="card"><div class="big">{{ mine.issues }}</div><div class="hint">issues reported</div></div>
+  <div class="card"><div class="big">{{ mine.accepted }}</div><div class="hint">issues the editor accepted</div></div>
+</div>
+<h2>Chapters you have reviewed</h2>
+{% if history %}
+<div class="scroll"><table>
+  <tr><th>Chapter</th><th>Submitted</th><th>Issues</th><th></th></tr>
+  {% for r in history %}
+  <tr><td>{{ r.version.chapter.title }}</td><td>{{ r.submitted_at|when }}</td><td>{{ r.issues|length }}</td>
+      <td><a href="/review/{{ r.id }}">View</a></td></tr>
+  {% endfor %}
+</table></div>
+{% else %}<p class="hint">Nothing yet. Your first review will appear here.</p>{% endif %}
+<h2>Thank-you page</h2>
+<form method="post" action="/me/credit" class="row">
+  <input type="hidden" name="csrf" value="{{ csrf }}">
+  <span>{{ "Your name is shown on the thank-you page." if user.credit_ok else "Your name is not shown on the thank-you page." }}</span>
+  <button class="btn small" type="submit">{{ "Hide my name" if user.credit_ok else "Show my name" }}</button>
+</form>
+{% endblock %}

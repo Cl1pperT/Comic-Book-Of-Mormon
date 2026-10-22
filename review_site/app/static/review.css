@@ -1,0 +1,63 @@
+/* The review screen: the same reading layout as the draft reader (pages stacked, panels outlined on hover, a sticky
+   side panel), plus pins. Palette and dark mode come from app.css. */
+body.reviewing { font-size: 15px; line-height: 1.45; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 380px; min-height: 100vh; }
+main#pages { padding: 24px 16px 64px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+.page-wrap { width: 100%; max-width: 860px; }
+.page-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.page { position: relative; width: 100%; box-shadow: var(--shadow); background: #efe9dc; cursor: crosshair; user-select: none; }
+.page img { display: block; width: 100%; height: auto; }
+.page.optional img { opacity: .55; }
+.panel { position: absolute; background: transparent; outline: 3px solid transparent; outline-offset: -3px; transition: outline-color .1s, background .1s; }
+.page:hover .panel:hover { background: var(--hover); outline-color: var(--accent); }
+.panel.flagged { outline-color: var(--flag); }
+.pins { position: absolute; inset: 0; pointer-events: none; }
+.pin { position: absolute; width: 28px; height: 28px; margin: -14px 0 0 -14px; border-radius: 50%; background: var(--flag); color: #fff;
+  font: 700 13px/24px system-ui; text-align: center; border: 2px solid #fff; box-shadow: var(--shadow); cursor: pointer; pointer-events: auto; padding: 0; }
+.pin.selected { background: var(--accent); transform: scale(1.2); }
+.pin.draft { background: transparent; color: var(--accent); border: 2px dashed var(--accent); box-shadow: none; pointer-events: none; }
+.page-foot { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 8px 2px 0; min-height: 44px; }
+.page-foot .note { color: var(--muted); font-size: 13px; }
+button.step, button.tick { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+button.step:hover:not(:disabled), button.tick:hover:not(:disabled) { border-color: var(--accent); }
+button.tick.on { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+button.tick.issues { background: var(--flag-soft); border-color: var(--flag); color: var(--flag); cursor: default; }
+button:disabled { opacity: .5; cursor: default; }
+aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface); border-left: 1px solid var(--line);
+  padding: 18px 20px; display: flex; flex-direction: column; gap: 16px; }
+aside h1 { font-size: 20px; margin: 4px 0 2px; }
+aside h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+aside .back { font-size: 13px; text-decoration: none; }
+aside .card { box-shadow: none; background: var(--bg); padding: 14px; }
+aside .card + .card { margin-top: 0; }
+aside .notice { border-color: var(--accent); }
+aside label { margin: 12px 0 4px; font-size: 14px; }
+aside textarea { min-height: 80px; }
+.meta { font-weight: 600; }
+.meta span { font-weight: 400; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips input { position: absolute; opacity: 0; pointer-events: none; }
+.chips label { margin: 0; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px;
+  font-weight: 600; font-size: 13px; cursor: pointer; }
+.chips input:checked + label { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chips input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: 2px; }
+.help { color: var(--muted); font-size: 13px; margin: 4px 0 0; }
+.verses { margin-top: 10px; font-size: 14px; }
+.verses summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+.verses p { margin: 6px 0; }
+.verses b { color: var(--muted); font-size: 12px; margin-right: 4px; }
+.status { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.status.error { color: var(--flag); }
+.issues { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.issues button { width: 100%; text-align: left; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-left: 4px solid var(--flag); border-radius: 8px; padding: 8px 10px; cursor: pointer; }
+.issues button:hover, .issues button.selected { border-color: var(--accent); border-left-color: var(--flag); }
+.issues .note { display: block; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.keys { font-size: 12px; color: var(--muted); margin-top: 8px; }
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  main#pages { padding-bottom: 55vh; }
+  aside { position: fixed; top: auto; bottom: 0; left: 0; right: 0; height: auto; max-height: 50vh; border-left: 0;
+    border-top: 1px solid var(--line); box-shadow: var(--shadow); padding: 12px 16px; gap: 12px; z-index: 5; }
+}

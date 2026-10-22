@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Review history · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Review history</h1>
+<p class="sub">Every claim, submission and skip. Exclude a review (for example one done too quickly) and it stops counting toward coverage, but its issues are kept.</p>
+<form method="get" class="row" style="margin-bottom:14px">
+  <label for="state" style="margin:0">Show</label>
+  <select id="state" name="state" style="width:auto" onchange="this.form.submit()">
+    <option value="">All</option>
+    {% for s in c.REVIEW_STATES %}<option value="{{ s }}" {{ 'selected' if state == s }}>{{ s }}</option>{% endfor %}
+  </select>
+</form>
+<div class="scroll"><table>
+  <tr><th>Reviewer</th><th>Chapter</th><th>State</th><th>Started</th><th>Submitted</th><th>Time</th><th>Issues</th><th>Notes</th><th></th></tr>
+  {% for r in rows %}
+  {% set pages = page_counts.get(r.version_id, 1) %}
+  {% set quick = r.state == 'submitted' and r.active_seconds < fast * pages %}
+  <tr>
+    <td>{{ r.user.display_name }}</td>
+    <td><a href="/admin/chapter?slug={{ r.version.chapter.slug }}">{{ r.version.chapter.title }}</a> <span class="hint">v{{ r.version.number }}</span></td>
+    <td>{{ r.state }}</td><td>{{ r.claimed_at|when }}</td><td>{{ r.submitted_at|when if r.submitted_at else '' }}</td>
+    <td>{{ (r.active_seconds / 60)|round|int }} min {% if quick %}<span class="pill warn" title="Under {{ fast }} seconds per page">fast</span>{% endif %}</td>
+    <td>{{ r.issues|length if r.state == 'submitted' else '' }}</td>
+    <td>{% if r.excluded %}<span class="pill">excluded</span> {{ r.excluded_reason }}{% endif %}</td>
+    <td>
+      {% if r.state == 'submitted' %}
+      <form method="post" action="/admin/reviews/{{ r.id }}" class="row" style="flex-wrap:nowrap">
+        <input type="hidden" name="csrf" value="{{ csrf }}">
+        {% if r.excluded %}<button class="btn small" name="action" value="include">Count it</button>
+        {% else %}<input type="text" name="reason" placeholder="Reason" style="width:120px"><button class="btn small" name="action" value="exclude">Exclude</button>{% endif %}
+      </form>
+      {% elif r.state == 'active' %}
+      <form method="post" action="/admin/reviews/{{ r.id }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
+        <button class="btn small" name="action" value="release" onclick="return confirm('Release this hold?')">Release hold</button></form>
+      {% endif %}
+    </td>
+  </tr>
+  {% else %}<tr><td colspan="9" class="hint">Nothing here yet.</td></tr>
+  {% endfor %}
+</table></div>
+{% endblock %}

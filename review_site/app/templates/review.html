@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf" content="{{ csrf }}">
+<title>Review {{ title }} · {{ settings.site_name }}</title>
+<link rel="stylesheet" href="/static/app.css">
+<link rel="stylesheet" href="/static/review.css">
+</head>
+<body class="reviewing">
+<div class="layout">
+  <main id="pages" aria-label="Chapter pages"><p class="hint">Loading the pages…</p></main>
+  <aside>
+    <div>
+      <a class="back" href="/">‹ Home</a>
+      <h1>{{ title }}</h1>
+      <div class="sub" id="summary"></div>
+      <div class="bar"><span id="progress-bar" style="width:0"></span></div>
+      <div class="row" style="margin-top:10px">
+        <button class="step" type="button" id="next-todo">Next page to check ↓</button>
+      </div>
+    </div>
+    {% if readonly %}
+    <section class="card notice">
+      {% if review.state == 'submitted' %}You submitted this review on {{ review.submitted_at|when }}. It is shown here for reference and can no longer be changed.{% else %}This review can no longer be changed.{% endif %}
+    </section>
+    {% endif %}
+    <section class="card" id="editor" aria-live="polite"></section>
+    <section>
+      <h2 id="issues-heading">Your issues</h2>
+      <div id="issue-list"></div>
+    </section>
+    {% if not readonly %}
+    <section class="card" id="submit-card">
+      <p class="hint" id="submit-hint" style="margin-top:0"></p>
+      <button class="btn primary" type="button" id="submit" disabled>Submit review</button>
+      <div class="status" id="submit-status" role="alert"></div>
+    </section>
+    {% endif %}
+  </aside>
+</div>
+<script id="review-data" type="application/json">{{ payload|tojson }}</script>
+<script src="/static/review.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Oops · {{ settings.site_name }}{% endblock %}
+{% block main_class %}narrow{% endblock %}
+{% block content %}
+<div class="card">
+  <h1>{{ "Page not found" if code == 404 else "Not allowed" if code == 403 else "Something went wrong" }}</h1>
+  <p>{{ message }}</p>
+  <p><a class="btn" href="/">Back home</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Coverage · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Review coverage</h1>
+<p class="sub">Each square is a chapter, coloured by how many people have completed a review of its current version.</p>
+
+<div class="grid2">
+  <div class="card">
+    <div class="big">{{ book.percent_once }}%</div>
+    <div class="hint">{{ book.reviewed_once }} of {{ book.open_chapters }} open chapters reviewed at least once</div>
+    <div class="bar" style="margin-top:10px"><span style="width:{{ book.percent_once }}%"></span></div>
+  </div>
+  <div class="card">
+    <div class="hint">Open chapters by number of reviews</div>
+    <div class="row" style="margin-top:6px; gap:18px">
+      {% for level, label in [(0, '0'), (1, '1'), (2, '2'), (3, '3+')] %}
+      <div><div class="big">{{ book.levels[level] }}</div><div class="hint">{{ label }}</div></div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="card">
+    <div class="hint">Issues from submitted reviews</div>
+    <div class="row" style="margin-top:6px; gap:14px">
+      {% for key, label in c.ISSUE_STATUSES %}
+      <a href="/admin/issues?status={{ key }}" style="text-decoration:none;color:inherit"><div class="big" style="font-size:24px">{{ totals.get(key, 0) }}</div><div class="hint">{{ label }}</div></a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% if pending %}
+<div class="flash" style="margin-top:16px"><strong>{{ pending|length }} chapter{{ '' if pending|length == 1 else 's' }} have changed pages waiting for you:</strong>
+  {% for r in pending %}<a href="/admin/chapter?slug={{ r.chapter.slug }}">{{ r.chapter.title }}</a>{{ ", " if not loop.last }}{% endfor %}</div>
+{% endif %}
+
+{% for book_name, rows in groups.items() %}
+<h2>{{ book_name }}</h2>
+<div class="cells">
+  {% for r in rows %}
+  <a class="cell l{{ [r.reviews, 3]|min }}{{ ' closed' if r.chapter.status != 'open' }}{{ ' pending' if r.pending }}"
+     href="/admin/chapter?slug={{ r.chapter.slug }}"
+     title="{{ r.chapter.title }} · {{ r.reviews }} review{{ '' if r.reviews == 1 else 's' }} · {{ r.holds }} in progress · {{ r.open_issues }} open issues · {{ r.chapter.status }}{{ ' · new version waiting' if r.pending }}">{{ r.chapter.number }}</a>
+  {% endfor %}
+</div>
+{% endfor %}
+<div class="legend">
+  <span><i style="background:var(--lvl0)"></i>0 reviews</span><span><i style="background:var(--lvl1)"></i>1</span>
+  <span><i style="background:var(--lvl2)"></i>2</span><span><i style="background:var(--lvl3)"></i>3 or more</span>
+  <span><i style="border-style:dashed;opacity:.5"></i>closed (not assigned)</span>
+  <span><i style="background:var(--warn);border-radius:50%"></i>changed pages waiting</span>
+</div>
+{% endblock %}
