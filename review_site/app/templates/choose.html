@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Choose a chapter · {{ settings.site_name }}{% endblock %}
+{% block content %}
+<h1>Choose a chapter</h1>
+<p class="sub">You have been set up to pick your own chapter. Chapters with the fewest reviews help the most, but any open chapter is fine.
+  You can have one chapter at a time, and you can't review the same version of a chapter twice.</p>
+
+{% if active %}
+<div class="flash">You already have <strong>{{ active.version.chapter.title }}</strong> in progress.
+  <a href="/review/{{ active.id }}">Continue it</a>, or skip it from the home page, before choosing another.</div>
+{% endif %}
+
+{% for book_name, rows in groups.items() %}
+<details class="book" {{ 'open' if groups|length == 1 }}>
+  <summary><strong>{{ book_name }}</strong>
+    <span class="hint">{{ rows|length }} chapters · {{ rows|selectattr('reviews', 'equalto', 0)|list|length }} with no reviews yet</span></summary>
+  <div class="scroll"><table>
+    <tr><th>Chapter</th><th>Reviews</th><th>In progress</th><th></th></tr>
+    {% for r in rows %}
+    <tr>
+      <td>{{ r.chapter.title }}{% if r.standing == 'earlier' %} <span class="pill" title="You reviewed an earlier version, which has since changed">updated</span>{% endif %}</td>
+      <td>{{ r.reviews }}</td><td>{{ r.held or '' }}</td>
+      <td>
+        {% if r.standing == 'holding' %}<a class="btn small" href="/review/{{ active.id if active else '' }}">Continue</a>
+        {% elif r.standing == 'done' %}<span class="pill ok">You reviewed it</span>
+        {% else %}
+        <form method="post" action="/choose/{{ r.chapter.id }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
+          <button class="btn small primary" type="submit" {{ 'disabled' if active }}>Review this</button></form>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </table></div>
+</details>
+{% else %}
+<p class="hint">No chapters are open for review right now.</p>
+{% endfor %}
+{% endblock %}

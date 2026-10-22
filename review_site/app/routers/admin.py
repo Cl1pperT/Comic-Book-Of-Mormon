@@ -220,9 +220,9 @@ def users_page(request: Request, db=Depends(get_db), user=Depends(require_admin)
 
 @router.post("/users/invite", dependencies=[Depends(csrf_protect)])
 def make_invite(request: Request, role: str = Form("reviewer"), max_uses: int = Form(1), note: str = Form(""),
-                db=Depends(get_db), user=Depends(require_admin)):
+                can_choose: str = Form(""), db=Depends(get_db), user=Depends(require_admin)):
     try:
-        accounts.create_invite(db, user, role, max_uses, note=note)
+        accounts.create_invite(db, user, role, max_uses, note=note, can_choose=bool(can_choose))
         db.commit()
     except accounts.AccountError as exc:
         db.rollback()
@@ -257,6 +257,8 @@ def user_action(request: Request, user_id: int, action: str = Form(...), role: s
         target.is_active = True
     elif action == "role" and role in constants.ROLES:
         target.role = role
+    elif action in ("choose_on", "choose_off"):
+        target.can_choose = action == "choose_on"
     elif action == "reset":
         token = accounts.start_reset(db, user, target)
         request.session["reset_link"] = [target.display_name, f"/reset/{token}"]

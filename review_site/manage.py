@@ -46,10 +46,12 @@ def main(argv=None):
     user.add_argument("--email", required=True)
     user.add_argument("--name", required=True)
     user.add_argument("--role", choices=("reviewer", "editor", "admin"), default="reviewer")
+    user.add_argument("--can-choose", action="store_true", help="let them pick any chapter")
     invite = sub.add_parser("create-invite", help="print a new invite code")
     invite.add_argument("--uses", type=int, default=1)
     invite.add_argument("--role", choices=("reviewer", "editor", "admin"), default="reviewer")
     invite.add_argument("--note", default="")
+    invite.add_argument("--can-choose", action="store_true", help="people who join start pre-approved to pick any chapter")
     sub.add_parser("stats", help="a few counts")
     args = parser.parse_args(argv)
 
@@ -61,13 +63,14 @@ def main(argv=None):
         if args.cmd == "create-user":
             password = os.environ.get("REVIEW_PASSWORD") or getpass.getpass("Password (10+ characters): ")
             try:
-                created = accounts.create_user(db, args.email, args.name, password, role=args.role)
+                created = accounts.create_user(db, args.email, args.name, password, role=args.role,
+                                             can_choose=args.can_choose)
             except accounts.AccountError as exc:
                 sys.exit(str(exc))
             db.commit()
             print(f"Created {created.role} {created.email}")
         elif args.cmd == "create-invite":
-            created = accounts.create_invite(db, None, args.role, args.uses, note=args.note)
+            created = accounts.create_invite(db, None, args.role, args.uses, note=args.note, can_choose=args.can_choose)
             db.commit()
             print(f"Invite code {created.code}  (link: /join?code={created.code})")
         elif args.cmd == "stats":

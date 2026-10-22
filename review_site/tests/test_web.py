@@ -233,3 +233,61 @@ def test_tool_api_publish_and_pull(app, make_user, login):
     assert client.get("/api/tool/issues", headers=auth).json() == {"issues": []}
     backup = client.get("/api/tool/backup", headers=auth)
     assert backup.status_code == 200 and backup.content.startswith(b"SQLite format 3")
+
+
+def test_choose_page_is_only_for_pre_approved_people(app, make_user, login):
+    seed(app, 2)
+    make_user("plain@example.com", "Plain")
+    with app.state.session_factory() as db:
+        accounts.create_user(db, "pick@example.com", "Picky", "correct-horse-battery", can_choose=True)
+        db.commit()
+    plain = login("plain@example.com")
+    assert plain.get("/choose").status_code == 403
+    assert "Choose a chapter myself" not in plain.get("/").text
+    with app.state.session_factory() as db:
+        chapter_id = db.query(Chapter).filter_by(slug="alma/002").one().id
+    assert plain.post(f"/choose/{chapter_id}").status_code == 403
+    picky = login("pick@example.com")
+    assert "Choose a chapter myself" in picky.get("/").text
+    page = picky.get("/choose")
+    assert page.status_code == 200 and "Alma 1" in page.text and "Alma 2" in page.text
+    response = picky.post(f"/choose/{chapter_id}")
+    assert response.status_code == 303 and response.headers["location"].startswith("/review/")
+    with app.state.session_factory() as db:
+        assert db.query(Review).one().version.chapter.slug == "alma/002"
+
+
+def test_admin_can_grant_and_revoke_choosing_and_invites_carry_it(app, make_user, login):
+    seed(app, 1)
+    make_user("admin@example.com", "Admin", role="admin")
+    rid = make_user("r@example.com", "Rita")
+    admin = login("admin@example.com")
+    admin.post(f"/admin/users/{rid}", data={"csrf": admin.csrf, "action": "choose_on"})
+    with app.state.session_factory() as db:
+        from review_site.app.models import User
+        assert db.get(User, rid).can_choose is True
+    admin.post(f"/admin/users/{rid}", data={"csrf": admin.csrf, "action": "choose_off"})
+    with app.state.session_factory() as db:
+        assert db.get(User, rid).can_choose is False
+    admin.post("/admin/users/invite", data={"csrf": admin.csrf, "role": "reviewer", "max_uses": "1", "can_choose": "1"})
+    with app.state.session_factory() as db:
+        from review_site.app.models import Invite
+        code = db.query(Invite).one().code
+    guest = TestClient(app, follow_redirects=False)
+    token = csrf_from(guest.get("/join"))
+    guest.post("/join", data={"csrf": token, "code": code, "email": "new@example.com", "display_name": "Newcomer",
+                              "password": "long-enough-pass"})
+    with app.state.session_factory() as db:
+        assert db.query(User).filter_by(email="new@example.com").one().can_choose is True
+
+
+def test_public_pages_have_link_preview_tags_and_the_image_is_public(app):
+    anonymous = TestClient(app, follow_redirects=True, base_url="https://reviews.example.com")
+    page = anonymous.get("/")        # logged-out visitors land on the login page, which iMessage etc. read
+    assert page.status_code == 200
+    assert '<meta property="og:image" content="https://reviews.example.com/static/share-preview.jpg">' in page.text
+    assert 'property="og:title"' in page.text and 'name="twitter:card" content="summary_large_image"' in page.text
+    image = anonymous.get("/static/share-preview.jpg")
+    assert image.status_code == 200 and image.headers["content-type"] == "image/jpeg"
+    assert anonymous.get("/static/apple-touch-icon.png").status_code == 200
+    assert 'property="og:image"' in anonymous.get("/join?code=ABC").text    # invite links preview too

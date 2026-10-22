@@ -105,6 +105,34 @@ def claim(request: Request, db=Depends(get_db), user=Depends(require_user)):
     return RedirectResponse(f"/review/{review.id}", status_code=303)
 
 
+@router.get("/choose")
+def choose_page(request: Request, db=Depends(get_db), user=Depends(require_user)):
+    if not user.can_choose:
+        raise HTTPException(403, "You haven't been set up to choose your own chapter. Use the Get a chapter button instead.")
+    settings = request.app.state.settings
+    assignment.expire_stale(db)
+    db.commit()
+    groups = {}
+    for row in assignment.pickable(db, user, settings):
+        groups.setdefault(row["chapter"].book, []).append(row)
+    return render(request, "choose.html", user=user, groups=groups, active=assignment.active_review(db, user))
+
+
+@router.post("/choose/{chapter_id}", dependencies=[Depends(csrf_protect)])
+def choose_chapter(request: Request, chapter_id: int, db=Depends(get_db), user=Depends(require_user)):
+    try:
+        review = assignment.claim_chapter(db, user, request.app.state.settings, chapter_id)
+        db.commit()
+    except assignment.NotAllowed as exc:
+        db.rollback()
+        raise HTTPException(403, str(exc)) from None
+    except assignment.NothingAvailable as exc:
+        db.rollback()
+        flash(request, str(exc), "error")
+        return RedirectResponse("/choose", status_code=303)
+    return RedirectResponse(f"/review/{review.id}", status_code=303)
+
+
 @router.post("/review/{review_id}/skip", dependencies=[Depends(csrf_protect)])
 def skip(request: Request, review_id: int, db=Depends(get_db), user=Depends(require_user)):
     review = load_review(db, user, review_id)

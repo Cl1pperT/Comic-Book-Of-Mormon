@@ -14,7 +14,7 @@ class AccountError(ValueError):
     """A problem with sign-up or login that can be shown to the person."""
 
 
-def create_user(db, email, display_name, password, role="reviewer", credit_ok=False):
+def create_user(db, email, display_name, password, role="reviewer", credit_ok=False, can_choose=False):
     email = normalize_email(email)
     name = (display_name or "").strip()
     if not name or len(name) > 80:
@@ -27,21 +27,23 @@ def create_user(db, email, display_name, password, role="reviewer", credit_ok=Fa
         raise AccountError("Unknown role")
     if db.scalar(select(User).where(User.email == email)):
         raise AccountError("That email is already registered. Try logging in.")
-    user = User(email=email, display_name=name, password_hash=hash_password(password), role=role, credit_ok=credit_ok)
+    user = User(email=email, display_name=name, password_hash=hash_password(password), role=role, credit_ok=credit_ok,
+                can_choose=can_choose)
     db.add(user)
     db.flush()
     return user
 
 
-def create_invite(db, actor, role="reviewer", max_uses=1, days=14, note=""):
+def create_invite(db, actor, role="reviewer", max_uses=1, days=14, note="", can_choose=False):
     if role not in ROLES:
         raise AccountError("Unknown role")
     invite = Invite(code=new_invite_code(), role=role, max_uses=max(1, int(max_uses)), note=note.strip()[:200],
                     expires_at=utcnow() + timedelta(days=days) if days else None,
-                    created_by_id=actor.id if actor else None)
+                    created_by_id=actor.id if actor else None, can_choose=can_choose)
     db.add(invite)
     db.flush()
-    log(db, actor, "invite-create", "invite", invite.code, f"role={role} uses={invite.max_uses}")
+    log(db, actor, "invite-create", "invite", invite.code,
+        f"role={role} uses={invite.max_uses}{' can-choose' if can_choose else ''}")
     return invite
 
 
@@ -58,7 +60,8 @@ def register(db, code, email, display_name, password, credit_ok):
     invite = usable_invite(db, code)
     if invite is None:
         raise AccountError("That invite code isn't valid. Ask for a new one.")
-    user = create_user(db, email, display_name, password, role=invite.role, credit_ok=credit_ok)
+    user = create_user(db, email, display_name, password, role=invite.role, credit_ok=credit_ok,
+                       can_choose=invite.can_choose)
     invite.uses += 1
     return user
 

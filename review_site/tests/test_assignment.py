@@ -145,3 +145,56 @@ def test_review_progress_requires_every_page(app, db, book, settings):
                                              "description": "Extra finger", "x": 0.5, "y": 0.75})
     reviews.submit(db, review)
     assert review.state == "submitted"
+
+
+def chooser(db, email="pick@example.com"):
+    return accounts.create_user(db, email, "Picky", "correct-horse-battery", can_choose=True)
+
+
+def test_only_pre_approved_users_can_choose(app, db, book, settings):
+    plain, = users(db, 1)
+    chapter = db.scalar(select(Chapter).where(Chapter.slug == "alma/003"))
+    with pytest.raises(assignment.NotAllowed):
+        assignment.claim_chapter(db, plain, settings, chapter.id)
+    picky = chooser(db)
+    review = assignment.claim_chapter(db, picky, settings, chapter.id)
+    assert review.version.chapter.slug == "alma/003" and review.state == "active"
+
+
+def test_choosing_keeps_the_independence_rules(app, db, book, settings):
+    picky = chooser(db)
+    chapter = db.scalar(select(Chapter).where(Chapter.slug == "alma/002"))
+    other = db.scalar(select(Chapter).where(Chapter.slug == "alma/004"))
+    first = assignment.claim_chapter(db, picky, settings, chapter.id)
+    assert assignment.claim_chapter(db, picky, settings, chapter.id).id == first.id      # same chapter again: same review
+    with pytest.raises(assignment.NothingAvailable, match="in progress"):
+        assignment.claim_chapter(db, picky, settings, other.id)                           # one at a time
+    finish(db, first)
+    with pytest.raises(assignment.NothingAvailable, match="already reviewed"):
+        assignment.claim_chapter(db, picky, settings, chapter.id)                         # never the same version twice
+    assert assignment.claim_chapter(db, picky, settings, other.id).state == "active"
+
+
+def test_cannot_choose_a_closed_chapter(app, db, book, settings):
+    picky = chooser(db)
+    chapter = db.scalar(select(Chapter).where(Chapter.slug == "alma/005"))
+    chapter.status = "closed"
+    db.flush()
+    with pytest.raises(assignment.NothingAvailable, match="isn't open"):
+        assignment.claim_chapter(db, picky, settings, chapter.id)
+
+
+def test_people_who_can_choose_are_not_limited_in_skips(app, db, book, settings):
+    picky = chooser(db)
+    for _ in range(settings.skip_limit + 2):
+        review = assignment.claim(db, picky, settings)
+        assignment.skip(db, review, settings)
+
+
+def test_pickable_lists_every_open_chapter_with_standing(app, db, book, settings):
+    picky = chooser(db)
+    chapter = db.scalar(select(Chapter).where(Chapter.slug == "alma/001"))
+    finish(db, assignment.claim_chapter(db, picky, settings, chapter.id))
+    rows = {r["chapter"].slug: r for r in assignment.pickable(db, picky, settings)}
+    assert len(rows) == 6 and rows["alma/001"]["standing"] == "done" and rows["alma/002"]["standing"] == ""
+    assert rows["alma/001"]["reviews"] == 1

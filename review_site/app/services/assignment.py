@@ -56,9 +56,8 @@ def active_review(db, user):
     return db.scalar(select(Review).where(Review.user_id == user.id, Review.state == "active"))
 
 
-def candidates(db, user, settings, now=None):
-    """Every chapter this reviewer could be given, with its counts and preference tier."""
-    now = now or utcnow()
+def _standing(db, user, settings, now):
+    """What everyone has done so far, and what this reviewer has done."""
     done = dict(db.execute(select(Review.version_id, func.count()).where(Review.state == "submitted",
                                                                           Review.excluded.is_(False))
                            .group_by(Review.version_id)).all())
@@ -68,18 +67,42 @@ def candidates(db, user, settings, now=None):
     mine = db.execute(select(Review.version_id, ChapterVersion.chapter_id, Review.state, Review.claimed_at)
                       .join(ChapterVersion, ChapterVersion.id == Review.version_id)
                       .where(Review.user_id == user.id)).all()
-    same_version = {v for v, _, state, _ in mine if state in ("active", "submitted")}
+    by_version = {v: state for v, _, state, _ in mine if state in ("active", "submitted")}
     seen_chapters = {c for _, c, state, _ in mine if state == "submitted"}
     skipped = {c for _, c, state, at in mine if state == "skipped" and at >= now - settings.skip_window}
-    out = []
-    rows = db.execute(select(Chapter, ChapterVersion).join(
+    return done, held, by_version, seen_chapters, skipped
+
+
+def _open_chapters(db):
+    return db.execute(select(Chapter, ChapterVersion).join(
         ChapterVersion, (ChapterVersion.chapter_id == Chapter.id) & (ChapterVersion.state == "current"))
         .where(Chapter.status == "open").order_by(Chapter.sort_order)).all()
-    for chapter, version in rows:
-        if version.id in same_version:
+
+
+def candidates(db, user, settings, now=None):
+    """Every chapter this reviewer could be given, with its counts and preference tier."""
+    now = now or utcnow()
+    done, held, by_version, seen_chapters, skipped = _standing(db, user, settings, now)
+    out = []
+    for chapter, version in _open_chapters(db):
+        if version.id in by_version:
             continue
         tier = 2 if chapter.id in skipped else 1 if chapter.id in seen_chapters else 0
         out.append(Candidate(chapter, version, done.get(version.id, 0), held.get(version.id, 0), tier))
+    return out
+
+
+def pickable(db, user, settings, now=None):
+    """For reviewers allowed to choose: every open chapter with its counts and this reviewer's standing on it
+    ('holding', 'done' (this version), 'earlier' (an older version), or '')."""
+    now = now or utcnow()
+    done, held, by_version, seen_chapters, _ = _standing(db, user, settings, now)
+    out = []
+    for chapter, version in _open_chapters(db):
+        mine = by_version.get(version.id)
+        standing = "holding" if mine == "active" else "done" if mine == "submitted" else             "earlier" if chapter.id in seen_chapters else ""
+        out.append({"chapter": chapter, "version": version, "reviews": done.get(version.id, 0),
+                    "held": held.get(version.id, 0), "standing": standing})
     return out
 
 
@@ -117,6 +140,37 @@ def claim(db, user, settings, now=None, rng=random):
     return review
 
 
+class NotAllowed(Exception):
+    """The reviewer isn't pre-approved to choose their own chapter."""
+
+
+def claim_chapter(db, user, settings, chapter_id, now=None):
+    """A pre-approved reviewer picks a specific open chapter. The independence rule still holds: never the same
+    version twice, and only one chapter at a time."""
+    if not user.can_choose:
+        raise NotAllowed("You haven't been set up to choose your own chapter.")
+    now = now or utcnow()
+    _take_write_lock(db)
+    expire_stale(db, now)
+    chapter = db.get(Chapter, chapter_id)
+    version = chapter.current if chapter is not None and chapter.status == "open" else None
+    if version is None:
+        raise NothingAvailable("That chapter isn't open for review.")
+    existing = active_review(db, user)
+    if existing:
+        if existing.version_id == version.id:
+            return existing
+        raise NothingAvailable("You already have a chapter in progress. Finish it, or skip it, before choosing another.")
+    if any(r.user_id == user.id and r.state in ("active", "submitted") for r in db.scalars(
+            select(Review).where(Review.version_id == version.id, Review.user_id == user.id))):
+        raise NothingAvailable("You have already reviewed the current version of that chapter.")
+    review = Review(user_id=user.id, version_id=version.id, state="active", claimed_at=now,
+                    last_activity_at=now, expires_at=now + settings.hold)
+    db.add(review)
+    db.flush()
+    return review
+
+
 def touch(review, settings, seconds=0, now=None):
     """Record activity: renew the hold and add up to a minute of working time."""
     now = now or utcnow()
@@ -136,7 +190,7 @@ def skip(db, review, settings, now=None):
     now = now or utcnow()
     if review.state != "active":
         raise ValueError("This review isn't active")
-    if skips_used(db, review.user, settings, now) >= settings.skip_limit:
+    if not review.user.can_choose and skips_used(db, review.user, settings, now) >= settings.skip_limit:
         raise SkipLimit(f"You can skip {settings.skip_limit} chapters a day. Please review this one or come back tomorrow.")
     review.state = "skipped"
     review.claimed_at = now   # so the skip window counts from when it happened

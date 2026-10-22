@@ -112,3 +112,8 @@ code, .mono { font-family: ui-monospace, Consolas, monospace; font-size: 13px; b
   .pagepin { max-width: 100%; }
   .card { padding: 14px; }
 }
+
+details.book { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin: 10px 0; }
+details.book > summary { cursor: pointer; padding: 12px 14px; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+details.book .scroll { padding: 0 8px 8px; }
+details.book table { border: 0; }

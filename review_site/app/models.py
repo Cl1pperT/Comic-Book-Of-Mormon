@@ -6,7 +6,7 @@ import json
 from datetime import datetime, timezone
 
 from sqlalchemy import (Boolean, DateTime, Float, ForeignKey, Index, Integer, String, Text, TypeDecorator,
-                        UniqueConstraint, text)
+                        UniqueConstraint, false, text)
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from .db import Base
@@ -41,6 +41,7 @@ class User(Base):
     role: Mapped[str] = mapped_column(String(16), default="reviewer")
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
     credit_ok: Mapped[bool] = mapped_column(Boolean, default=False)   # show display_name on the thank-you page
+    can_choose: Mapped[bool] = mapped_column(Boolean, default=False, server_default=false())   # pre-approved to pick any chapter
     created_at: Mapped[datetime] = mapped_column(UTCDateTime, default=utcnow)
     last_login_at: Mapped[datetime | None] = mapped_column(UTCDateTime, nullable=True)
 
@@ -57,6 +58,7 @@ class Invite(Base):
     created_by_id: Mapped[int | None] = mapped_column(ForeignKey("users.id"), nullable=True)
     created_at: Mapped[datetime] = mapped_column(UTCDateTime, default=utcnow)
     revoked: Mapped[bool] = mapped_column(Boolean, default=False)
+    can_choose: Mapped[bool] = mapped_column(Boolean, default=False, server_default=false())   # new users start pre-approved
 
 
 class PasswordReset(Base):

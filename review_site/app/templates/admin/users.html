@@ -16,6 +16,7 @@
       <option value="reviewer">Reviewer</option><option value="editor">Editor</option><option value="admin">Admin</option></select></div>
     <div><label for="max_uses">How many people can use it</label><input id="max_uses" type="number" name="max_uses" value="1" min="1" max="100"></div>
     <div><label for="note">Note (just for you)</label><input id="note" type="text" name="note" maxlength="200" placeholder="e.g. Mom"></div>
+    <div><label class="check"><input type="checkbox" name="can_choose" value="1"> <span>Let them choose any chapter</span></label></div>
     <div><button class="btn primary" type="submit">Create invite</button></div>
   </form>
   <p class="hint">Invites last 14 days. Send the person their link; they choose their own password.</p>
@@ -25,7 +26,7 @@
 <div class="scroll"><table>
   <tr><th>Link</th><th>Role</th><th>Used</th><th>Expires</th><th>Note</th><th></th></tr>
   {% for i in invites %}
-  <tr><td class="mono" style="word-break:break-all">{{ base }}/join?code={{ i.code }}</td><td>{{ i.role }}</td><td>{{ i.uses }} / {{ i.max_uses }}</td>
+  <tr><td class="mono" style="word-break:break-all">{{ base }}/join?code={{ i.code }}</td><td>{{ i.role }}{% if i.can_choose %} <span class="pill ok" title="Pre-approved to choose any chapter">picks chapters</span>{% endif %}</td><td>{{ i.uses }} / {{ i.max_uses }}</td>
       <td>{{ i.expires_at|when if i.expires_at else 'never' }}</td><td>{{ i.note }}</td>
       <td>{% if i.revoked %}<span class="pill">revoked</span>{% elif i.uses >= i.max_uses %}<span class="pill">used</span>{% else %}
         <form method="post" action="/admin/users/invite/{{ i.id }}/revoke" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}"><button class="btn small">Revoke</button></form>{% endif %}</td></tr>
@@ -35,7 +36,7 @@
 
 <h2>People</h2>
 <div class="scroll"><table>
-  <tr><th>Name</th><th>Email</th><th>Role</th><th>Joined</th><th>Last login</th><th></th></tr>
+  <tr><th>Name</th><th>Email</th><th>Role</th><th>Can choose chapters</th><th>Joined</th><th>Last login</th><th></th></tr>
   {% for u in users %}
   <tr>
     <td>{{ u.display_name }}{% if not u.is_active %} <span class="pill">inactive</span>{% endif %}</td><td>{{ u.email }}</td>
@@ -47,8 +48,14 @@
         {% if u.id != user.id %}<button class="btn small" type="submit">Set</button>{% endif %}
       </form>
     </td>
+    <td>
+      <form method="post" action="/admin/users/{{ u.id }}" class="row" style="flex-wrap:nowrap"><input type="hidden" name="csrf" value="{{ csrf }}">
+        {% if u.can_choose %}<span class="pill ok">yes</span><button class="btn small" name="action" value="choose_off">Turn off</button>
+        {% else %}<span class="pill">no</span><button class="btn small" name="action" value="choose_on">Allow</button>{% endif %}
+      </form>
+    </td>
     <td>{{ u.created_at|when }}</td><td>{{ u.last_login_at|when if u.last_login_at else '' }}</td>
-    <td class="row" style="flex-wrap:nowrap">
+    <td><div class="row" style="flex-wrap:nowrap">
       <form method="post" action="/admin/users/{{ u.id }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}">
         <button class="btn small" name="action" value="reset">Reset link</button></form>
       {% if u.id != user.id %}
@@ -56,7 +63,7 @@
         {% if u.is_active %}<button class="btn small danger" name="action" value="deactivate" onclick="return confirm('Deactivate {{ u.display_name }}? They will be logged out and their held chapter released.')">Deactivate</button>
         {% else %}<button class="btn small" name="action" value="activate">Reactivate</button>{% endif %}</form>
       {% endif %}
-    </td>
+    </div></td>
   </tr>
   {% endfor %}
 </table></div>
