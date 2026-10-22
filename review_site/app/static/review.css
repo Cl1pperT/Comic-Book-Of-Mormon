@@ -1,39 +1,50 @@
 /* The review screen: the same reading layout as the draft reader (pages stacked, panels outlined on hover, a sticky
-   side panel), plus pins. Palette and dark mode come from app.css. */
-body.reviewing { font-size: 15px; line-height: 1.45; }
+   side panel), plus pins. Palette and dark mode come from app.css.
+   On phones the side panel becomes a bottom bar; the issue form opens as a sheet (body[data-mode] says which). */
+body.reviewing { font-size: 15px; line-height: 1.45; -webkit-text-size-adjust: 100%; }
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) 380px; min-height: 100vh; }
 main#pages { padding: 24px 16px 64px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
 .page-wrap { width: 100%; max-width: 860px; }
 .page-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
-.page { position: relative; width: 100%; box-shadow: var(--shadow); background: #efe9dc; cursor: crosshair; user-select: none; }
-.page img { display: block; width: 100%; height: auto; }
+.page { position: relative; width: 100%; box-shadow: var(--shadow); background: #efe9dc; cursor: crosshair; user-select: none;
+  -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.page img { display: block; width: 100%; height: auto; -webkit-touch-callout: none; }
 .page.optional img { opacity: .55; }
 .panel { position: absolute; background: transparent; outline: 3px solid transparent; outline-offset: -3px; transition: outline-color .1s, background .1s; }
-.page:hover .panel:hover { background: var(--hover); outline-color: var(--accent); }
 .panel.flagged { outline-color: var(--flag); }
+.panel.active { outline-color: var(--accent); background: var(--hover); }
+@media (hover: hover) { .page .panel:hover { background: var(--hover); outline-color: var(--accent); } }
 .pins { position: absolute; inset: 0; pointer-events: none; }
-.pin { position: absolute; width: 28px; height: 28px; margin: -14px 0 0 -14px; border-radius: 50%; background: var(--flag); color: #fff;
-  font: 700 13px/24px system-ui; text-align: center; border: 2px solid #fff; box-shadow: var(--shadow); cursor: pointer; pointer-events: auto; padding: 0; }
+.pin { position: absolute; width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 50%; background: var(--flag); color: #fff;
+  font: 700 14px/26px system-ui; text-align: center; border: 2px solid #fff; box-shadow: var(--shadow); cursor: pointer; pointer-events: auto; padding: 0; }
 .pin.selected { background: var(--accent); transform: scale(1.2); }
 .pin.draft { background: transparent; color: var(--accent); border: 2px dashed var(--accent); box-shadow: none; pointer-events: none; }
+@media (pointer: coarse) { .pin { width: 38px; height: 38px; margin: -19px 0 0 -19px; font-size: 16px; line-height: 34px; } }
 .page-foot { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 8px 2px 0; min-height: 44px; }
 .page-foot .note { color: var(--muted); font-size: 13px; }
 button.step, button.tick { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
-  border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  border-radius: 8px; padding: 7px 12px; cursor: pointer; touch-action: manipulation; }
 button.step:hover:not(:disabled), button.tick:hover:not(:disabled) { border-color: var(--accent); }
 button.tick.on { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
 button.tick.has-issues { background: var(--flag-soft); border-color: var(--flag); color: var(--flag); cursor: default; }
 button:disabled { opacity: .5; cursor: default; }
+button.tick.has-issues:disabled { opacity: .9; }
+body.reviewing button, body.reviewing label { -webkit-tap-highlight-color: transparent; }
+
 aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface); border-left: 1px solid var(--line);
   padding: 18px 20px; display: flex; flex-direction: column; gap: 16px; }
 aside h1 { font-size: 20px; margin: 4px 0 2px; }
 aside h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
 aside .back { font-size: 13px; text-decoration: none; }
+aside .sub { margin: 0 0 8px; }
 aside .card { box-shadow: none; background: var(--bg); padding: 14px; }
 aside .card + .card { margin-top: 0; }
 aside .notice { border-color: var(--accent); }
 aside label { margin: 12px 0 4px; font-size: 14px; }
 aside textarea { min-height: 80px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+#m-issues { display: none; }
+#submit-hint { margin: 8px 0 0; font-size: 13px; }
 .meta { font-weight: 600; }
 .meta span { font-weight: 400; color: var(--muted); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -55,9 +66,40 @@ aside textarea { min-height: 80px; }
 .issues button:hover, .issues button.selected { border-color: var(--accent); border-left-color: var(--flag); }
 .issues .note { display: block; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
 .keys { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+/* ---- phones and small tablets: bottom bar + sheet ---------------------------------------------------------------- */
 @media (max-width: 980px) {
-  .layout { grid-template-columns: 1fr; }
-  main#pages { padding-bottom: 55vh; }
-  aside { position: fixed; top: auto; bottom: 0; left: 0; right: 0; height: auto; max-height: 50vh; border-left: 0;
-    border-top: 1px solid var(--line); box-shadow: var(--shadow); padding: 12px 16px; gap: 12px; z-index: 5; }
+  .layout { display: block; }
+  main#pages { padding: 10px 8px calc(var(--sheet, 130px) + 24px); gap: 22px; }
+  aside { position: fixed; top: auto; bottom: 0; left: 0; right: 0; height: auto; max-height: 72vh; border-left: 0;
+    border-top: 1px solid var(--line); box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18); z-index: 5; gap: 10px;
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); }
+  aside h1 { font-size: 16px; display: inline; margin: 0 8px 0 0; }
+  aside .back { display: none; }
+  aside .sub { display: inline; font-size: 13px; }
+  aside .bar { margin: 6px 0 0; }
+  .actions { margin-top: 8px; flex-wrap: nowrap; }
+  .actions > button { flex: 1 1 0; min-width: 0; min-height: 44px; padding: 8px 6px; font-size: 14px; white-space: nowrap; }
+  .actions .btn { flex: 1.4 1 0; }
+  #m-issues { display: block; }
+  #submit-hint { display: none; }
+  .page-foot button { flex: 1 1 150px; min-height: 44px; }
+  .chips label { padding: 9px 14px; font-size: 14px; }
+  aside input[type=text], aside select, aside textarea { font-size: 16px; }   /* 16px stops iPhones zooming in on focus */
+  aside select, aside input[type=text] { min-height: 44px; }
+  aside .btn { min-height: 44px; }
+  .keys { display: none; }
+  /* Save/Cancel stay reachable at the bottom of the sheet however long the form is */
+  .form-actions { position: sticky; bottom: 0; background: var(--bg); margin-top: 12px; padding: 10px 0 4px; border-top: 1px solid var(--line); }
+
+  /* idle: only the slim bar */
+  body[data-mode="idle"] .side-editor, body[data-mode="idle"] .side-issues, body[data-mode="idle"] .side-note { display: none; }
+  /* browsing the list of issues */
+  body[data-mode="list"] .side-editor { display: none; }
+  body[data-mode="list"] aside { max-height: 60vh; }
+  body[data-mode="list"] #submit-hint { display: block; }
+  /* editing one issue: the form, with the pin still visible above the sheet */
+  body[data-mode="editing"] aside { max-height: 66vh; }
+  body[data-mode="editing"] .side-head, body[data-mode="editing"] .side-issues, body[data-mode="editing"] .side-note { display: none; }
+  body[data-mode="editing"] aside { padding-top: 14px; }
 }

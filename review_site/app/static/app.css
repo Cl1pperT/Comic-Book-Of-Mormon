@@ -91,3 +91,24 @@ code, .mono { font-family: ui-monospace, Consolas, monospace; font-size: 13px; b
 .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
 @media (max-width: 800px) { .split { grid-template-columns: 1fr; } }
 .quote { border-left: 3px solid var(--line); padding: 2px 12px; color: var(--muted); font-size: 14px; margin: 6px 0; }
+
+/* ---- small screens ---------------------------------------------------------------------------------------------- */
+@media (max-width: 700px) {
+  body { font-size: 16px; }
+  main.wrap { padding: 16px 12px 48px; }
+  h1 { font-size: 22px; }
+  header.top .topbar { padding: 8px 12px; gap: 6px 12px; }
+  header.top .brand { font-size: 15px; flex: 1 1 100%; }
+  header.top nav { gap: 6px 14px; width: 100%; }
+  header.top nav a { font-size: 15px; padding: 6px 0; }
+  input[type=text], input[type=email], input[type=password], input[type=number], input[type=search], select, textarea {
+    font-size: 16px; min-height: 44px; }   /* 16px stops iPhones zooming in on focus */
+  .btn:not(.small) { min-height: 44px; }
+  .btn.small { min-height: 36px; padding: 6px 12px; }
+  .check input { width: 22px; height: 22px; margin-top: 3px; }
+  .cell { width: 40px; height: 40px; }
+  table { font-size: 13px; }
+  th, td { padding: 8px 8px; }
+  .pagepin { max-width: 100%; }
+  .card { padding: 14px; }
+}

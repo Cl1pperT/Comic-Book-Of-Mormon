@@ -30,41 +30,55 @@ Open <http://127.0.0.1:8000>. Log in as `ann@example.com` (reviewer), `editor@ex
 `admin@example.com`, password `demo-password-123`. Everything lives in `review_site/data/` (delete the folder to start
 over). Run the tests with `pytest review_site/tests` (or just `pytest`).
 
-## 2. Putting it online (Fly.io, roughly $3–6 a month)
+## 2. Putting it online (Fly.io, a few dollars a month)
 
-One-time setup:
+Fly charges for what runs: a 512 MB machine is about $3.69/month if it ran 24/7, and ours sleeps when nobody is using
+it, so expect roughly $1–3. The 3 GB data volume is $0.15/GB/month (about $0.45). There's no free tier, but there's no
+minimum either. (Prices from Fly's pricing page, October 2026.)
 
-1. Create an account at <https://fly.io> and add a card. Install the `flyctl` command-line tool
-   (<https://fly.io/docs/flyctl/install/>) and run `fly auth login`.
-2. Edit `review_site/fly.toml` and change `app = "bom-comic-review"` to a name nobody else has.
-3. From the `review_site` folder:
+One-time setup, in **PowerShell**:
 
-```sh
+1. Install the Fly tool: `iwr https://fly.io/install.ps1 -useb | iex`, then **open a new terminal**.
+2. Create your account and log in: `fly auth signup` (a browser opens). New accounts get a short trial; add a card
+   when Fly asks.
+3. Edit `review_site\fly.toml` and change `app = "bom-comic-review"` to a name nobody else has, e.g.
+   `bom-comic-review-yourname`. If you change the region (`iad` = Virginia), use the same one below.
+4. From the repo root:
+
+```powershell
 cd review_site
-fly launch --no-deploy --copy-config        # accept the name in fly.toml; say NO to a database
-fly volumes create review_data --size 3 --region iad      # same region as fly.toml
-fly secrets set REVIEW_SECRET_KEY="$(python -c 'import secrets; print(secrets.token_urlsafe(48))')"
-fly secrets set REVIEW_TOOL_TOKEN="$(python -c 'import secrets; print(secrets.token_urlsafe(32))')"
-fly deploy
-fly scale count 1                                          # SQLite needs exactly one machine
+fly launch --no-deploy --copy-config      # say NO to Postgres/Redis/etc.; keep the name from fly.toml
+fly volumes create review_data --size 3 --region iad
+.\..\.venv\Scripts\python.exe -c "import secrets; print(secrets.token_urlsafe(48))"   # copy the output
+fly secrets set REVIEW_SECRET_KEY="<paste it>"
+.\..\.venv\Scripts\python.exe -c "import secrets; print(secrets.token_urlsafe(32))"   # a second, different one
+fly secrets set REVIEW_TOOL_TOKEN="<paste it>"
+fly deploy --ha=false                     # one machine: SQLite can't be shared between machines
 ```
 
-Write down the `REVIEW_TOOL_TOKEN` you generated (`fly secrets` won't show it again): your PC needs it. Then create
-your admin account on the server:
+**Keep the second value (the tool token) somewhere safe**: your PC needs it to publish and pull, and Fly won't show
+it again. Then create your admin account on the server:
 
-```sh
-fly ssh console -C "python -m review_site.manage create-user --email you@example.com --name 'Your Name' --role admin"
+```powershell
+fly ssh console
+# inside the server's prompt:
+python -m review_site.manage create-user --email you@example.com --name "Your Name" --role admin
+exit
 ```
 
-(It asks for a password.) Visit `https://<your-app>.fly.dev`, log in, and you're set. A custom domain is optional
+It asks for a password. Visit `https://<your-app>.fly.dev`, log in, and you're set. A custom domain is optional
 (`fly certs add yourdomain.com`).
 
-On your PC, so you don't type them every time (PowerShell, then restart the terminal):
+On your PC, so you don't type them every time (then open a new terminal):
 
 ```powershell
 setx REVIEW_SITE_URL "https://<your-app>.fly.dev"
-setx REVIEW_TOOL_TOKEN "<the token>"
+setx REVIEW_TOOL_TOKEN "<the tool token>"
 ```
+
+To update the site after changing the code: `cd review_site; fly deploy --ha=false`. Your data lives on the volume
+and survives deploys. Fly also snapshots the volume daily (kept 5 days), but see "Back up the database" below for your
+own copy.
 
 ## 3. Day to day
 

@@ -2,42 +2,40 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="csrf" content="{{ csrf }}">
 <title>Review {{ title }} · {{ settings.site_name }}</title>
 <link rel="stylesheet" href="/static/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%93%96%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="/static/review.css">
 </head>
-<body class="reviewing">
+<body class="reviewing" data-mode="idle">
 <div class="layout">
   <main id="pages" aria-label="Chapter pages"><p class="hint">Loading the pages…</p></main>
-  <aside>
-    <div>
+  <aside id="side">
+    <div class="side-head">
       <a class="back" href="/">‹ Home</a>
       <h1>{{ title }}</h1>
       <div class="sub" id="summary"></div>
       <div class="bar"><span id="progress-bar" style="width:0"></span></div>
-      <div class="row" style="margin-top:10px">
-        <button class="step" type="button" id="next-todo">Next page to check ↓</button>
+      <div class="actions">
+        <button class="step" type="button" id="next-todo">Next page ↓</button>
+        <button class="step" type="button" id="m-issues" aria-expanded="false">Issues <span id="issue-count">0</span></button>
+        {% if not readonly %}<button class="btn primary" type="button" id="submit" disabled>Submit review</button>{% endif %}
       </div>
+      <p class="hint" id="submit-hint"></p>
+      <div class="status" id="submit-status" role="alert"></div>
     </div>
     {% if readonly %}
-    <section class="card notice">
+    <section class="card notice side-note">
       {% if review.state == 'submitted' %}You submitted this review on {{ review.submitted_at|when }}. It is shown here for reference and can no longer be changed.{% else %}This review can no longer be changed.{% endif %}
     </section>
     {% endif %}
-    <section class="card" id="editor" aria-live="polite"></section>
-    <section>
+    <section class="card side-editor" id="editor" aria-live="polite"></section>
+    <section class="side-issues">
       <h2 id="issues-heading">Your issues</h2>
       <div id="issue-list"></div>
     </section>
-    {% if not readonly %}
-    <section class="card" id="submit-card">
-      <p class="hint" id="submit-hint" style="margin-top:0"></p>
-      <button class="btn primary" type="button" id="submit" disabled>Submit review</button>
-      <div class="status" id="submit-status" role="alert"></div>
-    </section>
-    {% endif %}
   </aside>
 </div>
 <script id="review-data" type="application/json">{{ payload|tojson }}</script>

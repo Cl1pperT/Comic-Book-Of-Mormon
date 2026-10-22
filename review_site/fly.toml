@@ -1,28 +1,30 @@
-# Fly.io settings. Change `app` to a name nobody else has, e.g. bom-comic-review-yourname.
-# Deploy from this folder:  cd review_site && fly deploy      (see README.md, "Putting it online")
-app = "bom-comic-review"
-primary_region = "iad"
+# fly.toml app configuration file generated for bom-comic-review on 2026-10-21T19:33:33-06:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'bom-comic-review'
+primary_region = 'iad'
 
 [build]
-  dockerfile = "Dockerfile"
+  dockerfile = 'Dockerfile'
 
 [env]
-  REVIEW_DATA_DIR = "/data"
-  REVIEW_SECURE_COOKIES = "1"
+  REVIEW_DATA_DIR = '/data'
+  REVIEW_SECURE_COOKIES = '1'
 
-# The database and page images live here. Keep exactly ONE machine: SQLite can't be shared between machines.
-[mounts]
-  source = "review_data"
-  destination = "/data"
-  initial_size = "3gb"
+[[mounts]]
+  source = 'review_data'
+  destination = '/data'
+  initial_size = '3gb'
 
 [http_service]
   internal_port = 8080
   force_https = true
-  auto_stop_machines = "stop"     # sleeps when nobody is using it (saves money); wakes in a few seconds
+  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
 
 [[vm]]
-  size = "shared-cpu-1x"
-  memory = "512mb"
+  size = 'shared-cpu-1x'
+  memory = '512mb'

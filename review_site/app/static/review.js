@@ -8,6 +8,7 @@
   const checked = new Set(D.checked);
   let selected = null;     // an issue id, "new", or null
   let draft = null;        // {page_id, x, y} for the issue being created
+  let listOpen = false;    // phones: the list of issues is showing in the bottom sheet
   let lastActive = Date.now();
 
   const $ = sel => document.querySelector(sel);
@@ -96,7 +97,18 @@
         Object.assign(pin.style, {left: draft.x * 100 + "%", top: draft.y * 100 + "%"});
         pins.append(pin);
       }
-      for (const panel of page.panels) panel.node.classList.toggle("flagged", mine.some(i => i.panel_id === panel.id));
+      // The panel of the issue being written or read stays highlighted, so it's clear what the form is about.
+      let activePanel = null;
+      if (selected === "new" && draft && draft.x !== null && draft.page_id === page.id) {
+        activePanel = (locate(page, draft.x, draft.y) || {}).id ?? null;
+      } else if (typeof selected === "number") {
+        const current = issues.find(i => i.id === selected);
+        if (current && current.page_id === page.id) activePanel = current.panel_id;
+      }
+      for (const panel of page.panels) {
+        panel.node.classList.toggle("flagged", mine.some(i => i.panel_id === panel.id));
+        panel.node.classList.toggle("active", panel.id === activePanel);
+      }
       foot.replaceChildren();
       if (mine.length) {
         foot.append(el("button", {className: "tick has-issues", type: "button", disabled: true,
@@ -128,21 +140,37 @@
   }
 
   // ---- editor -------------------------------------------------------------------------------------------------------
+  const phone = window.matchMedia("(max-width: 980px)");
+  const mouse = window.matchMedia("(pointer: fine)");
+
+  // On a phone the form opens as a sheet over the lower part of the screen: scroll so the pin stays in view above it.
+  function revealPin(selector) {
+    requestAnimationFrame(() => {
+      const pin = document.querySelector(selector);
+      if (!pin || !phone.matches) return;
+      window.scrollBy({top: pin.getBoundingClientRect().top - window.innerHeight * 0.16, behavior: "smooth"});
+    });
+  }
+
   function startNew(page, x, y) {
     draft = {page_id: page.id, x, y};
     selected = "new";
+    listOpen = false;
     renderAll();
-    $("#description")?.focus({preventScroll: true});
+    if (mouse.matches) $("#description")?.focus({preventScroll: true});   // on touch screens this would pop the keyboard up
+    if (x !== null) revealPin(".pin.draft");
   }
 
   function select(id) {
     draft = null;
     selected = id;
+    if (id !== null) listOpen = false;
     renderAll();
     if (id !== null && id !== "new") {
       const issue = issues.find(i => i.id === id);
-      const fig = figures[issue.page_id].figure;
-      if (issue.x !== null) fig.scrollIntoView({behavior: "smooth", block: "center"});
+      if (issue.x === null) return;
+      if (phone.matches) revealPin(".pin.selected");
+      else figures[issue.page_id].figure.scrollIntoView({behavior: "smooth", block: "center"});
     }
   }
 
@@ -219,7 +247,7 @@
       el("label", {htmlFor: "suggestion", textContent: "Suggested correction (optional)"}), suggestion,
       el("label", {htmlFor: "verse_ref", textContent: "Verse (optional)"}), verse,
       ...(scripture ? [scripture] : []),
-      el("div", {className: "row", style: "margin-top:14px"}, [...(readonly ? [] : [save]), cancel, ...(remove ? [remove] : [])]),
+      el("div", {className: "row form-actions", style: "margin-top:14px"}, [...(readonly ? [] : [save]), cancel, ...(remove ? [remove] : [])]),
       status,
       ...(readonly ? [] : [el("div", {className: "keys", textContent: "Ctrl+Enter saves · Esc closes"})]));
   }
@@ -268,6 +296,7 @@
     $("#summary").textContent = `${total - left} of ${total} pages checked · ${issues.length} issue${issues.length === 1 ? "" : "s"}`;
     $("#progress-bar").style.width = total ? (100 * (total - left) / total) + "%" : "0";
     $("#next-todo").hidden = readonly || !left;
+    $("#issue-count").textContent = issues.length;
     const list = $("#issue-list");
     if (!issues.length) {
       list.replaceChildren(el("p", {className: "hint", textContent: "None yet."}));
@@ -290,7 +319,17 @@
     }
   }
 
-  function renderAll() { renderPages(); renderEditor(); renderSide(); }
+  function renderAll() {
+    renderPages(); renderEditor(); renderSide();
+    document.body.dataset.mode = selected !== null ? "editing" : listOpen ? "list" : "idle";
+    $("#m-issues").setAttribute("aria-expanded", String(listOpen));
+  }
+
+  $("#m-issues").addEventListener("click", () => { listOpen = !listOpen; renderAll(); });
+
+  // Keep the last page clear of the bottom bar, whatever size the bar currently is.
+  new ResizeObserver(() => document.documentElement.style.setProperty("--sheet", $("#side").offsetHeight + "px"))
+    .observe($("#side"));
 
   $("#next-todo").addEventListener("click", () => {
     const next = remaining()[0];
