@@ -22,7 +22,7 @@ button.step, button.tick { font: inherit; font-weight: 600; color: var(--ink); b
   border-radius: 8px; padding: 7px 12px; cursor: pointer; }
 button.step:hover:not(:disabled), button.tick:hover:not(:disabled) { border-color: var(--accent); }
 button.tick.on { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
-button.tick.issues { background: var(--flag-soft); border-color: var(--flag); color: var(--flag); cursor: default; }
+button.tick.has-issues { background: var(--flag-soft); border-color: var(--flag); color: var(--flag); cursor: default; }
 button:disabled { opacity: .5; cursor: default; }
 aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--surface); border-left: 1px solid var(--line);
   padding: 18px 20px; display: flex; flex-direction: column; gap: 16px; }

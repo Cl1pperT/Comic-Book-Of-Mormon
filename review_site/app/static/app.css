@@ -24,7 +24,7 @@ h3 { font-size: 15px; margin: 18px 0 8px; }
 .sub, .hint { color: var(--muted); }
 .sub { margin: 0 0 18px; }
 header.top { background: var(--surface); border-bottom: 1px solid var(--line); }
-header.top .bar { max-width: 1100px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+header.top .topbar { max-width: 1100px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
 header.top .brand { font-weight: 700; color: var(--ink); text-decoration: none; margin-right: auto; }
 header.top nav { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
 header.top nav a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 14px; }
@@ -34,6 +34,7 @@ main.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
 main.narrow { max-width: 460px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; box-shadow: var(--shadow); }
 .card + .card { margin-top: 16px; }
+.grid2 > .card + .card { margin-top: 0; }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
 .big { font-size: 34px; font-weight: 700; line-height: 1.1; }
 .flash { padding: 10px 14px; border-radius: 10px; margin-bottom: 16px; border: 1px solid var(--line); background: var(--surface); }

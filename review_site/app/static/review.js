@@ -99,7 +99,7 @@
       for (const panel of page.panels) panel.node.classList.toggle("flagged", mine.some(i => i.panel_id === panel.id));
       foot.replaceChildren();
       if (mine.length) {
-        foot.append(el("button", {className: "tick issues", type: "button", disabled: true,
+        foot.append(el("button", {className: "tick has-issues", type: "button", disabled: true,
                                   textContent: mine.length + (mine.length === 1 ? " issue" : " issues") + " reported on this page"}));
       } else if (!readonly) {
         const tick = el("button", {className: "tick" + (checked.has(page.id) ? " on" : ""), type: "button",

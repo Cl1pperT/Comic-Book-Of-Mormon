@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="/static/app.css">
 </head>
 <body>
-<header class="top"><div class="bar">
+<header class="top"><div class="topbar">
   <a class="brand" href="/">{{ settings.site_name }}</a>
   {% if user %}
   <nav>
@@ -23,7 +23,7 @@
   {% endif %}
 </div></header>
 {% if user and c.ROLE_RANK[user.role] >= 1 and request.url.path.startswith('/admin') %}
-<header class="top"><div class="bar"><nav style="margin-right:auto">
+<header class="top"><div class="topbar"><nav style="margin-right:auto">
   <a href="/admin" {% if request.url.path == '/admin' %}class="on"{% endif %}>Coverage</a>
   <a href="/admin/issues" {% if request.url.path.startswith('/admin/issues') %}class="on"{% endif %}>Issues</a>
   <a href="/admin/chapters" {% if request.url.path.startswith('/admin/chapter') %}class="on"{% endif %}>Chapters</a>
