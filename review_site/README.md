@@ -96,6 +96,25 @@ own copy.
 | Download everything | **Admin → Issues → Download CSV** |
 | Back up the database | `curl -H "Authorization: Bearer $REVIEW_TOOL_TOKEN" $REVIEW_SITE_URL/api/tool/backup -o backup.db` |
 
+### Automatic nightly sync
+
+`scripts\nightly.cmd` (the 11 PM scheduled task) now runs the two site steps around the render, using the address and
+token saved in your Windows user environment:
+
+1. **Before rendering: `pull`.** Issues you accepted on the site since last night become flags (and story-queue entries),
+   so tonight's redraws include them.
+2. **After rendering: `publish`.** Redrawn chapters go up as *waiting* versions. Nothing goes live until you click **Make it
+   live** in Admin → Chapters.
+
+Neither step can stop the night: each skips if the credentials are missing or ComicBOM Control is rendering, retries once
+if the site is slow to wake, and otherwise just logs the problem to `runs\book\nightly\<date>.log` (look for
+"review site"). You can still run either by hand, or `python -m review_site.tools.nightly_sync pull` / `publish` to get the
+same safe behaviour.
+
+Things that keep showing up in `runs\book\site-issues-report.md` until you deal with them on the site: whole-page
+reports ("Needs your decision") and *stale* issues (the page was redrawn after the reviewer saw it). Mark them Fixed,
+Rejected or Duplicate on the site and they stop appearing.
+
 ### What `pull` does with accepted issues
 
 * **Art problems on a panel** (character looks wrong, art error, continuity, layout) become a flag in that chapter's
