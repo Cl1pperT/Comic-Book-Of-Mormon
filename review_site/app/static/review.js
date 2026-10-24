@@ -174,11 +174,14 @@
     }
   }
 
+  let statusTimer = null;
   function flashStatus(text, isError = false) {
     const status = $("#status") || $("#submit-status");
     if (!status) return;
     status.textContent = text;
     status.classList.toggle("error", isError);
+    clearTimeout(statusTimer);
+    if (!isError) statusTimer = setTimeout(() => { if (status.textContent === text) status.textContent = ""; }, 3500);
   }
 
   function versesFor(page, panel) {
@@ -237,9 +240,12 @@
       el("summary", {textContent: "Show scripture text"}),
       ...verses.map(([ref, text]) => el("p", {}, [el("b", {textContent: ref}), text]))]) : null;
 
-    const heading = el("div", {className: "meta"}, [
-      issue ? "Issue " + number(issue) + " " : "New issue ",
-      el("span", {textContent: "· " + where(page, panel) + (panel && panel.refs ? " · " + panel.refs : "")})]);
+    const close = el("button", {className: "x", type: "button", textContent: "✕", title: "Close", ariaLabel: "Close"});
+    close.addEventListener("click", () => select(null));
+    const heading = el("div", {className: "meta head"}, [
+      el("div", {}, [issue ? "Issue " + number(issue) + " " : "New issue ",
+                     el("span", {textContent: "· " + where(page, panel) + (panel && panel.refs ? " · " + panel.refs : "")})]),
+      close]);
     editor.replaceChildren(heading,
       el("label", {htmlFor: "category", textContent: "Type of problem"}), category, help,
       el("label", {textContent: "How serious is it?"}), chips,
@@ -260,17 +266,17 @@
         const body = {...fields, x: issue.x, y: issue.y};
         const {issue: saved} = await api("PUT", `/api/review/${D.review.id}/issues/${issue.id}`, body);
         issues = issues.map(i => i.id === saved.id ? saved : i);
-        selected = saved.id;
       } else {
         const body = {...fields, page_id: page.id, x: draft.x, y: draft.y};
         const {issue: saved} = await api("POST", `/api/review/${D.review.id}/issues`, body);
         issues.push(saved);
         checked.delete(page.id);
         draft = null;
-        selected = saved.id;
       }
+      // Saved: close the form, so the reviewer is straight back to reading (and to Submit when every page is done).
+      selected = null;
       renderAll();
-      flashStatus("Saved");
+      flashStatus("Issue saved ✓");
     } catch (error) {
       status.textContent = error.message;
       status.classList.add("error");

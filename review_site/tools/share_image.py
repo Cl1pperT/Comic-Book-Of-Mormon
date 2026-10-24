@@ -1,5 +1,6 @@
-"""Make the link-preview picture (what iMessage, WhatsApp, Slack, LinkedIn... show when the site's address is shared)
-from the comic's title page. Writes two small files into the site's static folder; commit them and redeploy.
+"""Make the site's title-page pictures from the comic's title page: the link preview (what iMessage, WhatsApp, Slack,
+LinkedIn... show when the address is shared), the home-screen icon, and the page background. Writes small files into the
+site's static folder; commit them and redeploy.
 
     python -m review_site.tools.share_image                      # uses runs/book/title/page.png
     python -m review_site.tools.share_image --page path/to/title.png
@@ -26,7 +27,10 @@ def make(page_path):
     side = round(w * 0.72)
     left, top = round((w - side) / 2), round(h * 0.15)
     page.crop((left, top, left + side, top + side)).resize((180, 180), Image.LANCZOS).save(STATIC / "apple-touch-icon.png")
-    return STATIC / "share-preview.jpg", STATIC / "apple-touch-icon.png"
+    # The background behind the home, login and sign-up pages: the whole title page, light enough to load quickly.
+    page.resize((1000, round(1000 * h / w)), Image.LANCZOS).save(STATIC / "title-bg.jpg", quality=80, optimize=True,
+                                                                  progressive=True)
+    return STATIC / "share-preview.jpg", STATIC / "apple-touch-icon.png", STATIC / "title-bg.jpg"
 
 
 def main(argv=None):

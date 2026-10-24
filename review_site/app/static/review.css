@@ -103,3 +103,8 @@ aside textarea { min-height: 80px; }
   body[data-mode="editing"] .side-head, body[data-mode="editing"] .side-issues, body[data-mode="editing"] .side-note { display: none; }
   body[data-mode="editing"] aside { padding-top: 14px; }
 }
+
+.meta.head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+button.x { flex: none; width: 36px; height: 36px; margin: -6px -6px 0 0; border: 0; border-radius: 50%; background: transparent;
+  color: var(--muted); font-size: 18px; cursor: pointer; touch-action: manipulation; }
+button.x:hover { background: var(--line); color: var(--ink); }

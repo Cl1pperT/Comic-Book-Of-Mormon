@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%93%96%3C/text%3E%3C/svg%3E">
 </head>
-<body>
+<body class="{% if not request.url.path.startswith('/admin') %}has-hero{% endif %}" style="--head: {{ '84px' if user else '44px' }}">
 <header class="top"><div class="topbar">
   <a class="brand" href="/">{{ settings.site_name }}</a>
   {% if user %}

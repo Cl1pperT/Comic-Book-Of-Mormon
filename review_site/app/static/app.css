@@ -117,3 +117,28 @@ details.book { background: var(--surface); border: 1px solid var(--line); border
 details.book > summary { cursor: pointer; padding: 12px 14px; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
 details.book .scroll { padding: 0 8px 8px; }
 details.book table { border: 0; }
+
+/* ---- the title page behind the front-door pages (everything except admin and the review screen) --------------- */
+body.has-hero { background: #14110d; }
+body.has-hero::before { content: ""; position: fixed; inset: 0; z-index: -1; background:
+  linear-gradient(180deg, rgba(14, 11, 8, .30) 0%, rgba(14, 11, 8, .58) 40%, rgba(14, 11, 8, .80) 100%),
+  url(/static/title-bg.jpg) center top / cover no-repeat, #14110d; }
+body.has-hero header.top { background: color-mix(in srgb, var(--surface) 90%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+/* Room at the top for the title lettering that is part of the picture. */
+.hero-spacer { height: clamp(70px, 16vw, 210px); }
+main.narrow .hero-spacer { height: clamp(50px, 17vw, 240px); }
+/* Narrower than the picture itself (phones): fit its full width, so the whole title shows, starting just below the header. */
+@media (max-aspect-ratio: 7/10) {
+  body.has-hero::before { background-position: 0 0, center var(--head, 84px), 0 0; background-size: auto, 100% auto, auto; }
+  .hero-spacer, main.narrow .hero-spacer { height: clamp(100px, 26vw, 300px); }
+}
+/* Portrait tablets: a one-row header, so the picture starts higher. */
+@media (max-aspect-ratio: 7/10) and (min-width: 701px) {
+  body.has-hero::before { background-position: 0 0, center 46px, 0 0; }
+  .hero-spacer, main.narrow .hero-spacer { height: 24vw; }
+}
+/* Headings and notes that sit directly on the picture (cards keep their own solid background). */
+body.has-hero main.wrap > h1, body.has-hero main.wrap > h2, body.has-hero main.wrap > .sub, body.has-hero main.wrap > .hint {
+  color: #fbf7ee; text-shadow: 0 1px 8px rgba(0, 0, 0, .65); }
+body.has-hero main.wrap > .sub, body.has-hero main.wrap > .hint { color: rgba(251, 247, 238, .88); }
+body.has-hero main.wrap > p a { color: #cfe3f7; }
