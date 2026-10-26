@@ -6,7 +6,7 @@
     "Laman": "tall broad man in his late twenties, thick black beard, heavy brow, dark ochre tunic, fringed charcoal-brown mantle",
     "Lemuel": "lean man in his mid twenties, short black beard, narrow face, olive-green tunic, tan mantle",
     "Sam": "young man about twenty, light beard, curly dark-brown hair, cream tunic, sky-blue sash, light brown mantle",
-    "Nephi": "tall athletic young man about 23, short dark beard, shoulder-length dark-brown hair, cream linen tunic, deep blue wool mantle",
+    "Nephi": "tall athletic young man about 23, short dark beard, loose shoulder-length dark-brown hair, cream linen tunic, deep blue wool mantle",
     "Laban": "heavy-set man in his forties, oiled black beard, gold headband, purple-and-crimson robe, bronze scale armor, gold-hilted sword",
     "Zoram": "clean-shaven young servant, short black hair, plain grey-brown tunic, ring of bronze keys at his waist",
     "Ishmael": "old man, long white beard, bald crown, faded indigo robe, cream tasselled mantle, walking staff",
@@ -106,7 +106,7 @@
     "Jacob (king of a tribe)": "scheming tribal king in his forties, thick beard, dark robe, gold band",
     "The twelve Nephite disciples": "Nephite men of varied ages and faces, all in plain white cotton robes",
     "Ammaron": "frail old man, white beard, plain white robe",
-    "Mormon (young)": "towering sixteen-year-old commander, first beard, hair tied back, quilted armor, dark cloak",
+    "Mormon (young)": "tall broad-shouldered young man of about sixteen, short dark hair, strong square jaw, first dark stubble beard, quilted armor, dark cloak",
     "Mormon (old)": "massive weary man in his seventies, white beard, worn quilted armor, faded dark cloak",
     "Moroni (son of Mormon)": "lean solitary man in his forties, greying beard, travel-worn tunic, hide cloak",
     "Aaron (Lamanite king)": "Lamanite war-king in his forties, scarred face, jaguar pelt, quetzal crest, war-club",
@@ -132,9 +132,9 @@
     "The queen of the Lamanites": "proud Lamanite queen about thirty-five, long loose black hair, gold band, black and crimson huipil",
     "Coriantum's wife": "very old frail Jaredite queen, thin white hair braided with stone beads, heavy ochre, black and deep red garments",
     "Coriantum's young wife": "young Jaredite woman about twenty, long black hair braided with gold, ochre, black and deep red garments",
-    "Jerusalem townspeople": "Judean men and women of varied ages in wool tunics and mantles of undyed cream, brown, madder red and indigo, head coverings",
-    "Nephite people": "Nephite men, women and children of varied ages in plain cotton tunics and mantles of undyed cream, indigo and earth tones",
-    "Lamanite people": "Lamanite men, women and children of varied ages, long black hair, simple cotton wraps and loincloths, hide mantles, shell ornaments",
+    "Jerusalem townspeople": "a small group of Judean townspeople of different ages, each with a distinct natural face, in wool tunics of brown, madder red, indigo and ochre, head coverings, sandals",
+    "Nephite people": "a varied crowd, each with a different face, hair and beard, in tunics and mantles of ochre, indigo, madder red, olive and earth brown, a few in pale cream, sandals",
+    "Lamanite people": "Lamanite men, women and children, each with a different face, long black hair, cotton wraps and loincloths, hide mantles, shell and bead ornaments",
     "Helaman (son of Alma, young)": "tall 25-year-old man, short full dark beard, dark hair tied back at the nape, plain white robe, deep red sash",
     "Shiblon (older)": "gentle man in his forties, short greying beard, short wavy hair, undyed tunic, grey mantle"
   },
@@ -144,7 +144,7 @@
       "reference_portrait": false,
       "scriptural_facts": [],
       "visual_design_choices": [
-        "Judean townspeople around 600 BC: men and women of varied ages and faces in wool tunics and mantles of undyed cream, brown, madder red and indigo, head coverings, sandals."
+        "Judean townspeople around 600 BC: men and women of varied ages, each with a different natural face, in wool tunics and mantles of brown, madder red, indigo and ochre, head coverings, sandals."
       ],
       "locked_traits": [
         "Every face different; never copies of a named character."
@@ -155,7 +155,7 @@
       "reference_portrait": false,
       "scriptural_facts": [],
       "visual_design_choices": [
-        "Nephite men, women and children of varied ages and faces in plain cotton tunics and mantles of undyed cream, indigo and earth tones, sandals; Mesoamerican-inspired New World dress."
+        "Nephite men, women and children of varied ages, each with a different face, hair and beard, in plain cotton tunics and mantles of ochre, indigo, madder red, olive and earth brown with only a few of pale cream, sandals; Mesoamerican-inspired New World dress."
       ],
       "locked_traits": [
         "Every face different; never copies of a named character."
@@ -166,7 +166,7 @@
       "reference_portrait": false,
       "scriptural_facts": [],
       "visual_design_choices": [
-        "Lamanite men, women and children of varied ages and faces, long black hair, simple cotton wraps and loincloths, hide mantles, shell and bead ornaments; Mesoamerican-inspired New World dress."
+        "Lamanite men, women and children of varied ages, each with a different face, long black hair, simple cotton wraps and loincloths, hide mantles, shell and bead ornaments; Mesoamerican-inspired New World dress."
       ],
       "locked_traits": [
         "Every face different; never copies of a named character."
@@ -1080,6 +1080,60 @@
   ],
   "places": {
     "keywords": [
+      {
+        "match": "^zarahemla$|jacobugath|kishkumen",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "City of Zarahemla in flames (3 Nephi 8-9)"
+      },
+      {
+        "match": "^moroni$",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "City of Moroni sinking into the sea (3 Nephi 8-9)"
+      },
+      {
+        "match": "moronihah",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "City of Moronihah buried under a mountain (3 Nephi 8-9)"
+      },
+      {
+        "match": "^gilgal",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "City of Gilgal swallowed by the earth (3 Nephi 9)"
+      },
+      {
+        "match": "onihah|mocum",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "Cities replaced by water (3 Nephi 9)"
+      },
+      {
+        "match": "gadiandi|gadiomnah|gimgimno",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 9",
+        "name": "Cities replaced by hills and valleys (3 Nephi 9)"
+      },
+      {
+        "match": "darkness",
+        "from": "3 Nephi 8",
+        "to": "3 Nephi 10",
+        "name": "The land in thick darkness (3 Nephi 8)"
+      },
+      {
+        "match": "judgment[- ]?seat",
+        "from": "Mosiah 29",
+        "to": "3 Nephi 7",
+        "name": "Judgment-seat of Zarahemla"
+      },
+      {
+        "match": "northward",
+        "from": "Helaman 3",
+        "to": "3 Nephi 7",
+        "name": "Land northward (Helaman 3)"
+      },
       {
         "match": "synagogue",
         "from": "Moroni 7",

@@ -16,7 +16,9 @@ from pathlib import Path
 
 BOOKS = ["1 Nephi", "2 Nephi", "Jacob", "Enos", "Jarom", "Omni", "Words of Mormon", "Mosiah", "Alma", "Helaman",
          "3 Nephi", "4 Nephi", "Mormon", "Ether", "Moroni"]
-UNSPECIFIED = re.compile(r"^(?:unspecified|unknown|not specified|none|n/a)\b", re.I)
+# "No actual location specified; the house upon sand is part of the comparison" is a way of saying there is no place.
+UNSPECIFIED = re.compile(r"^(?:unspecified|unknown|not specified|none|n/a|no (?:actual |specific |particular )?"
+                         r"(?:location|place|setting))\b", re.I)
 NO_PLACE = "__none__"  # a keyword match meaning "not a place to draw" (the heavens, a dream): no region is added
 REGION = "__region__"  # a keyword match meaning "somewhere generic in this era" (the land, a tent): the region
 _NARRATOR = re.compile(r"^(?:the\s+)?(?:unnamed\s+)?(?:first[- ]person\s+)?(?:narrator|speaker)$", re.I)

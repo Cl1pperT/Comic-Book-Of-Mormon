@@ -228,19 +228,24 @@
   "Temple in the land Bountiful": {
     "scriptural_facts": [
       {
-        "text": "A great multitude gathered together round about the temple in the land Bountiful.",
+        "text": "A great multitude of the people of Nephi gathered round about the temple in the land Bountiful.",
         "refs": [
           "3 Nephi 11:1"
         ]
       }
     ],
     "visual_design_choices": [
-      "A broad open plaza around the temple in the land Bountiful, green trees beyond"
+      "a broad sunlit plaza of pale stone in front of the temple, green trees and low hills beyond"
     ],
     "architecture": [
-      "a stepped Nephite temple platform of pale stone, Mesoamerican-inspired architecture"
+      "the same temple in every panel: a wide stepped pyramid of four tiers of pale cream cut limestone, one broad central stairway climbing the front, and a flat top platform carrying a small square stone shrine with a flat roof and one open doorway, plain smooth walls"
     ],
     "locked_traits": [
+      "Never a spire or steeple",
+      "Never a dome or cross",
+      "Never columns with capitals",
+      "Never arches or pitched roofs",
+      "Never tiled roofs on the temple",
       "Never European or Asian architecture"
     ]
   },
@@ -371,14 +376,209 @@
   "Land Bountiful (days of Christ's ministry)": {
     "scriptural_facts": [],
     "visual_design_choices": [
-      "The peaceful, sunlit land Bountiful as in the days of Christ's ministry: lush green hills and meadows, groves of fruit trees, a clear winding river, blue sky with soft white clouds, a pale stone stepped temple platform far in the distance"
+      "The peaceful, sunlit land Bountiful as in the days of Christ's ministry: lush green hills and meadows, groves of fruit trees, a clear winding river, blue sky with soft white clouds, the same pale cream limestone stepped temple far in the distance"
     ],
     "architecture": [
-      "a stepped Nephite temple platform of pale stone, Mesoamerican-inspired architecture"
+      "the stepped pale cream limestone temple with a broad central stairway and a small flat-roofed shrine on top"
     ],
     "locked_traits": [
       "Never European or Asian architecture",
-      "Never smoke, fire, ruins, or armies"
+      "Never smoke, fire, ruins, or armies",
+      "Never a spire or steeple",
+      "Never a dome or cross"
+    ]
+  },
+  "City of Zarahemla in flames (3 Nephi 8-9)": {
+    "scriptural_facts": [
+      {
+        "text": "The city of Zarahemla took fire.",
+        "refs": [
+          "3 Nephi 8:8"
+        ]
+      },
+      {
+        "text": "Zarahemla and its inhabitants were burned with fire.",
+        "refs": [
+          "3 Nephi 9:3"
+        ]
+      },
+      {
+        "text": "The great city Jacobugath was burned with fire.",
+        "refs": [
+          "3 Nephi 9:9"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a walled Nephite city of flat-roofed stone buildings and a stepped temple engulfed in fire, tall orange flames rising from the roofs, black smoke towering into a dark sky, red light on the stone walls"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture",
+      "Never a modern skyline"
+    ]
+  },
+  "City of Moroni sinking into the sea (3 Nephi 8-9)": {
+    "scriptural_facts": [
+      {
+        "text": "The city of Moroni sank into the depths of the sea.",
+        "refs": [
+          "3 Nephi 8:9",
+          "3 Nephi 9:4"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a coastal Nephite city of flat-roofed stone buildings sinking into the sea, great grey waves rolling over the lower streets and rooftops, only the top tiers of a stepped temple above the water, storm clouds and spray"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture",
+      "Never ships or boats"
+    ]
+  },
+  "City of Moronihah buried under a mountain (3 Nephi 8-9)": {
+    "scriptural_facts": [
+      {
+        "text": "The earth was carried up upon the city of Moronihah, and in its place there became a great mountain.",
+        "refs": [
+          "3 Nephi 8:10",
+          "3 Nephi 9:5"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "where a city stood, a vast new mountain of raw brown earth and broken stone has buried it, only a few broken wall tops and the crown of a stepped temple showing at its foot, clouds of dust in the air"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture"
+    ]
+  },
+  "City of Gilgal swallowed by the earth (3 Nephi 9)": {
+    "scriptural_facts": [
+      {
+        "text": "The city of Gilgal was sunk and its inhabitants buried in the depths of the earth.",
+        "refs": [
+          "3 Nephi 9:6"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a Nephite city of flat-roofed stone buildings swallowed by a deep dark chasm in the ground, walls tilting and falling into the crack, clouds of dust"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture"
+    ]
+  },
+  "Cities replaced by water (3 Nephi 9)": {
+    "scriptural_facts": [
+      {
+        "text": "Waters were caused to come up in the place of the cities of Onihah, Mocum and Jerusalem.",
+        "refs": [
+          "3 Nephi 9:7"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "where cities stood, only a wide dark new lake, a few broken stone wall tops just above the water near the shore"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture"
+    ]
+  },
+  "Cities replaced by hills and valleys (3 Nephi 9)": {
+    "scriptural_facts": [
+      {
+        "text": "The cities of Gadiandi, Gadiomnah, Jacob and Gimgimno were sunk, and hills and valleys were made in their places.",
+        "refs": [
+          "3 Nephi 9:8"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "where cities stood, only rough new hills and valleys of bare brown earth and scattered stones, no buildings left standing"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture"
+    ]
+  },
+  "The land in thick darkness (3 Nephi 8)": {
+    "scriptural_facts": [
+      {
+        "text": "There was thick darkness upon all the face of the land, so that its inhabitants could feel the vapor of darkness.",
+        "refs": [
+          "3 Nephi 8:20"
+        ]
+      },
+      {
+        "text": "There could be no light at all, neither candles nor torches, and no fire could be kindled.",
+        "refs": [
+          "3 Nephi 8:21"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a nearly black scene, a thick low black mist over the land, only the faintest outlines of people and stone walls can be made out"
+    ],
+    "locked_traits": [
+      "Never a lit torch",
+      "Never a candle or lamp",
+      "Never a campfire"
+    ]
+  },
+  "Land northward (Helaman 3)": {
+    "scriptural_facts": [
+      {
+        "text": "The people came to large bodies of water and many rivers.",
+        "refs": [
+          "Helaman 3:4"
+        ]
+      },
+      {
+        "text": "There was little timber, so the people became expert in cement and built houses of cement.",
+        "refs": [
+          "Helaman 3:7"
+        ]
+      },
+      {
+        "text": "The people in the land northward dwelt in tents and in houses of cement.",
+        "refs": [
+          "Helaman 3:9"
+        ]
+      },
+      {
+        "text": "They built many cities, both of wood and of cement.",
+        "refs": [
+          "Helaman 3:11"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a wide land of low rolling plains with large lakes and many rivers and very few trees, towns of smooth pale cement houses beside tents"
+    ],
+    "architecture": [
+      "houses and walls of smooth pale cement with flat roofs, a few cities of wood and cement"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture"
+    ]
+  },
+  "Judgment-seat of Zarahemla": {
+    "scriptural_facts": [
+      {
+        "text": "Cezoram was murdered as he sat upon the judgment-seat.",
+        "refs": [
+          "Helaman 6:15"
+        ]
+      }
+    ],
+    "visual_design_choices": [
+      "a raised platform of pale cut stone holding a plain high-backed wooden seat, on the open plaza of the city before a flat-roofed stone hall with square doorways"
+    ],
+    "architecture": [
+      "a flat-roofed stone hall with square doorways, plain smooth walls"
+    ],
+    "locked_traits": [
+      "Never European or Asian architecture",
+      "Never a canopy or throne"
     ]
   }
 }

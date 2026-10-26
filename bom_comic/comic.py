@@ -158,13 +158,17 @@ ANATOMY_NEGATIVE = ["two heads", "extra heads", "disembodied heads", "severed he
 # Entries: (kind, label pattern, subject words whose look-prohibitions give way, convention record, display name for
 # the image model or None to keep the label).
 HEAVENLY = [
-    # Christ keeps the look the renders have given him; a fixed name also stops "the Lamb of God" being drawn as a
-    # lamb. No subjects: prohibitions about him (e.g. no halo) still apply.
+    # Christ is always the same man. Scripture states only the white robe (3 Nephi 11:8); the plain sash, the hair and
+    # beard and the calm face are design choices (matching the title page), fixed here so he doesn't change from panel
+    # to panel (reviewers flagged his sash, hair and face varying through 3 Nephi 11-28). A fixed name also stops "the
+    # Lamb of God" being drawn as a lamb. No subjects: prohibitions about him (e.g. no halo) still apply.
     ("christ", re.compile(r"^(?:the\s+)?(?:Jesus|Christ|Lamb of God|Son of God|Redeemer|Messiah|One descending)\b",
                           re.I), (), {
-        "visual_design_choices": ["Jesus Christ, a man clothed in a white robe."],
-        "locked_traits": ["Always the same man in a white robe."],
-        "visual_tag": "a man clothed in a white robe"}, "Jesus Christ"),
+        "visual_design_choices": ["Jesus Christ, a man clothed in a white robe with a plain white sash at the waist, "
+                                  "shoulder-length dark brown hair, a short dark brown beard, and a calm, kind face."],
+        "locked_traits": ["Always the same man: the same face, hair, beard, white robe and white sash in every panel."],
+        "visual_tag": "a man clothed in a white robe with a plain white sash at the waist, shoulder-length dark brown "
+                      "hair, a short dark brown beard, a calm kind face"}, "Jesus Christ"),
     ("spirit", re.compile(r"^(?:[Tt]he\s+)?(?:Spirit\b|Holy Ghost\b)"), ("spirit", "holy ghost"), {
         "visual_design_choices": ["Shown only as a tall column of soft, radiant white light: no body, face, "
                                   "or human features of any kind."],

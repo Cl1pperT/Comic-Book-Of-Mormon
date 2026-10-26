@@ -214,3 +214,77 @@ def test_compare_renders_every_variant_from_the_same_seed_and_makes_a_sheet(tmp_
     assert (out / "sheet.png").exists() and (out / "q5" / "panel_001.png").exists()
 
 
+
+
+# --- Continuity locked after reviewer feedback (3 Nephi 14's temple and Christ, the 3 Nephi 8-9 destruction, crowds) ---
+
+def test_no_location_sentences_count_as_no_place():
+    c = Cast.load(LIBRARY)
+    for label in ("No actual location specified; the house upon sand is part of the comparison", "No location given",
+                  "Unspecified location"):
+        assert c.place(label, ("3 Nephi", 14)) == ([], True), label
+    assert c.settings([["No actual location specified; the house upon sand is part of the comparison"]],
+                      ("3 Nephi", 14)) == [["Temple in the land Bountiful"]]
+
+
+def test_the_bountiful_temple_is_one_specific_building_with_concrete_exclusions():
+    c = Cast.load(LIBRARY)
+    temple = c.location("Temple in the land Bountiful")
+    text = " ".join(temple["architecture"] + temple["visual_design_choices"]).lower()
+    for part in ("stepped pyramid", "four tiers", "central stairway", "flat roof", "limestone"):
+        assert part in text, part
+    # The "never" rules are what reach the negative prompt, so each must be short and concrete enough to survive.
+    from bom_comic.comic import _concrete
+    kept = [_concrete(t.removeprefix("Never "), []) for t in temple["locked_traits"] if "Asian" not in t]
+    assert all(kept), kept   # ("European or Asian" is carried by the global style rules, not this list)
+    for item in ("spire", "dome", "cross", "columns with capitals", "arches", "tiled roofs"):
+        assert any(item in k for k in kept), item
+
+
+def test_temple_and_christ_reach_the_image_prompt_for_a_panel_that_went_wrong():
+    c = Cast.load(LIBRARY)
+    place = c.settings([["Unspecified location"]], ("3 Nephi", 14))[0]
+    assert place == ["Temple in the land Bountiful"]
+    pan = panel(characters_visible=["Jesus Christ (at Bountiful)", "Nephite people"], location=place,
+                action="Jesus teaches the multitude at the temple.", dialogue=[], prohibited=[])
+    continuity = {**DEFAULT_CONTINUITY,
+                  "characters": {n: c.character(n) for n in ("Jesus Christ (at Bountiful)", "Nephite people")},
+                  "locations": {n: c.location(n) for n in place}}
+    positive, negative = diffusion_prompts(build_prompt(pan, continuity, "4:3"))
+    assert "a plain white sash at the waist, shoulder-length dark brown hair, a short dark brown beard" in positive
+    assert "a wide stepped pyramid of four tiers of pale cream cut limestone" in positive
+    assert "each with a different face, hair and beard" in positive and "undyed cream" not in positive
+    for item in ("spire", "dome", "columns with capitals"):
+        assert item in negative, item
+
+
+def test_destruction_of_3_nephi_8_and_9_gets_a_specific_setting_per_kind_of_ruin():
+    c = Cast.load(LIBRARY)
+    where = ("3 Nephi", 9)
+    expected = {"Zarahemla": "in flames", "Jacobugath (mentioned)": "in flames", "Moroni": "sinking into the sea",
+                "Moronihah": "buried under a mountain", "Gilgal": "swallowed by the earth",
+                "Onihah, Mocum, and Jerusalem": "replaced by water",
+                "Gadiandi, Gadiomnah, Jacob, and Gimgimno": "replaced by hills and valleys"}
+    for label, fragment in expected.items():
+        names, _ = c.place(label, where)
+        assert any(fragment in n for n in names), (label, names)
+    # Outside those chapters the same names are the ordinary lands.
+    assert c.place("Zarahemla", ("Alma", 2))[0] == ["Land of Zarahemla"]
+    assert c.place("land northward", ("Helaman", 6))[0][-1] == "Land northward (Helaman 3)"
+    assert any("Judgment-seat" in n for n in c.place("judgment-seat", ("Helaman", 6))[0])
+    for name in c.locations:
+        for ref_fact in c.location(name).get("scriptural_facts", []):
+            assert ref_fact["refs"], name  # every fact in the library cites its verses
+
+
+def test_crowds_are_not_dressed_like_the_man_in_white():
+    c = Cast.load(LIBRARY)
+    for name in ("Nephite people", "Jerusalem townspeople", "Lamanite people"):
+        assert "different" in c.tags[name]
+    assert "cream" not in c.tags["Nephite people"].split(", a few")[0]  # earth colors lead; cream is the exception
+
+
+def test_mormon_and_nephi_looks_fix_what_reviewers_saw():
+    c = Cast.load(LIBRARY)
+    assert "tied back" not in c.tags["Mormon (young)"] and "square jaw" in c.tags["Mormon (young)"]
+    assert "loose" in c.tags["Nephi"] and "braid" not in c.tags["Nephi"]
